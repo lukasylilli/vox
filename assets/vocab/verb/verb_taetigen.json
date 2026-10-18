@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_taetigen",
+  "wort": "tätigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انجام دادن (معامله، خرید)",
+      "صورت دادن"
+    ],
+    "en": [
+      "to carry out",
+      "to make (a purchase, transaction)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Büro"
+  ],
+  "ipa": "ˈtɛːtɪɡn̩",
+  "anmerkung": "Papierdeutsch; meist mit Kauf, Geschäft, Anruf, Investition.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kundin tätigt einen Einkauf.",
+      "uebersetzung": {
+        "fa": "مشتری خریدی انجام می‌دهد.",
+        "en": "The customer makes a purchase."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Größere Investitionen dürfen nur mit Zustimmung des Vorstands getätigt werden.",
+      "uebersetzung": {
+        "fa": "سرمایه‌گذاری‌های بزرگ‌تر فقط با موافقت هیئت‌مدیره انجام می‌شوند.",
+        "en": "Larger investments may only be made with the board's approval."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "durchführen",
+      "uebersetzung": {
+        "fa": "اجرا کردن",
+        "en": "to carry out"
+      }
+    },
+    {
+      "wort": "vornehmen",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to undertake"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت tätig (فعال)",
+    "en": "from the adjective tätig (active)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tätigen",
+      "praeteritum": "tätigte",
+      "partizip2": "getätigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tätige",
+        "du": "tätigst",
+        "er_sie_es": "tätigt",
+        "wir": "tätigen",
+        "ihr": "tätigt",
+        "sie_Sie": "tätigen"
+      },
+      "praeteritum": {
+        "ich": "tätigte",
+        "du": "tätigtest",
+        "er_sie_es": "tätigte",
+        "wir": "tätigten",
+        "ihr": "tätigtet",
+        "sie_Sie": "tätigten"
+      },
+      "konjunktiv1": {
+        "ich": "tätige",
+        "du": "tätigest",
+        "er_sie_es": "tätige",
+        "wir": "tätigen",
+        "ihr": "tätiget",
+        "sie_Sie": "tätigen"
+      },
+      "konjunktiv2": {
+        "ich": "tätigte",
+        "du": "tätigtest",
+        "er_sie_es": "tätigte",
+        "wir": "tätigten",
+        "ihr": "tätigtet",
+        "sie_Sie": "tätigten"
+      },
+      "imperativ": {
+        "du": "Tätige!",
+        "ihr": "Tätigt!",
+        "Sie": "Tätigen Sie!"
+      }
+    },
+    "partizip1": "tätigend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "tätig",
+    "woerter": [
+      {
+        "wort": "tätig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فعال، شاغل",
+          "en": "active, employed"
+        },
+        "id_ref": "adjektiv_taetig"
+      },
+      {
+        "wort": "die Tätigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فعالیت",
+          "en": "activity"
+        },
+        "id_ref": "nomen_taetigkeit"
+      },
+      {
+        "wort": "durchführen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجرا کردن",
+          "en": "to carry out"
+        },
+        "id_ref": "verb_durchfuehren"
+      },
+      {
+        "wort": "der Kauf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خرید",
+          "en": "purchase"
+        },
+        "id_ref": "nomen_kauf"
+      },
+      {
+        "wort": "das Geschäft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مغازه، معامله",
+          "en": "shop, deal"
+        },
+        "id_ref": "nomen_geschaeft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

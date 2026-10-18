@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_subtrahieren",
+  "wort": "subtrahieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تفریق کردن",
+      "کم کردن"
+    ],
+    "en": [
+      "to subtract"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Mathematik",
+    "Schule"
+  ],
+  "ipa": "zʊptʁaˈhiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wenn man drei von zehn subtrahiert, bleiben sieben.",
+      "uebersetzung": {
+        "fa": "اگر سه را از ده کم کنیم، هفت می‌ماند.",
+        "en": "If you subtract three from ten, seven are left."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der zweiten Klasse lernen die Kinder, zweistellige Zahlen zu subtrahieren.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در کلاس دوم تفریق عددهای دورقمی را یاد می‌گیرند.",
+        "en": "In second grade the children learn to subtract two-digit numbers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abziehen",
+      "uebersetzung": {
+        "fa": "کم کردن",
+        "en": "to deduct"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "addieren",
+      "uebersetzung": {
+        "fa": "جمع کردن",
+        "en": "to add"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین subtrahere (بیرون کشیدن)",
+    "en": "from Latin subtrahere (to draw away)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat subtrahieren",
+        "bedeutung": "eine Zahl von einer anderen abziehen",
+        "beispiel": "Subtrahiere fünf von zwanzig!",
+        "uebersetzung": {
+          "fa": "پنج را از بیست کم کن!",
+          "en": "Subtract five from twenty!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "subtrahieren",
+      "praeteritum": "subtrahierte",
+      "partizip2": "subtrahiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "subtrahiere",
+        "du": "subtrahierst",
+        "er_sie_es": "subtrahiert",
+        "wir": "subtrahieren",
+        "ihr": "subtrahiert",
+        "sie_Sie": "subtrahieren"
+      },
+      "praeteritum": {
+        "ich": "subtrahierte",
+        "du": "subtrahiertest",
+        "er_sie_es": "subtrahierte",
+        "wir": "subtrahierten",
+        "ihr": "subtrahiertet",
+        "sie_Sie": "subtrahierten"
+      },
+      "konjunktiv1": {
+        "ich": "subtrahiere",
+        "du": "subtrahierest",
+        "er_sie_es": "subtrahiere",
+        "wir": "subtrahieren",
+        "ihr": "subtrahieret",
+        "sie_Sie": "subtrahieren"
+      },
+      "konjunktiv2": {
+        "ich": "subtrahierte",
+        "du": "subtrahiertest",
+        "er_sie_es": "subtrahierte",
+        "wir": "subtrahierten",
+        "ihr": "subtrahiertet",
+        "sie_Sie": "subtrahierten"
+      },
+      "imperativ": {
+        "du": "Subtrahiere!",
+        "ihr": "Subtrahiert!",
+        "Sie": "Subtrahieren Sie!"
+      }
+    },
+    "partizip1": "subtrahierend",
+    "nominalisierung": "die Subtraktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Subtraktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تفریق",
+          "en": "subtraction"
+        },
+        "id_ref": "nomen_subtraktion"
+      },
+      {
+        "wort": "addieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_addieren"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "minus",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منها",
+          "en": "minus"
+        },
+        "id_ref": "adverb_minus"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

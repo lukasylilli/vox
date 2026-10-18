@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_summieren",
+  "wort": "summieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جمع زدن",
+      "روی هم جمع شدن (بازتابی)"
+    ],
+    "en": [
+      "to sum up",
+      "to add up (reflexive)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik",
+    "Geld"
+  ],
+  "ipa": "zʊˈmiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte summieren Sie die Beträge.",
+      "uebersetzung": {
+        "fa": "لطفاً مبلغ‌ها را جمع بزنید.",
+        "en": "Please add up the amounts."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die kleinen Ausgaben summieren sich im Laufe eines Jahres zu einer großen Summe.",
+      "uebersetzung": {
+        "fa": "هزینه‌های کوچک در طول یک سال روی هم به مبلغ زیادی می‌رسند.",
+        "en": "Over the course of a year the small expenses add up to a large sum."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "addieren",
+      "uebersetzung": {
+        "fa": "جمع کردن",
+        "en": "to add"
+      }
+    },
+    {
+      "wort": "zusammenrechnen",
+      "uebersetzung": {
+        "fa": "جمع زدن",
+        "en": "to total"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Summe (جمع، مبلغ)",
+    "en": "from die Summe (sum)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf/zu + Akk summieren",
+        "bedeutung": "zusammen einen Betrag ergeben",
+        "beispiel": "Die Kosten summieren sich auf 500 Euro.",
+        "uebersetzung": {
+          "fa": "هزینه‌ها روی هم ۵۰۰ یورو می‌شود.",
+          "en": "The costs add up to 500 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "summieren",
+      "praeteritum": "summierte",
+      "partizip2": "summiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "summiere",
+        "du": "summierst",
+        "er_sie_es": "summiert",
+        "wir": "summieren",
+        "ihr": "summiert",
+        "sie_Sie": "summieren"
+      },
+      "praeteritum": {
+        "ich": "summierte",
+        "du": "summiertest",
+        "er_sie_es": "summierte",
+        "wir": "summierten",
+        "ihr": "summiertet",
+        "sie_Sie": "summierten"
+      },
+      "konjunktiv1": {
+        "ich": "summiere",
+        "du": "summierest",
+        "er_sie_es": "summiere",
+        "wir": "summieren",
+        "ihr": "summieret",
+        "sie_Sie": "summieren"
+      },
+      "konjunktiv2": {
+        "ich": "summierte",
+        "du": "summiertest",
+        "er_sie_es": "summierte",
+        "wir": "summierten",
+        "ihr": "summiertet",
+        "sie_Sie": "summierten"
+      },
+      "imperativ": {
+        "du": "Summiere!",
+        "ihr": "Summiert!",
+        "Sie": "Summieren Sie!"
+      }
+    },
+    "partizip1": "summierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Summe",
+    "woerter": [
+      {
+        "wort": "die Summe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمع، مبلغ",
+          "en": "sum"
+        },
+        "id_ref": "nomen_summe"
+      },
+      {
+        "wort": "addieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_addieren"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "insgesamt",
+        "wortart": "adverb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روی هم",
+          "en": "in total"
+        },
+        "id_ref": "adverb_insgesamt"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

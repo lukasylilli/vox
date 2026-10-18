@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_suehnen",
+  "wort": "sühnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کفاره دادن",
+      "جبران کردن (گناه، جرم)"
+    ],
+    "en": [
+      "to atone for",
+      "to expiate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion",
+    "Recht"
+  ],
+  "ipa": "ˈzyːnən",
+  "anmerkung": "Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er will seine Schuld sühnen.",
+      "uebersetzung": {
+        "fa": "او می‌خواهد تقصیرش را جبران کند.",
+        "en": "He wants to atone for his guilt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Gericht betonte, dass ein solches Verbrechen streng gesühnt werden müsse.",
+      "uebersetzung": {
+        "fa": "دادگاه تأکید کرد که چنین جرمی باید سخت کیفر داده شود.",
+        "en": "The court stressed that such a crime must be severely punished."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "büßen",
+      "uebersetzung": {
+        "fa": "تاوان دادن",
+        "en": "to atone"
+      }
+    },
+    {
+      "wort": "wiedergutmachen",
+      "uebersetzung": {
+        "fa": "جبران کردن",
+        "en": "to make amends"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Sühne (کفاره)",
+    "en": "from die Sühne (atonement)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sühnen",
+      "praeteritum": "sühnte",
+      "partizip2": "gesühnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sühne",
+        "du": "sühnst",
+        "er_sie_es": "sühnt",
+        "wir": "sühnen",
+        "ihr": "sühnt",
+        "sie_Sie": "sühnen"
+      },
+      "praeteritum": {
+        "ich": "sühnte",
+        "du": "sühntest",
+        "er_sie_es": "sühnte",
+        "wir": "sühnten",
+        "ihr": "sühntet",
+        "sie_Sie": "sühnten"
+      },
+      "konjunktiv1": {
+        "ich": "sühne",
+        "du": "sühnest",
+        "er_sie_es": "sühne",
+        "wir": "sühnen",
+        "ihr": "sühnet",
+        "sie_Sie": "sühnen"
+      },
+      "konjunktiv2": {
+        "ich": "sühnte",
+        "du": "sühntest",
+        "er_sie_es": "sühnte",
+        "wir": "sühnten",
+        "ihr": "sühntet",
+        "sie_Sie": "sühnten"
+      },
+      "imperativ": {
+        "du": "Sühne!",
+        "ihr": "Sühnt!",
+        "Sie": "Sühnen Sie!"
+      }
+    },
+    "partizip1": "sühnend",
+    "nominalisierung": "die Sühne"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sühne",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کفاره",
+          "en": "atonement"
+        },
+        "id_ref": "nomen_suehne"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر، گناه",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "büßen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تاوان دادن",
+          "en": "to atone"
+        },
+        "id_ref": "verb_buessen"
+      },
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مجازات",
+          "en": "punishment"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "die Reue",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پشیمانی",
+          "en": "remorse"
+        },
+        "id_ref": "nomen_reue"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

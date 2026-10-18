@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_subsumieren",
+  "wort": "subsumieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زیر مفهومی کلی‌تر قرار دادن",
+      "تحت یک عنوان آوردن"
+    ],
+    "en": [
+      "to subsume"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Recht"
+  ],
+  "ipa": "zʊpzuˈmiːʁən",
+  "anmerkung": "Bildungssprache; in der Rechtswissenschaft: einen Sachverhalt unter eine Norm einordnen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir subsumieren alle Kosten unter «Sonstiges».",
+      "uebersetzung": {
+        "fa": "همه‌ی هزینه‌ها را زیر عنوان «سایر» می‌آوریم.",
+        "en": "We subsume all costs under «miscellaneous»."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unter dem Begriff «Pflegeberufe» werden mehrere Ausbildungen subsumiert.",
+      "uebersetzung": {
+        "fa": "چند رشته‌ی آموزشی زیر عنوان «حرفه‌های پرستاری» قرار می‌گیرند.",
+        "en": "Several training courses are subsumed under the term «nursing professions»."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenfassen",
+      "uebersetzung": {
+        "fa": "خلاصه کردن، جمع کردن",
+        "en": "to summarize"
+      }
+    },
+    {
+      "wort": "einordnen",
+      "uebersetzung": {
+        "fa": "دسته‌بندی کردن",
+        "en": "to classify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین sub (زیر) + sumere (گرفتن)",
+    "en": "from Latin sub (under) + sumere (to take)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas unter + Akk/Dat subsumieren",
+        "bedeutung": "etwas einem Oberbegriff zuordnen",
+        "beispiel": "Man subsumiert diese Fälle unter das Gesetz.",
+        "uebersetzung": {
+          "fa": "این موارد را مشمول آن قانون می‌دانند.",
+          "en": "These cases are subsumed under the law."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "subsumieren",
+      "praeteritum": "subsumierte",
+      "partizip2": "subsumiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "subsumiere",
+        "du": "subsumierst",
+        "er_sie_es": "subsumiert",
+        "wir": "subsumieren",
+        "ihr": "subsumiert",
+        "sie_Sie": "subsumieren"
+      },
+      "praeteritum": {
+        "ich": "subsumierte",
+        "du": "subsumiertest",
+        "er_sie_es": "subsumierte",
+        "wir": "subsumierten",
+        "ihr": "subsumiertet",
+        "sie_Sie": "subsumierten"
+      },
+      "konjunktiv1": {
+        "ich": "subsumiere",
+        "du": "subsumierest",
+        "er_sie_es": "subsumiere",
+        "wir": "subsumieren",
+        "ihr": "subsumieret",
+        "sie_Sie": "subsumieren"
+      },
+      "konjunktiv2": {
+        "ich": "subsumierte",
+        "du": "subsumiertest",
+        "er_sie_es": "subsumierte",
+        "wir": "subsumierten",
+        "ihr": "subsumiertet",
+        "sie_Sie": "subsumierten"
+      },
+      "imperativ": {
+        "du": "Subsumiere!",
+        "ihr": "Subsumiert!",
+        "Sie": "Subsumieren Sie!"
+      }
+    },
+    "partizip1": "subsumierend",
+    "nominalisierung": "die Subsumtion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Begriff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفهوم، اصطلاح",
+          "en": "term"
+        },
+        "id_ref": "nomen_begriff"
+      },
+      {
+        "wort": "einordnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دسته‌بندی کردن",
+          "en": "to classify"
+        },
+        "id_ref": "verb_einordnen"
+      },
+      {
+        "wort": "zusammenfassen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خلاصه کردن",
+          "en": "to summarize"
+        },
+        "id_ref": "verb_zusammenfassen"
+      },
+      {
+        "wort": "die Kategorie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دسته",
+          "en": "category"
+        },
+        "id_ref": "nomen_kategorie"
+      },
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

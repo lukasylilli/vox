@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_tauschen",
+  "wort": "tauschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عوض کردن",
+      "معاوضه کردن"
+    ],
+    "en": [
+      "to swap",
+      "to exchange",
+      "to trade"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Einkaufen"
+  ],
+  "ipa": "ˈtaʊ̯ʃn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wollen wir die Plätze tauschen?",
+      "uebersetzung": {
+        "fa": "جاهایمان را عوض کنیم؟",
+        "en": "Shall we swap places?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe mit meiner Kollegin die Schicht getauscht, weil ich am Freitag einen Termin habe.",
+      "uebersetzung": {
+        "fa": "شیفتم را با همکارم عوض کردم، چون جمعه وقت ملاقات دارم.",
+        "en": "I swapped shifts with my colleague because I have an appointment on Friday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wechseln",
+      "uebersetzung": {
+        "fa": "عوض کردن",
+        "en": "to change"
+      }
+    },
+    {
+      "wort": "austauschen",
+      "uebersetzung": {
+        "fa": "تبادل کردن",
+        "en": "to exchange"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "tauschen (معاوضه کردن) — هم‌ریشه با täuschen",
+    "en": "tauschen (to swap) — related to täuschen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas gegen + Akk tauschen",
+        "bedeutung": "etwas für etwas anderes hergeben",
+        "beispiel": "Er tauscht sein Fahrrad gegen ein Handy.",
+        "uebersetzung": {
+          "fa": "او دوچرخه‌اش را با یک گوشی معاوضه می‌کند.",
+          "en": "He trades his bike for a phone."
+        }
+      },
+      {
+        "muster": "mit jemandem tauschen",
+        "bedeutung": "mit jemandem etwas wechseln",
+        "beispiel": "Mit ihm möchte ich nicht tauschen.",
+        "uebersetzung": {
+          "fa": "دوست ندارم جای او باشم.",
+          "en": "I wouldn't want to be in his shoes."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tauschen",
+      "praeteritum": "tauschte",
+      "partizip2": "getauscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tausche",
+        "du": "tauschst",
+        "er_sie_es": "tauscht",
+        "wir": "tauschen",
+        "ihr": "tauscht",
+        "sie_Sie": "tauschen"
+      },
+      "praeteritum": {
+        "ich": "tauschte",
+        "du": "tauschtest",
+        "er_sie_es": "tauschte",
+        "wir": "tauschten",
+        "ihr": "tauschtet",
+        "sie_Sie": "tauschten"
+      },
+      "konjunktiv1": {
+        "ich": "tausche",
+        "du": "tauschest",
+        "er_sie_es": "tausche",
+        "wir": "tauschen",
+        "ihr": "tauschet",
+        "sie_Sie": "tauschen"
+      },
+      "konjunktiv2": {
+        "ich": "tauschte",
+        "du": "tauschtest",
+        "er_sie_es": "tauschte",
+        "wir": "tauschten",
+        "ihr": "tauschtet",
+        "sie_Sie": "tauschten"
+      },
+      "imperativ": {
+        "du": "Tausche!",
+        "ihr": "Tauscht!",
+        "Sie": "Tauschen Sie!"
+      }
+    },
+    "partizip1": "tauschend",
+    "nominalisierung": "der Tausch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Tausch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معاوضه",
+          "en": "exchange"
+        },
+        "id_ref": "nomen_tausch"
+      },
+      {
+        "wort": "umtauschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس دادن و عوض کردن",
+          "en": "to exchange"
+        },
+        "id_ref": "verb_umtauschen"
+      },
+      {
+        "wort": "wechseln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عوض کردن",
+          "en": "to change"
+        },
+        "id_ref": "verb_wechseln"
+      },
+      {
+        "wort": "austauschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تبادل کردن",
+          "en": "to exchange"
+        },
+        "id_ref": "verb_austauschen"
+      },
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جا",
+          "en": "place"
+        },
+        "id_ref": "nomen_platz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

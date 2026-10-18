@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_taxieren",
+  "wort": "taxieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قیمت‌گذاری کردن",
+      "برآورد کردن",
+      "سرتاپا ورانداز کردن"
+    ],
+    "en": [
+      "to value",
+      "to estimate",
+      "to size up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Wahrnehmung"
+  ],
+  "ipa": "taˈksiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Experte taxiert das Haus.",
+      "uebersetzung": {
+        "fa": "کارشناس خانه را قیمت‌گذاری می‌کند.",
+        "en": "The expert values the house."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Betreten des Raumes taxierte er die anderen Gäste mit einem kühlen Blick.",
+      "uebersetzung": {
+        "fa": "هنگام ورود به اتاق، مهمان‌های دیگر را با نگاهی سرد ورانداز کرد.",
+        "en": "On entering the room he sized up the other guests with a cool look."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schätzen",
+      "uebersetzung": {
+        "fa": "تخمین زدن",
+        "en": "to estimate"
+      }
+    },
+    {
+      "wort": "mustern",
+      "uebersetzung": {
+        "fa": "ورانداز کردن",
+        "en": "to look over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی taxer (نرخ گذاشتن)",
+    "en": "from French taxer (to fix a price)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas auf + Akk taxieren",
+        "bedeutung": "den Wert von etwas schätzen",
+        "beispiel": "Man taxiert den Schaden auf 10 000 Euro.",
+        "uebersetzung": {
+          "fa": "خسارت را ده هزار یورو برآورد می‌کنند.",
+          "en": "The damage is estimated at 10,000 euros."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "taxieren",
+      "praeteritum": "taxierte",
+      "partizip2": "taxiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "taxiere",
+        "du": "taxierst",
+        "er_sie_es": "taxiert",
+        "wir": "taxieren",
+        "ihr": "taxiert",
+        "sie_Sie": "taxieren"
+      },
+      "praeteritum": {
+        "ich": "taxierte",
+        "du": "taxiertest",
+        "er_sie_es": "taxierte",
+        "wir": "taxierten",
+        "ihr": "taxiertet",
+        "sie_Sie": "taxierten"
+      },
+      "konjunktiv1": {
+        "ich": "taxiere",
+        "du": "taxierest",
+        "er_sie_es": "taxiere",
+        "wir": "taxieren",
+        "ihr": "taxieret",
+        "sie_Sie": "taxieren"
+      },
+      "konjunktiv2": {
+        "ich": "taxierte",
+        "du": "taxiertest",
+        "er_sie_es": "taxierte",
+        "wir": "taxierten",
+        "ihr": "taxiertet",
+        "sie_Sie": "taxierten"
+      },
+      "imperativ": {
+        "du": "Taxiere!",
+        "ihr": "Taxiert!",
+        "Sie": "Taxieren Sie!"
+      }
+    },
+    "partizip1": "taxierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schätzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخمین زدن",
+          "en": "to estimate"
+        },
+        "id_ref": "verb_schaetzen"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "der Gutachter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کارشناس",
+          "en": "assessor"
+        },
+        "id_ref": "nomen_gutachter"
+      },
+      {
+        "wort": "mustern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ورانداز کردن",
+          "en": "to eye"
+        },
+        "id_ref": "verb_mustern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

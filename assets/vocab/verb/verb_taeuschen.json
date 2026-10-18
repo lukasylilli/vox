@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_taeuschen",
+  "wort": "täuschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فریب دادن",
+      "گول زدن",
+      "اشتباه کردن (بازتابی)"
+    ],
+    "en": [
+      "to deceive",
+      "to fool",
+      "to be mistaken (reflexive)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kommunikation",
+    "Gefühle"
+  ],
+  "ipa": "ˈtɔɪ̯ʃn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich glaube, du täuschst dich.",
+      "uebersetzung": {
+        "fa": "فکر می‌کنم اشتباه می‌کنی.",
+        "en": "I think you are mistaken."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Betrüger hat viele ältere Menschen mit falschen Versprechen getäuscht.",
+      "uebersetzung": {
+        "fa": "کلاهبردار خیلی از آدم‌های مسن را با وعده‌های دروغ فریب داد.",
+        "en": "The fraudster deceived many older people with false promises."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betrügen",
+      "uebersetzung": {
+        "fa": "کلاهبرداری کردن",
+        "en": "to cheat"
+      }
+    },
+    {
+      "wort": "irren",
+      "uebersetzung": {
+        "fa": "اشتباه کردن",
+        "en": "to err"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "täuschen (فریب دادن) — در اصل «معامله‌ی ناجوانمردانه کردن»، هم‌ریشه با tauschen",
+    "en": "täuschen (to deceive) — originally «to trade unfairly», related to tauschen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich in + Dat täuschen",
+        "bedeutung": "sich in jemandem/etwas irren",
+        "beispiel": "Ich habe mich in ihm getäuscht.",
+        "uebersetzung": {
+          "fa": "درباره‌ی او اشتباه کرده بودم.",
+          "en": "I was wrong about him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "täuschen",
+      "praeteritum": "täuschte",
+      "partizip2": "getäuscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "täusche",
+        "du": "täuschst",
+        "er_sie_es": "täuscht",
+        "wir": "täuschen",
+        "ihr": "täuscht",
+        "sie_Sie": "täuschen"
+      },
+      "praeteritum": {
+        "ich": "täuschte",
+        "du": "täuschtest",
+        "er_sie_es": "täuschte",
+        "wir": "täuschten",
+        "ihr": "täuschtet",
+        "sie_Sie": "täuschten"
+      },
+      "konjunktiv1": {
+        "ich": "täusche",
+        "du": "täuschest",
+        "er_sie_es": "täusche",
+        "wir": "täuschen",
+        "ihr": "täuschet",
+        "sie_Sie": "täuschen"
+      },
+      "konjunktiv2": {
+        "ich": "täuschte",
+        "du": "täuschtest",
+        "er_sie_es": "täuschte",
+        "wir": "täuschten",
+        "ihr": "täuschtet",
+        "sie_Sie": "täuschten"
+      },
+      "imperativ": {
+        "du": "Täusche!",
+        "ihr": "Täuscht!",
+        "Sie": "Täuschen Sie!"
+      }
+    },
+    "partizip1": "täuschend",
+    "nominalisierung": "die Täuschung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Täuschung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فریب",
+          "en": "deception"
+        },
+        "id_ref": "nomen_taeuschung"
+      },
+      {
+        "wort": "enttäuschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناامید کردن",
+          "en": "to disappoint"
+        },
+        "id_ref": "verb_enttaeuschen"
+      },
+      {
+        "wort": "betrügen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلاهبرداری کردن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_betruegen"
+      },
+      {
+        "wort": "irren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتباه کردن",
+          "en": "to err"
+        },
+        "id_ref": "verb_irren"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_tauchen",
+  "wort": "tauchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شیرجه زدن",
+      "غواصی کردن",
+      "فرو بردن (در مایع)"
+    ],
+    "en": [
+      "to dive",
+      "to plunge",
+      "to dip"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Meer"
+  ],
+  "ipa": "ˈtaʊ̯xn̩",
+  "anmerkung": "Intransitiv meist mit «sein» (er ist zum Grund getaucht), als Sportart auch «haben»; transitiv mit «haben» (sie hat den Pinsel in die Farbe getaucht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Urlaub tauchen wir im Roten Meer.",
+      "uebersetzung": {
+        "fa": "در تعطیلات در دریای سرخ غواصی می‌کنیم.",
+        "en": "On holiday we go diving in the Red Sea."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Junge ist bis zum Grund des Beckens getaucht und hat den Ring gefunden.",
+      "uebersetzung": {
+        "fa": "پسر تا کف استخر شیرجه زد و حلقه را پیدا کرد.",
+        "en": "The boy dived to the bottom of the pool and found the ring."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eintauchen",
+      "uebersetzung": {
+        "fa": "فرو رفتن، فرو بردن",
+        "en": "to immerse"
+      }
+    },
+    {
+      "wort": "schwimmen",
+      "uebersetzung": {
+        "fa": "شنا کردن",
+        "en": "to swim"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Taucher",
+      "uebersetzung": {
+        "fa": "غواص",
+        "en": "diver"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "tauchen (فرو رفتن) — فعل ساده",
+    "en": "tauchen (to dive) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas in + Akk tauchen",
+        "bedeutung": "etwas kurz in eine Flüssigkeit bringen",
+        "beispiel": "Sie taucht das Brot in die Suppe.",
+        "uebersetzung": {
+          "fa": "او نان را در سوپ فرو می‌برد.",
+          "en": "She dips the bread into the soup."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tauchen",
+      "praeteritum": "tauchte",
+      "partizip2": "getaucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tauche",
+        "du": "tauchst",
+        "er_sie_es": "taucht",
+        "wir": "tauchen",
+        "ihr": "taucht",
+        "sie_Sie": "tauchen"
+      },
+      "praeteritum": {
+        "ich": "tauchte",
+        "du": "tauchtest",
+        "er_sie_es": "tauchte",
+        "wir": "tauchten",
+        "ihr": "tauchtet",
+        "sie_Sie": "tauchten"
+      },
+      "konjunktiv1": {
+        "ich": "tauche",
+        "du": "tauchest",
+        "er_sie_es": "tauche",
+        "wir": "tauchen",
+        "ihr": "tauchet",
+        "sie_Sie": "tauchen"
+      },
+      "konjunktiv2": {
+        "ich": "tauchte",
+        "du": "tauchtest",
+        "er_sie_es": "tauchte",
+        "wir": "tauchten",
+        "ihr": "tauchtet",
+        "sie_Sie": "tauchten"
+      },
+      "imperativ": {
+        "du": "Tauche!",
+        "ihr": "Taucht!",
+        "Sie": "Tauchen Sie!"
+      }
+    },
+    "partizip1": "tauchend",
+    "nominalisierung": "der Taucher"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Taucher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غواص",
+          "en": "diver"
+        },
+        "id_ref": "nomen_taucher"
+      },
+      {
+        "wort": "schwimmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنا کردن",
+          "en": "to swim"
+        },
+        "id_ref": "verb_schwimmen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "auftauchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیدا شدن، بالا آمدن",
+          "en": "to surface"
+        },
+        "id_ref": "verb_auftauchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_suhlen",
+  "wort": "suhlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در گل غلت زدن",
+      "غرق شدن (در احساسی، طعنه‌آمیز)"
+    ],
+    "en": [
+      "to wallow"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Gefühle"
+  ],
+  "ipa": "ˈzuːlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Schweine suhlen sich im Schlamm.",
+      "uebersetzung": {
+        "fa": "خوک‌ها در گل غلت می‌زنند.",
+        "en": "The pigs are wallowing in the mud."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Statt etwas zu ändern, suhlt er sich lieber in seinem Selbstmitleid.",
+      "uebersetzung": {
+        "fa": "به‌جای این‌که چیزی را تغییر دهد، ترجیح می‌دهد در دلسوزی برای خودش غرق شود.",
+        "en": "Instead of changing anything, he prefers to wallow in self-pity."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich wälzen",
+      "uebersetzung": {
+        "fa": "غلت زدن",
+        "en": "to roll about"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Suhle (گل‌زار، آب‌گیر)",
+    "en": "from die Suhle (wallow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich in + Dat suhlen",
+        "bedeutung": "sich in etwas wälzen; etwas übertrieben auskosten",
+        "beispiel": "Sie suhlt sich im Erfolg.",
+        "uebersetzung": {
+          "fa": "او در موفقیتش غرق است.",
+          "en": "She is wallowing in her success."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "suhlen",
+      "praeteritum": "suhlte",
+      "partizip2": "gesuhlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "suhle",
+        "du": "suhlst",
+        "er_sie_es": "suhlt",
+        "wir": "suhlen",
+        "ihr": "suhlt",
+        "sie_Sie": "suhlen"
+      },
+      "praeteritum": {
+        "ich": "suhlte",
+        "du": "suhltest",
+        "er_sie_es": "suhlte",
+        "wir": "suhlten",
+        "ihr": "suhltet",
+        "sie_Sie": "suhlten"
+      },
+      "konjunktiv1": {
+        "ich": "suhle",
+        "du": "suhlest",
+        "er_sie_es": "suhle",
+        "wir": "suhlen",
+        "ihr": "suhlet",
+        "sie_Sie": "suhlen"
+      },
+      "konjunktiv2": {
+        "ich": "suhlte",
+        "du": "suhltest",
+        "er_sie_es": "suhlte",
+        "wir": "suhlten",
+        "ihr": "suhltet",
+        "sie_Sie": "suhlten"
+      },
+      "imperativ": {
+        "du": "Suhle!",
+        "ihr": "Suhlt!",
+        "Sie": "Suhlen Sie!"
+      }
+    },
+    "partizip1": "suhlend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schlamm",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گل‌ولای",
+          "en": "mud"
+        },
+        "id_ref": "nomen_schlamm"
+      },
+      {
+        "wort": "das Schwein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خوک",
+          "en": "pig"
+        },
+        "id_ref": "nomen_schwein"
+      },
+      {
+        "wort": "wälzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غلتاندن",
+          "en": "to roll"
+        },
+        "id_ref": "verb_waelzen"
+      },
+      {
+        "wort": "das Selbstmitleid",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دلسوزی برای خود",
+          "en": "self-pity"
+        },
+        "id_ref": "nomen_selbstmitleid"
+      },
+      {
+        "wort": "der Dreck",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کثیفی",
+          "en": "dirt"
+        },
+        "id_ref": "nomen_dreck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

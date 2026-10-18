@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_teilen",
+  "wort": "teilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تقسیم کردن",
+      "شریک شدن",
+      "هم‌نظر بودن",
+      "به اشتراک گذاشتن"
+    ],
+    "en": [
+      "to divide",
+      "to share"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Mathematik"
+  ],
+  "ipa": "ˈtaɪ̯lən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir teilen die Pizza.",
+      "uebersetzung": {
+        "fa": "پیتزا را با هم تقسیم می‌کنیم.",
+        "en": "We share the pizza."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich teile deine Meinung, aber nicht alle Kollegen sehen das so.",
+      "uebersetzung": {
+        "fa": "با نظرت موافقم، ولی همه‌ی همکاران این‌طور فکر نمی‌کنند.",
+        "en": "I share your opinion, but not all colleagues see it that way."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to split up"
+      }
+    },
+    {
+      "wort": "dividieren",
+      "uebersetzung": {
+        "fa": "تقسیم کردن (ریاضی)",
+        "en": "to divide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der/das Teil (بخش)",
+    "en": "from der/das Teil (part)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat teilen",
+        "bedeutung": "etwas gemeinsam mit jemandem haben/nutzen",
+        "beispiel": "Ich teile die Wohnung mit zwei Freunden.",
+        "uebersetzung": {
+          "fa": "آپارتمان را با دو دوست شریکم.",
+          "en": "I share the flat with two friends."
+        }
+      },
+      {
+        "muster": "etwas durch + Akk teilen",
+        "bedeutung": "eine Zahl dividieren",
+        "beispiel": "Zwölf geteilt durch drei ist vier.",
+        "uebersetzung": {
+          "fa": "دوازده تقسیم بر سه می‌شود چهار.",
+          "en": "Twelve divided by three is four."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "teilen",
+      "praeteritum": "teilte",
+      "partizip2": "geteilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "teile",
+        "du": "teilst",
+        "er_sie_es": "teilt",
+        "wir": "teilen",
+        "ihr": "teilt",
+        "sie_Sie": "teilen"
+      },
+      "praeteritum": {
+        "ich": "teilte",
+        "du": "teiltest",
+        "er_sie_es": "teilte",
+        "wir": "teilten",
+        "ihr": "teiltet",
+        "sie_Sie": "teilten"
+      },
+      "konjunktiv1": {
+        "ich": "teile",
+        "du": "teilest",
+        "er_sie_es": "teile",
+        "wir": "teilen",
+        "ihr": "teilet",
+        "sie_Sie": "teilen"
+      },
+      "konjunktiv2": {
+        "ich": "teilte",
+        "du": "teiltest",
+        "er_sie_es": "teilte",
+        "wir": "teilten",
+        "ihr": "teiltet",
+        "sie_Sie": "teilten"
+      },
+      "imperativ": {
+        "du": "Teile!",
+        "ihr": "Teilt!",
+        "Sie": "Teilen Sie!"
+      }
+    },
+    "partizip1": "teilend",
+    "nominalisierung": "die Teilung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "mitteilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اطلاع دادن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_mitteilen"
+      },
+      {
+        "wort": "teilnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت کردن",
+          "en": "to take part"
+        },
+        "id_ref": "verb_teilnehmen"
+      },
+      {
+        "wort": "dividieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_dividieren"
+      },
+      {
+        "wort": "die Hälfte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نصف",
+          "en": "half"
+        },
+        "id_ref": "nomen_haelfte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

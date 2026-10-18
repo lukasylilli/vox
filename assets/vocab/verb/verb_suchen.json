@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_suchen",
+  "wort": "suchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جست‌وجو کردن",
+      "دنبال چیزی گشتن"
+    ],
+    "en": [
+      "to look for",
+      "to search",
+      "to seek"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈzuːxn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich suche meinen Schlüssel.",
+      "uebersetzung": {
+        "fa": "دنبال کلیدم می‌گردم.",
+        "en": "I am looking for my key."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Krankenhaus sucht dringend Pflegekräfte für die Nachtschicht.",
+      "uebersetzung": {
+        "fa": "بیمارستان فوراً برای شیفت شب نیروی پرستاری می‌خواهد.",
+        "en": "The hospital is urgently looking for nursing staff for the night shift."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachschauen",
+      "uebersetzung": {
+        "fa": "نگاه کردن، گشتن",
+        "en": "to look"
+      }
+    },
+    {
+      "wort": "forschen",
+      "uebersetzung": {
+        "fa": "تحقیق کردن",
+        "en": "to research"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "finden",
+      "uebersetzung": {
+        "fa": "پیدا کردن",
+        "en": "to find"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Suchmaschine",
+      "uebersetzung": {
+        "fa": "موتور جست‌وجو",
+        "en": "search engine"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "suchen (جستن) — فعل ساده",
+    "en": "suchen (to seek) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "suchen nach + Dat",
+        "bedeutung": "etwas zu finden versuchen",
+        "beispiel": "Die Polizei sucht nach dem vermissten Kind.",
+        "uebersetzung": {
+          "fa": "پلیس دنبال کودک گمشده می‌گردد.",
+          "en": "The police are searching for the missing child."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "suchen",
+      "praeteritum": "suchte",
+      "partizip2": "gesucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "suche",
+        "du": "suchst",
+        "er_sie_es": "sucht",
+        "wir": "suchen",
+        "ihr": "sucht",
+        "sie_Sie": "suchen"
+      },
+      "praeteritum": {
+        "ich": "suchte",
+        "du": "suchtest",
+        "er_sie_es": "suchte",
+        "wir": "suchten",
+        "ihr": "suchtet",
+        "sie_Sie": "suchten"
+      },
+      "konjunktiv1": {
+        "ich": "suche",
+        "du": "suchest",
+        "er_sie_es": "suche",
+        "wir": "suchen",
+        "ihr": "suchet",
+        "sie_Sie": "suchen"
+      },
+      "konjunktiv2": {
+        "ich": "suchte",
+        "du": "suchtest",
+        "er_sie_es": "suchte",
+        "wir": "suchten",
+        "ihr": "suchtet",
+        "sie_Sie": "suchten"
+      },
+      "imperativ": {
+        "du": "Suche!",
+        "ihr": "Sucht!",
+        "Sie": "Suchen Sie!"
+      }
+    },
+    "partizip1": "suchend",
+    "nominalisierung": "die Suche"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Suche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جست‌وجو",
+          "en": "search"
+        },
+        "id_ref": "nomen_suche"
+      },
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "besuchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن کردن",
+          "en": "to visit"
+        },
+        "id_ref": "verb_besuchen"
+      },
+      {
+        "wort": "versuchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سعی کردن",
+          "en": "to try"
+        },
+        "id_ref": "verb_versuchen"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گم کردن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

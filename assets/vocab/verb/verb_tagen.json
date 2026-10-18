@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_tagen",
+  "wort": "tagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جلسه داشتن",
+      "تشکیل جلسه دادن"
+    ],
+    "en": [
+      "to meet",
+      "to be in session"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik",
+    "Arbeit"
+  ],
+  "ipa": "ˈtaːɡn̩",
+  "anmerkung": "Gehoben/veraltet auch «es tagt» = es wird Tag.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vorstand tagt heute.",
+      "uebersetzung": {
+        "fa": "هیئت‌مدیره امروز جلسه دارد.",
+        "en": "The board is meeting today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Ausschuss hat bis spät in die Nacht getagt, ohne eine Einigung zu erzielen.",
+      "uebersetzung": {
+        "fa": "کمیته تا دیروقت شب جلسه داشت، بی‌آن‌که به توافق برسد.",
+        "en": "The committee met until late at night without reaching an agreement."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenkommen",
+      "uebersetzung": {
+        "fa": "گرد هم آمدن",
+        "en": "to gather"
+      }
+    },
+    {
+      "wort": "sich beraten",
+      "uebersetzung": {
+        "fa": "مشورت کردن",
+        "en": "to confer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Tagung",
+      "uebersetzung": {
+        "fa": "همایش، نشست",
+        "en": "conference"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Tag (روز) — در اصل «روز تعیین‌شده برای نشست»",
+    "en": "from der Tag (day) — originally «appointed day for a meeting»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tagen",
+      "praeteritum": "tagte",
+      "partizip2": "getagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tage",
+        "du": "tagst",
+        "er_sie_es": "tagt",
+        "wir": "tagen",
+        "ihr": "tagt",
+        "sie_Sie": "tagen"
+      },
+      "praeteritum": {
+        "ich": "tagte",
+        "du": "tagtest",
+        "er_sie_es": "tagte",
+        "wir": "tagten",
+        "ihr": "tagtet",
+        "sie_Sie": "tagten"
+      },
+      "konjunktiv1": {
+        "ich": "tage",
+        "du": "tagest",
+        "er_sie_es": "tage",
+        "wir": "tagen",
+        "ihr": "taget",
+        "sie_Sie": "tagen"
+      },
+      "konjunktiv2": {
+        "ich": "tagte",
+        "du": "tagtest",
+        "er_sie_es": "tagte",
+        "wir": "tagten",
+        "ihr": "tagtet",
+        "sie_Sie": "tagten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "tagend",
+    "nominalisierung": "die Tagung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Tagung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "همایش",
+          "en": "conference"
+        },
+        "id_ref": "nomen_tagung"
+      },
+      {
+        "wort": "die Sitzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلسه",
+          "en": "meeting"
+        },
+        "id_ref": "nomen_sitzung"
+      },
+      {
+        "wort": "der Ausschuss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کمیته",
+          "en": "committee"
+        },
+        "id_ref": "nomen_ausschuss"
+      },
+      {
+        "wort": "beraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشورت کردن",
+          "en": "to advise"
+        },
+        "id_ref": "verb_beraten"
+      },
+      {
+        "wort": "die Konferenz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کنفرانس",
+          "en": "conference"
+        },
+        "id_ref": "nomen_konferenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

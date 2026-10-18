@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_substituieren",
+  "wort": "substituieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جایگزین کردن"
+    ],
+    "en": [
+      "to substitute",
+      "to replace"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "zʊpstituˈiːʁən",
+  "anmerkung": "Fachsprache; in der Medizin z. B. fehlende Stoffe ersetzen (Vitamine, Eisen) oder Drogenersatztherapie.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man kann Zucker durch Honig substituieren.",
+      "uebersetzung": {
+        "fa": "می‌توان عسل را جایگزین شکر کرد.",
+        "en": "You can substitute honey for sugar."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einem Eisenmangel muss das fehlende Eisen über Tabletten substituiert werden.",
+      "uebersetzung": {
+        "fa": "در کمبود آهن باید آهن لازم با قرص جایگزین شود.",
+        "en": "With an iron deficiency the missing iron must be replaced with tablets."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ersetzen",
+      "uebersetzung": {
+        "fa": "جایگزین کردن",
+        "en": "to replace"
+      }
+    },
+    {
+      "wort": "austauschen",
+      "uebersetzung": {
+        "fa": "عوض کردن",
+        "en": "to exchange"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین substituere (جایگزین گذاشتن)",
+    "en": "from Latin substituere (to put in place of)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas durch + Akk substituieren",
+        "bedeutung": "etwas durch etwas ersetzen",
+        "beispiel": "Wir substituieren Butter durch Öl.",
+        "uebersetzung": {
+          "fa": "روغن را جایگزین کره می‌کنیم.",
+          "en": "We substitute oil for butter."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "substituieren",
+      "praeteritum": "substituierte",
+      "partizip2": "substituiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "substituiere",
+        "du": "substituierst",
+        "er_sie_es": "substituiert",
+        "wir": "substituieren",
+        "ihr": "substituiert",
+        "sie_Sie": "substituieren"
+      },
+      "praeteritum": {
+        "ich": "substituierte",
+        "du": "substituiertest",
+        "er_sie_es": "substituierte",
+        "wir": "substituierten",
+        "ihr": "substituiertet",
+        "sie_Sie": "substituierten"
+      },
+      "konjunktiv1": {
+        "ich": "substituiere",
+        "du": "substituierest",
+        "er_sie_es": "substituiere",
+        "wir": "substituieren",
+        "ihr": "substituieret",
+        "sie_Sie": "substituieren"
+      },
+      "konjunktiv2": {
+        "ich": "substituierte",
+        "du": "substituiertest",
+        "er_sie_es": "substituierte",
+        "wir": "substituierten",
+        "ihr": "substituiertet",
+        "sie_Sie": "substituierten"
+      },
+      "imperativ": {
+        "du": "Substituiere!",
+        "ihr": "Substituiert!",
+        "Sie": "Substituieren Sie!"
+      }
+    },
+    "partizip1": "substituierend",
+    "nominalisierung": "die Substitution"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ersetzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جایگزین کردن",
+          "en": "to replace"
+        },
+        "id_ref": "verb_ersetzen"
+      },
+      {
+        "wort": "die Substitution",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جایگزینی",
+          "en": "substitution"
+        },
+        "id_ref": "nomen_substitution"
+      },
+      {
+        "wort": "der Ersatz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جایگزین",
+          "en": "replacement"
+        },
+        "id_ref": "nomen_ersatz"
+      },
+      {
+        "wort": "austauschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عوض کردن",
+          "en": "to exchange"
+        },
+        "id_ref": "verb_austauschen"
+      },
+      {
+        "wort": "der Mangel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کمبود",
+          "en": "deficiency"
+        },
+        "id_ref": "nomen_mangel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

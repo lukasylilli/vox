@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_suspendieren",
+  "wort": "suspendieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعلیق کردن (از کار)",
+      "موقتاً معاف کردن"
+    ],
+    "en": [
+      "to suspend"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "zʊspɛnˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma suspendiert den Mitarbeiter.",
+      "uebersetzung": {
+        "fa": "شرکت آن کارمند را تعلیق می‌کند.",
+        "en": "The company suspends the employee."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bis zum Abschluss der Ermittlungen wurde der Polizist vom Dienst suspendiert.",
+      "uebersetzung": {
+        "fa": "تا پایان تحقیقات آن پلیس از خدمت تعلیق شد.",
+        "en": "The police officer was suspended from duty until the investigation was concluded."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beurlauben",
+      "uebersetzung": {
+        "fa": "مرخص کردن",
+        "en": "to give leave"
+      }
+    },
+    {
+      "wort": "entbinden",
+      "uebersetzung": {
+        "fa": "معاف کردن",
+        "en": "to release"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین suspendere (آویزان کردن، معلق نگه داشتن)",
+    "en": "from Latin suspendere (to hang up)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden von + Dat suspendieren",
+        "bedeutung": "jemanden vorläufig von einer Aufgabe entbinden",
+        "beispiel": "Er wurde vom Unterricht suspendiert.",
+        "uebersetzung": {
+          "fa": "او از کلاس محروم شد.",
+          "en": "He was suspended from lessons."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "suspendieren",
+      "praeteritum": "suspendierte",
+      "partizip2": "suspendiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "suspendiere",
+        "du": "suspendierst",
+        "er_sie_es": "suspendiert",
+        "wir": "suspendieren",
+        "ihr": "suspendiert",
+        "sie_Sie": "suspendieren"
+      },
+      "praeteritum": {
+        "ich": "suspendierte",
+        "du": "suspendiertest",
+        "er_sie_es": "suspendierte",
+        "wir": "suspendierten",
+        "ihr": "suspendiertet",
+        "sie_Sie": "suspendierten"
+      },
+      "konjunktiv1": {
+        "ich": "suspendiere",
+        "du": "suspendierest",
+        "er_sie_es": "suspendiere",
+        "wir": "suspendieren",
+        "ihr": "suspendieret",
+        "sie_Sie": "suspendieren"
+      },
+      "konjunktiv2": {
+        "ich": "suspendierte",
+        "du": "suspendiertest",
+        "er_sie_es": "suspendierte",
+        "wir": "suspendierten",
+        "ihr": "suspendiertet",
+        "sie_Sie": "suspendierten"
+      },
+      "imperativ": {
+        "du": "Suspendiere!",
+        "ihr": "Suspendiert!",
+        "Sie": "Suspendieren Sie!"
+      }
+    },
+    "partizip1": "suspendierend",
+    "nominalisierung": "die Suspendierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Suspendierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعلیق",
+          "en": "suspension"
+        },
+        "id_ref": "nomen_suspendierung"
+      },
+      {
+        "wort": "der Dienst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خدمت",
+          "en": "service, duty"
+        },
+        "id_ref": "nomen_dienst"
+      },
+      {
+        "wort": "entlassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اخراج کردن",
+          "en": "to dismiss"
+        },
+        "id_ref": "verb_entlassen"
+      },
+      {
+        "wort": "vorläufig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موقت",
+          "en": "provisional"
+        },
+        "id_ref": "adjektiv_vorlaeufig"
+      },
+      {
+        "wort": "die Ermittlung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تحقیق",
+          "en": "investigation"
+        },
+        "id_ref": "nomen_ermittlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_taugen",
+  "wort": "taugen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به درد خوردن",
+      "مناسب بودن"
+    ],
+    "en": [
+      "to be good for",
+      "to be of use"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈtaʊ̯ɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Messer taugt nichts.",
+      "uebersetzung": {
+        "fa": "این چاقو به درد نمی‌خورد.",
+        "en": "This knife is no good."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er taugt nicht zum Lehrer, weil er überhaupt keine Geduld hat.",
+      "uebersetzung": {
+        "fa": "او برای معلمی مناسب نیست، چون اصلاً صبر ندارد.",
+        "en": "He is not cut out to be a teacher because he has no patience at all."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich eignen",
+      "uebersetzung": {
+        "fa": "مناسب بودن",
+        "en": "to be suitable"
+      }
+    },
+    {
+      "wort": "nützen",
+      "uebersetzung": {
+        "fa": "فایده داشتن",
+        "en": "to be of use"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "taugen (سودمند بودن) — فعل ساده",
+    "en": "taugen (to be of use) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "taugen zu/für + Dat/Akk",
+        "bedeutung": "für etwas geeignet sein",
+        "beispiel": "Der Film taugt nicht für Kinder.",
+        "uebersetzung": {
+          "fa": "این فیلم برای بچه‌ها مناسب نیست.",
+          "en": "The film is not suitable for children."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "taugen",
+      "praeteritum": "taugte",
+      "partizip2": "getaugt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tauge",
+        "du": "taugst",
+        "er_sie_es": "taugt",
+        "wir": "taugen",
+        "ihr": "taugt",
+        "sie_Sie": "taugen"
+      },
+      "praeteritum": {
+        "ich": "taugte",
+        "du": "taugtest",
+        "er_sie_es": "taugte",
+        "wir": "taugten",
+        "ihr": "taugtet",
+        "sie_Sie": "taugten"
+      },
+      "konjunktiv1": {
+        "ich": "tauge",
+        "du": "taugest",
+        "er_sie_es": "tauge",
+        "wir": "taugen",
+        "ihr": "tauget",
+        "sie_Sie": "taugen"
+      },
+      "konjunktiv2": {
+        "ich": "taugte",
+        "du": "taugtest",
+        "er_sie_es": "taugte",
+        "wir": "taugten",
+        "ihr": "taugtet",
+        "sie_Sie": "taugten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "taugend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tauglich",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مناسب، شایسته",
+          "en": "suitable"
+        },
+        "id_ref": "adjektiv_tauglich"
+      },
+      {
+        "wort": "geeignet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مناسب",
+          "en": "suitable"
+        },
+        "id_ref": "adjektiv_geeignet"
+      },
+      {
+        "wort": "nützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فایده داشتن",
+          "en": "to be of use"
+        },
+        "id_ref": "verb_nuetzen"
+      },
+      {
+        "wort": "der Taugenichts",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آدم بی‌مصرف",
+          "en": "good-for-nothing"
+        },
+        "id_ref": "nomen_taugenichts"
+      },
+      {
+        "wort": "brauchbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قابل استفاده",
+          "en": "usable"
+        },
+        "id_ref": "adjektiv_brauchbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,205 @@
+{
+  "schema": "3.0",
+  "id": "verb_tasten",
+  "wort": "tasten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کورمال کورمال گشتن",
+      "لمس کردن و حس کردن"
+    ],
+    "en": [
+      "to grope",
+      "to feel (one's way)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Wahrnehmung"
+  ],
+  "ipa": "ˈtastn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Dunkeln tastet er nach dem Lichtschalter.",
+      "uebersetzung": {
+        "fa": "در تاریکی کورمال دنبال کلید برق می‌گردد.",
+        "en": "In the dark he gropes for the light switch."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne Licht hat sie sich vorsichtig an der Wand entlang zur Tür getastet.",
+      "uebersetzung": {
+        "fa": "بی‌چراغ با احتیاط دست به دیوار گرفت و تا در رفت.",
+        "en": "Without a light she carefully felt her way along the wall to the door."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fühlen",
+      "uebersetzung": {
+        "fa": "حس کردن",
+        "en": "to feel"
+      }
+    },
+    {
+      "wort": "befühlen",
+      "uebersetzung": {
+        "fa": "لمس کردن",
+        "en": "to finger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Tastsinn",
+      "uebersetzung": {
+        "fa": "حس لامسه",
+        "en": "sense of touch"
+      }
+    },
+    {
+      "wort": "die Taste",
+      "uebersetzung": {
+        "fa": "دکمه",
+        "en": "key"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین عامیانه taxitare (لمس کردن)",
+    "en": "from Vulgar Latin taxitare (to touch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "tasten nach + Dat",
+        "bedeutung": "mit den Händen nach etwas suchen",
+        "beispiel": "Sie tastete nach ihrer Brille.",
+        "uebersetzung": {
+          "fa": "او کورمال دنبال عینکش گشت.",
+          "en": "She groped for her glasses."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "tasten",
+      "praeteritum": "tastete",
+      "partizip2": "getastet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "taste",
+        "du": "tastest",
+        "er_sie_es": "tastet",
+        "wir": "tasten",
+        "ihr": "tastet",
+        "sie_Sie": "tasten"
+      },
+      "praeteritum": {
+        "ich": "tastete",
+        "du": "tastetest",
+        "er_sie_es": "tastete",
+        "wir": "tasteten",
+        "ihr": "tastetet",
+        "sie_Sie": "tasteten"
+      },
+      "konjunktiv1": {
+        "ich": "taste",
+        "du": "tastest",
+        "er_sie_es": "taste",
+        "wir": "tasten",
+        "ihr": "tastet",
+        "sie_Sie": "tasten"
+      },
+      "konjunktiv2": {
+        "ich": "tastete",
+        "du": "tastetest",
+        "er_sie_es": "tastete",
+        "wir": "tasteten",
+        "ihr": "tastetet",
+        "sie_Sie": "tasteten"
+      },
+      "imperativ": {
+        "du": "Taste!",
+        "ihr": "Tastet!",
+        "Sie": "Tasten Sie!"
+      }
+    },
+    "partizip1": "tastend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Taste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دکمه",
+          "en": "key"
+        },
+        "id_ref": "nomen_taste"
+      },
+      {
+        "wort": "die Tastatur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفحه‌کلید",
+          "en": "keyboard"
+        },
+        "id_ref": "nomen_tastatur"
+      },
+      {
+        "wort": "fühlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حس کردن",
+          "en": "to feel"
+        },
+        "id_ref": "verb_fuehlen"
+      },
+      {
+        "wort": "dunkel",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریک",
+          "en": "dark"
+        },
+        "id_ref": "adjektiv_dunkel"
+      },
+      {
+        "wort": "der Finger",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انگشت",
+          "en": "finger"
+        },
+        "id_ref": "nomen_finger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

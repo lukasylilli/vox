@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_tangieren",
+  "wort": "tangieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مربوط شدن به",
+      "تحت تأثیر قرار دادن",
+      "مماس بودن (هندسه)"
+    ],
+    "en": [
+      "to affect",
+      "to concern",
+      "to touch (geometry)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Mathematik",
+    "Kommunikation"
+  ],
+  "ipa": "taŋˈɡiːʁən",
+  "anmerkung": "Bildungssprache; umgangssprachlich oft verneint: «Das tangiert mich nicht» (= ist mir egal).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das tangiert mich nicht.",
+      "uebersetzung": {
+        "fa": "این به من ربطی ندارد.",
+        "en": "That doesn't concern me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neue Regelung tangiert vor allem Menschen, die im Schichtdienst arbeiten.",
+      "uebersetzung": {
+        "fa": "مقررات جدید بیش از همه کسانی را تحت تأثیر قرار می‌دهد که شیفتی کار می‌کنند.",
+        "en": "The new regulation mainly affects people who work in shifts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betreffen",
+      "uebersetzung": {
+        "fa": "مربوط بودن",
+        "en": "to concern"
+      }
+    },
+    {
+      "wort": "berühren",
+      "uebersetzung": {
+        "fa": "لمس کردن، اثر گذاشتن",
+        "en": "to touch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین tangere (لمس کردن)",
+    "en": "from Latin tangere (to touch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "tangieren",
+      "praeteritum": "tangierte",
+      "partizip2": "tangiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "tangiere",
+        "du": "tangierst",
+        "er_sie_es": "tangiert",
+        "wir": "tangieren",
+        "ihr": "tangiert",
+        "sie_Sie": "tangieren"
+      },
+      "praeteritum": {
+        "ich": "tangierte",
+        "du": "tangiertest",
+        "er_sie_es": "tangierte",
+        "wir": "tangierten",
+        "ihr": "tangiertet",
+        "sie_Sie": "tangierten"
+      },
+      "konjunktiv1": {
+        "ich": "tangiere",
+        "du": "tangierest",
+        "er_sie_es": "tangiere",
+        "wir": "tangieren",
+        "ihr": "tangieret",
+        "sie_Sie": "tangieren"
+      },
+      "konjunktiv2": {
+        "ich": "tangierte",
+        "du": "tangiertest",
+        "er_sie_es": "tangierte",
+        "wir": "tangierten",
+        "ihr": "tangiertet",
+        "sie_Sie": "tangierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "tangierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Tangente",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خط مماس",
+          "en": "tangent"
+        },
+        "id_ref": "nomen_tangente"
+      },
+      {
+        "wort": "betreffen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مربوط بودن",
+          "en": "to concern"
+        },
+        "id_ref": "verb_betreffen"
+      },
+      {
+        "wort": "berühren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لمس کردن",
+          "en": "to touch"
+        },
+        "id_ref": "verb_beruehren"
+      },
+      {
+        "wort": "egal",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بی‌اهمیت",
+          "en": "all the same"
+        },
+        "id_ref": "adjektiv_egal"
+      },
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

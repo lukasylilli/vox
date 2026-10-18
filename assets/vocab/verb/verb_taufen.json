@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_taufen",
+  "wort": "taufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غسل تعمید دادن",
+      "نام گذاشتن"
+    ],
+    "en": [
+      "to baptize",
+      "to christen",
+      "to name"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Religion",
+    "Familie"
+  ],
+  "ipa": "ˈtaʊ̯fn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby wird am Sonntag getauft.",
+      "uebersetzung": {
+        "fa": "نوزاد یکشنبه غسل تعمید داده می‌شود.",
+        "en": "The baby is being baptized on Sunday."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kinder haben ihren neuen Hund auf den Namen «Bruno» getauft.",
+      "uebersetzung": {
+        "fa": "بچه‌ها اسم سگ جدیدشان را «برونو» گذاشتند.",
+        "en": "The children named their new dog «Bruno»."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "benennen",
+      "uebersetzung": {
+        "fa": "نام‌گذاری کردن",
+        "en": "to name"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Taufpate",
+      "uebersetzung": {
+        "fa": "پدرخوانده",
+        "en": "godfather"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "taufen (فرو بردن در آب) — هم‌ریشه با tief",
+    "en": "taufen (to immerse) — related to tief"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden/etwas auf den Namen … taufen",
+        "bedeutung": "jemandem/etwas einen Namen geben",
+        "beispiel": "Man taufte das Schiff auf den Namen «Hoffnung».",
+        "uebersetzung": {
+          "fa": "نام کشتی را «امید» گذاشتند.",
+          "en": "The ship was christened «Hope»."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "taufen",
+      "praeteritum": "taufte",
+      "partizip2": "getauft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "taufe",
+        "du": "taufst",
+        "er_sie_es": "tauft",
+        "wir": "taufen",
+        "ihr": "tauft",
+        "sie_Sie": "taufen"
+      },
+      "praeteritum": {
+        "ich": "taufte",
+        "du": "tauftest",
+        "er_sie_es": "taufte",
+        "wir": "tauften",
+        "ihr": "tauftet",
+        "sie_Sie": "tauften"
+      },
+      "konjunktiv1": {
+        "ich": "taufe",
+        "du": "taufest",
+        "er_sie_es": "taufe",
+        "wir": "taufen",
+        "ihr": "taufet",
+        "sie_Sie": "taufen"
+      },
+      "konjunktiv2": {
+        "ich": "taufte",
+        "du": "tauftest",
+        "er_sie_es": "taufte",
+        "wir": "tauften",
+        "ihr": "tauftet",
+        "sie_Sie": "tauften"
+      },
+      "imperativ": {
+        "du": "Taufe!",
+        "ihr": "Tauft!",
+        "Sie": "Taufen Sie!"
+      }
+    },
+    "partizip1": "taufend",
+    "nominalisierung": "die Taufe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Taufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غسل تعمید",
+          "en": "baptism"
+        },
+        "id_ref": "nomen_taufe"
+      },
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "der Name",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام",
+          "en": "name"
+        },
+        "id_ref": "nomen_name"
+      },
+      {
+        "wort": "der Pate",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پدرخوانده",
+          "en": "godparent"
+        },
+        "id_ref": "nomen_pate"
+      },
+      {
+        "wort": "christlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیحی",
+          "en": "Christian"
+        },
+        "id_ref": "adjektiv_christlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

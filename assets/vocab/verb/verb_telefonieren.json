@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_telefonieren",
+  "wort": "telefonieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تلفن زدن",
+      "تلفنی صحبت کردن"
+    ],
+    "en": [
+      "to phone",
+      "to make a call"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "telefoˈniːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich telefoniere jeden Abend mit meiner Mutter.",
+      "uebersetzung": {
+        "fa": "هر شب با مادرم تلفنی صحبت می‌کنم.",
+        "en": "I talk to my mother on the phone every evening."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Während der Fahrt darf man nur mit Freisprechanlage telefonieren.",
+      "uebersetzung": {
+        "fa": "هنگام رانندگی فقط با هندزفری می‌توان تلفن زد.",
+        "en": "While driving you may only make calls with a hands-free kit."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anrufen",
+      "uebersetzung": {
+        "fa": "زنگ زدن",
+        "en": "to call"
+      }
+    },
+    {
+      "wort": "sprechen",
+      "uebersetzung": {
+        "fa": "صحبت کردن",
+        "en": "to speak"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Telefon (تلفن)، از یونانی tele (دور) + phone (صدا)",
+    "en": "from das Telefon, from Greek tele (far) + phone (voice)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "telefonieren mit + Dat",
+        "bedeutung": "mit jemandem am Telefon sprechen",
+        "beispiel": "Hast du schon mit dem Arzt telefoniert?",
+        "uebersetzung": {
+          "fa": "با دکتر تلفنی صحبت کرده‌ای؟",
+          "en": "Have you spoken to the doctor on the phone yet?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "telefonieren",
+      "praeteritum": "telefonierte",
+      "partizip2": "telefoniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "telefoniere",
+        "du": "telefonierst",
+        "er_sie_es": "telefoniert",
+        "wir": "telefonieren",
+        "ihr": "telefoniert",
+        "sie_Sie": "telefonieren"
+      },
+      "praeteritum": {
+        "ich": "telefonierte",
+        "du": "telefoniertest",
+        "er_sie_es": "telefonierte",
+        "wir": "telefonierten",
+        "ihr": "telefoniertet",
+        "sie_Sie": "telefonierten"
+      },
+      "konjunktiv1": {
+        "ich": "telefoniere",
+        "du": "telefonierest",
+        "er_sie_es": "telefoniere",
+        "wir": "telefonieren",
+        "ihr": "telefonieret",
+        "sie_Sie": "telefonieren"
+      },
+      "konjunktiv2": {
+        "ich": "telefonierte",
+        "du": "telefoniertest",
+        "er_sie_es": "telefonierte",
+        "wir": "telefonierten",
+        "ihr": "telefoniertet",
+        "sie_Sie": "telefonierten"
+      },
+      "imperativ": {
+        "du": "Telefoniere!",
+        "ihr": "Telefoniert!",
+        "Sie": "Telefonieren Sie!"
+      }
+    },
+    "partizip1": "telefonierend",
+    "nominalisierung": "das Telefonat"
+  },
+  "wortnetz": {
+    "grundwort": "Telefon",
+    "woerter": [
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      },
+      {
+        "wort": "anrufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_anrufen"
+      },
+      {
+        "wort": "das Handy",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشی همراه",
+          "en": "mobile phone"
+        },
+        "id_ref": "nomen_handy"
+      },
+      {
+        "wort": "das Telefonat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مکالمه‌ی تلفنی",
+          "en": "phone call"
+        },
+        "id_ref": "nomen_telefonat"
+      },
+      {
+        "wort": "die Nummer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شماره",
+          "en": "number"
+        },
+        "id_ref": "nomen_nummer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

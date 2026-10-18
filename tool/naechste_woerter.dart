@@ -1959,6 +1959,24 @@ const zurueckgestellt = <String>{
   'stückeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
   'stümpern', // zurückgestellt: abwertend, selten — nicht sicher (Regel 14) 2026-10-18
   'stutzen', // zurückgestellt: zwei Verben (kürzen / innehalten) — wie lecken (Regel 14) 2026-10-18
+  'sudeln', // zurückgestellt: umgangssprachlich, abwertend — nicht sicher (Regel 14) 2026-10-18
+  'sülzen', // zurückgestellt: umgangssprachlich, mehrere Bedeutungen — nicht sicher (Regel 14) 2026-10-18
+  'surren', // zurückgestellt: selten, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-18
+  'synthetisieren', // zurückgestellt: Fachsprache (Chemie), selten — nicht sicher (Regel 14) 2026-10-18
+  'tabellarisieren', // zurückgestellt: selten, Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'tabellieren', // zurückgestellt: selten, Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'tafeln', // zurückgestellt: gehoben, veraltend — nicht sicher (Regel 14) 2026-10-18
+  'täfeln', // zurückgestellt: Fachsprache (Handwerk), selten — nicht sicher (Regel 14) 2026-10-18
+  'taillieren', // zurückgestellt: Fachsprache (Schneiderei), selten — nicht sicher (Regel 14) 2026-10-18
+  'takeln', // zurückgestellt: Seemannssprache, selten — nicht sicher (Regel 14) 2026-10-18
+  'tändeln', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-18
+  'tänzeln', // zurückgestellt: Hilfsverb schwankt (haben/sein), selten — nicht sicher (Regel 14/16) 2026-10-18
+  'tapern', // zurückgestellt: landschaftlich, umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'tappen', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'tapsen', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-18
+  'tarieren', // zurückgestellt: Fachsprache (Waage), selten — nicht sicher (Regel 14) 2026-10-18
+  'tattern', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-18
+  'telegrafieren', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
