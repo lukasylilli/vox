@@ -1,0 +1,213 @@
+{
+  "schema": "3.0",
+  "id": "verb_packen",
+  "wort": "packen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بسته‌بندی کردن، جمع کردن (چمدان)",
+      "چنگ زدن، گرفتن",
+      "از پس چیزی برآمدن (عامیانه)"
+    ],
+    "en": [
+      "to pack",
+      "to grab",
+      "to manage (colloquial)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Reisen",
+    "Alltag"
+  ],
+  "ipa": "ˈpakn̩",
+  "anmerkung": "Umgangssprachlich: «Ich packe das!» (= Ich schaffe das).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich packe meinen Koffer.",
+      "uebersetzung": {
+        "fa": "چمدانم را می‌بندم.",
+        "en": "I am packing my suitcase."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er packte sie am Arm, damit sie nicht auf die Straße lief.",
+      "uebersetzung": {
+        "fa": "بازوی او را گرفت تا به خیابان ندود.",
+        "en": "He grabbed her by the arm so that she would not run into the street."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einpacken",
+      "uebersetzung": {
+        "fa": "بسته‌بندی کردن",
+        "en": "to pack up"
+      }
+    },
+    {
+      "wort": "greifen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to grab"
+      }
+    },
+    {
+      "wort": "schaffen",
+      "uebersetzung": {
+        "fa": "از پس برآمدن",
+        "en": "to manage"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "auspacken",
+      "uebersetzung": {
+        "fa": "باز کردن (بسته)",
+        "en": "to unpack"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas packen in + Akk",
+        "bedeutung": "etwas in einen Behälter legen",
+        "beispiel": "Pack die Bücher in den Karton!",
+        "uebersetzung": {
+          "fa": "کتاب‌ها را توی کارتن بگذار!",
+          "en": "Pack the books into the box!"
+        }
+      },
+      {
+        "muster": "jdn. packen an + Dat",
+        "bedeutung": "jemanden an einem Körperteil festhalten",
+        "beispiel": "Der Polizist packt den Dieb am Kragen.",
+        "uebersetzung": {
+          "fa": "پلیس یقه‌ی دزد را می‌گیرد.",
+          "en": "The policeman grabs the thief by the collar."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "packen",
+      "praeteritum": "packte",
+      "partizip2": "gepackt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "packe",
+        "du": "packst",
+        "er_sie_es": "packt",
+        "wir": "packen",
+        "ihr": "packt",
+        "sie_Sie": "packen"
+      },
+      "praeteritum": {
+        "ich": "packte",
+        "du": "packtest",
+        "er_sie_es": "packte",
+        "wir": "packten",
+        "ihr": "packtet",
+        "sie_Sie": "packten"
+      },
+      "konjunktiv1": {
+        "ich": "packe",
+        "du": "packest",
+        "er_sie_es": "packe",
+        "wir": "packen",
+        "ihr": "packet",
+        "sie_Sie": "packen"
+      },
+      "konjunktiv2": {
+        "ich": "packte",
+        "du": "packtest",
+        "er_sie_es": "packte",
+        "wir": "packten",
+        "ihr": "packtet",
+        "sie_Sie": "packten"
+      },
+      "imperativ": {
+        "du": "Pack!",
+        "ihr": "Packt!",
+        "Sie": "Packen Sie!"
+      }
+    },
+    "partizip1": "packend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Koffer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چمدان",
+          "en": "suitcase"
+        },
+        "id_ref": "nomen_koffer"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیف",
+          "en": "bag"
+        },
+        "id_ref": "nomen_tasche"
+      },
+      {
+        "wort": "das Paket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "parcel"
+        },
+        "id_ref": "nomen_paket"
+      },
+      {
+        "wort": "einpacken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بسته‌بندی کردن",
+          "en": "to pack up"
+        },
+        "id_ref": "verb_einpacken"
+      },
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرفتن، چنگ زدن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

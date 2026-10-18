@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_ordern",
+  "wort": "ordern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سفارش دادن (به‌ویژه کالا)",
+      "خرید سفارش دادن"
+    ],
+    "en": [
+      "to order"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Einkaufen"
+  ],
+  "ipa": "ˈɔʁdɐn",
+  "anmerkung": "Kaufmännisch; im Alltag meist: bestellen.",
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Laden ordert neue Ware.",
+      "uebersetzung": {
+        "fa": "مغازه جنس جدید سفارش می‌دهد.",
+        "en": "The shop orders new goods."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Nachfrage so groß war, orderte der Händler doppelt so viele Geräte wie geplant.",
+      "uebersetzung": {
+        "fa": "چون تقاضا خیلی زیاد بود، فروشنده دو برابر برنامه دستگاه سفارش داد.",
+        "en": "Because demand was so high, the dealer ordered twice as many devices as planned."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestellen",
+      "uebersetzung": {
+        "fa": "سفارش دادن",
+        "en": "to order"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to order (سفارش دادن)",
+    "en": "from English to order"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "ordern",
+      "praeteritum": "orderte",
+      "partizip2": "geordert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ordere",
+        "du": "orderst",
+        "er_sie_es": "ordert",
+        "wir": "ordern",
+        "ihr": "ordert",
+        "sie_Sie": "ordern"
+      },
+      "praeteritum": {
+        "ich": "orderte",
+        "du": "ordertest",
+        "er_sie_es": "orderte",
+        "wir": "orderten",
+        "ihr": "ordertet",
+        "sie_Sie": "orderten"
+      },
+      "konjunktiv1": {
+        "ich": "ordere",
+        "du": "orderest",
+        "er_sie_es": "ordere",
+        "wir": "ordern",
+        "ihr": "orderet",
+        "sie_Sie": "ordern"
+      },
+      "konjunktiv2": {
+        "ich": "orderte",
+        "du": "ordertest",
+        "er_sie_es": "orderte",
+        "wir": "orderten",
+        "ihr": "ordertet",
+        "sie_Sie": "orderten"
+      },
+      "imperativ": {
+        "du": "Ordere!",
+        "ihr": "Ordert!",
+        "Sie": "Ordern Sie!"
+      }
+    },
+    "partizip1": "ordernd",
+    "nominalisierung": "die Order"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خریدن",
+          "en": "to buy"
+        },
+        "id_ref": "verb_kaufen"
+      },
+      {
+        "wort": "bestellen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفارش دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_bestellen"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "die Bestellung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش",
+          "en": "order"
+        },
+        "id_ref": "nomen_bestellung"
+      },
+      {
+        "wort": "der Händler",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فروشنده",
+          "en": "dealer"
+        },
+        "id_ref": "nomen_haendler"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

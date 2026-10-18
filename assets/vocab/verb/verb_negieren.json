@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_negieren",
+  "wort": "negieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نفی کردن",
+      "انکار کردن"
+    ],
+    "en": [
+      "to negate",
+      "to deny"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Sprache",
+    "Wissenschaft"
+  ],
+  "ipa": "neˈɡiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er negiert das Problem.",
+      "uebersetzung": {
+        "fa": "او مشکل را انکار می‌کند.",
+        "en": "He denies the problem."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Grammatik negiert man einen Satz meistens mit «nicht» oder «kein».",
+      "uebersetzung": {
+        "fa": "در دستور زبان، جمله را معمولاً با دو کلمه‌ی منفی‌ساز آلمانی منفی می‌کنند.",
+        "en": "In grammar you usually negate a sentence with \"nicht\" or \"kein\"."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verneinen",
+      "uebersetzung": {
+        "fa": "منفی کردن",
+        "en": "to negate"
+      }
+    },
+    {
+      "wort": "leugnen",
+      "uebersetzung": {
+        "fa": "انکار کردن",
+        "en": "to deny"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "bejahen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to affirm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین negare (گفتن نه)",
+    "en": "from Latin negare (to say no)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "negieren",
+      "praeteritum": "negierte",
+      "partizip2": "negiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "negiere",
+        "du": "negierst",
+        "er_sie_es": "negiert",
+        "wir": "negieren",
+        "ihr": "negiert",
+        "sie_Sie": "negieren"
+      },
+      "praeteritum": {
+        "ich": "negierte",
+        "du": "negiertest",
+        "er_sie_es": "negierte",
+        "wir": "negierten",
+        "ihr": "negiertet",
+        "sie_Sie": "negierten"
+      },
+      "konjunktiv1": {
+        "ich": "negiere",
+        "du": "negierest",
+        "er_sie_es": "negiere",
+        "wir": "negieren",
+        "ihr": "negieret",
+        "sie_Sie": "negieren"
+      },
+      "konjunktiv2": {
+        "ich": "negierte",
+        "du": "negiertest",
+        "er_sie_es": "negierte",
+        "wir": "negierten",
+        "ihr": "negiertet",
+        "sie_Sie": "negierten"
+      },
+      "imperativ": {
+        "du": "Negiere!",
+        "ihr": "Negiert!",
+        "Sie": "Negieren Sie!"
+      }
+    },
+    "partizip1": "negierend",
+    "nominalisierung": "die Negation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "nein",
+        "wortart": "partikel",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نه",
+          "en": "no"
+        },
+        "id_ref": "partikel_nein"
+      },
+      {
+        "wort": "nicht",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نه، نـ (منفی)",
+          "en": "not"
+        },
+        "id_ref": "adverb_nicht"
+      },
+      {
+        "wort": "verneinen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منفی کردن، رد کردن",
+          "en": "to negate"
+        },
+        "id_ref": "verb_verneinen"
+      },
+      {
+        "wort": "leugnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انکار کردن",
+          "en": "to deny"
+        },
+        "id_ref": "verb_leugnen"
+      },
+      {
+        "wort": "die Negation",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفی",
+          "en": "negation"
+        },
+        "id_ref": "nomen_negation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

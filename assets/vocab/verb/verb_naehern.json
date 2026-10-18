@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_naehern",
+  "wort": "nähern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نزدیک شدن (به کسی/چیزی)",
+      "نزدیک کردن"
+    ],
+    "en": [
+      "to approach",
+      "to come closer"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Beziehungen"
+  ],
+  "ipa": "ˈnɛːɐn",
+  "anmerkung": "Meist reflexiv mit Dativ: «sich jemandem/einer Sache nähern».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Schiff nähert sich dem Hafen.",
+      "uebersetzung": {
+        "fa": "کشتی به بندر نزدیک می‌شود.",
+        "en": "The ship is approaching the harbour."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Je mehr wir uns der Grenze näherten, desto länger wurde der Stau.",
+      "uebersetzung": {
+        "fa": "هر چه به مرز نزدیک‌تر می‌شدیم، ترافیک طولانی‌تر می‌شد.",
+        "en": "The closer we got to the border, the longer the traffic jam became."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herankommen",
+      "uebersetzung": {
+        "fa": "نزدیک شدن",
+        "en": "to come closer"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entfernen",
+      "uebersetzung": {
+        "fa": "دور شدن",
+        "en": "to move away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "näher (نزدیک‌تر) + -n",
+    "en": "näher (closer) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich nähern + Dat",
+        "bedeutung": "näher an jemanden/etwas herankommen",
+        "beispiel": "Der Hund nähert sich vorsichtig dem Kind.",
+        "uebersetzung": {
+          "fa": "سگ با احتیاط به بچه نزدیک می‌شود.",
+          "en": "The dog carefully approaches the child."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nähern",
+      "praeteritum": "näherte",
+      "partizip2": "genähert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nähere",
+        "du": "näherst",
+        "er_sie_es": "nähert",
+        "wir": "nähern",
+        "ihr": "nähert",
+        "sie_Sie": "nähern"
+      },
+      "praeteritum": {
+        "ich": "näherte",
+        "du": "nähertest",
+        "er_sie_es": "näherte",
+        "wir": "näherten",
+        "ihr": "nähertet",
+        "sie_Sie": "näherten"
+      },
+      "konjunktiv1": {
+        "ich": "nähere",
+        "du": "näherest",
+        "er_sie_es": "nähere",
+        "wir": "nähern",
+        "ihr": "näheret",
+        "sie_Sie": "nähern"
+      },
+      "konjunktiv2": {
+        "ich": "näherte",
+        "du": "nähertest",
+        "er_sie_es": "näherte",
+        "wir": "näherten",
+        "ihr": "nähertet",
+        "sie_Sie": "näherten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "nähernd",
+    "nominalisierung": "die Annäherung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "nah",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نزدیک",
+          "en": "near"
+        },
+        "id_ref": "adjektiv_nah"
+      },
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Nähe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نزدیکی",
+          "en": "proximity"
+        },
+        "id_ref": "nomen_naehe"
+      },
+      {
+        "wort": "nahen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نزدیک شدن",
+          "en": "to approach"
+        },
+        "id_ref": "verb_nahen"
+      },
+      {
+        "wort": "die Annäherung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نزدیکی، تقرب",
+          "en": "rapprochement"
+        },
+        "id_ref": "nomen_annaeherung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

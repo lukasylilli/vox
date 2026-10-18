@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_nageln",
+  "wort": "nageln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "میخ زدن، با میخ کوبیدن",
+      "(پزشکی) با میخ ثابت کردن (استخوان)"
+    ],
+    "en": [
+      "to nail",
+      "to pin (a bone)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk",
+    "Medizin"
+  ],
+  "ipa": "ˈnaːɡl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er nagelt ein Brett an die Wand.",
+      "uebersetzung": {
+        "fa": "او تخته‌ای را به دیوار میخ می‌کند.",
+        "en": "He nails a board to the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall wurde ihr Oberschenkelknochen genagelt, damit er richtig heilt.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف، استخوان رانش را با میخ ثابت کردند تا درست جوش بخورد.",
+        "en": "After the accident her thigh bone was pinned so that it would heal properly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Nagel (میخ) + -n",
+    "en": "Nagel (nail) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas nageln an/auf + Akk",
+        "bedeutung": "etwas mit Nägeln irgendwo befestigen",
+        "beispiel": "Sie nagelt das Schild an die Tür.",
+        "uebersetzung": {
+          "fa": "او تابلو را به در میخ می‌کند.",
+          "en": "She nails the sign to the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nageln",
+      "praeteritum": "nagelte",
+      "partizip2": "genagelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nagle",
+        "du": "nagelst",
+        "er_sie_es": "nagelt",
+        "wir": "nageln",
+        "ihr": "nagelt",
+        "sie_Sie": "nageln"
+      },
+      "praeteritum": {
+        "ich": "nagelte",
+        "du": "nageltest",
+        "er_sie_es": "nagelte",
+        "wir": "nagelten",
+        "ihr": "nageltet",
+        "sie_Sie": "nagelten"
+      },
+      "konjunktiv1": {
+        "ich": "nagle",
+        "du": "naglest",
+        "er_sie_es": "nagle",
+        "wir": "nageln",
+        "ihr": "naglet",
+        "sie_Sie": "nageln"
+      },
+      "konjunktiv2": {
+        "ich": "nagelte",
+        "du": "nageltest",
+        "er_sie_es": "nagelte",
+        "wir": "nagelten",
+        "ihr": "nageltet",
+        "sie_Sie": "nagelten"
+      },
+      "imperativ": {
+        "du": "Nagle!",
+        "ihr": "Nagelt!",
+        "Sie": "Nageln Sie!"
+      }
+    },
+    "partizip1": "nagelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Hammer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکش",
+          "en": "hammer"
+        },
+        "id_ref": "nomen_hammer"
+      },
+      {
+        "wort": "der Nagel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "میخ، ناخن",
+          "en": "nail"
+        },
+        "id_ref": "nomen_nagel"
+      },
+      {
+        "wort": "das Brett",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخته",
+          "en": "board"
+        },
+        "id_ref": "nomen_brett"
+      },
+      {
+        "wort": "befestigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محکم کردن",
+          "en": "to fasten"
+        },
+        "id_ref": "verb_befestigen"
+      },
+      {
+        "wort": "schrauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ کردن",
+          "en": "to screw"
+        },
+        "id_ref": "verb_schrauben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

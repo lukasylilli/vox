@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_montieren",
+  "wort": "montieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوار کردن، نصب کردن",
+      "مونتاژ کردن"
+    ],
+    "en": [
+      "to install, to fit",
+      "to assemble"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "mɔnˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er montiert eine Lampe.",
+      "uebersetzung": {
+        "fa": "او یک چراغ نصب می‌کند.",
+        "en": "He is installing a lamp."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir einziehen, muss der Techniker noch die Küche montieren.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه اسباب‌کشی کنیم، تکنسین باید آشپزخانه را نصب کند.",
+        "en": "Before we move in, the technician still has to install the kitchen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "installieren",
+      "uebersetzung": {
+        "fa": "نصب کردن",
+        "en": "to install"
+      }
+    },
+    {
+      "wort": "anbringen",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to fit"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "demontieren",
+      "uebersetzung": {
+        "fa": "پیاده کردن",
+        "en": "to dismantle"
+      }
+    },
+    {
+      "wort": "abbauen",
+      "uebersetzung": {
+        "fa": "باز کردن",
+        "en": "to take down"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی monter (سوار کردن)",
+    "en": "from French monter (to mount)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas montieren an + Akk",
+        "bedeutung": "etwas an etwas befestigen",
+        "beispiel": "Wir montieren das Regal an die Wand.",
+        "uebersetzung": {
+          "fa": "قفسه را به دیوار نصب می‌کنیم.",
+          "en": "We are fixing the shelf to the wall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "montieren",
+      "praeteritum": "montierte",
+      "partizip2": "montiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "montiere",
+        "du": "montierst",
+        "er_sie_es": "montiert",
+        "wir": "montieren",
+        "ihr": "montiert",
+        "sie_Sie": "montieren"
+      },
+      "praeteritum": {
+        "ich": "montierte",
+        "du": "montiertest",
+        "er_sie_es": "montierte",
+        "wir": "montierten",
+        "ihr": "montiertet",
+        "sie_Sie": "montierten"
+      },
+      "konjunktiv1": {
+        "ich": "montiere",
+        "du": "montierest",
+        "er_sie_es": "montiere",
+        "wir": "montieren",
+        "ihr": "montieret",
+        "sie_Sie": "montieren"
+      },
+      "konjunktiv2": {
+        "ich": "montierte",
+        "du": "montiertest",
+        "er_sie_es": "montierte",
+        "wir": "montierten",
+        "ihr": "montiertet",
+        "sie_Sie": "montierten"
+      },
+      "imperativ": {
+        "du": "Montiere!",
+        "ihr": "Montiert!",
+        "Sie": "Montieren Sie!"
+      }
+    },
+    "partizip1": "montierend",
+    "nominalisierung": "die Montage"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      },
+      {
+        "wort": "installieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نصب کردن",
+          "en": "to install"
+        },
+        "id_ref": "verb_installieren"
+      },
+      {
+        "wort": "die Montage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نصب، مونتاژ",
+          "en": "assembly"
+        },
+        "id_ref": "nomen_montage"
+      },
+      {
+        "wort": "demontieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیاده کردن",
+          "en": "to dismantle"
+        },
+        "id_ref": "verb_demontieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

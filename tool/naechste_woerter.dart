@@ -1744,6 +1744,37 @@ const zurueckgestellt = <String>{
   'möchten', // zurückgestellt: kein eigener Infinitiv (Konjunktiv-II-Form von mögen; Karte mögen vorhanden) — Listenfehler, Entscheidung Lukas 2026-10-16
   'modeln', // zurückgestellt: selten, zwei Bedeutungen (formen; als Model arbeiten) — nicht sicher (Regel 14) 2026-10-16
   'modern', // zurückgestellt: Hilfsverb schwankt (hat/ist gemodert) und Homograph mit Adjektiv modern — nicht eindeutig (Regel 16) 2026-10-16
+  'moppen', // zurückgestellt: umgangssprachlich, selten (mit dem Mopp wischen) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mopsen', // zurückgestellt: umgangssprachlich (stehlen; sich langweilen) — Bedeutung/zeitlich nicht sicher (Regel 14/17) 2026-10-16
+  'mucksen', // zurückgestellt: meist reflexiv und verneint («sich nicht mucksen»), umgangssprachlich — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'muffeln', // zurückgestellt: zwei Bedeutungen (muffig riechen; mürrisch sein), regional — nicht sicher (Regel 14) 2026-10-16
+  'müffeln', // zurückgestellt: regional/umgangssprachlich (muffig riechen) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'mummeln', // zurückgestellt: regional, mehrere Bedeutungen (murmeln; einhüllen) — nicht sicher (Regel 14) 2026-10-16
+  'mümmeln', // zurückgestellt: umgangssprachlich (wie ein Hase kauen), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'münden', // zurückgestellt: Hilfsverb schwankt (hat/ist gemündet) — nicht eindeutig (Regel 16) 2026-10-16
+  'münzen', // zurückgestellt: meist nur «auf jemanden gemünzt sein»; Grundbedeutung (Münzen prägen) selten — nicht sicher (Regel 14) 2026-10-16
+  'nachdunkeln', // zurückgestellt: trennbar, Hilfsverb schwankt (ist/hat nachgedunkelt) — nicht eindeutig (Regel 16) 2026-10-16
+  'narren', // zurückgestellt: veraltend (zum Narren halten) — zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'nesteln', // zurückgestellt: selten (an etwas herumfingern) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'neuern', // zurückgestellt: selten/veraltet (erneuern) — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'nölen', // zurückgestellt: norddeutsch umgangssprachlich (nörgeln, trödeln) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'obstruieren', // zurückgestellt: Fachwort (Medizin/Politik), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'onanieren', // zurückgestellt: sexuelle Bedeutung — Entscheidung Lukas (wie masturbieren) 2026-10-16
+  'ontologisieren', // zurückgestellt: Fachwort Philosophie, sehr selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'optieren', // zurückgestellt: Fachwort (Staatsangehörigkeit/Recht wählen), selten — nicht sicher (Regel 14) 2026-10-16
+  'orakeln', // zurückgestellt: umgangssprachlich, selten (dunkle Andeutungen machen) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'ordinieren', // zurückgestellt: zwei Fachbedeutungen (Kirche: weihen; österr. Arzt: Sprechstunde halten) — nicht sicher (Regel 14) 2026-10-16
+  'orgeln', // zurückgestellt: umgangssprachlich/selten (Orgel spielen; röhren) — nicht sicher (Regel 14) 2026-10-16
+  'oxidieren', // zurückgestellt: Hilfsverb schwankt (hat/ist oxidiert) — nicht eindeutig (Regel 16) 2026-10-16
+  'oxydieren', // zurückgestellt: ältere Schreibung von oxidieren, Hilfsverb schwankt — nicht eindeutig (Regel 16) 2026-10-16
+  'paffen', // zurückgestellt: umgangssprachlich (rauchen ohne zu inhalieren) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'paneelieren', // zurückgestellt: Fachwort, sehr selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'päppeln', // zurückgestellt: meist «aufpäppeln», regional — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'paradieren', // zurückgestellt: gehoben/selten (in einer Parade vorbeiziehen; prunken) — nicht sicher (Regel 14) 2026-10-16
+  'paraphieren', // zurückgestellt: Fachwort Diplomatie (Vertrag vorläufig zeichnen) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'parkettieren', // zurückgestellt: Fachwort Handwerk, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'parkieren', // zurückgestellt: schweizerisch für parken — regionale Markierung nicht sicher (Regel 14) 2026-10-16
+  'parlieren', // zurückgestellt: gehoben/veraltend (leicht plaudern, v. a. in Fremdsprache) — zeitlich nicht sicher (Regel 17) 2026-10-16
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

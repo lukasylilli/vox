@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_nagen",
+  "wort": "nagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جویدن (مثل موش)",
+      "آزار دادن، خوردن (روح)"
+    ],
+    "en": [
+      "to gnaw",
+      "to nag at"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Tiere",
+    "Gefühle"
+  ],
+  "ipa": "ˈnaːɡn̩",
+  "anmerkung": "Übertragen: «am Hungertuch nagen» = sehr arm sein.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Maus nagt am Käse.",
+      "uebersetzung": {
+        "fa": "موش پنیر را می‌جود.",
+        "en": "The mouse is gnawing at the cheese."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Zweifel nagte an ihm, ob er die richtige Entscheidung getroffen hatte.",
+      "uebersetzung": {
+        "fa": "این تردید آزارش می‌داد که آیا تصمیم درستی گرفته بود.",
+        "en": "The doubt nagged at him as to whether he had made the right decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "knabbern",
+      "uebersetzung": {
+        "fa": "جویدن",
+        "en": "to nibble"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nagen an + Dat",
+        "bedeutung": "an etwas mit den Zähnen kleine Stücke abbeißen; jemanden innerlich quälen",
+        "beispiel": "Der Hund nagt an einem Knochen.",
+        "uebersetzung": {
+          "fa": "سگ استخوانی را می‌جود.",
+          "en": "The dog is gnawing at a bone."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nagen",
+      "praeteritum": "nagte",
+      "partizip2": "genagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nage",
+        "du": "nagst",
+        "er_sie_es": "nagt",
+        "wir": "nagen",
+        "ihr": "nagt",
+        "sie_Sie": "nagen"
+      },
+      "praeteritum": {
+        "ich": "nagte",
+        "du": "nagtest",
+        "er_sie_es": "nagte",
+        "wir": "nagten",
+        "ihr": "nagtet",
+        "sie_Sie": "nagten"
+      },
+      "konjunktiv1": {
+        "ich": "nage",
+        "du": "nagest",
+        "er_sie_es": "nage",
+        "wir": "nagen",
+        "ihr": "naget",
+        "sie_Sie": "nagen"
+      },
+      "konjunktiv2": {
+        "ich": "nagte",
+        "du": "nagtest",
+        "er_sie_es": "nagte",
+        "wir": "nagten",
+        "ihr": "nagtet",
+        "sie_Sie": "nagten"
+      },
+      "imperativ": {
+        "du": "Nage!",
+        "ihr": "Nagt!",
+        "Sie": "Nagen Sie!"
+      }
+    },
+    "partizip1": "nagend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Maus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "موش",
+          "en": "mouse"
+        },
+        "id_ref": "nomen_maus"
+      },
+      {
+        "wort": "beißen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گاز گرفتن",
+          "en": "to bite"
+        },
+        "id_ref": "verb_beissen"
+      },
+      {
+        "wort": "kauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to chew"
+        },
+        "id_ref": "verb_kauen"
+      },
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "das Nagetier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جونده",
+          "en": "rodent"
+        },
+        "id_ref": "nomen_nagetier"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

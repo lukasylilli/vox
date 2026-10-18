@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_offerieren",
+  "wort": "offerieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیشنهاد دادن",
+      "عرضه کردن"
+    ],
+    "en": [
+      "to offer"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Einkaufen"
+  ],
+  "ipa": "ɔfəˈʁiːʁən",
+  "anmerkung": "Gehoben, kaufmännisch; besonders in der Schweiz üblich.",
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Hotel offeriert ein Frühstück.",
+      "uebersetzung": {
+        "fa": "هتل صبحانه پیشنهاد می‌دهد.",
+        "en": "The hotel offers a breakfast."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma offerierte uns einen Rabatt, falls wir noch in diesem Monat bestellen.",
+      "uebersetzung": {
+        "fa": "شرکت به ما تخفیفی پیشنهاد داد، به شرطی که همین ماه سفارش بدهیم.",
+        "en": "The company offered us a discount if we ordered this month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anbieten",
+      "uebersetzung": {
+        "fa": "پیشنهاد دادن",
+        "en": "to offer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین offerre (پیش آوردن)",
+    "en": "from Latin offerre (to bring before)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas offerieren + Dat + Akk",
+        "bedeutung": "jemandem etwas anbieten",
+        "beispiel": "Der Kellner offeriert den Gästen einen Aperitif.",
+        "uebersetzung": {
+          "fa": "گارسون به مهمان‌ها یک نوشیدنی پیش از غذا پیشنهاد می‌کند.",
+          "en": "The waiter offers the guests an aperitif."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "offerieren",
+      "praeteritum": "offerierte",
+      "partizip2": "offeriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "offeriere",
+        "du": "offerierst",
+        "er_sie_es": "offeriert",
+        "wir": "offerieren",
+        "ihr": "offeriert",
+        "sie_Sie": "offerieren"
+      },
+      "praeteritum": {
+        "ich": "offerierte",
+        "du": "offeriertest",
+        "er_sie_es": "offerierte",
+        "wir": "offerierten",
+        "ihr": "offeriertet",
+        "sie_Sie": "offerierten"
+      },
+      "konjunktiv1": {
+        "ich": "offeriere",
+        "du": "offerierest",
+        "er_sie_es": "offeriere",
+        "wir": "offerieren",
+        "ihr": "offerieret",
+        "sie_Sie": "offerieren"
+      },
+      "konjunktiv2": {
+        "ich": "offerierte",
+        "du": "offeriertest",
+        "er_sie_es": "offerierte",
+        "wir": "offerierten",
+        "ihr": "offeriertet",
+        "sie_Sie": "offerierten"
+      },
+      "imperativ": {
+        "du": "Offeriere!",
+        "ihr": "Offeriert!",
+        "Sie": "Offerieren Sie!"
+      }
+    },
+    "partizip1": "offerierend",
+    "nominalisierung": "die Offerte"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "anbieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد دادن",
+          "en": "to offer"
+        },
+        "id_ref": "verb_anbieten"
+      },
+      {
+        "wort": "das Angebot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیشنهاد",
+          "en": "offer"
+        },
+        "id_ref": "nomen_angebot"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "die Offerte",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پیشنهاد قیمت",
+          "en": "quotation"
+        },
+        "id_ref": "nomen_offerte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

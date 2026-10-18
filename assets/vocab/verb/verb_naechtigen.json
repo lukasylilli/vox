@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_naechtigen",
+  "wort": "nächtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شب ماندن، شب را گذراندن",
+      "اقامت شبانه داشتن"
+    ],
+    "en": [
+      "to spend the night",
+      "to stay overnight"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Reisen",
+    "Wohnen"
+  ],
+  "ipa": "ˈnɛçtɪɡn̩",
+  "anmerkung": "Gehoben; in Österreich üblich (die Nächtigung = Übernachtung im Tourismus).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir nächtigen im Zelt.",
+      "uebersetzung": {
+        "fa": "شب را در چادر می‌گذرانیم.",
+        "en": "We are spending the night in the tent."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Sommer nächtigen viele Touristen in den Hütten, die hoch in den Bergen liegen.",
+      "uebersetzung": {
+        "fa": "در تابستان گردشگران زیادی در کلبه‌های بالای کوه شب می‌مانند.",
+        "en": "In summer many tourists stay overnight in the huts high up in the mountains."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übernachten",
+      "uebersetzung": {
+        "fa": "شب ماندن",
+        "en": "to stay overnight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Nacht (شب) + -igen",
+    "en": "Nacht (night) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nächtigen in/bei + Dat",
+        "bedeutung": "irgendwo die Nacht verbringen",
+        "beispiel": "Sie nächtigen bei Verwandten.",
+        "uebersetzung": {
+          "fa": "آن‌ها شب پیش اقوام می‌مانند.",
+          "en": "They are staying the night with relatives."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nächtigen",
+      "praeteritum": "nächtigte",
+      "partizip2": "genächtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nächtige",
+        "du": "nächtigst",
+        "er_sie_es": "nächtigt",
+        "wir": "nächtigen",
+        "ihr": "nächtigt",
+        "sie_Sie": "nächtigen"
+      },
+      "praeteritum": {
+        "ich": "nächtigte",
+        "du": "nächtigtest",
+        "er_sie_es": "nächtigte",
+        "wir": "nächtigten",
+        "ihr": "nächtigtet",
+        "sie_Sie": "nächtigten"
+      },
+      "konjunktiv1": {
+        "ich": "nächtige",
+        "du": "nächtigest",
+        "er_sie_es": "nächtige",
+        "wir": "nächtigen",
+        "ihr": "nächtiget",
+        "sie_Sie": "nächtigen"
+      },
+      "konjunktiv2": {
+        "ich": "nächtigte",
+        "du": "nächtigtest",
+        "er_sie_es": "nächtigte",
+        "wir": "nächtigten",
+        "ihr": "nächtigtet",
+        "sie_Sie": "nächtigten"
+      },
+      "imperativ": {
+        "du": "Nächtige!",
+        "ihr": "Nächtigt!",
+        "Sie": "Nächtigen Sie!"
+      }
+    },
+    "partizip1": "nächtigend",
+    "nominalisierung": "die Nächtigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Nacht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شب",
+          "en": "night"
+        },
+        "id_ref": "nomen_nacht"
+      },
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "übernachten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شب ماندن",
+          "en": "to stay overnight"
+        },
+        "id_ref": "verb_uebernachten"
+      },
+      {
+        "wort": "die Unterkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محل اقامت",
+          "en": "accommodation"
+        },
+        "id_ref": "nomen_unterkunft"
+      },
+      {
+        "wort": "die Nächtigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اقامت شبانه",
+          "en": "overnight stay"
+        },
+        "id_ref": "nomen_naechtigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_naehen",
+  "wort": "nähen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دوختن",
+      "بخیه زدن"
+    ],
+    "en": [
+      "to sew",
+      "to stitch (a wound)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kleidung",
+    "Medizin"
+  ],
+  "ipa": "ˈnɛːən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Oma näht ein Kleid.",
+      "uebersetzung": {
+        "fa": "مادربزرگ یک پیراهن می‌دوزد.",
+        "en": "Grandma is sewing a dress."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Wunde war so tief, dass der Arzt sie nähen musste.",
+      "uebersetzung": {
+        "fa": "زخم آن‌قدر عمیق بود که دکتر مجبور شد بخیه‌اش بزند.",
+        "en": "The wound was so deep that the doctor had to stitch it."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas nähen an + Akk",
+        "bedeutung": "etwas mit Nadel und Faden an etwas befestigen",
+        "beispiel": "Sie näht einen Knopf an die Jacke.",
+        "uebersetzung": {
+          "fa": "او یک دکمه به کت می‌دوزد.",
+          "en": "She sews a button onto the jacket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nähen",
+      "praeteritum": "nähte",
+      "partizip2": "genäht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nähe",
+        "du": "nähst",
+        "er_sie_es": "näht",
+        "wir": "nähen",
+        "ihr": "näht",
+        "sie_Sie": "nähen"
+      },
+      "praeteritum": {
+        "ich": "nähte",
+        "du": "nähtest",
+        "er_sie_es": "nähte",
+        "wir": "nähten",
+        "ihr": "nähtet",
+        "sie_Sie": "nähten"
+      },
+      "konjunktiv1": {
+        "ich": "nähe",
+        "du": "nähest",
+        "er_sie_es": "nähe",
+        "wir": "nähen",
+        "ihr": "nähet",
+        "sie_Sie": "nähen"
+      },
+      "konjunktiv2": {
+        "ich": "nähte",
+        "du": "nähtest",
+        "er_sie_es": "nähte",
+        "wir": "nähten",
+        "ihr": "nähtet",
+        "sie_Sie": "nähten"
+      },
+      "imperativ": {
+        "du": "Nähe!",
+        "ihr": "Näht!",
+        "Sie": "Nähen Sie!"
+      }
+    },
+    "partizip1": "nähend",
+    "nominalisierung": "die Naht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Nadel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوزن",
+          "en": "needle"
+        },
+        "id_ref": "nomen_nadel"
+      },
+      {
+        "wort": "der Faden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نخ",
+          "en": "thread"
+        },
+        "id_ref": "nomen_faden"
+      },
+      {
+        "wort": "der Stoff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارچه",
+          "en": "fabric"
+        },
+        "id_ref": "nomen_stoff"
+      },
+      {
+        "wort": "die Nähmaschine",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخ خیاطی",
+          "en": "sewing machine"
+        },
+        "id_ref": "nomen_naehmaschine"
+      },
+      {
+        "wort": "flicken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وصله کردن",
+          "en": "to patch"
+        },
+        "id_ref": "verb_flicken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

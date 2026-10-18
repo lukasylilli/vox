@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_neigen",
+  "wort": "neigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خم کردن، کج کردن",
+      "تمایل داشتن"
+    ],
+    "en": [
+      "to tilt, to bow",
+      "to tend (to)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Gefühle"
+  ],
+  "ipa": "ˈnaɪ̯ɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er neigt den Kopf.",
+      "uebersetzung": {
+        "fa": "سرش را خم می‌کند.",
+        "en": "He bows his head."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie neigt dazu, alles zu spät zu erledigen, wenn sie gestresst ist.",
+      "uebersetzung": {
+        "fa": "وقتی استرس دارد، تمایل دارد همه چیز را دیر انجام دهد.",
+        "en": "She tends to do everything late when she is stressed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    },
+    {
+      "wort": "tendieren",
+      "uebersetzung": {
+        "fa": "گرایش داشتن",
+        "en": "to tend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "neigen zu + Dat",
+        "bedeutung": "eine Tendenz zu etwas haben",
+        "beispiel": "Er neigt zu Übertreibungen.",
+        "uebersetzung": {
+          "fa": "او به اغراق تمایل دارد.",
+          "en": "He tends to exaggerate."
+        }
+      },
+      {
+        "muster": "sich neigen über + Akk",
+        "bedeutung": "sich über etwas beugen",
+        "beispiel": "Die Mutter neigt sich über das Bett.",
+        "uebersetzung": {
+          "fa": "مادر روی تخت خم می‌شود.",
+          "en": "The mother leans over the bed."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "neigen",
+      "praeteritum": "neigte",
+      "partizip2": "geneigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "neige",
+        "du": "neigst",
+        "er_sie_es": "neigt",
+        "wir": "neigen",
+        "ihr": "neigt",
+        "sie_Sie": "neigen"
+      },
+      "praeteritum": {
+        "ich": "neigte",
+        "du": "neigtest",
+        "er_sie_es": "neigte",
+        "wir": "neigten",
+        "ihr": "neigtet",
+        "sie_Sie": "neigten"
+      },
+      "konjunktiv1": {
+        "ich": "neige",
+        "du": "neigest",
+        "er_sie_es": "neige",
+        "wir": "neigen",
+        "ihr": "neiget",
+        "sie_Sie": "neigen"
+      },
+      "konjunktiv2": {
+        "ich": "neigte",
+        "du": "neigtest",
+        "er_sie_es": "neigte",
+        "wir": "neigten",
+        "ihr": "neigtet",
+        "sie_Sie": "neigten"
+      },
+      "imperativ": {
+        "du": "Neige!",
+        "ihr": "Neigt!",
+        "Sie": "Neigen Sie!"
+      }
+    },
+    "partizip1": "neigend",
+    "nominalisierung": "die Neigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "schief",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کج",
+          "en": "crooked"
+        },
+        "id_ref": "adjektiv_schief"
+      },
+      {
+        "wort": "die Neigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تمایل، شیب",
+          "en": "inclination"
+        },
+        "id_ref": "nomen_neigung"
+      },
+      {
+        "wort": "tendieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گرایش داشتن",
+          "en": "to tend"
+        },
+        "id_ref": "verb_tendieren"
+      },
+      {
+        "wort": "beugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_beugen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

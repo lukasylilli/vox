@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_munden",
+  "wort": "munden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوشمزه بودن (برای کسی)",
+      "به دهان مزه کردن"
+    ],
+    "en": [
+      "to taste good (to someone)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Gastronomie"
+  ],
+  "ipa": "ˈmʊndn̩",
+  "anmerkung": "Gehoben; vor allem in der Gastronomie: «Hat es (Ihnen) gemundet?»",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kuchen mundet mir.",
+      "uebersetzung": {
+        "fa": "کیک به دهانم مزه می‌کند.",
+        "en": "I like the taste of the cake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Hat es Ihnen gemundet, oder darf ich Ihnen noch etwas anderes bringen?",
+      "uebersetzung": {
+        "fa": "غذا به شما مزه کرد، یا چیز دیگری برایتان بیاورم؟",
+        "en": "Did you enjoy your meal, or may I bring you something else?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schmecken",
+      "uebersetzung": {
+        "fa": "مزه دادن",
+        "en": "to taste good"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. munden + Dat",
+        "bedeutung": "jemandem gut schmecken",
+        "beispiel": "Der Wein mundet den Gästen.",
+        "uebersetzung": {
+          "fa": "شراب به مهمان‌ها مزه می‌کند.",
+          "en": "The guests enjoy the wine."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "munden",
+      "praeteritum": "mundete",
+      "partizip2": "gemundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "munde",
+        "du": "mundest",
+        "er_sie_es": "mundet",
+        "wir": "munden",
+        "ihr": "mundet",
+        "sie_Sie": "munden"
+      },
+      "praeteritum": {
+        "ich": "mundete",
+        "du": "mundetest",
+        "er_sie_es": "mundete",
+        "wir": "mundeten",
+        "ihr": "mundetet",
+        "sie_Sie": "mundeten"
+      },
+      "konjunktiv1": {
+        "ich": "munde",
+        "du": "mundest",
+        "er_sie_es": "munde",
+        "wir": "munden",
+        "ihr": "mundet",
+        "sie_Sie": "munden"
+      },
+      "konjunktiv2": {
+        "ich": "mundete",
+        "du": "mundetest",
+        "er_sie_es": "mundete",
+        "wir": "mundeten",
+        "ihr": "mundetet",
+        "sie_Sie": "mundeten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "mundend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Mund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دهان",
+          "en": "mouth"
+        },
+        "id_ref": "nomen_mund"
+      },
+      {
+        "wort": "lecker",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشمزه",
+          "en": "tasty"
+        },
+        "id_ref": "adjektiv_lecker"
+      },
+      {
+        "wort": "schmecken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مزه دادن",
+          "en": "to taste"
+        },
+        "id_ref": "verb_schmecken"
+      },
+      {
+        "wort": "köstlich",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لذیذ",
+          "en": "delicious"
+        },
+        "id_ref": "adjektiv_koestlich"
+      },
+      {
+        "wort": "genießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لذت بردن",
+          "en": "to enjoy"
+        },
+        "id_ref": "verb_geniessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_muehen",
+  "wort": "mühen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زحمت کشیدن، تلاش کردن",
+      "به خود سختی دادن"
+    ],
+    "en": [
+      "to strive, to make an effort",
+      "to toil"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Gefühle"
+  ],
+  "ipa": "ˈmyːən",
+  "anmerkung": "Gehoben; reflexiv: «sich mühen». Häufiger: sich bemühen, sich anstrengen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie müht sich sehr.",
+      "uebersetzung": {
+        "fa": "او خیلی زحمت می‌کشد.",
+        "en": "She is trying very hard."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er mühte sich vergeblich, den schweren Koffer in den Zug zu heben.",
+      "uebersetzung": {
+        "fa": "بیهوده تلاش کرد چمدان سنگین را داخل قطار بلند کند.",
+        "en": "He struggled in vain to lift the heavy suitcase into the train."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstrengen",
+      "uebersetzung": {
+        "fa": "به خود فشار آوردن",
+        "en": "to make an effort"
+      }
+    },
+    {
+      "wort": "bemühen",
+      "uebersetzung": {
+        "fa": "تلاش کردن",
+        "en": "to endeavour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich mühen um + Akk",
+        "bedeutung": "sich um etwas bemühen",
+        "beispiel": "Die Ärzte mühen sich um den Patienten.",
+        "uebersetzung": {
+          "fa": "پزشکان برای بیمار تلاش می‌کنند.",
+          "en": "The doctors are doing their best for the patient."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "mühen",
+      "praeteritum": "mühte",
+      "partizip2": "gemüht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mühe",
+        "du": "mühst",
+        "er_sie_es": "müht",
+        "wir": "mühen",
+        "ihr": "müht",
+        "sie_Sie": "mühen"
+      },
+      "praeteritum": {
+        "ich": "mühte",
+        "du": "mühtest",
+        "er_sie_es": "mühte",
+        "wir": "mühten",
+        "ihr": "mühtet",
+        "sie_Sie": "mühten"
+      },
+      "konjunktiv1": {
+        "ich": "mühe",
+        "du": "mühest",
+        "er_sie_es": "mühe",
+        "wir": "mühen",
+        "ihr": "mühet",
+        "sie_Sie": "mühen"
+      },
+      "konjunktiv2": {
+        "ich": "mühte",
+        "du": "mühtest",
+        "er_sie_es": "mühte",
+        "wir": "mühten",
+        "ihr": "mühtet",
+        "sie_Sie": "mühten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "mühend",
+    "nominalisierung": "die Mühe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Mühe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زحمت",
+          "en": "effort"
+        },
+        "id_ref": "nomen_muehe"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سخت، سنگین",
+          "en": "hard, heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      },
+      {
+        "wort": "versuchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تلاش کردن",
+          "en": "to try"
+        },
+        "id_ref": "verb_versuchen"
+      },
+      {
+        "wort": "anstrengen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به خود فشار آوردن",
+          "en": "to make an effort"
+        },
+        "id_ref": "verb_anstrengen"
+      },
+      {
+        "wort": "bemühen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلاش کردن",
+          "en": "to endeavour"
+        },
+        "id_ref": "verb_bemuehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

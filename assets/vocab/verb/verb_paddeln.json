@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "verb_paddeln",
+  "wort": "paddeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارو زدن (قایق کانو)",
+      "با قایق پارویی رفتن"
+    ],
+    "en": [
+      "to paddle",
+      "to canoe"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Freizeit"
+  ],
+  "ipa": "ˈpadl̩n",
+  "anmerkung": "Mit Richtungsangabe (irgendwohin paddeln) mit «sein»; ohne Ziel (z. B. «Wir haben zwei Stunden gepaddelt») auch mit «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir paddeln auf dem See.",
+      "uebersetzung": {
+        "fa": "روی دریاچه پارو می‌زنیم.",
+        "en": "We are paddling on the lake."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Am Wochenende sind wir mit dem Kanu bis zur nächsten Brücke gepaddelt.",
+      "uebersetzung": {
+        "fa": "آخر هفته با کانو تا پل بعدی پارو زدیم.",
+        "en": "At the weekend we paddled by canoe as far as the next bridge."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rudern",
+      "uebersetzung": {
+        "fa": "پارو زدن",
+        "en": "to row"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "paddeln",
+      "praeteritum": "paddelte",
+      "partizip2": "gepaddelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "paddle",
+        "du": "paddelst",
+        "er_sie_es": "paddelt",
+        "wir": "paddeln",
+        "ihr": "paddelt",
+        "sie_Sie": "paddeln"
+      },
+      "praeteritum": {
+        "ich": "paddelte",
+        "du": "paddeltest",
+        "er_sie_es": "paddelte",
+        "wir": "paddelten",
+        "ihr": "paddeltet",
+        "sie_Sie": "paddelten"
+      },
+      "konjunktiv1": {
+        "ich": "paddle",
+        "du": "paddlest",
+        "er_sie_es": "paddle",
+        "wir": "paddeln",
+        "ihr": "paddlet",
+        "sie_Sie": "paddeln"
+      },
+      "konjunktiv2": {
+        "ich": "paddelte",
+        "du": "paddeltest",
+        "er_sie_es": "paddelte",
+        "wir": "paddelten",
+        "ihr": "paddeltet",
+        "sie_Sie": "paddelten"
+      },
+      "imperativ": {
+        "du": "Paddle!",
+        "ihr": "Paddelt!",
+        "Sie": "Paddeln Sie!"
+      }
+    },
+    "partizip1": "paddelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Boot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قایق",
+          "en": "boat"
+        },
+        "id_ref": "nomen_boot"
+      },
+      {
+        "wort": "der See",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریاچه",
+          "en": "lake"
+        },
+        "id_ref": "nomen_see"
+      },
+      {
+        "wort": "rudern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارو زدن",
+          "en": "to row"
+        },
+        "id_ref": "verb_rudern"
+      },
+      {
+        "wort": "schwimmen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنا کردن",
+          "en": "to swim"
+        },
+        "id_ref": "verb_schwimmen"
+      },
+      {
+        "wort": "das Kanu",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کانو",
+          "en": "canoe"
+        },
+        "id_ref": "nomen_kanu"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

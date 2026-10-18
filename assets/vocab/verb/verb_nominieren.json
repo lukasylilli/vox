@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_nominieren",
+  "wort": "nominieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نامزد کردن",
+      "معرفی کردن (برای جایزه یا مقام)"
+    ],
+    "en": [
+      "to nominate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik",
+    "Kultur"
+  ],
+  "ipa": "nomiˈniːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Film wird nominiert.",
+      "uebersetzung": {
+        "fa": "فیلم نامزد می‌شود.",
+        "en": "The film is being nominated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Partei hat eine junge Ärztin als Kandidatin für die Wahl nominiert.",
+      "uebersetzung": {
+        "fa": "حزب یک پزشک جوان را نامزد انتخابات کرده است.",
+        "en": "The party has nominated a young doctor as its candidate for the election."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorschlagen",
+      "uebersetzung": {
+        "fa": "پیشنهاد کردن",
+        "en": "to propose"
+      }
+    },
+    {
+      "wort": "aufstellen",
+      "uebersetzung": {
+        "fa": "معرفی کردن",
+        "en": "to put forward"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین nominare (نام بردن)",
+    "en": "from Latin nominare (to name)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. nominieren für + Akk",
+        "bedeutung": "jemanden für etwas vorschlagen",
+        "beispiel": "Sie wurde für den Oscar nominiert.",
+        "uebersetzung": {
+          "fa": "او نامزد اسکار شد.",
+          "en": "She was nominated for the Oscar."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nominieren",
+      "praeteritum": "nominierte",
+      "partizip2": "nominiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nominiere",
+        "du": "nominierst",
+        "er_sie_es": "nominiert",
+        "wir": "nominieren",
+        "ihr": "nominiert",
+        "sie_Sie": "nominieren"
+      },
+      "praeteritum": {
+        "ich": "nominierte",
+        "du": "nominiertest",
+        "er_sie_es": "nominierte",
+        "wir": "nominierten",
+        "ihr": "nominiertet",
+        "sie_Sie": "nominierten"
+      },
+      "konjunktiv1": {
+        "ich": "nominiere",
+        "du": "nominierest",
+        "er_sie_es": "nominiere",
+        "wir": "nominieren",
+        "ihr": "nominieret",
+        "sie_Sie": "nominieren"
+      },
+      "konjunktiv2": {
+        "ich": "nominierte",
+        "du": "nominiertest",
+        "er_sie_es": "nominierte",
+        "wir": "nominierten",
+        "ihr": "nominiertet",
+        "sie_Sie": "nominierten"
+      },
+      "imperativ": {
+        "du": "Nominiere!",
+        "ihr": "Nominiert!",
+        "Sie": "Nominieren Sie!"
+      }
+    },
+    "partizip1": "nominierend",
+    "nominalisierung": "die Nominierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wählen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتخاب کردن",
+          "en": "to choose, to vote"
+        },
+        "id_ref": "verb_waehlen"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جایزه، قیمت",
+          "en": "prize"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "der Kandidat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامزد",
+          "en": "candidate"
+        },
+        "id_ref": "nomen_kandidat"
+      },
+      {
+        "wort": "vorschlagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیشنهاد کردن",
+          "en": "to propose"
+        },
+        "id_ref": "verb_vorschlagen"
+      },
+      {
+        "wort": "die Nominierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نامزدی",
+          "en": "nomination"
+        },
+        "id_ref": "nomen_nominierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

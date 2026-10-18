@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_opfern",
+  "wort": "opfern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قربانی کردن",
+      "فدا کردن"
+    ],
+    "en": [
+      "to sacrifice"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Religion",
+    "Gefühle"
+  ],
+  "ipa": "ˈɔpfɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie opfert ihre Freizeit.",
+      "uebersetzung": {
+        "fa": "او وقت آزادش را فدا می‌کند.",
+        "en": "She sacrifices her free time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Karriere ihrer Kinder hat sie viele eigene Wünsche geopfert.",
+      "uebersetzung": {
+        "fa": "برای آینده‌ی شغلی بچه‌هایش از خیلی از آرزوهای خودش گذشت.",
+        "en": "For her children's careers she sacrificed many of her own wishes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufgeben",
+      "uebersetzung": {
+        "fa": "دست کشیدن",
+        "en": "to give up"
+      }
+    },
+    {
+      "wort": "hingeben",
+      "uebersetzung": {
+        "fa": "وقف کردن",
+        "en": "to devote"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Opfer (قربانی) + -n",
+    "en": "Opfer (sacrifice) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas opfern für + Akk",
+        "bedeutung": "etwas für jemanden/etwas hergeben",
+        "beispiel": "Er opfert viel Zeit für den Verein.",
+        "uebersetzung": {
+          "fa": "او وقت زیادی برای باشگاه می‌گذارد.",
+          "en": "He sacrifices a lot of time for the club."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "opfern",
+      "praeteritum": "opferte",
+      "partizip2": "geopfert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "opfere",
+        "du": "opferst",
+        "er_sie_es": "opfert",
+        "wir": "opfern",
+        "ihr": "opfert",
+        "sie_Sie": "opfern"
+      },
+      "praeteritum": {
+        "ich": "opferte",
+        "du": "opfertest",
+        "er_sie_es": "opferte",
+        "wir": "opferten",
+        "ihr": "opfertet",
+        "sie_Sie": "opferten"
+      },
+      "konjunktiv1": {
+        "ich": "opfere",
+        "du": "opferest",
+        "er_sie_es": "opfere",
+        "wir": "opfern",
+        "ihr": "opferet",
+        "sie_Sie": "opfern"
+      },
+      "konjunktiv2": {
+        "ich": "opferte",
+        "du": "opfertest",
+        "er_sie_es": "opferte",
+        "wir": "opferten",
+        "ihr": "opfertet",
+        "sie_Sie": "opferten"
+      },
+      "imperativ": {
+        "du": "Opfere!",
+        "ihr": "Opfert!",
+        "Sie": "Opfern Sie!"
+      }
+    },
+    "partizip1": "opfernd",
+    "nominalisierung": "das Opfer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "geben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_geben"
+      },
+      {
+        "wort": "verzichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چشم پوشیدن",
+          "en": "to do without"
+        },
+        "id_ref": "verb_verzichten"
+      },
+      {
+        "wort": "das Opfer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قربانی",
+          "en": "victim, sacrifice"
+        },
+        "id_ref": "nomen_opfer"
+      },
+      {
+        "wort": "spenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اهدا کردن",
+          "en": "to donate"
+        },
+        "id_ref": "verb_spenden"
+      },
+      {
+        "wort": "aufopfern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فداکاری کردن",
+          "en": "to sacrifice oneself"
+        },
+        "id_ref": "verb_aufopfern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

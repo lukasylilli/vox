@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_naehren",
+  "wort": "nähren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تغذیه کردن",
+      "پروراندن (امید، شک)"
+    ],
+    "en": [
+      "to nourish, to feed",
+      "to nurture (hope, doubt)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "ˈnɛːʁən",
+  "anmerkung": "Gehoben; reflexiv: «sich von etwas nähren».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter nährt ihr Baby.",
+      "uebersetzung": {
+        "fa": "مادر به نوزادش غذا می‌دهد.",
+        "en": "The mother feeds her baby."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die vagen Antworten des Arztes nährten ihre Hoffnung, dass alles gut ausgeht.",
+      "uebersetzung": {
+        "fa": "جواب‌های مبهم پزشک امیدش را تقویت کرد که همه چیز خوب تمام شود.",
+        "en": "The doctor's vague answers nurtured her hope that everything would turn out well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ernähren",
+      "uebersetzung": {
+        "fa": "تغذیه کردن",
+        "en": "to nourish"
+      }
+    },
+    {
+      "wort": "füttern",
+      "uebersetzung": {
+        "fa": "غذا دادن",
+        "en": "to feed"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich nähren von + Dat",
+        "bedeutung": "von etwas leben/sich ernähren",
+        "beispiel": "Die Raupe nährt sich von Blättern.",
+        "uebersetzung": {
+          "fa": "کرم پروانه از برگ‌ها تغذیه می‌کند.",
+          "en": "The caterpillar feeds on leaves."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nähren",
+      "praeteritum": "nährte",
+      "partizip2": "genährt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nähre",
+        "du": "nährst",
+        "er_sie_es": "nährt",
+        "wir": "nähren",
+        "ihr": "nährt",
+        "sie_Sie": "nähren"
+      },
+      "praeteritum": {
+        "ich": "nährte",
+        "du": "nährtest",
+        "er_sie_es": "nährte",
+        "wir": "nährten",
+        "ihr": "nährtet",
+        "sie_Sie": "nährten"
+      },
+      "konjunktiv1": {
+        "ich": "nähre",
+        "du": "nährest",
+        "er_sie_es": "nähre",
+        "wir": "nähren",
+        "ihr": "nähret",
+        "sie_Sie": "nähren"
+      },
+      "konjunktiv2": {
+        "ich": "nährte",
+        "du": "nährtest",
+        "er_sie_es": "nährte",
+        "wir": "nährten",
+        "ihr": "nährtet",
+        "sie_Sie": "nährten"
+      },
+      "imperativ": {
+        "du": "Nähre!",
+        "ihr": "Nährt!",
+        "Sie": "Nähren Sie!"
+      }
+    },
+    "partizip1": "nährend",
+    "nominalisierung": "die Nahrung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "füttern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غذا دادن",
+          "en": "to feed"
+        },
+        "id_ref": "verb_fuettern"
+      },
+      {
+        "wort": "die Nahrung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غذا، تغذیه",
+          "en": "food"
+        },
+        "id_ref": "nomen_nahrung"
+      },
+      {
+        "wort": "ernähren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغذیه کردن",
+          "en": "to nourish"
+        },
+        "id_ref": "verb_ernaehren"
+      },
+      {
+        "wort": "nahrhaft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مغذی",
+          "en": "nutritious"
+        },
+        "id_ref": "adjektiv_nahrhaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

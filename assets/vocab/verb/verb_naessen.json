@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_naessen",
+  "wort": "nässen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خیس کردن",
+      "ترشح داشتن (زخم)"
+    ],
+    "en": [
+      "to wet",
+      "to weep (of a wound)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "ˈnɛsn̩",
+  "anmerkung": "Medizinisch: eine nässende Wunde. Gehoben für «nass machen».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde nässt.",
+      "uebersetzung": {
+        "fa": "زخم ترشح دارد.",
+        "en": "The wound is weeping."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Kind nässt nachts noch das Bett, obwohl es schon sechs Jahre alt ist.",
+      "uebersetzung": {
+        "fa": "بچه با اینکه شش سالش است، هنوز شب‌ها جایش را خیس می‌کند.",
+        "en": "The child still wets the bed at night although he is already six years old."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "befeuchten",
+      "uebersetzung": {
+        "fa": "مرطوب کردن",
+        "en": "to moisten"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "trocknen",
+      "uebersetzung": {
+        "fa": "خشک کردن",
+        "en": "to dry"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nass (خیس) + -en",
+    "en": "nass (wet) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "nässen",
+      "praeteritum": "nässte",
+      "partizip2": "genässt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nässe",
+        "du": "nässt",
+        "er_sie_es": "nässt",
+        "wir": "nässen",
+        "ihr": "nässt",
+        "sie_Sie": "nässen"
+      },
+      "praeteritum": {
+        "ich": "nässte",
+        "du": "nässtest",
+        "er_sie_es": "nässte",
+        "wir": "nässten",
+        "ihr": "nässtet",
+        "sie_Sie": "nässten"
+      },
+      "konjunktiv1": {
+        "ich": "nässe",
+        "du": "nässest",
+        "er_sie_es": "nässe",
+        "wir": "nässen",
+        "ihr": "nässet",
+        "sie_Sie": "nässen"
+      },
+      "konjunktiv2": {
+        "ich": "nässte",
+        "du": "nässtest",
+        "er_sie_es": "nässte",
+        "wir": "nässten",
+        "ihr": "nässtet",
+        "sie_Sie": "nässten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "nässend",
+    "nominalisierung": "die Nässe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "nass",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیس",
+          "en": "wet"
+        },
+        "id_ref": "adjektiv_nass"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "feucht",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نمناک",
+          "en": "damp"
+        },
+        "id_ref": "adjektiv_feucht"
+      },
+      {
+        "wort": "die Nässe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیسی، رطوبت",
+          "en": "wetness"
+        },
+        "id_ref": "nomen_naesse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

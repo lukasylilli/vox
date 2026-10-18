@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_paginieren",
+  "wort": "paginieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صفحه‌شماری کردن",
+      "شماره‌ی صفحه گذاشتن"
+    ],
+    "en": [
+      "to paginate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Büro",
+    "Medien"
+  ],
+  "ipa": "paɡiˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie paginiert das Dokument.",
+      "uebersetzung": {
+        "fa": "او صفحه‌های سند را شماره‌گذاری می‌کند.",
+        "en": "She paginates the document."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Arbeit gedruckt wird, muss sie korrekt paginiert sein.",
+      "uebersetzung": {
+        "fa": "پیش از چاپ، صفحه‌های پایان‌نامه باید درست شماره‌گذاری شده باشد.",
+        "en": "Before the thesis is printed, it must be correctly paginated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nummerieren",
+      "uebersetzung": {
+        "fa": "شماره‌گذاری کردن",
+        "en": "to number"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین pagina (صفحه)",
+    "en": "from Latin pagina (page)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "paginieren",
+      "praeteritum": "paginierte",
+      "partizip2": "paginiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "paginiere",
+        "du": "paginierst",
+        "er_sie_es": "paginiert",
+        "wir": "paginieren",
+        "ihr": "paginiert",
+        "sie_Sie": "paginieren"
+      },
+      "praeteritum": {
+        "ich": "paginierte",
+        "du": "paginiertest",
+        "er_sie_es": "paginierte",
+        "wir": "paginierten",
+        "ihr": "paginiertet",
+        "sie_Sie": "paginierten"
+      },
+      "konjunktiv1": {
+        "ich": "paginiere",
+        "du": "paginierest",
+        "er_sie_es": "paginiere",
+        "wir": "paginieren",
+        "ihr": "paginieret",
+        "sie_Sie": "paginieren"
+      },
+      "konjunktiv2": {
+        "ich": "paginierte",
+        "du": "paginiertest",
+        "er_sie_es": "paginierte",
+        "wir": "paginierten",
+        "ihr": "paginiertet",
+        "sie_Sie": "paginierten"
+      },
+      "imperativ": {
+        "du": "Paginiere!",
+        "ihr": "Paginiert!",
+        "Sie": "Paginieren Sie!"
+      }
+    },
+    "partizip1": "paginierend",
+    "nominalisierung": "die Paginierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صفحه",
+          "en": "page"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "die Nummer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شماره",
+          "en": "number"
+        },
+        "id_ref": "nomen_nummer"
+      },
+      {
+        "wort": "nummerieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شماره‌گذاری کردن",
+          "en": "to number"
+        },
+        "id_ref": "verb_nummerieren"
+      },
+      {
+        "wort": "drucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپ کردن",
+          "en": "to print"
+        },
+        "id_ref": "verb_drucken"
+      },
+      {
+        "wort": "die Paginierung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "صفحه‌شماری",
+          "en": "pagination"
+        },
+        "id_ref": "nomen_paginierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

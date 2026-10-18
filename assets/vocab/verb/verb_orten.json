@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_orten",
+  "wort": "orten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مکان‌یابی کردن",
+      "ردیابی کردن"
+    ],
+    "en": [
+      "to locate",
+      "to track"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Verkehr"
+  ],
+  "ipa": "ˈɔʁtn̩",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Radar ortet das Flugzeug.",
+      "uebersetzung": {
+        "fa": "رادار هواپیما را ردیابی می‌کند.",
+        "en": "The radar locates the plane."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei konnte das gestohlene Handy über GPS orten, noch bevor der Dieb es ausschaltete.",
+      "uebersetzung": {
+        "fa": "پلیس توانست گوشی دزدیده‌شده را پیش از آنکه دزد خاموشش کند، با جی‌پی‌اس ردیابی کند.",
+        "en": "The police were able to locate the stolen phone via GPS before the thief switched it off."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lokalisieren",
+      "uebersetzung": {
+        "fa": "مکان‌یابی کردن",
+        "en": "to locate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ort (مکان) + -en",
+    "en": "Ort (place) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "orten",
+      "praeteritum": "ortete",
+      "partizip2": "geortet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "orte",
+        "du": "ortest",
+        "er_sie_es": "ortet",
+        "wir": "orten",
+        "ihr": "ortet",
+        "sie_Sie": "orten"
+      },
+      "praeteritum": {
+        "ich": "ortete",
+        "du": "ortetest",
+        "er_sie_es": "ortete",
+        "wir": "orteten",
+        "ihr": "ortetet",
+        "sie_Sie": "orteten"
+      },
+      "konjunktiv1": {
+        "ich": "orte",
+        "du": "ortest",
+        "er_sie_es": "orte",
+        "wir": "orten",
+        "ihr": "ortet",
+        "sie_Sie": "orten"
+      },
+      "konjunktiv2": {
+        "ich": "ortete",
+        "du": "ortetest",
+        "er_sie_es": "ortete",
+        "wir": "orteten",
+        "ihr": "ortetet",
+        "sie_Sie": "orteten"
+      },
+      "imperativ": {
+        "du": "Orte!",
+        "ihr": "Ortet!",
+        "Sie": "Orten Sie!"
+      }
+    },
+    "partizip1": "ortend",
+    "nominalisierung": "die Ortung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Ort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مکان",
+          "en": "place"
+        },
+        "id_ref": "nomen_ort"
+      },
+      {
+        "wort": "finden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیدا کردن",
+          "en": "to find"
+        },
+        "id_ref": "verb_finden"
+      },
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "lokalisieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مکان‌یابی کردن",
+          "en": "to locate"
+        },
+        "id_ref": "verb_lokalisieren"
+      },
+      {
+        "wort": "die Ortung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مکان‌یابی",
+          "en": "location tracking"
+        },
+        "id_ref": "nomen_ortung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

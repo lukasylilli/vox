@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_narkotisieren",
+  "wort": "narkotisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیهوش کردن (با داروی بیهوشی)",
+      "داروی بیهوشی دادن"
+    ],
+    "en": [
+      "to anaesthetize",
+      "to narcotize"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "naʁkotiˈziːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt narkotisiert den Patienten.",
+      "uebersetzung": {
+        "fa": "پزشک بیمار را بیهوش می‌کند.",
+        "en": "The doctor anaesthetizes the patient."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Tier operiert werden konnte, musste der Tierarzt es narkotisieren.",
+      "uebersetzung": {
+        "fa": "پیش از عمل، دامپزشک باید حیوان را بیهوش می‌کرد.",
+        "en": "Before the animal could be operated on, the vet had to anaesthetize it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betäuben",
+      "uebersetzung": {
+        "fa": "بی‌حس کردن",
+        "en": "to anaesthetize"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wecken",
+      "uebersetzung": {
+        "fa": "بیدار کردن",
+        "en": "to wake"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Narkose (بیهوشی) + -tisieren (پسوند فعل‌ساز)",
+    "en": "Narkose (anaesthesia) + -tisieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "narkotisieren",
+      "praeteritum": "narkotisierte",
+      "partizip2": "narkotisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "narkotisiere",
+        "du": "narkotisierst",
+        "er_sie_es": "narkotisiert",
+        "wir": "narkotisieren",
+        "ihr": "narkotisiert",
+        "sie_Sie": "narkotisieren"
+      },
+      "praeteritum": {
+        "ich": "narkotisierte",
+        "du": "narkotisiertest",
+        "er_sie_es": "narkotisierte",
+        "wir": "narkotisierten",
+        "ihr": "narkotisiertet",
+        "sie_Sie": "narkotisierten"
+      },
+      "konjunktiv1": {
+        "ich": "narkotisiere",
+        "du": "narkotisierest",
+        "er_sie_es": "narkotisiere",
+        "wir": "narkotisieren",
+        "ihr": "narkotisieret",
+        "sie_Sie": "narkotisieren"
+      },
+      "konjunktiv2": {
+        "ich": "narkotisierte",
+        "du": "narkotisiertest",
+        "er_sie_es": "narkotisierte",
+        "wir": "narkotisierten",
+        "ihr": "narkotisiertet",
+        "sie_Sie": "narkotisierten"
+      },
+      "imperativ": {
+        "du": "Narkotisiere!",
+        "ihr": "Narkotisiert!",
+        "Sie": "Narkotisieren Sie!"
+      }
+    },
+    "partizip1": "narkotisierend",
+    "nominalisierung": "die Narkose"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      },
+      {
+        "wort": "operieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل کردن",
+          "en": "to operate"
+        },
+        "id_ref": "verb_operieren"
+      },
+      {
+        "wort": "die Narkose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوشی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_narkose"
+      },
+      {
+        "wort": "betäuben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌حس کردن",
+          "en": "to anaesthetize"
+        },
+        "id_ref": "verb_betaeuben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

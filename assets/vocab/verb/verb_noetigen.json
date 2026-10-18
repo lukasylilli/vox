@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_noetigen",
+  "wort": "nötigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وادار کردن، مجبور کردن",
+      "اصرار کردن (به مهمان)"
+    ],
+    "en": [
+      "to force, to coerce",
+      "to urge, to press"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Alltag"
+  ],
+  "ipa": "ˈnøːtɪɡn̩",
+  "anmerkung": "Im Recht: Nötigung ist eine Straftat (jemanden mit Gewalt oder Drohung zu etwas zwingen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie nötigt uns zum Essen.",
+      "uebersetzung": {
+        "fa": "او ما را به خوردن وادار می‌کند.",
+        "en": "She presses us to eat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer einen anderen Fahrer durch dichtes Auffahren nötigt, kann seinen Führerschein verlieren.",
+      "uebersetzung": {
+        "fa": "هر کس با چسبیدن به ماشین جلویی راننده‌ی دیگری را تحت فشار بگذارد، ممکن است گواهینامه‌اش را از دست بدهد.",
+        "en": "Anyone who coerces another driver by tailgating can lose their driving licence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zwingen",
+      "uebersetzung": {
+        "fa": "مجبور کردن",
+        "en": "to force"
+      }
+    },
+    {
+      "wort": "drängen",
+      "uebersetzung": {
+        "fa": "اصرار کردن",
+        "en": "to urge"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Not (ضرورت) + -igen",
+    "en": "Not (need) + -igen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. nötigen zu + Dat",
+        "bedeutung": "jemanden zu etwas drängen oder zwingen",
+        "beispiel": "Man hat ihn zur Unterschrift genötigt.",
+        "uebersetzung": {
+          "fa": "او را به امضا کردن وادار کردند.",
+          "en": "He was coerced into signing."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nötigen",
+      "praeteritum": "nötigte",
+      "partizip2": "genötigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nötige",
+        "du": "nötigst",
+        "er_sie_es": "nötigt",
+        "wir": "nötigen",
+        "ihr": "nötigt",
+        "sie_Sie": "nötigen"
+      },
+      "praeteritum": {
+        "ich": "nötigte",
+        "du": "nötigtest",
+        "er_sie_es": "nötigte",
+        "wir": "nötigten",
+        "ihr": "nötigtet",
+        "sie_Sie": "nötigten"
+      },
+      "konjunktiv1": {
+        "ich": "nötige",
+        "du": "nötigest",
+        "er_sie_es": "nötige",
+        "wir": "nötigen",
+        "ihr": "nötiget",
+        "sie_Sie": "nötigen"
+      },
+      "konjunktiv2": {
+        "ich": "nötigte",
+        "du": "nötigtest",
+        "er_sie_es": "nötigte",
+        "wir": "nötigten",
+        "ihr": "nötigtet",
+        "sie_Sie": "nötigten"
+      },
+      "imperativ": {
+        "du": "Nötige!",
+        "ihr": "Nötigt!",
+        "Sie": "Nötigen Sie!"
+      }
+    },
+    "partizip1": "nötigend",
+    "nominalisierung": "die Nötigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "müssen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مجبور بودن",
+          "en": "to have to"
+        },
+        "id_ref": "verb_muessen"
+      },
+      {
+        "wort": "die Not",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیاز، ضرورت",
+          "en": "need"
+        },
+        "id_ref": "nomen_not"
+      },
+      {
+        "wort": "zwingen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجبور کردن",
+          "en": "to force"
+        },
+        "id_ref": "verb_zwingen"
+      },
+      {
+        "wort": "drängen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اصرار کردن",
+          "en": "to urge"
+        },
+        "id_ref": "verb_draengen"
+      },
+      {
+        "wort": "die Nötigung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجبار (جرم)",
+          "en": "coercion"
+        },
+        "id_ref": "nomen_noetigung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

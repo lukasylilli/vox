@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_nachhaken",
+  "wort": "nachhaken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیگیری کردن، دوباره پرسیدن",
+      "سؤال تکمیلی کردن"
+    ],
+    "en": [
+      "to follow up",
+      "to probe further"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Medien"
+  ],
+  "ipa": "ˈnaːxˌhaːkn̩",
+  "anmerkung": "Trennbar (hakte nach, nachgehakt). Umgangssprachlich.",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Journalistin hakt nach.",
+      "uebersetzung": {
+        "fa": "خبرنگار سؤال تکمیلی می‌پرسد.",
+        "en": "The journalist follows up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Antwort unklar war, hakte der Moderator noch einmal nach.",
+      "uebersetzung": {
+        "fa": "چون جواب روشن نبود، مجری یک بار دیگر پیگیری کرد.",
+        "en": "Because the answer was unclear, the presenter probed further."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachfragen",
+      "uebersetzung": {
+        "fa": "دوباره پرسیدن",
+        "en": "to ask again"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nach- (دوباره، پشت سر) + haken (قلاب کردن)",
+    "en": "nach- (after) + haken (to hook)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nachhaken bei + Dat",
+        "bedeutung": "bei jemandem noch einmal nachfragen",
+        "beispiel": "Ich hake morgen beim Amt nach.",
+        "uebersetzung": {
+          "fa": "فردا از اداره پیگیری می‌کنم.",
+          "en": "I will follow up with the authorities tomorrow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nachhaken",
+      "praeteritum": "hakte nach",
+      "partizip2": "nachgehakt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "hake nach",
+        "du": "hakst nach",
+        "er_sie_es": "hakt nach",
+        "wir": "haken nach",
+        "ihr": "hakt nach",
+        "sie_Sie": "haken nach"
+      },
+      "praeteritum": {
+        "ich": "hakte nach",
+        "du": "haktest nach",
+        "er_sie_es": "hakte nach",
+        "wir": "hakten nach",
+        "ihr": "haktet nach",
+        "sie_Sie": "hakten nach"
+      },
+      "konjunktiv1": {
+        "ich": "hake nach",
+        "du": "hakest nach",
+        "er_sie_es": "hake nach",
+        "wir": "haken nach",
+        "ihr": "haket nach",
+        "sie_Sie": "haken nach"
+      },
+      "konjunktiv2": {
+        "ich": "hakte nach",
+        "du": "haktest nach",
+        "er_sie_es": "hakte nach",
+        "wir": "hakten nach",
+        "ihr": "haktet nach",
+        "sie_Sie": "hakten nach"
+      },
+      "imperativ": {
+        "du": "Hake nach!",
+        "ihr": "Hakt nach!",
+        "Sie": "Haken Sie nach!"
+      }
+    },
+    "partizip1": "nachhakend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      },
+      {
+        "wort": "nachfragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دوباره پرسیدن",
+          "en": "to ask again"
+        },
+        "id_ref": "verb_nachfragen"
+      },
+      {
+        "wort": "genau",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دقیق",
+          "en": "exact"
+        },
+        "id_ref": "adjektiv_genau"
+      },
+      {
+        "wort": "der Haken",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قلاب",
+          "en": "hook"
+        },
+        "id_ref": "nomen_haken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

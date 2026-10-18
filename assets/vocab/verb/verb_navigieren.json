@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_navigieren",
+  "wort": "navigieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مسیریابی کردن",
+      "هدایت کردن (کشتی، هواپیما)"
+    ],
+    "en": [
+      "to navigate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "naviˈɡiːʁən",
+  "anmerkung": "In der IT auch: auf einer Webseite navigieren.",
+  "berufe": [
+    "it",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Handy navigiert uns.",
+      "uebersetzung": {
+        "fa": "گوشی ما را مسیریابی می‌کند.",
+        "en": "The phone navigates for us."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne Karte navigierten die Seeleute früher nach den Sternen.",
+      "uebersetzung": {
+        "fa": "دریانوردان در گذشته بدون نقشه با ستاره‌ها مسیر را پیدا می‌کردند.",
+        "en": "In the past, sailors navigated by the stars without a map."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "steuern",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to steer"
+      }
+    },
+    {
+      "wort": "lotsen",
+      "uebersetzung": {
+        "fa": "راهنمایی کردن",
+        "en": "to guide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین navigare (دریانوردی کردن)",
+    "en": "from Latin navigare (to sail)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "navigieren durch + Akk",
+        "bedeutung": "sich durch etwas zurechtfinden",
+        "beispiel": "Er navigiert durch das Menü der App.",
+        "uebersetzung": {
+          "fa": "او در منوی برنامه جابه‌جا می‌شود.",
+          "en": "He navigates through the app menu."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "navigieren",
+      "praeteritum": "navigierte",
+      "partizip2": "navigiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "navigiere",
+        "du": "navigierst",
+        "er_sie_es": "navigiert",
+        "wir": "navigieren",
+        "ihr": "navigiert",
+        "sie_Sie": "navigieren"
+      },
+      "praeteritum": {
+        "ich": "navigierte",
+        "du": "navigiertest",
+        "er_sie_es": "navigierte",
+        "wir": "navigierten",
+        "ihr": "navigiertet",
+        "sie_Sie": "navigierten"
+      },
+      "konjunktiv1": {
+        "ich": "navigiere",
+        "du": "navigierest",
+        "er_sie_es": "navigiere",
+        "wir": "navigieren",
+        "ihr": "navigieret",
+        "sie_Sie": "navigieren"
+      },
+      "konjunktiv2": {
+        "ich": "navigierte",
+        "du": "navigiertest",
+        "er_sie_es": "navigierte",
+        "wir": "navigierten",
+        "ihr": "navigiertet",
+        "sie_Sie": "navigierten"
+      },
+      "imperativ": {
+        "du": "Navigiere!",
+        "ihr": "Navigiert!",
+        "Sie": "Navigieren Sie!"
+      }
+    },
+    "partizip1": "navigierend",
+    "nominalisierung": "die Navigation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "map"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "das Navi",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسیریاب",
+          "en": "satnav"
+        },
+        "id_ref": "nomen_navi"
+      },
+      {
+        "wort": "steuern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_steuern"
+      },
+      {
+        "wort": "die Navigation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناوبری",
+          "en": "navigation"
+        },
+        "id_ref": "nomen_navigation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

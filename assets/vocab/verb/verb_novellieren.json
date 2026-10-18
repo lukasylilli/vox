@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_novellieren",
+  "wort": "novellieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اصلاح کردن (قانون)",
+      "بازنگری کردن (قانون)"
+    ],
+    "en": [
+      "to amend (a law)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik",
+    "Recht"
+  ],
+  "ipa": "novɛˈliːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Parlament novelliert das Gesetz.",
+      "uebersetzung": {
+        "fa": "مجلس قانون را اصلاح می‌کند.",
+        "en": "Parliament is amending the law."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem das Gesetz novelliert worden war, galten strengere Regeln für Mieter.",
+      "uebersetzung": {
+        "fa": "بعد از اصلاح قانون، قانون‌های سخت‌تری برای مستأجرها اجرا شد.",
+        "en": "After the law had been amended, stricter rules applied to tenants."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ändern",
+      "uebersetzung": {
+        "fa": "تغییر دادن",
+        "en": "to change"
+      }
+    },
+    {
+      "wort": "reformieren",
+      "uebersetzung": {
+        "fa": "اصلاح کردن",
+        "en": "to reform"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Novelle (اصلاحیه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Novelle (amendment) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "novellieren",
+      "praeteritum": "novellierte",
+      "partizip2": "novelliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "novelliere",
+        "du": "novellierst",
+        "er_sie_es": "novelliert",
+        "wir": "novellieren",
+        "ihr": "novelliert",
+        "sie_Sie": "novellieren"
+      },
+      "praeteritum": {
+        "ich": "novellierte",
+        "du": "novelliertest",
+        "er_sie_es": "novellierte",
+        "wir": "novellierten",
+        "ihr": "novelliertet",
+        "sie_Sie": "novellierten"
+      },
+      "konjunktiv1": {
+        "ich": "novelliere",
+        "du": "novellierest",
+        "er_sie_es": "novelliere",
+        "wir": "novellieren",
+        "ihr": "novellieret",
+        "sie_Sie": "novellieren"
+      },
+      "konjunktiv2": {
+        "ich": "novellierte",
+        "du": "novelliertest",
+        "er_sie_es": "novellierte",
+        "wir": "novellierten",
+        "ihr": "novelliertet",
+        "sie_Sie": "novellierten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "novellierend",
+    "nominalisierung": "die Novellierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gesetz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قانون",
+          "en": "law"
+        },
+        "id_ref": "nomen_gesetz"
+      },
+      {
+        "wort": "ändern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_aendern"
+      },
+      {
+        "wort": "das Parlament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجلس",
+          "en": "parliament"
+        },
+        "id_ref": "nomen_parlament"
+      },
+      {
+        "wort": "reformieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اصلاح کردن",
+          "en": "to reform"
+        },
+        "id_ref": "verb_reformieren"
+      },
+      {
+        "wort": "die Novelle",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اصلاحیه (قانون)، داستان کوتاه",
+          "en": "amendment; novella"
+        },
+        "id_ref": "nomen_novelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

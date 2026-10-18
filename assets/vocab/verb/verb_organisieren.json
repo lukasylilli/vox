@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_organisieren",
+  "wort": "organisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سازمان دادن، برگزار کردن",
+      "ترتیب دادن، جور کردن"
+    ],
+    "en": [
+      "to organize",
+      "to arrange, to get hold of"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Freizeit"
+  ],
+  "ipa": "ɔʁɡaniˈziːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir organisieren eine Party.",
+      "uebersetzung": {
+        "fa": "یک مهمانی ترتیب می‌دهیم.",
+        "en": "We are organizing a party."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kannst du für morgen ein Auto organisieren, damit wir alle zum Flughafen kommen?",
+      "uebersetzung": {
+        "fa": "می‌توانی برای فردا یک ماشین جور کنی تا همه به فرودگاه برسیم؟",
+        "en": "Can you get hold of a car for tomorrow so that we all get to the airport?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "planen",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی کردن",
+        "en": "to plan"
+      }
+    },
+    {
+      "wort": "veranstalten",
+      "uebersetzung": {
+        "fa": "برگزار کردن",
+        "en": "to host"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Organ (اندام، ابزار) + -isieren (پسوند فعل‌ساز)",
+    "en": "Organ (organ, tool) + -isieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich organisieren in + Dat",
+        "bedeutung": "sich in einer Gruppe zusammenschließen",
+        "beispiel": "Die Arbeiter organisieren sich in einer Gewerkschaft.",
+        "uebersetzung": {
+          "fa": "کارگران در یک اتحادیه متشکل می‌شوند.",
+          "en": "The workers organize themselves in a union."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "organisieren",
+      "praeteritum": "organisierte",
+      "partizip2": "organisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "organisiere",
+        "du": "organisierst",
+        "er_sie_es": "organisiert",
+        "wir": "organisieren",
+        "ihr": "organisiert",
+        "sie_Sie": "organisieren"
+      },
+      "praeteritum": {
+        "ich": "organisierte",
+        "du": "organisiertest",
+        "er_sie_es": "organisierte",
+        "wir": "organisierten",
+        "ihr": "organisiertet",
+        "sie_Sie": "organisierten"
+      },
+      "konjunktiv1": {
+        "ich": "organisiere",
+        "du": "organisierest",
+        "er_sie_es": "organisiere",
+        "wir": "organisieren",
+        "ihr": "organisieret",
+        "sie_Sie": "organisieren"
+      },
+      "konjunktiv2": {
+        "ich": "organisierte",
+        "du": "organisiertest",
+        "er_sie_es": "organisierte",
+        "wir": "organisierten",
+        "ihr": "organisiertet",
+        "sie_Sie": "organisierten"
+      },
+      "imperativ": {
+        "du": "Organisiere!",
+        "ihr": "Organisiert!",
+        "Sie": "Organisieren Sie!"
+      }
+    },
+    "partizip1": "organisierend",
+    "nominalisierung": "die Organisation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "die Organisation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سازمان، سازماندهی",
+          "en": "organization"
+        },
+        "id_ref": "nomen_organisation"
+      },
+      {
+        "wort": "vorbereiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده کردن",
+          "en": "to prepare"
+        },
+        "id_ref": "verb_vorbereiten"
+      },
+      {
+        "wort": "veranstalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برگزار کردن",
+          "en": "to host"
+        },
+        "id_ref": "verb_veranstalten"
+      },
+      {
+        "wort": "koordinieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هماهنگ کردن",
+          "en": "to coordinate"
+        },
+        "id_ref": "verb_koordinieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

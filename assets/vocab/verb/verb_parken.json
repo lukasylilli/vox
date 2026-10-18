@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_parken",
+  "wort": "parken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارک کردن",
+      "ماشین را نگه داشتن"
+    ],
+    "en": [
+      "to park"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Alltag"
+  ],
+  "ipa": "ˈpaʁkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wo kann ich parken?",
+      "uebersetzung": {
+        "fa": "کجا می‌توانم پارک کنم؟",
+        "en": "Where can I park?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Hier darf man nur parken, wenn man einen Parkschein gekauft hat.",
+      "uebersetzung": {
+        "fa": "اینجا فقط وقتی می‌شود پارک کرد که بلیت پارکینگ خریده باشی.",
+        "en": "You may only park here if you have bought a parking ticket."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abstellen",
+      "uebersetzung": {
+        "fa": "پارک کردن، گذاشتن",
+        "en": "to leave (a car)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to park (پارک کردن)",
+    "en": "from English to park"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas parken in/vor + Dat",
+        "bedeutung": "ein Fahrzeug an einem Ort abstellen",
+        "beispiel": "Er parkt das Auto vor dem Haus.",
+        "uebersetzung": {
+          "fa": "او ماشین را جلوی خانه پارک می‌کند.",
+          "en": "He parks the car in front of the house."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "parken",
+      "praeteritum": "parkte",
+      "partizip2": "geparkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "parke",
+        "du": "parkst",
+        "er_sie_es": "parkt",
+        "wir": "parken",
+        "ihr": "parkt",
+        "sie_Sie": "parken"
+      },
+      "praeteritum": {
+        "ich": "parkte",
+        "du": "parktest",
+        "er_sie_es": "parkte",
+        "wir": "parkten",
+        "ihr": "parktet",
+        "sie_Sie": "parkten"
+      },
+      "konjunktiv1": {
+        "ich": "parke",
+        "du": "parkest",
+        "er_sie_es": "parke",
+        "wir": "parken",
+        "ihr": "parket",
+        "sie_Sie": "parken"
+      },
+      "konjunktiv2": {
+        "ich": "parkte",
+        "du": "parktest",
+        "er_sie_es": "parkte",
+        "wir": "parkten",
+        "ihr": "parktet",
+        "sie_Sie": "parkten"
+      },
+      "imperativ": {
+        "du": "Park!",
+        "ihr": "Parkt!",
+        "Sie": "Parken Sie!"
+      }
+    },
+    "partizip1": "parkend",
+    "nominalisierung": "das Parken"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Auto",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ماشین",
+          "en": "car"
+        },
+        "id_ref": "nomen_auto"
+      },
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راندن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Parkplatz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جای پارک",
+          "en": "parking space"
+        },
+        "id_ref": "nomen_parkplatz"
+      },
+      {
+        "wort": "das Parkhaus",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پارکینگ طبقاتی",
+          "en": "multi-storey car park"
+        },
+        "id_ref": "nomen_parkhaus"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توقف کردن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_halten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_observieren",
+  "wort": "observieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحت نظر گرفتن، مراقبت پنهانی کردن",
+      "زیر نظر داشتن (بیمار)"
+    ],
+    "en": [
+      "to keep under surveillance",
+      "to observe"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Medizin"
+  ],
+  "ipa": "ɔpzɛʁˈviːʁən",
+  "anmerkung": "In der Medizin: einen Patienten zur Beobachtung behalten («stationär observieren»).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei observiert das Haus.",
+      "uebersetzung": {
+        "fa": "پلیس خانه را تحت نظر دارد.",
+        "en": "The police are keeping the house under surveillance."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Verdächtige wurde wochenlang observiert, bevor man ihn festnahm.",
+      "uebersetzung": {
+        "fa": "مظنون هفته‌ها تحت نظر بود تا دستگیرش کردند.",
+        "en": "The suspect was kept under surveillance for weeks before he was arrested."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beobachten",
+      "uebersetzung": {
+        "fa": "مشاهده کردن",
+        "en": "to observe"
+      }
+    },
+    {
+      "wort": "überwachen",
+      "uebersetzung": {
+        "fa": "نظارت کردن",
+        "en": "to monitor"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین observare (مراقبت کردن)",
+    "en": "from Latin observare (to watch)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "observieren",
+      "praeteritum": "observierte",
+      "partizip2": "observiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "observiere",
+        "du": "observierst",
+        "er_sie_es": "observiert",
+        "wir": "observieren",
+        "ihr": "observiert",
+        "sie_Sie": "observieren"
+      },
+      "praeteritum": {
+        "ich": "observierte",
+        "du": "observiertest",
+        "er_sie_es": "observierte",
+        "wir": "observierten",
+        "ihr": "observiertet",
+        "sie_Sie": "observierten"
+      },
+      "konjunktiv1": {
+        "ich": "observiere",
+        "du": "observierest",
+        "er_sie_es": "observiere",
+        "wir": "observieren",
+        "ihr": "observieret",
+        "sie_Sie": "observieren"
+      },
+      "konjunktiv2": {
+        "ich": "observierte",
+        "du": "observiertest",
+        "er_sie_es": "observierte",
+        "wir": "observierten",
+        "ihr": "observiertet",
+        "sie_Sie": "observierten"
+      },
+      "imperativ": {
+        "du": "Observiere!",
+        "ihr": "Observiert!",
+        "Sie": "Observieren Sie!"
+      }
+    },
+    "partizip1": "observierend",
+    "nominalisierung": "die Observation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن",
+          "en": "to see"
+        },
+        "id_ref": "verb_sehen"
+      },
+      {
+        "wort": "beobachten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشاهده کردن",
+          "en": "to observe"
+        },
+        "id_ref": "verb_beobachten"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "überwachen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نظارت کردن",
+          "en": "to monitor"
+        },
+        "id_ref": "verb_ueberwachen"
+      },
+      {
+        "wort": "die Observation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مراقبت پنهانی",
+          "en": "surveillance"
+        },
+        "id_ref": "nomen_observation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

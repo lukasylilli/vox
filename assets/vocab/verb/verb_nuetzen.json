@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_nuetzen",
+  "wort": "nützen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فایده داشتن، به درد خوردن",
+      "استفاده کردن (جنوب آلمان، اتریش)"
+    ],
+    "en": [
+      "to be of use, to help",
+      "to use"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Arbeit"
+  ],
+  "ipa": "ˈnʏtsn̩",
+  "anmerkung": "«nützen» und «nutzen» sind weitgehend gleichbedeutend; «nützen» v. a. süddeutsch/österreichisch und in «Das nützt nichts».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das nützt nichts.",
+      "uebersetzung": {
+        "fa": "این فایده‌ای ندارد.",
+        "en": "That's no use."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es nützt dir wenig, wenn du dich jetzt ärgerst, die Prüfung ist vorbei.",
+      "uebersetzung": {
+        "fa": "الان عصبانی شدن به دردت نمی‌خورد، امتحان تمام شده است.",
+        "en": "It's of little use to you to get angry now; the exam is over."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "dienen",
+      "uebersetzung": {
+        "fa": "به کار آمدن",
+        "en": "to serve"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schaden",
+      "uebersetzung": {
+        "fa": "زیان رساندن",
+        "en": "to harm"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. nützen + Dat",
+        "bedeutung": "für jemanden nützlich sein",
+        "beispiel": "Die Erfahrung nützt ihr im neuen Job.",
+        "uebersetzung": {
+          "fa": "این تجربه در کار جدید به دردش می‌خورد.",
+          "en": "The experience is useful to her in her new job."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nützen",
+      "praeteritum": "nützte",
+      "partizip2": "genützt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nütze",
+        "du": "nützt",
+        "er_sie_es": "nützt",
+        "wir": "nützen",
+        "ihr": "nützt",
+        "sie_Sie": "nützen"
+      },
+      "praeteritum": {
+        "ich": "nützte",
+        "du": "nütztest",
+        "er_sie_es": "nützte",
+        "wir": "nützten",
+        "ihr": "nütztet",
+        "sie_Sie": "nützten"
+      },
+      "konjunktiv1": {
+        "ich": "nütze",
+        "du": "nützest",
+        "er_sie_es": "nütze",
+        "wir": "nützen",
+        "ihr": "nützet",
+        "sie_Sie": "nützen"
+      },
+      "konjunktiv2": {
+        "ich": "nützte",
+        "du": "nütztest",
+        "er_sie_es": "nützte",
+        "wir": "nützten",
+        "ihr": "nütztet",
+        "sie_Sie": "nützten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "nützend",
+    "nominalisierung": "der Nutzen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "helfen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک کردن",
+          "en": "to help"
+        },
+        "id_ref": "verb_helfen"
+      },
+      {
+        "wort": "nützlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مفید",
+          "en": "useful"
+        },
+        "id_ref": "adjektiv_nuetzlich"
+      },
+      {
+        "wort": "nutzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استفاده کردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_nutzen"
+      },
+      {
+        "wort": "der Nutzen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فایده",
+          "en": "benefit"
+        },
+        "id_ref": "nomen_nutzen"
+      },
+      {
+        "wort": "sinnlos",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بی‌فایده",
+          "en": "pointless"
+        },
+        "id_ref": "adjektiv_sinnlos"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

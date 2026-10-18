@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_ordnen",
+  "wort": "ordnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مرتب کردن",
+      "نظم دادن"
+    ],
+    "en": [
+      "to arrange, to sort",
+      "to put in order"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Büro"
+  ],
+  "ipa": "ˈɔʁdnən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung",
+    "reinigung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich ordne meine Bücher.",
+      "uebersetzung": {
+        "fa": "کتاب‌هایم را مرتب می‌کنم.",
+        "en": "I am sorting my books."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor du die Unterlagen abgibst, solltest du sie nach Datum ordnen.",
+      "uebersetzung": {
+        "fa": "قبل از تحویل مدارک، بهتر است آن‌ها را به ترتیب تاریخ مرتب کنی.",
+        "en": "Before you hand in the documents, you should arrange them by date."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sortieren",
+      "uebersetzung": {
+        "fa": "دسته‌بندی کردن",
+        "en": "to sort"
+      }
+    },
+    {
+      "wort": "aufräumen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to tidy up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "durcheinanderbringen",
+      "uebersetzung": {
+        "fa": "به هم ریختن",
+        "en": "to mess up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas ordnen nach + Dat",
+        "bedeutung": "etwas nach einem Merkmal sortieren",
+        "beispiel": "Sie ordnet die Karten nach dem Alphabet.",
+        "uebersetzung": {
+          "fa": "او کارت‌ها را به ترتیب الفبا مرتب می‌کند.",
+          "en": "She arranges the cards alphabetically."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ordnen",
+      "praeteritum": "ordnete",
+      "partizip2": "geordnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ordne",
+        "du": "ordnest",
+        "er_sie_es": "ordnet",
+        "wir": "ordnen",
+        "ihr": "ordnet",
+        "sie_Sie": "ordnen"
+      },
+      "praeteritum": {
+        "ich": "ordnete",
+        "du": "ordnetest",
+        "er_sie_es": "ordnete",
+        "wir": "ordneten",
+        "ihr": "ordnetet",
+        "sie_Sie": "ordneten"
+      },
+      "konjunktiv1": {
+        "ich": "ordne",
+        "du": "ordnest",
+        "er_sie_es": "ordne",
+        "wir": "ordnen",
+        "ihr": "ordnet",
+        "sie_Sie": "ordnen"
+      },
+      "konjunktiv2": {
+        "ich": "ordnete",
+        "du": "ordnetest",
+        "er_sie_es": "ordnete",
+        "wir": "ordneten",
+        "ihr": "ordnetet",
+        "sie_Sie": "ordneten"
+      },
+      "imperativ": {
+        "du": "Ordne!",
+        "ihr": "Ordnet!",
+        "Sie": "Ordnen Sie!"
+      }
+    },
+    "partizip1": "ordnend",
+    "nominalisierung": "die Ordnung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ordnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظم",
+          "en": "order"
+        },
+        "id_ref": "nomen_ordnung"
+      },
+      {
+        "wort": "aufräumen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرتب کردن (اتاق)",
+          "en": "to tidy up"
+        },
+        "id_ref": "verb_aufraeumen"
+      },
+      {
+        "wort": "sortieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دسته‌بندی کردن",
+          "en": "to sort"
+        },
+        "id_ref": "verb_sortieren"
+      },
+      {
+        "wort": "der Ordner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوشه، کلاسور",
+          "en": "folder"
+        },
+        "id_ref": "nomen_ordner"
+      },
+      {
+        "wort": "organisieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سازمان دادن",
+          "en": "to organize"
+        },
+        "id_ref": "verb_organisieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

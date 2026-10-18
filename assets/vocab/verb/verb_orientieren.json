@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_orientieren",
+  "wort": "orientieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جهت‌یابی کردن",
+      "اطلاعات کسب کردن، خود را با چیزی تطبیق دادن"
+    ],
+    "en": [
+      "to orient oneself",
+      "to be guided by"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Arbeit"
+  ],
+  "ipa": "oʁi̯ɛnˈtiːʁən",
+  "anmerkung": "Meist reflexiv. In der Pflege: «Der Patient ist zeitlich und örtlich orientiert.»",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann mich hier nicht orientieren.",
+      "uebersetzung": {
+        "fa": "اینجا نمی‌توانم جهت را پیدا کنم.",
+        "en": "I can't get my bearings here."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Planung orientieren wir uns an den Wünschen unserer Kunden.",
+      "uebersetzung": {
+        "fa": "در برنامه‌ریزی، خواسته‌های مشتری‌هایمان را مبنا قرار می‌دهیم.",
+        "en": "In our planning we are guided by our customers' wishes."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurechtfinden",
+      "uebersetzung": {
+        "fa": "راه خود را پیدا کردن",
+        "en": "to find one's way"
+      }
+    },
+    {
+      "wort": "informieren",
+      "uebersetzung": {
+        "fa": "اطلاع کسب کردن",
+        "en": "to inform"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Orient (مشرق، جهت) + -ieren (پسوند فعل‌ساز)",
+    "en": "Orient (east, direction) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich orientieren an + Dat",
+        "bedeutung": "etwas als Maßstab nehmen",
+        "beispiel": "Die Preise orientieren sich am Markt.",
+        "uebersetzung": {
+          "fa": "قیمت‌ها از بازار پیروی می‌کنند.",
+          "en": "The prices are based on the market."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "orientieren",
+      "praeteritum": "orientierte",
+      "partizip2": "orientiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "orientiere",
+        "du": "orientierst",
+        "er_sie_es": "orientiert",
+        "wir": "orientieren",
+        "ihr": "orientiert",
+        "sie_Sie": "orientieren"
+      },
+      "praeteritum": {
+        "ich": "orientierte",
+        "du": "orientiertest",
+        "er_sie_es": "orientierte",
+        "wir": "orientierten",
+        "ihr": "orientiertet",
+        "sie_Sie": "orientierten"
+      },
+      "konjunktiv1": {
+        "ich": "orientiere",
+        "du": "orientierest",
+        "er_sie_es": "orientiere",
+        "wir": "orientieren",
+        "ihr": "orientieret",
+        "sie_Sie": "orientieren"
+      },
+      "konjunktiv2": {
+        "ich": "orientierte",
+        "du": "orientiertest",
+        "er_sie_es": "orientierte",
+        "wir": "orientierten",
+        "ihr": "orientiertet",
+        "sie_Sie": "orientierten"
+      },
+      "imperativ": {
+        "du": "Orientiere!",
+        "ihr": "Orientiert!",
+        "Sie": "Orientieren Sie!"
+      }
+    },
+    "partizip1": "orientierend",
+    "nominalisierung": "die Orientierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Weg",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه",
+          "en": "way"
+        },
+        "id_ref": "nomen_weg"
+      },
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "die Karte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقشه",
+          "en": "map"
+        },
+        "id_ref": "nomen_karte"
+      },
+      {
+        "wort": "die Orientierung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جهت‌یابی",
+          "en": "orientation"
+        },
+        "id_ref": "nomen_orientierung"
+      },
+      {
+        "wort": "zurechtfinden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "راه خود را پیدا کردن",
+          "en": "to find one's way"
+        },
+        "id_ref": "verb_zurechtfinden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

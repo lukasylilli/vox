@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_panieren",
+  "wort": "panieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوخاری کردن",
+      "در آرد و تخم‌مرغ و پودر سوخاری غلتاندن"
+    ],
+    "en": [
+      "to bread",
+      "to coat in breadcrumbs"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "paˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich paniere das Schnitzel.",
+      "uebersetzung": {
+        "fa": "شنیسل را سوخاری می‌کنم.",
+        "en": "I am breading the schnitzel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für ein echtes Wiener Schnitzel paniert man das Kalbfleisch und brät es in viel Fett.",
+      "uebersetzung": {
+        "fa": "برای شنیسل وینی واقعی، گوشت گوساله را سوخاری می‌کنند و در روغن زیاد سرخ می‌کنند.",
+        "en": "For a real Wiener Schnitzel you bread the veal and fry it in plenty of fat."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی paner (با نان پوشاندن)",
+    "en": "from French paner (to coat with bread)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas panieren mit + Dat",
+        "bedeutung": "etwas mit einer Panade umhüllen",
+        "beispiel": "Sie paniert den Fisch mit Semmelbröseln.",
+        "uebersetzung": {
+          "fa": "او ماهی را با پودر سوخاری می‌پوشاند.",
+          "en": "She coats the fish in breadcrumbs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "panieren",
+      "praeteritum": "panierte",
+      "partizip2": "paniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "paniere",
+        "du": "panierst",
+        "er_sie_es": "paniert",
+        "wir": "panieren",
+        "ihr": "paniert",
+        "sie_Sie": "panieren"
+      },
+      "praeteritum": {
+        "ich": "panierte",
+        "du": "paniertest",
+        "er_sie_es": "panierte",
+        "wir": "panierten",
+        "ihr": "paniertet",
+        "sie_Sie": "panierten"
+      },
+      "konjunktiv1": {
+        "ich": "paniere",
+        "du": "panierest",
+        "er_sie_es": "paniere",
+        "wir": "panieren",
+        "ihr": "panieret",
+        "sie_Sie": "panieren"
+      },
+      "konjunktiv2": {
+        "ich": "panierte",
+        "du": "paniertest",
+        "er_sie_es": "panierte",
+        "wir": "panierten",
+        "ihr": "paniertet",
+        "sie_Sie": "panierten"
+      },
+      "imperativ": {
+        "du": "Paniere!",
+        "ihr": "Paniert!",
+        "Sie": "Panieren Sie!"
+      }
+    },
+    "partizip1": "panierend",
+    "nominalisierung": "die Panade"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم‌مرغ",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      },
+      {
+        "wort": "das Mehl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرد",
+          "en": "flour"
+        },
+        "id_ref": "nomen_mehl"
+      },
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "das Schnitzel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شنیسل",
+          "en": "schnitzel"
+        },
+        "id_ref": "nomen_schnitzel"
+      },
+      {
+        "wort": "das Paniermehl",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پودر سوخاری",
+          "en": "breadcrumbs"
+        },
+        "id_ref": "nomen_paniermehl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

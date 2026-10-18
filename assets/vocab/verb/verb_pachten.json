@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_pachten",
+  "wort": "pachten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اجاره کردن (زمین، رستوران)",
+      "به اجاره گرفتن"
+    ],
+    "en": [
+      "to lease",
+      "to rent (land, a business)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Landwirtschaft"
+  ],
+  "ipa": "ˈpaxtn̩",
+  "anmerkung": "Anders als «mieten»: man pachtet etwas, um es zu bewirtschaften (Land, Restaurant). Scherzhaft: «etwas für sich gepachtet haben».",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er pachtet ein Feld.",
+      "uebersetzung": {
+        "fa": "او یک مزرعه اجاره می‌کند.",
+        "en": "He leases a field."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Paar hat das Gasthaus am See für zehn Jahre gepachtet.",
+      "uebersetzung": {
+        "fa": "این زوج مهمانخانه‌ی کنار دریاچه را برای ده سال اجاره کرده‌اند.",
+        "en": "The couple have leased the inn by the lake for ten years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mieten",
+      "uebersetzung": {
+        "fa": "اجاره کردن",
+        "en": "to rent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verpachten",
+      "uebersetzung": {
+        "fa": "اجاره دادن",
+        "en": "to lease out"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pacht (اجاره) + -en",
+    "en": "Pacht (lease) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "pachten",
+      "praeteritum": "pachtete",
+      "partizip2": "gepachtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pachte",
+        "du": "pachtest",
+        "er_sie_es": "pachtet",
+        "wir": "pachten",
+        "ihr": "pachtet",
+        "sie_Sie": "pachten"
+      },
+      "praeteritum": {
+        "ich": "pachtete",
+        "du": "pachtetest",
+        "er_sie_es": "pachtete",
+        "wir": "pachteten",
+        "ihr": "pachtetet",
+        "sie_Sie": "pachteten"
+      },
+      "konjunktiv1": {
+        "ich": "pachte",
+        "du": "pachtest",
+        "er_sie_es": "pachte",
+        "wir": "pachten",
+        "ihr": "pachtet",
+        "sie_Sie": "pachten"
+      },
+      "konjunktiv2": {
+        "ich": "pachtete",
+        "du": "pachtetest",
+        "er_sie_es": "pachtete",
+        "wir": "pachteten",
+        "ihr": "pachtetet",
+        "sie_Sie": "pachteten"
+      },
+      "imperativ": {
+        "du": "Pachte!",
+        "ihr": "Pachtet!",
+        "Sie": "Pachten Sie!"
+      }
+    },
+    "partizip1": "pachtend",
+    "nominalisierung": "die Pacht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "mieten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره کردن",
+          "en": "to rent"
+        },
+        "id_ref": "verb_mieten"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "die Pacht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجاره (زمین)",
+          "en": "lease"
+        },
+        "id_ref": "nomen_pacht"
+      },
+      {
+        "wort": "verpachten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجاره دادن (زمین)",
+          "en": "to lease out"
+        },
+        "id_ref": "verb_verpachten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

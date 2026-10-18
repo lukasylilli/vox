@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_notieren",
+  "wort": "notieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یادداشت کردن",
+      "قیمت‌گذاری شدن (بورس)"
+    ],
+    "en": [
+      "to note down",
+      "to be quoted (stock exchange)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Büro",
+    "Schule"
+  ],
+  "ipa": "noˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich notiere deine Nummer.",
+      "uebersetzung": {
+        "fa": "شماره‌ات را یادداشت می‌کنم.",
+        "en": "I'll note down your number."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bitte notieren Sie alle Medikamente, die der Patient heute bekommen hat.",
+      "uebersetzung": {
+        "fa": "لطفاً همه‌ی داروهایی را که بیمار امروز گرفته یادداشت کنید.",
+        "en": "Please note down all the medication the patient has received today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufschreiben",
+      "uebersetzung": {
+        "fa": "یادداشت کردن",
+        "en": "to write down"
+      }
+    },
+    {
+      "wort": "vermerken",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to note"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Note (یادداشت، نشانه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Note (note) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich etwas notieren + Dat + Akk",
+        "bedeutung": "sich etwas aufschreiben",
+        "beispiel": "Ich notiere mir den Termin.",
+        "uebersetzung": {
+          "fa": "وقت را برای خودم یادداشت می‌کنم.",
+          "en": "I'll make a note of the appointment."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "notieren",
+      "praeteritum": "notierte",
+      "partizip2": "notiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "notiere",
+        "du": "notierst",
+        "er_sie_es": "notiert",
+        "wir": "notieren",
+        "ihr": "notiert",
+        "sie_Sie": "notieren"
+      },
+      "praeteritum": {
+        "ich": "notierte",
+        "du": "notiertest",
+        "er_sie_es": "notierte",
+        "wir": "notierten",
+        "ihr": "notiertet",
+        "sie_Sie": "notierten"
+      },
+      "konjunktiv1": {
+        "ich": "notiere",
+        "du": "notierest",
+        "er_sie_es": "notiere",
+        "wir": "notieren",
+        "ihr": "notieret",
+        "sie_Sie": "notieren"
+      },
+      "konjunktiv2": {
+        "ich": "notierte",
+        "du": "notiertest",
+        "er_sie_es": "notierte",
+        "wir": "notierten",
+        "ihr": "notiertet",
+        "sie_Sie": "notierten"
+      },
+      "imperativ": {
+        "du": "Notiere!",
+        "ihr": "Notiert!",
+        "Sie": "Notieren Sie!"
+      }
+    },
+    "partizip1": "notierend",
+    "nominalisierung": "die Notiz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schreiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشتن",
+          "en": "to write"
+        },
+        "id_ref": "verb_schreiben"
+      },
+      {
+        "wort": "die Notiz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادداشت",
+          "en": "note"
+        },
+        "id_ref": "nomen_notiz"
+      },
+      {
+        "wort": "aufschreiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یادداشت کردن",
+          "en": "to write down"
+        },
+        "id_ref": "verb_aufschreiben"
+      },
+      {
+        "wort": "der Zettel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کاغذ یادداشت",
+          "en": "slip of paper"
+        },
+        "id_ref": "nomen_zettel"
+      },
+      {
+        "wort": "festhalten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثبت کردن",
+          "en": "to record"
+        },
+        "id_ref": "verb_festhalten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

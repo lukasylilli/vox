@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_nuckeln",
+  "wort": "nuckeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مکیدن (پستانک، انگشت)",
+      "مک زدن"
+    ],
+    "en": [
+      "to suck (on a dummy, thumb)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Familie",
+    "Körper"
+  ],
+  "ipa": "ˈnʊkl̩n",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby nuckelt am Schnuller.",
+      "uebersetzung": {
+        "fa": "نوزاد پستانکش را می‌مکد.",
+        "en": "The baby is sucking on its dummy."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn das Kind müde ist, nuckelt es am Daumen, bis es einschläft.",
+      "uebersetzung": {
+        "fa": "وقتی بچه خسته است، انگشتش را می‌مکد تا خوابش ببرد.",
+        "en": "When the child is tired, it sucks its thumb until it falls asleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lutschen",
+      "uebersetzung": {
+        "fa": "مکیدن",
+        "en": "to suck"
+      }
+    },
+    {
+      "wort": "saugen",
+      "uebersetzung": {
+        "fa": "مکیدن",
+        "en": "to suck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "nuckeln an + Dat",
+        "bedeutung": "an etwas saugen",
+        "beispiel": "Das Kind nuckelt an der Flasche.",
+        "uebersetzung": {
+          "fa": "بچه شیشه‌اش را مک می‌زند.",
+          "en": "The child sucks on the bottle."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "nuckeln",
+      "praeteritum": "nuckelte",
+      "partizip2": "genuckelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "nuckle",
+        "du": "nuckelst",
+        "er_sie_es": "nuckelt",
+        "wir": "nuckeln",
+        "ihr": "nuckelt",
+        "sie_Sie": "nuckeln"
+      },
+      "praeteritum": {
+        "ich": "nuckelte",
+        "du": "nuckeltest",
+        "er_sie_es": "nuckelte",
+        "wir": "nuckelten",
+        "ihr": "nuckeltet",
+        "sie_Sie": "nuckelten"
+      },
+      "konjunktiv1": {
+        "ich": "nuckle",
+        "du": "nucklest",
+        "er_sie_es": "nuckle",
+        "wir": "nuckeln",
+        "ihr": "nucklet",
+        "sie_Sie": "nuckeln"
+      },
+      "konjunktiv2": {
+        "ich": "nuckelte",
+        "du": "nuckeltest",
+        "er_sie_es": "nuckelte",
+        "wir": "nuckelten",
+        "ihr": "nuckeltet",
+        "sie_Sie": "nuckelten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "nuckelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "lutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مکیدن",
+          "en": "to suck"
+        },
+        "id_ref": "verb_lutschen"
+      },
+      {
+        "wort": "saugen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مکیدن",
+          "en": "to suck"
+        },
+        "id_ref": "verb_saugen"
+      },
+      {
+        "wort": "der Schnuller",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پستانک",
+          "en": "dummy"
+        },
+        "id_ref": "nomen_schnuller"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

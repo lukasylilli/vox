@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_operieren",
+  "wort": "operieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جراحی کردن، عمل کردن",
+      "عملیات انجام دادن، فعالیت کردن"
+    ],
+    "en": [
+      "to operate (on)",
+      "to operate, to act"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "opəˈʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt operiert das Knie.",
+      "uebersetzung": {
+        "fa": "پزشک زانو را عمل می‌کند.",
+        "en": "The doctor operates on the knee."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie wurde am Herzen operiert und muss sich jetzt einige Wochen schonen.",
+      "uebersetzung": {
+        "fa": "قلبش را عمل کردند و حالا باید چند هفته استراحت کند.",
+        "en": "She had heart surgery and now has to take it easy for a few weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einen Eingriff vornehmen",
+      "uebersetzung": {
+        "fa": "جراحی انجام دادن",
+        "en": "to perform surgery"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین operari (کار کردن)",
+    "en": "from Latin operari (to work)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdn. operieren an + Dat",
+        "bedeutung": "an einem Körperteil einen chirurgischen Eingriff machen",
+        "beispiel": "Er wird morgen an der Hüfte operiert.",
+        "uebersetzung": {
+          "fa": "فردا لگنش را عمل می‌کنند.",
+          "en": "He is having hip surgery tomorrow."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "operieren",
+      "praeteritum": "operierte",
+      "partizip2": "operiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "operiere",
+        "du": "operierst",
+        "er_sie_es": "operiert",
+        "wir": "operieren",
+        "ihr": "operiert",
+        "sie_Sie": "operieren"
+      },
+      "praeteritum": {
+        "ich": "operierte",
+        "du": "operiertest",
+        "er_sie_es": "operierte",
+        "wir": "operierten",
+        "ihr": "operiertet",
+        "sie_Sie": "operierten"
+      },
+      "konjunktiv1": {
+        "ich": "operiere",
+        "du": "operierest",
+        "er_sie_es": "operiere",
+        "wir": "operieren",
+        "ihr": "operieret",
+        "sie_Sie": "operieren"
+      },
+      "konjunktiv2": {
+        "ich": "operierte",
+        "du": "operiertest",
+        "er_sie_es": "operierte",
+        "wir": "operierten",
+        "ihr": "operiertet",
+        "sie_Sie": "operierten"
+      },
+      "imperativ": {
+        "du": "Operiere!",
+        "ihr": "Operiert!",
+        "Sie": "Operieren Sie!"
+      }
+    },
+    "partizip1": "operierend",
+    "nominalisierung": "die Operation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      },
+      {
+        "wort": "der Chirurg",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جراح",
+          "en": "surgeon"
+        },
+        "id_ref": "nomen_chirurg"
+      },
+      {
+        "wort": "die Narkose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوشی",
+          "en": "anaesthesia"
+        },
+        "id_ref": "nomen_narkose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

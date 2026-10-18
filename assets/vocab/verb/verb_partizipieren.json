@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_partizipieren",
+  "wort": "partizipieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سهیم بودن، بهره‌مند شدن",
+      "مشارکت کردن"
+    ],
+    "en": [
+      "to participate",
+      "to share (in)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wirtschaft",
+    "Gesellschaft"
+  ],
+  "ipa": "paʁtit͡siˈpiːʁən",
+  "anmerkung": "Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle partizipieren am Gewinn.",
+      "uebersetzung": {
+        "fa": "همه در سود سهیم‌اند.",
+        "en": "Everyone shares in the profit."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auch die Angestellten sollen am Erfolg der Firma partizipieren, indem sie einen Bonus erhalten.",
+      "uebersetzung": {
+        "fa": "کارکنان هم باید با گرفتن پاداش از موفقیت شرکت بهره‌مند شوند.",
+        "en": "The employees should also share in the company's success by receiving a bonus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "teilhaben",
+      "uebersetzung": {
+        "fa": "سهیم بودن",
+        "en": "to share in"
+      }
+    },
+    {
+      "wort": "sich beteiligen",
+      "uebersetzung": {
+        "fa": "مشارکت کردن",
+        "en": "to take part"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین participare (سهیم شدن)",
+    "en": "from Latin participare (to share)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "partizipieren an + Dat",
+        "bedeutung": "an etwas teilhaben",
+        "beispiel": "Die Region partizipiert am Tourismus.",
+        "uebersetzung": {
+          "fa": "این منطقه از گردشگری بهره‌مند می‌شود.",
+          "en": "The region benefits from tourism."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "partizipieren",
+      "praeteritum": "partizipierte",
+      "partizip2": "partizipiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "partizipiere",
+        "du": "partizipierst",
+        "er_sie_es": "partizipiert",
+        "wir": "partizipieren",
+        "ihr": "partizipiert",
+        "sie_Sie": "partizipieren"
+      },
+      "praeteritum": {
+        "ich": "partizipierte",
+        "du": "partizipiertest",
+        "er_sie_es": "partizipierte",
+        "wir": "partizipierten",
+        "ihr": "partizipiertet",
+        "sie_Sie": "partizipierten"
+      },
+      "konjunktiv1": {
+        "ich": "partizipiere",
+        "du": "partizipierest",
+        "er_sie_es": "partizipiere",
+        "wir": "partizipieren",
+        "ihr": "partizipieret",
+        "sie_Sie": "partizipieren"
+      },
+      "konjunktiv2": {
+        "ich": "partizipierte",
+        "du": "partizipiertest",
+        "er_sie_es": "partizipierte",
+        "wir": "partizipierten",
+        "ihr": "partizipiertet",
+        "sie_Sie": "partizipierten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "partizipierend",
+    "nominalisierung": "die Partizipation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "teilnehmen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شرکت کردن",
+          "en": "to take part"
+        },
+        "id_ref": "verb_teilnehmen"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن، شریک شدن",
+          "en": "to share"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "der Anteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سهم",
+          "en": "share"
+        },
+        "id_ref": "nomen_anteil"
+      },
+      {
+        "wort": "beteiligen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سهیم کردن",
+          "en": "to involve"
+        },
+        "id_ref": "verb_beteiligen"
+      },
+      {
+        "wort": "die Partizipation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "مشارکت",
+          "en": "participation"
+        },
+        "id_ref": "nomen_partizipation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

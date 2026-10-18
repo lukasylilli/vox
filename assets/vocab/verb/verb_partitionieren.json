@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_partitionieren",
+  "wort": "partitionieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارتیشن‌بندی کردن (دیسک)",
+      "به بخش‌ها تقسیم کردن"
+    ],
+    "en": [
+      "to partition"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Informatik",
+    "Technik"
+  ],
+  "ipa": "paʁtit͡si̯oˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er partitioniert die Festplatte.",
+      "uebersetzung": {
+        "fa": "او هارد دیسک را پارتیشن‌بندی می‌کند.",
+        "en": "He partitions the hard disk."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor man ein zweites Betriebssystem installiert, sollte man die Festplatte partitionieren.",
+      "uebersetzung": {
+        "fa": "پیش از نصب سیستم‌عامل دوم، بهتر است هارد دیسک را پارتیشن‌بندی کرد.",
+        "en": "Before installing a second operating system, you should partition the hard disk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to split up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Partition (بخش) + -ieren (پسوند فعل‌ساز)",
+    "en": "Partition (partition) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "partitionieren",
+      "praeteritum": "partitionierte",
+      "partizip2": "partitioniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "partitioniere",
+        "du": "partitionierst",
+        "er_sie_es": "partitioniert",
+        "wir": "partitionieren",
+        "ihr": "partitioniert",
+        "sie_Sie": "partitionieren"
+      },
+      "praeteritum": {
+        "ich": "partitionierte",
+        "du": "partitioniertest",
+        "er_sie_es": "partitionierte",
+        "wir": "partitionierten",
+        "ihr": "partitioniertet",
+        "sie_Sie": "partitionierten"
+      },
+      "konjunktiv1": {
+        "ich": "partitioniere",
+        "du": "partitionierest",
+        "er_sie_es": "partitioniere",
+        "wir": "partitionieren",
+        "ihr": "partitionieret",
+        "sie_Sie": "partitionieren"
+      },
+      "konjunktiv2": {
+        "ich": "partitionierte",
+        "du": "partitioniertest",
+        "er_sie_es": "partitionierte",
+        "wir": "partitionierten",
+        "ihr": "partitioniertet",
+        "sie_Sie": "partitionierten"
+      },
+      "imperativ": {
+        "du": "Partitioniere!",
+        "ihr": "Partitioniert!",
+        "Sie": "Partitionieren Sie!"
+      }
+    },
+    "partizip1": "partitionierend",
+    "nominalisierung": "die Partitionierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "die Festplatte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هارد دیسک",
+          "en": "hard disk"
+        },
+        "id_ref": "nomen_festplatte"
+      },
+      {
+        "wort": "aufteilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to split up"
+        },
+        "id_ref": "verb_aufteilen"
+      },
+      {
+        "wort": "die Partition",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "پارتیشن",
+          "en": "partition"
+        },
+        "id_ref": "nomen_partition"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

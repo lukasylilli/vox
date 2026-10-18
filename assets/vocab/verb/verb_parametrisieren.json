@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_parametrisieren",
+  "wort": "parametrisieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پارامتری کردن",
+      "با پارامتر تعریف کردن"
+    ],
+    "en": [
+      "to parameterize"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Technik",
+    "Informatik"
+  ],
+  "ipa": "paʁametʁiˈziːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir parametrisieren das Programm.",
+      "uebersetzung": {
+        "fa": "برنامه را پارامتری می‌کنیم.",
+        "en": "We are parameterizing the program."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die Funktion parametrisiert, kann man sie für viele Fälle wiederverwenden.",
+      "uebersetzung": {
+        "fa": "اگر تابع را پارامتری کنی، می‌توانی آن را برای موارد زیادی دوباره به کار ببری.",
+        "en": "If you parameterize the function, you can reuse it for many cases."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "konfigurieren",
+      "uebersetzung": {
+        "fa": "پیکربندی کردن",
+        "en": "to configure"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Parameter (پارامتر) + -isieren (پسوند فعل‌ساز)",
+    "en": "Parameter (parameter) + -isieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "parametrisieren",
+      "praeteritum": "parametrisierte",
+      "partizip2": "parametrisiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "parametrisiere",
+        "du": "parametrisierst",
+        "er_sie_es": "parametrisiert",
+        "wir": "parametrisieren",
+        "ihr": "parametrisiert",
+        "sie_Sie": "parametrisieren"
+      },
+      "praeteritum": {
+        "ich": "parametrisierte",
+        "du": "parametrisiertest",
+        "er_sie_es": "parametrisierte",
+        "wir": "parametrisierten",
+        "ihr": "parametrisiertet",
+        "sie_Sie": "parametrisierten"
+      },
+      "konjunktiv1": {
+        "ich": "parametrisiere",
+        "du": "parametrisierest",
+        "er_sie_es": "parametrisiere",
+        "wir": "parametrisieren",
+        "ihr": "parametrisieret",
+        "sie_Sie": "parametrisieren"
+      },
+      "konjunktiv2": {
+        "ich": "parametrisierte",
+        "du": "parametrisiertest",
+        "er_sie_es": "parametrisierte",
+        "wir": "parametrisierten",
+        "ihr": "parametrisiertet",
+        "sie_Sie": "parametrisierten"
+      },
+      "imperativ": {
+        "du": "Parametrisiere!",
+        "ihr": "Parametrisiert!",
+        "Sie": "Parametrisieren Sie!"
+      }
+    },
+    "partizip1": "parametrisierend",
+    "nominalisierung": "die Parametrisierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "einstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تنظیم کردن",
+          "en": "to set"
+        },
+        "id_ref": "verb_einstellen"
+      },
+      {
+        "wort": "konfigurieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیکربندی کردن",
+          "en": "to configure"
+        },
+        "id_ref": "verb_konfigurieren"
+      },
+      {
+        "wort": "der Parameter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پارامتر",
+          "en": "parameter"
+        },
+        "id_ref": "nomen_parameter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

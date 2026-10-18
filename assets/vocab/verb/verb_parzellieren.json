@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_parzellieren",
+  "wort": "parzellieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قطعه‌بندی کردن (زمین)",
+      "به قطعه‌های کوچک تقسیم کردن"
+    ],
+    "en": [
+      "to parcel out",
+      "to divide into plots"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Bauen",
+    "Wirtschaft"
+  ],
+  "ipa": "paʁt͡sɛˈliːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Stadt parzelliert das Land.",
+      "uebersetzung": {
+        "fa": "شهرداری زمین را قطعه‌بندی می‌کند.",
+        "en": "The town divides the land into plots."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem das Feld parzelliert worden war, konnten junge Familien dort Häuser bauen.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه زمین قطعه‌بندی شد، خانواده‌های جوان توانستند آنجا خانه بسازند.",
+        "en": "After the field had been divided into plots, young families were able to build houses there."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to split up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Parzelle (قطعه زمین) + -ieren (پسوند فعل‌ساز)",
+    "en": "Parzelle (plot) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "parzellieren",
+      "praeteritum": "parzellierte",
+      "partizip2": "parzelliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "parzelliere",
+        "du": "parzellierst",
+        "er_sie_es": "parzelliert",
+        "wir": "parzellieren",
+        "ihr": "parzelliert",
+        "sie_Sie": "parzellieren"
+      },
+      "praeteritum": {
+        "ich": "parzellierte",
+        "du": "parzelliertest",
+        "er_sie_es": "parzellierte",
+        "wir": "parzellierten",
+        "ihr": "parzelliertet",
+        "sie_Sie": "parzellierten"
+      },
+      "konjunktiv1": {
+        "ich": "parzelliere",
+        "du": "parzellierest",
+        "er_sie_es": "parzelliere",
+        "wir": "parzellieren",
+        "ihr": "parzellieret",
+        "sie_Sie": "parzellieren"
+      },
+      "konjunktiv2": {
+        "ich": "parzellierte",
+        "du": "parzelliertest",
+        "er_sie_es": "parzellierte",
+        "wir": "parzellierten",
+        "ihr": "parzelliertet",
+        "sie_Sie": "parzellierten"
+      },
+      "imperativ": {
+        "du": "Parzelliere!",
+        "ihr": "Parzelliert!",
+        "Sie": "Parzellieren Sie!"
+      }
+    },
+    "partizip1": "parzellierend",
+    "nominalisierung": "die Parzellierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Land",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمین",
+          "en": "land"
+        },
+        "id_ref": "nomen_land"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "das Grundstück",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطعه زمین",
+          "en": "plot"
+        },
+        "id_ref": "nomen_grundstueck"
+      },
+      {
+        "wort": "aufteilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to split up"
+        },
+        "id_ref": "verb_aufteilen"
+      },
+      {
+        "wort": "die Parzelle",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قطعه (زمین)",
+          "en": "plot"
+        },
+        "id_ref": "nomen_parzelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
