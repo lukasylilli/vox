@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlottern",
+  "wort": "schlottern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لرزیدن (از سرما یا ترس)",
+      "گشاد بودن و آویزان ماندن (لباس)"
+    ],
+    "en": [
+      "to tremble",
+      "to hang loosely"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Gefühle"
+  ],
+  "ipa": "ˈʃlɔtɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schlottert vor Kälte.",
+      "uebersetzung": {
+        "fa": "او از سرما می‌لرزد.",
+        "en": "He is shaking with cold."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als sie vor dem Publikum stand, schlotterten ihr die Knie.",
+      "uebersetzung": {
+        "fa": "وقتی جلوی تماشاگران ایستاد، زانوهایش می‌لرزید.",
+        "en": "When she stood in front of the audience, her knees were shaking."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zittern",
+      "uebersetzung": {
+        "fa": "لرزیدن",
+        "en": "to tremble"
+      }
+    },
+    {
+      "wort": "beben",
+      "uebersetzung": {
+        "fa": "لرزیدن",
+        "en": "to quake"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schlottern (لرزیدن، آویزان بودن) — فعل ساده",
+    "en": "schlottern (to shake, to dangle) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schlottern vor + Dat",
+        "bedeutung": "wegen etwas stark zittern",
+        "beispiel": "Das Kind schlotterte vor Angst.",
+        "uebersetzung": {
+          "fa": "بچه از ترس می‌لرزید.",
+          "en": "The child was shaking with fear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlottern",
+      "praeteritum": "schlotterte",
+      "partizip2": "geschlottert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlottere",
+        "du": "schlotterst",
+        "er_sie_es": "schlottert",
+        "wir": "schlottern",
+        "ihr": "schlottert",
+        "sie_Sie": "schlottern"
+      },
+      "praeteritum": {
+        "ich": "schlotterte",
+        "du": "schlottertest",
+        "er_sie_es": "schlotterte",
+        "wir": "schlotterten",
+        "ihr": "schlottertet",
+        "sie_Sie": "schlotterten"
+      },
+      "konjunktiv1": {
+        "ich": "schlottere",
+        "du": "schlotterest",
+        "er_sie_es": "schlottere",
+        "wir": "schlottern",
+        "ihr": "schlotteret",
+        "sie_Sie": "schlottern"
+      },
+      "konjunktiv2": {
+        "ich": "schlotterte",
+        "du": "schlottertest",
+        "er_sie_es": "schlotterte",
+        "wir": "schlotterten",
+        "ihr": "schlottertet",
+        "sie_Sie": "schlotterten"
+      },
+      "imperativ": {
+        "du": "Schlottere!",
+        "ihr": "Schlottert!",
+        "Sie": "Schlottern Sie!"
+      }
+    },
+    "partizip1": "schlotternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "zittern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لرزیدن",
+          "en": "to tremble"
+        },
+        "id_ref": "verb_zittern"
+      },
+      {
+        "wort": "die Kälte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرما",
+          "en": "cold"
+        },
+        "id_ref": "nomen_kaelte"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "das Knie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زانو",
+          "en": "knee"
+        },
+        "id_ref": "nomen_knie"
+      },
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سردش شدن",
+          "en": "to be cold"
+        },
+        "id_ref": "verb_frieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

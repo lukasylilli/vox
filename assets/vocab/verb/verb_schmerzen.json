@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_schmerzen",
+  "wort": "schmerzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درد کردن",
+      "رنج دادن"
+    ],
+    "en": [
+      "to hurt",
+      "to ache"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃmɛʁt͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Rücken schmerzt.",
+      "uebersetzung": {
+        "fa": "کمرم درد می‌کند.",
+        "en": "My back hurts."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es schmerzt mich, dass wir uns so lange nicht gesehen haben.",
+      "uebersetzung": {
+        "fa": "دلم می‌سوزد که این‌قدر وقت است همدیگر را ندیده‌ایم.",
+        "en": "It pains me that we haven't seen each other for so long."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wehtun",
+      "uebersetzung": {
+        "fa": "درد گرفتن",
+        "en": "to hurt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schmerz (درد) + -en",
+    "en": "Schmerz (pain) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schmerzen",
+      "praeteritum": "schmerzte",
+      "partizip2": "geschmerzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schmerze",
+        "du": "schmerzt",
+        "er_sie_es": "schmerzt",
+        "wir": "schmerzen",
+        "ihr": "schmerzt",
+        "sie_Sie": "schmerzen"
+      },
+      "praeteritum": {
+        "ich": "schmerzte",
+        "du": "schmerztest",
+        "er_sie_es": "schmerzte",
+        "wir": "schmerzten",
+        "ihr": "schmerztet",
+        "sie_Sie": "schmerzten"
+      },
+      "konjunktiv1": {
+        "ich": "schmerze",
+        "du": "schmerzest",
+        "er_sie_es": "schmerze",
+        "wir": "schmerzen",
+        "ihr": "schmerzet",
+        "sie_Sie": "schmerzen"
+      },
+      "konjunktiv2": {
+        "ich": "schmerzte",
+        "du": "schmerztest",
+        "er_sie_es": "schmerzte",
+        "wir": "schmerzten",
+        "ihr": "schmerztet",
+        "sie_Sie": "schmerzten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "schmerzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Schmerz",
+    "woerter": [
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "wehtun",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درد کردن",
+          "en": "to hurt"
+        },
+        "id_ref": "verb_wehtun"
+      },
+      {
+        "wort": "die Schmerztablette",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرص مسکن",
+          "en": "painkiller"
+        },
+        "id_ref": "nomen_schmerztablette"
+      },
+      {
+        "wort": "schmerzhaft",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دردناک",
+          "en": "painful"
+        },
+        "id_ref": "adjektiv_schmerzhaft"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

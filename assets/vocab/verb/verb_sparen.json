@@ -1,0 +1,220 @@
+{
+  "schema": "3.0",
+  "id": "verb_sparen",
+  "wort": "sparen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پس‌انداز کردن",
+      "صرفه‌جویی کردن"
+    ],
+    "en": [
+      "to save",
+      "to economize"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Umwelt"
+  ],
+  "ipa": "ˈʃpaːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich spare für ein neues Fahrrad.",
+      "uebersetzung": {
+        "fa": "برای یک دوچرخه‌ی نو پس‌انداز می‌کنم.",
+        "en": "I'm saving for a new bike."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn wir das Licht ausmachen, sparen wir Strom und schonen die Umwelt.",
+      "uebersetzung": {
+        "fa": "اگر چراغ را خاموش کنیم، در برق صرفه‌جویی می‌کنیم و به محیط زیست هم آسیب نمی‌زنیم.",
+        "en": "If we switch off the light, we save electricity and protect the environment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zurücklegen",
+      "uebersetzung": {
+        "fa": "کنار گذاشتن",
+        "en": "to put aside"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausgeben",
+      "uebersetzung": {
+        "fa": "خرج کردن",
+        "en": "to spend"
+      }
+    },
+    {
+      "wort": "verschwenden",
+      "uebersetzung": {
+        "fa": "هدر دادن",
+        "en": "to waste"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Sparbuch",
+      "uebersetzung": {
+        "fa": "دفترچه‌ی پس‌انداز",
+        "en": "savings book"
+      }
+    },
+    {
+      "wort": "die Sparkasse",
+      "uebersetzung": {
+        "fa": "صندوق پس‌انداز",
+        "en": "savings bank"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "sparen (نگه داشتن، صرفه‌جویی کردن) — فعل ساده",
+    "en": "sparen (to save) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sparen für + Akk",
+        "bedeutung": "Geld für ein Ziel zurücklegen",
+        "beispiel": "Sie sparen für ihren Urlaub.",
+        "uebersetzung": {
+          "fa": "آن‌ها برای تعطیلاتشان پس‌انداز می‌کنند.",
+          "en": "They are saving for their holiday."
+        }
+      },
+      {
+        "muster": "sparen an + Dat",
+        "bedeutung": "bei etwas weniger ausgeben",
+        "beispiel": "Am Essen sollte man nicht sparen.",
+        "uebersetzung": {
+          "fa": "نباید در خوراک صرفه‌جویی کرد.",
+          "en": "You shouldn't skimp on food."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sparen",
+      "praeteritum": "sparte",
+      "partizip2": "gespart"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spare",
+        "du": "sparst",
+        "er_sie_es": "spart",
+        "wir": "sparen",
+        "ihr": "spart",
+        "sie_Sie": "sparen"
+      },
+      "praeteritum": {
+        "ich": "sparte",
+        "du": "spartest",
+        "er_sie_es": "sparte",
+        "wir": "sparten",
+        "ihr": "spartet",
+        "sie_Sie": "sparten"
+      },
+      "konjunktiv1": {
+        "ich": "spare",
+        "du": "sparest",
+        "er_sie_es": "spare",
+        "wir": "sparen",
+        "ihr": "sparet",
+        "sie_Sie": "sparen"
+      },
+      "konjunktiv2": {
+        "ich": "sparte",
+        "du": "spartest",
+        "er_sie_es": "sparte",
+        "wir": "sparten",
+        "ihr": "spartet",
+        "sie_Sie": "sparten"
+      },
+      "imperativ": {
+        "du": "Spare!",
+        "ihr": "Spart!",
+        "Sie": "Sparen Sie!"
+      }
+    },
+    "partizip1": "sparend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "ausgeben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرج کردن",
+          "en": "to spend"
+        },
+        "id_ref": "verb_ausgeben"
+      },
+      {
+        "wort": "sparsam",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صرفه‌جو",
+          "en": "thrifty"
+        },
+        "id_ref": "adjektiv_sparsam"
+      },
+      {
+        "wort": "das Sparbuch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دفترچه‌ی پس‌انداز",
+          "en": "savings book"
+        },
+        "id_ref": "nomen_sparbuch"
+      },
+      {
+        "wort": "die Ersparnis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پس‌انداز",
+          "en": "savings"
+        },
+        "id_ref": "nomen_ersparnis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

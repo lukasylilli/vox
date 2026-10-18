@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_separieren",
+  "wort": "separieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جدا کردن",
+      "مجزا کردن"
+    ],
+    "en": [
+      "to separate",
+      "to isolate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Gesundheit"
+  ],
+  "ipa": "zepaˈriːrən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir separieren die kranken Tiere.",
+      "uebersetzung": {
+        "fa": "ما حیوان‌های بیمار را جدا می‌کنیم.",
+        "en": "We separate the sick animals."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Patienten mit dem Virus wurden auf der Station von den anderen separiert.",
+      "uebersetzung": {
+        "fa": "بیماران مبتلا به ویروس در بخش از بقیه جدا شدند.",
+        "en": "Patients with the virus were separated from the others on the ward."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "trennen",
+      "uebersetzung": {
+        "fa": "جدا کردن",
+        "en": "to separate"
+      }
+    },
+    {
+      "wort": "isolieren",
+      "uebersetzung": {
+        "fa": "جدا نگه داشتن",
+        "en": "to isolate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "vereinen",
+      "uebersetzung": {
+        "fa": "یکی کردن",
+        "en": "to unite"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین separare (جدا کردن)",
+    "en": "from Latin separare (to separate)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas von + Dat separieren",
+        "bedeutung": "etwas von etwas anderem trennen",
+        "beispiel": "Man separiert das Fett von der Brühe.",
+        "uebersetzung": {
+          "fa": "چربی را از آب گوشت جدا می‌کنند.",
+          "en": "You separate the fat from the broth."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "separieren",
+      "praeteritum": "separierte",
+      "partizip2": "separiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "separiere",
+        "du": "separierst",
+        "er_sie_es": "separiert",
+        "wir": "separieren",
+        "ihr": "separiert",
+        "sie_Sie": "separieren"
+      },
+      "praeteritum": {
+        "ich": "separierte",
+        "du": "separiertest",
+        "er_sie_es": "separierte",
+        "wir": "separierten",
+        "ihr": "separiertet",
+        "sie_Sie": "separierten"
+      },
+      "konjunktiv1": {
+        "ich": "separiere",
+        "du": "separierest",
+        "er_sie_es": "separiere",
+        "wir": "separieren",
+        "ihr": "separieret",
+        "sie_Sie": "separieren"
+      },
+      "konjunktiv2": {
+        "ich": "separierte",
+        "du": "separiertest",
+        "er_sie_es": "separierte",
+        "wir": "separierten",
+        "ihr": "separiertet",
+        "sie_Sie": "separierten"
+      },
+      "imperativ": {
+        "du": "Separiere!",
+        "ihr": "Separiert!",
+        "Sie": "Separieren Sie!"
+      }
+    },
+    "partizip1": "separierend",
+    "nominalisierung": "die Separation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "trennen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن",
+          "en": "to separate"
+        },
+        "id_ref": "verb_trennen"
+      },
+      {
+        "wort": "separat",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جداگانه",
+          "en": "separate"
+        },
+        "id_ref": "adjektiv_separat"
+      },
+      {
+        "wort": "isolieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا کردن، عایق کردن",
+          "en": "to isolate"
+        },
+        "id_ref": "verb_isolieren"
+      },
+      {
+        "wort": "die Trennung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدایی",
+          "en": "separation"
+        },
+        "id_ref": "nomen_trennung"
+      },
+      {
+        "wort": "getrennt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جدا",
+          "en": "separate"
+        },
+        "id_ref": "adjektiv_getrennt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

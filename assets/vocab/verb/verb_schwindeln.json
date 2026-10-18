@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwindeln",
+  "wort": "schwindeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دروغ کوچک گفتن",
+      "سرگیجه داشتن"
+    ],
+    "en": [
+      "to fib",
+      "to feel dizzy"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃvɪndl̩n",
+  "anmerkung": "Unpersönlich: «mir schwindelt» = mir ist schwindlig.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du schwindelst doch!",
+      "uebersetzung": {
+        "fa": "داری دروغ می‌گویی!",
+        "en": "You're fibbing!"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat beim Alter ein bisschen geschwindelt, damit er in den Club gelassen wird.",
+      "uebersetzung": {
+        "fa": "او درباره‌ی سنش کمی دروغ گفت تا او را به کلوب راه بدهند.",
+        "en": "He fibbed a little about his age so that he would be let into the club."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lügen",
+      "uebersetzung": {
+        "fa": "دروغ گفتن",
+        "en": "to lie"
+      }
+    },
+    {
+      "wort": "flunkern",
+      "uebersetzung": {
+        "fa": "خالی‌بندی کردن",
+        "en": "to fib"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Wahrheit sagen",
+      "uebersetzung": {
+        "fa": "راست گفتن",
+        "en": "to tell the truth"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schwindel (سرگیجه، فریب) + -n",
+    "en": "Schwindel (dizziness, swindle) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schwindeln",
+      "praeteritum": "schwindelte",
+      "partizip2": "geschwindelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwindle",
+        "du": "schwindelst",
+        "er_sie_es": "schwindelt",
+        "wir": "schwindeln",
+        "ihr": "schwindelt",
+        "sie_Sie": "schwindeln"
+      },
+      "praeteritum": {
+        "ich": "schwindelte",
+        "du": "schwindeltest",
+        "er_sie_es": "schwindelte",
+        "wir": "schwindelten",
+        "ihr": "schwindeltet",
+        "sie_Sie": "schwindelten"
+      },
+      "konjunktiv1": {
+        "ich": "schwindle",
+        "du": "schwindlest",
+        "er_sie_es": "schwindle",
+        "wir": "schwindeln",
+        "ihr": "schwindlet",
+        "sie_Sie": "schwindeln"
+      },
+      "konjunktiv2": {
+        "ich": "schwindelte",
+        "du": "schwindeltest",
+        "er_sie_es": "schwindelte",
+        "wir": "schwindelten",
+        "ihr": "schwindeltet",
+        "sie_Sie": "schwindelten"
+      },
+      "imperativ": {
+        "du": "Schwindle!",
+        "ihr": "Schwindelt!",
+        "Sie": "Schwindeln Sie!"
+      }
+    },
+    "partizip1": "schwindelnd",
+    "nominalisierung": "der Schwindel"
+  },
+  "wortnetz": {
+    "grundwort": "Schwindel",
+    "woerter": [
+      {
+        "wort": "lügen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دروغ گفتن",
+          "en": "to lie"
+        },
+        "id_ref": "verb_luegen"
+      },
+      {
+        "wort": "schwindlig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرگیجه‌دار",
+          "en": "dizzy"
+        },
+        "id_ref": "adjektiv_schwindlig"
+      },
+      {
+        "wort": "der Schwindel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرگیجه، کلاه‌برداری",
+          "en": "dizziness, swindle"
+        },
+        "id_ref": "nomen_schwindel"
+      },
+      {
+        "wort": "die Lüge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دروغ",
+          "en": "lie"
+        },
+        "id_ref": "nomen_luege"
+      },
+      {
+        "wort": "ehrlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صادق",
+          "en": "honest"
+        },
+        "id_ref": "adjektiv_ehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

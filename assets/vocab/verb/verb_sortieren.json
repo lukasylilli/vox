@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_sortieren",
+  "wort": "sortieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مرتب کردن",
+      "دسته‌بندی کردن",
+      "جدا کردن"
+    ],
+    "en": [
+      "to sort",
+      "to arrange"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Haushalt",
+    "Arbeit"
+  ],
+  "ipa": "zɔʁˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich sortiere die Wäsche.",
+      "uebersetzung": {
+        "fa": "لباس‌ها را دسته‌بندی می‌کنم.",
+        "en": "I am sorting the laundry."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir sortieren den Müll, damit Papier und Plastik recycelt werden können.",
+      "uebersetzung": {
+        "fa": "زباله‌ها را جدا می‌کنیم تا کاغذ و پلاستیک بازیافت شوند.",
+        "en": "We sort the rubbish so that paper and plastic can be recycled."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ordnen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to arrange"
+      }
+    },
+    {
+      "wort": "einteilen",
+      "uebersetzung": {
+        "fa": "تقسیم کردن",
+        "en": "to classify"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "durcheinanderbringen",
+      "uebersetzung": {
+        "fa": "به هم ریختن",
+        "en": "to mix up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sorte (نوع) + -ieren",
+    "en": "Sorte (kind, type) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sortieren nach + Dat",
+        "bedeutung": "nach einem Kriterium ordnen",
+        "beispiel": "Sortiere die Bücher nach Größe!",
+        "uebersetzung": {
+          "fa": "کتاب‌ها را بر اساس اندازه مرتب کن!",
+          "en": "Sort the books by size!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sortieren",
+      "praeteritum": "sortierte",
+      "partizip2": "sortiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sortiere",
+        "du": "sortierst",
+        "er_sie_es": "sortiert",
+        "wir": "sortieren",
+        "ihr": "sortiert",
+        "sie_Sie": "sortieren"
+      },
+      "praeteritum": {
+        "ich": "sortierte",
+        "du": "sortiertest",
+        "er_sie_es": "sortierte",
+        "wir": "sortierten",
+        "ihr": "sortiertet",
+        "sie_Sie": "sortierten"
+      },
+      "konjunktiv1": {
+        "ich": "sortiere",
+        "du": "sortierest",
+        "er_sie_es": "sortiere",
+        "wir": "sortieren",
+        "ihr": "sortieret",
+        "sie_Sie": "sortieren"
+      },
+      "konjunktiv2": {
+        "ich": "sortierte",
+        "du": "sortiertest",
+        "er_sie_es": "sortierte",
+        "wir": "sortierten",
+        "ihr": "sortiertet",
+        "sie_Sie": "sortierten"
+      },
+      "imperativ": {
+        "du": "Sortiere!",
+        "ihr": "Sortiert!",
+        "Sie": "Sortieren Sie!"
+      }
+    },
+    "partizip1": "sortierend",
+    "nominalisierung": "die Sortierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sorte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نوع",
+          "en": "kind"
+        },
+        "id_ref": "nomen_sorte"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "die Ordnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نظم",
+          "en": "order"
+        },
+        "id_ref": "nomen_ordnung"
+      },
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "rubbish"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "das Sortiment",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مجموعه‌ی کالا",
+          "en": "range of goods"
+        },
+        "id_ref": "nomen_sortiment"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

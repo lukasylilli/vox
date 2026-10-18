@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schmoekern",
+  "wort": "schmökern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با لذت و فراغت کتاب خواندن",
+      "ورق زدن"
+    ],
+    "en": [
+      "to browse (a book)",
+      "to read leisurely"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Freizeit",
+    "Lesen"
+  ],
+  "ipa": "ˈʃmøːkɐn",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Sonntag schmökere ich gern.",
+      "uebersetzung": {
+        "fa": "یکشنبه‌ها دوست دارم با فراغت کتاب بخوانم.",
+        "en": "On Sundays I like to curl up with a book."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Bibliothek hat sie stundenlang in alten Reiseführern geschmökert.",
+      "uebersetzung": {
+        "fa": "در کتابخانه ساعت‌ها راهنماهای سفر قدیمی را ورق زد.",
+        "en": "In the library she browsed through old travel guides for hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lesen",
+      "uebersetzung": {
+        "fa": "خواندن",
+        "en": "to read"
+      }
+    },
+    {
+      "wort": "blättern",
+      "uebersetzung": {
+        "fa": "ورق زدن",
+        "en": "to leaf through"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schmöker (کتاب سرگرم‌کننده) + -n",
+    "en": "Schmöker (light read) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schmökern in + Dat",
+        "bedeutung": "gemütlich in etwas lesen",
+        "beispiel": "Er schmökert in einem Comic.",
+        "uebersetzung": {
+          "fa": "او با لذت یک کمیک را ورق می‌زند.",
+          "en": "He is browsing through a comic."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schmökern",
+      "praeteritum": "schmökerte",
+      "partizip2": "geschmökert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schmökere",
+        "du": "schmökerst",
+        "er_sie_es": "schmökert",
+        "wir": "schmökern",
+        "ihr": "schmökert",
+        "sie_Sie": "schmökern"
+      },
+      "praeteritum": {
+        "ich": "schmökerte",
+        "du": "schmökertest",
+        "er_sie_es": "schmökerte",
+        "wir": "schmökerten",
+        "ihr": "schmökertet",
+        "sie_Sie": "schmökerten"
+      },
+      "konjunktiv1": {
+        "ich": "schmökere",
+        "du": "schmökerest",
+        "er_sie_es": "schmökere",
+        "wir": "schmökern",
+        "ihr": "schmökeret",
+        "sie_Sie": "schmökern"
+      },
+      "konjunktiv2": {
+        "ich": "schmökerte",
+        "du": "schmökertest",
+        "er_sie_es": "schmökerte",
+        "wir": "schmökerten",
+        "ihr": "schmökertet",
+        "sie_Sie": "schmökerten"
+      },
+      "imperativ": {
+        "du": "Schmökere!",
+        "ihr": "Schmökert!",
+        "Sie": "Schmökern Sie!"
+      }
+    },
+    "partizip1": "schmökernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "blättern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورق زدن",
+          "en": "to leaf through"
+        },
+        "id_ref": "verb_blaettern"
+      },
+      {
+        "wort": "der Roman",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رمان",
+          "en": "novel"
+        },
+        "id_ref": "nomen_roman"
+      },
+      {
+        "wort": "der Schmöker",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کتاب سرگرم‌کننده",
+          "en": "light read"
+        },
+        "id_ref": "nomen_schmoeker"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

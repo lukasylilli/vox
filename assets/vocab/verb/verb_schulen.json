@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_schulen",
+  "wort": "schulen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آموزش دادن (حرفه‌ای)",
+      "تعلیم دادن",
+      "پرورش دادن (حس، توانایی)"
+    ],
+    "en": [
+      "to train",
+      "to school"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Bildung"
+  ],
+  "ipa": "ˈʃuːlən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma schult ihre Mitarbeiter.",
+      "uebersetzung": {
+        "fa": "شرکت کارمندانش را آموزش می‌دهد.",
+        "en": "The company trains its employees."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle Pflegekräfte werden regelmäßig geschult, damit sie im Notfall richtig reagieren.",
+      "uebersetzung": {
+        "fa": "همه‌ی پرستاران به‌طور منظم آموزش می‌بینند تا در موقعیت اضطراری درست واکنش نشان دهند.",
+        "en": "All nursing staff are trained regularly so that they react correctly in an emergency."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausbilden",
+      "uebersetzung": {
+        "fa": "آموزش دادن",
+        "en": "to train"
+      }
+    },
+    {
+      "wort": "trainieren",
+      "uebersetzung": {
+        "fa": "تمرین دادن",
+        "en": "to coach"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schule (مدرسه) + -n",
+    "en": "Schule (school) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schulen in + Dat",
+        "bedeutung": "jemanden in einem Bereich ausbilden",
+        "beispiel": "Sie wird in Erster Hilfe geschult.",
+        "uebersetzung": {
+          "fa": "او در کمک‌های اولیه آموزش می‌بیند.",
+          "en": "She is being trained in first aid."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schulen",
+      "praeteritum": "schulte",
+      "partizip2": "geschult"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schule",
+        "du": "schulst",
+        "er_sie_es": "schult",
+        "wir": "schulen",
+        "ihr": "schult",
+        "sie_Sie": "schulen"
+      },
+      "praeteritum": {
+        "ich": "schulte",
+        "du": "schultest",
+        "er_sie_es": "schulte",
+        "wir": "schulten",
+        "ihr": "schultet",
+        "sie_Sie": "schulten"
+      },
+      "konjunktiv1": {
+        "ich": "schule",
+        "du": "schulest",
+        "er_sie_es": "schule",
+        "wir": "schulen",
+        "ihr": "schulet",
+        "sie_Sie": "schulen"
+      },
+      "konjunktiv2": {
+        "ich": "schulte",
+        "du": "schultest",
+        "er_sie_es": "schulte",
+        "wir": "schulten",
+        "ihr": "schultet",
+        "sie_Sie": "schulten"
+      },
+      "imperativ": {
+        "du": "Schule!",
+        "ihr": "Schult!",
+        "Sie": "Schulen Sie!"
+      }
+    },
+    "partizip1": "schulend",
+    "nominalisierung": "die Schulung"
+  },
+  "wortnetz": {
+    "grundwort": "Schule",
+    "woerter": [
+      {
+        "wort": "die Schulung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوره‌ی آموزشی",
+          "en": "training"
+        },
+        "id_ref": "nomen_schulung"
+      },
+      {
+        "wort": "die Schule",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مدرسه",
+          "en": "school"
+        },
+        "id_ref": "nomen_schule"
+      },
+      {
+        "wort": "ausbilden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آموزش دادن",
+          "en": "to train"
+        },
+        "id_ref": "verb_ausbilden"
+      },
+      {
+        "wort": "die Weiterbildung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آموزش تکمیلی",
+          "en": "further training"
+        },
+        "id_ref": "nomen_weiterbildung"
+      },
+      {
+        "wort": "der Kurs",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوره",
+          "en": "course"
+        },
+        "id_ref": "nomen_kurs"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

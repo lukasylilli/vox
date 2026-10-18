@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_sonnen",
+  "wort": "sonnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آفتاب گرفتن",
+      "لذت بردن (از موفقیت)"
+    ],
+    "en": [
+      "to sunbathe",
+      "to bask"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Freizeit",
+    "Wetter"
+  ],
+  "ipa": "ˈzɔnən",
+  "anmerkung": "Nur reflexiv: «sich sonnen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir sonnen uns am Strand.",
+      "uebersetzung": {
+        "fa": "ما در ساحل آفتاب می‌گیریم.",
+        "en": "We are sunbathing on the beach."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Sieg sonnte sich der Trainer im Erfolg seiner Mannschaft.",
+      "uebersetzung": {
+        "fa": "بعد از پیروزی، مربی از موفقیت تیمش لذت می‌برد.",
+        "en": "After the victory the coach basked in his team's success."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich bräunen",
+      "uebersetzung": {
+        "fa": "برنزه شدن",
+        "en": "to tan"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sonne (خورشید) + -n",
+    "en": "Sonne (sun) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich sonnen in + Dat",
+        "bedeutung": "etwas Positives genießen",
+        "beispiel": "Sie sonnt sich in ihrem Ruhm.",
+        "uebersetzung": {
+          "fa": "او از شهرتش لذت می‌برد.",
+          "en": "She basks in her fame."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sonnen",
+      "praeteritum": "sonnte",
+      "partizip2": "gesonnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sonne",
+        "du": "sonnst",
+        "er_sie_es": "sonnt",
+        "wir": "sonnen",
+        "ihr": "sonnt",
+        "sie_Sie": "sonnen"
+      },
+      "praeteritum": {
+        "ich": "sonnte",
+        "du": "sonntest",
+        "er_sie_es": "sonnte",
+        "wir": "sonnten",
+        "ihr": "sonntet",
+        "sie_Sie": "sonnten"
+      },
+      "konjunktiv1": {
+        "ich": "sonne",
+        "du": "sonnest",
+        "er_sie_es": "sonne",
+        "wir": "sonnen",
+        "ihr": "sonnet",
+        "sie_Sie": "sonnen"
+      },
+      "konjunktiv2": {
+        "ich": "sonnte",
+        "du": "sonntest",
+        "er_sie_es": "sonnte",
+        "wir": "sonnten",
+        "ihr": "sonntet",
+        "sie_Sie": "sonnten"
+      },
+      "imperativ": {
+        "du": "Sonne!",
+        "ihr": "Sonnt!",
+        "Sie": "Sonnen Sie!"
+      }
+    },
+    "partizip1": "sonnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Sonne",
+    "woerter": [
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      },
+      {
+        "wort": "der Strand",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساحل",
+          "en": "beach"
+        },
+        "id_ref": "nomen_strand"
+      },
+      {
+        "wort": "die Sonnencreme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کرم ضدآفتاب",
+          "en": "sun cream"
+        },
+        "id_ref": "nomen_sonnencreme"
+      },
+      {
+        "wort": "braun",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قهوه‌ای، برنزه",
+          "en": "brown, tanned"
+        },
+        "id_ref": "adjektiv_braun"
+      },
+      {
+        "wort": "der Sonnenbrand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آفتاب‌سوختگی",
+          "en": "sunburn"
+        },
+        "id_ref": "nomen_sonnenbrand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

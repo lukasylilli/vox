@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_sondieren",
+  "wort": "sondieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با احتیاط بررسی کردن",
+      "زمینه را سنجیدن",
+      "با سوند معاینه کردن (پزشکی)"
+    ],
+    "en": [
+      "to sound out",
+      "to explore",
+      "to probe"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Medizin"
+  ],
+  "ipa": "zɔnˈdiːrən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt sondiert die Wunde.",
+      "uebersetzung": {
+        "fa": "پزشک زخم را با سوند معاینه می‌کند.",
+        "en": "The doctor probes the wound."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Wahl sondieren die Parteien, ob eine gemeinsame Regierung möglich ist.",
+      "uebersetzung": {
+        "fa": "پس از انتخابات، حزب‌ها می‌سنجند که آیا دولت مشترک ممکن است یا نه.",
+        "en": "After the election the parties sound out whether a joint government is possible."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erkunden",
+      "uebersetzung": {
+        "fa": "کاوش کردن",
+        "en": "to explore"
+      }
+    },
+    {
+      "wort": "abtasten",
+      "uebersetzung": {
+        "fa": "لمس کردن و سنجیدن",
+        "en": "to feel out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Sonde (سوند، کاوشگر)",
+    "en": "from die Sonde (probe)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sondieren",
+      "praeteritum": "sondierte",
+      "partizip2": "sondiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sondiere",
+        "du": "sondierst",
+        "er_sie_es": "sondiert",
+        "wir": "sondieren",
+        "ihr": "sondiert",
+        "sie_Sie": "sondieren"
+      },
+      "praeteritum": {
+        "ich": "sondierte",
+        "du": "sondiertest",
+        "er_sie_es": "sondierte",
+        "wir": "sondierten",
+        "ihr": "sondiertet",
+        "sie_Sie": "sondierten"
+      },
+      "konjunktiv1": {
+        "ich": "sondiere",
+        "du": "sondierest",
+        "er_sie_es": "sondiere",
+        "wir": "sondieren",
+        "ihr": "sondieret",
+        "sie_Sie": "sondieren"
+      },
+      "konjunktiv2": {
+        "ich": "sondierte",
+        "du": "sondiertest",
+        "er_sie_es": "sondierte",
+        "wir": "sondierten",
+        "ihr": "sondiertet",
+        "sie_Sie": "sondierten"
+      },
+      "imperativ": {
+        "du": "Sondiere!",
+        "ihr": "Sondiert!",
+        "Sie": "Sondieren Sie!"
+      }
+    },
+    "partizip1": "sondierend",
+    "nominalisierung": "die Sondierung"
+  },
+  "wortnetz": {
+    "grundwort": "Sonde",
+    "woerter": [
+      {
+        "wort": "die Sonde",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوند، کاوشگر",
+          "en": "probe"
+        },
+        "id_ref": "nomen_sonde"
+      },
+      {
+        "wort": "die Sondierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گفت‌وگوی اکتشافی",
+          "en": "exploratory talks"
+        },
+        "id_ref": "nomen_sondierung"
+      },
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "erkunden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاوش کردن",
+          "en": "to explore"
+        },
+        "id_ref": "verb_erkunden"
+      },
+      {
+        "wort": "verhandeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مذاکره کردن",
+          "en": "to negotiate"
+        },
+        "id_ref": "verb_verhandeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

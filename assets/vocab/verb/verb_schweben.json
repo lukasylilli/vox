@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schweben",
+  "wort": "schweben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "در هوا معلق بودن",
+      "شناور بودن",
+      "در جریان بودن (پرونده)"
+    ],
+    "en": [
+      "to float",
+      "to hover",
+      "to be pending"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Natur"
+  ],
+  "ipa": "ˈʃveːbn̩",
+  "anmerkung": "Bei Ortsveränderung mit «sein» (der Ballon ist über das Tal geschwebt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Ballon schwebt am Himmel.",
+      "uebersetzung": {
+        "fa": "یک بالن در آسمان معلق است.",
+        "en": "A balloon is floating in the sky."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall schwebte der Fahrer tagelang in Lebensgefahr.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف، راننده روزها در خطر مرگ بود.",
+        "en": "After the accident the driver was in mortal danger for days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fliegen",
+      "uebersetzung": {
+        "fa": "پرواز کردن",
+        "en": "to fly"
+      }
+    },
+    {
+      "wort": "treiben",
+      "uebersetzung": {
+        "fa": "شناور بودن",
+        "en": "to drift"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fallen",
+      "uebersetzung": {
+        "fa": "افتادن",
+        "en": "to fall"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schweben (معلق بودن) — فعل ساده",
+    "en": "schweben (to float) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Dat schweben",
+        "bedeutung": "sich in einem Zustand befinden",
+        "beispiel": "Sie schwebt im siebten Himmel.",
+        "uebersetzung": {
+          "fa": "او در آسمان هفتم سیر می‌کند.",
+          "en": "She is on cloud nine."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schweben",
+      "praeteritum": "schwebte",
+      "partizip2": "geschwebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwebe",
+        "du": "schwebst",
+        "er_sie_es": "schwebt",
+        "wir": "schweben",
+        "ihr": "schwebt",
+        "sie_Sie": "schweben"
+      },
+      "praeteritum": {
+        "ich": "schwebte",
+        "du": "schwebtest",
+        "er_sie_es": "schwebte",
+        "wir": "schwebten",
+        "ihr": "schwebtet",
+        "sie_Sie": "schwebten"
+      },
+      "konjunktiv1": {
+        "ich": "schwebe",
+        "du": "schwebest",
+        "er_sie_es": "schwebe",
+        "wir": "schweben",
+        "ihr": "schwebet",
+        "sie_Sie": "schweben"
+      },
+      "konjunktiv2": {
+        "ich": "schwebte",
+        "du": "schwebtest",
+        "er_sie_es": "schwebte",
+        "wir": "schwebten",
+        "ihr": "schwebtet",
+        "sie_Sie": "schwebten"
+      },
+      "imperativ": {
+        "du": "Schwebe!",
+        "ihr": "Schwebt!",
+        "Sie": "Schweben Sie!"
+      }
+    },
+    "partizip1": "schwebend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Himmel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آسمان",
+          "en": "sky"
+        },
+        "id_ref": "nomen_himmel"
+      },
+      {
+        "wort": "leicht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سبک",
+          "en": "light"
+        },
+        "id_ref": "adjektiv_leicht"
+      },
+      {
+        "wort": "der Ballon",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بالن",
+          "en": "balloon"
+        },
+        "id_ref": "nomen_ballon"
+      },
+      {
+        "wort": "die Lebensgefahr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خطر مرگ",
+          "en": "mortal danger"
+        },
+        "id_ref": "nomen_lebensgefahr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schonen",
+  "wort": "schonen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مراقب بودن (از چیزی)",
+      "آسیب نرساندن",
+      "استراحت دادن (به خود)"
+    ],
+    "en": [
+      "to spare",
+      "to look after",
+      "to take it easy"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Umwelt"
+  ],
+  "ipa": "ˈʃoːnən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Du musst dich nach der Operation schonen.",
+      "uebersetzung": {
+        "fa": "بعد از عمل باید استراحت کنی و به خودت فشار نیاوری.",
+        "en": "You have to take it easy after the operation."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wer mit dem Fahrrad fährt, schont die Umwelt und spart außerdem Geld.",
+      "uebersetzung": {
+        "fa": "کسی که دوچرخه‌سواری می‌کند، به محیط زیست آسیب نمی‌زند و پول هم صرفه‌جویی می‌کند.",
+        "en": "Anyone who cycles protects the environment and also saves money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schützen",
+      "uebersetzung": {
+        "fa": "محافظت کردن",
+        "en": "to protect"
+      }
+    },
+    {
+      "wort": "sich ausruhen",
+      "uebersetzung": {
+        "fa": "استراحت کردن",
+        "en": "to rest"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "belasten",
+      "uebersetzung": {
+        "fa": "فشار آوردن",
+        "en": "to strain"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Schonkost",
+      "uebersetzung": {
+        "fa": "غذای سبک (رژیمی)",
+        "en": "light diet"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schon- (ملایم) + -en",
+    "en": "schon- (gentle) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schonen",
+      "praeteritum": "schonte",
+      "partizip2": "geschont"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schone",
+        "du": "schonst",
+        "er_sie_es": "schont",
+        "wir": "schonen",
+        "ihr": "schont",
+        "sie_Sie": "schonen"
+      },
+      "praeteritum": {
+        "ich": "schonte",
+        "du": "schontest",
+        "er_sie_es": "schonte",
+        "wir": "schonten",
+        "ihr": "schontet",
+        "sie_Sie": "schonten"
+      },
+      "konjunktiv1": {
+        "ich": "schone",
+        "du": "schonest",
+        "er_sie_es": "schone",
+        "wir": "schonen",
+        "ihr": "schonet",
+        "sie_Sie": "schonen"
+      },
+      "konjunktiv2": {
+        "ich": "schonte",
+        "du": "schontest",
+        "er_sie_es": "schonte",
+        "wir": "schonten",
+        "ihr": "schontet",
+        "sie_Sie": "schonten"
+      },
+      "imperativ": {
+        "du": "Schone!",
+        "ihr": "Schont!",
+        "Sie": "Schonen Sie!"
+      }
+    },
+    "partizip1": "schonend",
+    "nominalisierung": "die Schonung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schonung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مراعات، استراحت",
+          "en": "rest, care"
+        },
+        "id_ref": "nomen_schonung"
+      },
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      },
+      {
+        "wort": "die Erholung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استراحت",
+          "en": "recovery"
+        },
+        "id_ref": "nomen_erholung"
+      },
+      {
+        "wort": "schonend",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ملایم",
+          "en": "gentle"
+        },
+        "id_ref": "adjektiv_schonend"
+      },
+      {
+        "wort": "die Umwelt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محیط زیست",
+          "en": "environment"
+        },
+        "id_ref": "nomen_umwelt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

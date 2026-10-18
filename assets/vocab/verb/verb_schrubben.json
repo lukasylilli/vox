@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_schrubben",
+  "wort": "schrubben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ساییدن و شستن",
+      "با برس تمیز کردن"
+    ],
+    "en": [
+      "to scrub"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Haushalt",
+    "Reinigung"
+  ],
+  "ipa": "ˈʃʁʊbn̩",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schrubbe den Boden.",
+      "uebersetzung": {
+        "fa": "زمین را با برس می‌شویم.",
+        "en": "I am scrubbing the floor."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Fest mussten wir die Töpfe lange schrubben, bis sie wieder sauber waren.",
+      "uebersetzung": {
+        "fa": "بعد از جشن باید مدت زیادی قابلمه‌ها را می‌ساییدیم تا دوباره تمیز شوند.",
+        "en": "After the party we had to scrub the pots for a long time until they were clean again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "putzen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    },
+    {
+      "wort": "scheuern",
+      "uebersetzung": {
+        "fa": "ساییدن",
+        "en": "to scour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schrubben (ساییدن) — از آلمانی سفلی",
+    "en": "schrubben (to scrub) — from Low German"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schrubben",
+      "praeteritum": "schrubbte",
+      "partizip2": "geschrubbt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schrubbe",
+        "du": "schrubbst",
+        "er_sie_es": "schrubbt",
+        "wir": "schrubben",
+        "ihr": "schrubbt",
+        "sie_Sie": "schrubben"
+      },
+      "praeteritum": {
+        "ich": "schrubbte",
+        "du": "schrubbtest",
+        "er_sie_es": "schrubbte",
+        "wir": "schrubbten",
+        "ihr": "schrubbtet",
+        "sie_Sie": "schrubbten"
+      },
+      "konjunktiv1": {
+        "ich": "schrubbe",
+        "du": "schrubbest",
+        "er_sie_es": "schrubbe",
+        "wir": "schrubben",
+        "ihr": "schrubbet",
+        "sie_Sie": "schrubben"
+      },
+      "konjunktiv2": {
+        "ich": "schrubbte",
+        "du": "schrubbtest",
+        "er_sie_es": "schrubbte",
+        "wir": "schrubbten",
+        "ihr": "schrubbtet",
+        "sie_Sie": "schrubbten"
+      },
+      "imperativ": {
+        "du": "Schrubbe!",
+        "ihr": "Schrubbt!",
+        "Sie": "Schrubben Sie!"
+      }
+    },
+    "partizip1": "schrubbend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "die Bürste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برس",
+          "en": "brush"
+        },
+        "id_ref": "nomen_buerste"
+      },
+      {
+        "wort": "sauber",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز",
+          "en": "clean"
+        },
+        "id_ref": "adjektiv_sauber"
+      },
+      {
+        "wort": "der Schrubber",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زمین‌شوی دسته‌دار",
+          "en": "scrubbing brush"
+        },
+        "id_ref": "nomen_schrubber"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کف، زمین",
+          "en": "floor"
+        },
+        "id_ref": "nomen_boden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

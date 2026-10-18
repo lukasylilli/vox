@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_sehnen",
+  "wort": "sehnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دلتنگ بودن",
+      "آرزو داشتن",
+      "اشتیاق داشتن"
+    ],
+    "en": [
+      "to long",
+      "to yearn"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈzeːnən",
+  "anmerkung": "Nur reflexiv: «sich sehnen nach».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich sehne mich nach dir.",
+      "uebersetzung": {
+        "fa": "دلم برایت تنگ است.",
+        "en": "I long for you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem langen Winter sehnen sich alle nach Sonne und warmen Tagen.",
+      "uebersetzung": {
+        "fa": "بعد از زمستان طولانی، همه آرزوی آفتاب و روزهای گرم را دارند.",
+        "en": "After the long winter, everyone longs for sun and warm days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vermissen",
+      "uebersetzung": {
+        "fa": "دلتنگ بودن",
+        "en": "to miss"
+      }
+    },
+    {
+      "wort": "sich wünschen",
+      "uebersetzung": {
+        "fa": "آرزو کردن",
+        "en": "to wish for"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sehnen (اشتیاق داشتن) — فعل ساده",
+    "en": "sehnen (to yearn) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich sehnen nach + Dat",
+        "bedeutung": "starken Wunsch nach jemandem oder etwas haben",
+        "beispiel": "Er sehnt sich nach seiner Heimat.",
+        "uebersetzung": {
+          "fa": "او دلتنگ وطنش است.",
+          "en": "He longs for his homeland."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sehnen",
+      "praeteritum": "sehnte",
+      "partizip2": "gesehnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sehne",
+        "du": "sehnst",
+        "er_sie_es": "sehnt",
+        "wir": "sehnen",
+        "ihr": "sehnt",
+        "sie_Sie": "sehnen"
+      },
+      "praeteritum": {
+        "ich": "sehnte",
+        "du": "sehntest",
+        "er_sie_es": "sehnte",
+        "wir": "sehnten",
+        "ihr": "sehntet",
+        "sie_Sie": "sehnten"
+      },
+      "konjunktiv1": {
+        "ich": "sehne",
+        "du": "sehnest",
+        "er_sie_es": "sehne",
+        "wir": "sehnen",
+        "ihr": "sehnet",
+        "sie_Sie": "sehnen"
+      },
+      "konjunktiv2": {
+        "ich": "sehnte",
+        "du": "sehntest",
+        "er_sie_es": "sehnte",
+        "wir": "sehnten",
+        "ihr": "sehntet",
+        "sie_Sie": "sehnten"
+      },
+      "imperativ": {
+        "du": "Sehne!",
+        "ihr": "Sehnt!",
+        "Sie": "Sehnen Sie!"
+      }
+    },
+    "partizip1": "sehnend",
+    "nominalisierung": "die Sehnsucht"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Sehnsucht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اشتیاق، دلتنگی",
+          "en": "longing"
+        },
+        "id_ref": "nomen_sehnsucht"
+      },
+      {
+        "wort": "vermissen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلتنگ بودن",
+          "en": "to miss"
+        },
+        "id_ref": "verb_vermissen"
+      },
+      {
+        "wort": "der Wunsch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرزو",
+          "en": "wish"
+        },
+        "id_ref": "nomen_wunsch"
+      },
+      {
+        "wort": "das Heimweh",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلتنگی برای وطن",
+          "en": "homesickness"
+        },
+        "id_ref": "nomen_heimweh"
+      },
+      {
+        "wort": "die Liebe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عشق",
+          "en": "love"
+        },
+        "id_ref": "nomen_liebe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

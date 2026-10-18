@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_segnen",
+  "wort": "segnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برکت دادن",
+      "دعای خیر کردن"
+    ],
+    "en": [
+      "to bless"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion"
+  ],
+  "ipa": "ˈzeːɡnən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Priester segnet die Kinder.",
+      "uebersetzung": {
+        "fa": "کشیش برای بچه‌ها دعای برکت می‌کند.",
+        "en": "The priest blesses the children."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie ist mit einer großen Begabung für Musik gesegnet, die sie schon als Kind zeigte.",
+      "uebersetzung": {
+        "fa": "او از استعداد بزرگی در موسیقی برخوردار است که از کودکی نشان می‌داد.",
+        "en": "She is blessed with a great gift for music, which she showed even as a child."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "weihen",
+      "uebersetzung": {
+        "fa": "تقدیس کردن",
+        "en": "to consecrate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verfluchen",
+      "uebersetzung": {
+        "fa": "نفرین کردن",
+        "en": "to curse"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Segen (برکت) + -en",
+    "en": "Segen (blessing) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "gesegnet sein mit + Dat",
+        "bedeutung": "etwas Gutes besitzen",
+        "beispiel": "Wir sind mit gesunden Kindern gesegnet.",
+        "uebersetzung": {
+          "fa": "خدا به ما بچه‌های سالم داده است.",
+          "en": "We are blessed with healthy children."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "segnen",
+      "praeteritum": "segnete",
+      "partizip2": "gesegnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "segne",
+        "du": "segnest",
+        "er_sie_es": "segnet",
+        "wir": "segnen",
+        "ihr": "segnet",
+        "sie_Sie": "segnen"
+      },
+      "praeteritum": {
+        "ich": "segnete",
+        "du": "segnetest",
+        "er_sie_es": "segnete",
+        "wir": "segneten",
+        "ihr": "segnetet",
+        "sie_Sie": "segneten"
+      },
+      "konjunktiv1": {
+        "ich": "segne",
+        "du": "segnest",
+        "er_sie_es": "segne",
+        "wir": "segnen",
+        "ihr": "segnet",
+        "sie_Sie": "segnen"
+      },
+      "konjunktiv2": {
+        "ich": "segnete",
+        "du": "segnetest",
+        "er_sie_es": "segnete",
+        "wir": "segneten",
+        "ihr": "segnetet",
+        "sie_Sie": "segneten"
+      },
+      "imperativ": {
+        "du": "Segne!",
+        "ihr": "Segnet!",
+        "Sie": "Segnen Sie!"
+      }
+    },
+    "partizip1": "segnend",
+    "nominalisierung": "die Segnung"
+  },
+  "wortnetz": {
+    "grundwort": "Segen",
+    "woerter": [
+      {
+        "wort": "der Segen",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برکت",
+          "en": "blessing"
+        },
+        "id_ref": "nomen_segen"
+      },
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "beten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعا کردن",
+          "en": "to pray"
+        },
+        "id_ref": "verb_beten"
+      },
+      {
+        "wort": "der Priester",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشیش",
+          "en": "priest"
+        },
+        "id_ref": "nomen_priester"
+      },
+      {
+        "wort": "verfluchen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نفرین کردن",
+          "en": "to curse"
+        },
+        "id_ref": "verb_verfluchen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_schweissen",
+  "wort": "schweißen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جوش دادن (فلز)"
+    ],
+    "en": [
+      "to weld"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Handwerk"
+  ],
+  "ipa": "ˈʃvaɪ̯sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schweißt zwei Rohre.",
+      "uebersetzung": {
+        "fa": "او دو لوله را جوش می‌دهد.",
+        "en": "He is welding two pipes."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die gemeinsame Krise hat die beiden Brüder wieder enger zusammengeschweißt.",
+      "uebersetzung": {
+        "fa": "بحران مشترک دو برادر را دوباره به هم نزدیک‌تر کرد.",
+        "en": "The shared crisis welded the two brothers closer together again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verbinden",
+      "uebersetzung": {
+        "fa": "وصل کردن",
+        "en": "to join"
+      }
+    },
+    {
+      "wort": "löten",
+      "uebersetzung": {
+        "fa": "لحیم کردن",
+        "en": "to solder"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Schweißgerät",
+      "uebersetzung": {
+        "fa": "دستگاه جوش",
+        "en": "welding machine"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Schweiß (جوش؛ در اصل: عرق) + -en",
+    "en": "Schweiß (weld; originally: sweat) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schweißen",
+      "praeteritum": "schweißte",
+      "partizip2": "geschweißt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schweiße",
+        "du": "schweißt",
+        "er_sie_es": "schweißt",
+        "wir": "schweißen",
+        "ihr": "schweißt",
+        "sie_Sie": "schweißen"
+      },
+      "praeteritum": {
+        "ich": "schweißte",
+        "du": "schweißtest",
+        "er_sie_es": "schweißte",
+        "wir": "schweißten",
+        "ihr": "schweißtet",
+        "sie_Sie": "schweißten"
+      },
+      "konjunktiv1": {
+        "ich": "schweiße",
+        "du": "schweißest",
+        "er_sie_es": "schweiße",
+        "wir": "schweißen",
+        "ihr": "schweißet",
+        "sie_Sie": "schweißen"
+      },
+      "konjunktiv2": {
+        "ich": "schweißte",
+        "du": "schweißtest",
+        "er_sie_es": "schweißte",
+        "wir": "schweißten",
+        "ihr": "schweißtet",
+        "sie_Sie": "schweißten"
+      },
+      "imperativ": {
+        "du": "Schweiße!",
+        "ihr": "Schweißt!",
+        "Sie": "Schweißen Sie!"
+      }
+    },
+    "partizip1": "schweißend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schweißer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جوشکار",
+          "en": "welder"
+        },
+        "id_ref": "nomen_schweisser"
+      },
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "das Rohr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لوله",
+          "en": "pipe"
+        },
+        "id_ref": "nomen_rohr"
+      },
+      {
+        "wort": "löten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "لحیم کردن",
+          "en": "to solder"
+        },
+        "id_ref": "verb_loeten"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_schnuppern",
+  "wort": "schnuppern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بو کشیدن (آرام)",
+      "آزمایشی امتحان کردن"
+    ],
+    "en": [
+      "to sniff",
+      "to have a taste of"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sinne",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃnʊpɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kaninchen schnuppert an der Karotte.",
+      "uebersetzung": {
+        "fa": "خرگوش هویج را بو می‌کشد.",
+        "en": "The rabbit sniffs at the carrot."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor sie sich für den Beruf entscheidet, will sie eine Woche in der Klinik schnuppern.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه این شغل را انتخاب کند، می‌خواهد یک هفته در کلینیک آزمایشی کار کند.",
+        "en": "Before she decides on the profession, she wants to try out the clinic for a week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "riechen",
+      "uebersetzung": {
+        "fa": "بو کردن",
+        "en": "to smell"
+      }
+    },
+    {
+      "wort": "ausprobieren",
+      "uebersetzung": {
+        "fa": "امتحان کردن",
+        "en": "to try out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Schnupperpraktikum",
+      "uebersetzung": {
+        "fa": "کارآموزی آزمایشی کوتاه",
+        "en": "taster internship"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schnuppern (بو کشیدن) — فعل ساده",
+    "en": "schnuppern (to sniff) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schnuppern an + Dat",
+        "bedeutung": "vorsichtig an etwas riechen",
+        "beispiel": "Der Hund schnuppert an meiner Hand.",
+        "uebersetzung": {
+          "fa": "سگ دستم را بو می‌کشد.",
+          "en": "The dog sniffs at my hand."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schnuppern",
+      "praeteritum": "schnupperte",
+      "partizip2": "geschnuppert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schnuppere",
+        "du": "schnupperst",
+        "er_sie_es": "schnuppert",
+        "wir": "schnuppern",
+        "ihr": "schnuppert",
+        "sie_Sie": "schnuppern"
+      },
+      "praeteritum": {
+        "ich": "schnupperte",
+        "du": "schnuppertest",
+        "er_sie_es": "schnupperte",
+        "wir": "schnupperten",
+        "ihr": "schnuppertet",
+        "sie_Sie": "schnupperten"
+      },
+      "konjunktiv1": {
+        "ich": "schnuppere",
+        "du": "schnupperest",
+        "er_sie_es": "schnuppere",
+        "wir": "schnuppern",
+        "ihr": "schnupperet",
+        "sie_Sie": "schnuppern"
+      },
+      "konjunktiv2": {
+        "ich": "schnupperte",
+        "du": "schnuppertest",
+        "er_sie_es": "schnupperte",
+        "wir": "schnupperten",
+        "ihr": "schnuppertet",
+        "sie_Sie": "schnupperten"
+      },
+      "imperativ": {
+        "du": "Schnuppere!",
+        "ihr": "Schnuppert!",
+        "Sie": "Schnuppern Sie!"
+      }
+    },
+    "partizip1": "schnuppernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "riechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بو کردن",
+          "en": "to smell"
+        },
+        "id_ref": "verb_riechen"
+      },
+      {
+        "wort": "der Duft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بوی خوش",
+          "en": "scent"
+        },
+        "id_ref": "nomen_duft"
+      },
+      {
+        "wort": "ausprobieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان کردن",
+          "en": "to try out"
+        },
+        "id_ref": "verb_ausprobieren"
+      },
+      {
+        "wort": "das Praktikum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارآموزی",
+          "en": "internship"
+        },
+        "id_ref": "nomen_praktikum"
+      },
+      {
+        "wort": "die Nase",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بینی",
+          "en": "nose"
+        },
+        "id_ref": "nomen_nase"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

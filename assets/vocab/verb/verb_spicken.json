@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_spicken",
+  "wort": "spicken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لای گوشت چربی یا سیر گذاشتن",
+      "پر کردن (از چیزی)",
+      "تقلب کردن (در امتحان، محاوره‌ای)"
+    ],
+    "en": [
+      "to lard",
+      "to stuff",
+      "to crib (colloquial)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Schule"
+  ],
+  "ipa": "ˈʃpɪkn̩",
+  "anmerkung": "In der Schule umgangssprachlich: «abschreiben» (beim Nachbarn spicken).",
+  "berufe": [
+    "gastro_hotel",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "In der Prüfung darf man nicht spicken.",
+      "uebersetzung": {
+        "fa": "در امتحان نباید تقلب کرد.",
+        "en": "You must not crib in the exam."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Koch spickt den Braten mit Speck und Knoblauch, damit er saftig bleibt.",
+      "uebersetzung": {
+        "fa": "آشپز لای کباب را بیکن و سیر می‌گذارد تا آبدار بماند.",
+        "en": "The cook lards the roast with bacon and garlic so that it stays juicy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschreiben",
+      "uebersetzung": {
+        "fa": "رونویسی کردن، تقلب کردن",
+        "en": "to copy"
+      }
+    },
+    {
+      "wort": "füllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Spickzettel",
+      "uebersetzung": {
+        "fa": "برگه‌ی تقلب",
+        "en": "crib sheet"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Speck (چربی، بیکن)",
+    "en": "from der Speck (bacon fat)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas mit + Dat spicken",
+        "bedeutung": "etwas reichlich mit etwas versehen",
+        "beispiel": "Seine Rede war mit Fremdwörtern gespickt.",
+        "uebersetzung": {
+          "fa": "سخنرانی‌اش پر از واژه‌های خارجی بود.",
+          "en": "His speech was peppered with foreign words."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "spicken",
+      "praeteritum": "spickte",
+      "partizip2": "gespickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spicke",
+        "du": "spickst",
+        "er_sie_es": "spickt",
+        "wir": "spicken",
+        "ihr": "spickt",
+        "sie_Sie": "spicken"
+      },
+      "praeteritum": {
+        "ich": "spickte",
+        "du": "spicktest",
+        "er_sie_es": "spickte",
+        "wir": "spickten",
+        "ihr": "spicktet",
+        "sie_Sie": "spickten"
+      },
+      "konjunktiv1": {
+        "ich": "spicke",
+        "du": "spickest",
+        "er_sie_es": "spicke",
+        "wir": "spicken",
+        "ihr": "spicket",
+        "sie_Sie": "spicken"
+      },
+      "konjunktiv2": {
+        "ich": "spickte",
+        "du": "spicktest",
+        "er_sie_es": "spickte",
+        "wir": "spickten",
+        "ihr": "spicktet",
+        "sie_Sie": "spickten"
+      },
+      "imperativ": {
+        "du": "Spicke!",
+        "ihr": "Spickt!",
+        "Sie": "Spicken Sie!"
+      }
+    },
+    "partizip1": "spickend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Speck",
+    "woerter": [
+      {
+        "wort": "der Spickzettel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برگه‌ی تقلب",
+          "en": "crib sheet"
+        },
+        "id_ref": "nomen_spickzettel"
+      },
+      {
+        "wort": "der Speck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیکن، چربی خوک",
+          "en": "bacon"
+        },
+        "id_ref": "nomen_speck"
+      },
+      {
+        "wort": "abschreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رونویسی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_abschreiben"
+      },
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "der Braten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کباب (تکه‌گوشت)",
+          "en": "roast"
+        },
+        "id_ref": "nomen_braten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

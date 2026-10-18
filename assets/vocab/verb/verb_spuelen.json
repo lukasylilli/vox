@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_spuelen",
+  "wort": "spülen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شستن (ظرف)",
+      "آب کشیدن",
+      "سیفون کشیدن"
+    ],
+    "en": [
+      "to wash up",
+      "to rinse",
+      "to flush"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Haushalt",
+    "Küche"
+  ],
+  "ipa": "ˈʃpyːlən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich spüle das Geschirr.",
+      "uebersetzung": {
+        "fa": "ظرف‌ها را می‌شویم.",
+        "en": "I'm washing the dishes."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vergiss nicht zu spülen, wenn du auf der Toilette warst!",
+      "uebersetzung": {
+        "fa": "یادت نرود وقتی از توالت آمدی سیفون را بکشی!",
+        "en": "Don't forget to flush when you've been to the toilet!"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abwaschen",
+      "uebersetzung": {
+        "fa": "ظرف شستن",
+        "en": "to wash up"
+      }
+    },
+    {
+      "wort": "ausspülen",
+      "uebersetzung": {
+        "fa": "آب کشیدن",
+        "en": "to rinse out"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Spülmaschine",
+      "uebersetzung": {
+        "fa": "ماشین ظرفشویی",
+        "en": "dishwasher"
+      }
+    },
+    {
+      "wort": "das Spülmittel",
+      "uebersetzung": {
+        "fa": "مایع ظرفشویی",
+        "en": "washing-up liquid"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "spülen (شستن با آب) — فعل ساده",
+    "en": "spülen (to rinse) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "spülen",
+      "praeteritum": "spülte",
+      "partizip2": "gespült"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spüle",
+        "du": "spülst",
+        "er_sie_es": "spült",
+        "wir": "spülen",
+        "ihr": "spült",
+        "sie_Sie": "spülen"
+      },
+      "praeteritum": {
+        "ich": "spülte",
+        "du": "spültest",
+        "er_sie_es": "spülte",
+        "wir": "spülten",
+        "ihr": "spültet",
+        "sie_Sie": "spülten"
+      },
+      "konjunktiv1": {
+        "ich": "spüle",
+        "du": "spülest",
+        "er_sie_es": "spüle",
+        "wir": "spülen",
+        "ihr": "spület",
+        "sie_Sie": "spülen"
+      },
+      "konjunktiv2": {
+        "ich": "spülte",
+        "du": "spültest",
+        "er_sie_es": "spülte",
+        "wir": "spülten",
+        "ihr": "spültet",
+        "sie_Sie": "spülten"
+      },
+      "imperativ": {
+        "du": "Spüle!",
+        "ihr": "Spült!",
+        "Sie": "Spülen Sie!"
+      }
+    },
+    "partizip1": "spülend",
+    "nominalisierung": "die Spülung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Geschirr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ظروف",
+          "en": "dishes"
+        },
+        "id_ref": "nomen_geschirr"
+      },
+      {
+        "wort": "die Spülmaschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین ظرفشویی",
+          "en": "dishwasher"
+        },
+        "id_ref": "nomen_spuelmaschine"
+      },
+      {
+        "wort": "abwaschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ظرف شستن",
+          "en": "to wash up"
+        },
+        "id_ref": "verb_abwaschen"
+      },
+      {
+        "wort": "die Spüle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سینک ظرفشویی",
+          "en": "sink"
+        },
+        "id_ref": "nomen_spuele"
+      },
+      {
+        "wort": "waschen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شستن",
+          "en": "to wash"
+        },
+        "id_ref": "verb_waschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

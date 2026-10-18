@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_segmentieren",
+  "wort": "segmentieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بخش‌بندی کردن",
+      "تقسیم به قطعه‌ها"
+    ],
+    "en": [
+      "to segment"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik",
+    "Wirtschaft"
+  ],
+  "ipa": "zɛɡmɛnˈtiːrən",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir segmentieren die Kunden nach Alter.",
+      "uebersetzung": {
+        "fa": "ما مشتری‌ها را بر اساس سن بخش‌بندی می‌کنیم.",
+        "en": "We segment the customers by age."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Programm segmentiert das Bild automatisch in einzelne Bereiche.",
+      "uebersetzung": {
+        "fa": "برنامه تصویر را خودکار به بخش‌های جداگانه تقسیم می‌کند.",
+        "en": "The program automatically segments the image into individual areas."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gliedern",
+      "uebersetzung": {
+        "fa": "تقسیم‌بندی کردن",
+        "en": "to divide up"
+      }
+    },
+    {
+      "wort": "unterteilen",
+      "uebersetzung": {
+        "fa": "به بخش‌ها تقسیم کردن",
+        "en": "to subdivide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین segmentum (قطعه)",
+    "en": "from Latin segmentum (piece)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "segmentieren",
+      "praeteritum": "segmentierte",
+      "partizip2": "segmentiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "segmentiere",
+        "du": "segmentierst",
+        "er_sie_es": "segmentiert",
+        "wir": "segmentieren",
+        "ihr": "segmentiert",
+        "sie_Sie": "segmentieren"
+      },
+      "praeteritum": {
+        "ich": "segmentierte",
+        "du": "segmentiertest",
+        "er_sie_es": "segmentierte",
+        "wir": "segmentierten",
+        "ihr": "segmentiertet",
+        "sie_Sie": "segmentierten"
+      },
+      "konjunktiv1": {
+        "ich": "segmentiere",
+        "du": "segmentierest",
+        "er_sie_es": "segmentiere",
+        "wir": "segmentieren",
+        "ihr": "segmentieret",
+        "sie_Sie": "segmentieren"
+      },
+      "konjunktiv2": {
+        "ich": "segmentierte",
+        "du": "segmentiertest",
+        "er_sie_es": "segmentierte",
+        "wir": "segmentierten",
+        "ihr": "segmentiertet",
+        "sie_Sie": "segmentierten"
+      },
+      "imperativ": {
+        "du": "Segmentiere!",
+        "ihr": "Segmentiert!",
+        "Sie": "Segmentieren Sie!"
+      }
+    },
+    "partizip1": "segmentierend",
+    "nominalisierung": "die Segmentierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Segment",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بخش، قطعه",
+          "en": "segment"
+        },
+        "id_ref": "nomen_segment"
+      },
+      {
+        "wort": "die Segmentierung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بخش‌بندی",
+          "en": "segmentation"
+        },
+        "id_ref": "nomen_segmentierung"
+      },
+      {
+        "wort": "teilen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تقسیم کردن",
+          "en": "to divide"
+        },
+        "id_ref": "verb_teilen"
+      },
+      {
+        "wort": "gliedern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقسیم‌بندی کردن",
+          "en": "to structure"
+        },
+        "id_ref": "verb_gliedern"
+      },
+      {
+        "wort": "der Bereich",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش، حوزه",
+          "en": "area"
+        },
+        "id_ref": "nomen_bereich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

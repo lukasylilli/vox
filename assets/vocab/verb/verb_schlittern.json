@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlittern",
+  "wort": "schlittern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لیز خوردن",
+      "سُر خوردن (روی یخ)"
+    ],
+    "en": [
+      "to slide",
+      "to skid"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Winter"
+  ],
+  "ipa": "ˈʃlɪtɐn",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (er ist über das Eis geschlittert); ohne Richtungsangabe auch «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder schlittern über das Eis.",
+      "uebersetzung": {
+        "fa": "بچه‌ها روی یخ سُر می‌خورند.",
+        "en": "The children are sliding across the ice."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Straße vereist war, ist das Auto in den Graben geschlittert.",
+      "uebersetzung": {
+        "fa": "چون جاده یخ زده بود، ماشین لیز خورد و توی جوی افتاد.",
+        "en": "Because the road was icy, the car skidded into the ditch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rutschen",
+      "uebersetzung": {
+        "fa": "سُر خوردن",
+        "en": "to slide"
+      }
+    },
+    {
+      "wort": "gleiten",
+      "uebersetzung": {
+        "fa": "لغزیدن",
+        "en": "to glide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schlitten (سورتمه) + -ern",
+    "en": "Schlitten (sledge) + -ern"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schlittern in + Akk",
+        "bedeutung": "unbeabsichtigt in eine schlimme Lage geraten",
+        "beispiel": "Die Firma ist in eine Krise geschlittert.",
+        "uebersetzung": {
+          "fa": "شرکت ناخواسته به بحران کشیده شد.",
+          "en": "The company slid into a crisis."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlittern",
+      "praeteritum": "schlitterte",
+      "partizip2": "geschlittert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlittere",
+        "du": "schlitterst",
+        "er_sie_es": "schlittert",
+        "wir": "schlittern",
+        "ihr": "schlittert",
+        "sie_Sie": "schlittern"
+      },
+      "praeteritum": {
+        "ich": "schlitterte",
+        "du": "schlittertest",
+        "er_sie_es": "schlitterte",
+        "wir": "schlitterten",
+        "ihr": "schlittertet",
+        "sie_Sie": "schlitterten"
+      },
+      "konjunktiv1": {
+        "ich": "schlittere",
+        "du": "schlitterest",
+        "er_sie_es": "schlittere",
+        "wir": "schlittern",
+        "ihr": "schlitteret",
+        "sie_Sie": "schlittern"
+      },
+      "konjunktiv2": {
+        "ich": "schlitterte",
+        "du": "schlittertest",
+        "er_sie_es": "schlitterte",
+        "wir": "schlitterten",
+        "ihr": "schlittertet",
+        "sie_Sie": "schlitterten"
+      },
+      "imperativ": {
+        "du": "Schlittere!",
+        "ihr": "Schlittert!",
+        "Sie": "Schlittern Sie!"
+      }
+    },
+    "partizip1": "schlitternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Eis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "یخ",
+          "en": "ice"
+        },
+        "id_ref": "nomen_eis"
+      },
+      {
+        "wort": "rutschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سُر خوردن",
+          "en": "to slide"
+        },
+        "id_ref": "verb_rutschen"
+      },
+      {
+        "wort": "glatt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز",
+          "en": "slippery"
+        },
+        "id_ref": "adjektiv_glatt"
+      },
+      {
+        "wort": "der Schlitten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سورتمه",
+          "en": "sledge"
+        },
+        "id_ref": "nomen_schlitten"
+      },
+      {
+        "wort": "gleiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لغزیدن",
+          "en": "to glide"
+        },
+        "id_ref": "verb_gleiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

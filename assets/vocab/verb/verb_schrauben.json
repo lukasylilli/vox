@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_schrauben",
+  "wort": "schrauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچ کردن",
+      "پیچاندن"
+    ],
+    "en": [
+      "to screw",
+      "to bolt"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Handwerk",
+    "Technik"
+  ],
+  "ipa": "ˈʃʁaʊ̯bn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schraubt das Regal an die Wand.",
+      "uebersetzung": {
+        "fa": "او قفسه را به دیوار پیچ می‌کند.",
+        "en": "He screws the shelf to the wall."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Wochenende schraubt mein Nachbar stundenlang an seinem alten Motorrad.",
+      "uebersetzung": {
+        "fa": "همسایه‌ام آخر هفته‌ها ساعت‌ها روی موتورسیکلت قدیمی‌اش کار می‌کند.",
+        "en": "At weekends my neighbour tinkers with his old motorbike for hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drehen",
+      "uebersetzung": {
+        "fa": "چرخاندن",
+        "en": "to turn"
+      }
+    },
+    {
+      "wort": "befestigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to fasten"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Schraubenzieher",
+      "uebersetzung": {
+        "fa": "پیچ‌گوشتی",
+        "en": "screwdriver"
+      }
+    },
+    {
+      "wort": "der Schraubverschluss",
+      "uebersetzung": {
+        "fa": "درِ پیچی",
+        "en": "screw cap"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Schraube (پیچ) + -n",
+    "en": "Schraube (screw) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schrauben an + Akk",
+        "bedeutung": "etwas mit Schrauben befestigen",
+        "beispiel": "Wir schrauben das Schild an die Tür.",
+        "uebersetzung": {
+          "fa": "تابلو را به در پیچ می‌کنیم.",
+          "en": "We screw the sign onto the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schrauben",
+      "praeteritum": "schraubte",
+      "partizip2": "geschraubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schraube",
+        "du": "schraubst",
+        "er_sie_es": "schraubt",
+        "wir": "schrauben",
+        "ihr": "schraubt",
+        "sie_Sie": "schrauben"
+      },
+      "praeteritum": {
+        "ich": "schraubte",
+        "du": "schraubtest",
+        "er_sie_es": "schraubte",
+        "wir": "schraubten",
+        "ihr": "schraubtet",
+        "sie_Sie": "schraubten"
+      },
+      "konjunktiv1": {
+        "ich": "schraube",
+        "du": "schraubest",
+        "er_sie_es": "schraube",
+        "wir": "schrauben",
+        "ihr": "schraubet",
+        "sie_Sie": "schrauben"
+      },
+      "konjunktiv2": {
+        "ich": "schraubte",
+        "du": "schraubtest",
+        "er_sie_es": "schraubte",
+        "wir": "schraubten",
+        "ihr": "schraubtet",
+        "sie_Sie": "schraubten"
+      },
+      "imperativ": {
+        "du": "Schraube!",
+        "ihr": "Schraubt!",
+        "Sie": "Schrauben Sie!"
+      }
+    },
+    "partizip1": "schraubend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Schraube",
+    "woerter": [
+      {
+        "wort": "die Schraube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ",
+          "en": "screw"
+        },
+        "id_ref": "nomen_schraube"
+      },
+      {
+        "wort": "der Schraubenzieher",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیچ‌گوشتی",
+          "en": "screwdriver"
+        },
+        "id_ref": "nomen_schraubenzieher"
+      },
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      },
+      {
+        "wort": "reparieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعمیر کردن",
+          "en": "to repair"
+        },
+        "id_ref": "verb_reparieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

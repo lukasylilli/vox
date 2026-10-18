@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_siezen",
+  "wort": "siezen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با «شما» خطاب کردن",
+      "رسمی صحبت کردن با کسی"
+    ],
+    "en": [
+      "to address formally (with «Sie»)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Höflichkeit"
+  ],
+  "ipa": "ˈziːt͡sn̩",
+  "anmerkung": "Gegenteil: duzen. «Wir siezen uns» = wir sagen «Sie» zueinander.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Büro siezen wir den Chef.",
+      "uebersetzung": {
+        "fa": "در دفتر رئیس را «شما» خطاب می‌کنیم.",
+        "en": "At the office we address the boss formally."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Obwohl wir schon lange zusammenarbeiten, siezen wir uns immer noch.",
+      "uebersetzung": {
+        "fa": "با اینکه مدت‌هاست با هم کار می‌کنیم، هنوز هم همدیگر را رسمی خطاب می‌کنیم.",
+        "en": "Although we have worked together for a long time, we still address each other formally."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "duzen",
+      "uebersetzung": {
+        "fa": "خودمانی خطاب کردن",
+        "en": "to address informally"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sie (شما) + -zen",
+    "en": "Sie (you, formal) + -zen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "siezen",
+      "praeteritum": "siezte",
+      "partizip2": "gesiezt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sieze",
+        "du": "siezt",
+        "er_sie_es": "siezt",
+        "wir": "siezen",
+        "ihr": "siezt",
+        "sie_Sie": "siezen"
+      },
+      "praeteritum": {
+        "ich": "siezte",
+        "du": "sieztest",
+        "er_sie_es": "siezte",
+        "wir": "siezten",
+        "ihr": "sieztet",
+        "sie_Sie": "siezten"
+      },
+      "konjunktiv1": {
+        "ich": "sieze",
+        "du": "siezest",
+        "er_sie_es": "sieze",
+        "wir": "siezen",
+        "ihr": "siezet",
+        "sie_Sie": "siezen"
+      },
+      "konjunktiv2": {
+        "ich": "siezte",
+        "du": "sieztest",
+        "er_sie_es": "siezte",
+        "wir": "siezten",
+        "ihr": "sieztet",
+        "sie_Sie": "siezten"
+      },
+      "imperativ": {
+        "du": "Sieze!",
+        "ihr": "Siezt!",
+        "Sie": "Siezen Sie!"
+      }
+    },
+    "partizip1": "siezend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "duzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خودمانی خطاب کردن",
+          "en": "to address informally"
+        },
+        "id_ref": "verb_duzen"
+      },
+      {
+        "wort": "höflich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مؤدب",
+          "en": "polite"
+        },
+        "id_ref": "adjektiv_hoeflich"
+      },
+      {
+        "wort": "formell",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسمی",
+          "en": "formal"
+        },
+        "id_ref": "adjektiv_formell"
+      },
+      {
+        "wort": "die Anrede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عنوان خطاب",
+          "en": "form of address"
+        },
+        "id_ref": "nomen_anrede"
+      },
+      {
+        "wort": "der Respekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "احترام",
+          "en": "respect"
+        },
+        "id_ref": "nomen_respekt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

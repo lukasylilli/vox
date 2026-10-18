@@ -1,0 +1,211 @@
+{
+  "schema": "3.0",
+  "id": "verb_sorgen",
+  "wort": "sorgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مراقبت کردن",
+      "فراهم کردن",
+      "نگران بودن (بازتابی)"
+    ],
+    "en": [
+      "to take care of",
+      "to provide",
+      "to worry (reflexive)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Familie",
+    "Gefühle",
+    "Alltag"
+  ],
+  "ipa": "ˈzɔʁɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich sorge für meine Kinder.",
+      "uebersetzung": {
+        "fa": "من از بچه‌هایم مراقبت می‌کنم.",
+        "en": "I take care of my children."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seine Eltern sorgen sich, weil er seit drei Tagen nicht angerufen hat.",
+      "uebersetzung": {
+        "fa": "پدر و مادرش نگرانند، چون سه روز است زنگ نزده است.",
+        "en": "His parents are worried because he hasn't called for three days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich kümmern",
+      "uebersetzung": {
+        "fa": "رسیدگی کردن",
+        "en": "to look after"
+      }
+    },
+    {
+      "wort": "sich Sorgen machen",
+      "uebersetzung": {
+        "fa": "نگران بودن",
+        "en": "to worry"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "versorgen",
+      "uebersetzung": {
+        "fa": "تأمین کردن، رسیدگی کردن",
+        "en": "to supply, to care for"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Sorge (نگرانی، مراقبت) + -n",
+    "en": "Sorge (worry, care) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sorgen für + Akk",
+        "bedeutung": "sich um jemanden kümmern; etwas bewirken",
+        "beispiel": "Die Musik sorgt für gute Stimmung.",
+        "uebersetzung": {
+          "fa": "موسیقی حال‌وهوای خوبی ایجاد می‌کند.",
+          "en": "The music creates a good atmosphere."
+        }
+      },
+      {
+        "muster": "sich sorgen um + Akk",
+        "bedeutung": "sich Sorgen um jemanden machen",
+        "beispiel": "Sie sorgt sich um ihre kranke Mutter.",
+        "uebersetzung": {
+          "fa": "او نگران مادر بیمارش است.",
+          "en": "She is worried about her sick mother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sorgen",
+      "praeteritum": "sorgte",
+      "partizip2": "gesorgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sorge",
+        "du": "sorgst",
+        "er_sie_es": "sorgt",
+        "wir": "sorgen",
+        "ihr": "sorgt",
+        "sie_Sie": "sorgen"
+      },
+      "praeteritum": {
+        "ich": "sorgte",
+        "du": "sorgtest",
+        "er_sie_es": "sorgte",
+        "wir": "sorgten",
+        "ihr": "sorgtet",
+        "sie_Sie": "sorgten"
+      },
+      "konjunktiv1": {
+        "ich": "sorge",
+        "du": "sorgest",
+        "er_sie_es": "sorge",
+        "wir": "sorgen",
+        "ihr": "sorget",
+        "sie_Sie": "sorgen"
+      },
+      "konjunktiv2": {
+        "ich": "sorgte",
+        "du": "sorgtest",
+        "er_sie_es": "sorgte",
+        "wir": "sorgten",
+        "ihr": "sorgtet",
+        "sie_Sie": "sorgten"
+      },
+      "imperativ": {
+        "du": "Sorge!",
+        "ihr": "Sorgt!",
+        "Sie": "Sorgen Sie!"
+      }
+    },
+    "partizip1": "sorgend",
+    "nominalisierung": "die Sorge"
+  },
+  "wortnetz": {
+    "grundwort": "Sorge",
+    "woerter": [
+      {
+        "wort": "die Sorge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگرانی",
+          "en": "worry"
+        },
+        "id_ref": "nomen_sorge"
+      },
+      {
+        "wort": "kümmern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیدگی کردن",
+          "en": "to look after"
+        },
+        "id_ref": "verb_kuemmern"
+      },
+      {
+        "wort": "versorgen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأمین کردن",
+          "en": "to supply"
+        },
+        "id_ref": "verb_versorgen"
+      },
+      {
+        "wort": "besorgt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگران",
+          "en": "worried"
+        },
+        "id_ref": "adjektiv_besorgt"
+      },
+      {
+        "wort": "die Versorgung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تأمین، مراقبت",
+          "en": "supply, care"
+        },
+        "id_ref": "nomen_versorgung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,209 @@
+{
+  "schema": "3.0",
+  "id": "verb_setzen",
+  "wort": "setzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گذاشتن",
+      "نشاندن",
+      "نشستن (بازتابی)",
+      "شرط بستن"
+    ],
+    "en": [
+      "to put",
+      "to set",
+      "to sit down (reflexive)",
+      "to bet"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Bewegung"
+  ],
+  "ipa": "ˈzɛt͡sn̩",
+  "anmerkung": "«sich setzen» (Bewegung) ↔ «sitzen» (Zustand).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte setzen Sie sich!",
+      "uebersetzung": {
+        "fa": "لطفاً بنشینید!",
+        "en": "Please sit down!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie setzte das Kind auf den Stuhl, damit sie ihm die Schuhe anziehen konnte.",
+      "uebersetzung": {
+        "fa": "او بچه را روی صندلی نشاند تا بتواند کفش‌هایش را پایش کند.",
+        "en": "She sat the child on the chair so that she could put its shoes on."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stellen",
+      "uebersetzung": {
+        "fa": "گذاشتن (ایستاده)",
+        "en": "to place"
+      }
+    },
+    {
+      "wort": "legen",
+      "uebersetzung": {
+        "fa": "گذاشتن (خوابیده)",
+        "en": "to lay"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufstehen",
+      "uebersetzung": {
+        "fa": "برخاستن",
+        "en": "to stand up"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sitzen (نشستن) — فعل سببی",
+    "en": "sitzen (to sit) — causative verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich setzen auf + Akk / an + Akk",
+        "bedeutung": "Platz nehmen",
+        "beispiel": "Wir setzen uns an den Tisch.",
+        "uebersetzung": {
+          "fa": "ما سر میز می‌نشینیم.",
+          "en": "We sit down at the table."
+        }
+      },
+      {
+        "muster": "setzen auf + Akk",
+        "bedeutung": "auf etwas wetten oder vertrauen",
+        "beispiel": "Die Firma setzt auf erneuerbare Energie.",
+        "uebersetzung": {
+          "fa": "شرکت روی انرژی تجدیدپذیر حساب باز کرده است.",
+          "en": "The company is betting on renewable energy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "setzen",
+      "praeteritum": "setzte",
+      "partizip2": "gesetzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "setze",
+        "du": "setzt",
+        "er_sie_es": "setzt",
+        "wir": "setzen",
+        "ihr": "setzt",
+        "sie_Sie": "setzen"
+      },
+      "praeteritum": {
+        "ich": "setzte",
+        "du": "setztest",
+        "er_sie_es": "setzte",
+        "wir": "setzten",
+        "ihr": "setztet",
+        "sie_Sie": "setzten"
+      },
+      "konjunktiv1": {
+        "ich": "setze",
+        "du": "setzest",
+        "er_sie_es": "setze",
+        "wir": "setzen",
+        "ihr": "setzet",
+        "sie_Sie": "setzen"
+      },
+      "konjunktiv2": {
+        "ich": "setzte",
+        "du": "setztest",
+        "er_sie_es": "setzte",
+        "wir": "setzten",
+        "ihr": "setztet",
+        "sie_Sie": "setzten"
+      },
+      "imperativ": {
+        "du": "Setze!",
+        "ihr": "Setzt!",
+        "Sie": "Setzen Sie!"
+      }
+    },
+    "partizip1": "setzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sitzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشستن",
+          "en": "to sit"
+        },
+        "id_ref": "verb_sitzen"
+      },
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جا",
+          "en": "seat"
+        },
+        "id_ref": "nomen_platz"
+      },
+      {
+        "wort": "der Stuhl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صندلی",
+          "en": "chair"
+        },
+        "id_ref": "nomen_stuhl"
+      },
+      {
+        "wort": "stellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن (ایستاده)",
+          "en": "to put"
+        },
+        "id_ref": "verb_stellen"
+      },
+      {
+        "wort": "der Satz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جمله",
+          "en": "sentence"
+        },
+        "id_ref": "nomen_satz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

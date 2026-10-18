@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_spendieren",
+  "wort": "spendieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مهمان کردن",
+      "خرج کسی را دادن"
+    ],
+    "en": [
+      "to treat (someone to)",
+      "to buy (for someone)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Freizeit",
+    "Geld"
+  ],
+  "ipa": "ʃpɛnˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich spendiere dir ein Eis.",
+      "uebersetzung": {
+        "fa": "یک بستنی مهمان من باش.",
+        "en": "I'll treat you to an ice cream."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Zur Feier seiner neuen Stelle hat er allen Kollegen eine Runde Getränke spendiert.",
+      "uebersetzung": {
+        "fa": "به مناسبت شغل جدیدش، همه‌ی همکاران را یک دور نوشیدنی مهمان کرد.",
+        "en": "To celebrate his new job, he bought all his colleagues a round of drinks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einladen",
+      "uebersetzung": {
+        "fa": "دعوت کردن، مهمان کردن",
+        "en": "to treat"
+      }
+    },
+    {
+      "wort": "ausgeben",
+      "uebersetzung": {
+        "fa": "خرج کردن",
+        "en": "to buy (a round)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "spenden (بخشیدن) + -ieren",
+    "en": "spenden (to donate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem etwas spendieren",
+        "bedeutung": "jemandem etwas bezahlen",
+        "beispiel": "Sie spendiert ihrer Schwester das Kinoticket.",
+        "uebersetzung": {
+          "fa": "او بلیت سینمای خواهرش را حساب می‌کند.",
+          "en": "She pays for her sister's cinema ticket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "spendieren",
+      "praeteritum": "spendierte",
+      "partizip2": "spendiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spendiere",
+        "du": "spendierst",
+        "er_sie_es": "spendiert",
+        "wir": "spendieren",
+        "ihr": "spendiert",
+        "sie_Sie": "spendieren"
+      },
+      "praeteritum": {
+        "ich": "spendierte",
+        "du": "spendiertest",
+        "er_sie_es": "spendierte",
+        "wir": "spendierten",
+        "ihr": "spendiertet",
+        "sie_Sie": "spendierten"
+      },
+      "konjunktiv1": {
+        "ich": "spendiere",
+        "du": "spendierest",
+        "er_sie_es": "spendiere",
+        "wir": "spendieren",
+        "ihr": "spendieret",
+        "sie_Sie": "spendieren"
+      },
+      "konjunktiv2": {
+        "ich": "spendierte",
+        "du": "spendiertest",
+        "er_sie_es": "spendierte",
+        "wir": "spendierten",
+        "ihr": "spendiertet",
+        "sie_Sie": "spendierten"
+      },
+      "imperativ": {
+        "du": "Spendiere!",
+        "ihr": "Spendiert!",
+        "Sie": "Spendieren Sie!"
+      }
+    },
+    "partizip1": "spendierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "einladen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دعوت کردن",
+          "en": "to invite"
+        },
+        "id_ref": "verb_einladen"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "spenden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اهدا کردن",
+          "en": "to donate"
+        },
+        "id_ref": "verb_spenden"
+      },
+      {
+        "wort": "großzügig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دست‌ودل‌باز",
+          "en": "generous"
+        },
+        "id_ref": "adjektiv_grosszuegig"
+      },
+      {
+        "wort": "die Runde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دور",
+          "en": "round"
+        },
+        "id_ref": "nomen_runde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

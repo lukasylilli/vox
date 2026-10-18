@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_schnitzen",
+  "wort": "schnitzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کنده‌کاری کردن",
+      "با چاقو تراشیدن (چوب)"
+    ],
+    "en": [
+      "to carve",
+      "to whittle"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk",
+    "Kunst"
+  ],
+  "ipa": "ˈʃnɪt͡sn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er schnitzt eine Figur.",
+      "uebersetzung": {
+        "fa": "او یک مجسمه‌ی کوچک کنده‌کاری می‌کند.",
+        "en": "He is carving a figure."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Aus einem alten Ast hat der Großvater ein kleines Pferd geschnitzt, das die Kinder lieben.",
+      "uebersetzung": {
+        "fa": "پدربزرگ از یک شاخه‌ی کهنه اسب کوچکی تراشیده که بچه‌ها عاشقش هستند.",
+        "en": "From an old branch, grandfather carved a little horse that the children love."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    },
+    {
+      "wort": "formen",
+      "uebersetzung": {
+        "fa": "شکل دادن",
+        "en": "to shape"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Schnitzerei",
+      "uebersetzung": {
+        "fa": "کنده‌کاری",
+        "en": "carving"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schneiden (بریدن) + -zen",
+    "en": "schneiden (to cut) + -zen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schnitzen",
+      "praeteritum": "schnitzte",
+      "partizip2": "geschnitzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schnitze",
+        "du": "schnitzt",
+        "er_sie_es": "schnitzt",
+        "wir": "schnitzen",
+        "ihr": "schnitzt",
+        "sie_Sie": "schnitzen"
+      },
+      "praeteritum": {
+        "ich": "schnitzte",
+        "du": "schnitztest",
+        "er_sie_es": "schnitzte",
+        "wir": "schnitzten",
+        "ihr": "schnitztet",
+        "sie_Sie": "schnitzten"
+      },
+      "konjunktiv1": {
+        "ich": "schnitze",
+        "du": "schnitzest",
+        "er_sie_es": "schnitze",
+        "wir": "schnitzen",
+        "ihr": "schnitzet",
+        "sie_Sie": "schnitzen"
+      },
+      "konjunktiv2": {
+        "ich": "schnitzte",
+        "du": "schnitztest",
+        "er_sie_es": "schnitzte",
+        "wir": "schnitzten",
+        "ihr": "schnitztet",
+        "sie_Sie": "schnitzten"
+      },
+      "imperativ": {
+        "du": "Schnitze!",
+        "ihr": "Schnitzt!",
+        "Sie": "Schnitzen Sie!"
+      }
+    },
+    "partizip1": "schnitzend",
+    "nominalisierung": "die Schnitzerei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "die Figur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیکره",
+          "en": "figure"
+        },
+        "id_ref": "nomen_figur"
+      },
+      {
+        "wort": "die Schnitzerei",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کنده‌کاری",
+          "en": "carving"
+        },
+        "id_ref": "nomen_schnitzerei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

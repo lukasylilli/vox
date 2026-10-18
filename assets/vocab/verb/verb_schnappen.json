@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schnappen",
+  "wort": "schnappen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قاپیدن",
+      "گرفتن (دزد)",
+      "به دهان گرفتن"
+    ],
+    "en": [
+      "to snatch",
+      "to catch",
+      "to snap"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Alltag"
+  ],
+  "ipa": "ˈʃnapn̩",
+  "anmerkung": "«nach Luft schnappen» = keuchend atmen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund schnappt den Ball.",
+      "uebersetzung": {
+        "fa": "سگ توپ را می‌قاپد.",
+        "en": "The dog snaps up the ball."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Polizei hat den Dieb geschnappt, als er aus dem Laden rannte.",
+      "uebersetzung": {
+        "fa": "پلیس دزد را وقتی از مغازه بیرون می‌دوید گرفت.",
+        "en": "The police caught the thief as he ran out of the shop."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fangen",
+      "uebersetzung": {
+        "fa": "گرفتن",
+        "en": "to catch"
+      }
+    },
+    {
+      "wort": "greifen",
+      "uebersetzung": {
+        "fa": "چنگ زدن",
+        "en": "to grab"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "loslassen",
+      "uebersetzung": {
+        "fa": "رها کردن",
+        "en": "to let go"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schnappen (قاپیدن) — فعل ساده",
+    "en": "schnappen (to snap) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schnappen nach + Dat",
+        "bedeutung": "mit dem Maul nach etwas greifen",
+        "beispiel": "Der Fisch schnappt nach dem Köder.",
+        "uebersetzung": {
+          "fa": "ماهی به طعمه حمله می‌کند.",
+          "en": "The fish snaps at the bait."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schnappen",
+      "praeteritum": "schnappte",
+      "partizip2": "geschnappt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schnappe",
+        "du": "schnappst",
+        "er_sie_es": "schnappt",
+        "wir": "schnappen",
+        "ihr": "schnappt",
+        "sie_Sie": "schnappen"
+      },
+      "praeteritum": {
+        "ich": "schnappte",
+        "du": "schnapptest",
+        "er_sie_es": "schnappte",
+        "wir": "schnappten",
+        "ihr": "schnapptet",
+        "sie_Sie": "schnappten"
+      },
+      "konjunktiv1": {
+        "ich": "schnappe",
+        "du": "schnappest",
+        "er_sie_es": "schnappe",
+        "wir": "schnappen",
+        "ihr": "schnappet",
+        "sie_Sie": "schnappen"
+      },
+      "konjunktiv2": {
+        "ich": "schnappte",
+        "du": "schnapptest",
+        "er_sie_es": "schnappte",
+        "wir": "schnappten",
+        "ihr": "schnapptet",
+        "sie_Sie": "schnappten"
+      },
+      "imperativ": {
+        "du": "Schnappe!",
+        "ihr": "Schnappt!",
+        "Sie": "Schnappen Sie!"
+      }
+    },
+    "partizip1": "schnappend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fangen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گرفتن",
+          "en": "to catch"
+        },
+        "id_ref": "verb_fangen"
+      },
+      {
+        "wort": "greifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چنگ زدن",
+          "en": "to grab"
+        },
+        "id_ref": "verb_greifen"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Schnappschuss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "عکس فوری",
+          "en": "snapshot"
+        },
+        "id_ref": "nomen_schnappschuss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

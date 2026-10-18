@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwanken",
+  "wort": "schwanken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نوسان داشتن",
+      "تلوتلو خوردن",
+      "مردد بودن"
+    ],
+    "en": [
+      "to fluctuate",
+      "to sway",
+      "to waver"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Bewegung",
+    "Entscheidung"
+  ],
+  "ipa": "ˈʃvaŋkn̩",
+  "anmerkung": "Bei Fortbewegung mit Richtungsangabe mit «sein» (er ist über die Straße geschwankt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Preise schwanken stark.",
+      "uebersetzung": {
+        "fa": "قیمت‌ها نوسان زیادی دارند.",
+        "en": "Prices fluctuate a lot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ich schwanke noch, ob ich die Stelle in Wien annehmen oder hierbleiben soll.",
+      "uebersetzung": {
+        "fa": "هنوز مرددم که شغل در وین را قبول کنم یا همین‌جا بمانم.",
+        "en": "I'm still wavering about whether to take the job in Vienna or stay here."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zögern",
+      "uebersetzung": {
+        "fa": "مردد بودن",
+        "en": "to hesitate"
+      }
+    },
+    {
+      "wort": "taumeln",
+      "uebersetzung": {
+        "fa": "تلوتلو خوردن",
+        "en": "to stagger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schwanken (لرزیدن، نوسان کردن) — فعل ساده",
+    "en": "schwanken (to sway) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schwanken zwischen + Dat",
+        "bedeutung": "sich nicht zwischen zwei Möglichkeiten entscheiden können",
+        "beispiel": "Er schwankt zwischen zwei Angeboten.",
+        "uebersetzung": {
+          "fa": "او بین دو پیشنهاد مردد است.",
+          "en": "He is torn between two offers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schwanken",
+      "praeteritum": "schwankte",
+      "partizip2": "geschwankt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwanke",
+        "du": "schwankst",
+        "er_sie_es": "schwankt",
+        "wir": "schwanken",
+        "ihr": "schwankt",
+        "sie_Sie": "schwanken"
+      },
+      "praeteritum": {
+        "ich": "schwankte",
+        "du": "schwanktest",
+        "er_sie_es": "schwankte",
+        "wir": "schwankten",
+        "ihr": "schwanktet",
+        "sie_Sie": "schwankten"
+      },
+      "konjunktiv1": {
+        "ich": "schwanke",
+        "du": "schwankest",
+        "er_sie_es": "schwanke",
+        "wir": "schwanken",
+        "ihr": "schwanket",
+        "sie_Sie": "schwanken"
+      },
+      "konjunktiv2": {
+        "ich": "schwankte",
+        "du": "schwanktest",
+        "er_sie_es": "schwankte",
+        "wir": "schwankten",
+        "ihr": "schwanktet",
+        "sie_Sie": "schwankten"
+      },
+      "imperativ": {
+        "du": "Schwanke!",
+        "ihr": "Schwankt!",
+        "Sie": "Schwanken Sie!"
+      }
+    },
+    "partizip1": "schwankend",
+    "nominalisierung": "die Schwankung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schwankung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نوسان",
+          "en": "fluctuation"
+        },
+        "id_ref": "nomen_schwankung"
+      },
+      {
+        "wort": "zögern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مردد بودن",
+          "en": "to hesitate"
+        },
+        "id_ref": "verb_zoegern"
+      },
+      {
+        "wort": "unsicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نامطمئن",
+          "en": "unsure"
+        },
+        "id_ref": "adjektiv_unsicher"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "stabil",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایدار",
+          "en": "stable"
+        },
+        "id_ref": "adjektiv_stabil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

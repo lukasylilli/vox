@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_spazieren",
+  "wort": "spazieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قدم زدن",
+      "گردش کردن"
+    ],
+    "en": [
+      "to stroll",
+      "to walk"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Freizeit",
+    "Bewegung"
+  ],
+  "ipa": "ʃpaˈt͡siːʁən",
+  "anmerkung": "Meist «spazieren gehen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir gehen im Park spazieren.",
+      "uebersetzung": {
+        "fa": "در پارک قدم می‌زنیم.",
+        "en": "We go for a walk in the park."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Essen sind wir noch eine Stunde am Fluss entlang spaziert, weil das Wetter so schön war.",
+      "uebersetzung": {
+        "fa": "بعد از غذا یک ساعت دیگر کنار رودخانه قدم زدیم، چون هوا خیلی خوب بود.",
+        "en": "After the meal we strolled along the river for another hour because the weather was so nice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bummeln",
+      "uebersetzung": {
+        "fa": "پرسه زدن",
+        "en": "to stroll"
+      }
+    },
+    {
+      "wort": "wandern",
+      "uebersetzung": {
+        "fa": "پیاده‌روی کردن",
+        "en": "to hike"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Spaziergang",
+      "uebersetzung": {
+        "fa": "پیاده‌روی",
+        "en": "walk"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ital. spaziare (گشتن) + -ieren",
+    "en": "Italian spaziare (to roam) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "spazieren",
+      "praeteritum": "spazierte",
+      "partizip2": "spaziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spaziere",
+        "du": "spazierst",
+        "er_sie_es": "spaziert",
+        "wir": "spazieren",
+        "ihr": "spaziert",
+        "sie_Sie": "spazieren"
+      },
+      "praeteritum": {
+        "ich": "spazierte",
+        "du": "spaziertest",
+        "er_sie_es": "spazierte",
+        "wir": "spazierten",
+        "ihr": "spaziertet",
+        "sie_Sie": "spazierten"
+      },
+      "konjunktiv1": {
+        "ich": "spaziere",
+        "du": "spazierest",
+        "er_sie_es": "spaziere",
+        "wir": "spazieren",
+        "ihr": "spazieret",
+        "sie_Sie": "spazieren"
+      },
+      "konjunktiv2": {
+        "ich": "spazierte",
+        "du": "spaziertest",
+        "er_sie_es": "spazierte",
+        "wir": "spazierten",
+        "ihr": "spaziertet",
+        "sie_Sie": "spazierten"
+      },
+      "imperativ": {
+        "du": "Spaziere!",
+        "ihr": "Spaziert!",
+        "Sie": "Spazieren Sie!"
+      }
+    },
+    "partizip1": "spazierend",
+    "nominalisierung": "der Spaziergang"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Spaziergang",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیاده‌روی",
+          "en": "walk"
+        },
+        "id_ref": "nomen_spaziergang"
+      },
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
+      },
+      {
+        "wort": "der Park",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پارک",
+          "en": "park"
+        },
+        "id_ref": "nomen_park"
+      },
+      {
+        "wort": "wandern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کوه‌پیمایی کردن",
+          "en": "to hike"
+        },
+        "id_ref": "verb_wandern"
+      },
+      {
+        "wort": "bummeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرسه زدن",
+          "en": "to stroll"
+        },
+        "id_ref": "verb_bummeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

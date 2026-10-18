@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_schmoren",
+  "wort": "schmoren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آرام پختن (خورش)",
+      "دم کردن",
+      "در گرما پختن (آدم)"
+    ],
+    "en": [
+      "to braise",
+      "to stew",
+      "to swelter"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kochen",
+    "Essen"
+  ],
+  "ipa": "ˈʃmoːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Fleisch schmort im Topf.",
+      "uebersetzung": {
+        "fa": "گوشت در قابلمه آرام می‌پزد.",
+        "en": "The meat is braising in the pot."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Lass das Gulasch noch eine Stunde schmoren, damit es richtig zart wird.",
+      "uebersetzung": {
+        "fa": "بگذار گولاش یک ساعت دیگر آرام بپزد تا حسابی نرم شود.",
+        "en": "Let the goulash braise for another hour so that it becomes really tender."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dünsten",
+      "uebersetzung": {
+        "fa": "بخارپز کردن، دم کردن",
+        "en": "to steam"
+      }
+    },
+    {
+      "wort": "köcheln",
+      "uebersetzung": {
+        "fa": "آرام جوشیدن",
+        "en": "to simmer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Schmorbraten",
+      "uebersetzung": {
+        "fa": "گوشت خورشی",
+        "en": "pot roast"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schmoren (آرام پختن) — فعل ساده",
+    "en": "schmoren (to braise) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schmoren",
+      "praeteritum": "schmorte",
+      "partizip2": "geschmort"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schmore",
+        "du": "schmorst",
+        "er_sie_es": "schmort",
+        "wir": "schmoren",
+        "ihr": "schmort",
+        "sie_Sie": "schmoren"
+      },
+      "praeteritum": {
+        "ich": "schmorte",
+        "du": "schmortest",
+        "er_sie_es": "schmorte",
+        "wir": "schmorten",
+        "ihr": "schmortet",
+        "sie_Sie": "schmorten"
+      },
+      "konjunktiv1": {
+        "ich": "schmore",
+        "du": "schmorest",
+        "er_sie_es": "schmore",
+        "wir": "schmoren",
+        "ihr": "schmoret",
+        "sie_Sie": "schmoren"
+      },
+      "konjunktiv2": {
+        "ich": "schmorte",
+        "du": "schmortest",
+        "er_sie_es": "schmorte",
+        "wir": "schmorten",
+        "ihr": "schmortet",
+        "sie_Sie": "schmorten"
+      },
+      "imperativ": {
+        "du": "Schmore!",
+        "ihr": "Schmort!",
+        "Sie": "Schmoren Sie!"
+      }
+    },
+    "partizip1": "schmorend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "braten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرخ کردن",
+          "en": "to fry"
+        },
+        "id_ref": "verb_braten"
+      },
+      {
+        "wort": "der Topf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قابلمه",
+          "en": "pot"
+        },
+        "id_ref": "nomen_topf"
+      },
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "der Schmorbraten",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گوشت خورشی",
+          "en": "pot roast"
+        },
+        "id_ref": "nomen_schmorbraten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

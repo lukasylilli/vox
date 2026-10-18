@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_schnetzeln",
+  "wort": "schnetzeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ریز و نواری بریدن (گوشت)"
+    ],
+    "en": [
+      "to cut into strips",
+      "to shred"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kochen"
+  ],
+  "ipa": "ˈʃnɛt͡sl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich schnetzle das Fleisch.",
+      "uebersetzung": {
+        "fa": "گوشت را نواری می‌بُرم.",
+        "en": "I am cutting the meat into strips."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für das Zürcher Geschnetzelte schnetzelt man Kalbfleisch in feine Streifen.",
+      "uebersetzung": {
+        "fa": "برای «گشنتسلته‌ی زوریخی» گوشت گوساله را به نوارهای نازک می‌بُرند.",
+        "en": "For Zurich-style ragout, veal is cut into fine strips."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schneiden",
+      "uebersetzung": {
+        "fa": "بریدن",
+        "en": "to cut"
+      }
+    },
+    {
+      "wort": "zerkleinern",
+      "uebersetzung": {
+        "fa": "خرد کردن",
+        "en": "to chop up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schneiden (بریدن) + -eln (تکرار، کوچکی)",
+    "en": "schneiden (to cut) + -eln (repetition, smallness)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schnetzeln",
+      "praeteritum": "schnetzelte",
+      "partizip2": "geschnetzelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schnetzle",
+        "du": "schnetzelst",
+        "er_sie_es": "schnetzelt",
+        "wir": "schnetzeln",
+        "ihr": "schnetzelt",
+        "sie_Sie": "schnetzeln"
+      },
+      "praeteritum": {
+        "ich": "schnetzelte",
+        "du": "schnetzeltest",
+        "er_sie_es": "schnetzelte",
+        "wir": "schnetzelten",
+        "ihr": "schnetzeltet",
+        "sie_Sie": "schnetzelten"
+      },
+      "konjunktiv1": {
+        "ich": "schnetzle",
+        "du": "schnetzlest",
+        "er_sie_es": "schnetzle",
+        "wir": "schnetzeln",
+        "ihr": "schnetzlet",
+        "sie_Sie": "schnetzeln"
+      },
+      "konjunktiv2": {
+        "ich": "schnetzelte",
+        "du": "schnetzeltest",
+        "er_sie_es": "schnetzelte",
+        "wir": "schnetzelten",
+        "ihr": "schnetzeltet",
+        "sie_Sie": "schnetzelten"
+      },
+      "imperativ": {
+        "du": "Schnetzle!",
+        "ihr": "Schnetzelt!",
+        "Sie": "Schnetzeln Sie!"
+      }
+    },
+    "partizip1": "schnetzelnd",
+    "nominalisierung": "das Geschnetzelte"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "das Fleisch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشت",
+          "en": "meat"
+        },
+        "id_ref": "nomen_fleisch"
+      },
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "das Geschnetzelte",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گوشت نواری خوراکی",
+          "en": "sliced meat dish"
+        },
+        "id_ref": "nomen_geschnetzelte"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

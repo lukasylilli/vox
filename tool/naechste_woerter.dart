@@ -1879,6 +1879,73 @@ const zurueckgestellt = <String>{
   'schlabbern', // zurückgestellt: umgangssprachlich, mehrere Bedeutungen — nicht sicher (Regel 14) 2026-10-18
   'schlauchen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
   'schleckern', // zurückgestellt: landschaftlich — nicht sicher (Regel 14) 2026-10-18
+  'schlingern', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'schlitzen', // zurückgestellt: selten, meist «aufschlitzen» — nicht sicher (Regel 14) 2026-10-18
+  'schludern', // zurückgestellt: umgangssprachlich, abwertend — nicht sicher (Regel 14) 2026-10-18
+  'schmarotzen', // zurückgestellt: abwertend, Partizip ohne ge- (schmarotzt) — nicht sicher (Regel 14/17) 2026-10-18
+  'schmauchen', // zurückgestellt: veraltend — nicht sicher (Regel 14/17) 2026-10-18
+  'schmausen', // zurückgestellt: veraltend/scherzhaft — nicht sicher (Regel 14/17) 2026-10-18
+  'schmutzen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'schnäbeln', // zurückgestellt: selten, scherzhaft — nicht sicher (Regel 14) 2026-10-18
+  'schnabulieren', // zurückgestellt: scherzhaft, selten — nicht sicher (Regel 14) 2026-10-18
+  'schnackeln', // zurückgestellt: bayerisch/österr. mundartlich — nicht sicher (Regel 14) 2026-10-18
+  'schnalzen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'schnarren', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'schnauzen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schnellen', // zurückgestellt: gehoben, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-18
+  'schniegeln', // zurückgestellt: veraltend, meist «geschniegelt» — nicht sicher (Regel 14) 2026-10-18
+  'schnipseln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schnitzeln', // zurückgestellt: selten, landschaftlich — nicht sicher (Regel 14) 2026-10-18
+  'schnörkeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'schönen', // zurückgestellt: Fachsprache/selten (Zahlen schönen) — nicht sicher (Regel 14) 2026-10-18
+  'schrämen', // zurückgestellt: Bergbau-Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'schrammen', // zurückgestellt: selten, meist «schrammen an» / Schramme — nicht sicher (Regel 14) 2026-10-18
+  'schreinern', // zurückgestellt: landschaftlich (süddt.) — nicht sicher (Regel 14) 2026-10-18
+  'schriftstellern', // zurückgestellt: scherzhaft, selten — nicht sicher (Regel 14) 2026-10-18
+  'schröpfen', // zurückgestellt: veraltet (Medizin) / übertragen — nicht sicher (Regel 14/17) 2026-10-18
+  'schrumpeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schurigeln', // zurückgestellt: umgangssprachlich, veraltend — nicht sicher (Regel 14/17) 2026-10-18
+  'schürzen', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'schustern', // zurückgestellt: umgangssprachlich, veraltend — nicht sicher (Regel 14/17) 2026-10-18
+  'schwabbeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'schwäbeln', // zurückgestellt: regional — nicht sicher (Regel 14) 2026-10-18
+  'schwadronieren', // zurückgestellt: abwertend, selten — nicht sicher (Regel 14/17) 2026-10-18
+  'schwängern', // zurückgestellt: sexueller Bezug — Entscheidung Lukas 2026-10-18
+  'schwänzeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'schwappen', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'schwatzen', // zurückgestellt: landschaftlich (neben «schwätzen») — nicht sicher (Regel 14) 2026-10-18
+  'schweinigeln', // zurückgestellt: umgangssprachlich, derb — Entscheidung Lukas 2026-10-18
+  'schwelen', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'schwirren', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'sedimentieren', // zurückgestellt: Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'seihen', // zurückgestellt: selten (Küche) — nicht sicher (Regel 14) 2026-10-18
+  'sekkieren', // zurückgestellt: österr. umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'sekundieren', // zurückgestellt: gehoben/Fachsprache — nicht sicher (Regel 14) 2026-10-18
+  'sengen', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
+  'sexualisieren', // zurückgestellt: sexueller Bezug — Entscheidung Lukas 2026-10-18
+  'siechen', // zurückgestellt: veraltet — nicht sicher (Regel 14/17) 2026-10-18
+  'siegeln', // zurückgestellt: selten, meist «versiegeln» — nicht sicher (Regel 14) 2026-10-18
+  'sirren', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'sistieren', // zurückgestellt: Rechts-/Amtssprache — nicht sicher (Regel 14) 2026-10-18
+  'skalpieren', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'skaten', // zurückgestellt: Hilfsverb schwankt (haben/sein), Anglizismus — nicht sicher (Regel 16) 2026-10-18
+  'soufflieren', // zurückgestellt: Theatersprache — nicht sicher (Regel 14) 2026-10-18
+  'soupieren', // zurückgestellt: veraltet — nicht sicher (Regel 14/17) 2026-10-18
+  'sowjetisieren', // zurückgestellt: historisch, selten — nicht sicher (Regel 14) 2026-10-18
+  'spaßen', // zurückgestellt: veraltend — nicht sicher (Regel 14/17) 2026-10-18
+  'speicheln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'spintisieren', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-18
+  'splittern', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'spornen', // zurückgestellt: selten, meist «anspornen» — nicht sicher (Regel 14) 2026-10-18
+  'spötteln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'sprayen', // zurückgestellt: Anglizismus, Schreibung/Formen schwanken — nicht sicher (Regel 14) 2026-10-18
+  'sprenkeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'spulen', // zurückgestellt: Fachsprache/selten — nicht sicher (Regel 14) 2026-10-18
+  'spuren', // zurückgestellt: umgangssprachlich/Fachsprache (Skisport) — nicht sicher (Regel 14) 2026-10-18
+  'spurten', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-18
+  'sputen', // zurückgestellt: veraltend, nur reflexiv — nicht sicher (Regel 14/17) 2026-10-18
+  'stählen', // zurückgestellt: gehoben — nicht sicher (Regel 14) 2026-10-18
+  'staksen', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

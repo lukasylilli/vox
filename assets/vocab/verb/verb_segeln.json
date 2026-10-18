@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_segeln",
+  "wort": "segeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قایقرانی بادبانی کردن",
+      "آرام در هوا حرکت کردن"
+    ],
+    "en": [
+      "to sail",
+      "to glide"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sport",
+    "Freizeit",
+    "Reisen"
+  ],
+  "ipa": "ˈzeːɡl̩n",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (wir sind nach Dänemark gesegelt); als Tätigkeit auch «haben».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Sommer segeln wir auf dem See.",
+      "uebersetzung": {
+        "fa": "تابستان روی دریاچه قایق‌رانی بادبانی می‌کنیم.",
+        "en": "In summer we go sailing on the lake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Letztes Jahr sind wir mit einem kleinen Boot bis nach Kroatien gesegelt.",
+      "uebersetzung": {
+        "fa": "سال گذشته با یک قایق کوچک تا کرواسی بادبان‌رانی کردیم.",
+        "en": "Last year we sailed all the way to Croatia in a small boat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fahren",
+      "uebersetzung": {
+        "fa": "رفتن (با وسیله)",
+        "en": "to go"
+      }
+    },
+    {
+      "wort": "gleiten",
+      "uebersetzung": {
+        "fa": "لغزیدن",
+        "en": "to glide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Segelboot",
+      "uebersetzung": {
+        "fa": "قایق بادبانی",
+        "en": "sailing boat"
+      }
+    },
+    {
+      "wort": "der Segelkurs",
+      "uebersetzung": {
+        "fa": "دوره‌ی قایقرانی",
+        "en": "sailing course"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Segel (بادبان) + -n",
+    "en": "Segel (sail) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "segeln",
+      "praeteritum": "segelte",
+      "partizip2": "gesegelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "segle",
+        "du": "segelst",
+        "er_sie_es": "segelt",
+        "wir": "segeln",
+        "ihr": "segelt",
+        "sie_Sie": "segeln"
+      },
+      "praeteritum": {
+        "ich": "segelte",
+        "du": "segeltest",
+        "er_sie_es": "segelte",
+        "wir": "segelten",
+        "ihr": "segeltet",
+        "sie_Sie": "segelten"
+      },
+      "konjunktiv1": {
+        "ich": "segle",
+        "du": "seglest",
+        "er_sie_es": "segle",
+        "wir": "segeln",
+        "ihr": "seglet",
+        "sie_Sie": "segeln"
+      },
+      "konjunktiv2": {
+        "ich": "segelte",
+        "du": "segeltest",
+        "er_sie_es": "segelte",
+        "wir": "segelten",
+        "ihr": "segeltet",
+        "sie_Sie": "segelten"
+      },
+      "imperativ": {
+        "du": "Segle!",
+        "ihr": "Segelt!",
+        "Sie": "Segeln Sie!"
+      }
+    },
+    "partizip1": "segelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Segel",
+    "woerter": [
+      {
+        "wort": "das Segel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بادبان",
+          "en": "sail"
+        },
+        "id_ref": "nomen_segel"
+      },
+      {
+        "wort": "das Boot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قایق",
+          "en": "boat"
+        },
+        "id_ref": "nomen_boot"
+      },
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "das Meer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دریا",
+          "en": "sea"
+        },
+        "id_ref": "nomen_meer"
+      },
+      {
+        "wort": "rudern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارو زدن",
+          "en": "to row"
+        },
+        "id_ref": "verb_rudern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

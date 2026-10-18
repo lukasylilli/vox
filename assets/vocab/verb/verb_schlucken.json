@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_schlucken",
+  "wort": "schlucken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قورت دادن",
+      "بلعیدن"
+    ],
+    "en": [
+      "to swallow",
+      "to gulp"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körper",
+    "Gesundheit",
+    "Essen"
+  ],
+  "ipa": "ˈʃlʊkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kann die Tablette nicht schlucken.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم قرص را قورت بدهم.",
+        "en": "I can't swallow the pill."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit sie Halsschmerzen hat, tut ihr jedes Schlucken weh.",
+      "uebersetzung": {
+        "fa": "از وقتی گلودرد دارد، هر بار قورت دادن برایش دردناک است.",
+        "en": "Since she has had a sore throat, every swallow hurts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "runterschlucken",
+      "uebersetzung": {
+        "fa": "فرو دادن",
+        "en": "to swallow down"
+      }
+    },
+    {
+      "wort": "verschlingen",
+      "uebersetzung": {
+        "fa": "بلعیدن",
+        "en": "to devour"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ausspucken",
+      "uebersetzung": {
+        "fa": "تف کردن، بیرون انداختن",
+        "en": "to spit out"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Schluckbeschwerden",
+      "uebersetzung": {
+        "fa": "سختی در بلع",
+        "en": "difficulty swallowing"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schlucken (قورت دادن) — هم‌ریشه با der Schluck",
+    "en": "schlucken (to swallow) — related to der Schluck"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schlucken",
+      "praeteritum": "schluckte",
+      "partizip2": "geschluckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlucke",
+        "du": "schluckst",
+        "er_sie_es": "schluckt",
+        "wir": "schlucken",
+        "ihr": "schluckt",
+        "sie_Sie": "schlucken"
+      },
+      "praeteritum": {
+        "ich": "schluckte",
+        "du": "schlucktest",
+        "er_sie_es": "schluckte",
+        "wir": "schluckten",
+        "ihr": "schlucktet",
+        "sie_Sie": "schluckten"
+      },
+      "konjunktiv1": {
+        "ich": "schlucke",
+        "du": "schluckest",
+        "er_sie_es": "schlucke",
+        "wir": "schlucken",
+        "ihr": "schlucket",
+        "sie_Sie": "schlucken"
+      },
+      "konjunktiv2": {
+        "ich": "schluckte",
+        "du": "schlucktest",
+        "er_sie_es": "schluckte",
+        "wir": "schluckten",
+        "ihr": "schlucktet",
+        "sie_Sie": "schluckten"
+      },
+      "imperativ": {
+        "du": "Schlucke!",
+        "ihr": "Schluckt!",
+        "Sie": "Schlucken Sie!"
+      }
+    },
+    "partizip1": "schluckend",
+    "nominalisierung": "das Schlucken"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schluck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جرعه",
+          "en": "sip"
+        },
+        "id_ref": "nomen_schluck"
+      },
+      {
+        "wort": "der Hals",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گلو",
+          "en": "throat"
+        },
+        "id_ref": "nomen_hals"
+      },
+      {
+        "wort": "die Tablette",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرص",
+          "en": "pill"
+        },
+        "id_ref": "nomen_tablette"
+      },
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "kauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to chew"
+        },
+        "id_ref": "verb_kauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,216 @@
+{
+  "schema": "3.0",
+  "id": "verb_sichern",
+  "wort": "sichern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تأمین کردن",
+      "ایمن کردن",
+      "ذخیره کردن (داده)",
+      "پشتیبان گرفتن"
+    ],
+    "en": [
+      "to secure",
+      "to save",
+      "to back up"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sicherheit",
+    "Computer"
+  ],
+  "ipa": "ˈzɪçɐn",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich sichere die Datei.",
+      "uebersetzung": {
+        "fa": "فایل را ذخیره می‌کنم.",
+        "en": "I save the file."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die neue Fabrik soll in der Region mehr als hundert Arbeitsplätze sichern.",
+      "uebersetzung": {
+        "fa": "قرار است کارخانه‌ی جدید بیش از صد شغل را در منطقه تأمین کند.",
+        "en": "The new factory is supposed to secure more than a hundred jobs in the region."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "speichern",
+      "uebersetzung": {
+        "fa": "ذخیره کردن",
+        "en": "to save"
+      }
+    },
+    {
+      "wort": "schützen",
+      "uebersetzung": {
+        "fa": "محافظت کردن",
+        "en": "to protect"
+      }
+    },
+    {
+      "wort": "gewährleisten",
+      "uebersetzung": {
+        "fa": "تضمین کردن",
+        "en": "to guarantee"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "gefährden",
+      "uebersetzung": {
+        "fa": "به خطر انداختن",
+        "en": "to endanger"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Datensicherung",
+      "uebersetzung": {
+        "fa": "پشتیبان‌گیری داده",
+        "en": "data backup"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "sicher (امن) + -n",
+    "en": "sicher (safe) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sichern gegen + Akk",
+        "bedeutung": "etwas vor einer Gefahr schützen",
+        "beispiel": "Wir sichern das Fahrrad gegen Diebstahl.",
+        "uebersetzung": {
+          "fa": "دوچرخه را در برابر دزدی ایمن می‌کنیم.",
+          "en": "We secure the bike against theft."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sichern",
+      "praeteritum": "sicherte",
+      "partizip2": "gesichert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sichere",
+        "du": "sicherst",
+        "er_sie_es": "sichert",
+        "wir": "sichern",
+        "ihr": "sichert",
+        "sie_Sie": "sichern"
+      },
+      "praeteritum": {
+        "ich": "sicherte",
+        "du": "sichertest",
+        "er_sie_es": "sicherte",
+        "wir": "sicherten",
+        "ihr": "sichertet",
+        "sie_Sie": "sicherten"
+      },
+      "konjunktiv1": {
+        "ich": "sichere",
+        "du": "sicherest",
+        "er_sie_es": "sichere",
+        "wir": "sichern",
+        "ihr": "sicheret",
+        "sie_Sie": "sichern"
+      },
+      "konjunktiv2": {
+        "ich": "sicherte",
+        "du": "sichertest",
+        "er_sie_es": "sicherte",
+        "wir": "sicherten",
+        "ihr": "sichertet",
+        "sie_Sie": "sicherten"
+      },
+      "imperativ": {
+        "du": "Sichere!",
+        "ihr": "Sichert!",
+        "Sie": "Sichern Sie!"
+      }
+    },
+    "partizip1": "sichernd",
+    "nominalisierung": "die Sicherung"
+  },
+  "wortnetz": {
+    "grundwort": "sicher",
+    "woerter": [
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امن، مطمئن",
+          "en": "safe, sure"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت",
+          "en": "safety"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "speichern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ذخیره کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_speichern"
+      },
+      {
+        "wort": "die Sicherung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فیوز، پشتیبان",
+          "en": "fuse, backup"
+        },
+        "id_ref": "nomen_sicherung"
+      },
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

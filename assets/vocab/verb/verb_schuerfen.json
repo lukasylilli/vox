@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_schuerfen",
+  "wort": "schürfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خراشیدن (پوست)",
+      "کاوش کردن (برای معدن)",
+      "عمیق کاویدن"
+    ],
+    "en": [
+      "to graze",
+      "to prospect",
+      "to dig deep"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Natur",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃʏrfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mir das Knie geschürft.",
+      "uebersetzung": {
+        "fa": "زانویم را خراش انداخته‌ام.",
+        "en": "I have grazed my knee."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Früher schürften viele Abenteurer in Alaska nach Gold.",
+      "uebersetzung": {
+        "fa": "قدیم‌ها ماجراجویان زیادی در آلاسکا دنبال طلا کاوش می‌کردند.",
+        "en": "In the past many adventurers prospected for gold in Alaska."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufschürfen",
+      "uebersetzung": {
+        "fa": "خراشیدن (پوست)",
+        "en": "to graze"
+      }
+    },
+    {
+      "wort": "graben",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to dig"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Schürfwunde",
+      "uebersetzung": {
+        "fa": "زخم خراشیدگی",
+        "en": "graze, abrasion"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schürfen (خراشیدن، کندن) — فعل ساده",
+    "en": "schürfen (to scrape, to dig) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schürfen nach + Dat",
+        "bedeutung": "in der Erde nach Bodenschätzen suchen",
+        "beispiel": "Sie schürfen dort nach Kupfer.",
+        "uebersetzung": {
+          "fa": "آن‌جا دنبال مس کاوش می‌کنند.",
+          "en": "They are prospecting for copper there."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schürfen",
+      "praeteritum": "schürfte",
+      "partizip2": "geschürft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schürfe",
+        "du": "schürfst",
+        "er_sie_es": "schürft",
+        "wir": "schürfen",
+        "ihr": "schürft",
+        "sie_Sie": "schürfen"
+      },
+      "praeteritum": {
+        "ich": "schürfte",
+        "du": "schürftest",
+        "er_sie_es": "schürfte",
+        "wir": "schürften",
+        "ihr": "schürftet",
+        "sie_Sie": "schürften"
+      },
+      "konjunktiv1": {
+        "ich": "schürfe",
+        "du": "schürfest",
+        "er_sie_es": "schürfe",
+        "wir": "schürfen",
+        "ihr": "schürfet",
+        "sie_Sie": "schürfen"
+      },
+      "konjunktiv2": {
+        "ich": "schürfte",
+        "du": "schürftest",
+        "er_sie_es": "schürfte",
+        "wir": "schürften",
+        "ihr": "schürftet",
+        "sie_Sie": "schürften"
+      },
+      "imperativ": {
+        "du": "Schürfe!",
+        "ihr": "Schürft!",
+        "Sie": "Schürfen Sie!"
+      }
+    },
+    "partizip1": "schürfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schürfwunde",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زخم خراشیدگی",
+          "en": "abrasion"
+        },
+        "id_ref": "nomen_schuerfwunde"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "kratzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاراندن، خراشیدن",
+          "en": "to scratch"
+        },
+        "id_ref": "verb_kratzen"
+      },
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "das Gold",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طلا",
+          "en": "gold"
+        },
+        "id_ref": "nomen_gold"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

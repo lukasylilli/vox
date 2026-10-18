@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_siegen",
+  "wort": "siegen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیروز شدن",
+      "برنده شدن"
+    ],
+    "en": [
+      "to win",
+      "to be victorious"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Sport",
+    "Wettbewerb"
+  ],
+  "ipa": "ˈziːɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Unser Team hat gesiegt!",
+      "uebersetzung": {
+        "fa": "تیم ما برنده شد!",
+        "en": "Our team has won!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Ende siegte die Vernunft, und beide Seiten unterschrieben den Vertrag.",
+      "uebersetzung": {
+        "fa": "سرانجام عقل پیروز شد و هر دو طرف قرارداد را امضا کردند.",
+        "en": "In the end reason prevailed, and both sides signed the agreement."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gewinnen",
+      "uebersetzung": {
+        "fa": "برنده شدن",
+        "en": "to win"
+      }
+    },
+    {
+      "wort": "triumphieren",
+      "uebersetzung": {
+        "fa": "پیروز شدن",
+        "en": "to triumph"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verlieren",
+      "uebersetzung": {
+        "fa": "باختن",
+        "en": "to lose"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sieg (پیروزی) + -en",
+    "en": "Sieg (victory) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "siegen über + Akk",
+        "bedeutung": "jemanden oder etwas besiegen",
+        "beispiel": "Die Mannschaft siegte über den Favoriten.",
+        "uebersetzung": {
+          "fa": "تیم بر تیم محبوب پیروز شد.",
+          "en": "The team triumphed over the favourite."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "siegen",
+      "praeteritum": "siegte",
+      "partizip2": "gesiegt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "siege",
+        "du": "siegst",
+        "er_sie_es": "siegt",
+        "wir": "siegen",
+        "ihr": "siegt",
+        "sie_Sie": "siegen"
+      },
+      "praeteritum": {
+        "ich": "siegte",
+        "du": "siegtest",
+        "er_sie_es": "siegte",
+        "wir": "siegten",
+        "ihr": "siegtet",
+        "sie_Sie": "siegten"
+      },
+      "konjunktiv1": {
+        "ich": "siege",
+        "du": "siegest",
+        "er_sie_es": "siege",
+        "wir": "siegen",
+        "ihr": "sieget",
+        "sie_Sie": "siegen"
+      },
+      "konjunktiv2": {
+        "ich": "siegte",
+        "du": "siegtest",
+        "er_sie_es": "siegte",
+        "wir": "siegten",
+        "ihr": "siegtet",
+        "sie_Sie": "siegten"
+      },
+      "imperativ": {
+        "du": "Siege!",
+        "ihr": "Siegt!",
+        "Sie": "Siegen Sie!"
+      }
+    },
+    "partizip1": "siegend",
+    "nominalisierung": "der Sieg"
+  },
+  "wortnetz": {
+    "grundwort": "Sieg",
+    "woerter": [
+      {
+        "wort": "der Sieg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیروزی",
+          "en": "victory"
+        },
+        "id_ref": "nomen_sieg"
+      },
+      {
+        "wort": "gewinnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنده شدن",
+          "en": "to win"
+        },
+        "id_ref": "verb_gewinnen"
+      },
+      {
+        "wort": "der Sieger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنده",
+          "en": "winner"
+        },
+        "id_ref": "nomen_sieger"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باختن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      },
+      {
+        "wort": "besiegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست دادن",
+          "en": "to defeat"
+        },
+        "id_ref": "verb_besiegen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

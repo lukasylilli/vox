@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_schluepfen",
+  "wort": "schlüpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خزیدن به درون / بیرون",
+      "سر خوردن (به لباس)",
+      "از تخم بیرون آمدن"
+    ],
+    "en": [
+      "to slip",
+      "to hatch"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Kleidung",
+    "Tiere"
+  ],
+  "ipa": "ˈʃlʏpfn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Küken ist aus dem Ei geschlüpft.",
+      "uebersetzung": {
+        "fa": "جوجه از تخم بیرون آمده است.",
+        "en": "The chick has hatched from the egg."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor sie das Haus verließ, schlüpfte sie schnell in ihre Jacke.",
+      "uebersetzung": {
+        "fa": "پیش از اینکه از خانه بیرون برود، تند کاپشنش را پوشید.",
+        "en": "Before she left the house, she quickly slipped into her jacket."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kriechen",
+      "uebersetzung": {
+        "fa": "خزیدن",
+        "en": "to crawl"
+      }
+    },
+    {
+      "wort": "gleiten",
+      "uebersetzung": {
+        "fa": "لغزیدن",
+        "en": "to glide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Schlüpfer",
+      "uebersetzung": {
+        "fa": "شورت",
+        "en": "knickers"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schlüpfen (لغزیدن، خزیدن) — فعل ساده",
+    "en": "schlüpfen (to slip) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schlüpfen in + Akk",
+        "bedeutung": "schnell ein Kleidungsstück anziehen",
+        "beispiel": "Er schlüpft in seine Schuhe.",
+        "uebersetzung": {
+          "fa": "او تند کفش‌هایش را می‌پوشد.",
+          "en": "He slips into his shoes."
+        }
+      },
+      {
+        "muster": "schlüpfen aus + Dat",
+        "bedeutung": "aus etwas herauskommen",
+        "beispiel": "Der Schmetterling schlüpft aus der Puppe.",
+        "uebersetzung": {
+          "fa": "پروانه از پیله بیرون می‌آید.",
+          "en": "The butterfly emerges from the cocoon."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schlüpfen",
+      "praeteritum": "schlüpfte",
+      "partizip2": "geschlüpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schlüpfe",
+        "du": "schlüpfst",
+        "er_sie_es": "schlüpft",
+        "wir": "schlüpfen",
+        "ihr": "schlüpft",
+        "sie_Sie": "schlüpfen"
+      },
+      "praeteritum": {
+        "ich": "schlüpfte",
+        "du": "schlüpftest",
+        "er_sie_es": "schlüpfte",
+        "wir": "schlüpften",
+        "ihr": "schlüpftet",
+        "sie_Sie": "schlüpften"
+      },
+      "konjunktiv1": {
+        "ich": "schlüpfe",
+        "du": "schlüpfest",
+        "er_sie_es": "schlüpfe",
+        "wir": "schlüpfen",
+        "ihr": "schlüpfet",
+        "sie_Sie": "schlüpfen"
+      },
+      "konjunktiv2": {
+        "ich": "schlüpfte",
+        "du": "schlüpftest",
+        "er_sie_es": "schlüpfte",
+        "wir": "schlüpften",
+        "ihr": "schlüpftet",
+        "sie_Sie": "schlüpften"
+      },
+      "imperativ": {
+        "du": "Schlüpfe!",
+        "ihr": "Schlüpft!",
+        "Sie": "Schlüpfen Sie!"
+      }
+    },
+    "partizip1": "schlüpfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم‌مرغ، تخم",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      },
+      {
+        "wort": "anziehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پوشیدن",
+          "en": "to put on"
+        },
+        "id_ref": "verb_anziehen"
+      },
+      {
+        "wort": "kriechen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خزیدن",
+          "en": "to crawl"
+        },
+        "id_ref": "verb_kriechen"
+      },
+      {
+        "wort": "das Küken",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جوجه",
+          "en": "chick"
+        },
+        "id_ref": "nomen_kueken"
+      },
+      {
+        "wort": "der Unterschlupf",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پناهگاه",
+          "en": "shelter"
+        },
+        "id_ref": "nomen_unterschlupf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

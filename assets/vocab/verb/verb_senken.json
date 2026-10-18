@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_senken",
+  "wort": "senken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پایین آوردن",
+      "کاهش دادن"
+    ],
+    "en": [
+      "to lower",
+      "to reduce"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Gesundheit"
+  ],
+  "ipa": "ˈzɛŋkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er senkt den Kopf.",
+      "uebersetzung": {
+        "fa": "او سرش را پایین می‌اندازد.",
+        "en": "He lowers his head."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Medikament soll den Blutdruck senken, wenn man es regelmäßig nimmt.",
+      "uebersetzung": {
+        "fa": "این دارو اگر منظم مصرف شود، فشار خون را پایین می‌آورد.",
+        "en": "The medicine is supposed to lower blood pressure if you take it regularly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    },
+    {
+      "wort": "verringern",
+      "uebersetzung": {
+        "fa": "کم کردن",
+        "en": "to decrease"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erhöhen",
+      "uebersetzung": {
+        "fa": "افزایش دادن",
+        "en": "to raise"
+      }
+    },
+    {
+      "wort": "heben",
+      "uebersetzung": {
+        "fa": "بالا بردن",
+        "en": "to lift"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sinken (پایین رفتن) — فعل سببی",
+    "en": "sinken (to sink) — causative verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "senken",
+      "praeteritum": "senkte",
+      "partizip2": "gesenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "senke",
+        "du": "senkst",
+        "er_sie_es": "senkt",
+        "wir": "senken",
+        "ihr": "senkt",
+        "sie_Sie": "senken"
+      },
+      "praeteritum": {
+        "ich": "senkte",
+        "du": "senktest",
+        "er_sie_es": "senkte",
+        "wir": "senkten",
+        "ihr": "senktet",
+        "sie_Sie": "senkten"
+      },
+      "konjunktiv1": {
+        "ich": "senke",
+        "du": "senkest",
+        "er_sie_es": "senke",
+        "wir": "senken",
+        "ihr": "senket",
+        "sie_Sie": "senken"
+      },
+      "konjunktiv2": {
+        "ich": "senkte",
+        "du": "senktest",
+        "er_sie_es": "senkte",
+        "wir": "senkten",
+        "ihr": "senktet",
+        "sie_Sie": "senkten"
+      },
+      "imperativ": {
+        "du": "Senke!",
+        "ihr": "Senkt!",
+        "Sie": "Senken Sie!"
+      }
+    },
+    "partizip1": "senkend",
+    "nominalisierung": "die Senkung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sinken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پایین رفتن",
+          "en": "to sink"
+        },
+        "id_ref": "verb_sinken"
+      },
+      {
+        "wort": "reduzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to reduce"
+        },
+        "id_ref": "verb_reduzieren"
+      },
+      {
+        "wort": "der Blutdruck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار خون",
+          "en": "blood pressure"
+        },
+        "id_ref": "nomen_blutdruck"
+      },
+      {
+        "wort": "erhöhen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزایش دادن",
+          "en": "to raise"
+        },
+        "id_ref": "verb_erhoehen"
+      },
+      {
+        "wort": "die Senkung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کاهش",
+          "en": "reduction"
+        },
+        "id_ref": "nomen_senkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

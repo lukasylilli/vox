@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_sickern",
+  "wort": "sickern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تراوش کردن",
+      "نفوذ کردن (مایع)",
+      "درز کردن (خبر)"
+    ],
+    "en": [
+      "to seep",
+      "to trickle",
+      "to leak out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Medien"
+  ],
+  "ipa": "ˈzɪkɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser sickert in den Boden.",
+      "uebersetzung": {
+        "fa": "آب در خاک نفوذ می‌کند.",
+        "en": "The water seeps into the ground."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl alles geheim bleiben sollte, sind Details des Vertrags an die Presse gesickert.",
+      "uebersetzung": {
+        "fa": "با اینکه قرار بود همه‌چیز محرمانه بماند، جزئیات قرارداد به مطبوعات درز کرد.",
+        "en": "Although everything was supposed to stay secret, details of the contract leaked to the press."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tropfen",
+      "uebersetzung": {
+        "fa": "چکیدن",
+        "en": "to drip"
+      }
+    },
+    {
+      "wort": "durchdringen",
+      "uebersetzung": {
+        "fa": "نفوذ کردن",
+        "en": "to penetrate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sickern (تراوش کردن) — فعل ساده",
+    "en": "sickern (to seep) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sickern in + Akk / durch + Akk",
+        "bedeutung": "langsam irgendwohin fließen",
+        "beispiel": "Regen sickert durch das Dach.",
+        "uebersetzung": {
+          "fa": "باران از سقف نشت می‌کند.",
+          "en": "Rain is seeping through the roof."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sickern",
+      "praeteritum": "sickerte",
+      "partizip2": "gesickert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sickere",
+        "du": "sickerst",
+        "er_sie_es": "sickert",
+        "wir": "sickern",
+        "ihr": "sickert",
+        "sie_Sie": "sickern"
+      },
+      "praeteritum": {
+        "ich": "sickerte",
+        "du": "sickertest",
+        "er_sie_es": "sickerte",
+        "wir": "sickerten",
+        "ihr": "sickertet",
+        "sie_Sie": "sickerten"
+      },
+      "konjunktiv1": {
+        "ich": "sickere",
+        "du": "sickerest",
+        "er_sie_es": "sickere",
+        "wir": "sickern",
+        "ihr": "sickeret",
+        "sie_Sie": "sickern"
+      },
+      "konjunktiv2": {
+        "ich": "sickerte",
+        "du": "sickertest",
+        "er_sie_es": "sickerte",
+        "wir": "sickerten",
+        "ihr": "sickertet",
+        "sie_Sie": "sickerten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "sickernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین، خاک",
+          "en": "ground"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "tropfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکیدن",
+          "en": "to drip"
+        },
+        "id_ref": "verb_tropfen"
+      },
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "durchsickern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درز کردن",
+          "en": "to leak out"
+        },
+        "id_ref": "verb_durchsickern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

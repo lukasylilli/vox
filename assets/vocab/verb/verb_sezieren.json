@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_sezieren",
+  "wort": "sezieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کالبدشکافی کردن",
+      "تشریح کردن",
+      "موشکافانه تحلیل کردن"
+    ],
+    "en": [
+      "to dissect"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "zeˈt͡siːrən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Biologieunterricht sezieren wir einen Fisch.",
+      "uebersetzung": {
+        "fa": "در کلاس زیست‌شناسی یک ماهی را تشریح می‌کنیم.",
+        "en": "In biology class we dissect a fish."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Medizinstudenten lernen im Anatomiekurs, einen menschlichen Körper zu sezieren.",
+      "uebersetzung": {
+        "fa": "دانشجویان پزشکی در درس آناتومی یاد می‌گیرند بدن انسان را کالبدشکافی کنند.",
+        "en": "In the anatomy course medical students learn to dissect a human body."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "obduzieren",
+      "uebersetzung": {
+        "fa": "کالبدگشایی کردن (پزشکی قانونی)",
+        "en": "to perform an autopsy"
+      }
+    },
+    {
+      "wort": "zerlegen",
+      "uebersetzung": {
+        "fa": "تکه‌تکه کردن",
+        "en": "to take apart"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین secare (بریدن)",
+    "en": "from Latin secare (to cut)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "sezieren",
+      "praeteritum": "sezierte",
+      "partizip2": "seziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "seziere",
+        "du": "sezierst",
+        "er_sie_es": "seziert",
+        "wir": "sezieren",
+        "ihr": "seziert",
+        "sie_Sie": "sezieren"
+      },
+      "praeteritum": {
+        "ich": "sezierte",
+        "du": "seziertest",
+        "er_sie_es": "sezierte",
+        "wir": "sezierten",
+        "ihr": "seziertet",
+        "sie_Sie": "sezierten"
+      },
+      "konjunktiv1": {
+        "ich": "seziere",
+        "du": "sezierest",
+        "er_sie_es": "seziere",
+        "wir": "sezieren",
+        "ihr": "sezieret",
+        "sie_Sie": "sezieren"
+      },
+      "konjunktiv2": {
+        "ich": "sezierte",
+        "du": "seziertest",
+        "er_sie_es": "sezierte",
+        "wir": "sezierten",
+        "ihr": "seziertet",
+        "sie_Sie": "sezierten"
+      },
+      "imperativ": {
+        "du": "Seziere!",
+        "ihr": "Seziert!",
+        "Sie": "Sezieren Sie!"
+      }
+    },
+    "partizip1": "sezierend",
+    "nominalisierung": "die Sektion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Anatomie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آناتومی",
+          "en": "anatomy"
+        },
+        "id_ref": "nomen_anatomie"
+      },
+      {
+        "wort": "die Sektion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشکافی",
+          "en": "dissection"
+        },
+        "id_ref": "nomen_sektion"
+      },
+      {
+        "wort": "der Körper",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بدن",
+          "en": "body"
+        },
+        "id_ref": "nomen_koerper"
+      },
+      {
+        "wort": "analysieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحلیل کردن",
+          "en": "to analyse"
+        },
+        "id_ref": "verb_analysieren"
+      },
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

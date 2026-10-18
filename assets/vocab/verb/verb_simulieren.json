@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_simulieren",
+  "wort": "simulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شبیه‌سازی کردن",
+      "تظاهر کردن (به بیماری)"
+    ],
+    "en": [
+      "to simulate",
+      "to feign"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Gesundheit"
+  ],
+  "ipa": "zimuˈliːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Computer simuliert einen Flug.",
+      "uebersetzung": {
+        "fa": "رایانه یک پرواز را شبیه‌سازی می‌کند.",
+        "en": "The computer simulates a flight."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt hatte den Verdacht, dass der Patient seine Schmerzen nur simuliert.",
+      "uebersetzung": {
+        "fa": "پزشک شک داشت که بیمار فقط به درد تظاهر می‌کند.",
+        "en": "The doctor suspected that the patient was only faking his pain."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachahmen",
+      "uebersetzung": {
+        "fa": "تقلید کردن",
+        "en": "to imitate"
+      }
+    },
+    {
+      "wort": "vortäuschen",
+      "uebersetzung": {
+        "fa": "وانمود کردن",
+        "en": "to pretend"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lat. simulare (همانند کردن) + -ieren",
+    "en": "Latin simulare (to imitate) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "simulieren",
+      "praeteritum": "simulierte",
+      "partizip2": "simuliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "simuliere",
+        "du": "simulierst",
+        "er_sie_es": "simuliert",
+        "wir": "simulieren",
+        "ihr": "simuliert",
+        "sie_Sie": "simulieren"
+      },
+      "praeteritum": {
+        "ich": "simulierte",
+        "du": "simuliertest",
+        "er_sie_es": "simulierte",
+        "wir": "simulierten",
+        "ihr": "simuliertet",
+        "sie_Sie": "simulierten"
+      },
+      "konjunktiv1": {
+        "ich": "simuliere",
+        "du": "simulierest",
+        "er_sie_es": "simuliere",
+        "wir": "simulieren",
+        "ihr": "simulieret",
+        "sie_Sie": "simulieren"
+      },
+      "konjunktiv2": {
+        "ich": "simulierte",
+        "du": "simuliertest",
+        "er_sie_es": "simulierte",
+        "wir": "simulierten",
+        "ihr": "simuliertet",
+        "sie_Sie": "simulierten"
+      },
+      "imperativ": {
+        "du": "Simuliere!",
+        "ihr": "Simuliert!",
+        "Sie": "Simulieren Sie!"
+      }
+    },
+    "partizip1": "simulierend",
+    "nominalisierung": "die Simulation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Simulation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبیه‌سازی",
+          "en": "simulation"
+        },
+        "id_ref": "nomen_simulation"
+      },
+      {
+        "wort": "der Simulator",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شبیه‌ساز",
+          "en": "simulator"
+        },
+        "id_ref": "nomen_simulator"
+      },
+      {
+        "wort": "vortäuschen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وانمود کردن",
+          "en": "to pretend"
+        },
+        "id_ref": "verb_vortaeuschen"
+      },
+      {
+        "wort": "virtuell",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجازی",
+          "en": "virtual"
+        },
+        "id_ref": "adjektiv_virtuell"
+      },
+      {
+        "wort": "testen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمایش کردن",
+          "en": "to test"
+        },
+        "id_ref": "verb_testen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

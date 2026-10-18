@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_speichern",
+  "wort": "speichern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ذخیره کردن",
+      "انبار کردن"
+    ],
+    "en": [
+      "to save",
+      "to store"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Computer",
+    "Technik"
+  ],
+  "ipa": "ˈʃpaɪ̯çɐn",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vergiss nicht, das Dokument zu speichern!",
+      "uebersetzung": {
+        "fa": "یادت نرود سند را ذخیره کنی!",
+        "en": "Don't forget to save the document!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Batterie speichert die Energie, die die Solaranlage tagsüber produziert.",
+      "uebersetzung": {
+        "fa": "باتری انرژی‌ای را که سامانه‌ی خورشیدی در روز تولید می‌کند ذخیره می‌کند.",
+        "en": "The battery stores the energy that the solar system produces during the day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sichern",
+      "uebersetzung": {
+        "fa": "ذخیره کردن، پشتیبان گرفتن",
+        "en": "to back up"
+      }
+    },
+    {
+      "wort": "aufbewahren",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to keep"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "löschen",
+      "uebersetzung": {
+        "fa": "پاک کردن",
+        "en": "to delete"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Speicherplatz",
+      "uebersetzung": {
+        "fa": "فضای ذخیره‌سازی",
+        "en": "storage space"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Speicher (انبار، حافظه) + -n",
+    "en": "Speicher (store, memory) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "speichern auf + Dat / in + Dat",
+        "bedeutung": "an einem Ort ablegen",
+        "beispiel": "Ich speichere die Fotos auf dem USB-Stick.",
+        "uebersetzung": {
+          "fa": "عکس‌ها را روی فلش ذخیره می‌کنم.",
+          "en": "I save the photos on the USB stick."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "speichern",
+      "praeteritum": "speicherte",
+      "partizip2": "gespeichert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "speichere",
+        "du": "speicherst",
+        "er_sie_es": "speichert",
+        "wir": "speichern",
+        "ihr": "speichert",
+        "sie_Sie": "speichern"
+      },
+      "praeteritum": {
+        "ich": "speicherte",
+        "du": "speichertest",
+        "er_sie_es": "speicherte",
+        "wir": "speicherten",
+        "ihr": "speichertet",
+        "sie_Sie": "speicherten"
+      },
+      "konjunktiv1": {
+        "ich": "speichere",
+        "du": "speicherest",
+        "er_sie_es": "speichere",
+        "wir": "speichern",
+        "ihr": "speicheret",
+        "sie_Sie": "speichern"
+      },
+      "konjunktiv2": {
+        "ich": "speicherte",
+        "du": "speichertest",
+        "er_sie_es": "speicherte",
+        "wir": "speicherten",
+        "ihr": "speichertet",
+        "sie_Sie": "speicherten"
+      },
+      "imperativ": {
+        "du": "Speichere!",
+        "ihr": "Speichert!",
+        "Sie": "Speichern Sie!"
+      }
+    },
+    "partizip1": "speichernd",
+    "nominalisierung": "die Speicherung"
+  },
+  "wortnetz": {
+    "grundwort": "Speicher",
+    "woerter": [
+      {
+        "wort": "der Speicher",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حافظه، انبار",
+          "en": "memory, storage"
+        },
+        "id_ref": "nomen_speicher"
+      },
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "löschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پاک کردن",
+          "en": "to delete"
+        },
+        "id_ref": "verb_loeschen"
+      },
+      {
+        "wort": "sichern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشتیبان گرفتن",
+          "en": "to back up"
+        },
+        "id_ref": "verb_sichern"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_speisen",
+  "wort": "speisen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غذا خوردن (رسمی)",
+      "تغذیه کردن (انرژی، آب)"
+    ],
+    "en": [
+      "to dine",
+      "to feed (supply)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Technik"
+  ],
+  "ipa": "ˈʃpaɪ̯zn̩",
+  "anmerkung": "Im Sinn «essen» gehoben.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir speisen im Hotel.",
+      "uebersetzung": {
+        "fa": "ما در هتل غذا می‌خوریم.",
+        "en": "We dine at the hotel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Lampen auf dem Dach werden von einer kleinen Solaranlage gespeist.",
+      "uebersetzung": {
+        "fa": "چراغ‌های روی بام از یک سامانه‌ی خورشیدی کوچک تغذیه می‌شوند.",
+        "en": "The lamps on the roof are powered by a small solar system."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "essen",
+      "uebersetzung": {
+        "fa": "خوردن",
+        "en": "to eat"
+      }
+    },
+    {
+      "wort": "dinieren",
+      "uebersetzung": {
+        "fa": "شام خوردن (رسمی)",
+        "en": "to dine"
+      }
+    },
+    {
+      "wort": "versorgen",
+      "uebersetzung": {
+        "fa": "تأمین کردن",
+        "en": "to supply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Speise (خوراک) + -n",
+    "en": "Speise (dish, food) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "speisen aus + Dat",
+        "bedeutung": "aus einer Quelle versorgt werden",
+        "beispiel": "Der See wird aus mehreren Bächen gespeist.",
+        "uebersetzung": {
+          "fa": "دریاچه از چند جویبار آب می‌گیرد.",
+          "en": "The lake is fed by several streams."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "speisen",
+      "praeteritum": "speiste",
+      "partizip2": "gespeist"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "speise",
+        "du": "speist",
+        "er_sie_es": "speist",
+        "wir": "speisen",
+        "ihr": "speist",
+        "sie_Sie": "speisen"
+      },
+      "praeteritum": {
+        "ich": "speiste",
+        "du": "speistest",
+        "er_sie_es": "speiste",
+        "wir": "speisten",
+        "ihr": "speistet",
+        "sie_Sie": "speisten"
+      },
+      "konjunktiv1": {
+        "ich": "speise",
+        "du": "speisest",
+        "er_sie_es": "speise",
+        "wir": "speisen",
+        "ihr": "speiset",
+        "sie_Sie": "speisen"
+      },
+      "konjunktiv2": {
+        "ich": "speiste",
+        "du": "speistest",
+        "er_sie_es": "speiste",
+        "wir": "speisten",
+        "ihr": "speistet",
+        "sie_Sie": "speisten"
+      },
+      "imperativ": {
+        "du": "Speise!",
+        "ihr": "Speist!",
+        "Sie": "Speisen Sie!"
+      }
+    },
+    "partizip1": "speisend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Speise",
+    "woerter": [
+      {
+        "wort": "die Speise",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوراک",
+          "en": "dish"
+        },
+        "id_ref": "nomen_speise"
+      },
+      {
+        "wort": "die Speisekarte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "منوی غذا",
+          "en": "menu"
+        },
+        "id_ref": "nomen_speisekarte"
+      },
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "das Restaurant",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رستوران",
+          "en": "restaurant"
+        },
+        "id_ref": "nomen_restaurant"
+      },
+      {
+        "wort": "der Speisesaal",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سالن غذاخوری",
+          "en": "dining hall"
+        },
+        "id_ref": "nomen_speisesaal"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

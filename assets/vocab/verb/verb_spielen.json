@@ -1,0 +1,217 @@
+{
+  "schema": "3.0",
+  "id": "verb_spielen",
+  "wort": "spielen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازی کردن",
+      "نواختن (ساز)",
+      "نقش بازی کردن"
+    ],
+    "en": [
+      "to play",
+      "to act"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Freizeit",
+    "Musik",
+    "Sport"
+  ],
+  "ipa": "ˈʃpiːlən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Die Kinder spielen im Garten.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در باغ بازی می‌کنند.",
+        "en": "The children are playing in the garden."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit er zehn Jahre alt ist, spielt er Klavier, und inzwischen gibt er sogar Konzerte.",
+      "uebersetzung": {
+        "fa": "از ده‌سالگی پیانو می‌زند و حالا حتی کنسرت هم می‌دهد.",
+        "en": "He has played the piano since he was ten, and now he even gives concerts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich vergnügen",
+      "uebersetzung": {
+        "fa": "سرگرم شدن",
+        "en": "to amuse oneself"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "arbeiten",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Spielzeug",
+      "uebersetzung": {
+        "fa": "اسباب‌بازی",
+        "en": "toy"
+      }
+    },
+    {
+      "wort": "der Spielplatz",
+      "uebersetzung": {
+        "fa": "زمین بازی",
+        "en": "playground"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Spiel (بازی) + -en",
+    "en": "Spiel (game) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "spielen mit + Dat",
+        "bedeutung": "zusammen mit jemandem oder etwas spielen",
+        "beispiel": "Der Hund spielt mit dem Ball.",
+        "uebersetzung": {
+          "fa": "سگ با توپ بازی می‌کند.",
+          "en": "The dog is playing with the ball."
+        }
+      },
+      {
+        "muster": "spielen gegen + Akk",
+        "bedeutung": "in einem Wettkampf antreten",
+        "beispiel": "Morgen spielen wir gegen Salzburg.",
+        "uebersetzung": {
+          "fa": "فردا مقابل سالزبورگ بازی می‌کنیم.",
+          "en": "Tomorrow we play against Salzburg."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "spielen",
+      "praeteritum": "spielte",
+      "partizip2": "gespielt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "spiele",
+        "du": "spielst",
+        "er_sie_es": "spielt",
+        "wir": "spielen",
+        "ihr": "spielt",
+        "sie_Sie": "spielen"
+      },
+      "praeteritum": {
+        "ich": "spielte",
+        "du": "spieltest",
+        "er_sie_es": "spielte",
+        "wir": "spielten",
+        "ihr": "spieltet",
+        "sie_Sie": "spielten"
+      },
+      "konjunktiv1": {
+        "ich": "spiele",
+        "du": "spielest",
+        "er_sie_es": "spiele",
+        "wir": "spielen",
+        "ihr": "spielet",
+        "sie_Sie": "spielen"
+      },
+      "konjunktiv2": {
+        "ich": "spielte",
+        "du": "spieltest",
+        "er_sie_es": "spielte",
+        "wir": "spielten",
+        "ihr": "spieltet",
+        "sie_Sie": "spielten"
+      },
+      "imperativ": {
+        "du": "Spiele!",
+        "ihr": "Spielt!",
+        "Sie": "Spielen Sie!"
+      }
+    },
+    "partizip1": "spielend",
+    "nominalisierung": "das Spiel"
+  },
+  "wortnetz": {
+    "grundwort": "Spiel",
+    "woerter": [
+      {
+        "wort": "das Spiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی",
+          "en": "game"
+        },
+        "id_ref": "nomen_spiel"
+      },
+      {
+        "wort": "der Spieler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازیکن",
+          "en": "player"
+        },
+        "id_ref": "nomen_spieler"
+      },
+      {
+        "wort": "das Spielzeug",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسباب‌بازی",
+          "en": "toy"
+        },
+        "id_ref": "nomen_spielzeug"
+      },
+      {
+        "wort": "der Spielplatz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زمین بازی",
+          "en": "playground"
+        },
+        "id_ref": "nomen_spielplatz"
+      },
+      {
+        "wort": "das Instrument",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساز",
+          "en": "instrument"
+        },
+        "id_ref": "nomen_instrument"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

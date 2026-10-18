@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_schwaechen",
+  "wort": "schwächen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ضعیف کردن",
+      "تضعیف کردن"
+    ],
+    "en": [
+      "to weaken"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Politik"
+  ],
+  "ipa": "ˈʃvɛçn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Krankheit schwächt ihn.",
+      "uebersetzung": {
+        "fa": "بیماری او را ضعیف می‌کند.",
+        "en": "The illness weakens him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der lange Streit innerhalb der Partei hat ihre Position vor der Wahl deutlich geschwächt.",
+      "uebersetzung": {
+        "fa": "دعوای طولانی درون حزب جایگاهش را پیش از انتخابات به‌طور آشکاری تضعیف کرد.",
+        "en": "The long dispute within the party clearly weakened its position before the election."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beeinträchtigen",
+      "uebersetzung": {
+        "fa": "آسیب زدن",
+        "en": "to impair"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "stärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to strengthen"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schwach (ضعیف) + -en",
+    "en": "schwach (weak) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "schwächen",
+      "praeteritum": "schwächte",
+      "partizip2": "geschwächt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schwäche",
+        "du": "schwächst",
+        "er_sie_es": "schwächt",
+        "wir": "schwächen",
+        "ihr": "schwächt",
+        "sie_Sie": "schwächen"
+      },
+      "praeteritum": {
+        "ich": "schwächte",
+        "du": "schwächtest",
+        "er_sie_es": "schwächte",
+        "wir": "schwächten",
+        "ihr": "schwächtet",
+        "sie_Sie": "schwächten"
+      },
+      "konjunktiv1": {
+        "ich": "schwäche",
+        "du": "schwächest",
+        "er_sie_es": "schwäche",
+        "wir": "schwächen",
+        "ihr": "schwächet",
+        "sie_Sie": "schwächen"
+      },
+      "konjunktiv2": {
+        "ich": "schwächte",
+        "du": "schwächtest",
+        "er_sie_es": "schwächte",
+        "wir": "schwächten",
+        "ihr": "schwächtet",
+        "sie_Sie": "schwächten"
+      },
+      "imperativ": {
+        "du": "Schwäche!",
+        "ihr": "Schwächt!",
+        "Sie": "Schwächen Sie!"
+      }
+    },
+    "partizip1": "schwächend",
+    "nominalisierung": "die Schwächung"
+  },
+  "wortnetz": {
+    "grundwort": "schwach",
+    "woerter": [
+      {
+        "wort": "schwach",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ضعیف",
+          "en": "weak"
+        },
+        "id_ref": "adjektiv_schwach"
+      },
+      {
+        "wort": "die Schwäche",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضعف",
+          "en": "weakness"
+        },
+        "id_ref": "nomen_schwaeche"
+      },
+      {
+        "wort": "stärken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقویت کردن",
+          "en": "to strengthen"
+        },
+        "id_ref": "verb_staerken"
+      },
+      {
+        "wort": "das Immunsystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیستم ایمنی",
+          "en": "immune system"
+        },
+        "id_ref": "nomen_immunsystem"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

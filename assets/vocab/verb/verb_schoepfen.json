@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_schoepfen",
+  "wort": "schöpfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با ملاقه یا ظرف برداشتن",
+      "گرفتن (امید، نفس)",
+      "خلق کردن"
+    ],
+    "en": [
+      "to scoop",
+      "to draw",
+      "to create"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ˈʃœpfn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie schöpft Suppe in den Teller.",
+      "uebersetzung": {
+        "fa": "او سوپ را با ملاقه در بشقاب می‌ریزد.",
+        "en": "She ladles soup into the plate."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Gespräch mit dem Arzt hat er wieder Hoffnung geschöpft.",
+      "uebersetzung": {
+        "fa": "بعد از صحبت با پزشک دوباره امید پیدا کرد.",
+        "en": "After the conversation with the doctor, he regained hope."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nehmen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to take"
+      }
+    },
+    {
+      "wort": "erschaffen",
+      "uebersetzung": {
+        "fa": "خلق کردن",
+        "en": "to create"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Schöpflöffel",
+      "uebersetzung": {
+        "fa": "ملاقه",
+        "en": "ladle"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "schöpfen (برداشتن، آفریدن) — فعل ساده",
+    "en": "schöpfen (to scoop, to create) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schöpfen aus + Dat",
+        "bedeutung": "etwas aus einer Quelle nehmen",
+        "beispiel": "Sie schöpft Wasser aus dem Brunnen.",
+        "uebersetzung": {
+          "fa": "او از چاه آب برمی‌دارد.",
+          "en": "She draws water from the well."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schöpfen",
+      "praeteritum": "schöpfte",
+      "partizip2": "geschöpft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schöpfe",
+        "du": "schöpfst",
+        "er_sie_es": "schöpft",
+        "wir": "schöpfen",
+        "ihr": "schöpft",
+        "sie_Sie": "schöpfen"
+      },
+      "praeteritum": {
+        "ich": "schöpfte",
+        "du": "schöpftest",
+        "er_sie_es": "schöpfte",
+        "wir": "schöpften",
+        "ihr": "schöpftet",
+        "sie_Sie": "schöpften"
+      },
+      "konjunktiv1": {
+        "ich": "schöpfe",
+        "du": "schöpfest",
+        "er_sie_es": "schöpfe",
+        "wir": "schöpfen",
+        "ihr": "schöpfet",
+        "sie_Sie": "schöpfen"
+      },
+      "konjunktiv2": {
+        "ich": "schöpfte",
+        "du": "schöpftest",
+        "er_sie_es": "schöpfte",
+        "wir": "schöpften",
+        "ihr": "schöpftet",
+        "sie_Sie": "schöpften"
+      },
+      "imperativ": {
+        "du": "Schöpfe!",
+        "ihr": "Schöpft!",
+        "Sie": "Schöpfen Sie!"
+      }
+    },
+    "partizip1": "schöpfend",
+    "nominalisierung": "die Schöpfung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Hoffnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امید",
+          "en": "hope"
+        },
+        "id_ref": "nomen_hoffnung"
+      },
+      {
+        "wort": "die Schöpfung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آفرینش",
+          "en": "creation"
+        },
+        "id_ref": "nomen_schoepfung"
+      },
+      {
+        "wort": "kreativ",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خلاق",
+          "en": "creative"
+        },
+        "id_ref": "adjektiv_kreativ"
+      },
+      {
+        "wort": "die Kelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ملاقه",
+          "en": "ladle"
+        },
+        "id_ref": "nomen_kelle"
+      },
+      {
+        "wort": "der Schöpfer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آفریننده",
+          "en": "creator"
+        },
+        "id_ref": "nomen_schoepfer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

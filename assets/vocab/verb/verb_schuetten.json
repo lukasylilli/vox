@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_schuetten",
+  "wort": "schütten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ریختن (مایع، مواد)",
+      "شدید باریدن (باران)"
+    ],
+    "en": [
+      "to pour",
+      "to tip"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wetter"
+  ],
+  "ipa": "ˈʃʏtn̩",
+  "anmerkung": "Unpersönlich: «Es schüttet» = es regnet sehr stark.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie schüttet Wasser in das Glas.",
+      "uebersetzung": {
+        "fa": "او آب را در لیوان می‌ریزد.",
+        "en": "She pours water into the glass."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir blieben im Café, weil es draußen wie aus Eimern geschüttet hat.",
+      "uebersetzung": {
+        "fa": "در کافه ماندیم، چون بیرون باران سیل‌آسا می‌بارید.",
+        "en": "We stayed in the café because it was pouring with rain outside."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gießen",
+      "uebersetzung": {
+        "fa": "ریختن",
+        "en": "to pour"
+      }
+    },
+    {
+      "wort": "kippen",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to tip"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "schütten (ریختن) — فعل ساده",
+    "en": "schütten (to pour) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "schütten in + Akk / auf + Akk",
+        "bedeutung": "etwas irgendwohin gießen oder kippen",
+        "beispiel": "Er schüttet den Reis in den Topf.",
+        "uebersetzung": {
+          "fa": "او برنج را در قابلمه می‌ریزد.",
+          "en": "He tips the rice into the pot."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "schütten",
+      "praeteritum": "schüttete",
+      "partizip2": "geschüttet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "schütte",
+        "du": "schüttest",
+        "er_sie_es": "schüttet",
+        "wir": "schütten",
+        "ihr": "schüttet",
+        "sie_Sie": "schütten"
+      },
+      "praeteritum": {
+        "ich": "schüttete",
+        "du": "schüttetest",
+        "er_sie_es": "schüttete",
+        "wir": "schütteten",
+        "ihr": "schüttetet",
+        "sie_Sie": "schütteten"
+      },
+      "konjunktiv1": {
+        "ich": "schütte",
+        "du": "schüttest",
+        "er_sie_es": "schütte",
+        "wir": "schütten",
+        "ihr": "schüttet",
+        "sie_Sie": "schütten"
+      },
+      "konjunktiv2": {
+        "ich": "schüttete",
+        "du": "schüttetest",
+        "er_sie_es": "schüttete",
+        "wir": "schütteten",
+        "ihr": "schüttetet",
+        "sie_Sie": "schütteten"
+      },
+      "imperativ": {
+        "du": "Schütte!",
+        "ihr": "Schüttet!",
+        "Sie": "Schütten Sie!"
+      }
+    },
+    "partizip1": "schüttend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریختن، آب دادن",
+          "en": "to pour, to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "der Eimer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سطل",
+          "en": "bucket"
+        },
+        "id_ref": "nomen_eimer"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "verschütten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ریختن (ناخواسته)",
+          "en": "to spill"
+        },
+        "id_ref": "verb_verschuetten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
