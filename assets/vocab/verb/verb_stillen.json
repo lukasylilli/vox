@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_stillen",
+  "wort": "stillen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شیر دادن (به نوزاد)",
+      "بند آوردن (خون)",
+      "برطرف کردن (تشنگی، گرسنگی)"
+    ],
+    "en": [
+      "to breastfeed",
+      "to staunch",
+      "to quench"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃtɪlən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter stillt ihr Baby.",
+      "uebersetzung": {
+        "fa": "مادر به نوزادش شیر می‌دهد.",
+        "en": "The mother is breastfeeding her baby."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Sanitäter versuchte, die Blutung mit einem Verband zu stillen.",
+      "uebersetzung": {
+        "fa": "امدادگر سعی کرد خونریزی را با باند بند بیاورد.",
+        "en": "The paramedic tried to stop the bleeding with a bandage."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "säugen",
+      "uebersetzung": {
+        "fa": "شیر دادن",
+        "en": "to suckle"
+      }
+    },
+    {
+      "wort": "befriedigen",
+      "uebersetzung": {
+        "fa": "برآورده کردن",
+        "en": "to satisfy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Stillzeit",
+      "uebersetzung": {
+        "fa": "دوران شیردهی",
+        "en": "breastfeeding period"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از صفت still (آرام) — در اصل «آرام کردن»",
+    "en": "from the adjective still (quiet) — originally «to calm»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "den Durst / den Hunger stillen",
+        "bedeutung": "Durst oder Hunger befriedigen",
+        "beispiel": "Mit einem Glas Wasser stillte er seinen Durst.",
+        "uebersetzung": {
+          "fa": "با یک لیوان آب تشنگی‌اش را برطرف کرد.",
+          "en": "He quenched his thirst with a glass of water."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stillen",
+      "praeteritum": "stillte",
+      "partizip2": "gestillt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stille",
+        "du": "stillst",
+        "er_sie_es": "stillt",
+        "wir": "stillen",
+        "ihr": "stillt",
+        "sie_Sie": "stillen"
+      },
+      "praeteritum": {
+        "ich": "stillte",
+        "du": "stilltest",
+        "er_sie_es": "stillte",
+        "wir": "stillten",
+        "ihr": "stilltet",
+        "sie_Sie": "stillten"
+      },
+      "konjunktiv1": {
+        "ich": "stille",
+        "du": "stillest",
+        "er_sie_es": "stille",
+        "wir": "stillen",
+        "ihr": "stillet",
+        "sie_Sie": "stillen"
+      },
+      "konjunktiv2": {
+        "ich": "stillte",
+        "du": "stilltest",
+        "er_sie_es": "stillte",
+        "wir": "stillten",
+        "ihr": "stilltet",
+        "sie_Sie": "stillten"
+      },
+      "imperativ": {
+        "du": "Stille!",
+        "ihr": "Stillt!",
+        "Sie": "Stillen Sie!"
+      }
+    },
+    "partizip1": "stillend",
+    "nominalisierung": "das Stillen"
+  },
+  "wortnetz": {
+    "grundwort": "still",
+    "woerter": [
+      {
+        "wort": "die Mutter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مادر",
+          "en": "mother"
+        },
+        "id_ref": "nomen_mutter"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "die Muttermilch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شیر مادر",
+          "en": "breast milk"
+        },
+        "id_ref": "nomen_muttermilch"
+      },
+      {
+        "wort": "die Blutung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خونریزی",
+          "en": "bleeding"
+        },
+        "id_ref": "nomen_blutung"
+      },
+      {
+        "wort": "der Durst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تشنگی",
+          "en": "thirst"
+        },
+        "id_ref": "nomen_durst"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

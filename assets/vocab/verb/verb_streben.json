@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_streben",
+  "wort": "streben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تلاش کردن (برای رسیدن به)",
+      "آرزو داشتن",
+      "به سوی جایی رفتن"
+    ],
+    "en": [
+      "to strive",
+      "to aspire"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Ziele",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃtʁeːbn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er strebt nach Erfolg.",
+      "uebersetzung": {
+        "fa": "او برای موفقیت تلاش می‌کند.",
+        "en": "He strives for success."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Unternehmen strebt danach, bis 2030 klimaneutral zu produzieren.",
+      "uebersetzung": {
+        "fa": "شرکت در تلاش است تا سال ۲۰۳۰ بدون آسیب به اقلیم تولید کند.",
+        "en": "The company is striving to produce in a climate-neutral way by 2030."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstreben",
+      "uebersetzung": {
+        "fa": "هدف گرفتن",
+        "en": "to aim for"
+      }
+    },
+    {
+      "wort": "sich bemühen",
+      "uebersetzung": {
+        "fa": "تلاش کردن",
+        "en": "to endeavour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "streben (کوشیدن) — فعل ساده",
+    "en": "streben (to strive) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "streben nach + Dat",
+        "bedeutung": "sich bemühen, etwas zu erreichen",
+        "beispiel": "Alle Menschen streben nach Glück.",
+        "uebersetzung": {
+          "fa": "همه‌ی انسان‌ها در پی خوشبختی‌اند.",
+          "en": "All people strive for happiness."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "streben",
+      "praeteritum": "strebte",
+      "partizip2": "gestrebt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "strebe",
+        "du": "strebst",
+        "er_sie_es": "strebt",
+        "wir": "streben",
+        "ihr": "strebt",
+        "sie_Sie": "streben"
+      },
+      "praeteritum": {
+        "ich": "strebte",
+        "du": "strebtest",
+        "er_sie_es": "strebte",
+        "wir": "strebten",
+        "ihr": "strebtet",
+        "sie_Sie": "strebten"
+      },
+      "konjunktiv1": {
+        "ich": "strebe",
+        "du": "strebest",
+        "er_sie_es": "strebe",
+        "wir": "streben",
+        "ihr": "strebet",
+        "sie_Sie": "streben"
+      },
+      "konjunktiv2": {
+        "ich": "strebte",
+        "du": "strebtest",
+        "er_sie_es": "strebte",
+        "wir": "strebten",
+        "ihr": "strebtet",
+        "sie_Sie": "strebten"
+      },
+      "imperativ": {
+        "du": "Strebe!",
+        "ihr": "Strebt!",
+        "Sie": "Streben Sie!"
+      }
+    },
+    "partizip1": "strebend",
+    "nominalisierung": "das Streben"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ziel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هدف",
+          "en": "goal"
+        },
+        "id_ref": "nomen_ziel"
+      },
+      {
+        "wort": "anstreben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هدف گرفتن",
+          "en": "to aim for"
+        },
+        "id_ref": "verb_anstreben"
+      },
+      {
+        "wort": "ehrgeizig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جاه‌طلب",
+          "en": "ambitious"
+        },
+        "id_ref": "adjektiv_ehrgeizig"
+      },
+      {
+        "wort": "der Erfolg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موفقیت",
+          "en": "success"
+        },
+        "id_ref": "nomen_erfolg"
+      },
+      {
+        "wort": "erreichen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیدن به",
+          "en": "to reach"
+        },
+        "id_ref": "verb_erreichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

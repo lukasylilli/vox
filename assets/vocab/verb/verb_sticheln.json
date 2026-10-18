@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_sticheln",
+  "wort": "sticheln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متلک گفتن",
+      "نیش زدن (با حرف)"
+    ],
+    "en": [
+      "to make digs",
+      "to needle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Konflikt"
+  ],
+  "ipa": "ˈʃtɪçl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Schwester stichelt gern.",
+      "uebersetzung": {
+        "fa": "خواهرم دوست دارد متلک بگوید.",
+        "en": "My sister likes to make digs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit Wochen stichelt der Kollege gegen sie, weil sie befördert wurde.",
+      "uebersetzung": {
+        "fa": "همکارش هفته‌هاست به او نیش می‌زند، چون ترفیع گرفته است.",
+        "en": "The colleague has been making digs at her for weeks because she was promoted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spotten",
+      "uebersetzung": {
+        "fa": "مسخره کردن",
+        "en": "to mock"
+      }
+    },
+    {
+      "wort": "provozieren",
+      "uebersetzung": {
+        "fa": "تحریک کردن",
+        "en": "to provoke"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از stechen (نیش زدن)",
+    "en": "from stechen (to sting)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "sticheln gegen + Akk",
+        "bedeutung": "jemanden mit spitzen Bemerkungen ärgern",
+        "beispiel": "Er stichelt ständig gegen seinen Bruder.",
+        "uebersetzung": {
+          "fa": "او مدام به برادرش متلک می‌گوید.",
+          "en": "He keeps needling his brother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sticheln",
+      "praeteritum": "stichelte",
+      "partizip2": "gestichelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stichle",
+        "du": "stichelst",
+        "er_sie_es": "stichelt",
+        "wir": "sticheln",
+        "ihr": "stichelt",
+        "sie_Sie": "sticheln"
+      },
+      "praeteritum": {
+        "ich": "stichelte",
+        "du": "sticheltest",
+        "er_sie_es": "stichelte",
+        "wir": "stichelten",
+        "ihr": "sticheltet",
+        "sie_Sie": "stichelten"
+      },
+      "konjunktiv1": {
+        "ich": "stichle",
+        "du": "stichlest",
+        "er_sie_es": "stichle",
+        "wir": "sticheln",
+        "ihr": "stichlet",
+        "sie_Sie": "sticheln"
+      },
+      "konjunktiv2": {
+        "ich": "stichelte",
+        "du": "sticheltest",
+        "er_sie_es": "stichelte",
+        "wir": "stichelten",
+        "ihr": "sticheltet",
+        "sie_Sie": "stichelten"
+      },
+      "imperativ": {
+        "du": "Stichle!",
+        "ihr": "Stichelt!",
+        "Sie": "Sticheln Sie!"
+      }
+    },
+    "partizip1": "stichelnd",
+    "nominalisierung": "die Stichelei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Stichelei",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متلک",
+          "en": "dig"
+        },
+        "id_ref": "nomen_stichelei"
+      },
+      {
+        "wort": "stechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیش زدن",
+          "en": "to sting"
+        },
+        "id_ref": "verb_stechen"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "spotten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسخره کردن",
+          "en": "to mock"
+        },
+        "id_ref": "verb_spotten"
+      },
+      {
+        "wort": "die Bemerkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اظهار نظر",
+          "en": "remark"
+        },
+        "id_ref": "nomen_bemerkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

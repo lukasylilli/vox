@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_staenkern",
+  "wort": "stänkern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعوا راه انداختن",
+      "نق زدن و شر درست کردن"
+    ],
+    "en": [
+      "to stir up trouble",
+      "to grouse"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Konflikt",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃtɛŋkɐn",
+  "anmerkung": "Umgangssprachlich, abwertend.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stänkert immer im Büro.",
+      "uebersetzung": {
+        "fa": "او همیشه در دفتر شر درست می‌کند.",
+        "en": "He is always stirring up trouble in the office."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Statt konstruktive Vorschläge zu machen, stänkert die Opposition nur gegen jede Entscheidung.",
+      "uebersetzung": {
+        "fa": "مخالفان به‌جای پیشنهاد سازنده فقط علیه هر تصمیمی نق می‌زنند.",
+        "en": "Instead of making constructive suggestions, the opposition just carps at every decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "meckern",
+      "uebersetzung": {
+        "fa": "غر زدن",
+        "en": "to grumble"
+      }
+    },
+    {
+      "wort": "provozieren",
+      "uebersetzung": {
+        "fa": "تحریک کردن",
+        "en": "to provoke"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Gestank (بوی بد) — در اصل «بو پخش کردن»",
+    "en": "from der Gestank (stench) — originally «to spread a smell»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stänkern gegen + Akk",
+        "bedeutung": "gegen jemanden/etwas Streit suchen",
+        "beispiel": "Er stänkert ständig gegen den neuen Chef.",
+        "uebersetzung": {
+          "fa": "او مدام علیه رئیس جدید شر به پا می‌کند.",
+          "en": "He keeps stirring up trouble against the new boss."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stänkern",
+      "praeteritum": "stänkerte",
+      "partizip2": "gestänkert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stänkere",
+        "du": "stänkerst",
+        "er_sie_es": "stänkert",
+        "wir": "stänkern",
+        "ihr": "stänkert",
+        "sie_Sie": "stänkern"
+      },
+      "praeteritum": {
+        "ich": "stänkerte",
+        "du": "stänkertest",
+        "er_sie_es": "stänkerte",
+        "wir": "stänkerten",
+        "ihr": "stänkertet",
+        "sie_Sie": "stänkerten"
+      },
+      "konjunktiv1": {
+        "ich": "stänkere",
+        "du": "stänkerest",
+        "er_sie_es": "stänkere",
+        "wir": "stänkern",
+        "ihr": "stänkeret",
+        "sie_Sie": "stänkern"
+      },
+      "konjunktiv2": {
+        "ich": "stänkerte",
+        "du": "stänkertest",
+        "er_sie_es": "stänkerte",
+        "wir": "stänkerten",
+        "ihr": "stänkertet",
+        "sie_Sie": "stänkerten"
+      },
+      "imperativ": {
+        "du": "Stänkere!",
+        "ihr": "Stänkert!",
+        "Sie": "Stänkern Sie!"
+      }
+    },
+    "partizip1": "stänkernd",
+    "nominalisierung": "der Stänkerer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stänkerer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شرور، اهل دعوا",
+          "en": "troublemaker"
+        },
+        "id_ref": "nomen_staenkerer"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "meckern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غر زدن",
+          "en": "to grumble"
+        },
+        "id_ref": "verb_meckern"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "quarrel"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "provozieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحریک کردن",
+          "en": "to provoke"
+        },
+        "id_ref": "verb_provozieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

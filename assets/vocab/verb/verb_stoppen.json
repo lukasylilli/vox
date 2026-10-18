@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_stoppen",
+  "wort": "stoppen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متوقف کردن",
+      "ایستادن",
+      "زمان گرفتن (با کرونومتر)"
+    ],
+    "en": [
+      "to stop",
+      "to time"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Sport"
+  ],
+  "ipa": "ˈʃtɔpn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei stoppt das Auto.",
+      "uebersetzung": {
+        "fa": "پلیس ماشین را متوقف می‌کند.",
+        "en": "The police stop the car."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Trainer hat die Zeit gestoppt: Sie ist die hundert Meter in vierzehn Sekunden gelaufen.",
+      "uebersetzung": {
+        "fa": "مربی زمان گرفت: او صد متر را در چهارده ثانیه دوید.",
+        "en": "The coach timed her: she ran the hundred metres in fourteen seconds."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anhalten",
+      "uebersetzung": {
+        "fa": "نگه داشتن، ایستادن",
+        "en": "to stop"
+      }
+    },
+    {
+      "wort": "beenden",
+      "uebersetzung": {
+        "fa": "تمام کردن",
+        "en": "to end"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "starten",
+      "uebersetzung": {
+        "fa": "شروع کردن",
+        "en": "to start"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Stoppuhr",
+      "uebersetzung": {
+        "fa": "کرونومتر",
+        "en": "stopwatch"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از انگلیسی/آلمانی شمالی stoppen (بستن، متوقف کردن)",
+    "en": "from English/Low German stoppen (to stop)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stoppen",
+      "praeteritum": "stoppte",
+      "partizip2": "gestoppt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stoppe",
+        "du": "stoppst",
+        "er_sie_es": "stoppt",
+        "wir": "stoppen",
+        "ihr": "stoppt",
+        "sie_Sie": "stoppen"
+      },
+      "praeteritum": {
+        "ich": "stoppte",
+        "du": "stopptest",
+        "er_sie_es": "stoppte",
+        "wir": "stoppten",
+        "ihr": "stopptet",
+        "sie_Sie": "stoppten"
+      },
+      "konjunktiv1": {
+        "ich": "stoppe",
+        "du": "stoppest",
+        "er_sie_es": "stoppe",
+        "wir": "stoppen",
+        "ihr": "stoppet",
+        "sie_Sie": "stoppen"
+      },
+      "konjunktiv2": {
+        "ich": "stoppte",
+        "du": "stopptest",
+        "er_sie_es": "stoppte",
+        "wir": "stoppten",
+        "ihr": "stopptet",
+        "sie_Sie": "stoppten"
+      },
+      "imperativ": {
+        "du": "Stoppe!",
+        "ihr": "Stoppt!",
+        "Sie": "Stoppen Sie!"
+      }
+    },
+    "partizip1": "stoppend",
+    "nominalisierung": "der Stopp"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stopp",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توقف",
+          "en": "stop"
+        },
+        "id_ref": "nomen_stopp"
+      },
+      {
+        "wort": "anhalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_anhalten"
+      },
+      {
+        "wort": "starten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to start"
+        },
+        "id_ref": "verb_starten"
+      },
+      {
+        "wort": "die Stoppuhr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کرونومتر",
+          "en": "stopwatch"
+        },
+        "id_ref": "nomen_stoppuhr"
+      },
+      {
+        "wort": "bremsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترمز کردن",
+          "en": "to brake"
+        },
+        "id_ref": "verb_bremsen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

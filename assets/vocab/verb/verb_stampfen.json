@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_stampfen",
+  "wort": "stampfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پا کوبیدن",
+      "کوبیدن و له کردن",
+      "با قدم‌های سنگین رفتن"
+    ],
+    "en": [
+      "to stamp",
+      "to mash",
+      "to tramp"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Bewegung",
+    "Essen"
+  ],
+  "ipa": "ˈʃtampfn̩",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (er ist durch den Schnee gestampft).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind stampft wütend mit dem Fuß.",
+      "uebersetzung": {
+        "fa": "بچه با عصبانیت پایش را به زمین می‌کوبد.",
+        "en": "The child stamps its foot angrily."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für den Kartoffelbrei stampft man die gekochten Kartoffeln mit etwas Milch.",
+      "uebersetzung": {
+        "fa": "برای پوره، سیب‌زمینی‌های پخته را با کمی شیر له می‌کنند.",
+        "en": "For mashed potatoes you mash the boiled potatoes with a little milk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "treten",
+      "uebersetzung": {
+        "fa": "لگد زدن، پا گذاشتن",
+        "en": "to step"
+      }
+    },
+    {
+      "wort": "zerdrücken",
+      "uebersetzung": {
+        "fa": "له کردن",
+        "en": "to crush"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kartoffelstampfer",
+      "uebersetzung": {
+        "fa": "گوشت‌کوب سیب‌زمینی",
+        "en": "potato masher"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stampfen (کوبیدن) — فعل ساده",
+    "en": "stampfen (to pound) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stampfen",
+      "praeteritum": "stampfte",
+      "partizip2": "gestampft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stampfe",
+        "du": "stampfst",
+        "er_sie_es": "stampft",
+        "wir": "stampfen",
+        "ihr": "stampft",
+        "sie_Sie": "stampfen"
+      },
+      "praeteritum": {
+        "ich": "stampfte",
+        "du": "stampftest",
+        "er_sie_es": "stampfte",
+        "wir": "stampften",
+        "ihr": "stampftet",
+        "sie_Sie": "stampften"
+      },
+      "konjunktiv1": {
+        "ich": "stampfe",
+        "du": "stampfest",
+        "er_sie_es": "stampfe",
+        "wir": "stampfen",
+        "ihr": "stampfet",
+        "sie_Sie": "stampfen"
+      },
+      "konjunktiv2": {
+        "ich": "stampfte",
+        "du": "stampftest",
+        "er_sie_es": "stampfte",
+        "wir": "stampften",
+        "ihr": "stampftet",
+        "sie_Sie": "stampften"
+      },
+      "imperativ": {
+        "du": "Stampfe!",
+        "ihr": "Stampft!",
+        "Sie": "Stampfen Sie!"
+      }
+    },
+    "partizip1": "stampfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Fuß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پا",
+          "en": "foot"
+        },
+        "id_ref": "nomen_fuss"
+      },
+      {
+        "wort": "der Kartoffelbrei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوره‌ی سیب‌زمینی",
+          "en": "mashed potatoes"
+        },
+        "id_ref": "nomen_kartoffelbrei"
+      },
+      {
+        "wort": "treten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پا گذاشتن، لگد زدن",
+          "en": "to kick, to step"
+        },
+        "id_ref": "verb_treten"
+      },
+      {
+        "wort": "wütend",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی",
+          "en": "angry"
+        },
+        "id_ref": "adjektiv_wuetend"
+      },
+      {
+        "wort": "zerdrücken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "له کردن",
+          "en": "to crush"
+        },
+        "id_ref": "verb_zerdruecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

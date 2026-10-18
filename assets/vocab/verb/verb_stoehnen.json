@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_stoehnen",
+  "wort": "stöhnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ناله کردن",
+      "آه کشیدن",
+      "شکایت کردن"
+    ],
+    "en": [
+      "to groan",
+      "to moan"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃtøːnən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient stöhnt vor Schmerzen.",
+      "uebersetzung": {
+        "fa": "بیمار از درد ناله می‌کند.",
+        "en": "The patient is groaning with pain."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Alle Schüler stöhnten, als der Lehrer die vielen Hausaufgaben verteilte.",
+      "uebersetzung": {
+        "fa": "وقتی معلم آن‌همه تکلیف را پخش کرد، همه‌ی شاگردان آه کشیدند.",
+        "en": "All the pupils groaned when the teacher handed out so much homework."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ächzen",
+      "uebersetzung": {
+        "fa": "ناله کردن",
+        "en": "to groan"
+      }
+    },
+    {
+      "wort": "jammern",
+      "uebersetzung": {
+        "fa": "شکوه کردن",
+        "en": "to whine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "stöhnen (ناله کردن) — فعل ساده",
+    "en": "stöhnen (to groan) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stöhnen über + Akk",
+        "bedeutung": "sich über etwas beklagen",
+        "beispiel": "Viele stöhnen über die hohen Preise.",
+        "uebersetzung": {
+          "fa": "خیلی‌ها از قیمت‌های بالا می‌نالند.",
+          "en": "Many people moan about the high prices."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stöhnen",
+      "praeteritum": "stöhnte",
+      "partizip2": "gestöhnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stöhne",
+        "du": "stöhnst",
+        "er_sie_es": "stöhnt",
+        "wir": "stöhnen",
+        "ihr": "stöhnt",
+        "sie_Sie": "stöhnen"
+      },
+      "praeteritum": {
+        "ich": "stöhnte",
+        "du": "stöhntest",
+        "er_sie_es": "stöhnte",
+        "wir": "stöhnten",
+        "ihr": "stöhntet",
+        "sie_Sie": "stöhnten"
+      },
+      "konjunktiv1": {
+        "ich": "stöhne",
+        "du": "stöhnest",
+        "er_sie_es": "stöhne",
+        "wir": "stöhnen",
+        "ihr": "stöhnet",
+        "sie_Sie": "stöhnen"
+      },
+      "konjunktiv2": {
+        "ich": "stöhnte",
+        "du": "stöhntest",
+        "er_sie_es": "stöhnte",
+        "wir": "stöhnten",
+        "ihr": "stöhntet",
+        "sie_Sie": "stöhnten"
+      },
+      "imperativ": {
+        "du": "Stöhne!",
+        "ihr": "Stöhnt!",
+        "Sie": "Stöhnen Sie!"
+      }
+    },
+    "partizip1": "stöhnend",
+    "nominalisierung": "das Stöhnen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "jammern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکوه کردن",
+          "en": "to whine"
+        },
+        "id_ref": "verb_jammern"
+      },
+      {
+        "wort": "seufzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آه کشیدن",
+          "en": "to sigh"
+        },
+        "id_ref": "verb_seufzen"
+      },
+      {
+        "wort": "klagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_klagen"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

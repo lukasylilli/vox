@@ -1946,6 +1946,19 @@ const zurueckgestellt = <String>{
   'sputen', // zurückgestellt: veraltend, nur reflexiv — nicht sicher (Regel 14/17) 2026-10-18
   'stählen', // zurückgestellt: gehoben — nicht sicher (Regel 14) 2026-10-18
   'staksen', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-18
+  'statuieren', // zurückgestellt: fast nur in «ein Exempel statuieren» — nicht sicher (Regel 14) 2026-10-18
+  'stäuben', // zurückgestellt: selten, veraltend — nicht sicher (Regel 14) 2026-10-18
+  'stauchen', // zurückgestellt: mehrere Bedeutungen (Technik / umgangssprachlich «zurechtweisen»), selten — nicht sicher (Regel 14) 2026-10-18
+  'stäupen', // zurückgestellt: veraltet (Strafe) — nicht sicher (Regel 14) 2026-10-18
+  'stenographieren', // zurückgestellt: ältere Schreibung von «stenografieren» (wie photographieren) — nicht sicher (Regel 14) 2026-10-18
+  'steppen', // zurückgestellt: Homograph: «Stoff steppen» (nähen) / «Stepp tanzen» — wie lecken (Regel 14) 2026-10-18
+  'stieren', // zurückgestellt: selten, umgangssprachlich — nicht sicher (Regel 14) 2026-10-18
+  'stoppeln', // zurückgestellt: selten (Stoppeln, zusammenstoppeln) — nicht sicher (Regel 14) 2026-10-18
+  'stöpseln', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-18
+  'strudeln', // zurückgestellt: selten, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-18
+  'stückeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-18
+  'stümpern', // zurückgestellt: abwertend, selten — nicht sicher (Regel 14) 2026-10-18
+  'stutzen', // zurückgestellt: zwei Verben (kürzen / innehalten) — wie lecken (Regel 14) 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

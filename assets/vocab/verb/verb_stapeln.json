@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stapeln",
+  "wort": "stapeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "روی هم چیدن",
+      "انباشتن"
+    ],
+    "en": [
+      "to stack",
+      "to pile up"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Haushalt",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃtaːpl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich staple die Teller im Schrank.",
+      "uebersetzung": {
+        "fa": "بشقاب‌ها را توی کمد روی هم می‌چینم.",
+        "en": "I stack the plates in the cupboard."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Auf seinem Schreibtisch stapeln sich die unerledigten Akten.",
+      "uebersetzung": {
+        "fa": "روی میزش پرونده‌های انجام‌نشده روی هم تلنبار شده‌اند.",
+        "en": "Unfinished files are piling up on his desk."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufschichten",
+      "uebersetzung": {
+        "fa": "لایه‌لایه چیدن",
+        "en": "to pile up"
+      }
+    },
+    {
+      "wort": "häufen",
+      "uebersetzung": {
+        "fa": "انباشتن",
+        "en": "to heap"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Stapel",
+      "uebersetzung": {
+        "fa": "دسته، توده",
+        "en": "pile"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Stapel (توده، دسته)",
+    "en": "from der Stapel (pile)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stapeln",
+      "praeteritum": "stapelte",
+      "partizip2": "gestapelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "staple",
+        "du": "stapelst",
+        "er_sie_es": "stapelt",
+        "wir": "stapeln",
+        "ihr": "stapelt",
+        "sie_Sie": "stapeln"
+      },
+      "praeteritum": {
+        "ich": "stapelte",
+        "du": "stapeltest",
+        "er_sie_es": "stapelte",
+        "wir": "stapelten",
+        "ihr": "stapeltet",
+        "sie_Sie": "stapelten"
+      },
+      "konjunktiv1": {
+        "ich": "staple",
+        "du": "staplest",
+        "er_sie_es": "staple",
+        "wir": "stapeln",
+        "ihr": "staplet",
+        "sie_Sie": "stapeln"
+      },
+      "konjunktiv2": {
+        "ich": "stapelte",
+        "du": "stapeltest",
+        "er_sie_es": "stapelte",
+        "wir": "stapelten",
+        "ihr": "stapeltet",
+        "sie_Sie": "stapelten"
+      },
+      "imperativ": {
+        "du": "Staple!",
+        "ihr": "Stapelt!",
+        "Sie": "Stapeln Sie!"
+      }
+    },
+    "partizip1": "stapelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Stapel",
+    "woerter": [
+      {
+        "wort": "der Stapel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "توده، دسته",
+          "en": "pile"
+        },
+        "id_ref": "nomen_stapel"
+      },
+      {
+        "wort": "die Kiste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جعبه",
+          "en": "box"
+        },
+        "id_ref": "nomen_kiste"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      },
+      {
+        "wort": "der Gabelstapler",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لیفتراک",
+          "en": "forklift"
+        },
+        "id_ref": "nomen_gabelstapler"
+      },
+      {
+        "wort": "häufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انباشتن",
+          "en": "to heap"
+        },
+        "id_ref": "verb_haeufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

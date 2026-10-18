@@ -1,0 +1,201 @@
+{
+  "schema": "3.0",
+  "id": "verb_strecken",
+  "wort": "strecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دراز کردن",
+      "کشیدن (بدن)",
+      "رقیق کردن (غذا، دارو)"
+    ],
+    "en": [
+      "to stretch",
+      "to extend",
+      "to dilute"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Sport"
+  ],
+  "ipa": "ˈʃtʁɛkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich strecke die Arme nach oben.",
+      "uebersetzung": {
+        "fa": "دست‌هایم را به بالا دراز می‌کنم.",
+        "en": "I stretch my arms upwards."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem langen Sitzen hat sie sich gründlich gestreckt.",
+      "uebersetzung": {
+        "fa": "بعد از نشستن طولانی، حسابی بدنش را کش داد.",
+        "en": "After sitting for a long time she had a good stretch."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dehnen",
+      "uebersetzung": {
+        "fa": "کشش دادن",
+        "en": "to stretch"
+      }
+    },
+    {
+      "wort": "ausstrecken",
+      "uebersetzung": {
+        "fa": "دراز کردن",
+        "en": "to reach out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "beugen",
+      "uebersetzung": {
+        "fa": "خم کردن",
+        "en": "to bend"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت قدیمی strack (صاف، راست)",
+    "en": "from the old adjective strack (straight)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich strecken",
+        "bedeutung": "den Körper dehnen",
+        "beispiel": "Die Katze streckt sich in der Sonne.",
+        "uebersetzung": {
+          "fa": "گربه زیر آفتاب بدنش را کش می‌دهد.",
+          "en": "The cat stretches in the sun."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "strecken",
+      "praeteritum": "streckte",
+      "partizip2": "gestreckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "strecke",
+        "du": "streckst",
+        "er_sie_es": "streckt",
+        "wir": "strecken",
+        "ihr": "streckt",
+        "sie_Sie": "strecken"
+      },
+      "praeteritum": {
+        "ich": "streckte",
+        "du": "strecktest",
+        "er_sie_es": "streckte",
+        "wir": "streckten",
+        "ihr": "strecktet",
+        "sie_Sie": "streckten"
+      },
+      "konjunktiv1": {
+        "ich": "strecke",
+        "du": "streckest",
+        "er_sie_es": "strecke",
+        "wir": "strecken",
+        "ihr": "strecket",
+        "sie_Sie": "strecken"
+      },
+      "konjunktiv2": {
+        "ich": "streckte",
+        "du": "strecktest",
+        "er_sie_es": "streckte",
+        "wir": "streckten",
+        "ihr": "strecktet",
+        "sie_Sie": "streckten"
+      },
+      "imperativ": {
+        "du": "Strecke!",
+        "ihr": "Streckt!",
+        "Sie": "Strecken Sie!"
+      }
+    },
+    "partizip1": "streckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Strecke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسافت، مسیر",
+          "en": "distance, route"
+        },
+        "id_ref": "nomen_strecke"
+      },
+      {
+        "wort": "dehnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشش دادن",
+          "en": "to stretch"
+        },
+        "id_ref": "verb_dehnen"
+      },
+      {
+        "wort": "der Arm",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازو",
+          "en": "arm"
+        },
+        "id_ref": "nomen_arm"
+      },
+      {
+        "wort": "beugen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_beugen"
+      },
+      {
+        "wort": "melden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خبر دادن؛ دست بلند کردن (در کلاس)",
+          "en": "to report; to put one's hand up"
+        },
+        "id_ref": "verb_melden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

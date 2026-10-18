@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_stimmen",
+  "wort": "stimmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "درست بودن",
+      "رأی دادن",
+      "کوک کردن (ساز)",
+      "حال‌وهوا ایجاد کردن"
+    ],
+    "en": [
+      "to be right",
+      "to vote",
+      "to tune",
+      "to make (sb.) feel"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Politik",
+    "Musik"
+  ],
+  "ipa": "ˈʃtɪmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das stimmt nicht!",
+      "uebersetzung": {
+        "fa": "این درست نیست!",
+        "en": "That's not true!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Mehrheit der Abgeordneten hat für das neue Gesetz gestimmt.",
+      "uebersetzung": {
+        "fa": "اکثریت نمایندگان به قانون جدید رأی مثبت دادند.",
+        "en": "The majority of the members of parliament voted for the new law."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zutreffen",
+      "uebersetzung": {
+        "fa": "صدق کردن",
+        "en": "to apply"
+      }
+    },
+    {
+      "wort": "wählen",
+      "uebersetzung": {
+        "fa": "رأی دادن",
+        "en": "to vote"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Stimme (صدا، رأی)",
+    "en": "from die Stimme (voice, vote)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stimmen für/gegen + Akk",
+        "bedeutung": "bei einer Wahl seine Stimme geben",
+        "beispiel": "Ich stimme gegen den Vorschlag.",
+        "uebersetzung": {
+          "fa": "من به این پیشنهاد رأی منفی می‌دهم.",
+          "en": "I vote against the proposal."
+        }
+      },
+      {
+        "muster": "jemanden traurig/froh stimmen",
+        "bedeutung": "in eine Stimmung versetzen",
+        "beispiel": "Die Nachricht stimmte uns traurig.",
+        "uebersetzung": {
+          "fa": "این خبر ما را غمگین کرد.",
+          "en": "The news made us sad."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stimmen",
+      "praeteritum": "stimmte",
+      "partizip2": "gestimmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stimme",
+        "du": "stimmst",
+        "er_sie_es": "stimmt",
+        "wir": "stimmen",
+        "ihr": "stimmt",
+        "sie_Sie": "stimmen"
+      },
+      "praeteritum": {
+        "ich": "stimmte",
+        "du": "stimmtest",
+        "er_sie_es": "stimmte",
+        "wir": "stimmten",
+        "ihr": "stimmtet",
+        "sie_Sie": "stimmten"
+      },
+      "konjunktiv1": {
+        "ich": "stimme",
+        "du": "stimmest",
+        "er_sie_es": "stimme",
+        "wir": "stimmen",
+        "ihr": "stimmet",
+        "sie_Sie": "stimmen"
+      },
+      "konjunktiv2": {
+        "ich": "stimmte",
+        "du": "stimmtest",
+        "er_sie_es": "stimmte",
+        "wir": "stimmten",
+        "ihr": "stimmtet",
+        "sie_Sie": "stimmten"
+      },
+      "imperativ": {
+        "du": "Stimme!",
+        "ihr": "Stimmt!",
+        "Sie": "Stimmen Sie!"
+      }
+    },
+    "partizip1": "stimmend",
+    "nominalisierung": "die Abstimmung"
+  },
+  "wortnetz": {
+    "grundwort": "Stimme",
+    "woerter": [
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا، رأی",
+          "en": "voice, vote"
+        },
+        "id_ref": "nomen_stimme"
+      },
+      {
+        "wort": "die Stimmung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حال‌وهوا",
+          "en": "mood"
+        },
+        "id_ref": "nomen_stimmung"
+      },
+      {
+        "wort": "richtig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درست",
+          "en": "right"
+        },
+        "id_ref": "adjektiv_richtig"
+      },
+      {
+        "wort": "abstimmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رأی‌گیری کردن",
+          "en": "to vote"
+        },
+        "id_ref": "verb_abstimmen"
+      },
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

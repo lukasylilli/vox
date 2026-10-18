@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_stuetzen",
+  "wort": "stützen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکیه‌گاه شدن",
+      "نگه داشتن",
+      "پشتیبانی کردن",
+      "تکیه کردن (بازتابی)"
+    ],
+    "en": [
+      "to support",
+      "to prop up",
+      "to lean (reflexive)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈʃtʏt͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegerin stützt den alten Mann beim Gehen.",
+      "uebersetzung": {
+        "fa": "پرستار هنگام راه رفتن زیر بغل پیرمرد را می‌گیرد.",
+        "en": "The carer supports the old man while he walks."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seine Theorie stützt sich auf zahlreiche Studien.",
+      "uebersetzung": {
+        "fa": "نظریه‌ی او بر پژوهش‌های بسیاری تکیه دارد.",
+        "en": "His theory is based on numerous studies."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "halten",
+      "uebersetzung": {
+        "fa": "نگه داشتن",
+        "en": "to hold"
+      }
+    },
+    {
+      "wort": "unterstützen",
+      "uebersetzung": {
+        "fa": "حمایت کردن",
+        "en": "to support"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Stütze",
+      "uebersetzung": {
+        "fa": "تکیه‌گاه",
+        "en": "support"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از die Stütze (تکیه‌گاه)",
+    "en": "from die Stütze (support)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk stützen",
+        "bedeutung": "sich auf etwas lehnen; auf etwas beruhen",
+        "beispiel": "Er stützte sich auf seinen Stock.",
+        "uebersetzung": {
+          "fa": "او به عصایش تکیه داد.",
+          "en": "He leaned on his stick."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stützen",
+      "praeteritum": "stützte",
+      "partizip2": "gestützt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stütze",
+        "du": "stützt",
+        "er_sie_es": "stützt",
+        "wir": "stützen",
+        "ihr": "stützt",
+        "sie_Sie": "stützen"
+      },
+      "praeteritum": {
+        "ich": "stützte",
+        "du": "stütztest",
+        "er_sie_es": "stützte",
+        "wir": "stützten",
+        "ihr": "stütztet",
+        "sie_Sie": "stützten"
+      },
+      "konjunktiv1": {
+        "ich": "stütze",
+        "du": "stützest",
+        "er_sie_es": "stütze",
+        "wir": "stützen",
+        "ihr": "stützet",
+        "sie_Sie": "stützen"
+      },
+      "konjunktiv2": {
+        "ich": "stützte",
+        "du": "stütztest",
+        "er_sie_es": "stützte",
+        "wir": "stützten",
+        "ihr": "stütztet",
+        "sie_Sie": "stützten"
+      },
+      "imperativ": {
+        "du": "Stütze!",
+        "ihr": "Stützt!",
+        "Sie": "Stützen Sie!"
+      }
+    },
+    "partizip1": "stützend",
+    "nominalisierung": "die Stütze"
+  },
+  "wortnetz": {
+    "grundwort": "Stütze",
+    "woerter": [
+      {
+        "wort": "die Stütze",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تکیه‌گاه",
+          "en": "support"
+        },
+        "id_ref": "nomen_stuetze"
+      },
+      {
+        "wort": "unterstützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمایت کردن",
+          "en": "to support"
+        },
+        "id_ref": "verb_unterstuetzen"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگه داشتن",
+          "en": "to hold"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "lehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تکیه دادن",
+          "en": "to lean"
+        },
+        "id_ref": "verb_lehnen"
+      },
+      {
+        "wort": "der Rollator",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واکر",
+          "en": "walking frame"
+        },
+        "id_ref": "nomen_rollator"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_strafen",
+  "wort": "strafen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مجازات کردن",
+      "تنبیه کردن"
+    ],
+    "en": [
+      "to punish"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Erziehung"
+  ],
+  "ipa": "ˈʃtʁaːfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Eltern strafen das Kind nicht.",
+      "uebersetzung": {
+        "fa": "پدر و مادر بچه را تنبیه نمی‌کنند.",
+        "en": "The parents do not punish the child."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie strafte ihn mit Schweigen, weil er ihren Geburtstag vergessen hatte.",
+      "uebersetzung": {
+        "fa": "او با سکوتش تنبیهش کرد، چون تولدش را فراموش کرده بود.",
+        "en": "She punished him with silence because he had forgotten her birthday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestrafen",
+      "uebersetzung": {
+        "fa": "مجازات کردن",
+        "en": "to punish"
+      }
+    },
+    {
+      "wort": "ahnden",
+      "uebersetzung": {
+        "fa": "کیفر دادن",
+        "en": "to penalize"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "belohnen",
+      "uebersetzung": {
+        "fa": "پاداش دادن",
+        "en": "to reward"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Strafe (مجازات)",
+    "en": "from die Strafe (punishment)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden mit + Dat strafen",
+        "bedeutung": "jemanden durch etwas bestrafen",
+        "beispiel": "Man strafte ihn mit Verachtung.",
+        "uebersetzung": {
+          "fa": "با بی‌اعتنایی مجازاتش کردند.",
+          "en": "He was punished with contempt."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "strafen",
+      "praeteritum": "strafte",
+      "partizip2": "gestraft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "strafe",
+        "du": "strafst",
+        "er_sie_es": "straft",
+        "wir": "strafen",
+        "ihr": "straft",
+        "sie_Sie": "strafen"
+      },
+      "praeteritum": {
+        "ich": "strafte",
+        "du": "straftest",
+        "er_sie_es": "strafte",
+        "wir": "straften",
+        "ihr": "straftet",
+        "sie_Sie": "straften"
+      },
+      "konjunktiv1": {
+        "ich": "strafe",
+        "du": "strafest",
+        "er_sie_es": "strafe",
+        "wir": "strafen",
+        "ihr": "strafet",
+        "sie_Sie": "strafen"
+      },
+      "konjunktiv2": {
+        "ich": "strafte",
+        "du": "straftest",
+        "er_sie_es": "strafte",
+        "wir": "straften",
+        "ihr": "straftet",
+        "sie_Sie": "straften"
+      },
+      "imperativ": {
+        "du": "Strafe!",
+        "ihr": "Straft!",
+        "Sie": "Strafen Sie!"
+      }
+    },
+    "partizip1": "strafend",
+    "nominalisierung": "die Strafe"
+  },
+  "wortnetz": {
+    "grundwort": "Strafe",
+    "woerter": [
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مجازات، جریمه",
+          "en": "punishment, fine"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "bestrafen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجازات کردن",
+          "en": "to punish"
+        },
+        "id_ref": "verb_bestrafen"
+      },
+      {
+        "wort": "belohnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاداش دادن",
+          "en": "to reward"
+        },
+        "id_ref": "verb_belohnen"
+      },
+      {
+        "wort": "strafbar",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قابل مجازات",
+          "en": "punishable"
+        },
+        "id_ref": "adjektiv_strafbar"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "guilt"
+        },
+        "id_ref": "nomen_schuld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

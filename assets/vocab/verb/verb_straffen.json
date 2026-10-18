@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_straffen",
+  "wort": "straffen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سفت کردن",
+      "کشیدن (طناب)",
+      "فشرده‌تر کردن (متن، برنامه)"
+    ],
+    "en": [
+      "to tighten",
+      "to tauten",
+      "to streamline"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Arbeit"
+  ],
+  "ipa": "ˈʃtʁafn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er strafft das Seil.",
+      "uebersetzung": {
+        "fa": "او طناب را محکم می‌کشد.",
+        "en": "He tightens the rope."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Text ist zu lang; wir müssen ihn straffen und unwichtige Details streichen.",
+      "uebersetzung": {
+        "fa": "متن خیلی طولانی است؛ باید فشرده‌ترش کنیم و جزئیات کم‌اهمیت را حذف کنیم.",
+        "en": "The text is too long; we need to tighten it up and cut unimportant details."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "spannen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to tighten"
+      }
+    },
+    {
+      "wort": "kürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lockern",
+      "uebersetzung": {
+        "fa": "شل کردن",
+        "en": "to loosen"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت straff (سفت، کشیده)",
+    "en": "from the adjective straff (taut)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "straffen",
+      "praeteritum": "straffte",
+      "partizip2": "gestrafft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "straffe",
+        "du": "straffst",
+        "er_sie_es": "strafft",
+        "wir": "straffen",
+        "ihr": "strafft",
+        "sie_Sie": "straffen"
+      },
+      "praeteritum": {
+        "ich": "straffte",
+        "du": "strafftest",
+        "er_sie_es": "straffte",
+        "wir": "strafften",
+        "ihr": "strafftet",
+        "sie_Sie": "strafften"
+      },
+      "konjunktiv1": {
+        "ich": "straffe",
+        "du": "straffest",
+        "er_sie_es": "straffe",
+        "wir": "straffen",
+        "ihr": "straffet",
+        "sie_Sie": "straffen"
+      },
+      "konjunktiv2": {
+        "ich": "straffte",
+        "du": "strafftest",
+        "er_sie_es": "straffte",
+        "wir": "strafften",
+        "ihr": "strafftet",
+        "sie_Sie": "strafften"
+      },
+      "imperativ": {
+        "du": "Straffe!",
+        "ihr": "Strafft!",
+        "Sie": "Straffen Sie!"
+      }
+    },
+    "partizip1": "straffend",
+    "nominalisierung": "die Straffung"
+  },
+  "wortnetz": {
+    "grundwort": "straff",
+    "woerter": [
+      {
+        "wort": "straff",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سفت، فشرده",
+          "en": "taut, tight"
+        },
+        "id_ref": "adjektiv_straff"
+      },
+      {
+        "wort": "spannen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to stretch"
+        },
+        "id_ref": "verb_spannen"
+      },
+      {
+        "wort": "lockern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شل کردن",
+          "en": "to loosen"
+        },
+        "id_ref": "verb_lockern"
+      },
+      {
+        "wort": "kürzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کوتاه کردن",
+          "en": "to shorten"
+        },
+        "id_ref": "verb_kuerzen"
+      },
+      {
+        "wort": "das Seil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طناب",
+          "en": "rope"
+        },
+        "id_ref": "nomen_seil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

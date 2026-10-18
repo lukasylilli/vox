@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_stammen",
+  "wort": "stammen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اهل جایی بودن",
+      "سرچشمه گرفتن",
+      "مربوط بودن به (زمانی)"
+    ],
+    "en": [
+      "to come from",
+      "to originate",
+      "to date from"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Herkunft",
+    "Geschichte"
+  ],
+  "ipa": "ˈʃtamən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Eltern stammen aus dem Iran.",
+      "uebersetzung": {
+        "fa": "پدر و مادرم اهل ایران‌اند.",
+        "en": "My parents come from Iran."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kirche stammt aus dem 12. Jahrhundert.",
+      "uebersetzung": {
+        "fa": "این کلیسا مربوط به قرن دوازدهم است.",
+        "en": "The church dates from the 12th century."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kommen",
+      "uebersetzung": {
+        "fa": "آمدن، اهل جایی بودن",
+        "en": "to come"
+      }
+    },
+    {
+      "wort": "herkommen",
+      "uebersetzung": {
+        "fa": "از جایی آمدن",
+        "en": "to come from"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Stammbaum",
+      "uebersetzung": {
+        "fa": "شجره‌نامه",
+        "en": "family tree"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Stamm (تنه، تبار)",
+    "en": "from der Stamm (trunk, lineage)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stammen aus + Dat",
+        "bedeutung": "seine Herkunft an einem Ort / in einer Zeit haben",
+        "beispiel": "Das Zitat stammt aus einem alten Buch.",
+        "uebersetzung": {
+          "fa": "این نقل‌قول از یک کتاب قدیمی است.",
+          "en": "The quotation comes from an old book."
+        }
+      },
+      {
+        "muster": "stammen von + Dat",
+        "bedeutung": "von jemandem herrühren",
+        "beispiel": "Die Idee stammt von meiner Schwester.",
+        "uebersetzung": {
+          "fa": "این ایده از خواهرم است.",
+          "en": "The idea comes from my sister."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stammen",
+      "praeteritum": "stammte",
+      "partizip2": "gestammt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stamme",
+        "du": "stammst",
+        "er_sie_es": "stammt",
+        "wir": "stammen",
+        "ihr": "stammt",
+        "sie_Sie": "stammen"
+      },
+      "praeteritum": {
+        "ich": "stammte",
+        "du": "stammtest",
+        "er_sie_es": "stammte",
+        "wir": "stammten",
+        "ihr": "stammtet",
+        "sie_Sie": "stammten"
+      },
+      "konjunktiv1": {
+        "ich": "stamme",
+        "du": "stammest",
+        "er_sie_es": "stamme",
+        "wir": "stammen",
+        "ihr": "stammet",
+        "sie_Sie": "stammen"
+      },
+      "konjunktiv2": {
+        "ich": "stammte",
+        "du": "stammtest",
+        "er_sie_es": "stammte",
+        "wir": "stammten",
+        "ihr": "stammtet",
+        "sie_Sie": "stammten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "stammend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Stamm",
+    "woerter": [
+      {
+        "wort": "der Stamm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تنه، قبیله",
+          "en": "trunk, tribe"
+        },
+        "id_ref": "nomen_stamm"
+      },
+      {
+        "wort": "die Herkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اصل و نسب",
+          "en": "origin"
+        },
+        "id_ref": "nomen_herkunft"
+      },
+      {
+        "wort": "kommen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آمدن",
+          "en": "to come"
+        },
+        "id_ref": "verb_kommen"
+      },
+      {
+        "wort": "die Abstammung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبار",
+          "en": "descent"
+        },
+        "id_ref": "nomen_abstammung"
+      },
+      {
+        "wort": "das Jahrhundert",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرن",
+          "en": "century"
+        },
+        "id_ref": "nomen_jahrhundert"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_straeuben",
+  "wort": "sträuben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سیخ کردن (مو، پر)",
+      "سرپیچی کردن (بازتابی)"
+    ],
+    "en": [
+      "to ruffle",
+      "to bristle",
+      "to resist (reflexive)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Tiere"
+  ],
+  "ipa": "ˈʃtʁɔɪ̯bn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Katze sträubt das Fell.",
+      "uebersetzung": {
+        "fa": "گربه موهایش را سیخ می‌کند.",
+        "en": "The cat bristles its fur."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Lange hat er sich dagegen gesträubt, eine Brille zu tragen.",
+      "uebersetzung": {
+        "fa": "مدت‌ها در برابر عینک زدن مقاومت می‌کرد.",
+        "en": "For a long time he resisted wearing glasses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich wehren",
+      "uebersetzung": {
+        "fa": "مقاومت کردن",
+        "en": "to resist"
+      }
+    },
+    {
+      "wort": "sich weigern",
+      "uebersetzung": {
+        "fa": "سر باز زدن",
+        "en": "to refuse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sträuben (سیخ کردن) — فعل ساده",
+    "en": "sträuben (to bristle) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich gegen + Akk sträuben",
+        "bedeutung": "sich gegen etwas wehren",
+        "beispiel": "Das Kind sträubt sich gegen das Baden.",
+        "uebersetzung": {
+          "fa": "بچه با حمام کردن مخالفت می‌کند.",
+          "en": "The child resists having a bath."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "sträuben",
+      "praeteritum": "sträubte",
+      "partizip2": "gesträubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "sträube",
+        "du": "sträubst",
+        "er_sie_es": "sträubt",
+        "wir": "sträuben",
+        "ihr": "sträubt",
+        "sie_Sie": "sträuben"
+      },
+      "praeteritum": {
+        "ich": "sträubte",
+        "du": "sträubtest",
+        "er_sie_es": "sträubte",
+        "wir": "sträubten",
+        "ihr": "sträubtet",
+        "sie_Sie": "sträubten"
+      },
+      "konjunktiv1": {
+        "ich": "sträube",
+        "du": "sträubest",
+        "er_sie_es": "sträube",
+        "wir": "sträuben",
+        "ihr": "sträubet",
+        "sie_Sie": "sträuben"
+      },
+      "konjunktiv2": {
+        "ich": "sträubte",
+        "du": "sträubtest",
+        "er_sie_es": "sträubte",
+        "wir": "sträubten",
+        "ihr": "sträubtet",
+        "sie_Sie": "sträubten"
+      },
+      "imperativ": {
+        "du": "Sträube!",
+        "ihr": "Sträubt!",
+        "Sie": "Sträuben Sie!"
+      }
+    },
+    "partizip1": "sträubend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_wehren"
+      },
+      {
+        "wort": "weigern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سر باز زدن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_weigern"
+      },
+      {
+        "wort": "das Fell",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوست و موی حیوان",
+          "en": "fur"
+        },
+        "id_ref": "nomen_fell"
+      },
+      {
+        "wort": "die Haare",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "موها",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haare"
+      },
+      {
+        "wort": "der Widerstand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقاومت",
+          "en": "resistance"
+        },
+        "id_ref": "nomen_widerstand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_starren",
+  "wort": "starren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خیره شدن",
+      "زل زدن"
+    ],
+    "en": [
+      "to stare"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wahrnehmung"
+  ],
+  "ipa": "ˈʃtaʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Warum starrst du so auf dein Handy?",
+      "uebersetzung": {
+        "fa": "چرا این‌طور به گوشی‌ات زل زده‌ای؟",
+        "en": "Why are you staring at your phone like that?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er starrte stundenlang auf den Bildschirm, ohne etwas zu schreiben.",
+      "uebersetzung": {
+        "fa": "او ساعت‌ها به صفحه‌ی نمایش خیره ماند بی‌آن‌که چیزی بنویسد.",
+        "en": "He stared at the screen for hours without writing anything."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "glotzen",
+      "uebersetzung": {
+        "fa": "زل زدن (محاوره‌ای)",
+        "en": "to gawp"
+      }
+    },
+    {
+      "wort": "blicken",
+      "uebersetzung": {
+        "fa": "نگاه کردن",
+        "en": "to look"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت starr (خشک، بی‌حرکت)",
+    "en": "from the adjective starr (rigid)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "starren auf + Akk",
+        "bedeutung": "unbeweglich auf etwas blicken",
+        "beispiel": "Alle starrten auf die Tür.",
+        "uebersetzung": {
+          "fa": "همه به در خیره شدند.",
+          "en": "Everyone stared at the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "starren",
+      "praeteritum": "starrte",
+      "partizip2": "gestarrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "starre",
+        "du": "starrst",
+        "er_sie_es": "starrt",
+        "wir": "starren",
+        "ihr": "starrt",
+        "sie_Sie": "starren"
+      },
+      "praeteritum": {
+        "ich": "starrte",
+        "du": "starrtest",
+        "er_sie_es": "starrte",
+        "wir": "starrten",
+        "ihr": "starrtet",
+        "sie_Sie": "starrten"
+      },
+      "konjunktiv1": {
+        "ich": "starre",
+        "du": "starrest",
+        "er_sie_es": "starre",
+        "wir": "starren",
+        "ihr": "starret",
+        "sie_Sie": "starren"
+      },
+      "konjunktiv2": {
+        "ich": "starrte",
+        "du": "starrtest",
+        "er_sie_es": "starrte",
+        "wir": "starrten",
+        "ihr": "starrtet",
+        "sie_Sie": "starrten"
+      },
+      "imperativ": {
+        "du": "Starre!",
+        "ihr": "Starrt!",
+        "Sie": "Starren Sie!"
+      }
+    },
+    "partizip1": "starrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "starr",
+    "woerter": [
+      {
+        "wort": "starr",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بی‌حرکت، خشک",
+          "en": "rigid"
+        },
+        "id_ref": "adjektiv_starr"
+      },
+      {
+        "wort": "anstarren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زل زدن به",
+          "en": "to stare at"
+        },
+        "id_ref": "verb_anstarren"
+      },
+      {
+        "wort": "schauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نگاه کردن",
+          "en": "to look"
+        },
+        "id_ref": "verb_schauen"
+      },
+      {
+        "wort": "der Blick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نگاه",
+          "en": "look"
+        },
+        "id_ref": "nomen_blick"
+      },
+      {
+        "wort": "das Auge",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چشم",
+          "en": "eye"
+        },
+        "id_ref": "nomen_auge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

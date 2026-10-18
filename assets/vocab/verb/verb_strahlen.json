@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_strahlen",
+  "wort": "strahlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تابیدن",
+      "درخشیدن",
+      "از شادی برق زدن",
+      "تشعشع داشتن"
+    ],
+    "en": [
+      "to shine",
+      "to beam",
+      "to radiate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Natur",
+    "Gefühle",
+    "Physik"
+  ],
+  "ipa": "ˈʃtʁaːlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Sonne strahlt.",
+      "uebersetzung": {
+        "fa": "خورشید می‌تابد.",
+        "en": "The sun is shining."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Als sie das Geschenk sah, strahlte sie vor Freude.",
+      "uebersetzung": {
+        "fa": "وقتی هدیه را دید، از خوشحالی برق زد.",
+        "en": "When she saw the present, she beamed with joy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leuchten",
+      "uebersetzung": {
+        "fa": "نور دادن",
+        "en": "to shine"
+      }
+    },
+    {
+      "wort": "glänzen",
+      "uebersetzung": {
+        "fa": "برق زدن",
+        "en": "to gleam"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Strahlung",
+      "uebersetzung": {
+        "fa": "تابش، تشعشع",
+        "en": "radiation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Strahl (پرتو)",
+    "en": "from der Strahl (ray)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "strahlen vor + Dat",
+        "bedeutung": "wegen eines Gefühls glücklich aussehen",
+        "beispiel": "Das Kind strahlt vor Glück.",
+        "uebersetzung": {
+          "fa": "بچه از خوشبختی می‌درخشد.",
+          "en": "The child is beaming with happiness."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "strahlen",
+      "praeteritum": "strahlte",
+      "partizip2": "gestrahlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "strahle",
+        "du": "strahlst",
+        "er_sie_es": "strahlt",
+        "wir": "strahlen",
+        "ihr": "strahlt",
+        "sie_Sie": "strahlen"
+      },
+      "praeteritum": {
+        "ich": "strahlte",
+        "du": "strahltest",
+        "er_sie_es": "strahlte",
+        "wir": "strahlten",
+        "ihr": "strahltet",
+        "sie_Sie": "strahlten"
+      },
+      "konjunktiv1": {
+        "ich": "strahle",
+        "du": "strahlest",
+        "er_sie_es": "strahle",
+        "wir": "strahlen",
+        "ihr": "strahlet",
+        "sie_Sie": "strahlen"
+      },
+      "konjunktiv2": {
+        "ich": "strahlte",
+        "du": "strahltest",
+        "er_sie_es": "strahlte",
+        "wir": "strahlten",
+        "ihr": "strahltet",
+        "sie_Sie": "strahlten"
+      },
+      "imperativ": {
+        "du": "Strahle!",
+        "ihr": "Strahlt!",
+        "Sie": "Strahlen Sie!"
+      }
+    },
+    "partizip1": "strahlend",
+    "nominalisierung": "die Strahlung"
+  },
+  "wortnetz": {
+    "grundwort": "Strahl",
+    "woerter": [
+      {
+        "wort": "der Strahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرتو",
+          "en": "ray"
+        },
+        "id_ref": "nomen_strahl"
+      },
+      {
+        "wort": "die Strahlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشعشع",
+          "en": "radiation"
+        },
+        "id_ref": "nomen_strahlung"
+      },
+      {
+        "wort": "leuchten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نور دادن",
+          "en": "to shine"
+        },
+        "id_ref": "verb_leuchten"
+      },
+      {
+        "wort": "die Sonne",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خورشید",
+          "en": "sun"
+        },
+        "id_ref": "nomen_sonne"
+      },
+      {
+        "wort": "glücklich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوشحال",
+          "en": "happy"
+        },
+        "id_ref": "adjektiv_gluecklich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

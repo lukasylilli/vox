@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_starten",
+  "wort": "starten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شروع کردن",
+      "روشن کردن (موتور، رایانه)",
+      "پرواز کردن (هواپیما)"
+    ],
+    "en": [
+      "to start",
+      "to take off",
+      "to launch"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Technik",
+    "Sport"
+  ],
+  "ipa": "ˈʃtaʁtn̩",
+  "anmerkung": "Intransitiv mit «sein» (das Flugzeug ist gestartet); transitiv mit «haben» (ich habe den Computer gestartet).",
+  "berufe": [
+    "it",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Flugzeug startet um acht Uhr.",
+      "uebersetzung": {
+        "fa": "هواپیما ساعت هشت پرواز می‌کند.",
+        "en": "The plane takes off at eight o'clock."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem ich den Computer neu gestartet hatte, lief das Programm wieder.",
+      "uebersetzung": {
+        "fa": "بعد از این‌که رایانه را دوباره روشن کردم، برنامه دوباره کار کرد.",
+        "en": "After I had restarted the computer, the program ran again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beginnen",
+      "uebersetzung": {
+        "fa": "شروع کردن",
+        "en": "to begin"
+      }
+    },
+    {
+      "wort": "anfangen",
+      "uebersetzung": {
+        "fa": "شروع کردن",
+        "en": "to start"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "landen",
+      "uebersetzung": {
+        "fa": "فرود آمدن",
+        "en": "to land"
+      }
+    },
+    {
+      "wort": "beenden",
+      "uebersetzung": {
+        "fa": "پایان دادن",
+        "en": "to end"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to start",
+    "en": "from English to start"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "starten",
+      "praeteritum": "startete",
+      "partizip2": "gestartet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "starte",
+        "du": "startest",
+        "er_sie_es": "startet",
+        "wir": "starten",
+        "ihr": "startet",
+        "sie_Sie": "starten"
+      },
+      "praeteritum": {
+        "ich": "startete",
+        "du": "startetest",
+        "er_sie_es": "startete",
+        "wir": "starteten",
+        "ihr": "startetet",
+        "sie_Sie": "starteten"
+      },
+      "konjunktiv1": {
+        "ich": "starte",
+        "du": "startest",
+        "er_sie_es": "starte",
+        "wir": "starten",
+        "ihr": "startet",
+        "sie_Sie": "starten"
+      },
+      "konjunktiv2": {
+        "ich": "startete",
+        "du": "startetest",
+        "er_sie_es": "startete",
+        "wir": "starteten",
+        "ihr": "startetet",
+        "sie_Sie": "starteten"
+      },
+      "imperativ": {
+        "du": "Starte!",
+        "ihr": "Startet!",
+        "Sie": "Starten Sie!"
+      }
+    },
+    "partizip1": "startend",
+    "nominalisierung": "der Start"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Start",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شروع، پرواز",
+          "en": "start, take-off"
+        },
+        "id_ref": "nomen_start"
+      },
+      {
+        "wort": "landen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرود آمدن",
+          "en": "to land"
+        },
+        "id_ref": "verb_landen"
+      },
+      {
+        "wort": "das Flugzeug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هواپیما",
+          "en": "plane"
+        },
+        "id_ref": "nomen_flugzeug"
+      },
+      {
+        "wort": "beginnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شروع کردن",
+          "en": "to begin"
+        },
+        "id_ref": "verb_beginnen"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

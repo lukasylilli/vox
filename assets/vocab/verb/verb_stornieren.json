@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_stornieren",
+  "wort": "stornieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لغو کردن (سفارش، رزرو)",
+      "برگشت زدن (پرداخت)"
+    ],
+    "en": [
+      "to cancel",
+      "to reverse"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Reisen",
+    "Geld",
+    "Büro"
+  ],
+  "ipa": "ʃtɔʁˈniːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich möchte meine Buchung stornieren.",
+      "uebersetzung": {
+        "fa": "می‌خواهم رزروم را لغو کنم.",
+        "en": "I would like to cancel my booking."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil die Ware beschädigt war, hat die Bank die Zahlung storniert.",
+      "uebersetzung": {
+        "fa": "چون کالا آسیب دیده بود، بانک پرداخت را برگشت زد.",
+        "en": "Because the goods were damaged, the bank reversed the payment."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "absagen",
+      "uebersetzung": {
+        "fa": "لغو کردن",
+        "en": "to cancel"
+      }
+    },
+    {
+      "wort": "rückgängig machen",
+      "uebersetzung": {
+        "fa": "برگرداندن",
+        "en": "to undo"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "buchen",
+      "uebersetzung": {
+        "fa": "رزرو کردن",
+        "en": "to book"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از ایتالیایی stornare (برگرداندن)",
+    "en": "from Italian stornare (to turn back)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stornieren",
+      "praeteritum": "stornierte",
+      "partizip2": "storniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "storniere",
+        "du": "stornierst",
+        "er_sie_es": "storniert",
+        "wir": "stornieren",
+        "ihr": "storniert",
+        "sie_Sie": "stornieren"
+      },
+      "praeteritum": {
+        "ich": "stornierte",
+        "du": "storniertest",
+        "er_sie_es": "stornierte",
+        "wir": "stornierten",
+        "ihr": "storniertet",
+        "sie_Sie": "stornierten"
+      },
+      "konjunktiv1": {
+        "ich": "storniere",
+        "du": "stornierest",
+        "er_sie_es": "storniere",
+        "wir": "stornieren",
+        "ihr": "stornieret",
+        "sie_Sie": "stornieren"
+      },
+      "konjunktiv2": {
+        "ich": "stornierte",
+        "du": "storniertest",
+        "er_sie_es": "stornierte",
+        "wir": "stornierten",
+        "ihr": "storniertet",
+        "sie_Sie": "stornierten"
+      },
+      "imperativ": {
+        "du": "Storniere!",
+        "ihr": "Storniert!",
+        "Sie": "Stornieren Sie!"
+      }
+    },
+    "partizip1": "stornierend",
+    "nominalisierung": "die Stornierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Stornierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لغو",
+          "en": "cancellation"
+        },
+        "id_ref": "nomen_stornierung"
+      },
+      {
+        "wort": "buchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to book"
+        },
+        "id_ref": "verb_buchen"
+      },
+      {
+        "wort": "absagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_absagen"
+      },
+      {
+        "wort": "die Buchung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو",
+          "en": "booking"
+        },
+        "id_ref": "nomen_buchung"
+      },
+      {
+        "wort": "die Gebühr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه",
+          "en": "fee"
+        },
+        "id_ref": "nomen_gebuehr"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

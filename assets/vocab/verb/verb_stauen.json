@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stauen",
+  "wort": "stauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سد کردن (آب)",
+      "جمع شدن و گیر کردن (بازتابی)"
+    ],
+    "en": [
+      "to dam",
+      "to back up (reflexive)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Natur"
+  ],
+  "ipa": "ˈʃtaʊ̯ən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Auf der Autobahn staut sich der Verkehr.",
+      "uebersetzung": {
+        "fa": "در اتوبان ترافیک جمع شده است.",
+        "en": "The traffic is backing up on the motorway."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Fluss wird durch eine Mauer gestaut, damit Strom erzeugt werden kann.",
+      "uebersetzung": {
+        "fa": "رودخانه با یک دیوار سد می‌شود تا برق تولید شود.",
+        "en": "The river is dammed by a wall so that electricity can be generated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufhalten",
+      "uebersetzung": {
+        "fa": "متوقف کردن",
+        "en": "to hold up"
+      }
+    },
+    {
+      "wort": "sich sammeln",
+      "uebersetzung": {
+        "fa": "جمع شدن",
+        "en": "to accumulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Stausee",
+      "uebersetzung": {
+        "fa": "دریاچه‌ی پشت سد",
+        "en": "reservoir"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stauen (نگه داشتن، سد کردن) — هم‌ریشه با der Stau",
+    "en": "stauen (to dam) — related to der Stau"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stauen",
+      "praeteritum": "staute",
+      "partizip2": "gestaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "staue",
+        "du": "staust",
+        "er_sie_es": "staut",
+        "wir": "stauen",
+        "ihr": "staut",
+        "sie_Sie": "stauen"
+      },
+      "praeteritum": {
+        "ich": "staute",
+        "du": "stautest",
+        "er_sie_es": "staute",
+        "wir": "stauten",
+        "ihr": "stautet",
+        "sie_Sie": "stauten"
+      },
+      "konjunktiv1": {
+        "ich": "staue",
+        "du": "stauest",
+        "er_sie_es": "staue",
+        "wir": "stauen",
+        "ihr": "stauet",
+        "sie_Sie": "stauen"
+      },
+      "konjunktiv2": {
+        "ich": "staute",
+        "du": "stautest",
+        "er_sie_es": "staute",
+        "wir": "stauten",
+        "ihr": "stautet",
+        "sie_Sie": "stauten"
+      },
+      "imperativ": {
+        "du": "Staue!",
+        "ihr": "Staut!",
+        "Sie": "Stauen Sie!"
+      }
+    },
+    "partizip1": "stauend",
+    "nominalisierung": "der Stau"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stau",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک، راه‌بندان",
+          "en": "traffic jam"
+        },
+        "id_ref": "nomen_stau"
+      },
+      {
+        "wort": "der Verkehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک",
+          "en": "traffic"
+        },
+        "id_ref": "nomen_verkehr"
+      },
+      {
+        "wort": "der Damm",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سد، خاکریز",
+          "en": "dam"
+        },
+        "id_ref": "nomen_damm"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

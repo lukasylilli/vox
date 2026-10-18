@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stuelpen",
+  "wort": "stülpen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وارونه روی چیزی گذاشتن",
+      "برگرداندن (لباس، جیب)"
+    ],
+    "en": [
+      "to put over",
+      "to turn inside out"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kleidung",
+    "Haushalt"
+  ],
+  "ipa": "ˈʃtʏlpn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stülpt sich die Mütze auf den Kopf.",
+      "uebersetzung": {
+        "fa": "او کلاه را روی سرش می‌گذارد.",
+        "en": "He pulls the cap onto his head."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Damit der Käse frisch bleibt, wird eine Glasglocke darüber gestülpt.",
+      "uebersetzung": {
+        "fa": "برای این‌که پنیر تازه بماند، یک سرپوش شیشه‌ای رویش می‌گذارند.",
+        "en": "To keep the cheese fresh, a glass cover is put over it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "umdrehen",
+      "uebersetzung": {
+        "fa": "برگرداندن",
+        "en": "to turn over"
+      }
+    },
+    {
+      "wort": "überziehen",
+      "uebersetzung": {
+        "fa": "روی چیزی کشیدن",
+        "en": "to pull over"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "stülpen (وارونه کردن) — از آلمانی شمالی",
+    "en": "stülpen (to turn over) — from Low German"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas über + Akk stülpen",
+        "bedeutung": "etwas umgekehrt über etwas setzen",
+        "beispiel": "Sie stülpte den Eimer über die Pflanze.",
+        "uebersetzung": {
+          "fa": "او سطل را وارونه روی گیاه گذاشت.",
+          "en": "She put the bucket upside down over the plant."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stülpen",
+      "praeteritum": "stülpte",
+      "partizip2": "gestülpt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stülpe",
+        "du": "stülpst",
+        "er_sie_es": "stülpt",
+        "wir": "stülpen",
+        "ihr": "stülpt",
+        "sie_Sie": "stülpen"
+      },
+      "praeteritum": {
+        "ich": "stülpte",
+        "du": "stülptest",
+        "er_sie_es": "stülpte",
+        "wir": "stülpten",
+        "ihr": "stülptet",
+        "sie_Sie": "stülpten"
+      },
+      "konjunktiv1": {
+        "ich": "stülpe",
+        "du": "stülpest",
+        "er_sie_es": "stülpe",
+        "wir": "stülpen",
+        "ihr": "stülpet",
+        "sie_Sie": "stülpen"
+      },
+      "konjunktiv2": {
+        "ich": "stülpte",
+        "du": "stülptest",
+        "er_sie_es": "stülpte",
+        "wir": "stülpten",
+        "ihr": "stülptet",
+        "sie_Sie": "stülpten"
+      },
+      "imperativ": {
+        "du": "Stülpe!",
+        "ihr": "Stülpt!",
+        "Sie": "Stülpen Sie!"
+      }
+    },
+    "partizip1": "stülpend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "umdrehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برگرداندن",
+          "en": "to turn round"
+        },
+        "id_ref": "verb_umdrehen"
+      },
+      {
+        "wort": "die Mütze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلاه",
+          "en": "cap"
+        },
+        "id_ref": "nomen_muetze"
+      },
+      {
+        "wort": "der Deckel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درپوش",
+          "en": "lid"
+        },
+        "id_ref": "nomen_deckel"
+      },
+      {
+        "wort": "der Kopf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سر",
+          "en": "head"
+        },
+        "id_ref": "nomen_kopf"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جیب، کیف",
+          "en": "pocket, bag"
+        },
+        "id_ref": "nomen_tasche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

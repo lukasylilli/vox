@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_steuern",
+  "wort": "steuern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هدایت کردن",
+      "راندن",
+      "کنترل کردن"
+    ],
+    "en": [
+      "to steer",
+      "to control",
+      "to direct"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Technik"
+  ],
+  "ipa": "ˈʃtɔɪ̯ɐn",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "technik",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kapitän steuert das Schiff.",
+      "uebersetzung": {
+        "fa": "ناخدا کشتی را هدایت می‌کند.",
+        "en": "The captain steers the ship."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Heizung wird über eine App auf dem Handy gesteuert.",
+      "uebersetzung": {
+        "fa": "شوفاژ با یک برنامه روی گوشی کنترل می‌شود.",
+        "en": "The heating is controlled via an app on the mobile phone."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lenken",
+      "uebersetzung": {
+        "fa": "هدایت کردن",
+        "en": "to steer"
+      }
+    },
+    {
+      "wort": "regeln",
+      "uebersetzung": {
+        "fa": "تنظیم کردن",
+        "en": "to regulate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Steuerung",
+      "uebersetzung": {
+        "fa": "کنترل، فرمان",
+        "en": "control"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از das Steuer (فرمان، سکان)",
+    "en": "from das Steuer (steering wheel, helm)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "steuern",
+      "praeteritum": "steuerte",
+      "partizip2": "gesteuert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "steuere",
+        "du": "steuerst",
+        "er_sie_es": "steuert",
+        "wir": "steuern",
+        "ihr": "steuert",
+        "sie_Sie": "steuern"
+      },
+      "praeteritum": {
+        "ich": "steuerte",
+        "du": "steuertest",
+        "er_sie_es": "steuerte",
+        "wir": "steuerten",
+        "ihr": "steuertet",
+        "sie_Sie": "steuerten"
+      },
+      "konjunktiv1": {
+        "ich": "steuere",
+        "du": "steuerest",
+        "er_sie_es": "steuere",
+        "wir": "steuern",
+        "ihr": "steueret",
+        "sie_Sie": "steuern"
+      },
+      "konjunktiv2": {
+        "ich": "steuerte",
+        "du": "steuertest",
+        "er_sie_es": "steuerte",
+        "wir": "steuerten",
+        "ihr": "steuertet",
+        "sie_Sie": "steuerten"
+      },
+      "imperativ": {
+        "du": "Steuere!",
+        "ihr": "Steuert!",
+        "Sie": "Steuern Sie!"
+      }
+    },
+    "partizip1": "steuernd",
+    "nominalisierung": "die Steuerung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرمان، سکان",
+          "en": "steering wheel"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "die Steuerung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنترل",
+          "en": "control"
+        },
+        "id_ref": "nomen_steuerung"
+      },
+      {
+        "wort": "lenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هدایت کردن",
+          "en": "to steer"
+        },
+        "id_ref": "verb_lenken"
+      },
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راندن",
+          "en": "to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "kontrollieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کنترل کردن",
+          "en": "to control"
+        },
+        "id_ref": "verb_kontrollieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

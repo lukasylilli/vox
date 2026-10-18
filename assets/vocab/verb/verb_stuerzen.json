@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_stuerzen",
+  "wort": "stürzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "افتادن",
+      "سقوط کردن",
+      "سرنگون کردن",
+      "هجوم بردن (بازتابی)"
+    ],
+    "en": [
+      "to fall",
+      "to crash",
+      "to overthrow",
+      "to rush (reflexive)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Unfall",
+    "Politik",
+    "Bewegung"
+  ],
+  "ipa": "ˈʃtʏʁt͡sn̩",
+  "anmerkung": "Transitiv und reflexiv mit «haben» (das Volk hat die Regierung gestürzt; er hat sich ins Wasser gestürzt).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Opa ist im Bad gestürzt.",
+      "uebersetzung": {
+        "fa": "پدربزرگم در حمام افتاد.",
+        "en": "My grandpa fell in the bathroom."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach monatelangen Protesten hat das Volk den Diktator gestürzt.",
+      "uebersetzung": {
+        "fa": "پس از ماه‌ها اعتراض، مردم دیکتاتور را سرنگون کردند.",
+        "en": "After months of protests the people overthrew the dictator."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fallen",
+      "uebersetzung": {
+        "fa": "افتادن",
+        "en": "to fall"
+      }
+    },
+    {
+      "wort": "stürmen",
+      "uebersetzung": {
+        "fa": "یورش بردن",
+        "en": "to storm"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Sturzgefahr",
+      "uebersetzung": {
+        "fa": "خطر افتادن",
+        "en": "risk of falling"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stürzen (افتادن، واژگون کردن) — هم‌ریشه با der Sturz",
+    "en": "stürzen (to fall, to topple) — related to der Sturz"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich auf + Akk stürzen",
+        "bedeutung": "sich schnell auf etwas werfen",
+        "beispiel": "Die Kinder stürzten sich auf das Essen.",
+        "uebersetzung": {
+          "fa": "بچه‌ها به غذا هجوم بردند.",
+          "en": "The children fell upon the food."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stürzen",
+      "praeteritum": "stürzte",
+      "partizip2": "gestürzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stürze",
+        "du": "stürzt",
+        "er_sie_es": "stürzt",
+        "wir": "stürzen",
+        "ihr": "stürzt",
+        "sie_Sie": "stürzen"
+      },
+      "praeteritum": {
+        "ich": "stürzte",
+        "du": "stürztest",
+        "er_sie_es": "stürzte",
+        "wir": "stürzten",
+        "ihr": "stürztet",
+        "sie_Sie": "stürzten"
+      },
+      "konjunktiv1": {
+        "ich": "stürze",
+        "du": "stürzest",
+        "er_sie_es": "stürze",
+        "wir": "stürzen",
+        "ihr": "stürzet",
+        "sie_Sie": "stürzen"
+      },
+      "konjunktiv2": {
+        "ich": "stürzte",
+        "du": "stürztest",
+        "er_sie_es": "stürzte",
+        "wir": "stürzten",
+        "ihr": "stürztet",
+        "sie_Sie": "stürzten"
+      },
+      "imperativ": {
+        "du": "Stürze!",
+        "ihr": "Stürzt!",
+        "Sie": "Stürzen Sie!"
+      }
+    },
+    "partizip1": "stürzend",
+    "nominalisierung": "der Sturz"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Sturz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افتادن، سقوط",
+          "en": "fall"
+        },
+        "id_ref": "nomen_sturz"
+      },
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Absturz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سقوط",
+          "en": "crash"
+        },
+        "id_ref": "nomen_absturz"
+      },
+      {
+        "wort": "die Regierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دولت",
+          "en": "government"
+        },
+        "id_ref": "nomen_regierung"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی کردن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_stochern",
+  "wort": "stochern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با چوب یا چنگال ور رفتن",
+      "کاویدن"
+    ],
+    "en": [
+      "to poke",
+      "to pick at"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Alltag"
+  ],
+  "ipa": "ˈʃtɔxɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind stochert im Essen.",
+      "uebersetzung": {
+        "fa": "بچه با غذایش ور می‌رود.",
+        "en": "The child is picking at its food."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Lustlos stocherte er in seinem Salat, weil er keinen Hunger hatte.",
+      "uebersetzung": {
+        "fa": "بی‌حوصله با سالادش ور می‌رفت، چون گرسنه نبود.",
+        "en": "He picked listlessly at his salad because he wasn't hungry."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herumbohren",
+      "uebersetzung": {
+        "fa": "ور رفتن",
+        "en": "to poke around"
+      }
+    },
+    {
+      "wort": "picken",
+      "uebersetzung": {
+        "fa": "نوک زدن",
+        "en": "to peck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Zahnstocher",
+      "uebersetzung": {
+        "fa": "خلال دندان",
+        "en": "toothpick"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stochern (کاویدن) — هم‌ریشه با stechen",
+    "en": "stochern (to poke) — related to stechen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stochern in + Dat",
+        "bedeutung": "mit einem spitzen Gegenstand in etwas herumbohren",
+        "beispiel": "Er stochert mit einem Stock im Feuer.",
+        "uebersetzung": {
+          "fa": "او با یک چوب آتش را به هم می‌زند.",
+          "en": "He pokes the fire with a stick."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stochern",
+      "praeteritum": "stocherte",
+      "partizip2": "gestochert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stochere",
+        "du": "stocherst",
+        "er_sie_es": "stochert",
+        "wir": "stochern",
+        "ihr": "stochert",
+        "sie_Sie": "stochern"
+      },
+      "praeteritum": {
+        "ich": "stocherte",
+        "du": "stochertest",
+        "er_sie_es": "stocherte",
+        "wir": "stocherten",
+        "ihr": "stochertet",
+        "sie_Sie": "stocherten"
+      },
+      "konjunktiv1": {
+        "ich": "stochere",
+        "du": "stocherest",
+        "er_sie_es": "stochere",
+        "wir": "stochern",
+        "ihr": "stocheret",
+        "sie_Sie": "stochern"
+      },
+      "konjunktiv2": {
+        "ich": "stocherte",
+        "du": "stochertest",
+        "er_sie_es": "stocherte",
+        "wir": "stocherten",
+        "ihr": "stochertet",
+        "sie_Sie": "stocherten"
+      },
+      "imperativ": {
+        "du": "Stochere!",
+        "ihr": "Stochert!",
+        "Sie": "Stochern Sie!"
+      }
+    },
+    "partizip1": "stochernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zahnstocher",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خلال دندان",
+          "en": "toothpick"
+        },
+        "id_ref": "nomen_zahnstocher"
+      },
+      {
+        "wort": "die Gabel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چنگال",
+          "en": "fork"
+        },
+        "id_ref": "nomen_gabel"
+      },
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "stechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیش زدن، فرو کردن",
+          "en": "to stab"
+        },
+        "id_ref": "verb_stechen"
+      },
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

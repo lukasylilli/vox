@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_stoebern",
+  "wort": "stöbern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گشتن و زیر و رو کردن",
+      "کند و کاو کردن"
+    ],
+    "en": [
+      "to rummage",
+      "to browse"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Einkaufen",
+    "Freizeit"
+  ],
+  "ipa": "ˈʃtøːbɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich stöbere gern im Buchladen.",
+      "uebersetzung": {
+        "fa": "دوست دارم در کتاب‌فروشی بگردم و کتاب‌ها را ورق بزنم.",
+        "en": "I like browsing in the bookshop."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf dem Dachboden haben wir in alten Kisten nach Familienfotos gestöbert.",
+      "uebersetzung": {
+        "fa": "در زیرشیروانی جعبه‌های قدیمی را برای عکس‌های خانوادگی زیر و رو کردیم.",
+        "en": "In the attic we rummaged through old boxes for family photos."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kramen",
+      "uebersetzung": {
+        "fa": "گشتن (در وسایل)",
+        "en": "to rummage"
+      }
+    },
+    {
+      "wort": "suchen",
+      "uebersetzung": {
+        "fa": "جست‌وجو کردن",
+        "en": "to search"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "stöbern (گشتن، شکار را بیرون کشیدن) — فعل ساده",
+    "en": "stöbern (to rummage) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stöbern in + Dat",
+        "bedeutung": "in etwas herumsuchen",
+        "beispiel": "Er stöbert in ihren Sachen.",
+        "uebersetzung": {
+          "fa": "او وسایل او را زیر و رو می‌کند.",
+          "en": "He is rummaging through her things."
+        }
+      },
+      {
+        "muster": "stöbern nach + Dat",
+        "bedeutung": "nach etwas suchen",
+        "beispiel": "Sie stöbert nach Schnäppchen.",
+        "uebersetzung": {
+          "fa": "او دنبال جنس ارزان می‌گردد.",
+          "en": "She is browsing for bargains."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stöbern",
+      "praeteritum": "stöberte",
+      "partizip2": "gestöbert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stöbere",
+        "du": "stöberst",
+        "er_sie_es": "stöbert",
+        "wir": "stöbern",
+        "ihr": "stöbert",
+        "sie_Sie": "stöbern"
+      },
+      "praeteritum": {
+        "ich": "stöberte",
+        "du": "stöbertest",
+        "er_sie_es": "stöberte",
+        "wir": "stöberten",
+        "ihr": "stöbertet",
+        "sie_Sie": "stöberten"
+      },
+      "konjunktiv1": {
+        "ich": "stöbere",
+        "du": "stöberest",
+        "er_sie_es": "stöbere",
+        "wir": "stöbern",
+        "ihr": "stöberet",
+        "sie_Sie": "stöbern"
+      },
+      "konjunktiv2": {
+        "ich": "stöberte",
+        "du": "stöbertest",
+        "er_sie_es": "stöberte",
+        "wir": "stöberten",
+        "ihr": "stöbertet",
+        "sie_Sie": "stöberten"
+      },
+      "imperativ": {
+        "du": "Stöbere!",
+        "ihr": "Stöbert!",
+        "Sie": "Stöbern Sie!"
+      }
+    },
+    "partizip1": "stöbernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "der Flohmarkt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازار دست‌دوم",
+          "en": "flea market"
+        },
+        "id_ref": "nomen_flohmarkt"
+      },
+      {
+        "wort": "kramen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گشتن در وسایل",
+          "en": "to rummage"
+        },
+        "id_ref": "verb_kramen"
+      },
+      {
+        "wort": "der Dachboden",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زیرشیروانی",
+          "en": "attic"
+        },
+        "id_ref": "nomen_dachboden"
+      },
+      {
+        "wort": "entdecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشف کردن",
+          "en": "to discover"
+        },
+        "id_ref": "verb_entdecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

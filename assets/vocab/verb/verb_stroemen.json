@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stroemen",
+  "wort": "strömen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جاری شدن",
+      "سیل‌آسا ریختن",
+      "هجوم آوردن (جمعیت)"
+    ],
+    "en": [
+      "to stream",
+      "to pour",
+      "to flock"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Natur",
+    "Wetter"
+  ],
+  "ipa": "ˈʃtʁøːmən",
+  "anmerkung": "«Es strömt» (starker Regen) mit «haben» (es hat den ganzen Tag geströmt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser strömt aus dem Rohr.",
+      "uebersetzung": {
+        "fa": "آب از لوله جاری است.",
+        "en": "The water is streaming out of the pipe."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Konzert sind Tausende Menschen gleichzeitig zum Bahnhof geströmt.",
+      "uebersetzung": {
+        "fa": "بعد از کنسرت هزاران نفر هم‌زمان به طرف ایستگاه هجوم بردند.",
+        "en": "After the concert thousands of people flocked to the station at the same time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fließen",
+      "uebersetzung": {
+        "fa": "جاری شدن",
+        "en": "to flow"
+      }
+    },
+    {
+      "wort": "drängen",
+      "uebersetzung": {
+        "fa": "هجوم آوردن",
+        "en": "to throng"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Strömung",
+      "uebersetzung": {
+        "fa": "جریان",
+        "en": "current"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Strom (رود بزرگ، جریان)",
+    "en": "from der Strom (large river, current)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "strömen",
+      "praeteritum": "strömte",
+      "partizip2": "geströmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ströme",
+        "du": "strömst",
+        "er_sie_es": "strömt",
+        "wir": "strömen",
+        "ihr": "strömt",
+        "sie_Sie": "strömen"
+      },
+      "praeteritum": {
+        "ich": "strömte",
+        "du": "strömtest",
+        "er_sie_es": "strömte",
+        "wir": "strömten",
+        "ihr": "strömtet",
+        "sie_Sie": "strömten"
+      },
+      "konjunktiv1": {
+        "ich": "ströme",
+        "du": "strömest",
+        "er_sie_es": "ströme",
+        "wir": "strömen",
+        "ihr": "strömet",
+        "sie_Sie": "strömen"
+      },
+      "konjunktiv2": {
+        "ich": "strömte",
+        "du": "strömtest",
+        "er_sie_es": "strömte",
+        "wir": "strömten",
+        "ihr": "strömtet",
+        "sie_Sie": "strömten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "strömend",
+    "nominalisierung": "die Strömung"
+  },
+  "wortnetz": {
+    "grundwort": "Strom",
+    "woerter": [
+      {
+        "wort": "der Strom",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جریان، برق",
+          "en": "current, electricity"
+        },
+        "id_ref": "nomen_strom"
+      },
+      {
+        "wort": "die Strömung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جریان",
+          "en": "current"
+        },
+        "id_ref": "nomen_stroemung"
+      },
+      {
+        "wort": "fließen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جاری شدن",
+          "en": "to flow"
+        },
+        "id_ref": "verb_fliessen"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمعیت، مقدار",
+          "en": "crowd, amount"
+        },
+        "id_ref": "nomen_menge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

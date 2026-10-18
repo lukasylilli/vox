@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stanzen",
+  "wort": "stanzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرس کردن",
+      "سوراخ کردن یا بریدن با دستگاه پرس"
+    ],
+    "en": [
+      "to punch",
+      "to stamp (out)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Industrie"
+  ],
+  "ipa": "ˈʃtant͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Maschine stanzt Löcher in das Blech.",
+      "uebersetzung": {
+        "fa": "دستگاه در ورق فلزی سوراخ ایجاد می‌کند.",
+        "en": "The machine punches holes in the sheet metal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In dem Werk werden täglich Tausende Autoteile aus Stahl gestanzt.",
+      "uebersetzung": {
+        "fa": "در این کارخانه هر روز هزاران قطعه‌ی خودرو از فولاد پرس می‌شود.",
+        "en": "Thousands of car parts are stamped from steel in the plant every day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "pressen",
+      "uebersetzung": {
+        "fa": "پرس کردن",
+        "en": "to press"
+      }
+    },
+    {
+      "wort": "lochen",
+      "uebersetzung": {
+        "fa": "سوراخ کردن",
+        "en": "to punch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Stanzmaschine",
+      "uebersetzung": {
+        "fa": "دستگاه پرس",
+        "en": "punching machine"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stanzen (کوبیدن، پرس کردن) — فعل ساده",
+    "en": "stanzen (to punch) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stanzen",
+      "praeteritum": "stanzte",
+      "partizip2": "gestanzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stanze",
+        "du": "stanzt",
+        "er_sie_es": "stanzt",
+        "wir": "stanzen",
+        "ihr": "stanzt",
+        "sie_Sie": "stanzen"
+      },
+      "praeteritum": {
+        "ich": "stanzte",
+        "du": "stanztest",
+        "er_sie_es": "stanzte",
+        "wir": "stanzten",
+        "ihr": "stanztet",
+        "sie_Sie": "stanzten"
+      },
+      "konjunktiv1": {
+        "ich": "stanze",
+        "du": "stanzest",
+        "er_sie_es": "stanze",
+        "wir": "stanzen",
+        "ihr": "stanzet",
+        "sie_Sie": "stanzen"
+      },
+      "konjunktiv2": {
+        "ich": "stanzte",
+        "du": "stanztest",
+        "er_sie_es": "stanzte",
+        "wir": "stanzten",
+        "ihr": "stanztet",
+        "sie_Sie": "stanzten"
+      },
+      "imperativ": {
+        "du": "Stanze!",
+        "ihr": "Stanzt!",
+        "Sie": "Stanzen Sie!"
+      }
+    },
+    "partizip1": "stanzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Maschine",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه",
+          "en": "machine"
+        },
+        "id_ref": "nomen_maschine"
+      },
+      {
+        "wort": "das Blech",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ورق فلزی",
+          "en": "sheet metal"
+        },
+        "id_ref": "nomen_blech"
+      },
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوراخ",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "pressen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشردن، پرس کردن",
+          "en": "to press"
+        },
+        "id_ref": "verb_pressen"
+      },
+      {
+        "wort": "lochen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوراخ کردن",
+          "en": "to punch"
+        },
+        "id_ref": "verb_lochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

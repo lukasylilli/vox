@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_stocken",
+  "wort": "stocken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "متوقف شدن",
+      "گیر کردن",
+      "به لکنت افتادن"
+    ],
+    "en": [
+      "to falter",
+      "to stall",
+      "to stop"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃtɔkn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Verkehr stockt.",
+      "uebersetzung": {
+        "fa": "ترافیک متوقف شده است.",
+        "en": "The traffic has come to a standstill."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mitten im Satz stockte sie, weil ihr das richtige Wort nicht einfiel.",
+      "uebersetzung": {
+        "fa": "وسط جمله مکث کرد، چون کلمه‌ی درست یادش نمی‌آمد.",
+        "en": "She faltered in the middle of the sentence because she couldn't think of the right word."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stehen bleiben",
+      "uebersetzung": {
+        "fa": "متوقف شدن",
+        "en": "to stop"
+      }
+    },
+    {
+      "wort": "zögern",
+      "uebersetzung": {
+        "fa": "تردید کردن",
+        "en": "to hesitate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "fließen",
+      "uebersetzung": {
+        "fa": "روان بودن",
+        "en": "to flow"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Stock (چوب، تکیه) — در اصل «سفت شدن»",
+    "en": "from der Stock (stick) — originally «to stiffen»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stocken",
+      "praeteritum": "stockte",
+      "partizip2": "gestockt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stocke",
+        "du": "stockst",
+        "er_sie_es": "stockt",
+        "wir": "stocken",
+        "ihr": "stockt",
+        "sie_Sie": "stocken"
+      },
+      "praeteritum": {
+        "ich": "stockte",
+        "du": "stocktest",
+        "er_sie_es": "stockte",
+        "wir": "stockten",
+        "ihr": "stocktet",
+        "sie_Sie": "stockten"
+      },
+      "konjunktiv1": {
+        "ich": "stocke",
+        "du": "stockest",
+        "er_sie_es": "stocke",
+        "wir": "stocken",
+        "ihr": "stocket",
+        "sie_Sie": "stocken"
+      },
+      "konjunktiv2": {
+        "ich": "stockte",
+        "du": "stocktest",
+        "er_sie_es": "stockte",
+        "wir": "stockten",
+        "ihr": "stocktet",
+        "sie_Sie": "stockten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "stockend",
+    "nominalisierung": "die Stockung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stau",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "راه‌بندان",
+          "en": "traffic jam"
+        },
+        "id_ref": "nomen_stau"
+      },
+      {
+        "wort": "die Stockung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وقفه",
+          "en": "stoppage"
+        },
+        "id_ref": "nomen_stockung"
+      },
+      {
+        "wort": "zögern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تردید کردن",
+          "en": "to hesitate"
+        },
+        "id_ref": "verb_zoegern"
+      },
+      {
+        "wort": "unterbrechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطع کردن",
+          "en": "to interrupt"
+        },
+        "id_ref": "verb_unterbrechen"
+      },
+      {
+        "wort": "der Atem",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس",
+          "en": "breath"
+        },
+        "id_ref": "nomen_atem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_stolpern",
+  "wort": "stolpern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سکندری خوردن",
+      "پا گیر کردن",
+      "به مشکل خوردن"
+    ],
+    "en": [
+      "to stumble",
+      "to trip"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Bewegung",
+    "Unfall"
+  ],
+  "ipa": "ˈʃtɔlpɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Pass auf, dass du nicht stolperst!",
+      "uebersetzung": {
+        "fa": "مواظب باش سکندری نخوری!",
+        "en": "Be careful not to trip!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die alte Dame ist über eine Stufe gestolpert und hat sich das Handgelenk gebrochen.",
+      "uebersetzung": {
+        "fa": "خانم مسن روی یک پله سکندری خورد و مچ دستش شکست.",
+        "en": "The old lady tripped over a step and broke her wrist."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "straucheln",
+      "uebersetzung": {
+        "fa": "لغزیدن، سکندری خوردن",
+        "en": "to stumble"
+      }
+    },
+    {
+      "wort": "fallen",
+      "uebersetzung": {
+        "fa": "افتادن",
+        "en": "to fall"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Stolperstein",
+      "uebersetzung": {
+        "fa": "سنگ لغزش، مانع",
+        "en": "stumbling block"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stolpern (سکندری خوردن) — فعل ساده",
+    "en": "stolpern (to stumble) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "stolpern über + Akk",
+        "bedeutung": "mit dem Fuß an etwas hängen bleiben; an etwas scheitern",
+        "beispiel": "Der Politiker stolperte über einen Skandal.",
+        "uebersetzung": {
+          "fa": "آن سیاستمدار با یک رسوایی زمین خورد.",
+          "en": "The politician came to grief over a scandal."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stolpern",
+      "praeteritum": "stolperte",
+      "partizip2": "gestolpert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stolpere",
+        "du": "stolperst",
+        "er_sie_es": "stolpert",
+        "wir": "stolpern",
+        "ihr": "stolpert",
+        "sie_Sie": "stolpern"
+      },
+      "praeteritum": {
+        "ich": "stolperte",
+        "du": "stolpertest",
+        "er_sie_es": "stolperte",
+        "wir": "stolperten",
+        "ihr": "stolpertet",
+        "sie_Sie": "stolperten"
+      },
+      "konjunktiv1": {
+        "ich": "stolpere",
+        "du": "stolperest",
+        "er_sie_es": "stolpere",
+        "wir": "stolpern",
+        "ihr": "stolperet",
+        "sie_Sie": "stolpern"
+      },
+      "konjunktiv2": {
+        "ich": "stolperte",
+        "du": "stolpertest",
+        "er_sie_es": "stolperte",
+        "wir": "stolperten",
+        "ihr": "stolpertet",
+        "sie_Sie": "stolperten"
+      },
+      "imperativ": {
+        "du": "Stolpere!",
+        "ihr": "Stolpert!",
+        "Sie": "Stolpern Sie!"
+      }
+    },
+    "partizip1": "stolpernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fallen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "افتادن",
+          "en": "to fall"
+        },
+        "id_ref": "verb_fallen"
+      },
+      {
+        "wort": "der Sturz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افتادن، سقوط",
+          "en": "fall"
+        },
+        "id_ref": "nomen_sturz"
+      },
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله",
+          "en": "step"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "ausrutschen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لیز خوردن",
+          "en": "to slip"
+        },
+        "id_ref": "verb_ausrutschen"
+      },
+      {
+        "wort": "der Fuß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پا",
+          "en": "foot"
+        },
+        "id_ref": "nomen_fuss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

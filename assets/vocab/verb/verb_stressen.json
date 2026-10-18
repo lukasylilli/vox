@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_stressen",
+  "wort": "stressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "استرس دادن",
+      "تحت فشار گذاشتن"
+    ],
+    "en": [
+      "to stress (out)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Gefühle",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʃtʁɛsn̩",
+  "anmerkung": "Umgangssprachlich; meist im Partizip «gestresst».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Arbeit stresst mich.",
+      "uebersetzung": {
+        "fa": "کار به من استرس می‌دهد.",
+        "en": "Work stresses me out."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit dem Umzug ist sie total gestresst und schläft schlecht.",
+      "uebersetzung": {
+        "fa": "از وقتی اسباب‌کشی کرده، حسابی تحت فشار است و بد می‌خوابد.",
+        "en": "Since the move she has been totally stressed and sleeps badly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belasten",
+      "uebersetzung": {
+        "fa": "فشار آوردن",
+        "en": "to burden"
+      }
+    },
+    {
+      "wort": "überfordern",
+      "uebersetzung": {
+        "fa": "بیش از توان خواستن",
+        "en": "to overtax"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "entspannen",
+      "uebersetzung": {
+        "fa": "آرام کردن",
+        "en": "to relax"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از انگلیسی to stress",
+    "en": "from English to stress"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stressen",
+      "praeteritum": "stresste",
+      "partizip2": "gestresst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stresse",
+        "du": "stresst",
+        "er_sie_es": "stresst",
+        "wir": "stressen",
+        "ihr": "stresst",
+        "sie_Sie": "stressen"
+      },
+      "praeteritum": {
+        "ich": "stresste",
+        "du": "stresstest",
+        "er_sie_es": "stresste",
+        "wir": "stressten",
+        "ihr": "stresstet",
+        "sie_Sie": "stressten"
+      },
+      "konjunktiv1": {
+        "ich": "stresse",
+        "du": "stressest",
+        "er_sie_es": "stresse",
+        "wir": "stressen",
+        "ihr": "stresset",
+        "sie_Sie": "stressen"
+      },
+      "konjunktiv2": {
+        "ich": "stresste",
+        "du": "stresstest",
+        "er_sie_es": "stresste",
+        "wir": "stressten",
+        "ihr": "stresstet",
+        "sie_Sie": "stressten"
+      },
+      "imperativ": {
+        "du": "Stresse!",
+        "ihr": "Stresst!",
+        "Sie": "Stressen Sie!"
+      }
+    },
+    "partizip1": "stressend",
+    "nominalisierung": "der Stress"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      },
+      {
+        "wort": "gestresst",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحت استرس",
+          "en": "stressed"
+        },
+        "id_ref": "adjektiv_gestresst"
+      },
+      {
+        "wort": "entspannen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آرام شدن",
+          "en": "to relax"
+        },
+        "id_ref": "verb_entspannen"
+      },
+      {
+        "wort": "die Belastung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "strain"
+        },
+        "id_ref": "nomen_belastung"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "pressure"
+        },
+        "id_ref": "nomen_druck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

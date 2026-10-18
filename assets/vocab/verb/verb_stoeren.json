@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_stoeren",
+  "wort": "stören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مزاحم شدن",
+      "مختل کردن",
+      "آزار دادن"
+    ],
+    "en": [
+      "to disturb",
+      "to bother",
+      "to interfere with"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Kommunikation"
+  ],
+  "ipa": "ˈʃtøːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Entschuldigung, darf ich kurz stören?",
+      "uebersetzung": {
+        "fa": "ببخشید، اجازه می‌دهید یک لحظه مزاحم شوم؟",
+        "en": "Excuse me, may I disturb you for a moment?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Es stört mich sehr, wenn die Nachbarn nachts laut Musik hören.",
+      "uebersetzung": {
+        "fa": "خیلی اذیت می‌شوم وقتی همسایه‌ها شب‌ها با صدای بلند موسیقی گوش می‌دهند.",
+        "en": "It really bothers me when the neighbours play loud music at night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "belästigen",
+      "uebersetzung": {
+        "fa": "آزار دادن",
+        "en": "to harass"
+      }
+    },
+    {
+      "wort": "unterbrechen",
+      "uebersetzung": {
+        "fa": "قطع کردن",
+        "en": "to interrupt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Störung",
+      "uebersetzung": {
+        "fa": "اختلال",
+        "en": "disturbance"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stören (مختل کردن) — فعل ساده",
+    "en": "stören (to disturb) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden bei + Dat stören",
+        "bedeutung": "jemanden bei einer Tätigkeit unterbrechen",
+        "beispiel": "Stör mich bitte nicht beim Lernen!",
+        "uebersetzung": {
+          "fa": "لطفاً موقع درس خواندن مزاحمم نشو!",
+          "en": "Please don't disturb me while I'm studying!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stören",
+      "praeteritum": "störte",
+      "partizip2": "gestört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "störe",
+        "du": "störst",
+        "er_sie_es": "stört",
+        "wir": "stören",
+        "ihr": "stört",
+        "sie_Sie": "stören"
+      },
+      "praeteritum": {
+        "ich": "störte",
+        "du": "störtest",
+        "er_sie_es": "störte",
+        "wir": "störten",
+        "ihr": "störtet",
+        "sie_Sie": "störten"
+      },
+      "konjunktiv1": {
+        "ich": "störe",
+        "du": "störest",
+        "er_sie_es": "störe",
+        "wir": "stören",
+        "ihr": "störet",
+        "sie_Sie": "stören"
+      },
+      "konjunktiv2": {
+        "ich": "störte",
+        "du": "störtest",
+        "er_sie_es": "störte",
+        "wir": "störten",
+        "ihr": "störtet",
+        "sie_Sie": "störten"
+      },
+      "imperativ": {
+        "du": "Störe!",
+        "ihr": "Stört!",
+        "Sie": "Stören Sie!"
+      }
+    },
+    "partizip1": "störend",
+    "nominalisierung": "die Störung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Störung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اختلال، مزاحمت",
+          "en": "disturbance"
+        },
+        "id_ref": "nomen_stoerung"
+      },
+      {
+        "wort": "unterbrechen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطع کردن",
+          "en": "to interrupt"
+        },
+        "id_ref": "verb_unterbrechen"
+      },
+      {
+        "wort": "die Ruhe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرامش",
+          "en": "quiet"
+        },
+        "id_ref": "nomen_ruhe"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ناراحت کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "laut",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسروصدا",
+          "en": "loud"
+        },
+        "id_ref": "adjektiv_laut"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

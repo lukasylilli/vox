@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_stemmen",
+  "wort": "stemmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا بردن (وزنه)",
+      "فشار دادن و تکیه کردن",
+      "مقاومت کردن (بازتابی)"
+    ],
+    "en": [
+      "to lift",
+      "to brace",
+      "to resist (reflexive)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sport",
+    "Körper"
+  ],
+  "ipa": "ˈʃtɛmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er stemmt hundert Kilo.",
+      "uebersetzung": {
+        "fa": "او صد کیلو وزنه بالا می‌برد.",
+        "en": "He lifts a hundred kilos."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Bürger stemmten sich mit aller Kraft gegen den Bau der Autobahn.",
+      "uebersetzung": {
+        "fa": "شهروندان با تمام قوا در برابر ساخت اتوبان مقاومت کردند.",
+        "en": "The citizens resisted the construction of the motorway with all their might."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heben",
+      "uebersetzung": {
+        "fa": "بلند کردن",
+        "en": "to lift"
+      }
+    },
+    {
+      "wort": "sich wehren",
+      "uebersetzung": {
+        "fa": "مقاومت کردن",
+        "en": "to resist"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Gewichtheben",
+      "uebersetzung": {
+        "fa": "وزنه‌برداری",
+        "en": "weightlifting"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "stemmen (محکم نگه داشتن) — فعل ساده",
+    "en": "stemmen (to brace) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich gegen + Akk stemmen",
+        "bedeutung": "sich mit Kraft gegen etwas wehren",
+        "beispiel": "Sie stemmt sich gegen die Tür.",
+        "uebersetzung": {
+          "fa": "او خودش را به در فشار می‌دهد.",
+          "en": "She braces herself against the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stemmen",
+      "praeteritum": "stemmte",
+      "partizip2": "gestemmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stemme",
+        "du": "stemmst",
+        "er_sie_es": "stemmt",
+        "wir": "stemmen",
+        "ihr": "stemmt",
+        "sie_Sie": "stemmen"
+      },
+      "praeteritum": {
+        "ich": "stemmte",
+        "du": "stemmtest",
+        "er_sie_es": "stemmte",
+        "wir": "stemmten",
+        "ihr": "stemmtet",
+        "sie_Sie": "stemmten"
+      },
+      "konjunktiv1": {
+        "ich": "stemme",
+        "du": "stemmest",
+        "er_sie_es": "stemme",
+        "wir": "stemmen",
+        "ihr": "stemmet",
+        "sie_Sie": "stemmen"
+      },
+      "konjunktiv2": {
+        "ich": "stemmte",
+        "du": "stemmtest",
+        "er_sie_es": "stemmte",
+        "wir": "stemmten",
+        "ihr": "stemmtet",
+        "sie_Sie": "stemmten"
+      },
+      "imperativ": {
+        "du": "Stemme!",
+        "ihr": "Stemmt!",
+        "Sie": "Stemmen Sie!"
+      }
+    },
+    "partizip1": "stemmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "heben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بلند کردن",
+          "en": "to lift"
+        },
+        "id_ref": "verb_heben"
+      },
+      {
+        "wort": "das Gewicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وزن، وزنه",
+          "en": "weight"
+        },
+        "id_ref": "nomen_gewicht"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "strength"
+        },
+        "id_ref": "nomen_kraft"
+      },
+      {
+        "wort": "drücken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فشار دادن",
+          "en": "to press"
+        },
+        "id_ref": "verb_druecken"
+      },
+      {
+        "wort": "wehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_wehren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

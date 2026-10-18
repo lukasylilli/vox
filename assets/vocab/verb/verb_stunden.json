@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_stunden",
+  "wort": "stunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مهلت دادن (برای پرداخت)"
+    ],
+    "en": [
+      "to defer (payment)",
+      "to grant a respite"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geld",
+    "Recht"
+  ],
+  "ipa": "ˈʃtʊndn̩",
+  "anmerkung": "Fachsprache (Finanzen, Recht).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bank stundet die Rate.",
+      "uebersetzung": {
+        "fa": "بانک برای پرداخت قسط مهلت می‌دهد.",
+        "en": "The bank defers the instalment."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Finanzamt hat ihm die Steuerschuld wegen seiner Krankheit für sechs Monate gestundet.",
+      "uebersetzung": {
+        "fa": "اداره‌ی مالیات به‌خاطر بیماری‌اش شش ماه برای بدهی مالیاتی‌اش مهلت داد.",
+        "en": "Because of his illness the tax office granted him a six-month deferral of his tax debt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufschieben",
+      "uebersetzung": {
+        "fa": "به تعویق انداختن",
+        "en": "to postpone"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Stunde (ساعت، وقت) — «وقت دادن»",
+    "en": "from die Stunde (hour, time) — «to give time»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stunden",
+      "praeteritum": "stundete",
+      "partizip2": "gestundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stunde",
+        "du": "stundest",
+        "er_sie_es": "stundet",
+        "wir": "stunden",
+        "ihr": "stundet",
+        "sie_Sie": "stunden"
+      },
+      "praeteritum": {
+        "ich": "stundete",
+        "du": "stundetest",
+        "er_sie_es": "stundete",
+        "wir": "stundeten",
+        "ihr": "stundetet",
+        "sie_Sie": "stundeten"
+      },
+      "konjunktiv1": {
+        "ich": "stunde",
+        "du": "stundest",
+        "er_sie_es": "stunde",
+        "wir": "stunden",
+        "ihr": "stundet",
+        "sie_Sie": "stunden"
+      },
+      "konjunktiv2": {
+        "ich": "stundete",
+        "du": "stundetest",
+        "er_sie_es": "stundete",
+        "wir": "stundeten",
+        "ihr": "stundetet",
+        "sie_Sie": "stundeten"
+      },
+      "imperativ": {
+        "du": "Stunde!",
+        "ihr": "Stundet!",
+        "Sie": "Stunden Sie!"
+      }
+    },
+    "partizip1": "stundend",
+    "nominalisierung": "die Stundung"
+  },
+  "wortnetz": {
+    "grundwort": "Stunde",
+    "woerter": [
+      {
+        "wort": "die Stundung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهلت پرداخت",
+          "en": "deferral"
+        },
+        "id_ref": "nomen_stundung"
+      },
+      {
+        "wort": "die Rate",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قسط",
+          "en": "instalment"
+        },
+        "id_ref": "nomen_rate"
+      },
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بدهی",
+          "en": "debt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

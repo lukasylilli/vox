@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_stranden",
+  "wort": "stranden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به گل نشستن (کشتی)",
+      "سرگردان ماندن",
+      "شکست خوردن"
+    ],
+    "en": [
+      "to run aground",
+      "to be stranded",
+      "to fail"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Reisen",
+    "Meer"
+  ],
+  "ipa": "ˈʃtʁandn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Wal ist am Strand gestrandet.",
+      "uebersetzung": {
+        "fa": "یک نهنگ در ساحل به گل نشسته است.",
+        "en": "A whale has been stranded on the beach."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen des Streiks sind Tausende Reisende am Flughafen gestrandet.",
+      "uebersetzung": {
+        "fa": "به‌خاطر اعتصاب هزاران مسافر در فرودگاه سرگردان ماندند.",
+        "en": "Because of the strike thousands of travellers were stranded at the airport."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "auflaufen",
+      "uebersetzung": {
+        "fa": "به گل نشستن",
+        "en": "to run aground"
+      }
+    },
+    {
+      "wort": "scheitern",
+      "uebersetzung": {
+        "fa": "شکست خوردن",
+        "en": "to fail"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Strand (ساحل)",
+    "en": "from der Strand (beach)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stranden",
+      "praeteritum": "strandete",
+      "partizip2": "gestrandet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "strande",
+        "du": "strandest",
+        "er_sie_es": "strandet",
+        "wir": "stranden",
+        "ihr": "strandet",
+        "sie_Sie": "stranden"
+      },
+      "praeteritum": {
+        "ich": "strandete",
+        "du": "strandetest",
+        "er_sie_es": "strandete",
+        "wir": "strandeten",
+        "ihr": "strandetet",
+        "sie_Sie": "strandeten"
+      },
+      "konjunktiv1": {
+        "ich": "strande",
+        "du": "strandest",
+        "er_sie_es": "strande",
+        "wir": "stranden",
+        "ihr": "strandet",
+        "sie_Sie": "stranden"
+      },
+      "konjunktiv2": {
+        "ich": "strandete",
+        "du": "strandetest",
+        "er_sie_es": "strandete",
+        "wir": "strandeten",
+        "ihr": "strandetet",
+        "sie_Sie": "strandeten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "strandend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Strand",
+    "woerter": [
+      {
+        "wort": "der Strand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساحل",
+          "en": "beach"
+        },
+        "id_ref": "nomen_strand"
+      },
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "scheitern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکست خوردن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_scheitern"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "festsitzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گیر افتادن",
+          "en": "to be stuck"
+        },
+        "id_ref": "verb_festsitzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

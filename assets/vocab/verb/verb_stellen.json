@@ -1,0 +1,209 @@
+{
+  "schema": "3.0",
+  "id": "verb_stellen",
+  "wort": "stellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گذاشتن (ایستاده)",
+      "قرار دادن",
+      "تنظیم کردن",
+      "مطرح کردن (سؤال)"
+    ],
+    "en": [
+      "to put",
+      "to place",
+      "to set",
+      "to ask (a question)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Wohnen"
+  ],
+  "ipa": "ˈʃtɛlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich stelle die Flasche auf den Tisch.",
+      "uebersetzung": {
+        "fa": "بطری را روی میز می‌گذارم.",
+        "en": "I put the bottle on the table."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Darf ich Ihnen eine Frage stellen?",
+      "uebersetzung": {
+        "fa": "اجازه می‌دهید سؤالی از شما بپرسم؟",
+        "en": "May I ask you a question?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "setzen",
+      "uebersetzung": {
+        "fa": "گذاشتن (نشسته)",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "legen",
+      "uebersetzung": {
+        "fa": "گذاشتن (خوابیده)",
+        "en": "to lay"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "wegnehmen",
+      "uebersetzung": {
+        "fa": "برداشتن",
+        "en": "to take away"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "stellen (برپا کردن) — هم‌ریشه با die Stelle و stehen",
+    "en": "stellen (to set up) — related to die Stelle and stehen"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "stellen + Akk + Präposition (wohin?)",
+        "bedeutung": "etwas aufrecht an einen Ort bringen (Wechselpräposition + Akk)",
+        "beispiel": "Stell die Schuhe vor die Tür!",
+        "uebersetzung": {
+          "fa": "کفش‌ها را جلوی در بگذار!",
+          "en": "Put the shoes in front of the door!"
+        }
+      },
+      {
+        "muster": "sich stellen",
+        "bedeutung": "sich hinstellen; sich (der Polizei / einem Problem) stellen",
+        "beispiel": "Der Täter hat sich der Polizei gestellt.",
+        "uebersetzung": {
+          "fa": "مجرم خودش را به پلیس معرفی کرد.",
+          "en": "The offender gave himself up to the police."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "stellen",
+      "praeteritum": "stellte",
+      "partizip2": "gestellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stelle",
+        "du": "stellst",
+        "er_sie_es": "stellt",
+        "wir": "stellen",
+        "ihr": "stellt",
+        "sie_Sie": "stellen"
+      },
+      "praeteritum": {
+        "ich": "stellte",
+        "du": "stelltest",
+        "er_sie_es": "stellte",
+        "wir": "stellten",
+        "ihr": "stelltet",
+        "sie_Sie": "stellten"
+      },
+      "konjunktiv1": {
+        "ich": "stelle",
+        "du": "stellest",
+        "er_sie_es": "stelle",
+        "wir": "stellen",
+        "ihr": "stellet",
+        "sie_Sie": "stellen"
+      },
+      "konjunktiv2": {
+        "ich": "stellte",
+        "du": "stelltest",
+        "er_sie_es": "stellte",
+        "wir": "stellten",
+        "ihr": "stelltet",
+        "sie_Sie": "stellten"
+      },
+      "imperativ": {
+        "du": "Stelle!",
+        "ihr": "Stellt!",
+        "Sie": "Stellen Sie!"
+      }
+    },
+    "partizip1": "stellend",
+    "nominalisierung": "die Stellung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "stehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stand"
+        },
+        "id_ref": "verb_stehen"
+      },
+      {
+        "wort": "die Stelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جا، شغل",
+          "en": "place, job"
+        },
+        "id_ref": "nomen_stelle"
+      },
+      {
+        "wort": "legen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن (خوابیده)",
+          "en": "to lay"
+        },
+        "id_ref": "verb_legen"
+      },
+      {
+        "wort": "setzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذاشتن، نشاندن",
+          "en": "to set"
+        },
+        "id_ref": "verb_setzen"
+      },
+      {
+        "wort": "die Frage",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سؤال",
+          "en": "question"
+        },
+        "id_ref": "nomen_frage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

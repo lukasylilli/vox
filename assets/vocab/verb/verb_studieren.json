@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_studieren",
+  "wort": "studieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحصیل کردن (در دانشگاه)",
+      "با دقت بررسی کردن"
+    ],
+    "en": [
+      "to study",
+      "to examine"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Bildung",
+    "Universität"
+  ],
+  "ipa": "ʃtuˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Schwester studiert Medizin in Wien.",
+      "uebersetzung": {
+        "fa": "خواهرم در وین پزشکی می‌خواند.",
+        "en": "My sister studies medicine in Vienna."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor ich unterschreibe, möchte ich den Vertrag genau studieren.",
+      "uebersetzung": {
+        "fa": "پیش از امضا می‌خواهم قرارداد را دقیق بررسی کنم.",
+        "en": "Before I sign, I would like to study the contract carefully."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lernen",
+      "uebersetzung": {
+        "fa": "یاد گرفتن، درس خواندن",
+        "en": "to learn"
+      }
+    },
+    {
+      "wort": "untersuchen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to examine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین studere (کوشیدن)",
+    "en": "from Latin studere (to strive)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "studieren an + Dat",
+        "bedeutung": "an einer Hochschule studieren",
+        "beispiel": "Er studiert an der Universität Innsbruck.",
+        "uebersetzung": {
+          "fa": "او در دانشگاه اینسبروک درس می‌خواند.",
+          "en": "He studies at the University of Innsbruck."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "studieren",
+      "praeteritum": "studierte",
+      "partizip2": "studiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "studiere",
+        "du": "studierst",
+        "er_sie_es": "studiert",
+        "wir": "studieren",
+        "ihr": "studiert",
+        "sie_Sie": "studieren"
+      },
+      "praeteritum": {
+        "ich": "studierte",
+        "du": "studiertest",
+        "er_sie_es": "studierte",
+        "wir": "studierten",
+        "ihr": "studiertet",
+        "sie_Sie": "studierten"
+      },
+      "konjunktiv1": {
+        "ich": "studiere",
+        "du": "studierest",
+        "er_sie_es": "studiere",
+        "wir": "studieren",
+        "ihr": "studieret",
+        "sie_Sie": "studieren"
+      },
+      "konjunktiv2": {
+        "ich": "studierte",
+        "du": "studiertest",
+        "er_sie_es": "studierte",
+        "wir": "studierten",
+        "ihr": "studiertet",
+        "sie_Sie": "studierten"
+      },
+      "imperativ": {
+        "du": "Studiere!",
+        "ihr": "Studiert!",
+        "Sie": "Studieren Sie!"
+      }
+    },
+    "partizip1": "studierend",
+    "nominalisierung": "das Studium"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Studium",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحصیل دانشگاهی",
+          "en": "studies"
+        },
+        "id_ref": "nomen_studium"
+      },
+      {
+        "wort": "der Student",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دانشجو",
+          "en": "student"
+        },
+        "id_ref": "nomen_student"
+      },
+      {
+        "wort": "die Universität",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دانشگاه",
+          "en": "university"
+        },
+        "id_ref": "nomen_universitaet"
+      },
+      {
+        "wort": "lernen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یاد گرفتن",
+          "en": "to learn"
+        },
+        "id_ref": "verb_lernen"
+      },
+      {
+        "wort": "das Fach",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشته، درس",
+          "en": "subject"
+        },
+        "id_ref": "nomen_fach"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

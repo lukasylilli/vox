@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_stricken",
+  "wort": "stricken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بافتن (با میل)"
+    ],
+    "en": [
+      "to knit"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Handarbeit",
+    "Hobby"
+  ],
+  "ipa": "ˈʃtʁɪkn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Meine Mutter strickt einen Schal.",
+      "uebersetzung": {
+        "fa": "مادرم یک شال‌گردن می‌بافد.",
+        "en": "My mother is knitting a scarf."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Den Pullover hat mir meine Großmutter zum Geburtstag gestrickt.",
+      "uebersetzung": {
+        "fa": "این پلیور را مادربزرگم برای تولدم بافته است.",
+        "en": "My grandmother knitted this pullover for my birthday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "häkeln",
+      "uebersetzung": {
+        "fa": "قلاب‌بافی کردن",
+        "en": "to crochet"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Stricknadel",
+      "uebersetzung": {
+        "fa": "میل بافتنی",
+        "en": "knitting needle"
+      }
+    },
+    {
+      "wort": "die Strickjacke",
+      "uebersetzung": {
+        "fa": "ژاکت بافتنی",
+        "en": "cardigan"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از der Strick (طناب) — در اصل «گره زدن»",
+    "en": "from der Strick (rope) — originally «to knot»"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stricken",
+      "praeteritum": "strickte",
+      "partizip2": "gestrickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stricke",
+        "du": "strickst",
+        "er_sie_es": "strickt",
+        "wir": "stricken",
+        "ihr": "strickt",
+        "sie_Sie": "stricken"
+      },
+      "praeteritum": {
+        "ich": "strickte",
+        "du": "stricktest",
+        "er_sie_es": "strickte",
+        "wir": "strickten",
+        "ihr": "stricktet",
+        "sie_Sie": "strickten"
+      },
+      "konjunktiv1": {
+        "ich": "stricke",
+        "du": "strickest",
+        "er_sie_es": "stricke",
+        "wir": "stricken",
+        "ihr": "stricket",
+        "sie_Sie": "stricken"
+      },
+      "konjunktiv2": {
+        "ich": "strickte",
+        "du": "stricktest",
+        "er_sie_es": "strickte",
+        "wir": "strickten",
+        "ihr": "stricktet",
+        "sie_Sie": "strickten"
+      },
+      "imperativ": {
+        "du": "Stricke!",
+        "ihr": "Strickt!",
+        "Sie": "Stricken Sie!"
+      }
+    },
+    "partizip1": "strickend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wolle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پشم، کاموا",
+          "en": "wool"
+        },
+        "id_ref": "nomen_wolle"
+      },
+      {
+        "wort": "die Nadel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سوزن، میل",
+          "en": "needle"
+        },
+        "id_ref": "nomen_nadel"
+      },
+      {
+        "wort": "häkeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قلاب‌بافی کردن",
+          "en": "to crochet"
+        },
+        "id_ref": "verb_haekeln"
+      },
+      {
+        "wort": "der Pullover",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیور",
+          "en": "pullover"
+        },
+        "id_ref": "nomen_pullover"
+      },
+      {
+        "wort": "nähen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دوختن",
+          "en": "to sew"
+        },
+        "id_ref": "verb_naehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

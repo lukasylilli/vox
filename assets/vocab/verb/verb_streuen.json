@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_streuen",
+  "wort": "streuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاشیدن",
+      "نمک پاشیدن (روی یخ)",
+      "پخش کردن (شایعه)"
+    ],
+    "en": [
+      "to sprinkle",
+      "to scatter",
+      "to grit",
+      "to spread (rumours)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Haushalt",
+    "Winter"
+  ],
+  "ipa": "ˈʃtʁɔɪ̯ən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich streue Zucker auf den Kuchen.",
+      "uebersetzung": {
+        "fa": "روی کیک شکر می‌پاشم.",
+        "en": "I sprinkle sugar on the cake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Winter muss der Hausmeister morgens Salz auf den Gehweg streuen.",
+      "uebersetzung": {
+        "fa": "زمستان سرایدار باید صبح‌ها روی پیاده‌رو نمک بپاشد.",
+        "en": "In winter the caretaker has to grit the pavement with salt in the mornings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verteilen",
+      "uebersetzung": {
+        "fa": "پخش کردن",
+        "en": "to distribute"
+      }
+    },
+    {
+      "wort": "verbreiten",
+      "uebersetzung": {
+        "fa": "منتشر کردن",
+        "en": "to spread"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Streusalz",
+      "uebersetzung": {
+        "fa": "نمک جاده",
+        "en": "road salt"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "streuen (پاشیدن) — فعل ساده",
+    "en": "streuen (to scatter) — simple verb"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "Gerüchte streuen",
+        "bedeutung": "Gerüchte verbreiten",
+        "beispiel": "Jemand hat das Gerücht gestreut, dass die Firma schließt.",
+        "uebersetzung": {
+          "fa": "یکی این شایعه را پخش کرده که شرکت تعطیل می‌شود.",
+          "en": "Someone spread the rumour that the company is closing."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "streuen",
+      "praeteritum": "streute",
+      "partizip2": "gestreut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "streue",
+        "du": "streust",
+        "er_sie_es": "streut",
+        "wir": "streuen",
+        "ihr": "streut",
+        "sie_Sie": "streuen"
+      },
+      "praeteritum": {
+        "ich": "streute",
+        "du": "streutest",
+        "er_sie_es": "streute",
+        "wir": "streuten",
+        "ihr": "streutet",
+        "sie_Sie": "streuten"
+      },
+      "konjunktiv1": {
+        "ich": "streue",
+        "du": "streuest",
+        "er_sie_es": "streue",
+        "wir": "streuen",
+        "ihr": "streuet",
+        "sie_Sie": "streuen"
+      },
+      "konjunktiv2": {
+        "ich": "streute",
+        "du": "streutest",
+        "er_sie_es": "streute",
+        "wir": "streuten",
+        "ihr": "streutet",
+        "sie_Sie": "streuten"
+      },
+      "imperativ": {
+        "du": "Streue!",
+        "ihr": "Streut!",
+        "Sie": "Streuen Sie!"
+      }
+    },
+    "partizip1": "streuend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Salz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نمک",
+          "en": "salt"
+        },
+        "id_ref": "nomen_salz"
+      },
+      {
+        "wort": "verteilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پخش کردن",
+          "en": "to distribute"
+        },
+        "id_ref": "verb_verteilen"
+      },
+      {
+        "wort": "der Zucker",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شکر",
+          "en": "sugar"
+        },
+        "id_ref": "nomen_zucker"
+      },
+      {
+        "wort": "das Glatteis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یخ‌زدگی جاده",
+          "en": "black ice"
+        },
+        "id_ref": "nomen_glatteis"
+      },
+      {
+        "wort": "das Gerücht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شایعه",
+          "en": "rumour"
+        },
+        "id_ref": "nomen_geruecht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

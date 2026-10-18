@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_staerken",
+  "wort": "stärken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قوی کردن",
+      "تقویت کردن",
+      "آهار زدن (لباس)"
+    ],
+    "en": [
+      "to strengthen",
+      "to fortify",
+      "to starch"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈʃtɛʁkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sport stärkt die Muskeln.",
+      "uebersetzung": {
+        "fa": "ورزش ماهیچه‌ها را قوی می‌کند.",
+        "en": "Sport strengthens the muscles."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach der langen Wanderung haben wir uns mit einer warmen Suppe gestärkt.",
+      "uebersetzung": {
+        "fa": "بعد از پیاده‌روی طولانی با یک سوپ گرم جان گرفتیم.",
+        "en": "After the long hike we fortified ourselves with a warm soup."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kräftigen",
+      "uebersetzung": {
+        "fa": "نیرومند کردن",
+        "en": "to strengthen"
+      }
+    },
+    {
+      "wort": "festigen",
+      "uebersetzung": {
+        "fa": "محکم کردن",
+        "en": "to consolidate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schwächen",
+      "uebersetzung": {
+        "fa": "ضعیف کردن",
+        "en": "to weaken"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت stark (قوی)",
+    "en": "from the adjective stark (strong)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "stärken",
+      "praeteritum": "stärkte",
+      "partizip2": "gestärkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stärke",
+        "du": "stärkst",
+        "er_sie_es": "stärkt",
+        "wir": "stärken",
+        "ihr": "stärkt",
+        "sie_Sie": "stärken"
+      },
+      "praeteritum": {
+        "ich": "stärkte",
+        "du": "stärktest",
+        "er_sie_es": "stärkte",
+        "wir": "stärkten",
+        "ihr": "stärktet",
+        "sie_Sie": "stärkten"
+      },
+      "konjunktiv1": {
+        "ich": "stärke",
+        "du": "stärkest",
+        "er_sie_es": "stärke",
+        "wir": "stärken",
+        "ihr": "stärket",
+        "sie_Sie": "stärken"
+      },
+      "konjunktiv2": {
+        "ich": "stärkte",
+        "du": "stärktest",
+        "er_sie_es": "stärkte",
+        "wir": "stärkten",
+        "ihr": "stärktet",
+        "sie_Sie": "stärkten"
+      },
+      "imperativ": {
+        "du": "Stärke!",
+        "ihr": "Stärkt!",
+        "Sie": "Stärken Sie!"
+      }
+    },
+    "partizip1": "stärkend",
+    "nominalisierung": "die Stärkung"
+  },
+  "wortnetz": {
+    "grundwort": "stark",
+    "woerter": [
+      {
+        "wort": "stark",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قوی",
+          "en": "strong"
+        },
+        "id_ref": "adjektiv_stark"
+      },
+      {
+        "wort": "die Stärke",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قدرت، نشاسته",
+          "en": "strength, starch"
+        },
+        "id_ref": "nomen_staerke"
+      },
+      {
+        "wort": "schwächen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضعیف کردن",
+          "en": "to weaken"
+        },
+        "id_ref": "verb_schwaechen"
+      },
+      {
+        "wort": "das Immunsystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستگاه ایمنی",
+          "en": "immune system"
+        },
+        "id_ref": "nomen_immunsystem"
+      },
+      {
+        "wort": "der Muskel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماهیچه",
+          "en": "muscle"
+        },
+        "id_ref": "nomen_muskel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
