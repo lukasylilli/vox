@@ -1,0 +1,207 @@
+{
+  "schema": "3.0",
+  "id": "verb_pruefen",
+  "wort": "prüfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بررسی کردن",
+      "امتحان گرفتن",
+      "آزمودن"
+    ],
+    "en": [
+      "to check",
+      "to examine",
+      "to test"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Schule",
+    "Arbeit",
+    "Alltag"
+  ],
+  "ipa": "ˈpʁyːfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte prüfen Sie die Rechnung.",
+      "uebersetzung": {
+        "fa": "لطفاً صورت‌حساب را بررسی کنید.",
+        "en": "Please check the invoice."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir losfahren, prüfe ich noch einmal, ob alle Fenster zu sind.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه راه بیفتیم، یک بار دیگر بررسی می‌کنم که همه‌ی پنجره‌ها بسته باشند.",
+        "en": "Before we set off, I will check once more whether all the windows are closed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kontrollieren",
+      "uebersetzung": {
+        "fa": "کنترل کردن",
+        "en": "to check"
+      }
+    },
+    {
+      "wort": "testen",
+      "uebersetzung": {
+        "fa": "آزمایش کردن",
+        "en": "to test"
+      }
+    },
+    {
+      "wort": "untersuchen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to examine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas prüfen auf + Akk",
+        "bedeutung": "untersuchen, ob etwas eine Eigenschaft hat",
+        "beispiel": "Das Labor prüft das Wasser auf Bakterien.",
+        "uebersetzung": {
+          "fa": "آزمایشگاه آب را از نظر باکتری بررسی می‌کند.",
+          "en": "The laboratory tests the water for bacteria."
+        }
+      },
+      {
+        "muster": "jdn. prüfen in + Dat",
+        "bedeutung": "jemandem in einem Fach eine Prüfung abnehmen",
+        "beispiel": "Morgen werden wir in Mathematik geprüft.",
+        "uebersetzung": {
+          "fa": "فردا از ما در ریاضی امتحان گرفته می‌شود.",
+          "en": "Tomorrow we will be examined in mathematics."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "prüfen",
+      "praeteritum": "prüfte",
+      "partizip2": "geprüft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "prüfe",
+        "du": "prüfst",
+        "er_sie_es": "prüft",
+        "wir": "prüfen",
+        "ihr": "prüft",
+        "sie_Sie": "prüfen"
+      },
+      "praeteritum": {
+        "ich": "prüfte",
+        "du": "prüftest",
+        "er_sie_es": "prüfte",
+        "wir": "prüften",
+        "ihr": "prüftet",
+        "sie_Sie": "prüften"
+      },
+      "konjunktiv1": {
+        "ich": "prüfe",
+        "du": "prüfest",
+        "er_sie_es": "prüfe",
+        "wir": "prüfen",
+        "ihr": "prüfet",
+        "sie_Sie": "prüfen"
+      },
+      "konjunktiv2": {
+        "ich": "prüfte",
+        "du": "prüftest",
+        "er_sie_es": "prüfte",
+        "wir": "prüften",
+        "ihr": "prüftet",
+        "sie_Sie": "prüften"
+      },
+      "imperativ": {
+        "du": "Prüfe!",
+        "ihr": "Prüft!",
+        "Sie": "Prüfen Sie!"
+      }
+    },
+    "partizip1": "prüfend",
+    "nominalisierung": "die Prüfung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Prüfung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امتحان",
+          "en": "exam"
+        },
+        "id_ref": "nomen_pruefung"
+      },
+      {
+        "wort": "kontrollieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کنترل کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_kontrollieren"
+      },
+      {
+        "wort": "testen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمایش کردن",
+          "en": "to test"
+        },
+        "id_ref": "verb_testen"
+      },
+      {
+        "wort": "überprüfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازبینی کردن",
+          "en": "to verify"
+        },
+        "id_ref": "verb_ueberpruefen"
+      },
+      {
+        "wort": "der Prüfer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ممتحن",
+          "en": "examiner"
+        },
+        "id_ref": "nomen_pruefer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

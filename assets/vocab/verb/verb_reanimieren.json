@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_reanimieren",
+  "wort": "reanimieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "احیا کردن (بیمار)",
+      "دوباره زنده کردن"
+    ],
+    "en": [
+      "to resuscitate",
+      "to revive"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Notfall"
+  ],
+  "ipa": "ʁeaniˈmiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Notarzt reanimiert den Mann.",
+      "uebersetzung": {
+        "fa": "پزشک اورژانس آن مرد را احیا می‌کند.",
+        "en": "The emergency doctor is resuscitating the man."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Sanitäter sofort mit der Herzmassage begannen, konnte die Patientin erfolgreich reanimiert werden.",
+      "uebersetzung": {
+        "fa": "چون امدادگران فوراً ماساژ قلبی را شروع کردند، بیمار با موفقیت احیا شد.",
+        "en": "Because the paramedics started heart massage immediately, the patient was successfully resuscitated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiederbeleben",
+      "uebersetzung": {
+        "fa": "احیا کردن",
+        "en": "to resuscitate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "re- (دوباره) + از لاتین animare (جان بخشیدن)",
+    "en": "re- (again) + from Latin animare (to give life)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "reanimieren",
+      "praeteritum": "reanimierte",
+      "partizip2": "reanimiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reanimiere",
+        "du": "reanimierst",
+        "er_sie_es": "reanimiert",
+        "wir": "reanimieren",
+        "ihr": "reanimiert",
+        "sie_Sie": "reanimieren"
+      },
+      "praeteritum": {
+        "ich": "reanimierte",
+        "du": "reanimiertest",
+        "er_sie_es": "reanimierte",
+        "wir": "reanimierten",
+        "ihr": "reanimiertet",
+        "sie_Sie": "reanimierten"
+      },
+      "konjunktiv1": {
+        "ich": "reanimiere",
+        "du": "reanimierest",
+        "er_sie_es": "reanimiere",
+        "wir": "reanimieren",
+        "ihr": "reanimieret",
+        "sie_Sie": "reanimieren"
+      },
+      "konjunktiv2": {
+        "ich": "reanimierte",
+        "du": "reanimiertest",
+        "er_sie_es": "reanimierte",
+        "wir": "reanimierten",
+        "ihr": "reanimiertet",
+        "sie_Sie": "reanimierten"
+      },
+      "imperativ": {
+        "du": "Reanimiere!",
+        "ihr": "Reanimiert!",
+        "Sie": "Reanimieren Sie!"
+      }
+    },
+    "partizip1": "reanimierend",
+    "nominalisierung": "die Reanimation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wiederbeleben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "احیا کردن",
+          "en": "to resuscitate"
+        },
+        "id_ref": "verb_wiederbeleben"
+      },
+      {
+        "wort": "der Notarzt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پزشک اورژانس",
+          "en": "emergency doctor"
+        },
+        "id_ref": "nomen_notarzt"
+      },
+      {
+        "wort": "die Herzmassage",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ماساژ قلبی",
+          "en": "heart massage"
+        },
+        "id_ref": "nomen_herzmassage"
+      },
+      {
+        "wort": "bewusstlos",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیهوش",
+          "en": "unconscious"
+        },
+        "id_ref": "adjektiv_bewusstlos"
+      },
+      {
+        "wort": "die Erste Hilfe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کمک‌های اولیه",
+          "en": "first aid"
+        },
+        "id_ref": "nomen_erste_hilfe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_rauchen",
+  "wort": "rauchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سیگار کشیدن",
+      "دود کردن"
+    ],
+    "en": [
+      "to smoke"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit",
+    "Alltag"
+  ],
+  "ipa": "ˈʁaʊ̯xn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Rauchen Sie?",
+      "uebersetzung": {
+        "fa": "سیگار می‌کشید؟",
+        "en": "Do you smoke?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit er nicht mehr raucht, fühlt er sich viel fitter.",
+      "uebersetzung": {
+        "fa": "از وقتی دیگر سیگار نمی‌کشد، خیلی سرحال‌تر است.",
+        "en": "Since he stopped smoking, he feels much fitter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "qualmen",
+      "uebersetzung": {
+        "fa": "دود کردن",
+        "en": "to smoke"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "aufhören",
+      "uebersetzung": {
+        "fa": "ترک کردن",
+        "en": "to quit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Rauch (دود) + -en",
+    "en": "Rauch (smoke) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "rauchen",
+      "praeteritum": "rauchte",
+      "partizip2": "geraucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rauche",
+        "du": "rauchst",
+        "er_sie_es": "raucht",
+        "wir": "rauchen",
+        "ihr": "raucht",
+        "sie_Sie": "rauchen"
+      },
+      "praeteritum": {
+        "ich": "rauchte",
+        "du": "rauchtest",
+        "er_sie_es": "rauchte",
+        "wir": "rauchten",
+        "ihr": "rauchtet",
+        "sie_Sie": "rauchten"
+      },
+      "konjunktiv1": {
+        "ich": "rauche",
+        "du": "rauchest",
+        "er_sie_es": "rauche",
+        "wir": "rauchen",
+        "ihr": "rauchet",
+        "sie_Sie": "rauchen"
+      },
+      "konjunktiv2": {
+        "ich": "rauchte",
+        "du": "rauchtest",
+        "er_sie_es": "rauchte",
+        "wir": "rauchten",
+        "ihr": "rauchtet",
+        "sie_Sie": "rauchten"
+      },
+      "imperativ": {
+        "du": "Rauche!",
+        "ihr": "Raucht!",
+        "Sie": "Rauchen Sie!"
+      }
+    },
+    "partizip1": "rauchend",
+    "nominalisierung": "das Rauchen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Raucher",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سیگاری",
+          "en": "smoker"
+        },
+        "id_ref": "nomen_raucher"
+      },
+      {
+        "wort": "die Zigarette",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سیگار",
+          "en": "cigarette"
+        },
+        "id_ref": "nomen_zigarette"
+      },
+      {
+        "wort": "der Rauch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دود",
+          "en": "smoke"
+        },
+        "id_ref": "nomen_rauch"
+      },
+      {
+        "wort": "das Rauchverbot",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوعیت سیگار",
+          "en": "smoking ban"
+        },
+        "id_ref": "nomen_rauchverbot"
+      },
+      {
+        "wort": "der Nichtraucher",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غیرسیگاری",
+          "en": "non-smoker"
+        },
+        "id_ref": "nomen_nichtraucher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

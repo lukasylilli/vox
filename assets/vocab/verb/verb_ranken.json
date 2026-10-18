@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_ranken",
+  "wort": "ranken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچیدن و بالا رفتن (گیاه)"
+    ],
+    "en": [
+      "to climb",
+      "to twine"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Garten"
+  ],
+  "ipa": "ˈʁaŋkn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Efeu rankt sich an der Mauer.",
+      "uebersetzung": {
+        "fa": "پیچک روی دیوار بالا می‌رود.",
+        "en": "Ivy climbs up the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Um die alte Burg ranken sich viele Legenden, die man sich seit Jahrhunderten erzählt.",
+      "uebersetzung": {
+        "fa": "افسانه‌های زیادی پیرامون آن قلعه‌ی قدیمی وجود دارد که قرن‌هاست تعریف می‌شوند.",
+        "en": "Many legends, which have been told for centuries, surround the old castle."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klettern",
+      "uebersetzung": {
+        "fa": "بالا رفتن",
+        "en": "to climb"
+      }
+    },
+    {
+      "wort": "wuchern",
+      "uebersetzung": {
+        "fa": "انبوه روییدن",
+        "en": "to grow rampant"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ranke (پیچک، شاخه‌ی پیچنده) + -n",
+    "en": "Ranke (tendril) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich ranken um + Akk",
+        "bedeutung": "sich um etwas winden; übertragen: mit etwas verbunden sein",
+        "beispiel": "Um das Haus ranken sich Geschichten.",
+        "uebersetzung": {
+          "fa": "داستان‌هایی پیرامون این خانه وجود دارد.",
+          "en": "Stories surround the house."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "ranken",
+      "praeteritum": "rankte",
+      "partizip2": "gerankt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ranke",
+        "du": "rankst",
+        "er_sie_es": "rankt",
+        "wir": "ranken",
+        "ihr": "rankt",
+        "sie_Sie": "ranken"
+      },
+      "praeteritum": {
+        "ich": "rankte",
+        "du": "ranktest",
+        "er_sie_es": "rankte",
+        "wir": "rankten",
+        "ihr": "ranktet",
+        "sie_Sie": "rankten"
+      },
+      "konjunktiv1": {
+        "ich": "ranke",
+        "du": "rankest",
+        "er_sie_es": "ranke",
+        "wir": "ranken",
+        "ihr": "ranket",
+        "sie_Sie": "ranken"
+      },
+      "konjunktiv2": {
+        "ich": "rankte",
+        "du": "ranktest",
+        "er_sie_es": "rankte",
+        "wir": "rankten",
+        "ihr": "ranktet",
+        "sie_Sie": "rankten"
+      },
+      "imperativ": {
+        "du": "Ranke!",
+        "ihr": "Rankt!",
+        "Sie": "Ranken Sie!"
+      }
+    },
+    "partizip1": "rankend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ranke",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شاخه‌ی پیچنده",
+          "en": "tendril"
+        },
+        "id_ref": "nomen_ranke"
+      },
+      {
+        "wort": "die Pflanze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیاه",
+          "en": "plant"
+        },
+        "id_ref": "nomen_pflanze"
+      },
+      {
+        "wort": "klettern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بالا رفتن",
+          "en": "to climb"
+        },
+        "id_ref": "verb_klettern"
+      },
+      {
+        "wort": "der Efeu",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیچک",
+          "en": "ivy"
+        },
+        "id_ref": "nomen_efeu"
+      },
+      {
+        "wort": "wachsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشد کردن",
+          "en": "to grow"
+        },
+        "id_ref": "verb_wachsen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

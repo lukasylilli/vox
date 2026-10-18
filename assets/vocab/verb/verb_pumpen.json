@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_pumpen",
+  "wort": "pumpen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پمپ کردن",
+      "تلمبه زدن",
+      "قرض دادن / قرض گرفتن (محاوره)"
+    ],
+    "en": [
+      "to pump",
+      "to lend / to borrow (colloquial)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Alltag"
+  ],
+  "ipa": "ˈpʊmpn̩",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich pumpe die Reifen auf.",
+      "uebersetzung": {
+        "fa": "لاستیک‌ها را باد می‌کنم.",
+        "en": "I am pumping up the tyres."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Herz pumpt Blut durch den Körper, solange wir leben.",
+      "uebersetzung": {
+        "fa": "تا وقتی زنده‌ایم، قلب خون را در بدن پمپ می‌کند.",
+        "en": "The heart pumps blood through the body as long as we live."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leihen",
+      "uebersetzung": {
+        "fa": "قرض دادن",
+        "en": "to lend"
+      }
+    },
+    {
+      "wort": "borgen",
+      "uebersetzung": {
+        "fa": "قرض گرفتن",
+        "en": "to borrow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pumpe (پمپ) + -n",
+    "en": "Pumpe (pump) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas pumpen",
+        "bedeutung": "jemandem etwas leihen (umgangssprachlich)",
+        "beispiel": "Kannst du mir zehn Euro pumpen?",
+        "uebersetzung": {
+          "fa": "می‌توانی ده یورو به من قرض بدهی؟",
+          "en": "Can you lend me ten euros?"
+        }
+      },
+      {
+        "muster": "sich etwas pumpen von + Dat",
+        "bedeutung": "sich etwas leihen (umgangssprachlich)",
+        "beispiel": "Ich habe mir das Fahrrad von meinem Nachbarn gepumpt.",
+        "uebersetzung": {
+          "fa": "دوچرخه را از همسایه‌ام قرض گرفتم.",
+          "en": "I borrowed the bike from my neighbour."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pumpen",
+      "praeteritum": "pumpte",
+      "partizip2": "gepumpt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pumpe",
+        "du": "pumpst",
+        "er_sie_es": "pumpt",
+        "wir": "pumpen",
+        "ihr": "pumpt",
+        "sie_Sie": "pumpen"
+      },
+      "praeteritum": {
+        "ich": "pumpte",
+        "du": "pumptest",
+        "er_sie_es": "pumpte",
+        "wir": "pumpten",
+        "ihr": "pumptet",
+        "sie_Sie": "pumpten"
+      },
+      "konjunktiv1": {
+        "ich": "pumpe",
+        "du": "pumpest",
+        "er_sie_es": "pumpe",
+        "wir": "pumpen",
+        "ihr": "pumpet",
+        "sie_Sie": "pumpen"
+      },
+      "konjunktiv2": {
+        "ich": "pumpte",
+        "du": "pumptest",
+        "er_sie_es": "pumpte",
+        "wir": "pumpten",
+        "ihr": "pumptet",
+        "sie_Sie": "pumpten"
+      },
+      "imperativ": {
+        "du": "Pumpe!",
+        "ihr": "Pumpt!",
+        "Sie": "Pumpen Sie!"
+      }
+    },
+    "partizip1": "pumpend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Pumpe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پمپ",
+          "en": "pump"
+        },
+        "id_ref": "nomen_pumpe"
+      },
+      {
+        "wort": "aufpumpen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "باد کردن",
+          "en": "to pump up"
+        },
+        "id_ref": "verb_aufpumpen"
+      },
+      {
+        "wort": "leihen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرض دادن",
+          "en": "to lend"
+        },
+        "id_ref": "verb_leihen"
+      },
+      {
+        "wort": "der Reifen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لاستیک",
+          "en": "tyre"
+        },
+        "id_ref": "nomen_reifen"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

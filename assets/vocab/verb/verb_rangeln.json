@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_rangeln",
+  "wort": "rangeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کشمکش کردن",
+      "گلاویز شدن",
+      "رقابت کردن"
+    ],
+    "en": [
+      "to scuffle",
+      "to tussle",
+      "to jostle"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Konflikt",
+    "Sport"
+  ],
+  "ipa": "ˈʁaŋl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder rangeln auf dem Boden.",
+      "uebersetzung": {
+        "fa": "بچه‌ها روی زمین با هم کشتی می‌گیرند.",
+        "en": "The children are tussling on the floor."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Parteien rangeln um die Posten, obwohl die Regierung noch gar nicht gebildet ist.",
+      "uebersetzung": {
+        "fa": "حزب‌ها بر سر پست‌ها کشمکش دارند، با اینکه دولت هنوز تشکیل نشده است.",
+        "en": "The parties are jostling for posts, although the government has not even been formed yet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "raufen",
+      "uebersetzung": {
+        "fa": "کتک‌کاری کردن",
+        "en": "to scuffle"
+      }
+    },
+    {
+      "wort": "kämpfen",
+      "uebersetzung": {
+        "fa": "جنگیدن",
+        "en": "to fight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "rangeln um + Akk",
+        "bedeutung": "um etwas kämpfen oder konkurrieren",
+        "beispiel": "Zwei Spieler rangeln um den Ball.",
+        "uebersetzung": {
+          "fa": "دو بازیکن بر سر توپ کشمکش می‌کنند.",
+          "en": "Two players are tussling for the ball."
+        }
+      },
+      {
+        "muster": "rangeln mit + Dat",
+        "bedeutung": "mit jemandem kämpfen",
+        "beispiel": "Er rangelte mit seinem Bruder.",
+        "uebersetzung": {
+          "fa": "او با برادرش گلاویز شد.",
+          "en": "He scuffled with his brother."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rangeln",
+      "praeteritum": "rangelte",
+      "partizip2": "gerangelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rangle",
+        "du": "rangelst",
+        "er_sie_es": "rangelt",
+        "wir": "rangeln",
+        "ihr": "rangelt",
+        "sie_Sie": "rangeln"
+      },
+      "praeteritum": {
+        "ich": "rangelte",
+        "du": "rangeltest",
+        "er_sie_es": "rangelte",
+        "wir": "rangelten",
+        "ihr": "rangeltet",
+        "sie_Sie": "rangelten"
+      },
+      "konjunktiv1": {
+        "ich": "rangle",
+        "du": "ranglest",
+        "er_sie_es": "rangle",
+        "wir": "rangeln",
+        "ihr": "ranglet",
+        "sie_Sie": "rangeln"
+      },
+      "konjunktiv2": {
+        "ich": "rangelte",
+        "du": "rangeltest",
+        "er_sie_es": "rangelte",
+        "wir": "rangelten",
+        "ihr": "rangeltet",
+        "sie_Sie": "rangelten"
+      },
+      "imperativ": {
+        "du": "Rangle!",
+        "ihr": "Rangelt!",
+        "Sie": "Rangeln Sie!"
+      }
+    },
+    "partizip1": "rangelnd",
+    "nominalisierung": "die Rangelei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "raufen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کتک‌کاری کردن",
+          "en": "to scuffle"
+        },
+        "id_ref": "verb_raufen"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "die Rangelei",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کشمکش",
+          "en": "scuffle"
+        },
+        "id_ref": "nomen_rangelei"
+      },
+      {
+        "wort": "die Konkurrenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقابت",
+          "en": "competition"
+        },
+        "id_ref": "nomen_konkurrenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

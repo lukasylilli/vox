@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_registrieren",
+  "wort": "registrieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ثبت کردن",
+      "ثبت‌نام کردن",
+      "متوجه شدن"
+    ],
+    "en": [
+      "to register",
+      "to record",
+      "to notice"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Verwaltung",
+    "Internet"
+  ],
+  "ipa": "ʁeɡɪsˈtʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich registriere mich auf der Website.",
+      "uebersetzung": {
+        "fa": "در وب‌سایت ثبت‌نام می‌کنم.",
+        "en": "I am registering on the website."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kamera registriert jedes Auto, das zu schnell fährt.",
+      "uebersetzung": {
+        "fa": "دوربین هر ماشینی را که تند می‌راند ثبت می‌کند.",
+        "en": "The camera records every car that drives too fast."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erfassen",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to record"
+      }
+    },
+    {
+      "wort": "anmelden",
+      "uebersetzung": {
+        "fa": "ثبت‌نام کردن",
+        "en": "to register"
+      }
+    },
+    {
+      "wort": "bemerken",
+      "uebersetzung": {
+        "fa": "متوجه شدن",
+        "en": "to notice"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Register (فهرست، دفتر ثبت) + -ieren",
+    "en": "Register (register, list) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich registrieren bei + Dat",
+        "bedeutung": "sich bei einer Stelle anmelden",
+        "beispiel": "Sie müssen sich bei der Behörde registrieren.",
+        "uebersetzung": {
+          "fa": "شما باید نزد اداره ثبت‌نام کنید.",
+          "en": "You have to register with the authority."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "registrieren",
+      "praeteritum": "registrierte",
+      "partizip2": "registriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "registriere",
+        "du": "registrierst",
+        "er_sie_es": "registriert",
+        "wir": "registrieren",
+        "ihr": "registriert",
+        "sie_Sie": "registrieren"
+      },
+      "praeteritum": {
+        "ich": "registrierte",
+        "du": "registriertest",
+        "er_sie_es": "registrierte",
+        "wir": "registrierten",
+        "ihr": "registriertet",
+        "sie_Sie": "registrierten"
+      },
+      "konjunktiv1": {
+        "ich": "registriere",
+        "du": "registrierest",
+        "er_sie_es": "registriere",
+        "wir": "registrieren",
+        "ihr": "registrieret",
+        "sie_Sie": "registrieren"
+      },
+      "konjunktiv2": {
+        "ich": "registrierte",
+        "du": "registriertest",
+        "er_sie_es": "registrierte",
+        "wir": "registrierten",
+        "ihr": "registriertet",
+        "sie_Sie": "registrierten"
+      },
+      "imperativ": {
+        "du": "Registriere!",
+        "ihr": "Registriert!",
+        "Sie": "Registrieren Sie!"
+      }
+    },
+    "partizip1": "registrierend",
+    "nominalisierung": "die Registrierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "anmelden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ثبت‌نام کردن",
+          "en": "to register"
+        },
+        "id_ref": "verb_anmelden"
+      },
+      {
+        "wort": "die Registrierung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثبت‌نام",
+          "en": "registration"
+        },
+        "id_ref": "nomen_registrierung"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "erfassen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت کردن",
+          "en": "to record"
+        },
+        "id_ref": "verb_erfassen"
+      },
+      {
+        "wort": "bemerken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متوجه شدن",
+          "en": "to notice"
+        },
+        "id_ref": "verb_bemerken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

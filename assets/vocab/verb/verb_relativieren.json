@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_relativieren",
+  "wort": "relativieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نسبی کردن",
+      "کم‌اهمیت جلوه دادن",
+      "تعدیل کردن (حرف)"
+    ],
+    "en": [
+      "to relativize",
+      "to put into perspective",
+      "to qualify"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Denken"
+  ],
+  "ipa": "ʁelatiˈviːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Später relativierte er seine Aussage.",
+      "uebersetzung": {
+        "fa": "بعداً حرفش را تعدیل کرد.",
+        "en": "Later he qualified his statement."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn man die Zahlen mit anderen Ländern vergleicht, relativiert sich das Problem.",
+      "uebersetzung": {
+        "fa": "اگر این ارقام را با کشورهای دیگر مقایسه کنیم، مشکل کم‌اهمیت‌تر به نظر می‌رسد.",
+        "en": "If you compare the figures with other countries, the problem is put into perspective."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einschränken",
+      "uebersetzung": {
+        "fa": "محدود کردن",
+        "en": "to restrict"
+      }
+    },
+    {
+      "wort": "abschwächen",
+      "uebersetzung": {
+        "fa": "تعدیل کردن",
+        "en": "to tone down"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verallgemeinern",
+      "uebersetzung": {
+        "fa": "تعمیم دادن",
+        "en": "to generalize"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "relativ (نسبی) + -ieren",
+    "en": "relativ (relative) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "relativieren",
+      "praeteritum": "relativierte",
+      "partizip2": "relativiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "relativiere",
+        "du": "relativierst",
+        "er_sie_es": "relativiert",
+        "wir": "relativieren",
+        "ihr": "relativiert",
+        "sie_Sie": "relativieren"
+      },
+      "praeteritum": {
+        "ich": "relativierte",
+        "du": "relativiertest",
+        "er_sie_es": "relativierte",
+        "wir": "relativierten",
+        "ihr": "relativiertet",
+        "sie_Sie": "relativierten"
+      },
+      "konjunktiv1": {
+        "ich": "relativiere",
+        "du": "relativierest",
+        "er_sie_es": "relativiere",
+        "wir": "relativieren",
+        "ihr": "relativieret",
+        "sie_Sie": "relativieren"
+      },
+      "konjunktiv2": {
+        "ich": "relativierte",
+        "du": "relativiertest",
+        "er_sie_es": "relativierte",
+        "wir": "relativierten",
+        "ihr": "relativiertet",
+        "sie_Sie": "relativierten"
+      },
+      "imperativ": {
+        "du": "Relativiere!",
+        "ihr": "Relativiert!",
+        "Sie": "Relativieren Sie!"
+      }
+    },
+    "partizip1": "relativierend",
+    "nominalisierung": "die Relativierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "relativ",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسبی",
+          "en": "relative"
+        },
+        "id_ref": "adjektiv_relativ"
+      },
+      {
+        "wort": "vergleichen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مقایسه کردن",
+          "en": "to compare"
+        },
+        "id_ref": "verb_vergleichen"
+      },
+      {
+        "wort": "einschränken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محدود کردن",
+          "en": "to restrict"
+        },
+        "id_ref": "verb_einschraenken"
+      },
+      {
+        "wort": "die Aussage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اظهارنظر",
+          "en": "statement"
+        },
+        "id_ref": "nomen_aussage"
+      },
+      {
+        "wort": "die Perspektive",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دیدگاه",
+          "en": "perspective"
+        },
+        "id_ref": "nomen_perspektive"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_regeln",
+  "wort": "regeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنظیم کردن",
+      "سامان دادن",
+      "حل‌وفصل کردن"
+    ],
+    "en": [
+      "to regulate",
+      "to settle",
+      "to sort out"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Verwaltung"
+  ],
+  "ipa": "ˈʁeːɡl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Polizist regelt den Verkehr.",
+      "uebersetzung": {
+        "fa": "یک پلیس ترافیک را تنظیم می‌کند.",
+        "en": "A police officer is directing the traffic."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor ich in Urlaub fahre, muss ich noch einige Dinge im Büro regeln.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه به تعطیلات بروم، باید چند کار را در دفتر سامان بدهم.",
+        "en": "Before I go on holiday, I still have to sort out a few things at the office."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ordnen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to arrange"
+      }
+    },
+    {
+      "wort": "erledigen",
+      "uebersetzung": {
+        "fa": "انجام دادن",
+        "en": "to take care of"
+      }
+    },
+    {
+      "wort": "klären",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to clarify"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Regel (قاعده) + -n",
+    "en": "Regel (rule) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich von selbst regeln",
+        "bedeutung": "ohne Eingreifen in Ordnung kommen",
+        "beispiel": "Das Problem regelt sich von selbst.",
+        "uebersetzung": {
+          "fa": "این مشکل خودبه‌خود حل می‌شود.",
+          "en": "The problem will sort itself out."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "regeln",
+      "praeteritum": "regelte",
+      "partizip2": "geregelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "regle",
+        "du": "regelst",
+        "er_sie_es": "regelt",
+        "wir": "regeln",
+        "ihr": "regelt",
+        "sie_Sie": "regeln"
+      },
+      "praeteritum": {
+        "ich": "regelte",
+        "du": "regeltest",
+        "er_sie_es": "regelte",
+        "wir": "regelten",
+        "ihr": "regeltet",
+        "sie_Sie": "regelten"
+      },
+      "konjunktiv1": {
+        "ich": "regle",
+        "du": "reglest",
+        "er_sie_es": "regle",
+        "wir": "regeln",
+        "ihr": "reglet",
+        "sie_Sie": "regeln"
+      },
+      "konjunktiv2": {
+        "ich": "regelte",
+        "du": "regeltest",
+        "er_sie_es": "regelte",
+        "wir": "regelten",
+        "ihr": "regeltet",
+        "sie_Sie": "regelten"
+      },
+      "imperativ": {
+        "du": "Regle!",
+        "ihr": "Regelt!",
+        "Sie": "Regeln Sie!"
+      }
+    },
+    "partizip1": "regelnd",
+    "nominalisierung": "die Regelung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Regel",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قاعده",
+          "en": "rule"
+        },
+        "id_ref": "nomen_regel"
+      },
+      {
+        "wort": "regelmäßig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "منظم",
+          "en": "regular"
+        },
+        "id_ref": "adjektiv_regelmaessig"
+      },
+      {
+        "wort": "die Regelung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقررات",
+          "en": "regulation"
+        },
+        "id_ref": "nomen_regelung"
+      },
+      {
+        "wort": "erledigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انجام دادن",
+          "en": "to take care of"
+        },
+        "id_ref": "verb_erledigen"
+      },
+      {
+        "wort": "ordnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to arrange"
+        },
+        "id_ref": "verb_ordnen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_rasieren",
+  "wort": "rasieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اصلاح کردن",
+      "تراشیدن (مو، ریش)"
+    ],
+    "en": [
+      "to shave"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Körperpflege"
+  ],
+  "ipa": "ʁaˈziːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er rasiert sich jeden Morgen.",
+      "uebersetzung": {
+        "fa": "او هر روز صبح صورتش را اصلاح می‌کند.",
+        "en": "He shaves every morning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vor der Operation muss die Pflegerin die Haut an dieser Stelle rasieren.",
+      "uebersetzung": {
+        "fa": "قبل از عمل، پرستار باید پوست این قسمت را بتراشد.",
+        "en": "Before the operation, the nurse has to shave the skin in this area."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "scheren",
+      "uebersetzung": {
+        "fa": "تراشیدن",
+        "en": "to shear"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی raser (تراشیدن)",
+    "en": "from French raser (to shave)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich (Dat) etwas rasieren",
+        "bedeutung": "eigene Körperhaare entfernen",
+        "beispiel": "Sie rasiert sich die Beine.",
+        "uebersetzung": {
+          "fa": "او موهای پاهایش را می‌تراشد.",
+          "en": "She shaves her legs."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rasieren",
+      "praeteritum": "rasierte",
+      "partizip2": "rasiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rasiere",
+        "du": "rasierst",
+        "er_sie_es": "rasiert",
+        "wir": "rasieren",
+        "ihr": "rasiert",
+        "sie_Sie": "rasieren"
+      },
+      "praeteritum": {
+        "ich": "rasierte",
+        "du": "rasiertest",
+        "er_sie_es": "rasierte",
+        "wir": "rasierten",
+        "ihr": "rasiertet",
+        "sie_Sie": "rasierten"
+      },
+      "konjunktiv1": {
+        "ich": "rasiere",
+        "du": "rasierest",
+        "er_sie_es": "rasiere",
+        "wir": "rasieren",
+        "ihr": "rasieret",
+        "sie_Sie": "rasieren"
+      },
+      "konjunktiv2": {
+        "ich": "rasierte",
+        "du": "rasiertest",
+        "er_sie_es": "rasierte",
+        "wir": "rasierten",
+        "ihr": "rasiertet",
+        "sie_Sie": "rasierten"
+      },
+      "imperativ": {
+        "du": "Rasiere!",
+        "ihr": "Rasiert!",
+        "Sie": "Rasieren Sie!"
+      }
+    },
+    "partizip1": "rasierend",
+    "nominalisierung": "die Rasur"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Rasierer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریش‌تراش",
+          "en": "razor"
+        },
+        "id_ref": "nomen_rasierer"
+      },
+      {
+        "wort": "der Bart",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریش",
+          "en": "beard"
+        },
+        "id_ref": "nomen_bart"
+      },
+      {
+        "wort": "das Haar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مو",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haar"
+      },
+      {
+        "wort": "die Rasur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اصلاح",
+          "en": "shave"
+        },
+        "id_ref": "nomen_rasur"
+      },
+      {
+        "wort": "der Schaum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کف",
+          "en": "foam"
+        },
+        "id_ref": "nomen_schaum"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,205 @@
+{
+  "schema": "3.0",
+  "id": "verb_pruegeln",
+  "wort": "prügeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کتک زدن",
+      "زد و خورد کردن"
+    ],
+    "en": [
+      "to beat",
+      "to fight"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gewalt",
+    "Konflikt"
+  ],
+  "ipa": "ˈpʁyːɡl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Jungen prügeln sich auf dem Schulhof.",
+      "uebersetzung": {
+        "fa": "پسرها در حیاط مدرسه با هم کتک‌کاری می‌کنند.",
+        "en": "The boys are fighting in the schoolyard."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem die beiden Männer sich geprügelt hatten, kam die Polizei.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه آن دو مرد با هم زد و خورد کردند، پلیس آمد.",
+        "en": "After the two men had fought, the police came."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to hit"
+      }
+    },
+    {
+      "wort": "sich schlagen",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to fight"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich vertragen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get along"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Prügel (چوب، کتک) + -n",
+    "en": "Prügel (stick, beating) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich prügeln mit + Dat",
+        "bedeutung": "mit jemandem körperlich kämpfen",
+        "beispiel": "Er hat sich mit seinem Bruder geprügelt.",
+        "uebersetzung": {
+          "fa": "او با برادرش کتک‌کاری کرد.",
+          "en": "He got into a fight with his brother."
+        }
+      },
+      {
+        "muster": "sich prügeln um + Akk",
+        "bedeutung": "um etwas heftig kämpfen",
+        "beispiel": "Die Kinder prügeln sich um den Ball.",
+        "uebersetzung": {
+          "fa": "بچه‌ها سر توپ با هم دعوا می‌کنند.",
+          "en": "The children are fighting over the ball."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "prügeln",
+      "praeteritum": "prügelte",
+      "partizip2": "geprügelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "prügle",
+        "du": "prügelst",
+        "er_sie_es": "prügelt",
+        "wir": "prügeln",
+        "ihr": "prügelt",
+        "sie_Sie": "prügeln"
+      },
+      "praeteritum": {
+        "ich": "prügelte",
+        "du": "prügeltest",
+        "er_sie_es": "prügelte",
+        "wir": "prügelten",
+        "ihr": "prügeltet",
+        "sie_Sie": "prügelten"
+      },
+      "konjunktiv1": {
+        "ich": "prügle",
+        "du": "prüglest",
+        "er_sie_es": "prügle",
+        "wir": "prügeln",
+        "ihr": "prüglet",
+        "sie_Sie": "prügeln"
+      },
+      "konjunktiv2": {
+        "ich": "prügelte",
+        "du": "prügeltest",
+        "er_sie_es": "prügelte",
+        "wir": "prügelten",
+        "ihr": "prügeltet",
+        "sie_Sie": "prügelten"
+      },
+      "imperativ": {
+        "du": "Prügle!",
+        "ihr": "Prügelt!",
+        "Sie": "Prügeln Sie!"
+      }
+    },
+    "partizip1": "prügelnd",
+    "nominalisierung": "die Prügelei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "die Prügelei",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کتک‌کاری",
+          "en": "brawl"
+        },
+        "id_ref": "nomen_pruegelei"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "die Gewalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشونت",
+          "en": "violence"
+        },
+        "id_ref": "nomen_gewalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

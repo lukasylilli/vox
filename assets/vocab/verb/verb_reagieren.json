@@ -1,0 +1,198 @@
+{
+  "schema": "3.0",
+  "id": "verb_reagieren",
+  "wort": "reagieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "واکنش نشان دادن",
+      "عکس‌العمل نشان دادن"
+    ],
+    "en": [
+      "to react",
+      "to respond"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kommunikation",
+    "Verhalten"
+  ],
+  "ipa": "ʁeaˈɡiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er reagiert nicht.",
+      "uebersetzung": {
+        "fa": "او واکنشی نشان نمی‌دهد.",
+        "en": "He is not reacting."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wie hat dein Chef reagiert, als du ihm von deinen Plänen erzählt hast?",
+      "uebersetzung": {
+        "fa": "رئیست وقتی برنامه‌هایت را برایش تعریف کردی چه واکنشی نشان داد؟",
+        "en": "How did your boss react when you told him about your plans?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "antworten",
+      "uebersetzung": {
+        "fa": "جواب دادن",
+        "en": "to answer"
+      }
+    },
+    {
+      "wort": "erwidern",
+      "uebersetzung": {
+        "fa": "پاسخ دادن",
+        "en": "to reply"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "ignorieren",
+      "uebersetzung": {
+        "fa": "نادیده گرفتن",
+        "en": "to ignore"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "re- (دوباره، در برابر) + agieren (عمل کردن)",
+    "en": "re- (back, against) + agieren (to act)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "reagieren auf + Akk",
+        "bedeutung": "auf etwas eine Reaktion zeigen",
+        "beispiel": "Sie reagiert allergisch auf Nüsse.",
+        "uebersetzung": {
+          "fa": "او به آجیل حساسیت دارد.",
+          "en": "She is allergic to nuts."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reagieren",
+      "praeteritum": "reagierte",
+      "partizip2": "reagiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reagiere",
+        "du": "reagierst",
+        "er_sie_es": "reagiert",
+        "wir": "reagieren",
+        "ihr": "reagiert",
+        "sie_Sie": "reagieren"
+      },
+      "praeteritum": {
+        "ich": "reagierte",
+        "du": "reagiertest",
+        "er_sie_es": "reagierte",
+        "wir": "reagierten",
+        "ihr": "reagiertet",
+        "sie_Sie": "reagierten"
+      },
+      "konjunktiv1": {
+        "ich": "reagiere",
+        "du": "reagierest",
+        "er_sie_es": "reagiere",
+        "wir": "reagieren",
+        "ihr": "reagieret",
+        "sie_Sie": "reagieren"
+      },
+      "konjunktiv2": {
+        "ich": "reagierte",
+        "du": "reagiertest",
+        "er_sie_es": "reagierte",
+        "wir": "reagierten",
+        "ihr": "reagiertet",
+        "sie_Sie": "reagierten"
+      },
+      "imperativ": {
+        "du": "Reagiere!",
+        "ihr": "Reagiert!",
+        "Sie": "Reagieren Sie!"
+      }
+    },
+    "partizip1": "reagierend",
+    "nominalisierung": "die Reaktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Reaktion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "واکنش",
+          "en": "reaction"
+        },
+        "id_ref": "nomen_reaktion"
+      },
+      {
+        "wort": "antworten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب دادن",
+          "en": "to answer"
+        },
+        "id_ref": "verb_antworten"
+      },
+      {
+        "wort": "ignorieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نادیده گرفتن",
+          "en": "to ignore"
+        },
+        "id_ref": "verb_ignorieren"
+      },
+      {
+        "wort": "allergisch",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حساسیت‌زا، دچار آلرژی",
+          "en": "allergic"
+        },
+        "id_ref": "adjektiv_allergisch"
+      },
+      {
+        "wort": "handeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل کردن",
+          "en": "to act"
+        },
+        "id_ref": "verb_handeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

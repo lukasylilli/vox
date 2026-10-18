@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_reimen",
+  "wort": "reimen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "قافیه داشتن",
+      "هم‌قافیه کردن",
+      "شعر قافیه‌دار گفتن"
+    ],
+    "en": [
+      "to rhyme"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Literatur",
+    "Sprache"
+  ],
+  "ipa": "ˈʁaɪ̯mən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "«Haus» reimt sich auf «Maus».",
+      "uebersetzung": {
+        "fa": "«هاوس» با «ماوس» هم‌قافیه است.",
+        "en": "\"Haus\" rhymes with \"Maus\"."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kinder reimen kleine Verse, die sie dann der Klasse vortragen.",
+      "uebersetzung": {
+        "fa": "بچه‌ها شعرهای کوتاه قافیه‌دار می‌گویند و بعد آن‌ها را برای کلاس می‌خوانند.",
+        "en": "The children make up little rhyming verses, which they then recite to the class."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Reim (قافیه) + -en",
+    "en": "Reim (rhyme) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich reimen auf + Akk",
+        "bedeutung": "mit einem anderen Wort einen Reim bilden",
+        "beispiel": "Was reimt sich auf «Herz»?",
+        "uebersetzung": {
+          "fa": "چه چیزی با «هِرتس» هم‌قافیه است؟",
+          "en": "What rhymes with \"Herz\"?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reimen",
+      "praeteritum": "reimte",
+      "partizip2": "gereimt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reime",
+        "du": "reimst",
+        "er_sie_es": "reimt",
+        "wir": "reimen",
+        "ihr": "reimt",
+        "sie_Sie": "reimen"
+      },
+      "praeteritum": {
+        "ich": "reimte",
+        "du": "reimtest",
+        "er_sie_es": "reimte",
+        "wir": "reimten",
+        "ihr": "reimtet",
+        "sie_Sie": "reimten"
+      },
+      "konjunktiv1": {
+        "ich": "reime",
+        "du": "reimest",
+        "er_sie_es": "reime",
+        "wir": "reimen",
+        "ihr": "reimet",
+        "sie_Sie": "reimen"
+      },
+      "konjunktiv2": {
+        "ich": "reimte",
+        "du": "reimtest",
+        "er_sie_es": "reimte",
+        "wir": "reimten",
+        "ihr": "reimtet",
+        "sie_Sie": "reimten"
+      },
+      "imperativ": {
+        "du": "Reime!",
+        "ihr": "Reimt!",
+        "Sie": "Reimen Sie!"
+      }
+    },
+    "partizip1": "reimend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Reim",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قافیه",
+          "en": "rhyme"
+        },
+        "id_ref": "nomen_reim"
+      },
+      {
+        "wort": "das Gedicht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شعر",
+          "en": "poem"
+        },
+        "id_ref": "nomen_gedicht"
+      },
+      {
+        "wort": "der Vers",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیت",
+          "en": "verse"
+        },
+        "id_ref": "nomen_vers"
+      },
+      {
+        "wort": "der Dichter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاعر",
+          "en": "poet"
+        },
+        "id_ref": "nomen_dichter"
+      },
+      {
+        "wort": "das Lied",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آهنگ",
+          "en": "song"
+        },
+        "id_ref": "nomen_lied"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

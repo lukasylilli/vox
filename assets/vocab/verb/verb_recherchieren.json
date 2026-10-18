@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_recherchieren",
+  "wort": "recherchieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تحقیق کردن",
+      "جست‌وجو کردن (اطلاعات)"
+    ],
+    "en": [
+      "to research",
+      "to investigate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Medien",
+    "Studium"
+  ],
+  "ipa": "ʁeʃɛʁˈʃiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich recherchiere im Internet.",
+      "uebersetzung": {
+        "fa": "در اینترنت تحقیق می‌کنم.",
+        "en": "I am researching on the internet."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Journalistin hat monatelang recherchiert, bevor sie den Artikel veröffentlichte.",
+      "uebersetzung": {
+        "fa": "آن روزنامه‌نگار ماه‌ها تحقیق کرد تا مقاله را منتشر کند.",
+        "en": "The journalist researched for months before publishing the article."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachforschen",
+      "uebersetzung": {
+        "fa": "تحقیق کردن",
+        "en": "to investigate"
+      }
+    },
+    {
+      "wort": "ermitteln",
+      "uebersetzung": {
+        "fa": "تحقیق کردن",
+        "en": "to investigate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی rechercher (جست‌وجو کردن)",
+    "en": "from French rechercher (to search)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "recherchieren zu + Dat",
+        "bedeutung": "zu einem Thema Informationen suchen",
+        "beispiel": "Sie recherchiert zu den Ursachen des Klimawandels.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی علل تغییرات اقلیمی تحقیق می‌کند.",
+          "en": "She is researching the causes of climate change."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "recherchieren",
+      "praeteritum": "recherchierte",
+      "partizip2": "recherchiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "recherchiere",
+        "du": "recherchierst",
+        "er_sie_es": "recherchiert",
+        "wir": "recherchieren",
+        "ihr": "recherchiert",
+        "sie_Sie": "recherchieren"
+      },
+      "praeteritum": {
+        "ich": "recherchierte",
+        "du": "recherchiertest",
+        "er_sie_es": "recherchierte",
+        "wir": "recherchierten",
+        "ihr": "recherchiertet",
+        "sie_Sie": "recherchierten"
+      },
+      "konjunktiv1": {
+        "ich": "recherchiere",
+        "du": "recherchierest",
+        "er_sie_es": "recherchiere",
+        "wir": "recherchieren",
+        "ihr": "recherchieret",
+        "sie_Sie": "recherchieren"
+      },
+      "konjunktiv2": {
+        "ich": "recherchierte",
+        "du": "recherchiertest",
+        "er_sie_es": "recherchierte",
+        "wir": "recherchierten",
+        "ihr": "recherchiertet",
+        "sie_Sie": "recherchierten"
+      },
+      "imperativ": {
+        "du": "Recherchiere!",
+        "ihr": "Recherchiert!",
+        "Sie": "Recherchieren Sie!"
+      }
+    },
+    "partizip1": "recherchierend",
+    "nominalisierung": "die Recherche"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Recherche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحقیق",
+          "en": "research"
+        },
+        "id_ref": "nomen_recherche"
+      },
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "die Information",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاعات",
+          "en": "information"
+        },
+        "id_ref": "nomen_information"
+      },
+      {
+        "wort": "die Quelle",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "source"
+        },
+        "id_ref": "nomen_quelle"
+      },
+      {
+        "wort": "forschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پژوهش کردن",
+          "en": "to do research"
+        },
+        "id_ref": "verb_forschen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

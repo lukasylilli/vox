@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_reisen",
+  "wort": "reisen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سفر کردن"
+    ],
+    "en": [
+      "to travel"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Reisen",
+    "Freizeit"
+  ],
+  "ipa": "ˈʁaɪ̯zn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich reise gern.",
+      "uebersetzung": {
+        "fa": "سفر کردن را دوست دارم.",
+        "en": "I like travelling."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Letzten Sommer sind wir mit dem Zug durch ganz Italien gereist.",
+      "uebersetzung": {
+        "fa": "تابستان گذشته با قطار سراسر ایتالیا را سفر کردیم.",
+        "en": "Last summer we travelled all over Italy by train."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fahren",
+      "uebersetzung": {
+        "fa": "رفتن (با وسیله)",
+        "en": "to go"
+      }
+    },
+    {
+      "wort": "verreisen",
+      "uebersetzung": {
+        "fa": "به سفر رفتن",
+        "en": "to go away"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "reisen nach + Dat",
+        "bedeutung": "in ein Land oder eine Stadt fahren",
+        "beispiel": "Wir reisen nach Österreich.",
+        "uebersetzung": {
+          "fa": "ما به اتریش سفر می‌کنیم.",
+          "en": "We are travelling to Austria."
+        }
+      },
+      {
+        "muster": "reisen in + Akk",
+        "bedeutung": "in ein Land (mit Artikel) oder eine Gegend fahren",
+        "beispiel": "Sie reist in die Schweiz.",
+        "uebersetzung": {
+          "fa": "او به سوئیس سفر می‌کند.",
+          "en": "She is travelling to Switzerland."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reisen",
+      "praeteritum": "reiste",
+      "partizip2": "gereist"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reise",
+        "du": "reist",
+        "er_sie_es": "reist",
+        "wir": "reisen",
+        "ihr": "reist",
+        "sie_Sie": "reisen"
+      },
+      "praeteritum": {
+        "ich": "reiste",
+        "du": "reistest",
+        "er_sie_es": "reiste",
+        "wir": "reisten",
+        "ihr": "reistet",
+        "sie_Sie": "reisten"
+      },
+      "konjunktiv1": {
+        "ich": "reise",
+        "du": "reisest",
+        "er_sie_es": "reise",
+        "wir": "reisen",
+        "ihr": "reiset",
+        "sie_Sie": "reisen"
+      },
+      "konjunktiv2": {
+        "ich": "reiste",
+        "du": "reistest",
+        "er_sie_es": "reiste",
+        "wir": "reisten",
+        "ihr": "reistet",
+        "sie_Sie": "reisten"
+      },
+      "imperativ": {
+        "du": "Reise!",
+        "ihr": "Reist!",
+        "Sie": "Reisen Sie!"
+      }
+    },
+    "partizip1": "reisend",
+    "nominalisierung": "die Reise"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "der Urlaub",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعطیلات",
+          "en": "holiday"
+        },
+        "id_ref": "nomen_urlaub"
+      },
+      {
+        "wort": "verreisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به سفر رفتن",
+          "en": "to go away"
+        },
+        "id_ref": "verb_verreisen"
+      },
+      {
+        "wort": "der Koffer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چمدان",
+          "en": "suitcase"
+        },
+        "id_ref": "nomen_koffer"
+      },
+      {
+        "wort": "das Reisebüro",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آژانس مسافرتی",
+          "en": "travel agency"
+        },
+        "id_ref": "nomen_reisebuero"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

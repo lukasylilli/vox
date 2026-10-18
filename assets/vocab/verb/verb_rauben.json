@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_rauben",
+  "wort": "rauben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دزدیدن (به زور)",
+      "سرقت کردن",
+      "ربودن"
+    ],
+    "en": [
+      "to rob",
+      "to steal",
+      "to deprive"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Kriminalität"
+  ],
+  "ipa": "ˈʁaʊ̯bn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Zwei Männer rauben eine Bank.",
+      "uebersetzung": {
+        "fa": "دو مرد از یک بانک سرقت می‌کنند.",
+        "en": "Two men are robbing a bank."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Lärm der Baustelle raubt mir den Schlaf, seit die Arbeiten begonnen haben.",
+      "uebersetzung": {
+        "fa": "از وقتی کارها شروع شده، سروصدای کارگاه ساختمانی خواب را از من گرفته است.",
+        "en": "The noise from the building site has been robbing me of sleep since the work began."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stehlen",
+      "uebersetzung": {
+        "fa": "دزدیدن",
+        "en": "to steal"
+      }
+    },
+    {
+      "wort": "entwenden",
+      "uebersetzung": {
+        "fa": "ربودن",
+        "en": "to purloin"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas rauben",
+        "bedeutung": "jemandem etwas mit Gewalt oder Drohung wegnehmen",
+        "beispiel": "Die Täter raubten der Frau die Handtasche.",
+        "uebersetzung": {
+          "fa": "مجرمان کیف دستی آن زن را به زور ربودند.",
+          "en": "The criminals robbed the woman of her handbag."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rauben",
+      "praeteritum": "raubte",
+      "partizip2": "geraubt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "raube",
+        "du": "raubst",
+        "er_sie_es": "raubt",
+        "wir": "rauben",
+        "ihr": "raubt",
+        "sie_Sie": "rauben"
+      },
+      "praeteritum": {
+        "ich": "raubte",
+        "du": "raubtest",
+        "er_sie_es": "raubte",
+        "wir": "raubten",
+        "ihr": "raubtet",
+        "sie_Sie": "raubten"
+      },
+      "konjunktiv1": {
+        "ich": "raube",
+        "du": "raubest",
+        "er_sie_es": "raube",
+        "wir": "rauben",
+        "ihr": "raubet",
+        "sie_Sie": "rauben"
+      },
+      "konjunktiv2": {
+        "ich": "raubte",
+        "du": "raubtest",
+        "er_sie_es": "raubte",
+        "wir": "raubten",
+        "ihr": "raubtet",
+        "sie_Sie": "raubten"
+      },
+      "imperativ": {
+        "du": "Raube!",
+        "ihr": "Raubt!",
+        "Sie": "Rauben Sie!"
+      }
+    },
+    "partizip1": "raubend",
+    "nominalisierung": "der Raub"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Raub",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرقت مسلحانه",
+          "en": "robbery"
+        },
+        "id_ref": "nomen_raub"
+      },
+      {
+        "wort": "der Räuber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سارق",
+          "en": "robber"
+        },
+        "id_ref": "nomen_raeuber"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Dieb",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزد",
+          "en": "thief"
+        },
+        "id_ref": "nomen_dieb"
+      },
+      {
+        "wort": "der Überfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله، دستبرد",
+          "en": "raid"
+        },
+        "id_ref": "nomen_ueberfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,203 @@
+{
+  "schema": "3.0",
+  "id": "verb_raufen",
+  "wort": "raufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کتک‌کاری کردن",
+      "گلاویز شدن",
+      "کندن (مو از سر ناامیدی)"
+    ],
+    "en": [
+      "to scuffle",
+      "to brawl",
+      "to tear (one's hair)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Konflikt"
+  ],
+  "ipa": "ˈʁaʊ̯fn̩",
+  "anmerkung": "Redewendung: «sich die Haare raufen» = verzweifelt sein.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hunde raufen im Park.",
+      "uebersetzung": {
+        "fa": "سگ‌ها در پارک با هم گلاویز می‌شوند.",
+        "en": "The dogs are scuffling in the park."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er die Rechnung sah, raufte er sich die Haare, weil sie so hoch war.",
+      "uebersetzung": {
+        "fa": "وقتی صورت‌حساب را دید، از ناامیدی موهایش را کند، چون خیلی زیاد بود.",
+        "en": "When he saw the bill, he tore his hair because it was so high."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rangeln",
+      "uebersetzung": {
+        "fa": "کشمکش کردن",
+        "en": "to tussle"
+      }
+    },
+    {
+      "wort": "sich prügeln",
+      "uebersetzung": {
+        "fa": "کتک‌کاری کردن",
+        "en": "to brawl"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich vertragen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get along"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich raufen mit + Dat",
+        "bedeutung": "mit jemandem kämpfen",
+        "beispiel": "Er rauft sich oft mit seinem Bruder.",
+        "uebersetzung": {
+          "fa": "او اغلب با برادرش کتک‌کاری می‌کند.",
+          "en": "He often scuffles with his brother."
+        }
+      },
+      {
+        "muster": "sich raufen um + Akk",
+        "bedeutung": "um etwas kämpfen",
+        "beispiel": "Die Kinder raufen sich um das Spielzeug.",
+        "uebersetzung": {
+          "fa": "بچه‌ها بر سر اسباب‌بازی گلاویز می‌شوند.",
+          "en": "The children are fighting over the toy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "raufen",
+      "praeteritum": "raufte",
+      "partizip2": "gerauft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "raufe",
+        "du": "raufst",
+        "er_sie_es": "rauft",
+        "wir": "raufen",
+        "ihr": "rauft",
+        "sie_Sie": "raufen"
+      },
+      "praeteritum": {
+        "ich": "raufte",
+        "du": "rauftest",
+        "er_sie_es": "raufte",
+        "wir": "rauften",
+        "ihr": "rauftet",
+        "sie_Sie": "rauften"
+      },
+      "konjunktiv1": {
+        "ich": "raufe",
+        "du": "raufest",
+        "er_sie_es": "raufe",
+        "wir": "raufen",
+        "ihr": "raufet",
+        "sie_Sie": "raufen"
+      },
+      "konjunktiv2": {
+        "ich": "raufte",
+        "du": "rauftest",
+        "er_sie_es": "raufte",
+        "wir": "rauften",
+        "ihr": "rauftet",
+        "sie_Sie": "rauften"
+      },
+      "imperativ": {
+        "du": "Raufe!",
+        "ihr": "Rauft!",
+        "Sie": "Raufen Sie!"
+      }
+    },
+    "partizip1": "raufend",
+    "nominalisierung": "die Rauferei"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "prügeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کتک زدن",
+          "en": "to beat"
+        },
+        "id_ref": "verb_pruegeln"
+      },
+      {
+        "wort": "rangeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کشمکش کردن",
+          "en": "to tussle"
+        },
+        "id_ref": "verb_rangeln"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "die Rauferei",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کتک‌کاری",
+          "en": "brawl"
+        },
+        "id_ref": "nomen_rauferei"
+      },
+      {
+        "wort": "das Haar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مو",
+          "en": "hair"
+        },
+        "id_ref": "nomen_haar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

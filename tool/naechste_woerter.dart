@@ -1810,6 +1810,25 @@ const zurueckgestellt = <String>{
   'profanieren', // zurückgestellt: Fachwort (Kirche entweihen), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
   'promenieren', // zurückgestellt: veraltend/gehoben (spazieren), Hilfsverb schwankt — nicht sicher (Regel 16/17) 2026-10-16
   'prostituieren', // zurückgestellt: sexuelle Bedeutung — Entscheidung Lukas 2026-10-16
+  'pulsen', // zurückgestellt: Bedeutung unsicher (pulsieren / Puls messen?) — nicht sicher (Regel 14) 2026-10-18
+  'pulvern', // zurückgestellt: umgangssprachlich, mehrere unsichere Bedeutungen (schießen / Geld hineinstecken?) — nicht sicher (Regel 14) 2026-10-18
+  'pupen', // zurückgestellt: derb/Kindersprache (Darmwind) — Entscheidung Lukas (wie furzen) 2026-10-18
+  'pupsen', // zurückgestellt: derb/Kindersprache (Darmwind) — Entscheidung Lukas (wie furzen) 2026-10-18
+  'quartieren', // zurückgestellt: meist nur «einquartieren»; einfaches Verb kaum gebräuchlich — nicht sicher 2026-10-18
+  'querulieren', // zurückgestellt: selten, Gebrauch unsicher — nicht sicher 2026-10-18
+  'quotieren', // zurückgestellt: Fachsprache (Börse/Quote), Bedeutung uneinheitlich — nicht sicher 2026-10-18
+  'rabattieren', // zurückgestellt: selten (Kaufmannssprache), Gebrauch unsicher — nicht sicher 2026-10-18
+  'rädern', // zurückgestellt: historische Hinrichtungsart; heute v. a. «gerädert sein» — nicht sicher, wie die Karte aussehen soll 2026-10-18
+  'rammeln', // zurückgestellt: derb/sexuelle Bedeutung — Entscheidung Lukas 2026-10-18
+  'rappeln', // zurückgestellt: umgangssprachlich/landschaftlich, mehrere unsichere Bedeutungen — nicht sicher 2026-10-18
+  'räsonieren', // zurückgestellt: veraltend/gehoben, Bedeutung schwankt (vernünfteln / nörgeln) — nicht sicher (Regel 17) 2026-10-18
+  'rastern', // zurückgestellt: Fachsprache (Druck/Bildverarbeitung) — nicht sicher 2026-10-18
+  'referenzieren', // zurückgestellt: Fachsprache (IT/Wissenschaft), Gebrauch unsicher — nicht sicher 2026-10-18
+  'reffen', // zurückgestellt: Seemannssprache (Segel verkleinern) — nicht sicher 2026-10-18
+  'reihern', // zurückgestellt: salopp/derb (sich übergeben) — Entscheidung Lukas 2026-10-18
+  'rekognoszieren', // zurückgestellt: veraltet/Militär- und Amtssprache, Bedeutung schwankt — nicht sicher (Regel 17) 2026-10-18
+  'rekonvaleszieren', // zurückgestellt: selten (Medizin), Gebrauch unsicher — nicht sicher 2026-10-18
+  'relationieren', // zurückgestellt: Fachsprache, Bedeutung unsicher — nicht sicher 2026-10-18
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

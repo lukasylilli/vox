@@ -1,0 +1,193 @@
+{
+  "schema": "3.0",
+  "id": "verb_quittieren",
+  "wort": "quittieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رسید دادن",
+      "امضا کردن (دریافت)",
+      "پاسخ دادن (به چیزی با واکنشی)"
+    ],
+    "en": [
+      "to give a receipt",
+      "to acknowledge",
+      "to respond to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Büro",
+    "Wirtschaft"
+  ],
+  "ipa": "kvɪˈtiːʁən",
+  "anmerkung": "«den Dienst quittieren» = aus dem Dienst ausscheiden (gehoben).",
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte quittieren Sie den Empfang.",
+      "uebersetzung": {
+        "fa": "لطفاً دریافت را امضا کنید.",
+        "en": "Please sign for receipt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Publikum quittierte die schwache Rede mit Pfiffen, bevor der Politiker die Bühne verließ.",
+      "uebersetzung": {
+        "fa": "تماشاگران پیش از آنکه سیاستمدار صحنه را ترک کند، به سخنرانی ضعیفش با سوت پاسخ دادند.",
+        "en": "The audience responded to the weak speech with whistles before the politician left the stage."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    },
+    {
+      "wort": "unterschreiben",
+      "uebersetzung": {
+        "fa": "امضا کردن",
+        "en": "to sign"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Quittung (رسید) + -ieren",
+    "en": "Quittung (receipt) + -ieren"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas quittieren mit + Dat",
+        "bedeutung": "auf etwas mit einer Reaktion antworten",
+        "beispiel": "Sie quittierte die Frage mit einem Lächeln.",
+        "uebersetzung": {
+          "fa": "او به این سؤال با لبخند پاسخ داد.",
+          "en": "She responded to the question with a smile."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "quittieren",
+      "praeteritum": "quittierte",
+      "partizip2": "quittiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "quittiere",
+        "du": "quittierst",
+        "er_sie_es": "quittiert",
+        "wir": "quittieren",
+        "ihr": "quittiert",
+        "sie_Sie": "quittieren"
+      },
+      "praeteritum": {
+        "ich": "quittierte",
+        "du": "quittiertest",
+        "er_sie_es": "quittierte",
+        "wir": "quittierten",
+        "ihr": "quittiertet",
+        "sie_Sie": "quittierten"
+      },
+      "konjunktiv1": {
+        "ich": "quittiere",
+        "du": "quittierest",
+        "er_sie_es": "quittiere",
+        "wir": "quittieren",
+        "ihr": "quittieret",
+        "sie_Sie": "quittieren"
+      },
+      "konjunktiv2": {
+        "ich": "quittierte",
+        "du": "quittiertest",
+        "er_sie_es": "quittierte",
+        "wir": "quittierten",
+        "ihr": "quittiertet",
+        "sie_Sie": "quittierten"
+      },
+      "imperativ": {
+        "du": "Quittiere!",
+        "ihr": "Quittiert!",
+        "Sie": "Quittieren Sie!"
+      }
+    },
+    "partizip1": "quittierend",
+    "nominalisierung": "die Quittung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Quittung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسید",
+          "en": "receipt"
+        },
+        "id_ref": "nomen_quittung"
+      },
+      {
+        "wort": "unterschreiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امضا کردن",
+          "en": "to sign"
+        },
+        "id_ref": "verb_unterschreiben"
+      },
+      {
+        "wort": "der Empfang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دریافت",
+          "en": "receipt"
+        },
+        "id_ref": "nomen_empfang"
+      },
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "invoice"
+        },
+        "id_ref": "nomen_rechnung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_regieren",
+  "wort": "regieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حکومت کردن",
+      "فرمانروایی کردن"
+    ],
+    "en": [
+      "to govern",
+      "to rule",
+      "to reign"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "ʁeˈɡiːʁən",
+  "anmerkung": "Grammatik: Ein Verb «regiert» einen Kasus (z. B. «helfen» regiert den Dativ).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der König regiert das Land.",
+      "uebersetzung": {
+        "fa": "پادشاه بر کشور حکومت می‌کند.",
+        "en": "The king rules the country."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Partei, die seit zehn Jahren regiert, hat die Wahl verloren.",
+      "uebersetzung": {
+        "fa": "حزبی که ده سال است حکومت می‌کند، انتخابات را باخت.",
+        "en": "The party that has been governing for ten years lost the election."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herrschen",
+      "uebersetzung": {
+        "fa": "فرمانروایی کردن",
+        "en": "to rule"
+      }
+    },
+    {
+      "wort": "führen",
+      "uebersetzung": {
+        "fa": "رهبری کردن",
+        "en": "to lead"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین regere (هدایت کردن)",
+    "en": "from Latin regere (to steer)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "regieren über + Akk",
+        "bedeutung": "über ein Land oder Volk herrschen",
+        "beispiel": "Die Kaiserin regierte über ein großes Reich.",
+        "uebersetzung": {
+          "fa": "آن ملکه بر یک امپراتوری بزرگ حکومت می‌کرد.",
+          "en": "The empress ruled over a large empire."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "regieren",
+      "praeteritum": "regierte",
+      "partizip2": "regiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "regiere",
+        "du": "regierst",
+        "er_sie_es": "regiert",
+        "wir": "regieren",
+        "ihr": "regiert",
+        "sie_Sie": "regieren"
+      },
+      "praeteritum": {
+        "ich": "regierte",
+        "du": "regiertest",
+        "er_sie_es": "regierte",
+        "wir": "regierten",
+        "ihr": "regiertet",
+        "sie_Sie": "regierten"
+      },
+      "konjunktiv1": {
+        "ich": "regiere",
+        "du": "regierest",
+        "er_sie_es": "regiere",
+        "wir": "regieren",
+        "ihr": "regieret",
+        "sie_Sie": "regieren"
+      },
+      "konjunktiv2": {
+        "ich": "regierte",
+        "du": "regiertest",
+        "er_sie_es": "regierte",
+        "wir": "regierten",
+        "ihr": "regiertet",
+        "sie_Sie": "regierten"
+      },
+      "imperativ": {
+        "du": "Regiere!",
+        "ihr": "Regiert!",
+        "Sie": "Regieren Sie!"
+      }
+    },
+    "partizip1": "regierend",
+    "nominalisierung": "die Regierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Regierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دولت",
+          "en": "government"
+        },
+        "id_ref": "nomen_regierung"
+      },
+      {
+        "wort": "der König",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پادشاه",
+          "en": "king"
+        },
+        "id_ref": "nomen_koenig"
+      },
+      {
+        "wort": "herrschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرمانروایی کردن",
+          "en": "to rule"
+        },
+        "id_ref": "verb_herrschen"
+      },
+      {
+        "wort": "die Partei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حزب",
+          "en": "party"
+        },
+        "id_ref": "nomen_partei"
+      },
+      {
+        "wort": "die Wahl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انتخابات",
+          "en": "election"
+        },
+        "id_ref": "nomen_wahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

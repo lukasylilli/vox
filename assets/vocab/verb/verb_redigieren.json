@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_redigieren",
+  "wort": "redigieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ویرایش کردن (متن)"
+    ],
+    "en": [
+      "to edit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medien",
+    "Schreiben"
+  ],
+  "ipa": "ʁediˈɡiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie redigiert den Text.",
+      "uebersetzung": {
+        "fa": "او متن را ویرایش می‌کند.",
+        "en": "She is editing the text."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Buch gedruckt wird, muss es noch einmal gründlich redigiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از آنکه کتاب چاپ شود، باید یک بار دیگر با دقت ویرایش شود.",
+        "en": "Before the book is printed, it has to be thoroughly edited once more."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bearbeiten",
+      "uebersetzung": {
+        "fa": "ویرایش کردن",
+        "en": "to edit"
+      }
+    },
+    {
+      "wort": "überarbeiten",
+      "uebersetzung": {
+        "fa": "بازنویسی کردن",
+        "en": "to revise"
+      }
+    },
+    {
+      "wort": "korrigieren",
+      "uebersetzung": {
+        "fa": "تصحیح کردن",
+        "en": "to correct"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین redigere (به نظم درآوردن)",
+    "en": "from Latin redigere (to bring into order)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "redigieren",
+      "praeteritum": "redigierte",
+      "partizip2": "redigiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "redigiere",
+        "du": "redigierst",
+        "er_sie_es": "redigiert",
+        "wir": "redigieren",
+        "ihr": "redigiert",
+        "sie_Sie": "redigieren"
+      },
+      "praeteritum": {
+        "ich": "redigierte",
+        "du": "redigiertest",
+        "er_sie_es": "redigierte",
+        "wir": "redigierten",
+        "ihr": "redigiertet",
+        "sie_Sie": "redigierten"
+      },
+      "konjunktiv1": {
+        "ich": "redigiere",
+        "du": "redigierest",
+        "er_sie_es": "redigiere",
+        "wir": "redigieren",
+        "ihr": "redigieret",
+        "sie_Sie": "redigieren"
+      },
+      "konjunktiv2": {
+        "ich": "redigierte",
+        "du": "redigiertest",
+        "er_sie_es": "redigierte",
+        "wir": "redigierten",
+        "ihr": "redigiertet",
+        "sie_Sie": "redigierten"
+      },
+      "imperativ": {
+        "du": "Redigiere!",
+        "ihr": "Redigiert!",
+        "Sie": "Redigieren Sie!"
+      }
+    },
+    "partizip1": "redigierend",
+    "nominalisierung": "die Redaktion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Redaktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحریریه",
+          "en": "editorial office"
+        },
+        "id_ref": "nomen_redaktion"
+      },
+      {
+        "wort": "der Redakteur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ویراستار، دبیر",
+          "en": "editor"
+        },
+        "id_ref": "nomen_redakteur"
+      },
+      {
+        "wort": "korrigieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصحیح کردن",
+          "en": "to correct"
+        },
+        "id_ref": "verb_korrigieren"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "überarbeiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازنویسی کردن",
+          "en": "to revise"
+        },
+        "id_ref": "verb_ueberarbeiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

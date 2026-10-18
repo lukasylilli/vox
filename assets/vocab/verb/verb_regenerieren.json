@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_regenerieren",
+  "wort": "regenerieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بازسازی شدن",
+      "تجدید قوا کردن",
+      "ترمیم شدن"
+    ],
+    "en": [
+      "to regenerate",
+      "to recover"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Sport",
+    "Biologie"
+  ],
+  "ipa": "ʁeɡeneˈʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Haut regeneriert sich.",
+      "uebersetzung": {
+        "fa": "پوست خودش را ترمیم می‌کند.",
+        "en": "The skin regenerates."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Marathon braucht der Körper einige Tage, um sich zu regenerieren.",
+      "uebersetzung": {
+        "fa": "بعد از ماراتن، بدن چند روز وقت لازم دارد تا تجدید قوا کند.",
+        "en": "After the marathon, the body needs a few days to recover."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich erholen",
+      "uebersetzung": {
+        "fa": "بهبود یافتن",
+        "en": "to recover"
+      }
+    },
+    {
+      "wort": "erneuern",
+      "uebersetzung": {
+        "fa": "نو کردن",
+        "en": "to renew"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "re- (دوباره) + generieren (پدید آوردن)",
+    "en": "re- (again) + generieren (to generate)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "regenerieren",
+      "praeteritum": "regenerierte",
+      "partizip2": "regeneriert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "regeneriere",
+        "du": "regenerierst",
+        "er_sie_es": "regeneriert",
+        "wir": "regenerieren",
+        "ihr": "regeneriert",
+        "sie_Sie": "regenerieren"
+      },
+      "praeteritum": {
+        "ich": "regenerierte",
+        "du": "regeneriertest",
+        "er_sie_es": "regenerierte",
+        "wir": "regenerierten",
+        "ihr": "regeneriertet",
+        "sie_Sie": "regenerierten"
+      },
+      "konjunktiv1": {
+        "ich": "regeneriere",
+        "du": "regenerierest",
+        "er_sie_es": "regeneriere",
+        "wir": "regenerieren",
+        "ihr": "regenerieret",
+        "sie_Sie": "regenerieren"
+      },
+      "konjunktiv2": {
+        "ich": "regenerierte",
+        "du": "regeneriertest",
+        "er_sie_es": "regenerierte",
+        "wir": "regenerierten",
+        "ihr": "regeneriertet",
+        "sie_Sie": "regenerierten"
+      },
+      "imperativ": {
+        "du": "Regeneriere!",
+        "ihr": "Regeneriert!",
+        "Sie": "Regenerieren Sie!"
+      }
+    },
+    "partizip1": "regenerierend",
+    "nominalisierung": "die Regeneration"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erholen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استراحت کردن، بهبود یافتن",
+          "en": "to recover"
+        },
+        "id_ref": "verb_erholen"
+      },
+      {
+        "wort": "die Erholung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استراحت",
+          "en": "recovery"
+        },
+        "id_ref": "nomen_erholung"
+      },
+      {
+        "wort": "erneuern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نو کردن",
+          "en": "to renew"
+        },
+        "id_ref": "verb_erneuern"
+      },
+      {
+        "wort": "die Regeneration",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازسازی، تجدید قوا",
+          "en": "regeneration"
+        },
+        "id_ref": "nomen_regeneration"
+      },
+      {
+        "wort": "heilen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شفا دادن، خوب شدن",
+          "en": "to heal"
+        },
+        "id_ref": "verb_heilen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

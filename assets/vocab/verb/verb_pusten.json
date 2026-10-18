@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_pusten",
+  "wort": "pusten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فوت کردن",
+      "دمیدن"
+    ],
+    "en": [
+      "to blow",
+      "to puff"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Körper"
+  ],
+  "ipa": "ˈpuːstn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind pustet die Kerzen aus.",
+      "uebersetzung": {
+        "fa": "بچه شمع‌ها را فوت می‌کند و خاموش می‌کند.",
+        "en": "The child blows out the candles."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Suppe ist heiß, deshalb pustet er, bevor er sie isst.",
+      "uebersetzung": {
+        "fa": "سوپ داغ است، برای همین قبل از خوردن فوت می‌کند.",
+        "en": "The soup is hot, so he blows on it before he eats it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "blasen",
+      "uebersetzung": {
+        "fa": "دمیدن",
+        "en": "to blow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "in + Akk pusten",
+        "bedeutung": "Luft in etwas blasen",
+        "beispiel": "Bitte pusten Sie in das Röhrchen.",
+        "uebersetzung": {
+          "fa": "لطفاً در لوله فوت کنید.",
+          "en": "Please blow into the tube."
+        }
+      },
+      {
+        "muster": "auf + Akk pusten",
+        "bedeutung": "Luft auf etwas blasen",
+        "beispiel": "Die Mutter pustet auf die Wunde.",
+        "uebersetzung": {
+          "fa": "مادر روی زخم فوت می‌کند.",
+          "en": "The mother blows on the wound."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pusten",
+      "praeteritum": "pustete",
+      "partizip2": "gepustet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "puste",
+        "du": "pustest",
+        "er_sie_es": "pustet",
+        "wir": "pusten",
+        "ihr": "pustet",
+        "sie_Sie": "pusten"
+      },
+      "praeteritum": {
+        "ich": "pustete",
+        "du": "pustetest",
+        "er_sie_es": "pustete",
+        "wir": "pusteten",
+        "ihr": "pustetet",
+        "sie_Sie": "pusteten"
+      },
+      "konjunktiv1": {
+        "ich": "puste",
+        "du": "pustest",
+        "er_sie_es": "puste",
+        "wir": "pusten",
+        "ihr": "pustet",
+        "sie_Sie": "pusten"
+      },
+      "konjunktiv2": {
+        "ich": "pustete",
+        "du": "pustetest",
+        "er_sie_es": "pustete",
+        "wir": "pusteten",
+        "ihr": "pustetet",
+        "sie_Sie": "pusteten"
+      },
+      "imperativ": {
+        "du": "Puste!",
+        "ihr": "Pustet!",
+        "Sie": "Pusten Sie!"
+      }
+    },
+    "partizip1": "pustend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "blasen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دمیدن",
+          "en": "to blow"
+        },
+        "id_ref": "verb_blasen"
+      },
+      {
+        "wort": "ausblasen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فوت کردن و خاموش کردن",
+          "en": "to blow out"
+        },
+        "id_ref": "verb_ausblasen"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "atmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نفس کشیدن",
+          "en": "to breathe"
+        },
+        "id_ref": "verb_atmen"
+      },
+      {
+        "wort": "die Kerze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمع",
+          "en": "candle"
+        },
+        "id_ref": "nomen_kerze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

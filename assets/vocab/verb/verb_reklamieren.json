@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_reklamieren",
+  "wort": "reklamieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکایت کردن (از کالا)",
+      "اعتراض کردن",
+      "مطالبه کردن"
+    ],
+    "en": [
+      "to complain",
+      "to make a complaint",
+      "to claim"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Einkaufen",
+    "Wirtschaft"
+  ],
+  "ipa": "ʁeklaˈmiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich möchte diese Jacke reklamieren.",
+      "uebersetzung": {
+        "fa": "می‌خواهم درباره‌ی این کاپشن شکایت کنم.",
+        "en": "I would like to make a complaint about this jacket."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Fernseher nach einer Woche kaputt war, hat er ihn im Geschäft reklamiert.",
+      "uebersetzung": {
+        "fa": "چون تلویزیون بعد از یک هفته خراب شد، او در مغازه از آن شکایت کرد.",
+        "en": "Because the television was broken after a week, he made a complaint about it at the shop."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich beschweren",
+      "uebersetzung": {
+        "fa": "شکایت کردن",
+        "en": "to complain"
+      }
+    },
+    {
+      "wort": "beanstanden",
+      "uebersetzung": {
+        "fa": "ایراد گرفتن",
+        "en": "to object to"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین reclamare (فریاد اعتراض زدن)",
+    "en": "from Latin reclamare (to cry out against)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas reklamieren bei + Dat",
+        "bedeutung": "sich bei jemandem über einen Mangel beschweren",
+        "beispiel": "Sie hat die kaputte Lieferung beim Händler reklamiert.",
+        "uebersetzung": {
+          "fa": "او از محموله‌ی خراب نزد فروشنده شکایت کرد.",
+          "en": "She complained to the dealer about the damaged delivery."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reklamieren",
+      "praeteritum": "reklamierte",
+      "partizip2": "reklamiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reklamiere",
+        "du": "reklamierst",
+        "er_sie_es": "reklamiert",
+        "wir": "reklamieren",
+        "ihr": "reklamiert",
+        "sie_Sie": "reklamieren"
+      },
+      "praeteritum": {
+        "ich": "reklamierte",
+        "du": "reklamiertest",
+        "er_sie_es": "reklamierte",
+        "wir": "reklamierten",
+        "ihr": "reklamiertet",
+        "sie_Sie": "reklamierten"
+      },
+      "konjunktiv1": {
+        "ich": "reklamiere",
+        "du": "reklamierest",
+        "er_sie_es": "reklamiere",
+        "wir": "reklamieren",
+        "ihr": "reklamieret",
+        "sie_Sie": "reklamieren"
+      },
+      "konjunktiv2": {
+        "ich": "reklamierte",
+        "du": "reklamiertest",
+        "er_sie_es": "reklamierte",
+        "wir": "reklamierten",
+        "ihr": "reklamiertet",
+        "sie_Sie": "reklamierten"
+      },
+      "imperativ": {
+        "du": "Reklamiere!",
+        "ihr": "Reklamiert!",
+        "Sie": "Reklamieren Sie!"
+      }
+    },
+    "partizip1": "reklamierend",
+    "nominalisierung": "die Reklamation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Reklamation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت (از کالا)",
+          "en": "complaint"
+        },
+        "id_ref": "nomen_reklamation"
+      },
+      {
+        "wort": "beschweren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to complain"
+        },
+        "id_ref": "verb_beschweren"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "umtauschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعویض کردن",
+          "en": "to exchange"
+        },
+        "id_ref": "verb_umtauschen"
+      },
+      {
+        "wort": "die Garantie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضمانت",
+          "en": "guarantee"
+        },
+        "id_ref": "nomen_garantie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

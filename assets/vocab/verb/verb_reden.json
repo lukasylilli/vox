@@ -1,0 +1,210 @@
+{
+  "schema": "3.0",
+  "id": "verb_reden",
+  "wort": "reden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حرف زدن",
+      "صحبت کردن"
+    ],
+    "en": [
+      "to talk",
+      "to speak"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈʁeːdn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir reden zu viel.",
+      "uebersetzung": {
+        "fa": "ما زیادی حرف می‌زنیم.",
+        "en": "We talk too much."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich muss unbedingt mit dir reden, bevor du die Entscheidung triffst.",
+      "uebersetzung": {
+        "fa": "حتماً باید قبل از اینکه تصمیم بگیری با تو صحبت کنم.",
+        "en": "I really need to talk to you before you make the decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sprechen",
+      "uebersetzung": {
+        "fa": "صحبت کردن",
+        "en": "to speak"
+      }
+    },
+    {
+      "wort": "sich unterhalten",
+      "uebersetzung": {
+        "fa": "گفتگو کردن",
+        "en": "to converse"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schweigen",
+      "uebersetzung": {
+        "fa": "سکوت کردن",
+        "en": "to be silent"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "reden mit + Dat",
+        "bedeutung": "sich mit jemandem unterhalten",
+        "beispiel": "Hast du schon mit deiner Chefin geredet?",
+        "uebersetzung": {
+          "fa": "با رئیست صحبت کرده‌ای؟",
+          "en": "Have you talked to your boss yet?"
+        }
+      },
+      {
+        "muster": "reden über + Akk",
+        "bedeutung": "ein Thema besprechen",
+        "beispiel": "Wir reden über den Urlaub.",
+        "uebersetzung": {
+          "fa": "ما درباره‌ی تعطیلات صحبت می‌کنیم.",
+          "en": "We are talking about the holiday."
+        }
+      },
+      {
+        "muster": "reden von + Dat",
+        "bedeutung": "etwas erwähnen, von etwas erzählen",
+        "beispiel": "Er redet immer von seiner Heimat.",
+        "uebersetzung": {
+          "fa": "او همیشه از وطنش حرف می‌زند.",
+          "en": "He always talks about his homeland."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reden",
+      "praeteritum": "redete",
+      "partizip2": "geredet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rede",
+        "du": "redest",
+        "er_sie_es": "redet",
+        "wir": "reden",
+        "ihr": "redet",
+        "sie_Sie": "reden"
+      },
+      "praeteritum": {
+        "ich": "redete",
+        "du": "redetest",
+        "er_sie_es": "redete",
+        "wir": "redeten",
+        "ihr": "redetet",
+        "sie_Sie": "redeten"
+      },
+      "konjunktiv1": {
+        "ich": "rede",
+        "du": "redest",
+        "er_sie_es": "rede",
+        "wir": "reden",
+        "ihr": "redet",
+        "sie_Sie": "reden"
+      },
+      "konjunktiv2": {
+        "ich": "redete",
+        "du": "redetest",
+        "er_sie_es": "redete",
+        "wir": "redeten",
+        "ihr": "redetet",
+        "sie_Sie": "redeten"
+      },
+      "imperativ": {
+        "du": "Rede!",
+        "ihr": "Redet!",
+        "Sie": "Reden Sie!"
+      }
+    },
+    "partizip1": "redend",
+    "nominalisierung": "die Rede"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sprechen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صحبت کردن",
+          "en": "to speak"
+        },
+        "id_ref": "verb_sprechen"
+      },
+      {
+        "wort": "die Rede",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سخنرانی",
+          "en": "speech"
+        },
+        "id_ref": "nomen_rede"
+      },
+      {
+        "wort": "das Gespräch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گفتگو",
+          "en": "conversation"
+        },
+        "id_ref": "nomen_gespraech"
+      },
+      {
+        "wort": "unterhalten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صحبت کردن، گفتگو کردن",
+          "en": "to converse"
+        },
+        "id_ref": "verb_unterhalten"
+      },
+      {
+        "wort": "schweigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سکوت کردن",
+          "en": "to be silent"
+        },
+        "id_ref": "verb_schweigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

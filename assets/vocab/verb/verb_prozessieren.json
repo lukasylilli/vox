@@ -1,0 +1,206 @@
+{
+  "schema": "3.0",
+  "id": "verb_prozessieren",
+  "wort": "prozessieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دعوای حقوقی کردن",
+      "شکایت کردن (در دادگاه)"
+    ],
+    "en": [
+      "to litigate",
+      "to go to court"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "pʁot͡sɛˈsiːʁən",
+  "anmerkung": "In der Informatik auch: Daten verarbeiten (Fachsprache).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firmen prozessieren seit Jahren.",
+      "uebersetzung": {
+        "fa": "این شرکت‌ها سال‌هاست با هم دعوای حقوقی دارند.",
+        "en": "The companies have been litigating for years."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Vermieter die Kaution nicht zurückzahlte, prozessierte die Mieterin gegen ihn.",
+      "uebersetzung": {
+        "fa": "چون صاحب‌خانه ودیعه را پس نداد، مستأجر علیه او به دادگاه رفت.",
+        "en": "Because the landlord did not return the deposit, the tenant took him to court."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "klagen",
+      "uebersetzung": {
+        "fa": "شکایت کردن",
+        "en": "to sue"
+      }
+    },
+    {
+      "wort": "vor Gericht gehen",
+      "uebersetzung": {
+        "fa": "به دادگاه رفتن",
+        "en": "to go to court"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich einigen",
+      "uebersetzung": {
+        "fa": "به توافق رسیدن",
+        "en": "to come to an agreement"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Prozess (دعوای حقوقی) + -ieren (پسوند فعل‌ساز)",
+    "en": "Prozess (lawsuit) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "prozessieren gegen + Akk",
+        "bedeutung": "gegen jemanden vor Gericht klagen",
+        "beispiel": "Er prozessiert gegen seinen früheren Arbeitgeber.",
+        "uebersetzung": {
+          "fa": "او علیه کارفرمای سابقش دعوای حقوقی دارد.",
+          "en": "He is litigating against his former employer."
+        }
+      },
+      {
+        "muster": "prozessieren um + Akk",
+        "bedeutung": "vor Gericht um etwas streiten",
+        "beispiel": "Die Geschwister prozessieren um das Erbe.",
+        "uebersetzung": {
+          "fa": "خواهر و برادرها بر سر ارث دعوای حقوقی دارند.",
+          "en": "The siblings are litigating over the inheritance."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "prozessieren",
+      "praeteritum": "prozessierte",
+      "partizip2": "prozessiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "prozessiere",
+        "du": "prozessierst",
+        "er_sie_es": "prozessiert",
+        "wir": "prozessieren",
+        "ihr": "prozessiert",
+        "sie_Sie": "prozessieren"
+      },
+      "praeteritum": {
+        "ich": "prozessierte",
+        "du": "prozessiertest",
+        "er_sie_es": "prozessierte",
+        "wir": "prozessierten",
+        "ihr": "prozessiertet",
+        "sie_Sie": "prozessierten"
+      },
+      "konjunktiv1": {
+        "ich": "prozessiere",
+        "du": "prozessierest",
+        "er_sie_es": "prozessiere",
+        "wir": "prozessieren",
+        "ihr": "prozessieret",
+        "sie_Sie": "prozessieren"
+      },
+      "konjunktiv2": {
+        "ich": "prozessierte",
+        "du": "prozessiertest",
+        "er_sie_es": "prozessierte",
+        "wir": "prozessierten",
+        "ihr": "prozessiertet",
+        "sie_Sie": "prozessierten"
+      },
+      "imperativ": {
+        "du": "Prozessiere!",
+        "ihr": "Prozessiert!",
+        "Sie": "Prozessieren Sie!"
+      }
+    },
+    "partizip1": "prozessierend",
+    "nominalisierung": "der Prozess"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Prozess",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دعوای حقوقی",
+          "en": "lawsuit"
+        },
+        "id_ref": "nomen_prozess"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "klagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکایت کردن",
+          "en": "to sue"
+        },
+        "id_ref": "verb_klagen"
+      },
+      {
+        "wort": "der Anwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل",
+          "en": "lawyer"
+        },
+        "id_ref": "nomen_anwalt"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

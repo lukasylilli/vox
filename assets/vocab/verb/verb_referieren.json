@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_referieren",
+  "wort": "referieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارائه دادن",
+      "گزارش دادن (شفاهی)",
+      "سخنرانی کردن"
+    ],
+    "en": [
+      "to give a presentation",
+      "to report",
+      "to lecture"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Studium",
+    "Schule"
+  ],
+  "ipa": "ʁefeˈʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Heute referiert Anna.",
+      "uebersetzung": {
+        "fa": "امروز آنا ارائه می‌دهد.",
+        "en": "Anna is giving a presentation today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Konferenz referierte die Professorin über die neuesten Forschungsergebnisse.",
+      "uebersetzung": {
+        "fa": "در کنفرانس، استاد درباره‌ی تازه‌ترین نتایج پژوهش سخنرانی کرد.",
+        "en": "At the conference, the professor gave a talk on the latest research findings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vortragen",
+      "uebersetzung": {
+        "fa": "ارائه دادن",
+        "en": "to present"
+      }
+    },
+    {
+      "wort": "berichten",
+      "uebersetzung": {
+        "fa": "گزارش دادن",
+        "en": "to report"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین referre (بازگو کردن)",
+    "en": "from Latin referre (to report)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "referieren über + Akk",
+        "bedeutung": "einen Vortrag über ein Thema halten",
+        "beispiel": "Er referiert über die Geschichte der Stadt.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی تاریخ شهر ارائه می‌دهد.",
+          "en": "He is giving a talk on the history of the town."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "referieren",
+      "praeteritum": "referierte",
+      "partizip2": "referiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "referiere",
+        "du": "referierst",
+        "er_sie_es": "referiert",
+        "wir": "referieren",
+        "ihr": "referiert",
+        "sie_Sie": "referieren"
+      },
+      "praeteritum": {
+        "ich": "referierte",
+        "du": "referiertest",
+        "er_sie_es": "referierte",
+        "wir": "referierten",
+        "ihr": "referiertet",
+        "sie_Sie": "referierten"
+      },
+      "konjunktiv1": {
+        "ich": "referiere",
+        "du": "referierest",
+        "er_sie_es": "referiere",
+        "wir": "referieren",
+        "ihr": "referieret",
+        "sie_Sie": "referieren"
+      },
+      "konjunktiv2": {
+        "ich": "referierte",
+        "du": "referiertest",
+        "er_sie_es": "referierte",
+        "wir": "referierten",
+        "ihr": "referiertet",
+        "sie_Sie": "referierten"
+      },
+      "imperativ": {
+        "du": "Referiere!",
+        "ihr": "Referiert!",
+        "Sie": "Referieren Sie!"
+      }
+    },
+    "partizip1": "referierend",
+    "nominalisierung": "das Referat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Referat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارائه‌ی کلاسی",
+          "en": "presentation"
+        },
+        "id_ref": "nomen_referat"
+      },
+      {
+        "wort": "der Vortrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سخنرانی",
+          "en": "lecture"
+        },
+        "id_ref": "nomen_vortrag"
+      },
+      {
+        "wort": "berichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گزارش دادن",
+          "en": "to report"
+        },
+        "id_ref": "verb_berichten"
+      },
+      {
+        "wort": "präsentieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارائه دادن",
+          "en": "to present"
+        },
+        "id_ref": "verb_praesentieren"
+      },
+      {
+        "wort": "der Referent",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سخنران",
+          "en": "speaker"
+        },
+        "id_ref": "nomen_referent"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

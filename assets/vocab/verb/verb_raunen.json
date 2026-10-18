@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_raunen",
+  "wort": "raunen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زمزمه کردن",
+      "پچ‌پچ کردن"
+    ],
+    "en": [
+      "to murmur",
+      "to whisper"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈʁaʊ̯nən",
+  "anmerkung": "Gehoben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Leute raunen.",
+      "uebersetzung": {
+        "fa": "مردم پچ‌پچ می‌کنند.",
+        "en": "People are murmuring."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Raunen ging durch den Saal, als der Gewinner bekannt gegeben wurde, und alle raunten seinen Namen.",
+      "uebersetzung": {
+        "fa": "وقتی برنده اعلام شد، زمزمه‌ای در سالن پیچید و همه نامش را زیر لب گفتند.",
+        "en": "A murmur went through the hall when the winner was announced, and everyone murmured his name."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "flüstern",
+      "uebersetzung": {
+        "fa": "نجوا کردن",
+        "en": "to whisper"
+      }
+    },
+    {
+      "wort": "murmeln",
+      "uebersetzung": {
+        "fa": "زیر لب گفتن",
+        "en": "to murmur"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas raunen",
+        "bedeutung": "jemandem etwas leise sagen",
+        "beispiel": "Sie raunte ihm ein Geheimnis ins Ohr.",
+        "uebersetzung": {
+          "fa": "او رازی را در گوشش زمزمه کرد.",
+          "en": "She whispered a secret in his ear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "raunen",
+      "praeteritum": "raunte",
+      "partizip2": "geraunt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "raune",
+        "du": "raunst",
+        "er_sie_es": "raunt",
+        "wir": "raunen",
+        "ihr": "raunt",
+        "sie_Sie": "raunen"
+      },
+      "praeteritum": {
+        "ich": "raunte",
+        "du": "rauntest",
+        "er_sie_es": "raunte",
+        "wir": "raunten",
+        "ihr": "rauntet",
+        "sie_Sie": "raunten"
+      },
+      "konjunktiv1": {
+        "ich": "raune",
+        "du": "raunest",
+        "er_sie_es": "raune",
+        "wir": "raunen",
+        "ihr": "raunet",
+        "sie_Sie": "raunen"
+      },
+      "konjunktiv2": {
+        "ich": "raunte",
+        "du": "rauntest",
+        "er_sie_es": "raunte",
+        "wir": "raunten",
+        "ihr": "rauntet",
+        "sie_Sie": "raunten"
+      },
+      "imperativ": {
+        "du": "Raune!",
+        "ihr": "Raunt!",
+        "Sie": "Raunen Sie!"
+      }
+    },
+    "partizip1": "raunend",
+    "nominalisierung": "das Raunen"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "flüstern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نجوا کردن",
+          "en": "to whisper"
+        },
+        "id_ref": "verb_fluestern"
+      },
+      {
+        "wort": "murmeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زیر لب گفتن",
+          "en": "to murmur"
+        },
+        "id_ref": "verb_murmeln"
+      },
+      {
+        "wort": "leise",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آرام",
+          "en": "quiet"
+        },
+        "id_ref": "adjektiv_leise"
+      },
+      {
+        "wort": "das Gerücht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شایعه",
+          "en": "rumour"
+        },
+        "id_ref": "nomen_geruecht"
+      },
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صدا",
+          "en": "voice"
+        },
+        "id_ref": "nomen_stimme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

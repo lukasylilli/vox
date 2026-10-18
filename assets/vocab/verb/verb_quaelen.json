@@ -1,0 +1,204 @@
+{
+  "schema": "3.0",
+  "id": "verb_quaelen",
+  "wort": "quälen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آزار دادن",
+      "عذاب دادن",
+      "زجر کشیدن"
+    ],
+    "en": [
+      "to torment",
+      "to torture",
+      "to struggle"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Gesundheit"
+  ],
+  "ipa": "ˈkvɛːlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man darf Tiere nicht quälen.",
+      "uebersetzung": {
+        "fa": "نباید حیوانات را آزار داد.",
+        "en": "You must not torment animals."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit Tagen quält ihn die Frage, ob er die Stelle annehmen soll.",
+      "uebersetzung": {
+        "fa": "روزهاست که این سؤال عذابش می‌دهد که آیا کار را قبول کند یا نه.",
+        "en": "For days he has been tormented by the question of whether to accept the job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "peinigen",
+      "uebersetzung": {
+        "fa": "شکنجه دادن",
+        "en": "to torment"
+      }
+    },
+    {
+      "wort": "plagen",
+      "uebersetzung": {
+        "fa": "آزار دادن",
+        "en": "to plague"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verwöhnen",
+      "uebersetzung": {
+        "fa": "ناز کشیدن",
+        "en": "to pamper"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich quälen mit + Dat",
+        "bedeutung": "große Mühe mit etwas haben",
+        "beispiel": "Er quält sich mit seinen Hausaufgaben.",
+        "uebersetzung": {
+          "fa": "او با تکالیفش زجر می‌کشد.",
+          "en": "He is struggling with his homework."
+        }
+      },
+      {
+        "muster": "sich quälen durch + Akk",
+        "bedeutung": "etwas mühsam durcharbeiten",
+        "beispiel": "Sie quälte sich durch das dicke Buch.",
+        "uebersetzung": {
+          "fa": "او به زحمت کتاب قطور را تمام کرد.",
+          "en": "She struggled through the thick book."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "quälen",
+      "praeteritum": "quälte",
+      "partizip2": "gequält"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "quäle",
+        "du": "quälst",
+        "er_sie_es": "quält",
+        "wir": "quälen",
+        "ihr": "quält",
+        "sie_Sie": "quälen"
+      },
+      "praeteritum": {
+        "ich": "quälte",
+        "du": "quältest",
+        "er_sie_es": "quälte",
+        "wir": "quälten",
+        "ihr": "quältet",
+        "sie_Sie": "quälten"
+      },
+      "konjunktiv1": {
+        "ich": "quäle",
+        "du": "quälest",
+        "er_sie_es": "quäle",
+        "wir": "quälen",
+        "ihr": "quälet",
+        "sie_Sie": "quälen"
+      },
+      "konjunktiv2": {
+        "ich": "quälte",
+        "du": "quältest",
+        "er_sie_es": "quälte",
+        "wir": "quälten",
+        "ihr": "quältet",
+        "sie_Sie": "quälten"
+      },
+      "imperativ": {
+        "du": "Quäle!",
+        "ihr": "Quält!",
+        "Sie": "Quälen Sie!"
+      }
+    },
+    "partizip1": "quälend",
+    "nominalisierung": "die Qual"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Qual",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عذاب",
+          "en": "torment"
+        },
+        "id_ref": "nomen_qual"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "leiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنج بردن",
+          "en": "to suffer"
+        },
+        "id_ref": "verb_leiden"
+      },
+      {
+        "wort": "plagen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آزار دادن",
+          "en": "to plague"
+        },
+        "id_ref": "verb_plagen"
+      },
+      {
+        "wort": "die Tierquälerei",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آزار حیوانات",
+          "en": "animal cruelty"
+        },
+        "id_ref": "nomen_tierquaelerei"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

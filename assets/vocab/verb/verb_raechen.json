@@ -1,0 +1,202 @@
+{
+  "schema": "3.0",
+  "id": "verb_raechen",
+  "wort": "rächen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انتقام گرفتن",
+      "تلافی کردن"
+    ],
+    "en": [
+      "to avenge",
+      "to take revenge"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gefühle",
+    "Konflikt"
+  ],
+  "ipa": "ˈʁɛçn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er will sich rächen.",
+      "uebersetzung": {
+        "fa": "او می‌خواهد انتقام بگیرد.",
+        "en": "He wants to take revenge."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ihr Leichtsinn hat sich gerächt, denn ohne Versicherung musste sie alles selbst bezahlen.",
+      "uebersetzung": {
+        "fa": "بی‌احتیاطی‌اش تاوان داشت، چون بدون بیمه مجبور شد همه چیز را خودش بپردازد.",
+        "en": "Her carelessness backfired, because without insurance she had to pay for everything herself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heimzahlen",
+      "uebersetzung": {
+        "fa": "تلافی کردن",
+        "en": "to pay back"
+      }
+    },
+    {
+      "wort": "vergelten",
+      "uebersetzung": {
+        "fa": "تلافی کردن",
+        "en": "to retaliate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verzeihen",
+      "uebersetzung": {
+        "fa": "بخشیدن",
+        "en": "to forgive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich rächen an + Dat",
+        "bedeutung": "jemandem etwas Böses zurückgeben",
+        "beispiel": "Sie rächte sich an ihrem Ex-Freund.",
+        "uebersetzung": {
+          "fa": "او از دوست‌پسر سابقش انتقام گرفت.",
+          "en": "She took revenge on her ex-boyfriend."
+        }
+      },
+      {
+        "muster": "sich rächen für + Akk",
+        "bedeutung": "wegen etwas Vergeltung üben",
+        "beispiel": "Er rächte sich für die Beleidigung.",
+        "uebersetzung": {
+          "fa": "او به خاطر آن توهین انتقام گرفت.",
+          "en": "He took revenge for the insult."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rächen",
+      "praeteritum": "rächte",
+      "partizip2": "gerächt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "räche",
+        "du": "rächst",
+        "er_sie_es": "rächt",
+        "wir": "rächen",
+        "ihr": "rächt",
+        "sie_Sie": "rächen"
+      },
+      "praeteritum": {
+        "ich": "rächte",
+        "du": "rächtest",
+        "er_sie_es": "rächte",
+        "wir": "rächten",
+        "ihr": "rächtet",
+        "sie_Sie": "rächten"
+      },
+      "konjunktiv1": {
+        "ich": "räche",
+        "du": "rächest",
+        "er_sie_es": "räche",
+        "wir": "rächen",
+        "ihr": "rächet",
+        "sie_Sie": "rächen"
+      },
+      "konjunktiv2": {
+        "ich": "rächte",
+        "du": "rächtest",
+        "er_sie_es": "rächte",
+        "wir": "rächten",
+        "ihr": "rächtet",
+        "sie_Sie": "rächten"
+      },
+      "imperativ": {
+        "du": "Räche!",
+        "ihr": "Rächt!",
+        "Sie": "Rächen Sie!"
+      }
+    },
+    "partizip1": "rächend",
+    "nominalisierung": "die Rache"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rache",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتقام",
+          "en": "revenge"
+        },
+        "id_ref": "nomen_rache"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "die Wut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشم",
+          "en": "rage"
+        },
+        "id_ref": "nomen_wut"
+      },
+      {
+        "wort": "heimzahlen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تلافی کردن",
+          "en": "to pay back"
+        },
+        "id_ref": "verb_heimzahlen"
+      },
+      {
+        "wort": "die Vergeltung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تلافی",
+          "en": "retaliation"
+        },
+        "id_ref": "nomen_vergeltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

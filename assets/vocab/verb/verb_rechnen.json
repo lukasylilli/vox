@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_rechnen",
+  "wort": "rechnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "حساب کردن",
+      "انتظار داشتن",
+      "روی کسی حساب کردن"
+    ],
+    "en": [
+      "to calculate",
+      "to expect",
+      "to count on"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Mathematik",
+    "Schule",
+    "Alltag"
+  ],
+  "ipa": "ˈʁɛçnən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Kind kann schon rechnen.",
+      "uebersetzung": {
+        "fa": "بچه دیگر حساب کردن بلد است.",
+        "en": "The child can already do sums."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir rechnen damit, dass das Paket morgen ankommt.",
+      "uebersetzung": {
+        "fa": "انتظار داریم بسته فردا برسد.",
+        "en": "We expect the parcel to arrive tomorrow."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "berechnen",
+      "uebersetzung": {
+        "fa": "محاسبه کردن",
+        "en": "to calculate"
+      }
+    },
+    {
+      "wort": "erwarten",
+      "uebersetzung": {
+        "fa": "انتظار داشتن",
+        "en": "to expect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "rechnen mit + Dat",
+        "bedeutung": "etwas erwarten oder sich auf jemanden verlassen",
+        "beispiel": "Du kannst mit mir rechnen.",
+        "uebersetzung": {
+          "fa": "می‌توانی روی من حساب کنی.",
+          "en": "You can count on me."
+        }
+      },
+      {
+        "muster": "sich rechnen",
+        "bedeutung": "sich lohnen (finanziell)",
+        "beispiel": "Die Investition rechnet sich nach drei Jahren.",
+        "uebersetzung": {
+          "fa": "این سرمایه‌گذاری بعد از سه سال سودآور می‌شود.",
+          "en": "The investment pays off after three years."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rechnen",
+      "praeteritum": "rechnete",
+      "partizip2": "gerechnet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rechne",
+        "du": "rechnest",
+        "er_sie_es": "rechnet",
+        "wir": "rechnen",
+        "ihr": "rechnet",
+        "sie_Sie": "rechnen"
+      },
+      "praeteritum": {
+        "ich": "rechnete",
+        "du": "rechnetest",
+        "er_sie_es": "rechnete",
+        "wir": "rechneten",
+        "ihr": "rechnetet",
+        "sie_Sie": "rechneten"
+      },
+      "konjunktiv1": {
+        "ich": "rechne",
+        "du": "rechnest",
+        "er_sie_es": "rechne",
+        "wir": "rechnen",
+        "ihr": "rechnet",
+        "sie_Sie": "rechnen"
+      },
+      "konjunktiv2": {
+        "ich": "rechnete",
+        "du": "rechnetest",
+        "er_sie_es": "rechnete",
+        "wir": "rechneten",
+        "ihr": "rechnetet",
+        "sie_Sie": "rechneten"
+      },
+      "imperativ": {
+        "du": "Rechne!",
+        "ihr": "Rechnet!",
+        "Sie": "Rechnen Sie!"
+      }
+    },
+    "partizip1": "rechnend",
+    "nominalisierung": "die Rechnung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "der Taschenrechner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین‌حساب",
+          "en": "calculator"
+        },
+        "id_ref": "nomen_taschenrechner"
+      },
+      {
+        "wort": "erwarten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتظار داشتن",
+          "en": "to expect"
+        },
+        "id_ref": "verb_erwarten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

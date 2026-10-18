@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "verb_reinigen",
+  "wort": "reinigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تمیز کردن",
+      "پاک کردن",
+      "تصفیه کردن"
+    ],
+    "en": [
+      "to clean",
+      "to purify"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Haushalt",
+    "Gesundheit"
+  ],
+  "ipa": "ˈʁaɪ̯nɪɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte reinigen Sie die Wunde.",
+      "uebersetzung": {
+        "fa": "لطفاً زخم را تمیز کنید.",
+        "en": "Please clean the wound."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Den Anzug lasse ich reinigen, weil man ihn nicht in der Maschine waschen darf.",
+      "uebersetzung": {
+        "fa": "کت‌وشلوار را می‌دهم خشک‌شویی تمیز کند، چون نباید آن را در ماشین شست.",
+        "en": "I am having the suit cleaned because it must not be washed in the machine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "putzen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    },
+    {
+      "wort": "säubern",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verschmutzen",
+      "uebersetzung": {
+        "fa": "کثیف کردن",
+        "en": "to pollute"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "rein (پاک) + -igen (پسوند فعل‌ساز)",
+    "en": "rein (clean, pure) + -igen (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas reinigen von + Dat",
+        "bedeutung": "Schmutz von etwas entfernen",
+        "beispiel": "Er reinigt die Fenster vom Staub.",
+        "uebersetzung": {
+          "fa": "او گردوغبار را از پنجره‌ها پاک می‌کند.",
+          "en": "He cleans the dust off the windows."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "reinigen",
+      "praeteritum": "reinigte",
+      "partizip2": "gereinigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "reinige",
+        "du": "reinigst",
+        "er_sie_es": "reinigt",
+        "wir": "reinigen",
+        "ihr": "reinigt",
+        "sie_Sie": "reinigen"
+      },
+      "praeteritum": {
+        "ich": "reinigte",
+        "du": "reinigtest",
+        "er_sie_es": "reinigte",
+        "wir": "reinigten",
+        "ihr": "reinigtet",
+        "sie_Sie": "reinigten"
+      },
+      "konjunktiv1": {
+        "ich": "reinige",
+        "du": "reinigest",
+        "er_sie_es": "reinige",
+        "wir": "reinigen",
+        "ihr": "reiniget",
+        "sie_Sie": "reinigen"
+      },
+      "konjunktiv2": {
+        "ich": "reinigte",
+        "du": "reinigtest",
+        "er_sie_es": "reinigte",
+        "wir": "reinigten",
+        "ihr": "reinigtet",
+        "sie_Sie": "reinigten"
+      },
+      "imperativ": {
+        "du": "Reinige!",
+        "ihr": "Reinigt!",
+        "Sie": "Reinigen Sie!"
+      }
+    },
+    "partizip1": "reinigend",
+    "nominalisierung": "die Reinigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rein",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاک",
+          "en": "pure, clean"
+        },
+        "id_ref": "adjektiv_rein"
+      },
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "die Reinigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خشک‌شویی، نظافت",
+          "en": "dry cleaner's, cleaning"
+        },
+        "id_ref": "nomen_reinigung"
+      },
+      {
+        "wort": "sauber",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز",
+          "en": "clean"
+        },
+        "id_ref": "adjektiv_sauber"
+      },
+      {
+        "wort": "desinfizieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضدعفونی کردن",
+          "en": "to disinfect"
+        },
+        "id_ref": "verb_desinfizieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

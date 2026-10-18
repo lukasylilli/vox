@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_raspeln",
+  "wort": "raspeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رنده کردن",
+      "سوهان زدن"
+    ],
+    "en": [
+      "to grate",
+      "to rasp"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche",
+    "Handwerk"
+  ],
+  "ipa": "ˈʁaspl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich rasple die Möhren.",
+      "uebersetzung": {
+        "fa": "هویج‌ها را رنده می‌کنم.",
+        "en": "I am grating the carrots."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für den Kuchen wird die Schokolade fein geraspelt, bevor man sie unter den Teig hebt.",
+      "uebersetzung": {
+        "fa": "برای کیک، شکلات را ریز رنده می‌کنند و بعد آن را به خمیر اضافه می‌کنند.",
+        "en": "For the cake, the chocolate is finely grated before being folded into the batter."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reiben",
+      "uebersetzung": {
+        "fa": "رنده کردن",
+        "en": "to grate"
+      }
+    },
+    {
+      "wort": "hobeln",
+      "uebersetzung": {
+        "fa": "رنده کردن (چوب)",
+        "en": "to plane"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Raspel (سوهان درشت، رنده) + -n",
+    "en": "Raspel (rasp, grater) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "raspeln",
+      "praeteritum": "raspelte",
+      "partizip2": "geraspelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rasple",
+        "du": "raspelst",
+        "er_sie_es": "raspelt",
+        "wir": "raspeln",
+        "ihr": "raspelt",
+        "sie_Sie": "raspeln"
+      },
+      "praeteritum": {
+        "ich": "raspelte",
+        "du": "raspeltest",
+        "er_sie_es": "raspelte",
+        "wir": "raspelten",
+        "ihr": "raspeltet",
+        "sie_Sie": "raspelten"
+      },
+      "konjunktiv1": {
+        "ich": "rasple",
+        "du": "rasplest",
+        "er_sie_es": "rasple",
+        "wir": "raspeln",
+        "ihr": "rasplet",
+        "sie_Sie": "raspeln"
+      },
+      "konjunktiv2": {
+        "ich": "raspelte",
+        "du": "raspeltest",
+        "er_sie_es": "raspelte",
+        "wir": "raspelten",
+        "ihr": "raspeltet",
+        "sie_Sie": "raspelten"
+      },
+      "imperativ": {
+        "du": "Rasple!",
+        "ihr": "Raspelt!",
+        "Sie": "Raspeln Sie!"
+      }
+    },
+    "partizip1": "raspelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "reiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنده کردن، مالیدن",
+          "en": "to grate, to rub"
+        },
+        "id_ref": "verb_reiben"
+      },
+      {
+        "wort": "die Reibe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رنده",
+          "en": "grater"
+        },
+        "id_ref": "nomen_reibe"
+      },
+      {
+        "wort": "die Möhre",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هویج",
+          "en": "carrot"
+        },
+        "id_ref": "nomen_moehre"
+      },
+      {
+        "wort": "die Raspel",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "رنده، سوهان درشت",
+          "en": "rasp"
+        },
+        "id_ref": "nomen_raspel"
+      },
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

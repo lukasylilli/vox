@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_rammen",
+  "wort": "rammen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کوبیدن",
+      "محکم به چیزی زدن",
+      "در زمین فرو کردن"
+    ],
+    "en": [
+      "to ram",
+      "to crash into",
+      "to drive in"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Bau"
+  ],
+  "ipa": "ˈʁamən",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Lkw rammte das Auto.",
+      "uebersetzung": {
+        "fa": "یک کامیون به ماشین کوبید.",
+        "en": "A lorry rammed the car."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Arbeiter rammen Pfähle in den Boden, damit das Haus stabil steht.",
+      "uebersetzung": {
+        "fa": "کارگرها تیرک‌ها را در زمین فرو می‌کوبند تا خانه محکم بایستد.",
+        "en": "The workers drive piles into the ground so that the house stands firmly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zusammenstoßen",
+      "uebersetzung": {
+        "fa": "تصادف کردن",
+        "en": "to collide"
+      }
+    },
+    {
+      "wort": "einschlagen",
+      "uebersetzung": {
+        "fa": "کوبیدن",
+        "en": "to drive in"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas rammen in + Akk",
+        "bedeutung": "etwas mit Kraft in etwas hineintreiben",
+        "beispiel": "Er rammte den Spaten in die Erde.",
+        "uebersetzung": {
+          "fa": "او بیل را در خاک فرو کرد.",
+          "en": "He drove the spade into the ground."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rammen",
+      "praeteritum": "rammte",
+      "partizip2": "gerammt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "ramme",
+        "du": "rammst",
+        "er_sie_es": "rammt",
+        "wir": "rammen",
+        "ihr": "rammt",
+        "sie_Sie": "rammen"
+      },
+      "praeteritum": {
+        "ich": "rammte",
+        "du": "rammtest",
+        "er_sie_es": "rammte",
+        "wir": "rammten",
+        "ihr": "rammtet",
+        "sie_Sie": "rammten"
+      },
+      "konjunktiv1": {
+        "ich": "ramme",
+        "du": "rammest",
+        "er_sie_es": "ramme",
+        "wir": "rammen",
+        "ihr": "rammet",
+        "sie_Sie": "rammen"
+      },
+      "konjunktiv2": {
+        "ich": "rammte",
+        "du": "rammtest",
+        "er_sie_es": "rammte",
+        "wir": "rammten",
+        "ihr": "rammtet",
+        "sie_Sie": "rammten"
+      },
+      "imperativ": {
+        "du": "Ramme!",
+        "ihr": "Rammt!",
+        "Sie": "Rammen Sie!"
+      }
+    },
+    "partizip1": "rammend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "stoßen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هل دادن، خوردن",
+          "en": "to push, to bump"
+        },
+        "id_ref": "verb_stossen"
+      },
+      {
+        "wort": "zusammenstoßen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصادف کردن",
+          "en": "to collide"
+        },
+        "id_ref": "verb_zusammenstossen"
+      },
+      {
+        "wort": "der Pfahl",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیرک",
+          "en": "pile, post"
+        },
+        "id_ref": "nomen_pfahl"
+      },
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

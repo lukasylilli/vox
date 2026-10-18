@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_raeumen",
+  "wort": "räumen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تخلیه کردن",
+      "جمع‌وجور کردن",
+      "گذاشتن (در جایی)"
+    ],
+    "en": [
+      "to clear",
+      "to vacate",
+      "to put away"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Haushalt",
+    "Wohnen"
+  ],
+  "ipa": "ˈʁɔɪ̯mən",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich räume das Geschirr in den Schrank.",
+      "uebersetzung": {
+        "fa": "ظرف‌ها را در کابینت می‌گذارم.",
+        "en": "I put the dishes away in the cupboard."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Mieter müssen die Wohnung bis Ende des Monats räumen, weil das Haus renoviert wird.",
+      "uebersetzung": {
+        "fa": "مستأجرها باید تا آخر ماه آپارتمان را تخلیه کنند، چون ساختمان بازسازی می‌شود.",
+        "en": "The tenants have to vacate the flat by the end of the month because the building is being renovated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufräumen",
+      "uebersetzung": {
+        "fa": "مرتب کردن",
+        "en": "to tidy up"
+      }
+    },
+    {
+      "wort": "leeren",
+      "uebersetzung": {
+        "fa": "خالی کردن",
+        "en": "to empty"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas räumen in + Akk",
+        "bedeutung": "etwas an einen bestimmten Ort bringen",
+        "beispiel": "Räum bitte die Bücher in das Regal!",
+        "uebersetzung": {
+          "fa": "لطفاً کتاب‌ها را در قفسه بگذار!",
+          "en": "Please put the books on the shelf!"
+        }
+      },
+      {
+        "muster": "etwas räumen von + Dat",
+        "bedeutung": "etwas von einem Ort wegnehmen",
+        "beispiel": "Er räumt den Schnee vom Gehweg.",
+        "uebersetzung": {
+          "fa": "او برف را از پیاده‌رو پاک می‌کند.",
+          "en": "He clears the snow from the pavement."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "räumen",
+      "praeteritum": "räumte",
+      "partizip2": "geräumt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "räume",
+        "du": "räumst",
+        "er_sie_es": "räumt",
+        "wir": "räumen",
+        "ihr": "räumt",
+        "sie_Sie": "räumen"
+      },
+      "praeteritum": {
+        "ich": "räumte",
+        "du": "räumtest",
+        "er_sie_es": "räumte",
+        "wir": "räumten",
+        "ihr": "räumtet",
+        "sie_Sie": "räumten"
+      },
+      "konjunktiv1": {
+        "ich": "räume",
+        "du": "räumest",
+        "er_sie_es": "räume",
+        "wir": "räumen",
+        "ihr": "räumet",
+        "sie_Sie": "räumen"
+      },
+      "konjunktiv2": {
+        "ich": "räumte",
+        "du": "räumtest",
+        "er_sie_es": "räumte",
+        "wir": "räumten",
+        "ihr": "räumtet",
+        "sie_Sie": "räumten"
+      },
+      "imperativ": {
+        "du": "Räume!",
+        "ihr": "Räumt!",
+        "Sie": "Räumen Sie!"
+      }
+    },
+    "partizip1": "räumend",
+    "nominalisierung": "die Räumung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "aufräumen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مرتب کردن",
+          "en": "to tidy up"
+        },
+        "id_ref": "verb_aufraeumen"
+      },
+      {
+        "wort": "der Raum",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتاق، فضا",
+          "en": "room, space"
+        },
+        "id_ref": "nomen_raum"
+      },
+      {
+        "wort": "ausräumen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خالی کردن",
+          "en": "to clear out"
+        },
+        "id_ref": "verb_ausraeumen"
+      },
+      {
+        "wort": "einräumen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جا دادن",
+          "en": "to put in"
+        },
+        "id_ref": "verb_einraeumen"
+      },
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

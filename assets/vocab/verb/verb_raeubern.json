@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_raeubern",
+  "wort": "räubern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غارت کردن",
+      "خالی کردن (یخچال، به شوخی)"
+    ],
+    "en": [
+      "to plunder",
+      "to raid"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Kriminalität"
+  ],
+  "ipa": "ˈʁɔɪ̯bɐn",
+  "anmerkung": "Umgangssprachlich, oft scherzhaft: «den Kühlschrank räubern».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder räubern den Kühlschrank.",
+      "uebersetzung": {
+        "fa": "بچه‌ها یخچال را غارت می‌کنند.",
+        "en": "The children are raiding the fridge."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachts haben Füchse im Garten geräubert und die Mülltonnen umgeworfen.",
+      "uebersetzung": {
+        "fa": "شب روباه‌ها در باغ غارت کردند و سطل‌های زباله را واژگون کردند.",
+        "en": "At night foxes raided the garden and knocked over the bins."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "plündern",
+      "uebersetzung": {
+        "fa": "غارت کردن",
+        "en": "to plunder"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Räuber (سارق) + -n",
+    "en": "Räuber (robber) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "räubern",
+      "praeteritum": "räuberte",
+      "partizip2": "geräubert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "räubere",
+        "du": "räuberst",
+        "er_sie_es": "räubert",
+        "wir": "räubern",
+        "ihr": "räubert",
+        "sie_Sie": "räubern"
+      },
+      "praeteritum": {
+        "ich": "räuberte",
+        "du": "räubertest",
+        "er_sie_es": "räuberte",
+        "wir": "räuberten",
+        "ihr": "räubertet",
+        "sie_Sie": "räuberten"
+      },
+      "konjunktiv1": {
+        "ich": "räubere",
+        "du": "räuberest",
+        "er_sie_es": "räubere",
+        "wir": "räubern",
+        "ihr": "räuberet",
+        "sie_Sie": "räubern"
+      },
+      "konjunktiv2": {
+        "ich": "räuberte",
+        "du": "räubertest",
+        "er_sie_es": "räuberte",
+        "wir": "räuberten",
+        "ihr": "räubertet",
+        "sie_Sie": "räuberten"
+      },
+      "imperativ": {
+        "du": "Räubere!",
+        "ihr": "Räubert!",
+        "Sie": "Räubern Sie!"
+      }
+    },
+    "partizip1": "räubernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Räuber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سارق",
+          "en": "robber"
+        },
+        "id_ref": "nomen_raeuber"
+      },
+      {
+        "wort": "rauben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ربودن",
+          "en": "to rob"
+        },
+        "id_ref": "verb_rauben"
+      },
+      {
+        "wort": "plündern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غارت کردن",
+          "en": "to plunder"
+        },
+        "id_ref": "verb_pluendern"
+      },
+      {
+        "wort": "stehlen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دزدیدن",
+          "en": "to steal"
+        },
+        "id_ref": "verb_stehlen"
+      },
+      {
+        "wort": "der Kühlschrank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "یخچال",
+          "en": "fridge"
+        },
+        "id_ref": "nomen_kuehlschrank"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

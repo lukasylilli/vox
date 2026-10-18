@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_pulen",
+  "wort": "pulen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با انگشت بیرون کشیدن",
+      "پوست کندن (میگو)",
+      "ور رفتن"
+    ],
+    "en": [
+      "to pick",
+      "to peel (shrimps)",
+      "to poke"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Essen"
+  ],
+  "ipa": "ˈpuːlən",
+  "anmerkung": "Umgangssprachlich, besonders norddeutsch.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er pult in der Nase.",
+      "uebersetzung": {
+        "fa": "او بینی‌اش را می‌کاود.",
+        "en": "He is picking his nose."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Hamburg kann man zusehen, wie die Fischer Krabben pulen, bevor sie verkauft werden.",
+      "uebersetzung": {
+        "fa": "در هامبورگ می‌شود دید که ماهیگیرها پیش از فروش، پوست میگوها را می‌کنند.",
+        "en": "In Hamburg you can watch the fishermen peel shrimps before they are sold."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "popeln",
+      "uebersetzung": {
+        "fa": "با انگشت کاویدن",
+        "en": "to pick"
+      }
+    },
+    {
+      "wort": "schälen",
+      "uebersetzung": {
+        "fa": "پوست کندن",
+        "en": "to peel"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "an + Dat pulen",
+        "bedeutung": "mit den Fingern an etwas herumkratzen",
+        "beispiel": "Hör auf, an dem Etikett zu pulen!",
+        "uebersetzung": {
+          "fa": "دست از ور رفتن با برچسب بردار!",
+          "en": "Stop picking at the label!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pulen",
+      "praeteritum": "pulte",
+      "partizip2": "gepult"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pule",
+        "du": "pulst",
+        "er_sie_es": "pult",
+        "wir": "pulen",
+        "ihr": "pult",
+        "sie_Sie": "pulen"
+      },
+      "praeteritum": {
+        "ich": "pulte",
+        "du": "pultest",
+        "er_sie_es": "pulte",
+        "wir": "pulten",
+        "ihr": "pultet",
+        "sie_Sie": "pulten"
+      },
+      "konjunktiv1": {
+        "ich": "pule",
+        "du": "pulest",
+        "er_sie_es": "pule",
+        "wir": "pulen",
+        "ihr": "pulet",
+        "sie_Sie": "pulen"
+      },
+      "konjunktiv2": {
+        "ich": "pulte",
+        "du": "pultest",
+        "er_sie_es": "pulte",
+        "wir": "pulten",
+        "ihr": "pultet",
+        "sie_Sie": "pulten"
+      },
+      "imperativ": {
+        "du": "Pule!",
+        "ihr": "Pult!",
+        "Sie": "Pulen Sie!"
+      }
+    },
+    "partizip1": "pulend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schälen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوست کندن",
+          "en": "to peel"
+        },
+        "id_ref": "verb_schaelen"
+      },
+      {
+        "wort": "der Finger",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "انگشت",
+          "en": "finger"
+        },
+        "id_ref": "nomen_finger"
+      },
+      {
+        "wort": "kratzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاراندن",
+          "en": "to scratch"
+        },
+        "id_ref": "verb_kratzen"
+      },
+      {
+        "wort": "die Krabbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "میگو",
+          "en": "shrimp"
+        },
+        "id_ref": "nomen_krabbe"
+      },
+      {
+        "wort": "herausholen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیرون آوردن",
+          "en": "to take out"
+        },
+        "id_ref": "verb_herausholen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

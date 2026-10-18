@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_rangieren",
+  "wort": "rangieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جابه‌جا کردن (قطار، ماشین)",
+      "مانور دادن",
+      "قرار داشتن (در رتبه‌ای)"
+    ],
+    "en": [
+      "to shunt",
+      "to manoeuvre",
+      "to rank"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Sport"
+  ],
+  "ipa": "ʁãˈʒiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug rangiert im Bahnhof.",
+      "uebersetzung": {
+        "fa": "قطار در ایستگاه جابه‌جا می‌شود.",
+        "en": "The train is shunting in the station."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl die Mannschaft lange vorne lag, rangiert sie jetzt nur noch auf Platz fünf.",
+      "uebersetzung": {
+        "fa": "با اینکه تیم مدت‌ها جلو بود، حالا فقط در رتبه‌ی پنجم قرار دارد.",
+        "en": "Although the team was ahead for a long time, it now only ranks fifth."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی ranger (مرتب کردن)",
+    "en": "from French ranger (to arrange)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "rangieren auf + Dat",
+        "bedeutung": "auf einem bestimmten Platz einer Rangliste stehen",
+        "beispiel": "Das Produkt rangiert auf Platz eins.",
+        "uebersetzung": {
+          "fa": "این محصول در رتبه‌ی اول قرار دارد.",
+          "en": "The product ranks first."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "rangieren",
+      "praeteritum": "rangierte",
+      "partizip2": "rangiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rangiere",
+        "du": "rangierst",
+        "er_sie_es": "rangiert",
+        "wir": "rangieren",
+        "ihr": "rangiert",
+        "sie_Sie": "rangieren"
+      },
+      "praeteritum": {
+        "ich": "rangierte",
+        "du": "rangiertest",
+        "er_sie_es": "rangierte",
+        "wir": "rangierten",
+        "ihr": "rangiertet",
+        "sie_Sie": "rangierten"
+      },
+      "konjunktiv1": {
+        "ich": "rangiere",
+        "du": "rangierest",
+        "er_sie_es": "rangiere",
+        "wir": "rangieren",
+        "ihr": "rangieret",
+        "sie_Sie": "rangieren"
+      },
+      "konjunktiv2": {
+        "ich": "rangierte",
+        "du": "rangiertest",
+        "er_sie_es": "rangierte",
+        "wir": "rangierten",
+        "ihr": "rangiertet",
+        "sie_Sie": "rangierten"
+      },
+      "imperativ": {
+        "du": "Rangiere!",
+        "ihr": "Rangiert!",
+        "Sie": "Rangieren Sie!"
+      }
+    },
+    "partizip1": "rangierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Rang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رتبه",
+          "en": "rank"
+        },
+        "id_ref": "nomen_rang"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "die Rangliste",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جدول رتبه‌بندی",
+          "en": "ranking"
+        },
+        "id_ref": "nomen_rangliste"
+      },
+      {
+        "wort": "einparken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارک کردن",
+          "en": "to park"
+        },
+        "id_ref": "verb_einparken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
