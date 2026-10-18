@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_promovieren",
+  "wort": "promovieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دکترا گرفتن",
+      "درجه‌ی دکترا دادن"
+    ],
+    "en": [
+      "to do a doctorate",
+      "to award a doctorate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Bildung"
+  ],
+  "ipa": "pʁomoˈviːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie promoviert in Biologie.",
+      "uebersetzung": {
+        "fa": "او در رشته‌ی زیست‌شناسی دکترا می‌گیرد.",
+        "en": "She is doing a doctorate in biology."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er hat über die Geschichte der Pflege in Österreich promoviert.",
+      "uebersetzung": {
+        "fa": "او درباره‌ی تاریخ پرستاری در اتریش دکترا گرفت.",
+        "en": "He did his doctorate on the history of nursing in Austria."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "den Doktor machen",
+      "uebersetzung": {
+        "fa": "دکترا گرفتن",
+        "en": "to do a PhD"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین promovere (پیش بردن)",
+    "en": "from Latin promovere (to advance)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "promovieren über + Akk",
+        "bedeutung": "eine Doktorarbeit zu einem Thema schreiben",
+        "beispiel": "Sie promoviert über künstliche Intelligenz.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی هوش مصنوعی دکترا می‌گیرد.",
+          "en": "She is doing her doctorate on artificial intelligence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "promovieren",
+      "praeteritum": "promovierte",
+      "partizip2": "promoviert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "promoviere",
+        "du": "promovierst",
+        "er_sie_es": "promoviert",
+        "wir": "promovieren",
+        "ihr": "promoviert",
+        "sie_Sie": "promovieren"
+      },
+      "praeteritum": {
+        "ich": "promovierte",
+        "du": "promoviertest",
+        "er_sie_es": "promovierte",
+        "wir": "promovierten",
+        "ihr": "promoviertet",
+        "sie_Sie": "promovierten"
+      },
+      "konjunktiv1": {
+        "ich": "promoviere",
+        "du": "promovierest",
+        "er_sie_es": "promoviere",
+        "wir": "promovieren",
+        "ihr": "promovieret",
+        "sie_Sie": "promovieren"
+      },
+      "konjunktiv2": {
+        "ich": "promovierte",
+        "du": "promoviertest",
+        "er_sie_es": "promovierte",
+        "wir": "promovierten",
+        "ihr": "promoviertet",
+        "sie_Sie": "promovierten"
+      },
+      "imperativ": {
+        "du": "Promoviere!",
+        "ihr": "Promoviert!",
+        "Sie": "Promovieren Sie!"
+      }
+    },
+    "partizip1": "promovierend",
+    "nominalisierung": "die Promotion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "studieren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تحصیل کردن",
+          "en": "to study"
+        },
+        "id_ref": "verb_studieren"
+      },
+      {
+        "wort": "die Universität",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دانشگاه",
+          "en": "university"
+        },
+        "id_ref": "nomen_universitaet"
+      },
+      {
+        "wort": "der Doktor",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دکتر",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_doktor"
+      },
+      {
+        "wort": "die Doktorarbeit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رساله‌ی دکترا",
+          "en": "doctoral thesis"
+        },
+        "id_ref": "nomen_doktorarbeit"
+      },
+      {
+        "wort": "die Promotion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دکترا (دوره/درجه)",
+          "en": "doctorate"
+        },
+        "id_ref": "nomen_promotion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

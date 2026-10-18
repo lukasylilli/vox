@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_potenzieren",
+  "wort": "potenzieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به توان رساندن (ریاضی)",
+      "چند برابر کردن، تشدید کردن"
+    ],
+    "en": [
+      "to raise to a power",
+      "to multiply, to intensify"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "potɛnˈt͡siːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir potenzieren die Zahl.",
+      "uebersetzung": {
+        "fa": "عدد را به توان می‌رسانیم.",
+        "en": "We raise the number to a power."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alkohol und Schlafmittel zusammen potenzieren ihre Wirkung, was sehr gefährlich sein kann.",
+      "uebersetzung": {
+        "fa": "الکل و قرص خواب با هم اثر یکدیگر را چند برابر می‌کنند که می‌تواند بسیار خطرناک باشد.",
+        "en": "Alcohol and sleeping pills taken together intensify each other's effect, which can be very dangerous."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to intensify"
+      }
+    },
+    {
+      "wort": "vervielfachen",
+      "uebersetzung": {
+        "fa": "چند برابر کردن",
+        "en": "to multiply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Potenz (توان) + -ieren (پسوند فعل‌ساز)",
+    "en": "Potenz (power) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "etwas potenzieren mit + Dat",
+        "bedeutung": "eine Zahl mit einem Exponenten hochnehmen",
+        "beispiel": "Man potenziert zwei mit drei und erhält acht.",
+        "uebersetzung": {
+          "fa": "دو را به توان سه می‌رسانند و هشت به دست می‌آید.",
+          "en": "You raise two to the power of three and get eight."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "potenzieren",
+      "praeteritum": "potenzierte",
+      "partizip2": "potenziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "potenziere",
+        "du": "potenzierst",
+        "er_sie_es": "potenziert",
+        "wir": "potenzieren",
+        "ihr": "potenziert",
+        "sie_Sie": "potenzieren"
+      },
+      "praeteritum": {
+        "ich": "potenzierte",
+        "du": "potenziertest",
+        "er_sie_es": "potenzierte",
+        "wir": "potenzierten",
+        "ihr": "potenziertet",
+        "sie_Sie": "potenzierten"
+      },
+      "konjunktiv1": {
+        "ich": "potenziere",
+        "du": "potenzierest",
+        "er_sie_es": "potenziere",
+        "wir": "potenzieren",
+        "ihr": "potenzieret",
+        "sie_Sie": "potenzieren"
+      },
+      "konjunktiv2": {
+        "ich": "potenzierte",
+        "du": "potenziertest",
+        "er_sie_es": "potenzierte",
+        "wir": "potenzierten",
+        "ihr": "potenziertet",
+        "sie_Sie": "potenzierten"
+      },
+      "imperativ": {
+        "du": "Potenziere!",
+        "ihr": "Potenziert!",
+        "Sie": "Potenzieren Sie!"
+      }
+    },
+    "partizip1": "potenzierend",
+    "nominalisierung": "die Potenzierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "multiplizieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ضرب کردن",
+          "en": "to multiply"
+        },
+        "id_ref": "verb_multiplizieren"
+      },
+      {
+        "wort": "verstärken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقویت کردن",
+          "en": "to intensify"
+        },
+        "id_ref": "verb_verstaerken"
+      },
+      {
+        "wort": "die Potenz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توان",
+          "en": "power"
+        },
+        "id_ref": "nomen_potenz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

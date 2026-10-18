@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_passieren",
+  "wort": "passieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اتفاق افتادن",
+      "عبور کردن (از مرز، از جایی)",
+      "از صافی رد کردن"
+    ],
+    "en": [
+      "to happen",
+      "to pass (through)",
+      "to strain (food)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Reisen"
+  ],
+  "ipa": "paˈsiːʁən",
+  "anmerkung": "«geschehen» mit sein (Was ist passiert?); «überqueren / durch ein Sieb streichen» mit haben (Wir haben die Grenze passiert).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Was ist passiert?",
+      "uebersetzung": {
+        "fa": "چه اتفاقی افتاد؟",
+        "en": "What happened?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich hoffe, dass dir auf der Reise nichts passiert ist.",
+      "uebersetzung": {
+        "fa": "امیدوارم در سفر اتفاقی برایت نیفتاده باشد.",
+        "en": "I hope nothing happened to you on the journey."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "geschehen",
+      "uebersetzung": {
+        "fa": "رخ دادن",
+        "en": "to happen"
+      }
+    },
+    {
+      "wort": "vorkommen",
+      "uebersetzung": {
+        "fa": "پیش آمدن",
+        "en": "to occur"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی passer (گذشتن)",
+    "en": "from French passer (to pass)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. passieren + Dat",
+        "bedeutung": "jemandem zustoßen",
+        "beispiel": "Mir ist ein Fehler passiert.",
+        "uebersetzung": {
+          "fa": "اشتباهی از من سر زد.",
+          "en": "I made a mistake."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "passieren",
+      "praeteritum": "passierte",
+      "partizip2": "passiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "passiere",
+        "du": "passierst",
+        "er_sie_es": "passiert",
+        "wir": "passieren",
+        "ihr": "passiert",
+        "sie_Sie": "passieren"
+      },
+      "praeteritum": {
+        "ich": "passierte",
+        "du": "passiertest",
+        "er_sie_es": "passierte",
+        "wir": "passierten",
+        "ihr": "passiertet",
+        "sie_Sie": "passierten"
+      },
+      "konjunktiv1": {
+        "ich": "passiere",
+        "du": "passierest",
+        "er_sie_es": "passiere",
+        "wir": "passieren",
+        "ihr": "passieret",
+        "sie_Sie": "passieren"
+      },
+      "konjunktiv2": {
+        "ich": "passierte",
+        "du": "passiertest",
+        "er_sie_es": "passierte",
+        "wir": "passierten",
+        "ihr": "passiertet",
+        "sie_Sie": "passierten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "passierend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "geschehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رخ دادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_geschehen"
+      },
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مرز",
+          "en": "border"
+        },
+        "id_ref": "nomen_grenze"
+      },
+      {
+        "wort": "vorkommen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیش آمدن",
+          "en": "to occur"
+        },
+        "id_ref": "verb_vorkommen"
+      },
+      {
+        "wort": "der Pass",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گذرنامه، گردنه",
+          "en": "passport, pass"
+        },
+        "id_ref": "nomen_pass"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

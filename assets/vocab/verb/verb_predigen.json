@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_predigen",
+  "wort": "predigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "موعظه کردن",
+      "نصیحت کردن (پی‌درپی)"
+    ],
+    "en": [
+      "to preach"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion",
+    "Kommunikation"
+  ],
+  "ipa": "ˈpʁeːdɪɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Pfarrer predigt in der Kirche.",
+      "uebersetzung": {
+        "fa": "کشیش در کلیسا موعظه می‌کند.",
+        "en": "The priest is preaching in the church."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Meine Mutter predigt mir seit Jahren, dass ich mehr Gemüse essen soll.",
+      "uebersetzung": {
+        "fa": "مادرم سال‌هاست نصیحتم می‌کند که سبزی بیشتری بخورم.",
+        "en": "My mother has been preaching to me for years that I should eat more vegetables."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verkünden",
+      "uebersetzung": {
+        "fa": "اعلام کردن",
+        "en": "to proclaim"
+      }
+    },
+    {
+      "wort": "belehren",
+      "uebersetzung": {
+        "fa": "نصیحت کردن",
+        "en": "to lecture"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas predigen + Dat + Akk",
+        "bedeutung": "jemandem etwas immer wieder sagen",
+        "beispiel": "Er predigt seinen Kindern Sparsamkeit.",
+        "uebersetzung": {
+          "fa": "او مدام صرفه‌جویی را به بچه‌هایش گوشزد می‌کند.",
+          "en": "He preaches thrift to his children."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "predigen",
+      "praeteritum": "predigte",
+      "partizip2": "gepredigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "predige",
+        "du": "predigst",
+        "er_sie_es": "predigt",
+        "wir": "predigen",
+        "ihr": "predigt",
+        "sie_Sie": "predigen"
+      },
+      "praeteritum": {
+        "ich": "predigte",
+        "du": "predigtest",
+        "er_sie_es": "predigte",
+        "wir": "predigten",
+        "ihr": "predigtet",
+        "sie_Sie": "predigten"
+      },
+      "konjunktiv1": {
+        "ich": "predige",
+        "du": "predigest",
+        "er_sie_es": "predige",
+        "wir": "predigen",
+        "ihr": "prediget",
+        "sie_Sie": "predigen"
+      },
+      "konjunktiv2": {
+        "ich": "predigte",
+        "du": "predigtest",
+        "er_sie_es": "predigte",
+        "wir": "predigten",
+        "ihr": "predigtet",
+        "sie_Sie": "predigten"
+      },
+      "imperativ": {
+        "du": "Predige!",
+        "ihr": "Predigt!",
+        "Sie": "Predigen Sie!"
+      }
+    },
+    "partizip1": "predigend",
+    "nominalisierung": "die Predigt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "der Glaube",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایمان",
+          "en": "faith"
+        },
+        "id_ref": "nomen_glaube"
+      },
+      {
+        "wort": "der Pfarrer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشیش",
+          "en": "priest"
+        },
+        "id_ref": "nomen_pfarrer"
+      },
+      {
+        "wort": "mahnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تذکر دادن",
+          "en": "to urge"
+        },
+        "id_ref": "verb_mahnen"
+      },
+      {
+        "wort": "die Predigt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موعظه",
+          "en": "sermon"
+        },
+        "id_ref": "nomen_predigt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

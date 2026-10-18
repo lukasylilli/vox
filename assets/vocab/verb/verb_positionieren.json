@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_positionieren",
+  "wort": "positionieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جای دادن، در جایگاهی قرار دادن",
+      "موضع گرفتن"
+    ],
+    "en": [
+      "to position",
+      "to take a stance"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Politik"
+  ],
+  "ipa": "pozit͡si̯oˈniːʁən",
+  "anmerkung": "In der Pflege: einen Patienten positionieren/lagern.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir positionieren die Kamera.",
+      "uebersetzung": {
+        "fa": "دوربین را در جایش قرار می‌دهیم.",
+        "en": "We position the camera."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Partei positioniert sich klar gegen die geplante Autobahn.",
+      "uebersetzung": {
+        "fa": "حزب به‌روشنی علیه بزرگراه برنامه‌ریزی‌شده موضع می‌گیرد.",
+        "en": "The party is clearly positioning itself against the planned motorway."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "platzieren",
+      "uebersetzung": {
+        "fa": "قرار دادن",
+        "en": "to place"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Position (جایگاه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Position (position) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich positionieren zu + Dat",
+        "bedeutung": "zu einem Thema Stellung nehmen",
+        "beispiel": "Wie positioniert sich die Firma zum Klimaschutz?",
+        "uebersetzung": {
+          "fa": "شرکت در قبال حفاظت از اقلیم چه موضعی دارد؟",
+          "en": "What is the company's position on climate protection?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "positionieren",
+      "praeteritum": "positionierte",
+      "partizip2": "positioniert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "positioniere",
+        "du": "positionierst",
+        "er_sie_es": "positioniert",
+        "wir": "positionieren",
+        "ihr": "positioniert",
+        "sie_Sie": "positionieren"
+      },
+      "praeteritum": {
+        "ich": "positionierte",
+        "du": "positioniertest",
+        "er_sie_es": "positionierte",
+        "wir": "positionierten",
+        "ihr": "positioniertet",
+        "sie_Sie": "positionierten"
+      },
+      "konjunktiv1": {
+        "ich": "positioniere",
+        "du": "positionierest",
+        "er_sie_es": "positioniere",
+        "wir": "positionieren",
+        "ihr": "positionieret",
+        "sie_Sie": "positionieren"
+      },
+      "konjunktiv2": {
+        "ich": "positionierte",
+        "du": "positioniertest",
+        "er_sie_es": "positionierte",
+        "wir": "positionierten",
+        "ihr": "positioniertet",
+        "sie_Sie": "positionierten"
+      },
+      "imperativ": {
+        "du": "Positioniere!",
+        "ihr": "Positioniert!",
+        "Sie": "Positionieren Sie!"
+      }
+    },
+    "partizip1": "positionierend",
+    "nominalisierung": "die Positionierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Platz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جا",
+          "en": "place"
+        },
+        "id_ref": "nomen_platz"
+      },
+      {
+        "wort": "stellen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گذاشتن",
+          "en": "to put"
+        },
+        "id_ref": "verb_stellen"
+      },
+      {
+        "wort": "die Position",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جایگاه، موقعیت",
+          "en": "position"
+        },
+        "id_ref": "nomen_position"
+      },
+      {
+        "wort": "platzieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قرار دادن",
+          "en": "to place"
+        },
+        "id_ref": "verb_platzieren"
+      },
+      {
+        "wort": "die Stellung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موضع",
+          "en": "stance"
+        },
+        "id_ref": "nomen_stellung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_phantasieren",
+  "wort": "phantasieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خیال‌پردازی کردن",
+      "هذیان گفتن (در تب)"
+    ],
+    "en": [
+      "to fantasize",
+      "to be delirious"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Medizin"
+  ],
+  "ipa": "fantaˈziːʁən",
+  "anmerkung": "Schreibvariante von «fantasieren» (beide korrekt; heute häufiger mit f).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind phantasiert von Drachen.",
+      "uebersetzung": {
+        "fa": "بچه درباره‌ی اژدها خیال‌پردازی می‌کند.",
+        "en": "The child fantasizes about dragons."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit vierzig Grad Fieber phantasierte der Patient die ganze Nacht.",
+      "uebersetzung": {
+        "fa": "بیمار با تب چهل درجه تمام شب هذیان می‌گفت.",
+        "en": "With a temperature of forty degrees the patient was delirious all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "fantasieren",
+      "uebersetzung": {
+        "fa": "خیال‌پردازی کردن",
+        "en": "to fantasize"
+      }
+    },
+    {
+      "wort": "träumen",
+      "uebersetzung": {
+        "fa": "رؤیا داشتن",
+        "en": "to dream"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از یونانی phantasia (خیال)",
+    "en": "from Greek phantasia (imagination)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "phantasieren von + Dat",
+        "bedeutung": "sich etwas in Gedanken ausmalen",
+        "beispiel": "Er phantasiert von einem Leben am Meer.",
+        "uebersetzung": {
+          "fa": "او درباره‌ی زندگی کنار دریا خیال‌پردازی می‌کند.",
+          "en": "He fantasizes about a life by the sea."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "phantasieren",
+      "praeteritum": "phantasierte",
+      "partizip2": "phantasiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "phantasiere",
+        "du": "phantasierst",
+        "er_sie_es": "phantasiert",
+        "wir": "phantasieren",
+        "ihr": "phantasiert",
+        "sie_Sie": "phantasieren"
+      },
+      "praeteritum": {
+        "ich": "phantasierte",
+        "du": "phantasiertest",
+        "er_sie_es": "phantasierte",
+        "wir": "phantasierten",
+        "ihr": "phantasiertet",
+        "sie_Sie": "phantasierten"
+      },
+      "konjunktiv1": {
+        "ich": "phantasiere",
+        "du": "phantasierest",
+        "er_sie_es": "phantasiere",
+        "wir": "phantasieren",
+        "ihr": "phantasieret",
+        "sie_Sie": "phantasieren"
+      },
+      "konjunktiv2": {
+        "ich": "phantasierte",
+        "du": "phantasiertest",
+        "er_sie_es": "phantasierte",
+        "wir": "phantasierten",
+        "ihr": "phantasiertet",
+        "sie_Sie": "phantasierten"
+      },
+      "imperativ": {
+        "du": "Phantasiere!",
+        "ihr": "Phantasiert!",
+        "Sie": "Phantasieren Sie!"
+      }
+    },
+    "partizip1": "phantasierend",
+    "nominalisierung": "die Phantasie"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "träumen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواب دیدن، رؤیا داشتن",
+          "en": "to dream"
+        },
+        "id_ref": "verb_traeumen"
+      },
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      },
+      {
+        "wort": "die Fantasie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خیال، تخیل",
+          "en": "imagination"
+        },
+        "id_ref": "nomen_fantasie"
+      },
+      {
+        "wort": "vorstellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصور کردن، معرفی کردن",
+          "en": "to imagine, to introduce"
+        },
+        "id_ref": "verb_vorstellen"
+      },
+      {
+        "wort": "fantasieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیال‌پردازی کردن",
+          "en": "to fantasize"
+        },
+        "id_ref": "verb_fantasieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

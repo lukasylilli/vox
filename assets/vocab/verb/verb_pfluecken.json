@@ -1,0 +1,185 @@
+{
+  "schema": "3.0",
+  "id": "verb_pfluecken",
+  "wort": "pflücken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چیدن (میوه، گل)"
+    ],
+    "en": [
+      "to pick"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Garten",
+    "Natur"
+  ],
+  "ipa": "ˈpflʏkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir pflücken Äpfel.",
+      "uebersetzung": {
+        "fa": "سیب می‌چینیم.",
+        "en": "We are picking apples."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Kinder haben auf der Wiese Blumen gepflückt und sie der Oma geschenkt.",
+      "uebersetzung": {
+        "fa": "بچه‌ها از چمنزار گل چیدند و به مادربزرگ هدیه دادند.",
+        "en": "The children picked flowers in the meadow and gave them to Grandma."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ernten",
+      "uebersetzung": {
+        "fa": "برداشت کردن",
+        "en": "to harvest"
+      }
+    },
+    {
+      "wort": "abpflücken",
+      "uebersetzung": {
+        "fa": "چیدن",
+        "en": "to pick off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas pflücken von + Dat",
+        "bedeutung": "etwas von einer Pflanze abnehmen",
+        "beispiel": "Sie pflückt Kirschen vom Baum.",
+        "uebersetzung": {
+          "fa": "او از درخت گیلاس می‌چیند.",
+          "en": "She picks cherries from the tree."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pflücken",
+      "praeteritum": "pflückte",
+      "partizip2": "gepflückt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pflücke",
+        "du": "pflückst",
+        "er_sie_es": "pflückt",
+        "wir": "pflücken",
+        "ihr": "pflückt",
+        "sie_Sie": "pflücken"
+      },
+      "praeteritum": {
+        "ich": "pflückte",
+        "du": "pflücktest",
+        "er_sie_es": "pflückte",
+        "wir": "pflückten",
+        "ihr": "pflücktet",
+        "sie_Sie": "pflückten"
+      },
+      "konjunktiv1": {
+        "ich": "pflücke",
+        "du": "pflückest",
+        "er_sie_es": "pflücke",
+        "wir": "pflücken",
+        "ihr": "pflücket",
+        "sie_Sie": "pflücken"
+      },
+      "konjunktiv2": {
+        "ich": "pflückte",
+        "du": "pflücktest",
+        "er_sie_es": "pflückte",
+        "wir": "pflückten",
+        "ihr": "pflücktet",
+        "sie_Sie": "pflückten"
+      },
+      "imperativ": {
+        "du": "Pflücke!",
+        "ihr": "Pflückt!",
+        "Sie": "Pflücken Sie!"
+      }
+    },
+    "partizip1": "pflückend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Apfel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سیب",
+          "en": "apple"
+        },
+        "id_ref": "nomen_apfel"
+      },
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      },
+      {
+        "wort": "das Obst",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "میوه",
+          "en": "fruit"
+        },
+        "id_ref": "nomen_obst"
+      },
+      {
+        "wort": "ernten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت کردن",
+          "en": "to harvest"
+        },
+        "id_ref": "verb_ernten"
+      },
+      {
+        "wort": "sammeln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to collect"
+        },
+        "id_ref": "verb_sammeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

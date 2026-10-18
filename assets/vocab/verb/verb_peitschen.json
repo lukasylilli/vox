@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_peitschen",
+  "wort": "peitschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شلاق زدن",
+      "کوبیدن (باران، باد)"
+    ],
+    "en": [
+      "to whip",
+      "to lash (rain, wind)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Gewalt"
+  ],
+  "ipa": "ˈpaɪ̯tʃn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen peitscht ans Fenster.",
+      "uebersetzung": {
+        "fa": "باران به پنجره می‌کوبد.",
+        "en": "The rain is lashing against the window."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Früher wurden Gefangene öffentlich gepeitscht, um andere abzuschrecken.",
+      "uebersetzung": {
+        "fa": "در گذشته زندانی‌ها را در ملأ عام شلاق می‌زدند تا دیگران بترسند.",
+        "en": "In the past prisoners were whipped in public to deter others."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schlagen",
+      "uebersetzung": {
+        "fa": "زدن",
+        "en": "to hit"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Peitsche (شلاق) + -n",
+    "en": "Peitsche (whip) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "peitschen gegen/an + Akk",
+        "bedeutung": "heftig gegen etwas schlagen",
+        "beispiel": "Die Wellen peitschen gegen die Mauer.",
+        "uebersetzung": {
+          "fa": "موج‌ها به دیوار می‌کوبند.",
+          "en": "The waves lash against the wall."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "peitschen",
+      "praeteritum": "peitschte",
+      "partizip2": "gepeitscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "peitsche",
+        "du": "peitschst",
+        "er_sie_es": "peitscht",
+        "wir": "peitschen",
+        "ihr": "peitscht",
+        "sie_Sie": "peitschen"
+      },
+      "praeteritum": {
+        "ich": "peitschte",
+        "du": "peitschtest",
+        "er_sie_es": "peitschte",
+        "wir": "peitschten",
+        "ihr": "peitschtet",
+        "sie_Sie": "peitschten"
+      },
+      "konjunktiv1": {
+        "ich": "peitsche",
+        "du": "peitschest",
+        "er_sie_es": "peitsche",
+        "wir": "peitschen",
+        "ihr": "peitschet",
+        "sie_Sie": "peitschen"
+      },
+      "konjunktiv2": {
+        "ich": "peitschte",
+        "du": "peitschtest",
+        "er_sie_es": "peitschte",
+        "wir": "peitschten",
+        "ihr": "peitschtet",
+        "sie_Sie": "peitschten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "peitschend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schlagen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زدن",
+          "en": "to hit"
+        },
+        "id_ref": "verb_schlagen"
+      },
+      {
+        "wort": "der Regen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باران",
+          "en": "rain"
+        },
+        "id_ref": "nomen_regen"
+      },
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      },
+      {
+        "wort": "die Peitsche",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شلاق",
+          "en": "whip"
+        },
+        "id_ref": "nomen_peitsche"
+      },
+      {
+        "wort": "prügeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کتک زدن",
+          "en": "to beat"
+        },
+        "id_ref": "verb_pruegeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

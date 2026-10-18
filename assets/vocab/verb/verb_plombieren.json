@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_plombieren",
+  "wort": "plombieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "(دندان) پر کردن",
+      "پلمب کردن"
+    ],
+    "en": [
+      "to fill (a tooth)",
+      "to seal"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Recht"
+  ],
+  "ipa": "plɔmˈbiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zahnarzt plombiert den Zahn.",
+      "uebersetzung": {
+        "fa": "دندان‌پزشک دندان را پر می‌کند.",
+        "en": "The dentist fills the tooth."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Zoll hat den Container plombiert, damit niemand ihn unterwegs öffnen kann.",
+      "uebersetzung": {
+        "fa": "گمرک کانتینر را پلمب کرد تا کسی نتواند در مسیر بازش کند.",
+        "en": "Customs sealed the container so that no one could open it on the way."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "füllen",
+      "uebersetzung": {
+        "fa": "پر کردن",
+        "en": "to fill"
+      }
+    },
+    {
+      "wort": "versiegeln",
+      "uebersetzung": {
+        "fa": "مهر و موم کردن",
+        "en": "to seal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Plombe (پرکردگی؛ پلمب) + -ieren (پسوند فعل‌ساز)",
+    "en": "Plombe (filling; seal) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "plombieren",
+      "praeteritum": "plombierte",
+      "partizip2": "plombiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "plombiere",
+        "du": "plombierst",
+        "er_sie_es": "plombiert",
+        "wir": "plombieren",
+        "ihr": "plombiert",
+        "sie_Sie": "plombieren"
+      },
+      "praeteritum": {
+        "ich": "plombierte",
+        "du": "plombiertest",
+        "er_sie_es": "plombierte",
+        "wir": "plombierten",
+        "ihr": "plombiertet",
+        "sie_Sie": "plombierten"
+      },
+      "konjunktiv1": {
+        "ich": "plombiere",
+        "du": "plombierest",
+        "er_sie_es": "plombiere",
+        "wir": "plombieren",
+        "ihr": "plombieret",
+        "sie_Sie": "plombieren"
+      },
+      "konjunktiv2": {
+        "ich": "plombierte",
+        "du": "plombiertest",
+        "er_sie_es": "plombierte",
+        "wir": "plombierten",
+        "ihr": "plombiertet",
+        "sie_Sie": "plombierten"
+      },
+      "imperativ": {
+        "du": "Plombiere!",
+        "ihr": "Plombiert!",
+        "Sie": "Plombieren Sie!"
+      }
+    },
+    "partizip1": "plombierend",
+    "nominalisierung": "die Plombe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "der Zahnarzt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دندان‌پزشک",
+          "en": "dentist"
+        },
+        "id_ref": "nomen_zahnarzt"
+      },
+      {
+        "wort": "füllen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پر کردن",
+          "en": "to fill"
+        },
+        "id_ref": "verb_fuellen"
+      },
+      {
+        "wort": "versiegeln",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهر و موم کردن",
+          "en": "to seal"
+        },
+        "id_ref": "verb_versiegeln"
+      },
+      {
+        "wort": "die Plombe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرکردگی دندان؛ پلمب",
+          "en": "filling; seal"
+        },
+        "id_ref": "nomen_plombe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

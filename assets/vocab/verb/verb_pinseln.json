@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_pinseln",
+  "wort": "pinseln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با قلم‌مو رنگ زدن",
+      "مالیدن (دارو با قلم‌مو)"
+    ],
+    "en": [
+      "to paint (with a brush)",
+      "to dab (on)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kunst",
+    "Handwerk"
+  ],
+  "ipa": "ˈpɪnzl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind pinselt ein Bild.",
+      "uebersetzung": {
+        "fa": "بچه با قلم‌مو نقاشی می‌کند.",
+        "en": "The child is painting a picture."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt pinselte die Wunde mit Jod, bevor er den Verband anlegte.",
+      "uebersetzung": {
+        "fa": "پزشک پیش از بستن پانسمان، روی زخم ید مالید.",
+        "en": "The doctor dabbed the wound with iodine before applying the dressing."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "streichen",
+      "uebersetzung": {
+        "fa": "رنگ زدن",
+        "en": "to paint"
+      }
+    },
+    {
+      "wort": "auftragen",
+      "uebersetzung": {
+        "fa": "مالیدن",
+        "en": "to apply"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pinsel (قلم‌مو) + -n",
+    "en": "Pinsel (brush) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas pinseln auf + Akk",
+        "bedeutung": "etwas mit dem Pinsel auftragen",
+        "beispiel": "Sie pinselt Lack auf die Nägel.",
+        "uebersetzung": {
+          "fa": "او لاک را روی ناخن‌ها می‌زند.",
+          "en": "She brushes varnish onto her nails."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pinseln",
+      "praeteritum": "pinselte",
+      "partizip2": "gepinselt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pinsle",
+        "du": "pinselst",
+        "er_sie_es": "pinselt",
+        "wir": "pinseln",
+        "ihr": "pinselt",
+        "sie_Sie": "pinseln"
+      },
+      "praeteritum": {
+        "ich": "pinselte",
+        "du": "pinseltest",
+        "er_sie_es": "pinselte",
+        "wir": "pinselten",
+        "ihr": "pinseltet",
+        "sie_Sie": "pinselten"
+      },
+      "konjunktiv1": {
+        "ich": "pinsle",
+        "du": "pinslest",
+        "er_sie_es": "pinsle",
+        "wir": "pinseln",
+        "ihr": "pinslet",
+        "sie_Sie": "pinseln"
+      },
+      "konjunktiv2": {
+        "ich": "pinselte",
+        "du": "pinseltest",
+        "er_sie_es": "pinselte",
+        "wir": "pinselten",
+        "ihr": "pinseltet",
+        "sie_Sie": "pinselten"
+      },
+      "imperativ": {
+        "du": "Pinsle!",
+        "ihr": "Pinselt!",
+        "Sie": "Pinseln Sie!"
+      }
+    },
+    "partizip1": "pinselnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "malen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقاشی کردن",
+          "en": "to paint"
+        },
+        "id_ref": "verb_malen"
+      },
+      {
+        "wort": "die Farbe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رنگ",
+          "en": "colour"
+        },
+        "id_ref": "nomen_farbe"
+      },
+      {
+        "wort": "der Pinsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قلم‌مو",
+          "en": "brush"
+        },
+        "id_ref": "nomen_pinsel"
+      },
+      {
+        "wort": "streichen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنگ زدن",
+          "en": "to paint"
+        },
+        "id_ref": "verb_streichen"
+      },
+      {
+        "wort": "auftragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالیدن",
+          "en": "to apply"
+        },
+        "id_ref": "verb_auftragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

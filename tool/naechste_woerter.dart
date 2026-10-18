@@ -1775,6 +1775,41 @@ const zurueckgestellt = <String>{
   'parkettieren', // zurückgestellt: Fachwort Handwerk, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
   'parkieren', // zurückgestellt: schweizerisch für parken — regionale Markierung nicht sicher (Regel 14) 2026-10-16
   'parlieren', // zurückgestellt: gehoben/veraltend (leicht plaudern, v. a. in Fremdsprache) — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'passivieren', // zurückgestellt: Fachwort (Buchhaltung, Grammatik), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'patrouillieren', // zurückgestellt: Hilfsverb schwankt (hat/ist patrouilliert) — nicht eindeutig (Regel 16) 2026-10-16
+  'patschen', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt (hat/ist gepatscht) — nicht eindeutig (Regel 16) 2026-10-16
+  'penetrieren', // zurückgestellt: Fachwort mit auch sexueller Bedeutung — Entscheidung Lukas 2026-10-16
+  'perlen', // zurückgestellt: Hilfsverb schwankt (hat/ist geperlt) — nicht eindeutig (Regel 16) 2026-10-16
+  'permutieren', // zurückgestellt: Fachwort Mathematik, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pervertieren', // zurückgestellt: Hilfsverb schwankt (transitiv hat / intransitiv ist pervertiert) — nicht eindeutig (Regel 16) 2026-10-16
+  'pferchen', // zurückgestellt: selten, meist «zusammenpferchen» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pfriemeln', // zurückgestellt: regional/umgangssprachlich, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'photographieren', // zurückgestellt: ältere Schreibung (heute fotografieren) — wie lithographieren (Regel 14) 2026-10-16
+  'phrasieren', // zurückgestellt: Fachwort Musik, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'picheln', // zurückgestellt: umgangssprachlich/regional (trinken), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pikieren', // zurückgestellt: Fachwort Gärtnerei; sonst nur Partizip «pikiert» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pilotieren', // zurückgestellt: Fachwort (steuern; Pilotprojekt), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pimpern', // zurückgestellt: vulgär, sexuelle Bedeutung — Entscheidung Lukas (wie die übrigen vulgären Wörter) 2026-10-16
+  'pirschen', // zurückgestellt: Hilfsverb schwankt (hat/ist gepirscht), Jägersprache — nicht eindeutig (Regel 16) 2026-10-16
+  'pissen', // zurückgestellt: vulgär — Entscheidung Lukas (wie die übrigen vulgären Wörter) 2026-10-16
+  'placken', // zurückgestellt: nur reflexiv «sich placken», umgangssprachlich — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'pladdern', // zurückgestellt: norddeutsch umgangssprachlich (Regen) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'plänkeln', // zurückgestellt: selten (veraltet: Gefecht; heute «Geplänkel») — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'platschen', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt — nicht eindeutig (Regel 16) 2026-10-16
+  'plätschern', // zurückgestellt: Hilfsverb schwankt (hat/ist geplätschert) — nicht eindeutig (Regel 16) 2026-10-16
+  'plattieren', // zurückgestellt: Fachwort Technik, selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'plumpsen', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt — nicht eindeutig (Regel 16) 2026-10-16
+  'pointieren', // zurückgestellt: selten, meist Partizip «pointiert» — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'poltern', // zurückgestellt: Hilfsverb schwankt (hat/ist gepoltert) — nicht eindeutig (Regel 16) 2026-10-16
+  'polymerisieren', // zurückgestellt: Fachwort Chemie, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-16
+  'pomadisieren', // zurückgestellt: veraltet/selten — zeitlich nicht sicher (Regel 17) 2026-10-16
+  'poussieren', // zurückgestellt: veraltet (flirten; schmeicheln) — zeitlich/ersatz nicht sicher (Regel 17) 2026-10-16
+  'prangen', // zurückgestellt: gehoben/selten (prächtig zu sehen sein) — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'prasseln', // zurückgestellt: Hilfsverb schwankt (hat/ist geprasselt) — nicht eindeutig (Regel 16) 2026-10-16
+  'pressieren', // zurückgestellt: süddeutsch/österreichisch/schweizerisch (eilig sein) — regionale Markierung nicht sicher (Regel 14) 2026-10-16
+  'profanieren', // zurückgestellt: Fachwort (Kirche entweihen), selten — Gebrauch nicht sicher (Regel 14) 2026-10-16
+  'promenieren', // zurückgestellt: veraltend/gehoben (spazieren), Hilfsverb schwankt — nicht sicher (Regel 16/17) 2026-10-16
+  'prostituieren', // zurückgestellt: sexuelle Bedeutung — Entscheidung Lukas 2026-10-16
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

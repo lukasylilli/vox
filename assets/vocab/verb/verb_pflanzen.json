@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_pflanzen",
+  "wort": "pflanzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کاشتن",
+      "نشاندن (گیاه)"
+    ],
+    "en": [
+      "to plant"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Garten",
+    "Natur"
+  ],
+  "ipa": "ˈpflant͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir pflanzen einen Baum.",
+      "uebersetzung": {
+        "fa": "ما یک درخت می‌کاریم.",
+        "en": "We are planting a tree."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Frühling pflanze ich Tomaten auf dem Balkon, damit wir im Sommer ernten können.",
+      "uebersetzung": {
+        "fa": "بهار روی بالکن گوجه می‌کارم تا تابستان برداشت کنیم.",
+        "en": "In spring I plant tomatoes on the balcony so that we can harvest in summer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "setzen",
+      "uebersetzung": {
+        "fa": "نشاندن",
+        "en": "to set"
+      }
+    },
+    {
+      "wort": "anbauen",
+      "uebersetzung": {
+        "fa": "کشت کردن",
+        "en": "to cultivate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pflanze (گیاه) + -n",
+    "en": "Pflanze (plant) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas pflanzen in + Akk",
+        "bedeutung": "etwas in die Erde/einen Topf setzen",
+        "beispiel": "Sie pflanzt die Blumen in den Topf.",
+        "uebersetzung": {
+          "fa": "او گل‌ها را در گلدان می‌کارد.",
+          "en": "She plants the flowers in the pot."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pflanzen",
+      "praeteritum": "pflanzte",
+      "partizip2": "gepflanzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pflanze",
+        "du": "pflanzt",
+        "er_sie_es": "pflanzt",
+        "wir": "pflanzen",
+        "ihr": "pflanzt",
+        "sie_Sie": "pflanzen"
+      },
+      "praeteritum": {
+        "ich": "pflanzte",
+        "du": "pflanztest",
+        "er_sie_es": "pflanzte",
+        "wir": "pflanzten",
+        "ihr": "pflanztet",
+        "sie_Sie": "pflanzten"
+      },
+      "konjunktiv1": {
+        "ich": "pflanze",
+        "du": "pflanzest",
+        "er_sie_es": "pflanze",
+        "wir": "pflanzen",
+        "ihr": "pflanzet",
+        "sie_Sie": "pflanzen"
+      },
+      "konjunktiv2": {
+        "ich": "pflanzte",
+        "du": "pflanztest",
+        "er_sie_es": "pflanzte",
+        "wir": "pflanzten",
+        "ihr": "pflanztet",
+        "sie_Sie": "pflanzten"
+      },
+      "imperativ": {
+        "du": "Pflanze!",
+        "ihr": "Pflanzt!",
+        "Sie": "Pflanzen Sie!"
+      }
+    },
+    "partizip1": "pflanzend",
+    "nominalisierung": "die Pflanzung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغچه",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      },
+      {
+        "wort": "die Pflanze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیاه",
+          "en": "plant"
+        },
+        "id_ref": "nomen_pflanze"
+      },
+      {
+        "wort": "säen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بذر پاشیدن",
+          "en": "to sow"
+        },
+        "id_ref": "verb_saeen"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "ernten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت کردن",
+          "en": "to harvest"
+        },
+        "id_ref": "verb_ernten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

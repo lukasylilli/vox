@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_pfuschen",
+  "wort": "pfuschen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرسری کار کردن، خراب‌کاری کردن",
+      "تقلب کردن (عامیانه)"
+    ],
+    "en": [
+      "to botch, to bungle",
+      "to cheat"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Handwerk"
+  ],
+  "ipa": "ˈpfʊʃn̩",
+  "anmerkung": "Umgangssprachlich. In Österreich auch: schwarzarbeiten («pfuschen gehen»).",
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Handwerker pfuscht.",
+      "uebersetzung": {
+        "fa": "صنعتگر کارش را سرسری انجام می‌دهد.",
+        "en": "The tradesman is botching the job."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Renovierung wurde so gepfuscht, dass jetzt Wasser durch die Decke tropft.",
+      "uebersetzung": {
+        "fa": "در بازسازی چنان خراب‌کاری شد که حالا آب از سقف چکه می‌کند.",
+        "en": "The renovation was so botched that water is now dripping through the ceiling."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schludern",
+      "uebersetzung": {
+        "fa": "سرسری کار کردن",
+        "en": "to do sloppily"
+      }
+    },
+    {
+      "wort": "mogeln",
+      "uebersetzung": {
+        "fa": "تقلب کردن",
+        "en": "to cheat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "pfuschen bei + Dat",
+        "bedeutung": "bei etwas schlecht arbeiten oder schummeln",
+        "beispiel": "Er hat bei der Prüfung gepfuscht.",
+        "uebersetzung": {
+          "fa": "او در امتحان تقلب کرد.",
+          "en": "He cheated in the exam."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pfuschen",
+      "praeteritum": "pfuschte",
+      "partizip2": "gepfuscht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pfusche",
+        "du": "pfuschst",
+        "er_sie_es": "pfuscht",
+        "wir": "pfuschen",
+        "ihr": "pfuscht",
+        "sie_Sie": "pfuschen"
+      },
+      "praeteritum": {
+        "ich": "pfuschte",
+        "du": "pfuschtest",
+        "er_sie_es": "pfuschte",
+        "wir": "pfuschten",
+        "ihr": "pfuschtet",
+        "sie_Sie": "pfuschten"
+      },
+      "konjunktiv1": {
+        "ich": "pfusche",
+        "du": "pfuschest",
+        "er_sie_es": "pfusche",
+        "wir": "pfuschen",
+        "ihr": "pfuschet",
+        "sie_Sie": "pfuschen"
+      },
+      "konjunktiv2": {
+        "ich": "pfuschte",
+        "du": "pfuschtest",
+        "er_sie_es": "pfuschte",
+        "wir": "pfuschten",
+        "ihr": "pfuschtet",
+        "sie_Sie": "pfuschten"
+      },
+      "imperativ": {
+        "du": "Pfusche!",
+        "ihr": "Pfuscht!",
+        "Sie": "Pfuschen Sie!"
+      }
+    },
+    "partizip1": "pfuschend",
+    "nominalisierung": "der Pfusch"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schlecht",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بد",
+          "en": "bad"
+        },
+        "id_ref": "adjektiv_schlecht"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "schlampig",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شلخته",
+          "en": "sloppy"
+        },
+        "id_ref": "adjektiv_schlampig"
+      },
+      {
+        "wort": "der Pfusch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کار سرسری",
+          "en": "botched job"
+        },
+        "id_ref": "nomen_pfusch"
+      },
+      {
+        "wort": "mogeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تقلب کردن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_mogeln"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_plagiieren",
+  "wort": "plagiieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سرقت ادبی کردن",
+      "از کار دیگران بدون ذکر منبع کپی کردن"
+    ],
+    "en": [
+      "to plagiarize"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Wissenschaft",
+    "Recht"
+  ],
+  "ipa": "plaɡiˈiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er plagiiert einen Text.",
+      "uebersetzung": {
+        "fa": "او یک متن را سرقت ادبی می‌کند.",
+        "en": "He plagiarizes a text."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Politiker musste zurücktreten, weil er große Teile seiner Doktorarbeit plagiiert hatte.",
+      "uebersetzung": {
+        "fa": "سیاستمدار مجبور به استعفا شد، چون بخش‌های بزرگی از رساله‌ی دکترایش را سرقت ادبی کرده بود.",
+        "en": "The politician had to resign because he had plagiarized large parts of his doctoral thesis."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschreiben",
+      "uebersetzung": {
+        "fa": "رونویسی کردن",
+        "en": "to copy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Plagiat (سرقت ادبی) + -ieren (پسوند فعل‌ساز)",
+    "en": "Plagiat (plagiarism) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "plagiieren",
+      "praeteritum": "plagiierte",
+      "partizip2": "plagiiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "plagiiere",
+        "du": "plagiierst",
+        "er_sie_es": "plagiiert",
+        "wir": "plagiieren",
+        "ihr": "plagiiert",
+        "sie_Sie": "plagiieren"
+      },
+      "praeteritum": {
+        "ich": "plagiierte",
+        "du": "plagiiertest",
+        "er_sie_es": "plagiierte",
+        "wir": "plagiierten",
+        "ihr": "plagiiertet",
+        "sie_Sie": "plagiierten"
+      },
+      "konjunktiv1": {
+        "ich": "plagiiere",
+        "du": "plagiierest",
+        "er_sie_es": "plagiiere",
+        "wir": "plagiieren",
+        "ihr": "plagiieret",
+        "sie_Sie": "plagiieren"
+      },
+      "konjunktiv2": {
+        "ich": "plagiierte",
+        "du": "plagiiertest",
+        "er_sie_es": "plagiierte",
+        "wir": "plagiierten",
+        "ihr": "plagiiertet",
+        "sie_Sie": "plagiierten"
+      },
+      "imperativ": {
+        "du": "Plagiiere!",
+        "ihr": "Plagiiert!",
+        "Sie": "Plagiieren Sie!"
+      }
+    },
+    "partizip1": "plagiierend",
+    "nominalisierung": "das Plagiat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kopieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کپی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_kopieren"
+      },
+      {
+        "wort": "abschreiben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رونویسی کردن",
+          "en": "to copy"
+        },
+        "id_ref": "verb_abschreiben"
+      },
+      {
+        "wort": "die Quelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "source"
+        },
+        "id_ref": "nomen_quelle"
+      },
+      {
+        "wort": "fälschen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جعل کردن",
+          "en": "to forge"
+        },
+        "id_ref": "verb_faelschen"
+      },
+      {
+        "wort": "das Plagiat",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سرقت ادبی",
+          "en": "plagiarism"
+        },
+        "id_ref": "nomen_plagiat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

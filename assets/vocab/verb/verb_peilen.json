@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_peilen",
+  "wort": "peilen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جهت‌یابی کردن، اندازه گرفتن (جهت/عمق)",
+      "(عامیانه) فهمیدن"
+    ],
+    "en": [
+      "to take a bearing on",
+      "to get (it) (colloquial)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Verkehr"
+  ],
+  "ipa": "ˈpaɪ̯lən",
+  "anmerkung": "Umgangssprachlich: «Peilst du das?» (= Verstehst du das?); «über den Daumen peilen» (= grob schätzen).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Kapitän peilt die Küste.",
+      "uebersetzung": {
+        "fa": "ناخدا جهت ساحل را می‌سنجد.",
+        "en": "The captain takes a bearing on the coast."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie peilte über den Daumen, wie viele Gäste ungefähr kommen würden.",
+      "uebersetzung": {
+        "fa": "سرانگشتی تخمین زد که تقریباً چند مهمان می‌آیند.",
+        "en": "She roughly estimated how many guests would come."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "orten",
+      "uebersetzung": {
+        "fa": "مکان‌یابی کردن",
+        "en": "to locate"
+      }
+    },
+    {
+      "wort": "schätzen",
+      "uebersetzung": {
+        "fa": "تخمین زدن",
+        "en": "to estimate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "peilen",
+      "praeteritum": "peilte",
+      "partizip2": "gepeilt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "peile",
+        "du": "peilst",
+        "er_sie_es": "peilt",
+        "wir": "peilen",
+        "ihr": "peilt",
+        "sie_Sie": "peilen"
+      },
+      "praeteritum": {
+        "ich": "peilte",
+        "du": "peiltest",
+        "er_sie_es": "peilte",
+        "wir": "peilten",
+        "ihr": "peiltet",
+        "sie_Sie": "peilten"
+      },
+      "konjunktiv1": {
+        "ich": "peile",
+        "du": "peilest",
+        "er_sie_es": "peile",
+        "wir": "peilen",
+        "ihr": "peilet",
+        "sie_Sie": "peilen"
+      },
+      "konjunktiv2": {
+        "ich": "peilte",
+        "du": "peiltest",
+        "er_sie_es": "peilte",
+        "wir": "peilten",
+        "ihr": "peiltet",
+        "sie_Sie": "peilten"
+      },
+      "imperativ": {
+        "du": "Peile!",
+        "ihr": "Peilt!",
+        "Sie": "Peilen Sie!"
+      }
+    },
+    "partizip1": "peilend",
+    "nominalisierung": "die Peilung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Richtung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جهت",
+          "en": "direction"
+        },
+        "id_ref": "nomen_richtung"
+      },
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "schätzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تخمین زدن",
+          "en": "to estimate"
+        },
+        "id_ref": "verb_schaetzen"
+      },
+      {
+        "wort": "anpeilen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "هدف گرفتن",
+          "en": "to aim at"
+        },
+        "id_ref": "verb_anpeilen"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

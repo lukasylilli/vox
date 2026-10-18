@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_petzen",
+  "wort": "petzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خبرچینی کردن، چغلی کردن",
+      "لو دادن (به معلم یا والدین)"
+    ],
+    "en": [
+      "to tell tales, to snitch"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Schule",
+    "Familie"
+  ],
+  "ipa": "ˈpɛt͡sn̩",
+  "anmerkung": "Umgangssprachlich, besonders Kindersprache.",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Bruder petzt immer.",
+      "uebersetzung": {
+        "fa": "برادرم همیشه چغلی می‌کند.",
+        "en": "My brother always tells tales."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer hat der Lehrerin gepetzt, dass wir die Hausaufgaben abgeschrieben haben?",
+      "uebersetzung": {
+        "fa": "چه کسی به معلم لو داد که ما تکلیف‌ها را رونویسی کرده‌ایم؟",
+        "en": "Who snitched to the teacher that we copied the homework?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verraten",
+      "uebersetzung": {
+        "fa": "لو دادن",
+        "en": "to give away"
+      }
+    },
+    {
+      "wort": "verpfeifen",
+      "uebersetzung": {
+        "fa": "لو دادن",
+        "en": "to grass on"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jdm. etwas petzen + Dat + Akk",
+        "bedeutung": "jemandem heimlich verraten, was ein anderer getan hat",
+        "beispiel": "Sie petzt der Mutter alles.",
+        "uebersetzung": {
+          "fa": "همه چیز را به مادر چغلی می‌کند.",
+          "en": "She tells her mother everything."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "petzen",
+      "praeteritum": "petzte",
+      "partizip2": "gepetzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "petze",
+        "du": "petzt",
+        "er_sie_es": "petzt",
+        "wir": "petzen",
+        "ihr": "petzt",
+        "sie_Sie": "petzen"
+      },
+      "praeteritum": {
+        "ich": "petzte",
+        "du": "petztest",
+        "er_sie_es": "petzte",
+        "wir": "petzten",
+        "ihr": "petztet",
+        "sie_Sie": "petzten"
+      },
+      "konjunktiv1": {
+        "ich": "petze",
+        "du": "petzest",
+        "er_sie_es": "petze",
+        "wir": "petzen",
+        "ihr": "petzet",
+        "sie_Sie": "petzen"
+      },
+      "konjunktiv2": {
+        "ich": "petzte",
+        "du": "petztest",
+        "er_sie_es": "petzte",
+        "wir": "petzten",
+        "ihr": "petztet",
+        "sie_Sie": "petzten"
+      },
+      "imperativ": {
+        "du": "Petze!",
+        "ihr": "Petzt!",
+        "Sie": "Petzen Sie!"
+      }
+    },
+    "partizip1": "petzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "sagen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گفتن",
+          "en": "to say"
+        },
+        "id_ref": "verb_sagen"
+      },
+      {
+        "wort": "die Lehrerin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "معلم (زن)",
+          "en": "teacher"
+        },
+        "id_ref": "nomen_lehrerin"
+      },
+      {
+        "wort": "verraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لو دادن",
+          "en": "to give away"
+        },
+        "id_ref": "verb_verraten"
+      },
+      {
+        "wort": "erzählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to tell"
+        },
+        "id_ref": "verb_erzaehlen"
+      },
+      {
+        "wort": "die Petze",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آدم خبرچین",
+          "en": "telltale"
+        },
+        "id_ref": "nomen_petze"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

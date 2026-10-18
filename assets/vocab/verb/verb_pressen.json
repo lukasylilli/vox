@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_pressen",
+  "wort": "pressen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فشار دادن، فشردن",
+      "آب گرفتن (میوه)"
+    ],
+    "en": [
+      "to press",
+      "to squeeze"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Küche"
+  ],
+  "ipa": "ˈpʁɛsn̩",
+  "anmerkung": "Bei der Geburt: «Pressen!» (Presswehen).",
+  "berufe": [
+    "pflege_medizin",
+    "technik",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich presse Orangen.",
+      "uebersetzung": {
+        "fa": "پرتقال‌ها را آب می‌گیرم.",
+        "en": "I am squeezing oranges."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie presste das Kind fest an sich, als sie es nach Stunden endlich wiederfand.",
+      "uebersetzung": {
+        "fa": "وقتی بعد از ساعت‌ها بالاخره بچه را پیدا کرد، او را محکم به خودش فشرد.",
+        "en": "She pressed the child tightly to her when she finally found it again after hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drücken",
+      "uebersetzung": {
+        "fa": "فشار دادن",
+        "en": "to press"
+      }
+    },
+    {
+      "wort": "quetschen",
+      "uebersetzung": {
+        "fa": "له کردن",
+        "en": "to squash"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas pressen an/in + Akk",
+        "bedeutung": "etwas fest gegen/in etwas drücken",
+        "beispiel": "Er presst das Ohr an die Tür.",
+        "uebersetzung": {
+          "fa": "گوشش را به در می‌چسباند.",
+          "en": "He presses his ear against the door."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pressen",
+      "praeteritum": "presste",
+      "partizip2": "gepresst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "presse",
+        "du": "presst",
+        "er_sie_es": "presst",
+        "wir": "pressen",
+        "ihr": "presst",
+        "sie_Sie": "pressen"
+      },
+      "praeteritum": {
+        "ich": "presste",
+        "du": "presstest",
+        "er_sie_es": "presste",
+        "wir": "pressten",
+        "ihr": "presstet",
+        "sie_Sie": "pressten"
+      },
+      "konjunktiv1": {
+        "ich": "presse",
+        "du": "pressest",
+        "er_sie_es": "presse",
+        "wir": "pressen",
+        "ihr": "presset",
+        "sie_Sie": "pressen"
+      },
+      "konjunktiv2": {
+        "ich": "presste",
+        "du": "presstest",
+        "er_sie_es": "presste",
+        "wir": "pressten",
+        "ihr": "presstet",
+        "sie_Sie": "pressten"
+      },
+      "imperativ": {
+        "du": "Presse!",
+        "ihr": "Presst!",
+        "Sie": "Pressen Sie!"
+      }
+    },
+    "partizip1": "pressend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "drücken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فشار دادن",
+          "en": "to press"
+        },
+        "id_ref": "verb_druecken"
+      },
+      {
+        "wort": "der Saft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب‌میوه",
+          "en": "juice"
+        },
+        "id_ref": "nomen_saft"
+      },
+      {
+        "wort": "die Presse",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مطبوعات؛ دستگاه پرس",
+          "en": "press"
+        },
+        "id_ref": "nomen_presse"
+      },
+      {
+        "wort": "quetschen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "له کردن",
+          "en": "to squash"
+        },
+        "id_ref": "verb_quetschen"
+      },
+      {
+        "wort": "der Druck",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "pressure"
+        },
+        "id_ref": "nomen_druck"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

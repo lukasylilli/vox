@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_prosten",
+  "wort": "prosten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به سلامتی گفتن، لیوان بالا بردن",
+      "نوشیدن به سلامتی کسی"
+    ],
+    "en": [
+      "to toast, to drink to"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Feste",
+    "Essen"
+  ],
+  "ipa": "ˈpʁoːstn̩",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle prosten auf das Brautpaar.",
+      "uebersetzung": {
+        "fa": "همه به سلامتی عروس و داماد می‌نوشند.",
+        "en": "Everyone drinks to the bride and groom."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem der Bürgermeister eine kurze Rede gehalten hatte, prosteten alle auf das neue Jahr.",
+      "uebersetzung": {
+        "fa": "بعد از اینکه شهردار سخنرانی کوتاهی کرد، همه به سلامتی سال نو نوشیدند.",
+        "en": "After the mayor had made a short speech, everyone drank to the new year."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anstoßen",
+      "uebersetzung": {
+        "fa": "لیوان به هم زدن",
+        "en": "to clink glasses"
+      }
+    },
+    {
+      "wort": "zuprosten",
+      "uebersetzung": {
+        "fa": "به سلامتی کسی نوشیدن",
+        "en": "to toast"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از «Prost!» (به سلامتی)",
+    "en": "from \"Prost!\" (cheers)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "prosten",
+      "praeteritum": "prostete",
+      "partizip2": "geprostet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "proste",
+        "du": "prostest",
+        "er_sie_es": "prostet",
+        "wir": "prosten",
+        "ihr": "prostet",
+        "sie_Sie": "prosten"
+      },
+      "praeteritum": {
+        "ich": "prostete",
+        "du": "prostetest",
+        "er_sie_es": "prostete",
+        "wir": "prosteten",
+        "ihr": "prostetet",
+        "sie_Sie": "prosteten"
+      },
+      "konjunktiv1": {
+        "ich": "proste",
+        "du": "prostest",
+        "er_sie_es": "proste",
+        "wir": "prosten",
+        "ihr": "prostet",
+        "sie_Sie": "prosten"
+      },
+      "konjunktiv2": {
+        "ich": "prostete",
+        "du": "prostetest",
+        "er_sie_es": "prostete",
+        "wir": "prosteten",
+        "ihr": "prostetet",
+        "sie_Sie": "prosteten"
+      },
+      "imperativ": {
+        "du": "Proste!",
+        "ihr": "Prostet!",
+        "Sie": "Prosten Sie!"
+      }
+    },
+    "partizip1": "prostend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "trinken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشیدن",
+          "en": "to drink"
+        },
+        "id_ref": "verb_trinken"
+      },
+      {
+        "wort": "das Glas",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "لیوان",
+          "en": "glass"
+        },
+        "id_ref": "nomen_glas"
+      },
+      {
+        "wort": "feiern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جشن گرفتن",
+          "en": "to celebrate"
+        },
+        "id_ref": "verb_feiern"
+      },
+      {
+        "wort": "anstoßen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به هم زدن لیوان‌ها",
+          "en": "to clink glasses"
+        },
+        "id_ref": "verb_anstossen"
+      },
+      {
+        "wort": "der Toast",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نوشیدن به سلامتی",
+          "en": "toast"
+        },
+        "id_ref": "nomen_toast"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

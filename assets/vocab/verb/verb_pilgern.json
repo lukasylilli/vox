@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_pilgern",
+  "wort": "pilgern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زیارت رفتن",
+      "دسته‌جمعی به جایی رفتن"
+    ],
+    "en": [
+      "to go on a pilgrimage",
+      "to flock"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion",
+    "Reisen"
+  ],
+  "ipa": "ˈpɪlɡɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie pilgern nach Rom.",
+      "uebersetzung": {
+        "fa": "آن‌ها به زیارت رم می‌روند.",
+        "en": "They are going on a pilgrimage to Rome."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jedes Jahr pilgern Tausende Fans zu dem Festival, obwohl die Tickets teuer sind.",
+      "uebersetzung": {
+        "fa": "هر سال هزاران هوادار به این جشنواره هجوم می‌آورند، با اینکه بلیت‌ها گران است.",
+        "en": "Every year thousands of fans flock to the festival although the tickets are expensive."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wallfahren",
+      "uebersetzung": {
+        "fa": "زیارت رفتن",
+        "en": "to make a pilgrimage"
+      }
+    },
+    {
+      "wort": "strömen",
+      "uebersetzung": {
+        "fa": "هجوم آوردن",
+        "en": "to flock"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pilger (زائر) + -n",
+    "en": "Pilger (pilgrim) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "pilgern zu/nach + Dat",
+        "bedeutung": "zu einem besonderen Ort reisen",
+        "beispiel": "Viele pilgern nach Mekka.",
+        "uebersetzung": {
+          "fa": "بسیاری به زیارت مکه می‌روند.",
+          "en": "Many go on pilgrimage to Mecca."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pilgern",
+      "praeteritum": "pilgerte",
+      "partizip2": "gepilgert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pilgere",
+        "du": "pilgerst",
+        "er_sie_es": "pilgert",
+        "wir": "pilgern",
+        "ihr": "pilgert",
+        "sie_Sie": "pilgern"
+      },
+      "praeteritum": {
+        "ich": "pilgerte",
+        "du": "pilgertest",
+        "er_sie_es": "pilgerte",
+        "wir": "pilgerten",
+        "ihr": "pilgertet",
+        "sie_Sie": "pilgerten"
+      },
+      "konjunktiv1": {
+        "ich": "pilgere",
+        "du": "pilgerest",
+        "er_sie_es": "pilgere",
+        "wir": "pilgern",
+        "ihr": "pilgeret",
+        "sie_Sie": "pilgern"
+      },
+      "konjunktiv2": {
+        "ich": "pilgerte",
+        "du": "pilgertest",
+        "er_sie_es": "pilgerte",
+        "wir": "pilgerten",
+        "ihr": "pilgertet",
+        "sie_Sie": "pilgerten"
+      },
+      "imperativ": {
+        "du": "Pilgere!",
+        "ihr": "Pilgert!",
+        "Sie": "Pilgern Sie!"
+      }
+    },
+    "partizip1": "pilgernd",
+    "nominalisierung": "die Pilgerfahrt"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "journey"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "wandern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پیاده‌روی کردن",
+          "en": "to hike"
+        },
+        "id_ref": "verb_wandern"
+      },
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "der Pilger",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زائر",
+          "en": "pilgrim"
+        },
+        "id_ref": "nomen_pilger"
+      },
+      {
+        "wort": "die Wallfahrt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زیارت",
+          "en": "pilgrimage"
+        },
+        "id_ref": "nomen_wallfahrt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

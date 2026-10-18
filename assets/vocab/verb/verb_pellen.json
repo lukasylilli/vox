@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_pellen",
+  "wort": "pellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پوست کندن (تخم‌مرغ، سیب‌زمینی)",
+      "پوسته‌پوسته شدن"
+    ],
+    "en": [
+      "to peel",
+      "to peel off"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Essen",
+    "Küche"
+  ],
+  "ipa": "ˈpɛlən",
+  "anmerkung": "Norddeutsch für «schälen» (gekochte Eier, Kartoffeln, Wurst).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich pelle die Eier.",
+      "uebersetzung": {
+        "fa": "پوست تخم‌مرغ‌ها را می‌کنم.",
+        "en": "I am peeling the eggs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Sonnenbrand pellte sich die Haut auf meinem Rücken tagelang.",
+      "uebersetzung": {
+        "fa": "بعد از آفتاب‌سوختگی، پوست پشتم روزها پوسته‌پوسته می‌شد.",
+        "en": "After the sunburn the skin on my back peeled for days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schälen",
+      "uebersetzung": {
+        "fa": "پوست کندن",
+        "en": "to peel"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "pellen",
+      "praeteritum": "pellte",
+      "partizip2": "gepellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pelle",
+        "du": "pellst",
+        "er_sie_es": "pellt",
+        "wir": "pellen",
+        "ihr": "pellt",
+        "sie_Sie": "pellen"
+      },
+      "praeteritum": {
+        "ich": "pellte",
+        "du": "pelltest",
+        "er_sie_es": "pellte",
+        "wir": "pellten",
+        "ihr": "pelltet",
+        "sie_Sie": "pellten"
+      },
+      "konjunktiv1": {
+        "ich": "pelle",
+        "du": "pellest",
+        "er_sie_es": "pelle",
+        "wir": "pellen",
+        "ihr": "pellet",
+        "sie_Sie": "pellen"
+      },
+      "konjunktiv2": {
+        "ich": "pellte",
+        "du": "pelltest",
+        "er_sie_es": "pellte",
+        "wir": "pellten",
+        "ihr": "pelltet",
+        "sie_Sie": "pellten"
+      },
+      "imperativ": {
+        "du": "Pelle!",
+        "ihr": "Pellt!",
+        "Sie": "Pellen Sie!"
+      }
+    },
+    "partizip1": "pellend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخم‌مرغ",
+          "en": "egg"
+        },
+        "id_ref": "nomen_ei"
+      },
+      {
+        "wort": "die Kartoffel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سیب‌زمینی",
+          "en": "potato"
+        },
+        "id_ref": "nomen_kartoffel"
+      },
+      {
+        "wort": "schälen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوست کندن",
+          "en": "to peel"
+        },
+        "id_ref": "verb_schaelen"
+      },
+      {
+        "wort": "die Schale",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوست",
+          "en": "peel"
+        },
+        "id_ref": "nomen_schale"
+      },
+      {
+        "wort": "die Pellkartoffel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیب‌زمینی آب‌پز با پوست",
+          "en": "boiled potato in its skin"
+        },
+        "id_ref": "nomen_pellkartoffel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_pfluegen",
+  "wort": "pflügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شخم زدن"
+    ],
+    "en": [
+      "to plough"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Landwirtschaft",
+    "Natur"
+  ],
+  "ipa": "ˈpflyːɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer pflügt das Feld.",
+      "uebersetzung": {
+        "fa": "کشاورز مزرعه را شخم می‌زند.",
+        "en": "The farmer is ploughing the field."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor im Frühjahr gesät werden kann, muss der Boden gepflügt werden.",
+      "uebersetzung": {
+        "fa": "پیش از بذرپاشی در بهار، زمین باید شخم زده شود.",
+        "en": "Before sowing can take place in spring, the soil has to be ploughed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pflug (گاوآهن) + -en",
+    "en": "Pflug (plough) + -en"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "pflügen durch + Akk",
+        "bedeutung": "sich mit Kraft einen Weg durch etwas bahnen",
+        "beispiel": "Das Schiff pflügt durch die Wellen.",
+        "uebersetzung": {
+          "fa": "کشتی امواج را می‌شکافد.",
+          "en": "The ship ploughs through the waves."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pflügen",
+      "praeteritum": "pflügte",
+      "partizip2": "gepflügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pflüge",
+        "du": "pflügst",
+        "er_sie_es": "pflügt",
+        "wir": "pflügen",
+        "ihr": "pflügt",
+        "sie_Sie": "pflügen"
+      },
+      "praeteritum": {
+        "ich": "pflügte",
+        "du": "pflügtest",
+        "er_sie_es": "pflügte",
+        "wir": "pflügten",
+        "ihr": "pflügtet",
+        "sie_Sie": "pflügten"
+      },
+      "konjunktiv1": {
+        "ich": "pflüge",
+        "du": "pflügest",
+        "er_sie_es": "pflüge",
+        "wir": "pflügen",
+        "ihr": "pflüget",
+        "sie_Sie": "pflügen"
+      },
+      "konjunktiv2": {
+        "ich": "pflügte",
+        "du": "pflügtest",
+        "er_sie_es": "pflügte",
+        "wir": "pflügten",
+        "ihr": "pflügtet",
+        "sie_Sie": "pflügten"
+      },
+      "imperativ": {
+        "du": "Pflüge!",
+        "ihr": "Pflügt!",
+        "Sie": "Pflügen Sie!"
+      }
+    },
+    "partizip1": "pflügend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bauer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_bauer"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      },
+      {
+        "wort": "der Traktor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تراکتور",
+          "en": "tractor"
+        },
+        "id_ref": "nomen_traktor"
+      },
+      {
+        "wort": "der Pflug",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گاوآهن",
+          "en": "plough"
+        },
+        "id_ref": "nomen_pflug"
+      },
+      {
+        "wort": "säen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بذر پاشیدن",
+          "en": "to sow"
+        },
+        "id_ref": "verb_saeen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

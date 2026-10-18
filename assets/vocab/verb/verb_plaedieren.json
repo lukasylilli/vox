@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_plaedieren",
+  "wort": "plädieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دفاع کردن (در دادگاه)",
+      "طرفداری کردن (از چیزی)"
+    ],
+    "en": [
+      "to plead",
+      "to argue (for)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik"
+  ],
+  "ipa": "plɛˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Anwalt plädiert auf Freispruch.",
+      "uebersetzung": {
+        "fa": "وکیل برای تبرئه دفاع می‌کند.",
+        "en": "The lawyer pleads for acquittal."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Ärzte plädieren dafür, dass Kinder täglich mindestens eine Stunde Sport treiben.",
+      "uebersetzung": {
+        "fa": "بسیاری از پزشکان طرفدار این‌اند که بچه‌ها روزانه دست‌کم یک ساعت ورزش کنند.",
+        "en": "Many doctors argue that children should do at least an hour of sport every day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "eintreten für",
+      "uebersetzung": {
+        "fa": "طرفداری کردن",
+        "en": "to stand up for"
+      }
+    },
+    {
+      "wort": "fordern",
+      "uebersetzung": {
+        "fa": "خواستار شدن",
+        "en": "to demand"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از فرانسوی plaider (دفاع کردن در دادگاه)",
+    "en": "from French plaider (to plead)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "plädieren für + Akk",
+        "bedeutung": "sich für etwas aussprechen",
+        "beispiel": "Die Partei plädiert für niedrigere Steuern.",
+        "uebersetzung": {
+          "fa": "حزب طرفدار مالیات کمتر است.",
+          "en": "The party argues for lower taxes."
+        }
+      },
+      {
+        "muster": "plädieren auf + Akk",
+        "bedeutung": "vor Gericht ein bestimmtes Urteil fordern",
+        "beispiel": "Die Verteidigung plädiert auf Notwehr.",
+        "uebersetzung": {
+          "fa": "وکیل مدافع دفاع مشروع را مطرح می‌کند.",
+          "en": "The defence pleads self-defence."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "plädieren",
+      "praeteritum": "plädierte",
+      "partizip2": "plädiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "plädiere",
+        "du": "plädierst",
+        "er_sie_es": "plädiert",
+        "wir": "plädieren",
+        "ihr": "plädiert",
+        "sie_Sie": "plädieren"
+      },
+      "praeteritum": {
+        "ich": "plädierte",
+        "du": "plädiertest",
+        "er_sie_es": "plädierte",
+        "wir": "plädierten",
+        "ihr": "plädiertet",
+        "sie_Sie": "plädierten"
+      },
+      "konjunktiv1": {
+        "ich": "plädiere",
+        "du": "plädierest",
+        "er_sie_es": "plädiere",
+        "wir": "plädieren",
+        "ihr": "plädieret",
+        "sie_Sie": "plädieren"
+      },
+      "konjunktiv2": {
+        "ich": "plädierte",
+        "du": "plädiertest",
+        "er_sie_es": "plädierte",
+        "wir": "plädierten",
+        "ihr": "plädiertet",
+        "sie_Sie": "plädierten"
+      },
+      "imperativ": {
+        "du": "Plädiere!",
+        "ihr": "Plädiert!",
+        "Sie": "Plädieren Sie!"
+      }
+    },
+    "partizip1": "plädierend",
+    "nominalisierung": "das Plädoyer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Anwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل",
+          "en": "lawyer"
+        },
+        "id_ref": "nomen_anwalt"
+      },
+      {
+        "wort": "fordern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خواستار شدن",
+          "en": "to demand"
+        },
+        "id_ref": "verb_fordern"
+      },
+      {
+        "wort": "eintreten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "طرفداری کردن",
+          "en": "to stand up for"
+        },
+        "id_ref": "verb_eintreten"
+      },
+      {
+        "wort": "das Plädoyer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دفاعیه",
+          "en": "plea"
+        },
+        "id_ref": "nomen_plaedoyer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

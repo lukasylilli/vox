@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_projektieren",
+  "wort": "projektieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طرح‌ریزی کردن (پروژه)",
+      "نقشه‌ی اجرایی تهیه کردن"
+    ],
+    "en": [
+      "to plan, to design (a project)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Bauen",
+    "Technik"
+  ],
+  "ipa": "pʁojɛkˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma projektiert eine Brücke.",
+      "uebersetzung": {
+        "fa": "شرکت یک پل را طرح‌ریزی می‌کند.",
+        "en": "The company is planning a bridge."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das neue Krankenhaus wurde so projektiert, dass es später erweitert werden kann.",
+      "uebersetzung": {
+        "fa": "بیمارستان جدید طوری طراحی شد که بعداً بشود گسترشش داد.",
+        "en": "The new hospital was designed in such a way that it can be extended later."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "planen",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی کردن",
+        "en": "to plan"
+      }
+    },
+    {
+      "wort": "entwerfen",
+      "uebersetzung": {
+        "fa": "طراحی کردن",
+        "en": "to design"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Projekt (پروژه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Projekt (project) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "projektieren",
+      "praeteritum": "projektierte",
+      "partizip2": "projektiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "projektiere",
+        "du": "projektierst",
+        "er_sie_es": "projektiert",
+        "wir": "projektieren",
+        "ihr": "projektiert",
+        "sie_Sie": "projektieren"
+      },
+      "praeteritum": {
+        "ich": "projektierte",
+        "du": "projektiertest",
+        "er_sie_es": "projektierte",
+        "wir": "projektierten",
+        "ihr": "projektiertet",
+        "sie_Sie": "projektierten"
+      },
+      "konjunktiv1": {
+        "ich": "projektiere",
+        "du": "projektierest",
+        "er_sie_es": "projektiere",
+        "wir": "projektieren",
+        "ihr": "projektieret",
+        "sie_Sie": "projektieren"
+      },
+      "konjunktiv2": {
+        "ich": "projektierte",
+        "du": "projektiertest",
+        "er_sie_es": "projektierte",
+        "wir": "projektierten",
+        "ihr": "projektiertet",
+        "sie_Sie": "projektierten"
+      },
+      "imperativ": {
+        "du": "Projektiere!",
+        "ihr": "Projektiert!",
+        "Sie": "Projektieren Sie!"
+      }
+    },
+    "partizip1": "projektierend",
+    "nominalisierung": "die Projektierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "das Projekt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پروژه",
+          "en": "project"
+        },
+        "id_ref": "nomen_projekt"
+      },
+      {
+        "wort": "entwerfen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "طراحی کردن",
+          "en": "to design"
+        },
+        "id_ref": "verb_entwerfen"
+      },
+      {
+        "wort": "der Ingenieur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهندس",
+          "en": "engineer"
+        },
+        "id_ref": "nomen_ingenieur"
+      },
+      {
+        "wort": "die Projektierung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "طرح‌ریزی",
+          "en": "project planning"
+        },
+        "id_ref": "nomen_projektierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_perforieren",
+  "wort": "perforieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوراخ‌سوراخ کردن (برای جدا کردن)",
+      "سوراخ شدن (عضو بدن)"
+    ],
+    "en": [
+      "to perforate"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin",
+    "Technik"
+  ],
+  "ipa": "pɛʁfoˈʁiːʁən",
+  "anmerkung": "Medizin: ein perforierter Darm/Blinddarm (Durchbruch).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Maschine perforiert das Papier.",
+      "uebersetzung": {
+        "fa": "دستگاه کاغذ را سوراخ‌سوراخ می‌کند.",
+        "en": "The machine perforates the paper."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Entzündung war der Darm perforiert, deshalb musste sofort operiert werden.",
+      "uebersetzung": {
+        "fa": "در این التهاب روده سوراخ شده بود، به همین دلیل باید فوراً عمل می‌شد.",
+        "en": "With the inflammation the bowel had perforated, so an immediate operation was needed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lochen",
+      "uebersetzung": {
+        "fa": "سوراخ کردن",
+        "en": "to punch"
+      }
+    },
+    {
+      "wort": "durchstechen",
+      "uebersetzung": {
+        "fa": "سوراخ کردن",
+        "en": "to pierce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین perforare (سوراخ کردن)",
+    "en": "from Latin perforare (to bore through)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "perforieren",
+      "praeteritum": "perforierte",
+      "partizip2": "perforiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "perforiere",
+        "du": "perforierst",
+        "er_sie_es": "perforiert",
+        "wir": "perforieren",
+        "ihr": "perforiert",
+        "sie_Sie": "perforieren"
+      },
+      "praeteritum": {
+        "ich": "perforierte",
+        "du": "perforiertest",
+        "er_sie_es": "perforierte",
+        "wir": "perforierten",
+        "ihr": "perforiertet",
+        "sie_Sie": "perforierten"
+      },
+      "konjunktiv1": {
+        "ich": "perforiere",
+        "du": "perforierest",
+        "er_sie_es": "perforiere",
+        "wir": "perforieren",
+        "ihr": "perforieret",
+        "sie_Sie": "perforieren"
+      },
+      "konjunktiv2": {
+        "ich": "perforierte",
+        "du": "perforiertest",
+        "er_sie_es": "perforierte",
+        "wir": "perforierten",
+        "ihr": "perforiertet",
+        "sie_Sie": "perforierten"
+      },
+      "imperativ": {
+        "du": "Perforiere!",
+        "ihr": "Perforiert!",
+        "Sie": "Perforieren Sie!"
+      }
+    },
+    "partizip1": "perforierend",
+    "nominalisierung": "die Perforation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Loch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سوراخ",
+          "en": "hole"
+        },
+        "id_ref": "nomen_loch"
+      },
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "lochen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پانچ کردن",
+          "en": "to punch"
+        },
+        "id_ref": "verb_lochen"
+      },
+      {
+        "wort": "durchstechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوراخ کردن",
+          "en": "to pierce"
+        },
+        "id_ref": "verb_durchstechen"
+      },
+      {
+        "wort": "die Perforation",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "سوراخ‌شدگی، خط سوراخ",
+          "en": "perforation"
+        },
+        "id_ref": "nomen_perforation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

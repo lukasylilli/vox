@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_protokollieren",
+  "wort": "protokollieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صورت‌جلسه نوشتن",
+      "ثبت کردن (در گزارش)"
+    ],
+    "en": [
+      "to take minutes",
+      "to record, to log"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Büro",
+    "Medizin"
+  ],
+  "ipa": "pʁotokɔˈliːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wer protokolliert heute?",
+      "uebersetzung": {
+        "fa": "امروز چه کسی صورت‌جلسه می‌نویسد؟",
+        "en": "Who is taking the minutes today?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Jede Medikamentengabe muss genau protokolliert werden, damit die nächste Schicht Bescheid weiß.",
+      "uebersetzung": {
+        "fa": "هر بار دادن دارو باید دقیق ثبت شود تا شیفت بعدی در جریان باشد.",
+        "en": "Every administration of medication must be recorded precisely so that the next shift is informed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "dokumentieren",
+      "uebersetzung": {
+        "fa": "مستند کردن",
+        "en": "to document"
+      }
+    },
+    {
+      "wort": "aufzeichnen",
+      "uebersetzung": {
+        "fa": "ثبت کردن",
+        "en": "to record"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Protokoll (صورت‌جلسه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Protokoll (minutes) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "protokollieren",
+      "praeteritum": "protokollierte",
+      "partizip2": "protokolliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "protokolliere",
+        "du": "protokollierst",
+        "er_sie_es": "protokolliert",
+        "wir": "protokollieren",
+        "ihr": "protokolliert",
+        "sie_Sie": "protokollieren"
+      },
+      "praeteritum": {
+        "ich": "protokollierte",
+        "du": "protokolliertest",
+        "er_sie_es": "protokollierte",
+        "wir": "protokollierten",
+        "ihr": "protokolliertet",
+        "sie_Sie": "protokollierten"
+      },
+      "konjunktiv1": {
+        "ich": "protokolliere",
+        "du": "protokollierest",
+        "er_sie_es": "protokolliere",
+        "wir": "protokollieren",
+        "ihr": "protokollieret",
+        "sie_Sie": "protokollieren"
+      },
+      "konjunktiv2": {
+        "ich": "protokollierte",
+        "du": "protokolliertest",
+        "er_sie_es": "protokollierte",
+        "wir": "protokollierten",
+        "ihr": "protokolliertet",
+        "sie_Sie": "protokollierten"
+      },
+      "imperativ": {
+        "du": "Protokolliere!",
+        "ihr": "Protokolliert!",
+        "Sie": "Protokollieren Sie!"
+      }
+    },
+    "partizip1": "protokollierend",
+    "nominalisierung": "das Protokoll"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schreiben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوشتن",
+          "en": "to write"
+        },
+        "id_ref": "verb_schreiben"
+      },
+      {
+        "wort": "die Sitzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جلسه",
+          "en": "meeting"
+        },
+        "id_ref": "nomen_sitzung"
+      },
+      {
+        "wort": "notieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یادداشت کردن",
+          "en": "to note down"
+        },
+        "id_ref": "verb_notieren"
+      },
+      {
+        "wort": "dokumentieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مستند کردن",
+          "en": "to document"
+        },
+        "id_ref": "verb_dokumentieren"
+      },
+      {
+        "wort": "das Protokoll",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صورت‌جلسه، گزارش",
+          "en": "minutes, record"
+        },
+        "id_ref": "nomen_protokoll"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

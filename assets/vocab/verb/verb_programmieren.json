@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_programmieren",
+  "wort": "programmieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "برنامه‌نویسی کردن",
+      "تنظیم کردن (دستگاه)"
+    ],
+    "en": [
+      "to program",
+      "to set (a device)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Informatik",
+    "Technik"
+  ],
+  "ipa": "pʁoɡʁaˈmiːʁən",
+  "anmerkung": "Übertragen: «Das Chaos ist vorprogrammiert» (absehbar).",
+  "berufe": [
+    "it",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er programmiert eine App.",
+      "uebersetzung": {
+        "fa": "او یک برنامه‌ی موبایل می‌نویسد.",
+        "en": "He is programming an app."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe die Heizung so programmiert, dass sie morgens um sechs angeht.",
+      "uebersetzung": {
+        "fa": "شوفاژ را طوری تنظیم کرده‌ام که صبح‌ها ساعت شش روشن شود.",
+        "en": "I have set the heating to come on at six in the morning."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "codieren",
+      "uebersetzung": {
+        "fa": "کدنویسی کردن",
+        "en": "to code"
+      }
+    },
+    {
+      "wort": "einstellen",
+      "uebersetzung": {
+        "fa": "تنظیم کردن",
+        "en": "to set"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Programm (برنامه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Programm (program) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "programmieren",
+      "praeteritum": "programmierte",
+      "partizip2": "programmiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "programmiere",
+        "du": "programmierst",
+        "er_sie_es": "programmiert",
+        "wir": "programmieren",
+        "ihr": "programmiert",
+        "sie_Sie": "programmieren"
+      },
+      "praeteritum": {
+        "ich": "programmierte",
+        "du": "programmiertest",
+        "er_sie_es": "programmierte",
+        "wir": "programmierten",
+        "ihr": "programmiertet",
+        "sie_Sie": "programmierten"
+      },
+      "konjunktiv1": {
+        "ich": "programmiere",
+        "du": "programmierest",
+        "er_sie_es": "programmiere",
+        "wir": "programmieren",
+        "ihr": "programmieret",
+        "sie_Sie": "programmieren"
+      },
+      "konjunktiv2": {
+        "ich": "programmierte",
+        "du": "programmiertest",
+        "er_sie_es": "programmierte",
+        "wir": "programmierten",
+        "ihr": "programmiertet",
+        "sie_Sie": "programmierten"
+      },
+      "imperativ": {
+        "du": "Programmiere!",
+        "ihr": "Programmiert!",
+        "Sie": "Programmieren Sie!"
+      }
+    },
+    "partizip1": "programmierend",
+    "nominalisierung": "die Programmierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "das Programm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه",
+          "en": "program"
+        },
+        "id_ref": "nomen_programm"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کد",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      },
+      {
+        "wort": "der Programmierer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌نویس",
+          "en": "programmer"
+        },
+        "id_ref": "nomen_programmierer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

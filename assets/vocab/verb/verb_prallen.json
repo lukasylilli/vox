@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_prallen",
+  "wort": "prallen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "محکم برخورد کردن",
+      "کوبیده شدن (به چیزی)"
+    ],
+    "en": [
+      "to crash, to collide",
+      "to bounce"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Alltag"
+  ],
+  "ipa": "ˈpʁalən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Ball prallt an die Wand.",
+      "uebersetzung": {
+        "fa": "توپ به دیوار می‌خورد.",
+        "en": "The ball bounces against the wall."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Auto ist bei Glatteis gegen einen Baum geprallt, aber der Fahrer blieb unverletzt.",
+      "uebersetzung": {
+        "fa": "ماشین در یخ‌زدگی جاده به درخت کوبید، ولی راننده آسیبی ندید.",
+        "en": "The car crashed into a tree on black ice, but the driver was unhurt."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "stoßen",
+      "uebersetzung": {
+        "fa": "برخورد کردن",
+        "en": "to bump"
+      }
+    },
+    {
+      "wort": "knallen",
+      "uebersetzung": {
+        "fa": "کوبیدن",
+        "en": "to bang"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "prallen gegen/auf + Akk",
+        "bedeutung": "mit Wucht gegen etwas stoßen",
+        "beispiel": "Der Vogel prallt gegen die Scheibe.",
+        "uebersetzung": {
+          "fa": "پرنده به شیشه می‌خورد.",
+          "en": "The bird crashes into the window."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "prallen",
+      "praeteritum": "prallte",
+      "partizip2": "geprallt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pralle",
+        "du": "prallst",
+        "er_sie_es": "prallt",
+        "wir": "prallen",
+        "ihr": "prallt",
+        "sie_Sie": "prallen"
+      },
+      "praeteritum": {
+        "ich": "prallte",
+        "du": "pralltest",
+        "er_sie_es": "prallte",
+        "wir": "prallten",
+        "ihr": "pralltet",
+        "sie_Sie": "prallten"
+      },
+      "konjunktiv1": {
+        "ich": "pralle",
+        "du": "prallest",
+        "er_sie_es": "pralle",
+        "wir": "prallen",
+        "ihr": "prallet",
+        "sie_Sie": "prallen"
+      },
+      "konjunktiv2": {
+        "ich": "prallte",
+        "du": "pralltest",
+        "er_sie_es": "prallte",
+        "wir": "prallten",
+        "ihr": "pralltet",
+        "sie_Sie": "prallten"
+      },
+      "imperativ": null
+    },
+    "partizip1": "prallend",
+    "nominalisierung": "der Aufprall"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "stoßen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برخورد کردن",
+          "en": "to bump"
+        },
+        "id_ref": "verb_stossen"
+      },
+      {
+        "wort": "zusammenstoßen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصادف کردن",
+          "en": "to collide"
+        },
+        "id_ref": "verb_zusammenstossen"
+      },
+      {
+        "wort": "der Aufprall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برخورد",
+          "en": "impact"
+        },
+        "id_ref": "nomen_aufprall"
+      },
+      {
+        "wort": "prall",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پر، سفت",
+          "en": "plump"
+        },
+        "id_ref": "adjektiv_prall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

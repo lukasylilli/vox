@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_prellen",
+  "wort": "prellen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کوفتگی پیدا کردن، ضرب دیدن (عضو بدن)",
+      "سر کسی را کلاه گذاشتن (پول ندادن)"
+    ],
+    "en": [
+      "to bruise",
+      "to cheat (out of money)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Recht"
+  ],
+  "ipa": "ˈpʁɛlən",
+  "anmerkung": "Medizin: sich etwas prellen → die Prellung. Recht: die Zeche prellen (nicht bezahlen).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mir die Hand geprellt.",
+      "uebersetzung": {
+        "fa": "دستم ضرب دیده است.",
+        "en": "I have bruised my hand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Gäste verschwanden, ohne zu zahlen, und prellten den Wirt um 200 Euro.",
+      "uebersetzung": {
+        "fa": "مهمان‌ها بدون پرداخت رفتند و سر صاحب رستوران دویست یورو کلاه گذاشتند.",
+        "en": "The guests disappeared without paying and cheated the landlord out of 200 euros."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "betrügen",
+      "uebersetzung": {
+        "fa": "فریب دادن",
+        "en": "to cheat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jdn. prellen um + Akk",
+        "bedeutung": "jemanden um etwas betrügen",
+        "beispiel": "Der Händler prellt die Kunden um ihr Geld.",
+        "uebersetzung": {
+          "fa": "فروشنده پول مشتری‌ها را بالا می‌کشد.",
+          "en": "The dealer cheats the customers out of their money."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "prellen",
+      "praeteritum": "prellte",
+      "partizip2": "geprellt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "prelle",
+        "du": "prellst",
+        "er_sie_es": "prellt",
+        "wir": "prellen",
+        "ihr": "prellt",
+        "sie_Sie": "prellen"
+      },
+      "praeteritum": {
+        "ich": "prellte",
+        "du": "prelltest",
+        "er_sie_es": "prellte",
+        "wir": "prellten",
+        "ihr": "prelltet",
+        "sie_Sie": "prellten"
+      },
+      "konjunktiv1": {
+        "ich": "prelle",
+        "du": "prellest",
+        "er_sie_es": "prelle",
+        "wir": "prellen",
+        "ihr": "prellet",
+        "sie_Sie": "prellen"
+      },
+      "konjunktiv2": {
+        "ich": "prellte",
+        "du": "prelltest",
+        "er_sie_es": "prellte",
+        "wir": "prellten",
+        "ihr": "prelltet",
+        "sie_Sie": "prellten"
+      },
+      "imperativ": {
+        "du": "Prelle!",
+        "ihr": "Prellt!",
+        "Sie": "Prellen Sie!"
+      }
+    },
+    "partizip1": "prellend",
+    "nominalisierung": "die Prellung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب زدن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "der Bluterguss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کبودی",
+          "en": "bruise"
+        },
+        "id_ref": "nomen_bluterguss"
+      },
+      {
+        "wort": "betrügen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فریب دادن",
+          "en": "to cheat"
+        },
+        "id_ref": "verb_betruegen"
+      },
+      {
+        "wort": "die Prellung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کوفتگی",
+          "en": "contusion"
+        },
+        "id_ref": "nomen_prellung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

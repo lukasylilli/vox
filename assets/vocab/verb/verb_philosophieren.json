@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_philosophieren",
+  "wort": "philosophieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "فلسفه‌بافی کردن",
+      "درباره‌ی مسائل عمیق اندیشیدن و گفت‌وگو کردن"
+    ],
+    "en": [
+      "to philosophize"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kultur",
+    "Kommunikation"
+  ],
+  "ipa": "filozoˈfiːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir philosophieren über das Leben.",
+      "uebersetzung": {
+        "fa": "درباره‌ی زندگی فلسفه‌بافی می‌کنیم.",
+        "en": "We philosophize about life."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bis spät in die Nacht philosophierten die Freunde darüber, was Glück eigentlich bedeutet.",
+      "uebersetzung": {
+        "fa": "دوستان تا دیروقت درباره‌ی معنای واقعی خوشبختی بحث فلسفی کردند.",
+        "en": "The friends philosophized late into the night about what happiness actually means."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "nachdenken",
+      "uebersetzung": {
+        "fa": "تأمل کردن",
+        "en": "to reflect"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Philosophie (فلسفه) + -ieren (پسوند فعل‌ساز)",
+    "en": "Philosophie (philosophy) + -ieren (verb suffix)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "philosophieren über + Akk",
+        "bedeutung": "über grundlegende Fragen nachdenken und reden",
+        "beispiel": "Sie philosophieren über die Zeit.",
+        "uebersetzung": {
+          "fa": "درباره‌ی زمان فلسفه‌بافی می‌کنند.",
+          "en": "They philosophize about time."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "philosophieren",
+      "praeteritum": "philosophierte",
+      "partizip2": "philosophiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "philosophiere",
+        "du": "philosophierst",
+        "er_sie_es": "philosophiert",
+        "wir": "philosophieren",
+        "ihr": "philosophiert",
+        "sie_Sie": "philosophieren"
+      },
+      "praeteritum": {
+        "ich": "philosophierte",
+        "du": "philosophiertest",
+        "er_sie_es": "philosophierte",
+        "wir": "philosophierten",
+        "ihr": "philosophiertet",
+        "sie_Sie": "philosophierten"
+      },
+      "konjunktiv1": {
+        "ich": "philosophiere",
+        "du": "philosophierest",
+        "er_sie_es": "philosophiere",
+        "wir": "philosophieren",
+        "ihr": "philosophieret",
+        "sie_Sie": "philosophieren"
+      },
+      "konjunktiv2": {
+        "ich": "philosophierte",
+        "du": "philosophiertest",
+        "er_sie_es": "philosophierte",
+        "wir": "philosophierten",
+        "ihr": "philosophiertet",
+        "sie_Sie": "philosophierten"
+      },
+      "imperativ": {
+        "du": "Philosophiere!",
+        "ihr": "Philosophiert!",
+        "Sie": "Philosophieren Sie!"
+      }
+    },
+    "partizip1": "philosophierend",
+    "nominalisierung": "die Philosophie"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "denken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فکر کردن",
+          "en": "to think"
+        },
+        "id_ref": "verb_denken"
+      },
+      {
+        "wort": "diskutieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بحث کردن",
+          "en": "to discuss"
+        },
+        "id_ref": "verb_diskutieren"
+      },
+      {
+        "wort": "nachdenken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأمل کردن",
+          "en": "to reflect"
+        },
+        "id_ref": "verb_nachdenken"
+      },
+      {
+        "wort": "die Philosophie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلسفه",
+          "en": "philosophy"
+        },
+        "id_ref": "nomen_philosophie"
+      },
+      {
+        "wort": "der Philosoph",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فیلسوف",
+          "en": "philosopher"
+        },
+        "id_ref": "nomen_philosoph"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

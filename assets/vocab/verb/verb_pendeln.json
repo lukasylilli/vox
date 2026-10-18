@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_pendeln",
+  "wort": "pendeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رفت‌وآمد روزانه کردن (بین خانه و کار)",
+      "نوسان کردن (مثل آونگ)"
+    ],
+    "en": [
+      "to commute",
+      "to swing (like a pendulum)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Verkehr"
+  ],
+  "ipa": "ˈpɛndl̩n",
+  "anmerkung": "«hin- und herfahren» mit sein; «schwingen» (das Pendel) mit haben.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er pendelt jeden Tag nach Wien.",
+      "uebersetzung": {
+        "fa": "او هر روز برای کار به وین رفت‌وآمد می‌کند.",
+        "en": "He commutes to Vienna every day."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit sie in Bregenz wohnt, ist sie täglich in die Schweiz gependelt.",
+      "uebersetzung": {
+        "fa": "از وقتی در برگنتس زندگی می‌کند، هر روز به سوئیس رفت‌وآمد کرده است.",
+        "en": "Since she has lived in Bregenz, she has commuted to Switzerland every day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "hin- und herfahren",
+      "uebersetzung": {
+        "fa": "رفت‌وآمد کردن",
+        "en": "to go back and forth"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Pendel (آونگ) + -n",
+    "en": "Pendel (pendulum) + -n"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "pendeln zwischen + Dat",
+        "bedeutung": "regelmäßig zwischen zwei Orten hin- und herfahren",
+        "beispiel": "Sie pendelt zwischen Dornbirn und Feldkirch.",
+        "uebersetzung": {
+          "fa": "او بین دورنبیرن و فلدکیرش رفت‌وآمد می‌کند.",
+          "en": "She commutes between Dornbirn and Feldkirch."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "pendeln",
+      "praeteritum": "pendelte",
+      "partizip2": "gependelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "pendle",
+        "du": "pendelst",
+        "er_sie_es": "pendelt",
+        "wir": "pendeln",
+        "ihr": "pendelt",
+        "sie_Sie": "pendeln"
+      },
+      "praeteritum": {
+        "ich": "pendelte",
+        "du": "pendeltest",
+        "er_sie_es": "pendelte",
+        "wir": "pendelten",
+        "ihr": "pendeltet",
+        "sie_Sie": "pendelten"
+      },
+      "konjunktiv1": {
+        "ich": "pendle",
+        "du": "pendlest",
+        "er_sie_es": "pendle",
+        "wir": "pendeln",
+        "ihr": "pendlet",
+        "sie_Sie": "pendeln"
+      },
+      "konjunktiv2": {
+        "ich": "pendelte",
+        "du": "pendeltest",
+        "er_sie_es": "pendelte",
+        "wir": "pendelten",
+        "ihr": "pendeltet",
+        "sie_Sie": "pendelten"
+      },
+      "imperativ": {
+        "du": "Pendle!",
+        "ihr": "Pendelt!",
+        "Sie": "Pendeln Sie!"
+      }
+    },
+    "partizip1": "pendelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن (با وسیله)",
+          "en": "to go, to drive"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "die Arbeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار",
+          "en": "work"
+        },
+        "id_ref": "nomen_arbeit"
+      },
+      {
+        "wort": "der Pendler",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کسی که رفت‌وآمد روزانه دارد",
+          "en": "commuter"
+        },
+        "id_ref": "nomen_pendler"
+      },
+      {
+        "wort": "das Pendel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آونگ",
+          "en": "pendulum"
+        },
+        "id_ref": "nomen_pendel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

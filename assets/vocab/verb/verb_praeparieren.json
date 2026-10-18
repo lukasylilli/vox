@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_praeparieren",
+  "wort": "präparieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آماده کردن (برای آزمایش، درس)",
+      "تاکسیدرمی کردن، تشریح کردن"
+    ],
+    "en": [
+      "to prepare",
+      "to dissect, to stuff"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Medizin"
+  ],
+  "ipa": "pʁɛpaˈʁiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie präpariert die Probe.",
+      "uebersetzung": {
+        "fa": "او نمونه را آماده می‌کند.",
+        "en": "She is preparing the sample."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Museum sind viele Tiere präpariert, sodass die Kinder sie aus der Nähe betrachten können.",
+      "uebersetzung": {
+        "fa": "در موزه حیوانات زیادی تاکسیدرمی شده‌اند تا بچه‌ها از نزدیک ببینندشان.",
+        "en": "In the museum many animals are stuffed so that the children can look at them up close."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "vorbereiten",
+      "uebersetzung": {
+        "fa": "آماده کردن",
+        "en": "to prepare"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین praeparare (از پیش آماده کردن)",
+    "en": "from Latin praeparare (to prepare beforehand)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich präparieren für + Akk",
+        "bedeutung": "sich auf etwas vorbereiten",
+        "beispiel": "Er präpariert sich für die Prüfung.",
+        "uebersetzung": {
+          "fa": "او خودش را برای امتحان آماده می‌کند.",
+          "en": "He is preparing for the exam."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "präparieren",
+      "praeteritum": "präparierte",
+      "partizip2": "präpariert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "präpariere",
+        "du": "präparierst",
+        "er_sie_es": "präpariert",
+        "wir": "präparieren",
+        "ihr": "präpariert",
+        "sie_Sie": "präparieren"
+      },
+      "praeteritum": {
+        "ich": "präparierte",
+        "du": "präpariertest",
+        "er_sie_es": "präparierte",
+        "wir": "präparierten",
+        "ihr": "präpariertet",
+        "sie_Sie": "präparierten"
+      },
+      "konjunktiv1": {
+        "ich": "präpariere",
+        "du": "präparierest",
+        "er_sie_es": "präpariere",
+        "wir": "präparieren",
+        "ihr": "präparieret",
+        "sie_Sie": "präparieren"
+      },
+      "konjunktiv2": {
+        "ich": "präparierte",
+        "du": "präpariertest",
+        "er_sie_es": "präparierte",
+        "wir": "präparierten",
+        "ihr": "präpariertet",
+        "sie_Sie": "präparierten"
+      },
+      "imperativ": {
+        "du": "Präpariere!",
+        "ihr": "Präpariert!",
+        "Sie": "Präparieren Sie!"
+      }
+    },
+    "partizip1": "präparierend",
+    "nominalisierung": "das Präparat"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "vorbereiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آماده کردن",
+          "en": "to prepare"
+        },
+        "id_ref": "verb_vorbereiten"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "laboratory"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "die Probe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نمونه",
+          "en": "sample"
+        },
+        "id_ref": "nomen_probe"
+      },
+      {
+        "wort": "sezieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تشریح کردن",
+          "en": "to dissect"
+        },
+        "id_ref": "verb_sezieren"
+      },
+      {
+        "wort": "das Präparat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمونه‌ی آماده؛ دارو",
+          "en": "preparation"
+        },
+        "id_ref": "nomen_praeparat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_projizieren",
+  "wort": "projizieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تاباندن، نمایش دادن (روی پرده)",
+      "فرافکنی کردن"
+    ],
+    "en": [
+      "to project"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Psychologie"
+  ],
+  "ipa": "pʁojiˈt͡siːʁən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Beamer projiziert ein Bild.",
+      "uebersetzung": {
+        "fa": "ویدئوپروژکتور تصویری روی پرده می‌اندازد.",
+        "en": "The projector projects an image."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Oft projizieren wir unsere eigenen Ängste auf andere Menschen, ohne es zu merken.",
+      "uebersetzung": {
+        "fa": "اغلب ترس‌های خودمان را بدون اینکه متوجه شویم به دیگران فرافکنی می‌کنیم.",
+        "en": "We often project our own fears onto other people without realizing it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übertragen",
+      "uebersetzung": {
+        "fa": "منتقل کردن",
+        "en": "to transfer"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین proicere (به جلو انداختن)",
+    "en": "from Latin proicere (to throw forward)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "etwas projizieren auf + Akk",
+        "bedeutung": "etwas auf eine Fläche/Person übertragen",
+        "beispiel": "Er projiziert die Folien auf die Leinwand.",
+        "uebersetzung": {
+          "fa": "او اسلایدها را روی پرده نمایش می‌دهد.",
+          "en": "He projects the slides onto the screen."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "projizieren",
+      "praeteritum": "projizierte",
+      "partizip2": "projiziert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "projiziere",
+        "du": "projizierst",
+        "er_sie_es": "projiziert",
+        "wir": "projizieren",
+        "ihr": "projiziert",
+        "sie_Sie": "projizieren"
+      },
+      "praeteritum": {
+        "ich": "projizierte",
+        "du": "projiziertest",
+        "er_sie_es": "projizierte",
+        "wir": "projizierten",
+        "ihr": "projiziertet",
+        "sie_Sie": "projizierten"
+      },
+      "konjunktiv1": {
+        "ich": "projiziere",
+        "du": "projizierest",
+        "er_sie_es": "projiziere",
+        "wir": "projizieren",
+        "ihr": "projizieret",
+        "sie_Sie": "projizieren"
+      },
+      "konjunktiv2": {
+        "ich": "projizierte",
+        "du": "projiziertest",
+        "er_sie_es": "projizierte",
+        "wir": "projizierten",
+        "ihr": "projiziertet",
+        "sie_Sie": "projizierten"
+      },
+      "imperativ": {
+        "du": "Projiziere!",
+        "ihr": "Projiziert!",
+        "Sie": "Projizieren Sie!"
+      }
+    },
+    "partizip1": "projizierend",
+    "nominalisierung": "die Projektion"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bild",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تصویر",
+          "en": "image"
+        },
+        "id_ref": "nomen_bild"
+      },
+      {
+        "wort": "die Wand",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیوار",
+          "en": "wall"
+        },
+        "id_ref": "nomen_wand"
+      },
+      {
+        "wort": "der Beamer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویدئوپروژکتور",
+          "en": "projector"
+        },
+        "id_ref": "nomen_beamer"
+      },
+      {
+        "wort": "zeigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشان دادن",
+          "en": "to show"
+        },
+        "id_ref": "verb_zeigen"
+      },
+      {
+        "wort": "die Projektion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرافکنی، تصویرافکنی",
+          "en": "projection"
+        },
+        "id_ref": "nomen_projektion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
