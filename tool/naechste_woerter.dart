@@ -2140,6 +2140,11 @@ const zurueckgestellt = <String>{
   'Akkord', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik (Dreiklang) / Akkordarbeit (Stücklohn)) — nach den Nomen 2026-10-19
   'Akquisition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erwerb (Firmenkauf) / Kundenwerbung) — nach den Nomen 2026-10-19
   'Aktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handlung, Kampagne / Sonderangebot («in Aktion», österr.)) — nach den Nomen 2026-10-19
+  'Aktionswoche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Woche einer Kampagne / Woche mit Sonderangeboten) — nach den Nomen 2026-10-19
+  'Aktiva', // zurückgestellt: nur Plural (Pluraletantum), Genus in der Liste «das» — nicht sicher (Regel 14) 2026-10-19
+  'Aktuar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versicherungsmathematiker / (veraltet) Gerichtsschreiber) — nach den Nomen 2026-10-19
+  'Akustik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre vom Schall / Klangwirkung eines Raumes) — nach den Nomen 2026-10-19
+  'Akzent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussprache-Färbung / Betonungszeichen / Schwerpunkt («Akzente setzen»)) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
