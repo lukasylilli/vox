@@ -2147,6 +2147,9 @@ const zurueckgestellt = <String>{
   'Akzent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussprache-Färbung / Betonungszeichen / Schwerpunkt («Akzente setzen»)) — nach den Nomen 2026-10-19
   'Album', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fotoalbum, Sammelbuch / Musikalbum (Tonträger)) — nach den Nomen 2026-10-19
   'Alfa', // zurückgestellt: Markenname bzw. Schreibvariante unklar — nicht sicher (Regel 14/18) 2026-10-19
+  'Alibi', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachweis der Abwesenheit / Ausrede, Vorwand) — nach den Nomen 2026-10-19
+  'Alien', // zurückgestellt: Genus unsicher (das oder der Alien) — nicht sicher (Regel 14) 2026-10-19
+  'Alitalia', // zurückgestellt: Firmen-/Markenname (Fluggesellschaft) — nicht bauen (Regel 18) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
