@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_absender",
+  "wort": "der Absender",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرستنده"
+    ],
+    "en": [
+      "sender"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Post",
+    "Kommunikation"
+  ],
+  "ipa": "ˈapzɛndɐ",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wer ist der Absender?",
+      "uebersetzung": {
+        "fa": "فرستنده کیست؟",
+        "en": "Who is the sender?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Schreib bitte den Absender auf den Umschlag, damit der Brief zurückkommt, falls die Adresse falsch ist.",
+      "uebersetzung": {
+        "fa": "لطفاً فرستنده را روی پاکت بنویس تا اگر آدرس اشتباه بود، نامه برگردد.",
+        "en": "Please write the sender on the envelope so that the letter comes back if the address is wrong."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der Empfänger",
+      "uebersetzung": {
+        "fa": "گیرنده",
+        "en": "recipient"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از absenden (فرستادن) + -er",
+    "en": "from absenden (to send) + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Absender",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "senden",
+    "woerter": [
+      {
+        "wort": "senden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرستادن",
+          "en": "to send"
+        },
+        "id_ref": "verb_senden"
+      },
+      {
+        "wort": "der Empfänger",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیرنده",
+          "en": "recipient"
+        },
+        "id_ref": "nomen_empfaenger"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die Adresse",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نشانی",
+          "en": "address"
+        },
+        "id_ref": "nomen_adresse"
+      },
+      {
+        "wort": "das Paket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "parcel"
+        },
+        "id_ref": "nomen_paket"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

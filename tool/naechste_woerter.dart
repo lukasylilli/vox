@@ -2093,6 +2093,13 @@ const zurueckgestellt = <String>{
   'Abrechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrechnung (Rechnung) / Vergeltung («Abrechnung mit jdm.»)) — nach den Nomen 2026-10-19
   'Abruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrufen von Daten / Anforderung von Waren / «auf Abruf» (Bereitschaft)) — nach den Nomen 2026-10-19
   'Absatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Textabschnitt / Schuhabsatz / Verkauf / Treppenabsatz) — nach den Nomen 2026-10-19
+  'Abschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preisnachlass / Abschlagszahlung / Torwart-Abstoß / Golf) — nach den Nomen 2026-10-19
+  'Abschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ende / Schul-/Studienabschluss / Geschäftsabschluss) — nach den Nomen 2026-10-19
+  'Abschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Textteil / Zeitabschnitt / abtrennbarer Teil eines Formulars) — nach den Nomen 2026-10-19
+  'Abschuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschießen eines Flugzeugs / Start einer Rakete / Jagd) — nach den Nomen 2026-10-19
+  'Abschwung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wirtschaftlicher Abschwung / Abgang beim Turnen) — nach den Nomen 2026-10-19
+  'Abseits', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abseits (Fußballregel) / «im Abseits stehen» (ausgeschlossen sein)) — nach den Nomen 2026-10-19
+  'Absetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amtsenthebung / steuerliche Absetzung / Absetzung einer Sendung) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
