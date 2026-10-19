@@ -2152,6 +2152,7 @@ const zurueckgestellt = <String>{
   'Alitalia', // zurückgestellt: Firmen-/Markenname (Fluggesellschaft) — nicht bauen (Regel 18) 2026-10-19
   'Allah', // zurückgestellt: Eigenname (Religion), kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
   'Allgemeinheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Öffentlichkeit, alle / Allgemeingültigkeit (Unbestimmtheit)) — nach den Nomen 2026-10-19
+  'Alpe', // zurückgestellt: regional (österr./schweiz.) Nebenform von «Alm» — Gebrauch nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
