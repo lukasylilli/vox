@@ -59,6 +59,22 @@ class DetailsRenderer extends StatelessWidget {
   // ── Wortarten ─────────────────────────────────────────────────
   Widget _nomen(BuildContext context) {
     final d = _d;
+    // Eigenname (Regel 18): kurze Karte — nur Genus + Artikelgebrauch.
+    if (d['eigenname'] == true) {
+      final mit = d['mit_artikel'];
+      return Sektion(titel: 'Grammatik', children: [
+        Zeile(label: 'Eigenname', wert: _jaNein(true)),
+        Zeile(label: 'Genus', wert: d['genus'] as String?),
+        Zeile(
+          label: 'Artikel',
+          wert: mit == true
+              ? 'mit Artikel (${d['genus']} …)'
+              : mit == false
+                  ? 'ohne Artikel'
+                  : null,
+        ),
+      ]);
+    }
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       Sektion(titel: 'Grammatik', children: [
         Zeile(label: 'Genus', wert: d['genus'] as String?),

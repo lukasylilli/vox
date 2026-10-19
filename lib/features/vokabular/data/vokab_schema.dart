@@ -62,9 +62,20 @@ const _detailPflicht = <String, Set<String>>{
   'partikel': {'untertyp', 'funktion', 'register'},
 };
 
+/// Homograph-Kennung (Prompt-Regel 19, Lukas 2026-10-19): gleich
+/// geschriebene Wörter derselben Wortart mit eigener Bedeutung bekommen je
+/// eine EIGENE Karte. Die häufigste Bedeutung behält die normale id
+/// (`nomen_see`), jede weitere hängt eine Kennung an: den Artikel, wenn das
+/// Genus sich unterscheidet (die See → `nomen_see_die`), sonst eine Ziffer
+/// 2–9 (die Bank «Geldinstitut» → `nomen_bank_2`). So bleiben alle schon
+/// veröffentlichten ids und alle id_ref-Verweise auf die Hauptbedeutung gültig.
+final vokabHomographMuster = RegExp(r'^(der|die|das|[2-9])$');
+
 /// ID-Regel 5: wortart_lemma, Kleinbuchstaben, ä→ae ö→oe ü→ue ß→ss;
 /// Nomen ohne Artikel. ('nomen','der Kühlschrank') → 'nomen_kuehlschrank'.
-String vokabId(String wortart, String wort) {
+/// Mit [homograph] (Regel 19): ('nomen','die See', homograph: 'die') →
+/// 'nomen_see_die'.
+String vokabId(String wortart, String wort, {String? homograph}) {
   var lemma = wort.trim();
   final teile = lemma.split(' ');
   if (teile.length > 1 &&
@@ -78,8 +89,22 @@ String vokabId(String wortart, String wort) {
       .replaceAll('ü', 'ue')
       .replaceAll('ß', 'ss')
       .replaceAll(' ', '_');
-  return '${wortart}_$lemma';
+  final h = homograph?.trim().toLowerCase() ?? '';
+  return h.isEmpty ? '${wortart}_$lemma' : '${wortart}_${lemma}_$h';
 }
+
+/// Eigenname (Prompt-Regel 18, Lukas 2026-09-24/2026-10-19): Städte,
+/// Länder, Regionen, Flüsse, Gebirge … bekommen eine KURZE Nomen-Karte —
+/// nur IPA, Bedeutung (fa/en) und Artikel/Genus. Keine Beispiele, kein
+/// Wortnetz, keine Synonyme/Komposita/Etymologie. Kennzeichen:
+/// `details.eigenname == true`.
+bool vokabIstEigenname(Map<String, dynamic> karte) {
+  final d = karte['details'];
+  return karte['wortart'] == 'nomen' && d is Map && d['eigenname'] == true;
+}
+
+/// Pflichtfelder in details einer Eigenname-Karte (statt der Nomen-Liste).
+const _eigennamePflicht = {'eigenname', 'genus', 'mit_artikel'};
 
 /// Konverter-Output → Liste roher Karten. Tolerant: entfernt Code-Fences
 /// (Regel 1 verbietet sie, LLMs setzen sie trotzdem), akzeptiert auch ein
@@ -145,6 +170,27 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
     fehler.add('[$label] "details" fehlt oder ist kein Objekt');
   }
   _pruefeEinordnung(karte, label, fehler, warnungen);
+  // Regel 19: Homograph-Kennung — falsch ⇒ falsche id ⇒ fatal.
+  final homograph = karte['homograph'];
+  if (homograph != null) {
+    if (homograph is! String || !vokabHomographMuster.hasMatch(homograph)) {
+      fehler.add('[$label] "homograph" ungültig: $homograph '
+          '(der/die/das oder 2–9)');
+    } else if (const {'der', 'die', 'das'}.contains(homograph) &&
+        (wortart != 'nomen' ||
+            (details is Map && details['genus'] != homograph))) {
+      fehler.add('[$label] "homograph" "$homograph" passt nicht zu '
+          'wortart/genus — Artikel-Kennung nur bei Nomen mit diesem Genus');
+    }
+  }
+  // Regel 18: Eigenname nur als Nomen; Genus muss sicher sein.
+  if (details is Map && details['eigenname'] != null) {
+    if (details['eigenname'] != true || wortart != 'nomen') {
+      fehler.add('[$label] details.eigenname nur als true bei wortart nomen');
+    } else if (!const {'der', 'die', 'das'}.contains(details['genus'])) {
+      fehler.add('[$label] Eigenname ohne gültiges genus (der/die/das)');
+    }
+  }
   if (fehler.isNotEmpty) return VokabPruefung(null, fehler, warnungen);
   wortart as String;
   wort as String;
@@ -155,7 +201,9 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
     warnungen.add('[$label] schema "${karte['schema']}" ≠ "3.0" — gesetzt');
     karte['schema'] = '3.0';
   }
-  final abgeleitet = vokabId(wortart, wort);
+  final abgeleitet =
+      vokabId(wortart, wort, homograph: karte['homograph'] as String?);
+  final eigenname = vokabIstEigenname(karte);
   if (karte['id'] != abgeleitet) {
     warnungen.add('[$label] id "${karte['id']}" → korrigiert zu "$abgeleitet"');
     karte['id'] = abgeleitet;
@@ -174,7 +222,7 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   // erlaubt — Beispiele werden nur erweitert, nie gekürzt. Weniger als 2 ⇒
   // Warnung. Zielwort muss in JEDEM Satz vorkommen.
   final beispiele = (karte['beispiele'] as List?) ?? const [];
-  if (beispiele.length < 2) {
+  if (beispiele.length < 2 && !eigenname) {
     warnungen.add('[$label] ${beispiele.length} Beispiele statt 2');
   }
   final stamm = _lueckenStamm(wortart, wort);
@@ -212,9 +260,23 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   }
 
   // Details: Pflichtfelder + verbotene abgeleitete Formen (Regel 7).
-  for (final key in _detailPflicht[wortart] ?? const <String>{}) {
+  for (final key in eigenname
+      ? _eigennamePflicht
+      : _detailPflicht[wortart] ?? const <String>{}) {
     if (!details.containsKey(key)) {
       warnungen.add('[$label] details.$key fehlt');
+    }
+  }
+  if (eigenname) {
+    // Regel 18: «mit_artikel» sagt, ob der Name mit Artikel gebraucht wird
+    // (die Schweiz) oder ohne (Aachen) — das Lemma muss dazu passen.
+    final mitArtikel = details['mit_artikel'];
+    final hatArtikel = wort.trim().toLowerCase().startsWith('${details['genus']} ');
+    if (mitArtikel is! bool) {
+      warnungen.add('[$label] details.mit_artikel muss true/false sein');
+    } else if (mitArtikel != hatArtikel) {
+      warnungen.add('[$label] Lemma passt nicht zu mit_artikel=$mitArtikel '
+          '(mit Artikel: «die Schweiz», ohne: «Aachen»)');
     }
   }
   if (wortart == 'verb') {
@@ -255,7 +317,7 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   // artikel/pronomen/partikel darf es null / kürzer sein.
   final netz = karte['wortnetz'];
   if (netz == null) {
-    if (!_wortnetzOptional.contains(wortart)) {
+    if (!_wortnetzOptional.contains(wortart) && !eigenname) {
       warnungen.add('[$label] wortnetz fehlt');
     }
   } else if (netz is Map) {
@@ -267,7 +329,8 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
       final wMap = w as Map;
       final wWortart = wMap['wortart'] as String? ?? '';
       final wWort = wMap['wort'] as String? ?? '';
-      final ref = vokabId(wWortart, wWort);
+      final ref = vokabId(wWortart, wWort,
+          homograph: wMap['homograph'] as String?);
       if (wMap['id_ref'] != ref) {
         warnungen.add(
             '[$label] wortnetz "$wWort": id_ref "${wMap['id_ref']}" → "$ref"');
@@ -341,7 +404,8 @@ void _pruefeEinordnung(Map<String, dynamic> karte, String label,
       fehler.add('[$label] "ersatz" ungültig — null oder '
           '{wort, wortart, uebersetzung: {fa, en}, id_ref}');
     } else {
-      final ref = vokabId(ersatz['wortart'] as String, ersatz['wort'] as String);
+      final ref = vokabId(ersatz['wortart'] as String, ersatz['wort'] as String,
+          homograph: ersatz['homograph'] as String?);
       if (ersatz['id_ref'] != ref) {
         warnungen.add(
             '[$label] ersatz.id_ref "${ersatz['id_ref']}" → "$ref"');

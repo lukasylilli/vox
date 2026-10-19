@@ -30,7 +30,7 @@ TEIL 0 — GLOBALE REGELN
     KEIN Genitiv bei Nomen — die App leitet ihn ab).
 8.  Niveau (A1–C2): am Goethe-/GER-Wortschatz orientieren; im Zweifel
     das NIEDRIGERE Niveau.
-9.  Beispielsätze: genau 2 — einer A1/A2 (kurz, einfach), einer B1/B2
+9.  Beispielsätze: genau 2 (Ausnahme Eigennamen, Regel 18: []) — einer A1/A2 (kurz, einfach), einer B1/B2
     (mit Nebensatz oder typischer Struktur). Natürlich, alltagstauglich.
     WICHTIG: Das Zielwort muss im Satz in einer klar erkennbaren Form
     vorkommen (die App erzeugt daraus Lückentext-Übungen).
@@ -48,7 +48,7 @@ TEIL 0 — GLOBALE REGELN
     Beispiel: "fa": "zer- (از هم) + streuen (پاشیدن)",
               "en": "zer- (apart) + streuen (to scatter)".
     Keine Sprachgeschichte. Nicht zutreffend → null.
-13. "wortnetz": genau 5 verwandte Wörter (TEIL 3) — dienen in der App
+13. "wortnetz": genau 5 verwandte Wörter (TEIL 3; Eigennamen, Regel 18: null) — dienen in der App
     als klickbare Verweise auf andere Wortseiten. KEINE Beispielsätze.
 14. Qualitätsmaßstab: Duden-Online-Niveau bei Formen und Angaben
     (Plural, Stammformen, Rektion, IPA). Bei Unsicherheit: null statt
@@ -117,6 +117,36 @@ TEIL 0 — GLOBALE REGELN
         { "wort": "<mit Artikel bei Nomen>", "wortart": "<...>",
           "uebersetzung": { "fa": "<...>", "en": "<...>" },
           "id_ref": "<wortart_lemma — ID-Regel 5>" }
+18. EIGENNAMEN — KURZE KARTE (Entscheidung Lukas, 2026-09-24 / 2026-10-19):
+    Geografische Namen (Stadt, Land, Bundesland/Kanton, Region, Fluss,
+    See, Gebirge, Insel, Kontinent) bekommen eine KURZE Nomen-Karte —
+    NUR: "ipa", "uebersetzung" (fa+en), "niveau", "themen", Artikel/Genus.
+    · "wortart": "nomen". Lemma so, wie der Name gebraucht wird: OHNE
+      Artikel, wenn er ohne Artikel steht («Aachen», «Österreich»), MIT
+      Artikel, wenn er immer einen hat («die Schweiz», «der Rhein»).
+    · "details" NUR nach Block «1b. NOMEN — EIGENNAME» (TEIL 2):
+      { "eigenname": true, "genus": "<der|die|das>",
+        "mit_artikel": <true|false> } — genus auch bei Namen ohne Artikel
+      (Städte/die meisten Länder: «das», das alte Aachen).
+    · "beispiele": [], "synonyme": [], "antonyme": [], "komposita": [],
+      "etymologie": null, "anmerkung": null, "wortnetz": null,
+      "berufe": [] (Regel 17 sonst wie immer).
+    · Personennamen, Marken, Firmen u. Ä. sind KEINE Eigennamen-Karten ⇒
+      unsicher ⇒ nicht bauen (Regel 14), Lukas melden.
+19. HOMOGRAPHEN (Entscheidung Lukas, 2026-10-19): gleich geschriebene
+    Wörter DERSELBEN Wortart mit eigener Bedeutung (der See ↔ die See,
+    der Leiter ↔ die Leiter, die Bank «Sitz» ↔ die Bank «Geldinstitut»,
+    das Essen ↔ Essen «Stadt») bekommen JE EINE EIGENE Karte mit eigener id:
+    · Die häufigste Bedeutung: "homograph": null ⇒ normale id
+      (nomen_see).
+    · Jede weitere Bedeutung: "homograph" = ihr Artikel, wenn das Genus
+      ANDERS ist (die See ⇒ "die" ⇒ nomen_see_die), sonst eine Ziffer
+      "2"…"9" (die Bank «Geldinstitut» ⇒ "2" ⇒ nomen_bank_2).
+    · Verweist ein Wortnetz-/ersatz-Eintrag auf eine solche weitere
+      Bedeutung, trägt er dasselbe "homograph" und die passende id_ref.
+    · Alle Bedeutungen in DERSELBEN Runde bauen; im Zweifel, ob es zwei
+      Wörter oder nur zwei Lesarten eines Wortes sind ⇒ Duden (getrennte
+      Einträge = Homographen; sonst EINE Karte mit beiden Übersetzungen).
 
 ========================================================================
 TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
@@ -125,6 +155,7 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "schema": "3.0",
   "id": "<wortart_lemma>",
   "wort": "<Lemma; bei Nomen mit Artikel, z. B. der Tisch>",
+  "homograph": <Regel 19: null | "der" | "die" | "das" | "2" … "9">,
   "wortart": "<nomen | verb | adjektiv | artikel | pronomen | numerale | praeposition | konjunktion | adverb | partikel>",
   "uebersetzung": { "fa": ["<ترجمه ۱>", "<ترجمه ۲>"], "en": ["<translation 1>", "<translation 2>"] },
   "niveau": "<A1 | A2 | B1 | B2 | C1 | C2>",
@@ -161,6 +192,13 @@ TEIL 2 — DETAILS je WORTART
   "zaehlbar": <true | false>,
   "mit_praeposition": [ { "muster": "<Nomen + Präposition + Kasus, z. B. die Angst vor + Dat — Regel 15: PFLICHT wenn vorhanden>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
   "nomen_verb_verbindungen": [ { "verbindung": "<den Tisch decken>", "beispiel": "<Satz>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ]
+}
+
+--- 1b. NOMEN — EIGENNAME (Regel 18: nur geografische Namen) ---
+{
+  "eigenname": true,
+  "genus": "<der | die | das>",
+  "mit_artikel": <true (die Schweiz) | false (Aachen)>
 }
 
 --- 2. VERB ---
@@ -283,6 +321,7 @@ PRINZIP:
       "wortart": "<nomen | verb | adjektiv | ...>",
       "niveau": "<A1–C2>",
       "uebersetzung": { "fa": "<...>", "en": "<...>" },
+      "homograph": <nur wenn auf eine weitere Bedeutung verwiesen wird (Regel 19), sonst weglassen>,
       "id_ref": "<wortart_lemma — gleiche ID-Regel wie oben, für App-Verlinkung>"
     }
   ]

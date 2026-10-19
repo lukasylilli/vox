@@ -86,7 +86,16 @@ Set<String> formenAusKarte(Map<String, dynamic> karte) {
       }
       final genus = details['genus'] as String?;
       final typ = details['deklinationstyp'] as String? ?? 'normal';
-      if ((genus == 'der' || genus == 'das') && typ == 'normal' &&
+      if (details['eigenname'] == true) {
+        // Eigenname (Regel 18): Genitiv nur «-s» (Aachens, Irans) — nie
+        // «-es»; auf s/ß/x/z endende Namen bilden ihn mit Apostroph
+        // («Graz'»), der in der Suche wegfällt ⇒ keine eigene Form.
+        final g = grund.toLowerCase();
+        if ((genus == 'der' || genus == 'das') && grund.isNotEmpty &&
+            !RegExp(r'[sßxz]$').hasMatch(g)) {
+          form('${grund}s');
+        }
+      } else if ((genus == 'der' || genus == 'das') && typ == 'normal' &&
           grund.isNotEmpty) {
         form('${grund}s');
         form('${grund}es');
