@@ -2155,6 +2155,18 @@ const zurueckgestellt = <String>{
   'Alpe', // zurückgestellt: regional (österr./schweiz.) Nebenform von «Alm» — Gebrauch nicht sicher (Regel 14) 2026-10-19
   'Alster', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph, anderer Artikel): die Alster (Fluss in Hamburg) / das Alster (Bier-Mischgetränk) — nach den Nomen 2026-10-19
   'Alte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Alte, das Alte) + mehrere Bedeutungen — nach den Nomen 2026-10-19
+  'Altertum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Epoche der Antike / Plural «Altertümer»: alte Kunstgegenstände) — nach den Nomen 2026-10-19
+  'Altlast', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: verseuchtes Gelände / übertragen: übernommenes altes Problem) — nach den Nomen 2026-10-19
+  'Altmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorsteher einer Zunft / anerkannter Meister eines Fachs / früherer Champion) — nach den Nomen 2026-10-19
+  'Amazone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kriegerin der Sage / Reiterin / Papagei) — nach den Nomen 2026-10-19
+  'Ambulanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klinik-Abteilung für ambulante Behandlung / Krankenwagen) — nach den Nomen 2026-10-19
+  'Amerika', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Doppelkontinent / umgangssprachlich die USA) — nach den Nomen 2026-10-19
+  'Amerikaner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner der USA bzw. Amerikas / Gebäck mit Zuckerguss) — nach den Nomen 2026-10-19
+  'Ampel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verkehrsampel / Hängelampe, Blumenampel / Ampelkoalition) — nach den Nomen 2026-10-19
+  'Amt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Posten, Funktion / Behörde / Aufgabe; «Amt» der Telefonvermittlung) — nach den Nomen 2026-10-19
+  'Amtssprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offizielle Landessprache / bürokratischer Stil) — nach den Nomen 2026-10-19
+  'Amen', // zurückgestellt: eher Interjektion/Gebetsformel, als Nomen («das Amen», «sein Amen geben») selten — nicht sicher (Regel 14) 2026-10-19
+  'Ammann', // zurückgestellt: regional (schweiz.) Amtstitel — Gebrauch nicht sicher (Regel 14/17) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
