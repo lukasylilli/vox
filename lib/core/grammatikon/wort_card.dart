@@ -171,7 +171,20 @@ class WortZeile extends StatelessWidget {
                 const TextStyle(fontWeight: FontWeight.w700),
           ),
         ),
+        // Homograph-Nummer (Regel 19) hochgestellt wie im Duden: See¹, See².
+        if (homographHoch(card['homograph_nr']) case final hoch?)
+          Text(
+            hoch,
+            style: style?.copyWith(fontWeight: FontWeight.w700) ??
+                const TextStyle(fontWeight: FontWeight.w700),
+          ),
       ],
     );
   }
+}
+
+/// Homograph-Nummer → hochgestellte Ziffer (1 → «¹»). Keine Familie ⇒ null.
+String? homographHoch(Object? nr) {
+  if (nr is! int || nr < 1 || nr > 9) return null;
+  return const ['¹', '²', '³', '⁴', '⁵', '⁶', '⁷', '⁸', '⁹'][nr - 1];
 }

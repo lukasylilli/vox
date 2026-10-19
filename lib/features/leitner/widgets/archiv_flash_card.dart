@@ -18,6 +18,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../vokabular/widgets/homograph_hinweis.dart';
 import 'wende_karte.dart';
 
 class ArchivFlashCard extends StatelessWidget {
@@ -129,6 +130,8 @@ class _Hinten extends StatelessWidget {
             style: theme.textTheme.headlineSmall
                 ?.copyWith(fontWeight: FontWeight.w700),
           ),
+          // Homographen (Regel 19): «Achtung, es gibt auch die See = دریا».
+          if (id.isNotEmpty) HomographHinweis(id: id, kompakt: true),
           const SizedBox(height: AppSizes.lg),
           if (id.isNotEmpty)
             VoxButton.text(

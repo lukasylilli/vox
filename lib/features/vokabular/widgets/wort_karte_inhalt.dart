@@ -5,7 +5,8 @@
 //            · wort_seite_screen.dart  (Karte ohne altes App-Wort)
 //            · word_detail_screen.dart (altes App-Wort: seine Seite wird um die
 //              Karte ERWEITERT, nichts davon gelöscht — Regel L.4b, Lukas)
-//          [WortKarteKopf]       Symbol + Wort + IPA + Niveau → Übersetzung → Hinweis
+//          [WortKarteKopf]       Symbol + Wort(+Homograph-Nr.) + IPA + Niveau → Übersetzung
+//                                → andere Karten gleicher Schreibung (Regel 19) → Hinweis
 //          [WortKarteAbschnitte] Einordnung (F.6) → Beispiele → Kasus im Beispiel → Details je
 //                                Wortart → Synonyme/Gegenteil/Komposita →
 //                                Wortbildung → Wortnetz (klickbar) → Meine Notiz
@@ -23,6 +24,7 @@ import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/deutsch_text.dart';
 import '../controllers/vokabular_controller.dart';
 import 'details_renderer.dart';
+import 'homograph_hinweis.dart';
 import 'kasus_beispiel_block.dart';
 import 'wort_einordnung.dart';
 import 'wort_notiz.dart';
@@ -75,6 +77,17 @@ class WortKarteKopf extends StatelessWidget {
                             style: TextStyle(color: farbe),
                           ),
                         TextSpan(text: lemma),
+                        // Homograph-Nummer (Regel 19): See¹ / See².
+                        WidgetSpan(
+                          alignment: PlaceholderAlignment.baseline,
+                          baseline: TextBaseline.alphabetic,
+                          child: HomographNummer(
+                            id: card['id'] as String? ?? '',
+                            style: theme.textTheme.headlineSmall?.copyWith(
+                              fontWeight: FontWeight.w800,
+                            ),
+                          ),
+                        ),
                       ],
                     ),
                     style: theme.textTheme.headlineSmall?.copyWith(
@@ -100,6 +113,8 @@ class WortKarteKopf extends StatelessWidget {
           const SizedBox(height: 10),
           Text(ueb, style: theme.textTheme.titleMedium),
         ],
+        // Homographen (Regel 19): die anderen Karten gleicher Schreibung.
+        HomographHinweis(id: card['id'] as String? ?? ''),
         if (anmerkung != null && anmerkung.isNotEmpty) ...[
           const SizedBox(height: 6),
           // anmerkung ist laut Wort-Prompt immer Deutsch ⇒ DeutschText

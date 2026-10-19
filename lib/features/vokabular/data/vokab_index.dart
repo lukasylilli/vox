@@ -21,11 +21,11 @@
 // Leitner-Stand und keine Listen — die liegen in drift (فاز S).
 import 'dart:convert';
 
-import 'vokab_schema.dart' show vokabWortarten;
+import 'vokab_schema.dart' show vokabId, vokabWortarten;
 
 /// Erhöhen, sobald sich die Form des Index ändert. Die App liest nur genau
 /// diese Fassung — Index und App entstehen im selben Bau, passen also immer.
-const int vokabIndexVersion = 2; // 2: Einordnung (F.5)
+const int vokabIndexVersion = 3; // 2: Einordnung (F.5) · 3: homograph_nr (L.4)
 
 /// Asset-Pfad des Index (in pubspec.yaml eingetragen, in .gitignore ausgenommen).
 const String vokabIndexPfad = 'assets/vocab_index.json';
@@ -141,6 +141,15 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
   }
   if (fehler.isNotEmpty) throw VokabIndexFehler(fehler);
 
+  // Homographen (Prompt-Regel 19, Lukas 2026-10-19): Karten derselben Familie
+  // tragen ihre Nummer (1 = Hauptbedeutung) — die Liste zeigt sie wie der
+  // Duden hochgestellt (See¹ / See²), ohne die volle Karte zu laden.
+  for (final ids in vokabHomographFamilien(eintraege).values) {
+    for (var i = 0; i < ids.length; i++) {
+      eintraege.firstWhere((e) => e['id'] == ids[i])['homograph_nr'] = i + 1;
+    }
+  }
+
   // Feste Reihenfolge: nach Wort (klein), bei Gleichstand nach id — derselbe
   // Bestand ergibt immer denselben Text.
   eintraege.sort((a, b) {
@@ -154,6 +163,35 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
     'anzahl': eintraege.length,
     'karten': eintraege,
   });
+}
+
+/// Grund-id einer Karte OHNE Homograph-Kennung: `nomen_see` für «der See»
+/// UND «die See». Gleiche Grund-id ⇒ dieselbe Familie (Regel 19).
+String vokabGrundId(Map<String, dynamic> karte) =>
+    vokabId(karte['wortart'] as String? ?? '', karte['wort'] as String? ?? '');
+
+/// Homograph-Familien (Prompt-Regel 19): Grund-id → ids aller Karten mit
+/// dieser Grund-id, NUR wenn es mehr als eine gibt. Reihenfolge = Nummer:
+/// zuerst die Hauptbedeutung (id ohne Kennung), dann die übrigen nach id —
+/// derselbe Bestand ergibt immer dieselben Nummern.
+/// Das Erkennen geschieht nur im Code; die Karten tragen dafür nichts.
+Map<String, List<String>> vokabHomographFamilien(
+    Iterable<Map<String, dynamic>> karten) {
+  final nachGrund = <String, List<String>>{};
+  for (final k in karten) {
+    final id = k['id'] as String?;
+    if (id == null || id.isEmpty) continue;
+    (nachGrund[vokabGrundId(k)] ??= []).add(id);
+  }
+  nachGrund.removeWhere((_, ids) => ids.length < 2);
+  for (final e in nachGrund.entries) {
+    e.value.sort((a, b) {
+      if (a == e.key) return -1;
+      if (b == e.key) return 1;
+      return a.compareTo(b);
+    });
+  }
+  return nachGrund;
 }
 
 /// Index-Text → Einträge (für die App). Wirft [FormatException], wenn der

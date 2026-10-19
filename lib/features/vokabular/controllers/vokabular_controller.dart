@@ -42,6 +42,23 @@ final vokabIndexByIdProvider =
   return {for (final e in eintraege) (e['id'] as String? ?? ''): e};
 });
 
+/// Homographen (Prompt-Regel 19, Lukas 2026-10-19): id → die ANDEREN Karten
+/// derselben Familie (der See ↔ die See, die Bank ↔ die Bank²), in der
+/// Reihenfolge ihrer Nummer. Fehlt die id ⇒ keine Familie ⇒ leer.
+final vokabHomographeProvider =
+    FutureProvider<Map<String, List<Map<String, dynamic>>>>((ref) async {
+  final nachId = await ref.watch(vokabIndexByIdProvider.future);
+  final familien = vokabHomographFamilien(nachId.values);
+  return {
+    for (final ids in familien.values)
+      for (final id in ids)
+        id: [
+          for (final andere in ids)
+            if (andere != id && nachId[andere] != null) nachId[andere]!,
+        ],
+  };
+});
+
 /// Welche Stücke der Formen-Tabelle es gibt (L.5f-Nachtrag 2026-09-23).
 final vokabFormenStueckeProvider = FutureProvider<Set<String>>((ref) async {
   final text = await rootBundle.loadString(vokabFormenStueckeDatei);
