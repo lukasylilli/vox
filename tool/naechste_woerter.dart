@@ -2167,6 +2167,44 @@ const zurueckgestellt = <String>{
   'Amtssprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offizielle Landessprache / bürokratischer Stil) — nach den Nomen 2026-10-19
   'Amen', // zurückgestellt: eher Interjektion/Gebetsformel, als Nomen («das Amen», «sein Amen geben») selten — nicht sicher (Regel 14) 2026-10-19
   'Ammann', // zurückgestellt: regional (schweiz.) Amtstitel — Gebrauch nicht sicher (Regel 14/17) 2026-10-19
+  'Anachronismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falsche zeitliche Einordnung / überholte Einrichtung) — nach den Nomen 2026-10-19
+  'Analphabet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer nicht lesen und schreiben kann / abwertend: Unwissender) — nach den Nomen 2026-10-19
+  'Analytiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: analytisch denkender Mensch / Psychoanalytiker) — nach den Nomen 2026-10-19
+  'Anarchie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesetzlosigkeit, Chaos / herrschaftsfreie Gesellschaftsordnung) — nach den Nomen 2026-10-19
+  'Anatomie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft vom Körperbau / Körperbau / anatomisches Institut) — nach den Nomen 2026-10-19
+  'Anbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anbau von Pflanzen / angebauter Gebäudeteil) — nach den Nomen 2026-10-19
+  'Andacht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: innere Sammlung / kurzer Gottesdienst) — nach den Nomen 2026-10-19
+  'Andenken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erinnerung («im Andenken an») / Souvenir) — nach den Nomen 2026-10-19
+  'Andeutung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anspielung, Hinweis / schwaches Anzeichen) — nach den Nomen 2026-10-19
+  'Aneignung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erwerb von Wissen / widerrechtliche Inbesitznahme) — nach den Nomen 2026-10-19
+  'Anerkennung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lob, Würdigung / offizielle Bestätigung, z. B. eines Abschlusses) — nach den Nomen 2026-10-19
+  'Anfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrt zum Ziel / Zufahrtsweg) — nach den Nomen 2026-10-19
+  'Anfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankheitsanfall / Anwandlung (Wutanfall) / Anfallen von Kosten, Müll) — nach den Nomen 2026-10-19
+  'Anfangszeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erste Zeit, Anfangsperiode / Uhrzeit des Beginns) — nach den Nomen 2026-10-19
+  'Anfechtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: rechtliches Anfechten / gehoben: Versuchung) — nach den Nomen 2026-10-19
+  'Anflug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Landeanflug / Hauch, Spur («ein Anflug von Ironie»)) — nach den Nomen 2026-10-19
+  'Anforderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anspruch, Voraussetzung / Bestellung, Anfordern) — nach den Nomen 2026-10-19
+  'Angabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auskunft, Information / umgangssprachlich: Prahlerei / Tennis: Aufschlag (österr.)) — nach den Nomen 2026-10-19
+  'Angeklagte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Angeklagte) — nach den Nomen 2026-10-19
+  'Angel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angelrute / Türangel) — nach den Nomen 2026-10-19
+  'Angestellte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Angestellte) — nach den Nomen 2026-10-19
+  'Angriff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Attacke / Sport: Sturm, Offensive) — nach den Nomen 2026-10-19
+  'Anhang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhang eines Textes, E-Mail-Anhang / Familie, Anhängerschaft) — nach den Nomen 2026-10-19
+  'Animation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trickfilm, Computeranimation / Freizeitprogramm im Hotel) — nach den Nomen 2026-10-19
+  'Anklage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beschuldigung vor Gericht / Anklagevertretung) — nach den Nomen 2026-10-19
+  'Anklang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zustimmung («Anklang finden») / Ähnlichkeit («Anklang an»)) — nach den Nomen 2026-10-19
+  'Anlage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grünanlage / technische Anlage / Geldanlage / Beilage zum Brief / Veranlagung) — nach den Nomen 2026-10-19
+  'Anlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grund, Ursache / Gelegenheit, Ereignis) — nach den Nomen 2026-10-19
+  'Anlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anlauf beim Sprung / Versuch / Anlaufen einer Maschine) — nach den Nomen 2026-10-19
+  'Anleger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Investor / Bootsanlegestelle) — nach den Nomen 2026-10-19
+  'Anleihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wertpapier (Schuldverschreibung) / Entlehnung, Übernahme von Ideen) — nach den Nomen 2026-10-19
+  'Anmeldung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Registrierung / Empfang, Rezeption («zur Anmeldung gehen»)) — nach den Nomen 2026-10-19
+  'Annahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Akzeptieren / Vermutung / Annahmestelle) — nach den Nomen 2026-10-19
+  'Anordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anordnung, Reihenfolge / Befehl, Weisung) — nach den Nomen 2026-10-19
+  'Anpfiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielbeginn durch Pfiff / umgangssprachlich: Rüge) — nach den Nomen 2026-10-19
+  'Ana', // zurückgestellt: Bedeutung unklar (Abkürzung/Eigenname?) — nicht sicher (Regel 14) 2026-10-19
+  'Anger', // zurückgestellt: regional/veraltend (Dorfwiese) — Gebrauch und Markierung nicht sicher (Regel 14/17) 2026-10-19
+  'Anleihen', // zurückgestellt: Pluralform von «Anleihe», kein eigenes Nomen (Listenfehler, Genus «das») — nicht bauen (Regel 14) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
