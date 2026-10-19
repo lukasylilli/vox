@@ -6,7 +6,9 @@
 //          Alles null-sicher: fehlende Felder → Baustein rendert nichts.
 import 'package:flutter/material.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/utils/formatters.dart';
 import '../../../core/widgets/klick_wort_text.dart';
+import '../data/vokab_schema.dart' show vokabBedeutungen;
 
 /// {fa:…, en:…} (String oder List) → Text der AKTIVEN Sprache (EN-Fallback→FA).
 String? vokabUeb(BuildContext context, dynamic u) {
@@ -18,6 +20,27 @@ String? vokabUeb(BuildContext context, dynamic u) {
       ? join(u['fa'], '، ')
       : (join(u['en'], ', ') ?? join(u['fa'], '، '));
 }
+
+/// Bedeutungen (Prompt-Regel 20) in der AKTIVEN Sprache — je Bedeutung ein
+/// Text («گلابی»، «لامپ»). null, wenn die Karte nur eine Bedeutung hat.
+/// Geht mit voller Karte UND Index-Eintrag.
+List<String>? vokabBedeutungenTexte(
+    BuildContext context, Map<String, dynamic> card) {
+  final b = vokabBedeutungen(card);
+  if (b == null) return null;
+  final fa = AppL10n.isFa(context);
+  return [for (final g in b) g[fa ? 'fa' : 'en']!.join(fa ? '، ' : ', ')];
+}
+
+/// Nummer in der Schrift der aktiven Sprache (۱ / 1).
+String vokabNr(BuildContext context, int n) =>
+    AppL10n.isFa(context) ? Formatters.faDigits(n) : '$n';
+
+/// «۱. گلابی  ۲. لامپ» — Bedeutungen nummeriert in EINER Zeile (Liste).
+String vokabBedeutungenZeile(BuildContext context, List<String> texte) => [
+      for (var i = 0; i < texte.length; i++)
+        '${vokabNr(context, i + 1)}. ${texte[i]}',
+    ].join('   ');
 
 class Sektion extends StatelessWidget {
   final String titel;

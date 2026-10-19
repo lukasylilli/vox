@@ -44,6 +44,7 @@ class WortKarteKopf extends StatelessWidget {
     final ipa = card['ipa'] as String?;
     final anmerkung = card['anmerkung'] as String?;
     final ueb = vokabUeb(context, card['uebersetzung']);
+    final bedeutungen = vokabBedeutungenTexte(context, card);
 
     // Artikel in Genusfarbe — gleiche Quelle wie das Symbol (Puzzling).
     final descriptorColor = GrammatikonResolver.resolve(card).color;
@@ -109,7 +110,27 @@ class WortKarteKopf extends StatelessWidget {
             if (niveau != null) VoxBadge.level(niveau),
           ],
         ),
-        if (ueb != null && ueb.isNotEmpty) ...[
+        // Mehrere Bedeutungen (Regel 20): nummeriert, eine je Zeile, mit
+        // Hinweis «۲ معنی» — sonst wie bisher die Übersetzung in einer Zeile.
+        if (bedeutungen != null) ...[
+          const SizedBox(height: 10),
+          Text(
+            AppL10n.tf(context, 'bedeutungen_anzahl',
+                {'n': vokabNr(context, bedeutungen.length)}),
+            style: theme.textTheme.labelMedium?.copyWith(
+              color: theme.colorScheme.primary,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          for (var i = 0; i < bedeutungen.length; i++)
+            Padding(
+              padding: const EdgeInsets.only(top: 4),
+              child: Text(
+                '${vokabNr(context, i + 1)}. ${bedeutungen[i]}',
+                style: theme.textTheme.titleMedium,
+              ),
+            ),
+        ] else if (ueb != null && ueb.isNotEmpty) ...[
           const SizedBox(height: 10),
           Text(ueb, style: theme.textTheme.titleMedium),
         ],
@@ -195,7 +216,12 @@ class WortKarteAbschnitte extends StatelessWidget {
       children: [
         for (final b in beispiele)
           BeispielBlock(
-            badge: b['niveau'] as String?,
+            // Regel 20: zu welcher Bedeutung der Satz gehört («A2 · معنی ۲»).
+            badge: [
+              if (b['niveau'] case final String niveau) niveau,
+              if (b['bedeutung'] case final int nr)
+                AppL10n.tf(context, 'bedeutung_nr', {'n': vokabNr(context, nr)}),
+            ].join(' · '),
             satz: b['satz'] as String? ?? '',
             uebersetzung: vokabUeb(context, b['uebersetzung']),
           ),

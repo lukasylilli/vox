@@ -15,6 +15,8 @@ import 'grammatikon_painter.dart';
 import 'grammatikon_resolver.dart';
 import 'grammatikon_spec.dart';
 import 'wort_text.dart';
+import '../../features/vokabular/widgets/wortseite_bausteine.dart'
+    show vokabBedeutungenTexte, vokabBedeutungenZeile;
 
 class WortCard extends StatelessWidget {
   /// Wort-Karte im SUPER-PROMPT Schema 2.0
@@ -35,6 +37,9 @@ class WortCard extends StatelessWidget {
 
   /// FA- oder EN-Übersetzungen — Sprache nur aus Settings, nie beide.
   String _uebersetzung(BuildContext context) {
+    // Mehrere Bedeutungen (Regel 20): nummeriert («۱. گلابی   ۲. لامپ»).
+    final bedeutungen = vokabBedeutungenTexte(context, card);
+    if (bedeutungen != null) return vokabBedeutungenZeile(context, bedeutungen);
     final u = (card['uebersetzung'] as Map?)?.cast<String, dynamic>() ?? const {};
     final list = (u[AppL10n.isFa(context) ? 'fa' : 'en'] as List?) ?? const [];
     return list.cast<String>().join(AppL10n.isFa(context) ? '، ' : ', ');

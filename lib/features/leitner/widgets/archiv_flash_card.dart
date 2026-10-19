@@ -19,6 +19,8 @@ import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../vokabular/widgets/homograph_hinweis.dart';
+import '../../vokabular/widgets/wortseite_bausteine.dart'
+    show vokabBedeutungenTexte, vokabNr;
 import 'wende_karte.dart';
 
 class ArchivFlashCard extends StatelessWidget {
@@ -107,6 +109,7 @@ class _Hinten extends StatelessWidget {
         const {};
     final liste =
         ((u[fa ? 'fa' : 'en'] as List?) ?? const []).cast<String>();
+    final bedeutungen = vokabBedeutungenTexte(context, karte);
 
     return Container(
       width: double.infinity,
@@ -124,12 +127,31 @@ class _Hinten extends StatelessWidget {
           WortZeile(
               card: karte, zentriert: true, style: theme.textTheme.titleLarge),
           const SizedBox(height: AppSizes.lg),
+          // Mehrere Bedeutungen (Regel 20, Lukas 2026-10-19): die ERSTE
+          // groß — sie reicht für «richtig»; die übrigen klein darunter.
           Text(
-            liste.join(fa ? '، ' : ', '),
+            bedeutungen != null
+                ? '${vokabNr(context, 1)}. ${bedeutungen.first}'
+                : liste.join(fa ? '، ' : ', '),
             textAlign: TextAlign.center,
             style: theme.textTheme.headlineSmall
                 ?.copyWith(fontWeight: FontWeight.w700),
           ),
+          if (bedeutungen != null) ...[
+            const SizedBox(height: AppSizes.sm),
+            Text(
+              AppL10n.t(context, 'leitner_erste_bedeutung'),
+              textAlign: TextAlign.center,
+              style: theme.textTheme.bodySmall
+                  ?.copyWith(color: scheme.onSurfaceVariant),
+            ),
+            for (var i = 1; i < bedeutungen.length; i++)
+              Text(
+                '${vokabNr(context, i + 1)}. ${bedeutungen[i]}',
+                textAlign: TextAlign.center,
+                style: theme.textTheme.titleSmall,
+              ),
+          ],
           // Homographen (Regel 19): «Achtung, es gibt auch die See = دریا».
           if (id.isNotEmpty) HomographHinweis(id: id, kompakt: true),
           const SizedBox(height: AppSizes.lg),

@@ -103,6 +103,38 @@ bool vokabIstEigenname(Map<String, dynamic> karte) {
   return karte['wortart'] == 'nomen' && d is Map && d['eigenname'] == true;
 }
 
+/// Bedeutungen (Prompt-Regel 20, Lukas 2026-10-19): Hat EIN Wort mehrere
+/// deutlich verschiedene Bedeutungen (die Birne = Obst / Glühbirne), steht in
+/// `bedeutungen` je Bedeutung eine Gruppe {fa: [...], en: [...]} — die App
+/// nummeriert sie («۱. گلابی ۲. لامپ»). `uebersetzung` bleibt die flache
+/// Liste aller Wörter (Suche, ältere Teile der App) und wird aus den Gruppen
+/// abgeleitet. Nur EINE Bedeutung ⇒ `bedeutungen: null`.
+/// Gibt die Gruppen zurück, wenn es mindestens zwei gültige gibt, sonst null.
+List<Map<String, List<String>>>? vokabBedeutungen(Map<String, dynamic> karte) {
+  final b = karte['bedeutungen'];
+  if (b is! List || b.length < 2) return null;
+  final gruppen = <Map<String, List<String>>>[];
+  for (final e in b) {
+    final g = _bedeutungsGruppe(e);
+    if (g == null) return null;
+    gruppen.add(g);
+  }
+  return gruppen;
+}
+
+Map<String, List<String>>? _bedeutungsGruppe(Object? e) {
+  if (e is! Map) return null;
+  List<String>? liste(Object? v) {
+    if (v is! List || v.isEmpty) return null;
+    if (v.any((x) => x is! String || x.trim().isEmpty)) return null;
+    return v.cast<String>().toList();
+  }
+
+  final fa = liste(e['fa']);
+  final en = liste(e['en']);
+  return (fa == null || en == null) ? null : {'fa': fa, 'en': en};
+}
+
 /// Pflichtfelder in details einer Eigenname-Karte (statt der Nomen-Liste).
 const _eigennamePflicht = {'eigenname', 'genus', 'mit_artikel'};
 
@@ -191,6 +223,14 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
       fehler.add('[$label] Eigenname ohne gültiges genus (der/die/das)');
     }
   }
+  // Regel 20: kaputte Bedeutungsgruppen ⇒ falsche Nummern ⇒ fatal.
+  final bedeutungenRoh = karte['bedeutungen'];
+  if (bedeutungenRoh != null &&
+      (bedeutungenRoh is! List ||
+          bedeutungenRoh.any((e) => _bedeutungsGruppe(e) == null))) {
+    fehler.add('[$label] "bedeutungen" ungültig — null oder Liste von '
+        '{fa: [...], en: [...]} (je nicht leer)');
+  }
   if (fehler.isNotEmpty) return VokabPruefung(null, fehler, warnungen);
   wortart as String;
   wort as String;
@@ -215,6 +255,29 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
   if (karte['nextReviewDate'] != null) {
     warnungen.add('[$label] nextReviewDate → null gesetzt');
     karte['nextReviewDate'] = null;
+  }
+
+  // Bedeutungen (Regel 20): eine Gruppe allein ist keine Nummerierung wert;
+  // uebersetzung = alle Gruppen hintereinander (eine Quelle, kein Widerspruch).
+  if (bedeutungenRoh is List && bedeutungenRoh.length < 2) {
+    warnungen.add('[$label] bedeutungen mit nur ${bedeutungenRoh.length} '
+        'Gruppe → null gesetzt');
+    karte['bedeutungen'] = null;
+  }
+  final bedeutungen = vokabBedeutungen(karte);
+  if (bedeutungen != null) {
+    final flach = {
+      for (final sprache in const ['fa', 'en'])
+        sprache: [for (final g in bedeutungen) ...g[sprache]!],
+    };
+    final ueb = karte['uebersetzung'] as Map;
+    for (final sprache in const ['fa', 'en']) {
+      if (!_gleich(flach[sprache]!, (ueb[sprache] as List).cast<Object?>())) {
+        warnungen.add('[$label] uebersetzung.$sprache ≠ bedeutungen → '
+            'aus den Bedeutungen gesetzt');
+        ueb[sprache] = flach[sprache];
+      }
+    }
   }
 
   // Beispiele (Regel 9): der Prompt erzeugt genau 2; weitere Beispiele, die
@@ -245,6 +308,32 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
       }
     }
     return false;
+  }
+
+  // Regel 20: jedes Beispiel nennt seine Bedeutung (1 … n); jede Bedeutung
+  // braucht mindestens ein Beispiel. Ohne Bedeutungen kein «bedeutung».
+  final belegt = <int>{};
+  for (final b in beispiele) {
+    final m = b as Map;
+    if (!m.containsKey('bedeutung')) continue;
+    final nr = m['bedeutung'];
+    if (bedeutungen == null) {
+      warnungen.add('[$label] Beispiel mit «bedeutung», aber keine '
+          'bedeutungen → entfernt');
+      m.remove('bedeutung');
+    } else if (nr is! int || nr < 1 || nr > bedeutungen.length) {
+      warnungen.add('[$label] Beispiel: bedeutung $nr ungültig → entfernt');
+      m.remove('bedeutung');
+    } else {
+      belegt.add(nr);
+    }
+  }
+  if (bedeutungen != null) {
+    for (var i = 1; i <= bedeutungen.length; i++) {
+      if (!belegt.contains(i)) {
+        warnungen.add('[$label] Bedeutung $i ohne Beispiel (Regel 20)');
+      }
+    }
   }
 
   for (final b in beispiele) {

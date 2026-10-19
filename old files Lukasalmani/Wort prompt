@@ -146,7 +146,21 @@ TEIL 0 — GLOBALE REGELN
       Bedeutung, trägt er dasselbe "homograph" und die passende id_ref.
     · Alle Bedeutungen in DERSELBEN Runde bauen; im Zweifel, ob es zwei
       Wörter oder nur zwei Lesarten eines Wortes sind ⇒ Duden (getrennte
-      Einträge = Homographen; sonst EINE Karte mit beiden Übersetzungen).
+      Einträge = Homographen; sonst EINE Karte mit «bedeutungen», Regel 20).
+20. MEHRERE BEDEUTUNGEN IN EINER KARTE (Entscheidung Lukas, 2026-10-19):
+    Hat EIN Wort (ein Duden-Eintrag, gleiche Grammatik) zwei oder mehr
+    DEUTLICH verschiedene Bedeutungen (die Birne = Obst / Glühbirne;
+    tippen = auf der Tastatur schreiben / leicht berühren / wetten), dann:
+    · "bedeutungen": je Bedeutung EINE Gruppe { "fa": [...], "en": [...] },
+      häufigste Bedeutung zuerst (höchstens 4).
+    · "uebersetzung" = alle Gruppen hintereinander, in derselben
+      Reihenfolge (fa und en getrennt) — die App prüft das.
+    · Jedes Beispiel trägt "bedeutung": <Nummer 1 …>; JEDE Bedeutung hat
+      mindestens ein Beispiel (bei 3 Bedeutungen also 3 Beispiele; das
+      1. bleibt A1/A2, das 2. B1/B2, weitere frei).
+    · Nur eine Bedeutung (auch mit mehreren Übersetzungswörtern wie
+      «گلابی، امرود») ⇒ "bedeutungen": null und kein "bedeutung" in den
+      Beispielen. Nuancen derselben Bedeutung sind KEINE eigene Gruppe.
 
 ========================================================================
 TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
@@ -158,6 +172,7 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "homograph": <Regel 19: null | "der" | "die" | "das" | "2" … "9">,
   "wortart": "<nomen | verb | adjektiv | artikel | pronomen | numerale | praeposition | konjunktion | adverb | partikel>",
   "uebersetzung": { "fa": ["<ترجمه ۱>", "<ترجمه ۲>"], "en": ["<translation 1>", "<translation 2>"] },
+  "bedeutungen": <Regel 20: null | [ { "fa": [...], "en": [...] }, … ] (≥ 2 Gruppen)>,
   "niveau": "<A1 | A2 | B1 | B2 | C1 | C2>",
   "themen": ["<Thema, z. B. Alltag, Arbeit, Gefühle>"],
   "ipa": "<IPA-Transkription>",
@@ -169,6 +184,7 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "beispiele": [
     { "niveau": "<A1|A2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } },
     { "niveau": "<B1|B2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } }
+    // Regel 20: bei "bedeutungen" ≠ null trägt JEDES Beispiel zusätzlich "bedeutung": <1 …>
   ],
   "synonyme": [ { "wort": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
   "antonyme": [ { "wort": "<Gegenteil-Wort — ohne Beispiel/Erklärung>", "uebersetzung": { "fa": "<معنی>", "en": "<meaning>" } } ],

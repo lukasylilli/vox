@@ -21,11 +21,11 @@
 // Leitner-Stand und keine Listen — die liegen in drift (فاز S).
 import 'dart:convert';
 
-import 'vokab_schema.dart' show vokabId, vokabWortarten;
+import 'vokab_schema.dart' show vokabBedeutungen, vokabId, vokabWortarten;
 
 /// Erhöhen, sobald sich die Form des Index ändert. Die App liest nur genau
 /// diese Fassung — Index und App entstehen im selben Bau, passen also immer.
-const int vokabIndexVersion = 3; // 2: Einordnung (F.5) · 3: homograph_nr (L.4)
+const int vokabIndexVersion = 4; // 2: Einordnung (F.5) · 3: homograph_nr · 4: bedeutungen (L.4)
 
 /// Asset-Pfad des Index (in pubspec.yaml eingetragen, in .gitignore ausgenommen).
 const String vokabIndexPfad = 'assets/vocab_index.json';
@@ -77,6 +77,9 @@ Map<String, dynamic> vokabIndexEintrag(Map<String, dynamic> karte) {
       for (final feld in vokabIndexDetailFelder)
         if (details[feld] != null) feld: details[feld],
     },
+    // Bedeutungen (Regel 20): Liste und Lernkarte nummerieren sie, ohne die
+    // volle Karte zu laden. Nur wenn es mindestens zwei gibt.
+    'bedeutungen': ?vokabBedeutungen(karte),
     // Einordnung (فاز F.5) — für die Filter Berufe/Respektlos/Veraltet;
     // nur wenn gesetzt, damit der Index klein bleibt. «anstoessig» nur mit
     // der Stufe (die Erklärung zeigt die Wort-Seite aus der vollen Karte).
