@@ -2103,6 +2103,11 @@ const zurueckgestellt = <String>{
   'Absprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absprung beim Springen / Ausstieg («den Absprung schaffen»)) — nach den Nomen 2026-10-19
   'Abstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Entfernung / «Abstand nehmen» (verzichten) / Ablösesumme) — nach den Nomen 2026-10-19
   'Abstellgleis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gleis / übertragen «aufs Abstellgleis» (kaltgestellt)) — nach den Nomen 2026-10-19
+  'Abstieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weg nach unten / Abstieg in eine tiefere Liga / sozialer Niedergang) — nach den Nomen 2026-10-19
+  'Abstimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahl/Votum / Koordination («Abstimmung mit Kollegen»)) — nach den Nomen 2026-10-19
+  'Abstract', // zurückgestellt: Genus unsicher (der oder das Abstract) — nicht sicher (Regel 14) 2026-10-19
+  'Abstrich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinischer Abstrich / Kürzung («Abstriche machen») / Schreibstrich) — nach den Nomen 2026-10-19
+  'Abstufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gradation (Farbabstufung) / Herabstufung) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
