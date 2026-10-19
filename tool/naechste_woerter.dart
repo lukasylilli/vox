@@ -2205,6 +2205,43 @@ const zurueckgestellt = <String>{
   'Ana', // zurückgestellt: Bedeutung unklar (Abkürzung/Eigenname?) — nicht sicher (Regel 14) 2026-10-19
   'Anger', // zurückgestellt: regional/veraltend (Dorfwiese) — Gebrauch und Markierung nicht sicher (Regel 14/17) 2026-10-19
   'Anleihen', // zurückgestellt: Pluralform von «Anleihe», kein eigenes Nomen (Listenfehler, Genus «das») — nicht bauen (Regel 14) 2026-10-19
+  'Anregung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorschlag, Idee / Stimulierung (Kreislauf, Appetit)) — nach den Nomen 2026-10-19
+  'Anrufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anrufung Gottes / Anrufung eines Gerichts) — nach den Nomen 2026-10-19
+  'Ansage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchsage / Kartenspiel: Ansage / Diktat) — nach den Nomen 2026-10-19
+  'Ansammlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhäufung von Dingen / Menschenmenge) — nach den Nomen 2026-10-19
+  'Ansatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herangehensweise / Anfang, erstes Anzeichen / Haaransatz / Rechenansatz) — nach den Nomen 2026-10-19
+  'Anschauung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meinung, Auffassung / Wahrnehmung, Anschauungsmaterial) — nach den Nomen 2026-10-19
+  'Anschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Attentat / Aushang / Tastenanschlag / Anschlag einer Tür) — nach den Nomen 2026-10-19
+  'Anschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuganschluss / Strom-, Telefonanschluss / Kontakt / historisch: «Anschluss» Österreichs) — nach den Nomen 2026-10-19
+  'Ansehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruf, Prestige / das Ansehen (Betrachten)) — nach den Nomen 2026-10-19
+  'Ansicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meinung / Abbildung, Blick auf etwas / «zur Ansicht») — nach den Nomen 2026-10-19
+  'Ansiedlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Ansiedeln (Firmen, Menschen) / Siedlung) — nach den Nomen 2026-10-19
+  'Anspannung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stress, Belastung / Anspannen von Muskeln oder Zugtieren) — nach den Nomen 2026-10-19
+  'Ansprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kurze Rede / Kontakt, Gesprächspartner (österr.)) — nach den Nomen 2026-10-19
+  'Anspruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht, Forderung / Erwartung, Niveau («hohe Ansprüche»)) — nach den Nomen 2026-10-19
+  'Anstalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einrichtung, Institut / «Anstalten machen» (Vorbereitungen)) — nach den Nomen 2026-10-19
+  'Anstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gutes Benehmen / Jagd: Ansitz) — nach den Nomen 2026-10-19
+  'Anstieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zunahme / ansteigender Weg) — nach den Nomen 2026-10-19
+  'Anstrich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Farbschicht / Anschein («einen seriösen Anstrich»)) — nach den Nomen 2026-10-19
+  'Ansturm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angriff / Andrang) — nach den Nomen 2026-10-19
+  'Anteil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teil, Quote / «Anteil nehmen» (Mitgefühl, Interesse)) — nach den Nomen 2026-10-19
+  'Anteilnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitgefühl, Beileid / Beteiligung, Interesse) — nach den Nomen 2026-10-19
+  'Antenne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfangsgerät / Fühler bei Insekten / umgangssprachlich: Gespür) — nach den Nomen 2026-10-19
+  'Antrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schriftlicher Antrag / Heiratsantrag / Antrag im Parlament) — nach den Nomen 2026-10-19
+  'Antrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technischer Antrieb / Motivation, Lust) — nach den Nomen 2026-10-19
+  'Antritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn (Reise, Amt) / Sport: Antritt, Sprint) — nach den Nomen 2026-10-19
+  'Anwalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsanwalt / Fürsprecher («Anwalt der Schwachen»)) — nach den Nomen 2026-10-19
+  'Anweisung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befehl, Instruktion / Geldanweisung) — nach den Nomen 2026-10-19
+  'Anwendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebrauch / Software, App / Behandlung (Kur)) — nach den Nomen 2026-10-19
+  'Anwurf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beschuldigung (gehoben) / Handball: Anwurf) — nach den Nomen 2026-10-19
+  'Anzeige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Inserat / Strafanzeige / Display) — nach den Nomen 2026-10-19
+  'Anzeiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Messgerät, Zeiger / Zeitungsname («Stadt-Anzeiger»)) — nach den Nomen 2026-10-19
+  'Anziehungskraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schwerkraft / Reiz, Attraktivität) — nach den Nomen 2026-10-19
+  'Anzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleidung / «im Anzug sein» (sich nähern)) — nach den Nomen 2026-10-19
+  'Apokalypse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Offenbarung des Johannes / Weltuntergang, Katastrophe) — nach den Nomen 2026-10-19
+  'Apostel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jünger Jesu / Verfechter einer Idee (oft ironisch)) — nach den Nomen 2026-10-19
+  'Antifa', // zurückgestellt: Kurzwort, politisch umstritten — Markierung (umgangssprachlich/abwertend?) nicht sicher (Regel 14/17) 2026-10-19
+  'Anwachs', // zurückgestellt: sehr selten, Bedeutung nicht gesichert — nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

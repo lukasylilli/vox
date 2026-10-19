@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anzahl",
+  "wort": "die Anzahl",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تعداد"
+    ],
+    "en": [
+      "number",
+      "quantity"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Mathematik",
+    "Alltag"
+  ],
+  "ipa": "ˈanˌt͡saːl",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Anzahl der Schüler ist gestiegen.",
+      "uebersetzung": {
+        "fa": "تعداد دانش‌آموزان بیشتر شده است.",
+        "en": "The number of pupils has increased."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Eine große Anzahl von Gästen hat abgesagt, weil am Wochenende ein Sturm erwartet wird.",
+      "uebersetzung": {
+        "fa": "تعداد زیادی از مهمانان لغو کرده‌اند، چون آخر هفته توفان پیش‌بینی می‌شود.",
+        "en": "A large number of guests have cancelled because a storm is expected at the weekend."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Menge",
+      "uebersetzung": {
+        "fa": "مقدار",
+        "en": "quantity"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "die Anzahl an + Dat",
+        "beispiel": "Die Anzahl an freien Plätzen ist begrenzt.",
+        "uebersetzung": {
+          "fa": "تعداد جاهای خالی محدود است.",
+          "en": "The number of free places is limited."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "zählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شمردن",
+          "en": "to count"
+        },
+        "id_ref": "verb_zaehlen"
+      },
+      {
+        "wort": "die Menge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار",
+          "en": "quantity"
+        },
+        "id_ref": "nomen_menge"
+      },
+      {
+        "wort": "viel",
+        "wortart": "numerale",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زیاد",
+          "en": "much, many"
+        },
+        "id_ref": "numerale_viel"
+      },
+      {
+        "wort": "die Mehrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکثریت",
+          "en": "majority"
+        },
+        "id_ref": "nomen_mehrheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
