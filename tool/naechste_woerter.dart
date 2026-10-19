@@ -2263,6 +2263,32 @@ const zurueckgestellt = <String>{
   'Arbeiterwohlfahrt', // zurückgestellt: Name einer Organisation (AWO), kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
   'Arbeitslosenhilfe', // zurückgestellt: in Deutschland 2005 abgeschafft; heutiger Gebrauch/Markierung nicht sicher (Regel 14/17) 2026-10-19
   'Arbeitsmarktservice', // zurückgestellt: österr. Behördenname (AMS); Genus schwankt (das/der) — nicht sicher (Regel 14/18) 2026-10-19
+  'Arena', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stadion, Kampfplatz / Zirkusmanege / Schauplatz (übertragen)) — nach den Nomen 2026-10-19
+  'Argument', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begründung / Mathematik: Argument einer Funktion) — nach den Nomen 2026-10-19
+  'Arkade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bogen auf Säulen / Bogengang (Plural)) — nach den Nomen 2026-10-19
+  'Arm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperteil / Flussarm, Arm eines Leuchters o. Ä.) — nach den Nomen 2026-10-19
+  'Armada', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kriegsflotte (span. Armada) / große Menge) — nach den Nomen 2026-10-19
+  'Armatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserhahn, Sanitärarmatur / Mess- und Bedienteile (Fahrzeug)) — nach den Nomen 2026-10-19
+  'Armenhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisches Heim für Arme / ärmste Region (übertragen)) — nach den Nomen 2026-10-19
+  'Aroma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Duft, Geschmack / Aromastoff) — nach den Nomen 2026-10-19
+  'Arrangement', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikbearbeitung / Vereinbarung / Anordnung (Blumen)) — nach den Nomen 2026-10-19
+  'Arsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesäß / Schimpfwort) — vulgär, Entscheidung Lukas — nach den Nomen 2026-10-19
+  'Arsenal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Waffenlager / große Sammlung (übertragen)) — nach den Nomen 2026-10-19
+  'Art', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weise / Sorte / biologische Art / Benehmen) — nach den Nomen 2026-10-19
+  'Artikel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik / Zeitungsartikel / Ware / Gesetzesartikel) — nach den Nomen 2026-10-19
+  'Artikulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussprache / Ausdruck von Gedanken) — nach den Nomen 2026-10-19
+  'As', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielkarte / Spitzenkönner / Tennis: Ass) — heute Schreibung «Ass» — nach den Nomen 2026-10-19
+  'Aspekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesichtspunkt / Grammatik: Verbaspekt) — nach den Nomen 2026-10-19
+  'Assoziation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gedankenverbindung / Vereinigung, Zusammenschluss) — nach den Nomen 2026-10-19
+  'Asyl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politisches Asyl / Unterkunft (Obdachlosenasyl)) — nach den Nomen 2026-10-19
+  'Asylsuchende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Asylsuchende) — nach den Nomen 2026-10-19
+  'Are', // zurückgestellt: schweiz. Form von «das Ar» (Flächenmaß) — regional, nicht sicher (Regel 14/17) 2026-10-19
+  'Arg', // zurückgestellt: gehoben/selten («ohne Arg») — Gebrauch als Nomen nicht sicher (Regel 14) 2026-10-19
+  'Ari', // zurückgestellt: umgangssprachlich (Soldatensprache) für Artillerie — Markierung nicht sicher (Regel 14/17) 2026-10-19
+  'Arschloch', // zurückgestellt: vulgäres Schimpfwort — Entscheidung Lukas (wie andere vulgäre Wörter) 2026-10-19
+  'Aschenputtel', // zurückgestellt: Märchenfigur (Eigenname), kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
+  'Assekuranz', // zurückgestellt: veraltet/fachsprachlich für Versicherung — Markierung nicht sicher (Regel 14/17) 2026-10-19
+  'Atlantis', // zurückgestellt: sagenhafter Ort, kein realer geografischer Name — nicht sicher (Regel 18) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
