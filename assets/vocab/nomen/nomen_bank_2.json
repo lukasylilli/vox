@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bank_2",
+  "wort": "die Bank",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بانک"
+    ],
+    "en": [
+      "bank"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Finanzen",
+    "Alltag"
+  ],
+  "ipa": "baŋk",
+  "anmerkung": "Achtung: «die Bank» = Sitzgelegenheit ist eine eigene Karte (Plural: die Bänke).",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich gehe zur Bank.",
+      "uebersetzung": {
+        "fa": "به بانک می‌روم.",
+        "en": "I am going to the bank."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Um ein Konto zu eröffnen, muss man mit seinem Ausweis zur Bank gehen.",
+      "uebersetzung": {
+        "fa": "برای باز کردن حساب باید با کارت شناسایی به بانک رفت.",
+        "en": "To open an account you have to go to the bank with your ID."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Geldinstitut",
+      "uebersetzung": {
+        "fa": "مؤسسه‌ی مالی",
+        "en": "financial institution"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Bankautomat",
+      "uebersetzung": {
+        "fa": "دستگاه خودپرداز",
+        "en": "cash machine"
+      }
+    },
+    {
+      "wort": "das Bankkonto",
+      "uebersetzung": {
+        "fa": "حساب بانکی",
+        "en": "bank account"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از ایتالیایی banca (میز صراف) ← آلمانی کهن bank",
+    "en": "from Italian banca (money-changer’s table) ← Old High German bank"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Banken",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Bank",
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "überweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حواله کردن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_ueberweisen"
+      },
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

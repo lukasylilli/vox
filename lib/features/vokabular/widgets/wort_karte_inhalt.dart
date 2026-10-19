@@ -18,6 +18,7 @@ import '../../../core/constants/app_routes.dart';
 import '../../../core/grammatikon/grammatikon_painter.dart';
 import '../../../core/grammatikon/grammatikon_resolver.dart';
 import '../../../core/grammatikon/grammatikon_spec.dart';
+import '../../../core/grammatikon/wort_card.dart' show artikelSpans;
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
@@ -72,11 +73,11 @@ class WortKarteKopf extends StatelessWidget {
                   Text.rich(
                     TextSpan(
                       children: [
-                        if (artikel != null)
-                          TextSpan(
-                            text: '$artikel ',
-                            style: TextStyle(color: farbe),
-                          ),
+                        if (artikel != null) ...[
+                          // «der/die» (Regel 21): jeder Artikel in seiner Farbe.
+                          ...artikelSpans(artikel, farbe),
+                          const TextSpan(text: ' '),
+                        ],
                         TextSpan(text: lemma),
                         // Homograph-Nummer (Regel 19): See¹ / See².
                         WidgetSpan(

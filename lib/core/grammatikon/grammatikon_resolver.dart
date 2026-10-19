@@ -60,6 +60,12 @@ class GrammatikonResolver {
 
   static String _formFuerKasus(String? kasus) => _kasusForm[kasus] ?? 'quadrat';
 
+  /// Farbe EINES bestimmten Artikels («der» → maskulin …), sonst null.
+  /// Für «der/die Abgeordnete» (Prompt-Regel 21) färbt die Zeile jeden
+  /// Artikel einzeln — beide Farben sind richtig, keine wird geraten.
+  static Color? artikelFarbe(String artikel) =>
+      GrammatikonSpec.genusFarbe(_genusMap[artikel.trim().toLowerCase()]);
+
   /// Zentrale Entscheidung: Karte (+ Kontext) → Descriptor.
   static GrammatikonDescriptor resolve(
     Map<String, dynamic> card, [
@@ -72,6 +78,18 @@ class GrammatikonResolver {
     switch (wortart) {
       case 'nomen':
         {
+          // Regel 21: «der/die» (substantiviertes Adjektiv für beide
+          // Geschlechter) hat KEIN einzelnes Genus ⇒ neutrale Umriss-Form
+          // statt einer geratenen Farbe (Regel: lieber kein Symbol als ein
+          // falsches). Die Artikel selbst färbt die Wortzeile einzeln.
+          if (ctx.numerus != 'plural' &&
+              ((details['genus'] as String?)?.contains('/') ?? false)) {
+            return GrammatikonDescriptor(
+              shape: _formFuerKasus(ctx.kasus),
+              fuellung: 'hohl',
+              color: kontur,
+            );
+          }
           final genus = ctx.numerus == 'plural'
               ? 'plural'
               : _genusMap[details['genus'] as String?];

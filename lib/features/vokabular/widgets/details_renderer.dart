@@ -6,6 +6,7 @@
 //          Alles null-sicher: fehlende Felder → Sektion erscheint nicht.
 import 'package:flutter/material.dart';
 import '../../../core/grammatikon/perfekt_builder.dart';
+import '../data/vokab_formen.dart' show vokabAdjektivischeFormen;
 import 'wortseite_bausteine.dart';
 
 class DetailsRenderer extends StatelessWidget {
@@ -75,6 +76,7 @@ class DetailsRenderer extends StatelessWidget {
         ),
       ]);
     }
+    final adjektivisch = vokabAdjektivischeFormen(card);
     return Column(crossAxisAlignment: CrossAxisAlignment.stretch, children: [
       Sektion(titel: 'Grammatik', children: [
         Zeile(label: 'Genus', wert: d['genus'] as String?),
@@ -82,6 +84,14 @@ class DetailsRenderer extends StatelessWidget {
         Zeile(label: 'Deklinationstyp', wert: d['deklinationstyp'] as String?),
         Zeile(label: 'Zählbar', wert: _jaNein(d['zaehlbar'])),
       ]),
+      // Regel 21: substantiviertes Adjektiv — Formen gerechnet, nicht
+      // gespeichert (der Abgeordnete · ein Abgeordneter …).
+      if (adjektivisch.isNotEmpty)
+        Sektion(titel: 'Wie ein Adjektiv gebeugt', children: [
+          Tabelle(zeilen: [
+            for (final (etikett, formen) in adjektivisch) [etikett, formen],
+          ]),
+        ]),
       _musterListe(context, 'Mit Präposition', d['mit_praeposition']),
       _musterListe(context, 'Nomen-Verb-Verbindungen',
           d['nomen_verb_verbindungen']),

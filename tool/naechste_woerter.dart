@@ -2085,8 +2085,15 @@ const zurueckgestellt = <String>{
   'zürnen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
   'zuwenden', // zurückgestellt: gemischtes Verb mit zwei Präteritumformen (wandte/wendete zu) wie «wenden» — nicht sicher (Regel 16) 2026-10-19
   'zwiebeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
-  'Abgeordnete', // zurückgestellt: substantiviertes Adjektiv (der/die Abgeordnete, ein Abgeordneter) — Schema kennt nur deklinationstyp normal/n-deklination ⇒ Entscheidung Lukas 2026-10-19
-  'Abgeordneter', // zurückgestellt: dasselbe Wort (stark gebeugte Form von «Abgeordnete») — Entscheidung Lukas 2026-10-19
+};
+
+/// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
+/// 2026-10-19, Prompt-Regel 21: EINE Karte für «der/die Abgeordnete»; die
+/// Liste führt zusätzlich die stark gebeugte Form «Abgeordneter»). Die Karte
+/// heißt nach dem Ziel; die Suche findet die Form über vokab_formen.dart.
+/// Mit Datum in PLAN.md.
+const listenVerweis = <String, String>{
+  'Abgeordneter': 'Abgeordnete', // Regel 21 (2026-10-19)
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
@@ -2185,7 +2192,8 @@ void abhaken() {
       if (eintrag.isEmpty) continue;
       final w = listenLemma(eintrag);
       final art = wortartKorrektur[w] ?? wortart;
-      if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {
+      final ziel = listenVerweis[w] ?? w;
+      if (File('assets/vocab/$art/${vokabId(art, ziel)}.json').existsSync()) {
         zeilen[i] = '✓ $eintrag';
         neu++;
       }
@@ -2230,7 +2238,8 @@ void main(List<String> args) {
       final w = listenLemma(roh.replaceFirst(RegExp(r'^\s*✓\s*'), '').trim());
       if (w.isEmpty) continue;
       final art = wortartKorrektur[w] ?? wortart;
-      if (File('assets/vocab/$art/${vokabId(art, w)}.json').existsSync()) {
+      final ziel = listenVerweis[w] ?? w;
+      if (File('assets/vocab/$art/${vokabId(art, ziel)}.json').existsSync()) {
         fertig++;
         continue;
       }

@@ -160,10 +160,13 @@ class WortZeile extends StatelessWidget {
       textBaseline: TextBaseline.alphabetic,
       children: [
         if (artikel != null)
-          Text(
-            '$artikel ',
-            style: style?.copyWith(fontWeight: FontWeight.w800, color: farbe) ??
-                TextStyle(fontWeight: FontWeight.w800, color: farbe),
+          Text.rich(
+            TextSpan(children: [
+              ...artikelSpans(artikel, farbe),
+              const TextSpan(text: ' '),
+            ]),
+            style: style?.copyWith(fontWeight: FontWeight.w800) ??
+                const TextStyle(fontWeight: FontWeight.w800),
           ),
         Flexible(
           child: WortText(
@@ -186,6 +189,25 @@ class WortZeile extends StatelessWidget {
       ],
     );
   }
+}
+
+/// Artikel eines Nomens als farbige Teile. Normal EIN Artikel in [farbe]
+/// (Genusfarbe der Karte). «der/die» (Prompt-Regel 21) ⇒ jeder Artikel in
+/// seiner eigenen Genusfarbe, der Schrägstrich ohne Farbe.
+List<InlineSpan> artikelSpans(String artikel, Color? farbe) {
+  final teile = artikel.split('/');
+  if (teile.length < 2) {
+    return [TextSpan(text: artikel, style: TextStyle(color: farbe))];
+  }
+  return [
+    for (var i = 0; i < teile.length; i++) ...[
+      if (i > 0) const TextSpan(text: '/'),
+      TextSpan(
+        text: teile[i],
+        style: TextStyle(color: GrammatikonResolver.artikelFarbe(teile[i])),
+      ),
+    ],
+  ];
 }
 
 /// Homograph-Nummer → hochgestellte Ziffer (1 → «¹»). Keine Familie ⇒ null.

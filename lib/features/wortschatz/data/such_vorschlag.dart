@@ -12,6 +12,7 @@
 //          zwei Nachbarbuchstaben vertauschen = je 1.
 //
 // Rein (ohne Flutter), damit test/such_vorschlag_test.dart es direkt prüft.
+import '../../../core/wort/wort_form.dart' show ohneNomenArtikel;
 import 'altwort_karte.dart' show altwortLemma;
 
 /// Vergleichsform: Artikel weg, klein, ß→ss, Umlaute ausgeschrieben.
@@ -92,10 +93,5 @@ List<String> suchVorschlaege(String query, Iterable<String> woerter,
 }
 
 String _ohneArtikel(String wort) {
-  final teile = wort.trim().split(' ');
-  if (teile.length > 1 &&
-      const {'der', 'die', 'das'}.contains(teile.first.toLowerCase())) {
-    return teile.sublist(1).join(' ');
-  }
-  return wort.trim();
+  return ohneNomenArtikel(wort);
 }

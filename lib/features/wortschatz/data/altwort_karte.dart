@@ -35,6 +35,8 @@
 //   ihre eigene Seite — Grundregel).
 //
 // Rein (ohne Flutter/DB), damit test/altwort_karte_test.dart es direkt prüft.
+import '../../../core/wort/wort_form.dart' show ohneNomenArtikel;
+
 
 /// Alte `WordType`-Namen (drift) → Wortarten der Karten (Schema 3.0).
 /// Auch der Wortart-Filter von «Alle Wörter» liest diese Tabelle.
@@ -53,12 +55,7 @@ const altwortTypZuWortart = <String, Set<String>>{
 /// Vergleichs-Lemma: Artikel (der/die/das) weg, klein, getrimmt.
 /// Auch Sortierschlüssel von «Alle Wörter» (beide Quellen in EINER Liste).
 String altwortLemma(String wort) {
-  var w = wort.trim().toLowerCase();
-  final teile = w.split(' ');
-  if (teile.length > 1 && const {'der', 'die', 'das'}.contains(teile.first)) {
-    w = teile.sublist(1).join(' ');
-  }
-  return w;
+  return ohneNomenArtikel(wort).toLowerCase();
 }
 
 /// Die Felder eines alten Worts, die die Paarung braucht.

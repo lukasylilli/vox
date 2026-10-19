@@ -137,8 +137,11 @@ TEIL 0 — GLOBALE REGELN
     Wörter DERSELBEN Wortart mit eigener Bedeutung (der See ↔ die See,
     der Leiter ↔ die Leiter, die Bank «Sitz» ↔ die Bank «Geldinstitut»,
     das Essen ↔ Essen «Stadt») bekommen JE EINE EIGENE Karte mit eigener id:
-    · Die häufigste Bedeutung: "homograph": null ⇒ normale id
-      (nomen_see).
+    · Die ERSTE Bedeutung: "homograph": null ⇒ normale id (nomen_see).
+      Reihenfolge = Duden-Nummerierung (Bank¹ «Sitzgelegenheit»,
+      Bank² «Geldinstitut»); ohne Duden-Nummer: die häufigste zuerst.
+      Die App zeigt die Nummer hochgestellt (See¹, See²) und auf jeder
+      Karte einen Hinweis auf die anderen.
     · Jede weitere Bedeutung: "homograph" = ihr Artikel, wenn das Genus
       ANDERS ist (die See ⇒ "die" ⇒ nomen_see_die), sonst eine Ziffer
       "2"…"9" (die Bank «Geldinstitut» ⇒ "2" ⇒ nomen_bank_2).
@@ -161,6 +164,21 @@ TEIL 0 — GLOBALE REGELN
     · Nur eine Bedeutung (auch mit mehreren Übersetzungswörtern wie
       «گلابی، امرود») ⇒ "bedeutungen": null und kein "bedeutung" in den
       Beispielen. Nuancen derselben Bedeutung sind KEINE eigene Gruppe.
+21. SUBSTANTIVIERTE ADJEKTIVE (Entscheidung Lukas, 2026-10-19): Nomen,
+    die wie ein Adjektiv gebeugt werden (der Abgeordnete / ein
+    Abgeordneter, der/die Angestellte, der/die Bekannte, der/die Deutsche,
+    das Gute), bekommen EINE Karte:
+    · "wort" = schwache Form mit -e und Artikel; gibt es das Wort für
+      beide Geschlechter ⇒ «der/die Abgeordnete», sonst nur der eine
+      Artikel («das Gute»).
+    · details: "genus": "der/die" | "der" | "die" | "das",
+      "deklinationstyp": "adjektivisch", "plural": "die Abgeordneten"
+      (bzw. null), sonst wie Nomen.
+    · Die gebeugten Formen (ein Abgeordneter, eine Abgeordnete …)
+      rechnet die App — NICHT in die Karte schreiben. «der/die» nur bei
+      adjektivisch (sonst Fehler).
+    · Steht die stark gebeugte Form zusätzlich in der Wortliste
+      («Abgeordneter»), ist sie KEINE eigene Karte.
 
 ========================================================================
 TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
@@ -202,9 +220,9 @@ TEIL 2 — DETAILS je WORTART
 
 --- 1. NOMEN ---
 {
-  "genus": "<der | die | das>",
+  "genus": "<der | die | das | der/die (nur adjektivisch, Regel 21)>",
   "plural": "<die Tische | null>",
-  "deklinationstyp": "<normal | n-deklination>",
+  "deklinationstyp": "<normal | n-deklination | adjektivisch (Regel 21)>",
   "zaehlbar": <true | false>,
   "mit_praeposition": [ { "muster": "<Nomen + Präposition + Kasus, z. B. die Angst vor + Dat — Regel 15: PFLICHT wenn vorhanden>", "beispiel": "<klarer Satz, der genau dieses Muster zeigt>", "uebersetzung": { "fa": "<ترجمه جمله نمونه>", "en": "<sentence translation>" } } ],
   "nomen_verb_verbindungen": [ { "verbindung": "<den Tisch decken>", "beispiel": "<Satz>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ]

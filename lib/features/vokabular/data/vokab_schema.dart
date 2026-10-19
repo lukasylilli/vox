@@ -76,12 +76,7 @@ final vokabHomographMuster = RegExp(r'^(der|die|das|[2-9])$');
 /// Mit [homograph] (Regel 19): ('nomen','die See', homograph: 'die') →
 /// 'nomen_see_die'.
 String vokabId(String wortart, String wort, {String? homograph}) {
-  var lemma = wort.trim();
-  final teile = lemma.split(' ');
-  if (teile.length > 1 &&
-      const {'der', 'die', 'das'}.contains(teile.first.toLowerCase())) {
-    lemma = teile.sublist(1).join(' ');
-  }
+  var lemma = ohneNomenArtikel(wort);
   lemma = lemma
       .toLowerCase()
       .replaceAll('ä', 'ae')
@@ -134,6 +129,11 @@ Map<String, List<String>>? _bedeutungsGruppe(Object? e) {
   final en = liste(e['en']);
   return (fa == null || en == null) ? null : {'fa': fa, 'en': en};
 }
+
+/// Deklinationstypen der Nomen (TEIL 2). «adjektivisch» = Prompt-Regel 21
+/// (Lukas 2026-10-19): substantiviertes Adjektiv — der Abgeordnete /
+/// ein Abgeordneter; die Formen rechnet die App ([vokabAdjektivischeFormen]).
+const vokabDeklinationstypen = ['normal', 'n-deklination', 'adjektivisch'];
 
 /// Pflichtfelder in details einer Eigenname-Karte (statt der Nomen-Liste).
 const _eigennamePflicht = {'eigenname', 'genus', 'mit_artikel'};
@@ -214,6 +214,15 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
       fehler.add('[$label] "homograph" "$homograph" passt nicht zu '
           'wortart/genus — Artikel-Kennung nur bei Nomen mit diesem Genus');
     }
+  }
+  // Regel 21: «der/die» nur bei substantivierten Adjektiven — sonst wäre
+  // das Genus geraten ⇒ fatal.
+  if (wortart == 'nomen' &&
+      details is Map &&
+      details['genus'] == 'der/die' &&
+      details['deklinationstyp'] != 'adjektivisch') {
+    fehler.add('[$label] genus «der/die» nur mit deklinationstyp '
+        '«adjektivisch» (Regel 21)');
   }
   // Regel 18: Eigenname nur als Nomen; Genus muss sicher sein.
   if (details is Map && details['eigenname'] != null) {
@@ -354,6 +363,29 @@ VokabPruefung vokabPruefeKarte(Map<String, dynamic> roh) {
       : _detailPflicht[wortart] ?? const <String>{}) {
     if (!details.containsKey(key)) {
       warnungen.add('[$label] details.$key fehlt');
+    }
+  }
+  if (wortart == 'nomen' && !eigenname) {
+    final typ = details['deklinationstyp'];
+    if (typ != null && !vokabDeklinationstypen.contains(typ)) {
+      warnungen.add('[$label] deklinationstyp «$typ» unbekannt '
+          '(${vokabDeklinationstypen.join(' | ')})');
+    }
+    final genus = details['genus'];
+    if (genus != null && !nomenArtikel.contains(genus)) {
+      warnungen.add('[$label] genus «$genus» ungültig (der | die | das | der/die)');
+    }
+    if (typ == 'adjektivisch') {
+      // Regel 21: Lemma = schwache Form mit -e (der Abgeordnete, das Gute),
+      // Artikel im Lemma = genus.
+      final lemma = ohneNomenArtikel(wort);
+      if (!lemma.endsWith('e')) {
+        warnungen.add('[$label] adjektivisch: Lemma endet nicht auf -e '
+            '(der Abgeordnete, das Gute)');
+      }
+      if (!wort.trim().startsWith('$genus ')) {
+        warnungen.add('[$label] adjektivisch: Artikel im Lemma ≠ genus «$genus»');
+      }
     }
   }
   if (eigenname) {
@@ -521,13 +553,7 @@ bool _gleich(List<Object?> a, List<Object?> b) {
 /// Stamm fürs Zielwort-im-Satz-Matching: Artikel weg, bei Verben
 /// Infinitivendung -en/-n weg, klein. Heuristik — nur für Warnungen.
 String _lueckenStamm(String wortart, String wort) {
-  var lemma = wort.trim();
-  final teile = lemma.split(' ');
-  if (teile.length > 1 &&
-      const {'der', 'die', 'das'}.contains(teile.first.toLowerCase())) {
-    lemma = teile.sublist(1).join(' ');
-  }
-  lemma = lemma.toLowerCase();
+  var lemma = ohneNomenArtikel(wort).toLowerCase();
   if (wortart == 'verb') {
     if (lemma.endsWith('en')) {
       lemma = lemma.substring(0, lemma.length - 2);

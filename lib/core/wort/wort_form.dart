@@ -32,7 +32,22 @@ const Set<String> _praepositionen = {
   'bis', 'vor', 'hinter', 'neben', 'zwischen', 'gegenüber',
 };
 
-const Set<String> _artikel = {'der', 'die', 'das'};
+const Set<String> _artikel = {'der', 'die', 'das', 'der/die'};
+
+/// Artikel-Vorsatz vor einem Nomen-Lemma — EINE Quelle für id, Suche, Liste:
+/// der/die/das und «der/die» (Prompt-Regel 21: substantiviertes Adjektiv für
+/// beide Geschlechter, «der/die Abgeordnete»).
+const Set<String> nomenArtikel = {'der', 'die', 'das', 'der/die'};
+
+/// «der/die Abgeordnete» → «Abgeordnete», «der Tisch» → «Tisch»; sonst
+/// unverändert (getrimmt). Nur wenn danach noch ein Wort folgt.
+String ohneNomenArtikel(String wort) {
+  final teile = wort.trim().split(' ');
+  if (teile.length > 1 && nomenArtikel.contains(teile.first.toLowerCase())) {
+    return teile.sublist(1).join(' ');
+  }
+  return wort.trim();
+}
 
 /// «warten auf» → «warten». Nur bei mindestens zwei Wörtern und nur, wenn das
 /// letzte Wort eine bekannte Präposition ist.

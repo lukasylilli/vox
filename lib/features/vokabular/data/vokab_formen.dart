@@ -53,7 +53,7 @@ String vokabFormenDatei(String schluessel) =>
     '$vokabFormenOrdner/${schluessel.runes.first.toRadixString(16)}.json';
 
 const _artikel = {
-  'der', 'die', 'das', 'des', 'dem', 'den', //
+  'der', 'die', 'das', 'der/die', 'des', 'dem', 'den', //
   'ein', 'eine', 'einen', 'einem', 'einer', 'eines',
 };
 
@@ -86,7 +86,15 @@ Set<String> formenAusKarte(Map<String, dynamic> karte) {
       }
       final genus = details['genus'] as String?;
       final typ = details['deklinationstyp'] as String? ?? 'normal';
-      if (details['eigenname'] == true) {
+      if (typ == 'adjektivisch') {
+        // Regel 21: gebeugt wie ein Adjektiv — Abgeordneten, ein
+        // Abgeordneter, ein Gutes (aus [vokabAdjektivischeFormen]).
+        for (final zeile in vokabAdjektivischeFormen(karte)) {
+          for (final teil in zeile.$2.split(' · ')) {
+            form(_ohneArtikel(teil));
+          }
+        }
+      } else if (details['eigenname'] == true) {
         // Eigenname (Regel 18): Genitiv nur «-s» (Aachens, Irans) — nie
         // «-es»; auf s/ß/x/z endende Namen bilden ihn mit Apostroph
         // («Graz'»), der in der Suche wegfällt ⇒ keine eigene Form.
@@ -241,6 +249,35 @@ Set<String> _adjektivStaemme(String positiv) {
     s.add('${p.substring(0, p.length - 2)}r');
   }
   return s;
+}
+
+/// Substantiviertes Adjektiv (Prompt-Regel 21): Formen wie beim Adjektiv,
+/// je Genus der Karte eine Zeile (Etikett, «bestimmt · unbestimmt»), dazu der
+/// Plural. Leer, wenn die Karte kein solches Nomen ist. Gerechnet, nicht
+/// gespeichert — die Karte trägt nur Lemma, genus, deklinationstyp.
+///   der/die Abgeordnete ⇒
+///     (der, «der Abgeordnete · ein Abgeordneter»)
+///     (die, «die Abgeordnete · eine Abgeordnete»)
+///     (Plural, «die Abgeordneten · Abgeordnete»)
+List<(String, String)> vokabAdjektivischeFormen(Map<String, dynamic> karte) {
+  final details = (karte['details'] as Map?) ?? const {};
+  if (karte['wortart'] != 'nomen' ||
+      details['deklinationstyp'] != 'adjektivisch') {
+    return const [];
+  }
+  final lemma = _ohneArtikel(karte['wort'] as String? ?? '');
+  if (!lemma.endsWith('e')) return const [];
+  final genera = '${details['genus'] ?? ''}'.split('/');
+  return [
+    for (final g in genera)
+      switch (g) {
+        'der' => ('der', 'der $lemma · ein ${lemma}r'),
+        'die' => ('die', 'die $lemma · eine $lemma'),
+        'das' => ('das', 'das $lemma · ein ${lemma}s'),
+        _ => null,
+      },
+    if (!genera.contains('das')) ('Plural', 'die ${lemma}n · $lemma'),
+  ].nonNulls.toList();
 }
 
 String _ohneArtikel(String text) {

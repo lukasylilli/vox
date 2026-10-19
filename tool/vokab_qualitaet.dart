@@ -221,7 +221,7 @@ void _pruefe(
 String _ohneArtikel(String wort) {
   final teile = wort.trim().split(' ');
   if (teile.length > 1 &&
-      const {'der', 'die', 'das'}.contains(teile.first.toLowerCase())) {
+      const {'der', 'die', 'das', 'der/die'}.contains(teile.first.toLowerCase())) {
     return teile.sublist(1).join(' ');
   }
   return wort.trim();
