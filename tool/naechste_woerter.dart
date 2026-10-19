@@ -2109,6 +2109,15 @@ const zurueckgestellt = <String>{
   'Abstrich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinischer Abstrich / Kürzung («Abstriche machen») / Schreibstrich) — nach den Nomen 2026-10-19
   'Abstufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gradation (Farbabstufung) / Herabstufung) — nach den Nomen 2026-10-19
   'Abteilung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph, gleicher Artikel): Abteilung «Abtrennen» / Abteilung «Teil einer Firma» — nach den Nomen 2026-10-19
+  'Abwehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verteidigung (Sport/Militär/Immunsystem) / Geheimdienst) — nach den Nomen 2026-10-19
+  'Abwehrchef', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chef der Verteidigung (Sport) / Chef des Geheimdienstes «Abwehr») — nach den Nomen 2026-10-19
+  'Abwertung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Währungsabwertung / Herabsetzung einer Person) — nach den Nomen 2026-10-19
+  'Abwicklung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchführung (Auftrag) / Liquidation einer Firma) — nach den Nomen 2026-10-19
+  'Abwurf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abwerfen (Bomben, Hilfsgüter) / Abwurf des Torwarts) — nach den Nomen 2026-10-19
+  'Abzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lohnabzug / Truppenabzug / Abzug der Waffe / Fotoabzug / Dunstabzug) — nach den Nomen 2026-10-19
+  'Achse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Radachse / Achse (Geometrie) / politisches Bündnis) — nach den Nomen 2026-10-19
+  'Achsel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulter («mit den Achseln zucken») / Achselhöhle) — nach den Nomen 2026-10-19
+  'Achter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer/Form 8 / Ruderboot / verbogenes Rad) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
