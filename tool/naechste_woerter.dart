@@ -2127,6 +2127,12 @@ const zurueckgestellt = <String>{
   'Aderlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinischer Aderlass / Verlust (übertragen)) — nach den Nomen 2026-10-19
   'Adieu', // zurückgestellt: eher Interjektion, als Nomen («das Adieu») selten — nicht sicher (Regel 14) 2026-10-19
   'Admiral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marineoffizier / Schmetterling) — nach den Nomen 2026-10-19
+  'Advokat', // zurückgestellt: veraltet/regional (schweiz.) — Markierung nicht sicher (Regel 14/17) 2026-10-19
+  'Aerobic', // zurückgestellt: Genus unsicher (das oder die Aerobic) — nicht sicher (Regel 14) 2026-10-19
+  'Afghane', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Afghanistans / Hunderasse (Afghanischer Windhund)) — nach den Nomen 2026-10-19
+  'Agent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimagent / Vermittler (Künstler-, Handelsagent)) — nach den Nomen 2026-10-19
+  'Agentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Agent»: Geheimagentin / Vermittlerin) — nach den Nomen 2026-10-19
+  'Aggregat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Maschinensatz / Aggregatzustand, Anhäufung (Chemie, Mathematik)) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
