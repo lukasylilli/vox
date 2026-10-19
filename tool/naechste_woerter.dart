@@ -2289,6 +2289,38 @@ const zurueckgestellt = <String>{
   'Aschenputtel', // zurückgestellt: Märchenfigur (Eigenname), kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
   'Assekuranz', // zurückgestellt: veraltet/fachsprachlich für Versicherung — Markierung nicht sicher (Regel 14/17) 2026-10-19
   'Atlantis', // zurückgestellt: sagenhafter Ort, kein realer geografischer Name — nicht sicher (Regel 18) 2026-10-19
+  'Atrium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Innenhof / Herzvorhof (Anatomie)) — nach den Nomen 2026-10-19
+  'Attribut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Merkmal / Grammatik: Attribut / IT: Attribut) — nach den Nomen 2026-10-19
+  'Auditorium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hörsaal / Zuhörerschaft) — nach den Nomen 2026-10-19
+  'Aufarbeitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewältigung der Vergangenheit / Erledigung liegen gebliebener Arbeit / Aufarbeiten von Möbeln) — nach den Nomen 2026-10-19
+  'Aufbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Errichtung / Struktur / Aufbau auf einem Fahrzeug) — nach den Nomen 2026-10-19
+  'Aufbewahrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Aufbewahren / Gepäckaufbewahrung (Ort)) — nach den Nomen 2026-10-19
+  'Aufbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abreise, Losgehen / Neubeginn, Umbruch) — nach den Nomen 2026-10-19
+  'Aufenthalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verweilen, Aufenthalt in einer Stadt / Halt eines Zuges / Aufenthaltsort) — nach den Nomen 2026-10-19
+  'Auffahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autobahnauffahrt / Zufahrt zu einem Haus / schweiz.: Christi Himmelfahrt) — nach den Nomen 2026-10-19
+  'Auffassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meinung / Auffassungsgabe) — nach den Nomen 2026-10-19
+  'Aufgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflicht, Auftrag / Übungsaufgabe / Aufgeben (eines Plans, eines Pakets)) — nach den Nomen 2026-10-19
+  'Aufgebot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: aufgebotene Menge (Polizei) / Eheaufgebot / Mannschaftskader) — nach den Nomen 2026-10-19
+  'Aufkommen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Entstehen / Menge (Verkehrsaufkommen) / Steueraufkommen) — nach den Nomen 2026-10-19
+  'Auflage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Buchauflage / Bedingung, Vorschrift / Unterlage, Polster) — nach den Nomen 2026-10-19
+  'Aufmerksamkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Konzentration / kleines Geschenk, Gefälligkeit) — nach den Nomen 2026-10-19
+  'Aufnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Foto, Tonaufnahme / Aufnahme in eine Gruppe, ins Krankenhaus / Beginn / Empfang (Rezeption)) — nach den Nomen 2026-10-19
+  'Aufruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: öffentlicher Appell / Namensaufruf / IT: Funktionsaufruf) — nach den Nomen 2026-10-19
+  'Aufruhr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufstand / innere Erregung) — nach den Nomen 2026-10-19
+  'Aufsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulaufsatz, Fachartikel / aufgesetzter Teil (Möbel)) — nach den Nomen 2026-10-19
+  'Aufschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preisaufschlag / Tennis: Aufschlag / Aufprall / Ärmel- oder Hosenaufschlag) — nach den Nomen 2026-10-19
+  'Aufschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufklärung, Information / Geologie: Aufschluss) — nach den Nomen 2026-10-19
+  'Aufschwung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wirtschaftlicher Aufschwung / Turnen: Aufschwung) — nach den Nomen 2026-10-19
+  'Aufsicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beaufsichtigung / aufsichtführende Person) — nach den Nomen 2026-10-19
+  'Aufsichtsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium / Mitglied des Gremiums) — nach den Nomen 2026-10-19
+  'Aufsichtsratsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Aufsichtsratsvorsitzende) — nach den Nomen 2026-10-19
+  'Aufsichtsratsvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (starke Form von «Aufsichtsratsvorsitzende»; mit der Grundform zusammen behandeln) — nach den Nomen 2026-10-19
+  'Aufsteiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sozialer Aufsteiger / Sport: aufgestiegene Mannschaft) — nach den Nomen 2026-10-19
+  'Aufstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Liste / Mannschaftsaufstellung / Errichtung, Aufstellen) — nach den Nomen 2026-10-19
+  'Aufstieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergaufstieg / beruflicher oder sportlicher Aufstieg) — nach den Nomen 2026-10-19
+  'Auftakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn / Musik: Auftakt) — nach den Nomen 2026-10-19
+  'Audit', // zurückgestellt: Genus schwankt (das/der Audit) — nicht sicher (Regel 14) 2026-10-19
+  'Aufheben', // zurückgestellt: nur in Wendungen («viel Aufheben(s) machen») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
