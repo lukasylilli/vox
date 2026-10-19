@@ -2133,6 +2133,8 @@ const zurueckgestellt = <String>{
   'Agent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimagent / Vermittler (Künstler-, Handelsagent)) — nach den Nomen 2026-10-19
   'Agentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Agent»: Geheimagentin / Vermittlerin) — nach den Nomen 2026-10-19
   'Aggregat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Maschinensatz / Aggregatzustand, Anhäufung (Chemie, Mathematik)) — nach den Nomen 2026-10-19
+  'Ahn', // zurückgestellt: gehoben; Deklination schwankt (des Ahns/des Ahnen) — nicht sicher (Regel 14) 2026-10-19
+  'Ahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorgefühl / Vorstellung, Wissen («keine Ahnung»)) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
