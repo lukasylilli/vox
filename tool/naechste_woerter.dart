@@ -2145,6 +2145,8 @@ const zurueckgestellt = <String>{
   'Aktuar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versicherungsmathematiker / (veraltet) Gerichtsschreiber) — nach den Nomen 2026-10-19
   'Akustik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre vom Schall / Klangwirkung eines Raumes) — nach den Nomen 2026-10-19
   'Akzent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussprache-Färbung / Betonungszeichen / Schwerpunkt («Akzente setzen»)) — nach den Nomen 2026-10-19
+  'Album', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fotoalbum, Sammelbuch / Musikalbum (Tonträger)) — nach den Nomen 2026-10-19
+  'Alfa', // zurückgestellt: Markenname bzw. Schreibvariante unklar — nicht sicher (Regel 14/18) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
