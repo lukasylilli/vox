@@ -2242,6 +2242,27 @@ const zurueckgestellt = <String>{
   'Apostel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jünger Jesu / Verfechter einer Idee (oft ironisch)) — nach den Nomen 2026-10-19
   'Antifa', // zurückgestellt: Kurzwort, politisch umstritten — Markierung (umgangssprachlich/abwertend?) nicht sicher (Regel 14/17) 2026-10-19
   'Anwachs', // zurückgestellt: sehr selten, Bedeutung nicht gesichert — nicht sicher (Regel 14) 2026-10-19
+  'Apparat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät / Telefon («am Apparat») / Verwaltungsapparat) — nach den Nomen 2026-10-19
+  'Appartement', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleinwohnung / Zimmerflucht im Hotel, Suite) — nach den Nomen 2026-10-19
+  'Appell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufruf / militärischer Anwesenheitsappell) — nach den Nomen 2026-10-19
+  'Appenzell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schweizer Kanton(e) / Ort Appenzell) — nach den Nomen 2026-10-19
+  'Applikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Software, App / Verabreichung von Medikamenten / Stoffaufnäher) — nach den Nomen 2026-10-19
+  'Araber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch arabischer Herkunft / Pferderasse) — nach den Nomen 2026-10-19
+  'Arabisch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (Sprachname: das Arabisch / das Arabische, adjektivisch gebeugt) — nach den Nomen 2026-10-19
+  'Arbeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tätigkeit / Arbeitsplatz, Job / Klassenarbeit / Werk, Ergebnis) — nach den Nomen 2026-10-19
+  'Arbeiterin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: weibliche Arbeiterin / Arbeitsbiene, -ameise) — nach den Nomen 2026-10-19
+  'Arbeitsbereich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgabengebiet / räumlicher Arbeitsplatz) — nach den Nomen 2026-10-19
+  'Arbeitskraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fähigkeit zu arbeiten / arbeitende Person) — nach den Nomen 2026-10-19
+  'Arbeitslose', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Arbeitslose) — nach den Nomen 2026-10-19
+  'Arbeitsplatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Platz zum Arbeiten / Stelle, Job) — nach den Nomen 2026-10-19
+  'Arbeitsprozess', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeitsablauf / Berufsleben («in den Arbeitsprozess eingliedern»)) — nach den Nomen 2026-10-19
+  'Arbeitssuchende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Arbeitssuchende) — nach den Nomen 2026-10-19
+  'Arbeitsstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stelle, Job / Arbeitsort) — nach den Nomen 2026-10-19
+  'Arbeitszeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: tägliche/wöchentliche Arbeitszeit / für eine Arbeit benötigte Zeit) — nach den Nomen 2026-10-19
+  'Architektur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baukunst / Bauweise eines Gebäudes / Aufbau eines Systems (IT)) — nach den Nomen 2026-10-19
+  'Arbeiterwohlfahrt', // zurückgestellt: Name einer Organisation (AWO), kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
+  'Arbeitslosenhilfe', // zurückgestellt: in Deutschland 2005 abgeschafft; heutiger Gebrauch/Markierung nicht sicher (Regel 14/17) 2026-10-19
+  'Arbeitsmarktservice', // zurückgestellt: österr. Behördenname (AMS); Genus schwankt (das/der) — nicht sicher (Regel 14/18) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
