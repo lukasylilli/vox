@@ -2123,6 +2123,10 @@ const zurueckgestellt = <String>{
   'Adaptierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anpassung / (österr.) Umbau einer Wohnung) — nach den Nomen 2026-10-19
   'Adaption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bearbeitung (Film/Buch) / biologische Anpassung) — nach den Nomen 2026-10-19
   'Ade', // zurückgestellt: eher Interjektion, als Nomen («das Ade») selten — nicht sicher (Regel 14) 2026-10-19
+  'Ader', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blutgefäß / Leitungsdraht / Begabung («eine Ader für»)) — nach den Nomen 2026-10-19
+  'Aderlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinischer Aderlass / Verlust (übertragen)) — nach den Nomen 2026-10-19
+  'Adieu', // zurückgestellt: eher Interjektion, als Nomen («das Adieu») selten — nicht sicher (Regel 14) 2026-10-19
+  'Admiral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marineoffizier / Schmetterling) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
