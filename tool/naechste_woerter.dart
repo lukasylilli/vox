@@ -2118,6 +2118,11 @@ const zurueckgestellt = <String>{
   'Achse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Radachse / Achse (Geometrie) / politisches Bündnis) — nach den Nomen 2026-10-19
   'Achsel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulter («mit den Achseln zucken») / Achselhöhle) — nach den Nomen 2026-10-19
   'Achter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer/Form 8 / Ruderboot / verbogenes Rad) — nach den Nomen 2026-10-19
+  'Achtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Respekt / Warnruf «Achtung!») — nach den Nomen 2026-10-19
+  'Ackermann', // zurückgestellt: Eigenname (Familienname) bzw. veraltet für «Bauer» — nicht sicher (Regel 14/18) 2026-10-19
+  'Adaptierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anpassung / (österr.) Umbau einer Wohnung) — nach den Nomen 2026-10-19
+  'Adaption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bearbeitung (Film/Buch) / biologische Anpassung) — nach den Nomen 2026-10-19
+  'Ade', // zurückgestellt: eher Interjektion, als Nomen («das Ade») selten — nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
