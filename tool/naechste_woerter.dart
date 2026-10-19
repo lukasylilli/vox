@@ -1996,6 +1996,47 @@ const zurueckgestellt = <String>{
   'umschiffen', // zurückgestellt: trennbar UND untrennbar (schiffte um ↔ umschiffte) — «🔀» (Regel 16) 2026-10-18
   'umwölken', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-18
   'unifizieren', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-18
+  'verargen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
+  'verarschen', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-19
+  'verbiestern', // zurückgestellt: umgangssprachlich, landschaftlich — nicht sicher (Regel 14) 2026-10-19
+  'verblöden', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 14/16) 2026-10-19
+  'verbrämen', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-19
+  'verdrecken', // zurückgestellt: umgangssprachlich, Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 14/16) 2026-10-19
+  'verdummen', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-19
+  'verdünnisieren', // zurückgestellt: umgangssprachlich, scherzhaft — nicht sicher (Regel 14) 2026-10-19
+  'verdutzen', // zurückgestellt: selten (meist nur «verdutzt») — nicht sicher (Regel 14) 2026-10-19
+  'verehelichen', // zurückgestellt: veraltet/Amtssprache — nicht sicher (Regel 14) 2026-10-19
+  'vereinzeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'verfemen', // zurückgestellt: gehoben, selten — nicht sicher (Regel 14) 2026-10-19
+  'verfilzen', // zurückgestellt: Hilfsverb schwankt (haben/sein) — nicht sicher (Regel 16) 2026-10-19
+  'verfrühen', // zurückgestellt: selten (meist nur «verfrüht») — nicht sicher (Regel 14) 2026-10-19
+  'vergackeiern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'vergattern', // zurückgestellt: umgangssprachlich/Militär — nicht sicher (Regel 14) 2026-10-19
+  'vergeistigen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'vergipsen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'vergletschern', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-19
+  'vergrätzen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'vergraulen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'vergröbern', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'verhohnepiepeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verhohnepipeln', // zurückgestellt: umgangssprachlich, Nebenform — nicht sicher (Regel 14) 2026-10-19
+  'verklickern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verknöchern', // zurückgestellt: selten, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'verkorksen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verkupfern', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-19
+  'verlottern', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'verludern', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-19
+  'verlustieren', // zurückgestellt: scherzhaft, selten — nicht sicher (Regel 14) 2026-10-19
+  'vermöbeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'vermurksen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'vernickeln', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-19
+  'vernünfteln', // zurückgestellt: veraltend, selten — nicht sicher (Regel 14) 2026-10-19
+  'veröden', // zurückgestellt: zwei Bedeutungen mit verschiedenem Hilfsverb (Medizin: haben / verlassen werden: sein) — nicht sicher (Regel 16) 2026-10-19
+  'verplempern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verpönen', // zurückgestellt: nur als Partizip «verpönt» gebräuchlich — nicht sicher (Regel 14) 2026-10-19
+  'verramschen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verrecken', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-19
+  'versauen', // zurückgestellt: derb/umgangssprachlich — Entscheidung Lukas (Regel 17) 2026-10-19
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

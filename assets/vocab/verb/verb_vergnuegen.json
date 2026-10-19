@@ -1,0 +1,195 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergnuegen",
+  "wort": "vergnügen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خوش گذراندن",
+      "سرگرم شدن"
+    ],
+    "en": [
+      "to enjoy oneself",
+      "to amuse oneself"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Freizeit"
+  ],
+  "ipa": "fɛɐ̯ˈɡnyːɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder vergnügen sich am Strand.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در ساحل خوش می‌گذرانند.",
+        "en": "The children are enjoying themselves on the beach."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während die Eltern arbeiteten, vergnügten sich die Jugendlichen auf dem Jahrmarkt.",
+      "uebersetzung": {
+        "fa": "در حالی که پدر و مادرها کار می‌کردند، نوجوانان در شهربازی خوش گذراندند.",
+        "en": "While the parents were working, the teenagers enjoyed themselves at the fair."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich amüsieren",
+      "uebersetzung": {
+        "fa": "خوش گذراندن",
+        "en": "to have fun"
+      }
+    },
+    {
+      "wort": "sich unterhalten",
+      "uebersetzung": {
+        "fa": "سرگرم شدن",
+        "en": "to be entertained"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich langweilen",
+      "uebersetzung": {
+        "fa": "حوصله‌اش سر رفتن",
+        "en": "to be bored"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + genug (کافی) ← خشنود شدن",
+    "en": "ver- + genug (enough) → to be content"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich vergnügen mit + Dat",
+        "bedeutung": "sich mit etwas die Zeit angenehm vertreiben",
+        "beispiel": "Er vergnügt sich mit Kartenspielen.",
+        "uebersetzung": {
+          "fa": "با ورق‌بازی سرگرم است.",
+          "en": "He amuses himself playing cards."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergnügen",
+      "praeteritum": "vergnügte",
+      "partizip2": "vergnügt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergnüge",
+        "du": "vergnügst",
+        "er_sie_es": "vergnügt",
+        "wir": "vergnügen",
+        "ihr": "vergnügt",
+        "sie_Sie": "vergnügen"
+      },
+      "praeteritum": {
+        "ich": "vergnügte",
+        "du": "vergnügtest",
+        "er_sie_es": "vergnügte",
+        "wir": "vergnügten",
+        "ihr": "vergnügtet",
+        "sie_Sie": "vergnügten"
+      },
+      "konjunktiv1": {
+        "ich": "vergnüge",
+        "du": "vergnügest",
+        "er_sie_es": "vergnüge",
+        "wir": "vergnügen",
+        "ihr": "vergnüget",
+        "sie_Sie": "vergnügen"
+      },
+      "konjunktiv2": {
+        "ich": "vergnügte",
+        "du": "vergnügtest",
+        "er_sie_es": "vergnügte",
+        "wir": "vergnügten",
+        "ihr": "vergnügtet",
+        "sie_Sie": "vergnügten"
+      },
+      "imperativ": {
+        "du": "Vergnüge!",
+        "ihr": "Vergnügt!",
+        "Sie": "Vergnügen Sie!"
+      }
+    },
+    "partizip1": "vergnügend",
+    "nominalisierung": "das Vergnügen"
+  },
+  "wortnetz": {
+    "grundwort": "Vergnügen",
+    "woerter": [
+      {
+        "wort": "der Spaß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تفریح",
+          "en": "fun"
+        },
+        "id_ref": "nomen_spass"
+      },
+      {
+        "wort": "das Vergnügen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لذت",
+          "en": "pleasure"
+        },
+        "id_ref": "nomen_vergnuegen"
+      },
+      {
+        "wort": "amüsieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرگرم کردن",
+          "en": "to amuse"
+        },
+        "id_ref": "verb_amuesieren"
+      },
+      {
+        "wort": "die Freizeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اوقات فراغت",
+          "en": "free time"
+        },
+        "id_ref": "nomen_freizeit"
+      },
+      {
+        "wort": "feiern",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جشن گرفتن",
+          "en": "to celebrate"
+        },
+        "id_ref": "verb_feiern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

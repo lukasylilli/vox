@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermiesen",
+  "wort": "vermiesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زهر کردن (لذت)",
+      "خراب کردن (حال)"
+    ],
+    "en": [
+      "to spoil",
+      "to ruin"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈmiːzn̩",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen vermiest uns den Tag.",
+      "uebersetzung": {
+        "fa": "باران روزمان را خراب می‌کند.",
+        "en": "The rain is ruining our day."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit seiner schlechten Laune hat er allen anderen den Abend vermiest.",
+      "uebersetzung": {
+        "fa": "با بدخلقی‌اش شب را به کام همه تلخ کرد.",
+        "en": "With his bad mood he spoiled the evening for everyone else."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verderben",
+      "uebersetzung": {
+        "fa": "خراب کردن",
+        "en": "to spoil"
+      }
+    },
+    {
+      "wort": "vergällen",
+      "uebersetzung": {
+        "fa": "تلخ کردن",
+        "en": "to sour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + mies (بد، ناجور)",
+    "en": "ver- + mies (lousy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem + Akk vermiesen",
+        "bedeutung": "jemandem die Freude an etwas nehmen",
+        "beispiel": "Lass dir den Urlaub nicht vermiesen!",
+        "uebersetzung": {
+          "fa": "نگذار تعطیلاتت خراب شود!",
+          "en": "Don’t let anyone spoil your holiday!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vermiesen",
+      "praeteritum": "vermieste",
+      "partizip2": "vermiest"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermiese",
+        "du": "vermiest",
+        "er_sie_es": "vermiest",
+        "wir": "vermiesen",
+        "ihr": "vermiest",
+        "sie_Sie": "vermiesen"
+      },
+      "praeteritum": {
+        "ich": "vermieste",
+        "du": "vermiestest",
+        "er_sie_es": "vermieste",
+        "wir": "vermiesten",
+        "ihr": "vermiestet",
+        "sie_Sie": "vermiesten"
+      },
+      "konjunktiv1": {
+        "ich": "vermiese",
+        "du": "vermiesest",
+        "er_sie_es": "vermiese",
+        "wir": "vermiesen",
+        "ihr": "vermieset",
+        "sie_Sie": "vermiesen"
+      },
+      "konjunktiv2": {
+        "ich": "vermieste",
+        "du": "vermiestest",
+        "er_sie_es": "vermieste",
+        "wir": "vermiesten",
+        "ihr": "vermiestet",
+        "sie_Sie": "vermiesten"
+      },
+      "imperativ": {
+        "du": "Vermiese!",
+        "ihr": "Vermiest!",
+        "Sie": "Vermiesen Sie!"
+      }
+    },
+    "partizip1": "vermiesend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "mies",
+    "woerter": [
+      {
+        "wort": "mies",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بد، ناجور",
+          "en": "lousy"
+        },
+        "id_ref": "adjektiv_mies"
+      },
+      {
+        "wort": "die Laune",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حال، خلق",
+          "en": "mood"
+        },
+        "id_ref": "nomen_laune"
+      },
+      {
+        "wort": "verderben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خراب کردن",
+          "en": "to spoil"
+        },
+        "id_ref": "verb_verderben"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "die Stimmung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حال‌وهوا",
+          "en": "mood"
+        },
+        "id_ref": "nomen_stimmung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,196 @@
+{
+  "schema": "3.0",
+  "id": "verb_verringern",
+  "wort": "verringern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کاهش دادن",
+      "کم شدن"
+    ],
+    "en": [
+      "to reduce",
+      "to decrease"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Zahlen",
+    "Wirtschaft"
+  ],
+  "ipa": "fɛɐ̯ˈʁɪŋɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir verringern die Kosten.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها را کاهش می‌دهیم.",
+        "en": "We are reducing costs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Durch regelmäßige Bewegung lässt sich das Risiko für viele Krankheiten deutlich verringern.",
+      "uebersetzung": {
+        "fa": "با ورزش منظم می‌توان خطر بسیاری از بیماری‌ها را به‌طور چشمگیری کاهش داد.",
+        "en": "Regular exercise can significantly reduce the risk of many diseases."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "reduzieren",
+      "uebersetzung": {
+        "fa": "کاهش دادن",
+        "en": "to reduce"
+      }
+    },
+    {
+      "wort": "senken",
+      "uebersetzung": {
+        "fa": "پایین آوردن",
+        "en": "to lower"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "erhöhen",
+      "uebersetzung": {
+        "fa": "افزایش دادن",
+        "en": "to increase"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + gering (اندک)",
+    "en": "ver- + gering (slight)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "verringern um + Akk",
+        "bedeutung": "etwas um einen bestimmten Betrag kleiner machen",
+        "beispiel": "Der Verbrauch wurde um zehn Prozent verringert.",
+        "uebersetzung": {
+          "fa": "مصرف ده درصد کاهش یافت.",
+          "en": "Consumption was reduced by ten per cent."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verringern",
+      "praeteritum": "verringerte",
+      "partizip2": "verringert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verringere",
+        "du": "verringerst",
+        "er_sie_es": "verringert",
+        "wir": "verringern",
+        "ihr": "verringert",
+        "sie_Sie": "verringern"
+      },
+      "praeteritum": {
+        "ich": "verringerte",
+        "du": "verringertest",
+        "er_sie_es": "verringerte",
+        "wir": "verringerten",
+        "ihr": "verringertet",
+        "sie_Sie": "verringerten"
+      },
+      "konjunktiv1": {
+        "ich": "verringere",
+        "du": "verringerest",
+        "er_sie_es": "verringere",
+        "wir": "verringern",
+        "ihr": "verringeret",
+        "sie_Sie": "verringern"
+      },
+      "konjunktiv2": {
+        "ich": "verringerte",
+        "du": "verringertest",
+        "er_sie_es": "verringerte",
+        "wir": "verringerten",
+        "ihr": "verringertet",
+        "sie_Sie": "verringerten"
+      },
+      "imperativ": {
+        "du": "Verringere!",
+        "ihr": "Verringert!",
+        "Sie": "Verringern Sie!"
+      }
+    },
+    "partizip1": "verringernd",
+    "nominalisierung": "die Verringerung"
+  },
+  "wortnetz": {
+    "grundwort": "gering",
+    "woerter": [
+      {
+        "wort": "weniger",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمتر",
+          "en": "less"
+        },
+        "id_ref": "adverb_weniger"
+      },
+      {
+        "wort": "gering",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اندک",
+          "en": "slight"
+        },
+        "id_ref": "adjektiv_gering"
+      },
+      {
+        "wort": "reduzieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاهش دادن",
+          "en": "to reduce"
+        },
+        "id_ref": "verb_reduzieren"
+      },
+      {
+        "wort": "senken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایین آوردن",
+          "en": "to lower"
+        },
+        "id_ref": "verb_senken"
+      },
+      {
+        "wort": "erhöhen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "افزایش دادن",
+          "en": "to increase"
+        },
+        "id_ref": "verb_erhoehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

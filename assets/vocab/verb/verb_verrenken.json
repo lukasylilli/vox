@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_verrenken",
+  "wort": "verrenken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچ خوردن، دررفتن (مفصل)"
+    ],
+    "en": [
+      "to dislocate",
+      "to sprain"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Körper"
+  ],
+  "ipa": "fɛɐ̯ˈʁɛŋkn̩",
+  "anmerkung": "Meist reflexiv mit Dativ: «sich (Dat) etwas verrenken».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mir die Schulter verrenkt.",
+      "uebersetzung": {
+        "fa": "شانه‌ام دررفت.",
+        "en": "I have dislocated my shoulder."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Fußballspielen hat er sich den Knöchel so verrenkt, dass er zwei Wochen nicht laufen konnte.",
+      "uebersetzung": {
+        "fa": "هنگام فوتبال قوزک پایش آن‌قدر پیچ خورد که دو هفته نتوانست راه برود.",
+        "en": "Playing football he twisted his ankle so badly that he could not walk for two weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstauchen",
+      "uebersetzung": {
+        "fa": "رگ‌به‌رگ شدن",
+        "en": "to sprain"
+      }
+    },
+    {
+      "wort": "auskugeln",
+      "uebersetzung": {
+        "fa": "دررفتن",
+        "en": "to dislocate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + renken (پیچاندن)",
+    "en": "ver- + renken (to twist)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verrenken",
+      "praeteritum": "verrenkte",
+      "partizip2": "verrenkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verrenke",
+        "du": "verrenkst",
+        "er_sie_es": "verrenkt",
+        "wir": "verrenken",
+        "ihr": "verrenkt",
+        "sie_Sie": "verrenken"
+      },
+      "praeteritum": {
+        "ich": "verrenkte",
+        "du": "verrenktest",
+        "er_sie_es": "verrenkte",
+        "wir": "verrenkten",
+        "ihr": "verrenktet",
+        "sie_Sie": "verrenkten"
+      },
+      "konjunktiv1": {
+        "ich": "verrenke",
+        "du": "verrenkest",
+        "er_sie_es": "verrenke",
+        "wir": "verrenken",
+        "ihr": "verrenket",
+        "sie_Sie": "verrenken"
+      },
+      "konjunktiv2": {
+        "ich": "verrenkte",
+        "du": "verrenktest",
+        "er_sie_es": "verrenkte",
+        "wir": "verrenkten",
+        "ihr": "verrenktet",
+        "sie_Sie": "verrenkten"
+      },
+      "imperativ": {
+        "du": "Verrenke!",
+        "ihr": "Verrenkt!",
+        "Sie": "Verrenken Sie!"
+      }
+    },
+    "partizip1": "verrenkend",
+    "nominalisierung": "die Verrenkung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gelenk",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مفصل",
+          "en": "joint"
+        },
+        "id_ref": "nomen_gelenk"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آسیب دیدن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "die Schulter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه",
+          "en": "shoulder"
+        },
+        "id_ref": "nomen_schulter"
+      },
+      {
+        "wort": "verstauchen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رگ‌به‌رگ شدن",
+          "en": "to sprain"
+        },
+        "id_ref": "verb_verstauchen"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

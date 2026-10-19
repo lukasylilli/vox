@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_verlaengern",
+  "wort": "verlängern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "طولانی‌تر کردن",
+      "تمدید کردن"
+    ],
+    "en": [
+      "to extend",
+      "to renew"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Verwaltung"
+  ],
+  "ipa": "fɛɐ̯ˈlɛŋɐn",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verlängere meinen Pass.",
+      "uebersetzung": {
+        "fa": "گذرنامه‌ام را تمدید می‌کنم.",
+        "en": "I am renewing my passport."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Wetter so schön war, haben wir unseren Urlaub um eine Woche verlängert.",
+      "uebersetzung": {
+        "fa": "چون هوا خیلی خوب بود، تعطیلات‌مان را یک هفته تمدید کردیم.",
+        "en": "Because the weather was so nice, we extended our holiday by a week."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ausdehnen",
+      "uebersetzung": {
+        "fa": "گسترش دادن",
+        "en": "to extend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verkürzen",
+      "uebersetzung": {
+        "fa": "کوتاه کردن",
+        "en": "to shorten"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + lang (بلند)",
+    "en": "ver- + lang (long)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verlängern um + Akk",
+        "bedeutung": "etwas um eine bestimmte Dauer/Länge länger machen",
+        "beispiel": "Der Vertrag wurde um zwei Jahre verlängert.",
+        "uebersetzung": {
+          "fa": "قرارداد دو سال تمدید شد.",
+          "en": "The contract was extended by two years."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verlängern",
+      "praeteritum": "verlängerte",
+      "partizip2": "verlängert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verlängere",
+        "du": "verlängerst",
+        "er_sie_es": "verlängert",
+        "wir": "verlängern",
+        "ihr": "verlängert",
+        "sie_Sie": "verlängern"
+      },
+      "praeteritum": {
+        "ich": "verlängerte",
+        "du": "verlängertest",
+        "er_sie_es": "verlängerte",
+        "wir": "verlängerten",
+        "ihr": "verlängertet",
+        "sie_Sie": "verlängerten"
+      },
+      "konjunktiv1": {
+        "ich": "verlängere",
+        "du": "verlängerest",
+        "er_sie_es": "verlängere",
+        "wir": "verlängern",
+        "ihr": "verlängeret",
+        "sie_Sie": "verlängern"
+      },
+      "konjunktiv2": {
+        "ich": "verlängerte",
+        "du": "verlängertest",
+        "er_sie_es": "verlängerte",
+        "wir": "verlängerten",
+        "ihr": "verlängertet",
+        "sie_Sie": "verlängerten"
+      },
+      "imperativ": {
+        "du": "Verlängere!",
+        "ihr": "Verlängert!",
+        "Sie": "Verlängern Sie!"
+      }
+    },
+    "partizip1": "verlängernd",
+    "nominalisierung": "die Verlängerung"
+  },
+  "wortnetz": {
+    "grundwort": "lang",
+    "woerter": [
+      {
+        "wort": "lang",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلند، طولانی",
+          "en": "long"
+        },
+        "id_ref": "adjektiv_lang"
+      },
+      {
+        "wort": "kurz",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کوتاه",
+          "en": "short"
+        },
+        "id_ref": "adjektiv_kurz"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "die Verlängerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تمدید",
+          "en": "extension"
+        },
+        "id_ref": "nomen_verlaengerung"
+      },
+      {
+        "wort": "verkürzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوتاه کردن",
+          "en": "to shorten"
+        },
+        "id_ref": "verb_verkuerzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

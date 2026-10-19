@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_verdicken",
+  "wort": "verdicken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غلیظ کردن",
+      "ضخیم کردن"
+    ],
+    "en": [
+      "to thicken"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈdɪkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mehl verdickt die Soße.",
+      "uebersetzung": {
+        "fa": "آرد سس را غلیظ می‌کند.",
+        "en": "Flour thickens the sauce."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für Patienten mit Schluckstörungen werden Getränke oft mit einem Pulver verdickt.",
+      "uebersetzung": {
+        "fa": "برای بیمارانی که مشکل بلع دارند، نوشیدنی‌ها اغلب با پودر غلیظ می‌شوند.",
+        "en": "For patients with swallowing problems drinks are often thickened with a powder."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "andicken",
+      "uebersetzung": {
+        "fa": "غلیظ کردن",
+        "en": "to thicken"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verdünnen",
+      "uebersetzung": {
+        "fa": "رقیق کردن",
+        "en": "to dilute"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + dick (غلیظ، ضخیم)",
+    "en": "ver- + dick (thick)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verdicken",
+      "praeteritum": "verdickte",
+      "partizip2": "verdickt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verdicke",
+        "du": "verdickst",
+        "er_sie_es": "verdickt",
+        "wir": "verdicken",
+        "ihr": "verdickt",
+        "sie_Sie": "verdicken"
+      },
+      "praeteritum": {
+        "ich": "verdickte",
+        "du": "verdicktest",
+        "er_sie_es": "verdickte",
+        "wir": "verdickten",
+        "ihr": "verdicktet",
+        "sie_Sie": "verdickten"
+      },
+      "konjunktiv1": {
+        "ich": "verdicke",
+        "du": "verdickest",
+        "er_sie_es": "verdicke",
+        "wir": "verdicken",
+        "ihr": "verdicket",
+        "sie_Sie": "verdicken"
+      },
+      "konjunktiv2": {
+        "ich": "verdickte",
+        "du": "verdicktest",
+        "er_sie_es": "verdickte",
+        "wir": "verdickten",
+        "ihr": "verdicktet",
+        "sie_Sie": "verdickten"
+      },
+      "imperativ": {
+        "du": "Verdicke!",
+        "ihr": "Verdickt!",
+        "Sie": "Verdicken Sie!"
+      }
+    },
+    "partizip1": "verdickend",
+    "nominalisierung": "die Verdickung"
+  },
+  "wortnetz": {
+    "grundwort": "dick",
+    "woerter": [
+      {
+        "wort": "dick",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ضخیم، غلیظ",
+          "en": "thick"
+        },
+        "id_ref": "adjektiv_dick"
+      },
+      {
+        "wort": "die Soße",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سس",
+          "en": "sauce"
+        },
+        "id_ref": "nomen_sosse"
+      },
+      {
+        "wort": "das Mehl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آرد",
+          "en": "flour"
+        },
+        "id_ref": "nomen_mehl"
+      },
+      {
+        "wort": "verdünnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رقیق کردن",
+          "en": "to dilute"
+        },
+        "id_ref": "verb_verduennen"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

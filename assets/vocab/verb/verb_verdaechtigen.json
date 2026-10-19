@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_verdaechtigen",
+  "wort": "verdächtigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مظنون دانستن",
+      "شک کردن به کسی"
+    ],
+    "en": [
+      "to suspect"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Polizei"
+  ],
+  "ipa": "fɛɐ̯ˈdɛçtɪɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Polizei verdächtigt den Nachbarn.",
+      "uebersetzung": {
+        "fa": "پلیس به همسایه مظنون است.",
+        "en": "The police suspect the neighbour."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man verdächtigte ihn, das Geld gestohlen zu haben, obwohl es keine Beweise gab.",
+      "uebersetzung": {
+        "fa": "او را به دزدیدن پول متهم دانستند، با این‌که هیچ مدرکی نبود.",
+        "en": "He was suspected of having stolen the money although there was no evidence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beschuldigen",
+      "uebersetzung": {
+        "fa": "متهم کردن",
+        "en": "to accuse"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + verdächtig (مشکوک)",
+    "en": "ver- + verdächtig (suspicious)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemanden + Gen verdächtigen",
+        "bedeutung": "glauben, dass jemand etwas Bestimmtes getan hat",
+        "beispiel": "Man verdächtigt sie des Betrugs.",
+        "uebersetzung": {
+          "fa": "او را به کلاهبرداری مظنون می‌دانند.",
+          "en": "She is suspected of fraud."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verdächtigen",
+      "praeteritum": "verdächtigte",
+      "partizip2": "verdächtigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verdächtige",
+        "du": "verdächtigst",
+        "er_sie_es": "verdächtigt",
+        "wir": "verdächtigen",
+        "ihr": "verdächtigt",
+        "sie_Sie": "verdächtigen"
+      },
+      "praeteritum": {
+        "ich": "verdächtigte",
+        "du": "verdächtigtest",
+        "er_sie_es": "verdächtigte",
+        "wir": "verdächtigten",
+        "ihr": "verdächtigtet",
+        "sie_Sie": "verdächtigten"
+      },
+      "konjunktiv1": {
+        "ich": "verdächtige",
+        "du": "verdächtigest",
+        "er_sie_es": "verdächtige",
+        "wir": "verdächtigen",
+        "ihr": "verdächtiget",
+        "sie_Sie": "verdächtigen"
+      },
+      "konjunktiv2": {
+        "ich": "verdächtigte",
+        "du": "verdächtigtest",
+        "er_sie_es": "verdächtigte",
+        "wir": "verdächtigten",
+        "ihr": "verdächtigtet",
+        "sie_Sie": "verdächtigten"
+      },
+      "imperativ": {
+        "du": "Verdächtige!",
+        "ihr": "Verdächtigt!",
+        "Sie": "Verdächtigen Sie!"
+      }
+    },
+    "partizip1": "verdächtigend",
+    "nominalisierung": "die Verdächtigung"
+  },
+  "wortnetz": {
+    "grundwort": "Verdacht",
+    "woerter": [
+      {
+        "wort": "der Verdacht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوءظن",
+          "en": "suspicion"
+        },
+        "id_ref": "nomen_verdacht"
+      },
+      {
+        "wort": "verdächtig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشکوک",
+          "en": "suspicious"
+        },
+        "id_ref": "adjektiv_verdaechtig"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "beschuldigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "متهم کردن",
+          "en": "to accuse"
+        },
+        "id_ref": "verb_beschuldigen"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدرک",
+          "en": "evidence"
+        },
+        "id_ref": "nomen_beweis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

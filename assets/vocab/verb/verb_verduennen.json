@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_verduennen",
+  "wort": "verdünnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رقیق کردن"
+    ],
+    "en": [
+      "to dilute",
+      "to thin"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈdʏnən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verdünne den Saft mit Wasser.",
+      "uebersetzung": {
+        "fa": "آبمیوه را با آب رقیق می‌کنم.",
+        "en": "I dilute the juice with water."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Medikament muss vor der Infusion mit Kochsalzlösung verdünnt werden.",
+      "uebersetzung": {
+        "fa": "دارو باید پیش از تزریق با سرم نمکی رقیق شود.",
+        "en": "The medication must be diluted with saline solution before the infusion."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "verdicken",
+      "uebersetzung": {
+        "fa": "غلیظ کردن",
+        "en": "to thicken"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + dünn (رقیق، نازک)",
+    "en": "ver- + dünn (thin)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verdünnen",
+      "praeteritum": "verdünnte",
+      "partizip2": "verdünnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verdünne",
+        "du": "verdünnst",
+        "er_sie_es": "verdünnt",
+        "wir": "verdünnen",
+        "ihr": "verdünnt",
+        "sie_Sie": "verdünnen"
+      },
+      "praeteritum": {
+        "ich": "verdünnte",
+        "du": "verdünntest",
+        "er_sie_es": "verdünnte",
+        "wir": "verdünnten",
+        "ihr": "verdünntet",
+        "sie_Sie": "verdünnten"
+      },
+      "konjunktiv1": {
+        "ich": "verdünne",
+        "du": "verdünnest",
+        "er_sie_es": "verdünne",
+        "wir": "verdünnen",
+        "ihr": "verdünnet",
+        "sie_Sie": "verdünnen"
+      },
+      "konjunktiv2": {
+        "ich": "verdünnte",
+        "du": "verdünntest",
+        "er_sie_es": "verdünnte",
+        "wir": "verdünnten",
+        "ihr": "verdünntet",
+        "sie_Sie": "verdünnten"
+      },
+      "imperativ": {
+        "du": "Verdünne!",
+        "ihr": "Verdünnt!",
+        "Sie": "Verdünnen Sie!"
+      }
+    },
+    "partizip1": "verdünnend",
+    "nominalisierung": "die Verdünnung"
+  },
+  "wortnetz": {
+    "grundwort": "dünn",
+    "woerter": [
+      {
+        "wort": "dünn",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نازک، رقیق",
+          "en": "thin"
+        },
+        "id_ref": "adjektiv_duenn"
+      },
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "mischen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخلوط کردن",
+          "en": "to mix"
+        },
+        "id_ref": "verb_mischen"
+      },
+      {
+        "wort": "verdicken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غلیظ کردن",
+          "en": "to thicken"
+        },
+        "id_ref": "verb_verdicken"
+      },
+      {
+        "wort": "die Lösung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "محلول",
+          "en": "solution"
+        },
+        "id_ref": "nomen_loesung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

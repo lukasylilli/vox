@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_validieren",
+  "wort": "validieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اعتبارسنجی کردن",
+      "تأیید کردن"
+    ],
+    "en": [
+      "to validate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Technik"
+  ],
+  "ipa": "valiˈdiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir validieren die Daten.",
+      "uebersetzung": {
+        "fa": "داده‌ها را اعتبارسنجی می‌کنیم.",
+        "en": "We validate the data."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor die Methode eingesetzt wird, muss sie durch unabhängige Studien validiert werden.",
+      "uebersetzung": {
+        "fa": "پیش از به‌کارگیری روش، باید با پژوهش‌های مستقل اعتبارسنجی شود.",
+        "en": "Before the method is used, it must be validated by independent studies."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bestätigen",
+      "uebersetzung": {
+        "fa": "تأیید کردن",
+        "en": "to confirm"
+      }
+    },
+    {
+      "wort": "prüfen",
+      "uebersetzung": {
+        "fa": "بررسی کردن",
+        "en": "to check"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین validus (معتبر)",
+    "en": "from Latin validus (valid)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "validieren",
+      "praeteritum": "validierte",
+      "partizip2": "validiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "validiere",
+        "du": "validierst",
+        "er_sie_es": "validiert",
+        "wir": "validieren",
+        "ihr": "validiert",
+        "sie_Sie": "validieren"
+      },
+      "praeteritum": {
+        "ich": "validierte",
+        "du": "validiertest",
+        "er_sie_es": "validierte",
+        "wir": "validierten",
+        "ihr": "validiertet",
+        "sie_Sie": "validierten"
+      },
+      "konjunktiv1": {
+        "ich": "validiere",
+        "du": "validierest",
+        "er_sie_es": "validiere",
+        "wir": "validieren",
+        "ihr": "validieret",
+        "sie_Sie": "validieren"
+      },
+      "konjunktiv2": {
+        "ich": "validierte",
+        "du": "validiertest",
+        "er_sie_es": "validierte",
+        "wir": "validierten",
+        "ihr": "validiertet",
+        "sie_Sie": "validierten"
+      },
+      "imperativ": {
+        "du": "Validiere!",
+        "ihr": "Validiert!",
+        "Sie": "Validieren Sie!"
+      }
+    },
+    "partizip1": "validierend",
+    "nominalisierung": "die Validierung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "prüfen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بررسی کردن",
+          "en": "to check"
+        },
+        "id_ref": "verb_pruefen"
+      },
+      {
+        "wort": "bestätigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأیید کردن",
+          "en": "to confirm"
+        },
+        "id_ref": "verb_bestaetigen"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "die Studie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پژوهش",
+          "en": "study"
+        },
+        "id_ref": "nomen_studie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

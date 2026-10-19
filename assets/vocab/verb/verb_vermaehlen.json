@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_vermaehlen",
+  "wort": "vermählen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ازدواج کردن",
+      "به عقد درآوردن"
+    ],
+    "en": [
+      "to marry",
+      "to wed"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Liebe",
+    "Feier"
+  ],
+  "ipa": "fɛɐ̯ˈmɛːlən",
+  "anmerkung": "Gehoben; alltagssprachlich «heiraten».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Paar vermählt sich im Mai.",
+      "uebersetzung": {
+        "fa": "زوج در ماه مه ازدواج می‌کنند.",
+        "en": "The couple are getting married in May."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Prinz vermählte sich in einer prachtvollen Zeremonie mit einer bürgerlichen Frau.",
+      "uebersetzung": {
+        "fa": "شاهزاده در مراسمی باشکوه با زنی از طبقه‌ی عادی ازدواج کرد.",
+        "en": "The prince married a commoner in a splendid ceremony."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heiraten",
+      "uebersetzung": {
+        "fa": "ازدواج کردن",
+        "en": "to marry"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich scheiden lassen",
+      "uebersetzung": {
+        "fa": "طلاق گرفتن",
+        "en": "to get divorced"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + آلمانی کهن mahal (پیمان)",
+    "en": "ver- + Old High German mahal (contract)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich vermählen mit + Dat",
+        "bedeutung": "jemanden heiraten",
+        "beispiel": "Sie vermählte sich mit ihrer Jugendliebe.",
+        "uebersetzung": {
+          "fa": "با عشق دوران جوانی‌اش ازدواج کرد.",
+          "en": "She married her childhood sweetheart."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vermählen",
+      "praeteritum": "vermählte",
+      "partizip2": "vermählt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vermähle",
+        "du": "vermählst",
+        "er_sie_es": "vermählt",
+        "wir": "vermählen",
+        "ihr": "vermählt",
+        "sie_Sie": "vermählen"
+      },
+      "praeteritum": {
+        "ich": "vermählte",
+        "du": "vermähltest",
+        "er_sie_es": "vermählte",
+        "wir": "vermählten",
+        "ihr": "vermähltet",
+        "sie_Sie": "vermählten"
+      },
+      "konjunktiv1": {
+        "ich": "vermähle",
+        "du": "vermählest",
+        "er_sie_es": "vermähle",
+        "wir": "vermählen",
+        "ihr": "vermählet",
+        "sie_Sie": "vermählen"
+      },
+      "konjunktiv2": {
+        "ich": "vermählte",
+        "du": "vermähltest",
+        "er_sie_es": "vermählte",
+        "wir": "vermählten",
+        "ihr": "vermähltet",
+        "sie_Sie": "vermählten"
+      },
+      "imperativ": {
+        "du": "Vermähle!",
+        "ihr": "Vermählt!",
+        "Sie": "Vermählen Sie!"
+      }
+    },
+    "partizip1": "vermählend",
+    "nominalisierung": "die Vermählung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "heiraten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ازدواج کردن",
+          "en": "to marry"
+        },
+        "id_ref": "verb_heiraten"
+      },
+      {
+        "wort": "die Hochzeit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عروسی",
+          "en": "wedding"
+        },
+        "id_ref": "nomen_hochzeit"
+      },
+      {
+        "wort": "die Ehe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ازدواج",
+          "en": "marriage"
+        },
+        "id_ref": "nomen_ehe"
+      },
+      {
+        "wort": "die Braut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عروس",
+          "en": "bride"
+        },
+        "id_ref": "nomen_braut"
+      },
+      {
+        "wort": "der Ring",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حلقه",
+          "en": "ring"
+        },
+        "id_ref": "nomen_ring"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

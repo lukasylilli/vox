@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfrachten",
+  "wort": "verfrachten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بار زدن و فرستادن",
+      "به جایی منتقل کردن"
+    ],
+    "en": [
+      "to ship",
+      "to bundle off"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Logistik",
+    "Verkehr"
+  ],
+  "ipa": "fɛɐ̯ˈfʁaxtn̩",
+  "anmerkung": "Umgangssprachlich auch: jemanden irgendwohin bringen (die Kinder ins Bett verfrachten).",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir verfrachten die Kisten.",
+      "uebersetzung": {
+        "fa": "جعبه‌ها را بار می‌زنیم و می‌فرستیم.",
+        "en": "We ship the crates."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Party wurde er von seinen Freunden ins Taxi verfrachtet und nach Hause geschickt.",
+      "uebersetzung": {
+        "fa": "پس از جشن دوستانش او را در تاکسی نشاندند و به خانه فرستادند.",
+        "en": "After the party his friends bundled him into a taxi and sent him home."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verladen",
+      "uebersetzung": {
+        "fa": "بارگیری کردن",
+        "en": "to load"
+      }
+    },
+    {
+      "wort": "befördern",
+      "uebersetzung": {
+        "fa": "حمل کردن",
+        "en": "to convey"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Fracht (بار)",
+    "en": "ver- + die Fracht (freight)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verfrachten",
+      "praeteritum": "verfrachtete",
+      "partizip2": "verfrachtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfrachte",
+        "du": "verfrachtest",
+        "er_sie_es": "verfrachtet",
+        "wir": "verfrachten",
+        "ihr": "verfrachtet",
+        "sie_Sie": "verfrachten"
+      },
+      "praeteritum": {
+        "ich": "verfrachtete",
+        "du": "verfrachtetest",
+        "er_sie_es": "verfrachtete",
+        "wir": "verfrachteten",
+        "ihr": "verfrachtetet",
+        "sie_Sie": "verfrachteten"
+      },
+      "konjunktiv1": {
+        "ich": "verfrachte",
+        "du": "verfrachtest",
+        "er_sie_es": "verfrachte",
+        "wir": "verfrachten",
+        "ihr": "verfrachtet",
+        "sie_Sie": "verfrachten"
+      },
+      "konjunktiv2": {
+        "ich": "verfrachtete",
+        "du": "verfrachtetest",
+        "er_sie_es": "verfrachtete",
+        "wir": "verfrachteten",
+        "ihr": "verfrachtetet",
+        "sie_Sie": "verfrachteten"
+      },
+      "imperativ": {
+        "du": "Verfrachte!",
+        "ihr": "Verfrachtet!",
+        "Sie": "Verfrachten Sie!"
+      }
+    },
+    "partizip1": "verfrachtend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Fracht",
+    "woerter": [
+      {
+        "wort": "die Fracht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "freight"
+        },
+        "id_ref": "nomen_fracht"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      },
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Container",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کانتینر",
+          "en": "container"
+        },
+        "id_ref": "nomen_container"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

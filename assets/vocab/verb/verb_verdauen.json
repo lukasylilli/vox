@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "verb_verdauen",
+  "wort": "verdauen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هضم کردن",
+      "کنار آمدن با (خبر یا اتفاق)"
+    ],
+    "en": [
+      "to digest",
+      "to come to terms with"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈdaʊ̯ən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Magen verdaut das Essen.",
+      "uebersetzung": {
+        "fa": "معده غذا را هضم می‌کند.",
+        "en": "The stomach digests the food."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Diese Nachricht muss ich erst einmal verdauen, bevor ich eine Entscheidung treffe.",
+      "uebersetzung": {
+        "fa": "اول باید با این خبر کنار بیایم، پیش از آن‌که تصمیمی بگیرم.",
+        "en": "I first have to digest this news before I make a decision."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن firdouwen (هضم کردن)",
+    "en": "from Old High German firdouwen (to digest)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verdauen",
+      "praeteritum": "verdaute",
+      "partizip2": "verdaut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verdaue",
+        "du": "verdaust",
+        "er_sie_es": "verdaut",
+        "wir": "verdauen",
+        "ihr": "verdaut",
+        "sie_Sie": "verdauen"
+      },
+      "praeteritum": {
+        "ich": "verdaute",
+        "du": "verdautest",
+        "er_sie_es": "verdaute",
+        "wir": "verdauten",
+        "ihr": "verdautet",
+        "sie_Sie": "verdauten"
+      },
+      "konjunktiv1": {
+        "ich": "verdaue",
+        "du": "verdauest",
+        "er_sie_es": "verdaue",
+        "wir": "verdauen",
+        "ihr": "verdauet",
+        "sie_Sie": "verdauen"
+      },
+      "konjunktiv2": {
+        "ich": "verdaute",
+        "du": "verdautest",
+        "er_sie_es": "verdaute",
+        "wir": "verdauten",
+        "ihr": "verdautet",
+        "sie_Sie": "verdauten"
+      },
+      "imperativ": {
+        "du": "Verdaue!",
+        "ihr": "Verdaut!",
+        "Sie": "Verdauen Sie!"
+      }
+    },
+    "partizip1": "verdauend",
+    "nominalisierung": "die Verdauung"
+  },
+  "wortnetz": {
+    "grundwort": "Verdauung",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "der Magen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معده",
+          "en": "stomach"
+        },
+        "id_ref": "nomen_magen"
+      },
+      {
+        "wort": "der Darm",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روده",
+          "en": "intestine"
+        },
+        "id_ref": "nomen_darm"
+      },
+      {
+        "wort": "die Verdauung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گوارش",
+          "en": "digestion"
+        },
+        "id_ref": "nomen_verdauung"
+      },
+      {
+        "wort": "schwer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سنگین",
+          "en": "heavy"
+        },
+        "id_ref": "adjektiv_schwer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,163 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergiften",
+  "wort": "vergiften",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "مسموم کردن"
+    ],
+    "en": [
+      "to poison"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Umwelt"
+  ],
+  "ipa": "fɛɐ̯ˈɡɪftn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser ist vergiftet.",
+      "uebersetzung": {
+        "fa": "آب مسموم است.",
+        "en": "The water is poisoned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem er die falschen Pilze gegessen hatte, musste er wegen einer Vergiftung ins Krankenhaus.",
+      "uebersetzung": {
+        "fa": "پس از خوردن قارچ‌های اشتباه، به خاطر مسمومیت به بیمارستان رفت.",
+        "en": "After he had eaten the wrong mushrooms, he had to go to hospital with poisoning."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + das Gift (سم)",
+    "en": "ver- + das Gift (poison)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vergiften",
+      "praeteritum": "vergiftete",
+      "partizip2": "vergiftet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergifte",
+        "du": "vergiftest",
+        "er_sie_es": "vergiftet",
+        "wir": "vergiften",
+        "ihr": "vergiftet",
+        "sie_Sie": "vergiften"
+      },
+      "praeteritum": {
+        "ich": "vergiftete",
+        "du": "vergiftetest",
+        "er_sie_es": "vergiftete",
+        "wir": "vergifteten",
+        "ihr": "vergiftetet",
+        "sie_Sie": "vergifteten"
+      },
+      "konjunktiv1": {
+        "ich": "vergifte",
+        "du": "vergiftest",
+        "er_sie_es": "vergifte",
+        "wir": "vergiften",
+        "ihr": "vergiftet",
+        "sie_Sie": "vergiften"
+      },
+      "konjunktiv2": {
+        "ich": "vergiftete",
+        "du": "vergiftetest",
+        "er_sie_es": "vergiftete",
+        "wir": "vergifteten",
+        "ihr": "vergiftetet",
+        "sie_Sie": "vergifteten"
+      },
+      "imperativ": {
+        "du": "Vergifte!",
+        "ihr": "Vergiftet!",
+        "Sie": "Vergiften Sie!"
+      }
+    },
+    "partizip1": "vergiftend",
+    "nominalisierung": "die Vergiftung"
+  },
+  "wortnetz": {
+    "grundwort": "Gift",
+    "woerter": [
+      {
+        "wort": "das Gift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سم",
+          "en": "poison"
+        },
+        "id_ref": "nomen_gift"
+      },
+      {
+        "wort": "giftig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سمی",
+          "en": "poisonous"
+        },
+        "id_ref": "adjektiv_giftig"
+      },
+      {
+        "wort": "die Vergiftung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسمومیت",
+          "en": "poisoning"
+        },
+        "id_ref": "nomen_vergiftung"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

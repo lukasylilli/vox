@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergueten",
+  "wort": "vergüten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرداخت کردن (دستمزد)",
+      "جبران کردن (هزینه)"
+    ],
+    "en": [
+      "to pay",
+      "to reimburse"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Finanzen"
+  ],
+  "ipa": "fɛɐ̯ˈɡyːtn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma vergütet die Fahrtkosten.",
+      "uebersetzung": {
+        "fa": "شرکت هزینه‌ی رفت‌وآمد را جبران می‌کند.",
+        "en": "The company reimburses travel costs."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Überstunden werden in unserem Betrieb entweder vergütet oder mit Freizeit ausgeglichen.",
+      "uebersetzung": {
+        "fa": "در شرکت ما اضافه‌کاری یا پرداخت می‌شود یا با مرخصی جبران می‌شود.",
+        "en": "In our company overtime is either paid or compensated with time off."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    },
+    {
+      "wort": "erstatten",
+      "uebersetzung": {
+        "fa": "بازپرداخت کردن",
+        "en": "to refund"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + gut (خوب) ← جبران کردن",
+    "en": "ver- + gut (good) → to make good"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vergüten",
+      "praeteritum": "vergütete",
+      "partizip2": "vergütet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergüte",
+        "du": "vergütest",
+        "er_sie_es": "vergütet",
+        "wir": "vergüten",
+        "ihr": "vergütet",
+        "sie_Sie": "vergüten"
+      },
+      "praeteritum": {
+        "ich": "vergütete",
+        "du": "vergütetest",
+        "er_sie_es": "vergütete",
+        "wir": "vergüteten",
+        "ihr": "vergütetet",
+        "sie_Sie": "vergüteten"
+      },
+      "konjunktiv1": {
+        "ich": "vergüte",
+        "du": "vergütest",
+        "er_sie_es": "vergüte",
+        "wir": "vergüten",
+        "ihr": "vergütet",
+        "sie_Sie": "vergüten"
+      },
+      "konjunktiv2": {
+        "ich": "vergütete",
+        "du": "vergütetest",
+        "er_sie_es": "vergütete",
+        "wir": "vergüteten",
+        "ihr": "vergütetet",
+        "sie_Sie": "vergüteten"
+      },
+      "imperativ": {
+        "du": "Vergüte!",
+        "ihr": "Vergütet!",
+        "Sie": "Vergüten Sie!"
+      }
+    },
+    "partizip1": "vergütend",
+    "nominalisierung": "die Vergütung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "der Lohn",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمزد",
+          "en": "wage"
+        },
+        "id_ref": "nomen_lohn"
+      },
+      {
+        "wort": "das Gehalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقوق",
+          "en": "salary"
+        },
+        "id_ref": "nomen_gehalt"
+      },
+      {
+        "wort": "erstatten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازپرداخت کردن",
+          "en": "to refund"
+        },
+        "id_ref": "verb_erstatten"
+      },
+      {
+        "wort": "die Überstunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اضافه‌کاری",
+          "en": "overtime"
+        },
+        "id_ref": "nomen_ueberstunde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

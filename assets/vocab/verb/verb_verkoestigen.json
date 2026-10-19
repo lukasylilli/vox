@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_verkoestigen",
+  "wort": "verköstigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غذا دادن، پذیرایی کردن"
+    ],
+    "en": [
+      "to feed",
+      "to cater for"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Essen",
+    "Gastronomie"
+  ],
+  "ipa": "fɛɐ̯ˈkœstɪɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Küche verköstigt hundert Gäste.",
+      "uebersetzung": {
+        "fa": "آشپزخانه از صد مهمان پذیرایی می‌کند.",
+        "en": "The kitchen caters for a hundred guests."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während des Seminars werden die Teilnehmer im Hotel verköstigt, deshalb muss niemand selbst kochen.",
+      "uebersetzung": {
+        "fa": "در طول سمینار از شرکت‌کنندگان در هتل پذیرایی می‌شود، برای همین کسی لازم نیست خودش آشپزی کند.",
+        "en": "During the seminar the participants are catered for at the hotel, so nobody has to cook for themselves."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verpflegen",
+      "uebersetzung": {
+        "fa": "تغذیه کردن",
+        "en": "to provide food"
+      }
+    },
+    {
+      "wort": "bewirten",
+      "uebersetzung": {
+        "fa": "پذیرایی کردن",
+        "en": "to entertain"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Kost (غذا)",
+    "en": "ver- + die Kost (food)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verköstigen",
+      "praeteritum": "verköstigte",
+      "partizip2": "verköstigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verköstige",
+        "du": "verköstigst",
+        "er_sie_es": "verköstigt",
+        "wir": "verköstigen",
+        "ihr": "verköstigt",
+        "sie_Sie": "verköstigen"
+      },
+      "praeteritum": {
+        "ich": "verköstigte",
+        "du": "verköstigtest",
+        "er_sie_es": "verköstigte",
+        "wir": "verköstigten",
+        "ihr": "verköstigtet",
+        "sie_Sie": "verköstigten"
+      },
+      "konjunktiv1": {
+        "ich": "verköstige",
+        "du": "verköstigest",
+        "er_sie_es": "verköstige",
+        "wir": "verköstigen",
+        "ihr": "verköstiget",
+        "sie_Sie": "verköstigen"
+      },
+      "konjunktiv2": {
+        "ich": "verköstigte",
+        "du": "verköstigtest",
+        "er_sie_es": "verköstigte",
+        "wir": "verköstigten",
+        "ihr": "verköstigtet",
+        "sie_Sie": "verköstigten"
+      },
+      "imperativ": {
+        "du": "Verköstige!",
+        "ihr": "Verköstigt!",
+        "Sie": "Verköstigen Sie!"
+      }
+    },
+    "partizip1": "verköstigend",
+    "nominalisierung": "die Verköstigung"
+  },
+  "wortnetz": {
+    "grundwort": "Kost",
+    "woerter": [
+      {
+        "wort": "essen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوردن",
+          "en": "to eat"
+        },
+        "id_ref": "verb_essen"
+      },
+      {
+        "wort": "die Kost",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "غذا، خوراک",
+          "en": "food, diet"
+        },
+        "id_ref": "nomen_kost"
+      },
+      {
+        "wort": "die Verpflegung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تغذیه",
+          "en": "catering"
+        },
+        "id_ref": "nomen_verpflegung"
+      },
+      {
+        "wort": "der Gast",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمان",
+          "en": "guest"
+        },
+        "id_ref": "nomen_gast"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

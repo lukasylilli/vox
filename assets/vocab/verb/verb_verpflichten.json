@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_verpflichten",
+  "wort": "verpflichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "موظف کردن",
+      "متعهد شدن",
+      "به خدمت گرفتن"
+    ],
+    "en": [
+      "to oblige",
+      "to commit",
+      "to sign (up)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "fɛɐ̯ˈp͡flɪçtn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vertrag verpflichtet uns.",
+      "uebersetzung": {
+        "fa": "قرارداد ما را موظف می‌کند.",
+        "en": "The contract obliges us."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mit seiner Unterschrift hat er sich verpflichtet, die Miete jeden Monat pünktlich zu zahlen.",
+      "uebersetzung": {
+        "fa": "با امضایش متعهد شد اجاره را هر ماه به‌موقع بپردازد.",
+        "en": "With his signature he committed himself to paying the rent on time every month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "binden",
+      "uebersetzung": {
+        "fa": "متعهد کردن",
+        "en": "to bind"
+      }
+    },
+    {
+      "wort": "zwingen",
+      "uebersetzung": {
+        "fa": "وادار کردن",
+        "en": "to force"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Pflicht (وظیفه)",
+    "en": "ver- + die Pflicht (duty)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "verpflichten zu + Dat",
+        "bedeutung": "jemanden zu etwas binden",
+        "beispiel": "Das Gesetz verpflichtet Arbeitgeber zum Schutz der Mitarbeiter.",
+        "uebersetzung": {
+          "fa": "قانون کارفرمایان را به حفاظت از کارکنان موظف می‌کند.",
+          "en": "The law obliges employers to protect their staff."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verpflichten",
+      "praeteritum": "verpflichtete",
+      "partizip2": "verpflichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verpflichte",
+        "du": "verpflichtest",
+        "er_sie_es": "verpflichtet",
+        "wir": "verpflichten",
+        "ihr": "verpflichtet",
+        "sie_Sie": "verpflichten"
+      },
+      "praeteritum": {
+        "ich": "verpflichtete",
+        "du": "verpflichtetest",
+        "er_sie_es": "verpflichtete",
+        "wir": "verpflichteten",
+        "ihr": "verpflichtetet",
+        "sie_Sie": "verpflichteten"
+      },
+      "konjunktiv1": {
+        "ich": "verpflichte",
+        "du": "verpflichtest",
+        "er_sie_es": "verpflichte",
+        "wir": "verpflichten",
+        "ihr": "verpflichtet",
+        "sie_Sie": "verpflichten"
+      },
+      "konjunktiv2": {
+        "ich": "verpflichtete",
+        "du": "verpflichtetest",
+        "er_sie_es": "verpflichtete",
+        "wir": "verpflichteten",
+        "ihr": "verpflichtetet",
+        "sie_Sie": "verpflichteten"
+      },
+      "imperativ": {
+        "du": "Verpflichte!",
+        "ihr": "Verpflichtet!",
+        "Sie": "Verpflichten Sie!"
+      }
+    },
+    "partizip1": "verpflichtend",
+    "nominalisierung": "die Verpflichtung"
+  },
+  "wortnetz": {
+    "grundwort": "Pflicht",
+    "woerter": [
+      {
+        "wort": "die Pflicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وظیفه",
+          "en": "duty"
+        },
+        "id_ref": "nomen_pflicht"
+      },
+      {
+        "wort": "müssen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باید",
+          "en": "must"
+        },
+        "id_ref": "verb_muessen"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "verantwortlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسئول",
+          "en": "responsible"
+        },
+        "id_ref": "adjektiv_verantwortlich"
+      },
+      {
+        "wort": "die Verpflichtung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعهد",
+          "en": "obligation"
+        },
+        "id_ref": "nomen_verpflichtung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

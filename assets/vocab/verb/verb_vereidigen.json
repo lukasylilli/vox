@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_vereidigen",
+  "wort": "vereidigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سوگند دادن"
+    ],
+    "en": [
+      "to swear in"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Politik"
+  ],
+  "ipa": "fɛɐ̯ˈʔaɪ̯dɪɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Präsident wird vereidigt.",
+      "uebersetzung": {
+        "fa": "رئیس‌جمهور سوگند یاد می‌کند.",
+        "en": "The president is sworn in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor der Zeuge aussagen durfte, wurde er vom Richter vereidigt.",
+      "uebersetzung": {
+        "fa": "پیش از آن‌که شاهد اجازه‌ی شهادت بیابد، قاضی از او سوگند گرفت.",
+        "en": "Before the witness was allowed to testify, he was sworn in by the judge."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + der Eid (سوگند)",
+    "en": "ver- + der Eid (oath)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "vereidigen auf + Akk",
+        "bedeutung": "jemanden einen Eid auf etwas schwören lassen",
+        "beispiel": "Die Minister wurden auf die Verfassung vereidigt.",
+        "uebersetzung": {
+          "fa": "وزیران بر قانون اساسی سوگند یاد کردند.",
+          "en": "The ministers were sworn in on the constitution."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vereidigen",
+      "praeteritum": "vereidigte",
+      "partizip2": "vereidigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vereidige",
+        "du": "vereidigst",
+        "er_sie_es": "vereidigt",
+        "wir": "vereidigen",
+        "ihr": "vereidigt",
+        "sie_Sie": "vereidigen"
+      },
+      "praeteritum": {
+        "ich": "vereidigte",
+        "du": "vereidigtest",
+        "er_sie_es": "vereidigte",
+        "wir": "vereidigten",
+        "ihr": "vereidigtet",
+        "sie_Sie": "vereidigten"
+      },
+      "konjunktiv1": {
+        "ich": "vereidige",
+        "du": "vereidigest",
+        "er_sie_es": "vereidige",
+        "wir": "vereidigen",
+        "ihr": "vereidiget",
+        "sie_Sie": "vereidigen"
+      },
+      "konjunktiv2": {
+        "ich": "vereidigte",
+        "du": "vereidigtest",
+        "er_sie_es": "vereidigte",
+        "wir": "vereidigten",
+        "ihr": "vereidigtet",
+        "sie_Sie": "vereidigten"
+      },
+      "imperativ": {
+        "du": "Vereidige!",
+        "ihr": "Vereidigt!",
+        "Sie": "Vereidigen Sie!"
+      }
+    },
+    "partizip1": "vereidigend",
+    "nominalisierung": "die Vereidigung"
+  },
+  "wortnetz": {
+    "grundwort": "Eid",
+    "woerter": [
+      {
+        "wort": "der Eid",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوگند",
+          "en": "oath"
+        },
+        "id_ref": "nomen_eid"
+      },
+      {
+        "wort": "schwören",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سوگند خوردن",
+          "en": "to swear"
+        },
+        "id_ref": "verb_schwoeren"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقام، اداره",
+          "en": "office"
+        },
+        "id_ref": "nomen_amt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

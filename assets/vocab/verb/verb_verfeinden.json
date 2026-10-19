@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_verfeinden",
+  "wort": "verfeinden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با هم دشمن شدن"
+    ],
+    "en": [
+      "to fall out",
+      "to become enemies"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈfaɪ̯ndn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Brüder verfeinden sich.",
+      "uebersetzung": {
+        "fa": "برادرها با هم دشمن می‌شوند.",
+        "en": "The brothers fall out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen eines Streits um das Grundstück haben sich die Nachbarn für immer verfeindet.",
+      "uebersetzung": {
+        "fa": "همسایه‌ها به خاطر دعوا بر سر زمین برای همیشه دشمن هم شدند.",
+        "en": "Because of a dispute over the plot of land, the neighbours became enemies for good."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "sich versöhnen",
+      "uebersetzung": {
+        "fa": "آشتی کردن",
+        "en": "to reconcile"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + der Feind (دشمن)",
+    "en": "ver- + der Feind (enemy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich verfeinden mit + Dat",
+        "bedeutung": "mit jemandem in Feindschaft geraten",
+        "beispiel": "Er hat sich mit seinem besten Freund verfeindet.",
+        "uebersetzung": {
+          "fa": "با بهترین دوستش دشمن شد.",
+          "en": "He fell out with his best friend."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verfeinden",
+      "praeteritum": "verfeindete",
+      "partizip2": "verfeindet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verfeinde",
+        "du": "verfeindest",
+        "er_sie_es": "verfeindet",
+        "wir": "verfeinden",
+        "ihr": "verfeindet",
+        "sie_Sie": "verfeinden"
+      },
+      "praeteritum": {
+        "ich": "verfeindete",
+        "du": "verfeindetest",
+        "er_sie_es": "verfeindete",
+        "wir": "verfeindeten",
+        "ihr": "verfeindetet",
+        "sie_Sie": "verfeindeten"
+      },
+      "konjunktiv1": {
+        "ich": "verfeinde",
+        "du": "verfeindest",
+        "er_sie_es": "verfeinde",
+        "wir": "verfeinden",
+        "ihr": "verfeindet",
+        "sie_Sie": "verfeinden"
+      },
+      "konjunktiv2": {
+        "ich": "verfeindete",
+        "du": "verfeindetest",
+        "er_sie_es": "verfeindete",
+        "wir": "verfeindeten",
+        "ihr": "verfeindetet",
+        "sie_Sie": "verfeindeten"
+      },
+      "imperativ": {
+        "du": "Verfeinde!",
+        "ihr": "Verfeindet!",
+        "Sie": "Verfeinden Sie!"
+      }
+    },
+    "partizip1": "verfeindend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Feind",
+    "woerter": [
+      {
+        "wort": "der Feind",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دشمن",
+          "en": "enemy"
+        },
+        "id_ref": "nomen_feind"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "versöhnen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آشتی دادن",
+          "en": "to reconcile"
+        },
+        "id_ref": "verb_versoehnen"
+      },
+      {
+        "wort": "die Feindschaft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دشمنی",
+          "en": "enmity"
+        },
+        "id_ref": "nomen_feindschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

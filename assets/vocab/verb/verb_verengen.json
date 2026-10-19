@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_verengen",
+  "wort": "verengen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنگ کردن",
+      "باریک شدن"
+    ],
+    "en": [
+      "to narrow",
+      "to constrict"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Verkehr",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈʔɛŋən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße verengt sich.",
+      "uebersetzung": {
+        "fa": "خیابان باریک می‌شود.",
+        "en": "The road narrows."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn sich die Blutgefäße verengen, steigt das Risiko für einen Herzinfarkt.",
+      "uebersetzung": {
+        "fa": "وقتی رگ‌های خونی تنگ می‌شوند، خطر سکته‌ی قلبی بالا می‌رود.",
+        "en": "When the blood vessels narrow, the risk of a heart attack rises."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "erweitern",
+      "uebersetzung": {
+        "fa": "گشاد کردن",
+        "en": "to widen"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + eng (تنگ)",
+    "en": "ver- + eng (narrow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verengen",
+      "praeteritum": "verengte",
+      "partizip2": "verengt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verenge",
+        "du": "verengst",
+        "er_sie_es": "verengt",
+        "wir": "verengen",
+        "ihr": "verengt",
+        "sie_Sie": "verengen"
+      },
+      "praeteritum": {
+        "ich": "verengte",
+        "du": "verengtest",
+        "er_sie_es": "verengte",
+        "wir": "verengten",
+        "ihr": "verengtet",
+        "sie_Sie": "verengten"
+      },
+      "konjunktiv1": {
+        "ich": "verenge",
+        "du": "verengest",
+        "er_sie_es": "verenge",
+        "wir": "verengen",
+        "ihr": "verenget",
+        "sie_Sie": "verengen"
+      },
+      "konjunktiv2": {
+        "ich": "verengte",
+        "du": "verengtest",
+        "er_sie_es": "verengte",
+        "wir": "verengten",
+        "ihr": "verengtet",
+        "sie_Sie": "verengten"
+      },
+      "imperativ": {
+        "du": "Verenge!",
+        "ihr": "Verengt!",
+        "Sie": "Verengen Sie!"
+      }
+    },
+    "partizip1": "verengend",
+    "nominalisierung": "die Verengung"
+  },
+  "wortnetz": {
+    "grundwort": "eng",
+    "woerter": [
+      {
+        "wort": "eng",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تنگ",
+          "en": "narrow"
+        },
+        "id_ref": "adjektiv_eng"
+      },
+      {
+        "wort": "breit",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پهن",
+          "en": "wide"
+        },
+        "id_ref": "adjektiv_breit"
+      },
+      {
+        "wort": "erweitern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گسترش دادن",
+          "en": "to widen"
+        },
+        "id_ref": "verb_erweitern"
+      },
+      {
+        "wort": "die Straße",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خیابان",
+          "en": "street"
+        },
+        "id_ref": "nomen_strasse"
+      },
+      {
+        "wort": "das Blutgefäß",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رگ خونی",
+          "en": "blood vessel"
+        },
+        "id_ref": "nomen_blutgefaess"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

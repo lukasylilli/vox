@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_verletzen",
+  "wort": "verletzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زخمی کردن",
+      "آزردن (احساس)",
+      "نقض کردن (قانون)"
+    ],
+    "en": [
+      "to injure",
+      "to hurt",
+      "to violate"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈlɛt͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mich am Knie verletzt.",
+      "uebersetzung": {
+        "fa": "زانویم آسیب دید.",
+        "en": "I have injured my knee."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seine Worte haben sie sehr verletzt, obwohl er es nicht böse gemeint hat.",
+      "uebersetzung": {
+        "fa": "حرف‌هایش او را خیلی آزرد، با این‌که منظور بدی نداشت.",
+        "en": "His words hurt her very much although he did not mean any harm."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verwunden",
+      "uebersetzung": {
+        "fa": "زخمی کردن",
+        "en": "to wound"
+      }
+    },
+    {
+      "wort": "kränken",
+      "uebersetzung": {
+        "fa": "رنجاندن",
+        "en": "to offend"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "heilen",
+      "uebersetzung": {
+        "fa": "شفا دادن",
+        "en": "to heal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + آلمانی کهن lezzen (آسیب زدن)",
+    "en": "ver- + Old High German lezzen (to harm)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verletzen",
+      "praeteritum": "verletzte",
+      "partizip2": "verletzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verletze",
+        "du": "verletzt",
+        "er_sie_es": "verletzt",
+        "wir": "verletzen",
+        "ihr": "verletzt",
+        "sie_Sie": "verletzen"
+      },
+      "praeteritum": {
+        "ich": "verletzte",
+        "du": "verletztest",
+        "er_sie_es": "verletzte",
+        "wir": "verletzten",
+        "ihr": "verletztet",
+        "sie_Sie": "verletzten"
+      },
+      "konjunktiv1": {
+        "ich": "verletze",
+        "du": "verletzest",
+        "er_sie_es": "verletze",
+        "wir": "verletzen",
+        "ihr": "verletzet",
+        "sie_Sie": "verletzen"
+      },
+      "konjunktiv2": {
+        "ich": "verletzte",
+        "du": "verletztest",
+        "er_sie_es": "verletzte",
+        "wir": "verletzten",
+        "ihr": "verletztet",
+        "sie_Sie": "verletzten"
+      },
+      "imperativ": {
+        "du": "Verletze!",
+        "ihr": "Verletzt!",
+        "Sie": "Verletzen Sie!"
+      }
+    },
+    "partizip1": "verletzend",
+    "nominalisierung": "die Verletzung"
+  },
+  "wortnetz": {
+    "grundwort": "Verletzung",
+    "woerter": [
+      {
+        "wort": "die Verletzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب",
+          "en": "injury"
+        },
+        "id_ref": "nomen_verletzung"
+      },
+      {
+        "wort": "verletzt",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی",
+          "en": "injured"
+        },
+        "id_ref": "adjektiv_verletzt"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "wehtun",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد کردن",
+          "en": "to hurt"
+        },
+        "id_ref": "verb_wehtun"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

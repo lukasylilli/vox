@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_verheddern",
+  "wort": "verheddern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گره خوردن، در هم پیچیدن",
+      "زبان‌گیر شدن"
+    ],
+    "en": [
+      "to get tangled up",
+      "to get muddled"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "fɛɐ̯ˈhɛdɐn",
+  "anmerkung": "Umgangssprachlich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kabel verheddert sich.",
+      "uebersetzung": {
+        "fa": "کابل در هم می‌پیچد.",
+        "en": "The cable gets tangled."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Rede war er so nervös, dass er sich ständig in langen Sätzen verhedderte.",
+      "uebersetzung": {
+        "fa": "هنگام سخنرانی آن‌قدر مضطرب بود که مدام در جمله‌های طولانی گیر می‌کرد.",
+        "en": "During the speech he was so nervous that he kept getting tangled up in long sentences."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verwickeln",
+      "uebersetzung": {
+        "fa": "گیر افتادن",
+        "en": "to get entangled"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + آلمانی شمالی Hede (پرز کتان)",
+    "en": "ver- + Northern German Hede (tow, flax fibre)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich verheddern in + Dat",
+        "bedeutung": "in etwas hängen bleiben",
+        "beispiel": "Der Vogel hatte sich im Netz verheddert.",
+        "uebersetzung": {
+          "fa": "پرنده در تور گیر افتاده بود.",
+          "en": "The bird had got tangled up in the net."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verheddern",
+      "praeteritum": "verhedderte",
+      "partizip2": "verheddert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verheddere",
+        "du": "verhedderst",
+        "er_sie_es": "verheddert",
+        "wir": "verheddern",
+        "ihr": "verheddert",
+        "sie_Sie": "verheddern"
+      },
+      "praeteritum": {
+        "ich": "verhedderte",
+        "du": "verheddertest",
+        "er_sie_es": "verhedderte",
+        "wir": "verhedderten",
+        "ihr": "verheddertet",
+        "sie_Sie": "verhedderten"
+      },
+      "konjunktiv1": {
+        "ich": "verheddere",
+        "du": "verhedderest",
+        "er_sie_es": "verheddere",
+        "wir": "verheddern",
+        "ihr": "verhedderet",
+        "sie_Sie": "verheddern"
+      },
+      "konjunktiv2": {
+        "ich": "verhedderte",
+        "du": "verheddertest",
+        "er_sie_es": "verhedderte",
+        "wir": "verhedderten",
+        "ihr": "verheddertet",
+        "sie_Sie": "verhedderten"
+      },
+      "imperativ": {
+        "du": "Verheddere!",
+        "ihr": "Verheddert!",
+        "Sie": "Verheddern Sie!"
+      }
+    },
+    "partizip1": "verheddernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Kabel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کابل",
+          "en": "cable"
+        },
+        "id_ref": "nomen_kabel"
+      },
+      {
+        "wort": "der Knoten",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گره",
+          "en": "knot"
+        },
+        "id_ref": "nomen_knoten"
+      },
+      {
+        "wort": "das Netz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تور، شبکه",
+          "en": "net"
+        },
+        "id_ref": "nomen_netz"
+      },
+      {
+        "wort": "nervös",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبی",
+          "en": "nervous"
+        },
+        "id_ref": "adjektiv_nervoes"
+      },
+      {
+        "wort": "verwirrt",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گیج",
+          "en": "confused"
+        },
+        "id_ref": "adjektiv_verwirrt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

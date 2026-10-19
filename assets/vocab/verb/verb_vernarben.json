@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_vernarben",
+  "wort": "vernarben",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جوش خوردن و جای زخم ماندن"
+    ],
+    "en": [
+      "to scar over",
+      "to heal (with a scar)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈnaʁbn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Wunde vernarbt.",
+      "uebersetzung": {
+        "fa": "زخم جوش می‌خورد و جایش می‌ماند.",
+        "en": "The wound is scarring over."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Operation ist der Schnitt gut vernarbt, man sieht ihn kaum noch.",
+      "uebersetzung": {
+        "fa": "پس از عمل جای برش خوب ترمیم شده و تقریباً دیده نمی‌شود.",
+        "en": "After the operation the incision has healed well and is hardly visible."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verheilen",
+      "uebersetzung": {
+        "fa": "بهبود یافتن",
+        "en": "to heal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Narbe (جای زخم)",
+    "en": "ver- + die Narbe (scar)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "vernarben",
+      "praeteritum": "vernarbte",
+      "partizip2": "vernarbt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vernarbe",
+        "du": "vernarbst",
+        "er_sie_es": "vernarbt",
+        "wir": "vernarben",
+        "ihr": "vernarbt",
+        "sie_Sie": "vernarben"
+      },
+      "praeteritum": {
+        "ich": "vernarbte",
+        "du": "vernarbtest",
+        "er_sie_es": "vernarbte",
+        "wir": "vernarbten",
+        "ihr": "vernarbtet",
+        "sie_Sie": "vernarbten"
+      },
+      "konjunktiv1": {
+        "ich": "vernarbe",
+        "du": "vernarbest",
+        "er_sie_es": "vernarbe",
+        "wir": "vernarben",
+        "ihr": "vernarbet",
+        "sie_Sie": "vernarben"
+      },
+      "konjunktiv2": {
+        "ich": "vernarbte",
+        "du": "vernarbtest",
+        "er_sie_es": "vernarbte",
+        "wir": "vernarbten",
+        "ihr": "vernarbtet",
+        "sie_Sie": "vernarbten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "vernarbend",
+    "nominalisierung": "die Vernarbung"
+  },
+  "wortnetz": {
+    "grundwort": "Narbe",
+    "woerter": [
+      {
+        "wort": "die Narbe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جای زخم",
+          "en": "scar"
+        },
+        "id_ref": "nomen_narbe"
+      },
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "heilen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خوب شدن",
+          "en": "to heal"
+        },
+        "id_ref": "verb_heilen"
+      },
+      {
+        "wort": "die Haut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوست",
+          "en": "skin"
+        },
+        "id_ref": "nomen_haut"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

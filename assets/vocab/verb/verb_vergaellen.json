@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_vergaellen",
+  "wort": "vergällen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زهر کردن (شادی)",
+      "تلخ کردن"
+    ],
+    "en": [
+      "to spoil",
+      "to sour"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈɡɛlən",
+  "anmerkung": "Gehoben; meist in «jemandem die Freude/Lust vergällen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Regen vergällt uns den Ausflug.",
+      "uebersetzung": {
+        "fa": "باران گردش را به کام‌مان تلخ می‌کند.",
+        "en": "The rain spoils our trip."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der ständige Streit mit dem Chef hat ihm die Freude an der Arbeit vergällt.",
+      "uebersetzung": {
+        "fa": "دعوای دائمی با رئیس، لذت کار را به کامش تلخ کرد.",
+        "en": "The constant quarrelling with his boss has spoiled his enjoyment of the job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verderben",
+      "uebersetzung": {
+        "fa": "خراب کردن",
+        "en": "to spoil"
+      }
+    },
+    {
+      "wort": "vermiesen",
+      "uebersetzung": {
+        "fa": "زهر کردن",
+        "en": "to sour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Galle (زهره، صفرا)",
+    "en": "ver- + die Galle (bile)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem + Akk vergällen",
+        "bedeutung": "jemandem die Freude an etwas nehmen",
+        "beispiel": "Das schlechte Essen hat uns den Abend vergällt.",
+        "uebersetzung": {
+          "fa": "غذای بد شب را به کام‌مان تلخ کرد.",
+          "en": "The bad food spoiled our evening."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "vergällen",
+      "praeteritum": "vergällte",
+      "partizip2": "vergällt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "vergälle",
+        "du": "vergällst",
+        "er_sie_es": "vergällt",
+        "wir": "vergällen",
+        "ihr": "vergällt",
+        "sie_Sie": "vergällen"
+      },
+      "praeteritum": {
+        "ich": "vergällte",
+        "du": "vergälltest",
+        "er_sie_es": "vergällte",
+        "wir": "vergällten",
+        "ihr": "vergälltet",
+        "sie_Sie": "vergällten"
+      },
+      "konjunktiv1": {
+        "ich": "vergälle",
+        "du": "vergällest",
+        "er_sie_es": "vergälle",
+        "wir": "vergällen",
+        "ihr": "vergället",
+        "sie_Sie": "vergällen"
+      },
+      "konjunktiv2": {
+        "ich": "vergällte",
+        "du": "vergälltest",
+        "er_sie_es": "vergällte",
+        "wir": "vergällten",
+        "ihr": "vergälltet",
+        "sie_Sie": "vergällten"
+      },
+      "imperativ": {
+        "du": "Vergälle!",
+        "ihr": "Vergällt!",
+        "Sie": "Vergällen Sie!"
+      }
+    },
+    "partizip1": "vergällend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Freude",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شادی",
+          "en": "joy"
+        },
+        "id_ref": "nomen_freude"
+      },
+      {
+        "wort": "verderben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خراب کردن",
+          "en": "to spoil"
+        },
+        "id_ref": "verb_verderben"
+      },
+      {
+        "wort": "ärgern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عصبانی کردن",
+          "en": "to annoy"
+        },
+        "id_ref": "verb_aergern"
+      },
+      {
+        "wort": "die Galle",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "صفرا",
+          "en": "bile"
+        },
+        "id_ref": "nomen_galle"
+      },
+      {
+        "wort": "bitter",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تلخ",
+          "en": "bitter"
+        },
+        "id_ref": "adjektiv_bitter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
