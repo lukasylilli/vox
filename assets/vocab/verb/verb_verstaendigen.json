@@ -1,0 +1,199 @@
+{
+  "schema": "3.0",
+  "id": "verb_verstaendigen",
+  "wort": "verständigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خبر دادن",
+      "با هم کنار آمدن، ارتباط برقرار کردن"
+    ],
+    "en": [
+      "to notify",
+      "to communicate, to agree"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "fɛɐ̯ˈʃtɛndɪɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir verständigen die Polizei.",
+      "uebersetzung": {
+        "fa": "به پلیس خبر می‌دهیم.",
+        "en": "We notify the police."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Obwohl sie keine gemeinsame Sprache hatten, konnten sie sich mit Händen und Füßen verständigen.",
+      "uebersetzung": {
+        "fa": "با این‌که زبان مشترکی نداشتند، توانستند با ایما و اشاره با هم ارتباط برقرار کنند.",
+        "en": "Although they had no common language, they were able to communicate using gestures."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "benachrichtigen",
+      "uebersetzung": {
+        "fa": "خبر دادن",
+        "en": "to inform"
+      }
+    },
+    {
+      "wort": "sich einigen",
+      "uebersetzung": {
+        "fa": "توافق کردن",
+        "en": "to agree"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + verständig (فهمیده)",
+    "en": "ver- + verständig (sensible)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich verständigen auf + Akk",
+        "bedeutung": "sich auf etwas einigen",
+        "beispiel": "Die Parteien verständigten sich auf einen Kompromiss.",
+        "uebersetzung": {
+          "fa": "طرفین بر سر یک سازش توافق کردند.",
+          "en": "The parties agreed on a compromise."
+        }
+      },
+      {
+        "muster": "sich verständigen mit + Dat",
+        "bedeutung": "mit jemandem kommunizieren",
+        "beispiel": "Er kann sich gut mit den Gästen verständigen.",
+        "uebersetzung": {
+          "fa": "می‌تواند خوب با مهمان‌ها ارتباط برقرار کند.",
+          "en": "He can communicate well with the guests."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verständigen",
+      "praeteritum": "verständigte",
+      "partizip2": "verständigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verständige",
+        "du": "verständigst",
+        "er_sie_es": "verständigt",
+        "wir": "verständigen",
+        "ihr": "verständigt",
+        "sie_Sie": "verständigen"
+      },
+      "praeteritum": {
+        "ich": "verständigte",
+        "du": "verständigtest",
+        "er_sie_es": "verständigte",
+        "wir": "verständigten",
+        "ihr": "verständigtet",
+        "sie_Sie": "verständigten"
+      },
+      "konjunktiv1": {
+        "ich": "verständige",
+        "du": "verständigest",
+        "er_sie_es": "verständige",
+        "wir": "verständigen",
+        "ihr": "verständiget",
+        "sie_Sie": "verständigen"
+      },
+      "konjunktiv2": {
+        "ich": "verständigte",
+        "du": "verständigtest",
+        "er_sie_es": "verständigte",
+        "wir": "verständigten",
+        "ihr": "verständigtet",
+        "sie_Sie": "verständigten"
+      },
+      "imperativ": {
+        "du": "Verständige!",
+        "ihr": "Verständigt!",
+        "Sie": "Verständigen Sie!"
+      }
+    },
+    "partizip1": "verständigend",
+    "nominalisierung": "die Verständigung"
+  },
+  "wortnetz": {
+    "grundwort": "Verstand",
+    "woerter": [
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      },
+      {
+        "wort": "die Sprache",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زبان",
+          "en": "language"
+        },
+        "id_ref": "nomen_sprache"
+      },
+      {
+        "wort": "informieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اطلاع دادن",
+          "en": "to inform"
+        },
+        "id_ref": "verb_informieren"
+      },
+      {
+        "wort": "die Verständigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارتباط، تفاهم",
+          "en": "communication"
+        },
+        "id_ref": "nomen_verstaendigung"
+      },
+      {
+        "wort": "einigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توافق کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_einigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

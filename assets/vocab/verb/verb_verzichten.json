@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_verzichten",
+  "wort": "verzichten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "صرف‌نظر کردن",
+      "چشم پوشیدن"
+    ],
+    "en": [
+      "to do without",
+      "to renounce"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Entscheidung"
+  ],
+  "ipa": "fɛɐ̯ˈt͡sɪçtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verzichte auf Zucker.",
+      "uebersetzung": {
+        "fa": "از شکر صرف‌نظر می‌کنم.",
+        "en": "I do without sugar."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wegen der Krankheit musste er auf seinen geplanten Urlaub verzichten.",
+      "uebersetzung": {
+        "fa": "به خاطر بیماری مجبور شد از سفر برنامه‌ریزی‌شده‌اش صرف‌نظر کند.",
+        "en": "Because of the illness he had to forgo his planned holiday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufgeben",
+      "uebersetzung": {
+        "fa": "کنار گذاشتن",
+        "en": "to give up"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + لاتین dictare ← اعلام انصراف",
+    "en": "ver- + Latin dictare → to declare renunciation"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "verzichten auf + Akk",
+        "bedeutung": "etwas nicht nehmen oder nicht tun",
+        "beispiel": "Viele verzichten in der Fastenzeit auf Fleisch.",
+        "uebersetzung": {
+          "fa": "بسیاری در دوره‌ی روزه از گوشت صرف‌نظر می‌کنند.",
+          "en": "Many people give up meat during Lent."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verzichten",
+      "praeteritum": "verzichtete",
+      "partizip2": "verzichtet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verzichte",
+        "du": "verzichtest",
+        "er_sie_es": "verzichtet",
+        "wir": "verzichten",
+        "ihr": "verzichtet",
+        "sie_Sie": "verzichten"
+      },
+      "praeteritum": {
+        "ich": "verzichtete",
+        "du": "verzichtetest",
+        "er_sie_es": "verzichtete",
+        "wir": "verzichteten",
+        "ihr": "verzichtetet",
+        "sie_Sie": "verzichteten"
+      },
+      "konjunktiv1": {
+        "ich": "verzichte",
+        "du": "verzichtest",
+        "er_sie_es": "verzichte",
+        "wir": "verzichten",
+        "ihr": "verzichtet",
+        "sie_Sie": "verzichten"
+      },
+      "konjunktiv2": {
+        "ich": "verzichtete",
+        "du": "verzichtetest",
+        "er_sie_es": "verzichtete",
+        "wir": "verzichteten",
+        "ihr": "verzichtetet",
+        "sie_Sie": "verzichteten"
+      },
+      "imperativ": {
+        "du": "Verzichte!",
+        "ihr": "Verzichtet!",
+        "Sie": "Verzichten Sie!"
+      }
+    },
+    "partizip1": "verzichtend",
+    "nominalisierung": "der Verzicht"
+  },
+  "wortnetz": {
+    "grundwort": "Verzicht",
+    "woerter": [
+      {
+        "wort": "der Verzicht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "صرف‌نظر",
+          "en": "renunciation"
+        },
+        "id_ref": "nomen_verzicht"
+      },
+      {
+        "wort": "aufgeben",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کنار گذاشتن",
+          "en": "to give up"
+        },
+        "id_ref": "verb_aufgeben"
+      },
+      {
+        "wort": "brauchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نیاز داشتن",
+          "en": "to need"
+        },
+        "id_ref": "verb_brauchen"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صرفه‌جویی کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "die Diät",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رژیم غذایی",
+          "en": "diet"
+        },
+        "id_ref": "nomen_diaet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

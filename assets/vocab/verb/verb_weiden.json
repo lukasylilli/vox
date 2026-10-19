@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_weiden",
+  "wort": "weiden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چریدن",
+      "به چرا بردن"
+    ],
+    "en": [
+      "to graze",
+      "to pasture"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "ˈvaɪ̯dn̩",
+  "anmerkung": "Gehoben reflexiv: sich an etwas weiden (= mit Genuss betrachten, oft schadenfroh).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kühe weiden auf der Wiese.",
+      "uebersetzung": {
+        "fa": "گاوها در چمنزار می‌چرند.",
+        "en": "The cows are grazing in the meadow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Sommer werden die Schafe auf den Almen geweidet, wo das Gras besonders frisch ist.",
+      "uebersetzung": {
+        "fa": "در تابستان گوسفندان را در چراگاه‌های کوهستانی می‌چرانند، جایی که علف بسیار تازه است.",
+        "en": "In summer the sheep are grazed on the mountain pastures where the grass is especially fresh."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "grasen",
+      "uebersetzung": {
+        "fa": "چریدن",
+        "en": "to graze"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Weide (چراگاه)",
+    "en": "from die Weide (pasture)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "weiden",
+      "praeteritum": "weidete",
+      "partizip2": "geweidet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weide",
+        "du": "weidest",
+        "er_sie_es": "weidet",
+        "wir": "weiden",
+        "ihr": "weidet",
+        "sie_Sie": "weiden"
+      },
+      "praeteritum": {
+        "ich": "weidete",
+        "du": "weidetest",
+        "er_sie_es": "weidete",
+        "wir": "weideten",
+        "ihr": "weidetet",
+        "sie_Sie": "weideten"
+      },
+      "konjunktiv1": {
+        "ich": "weide",
+        "du": "weidest",
+        "er_sie_es": "weide",
+        "wir": "weiden",
+        "ihr": "weidet",
+        "sie_Sie": "weiden"
+      },
+      "konjunktiv2": {
+        "ich": "weidete",
+        "du": "weidetest",
+        "er_sie_es": "weidete",
+        "wir": "weideten",
+        "ihr": "weidetet",
+        "sie_Sie": "weideten"
+      },
+      "imperativ": {
+        "du": "Weide!",
+        "ihr": "Weidet!",
+        "Sie": "Weiden Sie!"
+      }
+    },
+    "partizip1": "weidend",
+    "nominalisierung": "die Weide"
+  },
+  "wortnetz": {
+    "grundwort": "Weide",
+    "woerter": [
+      {
+        "wort": "die Kuh",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گاو",
+          "en": "cow"
+        },
+        "id_ref": "nomen_kuh"
+      },
+      {
+        "wort": "die Wiese",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چمنزار",
+          "en": "meadow"
+        },
+        "id_ref": "nomen_wiese"
+      },
+      {
+        "wort": "das Gras",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علف",
+          "en": "grass"
+        },
+        "id_ref": "nomen_gras"
+      },
+      {
+        "wort": "die Weide",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "چراگاه",
+          "en": "pasture"
+        },
+        "id_ref": "nomen_weide"
+      },
+      {
+        "wort": "das Schaf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گوسفند",
+          "en": "sheep"
+        },
+        "id_ref": "nomen_schaf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

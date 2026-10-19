@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_veruebeln",
+  "wort": "verübeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "به دل گرفتن",
+      "دلخور شدن از"
+    ],
+    "en": [
+      "to hold against",
+      "to resent"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gefühle",
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈʔyːbl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich verübele dir das nicht.",
+      "uebersetzung": {
+        "fa": "این را به دل نمی‌گیرم.",
+        "en": "I don’t hold that against you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man kann es ihm nicht verübeln, dass er nach so viel Ärger gekündigt hat.",
+      "uebersetzung": {
+        "fa": "نمی‌شود او را سرزنش کرد که پس از آن همه دردسر استعفا داد.",
+        "en": "You can’t blame him for quitting after so much trouble."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "übelnehmen",
+      "uebersetzung": {
+        "fa": "به دل گرفتن",
+        "en": "to take amiss"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verzeihen",
+      "uebersetzung": {
+        "fa": "بخشیدن",
+        "en": "to forgive"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + übel (بد)",
+    "en": "ver- + übel (bad)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "jemandem + Akk verübeln",
+        "bedeutung": "jemandem etwas übelnehmen",
+        "beispiel": "Sie verübelt ihm seine Lüge.",
+        "uebersetzung": {
+          "fa": "دروغش را به دل گرفته است.",
+          "en": "She holds his lie against him."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verübeln",
+      "praeteritum": "verübelte",
+      "partizip2": "verübelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verüble",
+        "du": "verübelst",
+        "er_sie_es": "verübelt",
+        "wir": "verübeln",
+        "ihr": "verübelt",
+        "sie_Sie": "verübeln"
+      },
+      "praeteritum": {
+        "ich": "verübelte",
+        "du": "verübeltest",
+        "er_sie_es": "verübelte",
+        "wir": "verübelten",
+        "ihr": "verübeltet",
+        "sie_Sie": "verübelten"
+      },
+      "konjunktiv1": {
+        "ich": "verüble",
+        "du": "verüblest",
+        "er_sie_es": "verüble",
+        "wir": "verübeln",
+        "ihr": "verüblet",
+        "sie_Sie": "verübeln"
+      },
+      "konjunktiv2": {
+        "ich": "verübelte",
+        "du": "verübeltest",
+        "er_sie_es": "verübelte",
+        "wir": "verübelten",
+        "ihr": "verübeltet",
+        "sie_Sie": "verübelten"
+      },
+      "imperativ": {
+        "du": "Verüble!",
+        "ihr": "Verübelt!",
+        "Sie": "Verübeln Sie!"
+      }
+    },
+    "partizip1": "verübelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "übel",
+    "woerter": [
+      {
+        "wort": "übel",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بد",
+          "en": "bad"
+        },
+        "id_ref": "adjektiv_uebel"
+      },
+      {
+        "wort": "übelnehmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به دل گرفتن",
+          "en": "to take amiss"
+        },
+        "id_ref": "verb_uebelnehmen"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "beleidigt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رنجیده",
+          "en": "offended"
+        },
+        "id_ref": "adjektiv_beleidigt"
+      },
+      {
+        "wort": "der Ärger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلخوری",
+          "en": "annoyance"
+        },
+        "id_ref": "nomen_aerger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

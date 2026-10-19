@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_wiederkaeuen",
+  "wort": "wiederkäuen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشخوار کردن",
+      "حرفی را تکرار کردن"
+    ],
+    "en": [
+      "to ruminate",
+      "to rehash"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "ˈviːdɐˌkɔɪ̯ən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kuh käut wieder.",
+      "uebersetzung": {
+        "fa": "گاو نشخوار می‌کند.",
+        "en": "The cow is chewing the cud."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Besprechung hat er nur wiedergekäut, was andere vorher schon gesagt hatten.",
+      "uebersetzung": {
+        "fa": "در جلسه فقط حرف‌هایی را تکرار کرد که دیگران پیش‌تر گفته بودند.",
+        "en": "In the meeting he only rehashed what others had already said."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wiederholen",
+      "uebersetzung": {
+        "fa": "تکرار کردن",
+        "en": "to repeat"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "wieder- (دوباره) + kauen (جویدن)",
+    "en": "wieder- (again) + kauen (to chew)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wiederkäuen",
+      "praeteritum": "käute wieder",
+      "partizip2": "wiedergekäut"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "käue wieder",
+        "du": "käust wieder",
+        "er_sie_es": "käut wieder",
+        "wir": "käuen wieder",
+        "ihr": "käut wieder",
+        "sie_Sie": "käuen wieder"
+      },
+      "praeteritum": {
+        "ich": "käute wieder",
+        "du": "käutest wieder",
+        "er_sie_es": "käute wieder",
+        "wir": "käuten wieder",
+        "ihr": "käutet wieder",
+        "sie_Sie": "käuten wieder"
+      },
+      "konjunktiv1": {
+        "ich": "käue wieder",
+        "du": "käuest wieder",
+        "er_sie_es": "käue wieder",
+        "wir": "käuen wieder",
+        "ihr": "käuet wieder",
+        "sie_Sie": "käuen wieder"
+      },
+      "konjunktiv2": {
+        "ich": "käute wieder",
+        "du": "käutest wieder",
+        "er_sie_es": "käute wieder",
+        "wir": "käuten wieder",
+        "ihr": "käutet wieder",
+        "sie_Sie": "käuten wieder"
+      },
+      "imperativ": {
+        "du": "Käue wieder!",
+        "ihr": "Käut wieder!",
+        "Sie": "Käuen Sie wieder!"
+      }
+    },
+    "partizip1": "wiederkäuend",
+    "nominalisierung": "der Wiederkäuer"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جویدن",
+          "en": "to chew"
+        },
+        "id_ref": "verb_kauen"
+      },
+      {
+        "wort": "die Kuh",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گاو",
+          "en": "cow"
+        },
+        "id_ref": "nomen_kuh"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      },
+      {
+        "wort": "das Gras",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علف",
+          "en": "grass"
+        },
+        "id_ref": "nomen_gras"
+      },
+      {
+        "wort": "der Magen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معده",
+          "en": "stomach"
+        },
+        "id_ref": "nomen_magen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

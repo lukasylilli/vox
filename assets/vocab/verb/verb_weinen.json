@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_weinen",
+  "wort": "weinen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گریه کردن"
+    ],
+    "en": [
+      "to cry",
+      "to weep"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈvaɪ̯nən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby weint.",
+      "uebersetzung": {
+        "fa": "نوزاد گریه می‌کند.",
+        "en": "The baby is crying."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Am Ende des Films haben fast alle Zuschauer geweint, so traurig war er.",
+      "uebersetzung": {
+        "fa": "در پایان فیلم تقریباً همه‌ی تماشاگران گریه کردند، آن‌قدر غم‌انگیز بود.",
+        "en": "At the end of the film almost all the viewers cried, it was so sad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heulen",
+      "uebersetzung": {
+        "fa": "زار زدن",
+        "en": "to howl"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "lachen",
+      "uebersetzung": {
+        "fa": "خندیدن",
+        "en": "to laugh"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن weinōn (ناله کردن)",
+    "en": "from Old High German weinōn (to wail)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "weinen um + Akk",
+        "bedeutung": "über den Verlust von jemandem traurig sein und weinen",
+        "beispiel": "Sie weinte um ihren verstorbenen Hund.",
+        "uebersetzung": {
+          "fa": "برای سگ مرده‌اش گریه کرد.",
+          "en": "She wept for her dead dog."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weinen",
+      "praeteritum": "weinte",
+      "partizip2": "geweint"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weine",
+        "du": "weinst",
+        "er_sie_es": "weint",
+        "wir": "weinen",
+        "ihr": "weint",
+        "sie_Sie": "weinen"
+      },
+      "praeteritum": {
+        "ich": "weinte",
+        "du": "weintest",
+        "er_sie_es": "weinte",
+        "wir": "weinten",
+        "ihr": "weintet",
+        "sie_Sie": "weinten"
+      },
+      "konjunktiv1": {
+        "ich": "weine",
+        "du": "weinest",
+        "er_sie_es": "weine",
+        "wir": "weinen",
+        "ihr": "weinet",
+        "sie_Sie": "weinen"
+      },
+      "konjunktiv2": {
+        "ich": "weinte",
+        "du": "weintest",
+        "er_sie_es": "weinte",
+        "wir": "weinten",
+        "ihr": "weintet",
+        "sie_Sie": "weinten"
+      },
+      "imperativ": {
+        "du": "Weine!",
+        "ihr": "Weint!",
+        "Sie": "Weinen Sie!"
+      }
+    },
+    "partizip1": "weinend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "traurig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غمگین",
+          "en": "sad"
+        },
+        "id_ref": "adjektiv_traurig"
+      },
+      {
+        "wort": "lachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خندیدن",
+          "en": "to laugh"
+        },
+        "id_ref": "verb_lachen"
+      },
+      {
+        "wort": "die Träne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشک",
+          "en": "tear"
+        },
+        "id_ref": "nomen_traene"
+      },
+      {
+        "wort": "trösten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلداری دادن",
+          "en": "to comfort"
+        },
+        "id_ref": "verb_troesten"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

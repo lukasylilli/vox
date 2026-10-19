@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_wetzen",
+  "wort": "wetzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تیز کردن (چاقو)"
+    ],
+    "en": [
+      "to sharpen",
+      "to whet"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Küche",
+    "Handwerk"
+  ],
+  "ipa": "ˈvɛt͡sn̩",
+  "anmerkung": "Umgangssprachlich auch «rennen» – dann mit «sein» (er ist um die Ecke gewetzt).",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Koch wetzt das Messer.",
+      "uebersetzung": {
+        "fa": "آشپز چاقو را تیز می‌کند.",
+        "en": "The cook sharpens the knife."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor er den Braten schneidet, wetzt er das Messer an einem Stahl.",
+      "uebersetzung": {
+        "fa": "پیش از بریدن گوشت، چاقو را روی میله‌ی چاقوتیزکن تیز می‌کند.",
+        "en": "Before he carves the roast, he whets the knife on a steel."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schärfen",
+      "uebersetzung": {
+        "fa": "تیز کردن",
+        "en": "to sharpen"
+      }
+    },
+    {
+      "wort": "schleifen",
+      "uebersetzung": {
+        "fa": "ساییدن، تیز کردن",
+        "en": "to grind"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wezzen (تیز کردن)",
+    "en": "from Old High German wezzen (to sharpen)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wetzen",
+      "praeteritum": "wetzte",
+      "partizip2": "gewetzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wetze",
+        "du": "wetzt",
+        "er_sie_es": "wetzt",
+        "wir": "wetzen",
+        "ihr": "wetzt",
+        "sie_Sie": "wetzen"
+      },
+      "praeteritum": {
+        "ich": "wetzte",
+        "du": "wetztest",
+        "er_sie_es": "wetzte",
+        "wir": "wetzten",
+        "ihr": "wetztet",
+        "sie_Sie": "wetzten"
+      },
+      "konjunktiv1": {
+        "ich": "wetze",
+        "du": "wetzest",
+        "er_sie_es": "wetze",
+        "wir": "wetzen",
+        "ihr": "wetzet",
+        "sie_Sie": "wetzen"
+      },
+      "konjunktiv2": {
+        "ich": "wetzte",
+        "du": "wetztest",
+        "er_sie_es": "wetzte",
+        "wir": "wetzten",
+        "ihr": "wetztet",
+        "sie_Sie": "wetzten"
+      },
+      "imperativ": {
+        "du": "Wetze!",
+        "ihr": "Wetzt!",
+        "Sie": "Wetzen Sie!"
+      }
+    },
+    "partizip1": "wetzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Messer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چاقو",
+          "en": "knife"
+        },
+        "id_ref": "nomen_messer"
+      },
+      {
+        "wort": "scharf",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تیز",
+          "en": "sharp"
+        },
+        "id_ref": "adjektiv_scharf"
+      },
+      {
+        "wort": "schärfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تیز کردن",
+          "en": "to sharpen"
+        },
+        "id_ref": "verb_schaerfen"
+      },
+      {
+        "wort": "schneiden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بریدن",
+          "en": "to cut"
+        },
+        "id_ref": "verb_schneiden"
+      },
+      {
+        "wort": "der Stahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فولاد",
+          "en": "steel"
+        },
+        "id_ref": "nomen_stahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

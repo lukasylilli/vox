@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_verzinsen",
+  "wort": "verzinsen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سود دادن (به پول)"
+    ],
+    "en": [
+      "to pay interest on"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Finanzen"
+  ],
+  "ipa": "fɛɐ̯ˈt͡sɪnzn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Bank verzinst das Geld.",
+      "uebersetzung": {
+        "fa": "بانک به پول سود می‌دهد.",
+        "en": "The bank pays interest on the money."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Guthaben auf dem Sparkonto wird zurzeit kaum verzinst.",
+      "uebersetzung": {
+        "fa": "موجودی حساب پس‌انداز در حال حاضر تقریباً سودی نمی‌گیرد.",
+        "en": "The balance in the savings account currently earns hardly any interest."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + der Zins (بهره)",
+    "en": "ver- + der Zins (interest)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "verzinsen mit + Dat",
+        "bedeutung": "mit einem bestimmten Zinssatz versehen",
+        "beispiel": "Das Darlehen wird mit drei Prozent verzinst.",
+        "uebersetzung": {
+          "fa": "وام با سه درصد بهره همراه است.",
+          "en": "The loan bears interest at three per cent."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verzinsen",
+      "praeteritum": "verzinste",
+      "partizip2": "verzinst"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verzinse",
+        "du": "verzinst",
+        "er_sie_es": "verzinst",
+        "wir": "verzinsen",
+        "ihr": "verzinst",
+        "sie_Sie": "verzinsen"
+      },
+      "praeteritum": {
+        "ich": "verzinste",
+        "du": "verzinstest",
+        "er_sie_es": "verzinste",
+        "wir": "verzinsten",
+        "ihr": "verzinstet",
+        "sie_Sie": "verzinsten"
+      },
+      "konjunktiv1": {
+        "ich": "verzinse",
+        "du": "verzinsest",
+        "er_sie_es": "verzinse",
+        "wir": "verzinsen",
+        "ihr": "verzinset",
+        "sie_Sie": "verzinsen"
+      },
+      "konjunktiv2": {
+        "ich": "verzinste",
+        "du": "verzinstest",
+        "er_sie_es": "verzinste",
+        "wir": "verzinsten",
+        "ihr": "verzinstet",
+        "sie_Sie": "verzinsten"
+      },
+      "imperativ": {
+        "du": "Verzinse!",
+        "ihr": "Verzinst!",
+        "Sie": "Verzinsen Sie!"
+      }
+    },
+    "partizip1": "verzinsend",
+    "nominalisierung": "die Verzinsung"
+  },
+  "wortnetz": {
+    "grundwort": "Zins",
+    "woerter": [
+      {
+        "wort": "der Zins",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بهره، سود",
+          "en": "interest"
+        },
+        "id_ref": "nomen_zins"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      },
+      {
+        "wort": "der Kredit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وام",
+          "en": "loan"
+        },
+        "id_ref": "nomen_kredit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

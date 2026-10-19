@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_wippen",
+  "wort": "wippen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بالا و پایین رفتن، تاب خوردن"
+    ],
+    "en": [
+      "to bob",
+      "to seesaw"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Kinder"
+  ],
+  "ipa": "ˈvɪpn̩",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder wippen auf dem Spielplatz.",
+      "uebersetzung": {
+        "fa": "بچه‌ها در زمین بازی الاکلنگ‌بازی می‌کنند.",
+        "en": "The children are seesawing on the playground."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Während er der Musik zuhörte, wippte er im Takt mit dem Fuß.",
+      "uebersetzung": {
+        "fa": "در حالی که به موسیقی گوش می‌داد، پایش را هم‌ریتم بالا و پایین می‌برد.",
+        "en": "While listening to the music he tapped his foot in time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schaukeln",
+      "uebersetzung": {
+        "fa": "تاب خوردن",
+        "en": "to swing"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی پایین wippen (تکان خوردن)",
+    "en": "from Low German wippen (to bob)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wippen mit + Dat",
+        "bedeutung": "etwas leicht auf und ab bewegen",
+        "beispiel": "Sie wippt nervös mit dem Bein.",
+        "uebersetzung": {
+          "fa": "با اضطراب پایش را تکان می‌دهد.",
+          "en": "She jiggles her leg nervously."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wippen",
+      "praeteritum": "wippte",
+      "partizip2": "gewippt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wippe",
+        "du": "wippst",
+        "er_sie_es": "wippt",
+        "wir": "wippen",
+        "ihr": "wippt",
+        "sie_Sie": "wippen"
+      },
+      "praeteritum": {
+        "ich": "wippte",
+        "du": "wipptest",
+        "er_sie_es": "wippte",
+        "wir": "wippten",
+        "ihr": "wipptet",
+        "sie_Sie": "wippten"
+      },
+      "konjunktiv1": {
+        "ich": "wippe",
+        "du": "wippest",
+        "er_sie_es": "wippe",
+        "wir": "wippen",
+        "ihr": "wippet",
+        "sie_Sie": "wippen"
+      },
+      "konjunktiv2": {
+        "ich": "wippte",
+        "du": "wipptest",
+        "er_sie_es": "wippte",
+        "wir": "wippten",
+        "ihr": "wipptet",
+        "sie_Sie": "wippten"
+      },
+      "imperativ": {
+        "du": "Wippe!",
+        "ihr": "Wippt!",
+        "Sie": "Wippen Sie!"
+      }
+    },
+    "partizip1": "wippend",
+    "nominalisierung": "die Wippe"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wippe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "الاکلنگ",
+          "en": "seesaw"
+        },
+        "id_ref": "nomen_wippe"
+      },
+      {
+        "wort": "schaukeln",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تاب خوردن",
+          "en": "to swing"
+        },
+        "id_ref": "verb_schaukeln"
+      },
+      {
+        "wort": "der Spielplatz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمین بازی",
+          "en": "playground"
+        },
+        "id_ref": "nomen_spielplatz"
+      },
+      {
+        "wort": "der Takt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضرب، ریتم",
+          "en": "beat"
+        },
+        "id_ref": "nomen_takt"
+      },
+      {
+        "wort": "der Fuß",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پا",
+          "en": "foot"
+        },
+        "id_ref": "nomen_fuss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

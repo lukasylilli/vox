@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_votieren",
+  "wort": "votieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رأی دادن",
+      "نظر دادن به نفع یا علیه"
+    ],
+    "en": [
+      "to vote"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "voˈtiːʁən",
+  "anmerkung": "Gehoben bzw. Amtssprache, besonders in der Schweiz und Österreich.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mehrheit votiert dagegen.",
+      "uebersetzung": {
+        "fa": "اکثریت مخالف رأی می‌دهند.",
+        "en": "The majority votes against it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Parlament votierten die meisten Abgeordneten für das neue Gesetz.",
+      "uebersetzung": {
+        "fa": "در مجلس بیشتر نمایندگان به قانون جدید رأی موافق دادند.",
+        "en": "In parliament most members voted for the new law."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abstimmen",
+      "uebersetzung": {
+        "fa": "رأی‌گیری کردن",
+        "en": "to vote"
+      }
+    },
+    {
+      "wort": "stimmen",
+      "uebersetzung": {
+        "fa": "رأی دادن",
+        "en": "to vote"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین votum (نذر، رأی)",
+    "en": "from Latin votum (vow, vote)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "votieren für/gegen + Akk",
+        "bedeutung": "sich für/gegen etwas aussprechen",
+        "beispiel": "Der Ausschuss votierte gegen den Vorschlag.",
+        "uebersetzung": {
+          "fa": "کمیته علیه پیشنهاد رأی داد.",
+          "en": "The committee voted against the proposal."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "votieren",
+      "praeteritum": "votierte",
+      "partizip2": "votiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "votiere",
+        "du": "votierst",
+        "er_sie_es": "votiert",
+        "wir": "votieren",
+        "ihr": "votiert",
+        "sie_Sie": "votieren"
+      },
+      "praeteritum": {
+        "ich": "votierte",
+        "du": "votiertest",
+        "er_sie_es": "votierte",
+        "wir": "votierten",
+        "ihr": "votiertet",
+        "sie_Sie": "votierten"
+      },
+      "konjunktiv1": {
+        "ich": "votiere",
+        "du": "votierest",
+        "er_sie_es": "votiere",
+        "wir": "votieren",
+        "ihr": "votieret",
+        "sie_Sie": "votieren"
+      },
+      "konjunktiv2": {
+        "ich": "votierte",
+        "du": "votiertest",
+        "er_sie_es": "votierte",
+        "wir": "votierten",
+        "ihr": "votiertet",
+        "sie_Sie": "votierten"
+      },
+      "imperativ": {
+        "du": "Votiere!",
+        "ihr": "Votiert!",
+        "Sie": "Votieren Sie!"
+      }
+    },
+    "partizip1": "votierend",
+    "nominalisierung": "das Votum"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wählen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتخاب کردن، رأی دادن",
+          "en": "to vote"
+        },
+        "id_ref": "verb_waehlen"
+      },
+      {
+        "wort": "abstimmen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رأی‌گیری کردن",
+          "en": "to vote"
+        },
+        "id_ref": "verb_abstimmen"
+      },
+      {
+        "wort": "die Stimme",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رأی، صدا",
+          "en": "vote"
+        },
+        "id_ref": "nomen_stimme"
+      },
+      {
+        "wort": "die Mehrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکثریت",
+          "en": "majority"
+        },
+        "id_ref": "nomen_mehrheit"
+      },
+      {
+        "wort": "das Parlament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجلس",
+          "en": "parliament"
+        },
+        "id_ref": "nomen_parlament"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

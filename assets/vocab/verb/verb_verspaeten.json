@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_verspaeten",
+  "wort": "verspäten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دیر کردن، تأخیر داشتن"
+    ],
+    "en": [
+      "to be late",
+      "to be delayed"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Zeit"
+  ],
+  "ipa": "fɛɐ̯ˈʃpɛːtn̩",
+  "anmerkung": "Häufig als Partizip/Adjektiv «verspätet» (der verspätete Zug).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Zug verspätet sich.",
+      "uebersetzung": {
+        "fa": "قطار تأخیر دارد.",
+        "en": "The train is delayed."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Entschuldigen Sie, dass ich mich verspätet habe, aber der Bus kam nicht.",
+      "uebersetzung": {
+        "fa": "ببخشید که دیر کردم، اما اتوبوس نیامد.",
+        "en": "Sorry I am late, but the bus did not come."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zu spät kommen",
+      "uebersetzung": {
+        "fa": "دیر آمدن",
+        "en": "to come late"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + spät (دیر)",
+    "en": "ver- + spät (late)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verspäten",
+      "praeteritum": "verspätete",
+      "partizip2": "verspätet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verspäte",
+        "du": "verspätest",
+        "er_sie_es": "verspätet",
+        "wir": "verspäten",
+        "ihr": "verspätet",
+        "sie_Sie": "verspäten"
+      },
+      "praeteritum": {
+        "ich": "verspätete",
+        "du": "verspätetest",
+        "er_sie_es": "verspätete",
+        "wir": "verspäteten",
+        "ihr": "verspätetet",
+        "sie_Sie": "verspäteten"
+      },
+      "konjunktiv1": {
+        "ich": "verspäte",
+        "du": "verspätest",
+        "er_sie_es": "verspäte",
+        "wir": "verspäten",
+        "ihr": "verspätet",
+        "sie_Sie": "verspäten"
+      },
+      "konjunktiv2": {
+        "ich": "verspätete",
+        "du": "verspätetest",
+        "er_sie_es": "verspätete",
+        "wir": "verspäteten",
+        "ihr": "verspätetet",
+        "sie_Sie": "verspäteten"
+      },
+      "imperativ": {
+        "du": "Verspäte!",
+        "ihr": "Verspätet!",
+        "Sie": "Verspäten Sie!"
+      }
+    },
+    "partizip1": "verspätend",
+    "nominalisierung": "die Verspätung"
+  },
+  "wortnetz": {
+    "grundwort": "spät",
+    "woerter": [
+      {
+        "wort": "spät",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیر",
+          "en": "late"
+        },
+        "id_ref": "adjektiv_spaet"
+      },
+      {
+        "wort": "pünktlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وقت‌شناس، سر وقت",
+          "en": "punctual"
+        },
+        "id_ref": "adjektiv_puenktlich"
+      },
+      {
+        "wort": "die Verspätung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تأخیر",
+          "en": "delay"
+        },
+        "id_ref": "nomen_verspaetung"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منتظر ماندن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

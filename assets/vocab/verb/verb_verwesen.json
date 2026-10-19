@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_verwesen",
+  "wort": "verwesen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پوسیدن، تجزیه شدن (جسد)"
+    ],
+    "en": [
+      "to decompose",
+      "to rot"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Tod"
+  ],
+  "ipa": "fɛɐ̯ˈveːzn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Laub verwest langsam.",
+      "uebersetzung": {
+        "fa": "برگ‌ها آرام می‌پوسند.",
+        "en": "The leaves slowly decompose."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Leiche war bereits stark verwest, als die Polizei sie im Wald fand.",
+      "uebersetzung": {
+        "fa": "جسد وقتی پلیس آن را در جنگل یافت، به شدت تجزیه شده بود.",
+        "en": "The body was already badly decomposed when the police found it in the forest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfaulen",
+      "uebersetzung": {
+        "fa": "گندیدن",
+        "en": "to rot"
+      }
+    },
+    {
+      "wort": "zerfallen",
+      "uebersetzung": {
+        "fa": "از هم پاشیدن",
+        "en": "to decay"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + آلمانی کهن wesan (بودن) ← از میان رفتن",
+    "en": "ver- + Old High German wesan (to be) → to cease to be"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verwesen",
+      "praeteritum": "verweste",
+      "partizip2": "verwest"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verwese",
+        "du": "verwest",
+        "er_sie_es": "verwest",
+        "wir": "verwesen",
+        "ihr": "verwest",
+        "sie_Sie": "verwesen"
+      },
+      "praeteritum": {
+        "ich": "verweste",
+        "du": "verwestest",
+        "er_sie_es": "verweste",
+        "wir": "verwesten",
+        "ihr": "verwestet",
+        "sie_Sie": "verwesten"
+      },
+      "konjunktiv1": {
+        "ich": "verwese",
+        "du": "verwesest",
+        "er_sie_es": "verwese",
+        "wir": "verwesen",
+        "ihr": "verweset",
+        "sie_Sie": "verwesen"
+      },
+      "konjunktiv2": {
+        "ich": "verweste",
+        "du": "verwestest",
+        "er_sie_es": "verweste",
+        "wir": "verwesten",
+        "ihr": "verwestet",
+        "sie_Sie": "verwesten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verwesend",
+    "nominalisierung": "die Verwesung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "tot",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرده",
+          "en": "dead"
+        },
+        "id_ref": "adjektiv_tot"
+      },
+      {
+        "wort": "faul",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گندیده",
+          "en": "rotten"
+        },
+        "id_ref": "adjektiv_faul"
+      },
+      {
+        "wort": "verfaulen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گندیدن",
+          "en": "to rot"
+        },
+        "id_ref": "verb_verfaulen"
+      },
+      {
+        "wort": "die Leiche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جسد",
+          "en": "corpse"
+        },
+        "id_ref": "nomen_leiche"
+      },
+      {
+        "wort": "riechen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بو دادن",
+          "en": "to smell"
+        },
+        "id_ref": "verb_riechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

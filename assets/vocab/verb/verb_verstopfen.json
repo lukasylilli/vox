@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_verstopfen",
+  "wort": "verstopfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرفتن، مسدود کردن"
+    ],
+    "en": [
+      "to block",
+      "to clog"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Haushalt",
+    "Medizin"
+  ],
+  "ipa": "fɛɐ̯ˈʃtɔpfn̩",
+  "anmerkung": "Medizin: «verstopft sein» = an Verstopfung leiden; auch «verstopfte Nase».",
+  "berufe": [
+    "pflege_medizin",
+    "technik",
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Rohr ist verstopft.",
+      "uebersetzung": {
+        "fa": "لوله گرفته است.",
+        "en": "The pipe is blocked."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Toilette verstopft war, mussten wir einen Klempner rufen.",
+      "uebersetzung": {
+        "fa": "چون توالت گرفته بود، مجبور شدیم لوله‌کش خبر کنیم.",
+        "en": "Because the toilet was blocked, we had to call a plumber."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "blockieren",
+      "uebersetzung": {
+        "fa": "مسدود کردن",
+        "en": "to block"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + stopfen (پر کردن، بستن)",
+    "en": "ver- + stopfen (to stuff, to plug)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verstopfen",
+      "praeteritum": "verstopfte",
+      "partizip2": "verstopft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verstopfe",
+        "du": "verstopfst",
+        "er_sie_es": "verstopft",
+        "wir": "verstopfen",
+        "ihr": "verstopft",
+        "sie_Sie": "verstopfen"
+      },
+      "praeteritum": {
+        "ich": "verstopfte",
+        "du": "verstopftest",
+        "er_sie_es": "verstopfte",
+        "wir": "verstopften",
+        "ihr": "verstopftet",
+        "sie_Sie": "verstopften"
+      },
+      "konjunktiv1": {
+        "ich": "verstopfe",
+        "du": "verstopfest",
+        "er_sie_es": "verstopfe",
+        "wir": "verstopfen",
+        "ihr": "verstopfet",
+        "sie_Sie": "verstopfen"
+      },
+      "konjunktiv2": {
+        "ich": "verstopfte",
+        "du": "verstopftest",
+        "er_sie_es": "verstopfte",
+        "wir": "verstopften",
+        "ihr": "verstopftet",
+        "sie_Sie": "verstopften"
+      },
+      "imperativ": {
+        "du": "Verstopfe!",
+        "ihr": "Verstopft!",
+        "Sie": "Verstopfen Sie!"
+      }
+    },
+    "partizip1": "verstopfend",
+    "nominalisierung": "die Verstopfung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Rohr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لوله",
+          "en": "pipe"
+        },
+        "id_ref": "nomen_rohr"
+      },
+      {
+        "wort": "die Nase",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بینی",
+          "en": "nose"
+        },
+        "id_ref": "nomen_nase"
+      },
+      {
+        "wort": "die Toilette",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توالت",
+          "en": "toilet"
+        },
+        "id_ref": "nomen_toilette"
+      },
+      {
+        "wort": "blockieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسدود کردن",
+          "en": "to block"
+        },
+        "id_ref": "verb_blockieren"
+      },
+      {
+        "wort": "der Klempner",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لوله‌کش",
+          "en": "plumber"
+        },
+        "id_ref": "nomen_klempner"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

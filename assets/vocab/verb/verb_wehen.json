@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_wehen",
+  "wort": "wehen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "وزیدن",
+      "در باد تکان خوردن"
+    ],
+    "en": [
+      "to blow",
+      "to flutter"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wetter"
+  ],
+  "ipa": "ˈveːən",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (die Blätter sind auf die Straße geweht).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wind weht stark.",
+      "uebersetzung": {
+        "fa": "باد شدید می‌وزد.",
+        "en": "The wind is blowing hard."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Auf dem Rathaus wehte eine große Fahne, weil der Präsident zu Besuch war.",
+      "uebersetzung": {
+        "fa": "روی شهرداری پرچم بزرگی در اهتزاز بود، چون رئیس‌جمهور برای دیدار آمده بود.",
+        "en": "A large flag was flying on the town hall because the president was visiting."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "blasen",
+      "uebersetzung": {
+        "fa": "دمیدن، وزیدن",
+        "en": "to blow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wāen (وزیدن)",
+    "en": "from Old High German wāen (to blow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wehen",
+      "praeteritum": "wehte",
+      "partizip2": "geweht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wehe",
+        "du": "wehst",
+        "er_sie_es": "weht",
+        "wir": "wehen",
+        "ihr": "weht",
+        "sie_Sie": "wehen"
+      },
+      "praeteritum": {
+        "ich": "wehte",
+        "du": "wehtest",
+        "er_sie_es": "wehte",
+        "wir": "wehten",
+        "ihr": "wehtet",
+        "sie_Sie": "wehten"
+      },
+      "konjunktiv1": {
+        "ich": "wehe",
+        "du": "wehest",
+        "er_sie_es": "wehe",
+        "wir": "wehen",
+        "ihr": "wehet",
+        "sie_Sie": "wehen"
+      },
+      "konjunktiv2": {
+        "ich": "wehte",
+        "du": "wehtest",
+        "er_sie_es": "wehte",
+        "wir": "wehten",
+        "ihr": "wehtet",
+        "sie_Sie": "wehten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wehend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "die Fahne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرچم",
+          "en": "flag"
+        },
+        "id_ref": "nomen_fahne"
+      },
+      {
+        "wort": "das Wetter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب‌وهوا",
+          "en": "weather"
+        },
+        "id_ref": "nomen_wetter"
+      },
+      {
+        "wort": "blasen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دمیدن",
+          "en": "to blow"
+        },
+        "id_ref": "verb_blasen"
+      },
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

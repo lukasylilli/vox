@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_welken",
+  "wort": "welken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پژمردن"
+    ],
+    "en": [
+      "to wilt",
+      "to wither"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur"
+  ],
+  "ipa": "ˈvɛlkn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Blumen welken.",
+      "uebersetzung": {
+        "fa": "گل‌ها پژمرده می‌شوند.",
+        "en": "The flowers are wilting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil wir vergessen hatten, sie zu gießen, sind alle Pflanzen auf dem Balkon gewelkt.",
+      "uebersetzung": {
+        "fa": "چون یادمان رفته بود آبشان بدهیم، همه‌ی گیاهان بالکن پژمرده شدند.",
+        "en": "Because we had forgotten to water them, all the plants on the balcony wilted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verwelken",
+      "uebersetzung": {
+        "fa": "پژمرده شدن",
+        "en": "to wither"
+      }
+    },
+    {
+      "wort": "verdorren",
+      "uebersetzung": {
+        "fa": "خشکیدن",
+        "en": "to dry up"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "blühen",
+      "uebersetzung": {
+        "fa": "شکوفه دادن",
+        "en": "to bloom"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت welk (پژمرده)",
+    "en": "from the adjective welk (wilted)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "welken",
+      "praeteritum": "welkte",
+      "partizip2": "gewelkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "welke",
+        "du": "welkst",
+        "er_sie_es": "welkt",
+        "wir": "welken",
+        "ihr": "welkt",
+        "sie_Sie": "welken"
+      },
+      "praeteritum": {
+        "ich": "welkte",
+        "du": "welktest",
+        "er_sie_es": "welkte",
+        "wir": "welkten",
+        "ihr": "welktet",
+        "sie_Sie": "welkten"
+      },
+      "konjunktiv1": {
+        "ich": "welke",
+        "du": "welkest",
+        "er_sie_es": "welke",
+        "wir": "welken",
+        "ihr": "welket",
+        "sie_Sie": "welken"
+      },
+      "konjunktiv2": {
+        "ich": "welkte",
+        "du": "welktest",
+        "er_sie_es": "welkte",
+        "wir": "welkten",
+        "ihr": "welktet",
+        "sie_Sie": "welkten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "welkend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "welk",
+    "woerter": [
+      {
+        "wort": "die Blume",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گل",
+          "en": "flower"
+        },
+        "id_ref": "nomen_blume"
+      },
+      {
+        "wort": "blühen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکوفه دادن",
+          "en": "to bloom"
+        },
+        "id_ref": "verb_bluehen"
+      },
+      {
+        "wort": "trocken",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خشک",
+          "en": "dry"
+        },
+        "id_ref": "adjektiv_trocken"
+      },
+      {
+        "wort": "welk",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پژمرده",
+          "en": "wilted"
+        },
+        "id_ref": "adjektiv_welk"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

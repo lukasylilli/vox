@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_waessern",
+  "wort": "wässern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آب دادن (گیاه)",
+      "در آب خیساندن"
+    ],
+    "en": [
+      "to water",
+      "to soak"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Garten",
+    "Küche"
+  ],
+  "ipa": "ˈvɛsɐn",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir wässern den Rasen.",
+      "uebersetzung": {
+        "fa": "به چمن آب می‌دهیم.",
+        "en": "We water the lawn."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Getrocknete Bohnen sollte man über Nacht wässern, bevor man sie kocht.",
+      "uebersetzung": {
+        "fa": "لوبیای خشک را باید پیش از پختن یک شب در آب خیساند.",
+        "en": "Dried beans should be soaked overnight before you cook them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "gießen",
+      "uebersetzung": {
+        "fa": "آب دادن",
+        "en": "to water"
+      }
+    },
+    {
+      "wort": "einweichen",
+      "uebersetzung": {
+        "fa": "خیساندن",
+        "en": "to soak"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Wasser (آب)",
+    "en": "from das Wasser (water)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wässern",
+      "praeteritum": "wässerte",
+      "partizip2": "gewässert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wässere",
+        "du": "wässerst",
+        "er_sie_es": "wässert",
+        "wir": "wässern",
+        "ihr": "wässert",
+        "sie_Sie": "wässern"
+      },
+      "praeteritum": {
+        "ich": "wässerte",
+        "du": "wässertest",
+        "er_sie_es": "wässerte",
+        "wir": "wässerten",
+        "ihr": "wässertet",
+        "sie_Sie": "wässerten"
+      },
+      "konjunktiv1": {
+        "ich": "wässere",
+        "du": "wässerest",
+        "er_sie_es": "wässere",
+        "wir": "wässern",
+        "ihr": "wässeret",
+        "sie_Sie": "wässern"
+      },
+      "konjunktiv2": {
+        "ich": "wässerte",
+        "du": "wässertest",
+        "er_sie_es": "wässerte",
+        "wir": "wässerten",
+        "ihr": "wässertet",
+        "sie_Sie": "wässerten"
+      },
+      "imperativ": {
+        "du": "Wässere!",
+        "ihr": "Wässert!",
+        "Sie": "Wässern Sie!"
+      }
+    },
+    "partizip1": "wässernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Wasser",
+    "woerter": [
+      {
+        "wort": "das Wasser",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آب",
+          "en": "water"
+        },
+        "id_ref": "nomen_wasser"
+      },
+      {
+        "wort": "gießen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آب دادن",
+          "en": "to water"
+        },
+        "id_ref": "verb_giessen"
+      },
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغ",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      },
+      {
+        "wort": "nass",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خیس",
+          "en": "wet"
+        },
+        "id_ref": "adjektiv_nass"
+      },
+      {
+        "wort": "einweichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خیساندن",
+          "en": "to soak"
+        },
+        "id_ref": "verb_einweichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

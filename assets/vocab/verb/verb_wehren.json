@@ -1,0 +1,197 @@
+{
+  "schema": "3.0",
+  "id": "verb_wehren",
+  "wort": "wehren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از خود دفاع کردن",
+      "مقاومت کردن"
+    ],
+    "en": [
+      "to defend oneself",
+      "to resist"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Konflikt"
+  ],
+  "ipa": "ˈveːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind wehrt sich.",
+      "uebersetzung": {
+        "fa": "کودک از خودش دفاع می‌کند.",
+        "en": "The child defends itself."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Bürger wehren sich gegen den Bau der neuen Autobahn durch ihr Dorf.",
+      "uebersetzung": {
+        "fa": "شهروندان در برابر ساخت اتوبان جدید از میان روستایشان مقاومت می‌کنند.",
+        "en": "The citizens are fighting the construction of the new motorway through their village."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich verteidigen",
+      "uebersetzung": {
+        "fa": "از خود دفاع کردن",
+        "en": "to defend oneself"
+      }
+    },
+    {
+      "wort": "sich widersetzen",
+      "uebersetzung": {
+        "fa": "مقاومت کردن",
+        "en": "to resist"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "nachgeben",
+      "uebersetzung": {
+        "fa": "کوتاه آمدن",
+        "en": "to give in"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن werien (بازداشتن)",
+    "en": "from Old High German werien (to hinder)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich wehren gegen + Akk",
+        "bedeutung": "sich gegen etwas verteidigen oder widersetzen",
+        "beispiel": "Sie wehrte sich gegen die falschen Vorwürfe.",
+        "uebersetzung": {
+          "fa": "در برابر اتهامات نادرست از خودش دفاع کرد.",
+          "en": "She defended herself against the false accusations."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wehren",
+      "praeteritum": "wehrte",
+      "partizip2": "gewehrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wehre",
+        "du": "wehrst",
+        "er_sie_es": "wehrt",
+        "wir": "wehren",
+        "ihr": "wehrt",
+        "sie_Sie": "wehren"
+      },
+      "praeteritum": {
+        "ich": "wehrte",
+        "du": "wehrtest",
+        "er_sie_es": "wehrte",
+        "wir": "wehrten",
+        "ihr": "wehrtet",
+        "sie_Sie": "wehrten"
+      },
+      "konjunktiv1": {
+        "ich": "wehre",
+        "du": "wehrest",
+        "er_sie_es": "wehre",
+        "wir": "wehren",
+        "ihr": "wehret",
+        "sie_Sie": "wehren"
+      },
+      "konjunktiv2": {
+        "ich": "wehrte",
+        "du": "wehrtest",
+        "er_sie_es": "wehrte",
+        "wir": "wehrten",
+        "ihr": "wehrtet",
+        "sie_Sie": "wehrten"
+      },
+      "imperativ": {
+        "du": "Wehre!",
+        "ihr": "Wehrt!",
+        "Sie": "Wehren Sie!"
+      }
+    },
+    "partizip1": "wehrend",
+    "nominalisierung": "die Wehr"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "verteidigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دفاع کردن",
+          "en": "to defend"
+        },
+        "id_ref": "verb_verteidigen"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "der Widerstand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقاومت",
+          "en": "resistance"
+        },
+        "id_ref": "nomen_widerstand"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "nachgeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کوتاه آمدن",
+          "en": "to give in"
+        },
+        "id_ref": "verb_nachgeben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

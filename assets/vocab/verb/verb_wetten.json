@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_wetten",
+  "wort": "wetten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شرط بستن"
+    ],
+    "en": [
+      "to bet"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Freizeit",
+    "Sport"
+  ],
+  "ipa": "ˈvɛtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wollen wir wetten?",
+      "uebersetzung": {
+        "fa": "می‌خواهی شرط ببندیم؟",
+        "en": "Shall we bet?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich wette, dass er wieder zu spät kommt.",
+      "uebersetzung": {
+        "fa": "شرط می‌بندم که باز دیر می‌آید.",
+        "en": "I bet he will be late again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "setzen",
+      "uebersetzung": {
+        "fa": "شرط گذاشتن",
+        "en": "to stake"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Wette (شرط)",
+    "en": "from die Wette (bet)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wetten um + Akk",
+        "bedeutung": "einen Einsatz für eine Wette festlegen",
+        "beispiel": "Wir haben um eine Pizza gewettet.",
+        "uebersetzung": {
+          "fa": "سر یک پیتزا شرط بستیم.",
+          "en": "We bet a pizza on it."
+        }
+      },
+      {
+        "muster": "wetten auf + Akk",
+        "bedeutung": "bei einer Wette auf etwas setzen",
+        "beispiel": "Er wettet immer auf das gleiche Pferd.",
+        "uebersetzung": {
+          "fa": "همیشه روی همان اسب شرط می‌بندد.",
+          "en": "He always bets on the same horse."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wetten",
+      "praeteritum": "wettete",
+      "partizip2": "gewettet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wette",
+        "du": "wettest",
+        "er_sie_es": "wettet",
+        "wir": "wetten",
+        "ihr": "wettet",
+        "sie_Sie": "wetten"
+      },
+      "praeteritum": {
+        "ich": "wettete",
+        "du": "wettetest",
+        "er_sie_es": "wettete",
+        "wir": "wetteten",
+        "ihr": "wettetet",
+        "sie_Sie": "wetteten"
+      },
+      "konjunktiv1": {
+        "ich": "wette",
+        "du": "wettest",
+        "er_sie_es": "wette",
+        "wir": "wetten",
+        "ihr": "wettet",
+        "sie_Sie": "wetten"
+      },
+      "konjunktiv2": {
+        "ich": "wettete",
+        "du": "wettetest",
+        "er_sie_es": "wettete",
+        "wir": "wetteten",
+        "ihr": "wettetet",
+        "sie_Sie": "wetteten"
+      },
+      "imperativ": {
+        "du": "Wette!",
+        "ihr": "Wettet!",
+        "Sie": "Wetten Sie!"
+      }
+    },
+    "partizip1": "wettend",
+    "nominalisierung": "die Wette"
+  },
+  "wortnetz": {
+    "grundwort": "Wette",
+    "woerter": [
+      {
+        "wort": "die Wette",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرط",
+          "en": "bet"
+        },
+        "id_ref": "nomen_wette"
+      },
+      {
+        "wort": "gewinnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن",
+          "en": "to win"
+        },
+        "id_ref": "verb_gewinnen"
+      },
+      {
+        "wort": "verlieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باختن",
+          "en": "to lose"
+        },
+        "id_ref": "verb_verlieren"
+      },
+      {
+        "wort": "das Glück",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانس",
+          "en": "luck"
+        },
+        "id_ref": "nomen_glueck"
+      },
+      {
+        "wort": "das Spiel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بازی",
+          "en": "game"
+        },
+        "id_ref": "nomen_spiel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

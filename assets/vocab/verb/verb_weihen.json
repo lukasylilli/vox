@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_weihen",
+  "wort": "weihen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تقدیس کردن",
+      "وقف کردن (به کسی یا کاری)"
+    ],
+    "en": [
+      "to consecrate",
+      "to dedicate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Religion"
+  ],
+  "ipa": "ˈvaɪ̯ən",
+  "anmerkung": "Verwandt mit «Weihnachten» (die geweihten Nächte).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bischof weiht die Kirche.",
+      "uebersetzung": {
+        "fa": "اسقف کلیسا را تقدیس می‌کند.",
+        "en": "The bishop consecrates the church."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die neue Kapelle wurde im Beisein vieler Gläubiger feierlich geweiht.",
+      "uebersetzung": {
+        "fa": "نمازخانه‌ی جدید با حضور بسیاری از مؤمنان با شکوه تقدیس شد.",
+        "en": "The new chapel was solemnly consecrated in the presence of many believers."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "segnen",
+      "uebersetzung": {
+        "fa": "برکت دادن",
+        "en": "to bless"
+      }
+    },
+    {
+      "wort": "widmen",
+      "uebersetzung": {
+        "fa": "وقف کردن",
+        "en": "to dedicate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wīhen (مقدس کردن)",
+    "en": "from Old High German wīhen (to make holy)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "weihen",
+      "praeteritum": "weihte",
+      "partizip2": "geweiht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weihe",
+        "du": "weihst",
+        "er_sie_es": "weiht",
+        "wir": "weihen",
+        "ihr": "weiht",
+        "sie_Sie": "weihen"
+      },
+      "praeteritum": {
+        "ich": "weihte",
+        "du": "weihtest",
+        "er_sie_es": "weihte",
+        "wir": "weihten",
+        "ihr": "weihtet",
+        "sie_Sie": "weihten"
+      },
+      "konjunktiv1": {
+        "ich": "weihe",
+        "du": "weihest",
+        "er_sie_es": "weihe",
+        "wir": "weihen",
+        "ihr": "weihet",
+        "sie_Sie": "weihen"
+      },
+      "konjunktiv2": {
+        "ich": "weihte",
+        "du": "weihtest",
+        "er_sie_es": "weihte",
+        "wir": "weihten",
+        "ihr": "weihtet",
+        "sie_Sie": "weihten"
+      },
+      "imperativ": {
+        "du": "Weihe!",
+        "ihr": "Weiht!",
+        "Sie": "Weihen Sie!"
+      }
+    },
+    "partizip1": "weihend",
+    "nominalisierung": "die Weihe"
+  },
+  "wortnetz": {
+    "grundwort": "Weihe",
+    "woerter": [
+      {
+        "wort": "die Kirche",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلیسا",
+          "en": "church"
+        },
+        "id_ref": "nomen_kirche"
+      },
+      {
+        "wort": "heilig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقدس",
+          "en": "holy"
+        },
+        "id_ref": "adjektiv_heilig"
+      },
+      {
+        "wort": "segnen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برکت دادن",
+          "en": "to bless"
+        },
+        "id_ref": "verb_segnen"
+      },
+      {
+        "wort": "das Weihnachtsfest",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جشن کریسمس",
+          "en": "Christmas"
+        },
+        "id_ref": "nomen_weihnachtsfest"
+      },
+      {
+        "wort": "der Priester",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشیش",
+          "en": "priest"
+        },
+        "id_ref": "nomen_priester"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

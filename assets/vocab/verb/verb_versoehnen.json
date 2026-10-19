@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_versoehnen",
+  "wort": "versöhnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آشتی دادن",
+      "آشتی کردن"
+    ],
+    "en": [
+      "to reconcile",
+      "to make up"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Beziehungen"
+  ],
+  "ipa": "fɛɐ̯ˈzøːnən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Freunde versöhnen sich.",
+      "uebersetzung": {
+        "fa": "دوستان با هم آشتی می‌کنند.",
+        "en": "The friends make up."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach jahrelangem Streit haben sich die beiden Schwestern endlich wieder versöhnt.",
+      "uebersetzung": {
+        "fa": "پس از سال‌ها دعوا، دو خواهر بالاخره دوباره آشتی کردند.",
+        "en": "After years of quarrelling the two sisters finally made up again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich vertragen",
+      "uebersetzung": {
+        "fa": "با هم کنار آمدن",
+        "en": "to get along"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "sich streiten",
+      "uebersetzung": {
+        "fa": "دعوا کردن",
+        "en": "to quarrel"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Sühne (کفاره، جبران)",
+    "en": "ver- + die Sühne (atonement)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich versöhnen mit + Dat",
+        "bedeutung": "mit jemandem Frieden schließen",
+        "beispiel": "Er hat sich mit seinem Vater versöhnt.",
+        "uebersetzung": {
+          "fa": "با پدرش آشتی کرد.",
+          "en": "He made up with his father."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "versöhnen",
+      "praeteritum": "versöhnte",
+      "partizip2": "versöhnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "versöhne",
+        "du": "versöhnst",
+        "er_sie_es": "versöhnt",
+        "wir": "versöhnen",
+        "ihr": "versöhnt",
+        "sie_Sie": "versöhnen"
+      },
+      "praeteritum": {
+        "ich": "versöhnte",
+        "du": "versöhntest",
+        "er_sie_es": "versöhnte",
+        "wir": "versöhnten",
+        "ihr": "versöhntet",
+        "sie_Sie": "versöhnten"
+      },
+      "konjunktiv1": {
+        "ich": "versöhne",
+        "du": "versöhnest",
+        "er_sie_es": "versöhne",
+        "wir": "versöhnen",
+        "ihr": "versöhnet",
+        "sie_Sie": "versöhnen"
+      },
+      "konjunktiv2": {
+        "ich": "versöhnte",
+        "du": "versöhntest",
+        "er_sie_es": "versöhnte",
+        "wir": "versöhnten",
+        "ihr": "versöhntet",
+        "sie_Sie": "versöhnten"
+      },
+      "imperativ": {
+        "du": "Versöhne!",
+        "ihr": "Versöhnt!",
+        "Sie": "Versöhnen Sie!"
+      }
+    },
+    "partizip1": "versöhnend",
+    "nominalisierung": "die Versöhnung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دعوا",
+          "en": "argument"
+        },
+        "id_ref": "nomen_streit"
+      },
+      {
+        "wort": "streiten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا کردن",
+          "en": "to argue"
+        },
+        "id_ref": "verb_streiten"
+      },
+      {
+        "wort": "verzeihen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخشیدن",
+          "en": "to forgive"
+        },
+        "id_ref": "verb_verzeihen"
+      },
+      {
+        "wort": "der Frieden",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صلح",
+          "en": "peace"
+        },
+        "id_ref": "nomen_frieden"
+      },
+      {
+        "wort": "entschuldigen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عذرخواهی کردن",
+          "en": "to apologize"
+        },
+        "id_ref": "verb_entschuldigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

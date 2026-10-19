@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_weigern",
+  "wort": "weigern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "امتناع کردن",
+      "زیر بار نرفتن"
+    ],
+    "en": [
+      "to refuse"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Verhalten"
+  ],
+  "ipa": "ˈvaɪ̯ɡɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er weigert sich zu essen.",
+      "uebersetzung": {
+        "fa": "از غذا خوردن امتناع می‌کند.",
+        "en": "He refuses to eat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Zeuge weigerte sich, vor Gericht gegen seinen Bruder auszusagen.",
+      "uebersetzung": {
+        "fa": "شاهد از شهادت دادن علیه برادرش در دادگاه امتناع کرد.",
+        "en": "The witness refused to testify against his brother in court."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ablehnen",
+      "uebersetzung": {
+        "fa": "رد کردن",
+        "en": "to decline"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "zustimmen",
+      "uebersetzung": {
+        "fa": "موافقت کردن",
+        "en": "to agree"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن weigarōn (سرپیچی کردن)",
+    "en": "from Old High German weigarōn (to refuse)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "obligatorisch",
+    "rektion": [
+      {
+        "muster": "sich weigern + zu-Infinitiv",
+        "bedeutung": "etwas nicht tun wollen",
+        "beispiel": "Sie weigerte sich, den Vertrag zu unterschreiben.",
+        "uebersetzung": {
+          "fa": "از امضای قرارداد امتناع کرد.",
+          "en": "She refused to sign the contract."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "weigern",
+      "praeteritum": "weigerte",
+      "partizip2": "geweigert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "weigere",
+        "du": "weigerst",
+        "er_sie_es": "weigert",
+        "wir": "weigern",
+        "ihr": "weigert",
+        "sie_Sie": "weigern"
+      },
+      "praeteritum": {
+        "ich": "weigerte",
+        "du": "weigertest",
+        "er_sie_es": "weigerte",
+        "wir": "weigerten",
+        "ihr": "weigertet",
+        "sie_Sie": "weigerten"
+      },
+      "konjunktiv1": {
+        "ich": "weigere",
+        "du": "weigerest",
+        "er_sie_es": "weigere",
+        "wir": "weigern",
+        "ihr": "weigeret",
+        "sie_Sie": "weigern"
+      },
+      "konjunktiv2": {
+        "ich": "weigerte",
+        "du": "weigertest",
+        "er_sie_es": "weigerte",
+        "wir": "weigerten",
+        "ihr": "weigertet",
+        "sie_Sie": "weigerten"
+      },
+      "imperativ": {
+        "du": "Weigere!",
+        "ihr": "Weigert!",
+        "Sie": "Weigern Sie!"
+      }
+    },
+    "partizip1": "weigernd",
+    "nominalisierung": "die Weigerung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to decline"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "nein",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نه",
+          "en": "no"
+        },
+        "id_ref": "adverb_nein"
+      },
+      {
+        "wort": "verweigern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "امتناع کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_verweigern"
+      },
+      {
+        "wort": "zustimmen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موافقت کردن",
+          "en": "to agree"
+        },
+        "id_ref": "verb_zustimmen"
+      },
+      {
+        "wort": "die Weigerung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "امتناع",
+          "en": "refusal"
+        },
+        "id_ref": "nomen_weigerung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

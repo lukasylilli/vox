@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_waehlen",
+  "wort": "wählen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "انتخاب کردن",
+      "رأی دادن",
+      "شماره گرفتن"
+    ],
+    "en": [
+      "to choose",
+      "to vote",
+      "to dial"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Politik",
+    "Alltag"
+  ],
+  "ipa": "ˈvɛːlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wähle das blaue Hemd.",
+      "uebersetzung": {
+        "fa": "پیراهن آبی را انتخاب می‌کنم.",
+        "en": "I choose the blue shirt."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In Deutschland darf man ab achtzehn Jahren den Bundestag wählen.",
+      "uebersetzung": {
+        "fa": "در آلمان از هجده‌سالگی می‌توان در انتخابات مجلس فدرال رأی داد.",
+        "en": "In Germany you can vote in the Bundestag elections from the age of eighteen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aussuchen",
+      "uebersetzung": {
+        "fa": "برگزیدن",
+        "en": "to pick"
+      }
+    },
+    {
+      "wort": "entscheiden",
+      "uebersetzung": {
+        "fa": "تصمیم گرفتن",
+        "en": "to decide"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wellen (برگزیدن)",
+    "en": "from Old High German wellen (to choose)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wählen",
+      "praeteritum": "wählte",
+      "partizip2": "gewählt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wähle",
+        "du": "wählst",
+        "er_sie_es": "wählt",
+        "wir": "wählen",
+        "ihr": "wählt",
+        "sie_Sie": "wählen"
+      },
+      "praeteritum": {
+        "ich": "wählte",
+        "du": "wähltest",
+        "er_sie_es": "wählte",
+        "wir": "wählten",
+        "ihr": "wähltet",
+        "sie_Sie": "wählten"
+      },
+      "konjunktiv1": {
+        "ich": "wähle",
+        "du": "wählest",
+        "er_sie_es": "wähle",
+        "wir": "wählen",
+        "ihr": "wählet",
+        "sie_Sie": "wählen"
+      },
+      "konjunktiv2": {
+        "ich": "wählte",
+        "du": "wähltest",
+        "er_sie_es": "wählte",
+        "wir": "wählten",
+        "ihr": "wähltet",
+        "sie_Sie": "wählten"
+      },
+      "imperativ": {
+        "du": "Wähle!",
+        "ihr": "Wählt!",
+        "Sie": "Wählen Sie!"
+      }
+    },
+    "partizip1": "wählend",
+    "nominalisierung": "die Wahl"
+  },
+  "wortnetz": {
+    "grundwort": "Wahl",
+    "woerter": [
+      {
+        "wort": "die Wahl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتخاب، انتخابات",
+          "en": "choice, election"
+        },
+        "id_ref": "nomen_wahl"
+      },
+      {
+        "wort": "aussuchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برگزیدن",
+          "en": "to pick"
+        },
+        "id_ref": "verb_aussuchen"
+      },
+      {
+        "wort": "entscheiden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم گرفتن",
+          "en": "to decide"
+        },
+        "id_ref": "verb_entscheiden"
+      },
+      {
+        "wort": "die Partei",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حزب",
+          "en": "party"
+        },
+        "id_ref": "nomen_partei"
+      },
+      {
+        "wort": "die Telefonnummer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شماره تلفن",
+          "en": "phone number"
+        },
+        "id_ref": "nomen_telefonnummer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_winseln",
+  "wort": "winseln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زوزه‌ی آهسته کشیدن",
+      "التماس کردن"
+    ],
+    "en": [
+      "to whine",
+      "to whimper"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "ˈvɪnzl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund winselt an der Tür.",
+      "uebersetzung": {
+        "fa": "سگ پشت در زوزه‌ی آهسته می‌کشد.",
+        "en": "The dog whines at the door."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Welpe hat die ganze Nacht gewinselt, weil er seine Mutter vermisste.",
+      "uebersetzung": {
+        "fa": "توله‌سگ تمام شب زوزه کشید، چون دلش برای مادرش تنگ شده بود.",
+        "en": "The puppy whined all night because it missed its mother."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "jaulen",
+      "uebersetzung": {
+        "fa": "زوزه کشیدن",
+        "en": "to howl"
+      }
+    },
+    {
+      "wort": "wimmern",
+      "uebersetzung": {
+        "fa": "ناله کردن",
+        "en": "to whimper"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی میانه winseln (ناله کردن)",
+    "en": "from Middle High German winseln (to whine)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "winseln um + Akk",
+        "bedeutung": "kläglich um etwas bitten",
+        "beispiel": "Er winselte um Gnade.",
+        "uebersetzung": {
+          "fa": "برای بخشش التماس کرد.",
+          "en": "He begged for mercy."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "winseln",
+      "praeteritum": "winselte",
+      "partizip2": "gewinselt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "winsle",
+        "du": "winselst",
+        "er_sie_es": "winselt",
+        "wir": "winseln",
+        "ihr": "winselt",
+        "sie_Sie": "winseln"
+      },
+      "praeteritum": {
+        "ich": "winselte",
+        "du": "winseltest",
+        "er_sie_es": "winselte",
+        "wir": "winselten",
+        "ihr": "winseltet",
+        "sie_Sie": "winselten"
+      },
+      "konjunktiv1": {
+        "ich": "winsle",
+        "du": "winslest",
+        "er_sie_es": "winsle",
+        "wir": "winseln",
+        "ihr": "winslet",
+        "sie_Sie": "winseln"
+      },
+      "konjunktiv2": {
+        "ich": "winselte",
+        "du": "winseltest",
+        "er_sie_es": "winselte",
+        "wir": "winselten",
+        "ihr": "winseltet",
+        "sie_Sie": "winselten"
+      },
+      "imperativ": {
+        "du": "Winsle!",
+        "ihr": "Winselt!",
+        "Sie": "Winseln Sie!"
+      }
+    },
+    "partizip1": "winselnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "bellen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارس کردن",
+          "en": "to bark"
+        },
+        "id_ref": "verb_bellen"
+      },
+      {
+        "wort": "jaulen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زوزه کشیدن",
+          "en": "to howl"
+        },
+        "id_ref": "verb_jaulen"
+      },
+      {
+        "wort": "wimmern",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ناله کردن",
+          "en": "to whimper"
+        },
+        "id_ref": "verb_wimmern"
+      },
+      {
+        "wort": "bitten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خواهش کردن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_bitten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

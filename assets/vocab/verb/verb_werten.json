@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_werten",
+  "wort": "werten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارزیابی کردن",
+      "امتیاز دادن"
+    ],
+    "en": [
+      "to assess",
+      "to rate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Sport"
+  ],
+  "ipa": "ˈveːɐ̯tn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Jury wertet den Sprung.",
+      "uebersetzung": {
+        "fa": "داوران پرش را ارزیابی می‌کنند.",
+        "en": "The jury rates the jump."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Gericht wertete sein Geständnis als Zeichen der Reue und milderte die Strafe.",
+      "uebersetzung": {
+        "fa": "دادگاه اعترافش را نشانه‌ی پشیمانی دانست و مجازات را تخفیف داد.",
+        "en": "The court regarded his confession as a sign of remorse and reduced the sentence."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bewerten",
+      "uebersetzung": {
+        "fa": "ارزیابی کردن",
+        "en": "to evaluate"
+      }
+    },
+    {
+      "wort": "beurteilen",
+      "uebersetzung": {
+        "fa": "قضاوت کردن",
+        "en": "to judge"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Wert (ارزش)",
+    "en": "from der Wert (value)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "werten als + Akk",
+        "bedeutung": "etwas als etwas ansehen",
+        "beispiel": "Man wertete die Wahl als großen Erfolg.",
+        "uebersetzung": {
+          "fa": "انتخابات را موفقیتی بزرگ ارزیابی کردند.",
+          "en": "The election was regarded as a great success."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "werten",
+      "praeteritum": "wertete",
+      "partizip2": "gewertet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "werte",
+        "du": "wertest",
+        "er_sie_es": "wertet",
+        "wir": "werten",
+        "ihr": "wertet",
+        "sie_Sie": "werten"
+      },
+      "praeteritum": {
+        "ich": "wertete",
+        "du": "wertetest",
+        "er_sie_es": "wertete",
+        "wir": "werteten",
+        "ihr": "wertetet",
+        "sie_Sie": "werteten"
+      },
+      "konjunktiv1": {
+        "ich": "werte",
+        "du": "wertest",
+        "er_sie_es": "werte",
+        "wir": "werten",
+        "ihr": "wertet",
+        "sie_Sie": "werten"
+      },
+      "konjunktiv2": {
+        "ich": "wertete",
+        "du": "wertetest",
+        "er_sie_es": "wertete",
+        "wir": "werteten",
+        "ihr": "wertetet",
+        "sie_Sie": "werteten"
+      },
+      "imperativ": {
+        "du": "Werte!",
+        "ihr": "Wertet!",
+        "Sie": "Werten Sie!"
+      }
+    },
+    "partizip1": "wertend",
+    "nominalisierung": "die Wertung"
+  },
+  "wortnetz": {
+    "grundwort": "Wert",
+    "woerter": [
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "bewerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن",
+          "en": "to evaluate"
+        },
+        "id_ref": "verb_bewerten"
+      },
+      {
+        "wort": "beurteilen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قضاوت کردن",
+          "en": "to judge"
+        },
+        "id_ref": "verb_beurteilen"
+      },
+      {
+        "wort": "die Note",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نمره",
+          "en": "mark"
+        },
+        "id_ref": "nomen_note"
+      },
+      {
+        "wort": "der Punkt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "امتیاز",
+          "en": "point"
+        },
+        "id_ref": "nomen_punkt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

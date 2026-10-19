@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_wachen",
+  "wort": "wachen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیدار ماندن",
+      "مراقبت کردن، نگهبانی دادن"
+    ],
+    "en": [
+      "to stay awake",
+      "to keep watch"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Sicherheit"
+  ],
+  "ipa": "ˈvaxn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Mutter wacht am Bett.",
+      "uebersetzung": {
+        "fa": "مادر کنار تخت بیدار می‌ماند.",
+        "en": "The mother keeps watch by the bed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die ganze Nacht hat die Pflegerin bei dem schwerkranken Patienten gewacht.",
+      "uebersetzung": {
+        "fa": "پرستار تمام شب بالای سر بیمار بدحال بیدار ماند.",
+        "en": "The nurse kept watch over the seriously ill patient all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "aufpassen",
+      "uebersetzung": {
+        "fa": "مراقب بودن",
+        "en": "to look out"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "schlafen",
+      "uebersetzung": {
+        "fa": "خوابیدن",
+        "en": "to sleep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wahhēn (بیدار بودن)",
+    "en": "from Old High German wahhēn (to be awake)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wachen über + Akk",
+        "bedeutung": "auf jemanden/etwas aufpassen",
+        "beispiel": "Die Polizei wacht über die Sicherheit der Gäste.",
+        "uebersetzung": {
+          "fa": "پلیس بر امنیت مهمانان نظارت می‌کند.",
+          "en": "The police watch over the guests’ safety."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wachen",
+      "praeteritum": "wachte",
+      "partizip2": "gewacht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wache",
+        "du": "wachst",
+        "er_sie_es": "wacht",
+        "wir": "wachen",
+        "ihr": "wacht",
+        "sie_Sie": "wachen"
+      },
+      "praeteritum": {
+        "ich": "wachte",
+        "du": "wachtest",
+        "er_sie_es": "wachte",
+        "wir": "wachten",
+        "ihr": "wachtet",
+        "sie_Sie": "wachten"
+      },
+      "konjunktiv1": {
+        "ich": "wache",
+        "du": "wachest",
+        "er_sie_es": "wache",
+        "wir": "wachen",
+        "ihr": "wachet",
+        "sie_Sie": "wachen"
+      },
+      "konjunktiv2": {
+        "ich": "wachte",
+        "du": "wachtest",
+        "er_sie_es": "wachte",
+        "wir": "wachten",
+        "ihr": "wachtet",
+        "sie_Sie": "wachten"
+      },
+      "imperativ": {
+        "du": "Wache!",
+        "ihr": "Wacht!",
+        "Sie": "Wachen Sie!"
+      }
+    },
+    "partizip1": "wachend",
+    "nominalisierung": "die Wache"
+  },
+  "wortnetz": {
+    "grundwort": "wach",
+    "woerter": [
+      {
+        "wort": "wach",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار",
+          "en": "awake"
+        },
+        "id_ref": "adjektiv_wach"
+      },
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "aufpassen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مراقب بودن",
+          "en": "to look out"
+        },
+        "id_ref": "verb_aufpassen"
+      },
+      {
+        "wort": "die Wache",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگهبانی، نگهبان",
+          "en": "guard"
+        },
+        "id_ref": "nomen_wache"
+      },
+      {
+        "wort": "die Nacht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شب",
+          "en": "night"
+        },
+        "id_ref": "nomen_nacht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

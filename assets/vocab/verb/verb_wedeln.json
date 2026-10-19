@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_wedeln",
+  "wort": "wedeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکان دادن (دم، دست)",
+      "باد زدن"
+    ],
+    "en": [
+      "to wag",
+      "to wave"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Bewegung"
+  ],
+  "ipa": "ˈveːdl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund wedelt mit dem Schwanz.",
+      "uebersetzung": {
+        "fa": "سگ دمش را تکان می‌دهد.",
+        "en": "The dog wags its tail."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie wedelte mit der Zeitung, um sich in der Hitze etwas Luft zu verschaffen.",
+      "uebersetzung": {
+        "fa": "با روزنامه خودش را باد می‌زد تا در گرما کمی هوا بخورد.",
+        "en": "She fanned herself with the newspaper to get a little air in the heat."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schwenken",
+      "uebersetzung": {
+        "fa": "تکان دادن",
+        "en": "to swing"
+      }
+    },
+    {
+      "wort": "winken",
+      "uebersetzung": {
+        "fa": "دست تکان دادن",
+        "en": "to wave"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wedil (بادبزن، دم)",
+    "en": "from Old High German wedil (fan, tail)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wedeln mit + Dat",
+        "bedeutung": "etwas hin und her bewegen",
+        "beispiel": "Er wedelte mit einem Geldschein.",
+        "uebersetzung": {
+          "fa": "یک اسکناس را تکان می‌داد.",
+          "en": "He was waving a banknote."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wedeln",
+      "praeteritum": "wedelte",
+      "partizip2": "gewedelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wedle",
+        "du": "wedelst",
+        "er_sie_es": "wedelt",
+        "wir": "wedeln",
+        "ihr": "wedelt",
+        "sie_Sie": "wedeln"
+      },
+      "praeteritum": {
+        "ich": "wedelte",
+        "du": "wedeltest",
+        "er_sie_es": "wedelte",
+        "wir": "wedelten",
+        "ihr": "wedeltet",
+        "sie_Sie": "wedelten"
+      },
+      "konjunktiv1": {
+        "ich": "wedle",
+        "du": "wedlest",
+        "er_sie_es": "wedle",
+        "wir": "wedeln",
+        "ihr": "wedlet",
+        "sie_Sie": "wedeln"
+      },
+      "konjunktiv2": {
+        "ich": "wedelte",
+        "du": "wedeltest",
+        "er_sie_es": "wedelte",
+        "wir": "wedelten",
+        "ihr": "wedeltet",
+        "sie_Sie": "wedelten"
+      },
+      "imperativ": {
+        "du": "Wedle!",
+        "ihr": "Wedelt!",
+        "Sie": "Wedeln Sie!"
+      }
+    },
+    "partizip1": "wedelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "der Schwanz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دم",
+          "en": "tail"
+        },
+        "id_ref": "nomen_schwanz"
+      },
+      {
+        "wort": "winken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دست تکان دادن",
+          "en": "to wave"
+        },
+        "id_ref": "verb_winken"
+      },
+      {
+        "wort": "bewegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرکت دادن",
+          "en": "to move"
+        },
+        "id_ref": "verb_bewegen"
+      },
+      {
+        "wort": "schwenken",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تکان دادن",
+          "en": "to swing"
+        },
+        "id_ref": "verb_schwenken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

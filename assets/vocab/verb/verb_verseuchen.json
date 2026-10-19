@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_verseuchen",
+  "wort": "verseuchen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آلوده کردن (به سم یا میکروب)"
+    ],
+    "en": [
+      "to contaminate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Umwelt",
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈzɔɪ̯çn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wasser ist verseucht.",
+      "uebersetzung": {
+        "fa": "آب آلوده است.",
+        "en": "The water is contaminated."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Unfall im Kraftwerk war der Boden für Jahrzehnte radioaktiv verseucht.",
+      "uebersetzung": {
+        "fa": "پس از حادثه در نیروگاه، خاک برای دهه‌ها به مواد رادیواکتیو آلوده بود.",
+        "en": "After the accident at the power station the soil was radioactively contaminated for decades."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschmutzen",
+      "uebersetzung": {
+        "fa": "آلوده کردن",
+        "en": "to pollute"
+      }
+    },
+    {
+      "wort": "vergiften",
+      "uebersetzung": {
+        "fa": "مسموم کردن",
+        "en": "to poison"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Seuche (بیماری واگیر)",
+    "en": "ver- + die Seuche (epidemic)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verseuchen",
+      "praeteritum": "verseuchte",
+      "partizip2": "verseucht"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verseuche",
+        "du": "verseuchst",
+        "er_sie_es": "verseucht",
+        "wir": "verseuchen",
+        "ihr": "verseucht",
+        "sie_Sie": "verseuchen"
+      },
+      "praeteritum": {
+        "ich": "verseuchte",
+        "du": "verseuchtest",
+        "er_sie_es": "verseuchte",
+        "wir": "verseuchten",
+        "ihr": "verseuchtet",
+        "sie_Sie": "verseuchten"
+      },
+      "konjunktiv1": {
+        "ich": "verseuche",
+        "du": "verseuchest",
+        "er_sie_es": "verseuche",
+        "wir": "verseuchen",
+        "ihr": "verseuchet",
+        "sie_Sie": "verseuchen"
+      },
+      "konjunktiv2": {
+        "ich": "verseuchte",
+        "du": "verseuchtest",
+        "er_sie_es": "verseuchte",
+        "wir": "verseuchten",
+        "ihr": "verseuchtet",
+        "sie_Sie": "verseuchten"
+      },
+      "imperativ": {
+        "du": "Verseuche!",
+        "ihr": "Verseucht!",
+        "Sie": "Verseuchen Sie!"
+      }
+    },
+    "partizip1": "verseuchend",
+    "nominalisierung": "die Verseuchung"
+  },
+  "wortnetz": {
+    "grundwort": "Seuche",
+    "woerter": [
+      {
+        "wort": "die Umwelt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محیط زیست",
+          "en": "environment"
+        },
+        "id_ref": "nomen_umwelt"
+      },
+      {
+        "wort": "vergiften",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسموم کردن",
+          "en": "to poison"
+        },
+        "id_ref": "verb_vergiften"
+      },
+      {
+        "wort": "verschmutzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آلوده کردن",
+          "en": "to pollute"
+        },
+        "id_ref": "verb_verschmutzen"
+      },
+      {
+        "wort": "die Seuche",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیماری واگیر",
+          "en": "epidemic"
+        },
+        "id_ref": "nomen_seuche"
+      },
+      {
+        "wort": "das Gift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سم",
+          "en": "poison"
+        },
+        "id_ref": "nomen_gift"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

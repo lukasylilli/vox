@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "verb_wecken",
+  "wort": "wecken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بیدار کردن",
+      "برانگیختن"
+    ],
+    "en": [
+      "to wake (up)",
+      "to arouse"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Gefühle"
+  ],
+  "ipa": "ˈvɛkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wecke dich um sieben.",
+      "uebersetzung": {
+        "fa": "ساعت هفت بیدارت می‌کنم.",
+        "en": "I’ll wake you at seven."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Buch hat schon früh sein Interesse an der Geschichte geweckt.",
+      "uebersetzung": {
+        "fa": "آن کتاب از همان اوایل علاقه‌اش به تاریخ را برانگیخت.",
+        "en": "The book aroused his interest in history early on."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "einschläfern",
+      "uebersetzung": {
+        "fa": "خواباندن",
+        "en": "to send to sleep"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "واژه‌ی سببی از wachen (بیدار بودن)",
+    "en": "causative of wachen (to be awake)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wecken",
+      "praeteritum": "weckte",
+      "partizip2": "geweckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wecke",
+        "du": "weckst",
+        "er_sie_es": "weckt",
+        "wir": "wecken",
+        "ihr": "weckt",
+        "sie_Sie": "wecken"
+      },
+      "praeteritum": {
+        "ich": "weckte",
+        "du": "wecktest",
+        "er_sie_es": "weckte",
+        "wir": "weckten",
+        "ihr": "wecktet",
+        "sie_Sie": "weckten"
+      },
+      "konjunktiv1": {
+        "ich": "wecke",
+        "du": "weckest",
+        "er_sie_es": "wecke",
+        "wir": "wecken",
+        "ihr": "wecket",
+        "sie_Sie": "wecken"
+      },
+      "konjunktiv2": {
+        "ich": "weckte",
+        "du": "wecktest",
+        "er_sie_es": "weckte",
+        "wir": "weckten",
+        "ihr": "wecktet",
+        "sie_Sie": "weckten"
+      },
+      "imperativ": {
+        "du": "Wecke!",
+        "ihr": "Weckt!",
+        "Sie": "Wecken Sie!"
+      }
+    },
+    "partizip1": "weckend",
+    "nominalisierung": "der Wecker"
+  },
+  "wortnetz": {
+    "grundwort": "wach",
+    "woerter": [
+      {
+        "wort": "wach",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار",
+          "en": "awake"
+        },
+        "id_ref": "adjektiv_wach"
+      },
+      {
+        "wort": "der Wecker",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساعت زنگ‌دار",
+          "en": "alarm clock"
+        },
+        "id_ref": "nomen_wecker"
+      },
+      {
+        "wort": "aufwachen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیدار شدن",
+          "en": "to wake up"
+        },
+        "id_ref": "verb_aufwachen"
+      },
+      {
+        "wort": "schlafen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خوابیدن",
+          "en": "to sleep"
+        },
+        "id_ref": "verb_schlafen"
+      },
+      {
+        "wort": "der Morgen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صبح",
+          "en": "morning"
+        },
+        "id_ref": "nomen_morgen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

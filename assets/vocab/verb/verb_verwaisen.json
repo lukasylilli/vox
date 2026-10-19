@@ -1,0 +1,163 @@
+{
+  "schema": "3.0",
+  "id": "verb_verwaisen",
+  "wort": "verwaisen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "یتیم شدن",
+      "متروک شدن"
+    ],
+    "en": [
+      "to be orphaned",
+      "to be abandoned"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Familie",
+    "Gesellschaft"
+  ],
+  "ipa": "fɛɐ̯ˈvaɪ̯zn̩",
+  "anmerkung": "Häufig als Partizip «verwaist» (= ohne Eltern; leer, verlassen).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Dorf ist verwaist.",
+      "uebersetzung": {
+        "fa": "روستا متروک شده است.",
+        "en": "The village is deserted."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem frühen Tod ihrer Eltern ist sie mit drei Jahren verwaist und bei der Tante aufgewachsen.",
+      "uebersetzung": {
+        "fa": "پس از مرگ زودهنگام پدر و مادرش، در سه‌سالگی یتیم شد و نزد عمه‌اش بزرگ شد.",
+        "en": "After her parents died early, she was orphaned at the age of three and grew up with her aunt."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Waise (یتیم)",
+    "en": "ver- + die Waise (orphan)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "sein",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verwaisen",
+      "praeteritum": "verwaiste",
+      "partizip2": "verwaist"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verwaise",
+        "du": "verwaist",
+        "er_sie_es": "verwaist",
+        "wir": "verwaisen",
+        "ihr": "verwaist",
+        "sie_Sie": "verwaisen"
+      },
+      "praeteritum": {
+        "ich": "verwaiste",
+        "du": "verwaistest",
+        "er_sie_es": "verwaiste",
+        "wir": "verwaisten",
+        "ihr": "verwaistet",
+        "sie_Sie": "verwaisten"
+      },
+      "konjunktiv1": {
+        "ich": "verwaise",
+        "du": "verwaisest",
+        "er_sie_es": "verwaise",
+        "wir": "verwaisen",
+        "ihr": "verwaiset",
+        "sie_Sie": "verwaisen"
+      },
+      "konjunktiv2": {
+        "ich": "verwaiste",
+        "du": "verwaistest",
+        "er_sie_es": "verwaiste",
+        "wir": "verwaisten",
+        "ihr": "verwaistet",
+        "sie_Sie": "verwaisten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "verwaisend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Waise",
+    "woerter": [
+      {
+        "wort": "die Waise",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یتیم",
+          "en": "orphan"
+        },
+        "id_ref": "nomen_waise"
+      },
+      {
+        "wort": "die Eltern",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "والدین",
+          "en": "parents"
+        },
+        "id_ref": "nomen_eltern"
+      },
+      {
+        "wort": "allein",
+        "wortart": "adverb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تنها",
+          "en": "alone"
+        },
+        "id_ref": "adverb_allein"
+      },
+      {
+        "wort": "leer",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خالی",
+          "en": "empty"
+        },
+        "id_ref": "adjektiv_leer"
+      },
+      {
+        "wort": "verlassen",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "متروک",
+          "en": "deserted"
+        },
+        "id_ref": "adjektiv_verlassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

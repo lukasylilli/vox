@@ -1,0 +1,177 @@
+{
+  "schema": "3.0",
+  "id": "verb_verwuesten",
+  "wort": "verwüsten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ویران کردن، به هم ریختن"
+    ],
+    "en": [
+      "to devastate",
+      "to trash"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Gewalt"
+  ],
+  "ipa": "fɛɐ̯ˈvyːstn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Sturm verwüstet den Garten.",
+      "uebersetzung": {
+        "fa": "طوفان باغ را ویران می‌کند.",
+        "en": "The storm devastates the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Einbrecher haben die ganze Wohnung verwüstet, aber kaum etwas mitgenommen.",
+      "uebersetzung": {
+        "fa": "دزدها کل خانه را به هم ریختند، اما تقریباً چیزی نبردند.",
+        "en": "The burglars trashed the whole flat but took hardly anything."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zerstören",
+      "uebersetzung": {
+        "fa": "نابود کردن",
+        "en": "to destroy"
+      }
+    },
+    {
+      "wort": "verheeren",
+      "uebersetzung": {
+        "fa": "ویران کردن",
+        "en": "to ravage"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Wüste (بیابان)",
+    "en": "ver- + die Wüste (desert)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verwüsten",
+      "praeteritum": "verwüstete",
+      "partizip2": "verwüstet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verwüste",
+        "du": "verwüstest",
+        "er_sie_es": "verwüstet",
+        "wir": "verwüsten",
+        "ihr": "verwüstet",
+        "sie_Sie": "verwüsten"
+      },
+      "praeteritum": {
+        "ich": "verwüstete",
+        "du": "verwüstetest",
+        "er_sie_es": "verwüstete",
+        "wir": "verwüsteten",
+        "ihr": "verwüstetet",
+        "sie_Sie": "verwüsteten"
+      },
+      "konjunktiv1": {
+        "ich": "verwüste",
+        "du": "verwüstest",
+        "er_sie_es": "verwüste",
+        "wir": "verwüsten",
+        "ihr": "verwüstet",
+        "sie_Sie": "verwüsten"
+      },
+      "konjunktiv2": {
+        "ich": "verwüstete",
+        "du": "verwüstetest",
+        "er_sie_es": "verwüstete",
+        "wir": "verwüsteten",
+        "ihr": "verwüstetet",
+        "sie_Sie": "verwüsteten"
+      },
+      "imperativ": {
+        "du": "Verwüste!",
+        "ihr": "Verwüstet!",
+        "Sie": "Verwüsten Sie!"
+      }
+    },
+    "partizip1": "verwüstend",
+    "nominalisierung": "die Verwüstung"
+  },
+  "wortnetz": {
+    "grundwort": "Wüste",
+    "woerter": [
+      {
+        "wort": "zerstören",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نابود کردن",
+          "en": "to destroy"
+        },
+        "id_ref": "verb_zerstoeren"
+      },
+      {
+        "wort": "die Wüste",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیابان",
+          "en": "desert"
+        },
+        "id_ref": "nomen_wueste"
+      },
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      },
+      {
+        "wort": "das Chaos",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آشفتگی",
+          "en": "chaos"
+        },
+        "id_ref": "nomen_chaos"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

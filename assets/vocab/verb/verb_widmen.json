@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_widmen",
+  "wort": "widmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تقدیم کردن",
+      "وقف کردن (وقت، توجه)",
+      "پرداختن به"
+    ],
+    "en": [
+      "to dedicate",
+      "to devote"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kunst",
+    "Arbeit"
+  ],
+  "ipa": "ˈvɪtmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er widmet ihr ein Lied.",
+      "uebersetzung": {
+        "fa": "ترانه‌ای به او تقدیم می‌کند.",
+        "en": "He dedicates a song to her."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Pensionierung widmet sie sich ganz ihrem Garten und ihren Enkelkindern.",
+      "uebersetzung": {
+        "fa": "پس از بازنشستگی کاملاً به باغ و نوه‌هایش می‌پردازد.",
+        "en": "Since retiring she has devoted herself entirely to her garden and her grandchildren."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schenken",
+      "uebersetzung": {
+        "fa": "هدیه دادن",
+        "en": "to give"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن widemen (جهیزیه دادن، وقف کردن)",
+    "en": "from Old High German widemen (to endow)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem + Akk widmen",
+        "bedeutung": "jemandem etwas zueignen",
+        "beispiel": "Der Autor widmete das Buch seiner Mutter.",
+        "uebersetzung": {
+          "fa": "نویسنده کتاب را به مادرش تقدیم کرد.",
+          "en": "The author dedicated the book to his mother."
+        }
+      },
+      {
+        "muster": "sich widmen + Dat",
+        "bedeutung": "sich intensiv mit etwas beschäftigen",
+        "beispiel": "Er widmet sich der Forschung.",
+        "uebersetzung": {
+          "fa": "او به پژوهش می‌پردازد.",
+          "en": "He devotes himself to research."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "widmen",
+      "praeteritum": "widmete",
+      "partizip2": "gewidmet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "widme",
+        "du": "widmest",
+        "er_sie_es": "widmet",
+        "wir": "widmen",
+        "ihr": "widmet",
+        "sie_Sie": "widmen"
+      },
+      "praeteritum": {
+        "ich": "widmete",
+        "du": "widmetest",
+        "er_sie_es": "widmete",
+        "wir": "widmeten",
+        "ihr": "widmetet",
+        "sie_Sie": "widmeten"
+      },
+      "konjunktiv1": {
+        "ich": "widme",
+        "du": "widmest",
+        "er_sie_es": "widme",
+        "wir": "widmen",
+        "ihr": "widmet",
+        "sie_Sie": "widmen"
+      },
+      "konjunktiv2": {
+        "ich": "widmete",
+        "du": "widmetest",
+        "er_sie_es": "widmete",
+        "wir": "widmeten",
+        "ihr": "widmetet",
+        "sie_Sie": "widmeten"
+      },
+      "imperativ": {
+        "du": "Widme!",
+        "ihr": "Widmet!",
+        "Sie": "Widmen Sie!"
+      }
+    },
+    "partizip1": "widmend",
+    "nominalisierung": "die Widmung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schenken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هدیه دادن",
+          "en": "to give"
+        },
+        "id_ref": "verb_schenken"
+      },
+      {
+        "wort": "die Widmung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقدیم‌نامه",
+          "en": "dedication"
+        },
+        "id_ref": "nomen_widmung"
+      },
+      {
+        "wort": "beschäftigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشغول کردن",
+          "en": "to occupy"
+        },
+        "id_ref": "verb_beschaeftigen"
+      },
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

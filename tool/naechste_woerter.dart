@@ -2037,6 +2037,30 @@ const zurueckgestellt = <String>{
   'verramschen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
   'verrecken', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-19
   'versauen', // zurückgestellt: derb/umgangssprachlich — Entscheidung Lukas (Regel 17) 2026-10-19
+  'verscheißern', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-19
+  'verscherbeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verschlammen', // zurückgestellt: selten, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'verspießern', // zurückgestellt: umgangssprachlich, selten — nicht sicher (Regel 14) 2026-10-19
+  'versumpfen', // zurückgestellt: umgangssprachlich (Bedeutung «verwahrlosen»), Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'vertäuen', // zurückgestellt: Seemannssprache, selten — nicht sicher (Regel 14) 2026-10-19
+  'verulken', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'verweltlichen', // zurückgestellt: selten, Fachsprache — nicht sicher (Regel 14) 2026-10-19
+  'verzärteln', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-19
+  'vespern', // zurückgestellt: landschaftlich (süddeutsch) — nicht sicher (Regel 14) 2026-10-19
+  'visieren', // zurückgestellt: veraltet/Fachsprache — nicht sicher (Regel 14) 2026-10-19
+  'visitieren', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-19
+  'vitaminisieren', // zurückgestellt: Fachsprache, selten — nicht sicher (Regel 14) 2026-10-19
+  'vögeln', // zurückgestellt: derb/vulgär — Entscheidung Lukas (Regel 17) 2026-10-19
+  'voltigieren', // zurückgestellt: Fachsprache (Reiten/Fechten), selten — nicht sicher (Regel 14) 2026-10-19
+  'walken', // zurückgestellt: zwei Bedeutungen (Leder/Filz walken ↔ Nordic Walking), Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-19
+  'wallen', // zurückgestellt: Hilfsverb schwankt (haben/sein), gehoben — nicht sicher (Regel 16) 2026-10-19
+  'wegarbeiten', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'wegschnippen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'werkeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'wichsen', // zurückgestellt: derb/vulgär (Nebenbedeutung) — Entscheidung Lukas (Regel 17) 2026-10-19
+  'wiegeln', // zurückgestellt: selten, nur in aufwiegeln gebräuchlich — nicht sicher (Regel 14) 2026-10-19
+  'wienern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'winkeln', // zurückgestellt: selten (meist «abwinkeln», «angewinkelt») — nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

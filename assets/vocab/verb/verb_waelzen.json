@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_waelzen",
+  "wort": "wälzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "غلتاندن",
+      "غلت زدن",
+      "زیرورو کردن (کتاب، مسئله)"
+    ],
+    "en": [
+      "to roll",
+      "to toss and turn",
+      "to pore over"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Denken"
+  ],
+  "ipa": "ˈvɛlt͡sn̩",
+  "anmerkung": "Auch: Probleme/Bücher wälzen (lange darüber nachdenken bzw. darin lesen).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund wälzt sich im Gras.",
+      "uebersetzung": {
+        "fa": "سگ در چمن غلت می‌زند.",
+        "en": "The dog rolls around in the grass."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Vor der Prüfung hat er sich die ganze Nacht im Bett gewälzt, weil er nicht schlafen konnte.",
+      "uebersetzung": {
+        "fa": "شب قبل از امتحان تمام شب در رختخواب غلت زد، چون خوابش نمی‌برد.",
+        "en": "The night before the exam he tossed and turned in bed all night because he could not sleep."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rollen",
+      "uebersetzung": {
+        "fa": "غلتاندن",
+        "en": "to roll"
+      }
+    },
+    {
+      "wort": "drehen",
+      "uebersetzung": {
+        "fa": "چرخاندن",
+        "en": "to turn"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "واژه‌ی سببی از walzen (غلتیدن)",
+    "en": "causative of walzen (to roll)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wälzen",
+      "praeteritum": "wälzte",
+      "partizip2": "gewälzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wälze",
+        "du": "wälzt",
+        "er_sie_es": "wälzt",
+        "wir": "wälzen",
+        "ihr": "wälzt",
+        "sie_Sie": "wälzen"
+      },
+      "praeteritum": {
+        "ich": "wälzte",
+        "du": "wälztest",
+        "er_sie_es": "wälzte",
+        "wir": "wälzten",
+        "ihr": "wälztet",
+        "sie_Sie": "wälzten"
+      },
+      "konjunktiv1": {
+        "ich": "wälze",
+        "du": "wälzest",
+        "er_sie_es": "wälze",
+        "wir": "wälzen",
+        "ihr": "wälzet",
+        "sie_Sie": "wälzen"
+      },
+      "konjunktiv2": {
+        "ich": "wälzte",
+        "du": "wälztest",
+        "er_sie_es": "wälzte",
+        "wir": "wälzten",
+        "ihr": "wälztet",
+        "sie_Sie": "wälzten"
+      },
+      "imperativ": {
+        "du": "Wälze!",
+        "ihr": "Wälzt!",
+        "Sie": "Wälzen Sie!"
+      }
+    },
+    "partizip1": "wälzend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rollen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غلتاندن",
+          "en": "to roll"
+        },
+        "id_ref": "verb_rollen"
+      },
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "schlaflos",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بی‌خواب",
+          "en": "sleepless"
+        },
+        "id_ref": "adjektiv_schlaflos"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

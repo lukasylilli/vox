@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_verwunden",
+  "wort": "verwunden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زخمی کردن"
+    ],
+    "en": [
+      "to wound"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Krieg",
+    "Gefühle"
+  ],
+  "ipa": "fɛɐ̯ˈvʊndn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Soldat ist verwundet.",
+      "uebersetzung": {
+        "fa": "سرباز زخمی است.",
+        "en": "The soldier is wounded."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei dem Angriff wurden drei Polizisten verwundet, einer davon schwer.",
+      "uebersetzung": {
+        "fa": "در این حمله سه پلیس زخمی شدند که یکی از آن‌ها وضع وخیمی دارد.",
+        "en": "Three police officers were wounded in the attack, one of them seriously."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verletzen",
+      "uebersetzung": {
+        "fa": "زخمی کردن",
+        "en": "to injure"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "heilen",
+      "uebersetzung": {
+        "fa": "شفا دادن",
+        "en": "to heal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + die Wunde (زخم)",
+    "en": "ver- + die Wunde (wound)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verwunden",
+      "praeteritum": "verwundete",
+      "partizip2": "verwundet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verwunde",
+        "du": "verwundest",
+        "er_sie_es": "verwundet",
+        "wir": "verwunden",
+        "ihr": "verwundet",
+        "sie_Sie": "verwunden"
+      },
+      "praeteritum": {
+        "ich": "verwundete",
+        "du": "verwundetest",
+        "er_sie_es": "verwundete",
+        "wir": "verwundeten",
+        "ihr": "verwundetet",
+        "sie_Sie": "verwundeten"
+      },
+      "konjunktiv1": {
+        "ich": "verwunde",
+        "du": "verwundest",
+        "er_sie_es": "verwunde",
+        "wir": "verwunden",
+        "ihr": "verwundet",
+        "sie_Sie": "verwunden"
+      },
+      "konjunktiv2": {
+        "ich": "verwundete",
+        "du": "verwundetest",
+        "er_sie_es": "verwundete",
+        "wir": "verwundeten",
+        "ihr": "verwundetet",
+        "sie_Sie": "verwundeten"
+      },
+      "imperativ": {
+        "du": "Verwunde!",
+        "ihr": "Verwundet!",
+        "Sie": "Verwunden Sie!"
+      }
+    },
+    "partizip1": "verwundend",
+    "nominalisierung": "die Verwundung"
+  },
+  "wortnetz": {
+    "grundwort": "Wunde",
+    "woerter": [
+      {
+        "wort": "die Wunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "زخم",
+          "en": "wound"
+        },
+        "id_ref": "nomen_wunde"
+      },
+      {
+        "wort": "verletzen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زخمی کردن",
+          "en": "to injure"
+        },
+        "id_ref": "verb_verletzen"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "verwundet",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زخمی",
+          "en": "wounded"
+        },
+        "id_ref": "adjektiv_verwundet"
+      },
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

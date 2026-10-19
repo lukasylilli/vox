@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_wechseln",
+  "wort": "wechseln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "عوض کردن",
+      "تبدیل کردن (پول)"
+    ],
+    "en": [
+      "to change",
+      "to exchange"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Alltag",
+    "Finanzen"
+  ],
+  "ipa": "ˈvɛksl̩n",
+  "anmerkung": "Mit Richtungsangabe auch mit «sein» (er ist zu einem anderen Verein gewechselt).",
+  "berufe": [
+    "pflege_medizin",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wechsle das Hemd.",
+      "uebersetzung": {
+        "fa": "پیراهنم را عوض می‌کنم.",
+        "en": "I am changing my shirt."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor wir in die Schweiz fahren, müssen wir noch Geld wechseln.",
+      "uebersetzung": {
+        "fa": "پیش از رفتن به سوئیس باید پول تبدیل کنیم.",
+        "en": "Before we go to Switzerland we still have to change money."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "tauschen",
+      "uebersetzung": {
+        "fa": "عوض کردن",
+        "en": "to swap"
+      }
+    },
+    {
+      "wort": "ändern",
+      "uebersetzung": {
+        "fa": "تغییر دادن",
+        "en": "to change"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Wechsel (تغییر)",
+    "en": "from der Wechsel (change)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wechseln",
+      "praeteritum": "wechselte",
+      "partizip2": "gewechselt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wechsle",
+        "du": "wechselst",
+        "er_sie_es": "wechselt",
+        "wir": "wechseln",
+        "ihr": "wechselt",
+        "sie_Sie": "wechseln"
+      },
+      "praeteritum": {
+        "ich": "wechselte",
+        "du": "wechseltest",
+        "er_sie_es": "wechselte",
+        "wir": "wechselten",
+        "ihr": "wechseltet",
+        "sie_Sie": "wechselten"
+      },
+      "konjunktiv1": {
+        "ich": "wechsle",
+        "du": "wechslest",
+        "er_sie_es": "wechsle",
+        "wir": "wechseln",
+        "ihr": "wechslet",
+        "sie_Sie": "wechseln"
+      },
+      "konjunktiv2": {
+        "ich": "wechselte",
+        "du": "wechseltest",
+        "er_sie_es": "wechselte",
+        "wir": "wechselten",
+        "ihr": "wechseltet",
+        "sie_Sie": "wechselten"
+      },
+      "imperativ": {
+        "du": "Wechsle!",
+        "ihr": "Wechselt!",
+        "Sie": "Wechseln Sie!"
+      }
+    },
+    "partizip1": "wechselnd",
+    "nominalisierung": "der Wechsel"
+  },
+  "wortnetz": {
+    "grundwort": "Wechsel",
+    "woerter": [
+      {
+        "wort": "tauschen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عوض کردن",
+          "en": "to swap"
+        },
+        "id_ref": "verb_tauschen"
+      },
+      {
+        "wort": "ändern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تغییر دادن",
+          "en": "to change"
+        },
+        "id_ref": "verb_aendern"
+      },
+      {
+        "wort": "der Wechsel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تغییر",
+          "en": "change"
+        },
+        "id_ref": "nomen_wechsel"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "neu",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نو",
+          "en": "new"
+        },
+        "id_ref": "adjektiv_neu"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

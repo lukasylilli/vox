@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_verteidigen",
+  "wort": "verteidigen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دفاع کردن"
+    ],
+    "en": [
+      "to defend"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Sport"
+  ],
+  "ipa": "fɛɐ̯ˈtaɪ̯dɪɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie verteidigt ihren Bruder.",
+      "uebersetzung": {
+        "fa": "از برادرش دفاع می‌کند.",
+        "en": "She defends her brother."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Anwalt verteidigte seinen Mandanten so gut, dass das Gericht ihn freisprach.",
+      "uebersetzung": {
+        "fa": "وکیل آن‌قدر خوب از موکلش دفاع کرد که دادگاه او را تبرئه کرد.",
+        "en": "The lawyer defended his client so well that the court acquitted him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "schützen",
+      "uebersetzung": {
+        "fa": "محافظت کردن",
+        "en": "to protect"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "angreifen",
+      "uebersetzung": {
+        "fa": "حمله کردن",
+        "en": "to attack"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + آلمانی کهن tagading (دادگاه)",
+    "en": "ver- + Old High German tagading (court day)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "verteidigen gegen + Akk",
+        "bedeutung": "jemanden/etwas vor einem Angriff schützen",
+        "beispiel": "Sie verteidigten das Dorf gegen die Angreifer.",
+        "uebersetzung": {
+          "fa": "از روستا در برابر مهاجمان دفاع کردند.",
+          "en": "They defended the village against the attackers."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "verteidigen",
+      "praeteritum": "verteidigte",
+      "partizip2": "verteidigt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verteidige",
+        "du": "verteidigst",
+        "er_sie_es": "verteidigt",
+        "wir": "verteidigen",
+        "ihr": "verteidigt",
+        "sie_Sie": "verteidigen"
+      },
+      "praeteritum": {
+        "ich": "verteidigte",
+        "du": "verteidigtest",
+        "er_sie_es": "verteidigte",
+        "wir": "verteidigten",
+        "ihr": "verteidigtet",
+        "sie_Sie": "verteidigten"
+      },
+      "konjunktiv1": {
+        "ich": "verteidige",
+        "du": "verteidigest",
+        "er_sie_es": "verteidige",
+        "wir": "verteidigen",
+        "ihr": "verteidiget",
+        "sie_Sie": "verteidigen"
+      },
+      "konjunktiv2": {
+        "ich": "verteidigte",
+        "du": "verteidigtest",
+        "er_sie_es": "verteidigte",
+        "wir": "verteidigten",
+        "ihr": "verteidigtet",
+        "sie_Sie": "verteidigten"
+      },
+      "imperativ": {
+        "du": "Verteidige!",
+        "ihr": "Verteidigt!",
+        "Sie": "Verteidigen Sie!"
+      }
+    },
+    "partizip1": "verteidigend",
+    "nominalisierung": "die Verteidigung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schützen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محافظت کردن",
+          "en": "to protect"
+        },
+        "id_ref": "verb_schuetzen"
+      },
+      {
+        "wort": "angreifen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمله کردن",
+          "en": "to attack"
+        },
+        "id_ref": "verb_angreifen"
+      },
+      {
+        "wort": "der Anwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل",
+          "en": "lawyer"
+        },
+        "id_ref": "nomen_anwalt"
+      },
+      {
+        "wort": "die Verteidigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفاع",
+          "en": "defence"
+        },
+        "id_ref": "nomen_verteidigung"
+      },
+      {
+        "wort": "der Verteidiger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدافع",
+          "en": "defender"
+        },
+        "id_ref": "nomen_verteidiger"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

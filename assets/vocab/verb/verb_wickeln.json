@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_wickeln",
+  "wort": "wickeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پیچیدن",
+      "پوشک کردن"
+    ],
+    "en": [
+      "to wrap",
+      "to change (a nappy)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Familie",
+    "Haushalt"
+  ],
+  "ipa": "ˈvɪkl̩n",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wickle das Baby.",
+      "uebersetzung": {
+        "fa": "پوشک نوزاد را عوض می‌کنم.",
+        "en": "I am changing the baby’s nappy."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie wickelte das Geschenk in buntes Papier und band eine Schleife darum.",
+      "uebersetzung": {
+        "fa": "هدیه را در کاغذ رنگی پیچید و روبانی دورش بست.",
+        "en": "She wrapped the present in colourful paper and tied a bow around it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "einpacken",
+      "uebersetzung": {
+        "fa": "بسته‌بندی کردن",
+        "en": "to wrap up"
+      }
+    },
+    {
+      "wort": "rollen",
+      "uebersetzung": {
+        "fa": "لوله کردن",
+        "en": "to roll"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی میانه wickeln (پیچیدن)",
+    "en": "from Middle High German wickeln (to wrap)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "wickeln in + Akk",
+        "bedeutung": "etwas in etwas einhüllen",
+        "beispiel": "Er wickelte sich in eine warme Decke.",
+        "uebersetzung": {
+          "fa": "خودش را در پتوی گرمی پیچید.",
+          "en": "He wrapped himself in a warm blanket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wickeln",
+      "praeteritum": "wickelte",
+      "partizip2": "gewickelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wickle",
+        "du": "wickelst",
+        "er_sie_es": "wickelt",
+        "wir": "wickeln",
+        "ihr": "wickelt",
+        "sie_Sie": "wickeln"
+      },
+      "praeteritum": {
+        "ich": "wickelte",
+        "du": "wickeltest",
+        "er_sie_es": "wickelte",
+        "wir": "wickelten",
+        "ihr": "wickeltet",
+        "sie_Sie": "wickelten"
+      },
+      "konjunktiv1": {
+        "ich": "wickle",
+        "du": "wicklest",
+        "er_sie_es": "wickle",
+        "wir": "wickeln",
+        "ihr": "wicklet",
+        "sie_Sie": "wickeln"
+      },
+      "konjunktiv2": {
+        "ich": "wickelte",
+        "du": "wickeltest",
+        "er_sie_es": "wickelte",
+        "wir": "wickelten",
+        "ihr": "wickeltet",
+        "sie_Sie": "wickelten"
+      },
+      "imperativ": {
+        "du": "Wickle!",
+        "ihr": "Wickelt!",
+        "Sie": "Wickeln Sie!"
+      }
+    },
+    "partizip1": "wickelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Windel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پوشک",
+          "en": "nappy"
+        },
+        "id_ref": "nomen_windel"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "einpacken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بسته‌بندی کردن",
+          "en": "to wrap up"
+        },
+        "id_ref": "verb_einpacken"
+      },
+      {
+        "wort": "das Papier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کاغذ",
+          "en": "paper"
+        },
+        "id_ref": "nomen_papier"
+      },
+      {
+        "wort": "der Verband",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باند (زخم)",
+          "en": "bandage"
+        },
+        "id_ref": "nomen_verband"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

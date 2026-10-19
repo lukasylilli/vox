@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_wagen",
+  "wort": "wagen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "جرئت کردن",
+      "خطر کردن"
+    ],
+    "en": [
+      "to dare",
+      "to risk"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle",
+    "Entscheidung"
+  ],
+  "ipa": "ˈvaːɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wage es nicht.",
+      "uebersetzung": {
+        "fa": "جرئتش را ندارم.",
+        "en": "I don’t dare."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Niemand wagte zu widersprechen, als der Chef seine Entscheidung verkündete.",
+      "uebersetzung": {
+        "fa": "وقتی رئیس تصمیمش را اعلام کرد، هیچ‌کس جرئت مخالفت نکرد.",
+        "en": "Nobody dared to object when the boss announced his decision."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "sich trauen",
+      "uebersetzung": {
+        "fa": "جرئت کردن",
+        "en": "to dare"
+      }
+    },
+    {
+      "wort": "riskieren",
+      "uebersetzung": {
+        "fa": "ریسک کردن",
+        "en": "to risk"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Waage (ترازو) ← به کفه‌ی ترازو گذاشتن",
+    "en": "from die Waage (scales) → to put in the balance"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "wagen + zu-Infinitiv",
+        "bedeutung": "den Mut haben, etwas zu tun",
+        "beispiel": "Er wagte nicht, sie anzusprechen.",
+        "uebersetzung": {
+          "fa": "جرئت نکرد با او حرف بزند.",
+          "en": "He did not dare to speak to her."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wagen",
+      "praeteritum": "wagte",
+      "partizip2": "gewagt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wage",
+        "du": "wagst",
+        "er_sie_es": "wagt",
+        "wir": "wagen",
+        "ihr": "wagt",
+        "sie_Sie": "wagen"
+      },
+      "praeteritum": {
+        "ich": "wagte",
+        "du": "wagtest",
+        "er_sie_es": "wagte",
+        "wir": "wagten",
+        "ihr": "wagtet",
+        "sie_Sie": "wagten"
+      },
+      "konjunktiv1": {
+        "ich": "wage",
+        "du": "wagest",
+        "er_sie_es": "wage",
+        "wir": "wagen",
+        "ihr": "waget",
+        "sie_Sie": "wagen"
+      },
+      "konjunktiv2": {
+        "ich": "wagte",
+        "du": "wagtest",
+        "er_sie_es": "wagte",
+        "wir": "wagten",
+        "ihr": "wagtet",
+        "sie_Sie": "wagten"
+      },
+      "imperativ": {
+        "du": "Wage!",
+        "ihr": "Wagt!",
+        "Sie": "Wagen Sie!"
+      }
+    },
+    "partizip1": "wagend",
+    "nominalisierung": "das Wagnis"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Mut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شجاعت",
+          "en": "courage"
+        },
+        "id_ref": "nomen_mut"
+      },
+      {
+        "wort": "mutig",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شجاع",
+          "en": "brave"
+        },
+        "id_ref": "adjektiv_mutig"
+      },
+      {
+        "wort": "riskieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریسک کردن",
+          "en": "to risk"
+        },
+        "id_ref": "verb_riskieren"
+      },
+      {
+        "wort": "trauen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جرئت کردن",
+          "en": "to dare"
+        },
+        "id_ref": "verb_trauen"
+      },
+      {
+        "wort": "das Risiko",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "risk"
+        },
+        "id_ref": "nomen_risiko"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

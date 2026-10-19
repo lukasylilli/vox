@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "verb_wildern",
+  "wort": "wildern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شکار غیرقانونی کردن"
+    ],
+    "en": [
+      "to poach"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Natur",
+    "Recht"
+  ],
+  "ipa": "ˈvɪldɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jemand wildert im Wald.",
+      "uebersetzung": {
+        "fa": "کسی در جنگل شکار غیرقانونی می‌کند.",
+        "en": "Someone is poaching in the forest."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In vielen Ländern wird trotz strenger Strafen weiterhin gewildert, weil Elfenbein so wertvoll ist.",
+      "uebersetzung": {
+        "fa": "در بسیاری از کشورها با وجود مجازات‌های سخت هنوز شکار غیرقانونی انجام می‌شود، چون عاج بسیار باارزش است.",
+        "en": "In many countries poaching continues despite strict penalties because ivory is so valuable."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Wild (شکار، حیوان وحشی)",
+    "en": "from das Wild (game)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wildern",
+      "praeteritum": "wilderte",
+      "partizip2": "gewildert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wildere",
+        "du": "wilderst",
+        "er_sie_es": "wildert",
+        "wir": "wildern",
+        "ihr": "wildert",
+        "sie_Sie": "wildern"
+      },
+      "praeteritum": {
+        "ich": "wilderte",
+        "du": "wildertest",
+        "er_sie_es": "wilderte",
+        "wir": "wilderten",
+        "ihr": "wildertet",
+        "sie_Sie": "wilderten"
+      },
+      "konjunktiv1": {
+        "ich": "wildere",
+        "du": "wilderest",
+        "er_sie_es": "wildere",
+        "wir": "wildern",
+        "ihr": "wilderet",
+        "sie_Sie": "wildern"
+      },
+      "konjunktiv2": {
+        "ich": "wilderte",
+        "du": "wildertest",
+        "er_sie_es": "wilderte",
+        "wir": "wilderten",
+        "ihr": "wildertet",
+        "sie_Sie": "wilderten"
+      },
+      "imperativ": {
+        "du": "Wildere!",
+        "ihr": "Wildert!",
+        "Sie": "Wildern Sie!"
+      }
+    },
+    "partizip1": "wildernd",
+    "nominalisierung": "der Wilderer"
+  },
+  "wortnetz": {
+    "grundwort": "Wild",
+    "woerter": [
+      {
+        "wort": "das Wild",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حیوان شکاری",
+          "en": "game"
+        },
+        "id_ref": "nomen_wild"
+      },
+      {
+        "wort": "jagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکار کردن",
+          "en": "to hunt"
+        },
+        "id_ref": "verb_jagen"
+      },
+      {
+        "wort": "der Jäger",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکارچی",
+          "en": "hunter"
+        },
+        "id_ref": "nomen_jaeger"
+      },
+      {
+        "wort": "der Wald",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جنگل",
+          "en": "forest"
+        },
+        "id_ref": "nomen_wald"
+      },
+      {
+        "wort": "verboten",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ممنوع",
+          "en": "forbidden"
+        },
+        "id_ref": "adjektiv_verboten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_warnen",
+  "wort": "warnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "هشدار دادن",
+      "برحذر داشتن"
+    ],
+    "en": [
+      "to warn"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Sicherheit",
+    "Kommunikation"
+  ],
+  "ipa": "ˈvaʁnən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich warne dich!",
+      "uebersetzung": {
+        "fa": "به تو هشدار می‌دهم!",
+        "en": "I’m warning you!"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Wetterdienst warnt vor starkem Sturm, deshalb sollte man zu Hause bleiben.",
+      "uebersetzung": {
+        "fa": "اداره‌ی هواشناسی درباره‌ی طوفان شدید هشدار می‌دهد، برای همین بهتر است در خانه بمانیم.",
+        "en": "The weather service is warning of a severe storm, so you should stay at home."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "mahnen",
+      "uebersetzung": {
+        "fa": "هشدار دادن",
+        "en": "to admonish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن warnōn (آماده کردن، آگاه کردن)",
+    "en": "from Old High German warnōn (to prepare, to caution)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "warnen vor + Dat",
+        "bedeutung": "auf eine Gefahr hinweisen",
+        "beispiel": "Die Polizei warnt vor Betrügern am Telefon.",
+        "uebersetzung": {
+          "fa": "پلیس درباره‌ی کلاهبرداران تلفنی هشدار می‌دهد.",
+          "en": "The police warn of phone fraudsters."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "warnen",
+      "praeteritum": "warnte",
+      "partizip2": "gewarnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "warne",
+        "du": "warnst",
+        "er_sie_es": "warnt",
+        "wir": "warnen",
+        "ihr": "warnt",
+        "sie_Sie": "warnen"
+      },
+      "praeteritum": {
+        "ich": "warnte",
+        "du": "warntest",
+        "er_sie_es": "warnte",
+        "wir": "warnten",
+        "ihr": "warntet",
+        "sie_Sie": "warnten"
+      },
+      "konjunktiv1": {
+        "ich": "warne",
+        "du": "warnest",
+        "er_sie_es": "warne",
+        "wir": "warnen",
+        "ihr": "warnet",
+        "sie_Sie": "warnen"
+      },
+      "konjunktiv2": {
+        "ich": "warnte",
+        "du": "warntest",
+        "er_sie_es": "warnte",
+        "wir": "warnten",
+        "ihr": "warntet",
+        "sie_Sie": "warnten"
+      },
+      "imperativ": {
+        "du": "Warne!",
+        "ihr": "Warnt!",
+        "Sie": "Warnen Sie!"
+      }
+    },
+    "partizip1": "warnend",
+    "nominalisierung": "die Warnung"
+  },
+  "wortnetz": {
+    "grundwort": "Warnung",
+    "woerter": [
+      {
+        "wort": "die Warnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هشدار",
+          "en": "warning"
+        },
+        "id_ref": "nomen_warnung"
+      },
+      {
+        "wort": "die Gefahr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطر",
+          "en": "danger"
+        },
+        "id_ref": "nomen_gefahr"
+      },
+      {
+        "wort": "gefährlich",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خطرناک",
+          "en": "dangerous"
+        },
+        "id_ref": "adjektiv_gefaehrlich"
+      },
+      {
+        "wort": "vorsichtig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محتاط",
+          "en": "careful"
+        },
+        "id_ref": "adjektiv_vorsichtig"
+      },
+      {
+        "wort": "der Alarm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آژیر",
+          "en": "alarm"
+        },
+        "id_ref": "nomen_alarm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

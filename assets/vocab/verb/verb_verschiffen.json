@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_verschiffen",
+  "wort": "verschiffen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با کشتی فرستادن"
+    ],
+    "en": [
+      "to ship"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Logistik",
+    "Verkehr"
+  ],
+  "ipa": "fɛɐ̯ˈʃɪfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Autos werden verschifft.",
+      "uebersetzung": {
+        "fa": "ماشین‌ها با کشتی فرستاده می‌شوند.",
+        "en": "The cars are shipped."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Waren werden in Hamburg verschifft und kommen nach drei Wochen in Asien an.",
+      "uebersetzung": {
+        "fa": "کالاها در هامبورگ با کشتی بارگیری می‌شوند و پس از سه هفته به آسیا می‌رسند.",
+        "en": "The goods are shipped in Hamburg and arrive in Asia after three weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verfrachten",
+      "uebersetzung": {
+        "fa": "بار زدن و فرستادن",
+        "en": "to freight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + das Schiff (کشتی)",
+    "en": "ver- + das Schiff (ship)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verschiffen",
+      "praeteritum": "verschiffte",
+      "partizip2": "verschifft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verschiffe",
+        "du": "verschiffst",
+        "er_sie_es": "verschifft",
+        "wir": "verschiffen",
+        "ihr": "verschifft",
+        "sie_Sie": "verschiffen"
+      },
+      "praeteritum": {
+        "ich": "verschiffte",
+        "du": "verschifftest",
+        "er_sie_es": "verschiffte",
+        "wir": "verschifften",
+        "ihr": "verschifftet",
+        "sie_Sie": "verschifften"
+      },
+      "konjunktiv1": {
+        "ich": "verschiffe",
+        "du": "verschiffest",
+        "er_sie_es": "verschiffe",
+        "wir": "verschiffen",
+        "ihr": "verschiffet",
+        "sie_Sie": "verschiffen"
+      },
+      "konjunktiv2": {
+        "ich": "verschiffte",
+        "du": "verschifftest",
+        "er_sie_es": "verschiffte",
+        "wir": "verschifften",
+        "ihr": "verschifftet",
+        "sie_Sie": "verschifften"
+      },
+      "imperativ": {
+        "du": "Verschiffe!",
+        "ihr": "Verschifft!",
+        "Sie": "Verschiffen Sie!"
+      }
+    },
+    "partizip1": "verschiffend",
+    "nominalisierung": "die Verschiffung"
+  },
+  "wortnetz": {
+    "grundwort": "Schiff",
+    "woerter": [
+      {
+        "wort": "das Schiff",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشتی",
+          "en": "ship"
+        },
+        "id_ref": "nomen_schiff"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "harbour"
+        },
+        "id_ref": "nomen_hafen"
+      },
+      {
+        "wort": "der Container",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کانتینر",
+          "en": "container"
+        },
+        "id_ref": "nomen_container"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

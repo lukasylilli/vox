@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_waermen",
+  "wort": "wärmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گرم کردن"
+    ],
+    "en": [
+      "to warm"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wetter"
+  ],
+  "ipa": "ˈvɛʁmən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wärme die Suppe.",
+      "uebersetzung": {
+        "fa": "سوپ را گرم می‌کنم.",
+        "en": "I am warming up the soup."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Spaziergang im Schnee wärmten wir uns am Kamin.",
+      "uebersetzung": {
+        "fa": "پس از قدم زدن در برف کنار شومینه خودمان را گرم کردیم.",
+        "en": "After the walk in the snow we warmed ourselves by the fire."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "heizen",
+      "uebersetzung": {
+        "fa": "گرم کردن (خانه)",
+        "en": "to heat"
+      }
+    },
+    {
+      "wort": "aufwärmen",
+      "uebersetzung": {
+        "fa": "گرم کردن (غذا)",
+        "en": "to reheat"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "kühlen",
+      "uebersetzung": {
+        "fa": "خنک کردن",
+        "en": "to cool"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت warm (گرم)",
+    "en": "from the adjective warm (warm)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wärmen",
+      "praeteritum": "wärmte",
+      "partizip2": "gewärmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wärme",
+        "du": "wärmst",
+        "er_sie_es": "wärmt",
+        "wir": "wärmen",
+        "ihr": "wärmt",
+        "sie_Sie": "wärmen"
+      },
+      "praeteritum": {
+        "ich": "wärmte",
+        "du": "wärmtest",
+        "er_sie_es": "wärmte",
+        "wir": "wärmten",
+        "ihr": "wärmtet",
+        "sie_Sie": "wärmten"
+      },
+      "konjunktiv1": {
+        "ich": "wärme",
+        "du": "wärmest",
+        "er_sie_es": "wärme",
+        "wir": "wärmen",
+        "ihr": "wärmet",
+        "sie_Sie": "wärmen"
+      },
+      "konjunktiv2": {
+        "ich": "wärmte",
+        "du": "wärmtest",
+        "er_sie_es": "wärmte",
+        "wir": "wärmten",
+        "ihr": "wärmtet",
+        "sie_Sie": "wärmten"
+      },
+      "imperativ": {
+        "du": "Wärme!",
+        "ihr": "Wärmt!",
+        "Sie": "Wärmen Sie!"
+      }
+    },
+    "partizip1": "wärmend",
+    "nominalisierung": "die Wärme"
+  },
+  "wortnetz": {
+    "grundwort": "warm",
+    "woerter": [
+      {
+        "wort": "warm",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرم",
+          "en": "warm"
+        },
+        "id_ref": "adjektiv_warm"
+      },
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "die Wärme",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرما",
+          "en": "warmth"
+        },
+        "id_ref": "nomen_waerme"
+      },
+      {
+        "wort": "heizen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گرم کردن",
+          "en": "to heat"
+        },
+        "id_ref": "verb_heizen"
+      },
+      {
+        "wort": "die Decke",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پتو",
+          "en": "blanket"
+        },
+        "id_ref": "nomen_decke"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

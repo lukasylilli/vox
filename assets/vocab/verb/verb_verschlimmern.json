@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_verschlimmern",
+  "wort": "verschlimmern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بدتر کردن",
+      "بدتر شدن"
+    ],
+    "en": [
+      "to make worse",
+      "to worsen"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "fɛɐ̯ˈʃlɪmɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das verschlimmert die Lage.",
+      "uebersetzung": {
+        "fa": "این وضعیت را بدتر می‌کند.",
+        "en": "That makes the situation worse."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sein Zustand hat sich über Nacht verschlimmert, deshalb wurde er auf die Intensivstation verlegt.",
+      "uebersetzung": {
+        "fa": "حالش یک‌شبه بدتر شد، برای همین به بخش مراقبت‌های ویژه منتقل شد.",
+        "en": "His condition worsened overnight, so he was moved to intensive care."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verschärfen",
+      "uebersetzung": {
+        "fa": "شدیدتر کردن",
+        "en": "to aggravate"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "verbessern",
+      "uebersetzung": {
+        "fa": "بهتر کردن",
+        "en": "to improve"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + schlimm (بد)",
+    "en": "ver- + schlimm (bad)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "verschlimmern",
+      "praeteritum": "verschlimmerte",
+      "partizip2": "verschlimmert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "verschlimmere",
+        "du": "verschlimmerst",
+        "er_sie_es": "verschlimmert",
+        "wir": "verschlimmern",
+        "ihr": "verschlimmert",
+        "sie_Sie": "verschlimmern"
+      },
+      "praeteritum": {
+        "ich": "verschlimmerte",
+        "du": "verschlimmertest",
+        "er_sie_es": "verschlimmerte",
+        "wir": "verschlimmerten",
+        "ihr": "verschlimmertet",
+        "sie_Sie": "verschlimmerten"
+      },
+      "konjunktiv1": {
+        "ich": "verschlimmere",
+        "du": "verschlimmerest",
+        "er_sie_es": "verschlimmere",
+        "wir": "verschlimmern",
+        "ihr": "verschlimmeret",
+        "sie_Sie": "verschlimmern"
+      },
+      "konjunktiv2": {
+        "ich": "verschlimmerte",
+        "du": "verschlimmertest",
+        "er_sie_es": "verschlimmerte",
+        "wir": "verschlimmerten",
+        "ihr": "verschlimmertet",
+        "sie_Sie": "verschlimmerten"
+      },
+      "imperativ": {
+        "du": "Verschlimmere!",
+        "ihr": "Verschlimmert!",
+        "Sie": "Verschlimmern Sie!"
+      }
+    },
+    "partizip1": "verschlimmernd",
+    "nominalisierung": "die Verschlimmerung"
+  },
+  "wortnetz": {
+    "grundwort": "schlimm",
+    "woerter": [
+      {
+        "wort": "schlimm",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بد",
+          "en": "bad"
+        },
+        "id_ref": "adjektiv_schlimm"
+      },
+      {
+        "wort": "schlechter",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بدتر",
+          "en": "worse"
+        },
+        "id_ref": "adjektiv_schlechter"
+      },
+      {
+        "wort": "verbessern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بهتر کردن",
+          "en": "to improve"
+        },
+        "id_ref": "verb_verbessern"
+      },
+      {
+        "wort": "der Zustand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت",
+          "en": "condition"
+        },
+        "id_ref": "nomen_zustand"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

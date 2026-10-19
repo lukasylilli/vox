@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_versteifen",
+  "wort": "versteifen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "سفت کردن، محکم کردن",
+      "پافشاری کردن"
+    ],
+    "en": [
+      "to stiffen",
+      "to insist"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Verhalten"
+  ],
+  "ipa": "fɛɐ̯ˈʃtaɪ̯fn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Nacken versteift sich.",
+      "uebersetzung": {
+        "fa": "گردن خشک می‌شود.",
+        "en": "The neck is stiffening."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Statt nach Alternativen zu suchen, hat er sich auf seine erste Idee versteift.",
+      "uebersetzung": {
+        "fa": "به جای جست‌وجوی راه‌های دیگر، روی اولین ایده‌اش پافشاری کرد.",
+        "en": "Instead of looking for alternatives, he insisted on his first idea."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "verstärken",
+      "uebersetzung": {
+        "fa": "تقویت کردن",
+        "en": "to reinforce"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ver- + steif (سفت)",
+    "en": "ver- + steif (stiff)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich versteifen auf + Akk",
+        "bedeutung": "hartnäckig an etwas festhalten",
+        "beispiel": "Sie versteift sich auf ihr Recht.",
+        "uebersetzung": {
+          "fa": "روی حقش پافشاری می‌کند.",
+          "en": "She insists on her rights."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "versteifen",
+      "praeteritum": "versteifte",
+      "partizip2": "versteift"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "versteife",
+        "du": "versteifst",
+        "er_sie_es": "versteift",
+        "wir": "versteifen",
+        "ihr": "versteift",
+        "sie_Sie": "versteifen"
+      },
+      "praeteritum": {
+        "ich": "versteifte",
+        "du": "versteiftest",
+        "er_sie_es": "versteifte",
+        "wir": "versteiften",
+        "ihr": "versteiftet",
+        "sie_Sie": "versteiften"
+      },
+      "konjunktiv1": {
+        "ich": "versteife",
+        "du": "versteifest",
+        "er_sie_es": "versteife",
+        "wir": "versteifen",
+        "ihr": "versteifet",
+        "sie_Sie": "versteifen"
+      },
+      "konjunktiv2": {
+        "ich": "versteifte",
+        "du": "versteiftest",
+        "er_sie_es": "versteifte",
+        "wir": "versteiften",
+        "ihr": "versteiftet",
+        "sie_Sie": "versteiften"
+      },
+      "imperativ": {
+        "du": "Versteife!",
+        "ihr": "Versteift!",
+        "Sie": "Versteifen Sie!"
+      }
+    },
+    "partizip1": "versteifend",
+    "nominalisierung": "die Versteifung"
+  },
+  "wortnetz": {
+    "grundwort": "steif",
+    "woerter": [
+      {
+        "wort": "steif",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سفت، خشک",
+          "en": "stiff"
+        },
+        "id_ref": "adjektiv_steif"
+      },
+      {
+        "wort": "fest",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "محکم",
+          "en": "firm"
+        },
+        "id_ref": "adjektiv_fest"
+      },
+      {
+        "wort": "hart",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سخت",
+          "en": "hard"
+        },
+        "id_ref": "adjektiv_hart"
+      },
+      {
+        "wort": "stur",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لجوج",
+          "en": "stubborn"
+        },
+        "id_ref": "adjektiv_stur"
+      },
+      {
+        "wort": "das Gelenk",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مفصل",
+          "en": "joint"
+        },
+        "id_ref": "nomen_gelenk"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

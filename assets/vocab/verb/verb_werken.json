@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "verb_werken",
+  "wort": "werken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کار دستی کردن، ساختن"
+    ],
+    "en": [
+      "to work (with one’s hands)",
+      "to do handicrafts"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Handwerk",
+    "Schule"
+  ],
+  "ipa": "ˈvɛʁkn̩",
+  "anmerkung": "«Werken» ist auch ein Schulfach (Handarbeit/Technik).",
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder werken mit Holz.",
+      "uebersetzung": {
+        "fa": "بچه‌ها با چوب کار دستی می‌کنند.",
+        "en": "The children are doing woodwork."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Keller hat er sich eine kleine Werkstatt eingerichtet, in der er am Wochenende werkt.",
+      "uebersetzung": {
+        "fa": "در زیرزمین کارگاه کوچکی برای خودش ساخته که آخر هفته‌ها در آن کار دستی می‌کند.",
+        "en": "He has set up a small workshop in the cellar where he works with his hands at weekends."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "basteln",
+      "uebersetzung": {
+        "fa": "کاردستی ساختن",
+        "en": "to make crafts"
+      }
+    },
+    {
+      "wort": "arbeiten",
+      "uebersetzung": {
+        "fa": "کار کردن",
+        "en": "to work"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Werk (کار، اثر)",
+    "en": "from das Werk (work)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "werken",
+      "praeteritum": "werkte",
+      "partizip2": "gewerkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "werke",
+        "du": "werkst",
+        "er_sie_es": "werkt",
+        "wir": "werken",
+        "ihr": "werkt",
+        "sie_Sie": "werken"
+      },
+      "praeteritum": {
+        "ich": "werkte",
+        "du": "werktest",
+        "er_sie_es": "werkte",
+        "wir": "werkten",
+        "ihr": "werktet",
+        "sie_Sie": "werkten"
+      },
+      "konjunktiv1": {
+        "ich": "werke",
+        "du": "werkest",
+        "er_sie_es": "werke",
+        "wir": "werken",
+        "ihr": "werket",
+        "sie_Sie": "werken"
+      },
+      "konjunktiv2": {
+        "ich": "werkte",
+        "du": "werktest",
+        "er_sie_es": "werkte",
+        "wir": "werkten",
+        "ihr": "werktet",
+        "sie_Sie": "werkten"
+      },
+      "imperativ": {
+        "du": "Werke!",
+        "ihr": "Werkt!",
+        "Sie": "Werken Sie!"
+      }
+    },
+    "partizip1": "werkend",
+    "nominalisierung": "das Werken"
+  },
+  "wortnetz": {
+    "grundwort": "Werk",
+    "woerter": [
+      {
+        "wort": "arbeiten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_arbeiten"
+      },
+      {
+        "wort": "basteln",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کاردستی ساختن",
+          "en": "to make crafts"
+        },
+        "id_ref": "verb_basteln"
+      },
+      {
+        "wort": "das Werkzeug",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ابزار",
+          "en": "tool"
+        },
+        "id_ref": "nomen_werkzeug"
+      },
+      {
+        "wort": "die Werkstatt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارگاه",
+          "en": "workshop"
+        },
+        "id_ref": "nomen_werkstatt"
+      },
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
