@@ -2108,6 +2108,7 @@ const zurueckgestellt = <String>{
   'Abstract', // zurückgestellt: Genus unsicher (der oder das Abstract) — nicht sicher (Regel 14) 2026-10-19
   'Abstrich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinischer Abstrich / Kürzung («Abstriche machen») / Schreibstrich) — nach den Nomen 2026-10-19
   'Abstufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gradation (Farbabstufung) / Herabstufung) — nach den Nomen 2026-10-19
+  'Abteilung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph, gleicher Artikel): Abteilung «Abtrennen» / Abteilung «Teil einer Firma» — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
