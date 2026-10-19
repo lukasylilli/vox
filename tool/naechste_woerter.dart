@@ -2135,6 +2135,10 @@ const zurueckgestellt = <String>{
   'Aggregat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Maschinensatz / Aggregatzustand, Anhäufung (Chemie, Mathematik)) — nach den Nomen 2026-10-19
   'Ahn', // zurückgestellt: gehoben; Deklination schwankt (des Ahns/des Ahnen) — nicht sicher (Regel 14) 2026-10-19
   'Ahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorgefühl / Vorstellung, Wissen («keine Ahnung»)) — nach den Nomen 2026-10-19
+  'Airbus', // zurückgestellt: Firmen-/Markenname, kein geografischer Name — nicht bauen (Regel 18) 2026-10-19
+  'Aki', // zurückgestellt: Bedeutung unklar (Abkürzung/Eigenname?) — nicht sicher (Regel 14) 2026-10-19
+  'Akkord', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik (Dreiklang) / Akkordarbeit (Stücklohn)) — nach den Nomen 2026-10-19
+  'Akquisition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erwerb (Firmenkauf) / Kundenwerbung) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
