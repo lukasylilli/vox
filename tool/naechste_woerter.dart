@@ -2354,6 +2354,42 @@ const zurueckgestellt = <String>{
   'Auslegung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Interpretation / technische Dimensionierung) — nach den Nomen 2026-10-19
   'Ausleihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Ausleihen / Ausleihschalter in der Bibliothek) — nach den Nomen 2026-10-19
   'Aufwartung', // zurückgestellt: gehoben/veraltend, nur in «seine Aufwartung machen» — nicht sicher (Regel 14/17) 2026-10-19
+  'Auslese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auswahl der Besten / Prädikatswein «Auslese») — nach den Nomen 2026-10-20
+  'Auslieferung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lieferung von Waren / Übergabe eines Verdächtigen an einen anderen Staat) — nach den Nomen 2026-10-20
+  'Ausnahmezustand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Notstand (Politik) / außergewöhnliche Lage (übertragen)) — nach den Nomen 2026-10-20
+  'Ausnutzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutzung, Ausschöpfung / Ausnutzen einer Person) — nach den Nomen 2026-10-20
+  'Ausrichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Orientierung, Ausrichten / Veranstaltung eines Festes / politische Richtung) — nach den Nomen 2026-10-20
+  'Ausruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kurzer Ruf, Äußerung / öffentliche Bekanntmachung) — nach den Nomen 2026-10-20
+  'Ausrutscher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausrutschen / Fehltritt, peinlicher Fehler / unerwartete Niederlage (Sport)) — nach den Nomen 2026-10-20
+  'Aussage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitteilung / Zeugenaussage vor Gericht / Gehalt eines Kunstwerks) — nach den Nomen 2026-10-20
+  'Ausscheidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausscheiden von Stoffen (Körper) / Sport: Ausscheidungsrunde) — nach den Nomen 2026-10-20
+  'Ausschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hautausschlag / Ausschlag eines Zeigers; «den Ausschlag geben») — nach den Nomen 2026-10-20
+  'Ausschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teil, Auszug / Zeitungsausschnitt / Halsausschnitt) — nach den Nomen 2026-10-20
+  'Ausschuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kommission, Gremium / fehlerhafte Ware) — nach den Nomen 2026-10-20
+  'Ausschussvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ausschussvorsitzende) — nach den Nomen 2026-10-20
+  'Aussendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussenden von Personen / Ausstrahlung einer Sendung / österr.: Presseaussendung) — nach den Nomen 2026-10-20
+  'Aussetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterbrechung, Aufschub (Strafe zur Bewährung) / Aussetzen eines Kindes oder Tieres) — nach den Nomen 2026-10-20
+  'Aussicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blick, Ausblick / Chance, Zukunftsperspektive) — nach den Nomen 2026-10-20
+  'Aussprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lautung / klärendes Gespräch) — nach den Nomen 2026-10-20
+  'Ausstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Streik / Abschiedsfeier beim Verlassen einer Stelle) — nach den Nomen 2026-10-20
+  'Aussteller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma auf einer Messe / ausstellende Stelle eines Dokuments) — nach den Nomen 2026-10-20
+  'Ausstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst-/Messeausstellung / Ausstellen eines Dokuments) — nach den Nomen 2026-10-20
+  'Ausstieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tür zum Aussteigen / Aufgabe einer Tätigkeit, Atomausstieg) — nach den Nomen 2026-10-20
+  'Ausstrahlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sendung im Fernsehen/Radio / Charisma / Ausstrahlen von Schmerz) — nach den Nomen 2026-10-20
+  'Austausch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gedanken-/Schüleraustausch / Ersetzen von Teilen) — nach den Nomen 2026-10-20
+  'Austragung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Veranstaltung eines Wettkampfs / Austragen eines Streits / Austragen einer Schwangerschaft) — nach den Nomen 2026-10-20
+  'Austritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlassen einer Organisation / Austreten von Gas oder Flüssigkeit) — nach den Nomen 2026-10-20
+  'Ausverkauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Räumungsverkauf / Preisgabe von Werten (übertragen)) — nach den Nomen 2026-10-20
+  'Auswahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahl, Selektion / Angebot an Waren / Auswahlmannschaft) — nach den Nomen 2026-10-20
+  'Ausweisung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschiebung aus dem Land / Ausweisen eines Gebiets (z. B. Naturschutzgebiet)) — nach den Nomen 2026-10-20
+  'Auswuchs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wucherung / Übertreibung, Missstand (übertragen)) — nach den Nomen 2026-10-20
+  'Auszeichnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preis, Ehrung / Preisauszeichnung von Waren) — nach den Nomen 2026-10-20
+  'Auszeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Time-out / Pause vom Alltag (übertragen)) — nach den Nomen 2026-10-20
+  'Auszubildende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Auszubildende) — nach den Nomen 2026-10-20
+  'Auszug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umzug aus einer Wohnung / Textauszug / Kontoauszug) — nach den Nomen 2026-10-20
+  'Ausschau', // zurückgestellt: nur in der Wendung «Ausschau halten» — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
+  'Austria', // zurückgestellt: lateinischer Name / Vereins- und Firmenname, kein gebräuchlicher deutscher geografischer Name — nicht sicher (Regel 18) 2026-10-20
+  'Ausweiche', // zurückgestellt: selten, regional (Ausweichstelle) — Bedeutung/Gebrauch nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

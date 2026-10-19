@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "nomen_auszahlung",
+  "wort": "die Auszahlung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پرداخت",
+      "برداشت (پول)"
+    ],
+    "en": [
+      "payment",
+      "payout",
+      "withdrawal"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Geld",
+    "Bank"
+  ],
+  "ipa": "ˈaʊ̯sˌt͡saːlʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Auszahlung kommt morgen.",
+      "uebersetzung": {
+        "fa": "پرداخت فردا انجام می‌شود.",
+        "en": "The payment comes tomorrow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Auszahlung des Gehalts erfolgt immer am Ende des Monats auf Ihr Konto.",
+      "uebersetzung": {
+        "fa": "پرداخت حقوق همیشه آخر ماه به حساب شما انجام می‌شود.",
+        "en": "The salary is always paid into your account at the end of the month."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "die Einzahlung",
+      "uebersetzung": {
+        "fa": "واریز",
+        "en": "deposit"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "auszahlen (پرداخت کردن) + -ung",
+    "en": "auszahlen (to pay out) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Auszahlungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Auszahlung an + Akk",
+        "beispiel": "Die Auszahlung an die Mitarbeiter erfolgt am Freitag.",
+        "uebersetzung": {
+          "fa": "پرداخت به کارکنان جمعه انجام می‌شود.",
+          "en": "The payment to the employees is made on Friday."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "zahlen",
+    "woerter": [
+      {
+        "wort": "auszahlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرداخت کردن",
+          "en": "to pay out"
+        },
+        "id_ref": "verb_auszahlen"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "die Einzahlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واریز",
+          "en": "deposit"
+        },
+        "id_ref": "nomen_einzahlung"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "das Gehalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حقوق",
+          "en": "salary"
+        },
+        "id_ref": "nomen_gehalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
