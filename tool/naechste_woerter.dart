@@ -2100,6 +2100,9 @@ const zurueckgestellt = <String>{
   'Abschwung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wirtschaftlicher Abschwung / Abgang beim Turnen) — nach den Nomen 2026-10-19
   'Abseits', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abseits (Fußballregel) / «im Abseits stehen» (ausgeschlossen sein)) — nach den Nomen 2026-10-19
   'Absetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amtsenthebung / steuerliche Absetzung / Absetzung einer Sendung) — nach den Nomen 2026-10-19
+  'Absprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absprung beim Springen / Ausstieg («den Absprung schaffen»)) — nach den Nomen 2026-10-19
+  'Abstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Entfernung / «Abstand nehmen» (verzichten) / Ablösesumme) — nach den Nomen 2026-10-19
+  'Abstellgleis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gleis / übertragen «aufs Abstellgleis» (kaltgestellt)) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
