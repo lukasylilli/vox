@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "verb_zahnen",
+  "wort": "zahnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "دندان درآوردن (نوزاد)"
+    ],
+    "en": [
+      "to teethe"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Familie",
+    "Gesundheit"
+  ],
+  "ipa": "ˈt͡saːnən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Baby zahnt.",
+      "uebersetzung": {
+        "fa": "نوزاد دندان درمی‌آورد.",
+        "en": "The baby is teething."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unsere Tochter schläft schlecht, weil sie gerade zahnt und Schmerzen hat.",
+      "uebersetzung": {
+        "fa": "دخترمان بد می‌خوابد، چون دارد دندان درمی‌آورد و درد دارد.",
+        "en": "Our daughter is sleeping badly because she is teething and in pain."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Zahn (دندان)",
+    "en": "from der Zahn (tooth)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zahnen",
+      "praeteritum": "zahnte",
+      "partizip2": "gezahnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zahne",
+        "du": "zahnst",
+        "er_sie_es": "zahnt",
+        "wir": "zahnen",
+        "ihr": "zahnt",
+        "sie_Sie": "zahnen"
+      },
+      "praeteritum": {
+        "ich": "zahnte",
+        "du": "zahntest",
+        "er_sie_es": "zahnte",
+        "wir": "zahnten",
+        "ihr": "zahntet",
+        "sie_Sie": "zahnten"
+      },
+      "konjunktiv1": {
+        "ich": "zahne",
+        "du": "zahnest",
+        "er_sie_es": "zahne",
+        "wir": "zahnen",
+        "ihr": "zahnet",
+        "sie_Sie": "zahnen"
+      },
+      "konjunktiv2": {
+        "ich": "zahnte",
+        "du": "zahntest",
+        "er_sie_es": "zahnte",
+        "wir": "zahnten",
+        "ihr": "zahntet",
+        "sie_Sie": "zahnten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zahnend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Zahn",
+    "woerter": [
+      {
+        "wort": "der Zahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندان",
+          "en": "tooth"
+        },
+        "id_ref": "nomen_zahn"
+      },
+      {
+        "wort": "das Baby",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نوزاد",
+          "en": "baby"
+        },
+        "id_ref": "nomen_baby"
+      },
+      {
+        "wort": "der Schmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "درد",
+          "en": "pain"
+        },
+        "id_ref": "nomen_schmerz"
+      },
+      {
+        "wort": "weinen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گریه کردن",
+          "en": "to cry"
+        },
+        "id_ref": "verb_weinen"
+      },
+      {
+        "wort": "der Zahnarzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دندانپزشک",
+          "en": "dentist"
+        },
+        "id_ref": "nomen_zahnarzt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

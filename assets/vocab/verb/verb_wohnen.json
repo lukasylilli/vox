@@ -1,0 +1,170 @@
+{
+  "schema": "3.0",
+  "id": "verb_wohnen",
+  "wort": "wohnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "زندگی کردن (سکونت داشتن)"
+    ],
+    "en": [
+      "to live",
+      "to reside"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Wohnen",
+    "Alltag"
+  ],
+  "ipa": "ˈvoːnən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wohne in Wien.",
+      "uebersetzung": {
+        "fa": "در وین زندگی می‌کنم.",
+        "en": "I live in Vienna."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Seit wir in der Nähe des Bahnhofs wohnen, brauchen wir kein Auto mehr.",
+      "uebersetzung": {
+        "fa": "از وقتی نزدیک ایستگاه زندگی می‌کنیم، دیگر به ماشین نیازی نداریم.",
+        "en": "Since we have been living near the station, we no longer need a car."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "leben",
+      "uebersetzung": {
+        "fa": "زندگی کردن",
+        "en": "to live"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wonēn (ماندن، عادت داشتن)",
+    "en": "from Old High German wonēn (to dwell)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wohnen",
+      "praeteritum": "wohnte",
+      "partizip2": "gewohnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wohne",
+        "du": "wohnst",
+        "er_sie_es": "wohnt",
+        "wir": "wohnen",
+        "ihr": "wohnt",
+        "sie_Sie": "wohnen"
+      },
+      "praeteritum": {
+        "ich": "wohnte",
+        "du": "wohntest",
+        "er_sie_es": "wohnte",
+        "wir": "wohnten",
+        "ihr": "wohntet",
+        "sie_Sie": "wohnten"
+      },
+      "konjunktiv1": {
+        "ich": "wohne",
+        "du": "wohnest",
+        "er_sie_es": "wohne",
+        "wir": "wohnen",
+        "ihr": "wohnet",
+        "sie_Sie": "wohnen"
+      },
+      "konjunktiv2": {
+        "ich": "wohnte",
+        "du": "wohntest",
+        "er_sie_es": "wohnte",
+        "wir": "wohnten",
+        "ihr": "wohntet",
+        "sie_Sie": "wohnten"
+      },
+      "imperativ": {
+        "du": "Wohne!",
+        "ihr": "Wohnt!",
+        "Sie": "Wohnen Sie!"
+      }
+    },
+    "partizip1": "wohnend",
+    "nominalisierung": "die Wohnung"
+  },
+  "wortnetz": {
+    "grundwort": "Wohnung",
+    "woerter": [
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان",
+          "en": "flat"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "das Haus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خانه",
+          "en": "house"
+        },
+        "id_ref": "nomen_haus"
+      },
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      },
+      {
+        "wort": "umziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسباب‌کشی کردن",
+          "en": "to move"
+        },
+        "id_ref": "verb_umziehen"
+      },
+      {
+        "wort": "der Nachbar",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "همسایه",
+          "en": "neighbour"
+        },
+        "id_ref": "nomen_nachbar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

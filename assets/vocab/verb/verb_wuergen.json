@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_wuergen",
+  "wort": "würgen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "خفه کردن (با فشار گلو)",
+      "عق زدن"
+    ],
+    "en": [
+      "to strangle",
+      "to retch"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Körper",
+    "Gewalt"
+  ],
+  "ipa": "ˈvʏʁɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er würgt beim Essen.",
+      "uebersetzung": {
+        "fa": "موقع غذا خوردن عق می‌زند.",
+        "en": "He retches while eating."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Täter hatte das Opfer gewürgt, bis es bewusstlos zusammenbrach.",
+      "uebersetzung": {
+        "fa": "مجرم گلوی قربانی را فشرده بود تا بیهوش روی زمین افتاد.",
+        "en": "The perpetrator had strangled the victim until she collapsed unconscious."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "erwürgen",
+      "uebersetzung": {
+        "fa": "خفه کردن",
+        "en": "to strangle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wurgen (فشردن گلو)",
+    "en": "from Old High German wurgen (to choke)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "würgen",
+      "praeteritum": "würgte",
+      "partizip2": "gewürgt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "würge",
+        "du": "würgst",
+        "er_sie_es": "würgt",
+        "wir": "würgen",
+        "ihr": "würgt",
+        "sie_Sie": "würgen"
+      },
+      "praeteritum": {
+        "ich": "würgte",
+        "du": "würgtest",
+        "er_sie_es": "würgte",
+        "wir": "würgten",
+        "ihr": "würgtet",
+        "sie_Sie": "würgten"
+      },
+      "konjunktiv1": {
+        "ich": "würge",
+        "du": "würgest",
+        "er_sie_es": "würge",
+        "wir": "würgen",
+        "ihr": "würget",
+        "sie_Sie": "würgen"
+      },
+      "konjunktiv2": {
+        "ich": "würgte",
+        "du": "würgtest",
+        "er_sie_es": "würgte",
+        "wir": "würgten",
+        "ihr": "würgtet",
+        "sie_Sie": "würgten"
+      },
+      "imperativ": {
+        "du": "Würge!",
+        "ihr": "Würgt!",
+        "Sie": "Würgen Sie!"
+      }
+    },
+    "partizip1": "würgend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Hals",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گلو، گردن",
+          "en": "neck"
+        },
+        "id_ref": "nomen_hals"
+      },
+      {
+        "wort": "die Luft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "هوا",
+          "en": "air"
+        },
+        "id_ref": "nomen_luft"
+      },
+      {
+        "wort": "husten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سرفه کردن",
+          "en": "to cough"
+        },
+        "id_ref": "verb_husten"
+      },
+      {
+        "wort": "erbrechen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "استفراغ کردن",
+          "en": "to vomit"
+        },
+        "id_ref": "verb_erbrechen"
+      },
+      {
+        "wort": "schlucken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قورت دادن",
+          "en": "to swallow"
+        },
+        "id_ref": "verb_schlucken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

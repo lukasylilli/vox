@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_zurueckstufen",
+  "wort": "zurückstufen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تنزل رتبه دادن"
+    ],
+    "en": [
+      "to downgrade",
+      "to demote"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Verwaltung"
+  ],
+  "ipa": "t͡suˈʁʏkʃtuːfn̩",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Man stuft ihn zurück.",
+      "uebersetzung": {
+        "fa": "رتبه‌اش را پایین می‌آورند.",
+        "en": "He is being demoted."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Skandal wurde der Abteilungsleiter in eine niedrigere Position zurückgestuft.",
+      "uebersetzung": {
+        "fa": "پس از رسوایی، مدیر بخش به سمتی پایین‌تر تنزل داده شد.",
+        "en": "After the scandal the head of department was demoted to a lower position."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "herabstufen",
+      "uebersetzung": {
+        "fa": "تنزل دادن",
+        "en": "to downgrade"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "befördern",
+      "uebersetzung": {
+        "fa": "ارتقا دادن",
+        "en": "to promote"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zurück- (به عقب) + die Stufe (پله، رتبه)",
+    "en": "zurück- (back) + die Stufe (level)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zurückstufen auf + Akk",
+        "bedeutung": "auf eine niedrigere Stufe setzen",
+        "beispiel": "Die Agentur stufte das Land auf «B» zurück.",
+        "uebersetzung": {
+          "fa": "آژانس رتبه‌ی کشور را به «B» کاهش داد.",
+          "en": "The agency downgraded the country to «B»."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zurückstufen",
+      "praeteritum": "stufte zurück",
+      "partizip2": "zurückgestuft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "stufe zurück",
+        "du": "stufst zurück",
+        "er_sie_es": "stuft zurück",
+        "wir": "stufen zurück",
+        "ihr": "stuft zurück",
+        "sie_Sie": "stufen zurück"
+      },
+      "praeteritum": {
+        "ich": "stufte zurück",
+        "du": "stuftest zurück",
+        "er_sie_es": "stufte zurück",
+        "wir": "stuften zurück",
+        "ihr": "stuftet zurück",
+        "sie_Sie": "stuften zurück"
+      },
+      "konjunktiv1": {
+        "ich": "stufe zurück",
+        "du": "stufest zurück",
+        "er_sie_es": "stufe zurück",
+        "wir": "stufen zurück",
+        "ihr": "stufet zurück",
+        "sie_Sie": "stufen zurück"
+      },
+      "konjunktiv2": {
+        "ich": "stufte zurück",
+        "du": "stuftest zurück",
+        "er_sie_es": "stufte zurück",
+        "wir": "stuften zurück",
+        "ihr": "stuftet zurück",
+        "sie_Sie": "stuften zurück"
+      },
+      "imperativ": {
+        "du": "Stufe zurück!",
+        "ihr": "Stuft zurück!",
+        "Sie": "Stufen Sie zurück!"
+      }
+    },
+    "partizip1": "zurückstufend",
+    "nominalisierung": "die Rückstufung"
+  },
+  "wortnetz": {
+    "grundwort": "Stufe",
+    "woerter": [
+      {
+        "wort": "die Stufe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پله، مرحله",
+          "en": "level"
+        },
+        "id_ref": "nomen_stufe"
+      },
+      {
+        "wort": "die Position",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سمت",
+          "en": "position"
+        },
+        "id_ref": "nomen_position"
+      },
+      {
+        "wort": "befördern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارتقا دادن",
+          "en": "to promote"
+        },
+        "id_ref": "verb_befoerdern"
+      },
+      {
+        "wort": "niedrig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایین",
+          "en": "low"
+        },
+        "id_ref": "adjektiv_niedrig"
+      },
+      {
+        "wort": "die Karriere",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرفه، پیشرفت شغلی",
+          "en": "career"
+        },
+        "id_ref": "nomen_karriere"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

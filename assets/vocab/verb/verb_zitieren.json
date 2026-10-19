@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_zitieren",
+  "wort": "zitieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نقل قول کردن",
+      "احضار کردن"
+    ],
+    "en": [
+      "to quote",
+      "to summon"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sprache",
+    "Wissenschaft"
+  ],
+  "ipa": "t͡siˈtiːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er zitiert einen Dichter.",
+      "uebersetzung": {
+        "fa": "از یک شاعر نقل قول می‌کند.",
+        "en": "He quotes a poet."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Hausarbeit muss man genau angeben, aus welchen Büchern man zitiert hat.",
+      "uebersetzung": {
+        "fa": "در مقاله‌ی دانشگاهی باید دقیقاً ذکر کرد از چه کتاب‌هایی نقل قول شده است.",
+        "en": "In the term paper you have to state exactly which books you have quoted from."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anführen",
+      "uebersetzung": {
+        "fa": "ذکر کردن",
+        "en": "to cite"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین citare (فراخواندن)",
+    "en": "from Latin citare (to summon)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zitieren aus + Dat",
+        "bedeutung": "eine Stelle aus einem Text wörtlich wiedergeben",
+        "beispiel": "Sie zitiert aus der Bibel.",
+        "uebersetzung": {
+          "fa": "از کتاب مقدس نقل قول می‌کند.",
+          "en": "She quotes from the Bible."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zitieren",
+      "praeteritum": "zitierte",
+      "partizip2": "zitiert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zitiere",
+        "du": "zitierst",
+        "er_sie_es": "zitiert",
+        "wir": "zitieren",
+        "ihr": "zitiert",
+        "sie_Sie": "zitieren"
+      },
+      "praeteritum": {
+        "ich": "zitierte",
+        "du": "zitiertest",
+        "er_sie_es": "zitierte",
+        "wir": "zitierten",
+        "ihr": "zitiertet",
+        "sie_Sie": "zitierten"
+      },
+      "konjunktiv1": {
+        "ich": "zitiere",
+        "du": "zitierest",
+        "er_sie_es": "zitiere",
+        "wir": "zitieren",
+        "ihr": "zitieret",
+        "sie_Sie": "zitieren"
+      },
+      "konjunktiv2": {
+        "ich": "zitierte",
+        "du": "zitiertest",
+        "er_sie_es": "zitierte",
+        "wir": "zitierten",
+        "ihr": "zitiertet",
+        "sie_Sie": "zitierten"
+      },
+      "imperativ": {
+        "du": "Zitiere!",
+        "ihr": "Zitiert!",
+        "Sie": "Zitieren Sie!"
+      }
+    },
+    "partizip1": "zitierend",
+    "nominalisierung": "das Zitat"
+  },
+  "wortnetz": {
+    "grundwort": "Zitat",
+    "woerter": [
+      {
+        "wort": "das Zitat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل قول",
+          "en": "quotation"
+        },
+        "id_ref": "nomen_zitat"
+      },
+      {
+        "wort": "der Text",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متن",
+          "en": "text"
+        },
+        "id_ref": "nomen_text"
+      },
+      {
+        "wort": "die Quelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منبع",
+          "en": "source"
+        },
+        "id_ref": "nomen_quelle"
+      },
+      {
+        "wort": "der Autor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نویسنده",
+          "en": "author"
+        },
+        "id_ref": "nomen_autor"
+      },
+      {
+        "wort": "wiederholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تکرار کردن",
+          "en": "to repeat"
+        },
+        "id_ref": "verb_wiederholen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

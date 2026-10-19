@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_zupfen",
+  "wort": "zupfen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کندن (آرام)",
+      "کشیدن (آرام)",
+      "زخمه زدن"
+    ],
+    "en": [
+      "to pluck",
+      "to tug"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Alltag",
+    "Musik"
+  ],
+  "ipa": "ˈt͡sʊpfn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie zupft Unkraut.",
+      "uebersetzung": {
+        "fa": "علف هرز را می‌کند.",
+        "en": "She is pulling up weeds."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Er zupfte nervös an seinem Ärmel, während er auf das Ergebnis wartete.",
+      "uebersetzung": {
+        "fa": "در حالی که منتظر نتیجه بود، با اضطراب آستینش را می‌کشید.",
+        "en": "He tugged nervously at his sleeve while he waited for the result."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    },
+    {
+      "wort": "rupfen",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to pluck"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی میانه zupfen (کندن)",
+    "en": "from Middle High German zupfen (to pluck)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zupfen an + Dat",
+        "bedeutung": "leicht an etwas ziehen",
+        "beispiel": "Das Kind zupft an meiner Jacke.",
+        "uebersetzung": {
+          "fa": "کودک آرام کاپشنم را می‌کشد.",
+          "en": "The child tugs at my jacket."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zupfen",
+      "praeteritum": "zupfte",
+      "partizip2": "gezupft"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zupfe",
+        "du": "zupfst",
+        "er_sie_es": "zupft",
+        "wir": "zupfen",
+        "ihr": "zupft",
+        "sie_Sie": "zupfen"
+      },
+      "praeteritum": {
+        "ich": "zupfte",
+        "du": "zupftest",
+        "er_sie_es": "zupfte",
+        "wir": "zupften",
+        "ihr": "zupftet",
+        "sie_Sie": "zupften"
+      },
+      "konjunktiv1": {
+        "ich": "zupfe",
+        "du": "zupfest",
+        "er_sie_es": "zupfe",
+        "wir": "zupfen",
+        "ihr": "zupfet",
+        "sie_Sie": "zupfen"
+      },
+      "konjunktiv2": {
+        "ich": "zupfte",
+        "du": "zupftest",
+        "er_sie_es": "zupfte",
+        "wir": "zupften",
+        "ihr": "zupftet",
+        "sie_Sie": "zupften"
+      },
+      "imperativ": {
+        "du": "Zupfe!",
+        "ihr": "Zupft!",
+        "Sie": "Zupfen Sie!"
+      }
+    },
+    "partizip1": "zupfend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "die Gitarre",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیتار",
+          "en": "guitar"
+        },
+        "id_ref": "nomen_gitarre"
+      },
+      {
+        "wort": "das Unkraut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علف هرز",
+          "en": "weeds"
+        },
+        "id_ref": "nomen_unkraut"
+      },
+      {
+        "wort": "die Augenbraue",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ابرو",
+          "en": "eyebrow"
+        },
+        "id_ref": "nomen_augenbraue"
+      },
+      {
+        "wort": "rupfen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to pluck"
+        },
+        "id_ref": "verb_rupfen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

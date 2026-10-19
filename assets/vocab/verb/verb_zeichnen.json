@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_zeichnen",
+  "wort": "zeichnen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نقاشی کردن (با مداد)",
+      "طراحی کردن",
+      "امضا کردن"
+    ],
+    "en": [
+      "to draw",
+      "to sign"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Kunst",
+    "Schule"
+  ],
+  "ipa": "ˈt͡saɪ̯çnən",
+  "anmerkung": null,
+  "berufe": [
+    "bau",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind zeichnet ein Haus.",
+      "uebersetzung": {
+        "fa": "کودک یک خانه می‌کشد.",
+        "en": "The child draws a house."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Architekt hat die Pläne für das neue Gebäude selbst gezeichnet.",
+      "uebersetzung": {
+        "fa": "معمار نقشه‌های ساختمان جدید را خودش طراحی کرد.",
+        "en": "The architect drew the plans for the new building himself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "malen",
+      "uebersetzung": {
+        "fa": "نقاشی کردن",
+        "en": "to paint"
+      }
+    },
+    {
+      "wort": "skizzieren",
+      "uebersetzung": {
+        "fa": "طرح زدن",
+        "en": "to sketch"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Zeichen (نشانه)",
+    "en": "from das Zeichen (sign)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zeichnen",
+      "praeteritum": "zeichnte",
+      "partizip2": "gezeichnt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zeichne",
+        "du": "zeichnst",
+        "er_sie_es": "zeichnt",
+        "wir": "zeichnen",
+        "ihr": "zeichnt",
+        "sie_Sie": "zeichnen"
+      },
+      "praeteritum": {
+        "ich": "zeichnte",
+        "du": "zeichntest",
+        "er_sie_es": "zeichnte",
+        "wir": "zeichnten",
+        "ihr": "zeichntet",
+        "sie_Sie": "zeichnten"
+      },
+      "konjunktiv1": {
+        "ich": "zeichne",
+        "du": "zeichnest",
+        "er_sie_es": "zeichne",
+        "wir": "zeichnen",
+        "ihr": "zeichnet",
+        "sie_Sie": "zeichnen"
+      },
+      "konjunktiv2": {
+        "ich": "zeichnte",
+        "du": "zeichntest",
+        "er_sie_es": "zeichnte",
+        "wir": "zeichnten",
+        "ihr": "zeichntet",
+        "sie_Sie": "zeichnten"
+      },
+      "imperativ": {
+        "du": "Zeichne!",
+        "ihr": "Zeichnt!",
+        "Sie": "Zeichnen Sie!"
+      }
+    },
+    "partizip1": "zeichnend",
+    "nominalisierung": "die Zeichnung"
+  },
+  "wortnetz": {
+    "grundwort": "Zeichen",
+    "woerter": [
+      {
+        "wort": "malen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نقاشی کردن",
+          "en": "to paint"
+        },
+        "id_ref": "verb_malen"
+      },
+      {
+        "wort": "der Bleistift",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مداد",
+          "en": "pencil"
+        },
+        "id_ref": "nomen_bleistift"
+      },
+      {
+        "wort": "die Zeichnung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نقاشی، طرح",
+          "en": "drawing"
+        },
+        "id_ref": "nomen_zeichnung"
+      },
+      {
+        "wort": "das Bild",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تصویر",
+          "en": "picture"
+        },
+        "id_ref": "nomen_bild"
+      },
+      {
+        "wort": "das Zeichen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "sign"
+        },
+        "id_ref": "nomen_zeichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

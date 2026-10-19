@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_wundern",
+  "wort": "wundern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تعجب کردن",
+      "متعجب کردن"
+    ],
+    "en": [
+      "to be surprised",
+      "to surprise"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gefühle"
+  ],
+  "ipa": "ˈvʊndɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das wundert mich.",
+      "uebersetzung": {
+        "fa": "این مرا متعجب می‌کند.",
+        "en": "That surprises me."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe mich gewundert, dass er so früh nach Hause gekommen ist.",
+      "uebersetzung": {
+        "fa": "تعجب کردم که این‌قدر زود به خانه آمد.",
+        "en": "I was surprised that he came home so early."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "staunen",
+      "uebersetzung": {
+        "fa": "حیرت کردن",
+        "en": "to marvel"
+      }
+    },
+    {
+      "wort": "erstaunen",
+      "uebersetzung": {
+        "fa": "متعجب کردن",
+        "en": "to astonish"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Wunder (معجزه، شگفتی)",
+    "en": "from das Wunder (miracle, wonder)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "sich wundern über + Akk",
+        "bedeutung": "über etwas erstaunt sein",
+        "beispiel": "Alle wunderten sich über seine Antwort.",
+        "uebersetzung": {
+          "fa": "همه از جوابش تعجب کردند.",
+          "en": "Everyone was surprised at his answer."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wundern",
+      "praeteritum": "wunderte",
+      "partizip2": "gewundert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wundere",
+        "du": "wunderst",
+        "er_sie_es": "wundert",
+        "wir": "wundern",
+        "ihr": "wundert",
+        "sie_Sie": "wundern"
+      },
+      "praeteritum": {
+        "ich": "wunderte",
+        "du": "wundertest",
+        "er_sie_es": "wunderte",
+        "wir": "wunderten",
+        "ihr": "wundertet",
+        "sie_Sie": "wunderten"
+      },
+      "konjunktiv1": {
+        "ich": "wundere",
+        "du": "wunderest",
+        "er_sie_es": "wundere",
+        "wir": "wundern",
+        "ihr": "wunderet",
+        "sie_Sie": "wundern"
+      },
+      "konjunktiv2": {
+        "ich": "wunderte",
+        "du": "wundertest",
+        "er_sie_es": "wunderte",
+        "wir": "wunderten",
+        "ihr": "wundertet",
+        "sie_Sie": "wunderten"
+      },
+      "imperativ": {
+        "du": "Wundere!",
+        "ihr": "Wundert!",
+        "Sie": "Wundern Sie!"
+      }
+    },
+    "partizip1": "wundernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Wunder",
+    "woerter": [
+      {
+        "wort": "das Wunder",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معجزه",
+          "en": "miracle"
+        },
+        "id_ref": "nomen_wunder"
+      },
+      {
+        "wort": "überrascht",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "متعجب",
+          "en": "surprised"
+        },
+        "id_ref": "adjektiv_ueberrascht"
+      },
+      {
+        "wort": "staunen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حیرت کردن",
+          "en": "to marvel"
+        },
+        "id_ref": "verb_staunen"
+      },
+      {
+        "wort": "komisch",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "عجیب",
+          "en": "strange"
+        },
+        "id_ref": "adjektiv_komisch"
+      },
+      {
+        "wort": "die Überraschung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غافلگیری",
+          "en": "surprise"
+        },
+        "id_ref": "nomen_ueberraschung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

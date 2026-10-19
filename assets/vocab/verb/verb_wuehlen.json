@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_wuehlen",
+  "wort": "wühlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "کندن، زیرورو کردن",
+      "گشتن (در کیف و...)"
+    ],
+    "en": [
+      "to dig",
+      "to rummage"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag"
+  ],
+  "ipa": "ˈvyːlən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund wühlt im Garten.",
+      "uebersetzung": {
+        "fa": "سگ در باغ زمین را می‌کند.",
+        "en": "The dog is digging in the garden."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie wühlte lange in ihrer Handtasche, bis sie endlich den Schlüssel fand.",
+      "uebersetzung": {
+        "fa": "مدتی در کیفش گشت تا بالاخره کلید را پیدا کرد.",
+        "en": "She rummaged in her handbag for a long time until she finally found the key."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "graben",
+      "uebersetzung": {
+        "fa": "کندن",
+        "en": "to dig"
+      }
+    },
+    {
+      "wort": "kramen",
+      "uebersetzung": {
+        "fa": "گشتن",
+        "en": "to rummage"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wuolen (کندن)",
+    "en": "from Old High German wuolen (to dig)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wühlen in + Dat",
+        "bedeutung": "in etwas herumsuchen",
+        "beispiel": "Er wühlt in alten Fotos.",
+        "uebersetzung": {
+          "fa": "در عکس‌های قدیمی جست‌وجو می‌کند.",
+          "en": "He is rummaging through old photos."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wühlen",
+      "praeteritum": "wühlte",
+      "partizip2": "gewühlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wühle",
+        "du": "wühlst",
+        "er_sie_es": "wühlt",
+        "wir": "wühlen",
+        "ihr": "wühlt",
+        "sie_Sie": "wühlen"
+      },
+      "praeteritum": {
+        "ich": "wühlte",
+        "du": "wühltest",
+        "er_sie_es": "wühlte",
+        "wir": "wühlten",
+        "ihr": "wühltet",
+        "sie_Sie": "wühlten"
+      },
+      "konjunktiv1": {
+        "ich": "wühle",
+        "du": "wühlest",
+        "er_sie_es": "wühle",
+        "wir": "wühlen",
+        "ihr": "wühlet",
+        "sie_Sie": "wühlen"
+      },
+      "konjunktiv2": {
+        "ich": "wühlte",
+        "du": "wühltest",
+        "er_sie_es": "wühlte",
+        "wir": "wühlten",
+        "ihr": "wühltet",
+        "sie_Sie": "wühlten"
+      },
+      "imperativ": {
+        "du": "Wühle!",
+        "ihr": "Wühlt!",
+        "Sie": "Wühlen Sie!"
+      }
+    },
+    "partizip1": "wühlend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "graben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کندن",
+          "en": "to dig"
+        },
+        "id_ref": "verb_graben"
+      },
+      {
+        "wort": "suchen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جست‌وجو کردن",
+          "en": "to search"
+        },
+        "id_ref": "verb_suchen"
+      },
+      {
+        "wort": "die Erde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خاک",
+          "en": "soil"
+        },
+        "id_ref": "nomen_erde"
+      },
+      {
+        "wort": "die Tasche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کیف",
+          "en": "bag"
+        },
+        "id_ref": "nomen_tasche"
+      },
+      {
+        "wort": "kramen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گشتن",
+          "en": "to rummage"
+        },
+        "id_ref": "verb_kramen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

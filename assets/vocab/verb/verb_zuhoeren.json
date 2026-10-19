@@ -1,0 +1,181 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuhoeren",
+  "wort": "zuhören",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گوش دادن"
+    ],
+    "en": [
+      "to listen"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈt͡suːhøːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kinder hören gut zu.",
+      "uebersetzung": {
+        "fa": "بچه‌ها خوب گوش می‌دهند.",
+        "en": "The children listen well."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ein guter Arzt hört seinen Patienten genau zu, bevor er eine Diagnose stellt.",
+      "uebersetzung": {
+        "fa": "یک پزشک خوب پیش از تشخیص با دقت به حرف بیمارانش گوش می‌دهد.",
+        "en": "A good doctor listens carefully to his patients before making a diagnosis."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "lauschen",
+      "uebersetzung": {
+        "fa": "با دقت گوش دادن",
+        "en": "to listen intently"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به سوی) + hören (شنیدن)",
+    "en": "zu- (towards) + hören (to hear)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zuhören + Dat",
+        "bedeutung": "jemandem aufmerksam folgen",
+        "beispiel": "Die Kinder hören der Lehrerin zu.",
+        "uebersetzung": {
+          "fa": "بچه‌ها به معلم گوش می‌دهند.",
+          "en": "The children are listening to the teacher."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zuhören",
+      "praeteritum": "hörte zu",
+      "partizip2": "zugehört"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "höre zu",
+        "du": "hörst zu",
+        "er_sie_es": "hört zu",
+        "wir": "hören zu",
+        "ihr": "hört zu",
+        "sie_Sie": "hören zu"
+      },
+      "praeteritum": {
+        "ich": "hörte zu",
+        "du": "hörtest zu",
+        "er_sie_es": "hörte zu",
+        "wir": "hörten zu",
+        "ihr": "hörtet zu",
+        "sie_Sie": "hörten zu"
+      },
+      "konjunktiv1": {
+        "ich": "höre zu",
+        "du": "hörest zu",
+        "er_sie_es": "höre zu",
+        "wir": "hören zu",
+        "ihr": "höret zu",
+        "sie_Sie": "hören zu"
+      },
+      "konjunktiv2": {
+        "ich": "hörte zu",
+        "du": "hörtest zu",
+        "er_sie_es": "hörte zu",
+        "wir": "hörten zu",
+        "ihr": "hörtet zu",
+        "sie_Sie": "hörten zu"
+      },
+      "imperativ": {
+        "du": "Höre zu!",
+        "ihr": "Hört zu!",
+        "Sie": "Hören Sie zu!"
+      }
+    },
+    "partizip1": "zuhörend",
+    "nominalisierung": "der Zuhörer"
+  },
+  "wortnetz": {
+    "grundwort": "hören",
+    "woerter": [
+      {
+        "wort": "hören",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شنیدن",
+          "en": "to hear"
+        },
+        "id_ref": "verb_hoeren"
+      },
+      {
+        "wort": "das Ohr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوش",
+          "en": "ear"
+        },
+        "id_ref": "nomen_ohr"
+      },
+      {
+        "wort": "aufmerksam",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دقیق، هوشیار",
+          "en": "attentive"
+        },
+        "id_ref": "adjektiv_aufmerksam"
+      },
+      {
+        "wort": "der Zuhörer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شنونده",
+          "en": "listener"
+        },
+        "id_ref": "nomen_zuhoerer"
+      },
+      {
+        "wort": "verstehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهمیدن",
+          "en": "to understand"
+        },
+        "id_ref": "verb_verstehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "3.0",
+  "id": "verb_zirkulieren",
+  "wort": "zirkulieren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "گردش کردن، دست‌به‌دست شدن"
+    ],
+    "en": [
+      "to circulate"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Kommunikation"
+  ],
+  "ipa": "t͡sɪʁkuˈliːʁən",
+  "anmerkung": "Auch mit «sein» möglich (die Nachricht ist schnell zirkuliert).",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Blut zirkuliert im Körper.",
+      "uebersetzung": {
+        "fa": "خون در بدن گردش می‌کند.",
+        "en": "Blood circulates in the body."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Internet zirkulieren viele Gerüchte, die sich später als falsch herausstellen.",
+      "uebersetzung": {
+        "fa": "در اینترنت شایعات زیادی دست‌به‌دست می‌شود که بعداً نادرست از آب درمی‌آیند.",
+        "en": "Many rumours circulate on the internet that later turn out to be false."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "kreisen",
+      "uebersetzung": {
+        "fa": "چرخیدن",
+        "en": "to circle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین circulare (چرخ زدن)",
+    "en": "from Latin circulare (to go round)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zirkulieren",
+      "praeteritum": "zirkulierte",
+      "partizip2": "zirkuliert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zirkuliere",
+        "du": "zirkulierst",
+        "er_sie_es": "zirkuliert",
+        "wir": "zirkulieren",
+        "ihr": "zirkuliert",
+        "sie_Sie": "zirkulieren"
+      },
+      "praeteritum": {
+        "ich": "zirkulierte",
+        "du": "zirkuliertest",
+        "er_sie_es": "zirkulierte",
+        "wir": "zirkulierten",
+        "ihr": "zirkuliertet",
+        "sie_Sie": "zirkulierten"
+      },
+      "konjunktiv1": {
+        "ich": "zirkuliere",
+        "du": "zirkulierest",
+        "er_sie_es": "zirkuliere",
+        "wir": "zirkulieren",
+        "ihr": "zirkulieret",
+        "sie_Sie": "zirkulieren"
+      },
+      "konjunktiv2": {
+        "ich": "zirkulierte",
+        "du": "zirkuliertest",
+        "er_sie_es": "zirkulierte",
+        "wir": "zirkulierten",
+        "ihr": "zirkuliertet",
+        "sie_Sie": "zirkulierten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "zirkulierend",
+    "nominalisierung": "die Zirkulation"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Blut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خون",
+          "en": "blood"
+        },
+        "id_ref": "nomen_blut"
+      },
+      {
+        "wort": "der Kreislauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گردش خون",
+          "en": "circulation"
+        },
+        "id_ref": "nomen_kreislauf"
+      },
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "das Gerücht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شایعه",
+          "en": "rumour"
+        },
+        "id_ref": "nomen_geruecht"
+      },
+      {
+        "wort": "verbreiten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پخش کردن",
+          "en": "to spread"
+        },
+        "id_ref": "verb_verbreiten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

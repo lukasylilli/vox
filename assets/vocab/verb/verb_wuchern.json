@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_wuchern",
+  "wort": "wuchern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "بی‌رویه رشد کردن",
+      "سوءاستفاده کردن (در قیمت)"
+    ],
+    "en": [
+      "to grow rampant",
+      "to profiteer"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Natur",
+    "Medizin"
+  ],
+  "ipa": "ˈvuːxɐn",
+  "anmerkung": "Medizin: «Wucherung» = Geschwulst, krankhaftes Gewebewachstum.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Unkraut wuchert.",
+      "uebersetzung": {
+        "fa": "علف هرز بی‌رویه رشد می‌کند.",
+        "en": "The weeds are growing rampant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil sich niemand um den Garten kümmerte, wucherten Brennnesseln überall.",
+      "uebersetzung": {
+        "fa": "چون کسی به باغ رسیدگی نمی‌کرد، گزنه همه‌جا بی‌رویه روییده بود.",
+        "en": "Because nobody looked after the garden, nettles grew rampant everywhere."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "wachsen",
+      "uebersetzung": {
+        "fa": "رشد کردن",
+        "en": "to grow"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Wucher (ربا، رشد بی‌رویه)",
+    "en": "from der Wucher (usury, excessive growth)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wuchern",
+      "praeteritum": "wucherte",
+      "partizip2": "gewuchert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wuchere",
+        "du": "wucherst",
+        "er_sie_es": "wuchert",
+        "wir": "wuchern",
+        "ihr": "wuchert",
+        "sie_Sie": "wuchern"
+      },
+      "praeteritum": {
+        "ich": "wucherte",
+        "du": "wuchertest",
+        "er_sie_es": "wucherte",
+        "wir": "wucherten",
+        "ihr": "wuchertet",
+        "sie_Sie": "wucherten"
+      },
+      "konjunktiv1": {
+        "ich": "wuchere",
+        "du": "wucherest",
+        "er_sie_es": "wuchere",
+        "wir": "wuchern",
+        "ihr": "wucheret",
+        "sie_Sie": "wuchern"
+      },
+      "konjunktiv2": {
+        "ich": "wucherte",
+        "du": "wuchertest",
+        "er_sie_es": "wucherte",
+        "wir": "wucherten",
+        "ihr": "wuchertet",
+        "sie_Sie": "wucherten"
+      },
+      "imperativ": {
+        "du": null,
+        "ihr": null,
+        "Sie": null
+      }
+    },
+    "partizip1": "wuchernd",
+    "nominalisierung": "die Wucherung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wachsen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رشد کردن",
+          "en": "to grow"
+        },
+        "id_ref": "verb_wachsen"
+      },
+      {
+        "wort": "das Unkraut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "علف هرز",
+          "en": "weeds"
+        },
+        "id_ref": "nomen_unkraut"
+      },
+      {
+        "wort": "die Pflanze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "گیاه",
+          "en": "plant"
+        },
+        "id_ref": "nomen_pflanze"
+      },
+      {
+        "wort": "der Garten",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باغ",
+          "en": "garden"
+        },
+        "id_ref": "nomen_garten"
+      },
+      {
+        "wort": "der Tumor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تومور",
+          "en": "tumour"
+        },
+        "id_ref": "nomen_tumor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

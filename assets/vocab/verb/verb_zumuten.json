@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_zumuten",
+  "wort": "zumuten",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "از کسی (کار سخت) توقع داشتن",
+      "تحمیل کردن"
+    ],
+    "en": [
+      "to expect of",
+      "to impose on"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Beziehungen",
+    "Arbeit"
+  ],
+  "ipa": "ˈt͡suːmuːtn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kann ich dir nicht zumuten.",
+      "uebersetzung": {
+        "fa": "نمی‌توانم این را از تو توقع داشته باشم.",
+        "en": "I can’t expect that of you."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man kann den Mitarbeitern nicht zumuten, jedes Wochenende ohne Bezahlung zu arbeiten.",
+      "uebersetzung": {
+        "fa": "نمی‌شود از کارمندان توقع داشت هر آخر هفته بی‌مزد کار کنند.",
+        "en": "You cannot expect employees to work every weekend without pay."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abverlangen",
+      "uebersetzung": {
+        "fa": "از کسی خواستن",
+        "en": "to demand of"
+      }
+    },
+    {
+      "wort": "aufbürden",
+      "uebersetzung": {
+        "fa": "تحمیل کردن",
+        "en": "to burden"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به سوی) + muten (خواستن، کهن)",
+    "en": "zu- (towards) + muten (to desire, archaic)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [
+      {
+        "muster": "jemandem + Akk zumuten",
+        "bedeutung": "von jemandem etwas Schwieriges verlangen",
+        "beispiel": "Sie mutet sich zu viel zu.",
+        "uebersetzung": {
+          "fa": "بیش از توانش از خودش کار می‌کشد.",
+          "en": "She takes on too much."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zumuten",
+      "praeteritum": "mutete zu",
+      "partizip2": "zugemutet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "mute zu",
+        "du": "mutest zu",
+        "er_sie_es": "mutet zu",
+        "wir": "muten zu",
+        "ihr": "mutet zu",
+        "sie_Sie": "muten zu"
+      },
+      "praeteritum": {
+        "ich": "mutete zu",
+        "du": "mutetest zu",
+        "er_sie_es": "mutete zu",
+        "wir": "muteten zu",
+        "ihr": "mutetet zu",
+        "sie_Sie": "muteten zu"
+      },
+      "konjunktiv1": {
+        "ich": "mute zu",
+        "du": "mutest zu",
+        "er_sie_es": "mute zu",
+        "wir": "muten zu",
+        "ihr": "mutet zu",
+        "sie_Sie": "muten zu"
+      },
+      "konjunktiv2": {
+        "ich": "mutete zu",
+        "du": "mutetest zu",
+        "er_sie_es": "mutete zu",
+        "wir": "muteten zu",
+        "ihr": "mutetet zu",
+        "sie_Sie": "muteten zu"
+      },
+      "imperativ": {
+        "du": "Mute zu!",
+        "ihr": "Mutet zu!",
+        "Sie": "Muten Sie zu!"
+      }
+    },
+    "partizip1": "zumutend",
+    "nominalisierung": "die Zumutung"
+  },
+  "wortnetz": {
+    "grundwort": "Mut",
+    "woerter": [
+      {
+        "wort": "verlangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خواستن",
+          "en": "to demand"
+        },
+        "id_ref": "verb_verlangen"
+      },
+      {
+        "wort": "die Zumutung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "توقع بی‌جا",
+          "en": "imposition"
+        },
+        "id_ref": "nomen_zumutung"
+      },
+      {
+        "wort": "fordern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درخواست کردن",
+          "en": "to demand"
+        },
+        "id_ref": "verb_fordern"
+      },
+      {
+        "wort": "überfordern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیش از توان خواستن",
+          "en": "to overtax"
+        },
+        "id_ref": "verb_ueberfordern"
+      },
+      {
+        "wort": "die Belastung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فشار",
+          "en": "burden"
+        },
+        "id_ref": "nomen_belastung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

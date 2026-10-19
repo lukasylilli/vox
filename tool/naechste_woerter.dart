@@ -2061,6 +2061,30 @@ const zurueckgestellt = <String>{
   'wiegeln', // zurückgestellt: selten, nur in aufwiegeln gebräuchlich — nicht sicher (Regel 14) 2026-10-19
   'wienern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
   'winkeln', // zurückgestellt: selten (meist «abwinkeln», «angewinkelt») — nicht sicher (Regel 14) 2026-10-19
+  'wummern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'wursteln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'wuscheln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'wuseln', // zurückgestellt: umgangssprachlich, landschaftlich, Hilfsverb schwankt — nicht sicher (Regel 14/16) 2026-10-19
+  'xerographieren', // zurückgestellt: veraltete Schreibung/Fachsprache — nicht sicher (Regel 14) 2026-10-19
+  'zagen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
+  'zäumen', // zurückgestellt: Fachsprache (Pferd), selten — nicht sicher (Regel 14) 2026-10-19
+  'zausen', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'zechen', // zurückgestellt: veraltend, scherzhaft — nicht sicher (Regel 14) 2026-10-19
+  'zerdeppern', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'zerfurchen', // zurückgestellt: selten (meist «zerfurcht») — nicht sicher (Regel 14) 2026-10-19
+  'zerknautschen', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'ziegeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'ziemen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
+  'zirkeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'zischeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'ziselieren', // zurückgestellt: Fachsprache (Goldschmied), selten — nicht sicher (Regel 14) 2026-10-19
+  'zotteln', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'zublinzeln', // zurückgestellt: selten — nicht sicher (Regel 14) 2026-10-19
+  'züchtigen', // zurückgestellt: veraltend — nicht sicher (Regel 14) 2026-10-19
+  'zuckeln', // zurückgestellt: umgangssprachlich, Hilfsverb sein — nicht sicher (Regel 14) 2026-10-19
+  'zürnen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
+  'zuwenden', // zurückgestellt: gemischtes Verb mit zwei Präteritumformen (wandte/wendete zu) wie «wenden» — nicht sicher (Regel 16) 2026-10-19
+  'zwiebeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,

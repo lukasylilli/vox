@@ -1,0 +1,188 @@
+{
+  "schema": "3.0",
+  "id": "verb_zureden",
+  "wort": "zureden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ترغیب کردن، دلگرمی دادن"
+    ],
+    "en": [
+      "to encourage",
+      "to persuade"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation"
+  ],
+  "ipa": "ˈt͡suːʁeːdn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir reden ihm zu.",
+      "uebersetzung": {
+        "fa": "او را تشویق می‌کنیم.",
+        "en": "We are encouraging him."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nachdem alle ihr lange zugeredet hatten, meldete sie sich für den Wettbewerb an.",
+      "uebersetzung": {
+        "fa": "تنها پس از آن‌که همه مدت‌ها او را ترغیب کردند، برای مسابقه ثبت‌نام کرد.",
+        "en": "Only after everyone had urged her for a long time did she sign up for the competition."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ermutigen",
+      "uebersetzung": {
+        "fa": "دلگرمی دادن",
+        "en": "to encourage"
+      }
+    },
+    {
+      "wort": "überreden",
+      "uebersetzung": {
+        "fa": "قانع کردن",
+        "en": "to persuade"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu- (به سوی) + reden (حرف زدن)",
+    "en": "zu- (towards) + reden (to talk)"
+  },
+  "details": {
+    "trennbar": true,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zureden + Dat",
+        "bedeutung": "jemandem gut zusprechen, ihn zu etwas bewegen",
+        "beispiel": "Der Arzt redete dem ängstlichen Patienten ruhig zu.",
+        "uebersetzung": {
+          "fa": "پزشک با آرامش بیمار نگران را دلگرم کرد.",
+          "en": "The doctor calmly reassured the anxious patient."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zureden",
+      "praeteritum": "redete zu",
+      "partizip2": "zugeredet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "rede zu",
+        "du": "redest zu",
+        "er_sie_es": "redet zu",
+        "wir": "reden zu",
+        "ihr": "redet zu",
+        "sie_Sie": "reden zu"
+      },
+      "praeteritum": {
+        "ich": "redete zu",
+        "du": "redetest zu",
+        "er_sie_es": "redete zu",
+        "wir": "redeten zu",
+        "ihr": "redetet zu",
+        "sie_Sie": "redeten zu"
+      },
+      "konjunktiv1": {
+        "ich": "rede zu",
+        "du": "redest zu",
+        "er_sie_es": "rede zu",
+        "wir": "reden zu",
+        "ihr": "redet zu",
+        "sie_Sie": "reden zu"
+      },
+      "konjunktiv2": {
+        "ich": "redete zu",
+        "du": "redetest zu",
+        "er_sie_es": "redete zu",
+        "wir": "redeten zu",
+        "ihr": "redetet zu",
+        "sie_Sie": "redeten zu"
+      },
+      "imperativ": {
+        "du": "Rede zu!",
+        "ihr": "Redet zu!",
+        "Sie": "Reden Sie zu!"
+      }
+    },
+    "partizip1": "zuredend",
+    "nominalisierung": "das Zureden"
+  },
+  "wortnetz": {
+    "grundwort": "reden",
+    "woerter": [
+      {
+        "wort": "reden",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف زدن",
+          "en": "to talk"
+        },
+        "id_ref": "verb_reden"
+      },
+      {
+        "wort": "ermutigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دلگرمی دادن",
+          "en": "to encourage"
+        },
+        "id_ref": "verb_ermutigen"
+      },
+      {
+        "wort": "überreden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قانع کردن",
+          "en": "to persuade"
+        },
+        "id_ref": "verb_ueberreden"
+      },
+      {
+        "wort": "der Mut",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شجاعت",
+          "en": "courage"
+        },
+        "id_ref": "nomen_mut"
+      },
+      {
+        "wort": "trösten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلداری دادن",
+          "en": "to comfort"
+        },
+        "id_ref": "verb_troesten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

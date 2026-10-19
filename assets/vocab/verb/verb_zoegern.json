@@ -1,0 +1,187 @@
+{
+  "schema": "3.0",
+  "id": "verb_zoegern",
+  "wort": "zögern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تردید کردن",
+      "دست‌دست کردن"
+    ],
+    "en": [
+      "to hesitate"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Entscheidung"
+  ],
+  "ipa": "ˈt͡søːɡɐn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er zögert kurz.",
+      "uebersetzung": {
+        "fa": "کمی تردید می‌کند.",
+        "en": "He hesitates briefly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Sie zögerte lange, bevor sie das Jobangebot in einer anderen Stadt annahm.",
+      "uebersetzung": {
+        "fa": "پیش از پذیرفتن پیشنهاد کار در شهری دیگر مدت زیادی تردید کرد.",
+        "en": "She hesitated for a long time before accepting the job offer in another city."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "zaudern",
+      "uebersetzung": {
+        "fa": "تعلل کردن",
+        "en": "to dither"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "handeln",
+      "uebersetzung": {
+        "fa": "اقدام کردن",
+        "en": "to act"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی میانه zogen (کشیدن، طول دادن)",
+    "en": "from Middle High German zogen (to pull, to drag out)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zögern mit + Dat",
+        "bedeutung": "etwas hinausschieben",
+        "beispiel": "Zögere nicht mit der Anmeldung!",
+        "uebersetzung": {
+          "fa": "در ثبت‌نام دست‌دست نکن!",
+          "en": "Don’t delay your registration!"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zögern",
+      "praeteritum": "zögerte",
+      "partizip2": "gezögert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zögere",
+        "du": "zögerst",
+        "er_sie_es": "zögert",
+        "wir": "zögern",
+        "ihr": "zögert",
+        "sie_Sie": "zögern"
+      },
+      "praeteritum": {
+        "ich": "zögerte",
+        "du": "zögertest",
+        "er_sie_es": "zögerte",
+        "wir": "zögerten",
+        "ihr": "zögertet",
+        "sie_Sie": "zögerten"
+      },
+      "konjunktiv1": {
+        "ich": "zögere",
+        "du": "zögerest",
+        "er_sie_es": "zögere",
+        "wir": "zögern",
+        "ihr": "zögeret",
+        "sie_Sie": "zögern"
+      },
+      "konjunktiv2": {
+        "ich": "zögerte",
+        "du": "zögertest",
+        "er_sie_es": "zögerte",
+        "wir": "zögerten",
+        "ihr": "zögertet",
+        "sie_Sie": "zögerten"
+      },
+      "imperativ": {
+        "du": "Zögere!",
+        "ihr": "Zögert!",
+        "Sie": "Zögern Sie!"
+      }
+    },
+    "partizip1": "zögernd",
+    "nominalisierung": "das Zögern"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "unsicher",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامطمئن",
+          "en": "uncertain"
+        },
+        "id_ref": "adjektiv_unsicher"
+      },
+      {
+        "wort": "warten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "منتظر ماندن",
+          "en": "to wait"
+        },
+        "id_ref": "verb_warten"
+      },
+      {
+        "wort": "die Entscheidung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تصمیم",
+          "en": "decision"
+        },
+        "id_ref": "nomen_entscheidung"
+      },
+      {
+        "wort": "zaudern",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "تعلل کردن",
+          "en": "to dither"
+        },
+        "id_ref": "verb_zaudern"
+      },
+      {
+        "wort": "der Zweifel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شک",
+          "en": "doubt"
+        },
+        "id_ref": "nomen_zweifel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

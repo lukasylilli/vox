@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "verb_wuerzen",
+  "wort": "würzen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ادویه زدن",
+      "چاشنی زدن"
+    ],
+    "en": [
+      "to season",
+      "to spice"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Küche"
+  ],
+  "ipa": "ˈvʏʁt͡sn̩",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich würze die Suppe.",
+      "uebersetzung": {
+        "fa": "به سوپ ادویه می‌زنم.",
+        "en": "I season the soup."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Fleisch wird mit Salz, Pfeffer und frischen Kräutern gewürzt, bevor es in den Ofen kommt.",
+      "uebersetzung": {
+        "fa": "گوشت را پیش از گذاشتن در فر با نمک، فلفل و سبزی تازه چاشنی می‌زنند.",
+        "en": "The meat is seasoned with salt, pepper and fresh herbs before it goes into the oven."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "abschmecken",
+      "uebersetzung": {
+        "fa": "مزه‌ی غذا را تنظیم کردن",
+        "en": "to season to taste"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Würze (چاشنی)",
+    "en": "from die Würze (seasoning)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "würzen mit + Dat",
+        "bedeutung": "etwas mit Gewürzen versehen",
+        "beispiel": "Sie würzt den Reis mit Safran.",
+        "uebersetzung": {
+          "fa": "برنج را با زعفران چاشنی می‌زند.",
+          "en": "She seasons the rice with saffron."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "würzen",
+      "praeteritum": "würzte",
+      "partizip2": "gewürzt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "würze",
+        "du": "würzt",
+        "er_sie_es": "würzt",
+        "wir": "würzen",
+        "ihr": "würzt",
+        "sie_Sie": "würzen"
+      },
+      "praeteritum": {
+        "ich": "würzte",
+        "du": "würztest",
+        "er_sie_es": "würzte",
+        "wir": "würzten",
+        "ihr": "würztet",
+        "sie_Sie": "würzten"
+      },
+      "konjunktiv1": {
+        "ich": "würze",
+        "du": "würzest",
+        "er_sie_es": "würze",
+        "wir": "würzen",
+        "ihr": "würzet",
+        "sie_Sie": "würzen"
+      },
+      "konjunktiv2": {
+        "ich": "würzte",
+        "du": "würztest",
+        "er_sie_es": "würzte",
+        "wir": "würzten",
+        "ihr": "würztet",
+        "sie_Sie": "würzten"
+      },
+      "imperativ": {
+        "du": "Würze!",
+        "ihr": "Würzt!",
+        "Sie": "Würzen Sie!"
+      }
+    },
+    "partizip1": "würzend",
+    "nominalisierung": "die Würze"
+  },
+  "wortnetz": {
+    "grundwort": "Gewürz",
+    "woerter": [
+      {
+        "wort": "das Gewürz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادویه",
+          "en": "spice"
+        },
+        "id_ref": "nomen_gewuerz"
+      },
+      {
+        "wort": "das Salz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نمک",
+          "en": "salt"
+        },
+        "id_ref": "nomen_salz"
+      },
+      {
+        "wort": "der Pfeffer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فلفل",
+          "en": "pepper"
+        },
+        "id_ref": "nomen_pfeffer"
+      },
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "scharf",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تند",
+          "en": "spicy"
+        },
+        "id_ref": "adjektiv_scharf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

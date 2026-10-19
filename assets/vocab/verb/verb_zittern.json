@@ -1,0 +1,189 @@
+{
+  "schema": "3.0",
+  "id": "verb_zittern",
+  "wort": "zittern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "لرزیدن"
+    ],
+    "en": [
+      "to tremble",
+      "to shiver"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Körper",
+    "Gefühle"
+  ],
+  "ipa": "ˈt͡sɪtɐn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich zittere vor Kälte.",
+      "uebersetzung": {
+        "fa": "از سرما می‌لرزم.",
+        "en": "I am shivering with cold."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ihre Hände zitterten, als sie den Brief vom Krankenhaus öffnete.",
+      "uebersetzung": {
+        "fa": "وقتی نامه‌ی بیمارستان را باز کرد، دست‌هایش می‌لرزید.",
+        "en": "Her hands were trembling as she opened the letter from the hospital."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beben",
+      "uebersetzung": {
+        "fa": "لرزیدن",
+        "en": "to quake"
+      }
+    },
+    {
+      "wort": "schlottern",
+      "uebersetzung": {
+        "fa": "لرزیدن (از سرما یا ترس)",
+        "en": "to shake"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن zittarōn (لرزیدن)",
+    "en": "from Old High German zittarōn (to tremble)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zittern vor + Dat",
+        "bedeutung": "wegen etwas zittern",
+        "beispiel": "Der Junge zitterte vor Angst.",
+        "uebersetzung": {
+          "fa": "پسر از ترس می‌لرزید.",
+          "en": "The boy was trembling with fear."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zittern",
+      "praeteritum": "zitterte",
+      "partizip2": "gezittert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zittere",
+        "du": "zitterst",
+        "er_sie_es": "zittert",
+        "wir": "zittern",
+        "ihr": "zittert",
+        "sie_Sie": "zittern"
+      },
+      "praeteritum": {
+        "ich": "zitterte",
+        "du": "zittertest",
+        "er_sie_es": "zitterte",
+        "wir": "zitterten",
+        "ihr": "zittertet",
+        "sie_Sie": "zitterten"
+      },
+      "konjunktiv1": {
+        "ich": "zittere",
+        "du": "zitterest",
+        "er_sie_es": "zittere",
+        "wir": "zittern",
+        "ihr": "zitteret",
+        "sie_Sie": "zittern"
+      },
+      "konjunktiv2": {
+        "ich": "zitterte",
+        "du": "zittertest",
+        "er_sie_es": "zitterte",
+        "wir": "zitterten",
+        "ihr": "zittertet",
+        "sie_Sie": "zitterten"
+      },
+      "imperativ": {
+        "du": "Zittere!",
+        "ihr": "Zittert!",
+        "Sie": "Zittern Sie!"
+      }
+    },
+    "partizip1": "zitternd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kalt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سرد",
+          "en": "cold"
+        },
+        "id_ref": "adjektiv_kalt"
+      },
+      {
+        "wort": "die Angst",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترس",
+          "en": "fear"
+        },
+        "id_ref": "nomen_angst"
+      },
+      {
+        "wort": "frieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سردش بودن",
+          "en": "to be cold"
+        },
+        "id_ref": "verb_frieren"
+      },
+      {
+        "wort": "beben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "لرزیدن",
+          "en": "to quake"
+        },
+        "id_ref": "verb_beben"
+      },
+      {
+        "wort": "das Fieber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تب",
+          "en": "fever"
+        },
+        "id_ref": "nomen_fieber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

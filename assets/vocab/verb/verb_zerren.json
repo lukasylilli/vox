@@ -1,0 +1,190 @@
+{
+  "schema": "3.0",
+  "id": "verb_zerren",
+  "wort": "zerren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "با زور کشیدن",
+      "کشیده شدن (عضله)"
+    ],
+    "en": [
+      "to drag",
+      "to strain"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Körper"
+  ],
+  "ipa": "ˈt͡sɛʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind zerrt an meiner Hand.",
+      "uebersetzung": {
+        "fa": "کودک دستم را می‌کشد.",
+        "en": "The child tugs at my hand."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Training hat er sich einen Muskel gezerrt und muss jetzt eine Pause machen.",
+      "uebersetzung": {
+        "fa": "هنگام تمرین عضله‌اش کشیده شد و حالا باید استراحت کند.",
+        "en": "He pulled a muscle during training and now has to take a break."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "ziehen",
+      "uebersetzung": {
+        "fa": "کشیدن",
+        "en": "to pull"
+      }
+    },
+    {
+      "wort": "schleifen",
+      "uebersetzung": {
+        "fa": "کشیدن روی زمین",
+        "en": "to drag"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن zerren (کشیدن)",
+    "en": "from Old High German zerren (to tear, to pull)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zerren an + Dat",
+        "bedeutung": "heftig an etwas ziehen",
+        "beispiel": "Der Hund zerrt an der Leine.",
+        "uebersetzung": {
+          "fa": "سگ قلاده را می‌کشد.",
+          "en": "The dog is tugging at the lead."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zerren",
+      "praeteritum": "zerrte",
+      "partizip2": "gezerrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zerre",
+        "du": "zerrst",
+        "er_sie_es": "zerrt",
+        "wir": "zerren",
+        "ihr": "zerrt",
+        "sie_Sie": "zerren"
+      },
+      "praeteritum": {
+        "ich": "zerrte",
+        "du": "zerrtest",
+        "er_sie_es": "zerrte",
+        "wir": "zerrten",
+        "ihr": "zerrtet",
+        "sie_Sie": "zerrten"
+      },
+      "konjunktiv1": {
+        "ich": "zerre",
+        "du": "zerrest",
+        "er_sie_es": "zerre",
+        "wir": "zerren",
+        "ihr": "zerret",
+        "sie_Sie": "zerren"
+      },
+      "konjunktiv2": {
+        "ich": "zerrte",
+        "du": "zerrtest",
+        "er_sie_es": "zerrte",
+        "wir": "zerrten",
+        "ihr": "zerrtet",
+        "sie_Sie": "zerrten"
+      },
+      "imperativ": {
+        "du": "Zerre!",
+        "ihr": "Zerrt!",
+        "Sie": "Zerren Sie!"
+      }
+    },
+    "partizip1": "zerrend",
+    "nominalisierung": "die Zerrung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ziehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کشیدن",
+          "en": "to pull"
+        },
+        "id_ref": "verb_ziehen"
+      },
+      {
+        "wort": "der Muskel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عضله",
+          "en": "muscle"
+        },
+        "id_ref": "nomen_muskel"
+      },
+      {
+        "wort": "reißen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پاره کردن، کندن",
+          "en": "to tear"
+        },
+        "id_ref": "verb_reissen"
+      },
+      {
+        "wort": "die Zerrung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کشیدگی عضله",
+          "en": "strain"
+        },
+        "id_ref": "nomen_zerrung"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "strength"
+        },
+        "id_ref": "nomen_kraft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

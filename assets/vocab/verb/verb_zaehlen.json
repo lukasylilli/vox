@@ -1,0 +1,191 @@
+{
+  "schema": "3.0",
+  "id": "verb_zaehlen",
+  "wort": "zählen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شمردن",
+      "حساب آمدن، مهم بودن"
+    ],
+    "en": [
+      "to count"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Zahlen"
+  ],
+  "ipa": "ˈt͡sɛːlən",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Kind zählt bis zehn.",
+      "uebersetzung": {
+        "fa": "کودک تا ده می‌شمارد.",
+        "en": "The child counts to ten."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bei der Bewerbung zählt nicht nur die Note, sondern auch die Erfahrung.",
+      "uebersetzung": {
+        "fa": "در درخواست کار فقط نمره مهم نیست، بلکه تجربه هم مهم است.",
+        "en": "In an application it is not only the grade that counts but also experience."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "rechnen",
+      "uebersetzung": {
+        "fa": "حساب کردن",
+        "en": "to calculate"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Zahl (عدد)",
+    "en": "from die Zahl (number)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zählen auf + Akk",
+        "bedeutung": "sich auf jemanden verlassen",
+        "beispiel": "Du kannst immer auf mich zählen.",
+        "uebersetzung": {
+          "fa": "همیشه می‌توانی روی من حساب کنی.",
+          "en": "You can always count on me."
+        }
+      },
+      {
+        "muster": "zählen zu + Dat",
+        "bedeutung": "zu einer Gruppe gehören",
+        "beispiel": "Er zählt zu den besten Spielern der Welt.",
+        "uebersetzung": {
+          "fa": "او از بهترین بازیکنان جهان است.",
+          "en": "He is one of the best players in the world."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zählen",
+      "praeteritum": "zählte",
+      "partizip2": "gezählt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zähle",
+        "du": "zählst",
+        "er_sie_es": "zählt",
+        "wir": "zählen",
+        "ihr": "zählt",
+        "sie_Sie": "zählen"
+      },
+      "praeteritum": {
+        "ich": "zählte",
+        "du": "zähltest",
+        "er_sie_es": "zählte",
+        "wir": "zählten",
+        "ihr": "zähltet",
+        "sie_Sie": "zählten"
+      },
+      "konjunktiv1": {
+        "ich": "zähle",
+        "du": "zählest",
+        "er_sie_es": "zähle",
+        "wir": "zählen",
+        "ihr": "zählet",
+        "sie_Sie": "zählen"
+      },
+      "konjunktiv2": {
+        "ich": "zählte",
+        "du": "zähltest",
+        "er_sie_es": "zählte",
+        "wir": "zählten",
+        "ihr": "zähltet",
+        "sie_Sie": "zählten"
+      },
+      "imperativ": {
+        "du": "Zähle!",
+        "ihr": "Zählt!",
+        "Sie": "Zählen Sie!"
+      }
+    },
+    "partizip1": "zählend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Zahl",
+    "woerter": [
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضی",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "erzählen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعریف کردن",
+          "en": "to tell"
+        },
+        "id_ref": "verb_erzaehlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

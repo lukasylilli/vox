@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "verb_zaehmen",
+  "wort": "zähmen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "رام کردن",
+      "مهار کردن"
+    ],
+    "en": [
+      "to tame"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere"
+  ],
+  "ipa": "ˈt͡sɛːmən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er zähmt ein Pferd.",
+      "uebersetzung": {
+        "fa": "اسبی را رام می‌کند.",
+        "en": "He is taming a horse."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Es dauerte Monate, bis der wilde Hund gezähmt war und den Menschen vertraute.",
+      "uebersetzung": {
+        "fa": "ماه‌ها طول کشید تا سگ وحشی رام شد و به انسان‌ها اعتماد کرد.",
+        "en": "It took months until the wild dog was tamed and trusted people."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bändigen",
+      "uebersetzung": {
+        "fa": "مهار کردن",
+        "en": "to subdue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از صفت zahm (رام)",
+    "en": "from the adjective zahm (tame)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "optional",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zähmen",
+      "praeteritum": "zähmte",
+      "partizip2": "gezähmt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zähme",
+        "du": "zähmst",
+        "er_sie_es": "zähmt",
+        "wir": "zähmen",
+        "ihr": "zähmt",
+        "sie_Sie": "zähmen"
+      },
+      "praeteritum": {
+        "ich": "zähmte",
+        "du": "zähmtest",
+        "er_sie_es": "zähmte",
+        "wir": "zähmten",
+        "ihr": "zähmtet",
+        "sie_Sie": "zähmten"
+      },
+      "konjunktiv1": {
+        "ich": "zähme",
+        "du": "zähmest",
+        "er_sie_es": "zähme",
+        "wir": "zähmen",
+        "ihr": "zähmet",
+        "sie_Sie": "zähmen"
+      },
+      "konjunktiv2": {
+        "ich": "zähmte",
+        "du": "zähmtest",
+        "er_sie_es": "zähmte",
+        "wir": "zähmten",
+        "ihr": "zähmtet",
+        "sie_Sie": "zähmten"
+      },
+      "imperativ": {
+        "du": "Zähme!",
+        "ihr": "Zähmt!",
+        "Sie": "Zähmen Sie!"
+      }
+    },
+    "partizip1": "zähmend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "zahm",
+    "woerter": [
+      {
+        "wort": "zahm",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رام",
+          "en": "tame"
+        },
+        "id_ref": "adjektiv_zahm"
+      },
+      {
+        "wort": "wild",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وحشی",
+          "en": "wild"
+        },
+        "id_ref": "adjektiv_wild"
+      },
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "das Pferd",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسب",
+          "en": "horse"
+        },
+        "id_ref": "nomen_pferd"
+      },
+      {
+        "wort": "bändigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مهار کردن",
+          "en": "to subdue"
+        },
+        "id_ref": "verb_baendigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

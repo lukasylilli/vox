@@ -1,0 +1,180 @@
+{
+  "schema": "3.0",
+  "id": "verb_wischen",
+  "wort": "wischen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پاک کردن (با دستمال)",
+      "کشیدن انگشت روی صفحه"
+    ],
+    "en": [
+      "to wipe",
+      "to swipe"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Haushalt",
+    "Technik"
+  ],
+  "ipa": "ˈvɪʃn̩",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich wische den Tisch.",
+      "uebersetzung": {
+        "fa": "میز را دستمال می‌کشم.",
+        "en": "I am wiping the table."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nachdem die Gäste gegangen waren, haben wir noch schnell den Boden gewischt.",
+      "uebersetzung": {
+        "fa": "پس از رفتن مهمان‌ها سریع زمین را تی کشیدیم.",
+        "en": "After the guests had left, we quickly mopped the floor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "putzen",
+      "uebersetzung": {
+        "fa": "تمیز کردن",
+        "en": "to clean"
+      }
+    },
+    {
+      "wort": "abwischen",
+      "uebersetzung": {
+        "fa": "پاک کردن",
+        "en": "to wipe off"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wisken (سریع حرکت کردن)",
+    "en": "from Old High German wisken (to move quickly)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wischen",
+      "praeteritum": "wischte",
+      "partizip2": "gewischt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wische",
+        "du": "wischst",
+        "er_sie_es": "wischt",
+        "wir": "wischen",
+        "ihr": "wischt",
+        "sie_Sie": "wischen"
+      },
+      "praeteritum": {
+        "ich": "wischte",
+        "du": "wischtest",
+        "er_sie_es": "wischte",
+        "wir": "wischten",
+        "ihr": "wischtet",
+        "sie_Sie": "wischten"
+      },
+      "konjunktiv1": {
+        "ich": "wische",
+        "du": "wischest",
+        "er_sie_es": "wische",
+        "wir": "wischen",
+        "ihr": "wischet",
+        "sie_Sie": "wischen"
+      },
+      "konjunktiv2": {
+        "ich": "wischte",
+        "du": "wischtest",
+        "er_sie_es": "wischte",
+        "wir": "wischten",
+        "ihr": "wischtet",
+        "sie_Sie": "wischten"
+      },
+      "imperativ": {
+        "du": "Wische!",
+        "ihr": "Wischt!",
+        "Sie": "Wischen Sie!"
+      }
+    },
+    "partizip1": "wischend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "putzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز کردن",
+          "en": "to clean"
+        },
+        "id_ref": "verb_putzen"
+      },
+      {
+        "wort": "der Lappen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دستمال",
+          "en": "cloth"
+        },
+        "id_ref": "nomen_lappen"
+      },
+      {
+        "wort": "sauber",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تمیز",
+          "en": "clean"
+        },
+        "id_ref": "adjektiv_sauber"
+      },
+      {
+        "wort": "der Boden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کف",
+          "en": "floor"
+        },
+        "id_ref": "nomen_boden"
+      },
+      {
+        "wort": "der Bildschirm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفحه‌نمایش",
+          "en": "screen"
+        },
+        "id_ref": "nomen_bildschirm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

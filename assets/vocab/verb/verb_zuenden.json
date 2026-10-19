@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "verb_zuenden",
+  "wort": "zünden",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "آتش زدن، روشن کردن",
+      "منفجر کردن"
+    ],
+    "en": [
+      "to ignite",
+      "to detonate"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Sicherheit"
+  ],
+  "ipa": "ˈt͡sʏndn̩",
+  "anmerkung": "Umgangssprachlich auch: eine Idee zündet (= kommt gut an).",
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Motor zündet nicht.",
+      "uebersetzung": {
+        "fa": "موتور روشن نمی‌شود.",
+        "en": "The engine won’t start."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Um Mitternacht wurde das Feuerwerk gezündet, und alle Gäste schauten zum Himmel.",
+      "uebersetzung": {
+        "fa": "نیمه‌شب آتش‌بازی روشن شد و همه‌ی مهمانان به آسمان نگاه کردند.",
+        "en": "At midnight the fireworks were set off and all the guests looked up at the sky."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "anzünden",
+      "uebersetzung": {
+        "fa": "روشن کردن",
+        "en": "to light"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن zunten (آتش زدن)",
+    "en": "from Old High German zunten (to kindle)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zünden",
+      "praeteritum": "zündete",
+      "partizip2": "gezündet"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zünde",
+        "du": "zündest",
+        "er_sie_es": "zündet",
+        "wir": "zünden",
+        "ihr": "zündet",
+        "sie_Sie": "zünden"
+      },
+      "praeteritum": {
+        "ich": "zündete",
+        "du": "zündetest",
+        "er_sie_es": "zündete",
+        "wir": "zündeten",
+        "ihr": "zündetet",
+        "sie_Sie": "zündeten"
+      },
+      "konjunktiv1": {
+        "ich": "zünde",
+        "du": "zündest",
+        "er_sie_es": "zünde",
+        "wir": "zünden",
+        "ihr": "zündet",
+        "sie_Sie": "zünden"
+      },
+      "konjunktiv2": {
+        "ich": "zündete",
+        "du": "zündetest",
+        "er_sie_es": "zündete",
+        "wir": "zündeten",
+        "ihr": "zündetet",
+        "sie_Sie": "zündeten"
+      },
+      "imperativ": {
+        "du": "Zünde!",
+        "ihr": "Zündet!",
+        "Sie": "Zünden Sie!"
+      }
+    },
+    "partizip1": "zündend",
+    "nominalisierung": "die Zündung"
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Feuer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش",
+          "en": "fire"
+        },
+        "id_ref": "nomen_feuer"
+      },
+      {
+        "wort": "anzünden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روشن کردن",
+          "en": "to light"
+        },
+        "id_ref": "verb_anzuenden"
+      },
+      {
+        "wort": "der Motor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موتور",
+          "en": "engine"
+        },
+        "id_ref": "nomen_motor"
+      },
+      {
+        "wort": "die Kerze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شمع",
+          "en": "candle"
+        },
+        "id_ref": "nomen_kerze"
+      },
+      {
+        "wort": "explodieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "منفجر شدن",
+          "en": "to explode"
+        },
+        "id_ref": "verb_explodieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

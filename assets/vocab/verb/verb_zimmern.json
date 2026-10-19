@@ -1,0 +1,172 @@
+{
+  "schema": "3.0",
+  "id": "verb_zimmern",
+  "wort": "zimmern",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نجاری کردن، با چوب ساختن"
+    ],
+    "en": [
+      "to carpenter",
+      "to build (from wood)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Handwerk",
+    "Bau"
+  ],
+  "ipa": "ˈt͡sɪmɐn",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er zimmert einen Tisch.",
+      "uebersetzung": {
+        "fa": "یک میز با چوب می‌سازد.",
+        "en": "He is making a table out of wood."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Kinder hat der Großvater im Garten ein kleines Baumhaus gezimmert.",
+      "uebersetzung": {
+        "fa": "پدربزرگ برای بچه‌ها در باغ یک خانه‌ی درختی کوچک ساخت.",
+        "en": "The grandfather built a little tree house in the garden for the children."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bauen",
+      "uebersetzung": {
+        "fa": "ساختن",
+        "en": "to build"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از das Zimmer (در اصل: چوب ساختمانی)",
+    "en": "from das Zimmer (originally: timber)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "zimmern",
+      "praeteritum": "zimmerte",
+      "partizip2": "gezimmert"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zimmere",
+        "du": "zimmerst",
+        "er_sie_es": "zimmert",
+        "wir": "zimmern",
+        "ihr": "zimmert",
+        "sie_Sie": "zimmern"
+      },
+      "praeteritum": {
+        "ich": "zimmerte",
+        "du": "zimmertest",
+        "er_sie_es": "zimmerte",
+        "wir": "zimmerten",
+        "ihr": "zimmertet",
+        "sie_Sie": "zimmerten"
+      },
+      "konjunktiv1": {
+        "ich": "zimmere",
+        "du": "zimmerest",
+        "er_sie_es": "zimmere",
+        "wir": "zimmern",
+        "ihr": "zimmeret",
+        "sie_Sie": "zimmern"
+      },
+      "konjunktiv2": {
+        "ich": "zimmerte",
+        "du": "zimmertest",
+        "er_sie_es": "zimmerte",
+        "wir": "zimmerten",
+        "ihr": "zimmertet",
+        "sie_Sie": "zimmerten"
+      },
+      "imperativ": {
+        "du": "Zimmere!",
+        "ihr": "Zimmert!",
+        "Sie": "Zimmern Sie!"
+      }
+    },
+    "partizip1": "zimmernd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Holz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چوب",
+          "en": "wood"
+        },
+        "id_ref": "nomen_holz"
+      },
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      },
+      {
+        "wort": "der Zimmermann",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نجار سازه",
+          "en": "carpenter"
+        },
+        "id_ref": "nomen_zimmermann"
+      },
+      {
+        "wort": "der Hammer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چکش",
+          "en": "hammer"
+        },
+        "id_ref": "nomen_hammer"
+      },
+      {
+        "wort": "der Nagel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میخ",
+          "en": "nail"
+        },
+        "id_ref": "nomen_nagel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

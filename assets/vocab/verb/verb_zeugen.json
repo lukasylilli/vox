@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_zeugen",
+  "wort": "zeugen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "نشانه‌ی چیزی بودن",
+      "گواهی دادن",
+      "پدر شدن، بچه‌دار شدن"
+    ],
+    "en": [
+      "to testify to",
+      "to bear witness",
+      "to father"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Familie"
+  ],
+  "ipa": "ˈt͡sɔɪ̯ɡn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat drei Kinder gezeugt.",
+      "uebersetzung": {
+        "fa": "او پدر سه فرزند است.",
+        "en": "He has fathered three children."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die vielen Bücher in seinem Zimmer zeugen von seinem großen Interesse an Geschichte.",
+      "uebersetzung": {
+        "fa": "کتاب‌های فراوان اتاقش نشانه‌ی علاقه‌ی زیادش به تاریخ است.",
+        "en": "The many books in his room testify to his great interest in history."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "beweisen",
+      "uebersetzung": {
+        "fa": "ثابت کردن",
+        "en": "to prove"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Zeuge (شاهد)؛ در معنای دوم از آلمانی کهن ziugōn (پدید آوردن)",
+    "en": "from der Zeuge (witness); second sense from Old High German ziugōn (to produce)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zeugen von + Dat",
+        "bedeutung": "etwas erkennen lassen, ein Zeichen für etwas sein",
+        "beispiel": "Seine Antwort zeugt von großer Erfahrung.",
+        "uebersetzung": {
+          "fa": "پاسخش نشانه‌ی تجربه‌ی زیاد است.",
+          "en": "His answer shows great experience."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zeugen",
+      "praeteritum": "zeugte",
+      "partizip2": "gezeugt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zeuge",
+        "du": "zeugst",
+        "er_sie_es": "zeugt",
+        "wir": "zeugen",
+        "ihr": "zeugt",
+        "sie_Sie": "zeugen"
+      },
+      "praeteritum": {
+        "ich": "zeugte",
+        "du": "zeugtest",
+        "er_sie_es": "zeugte",
+        "wir": "zeugten",
+        "ihr": "zeugtet",
+        "sie_Sie": "zeugten"
+      },
+      "konjunktiv1": {
+        "ich": "zeuge",
+        "du": "zeugest",
+        "er_sie_es": "zeuge",
+        "wir": "zeugen",
+        "ihr": "zeuget",
+        "sie_Sie": "zeugen"
+      },
+      "konjunktiv2": {
+        "ich": "zeugte",
+        "du": "zeugtest",
+        "er_sie_es": "zeugte",
+        "wir": "zeugten",
+        "ihr": "zeugtet",
+        "sie_Sie": "zeugten"
+      },
+      "imperativ": {
+        "du": "Zeuge!",
+        "ihr": "Zeugt!",
+        "Sie": "Zeugen Sie!"
+      }
+    },
+    "partizip1": "zeugend",
+    "nominalisierung": "die Zeugung"
+  },
+  "wortnetz": {
+    "grundwort": "Zeuge",
+    "woerter": [
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "das Zeugnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارنامه، گواهی",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_zeugnis"
+      },
+      {
+        "wort": "beweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثابت کردن",
+          "en": "to prove"
+        },
+        "id_ref": "verb_beweisen"
+      },
+      {
+        "wort": "der Vater",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پدر",
+          "en": "father"
+        },
+        "id_ref": "nomen_vater"
+      },
+      {
+        "wort": "das Zeichen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "sign"
+        },
+        "id_ref": "nomen_zeichen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

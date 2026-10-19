@@ -1,0 +1,194 @@
+{
+  "schema": "3.0",
+  "id": "verb_zweifeln",
+  "wort": "zweifeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شک داشتن",
+      "تردید داشتن"
+    ],
+    "en": [
+      "to doubt"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Denken"
+  ],
+  "ipa": "ˈt͡svaɪ̯fl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich zweifle daran.",
+      "uebersetzung": {
+        "fa": "در این شک دارم.",
+        "en": "I doubt it."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Niemand zweifelt daran, dass sie die beste Kandidatin für die Stelle ist.",
+      "uebersetzung": {
+        "fa": "هیچ‌کس شک ندارد که او بهترین نامزد برای این شغل است.",
+        "en": "Nobody doubts that she is the best candidate for the job."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezweifeln",
+      "uebersetzung": {
+        "fa": "تردید داشتن",
+        "en": "to doubt"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "glauben",
+      "uebersetzung": {
+        "fa": "باور داشتن",
+        "en": "to believe"
+      }
+    },
+    {
+      "wort": "vertrauen",
+      "uebersetzung": {
+        "fa": "اعتماد کردن",
+        "en": "to trust"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Zweifel (شک)",
+    "en": "from der Zweifel (doubt)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zweifeln an + Dat",
+        "bedeutung": "unsicher sein, ob etwas stimmt",
+        "beispiel": "Er zweifelt an seiner Entscheidung.",
+        "uebersetzung": {
+          "fa": "در تصمیمش تردید دارد.",
+          "en": "He doubts his decision."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zweifeln",
+      "praeteritum": "zweifelte",
+      "partizip2": "gezweifelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zweifle",
+        "du": "zweifelst",
+        "er_sie_es": "zweifelt",
+        "wir": "zweifeln",
+        "ihr": "zweifelt",
+        "sie_Sie": "zweifeln"
+      },
+      "praeteritum": {
+        "ich": "zweifelte",
+        "du": "zweifeltest",
+        "er_sie_es": "zweifelte",
+        "wir": "zweifelten",
+        "ihr": "zweifeltet",
+        "sie_Sie": "zweifelten"
+      },
+      "konjunktiv1": {
+        "ich": "zweifle",
+        "du": "zweiflest",
+        "er_sie_es": "zweifle",
+        "wir": "zweifeln",
+        "ihr": "zweiflet",
+        "sie_Sie": "zweifeln"
+      },
+      "konjunktiv2": {
+        "ich": "zweifelte",
+        "du": "zweifeltest",
+        "er_sie_es": "zweifelte",
+        "wir": "zweifelten",
+        "ihr": "zweifeltet",
+        "sie_Sie": "zweifelten"
+      },
+      "imperativ": {
+        "du": "Zweifle!",
+        "ihr": "Zweifelt!",
+        "Sie": "Zweifeln Sie!"
+      }
+    },
+    "partizip1": "zweifelnd",
+    "nominalisierung": "der Zweifel"
+  },
+  "wortnetz": {
+    "grundwort": "Zweifel",
+    "woerter": [
+      {
+        "wort": "der Zweifel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شک",
+          "en": "doubt"
+        },
+        "id_ref": "nomen_zweifel"
+      },
+      {
+        "wort": "sicher",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مطمئن",
+          "en": "sure"
+        },
+        "id_ref": "adjektiv_sicher"
+      },
+      {
+        "wort": "glauben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "باور داشتن",
+          "en": "to believe"
+        },
+        "id_ref": "verb_glauben"
+      },
+      {
+        "wort": "bezweifeln",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تردید داشتن",
+          "en": "to doubt"
+        },
+        "id_ref": "verb_bezweifeln"
+      },
+      {
+        "wort": "unsicher",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامطمئن",
+          "en": "uncertain"
+        },
+        "id_ref": "adjektiv_unsicher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

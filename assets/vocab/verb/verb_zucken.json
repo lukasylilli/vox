@@ -1,0 +1,175 @@
+{
+  "schema": "3.0",
+  "id": "verb_zucken",
+  "wort": "zucken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "تکان خوردن ناگهانی",
+      "پریدن (عضله)"
+    ],
+    "en": [
+      "to twitch",
+      "to flinch"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Körper",
+    "Bewegung"
+  ],
+  "ipa": "ˈt͡sʊkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Auge zuckt.",
+      "uebersetzung": {
+        "fa": "پلکم می‌پرد.",
+        "en": "My eye is twitching."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als der Arzt die Spritze ansetzte, zuckte das Kind kurz zusammen.",
+      "uebersetzung": {
+        "fa": "وقتی پزشک سرنگ را گذاشت، کودک کمی تکان خورد.",
+        "en": "When the doctor applied the syringe, the child flinched briefly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن zucchen (تند کشیدن)",
+    "en": "from Old High German zucchen (to jerk)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zucken mit + Dat",
+        "bedeutung": "einen Körperteil kurz bewegen",
+        "beispiel": "Er zuckte nur mit den Schultern.",
+        "uebersetzung": {
+          "fa": "فقط شانه بالا انداخت.",
+          "en": "He just shrugged his shoulders."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zucken",
+      "praeteritum": "zuckte",
+      "partizip2": "gezuckt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zucke",
+        "du": "zuckst",
+        "er_sie_es": "zuckt",
+        "wir": "zucken",
+        "ihr": "zuckt",
+        "sie_Sie": "zucken"
+      },
+      "praeteritum": {
+        "ich": "zuckte",
+        "du": "zucktest",
+        "er_sie_es": "zuckte",
+        "wir": "zuckten",
+        "ihr": "zucktet",
+        "sie_Sie": "zuckten"
+      },
+      "konjunktiv1": {
+        "ich": "zucke",
+        "du": "zuckest",
+        "er_sie_es": "zucke",
+        "wir": "zucken",
+        "ihr": "zucket",
+        "sie_Sie": "zucken"
+      },
+      "konjunktiv2": {
+        "ich": "zuckte",
+        "du": "zucktest",
+        "er_sie_es": "zuckte",
+        "wir": "zuckten",
+        "ihr": "zucktet",
+        "sie_Sie": "zuckten"
+      },
+      "imperativ": {
+        "du": "Zucke!",
+        "ihr": "Zuckt!",
+        "Sie": "Zucken Sie!"
+      }
+    },
+    "partizip1": "zuckend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Muskel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عضله",
+          "en": "muscle"
+        },
+        "id_ref": "nomen_muskel"
+      },
+      {
+        "wort": "bewegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حرکت دادن",
+          "en": "to move"
+        },
+        "id_ref": "verb_bewegen"
+      },
+      {
+        "wort": "der Blitz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آذرخش",
+          "en": "lightning"
+        },
+        "id_ref": "nomen_blitz"
+      },
+      {
+        "wort": "die Schulter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شانه",
+          "en": "shoulder"
+        },
+        "id_ref": "nomen_schulter"
+      },
+      {
+        "wort": "erschrecken",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترسیدن",
+          "en": "to be startled"
+        },
+        "id_ref": "verb_erschrecken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

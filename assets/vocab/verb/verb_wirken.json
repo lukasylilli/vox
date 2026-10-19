@@ -1,0 +1,192 @@
+{
+  "schema": "3.0",
+  "id": "verb_wirken",
+  "wort": "wirken",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "اثر داشتن",
+      "به نظر رسیدن",
+      "فعالیت کردن"
+    ],
+    "en": [
+      "to have an effect",
+      "to seem",
+      "to work"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Eindruck"
+  ],
+  "ipa": "ˈvɪʁkn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Tablette wirkt schnell.",
+      "uebersetzung": {
+        "fa": "قرص زود اثر می‌کند.",
+        "en": "The tablet works quickly."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er wirkte sehr müde, obwohl er behauptete, gut geschlafen zu haben.",
+      "uebersetzung": {
+        "fa": "خیلی خسته به نظر می‌رسید، با این‌که می‌گفت خوب خوابیده است.",
+        "en": "He seemed very tired although he claimed to have slept well."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "helfen",
+      "uebersetzung": {
+        "fa": "کمک کردن",
+        "en": "to help"
+      }
+    },
+    {
+      "wort": "scheinen",
+      "uebersetzung": {
+        "fa": "به نظر رسیدن",
+        "en": "to seem"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن wirken (کار کردن، ساختن)",
+    "en": "from Old High German wirken (to work, to make)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "wirken auf + Akk",
+        "bedeutung": "einen Eindruck/Einfluss auf jemanden haben",
+        "beispiel": "Die Musik wirkt beruhigend auf die Patienten.",
+        "uebersetzung": {
+          "fa": "موسیقی بر بیماران اثر آرام‌بخش دارد.",
+          "en": "The music has a calming effect on the patients."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "wirken",
+      "praeteritum": "wirkte",
+      "partizip2": "gewirkt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wirke",
+        "du": "wirkst",
+        "er_sie_es": "wirkt",
+        "wir": "wirken",
+        "ihr": "wirkt",
+        "sie_Sie": "wirken"
+      },
+      "praeteritum": {
+        "ich": "wirkte",
+        "du": "wirktest",
+        "er_sie_es": "wirkte",
+        "wir": "wirkten",
+        "ihr": "wirktet",
+        "sie_Sie": "wirkten"
+      },
+      "konjunktiv1": {
+        "ich": "wirke",
+        "du": "wirkest",
+        "er_sie_es": "wirke",
+        "wir": "wirken",
+        "ihr": "wirket",
+        "sie_Sie": "wirken"
+      },
+      "konjunktiv2": {
+        "ich": "wirkte",
+        "du": "wirktest",
+        "er_sie_es": "wirkte",
+        "wir": "wirkten",
+        "ihr": "wirktet",
+        "sie_Sie": "wirkten"
+      },
+      "imperativ": {
+        "du": "Wirke!",
+        "ihr": "Wirkt!",
+        "Sie": "Wirken Sie!"
+      }
+    },
+    "partizip1": "wirkend",
+    "nominalisierung": "die Wirkung"
+  },
+  "wortnetz": {
+    "grundwort": "Wirkung",
+    "woerter": [
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر",
+          "en": "effect"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "wirksam",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مؤثر",
+          "en": "effective"
+        },
+        "id_ref": "adjektiv_wirksam"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "scheinen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "به نظر رسیدن",
+          "en": "to seem"
+        },
+        "id_ref": "verb_scheinen"
+      },
+      {
+        "wort": "die Nebenwirkung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عارضه‌ی جانبی",
+          "en": "side effect"
+        },
+        "id_ref": "nomen_nebenwirkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

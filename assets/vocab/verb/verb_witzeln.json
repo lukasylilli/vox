@@ -1,0 +1,186 @@
+{
+  "schema": "3.0",
+  "id": "verb_witzeln",
+  "wort": "witzeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "شوخی کردن، متلک گفتن"
+    ],
+    "en": [
+      "to joke",
+      "to quip"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Humor"
+  ],
+  "ipa": "ˈvɪt͡sl̩n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er witzelt gern.",
+      "uebersetzung": {
+        "fa": "او شوخی کردن را دوست دارد.",
+        "en": "He likes to joke."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kollegen witzelten über seine neue Frisur, bis er selbst lachen musste.",
+      "uebersetzung": {
+        "fa": "همکاران درباره‌ی مدل موی جدیدش شوخی کردند تا خودش هم خنده‌اش گرفت.",
+        "en": "The colleagues joked about his new haircut until he had to laugh himself."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "scherzen",
+      "uebersetzung": {
+        "fa": "شوخی کردن",
+        "en": "to jest"
+      }
+    },
+    {
+      "wort": "spotten",
+      "uebersetzung": {
+        "fa": "مسخره کردن",
+        "en": "to mock"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Witz (شوخی، لطیفه)",
+    "en": "from der Witz (joke)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "witzeln über + Akk",
+        "bedeutung": "sich über etwas lustig machen",
+        "beispiel": "Sie witzeln über das schlechte Wetter.",
+        "uebersetzung": {
+          "fa": "درباره‌ی هوای بد شوخی می‌کنند.",
+          "en": "They are joking about the bad weather."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "witzeln",
+      "praeteritum": "witzelte",
+      "partizip2": "gewitzelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "witzle",
+        "du": "witzelst",
+        "er_sie_es": "witzelt",
+        "wir": "witzeln",
+        "ihr": "witzelt",
+        "sie_Sie": "witzeln"
+      },
+      "praeteritum": {
+        "ich": "witzelte",
+        "du": "witzeltest",
+        "er_sie_es": "witzelte",
+        "wir": "witzelten",
+        "ihr": "witzeltet",
+        "sie_Sie": "witzelten"
+      },
+      "konjunktiv1": {
+        "ich": "witzle",
+        "du": "witzlest",
+        "er_sie_es": "witzle",
+        "wir": "witzeln",
+        "ihr": "witzlet",
+        "sie_Sie": "witzeln"
+      },
+      "konjunktiv2": {
+        "ich": "witzelte",
+        "du": "witzeltest",
+        "er_sie_es": "witzelte",
+        "wir": "witzelten",
+        "ihr": "witzeltet",
+        "sie_Sie": "witzelten"
+      },
+      "imperativ": {
+        "du": "Witzle!",
+        "ihr": "Witzelt!",
+        "Sie": "Witzeln Sie!"
+      }
+    },
+    "partizip1": "witzelnd",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": "Witz",
+    "woerter": [
+      {
+        "wort": "der Witz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "لطیفه",
+          "en": "joke"
+        },
+        "id_ref": "nomen_witz"
+      },
+      {
+        "wort": "lustig",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بامزه",
+          "en": "funny"
+        },
+        "id_ref": "adjektiv_lustig"
+      },
+      {
+        "wort": "lachen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خندیدن",
+          "en": "to laugh"
+        },
+        "id_ref": "verb_lachen"
+      },
+      {
+        "wort": "scherzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شوخی کردن",
+          "en": "to jest"
+        },
+        "id_ref": "verb_scherzen"
+      },
+      {
+        "wort": "der Humor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شوخ‌طبعی",
+          "en": "humour"
+        },
+        "id_ref": "nomen_humor"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

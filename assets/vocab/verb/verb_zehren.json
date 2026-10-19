@@ -1,0 +1,184 @@
+{
+  "schema": "3.0",
+  "id": "verb_zehren",
+  "wort": "zehren",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "ارتزاق کردن (از چیزی)",
+      "فرسوده کردن، توان را گرفتن"
+    ],
+    "en": [
+      "to live off",
+      "to wear down"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Leben"
+  ],
+  "ipa": "ˈt͡seːʁən",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Krankheit zehrt an ihm.",
+      "uebersetzung": {
+        "fa": "بیماری توانش را می‌گیرد.",
+        "en": "The illness is wearing him down."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Noch Jahre später zehrte sie von den schönen Erinnerungen an diese Reise.",
+      "uebersetzung": {
+        "fa": "سال‌ها بعد هنوز از خاطرات زیبای آن سفر انرژی می‌گرفت.",
+        "en": "Years later she was still living off the lovely memories of that trip."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی کهن zeran (مصرف کردن)",
+    "en": "from Old High German zeran (to consume)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zehren von + Dat",
+        "bedeutung": "von etwas leben, etwas aufbrauchen",
+        "beispiel": "Sie zehren von ihren Ersparnissen.",
+        "uebersetzung": {
+          "fa": "از پس‌اندازشان ارتزاق می‌کنند.",
+          "en": "They are living off their savings."
+        }
+      },
+      {
+        "muster": "zehren an + Dat",
+        "bedeutung": "jemanden/etwas schwächen",
+        "beispiel": "Der Stress zehrt an ihren Nerven.",
+        "uebersetzung": {
+          "fa": "استرس اعصابش را فرسوده می‌کند.",
+          "en": "The stress is wearing on her nerves."
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zehren",
+      "praeteritum": "zehrte",
+      "partizip2": "gezehrt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zehre",
+        "du": "zehrst",
+        "er_sie_es": "zehrt",
+        "wir": "zehren",
+        "ihr": "zehrt",
+        "sie_Sie": "zehren"
+      },
+      "praeteritum": {
+        "ich": "zehrte",
+        "du": "zehrtest",
+        "er_sie_es": "zehrte",
+        "wir": "zehrten",
+        "ihr": "zehrtet",
+        "sie_Sie": "zehrten"
+      },
+      "konjunktiv1": {
+        "ich": "zehre",
+        "du": "zehrest",
+        "er_sie_es": "zehre",
+        "wir": "zehren",
+        "ihr": "zehret",
+        "sie_Sie": "zehren"
+      },
+      "konjunktiv2": {
+        "ich": "zehrte",
+        "du": "zehrtest",
+        "er_sie_es": "zehrte",
+        "wir": "zehrten",
+        "ihr": "zehrtet",
+        "sie_Sie": "zehrten"
+      },
+      "imperativ": {
+        "du": "Zehre!",
+        "ihr": "Zehrt!",
+        "Sie": "Zehren Sie!"
+      }
+    },
+    "partizip1": "zehrend",
+    "nominalisierung": null
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "leben",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن",
+          "en": "to live"
+        },
+        "id_ref": "verb_leben"
+      },
+      {
+        "wort": "die Kraft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نیرو",
+          "en": "strength"
+        },
+        "id_ref": "nomen_kraft"
+      },
+      {
+        "wort": "verbrauchen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصرف کردن",
+          "en": "to use up"
+        },
+        "id_ref": "verb_verbrauchen"
+      },
+      {
+        "wort": "die Erinnerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خاطره",
+          "en": "memory"
+        },
+        "id_ref": "nomen_erinnerung"
+      },
+      {
+        "wort": "schwächen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ضعیف کردن",
+          "en": "to weaken"
+        },
+        "id_ref": "verb_schwaechen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "verb_wirbeln",
+  "wort": "wirbeln",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "چرخاندن، به هوا بلند کردن",
+      "چرخیدن"
+    ],
+    "en": [
+      "to whirl",
+      "to swirl"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Bewegung",
+    "Wetter"
+  ],
+  "ipa": "ˈvɪʁbl̩n",
+  "anmerkung": "Mit Richtungsangabe mit «sein» (der Schnee ist durch die Luft gewirbelt).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wind wirbelt die Blätter.",
+      "uebersetzung": {
+        "fa": "باد برگ‌ها را می‌چرخاند.",
+        "en": "The wind whirls the leaves."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Tanzen wirbelte er seine Partnerin so schnell herum, dass ihr schwindlig wurde.",
+      "uebersetzung": {
+        "fa": "هنگام رقص شریکش را آن‌قدر تند چرخاند که سرش گیج رفت.",
+        "en": "While dancing he whirled his partner around so fast that she became dizzy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "drehen",
+      "uebersetzung": {
+        "fa": "چرخاندن",
+        "en": "to turn"
+      }
+    },
+    {
+      "wort": "kreisen",
+      "uebersetzung": {
+        "fa": "چرخیدن",
+        "en": "to circle"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از der Wirbel (گرداب، چرخش)",
+    "en": "from der Wirbel (whirl)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [],
+    "stammformen": {
+      "infinitiv": "wirbeln",
+      "praeteritum": "wirbelte",
+      "partizip2": "gewirbelt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "wirble",
+        "du": "wirbelst",
+        "er_sie_es": "wirbelt",
+        "wir": "wirbeln",
+        "ihr": "wirbelt",
+        "sie_Sie": "wirbeln"
+      },
+      "praeteritum": {
+        "ich": "wirbelte",
+        "du": "wirbeltest",
+        "er_sie_es": "wirbelte",
+        "wir": "wirbelten",
+        "ihr": "wirbeltet",
+        "sie_Sie": "wirbelten"
+      },
+      "konjunktiv1": {
+        "ich": "wirble",
+        "du": "wirblest",
+        "er_sie_es": "wirble",
+        "wir": "wirbeln",
+        "ihr": "wirblet",
+        "sie_Sie": "wirbeln"
+      },
+      "konjunktiv2": {
+        "ich": "wirbelte",
+        "du": "wirbeltest",
+        "er_sie_es": "wirbelte",
+        "wir": "wirbelten",
+        "ihr": "wirbeltet",
+        "sie_Sie": "wirbelten"
+      },
+      "imperativ": {
+        "du": "Wirble!",
+        "ihr": "Wirbelt!",
+        "Sie": "Wirbeln Sie!"
+      }
+    },
+    "partizip1": "wirbelnd",
+    "nominalisierung": "der Wirbel"
+  },
+  "wortnetz": {
+    "grundwort": "Wirbel",
+    "woerter": [
+      {
+        "wort": "drehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چرخاندن",
+          "en": "to turn"
+        },
+        "id_ref": "verb_drehen"
+      },
+      {
+        "wort": "der Wind",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باد",
+          "en": "wind"
+        },
+        "id_ref": "nomen_wind"
+      },
+      {
+        "wort": "der Wirbel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گرداب، مهره‌ی کمر",
+          "en": "whirl, vertebra"
+        },
+        "id_ref": "nomen_wirbel"
+      },
+      {
+        "wort": "der Sturm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طوفان",
+          "en": "storm"
+        },
+        "id_ref": "nomen_sturm"
+      },
+      {
+        "wort": "tanzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رقصیدن",
+          "en": "to dance"
+        },
+        "id_ref": "verb_tanzen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,183 @@
+{
+  "schema": "3.0",
+  "id": "verb_zahlen",
+  "wort": "zahlen",
+  "wortart": "verb",
+  "uebersetzung": {
+    "fa": [
+      "پرداختن",
+      "حساب کردن"
+    ],
+    "en": [
+      "to pay"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Einkaufen",
+    "Finanzen"
+  ],
+  "ipa": "ˈt͡saːlən",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich möchte zahlen, bitte.",
+      "uebersetzung": {
+        "fa": "لطفاً می‌خواهم حساب کنم.",
+        "en": "I’d like to pay, please."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Kann ich hier mit Karte zahlen, oder nehmen Sie nur Bargeld?",
+      "uebersetzung": {
+        "fa": "می‌توانم این‌جا با کارت پرداخت کنم یا فقط پول نقد می‌گیرید؟",
+        "en": "Can I pay by card here, or do you only take cash?"
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "bezahlen",
+      "uebersetzung": {
+        "fa": "پرداختن",
+        "en": "to pay"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از die Zahl (عدد)",
+    "en": "from die Zahl (number)"
+  },
+  "details": {
+    "trennbar": false,
+    "regelmaessig": true,
+    "modalverb": false,
+    "hilfsverb": "haben",
+    "reflexiv": "nein",
+    "rektion": [
+      {
+        "muster": "zahlen für + Akk",
+        "bedeutung": "Geld für etwas geben",
+        "beispiel": "Wie viel hast du für das Ticket gezahlt?",
+        "uebersetzung": {
+          "fa": "برای بلیت چقدر پرداختی؟",
+          "en": "How much did you pay for the ticket?"
+        }
+      }
+    ],
+    "stammformen": {
+      "infinitiv": "zahlen",
+      "praeteritum": "zahlte",
+      "partizip2": "gezahlt"
+    },
+    "konjugation": {
+      "praesens": {
+        "ich": "zahle",
+        "du": "zahlst",
+        "er_sie_es": "zahlt",
+        "wir": "zahlen",
+        "ihr": "zahlt",
+        "sie_Sie": "zahlen"
+      },
+      "praeteritum": {
+        "ich": "zahlte",
+        "du": "zahltest",
+        "er_sie_es": "zahlte",
+        "wir": "zahlten",
+        "ihr": "zahltet",
+        "sie_Sie": "zahlten"
+      },
+      "konjunktiv1": {
+        "ich": "zahle",
+        "du": "zahlest",
+        "er_sie_es": "zahle",
+        "wir": "zahlen",
+        "ihr": "zahlet",
+        "sie_Sie": "zahlen"
+      },
+      "konjunktiv2": {
+        "ich": "zahlte",
+        "du": "zahltest",
+        "er_sie_es": "zahlte",
+        "wir": "zahlten",
+        "ihr": "zahltet",
+        "sie_Sie": "zahlten"
+      },
+      "imperativ": {
+        "du": "Zahle!",
+        "ihr": "Zahlt!",
+        "Sie": "Zahlen Sie!"
+      }
+    },
+    "partizip1": "zahlend",
+    "nominalisierung": "die Zahlung"
+  },
+  "wortnetz": {
+    "grundwort": "Zahl",
+    "woerter": [
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "die Kasse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صندوق",
+          "en": "till"
+        },
+        "id_ref": "nomen_kasse"
+      },
+      {
+        "wort": "bar",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نقد",
+          "en": "cash"
+        },
+        "id_ref": "adjektiv_bar"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
