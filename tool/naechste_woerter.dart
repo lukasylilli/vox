@@ -2321,6 +2321,39 @@ const zurueckgestellt = <String>{
   'Auftakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn / Musik: Auftakt) — nach den Nomen 2026-10-19
   'Audit', // zurückgestellt: Genus schwankt (das/der Audit) — nicht sicher (Regel 14) 2026-10-19
   'Aufheben', // zurückgestellt: nur in Wendungen («viel Aufheben(s) machen») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-19
+  'Auftrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bestellung / Aufgabe, Mission / Auftragen von Farbe) — nach den Nomen 2026-10-19
+  'Auftreten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Benehmen, Erscheinung / Vorkommen (Symptome)) — nach den Nomen 2026-10-19
+  'Auftrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: physikalischer Auftrieb / Schwung, Impuls / Almauftrieb) — nach den Nomen 2026-10-19
+  'Auftritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenauftritt / Erscheinen, Benehmen / Internetauftritt) — nach den Nomen 2026-10-19
+  'Aufweichung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weichwerden / Lockerung von Regeln) — nach den Nomen 2026-10-19
+  'Aufwertung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wertsteigerung, Aufwertung eines Viertels / Währungsaufwertung) — nach den Nomen 2026-10-19
+  'Aufwind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: aufsteigende Luft / positiver Trend (übertragen)) — nach den Nomen 2026-10-19
+  'Aufzeichnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ton-/Videoaufzeichnung / Notizen (Plural)) — nach den Nomen 2026-10-19
+  'Aufzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lift / Akt im Theater / Aufmachung (abwertend) / Umzug) — nach den Nomen 2026-10-19
+  'Auge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sehorgan / Punkt auf dem Würfel / Knospe) — nach den Nomen 2026-10-19
+  'Augenschein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anschein («dem Augenschein nach») / Besichtigung («in Augenschein nehmen»)) — nach den Nomen 2026-10-19
+  'Aura', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstrahlung / Medizin: Aura vor einem Anfall) — nach den Nomen 2026-10-19
+  'Aus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Aus (Spielfeld) / Ende («das Aus für ...»)) — nach den Nomen 2026-10-19
+  'Ausarbeitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Ausarbeiten / schriftliche Arbeit) — nach den Nomen 2026-10-19
+  'Ausbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erweiterung / Herausnehmen eines Teils) — nach den Nomen 2026-10-19
+  'Ausbeutung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausnutzung von Menschen / Abbau von Bodenschätzen) — nach den Nomen 2026-10-19
+  'Ausblick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussicht (Landschaft) / Prognose, Zukunftsaussicht) — nach den Nomen 2026-10-19
+  'Ausbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankheits-/Kriegsausbruch / Vulkanausbruch / Flucht aus dem Gefängnis / Gefühlsausbruch) — nach den Nomen 2026-10-19
+  'Ausdehnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erweiterung / Größe, Umfang) — nach den Nomen 2026-10-19
+  'Auseinandersetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Streit / gründliche Beschäftigung mit einem Thema) — nach den Nomen 2026-10-19
+  'Ausfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autobahnausfahrt / Hofausfahrt / Spazierfahrt) — nach den Nomen 2026-10-19
+  'Ausfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausfallen (Strom, Unterricht) / Verlust / Fechten: Ausfall) — nach den Nomen 2026-10-19
+  'Ausgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldausgabe / Buch-, Zeitungsausgabe / Ausgabestelle / Datenausgabe) — nach den Nomen 2026-10-19
+  'Ausgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tür zum Hinausgehen / Ergebnis, Ende / Freizeit (Ausgang haben)) — nach den Nomen 2026-10-19
+  'Ausgleich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausgleich, Balance / Entschädigung / Sport: Ausgleichstor) — nach den Nomen 2026-10-19
+  'Aushilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vorübergehende Hilfe / Aushilfskraft (Person)) — nach den Nomen 2026-10-19
+  'Auskommen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ausreichender Lebensunterhalt / «mit jemandem ist kein Auskommen») — nach den Nomen 2026-10-19
+  'Auskunft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Information / Auskunftsschalter, Telefonauskunft) — nach den Nomen 2026-10-19
+  'Auslage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaufensterauslage / Kosten, Spesen (Plural)) — nach den Nomen 2026-10-19
+  'Auslauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewegungsfreiheit (Tiere) / Abfluss, Mündung / Sport: Auslaufzone) — nach den Nomen 2026-10-19
+  'Auslegung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Interpretation / technische Dimensionierung) — nach den Nomen 2026-10-19
+  'Ausleihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Ausleihen / Ausleihschalter in der Bibliothek) — nach den Nomen 2026-10-19
+  'Aufwartung', // zurückgestellt: gehoben/veraltend, nur in «seine Aufwartung machen» — nicht sicher (Regel 14/17) 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
