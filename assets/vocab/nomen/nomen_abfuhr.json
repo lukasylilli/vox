@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "nomen_abfuhr",
+  "wort": "die Abfuhr",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "جمع‌آوری و بردن (زباله)",
+      "جواب رد"
+    ],
+    "en": [
+      "collection",
+      "removal",
+      "rebuff",
+      "rejection"
+    ]
+  },
+  "bedeutungen": [
+    {
+      "fa": [
+        "جمع‌آوری و بردن (زباله)"
+      ],
+      "en": [
+        "collection",
+        "removal"
+      ]
+    },
+    {
+      "fa": [
+        "جواب رد"
+      ],
+      "en": [
+        "rebuff",
+        "rejection"
+      ]
+    }
+  ],
+  "niveau": "C1",
+  "themen": [
+    "Haushalt",
+    "Kommunikation"
+  ],
+  "ipa": "ˈapfuːɐ̯",
+  "anmerkung": null,
+  "berufe": [
+    "reinigung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Abfuhr kommt am Montag.",
+      "uebersetzung": {
+        "fa": "ماشین جمع‌آوری زباله دوشنبه می‌آید.",
+        "en": "Collection is on Monday."
+      },
+      "bedeutung": 1
+    },
+    {
+      "niveau": "B2",
+      "satz": "Als er sie zum Essen einladen wollte, erteilte sie ihm eine klare Abfuhr.",
+      "uebersetzung": {
+        "fa": "وقتی خواست او را به شام دعوت کند، او قاطعانه جواب رد داد.",
+        "en": "When he wanted to invite her to dinner, she gave him a clear rebuff."
+      },
+      "bedeutung": 2
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Müllabfuhr",
+      "uebersetzung": {
+        "fa": "جمع‌آوری زباله",
+        "en": "refuse collection"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از abführen (بردن)",
+    "en": "from abführen (to take away)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Abfuhren",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "jemandem eine Abfuhr erteilen",
+        "beispiel": "Der Chef erteilte dem Vorschlag eine Abfuhr.",
+        "uebersetzung": {
+          "fa": "رئیس پیشنهاد را رد کرد.",
+          "en": "The boss rejected the proposal."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "führen",
+    "woerter": [
+      {
+        "wort": "der Müll",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "زباله",
+          "en": "rubbish"
+        },
+        "id_ref": "nomen_muell"
+      },
+      {
+        "wort": "ablehnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رد کردن",
+          "en": "to reject"
+        },
+        "id_ref": "verb_ablehnen"
+      },
+      {
+        "wort": "die Absage",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جواب منفی",
+          "en": "refusal"
+        },
+        "id_ref": "nomen_absage"
+      },
+      {
+        "wort": "abholen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن، تحویل گرفتن",
+          "en": "to collect"
+        },
+        "id_ref": "verb_abholen"
+      },
+      {
+        "wort": "führen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بردن، هدایت کردن",
+          "en": "to lead"
+        },
+        "id_ref": "verb_fuehren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

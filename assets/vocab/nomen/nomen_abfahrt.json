@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "nomen_abfahrt",
+  "wort": "die Abfahrt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حرکت (وسیله‌ی نقلیه)",
+      "سراشیبی اسکی، مسابقه‌ی سرعت"
+    ],
+    "en": [
+      "departure",
+      "downhill run",
+      "downhill race"
+    ]
+  },
+  "bedeutungen": [
+    {
+      "fa": [
+        "حرکت (وسیله‌ی نقلیه)"
+      ],
+      "en": [
+        "departure"
+      ]
+    },
+    {
+      "fa": [
+        "سراشیبی اسکی، مسابقه‌ی سرعت"
+      ],
+      "en": [
+        "downhill run",
+        "downhill race"
+      ]
+    }
+  ],
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen",
+    "Sport"
+  ],
+  "ipa": "ˈapfaːɐ̯t",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Abfahrt ist um acht Uhr.",
+      "uebersetzung": {
+        "fa": "حرکت ساعت هشت است.",
+        "en": "Departure is at eight o’clock."
+      },
+      "bedeutung": 1
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Abfahrt war so steil, dass viele Skifahrer lieber mit der Gondel hinunterfuhren.",
+      "uebersetzung": {
+        "fa": "سراشیبی اسکی آن‌قدر تند بود که بسیاری از اسکی‌بازان ترجیح دادند با تله‌کابین پایین بروند.",
+        "en": "The downhill run was so steep that many skiers preferred to go down by gondola."
+      },
+      "bedeutung": 2
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "die Ankunft",
+      "uebersetzung": {
+        "fa": "رسیدن",
+        "en": "arrival"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از abfahren (حرکت کردن)",
+    "en": "from abfahren (to depart)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Abfahrten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "abfahren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حرکت کردن",
+          "en": "to depart"
+        },
+        "id_ref": "verb_abfahren"
+      },
+      {
+        "wort": "die Ankunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیدن",
+          "en": "arrival"
+        },
+        "id_ref": "nomen_ankunft"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "der Fahrplan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جدول حرکت",
+          "en": "timetable"
+        },
+        "id_ref": "nomen_fahrplan"
+      },
+      {
+        "wort": "der Ski",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اسکی",
+          "en": "ski"
+        },
+        "id_ref": "nomen_ski"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

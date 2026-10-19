@@ -2085,6 +2085,8 @@ const zurueckgestellt = <String>{
   'zürnen', // zurückgestellt: veraltend, gehoben — nicht sicher (Regel 14) 2026-10-19
   'zuwenden', // zurückgestellt: gemischtes Verb mit zwei Präteritumformen (wandte/wendete zu) wie «wenden» — nicht sicher (Regel 16) 2026-10-19
   'zwiebeln', // zurückgestellt: umgangssprachlich — nicht sicher (Regel 14) 2026-10-19
+  'Abgeordnete', // zurückgestellt: substantiviertes Adjektiv (der/die Abgeordnete, ein Abgeordneter) — Schema kennt nur deklinationstyp normal/n-deklination ⇒ Entscheidung Lukas 2026-10-19
+  'Abgeordneter', // zurückgestellt: dasselbe Wort (stark gebeugte Form von «Abgeordnete») — Entscheidung Lukas 2026-10-19
 };
 
 /// Wörter, deren Wortart in der Liste nicht stimmt (Duden-Wortart gilt,
