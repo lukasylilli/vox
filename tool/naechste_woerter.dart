@@ -2089,6 +2089,10 @@ const zurueckgestellt = <String>{
   'Ableger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenableger / Zweigfirma) — nach den Nomen 2026-10-19
   'Ableitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache/Mathematik / Wasserableitung) — nach den Nomen 2026-10-19
   'Abnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückgang / Abnahme eines Baus / Kauf) — nach den Nomen 2026-10-19
+  'Abordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abordnen (Versetzung) / Delegation) — nach den Nomen 2026-10-19
+  'Abrechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrechnung (Rechnung) / Vergeltung («Abrechnung mit jdm.»)) — nach den Nomen 2026-10-19
+  'Abruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrufen von Daten / Anforderung von Waren / «auf Abruf» (Bereitschaft)) — nach den Nomen 2026-10-19
+  'Absatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Textabschnitt / Schuhabsatz / Verkauf / Treppenabsatz) — nach den Nomen 2026-10-19
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
