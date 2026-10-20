@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bauunternehmen",
+  "wort": "das Bauunternehmen",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شرکت ساختمانی",
+      "پیمانکاری ساختمانی"
+    ],
+    "en": [
+      "construction company",
+      "building contractor"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Bauen",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈbaʊ̯ʔʊntɐˌneːmən",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Bruder arbeitet bei einem Bauunternehmen.",
+      "uebersetzung": {
+        "fa": "برادرم در یک شرکت ساختمانی کار می‌کند.",
+        "en": "My brother works for a construction company."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Bauunternehmen musste Insolvenz anmelden, weil viele Kunden ihre Rechnungen nicht bezahlt hatten.",
+      "uebersetzung": {
+        "fa": "شرکت ساختمانی مجبور شد اعلام ورشکستگی کند، چون مشتریان زیادی صورت‌حسابشان را نپرداخته بودند.",
+        "en": "The construction company had to file for insolvency because many customers had not paid their bills."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Baufirma",
+      "uebersetzung": {
+        "fa": "شرکت ساختمانی",
+        "en": "construction company"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bau (ساخت) + Unternehmen (شرکت)",
+    "en": "Bau (construction) + Unternehmen (company)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Bauunternehmen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Unternehmen",
+    "woerter": [
+      {
+        "wort": "das Unternehmen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت",
+          "en": "company"
+        },
+        "id_ref": "nomen_unternehmen"
+      },
+      {
+        "wort": "der Bauunternehmer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیمانکار ساختمانی",
+          "en": "building contractor"
+        },
+        "id_ref": "nomen_bauunternehmer"
+      },
+      {
+        "wort": "die Baufirma",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت ساختمانی",
+          "en": "construction company"
+        },
+        "id_ref": "nomen_baufirma"
+      },
+      {
+        "wort": "die Baustelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارگاه ساختمانی",
+          "en": "building site"
+        },
+        "id_ref": "nomen_baustelle"
+      },
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

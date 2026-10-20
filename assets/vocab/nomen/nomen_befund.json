@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "nomen_befund",
+  "wort": "der Befund",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نتیجه‌ی معاینه",
+      "یافته (پزشکی)",
+      "جواب آزمایش"
+    ],
+    "en": [
+      "finding",
+      "result (of an examination)",
+      "medical report"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Wissenschaft"
+  ],
+  "ipa": "bəˈfʊnt",
+  "anmerkung": "Medizin: «ohne Befund» (o. B.) = nichts Krankhaftes gefunden.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt erklärt mir den Befund.",
+      "uebersetzung": {
+        "fa": "پزشک نتیجه‌ی معاینه را برایم توضیح می‌دهد.",
+        "en": "The doctor explains the findings to me."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Befund unklar war, schickte die Ärztin die Probe noch einmal ins Labor.",
+      "uebersetzung": {
+        "fa": "چون نتیجه‌ی آزمایش مبهم بود، پزشک نمونه را دوباره به آزمایشگاه فرستاد.",
+        "en": "Because the result was unclear, the doctor sent the sample to the lab again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Ergebnis",
+      "uebersetzung": {
+        "fa": "نتیجه",
+        "en": "result"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Laborbefund",
+      "uebersetzung": {
+        "fa": "جواب آزمایشگاه",
+        "en": "lab result"
+      }
+    },
+    {
+      "wort": "der Röntgenbefund",
+      "uebersetzung": {
+        "fa": "نتیجه‌ی رادیولوژی",
+        "en": "X-ray findings"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "zu befinden (تشخیص دادن، داوری کردن)",
+    "en": "from befinden (to judge, to find)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Befunde",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "befinden",
+    "woerter": [
+      {
+        "wort": "die Untersuchung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معاینه",
+          "en": "examination"
+        },
+        "id_ref": "nomen_untersuchung"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشخیص",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "laboratory"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

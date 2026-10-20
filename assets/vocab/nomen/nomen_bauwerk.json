@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bauwerk",
+  "wort": "das Bauwerk",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بنا",
+      "سازه",
+      "ساختمان (مهم یا بزرگ)"
+    ],
+    "en": [
+      "building",
+      "structure",
+      "edifice"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Bauen",
+    "Kultur",
+    "Architektur"
+  ],
+  "ipa": "ˈbaʊ̯ˌvɛʁk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Brücke ist ein altes Bauwerk.",
+      "uebersetzung": {
+        "fa": "این پل یک بنای قدیمی است.",
+        "en": "The bridge is an old structure."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kölner Dom ist ein Bauwerk, an dem mehr als 600 Jahre gebaut wurde.",
+      "uebersetzung": {
+        "fa": "کلیسای جامع کلن بنایی است که بیش از ۶۰۰ سال روی آن کار ساخت انجام شد.",
+        "en": "Cologne Cathedral is a building that took more than 600 years to build."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Gebäude",
+      "uebersetzung": {
+        "fa": "ساختمان",
+        "en": "building"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bau (ساخت) + Werk (اثر)",
+    "en": "Bau (construction) + Werk (work)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Bauwerke",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Werk",
+    "woerter": [
+      {
+        "wort": "das Gebäude",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساختمان",
+          "en": "building"
+        },
+        "id_ref": "nomen_gebaeude"
+      },
+      {
+        "wort": "das Werk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر، کار",
+          "en": "work"
+        },
+        "id_ref": "nomen_werk"
+      },
+      {
+        "wort": "das Denkmal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بنای یادبود",
+          "en": "monument"
+        },
+        "id_ref": "nomen_denkmal"
+      },
+      {
+        "wort": "die Architektur",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "معماری",
+          "en": "architecture"
+        },
+        "id_ref": "nomen_architektur"
+      },
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

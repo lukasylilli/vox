@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_begebenheit",
+  "wort": "die Begebenheit",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رویداد",
+      "ماجرا",
+      "اتفاق"
+    ],
+    "en": [
+      "occurrence",
+      "incident",
+      "event"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Literatur",
+    "Geschichte"
+  ],
+  "ipa": "bəˈɡeːbn̩haɪ̯t",
+  "anmerkung": "Gehoben; oft in «eine wahre Begebenheit».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Film erzählt eine wahre Begebenheit.",
+      "uebersetzung": {
+        "fa": "این فیلم یک ماجرای واقعی را روایت می‌کند.",
+        "en": "The film tells a true story."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Der Roman beruht auf einer Begebenheit, die sich im 19. Jahrhundert in einem kleinen Dorf ereignet hat.",
+      "uebersetzung": {
+        "fa": "این رمان بر اساس رویدادی است که در قرن نوزدهم در یک روستای کوچک رخ داد.",
+        "en": "The novel is based on an occurrence that took place in a small village in the 19th century."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Ereignis",
+      "uebersetzung": {
+        "fa": "رویداد",
+        "en": "event"
+      }
+    },
+    {
+      "wort": "der Vorfall",
+      "uebersetzung": {
+        "fa": "حادثه",
+        "en": "incident"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "begeben (رخ دادن) + -heit",
+    "en": "begeben (to occur) + -heit"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Begebenheiten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "begeben",
+    "woerter": [
+      {
+        "wort": "begeben",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رخ دادن؛ رفتن",
+          "en": "to occur; to go"
+        },
+        "id_ref": "verb_begeben"
+      },
+      {
+        "wort": "das Ereignis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رویداد",
+          "en": "event"
+        },
+        "id_ref": "nomen_ereignis"
+      },
+      {
+        "wort": "der Vorfall",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "حادثه",
+          "en": "incident"
+        },
+        "id_ref": "nomen_vorfall"
+      },
+      {
+        "wort": "die Geschichte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داستان؛ تاریخ",
+          "en": "story; history"
+        },
+        "id_ref": "nomen_geschichte"
+      },
+      {
+        "wort": "geschehen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اتفاق افتادن",
+          "en": "to happen"
+        },
+        "id_ref": "verb_geschehen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

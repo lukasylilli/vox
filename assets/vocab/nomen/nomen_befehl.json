@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "nomen_befehl",
+  "wort": "der Befehl",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرمان",
+      "دستور"
+    ],
+    "en": [
+      "order",
+      "command"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Militär",
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "bəˈfeːl",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hund wartet auf einen Befehl.",
+      "uebersetzung": {
+        "fa": "سگ منتظر یک فرمان است.",
+        "en": "The dog is waiting for a command."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Soldaten mussten den Befehl befolgen, obwohl sie ihn nicht verstanden.",
+      "uebersetzung": {
+        "fa": "سربازها مجبور بودند از فرمان اطاعت کنند، با اینکه آن را نمی‌فهمیدند.",
+        "en": "The soldiers had to obey the order although they did not understand it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Anweisung",
+      "uebersetzung": {
+        "fa": "دستورالعمل",
+        "en": "instruction"
+      }
+    },
+    {
+      "wort": "das Kommando",
+      "uebersetzung": {
+        "fa": "فرمان",
+        "en": "command"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "zu befehlen (فرمان دادن)",
+    "en": "from befehlen (to command)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Befehle",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Befehl geben",
+        "beispiel": "Der Offizier gab den Befehl zum Rückzug.",
+        "uebersetzung": {
+          "fa": "افسر فرمان عقب‌نشینی داد.",
+          "en": "The officer gave the order to retreat."
+        }
+      },
+      {
+        "verbindung": "einen Befehl befolgen",
+        "beispiel": "Wer einen Befehl nicht befolgt, wird bestraft.",
+        "uebersetzung": {
+          "fa": "هر کس از فرمان اطاعت نکند مجازات می‌شود.",
+          "en": "Anyone who does not obey an order is punished."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "befehlen",
+    "woerter": [
+      {
+        "wort": "befehlen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرمان دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_befehlen"
+      },
+      {
+        "wort": "der Befehlshaber",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرمانده",
+          "en": "commander"
+        },
+        "id_ref": "nomen_befehlshaber"
+      },
+      {
+        "wort": "die Anweisung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دستورالعمل",
+          "en": "instruction"
+        },
+        "id_ref": "nomen_anweisung"
+      },
+      {
+        "wort": "gehorchen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اطاعت کردن",
+          "en": "to obey"
+        },
+        "id_ref": "verb_gehorchen"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

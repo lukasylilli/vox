@@ -2435,6 +2435,34 @@ const zurueckgestellt = <String>{
   'Basso', // zurückgestellt: nur in Fachausdrücken (Basso continuo) — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
   'Bastille', // zurückgestellt: historisches Bauwerk (Eigenname), kein geografischer Name — nicht bauen (Regel 18) 2026-10-20
   'Bauhaus', // zurückgestellt: Eigenname (Kunstschule/Stil) bzw. Marke — nicht sicher (Regel 18) 2026-10-20
+  'Baumeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Architekt/Bauunternehmer / Schöpfer (übertragen)) — nach den Nomen 2026-10-20
+  'Bauplan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plan für ein Gebäude / Biologie: Grundbauplan eines Organismus) — nach den Nomen 2026-10-20
+  'Baurecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsgebiet / Recht, ein Grundstück zu bebauen) — nach den Nomen 2026-10-20
+  'Baustein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stein zum Bauen / Spielzeugbaustein / Bestandteil (übertragen)) — nach den Nomen 2026-10-20
+  'Beamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Beamte / ein Beamter) — nach den Nomen 2026-10-20
+  'Bearbeitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erledigung (Antrag) / Bearbeitung eines Werkes (Musik, Literatur) / Formgebung (Material)) — nach den Nomen 2026-10-20
+  'Beauftragte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Beauftragte) — nach den Nomen 2026-10-20
+  'Beauftragter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Beauftragte») — nach den Nomen 2026-10-20
+  'Becken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Waschbecken/Schwimmbecken / Körperteil (Pelvis) / Musikinstrument) — nach den Nomen 2026-10-20
+  'Bedenken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überlegung / meist Plural: Zweifel, Einwände) — nach den Nomen 2026-10-20
+  'Bedeutung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinn eines Wortes / Wichtigkeit) — nach den Nomen 2026-10-20
+  'Bedienung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Bedienen (Service) / Kellner(in) / Handhabung einer Maschine) — nach den Nomen 2026-10-20
+  'Befangenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schüchternheit / Recht: Parteilichkeit) — nach den Nomen 2026-10-20
+  'Befestigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Festmachen / Festungsanlage) — nach den Nomen 2026-10-20
+  'Befinden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesundheitszustand / gehoben: Meinung, Urteil) — nach den Nomen 2026-10-20
+  'Befragte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Befragte) — nach den Nomen 2026-10-20
+  'Befreiung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freilassung, Erlösung / Freistellung (z. B. von Gebühren)) — nach den Nomen 2026-10-20
+  'Befreiungsschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Klärungsschlag / übertragen: Ausweg aus schwieriger Lage) — nach den Nomen 2026-10-20
+  'Befriedigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erfüllen (von Bedürfnissen, Forderungen) / Genugtuung, Zufriedenheit) — nach den Nomen 2026-10-20
+  'Begegnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treffen / Sport: Spiel, Partie) — nach den Nomen 2026-10-20
+  'Begehren', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlangen, Wunsch / gehoben: Forderung, Ersuchen) — nach den Nomen 2026-10-20
+  'Baumgarten', // zurückgestellt: landschaftlich (Obstgarten) und häufiger Familienname — nicht sicher (Regel 14) 2026-10-20
+  'Bausch', // zurückgestellt: Plural schwankt (Bausche/Bäusche), meist nur in «in Bausch und Bogen» — nicht sicher (Regel 14) 2026-10-20
+  'Bavaria', // zurückgestellt: Eigenname (Personifikation/Statue), kein geografischer Name — nicht bauen (Regel 18) 2026-10-20
+  'Beach', // zurückgestellt: englisches Wort, als eigenes deutsches Nomen nicht sicher (Regel 14) 2026-10-20
+  'Beamtenbund', // zurückgestellt: Eigenname einer Organisation (dbb) — nicht bauen (Regel 18) 2026-10-20
+  'Beatle', // zurückgestellt: Personen-/Bandname — nicht bauen (Regel 18) 2026-10-20
+  'Beauty', // zurückgestellt: englisches Wort, Gebrauch/Genus im Deutschen nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
