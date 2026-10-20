@@ -2489,6 +2489,21 @@ const zurueckgestellt = <String>{
   'Bel', // zurückgestellt: Maßeinheit (Bel/Dezibel) — als eigenes Lernwort nicht sicher (Regel 14) 2026-10-20
   'Belvedere', // zurückgestellt: Aussichtspunkt bzw. Eigenname (Schloss in Wien), kein geografischer Name — nicht sicher (Regel 14/18) 2026-10-20
   'Benefiz', // zurückgestellt: fast nur in Zusammensetzungen (Benefizkonzert …); veraltete Bedeutung — allein nicht sicher (Regel 14) 2026-10-20
+  'Bequemlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Komfort / Trägheit, Faulheit) — nach den Nomen 2026-10-20
+  'Beratung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rat, Beratungsgespräch / Besprechung, Beratschlagung (z. B. im Parlament)) — nach den Nomen 2026-10-20
+  'Berber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angehöriger eines Volkes in Nordafrika / Berberteppich / umgangssprachlich: Obdachloser) — nach den Nomen 2026-10-20
+  'Berechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Ausrechnen / eigennütziges Kalkül («aus Berechnung»)) — nach den Nomen 2026-10-20
+  'Berechtigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befugnis, Recht / Rechtmäßigkeit, Begründetheit) — nach den Nomen 2026-10-20
+  'Bereicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewinn, Gewinn an Erfahrung («eine Bereicherung für das Team») / unrechtmäßiges Sich-Bereichern) — nach den Nomen 2026-10-20
+  'Bereitschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Willigkeit / Bereitschaftsdienst / Polizeieinheit) — nach den Nomen 2026-10-20
+  'Berichterstatter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reporter, Korrespondent / Referent eines Ausschusses) — nach den Nomen 2026-10-20
+  'Berufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Rechtsmittel / innerer Ruf (Lebensaufgabe) / Ernennung in ein Amt) — nach den Nomen 2026-10-20
+  'Besatzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mannschaft (Schiff, Flugzeug) / militärische Besetzung eines Landes) — nach den Nomen 2026-10-20
+  'Bescherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weihnachtsgeschenke-Verteilung / ironisch: unangenehme Überraschung) — nach den Nomen 2026-10-20
+  'Beschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallbeschlag / Feuchtigkeitsfilm auf Glas / Hufbeschlag; «in Beschlag nehmen») — nach den Nomen 2026-10-20
+  'Beschneidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zirkumzision / Kürzung, Einschränkung (von Rechten, Ästen)) — nach den Nomen 2026-10-20
+  'Beschwerde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klage, Reklamation / Plural: körperliche Beschwerden) — nach den Nomen 2026-10-20
+  'Besessenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahn, Obsession / religiös: Besessensein (von einem Dämon)) — nach den Nomen 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

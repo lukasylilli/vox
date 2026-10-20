@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bescheinigung",
+  "wort": "die Bescheinigung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "گواهی",
+      "تأییدیه"
+    ],
+    "en": [
+      "certificate",
+      "confirmation",
+      "attestation"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Verwaltung",
+    "Arbeit"
+  ],
+  "ipa": "bəˈʃaɪ̯nɪɡʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich brauche eine Bescheinigung vom Arzt.",
+      "uebersetzung": {
+        "fa": "از پزشک یک گواهی لازم دارم.",
+        "en": "I need a certificate from the doctor."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für den Antrag müssen Sie eine Bescheinigung des Arbeitgebers mitbringen, auf der Ihr Gehalt steht.",
+      "uebersetzung": {
+        "fa": "برای این درخواست باید گواهی کارفرما را بیاورید که حقوقتان روی آن نوشته شده است.",
+        "en": "For the application you must bring a certificate from your employer showing your salary."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Attest",
+      "uebersetzung": {
+        "fa": "گواهی پزشکی",
+        "en": "medical certificate"
+      }
+    },
+    {
+      "wort": "die Bestätigung",
+      "uebersetzung": {
+        "fa": "تأییدیه",
+        "en": "confirmation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Arbeitsunfähigkeitsbescheinigung",
+      "uebersetzung": {
+        "fa": "گواهی ناتوانی از کار",
+        "en": "sick note"
+      }
+    },
+    {
+      "wort": "die Meldebescheinigung",
+      "uebersetzung": {
+        "fa": "گواهی ثبت محل سکونت",
+        "en": "certificate of registration"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "bescheinigen (گواهی دادن) + -ung",
+    "en": "bescheinigen (to certify) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Bescheinigungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Bescheinigung ausstellen",
+        "beispiel": "Die Schule stellt eine Bescheinigung über den Kurs aus.",
+        "uebersetzung": {
+          "fa": "مدرسه برای این دوره گواهی صادر می‌کند.",
+          "en": "The school issues a certificate for the course."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "bescheinigen",
+    "woerter": [
+      {
+        "wort": "bescheinigen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گواهی دادن",
+          "en": "to certify"
+        },
+        "id_ref": "verb_bescheinigen"
+      },
+      {
+        "wort": "die Bestätigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأییدیه",
+          "en": "confirmation"
+        },
+        "id_ref": "nomen_bestaetigung"
+      },
+      {
+        "wort": "das Attest",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گواهی پزشکی",
+          "en": "medical certificate"
+        },
+        "id_ref": "nomen_attest"
+      },
+      {
+        "wort": "das Zeugnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارنامه، گواهی",
+          "en": "certificate"
+        },
+        "id_ref": "nomen_zeugnis"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
