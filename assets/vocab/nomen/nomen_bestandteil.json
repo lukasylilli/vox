@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bestandteil",
+  "wort": "der Bestandteil",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "جزء",
+      "بخش",
+      "سازنده"
+    ],
+    "en": [
+      "component",
+      "part",
+      "ingredient"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Technik"
+  ],
+  "ipa": "bəˈʃtantˌtaɪ̯l",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wasser ist ein Bestandteil der Suppe.",
+      "uebersetzung": {
+        "fa": "آب یکی از اجزای سوپ است.",
+        "en": "Water is a component of the soup."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sport ist ein wichtiger Bestandteil meines Lebens, weil er mir hilft, Stress abzubauen.",
+      "uebersetzung": {
+        "fa": "ورزش بخش مهمی از زندگی من است، چون کمکم می‌کند استرس را کم کنم.",
+        "en": "Sport is an important part of my life because it helps me reduce stress."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Teil",
+      "uebersetzung": {
+        "fa": "بخش",
+        "en": "part"
+      }
+    },
+    {
+      "wort": "die Komponente",
+      "uebersetzung": {
+        "fa": "جزء",
+        "en": "component"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Bestand (ترکیب، موجودی) + der Teil (بخش)",
+    "en": "der Bestand (composition) + der Teil (part)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bestandteile",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "fester Bestandteil sein",
+        "beispiel": "Das Frühstück ist ein fester Bestandteil meines Tages.",
+        "uebersetzung": {
+          "fa": "صبحانه بخش ثابت روز من است.",
+          "en": "Breakfast is a fixed part of my day."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Teil",
+    "woerter": [
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "die Komponente",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جزء",
+          "en": "component"
+        },
+        "id_ref": "nomen_komponente"
+      },
+      {
+        "wort": "die Zutat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ماده‌ی غذایی",
+          "en": "ingredient"
+        },
+        "id_ref": "nomen_zutat"
+      },
+      {
+        "wort": "bestehen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وجود داشتن، تشکیل شدن",
+          "en": "to exist, to consist"
+        },
+        "id_ref": "verb_bestehen"
+      },
+      {
+        "wort": "das Element",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عنصر",
+          "en": "element"
+        },
+        "id_ref": "nomen_element"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

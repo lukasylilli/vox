@@ -2504,6 +2504,30 @@ const zurueckgestellt = <String>{
   'Beschneidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zirkumzision / Kürzung, Einschränkung (von Rechten, Ästen)) — nach den Nomen 2026-10-20
   'Beschwerde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klage, Reklamation / Plural: körperliche Beschwerden) — nach den Nomen 2026-10-20
   'Besessenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahn, Obsession / religiös: Besessensein (von einem Dämon)) — nach den Nomen 2026-10-20
+  'Besetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Besetzen (Haus, Land) / Rollenbesetzung (Theater, Film) / Mannschaftsaufstellung, Stellenbesetzung) — nach den Nomen 2026-10-20
+  'Besinnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewusstsein («die Besinnung verlieren») / Nachdenken, innere Einkehr) — nach den Nomen 2026-10-20
+  'Besprechung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sitzung, Meeting / Rezension (Buchbesprechung)) — nach den Nomen 2026-10-20
+  'Bestand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fortbestehen, Dauer / Vorrat, Lagerbestand) — nach den Nomen 2026-10-20
+  'Bestehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Existenz («seit Bestehen») / das Bestehen einer Prüfung) — nach den Nomen 2026-10-20
+  'Bestellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftrag, Order / Ernennung (eines Vormunds) / Bestellen des Feldes) — nach den Nomen 2026-10-20
+  'Bestimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorschrift, Regelung / Festlegung, Ermittlung / Schicksal, Zweck) — nach den Nomen 2026-10-20
+  'Besuch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Besuchen / Gast, Gäste («wir haben Besuch»)) — nach den Nomen 2026-10-20
+  'Beta', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: griechischer Buchstabe / Testversion (Software)) — nach den Nomen 2026-10-20
+  'Beteiligte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Beteiligte) — nach den Nomen 2026-10-20
+  'Beteiligung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnahme / Kapitalanteil an einer Firma) — nach den Nomen 2026-10-20
+  'Betrachtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anschauen / Überlegung, Erörterung) — nach den Nomen 2026-10-20
+  'Betreuer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die betreut (Kinder, Kranke) / Recht: gerichtlich bestellter Betreuer (Erwachsenenvertreter)) — nach den Nomen 2026-10-20
+  'Betreuerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die betreut / Recht: gerichtlich bestellte Betreuerin) — nach den Nomen 2026-10-20
+  'Betrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma, Unternehmen / Betriebszustand («in Betrieb») / Treiben, Andrang) — nach den Nomen 2026-10-20
+  'Betriebsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Arbeitnehmervertretung / einzelnes Mitglied dieses Gremiums) — nach den Nomen 2026-10-20
+  'Betriebsratsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Betriebsratsvorsitzende) — nach den Nomen 2026-10-20
+  'Betriebsratsvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betriebsratsvorsitzende») — nach den Nomen 2026-10-20
+  'Betroffene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Betroffene) — nach den Nomen 2026-10-20
+  'Betroffener', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betroffene») — nach den Nomen 2026-10-20
+  'Best', // zurückgestellt: als eigenes Nomen nicht sicher (nur «das Beste», «sein Bestes») (Regel 14) 2026-10-20
+  'Bete', // zurückgestellt: fast nur in «Rote Bete» — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
+  'Bettag', // zurückgestellt: fast nur in «Buß- und Bettag» / «Eidgenössischer Bettag» (Feiertagsname) — nicht sicher (Regel 14) 2026-10-20
+  'Bettel', // zurückgestellt: umgangssprachlich/veraltend (Kram; «den Bettel hinwerfen») — nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
