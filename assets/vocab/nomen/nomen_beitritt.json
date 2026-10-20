@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beitritt",
+  "wort": "der Beitritt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پیوستن",
+      "عضویت"
+    ],
+    "en": [
+      "accession",
+      "joining",
+      "entry"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈbaɪ̯ˌtʁɪt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er erklärt seinen Beitritt zum Verein.",
+      "uebersetzung": {
+        "fa": "او پیوستنش به باشگاه را اعلام می‌کند.",
+        "en": "He declares that he is joining the club."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Österreich feierte 2020 den 25. Jahrestag seines Beitritts zur Europäischen Union.",
+      "uebersetzung": {
+        "fa": "اتریش در سال ۲۰۲۰ بیست‌وپنجمین سالگرد پیوستنش به اتحادیه‌ی اروپا را جشن گرفت.",
+        "en": "In 2020 Austria celebrated the 25th anniversary of its accession to the European Union."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Aufnahme",
+      "uebersetzung": {
+        "fa": "پذیرش",
+        "en": "admission"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Austritt",
+      "uebersetzung": {
+        "fa": "خروج",
+        "en": "withdrawal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "beitreten (پیوستن) → Beitritt",
+    "en": "beitreten (to join) → Beitritt"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Beitritte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Beitritt zu + Dat",
+        "beispiel": "Der Beitritt zur Gewerkschaft kostet nichts.",
+        "uebersetzung": {
+          "fa": "پیوستن به اتحادیه‌ی کارگری هزینه‌ای ندارد.",
+          "en": "Joining the union costs nothing."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "beitreten",
+    "woerter": [
+      {
+        "wort": "beitreten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیوستن",
+          "en": "to join"
+        },
+        "id_ref": "verb_beitreten"
+      },
+      {
+        "wort": "das Mitglied",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عضو",
+          "en": "member"
+        },
+        "id_ref": "nomen_mitglied"
+      },
+      {
+        "wort": "die Mitgliedschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عضویت",
+          "en": "membership"
+        },
+        "id_ref": "nomen_mitgliedschaft"
+      },
+      {
+        "wort": "der Austritt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خروج",
+          "en": "withdrawal"
+        },
+        "id_ref": "nomen_austritt"
+      },
+      {
+        "wort": "der Verein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باشگاه، انجمن",
+          "en": "club"
+        },
+        "id_ref": "nomen_verein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

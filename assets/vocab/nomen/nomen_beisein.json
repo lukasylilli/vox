@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beisein",
+  "wort": "das Beisein",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حضور"
+    ],
+    "en": [
+      "presence"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈbaɪ̯ˌzaɪ̯n",
+  "anmerkung": "Fast nur in der Wendung «im Beisein von / im Beisein + Gen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er unterschrieb im Beisein seiner Frau.",
+      "uebersetzung": {
+        "fa": "او در حضور همسرش امضا کرد.",
+        "en": "He signed in the presence of his wife."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Gespräch fand im Beisein eines Anwalts statt, weil es um viel Geld ging.",
+      "uebersetzung": {
+        "fa": "گفت‌وگو در حضور یک وکیل انجام شد، چون پای پول زیادی در میان بود.",
+        "en": "The conversation took place in the presence of a lawyer because a lot of money was at stake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Anwesenheit",
+      "uebersetzung": {
+        "fa": "حضور",
+        "en": "presence"
+      }
+    },
+    {
+      "wort": "die Gegenwart",
+      "uebersetzung": {
+        "fa": "حضور",
+        "en": "presence"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Abwesenheit",
+      "uebersetzung": {
+        "fa": "غیبت",
+        "en": "absence"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "bei (کنار) + sein (بودن)",
+    "en": "bei (beside) + sein (to be)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "im Beisein von + Dat",
+        "beispiel": "Die Prüfung findet im Beisein von zwei Lehrern statt.",
+        "uebersetzung": {
+          "fa": "امتحان در حضور دو معلم برگزار می‌شود.",
+          "en": "The exam takes place in the presence of two teachers."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Anwesenheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حضور",
+          "en": "presence"
+        },
+        "id_ref": "nomen_anwesenheit"
+      },
+      {
+        "wort": "anwesend",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حاضر",
+          "en": "present"
+        },
+        "id_ref": "adjektiv_anwesend"
+      },
+      {
+        "wort": "die Abwesenheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غیبت",
+          "en": "absence"
+        },
+        "id_ref": "nomen_abwesenheit"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "dabei sein",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حضور داشتن",
+          "en": "to be there"
+        },
+        "id_ref": "verb_dabei_sein"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

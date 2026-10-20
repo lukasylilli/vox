@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_benutzer",
+  "wort": "der Benutzer",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کاربر",
+      "استفاده‌کننده"
+    ],
+    "en": [
+      "user"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Computer"
+  ],
+  "ipa": "bəˈnʊt͡sɐ",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Jeder Benutzer hat ein Passwort.",
+      "uebersetzung": {
+        "fa": "هر کاربر یک رمز عبور دارد.",
+        "en": "Every user has a password."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn ein Benutzer sein Passwort vergisst, kann er es per E-Mail zurücksetzen.",
+      "uebersetzung": {
+        "fa": "اگر کاربری رمزش را فراموش کند، می‌تواند آن را با ایمیل بازنشانی کند.",
+        "en": "If a user forgets his password, he can reset it by email."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Nutzer",
+      "uebersetzung": {
+        "fa": "کاربر",
+        "en": "user"
+      }
+    },
+    {
+      "wort": "der Anwender",
+      "uebersetzung": {
+        "fa": "کاربر",
+        "en": "user"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Benutzername",
+      "uebersetzung": {
+        "fa": "نام کاربری",
+        "en": "username"
+      }
+    },
+    {
+      "wort": "das Benutzerkonto",
+      "uebersetzung": {
+        "fa": "حساب کاربری",
+        "en": "user account"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "benutzen (استفاده کردن) + -er",
+    "en": "benutzen (to use) + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Benutzer",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "benutzen",
+    "woerter": [
+      {
+        "wort": "benutzen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "استفاده کردن",
+          "en": "to use"
+        },
+        "id_ref": "verb_benutzen"
+      },
+      {
+        "wort": "der Nutzer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاربر",
+          "en": "user"
+        },
+        "id_ref": "nomen_nutzer"
+      },
+      {
+        "wort": "der Benutzername",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نام کاربری",
+          "en": "username"
+        },
+        "id_ref": "nomen_benutzername"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

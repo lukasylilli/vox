@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "nomen_belehrung",
+  "wort": "die Belehrung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آموزش، تذکر",
+      "توجیه",
+      "اطلاع‌رسانی رسمی"
+    ],
+    "en": [
+      "instruction",
+      "briefing",
+      "caution"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "bəˈleːʁʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "bau",
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vor der Arbeit gibt es eine Belehrung.",
+      "uebersetzung": {
+        "fa": "پیش از شروع کار یک توجیه ایمنی هست.",
+        "en": "There is a briefing before work."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Alle neuen Mitarbeiter müssen an einer Belehrung über Hygiene teilnehmen, bevor sie in der Küche arbeiten.",
+      "uebersetzung": {
+        "fa": "همه‌ی کارکنان تازه باید پیش از کار در آشپزخانه در یک جلسه‌ی آموزش بهداشت شرکت کنند.",
+        "en": "All new employees must attend a hygiene briefing before they work in the kitchen."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Unterweisung",
+      "uebersetzung": {
+        "fa": "آموزش",
+        "en": "instruction"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Sicherheitsbelehrung",
+      "uebersetzung": {
+        "fa": "توجیه ایمنی",
+        "en": "safety briefing"
+      }
+    },
+    {
+      "wort": "die Rechtsbehelfsbelehrung",
+      "uebersetzung": {
+        "fa": "راهنمای حق اعتراض",
+        "en": "notice of right to appeal"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "belehren (آموزش دادن، تذکر دادن) + -ung",
+    "en": "belehren (to instruct) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Belehrungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Belehrung über + Akk",
+        "beispiel": "Die Belehrung über Brandschutz findet jedes Jahr statt.",
+        "uebersetzung": {
+          "fa": "آموزش درباره‌ی ایمنی در برابر آتش هر سال برگزار می‌شود.",
+          "en": "The fire safety briefing takes place every year."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "belehren",
+    "woerter": [
+      {
+        "wort": "belehren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آموزش دادن، تذکر دادن",
+          "en": "to instruct"
+        },
+        "id_ref": "verb_belehren"
+      },
+      {
+        "wort": "lehren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "یاد دادن",
+          "en": "to teach"
+        },
+        "id_ref": "verb_lehren"
+      },
+      {
+        "wort": "die Unterweisung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آموزش",
+          "en": "instruction"
+        },
+        "id_ref": "nomen_unterweisung"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ایمنی",
+          "en": "safety"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "die Vorschrift",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقررات",
+          "en": "regulation"
+        },
+        "id_ref": "nomen_vorschrift"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

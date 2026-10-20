@@ -1,0 +1,156 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beleg",
+  "wort": "der Beleg",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رسید",
+      "مدرک",
+      "سند"
+    ],
+    "en": [
+      "receipt",
+      "proof",
+      "voucher"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Finanzen",
+    "Arbeit"
+  ],
+  "ipa": "bəˈleːk",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte heben Sie den Beleg auf.",
+      "uebersetzung": {
+        "fa": "لطفاً رسید را نگه دارید.",
+        "en": "Please keep the receipt."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ohne Beleg kann ich die Kosten nicht abrechnen, deshalb sammle ich alle Rechnungen.",
+      "uebersetzung": {
+        "fa": "بدون رسید نمی‌توانم هزینه‌ها را حساب کنم، برای همین همه‌ی فاکتورها را جمع می‌کنم.",
+        "en": "Without a receipt I can't claim the costs, so I collect all the bills."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Quittung",
+      "uebersetzung": {
+        "fa": "رسید",
+        "en": "receipt"
+      }
+    },
+    {
+      "wort": "der Nachweis",
+      "uebersetzung": {
+        "fa": "مدرک",
+        "en": "proof"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kassenbeleg",
+      "uebersetzung": {
+        "fa": "رسید صندوق",
+        "en": "till receipt"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "belegen (اثبات کردن) → Beleg",
+    "en": "belegen (to prove) → Beleg"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Belege",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Beleg für + Akk",
+        "beispiel": "Das Foto ist ein Beleg für seine Aussage.",
+        "uebersetzung": {
+          "fa": "این عکس مدرکی برای گفته‌ی اوست.",
+          "en": "The photo is proof of his statement."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "belegen",
+    "woerter": [
+      {
+        "wort": "belegen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اثبات کردن",
+          "en": "to prove"
+        },
+        "id_ref": "verb_belegen"
+      },
+      {
+        "wort": "die Quittung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسید",
+          "en": "receipt"
+        },
+        "id_ref": "nomen_quittung"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صورت‌حساب",
+          "en": "bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "der Nachweis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدرک",
+          "en": "proof"
+        },
+        "id_ref": "nomen_nachweis"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلیل",
+          "en": "evidence"
+        },
+        "id_ref": "nomen_beweis"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

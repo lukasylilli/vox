@@ -2463,6 +2463,32 @@ const zurueckgestellt = <String>{
   'Beamtenbund', // zurückgestellt: Eigenname einer Organisation (dbb) — nicht bauen (Regel 18) 2026-10-20
   'Beatle', // zurückgestellt: Personen-/Bandname — nicht bauen (Regel 18) 2026-10-20
   'Beauty', // zurückgestellt: englisches Wort, Gebrauch/Genus im Deutschen nicht sicher (Regel 14) 2026-10-20
+  'Begehung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Besichtigung zu Fuß, Inspektion / das Begehen einer Tat oder eines Festes) — nach den Nomen 2026-10-20
+  'Beginnen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Anfangen / gehoben: Vorhaben, Unterfangen) — nach den Nomen 2026-10-20
+  'Begleiter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die jemanden begleitet / Musik: Begleitmusiker) — nach den Nomen 2026-10-20
+  'Begleiterin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die jemanden begleitet / Musik: Begleitmusikerin) — nach den Nomen 2026-10-20
+  'Begleitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Begleiten / begleitende Person(en) / Musik: Begleitstimme) — nach den Nomen 2026-10-20
+  'Behandlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinische Behandlung / Umgang mit jemandem / Bearbeitung eines Themas) — nach den Nomen 2026-10-20
+  'Beherrschung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft über etwas / Selbstbeherrschung / Können (einer Sprache)) — nach den Nomen 2026-10-20
+  'Behinderte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Behinderte) — nach den Nomen 2026-10-20
+  'Behinderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beeinträchtigung (Körper, Geist) / Hindernis, z. B. im Verkehr) — nach den Nomen 2026-10-20
+  'Beifall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Applaus / Zustimmung) — nach den Nomen 2026-10-20
+  'Beigeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Beigeordnete) — nach den Nomen 2026-10-20
+  'Beigeschmack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschmack (wörtlich) / übertragen: negativer Eindruck) — nach den Nomen 2026-10-20
+  'Beihilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: finanzielle Unterstützung / Recht: Mithilfe an einer Straftat) — nach den Nomen 2026-10-20
+  'Beilage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Speise neben dem Hauptgericht / Zeitungsbeilage) — nach den Nomen 2026-10-20
+  'Beirat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: beratendes Gremium / Mitglied, Berater) — nach den Nomen 2026-10-20
+  'Beistand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfe, Unterstützung / Person (Rechtsbeistand)) — nach den Nomen 2026-10-20
+  'Beitrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteil, Mitwirkung / Mitgliedsbeitrag / Artikel, Sendung) — nach den Nomen 2026-10-20
+  'Bekanntschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Bekanntsein / bekannte Person(en)) — nach den Nomen 2026-10-20
+  'Bekenntnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geständnis, Eintreten für etwas / Konfession) — nach den Nomen 2026-10-20
+  'Belag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schicht, Überzug / Brotbelag / Bremsbelag) — nach den Nomen 2026-10-20
+  'Belang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wichtigkeit («von Belang») / Plural: Interessen («die Belange»)) — nach den Nomen 2026-10-20
+  'Belastung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Last, Gewicht (Technik) / seelische Belastung / Kontobelastung) — nach den Nomen 2026-10-20
+  'Belegung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auslastung (Betten, Zimmer) / Kursbelegung) — nach den Nomen 2026-10-20
+  'Bel', // zurückgestellt: Maßeinheit (Bel/Dezibel) — als eigenes Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Belvedere', // zurückgestellt: Aussichtspunkt bzw. Eigenname (Schloss in Wien), kein geografischer Name — nicht sicher (Regel 14/18) 2026-10-20
+  'Benefiz', // zurückgestellt: fast nur in Zusammensetzungen (Benefizkonzert …); veraltete Bedeutung — allein nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
