@@ -1,0 +1,121 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bauherr",
+  "wort": "der Bauherr",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کارفرمای ساختمان",
+      "صاحب پروژه‌ی ساختمانی"
+    ],
+    "en": [
+      "client (in construction)",
+      "property developer"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Bauen",
+    "Recht"
+  ],
+  "ipa": "ˈbaʊ̯ˌhɛʁ",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauherr besucht die Baustelle.",
+      "uebersetzung": {
+        "fa": "کارفرما از کارگاه ساختمانی بازدید می‌کند.",
+        "en": "The client is visiting the building site."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Bauherr muss alle Rechnungen bezahlen und ist dafür verantwortlich, dass die Vorschriften eingehalten werden.",
+      "uebersetzung": {
+        "fa": "کارفرما باید همه‌ی صورت‌حساب‌ها را بپردازد و مسئول است که مقررات رعایت شود.",
+        "en": "The client has to pay all the invoices and is responsible for ensuring that the regulations are followed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bau (ساخت) + Herr (صاحب)",
+    "en": "Bau (construction) + Herr (master, owner)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bauherren",
+    "deklinationstyp": "n-deklination",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Herr",
+    "woerter": [
+      {
+        "wort": "der Herr",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آقا، ارباب",
+          "en": "gentleman, master"
+        },
+        "id_ref": "nomen_herr"
+      },
+      {
+        "wort": "der Architekt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معمار",
+          "en": "architect"
+        },
+        "id_ref": "nomen_architekt"
+      },
+      {
+        "wort": "die Baufirma",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت ساختمانی",
+          "en": "construction company"
+        },
+        "id_ref": "nomen_baufirma"
+      },
+      {
+        "wort": "die Baustelle",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارگاه ساختمانی",
+          "en": "building site"
+        },
+        "id_ref": "nomen_baustelle"
+      },
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

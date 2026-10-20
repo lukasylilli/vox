@@ -2410,6 +2410,31 @@ const zurueckgestellt = <String>{
   'Bader', // zurückgestellt: veraltet (Barbier, Wundarzt) — Ersatzwort nicht eindeutig (Regel 14/17) 2026-10-20
   'Ballhaus', // zurückgestellt: historisch: Ballspielhaus / Tanzlokal — Bedeutung nicht eindeutig (Regel 14) 2026-10-20
   'Bange', // zurückgestellt: nur in «keine Bange» (umgangssprachlich) — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
+  'Bankangestellte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Bankangestellte) — nach den Nomen 2026-10-20
+  'Bankrott', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsunfähigkeit / völliges Scheitern (übertragen, «moralischer Bankrott»)) — nach den Nomen 2026-10-20
+  'Bann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausschluss, Verbannung / Faszination, Zauber («im Bann von»)) — nach den Nomen 2026-10-20
+  'Banner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahne, Spruchband / Werbebanner im Internet) — nach den Nomen 2026-10-20
+  'Barbar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fremder in der Antike / roher, grausamer Mensch (abwertend)) — nach den Nomen 2026-10-20
+  'Barbarei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grausamkeit / Kulturlosigkeit) — nach den Nomen 2026-10-20
+  'Bariton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stimmlage / Sänger mit dieser Stimme) — nach den Nomen 2026-10-20
+  'Bart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haare im Gesicht / Teil des Schlüssels) — nach den Nomen 2026-10-20
+  'Basar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: orientalischer Markt / Wohltätigkeitsbasar) — nach den Nomen 2026-10-20
+  'Basis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundlage / Militärstützpunkt / Parteibasis / Mathematik: Grundzahl) — nach den Nomen 2026-10-20
+  'Basketball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — nach den Nomen 2026-10-20
+  'Bass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: tiefe Stimme, Sänger / Bassgitarre, Kontrabass / tiefe Töne) — nach den Nomen 2026-10-20
+  'Bassist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sänger mit Bassstimme / Bassgitarrist) — nach den Nomen 2026-10-20
+  'Bastard', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mischling (Biologie) / Schimpfwort; auch anstößig) — nach den Nomen 2026-10-20
+  'Bastion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Festungsbau / Bollwerk, Hochburg (übertragen)) — nach den Nomen 2026-10-20
+  'Batterie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stromspeicher / Militär: Geschützbatterie / Reihe gleicher Dinge) — nach den Nomen 2026-10-20
+  'Batzen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klumpen / große Menge Geld (umgangssprachlich)) — nach den Nomen 2026-10-20
+  'Bau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Bauen / Gebäude / Tierbau / umgangssprachlich: Gefängnis) — nach den Nomen 2026-10-20
+  'Banja', // zurückgestellt: russisches Dampfbad, Fremdwort — Gebrauch im Deutschen nicht sicher (Regel 14) 2026-10-20
+  'Barbier', // zurückgestellt: Markierung unsicher (veraltet, heute als «Barber» wieder Mode) — nicht sicher (Regel 14/17) 2026-10-20
+  'Barock', // zurückgestellt: Genus schwankt (der/das Barock) — nicht sicher (Regel 14) 2026-10-20
+  'Barometer', // zurückgestellt: Genus schwankt (das/der Barometer) und übertragene Bedeutung — nicht sicher (Regel 14) 2026-10-20
+  'Basso', // zurückgestellt: nur in Fachausdrücken (Basso continuo) — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
+  'Bastille', // zurückgestellt: historisches Bauwerk (Eigenname), kein geografischer Name — nicht bauen (Regel 18) 2026-10-20
+  'Bauhaus', // zurückgestellt: Eigenname (Kunstschule/Stil) bzw. Marke — nicht sicher (Regel 18) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

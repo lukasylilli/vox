@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bauelement",
+  "wort": "das Bauelement",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قطعه‌ی ساختمانی",
+      "جزء سازنده"
+    ],
+    "en": [
+      "component",
+      "structural element"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Bauen"
+  ],
+  "ipa": "ˈbaʊ̯ʔeleˌmɛnt",
+  "anmerkung": null,
+  "berufe": [
+    "technik",
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist ein Bauelement.",
+      "uebersetzung": {
+        "fa": "این یک قطعه‌ی سازنده است.",
+        "en": "That is a component."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Fenster, Türen und Treppen werden heute oft als fertige Bauelemente auf die Baustelle geliefert.",
+      "uebersetzung": {
+        "fa": "پنجره، در و پله امروز اغلب به‌صورت قطعه‌ی آماده به کارگاه ساختمانی تحویل داده می‌شوند.",
+        "en": "Windows, doors and stairs are often delivered to the building site as finished components today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Bauteil",
+      "uebersetzung": {
+        "fa": "قطعه",
+        "en": "component"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bau (ساخت) + Element (جزء)",
+    "en": "Bau (construction) + Element (element)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Bauelemente",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Element",
+    "woerter": [
+      {
+        "wort": "das Element",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جزء، عنصر",
+          "en": "element"
+        },
+        "id_ref": "nomen_element"
+      },
+      {
+        "wort": "das Bauteil",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قطعه",
+          "en": "component"
+        },
+        "id_ref": "nomen_bauteil"
+      },
+      {
+        "wort": "die Konstruktion",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سازه",
+          "en": "construction"
+        },
+        "id_ref": "nomen_konstruktion"
+      },
+      {
+        "wort": "bauen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختن",
+          "en": "to build"
+        },
+        "id_ref": "verb_bauen"
+      },
+      {
+        "wort": "das Material",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصالح",
+          "en": "material"
+        },
+        "id_ref": "nomen_material"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
