@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bahnhof",
+  "wort": "der Bahnhof",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ایستگاه قطار",
+      "ایستگاه راه‌آهن"
+    ],
+    "en": [
+      "railway station",
+      "train station"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Stadt"
+  ],
+  "ipa": "ˈbaːnˌhoːf",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wo ist der Bahnhof?",
+      "uebersetzung": {
+        "fa": "ایستگاه قطار کجاست؟",
+        "en": "Where is the train station?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich hole dich am Bahnhof ab, wenn du mir sagst, wann dein Zug ankommt.",
+      "uebersetzung": {
+        "fa": "اگر بگویی قطارت کی می‌رسد، از ایستگاه دنبالت می‌آیم.",
+        "en": "I will pick you up at the station if you tell me when your train arrives."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Hauptbahnhof",
+      "uebersetzung": {
+        "fa": "ایستگاه مرکزی قطار",
+        "en": "central station"
+      }
+    },
+    {
+      "wort": "der Busbahnhof",
+      "uebersetzung": {
+        "fa": "ترمینال اتوبوس",
+        "en": "bus station"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Bahn (راه‌آهن) + Hof (حیاط)",
+    "en": "Bahn (railway) + Hof (yard)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bahnhöfe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "jemanden vom Bahnhof abholen",
+        "beispiel": "Mein Bruder holt mich vom Bahnhof ab.",
+        "uebersetzung": {
+          "fa": "برادرم مرا از ایستگاه می‌آورد.",
+          "en": "My brother is picking me up from the station."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Bahn",
+    "woerter": [
+      {
+        "wort": "die Bahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار، راه‌آهن",
+          "en": "train, railway"
+        },
+        "id_ref": "nomen_bahn"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Bahnsteig",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سکوی ایستگاه",
+          "en": "platform"
+        },
+        "id_ref": "nomen_bahnsteig"
+      },
+      {
+        "wort": "der Hauptbahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه مرکزی",
+          "en": "central station"
+        },
+        "id_ref": "nomen_hauptbahnhof"
+      },
+      {
+        "wort": "die Haltestelle",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه (اتوبوس)",
+          "en": "stop"
+        },
+        "id_ref": "nomen_haltestelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

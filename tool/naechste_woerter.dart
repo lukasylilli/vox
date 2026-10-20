@@ -2390,6 +2390,26 @@ const zurueckgestellt = <String>{
   'Ausschau', // zurückgestellt: nur in der Wendung «Ausschau halten» — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
   'Austria', // zurückgestellt: lateinischer Name / Vereins- und Firmenname, kein gebräuchlicher deutscher geografischer Name — nicht sicher (Regel 18) 2026-10-20
   'Ausweiche', // zurückgestellt: selten, regional (Ausweichstelle) — Bedeutung/Gebrauch nicht sicher (Regel 14) 2026-10-20
+  'Automat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verkaufs-/Spielautomat / selbsttätige Maschine allgemein) — nach den Nomen 2026-10-20
+  'Automatik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Automatikgetriebe / automatische Steuerung, Selbstlauf) — nach den Nomen 2026-10-20
+  'Automatismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: selbsttätiger Mechanismus / unbewusste, automatische Handlung (Psychologie/Medizin)) — nach den Nomen 2026-10-20
+  'Autonomie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politische Selbstverwaltung / persönliche Unabhängigkeit / technisch: Reichweite (Akku)) — nach den Nomen 2026-10-20
+  'Bachelor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Studienabschluss / Person mit diesem Abschluss) — nach den Nomen 2026-10-20
+  'Backen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: das Backen «Zubereitung im Ofen» ↔ der Backen «Wange», regional) — nach den Nomen 2026-10-20
+  'Bad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Badezimmer / Baden, Wannenbad / Schwimmbad / Kurort) — nach den Nomen 2026-10-20
+  'Baden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/3 (Homograph: das Baden «Schwimmen» ↔ Baden «Region, Städte Baden bei Wien / Baden (AG)») — nach den Nomen 2026-10-20
+  'Bahn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisenbahn, Zug / Fahrbahn, Spur / Umlaufbahn / Stoffbahn) — nach den Nomen 2026-10-20
+  'Balanceakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Akrobatik auf dem Seil / schwieriger Ausgleich (übertragen)) — nach den Nomen 2026-10-20
+  'Balken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holz-/Stahlträger / Strich, Balken im Diagramm) — nach den Nomen 2026-10-20
+  'Ballast', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewicht zum Ausbalancieren (Schiff, Ballon) / unnötige Last (übertragen)) — nach den Nomen 2026-10-20
+  'Ballon', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Luftballon / Heißluftballon / bauchige Glasflasche) — nach den Nomen 2026-10-20
+  'Balsam', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heilsalbe, Pflegemittel / Trost, Wohltat (übertragen)) — nach den Nomen 2026-10-20
+  'Bandbreite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Datenrate, Frequenzbereich / Spannweite, Vielfalt) — nach den Nomen 2026-10-20
+  'Ave', // zurückgestellt: nur als «Ave Maria» (Gebet) gebräuchlich — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
+  'Azur', // zurückgestellt: dichterisch/gehoben für «Himmelsblau» — Markierung nicht sicher (Regel 14/17) 2026-10-20
+  'Bader', // zurückgestellt: veraltet (Barbier, Wundarzt) — Ersatzwort nicht eindeutig (Regel 14/17) 2026-10-20
+  'Ballhaus', // zurückgestellt: historisch: Ballspielhaus / Tanzlokal — Bedeutung nicht eindeutig (Regel 14) 2026-10-20
+  'Bange', // zurückgestellt: nur in «keine Bange» (umgangssprachlich) — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
