@@ -2598,6 +2598,28 @@ const zurueckgestellt = <String>{
   'Bursche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft / ugs.: großes Exemplar) — nach den Nomen 2026-10-21
   'Bungee', // zurückgestellt: als selbständiges Nomen nicht gesichert (gebräuchlich: «Bungeejumping», «Bungeespringen») — nicht sicher (Regel 14) 2026-10-21
   'Bureau', // zurückgestellt: veraltete bzw. schweizerische Schreibung von «Büro» — Gebrauch/Einordnung nicht sicher (Regel 14) 2026-10-21
+  'Bus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph, gleicher Artikel: der Bus «Omnibus» / der Bus «EDV: Datenleitung») — nach den Nomen 2026-10-21
+  'Busen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: weibliche Brust / gehoben: Inneres, Herz; Meeresbucht («Meerbusen»)) — nach den Nomen 2026-10-21
+  'Butterfly', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmetterlingsschwimmen / Sprung beim Eiskunstlauf) — nach den Nomen 2026-10-21
+  'Button', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anstecker, Abzeichen / Schaltfläche (EDV)) — nach den Nomen 2026-10-21
+  'Bypass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Umgehungsgefäß, Bypassoperation / Technik: Umgehungsleitung) — nach den Nomen 2026-10-21
+  'Camper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der campt / ugs.: Wohnmobil) — nach den Nomen 2026-10-21
+  'Caravan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnwagen / Kombiwagen) — nach den Nomen 2026-10-21
+  'Caritas', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nächstenliebe / Hilfsorganisation (Eigenname)) — nach den Nomen 2026-10-21
+  'Carrier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flugzeugträger / Fluggesellschaft, Transportunternehmen / Telefonanbieter) — nach den Nomen 2026-10-21
+  'Casino', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielbank / Speiseraum, Kantine (z. B. Offizierskasino)) — nach den Nomen 2026-10-21
+  'Chaot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unordentlicher Mensch / abwertend: politischer Randalierer) — nach den Nomen 2026-10-21
+  'Charakter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesen, Eigenart / Person, Figur / Schriftzeichen) — nach den Nomen 2026-10-21
+  'Charge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dienstgrad, Rang / Produktionsserie (Pharma) / Nebenrolle (Theater)) — nach den Nomen 2026-10-21
+  'Chart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaubild, Grafik / die Charts: Hitliste) — nach den Nomen 2026-10-21
+  'Charter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chartervertrag, Miete eines Fahrzeugs / Urkunde, Freibrief) — nach den Nomen 2026-10-21
+  'Bye', // zurückgestellt: als deutsches Nomen nicht gesichert (Sport: Freilos?) — nicht sicher (Regel 14) 2026-10-21
+  'Cafe', // zurückgestellt: Schreibung «Cafe» statt «Café» — Lemma/id nicht sicher (Regel 14) 2026-10-21
+  'Carol', // zurückgestellt: als deutsches Nomen nicht gesichert (engl. «Christmas carol»?) — nicht sicher (Regel 14) 2026-10-21
+  'Castle', // zurückgestellt: englisches Wort, kein gesichertes deutsches Nomen — nicht sicher (Regel 14) 2026-10-21
+  'Celsius', // zurückgestellt: Einheit/Personenname («Grad Celsius»), Genus/Gebrauch als Nomen nicht sicher (Regel 14/18) 2026-10-21
+  'Chase', // zurückgestellt: als deutsches Nomen nicht gesichert — nicht sicher (Regel 14) 2026-10-21
+  'Chief', // zurückgestellt: als deutsches Nomen nicht gesichert (engl. «Chef») — nicht sicher (Regel 14) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
