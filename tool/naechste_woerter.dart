@@ -2558,6 +2558,21 @@ const zurueckgestellt = <String>{
   'Blocher', // zurückgestellt: schweizerisch: Bohnermaschine bzw. Familienname — nicht sicher (Regel 14) 2026-10-20
   'Bobby', // zurückgestellt: englisch: britischer Polizist — im Deutschen selten, nicht sicher (Regel 14) 2026-10-20
   'Bobo', // zurückgestellt: Szenewort (Bourgeois-Bohème, v. a. Wien) — Gebrauch nicht sicher (Regel 14) 2026-10-20
+  'Body', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bodysuit (Kleidungsstück) / umgangssprachlich: Körper) — nach den Nomen 2026-10-20
+  'Bogen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krümmung, Kurve / Waffe (Pfeil und Bogen) / Blatt Papier; Geigenbogen; Architektur: Torbogen) — nach den Nomen 2026-10-20
+  'Bolid', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rennwagen / Astronomie: Feuerkugel, Meteor) — nach den Nomen 2026-10-20
+  'Bomber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bombenflugzeug / Person, die Bomben legt; Sport: Torjäger) — nach den Nomen 2026-10-20
+  'Botschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachricht, Mitteilung / diplomatische Vertretung (Gebäude, Behörde)) — nach den Nomen 2026-10-20
+  'Boulevard', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: breite Prachtstraße / Boulevardpresse) — nach den Nomen 2026-10-20
+  'Box', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kiste, Behälter / Lautsprecher / Boxengasse (Motorsport); Pferdebox) — nach den Nomen 2026-10-20
+  'Boxer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportler (Faustkampf) / Hunderasse / Unterhose (Boxershorts)) — nach den Nomen 2026-10-20
+  'Brauner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Braune» (österr.: Kaffee mit Milch; braunes Pferd)) — nach den Nomen 2026-10-20
+  'Brause', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brausepulver, Limonade / Duschkopf, Brausekopf) — nach den Nomen 2026-10-20
+  'Breite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausdehnung in die Breite / geografische Breite) — nach den Nomen 2026-10-20
+  'Born', // zurückgestellt: dichterisch: Quelle, Brunnen — als Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Borussia', // zurückgestellt: lateinischer Name für Preußen bzw. Vereinsname — kein allgemeines Lernwort (Regel 14/18) 2026-10-20
+  'Boy', // zurückgestellt: Anglizismus (Hotelboy, umgangssprachlich: Junge) — Gebrauch nicht sicher (Regel 14) 2026-10-20
+  'Breche', // zurückgestellt: landwirtschaftliches Gerät (Flachsbreche) — selten, nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
