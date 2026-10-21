@@ -2648,6 +2648,26 @@ const zurueckgestellt = <String>{
   'Cox', // zurückgestellt: Apfelsorte (Cox Orange) bzw. Personenname — nicht sicher (Regel 14) 2026-10-21
   'Creek', // zurückgestellt: englisches Wort (Bach), kein gesichertes deutsches Nomen (Regel 14) 2026-10-21
   'Cuba', // zurückgestellt: englische/spanische Schreibung von «Kuba» — Lemma nicht sicher (Regel 14/18) 2026-10-21
+  'Cup', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pokal, Pokalwettbewerb / Körbchen des Büstenhalters) — nach den Nomen 2026-10-21
+  'Curry', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewürzmischung / Gericht mit Currysoße) — nach den Nomen 2026-10-21
+  'Cut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Filmschnitt / Schnittwunde (Boxen) / Herrenrock «Cutaway») — nach den Nomen 2026-10-21
+  'Damm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staudamm, Erdwall / Bahn-, Straßendamm / Anatomie: Bereich zwischen After und Genitalien) — nach den Nomen 2026-10-21
+  'Darm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verdauungsorgan / Wursthaut (Natur- bzw. Kunstdarm)) — nach den Nomen 2026-10-21
+  'Darstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abbildung, Grafik / Schilderung, Beschreibung / Verkörperung einer Rolle) — nach den Nomen 2026-10-21
+  'Datenschutzbeauftragter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Datenschutzbeauftragte) — nach den Nomen 2026-10-21
+  'Dauerbrenner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ofen, der lange brennt / ugs.: lange erfolgreiche Sache, Dauerthema) — nach den Nomen 2026-10-21
+  'Dealer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Drogenhändler / Kartengeber im Casino; Händler) — nach den Nomen 2026-10-21
+  'Decke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bett-, Tischdecke / Zimmerdecke) — nach den Nomen 2026-10-21
+  'Deckung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz (in Deckung gehen) / finanzielle Absicherung / Sport: Abwehr) — nach den Nomen 2026-10-21
+  'Defizit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fehlbetrag (Haushalt) / Mangel (z. B. Vitamindefizit)) — nach den Nomen 2026-10-21
+  'Dekan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leiter einer Fakultät / kirchliches Amt (Dechant)) — nach den Nomen 2026-10-21
+  'Deklaration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erklärung (z. B. der Menschenrechte) / Zoll-, Inhaltsangabe) — nach den Nomen 2026-10-21
+  'Delphin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meeressäugetier / Schwimmstil «Delphinschwimmen») — nach den Nomen 2026-10-21
+  'Dada', // zurückgestellt: Kunstrichtung, meist «Dadaismus» — als selbständiges Lernwort nicht sicher (Regel 14) 2026-10-21
+  'Dagestan', // zurückgestellt: Name einer russischen Teilrepublik — Genus/Artikel nicht sicher (Regel 14/18) 2026-10-21
+  'Damian', // zurückgestellt: Vorname — kein Lernwort (Regel 14/18) 2026-10-21
+  'Dan', // zurückgestellt: Rang im Budo (Judo, Karate) — Plural/Gebrauch nicht sicher (Regel 14) 2026-10-21
+  'Dancing', // zurückgestellt: veraltend/schweizerisch für Tanzlokal — Gebrauch nicht sicher (Regel 14) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
