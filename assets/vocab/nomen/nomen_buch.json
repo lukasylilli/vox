@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "nomen_buch",
+  "wort": "das Buch",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کتاب"
+    ],
+    "en": [
+      "book"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Literatur",
+    "Bildung"
+  ],
+  "ipa": "buːx",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich lese ein Buch.",
+      "uebersetzung": {
+        "fa": "یک کتاب می‌خوانم.",
+        "en": "I'm reading a book."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Dieses Buch hat mir so gut gefallen, dass ich es in zwei Tagen fertig gelesen habe.",
+      "uebersetzung": {
+        "fa": "این کتاب آن‌قدر برایم جالب بود که در دو روز تمامش کردم.",
+        "en": "I liked this book so much that I finished it in two days."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Kochbuch",
+      "uebersetzung": {
+        "fa": "کتاب آشپزی",
+        "en": "cookbook"
+      }
+    },
+    {
+      "wort": "das Wörterbuch",
+      "uebersetzung": {
+        "fa": "فرهنگ لغت",
+        "en": "dictionary"
+      }
+    },
+    {
+      "wort": "das Schulbuch",
+      "uebersetzung": {
+        "fa": "کتاب درسی",
+        "en": "school book"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Bücher",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Buch führen über + Akk",
+        "beispiel": "Sie führt genau Buch über ihre Ausgaben.",
+        "uebersetzung": {
+          "fa": "او دقیقاً حساب هزینه‌هایش را نگه می‌دارد.",
+          "en": "She keeps an exact record of her spending."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "lesen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خواندن",
+          "en": "to read"
+        },
+        "id_ref": "verb_lesen"
+      },
+      {
+        "wort": "die Bibliothek",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کتابخانه",
+          "en": "library"
+        },
+        "id_ref": "nomen_bibliothek"
+      },
+      {
+        "wort": "die Seite",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "صفحه",
+          "en": "page"
+        },
+        "id_ref": "nomen_seite"
+      },
+      {
+        "wort": "der Roman",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمان",
+          "en": "novel"
+        },
+        "id_ref": "nomen_roman"
+      },
+      {
+        "wort": "die Buchhandlung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کتاب‌فروشی",
+          "en": "bookshop"
+        },
+        "id_ref": "nomen_buchhandlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bruchteil",
+  "wort": "der Bruchteil",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کسر کوچک",
+      "بخش ناچیز"
+    ],
+    "en": [
+      "fraction",
+      "small part"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Zahlen"
+  ],
+  "ipa": "ˈbʁʊxˌtaɪ̯l",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das kostet nur einen Bruchteil.",
+      "uebersetzung": {
+        "fa": "این فقط کسر کوچکی هزینه دارد.",
+        "en": "That costs only a fraction."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Bruchteil einer Sekunde musste der Fahrer entscheiden, ob er bremst oder ausweicht.",
+      "uebersetzung": {
+        "fa": "راننده باید در کسری از ثانیه تصمیم می‌گرفت که ترمز کند یا منحرف شود.",
+        "en": "In a fraction of a second the driver had to decide whether to brake or swerve."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Teil",
+      "uebersetzung": {
+        "fa": "بخش",
+        "en": "part"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Bruch (کسر) + der Teil (بخش)",
+    "en": "der Bruch (fraction) + der Teil (part)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bruchteile",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Teil",
+    "woerter": [
+      {
+        "wort": "der Teil",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "part"
+        },
+        "id_ref": "nomen_teil"
+      },
+      {
+        "wort": "der Bruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کسر، شکستگی",
+          "en": "fraction"
+        },
+        "id_ref": "nomen_bruch"
+      },
+      {
+        "wort": "die Hälfte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نصف",
+          "en": "half"
+        },
+        "id_ref": "nomen_haelfte"
+      },
+      {
+        "wort": "winzig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بسیار کوچک",
+          "en": "tiny"
+        },
+        "id_ref": "adjektiv_winzig"
+      },
+      {
+        "wort": "das Prozent",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درصد",
+          "en": "percent"
+        },
+        "id_ref": "nomen_prozent"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "nomen_buchung",
+  "wort": "die Buchung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رزرو",
+      "ثبت (حسابداری)"
+    ],
+    "en": [
+      "booking",
+      "reservation",
+      "entry"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Reisen",
+    "Finanzen"
+  ],
+  "ipa": "ˈbuːxʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe die Buchung bestätigt.",
+      "uebersetzung": {
+        "fa": "رزرو را تأیید کردم.",
+        "en": "I have confirmed the booking."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach der Buchung bekommen Sie eine E-Mail mit allen Informationen zu Ihrem Flug.",
+      "uebersetzung": {
+        "fa": "پس از رزرو، ایمیلی با همه‌ی اطلاعات پروازتان دریافت می‌کنید.",
+        "en": "After booking you will receive an email with all the information about your flight."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Reservierung",
+      "uebersetzung": {
+        "fa": "رزرو",
+        "en": "reservation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Hotelbuchung",
+      "uebersetzung": {
+        "fa": "رزرو هتل",
+        "en": "hotel booking"
+      }
+    },
+    {
+      "wort": "die Onlinebuchung",
+      "uebersetzung": {
+        "fa": "رزرو آنلاین",
+        "en": "online booking"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "buchen (رزرو کردن) + -ung",
+    "en": "buchen (to book) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Buchungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "buchen",
+    "woerter": [
+      {
+        "wort": "buchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to book"
+        },
+        "id_ref": "verb_buchen"
+      },
+      {
+        "wort": "die Reservierung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو",
+          "en": "reservation"
+        },
+        "id_ref": "nomen_reservierung"
+      },
+      {
+        "wort": "stornieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لغو کردن",
+          "en": "to cancel"
+        },
+        "id_ref": "verb_stornieren"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

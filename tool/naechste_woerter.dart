@@ -2573,6 +2573,19 @@ const zurueckgestellt = <String>{
   'Borussia', // zurückgestellt: lateinischer Name für Preußen bzw. Vereinsname — kein allgemeines Lernwort (Regel 14/18) 2026-10-20
   'Boy', // zurückgestellt: Anglizismus (Hotelboy, umgangssprachlich: Junge) — Gebrauch nicht sicher (Regel 14) 2026-10-20
   'Breche', // zurückgestellt: landwirtschaftliches Gerät (Flachsbreche) — selten, nicht sicher (Regel 14) 2026-10-20
+  'Bremser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bremser bei der Bahn / übertragen: jemand, der Fortschritt bremst; Bobsport: Bremser) — nach den Nomen 2026-10-20
+  'Bruder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwister / Ordensbruder, Mönch) — nach den Nomen 2026-10-20
+  'Brut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachwuchs (Vögel, Fische) / abwertend: Gesindel) — nach den Nomen 2026-10-20
+  'Bube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielkarte / veraltet: Junge / Schurke («Spitzbube»)) — nach den Nomen 2026-10-20
+  'Buchenwald', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wald aus Buchen / ehemaliges Konzentrationslager (Eigenname)) — nach den Nomen 2026-10-20
+  'Buckel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Rücken / Höcker, Buckel (Krankheit) / kleine Anhöhe) — nach den Nomen 2026-10-20
+  'Bude', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verkaufsstand, Kiosk / umgangssprachlich: Zimmer, Wohnung) — nach den Nomen 2026-10-20
+  'Breton', // zurückgestellt: Hutform bzw. Personenname (André Breton) — als Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Brill', // zurückgestellt: Fischart (Glattbutt) — sehr selten, nicht sicher (Regel 14) 2026-10-20
+  'Brink', // zurückgestellt: norddeutsch/regional: Anhöhe, Grasrain — nicht sicher (Regel 14) 2026-10-20
+  'Brunn', // zurückgestellt: veraltet/dichterisch für Brunnen bzw. Ortsnamenteil — nicht sicher (Regel 14) 2026-10-20
+  'Bubi', // zurückgestellt: umgangssprachlich/abwertend: Junge, Milchbubi — Gebrauch nicht sicher (Regel 14) 2026-10-20
+  'Buchs', // zurückgestellt: Buchsbaum (meist «Buchsbaum») bzw. Ortsname in der Schweiz — nicht sicher (Regel 14/18) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
