@@ -2620,6 +2620,34 @@ const zurueckgestellt = <String>{
   'Celsius', // zurückgestellt: Einheit/Personenname («Grad Celsius»), Genus/Gebrauch als Nomen nicht sicher (Regel 14/18) 2026-10-21
   'Chase', // zurückgestellt: als deutsches Nomen nicht gesichert — nicht sicher (Regel 14) 2026-10-21
   'Chief', // zurückgestellt: als deutsches Nomen nicht gesichert (engl. «Chef») — nicht sicher (Regel 14) 2026-10-21
+  'Chiffre', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimzeichen, Code / Kennziffer einer Zeitungsanzeige) — nach den Nomen 2026-10-21
+  'Chili', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schote, Gewürz / Gericht «Chili con Carne») — nach den Nomen 2026-10-21
+  'Chinese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Chinas / ugs.: chinesisches Restaurant («zum Chinesen gehen»)) — nach den Nomen 2026-10-21
+  'Chip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mikrochip / Kartoffelchip / Spielmarke) — nach den Nomen 2026-10-21
+  'Choral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gregorianischer Gesang / Kirchenlied) — nach den Nomen 2026-10-21
+  'Christkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jesuskind / Gabenbringer zu Weihnachten (bes. Österreich, Süddeutschland)) — nach den Nomen 2026-10-21
+  'Claim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werbeslogan / Anspruch, Rechtsanspruch (z. B. Goldgräber)) — nach den Nomen 2026-10-21
+  'Clinch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Umklammerung / Streit («im Clinch liegen»)) — nach den Nomen 2026-10-21
+  'Coca', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kokastrauch / ugs.: Coca-Cola) — nach den Nomen 2026-10-21
+  'Code', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimschlüssel, Zugangscode / Zeichensystem; Programmcode / Verhaltenskodex) — nach den Nomen 2026-10-21
+  'Controller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachmann für Controlling (Beruf) / Steuergerät, Spielkonsolen-Controller) — nach den Nomen 2026-10-21
+  'Corner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr./schweiz. Sport: Eckball / Boxen: Ringecke / Börse: Aufkauf) — nach den Nomen 2026-10-21
+  'Couleur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art, Richtung («jeder Couleur») / Farben einer Studentenverbindung) — nach den Nomen 2026-10-21
+  'Cover', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Titelbild, Plattenhülle / Coverversion) — nach den Nomen 2026-10-21
+  'Crash', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unfall, Zusammenstoß / Börsenkrach / Computerabsturz) — nach den Nomen 2026-10-21
+  'Credo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Glaubensbekenntnis (Religion) / Grundsatz, Überzeugung) — nach den Nomen 2026-10-21
+  'Colonia', // zurückgestellt: lateinischer Name (Köln u. a.), kein gesichertes deutsches Nomen (Regel 14/18) 2026-10-21
+  'Colorado', // zurückgestellt: Fluss (der Colorado) oder US-Bundesstaat — Genus/Artikel nicht eindeutig (Regel 14/18) 2026-10-21
+  'Columbia', // zurückgestellt: Name (Universität, Fluss, Bezirk …) — kein gesichertes Lernwort (Regel 14/18) 2026-10-21
+  'Committee', // zurückgestellt: englisches Wort, kein gesichertes deutsches Nomen (Regel 14) 2026-10-21
+  'Compagnie', // zurückgestellt: veraltete Schreibung von «Kompanie»/«Kompagnie» — nicht sicher (Regel 14) 2026-10-21
+  'Corpus', // zurückgestellt: Schreibung/Bedeutung unsicher (Korpus: Textsammlung, Möbelkörper, Corpus Christi …) (Regel 14) 2026-10-21
+  'County', // zurückgestellt: englisches Verwaltungswort (Grafschaft in GB/USA) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-21
+  'Court', // zurückgestellt: Tennisplatz (Fachsprache) — Gebrauch/Genus nicht sicher (Regel 14) 2026-10-21
+  'Couture', // zurückgestellt: meist nur in «Haute Couture» — als selbständiges Nomen nicht sicher (Regel 14) 2026-10-21
+  'Cox', // zurückgestellt: Apfelsorte (Cox Orange) bzw. Personenname — nicht sicher (Regel 14) 2026-10-21
+  'Creek', // zurückgestellt: englisches Wort (Bach), kein gesichertes deutsches Nomen (Regel 14) 2026-10-21
+  'Cuba', // zurückgestellt: englische/spanische Schreibung von «Kuba» — Lemma nicht sicher (Regel 14/18) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
