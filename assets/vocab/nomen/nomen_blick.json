@@ -1,0 +1,162 @@
+{
+  "schema": "3.0",
+  "id": "nomen_blick",
+  "wort": "der Blick",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نگاه",
+      "منظره",
+      "چشم‌انداز"
+    ],
+    "en": [
+      "look",
+      "glance",
+      "view"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Wahrnehmung"
+  ],
+  "ipa": "blɪk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vom Balkon hat man einen schönen Blick auf den See.",
+      "uebersetzung": {
+        "fa": "از بالکن منظره‌ی زیبایی رو به دریاچه هست.",
+        "en": "From the balcony you have a lovely view of the lake."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Auf den ersten Blick wirkt die Aufgabe einfach, aber sie ist eigentlich ziemlich kompliziert.",
+      "uebersetzung": {
+        "fa": "در نگاه اول این تکلیف ساده به نظر می‌رسد، اما در واقع نسبتاً پیچیده است.",
+        "en": "At first glance the task seems easy, but it is actually quite complicated."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Aussicht",
+      "uebersetzung": {
+        "fa": "منظره",
+        "en": "view"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Augenblick",
+      "uebersetzung": {
+        "fa": "لحظه",
+        "en": "moment"
+      }
+    },
+    {
+      "wort": "der Rückblick",
+      "uebersetzung": {
+        "fa": "نگاه به گذشته",
+        "en": "review"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "blicken (نگاه کردن) → Blick",
+    "en": "blicken (to look) → Blick"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Blicke",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Blick auf + Akk",
+        "beispiel": "Der Blick auf die Berge ist fantastisch.",
+        "uebersetzung": {
+          "fa": "منظره‌ی کوه‌ها فوق‌العاده است.",
+          "en": "The view of the mountains is fantastic."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Blick werfen auf + Akk",
+        "beispiel": "Kannst du kurz einen Blick auf meinen Text werfen?",
+        "uebersetzung": {
+          "fa": "می‌توانی یک نگاه کوتاه به متنم بیندازی؟",
+          "en": "Can you take a quick look at my text?"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "blicken",
+    "woerter": [
+      {
+        "wort": "blicken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نگاه کردن",
+          "en": "to look"
+        },
+        "id_ref": "verb_blicken"
+      },
+      {
+        "wort": "die Aussicht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منظره",
+          "en": "view"
+        },
+        "id_ref": "nomen_aussicht"
+      },
+      {
+        "wort": "sehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دیدن",
+          "en": "to see"
+        },
+        "id_ref": "verb_sehen"
+      },
+      {
+        "wort": "der Augenblick",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "لحظه",
+          "en": "moment"
+        },
+        "id_ref": "nomen_augenblick"
+      },
+      {
+        "wort": "das Auge",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "چشم",
+          "en": "eye"
+        },
+        "id_ref": "nomen_auge"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

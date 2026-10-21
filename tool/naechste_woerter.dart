@@ -2541,6 +2541,23 @@ const zurueckgestellt = <String>{
   'Bezirksbeirat', // zurückgestellt: regionales Gremium einzelner deutscher Städte — als allgemeines Lernwort nicht sicher (Regel 14) 2026-10-20
   'Bezirksklasse', // zurückgestellt: regionale Sportliga in Deutschland — als Lernwort nicht sicher (Regel 14) 2026-10-20
   'Bibi', // zurückgestellt: umgangssprachlich (Kopfbedeckung bzw. Kosename) — Bedeutung nicht sicher (Regel 14) 2026-10-20
+  'Binde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verband, Armbinde / Damenbinde / Augenbinde) — nach den Nomen 2026-10-20
+  'Binder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr.: Krawatte / Bauwesen: Träger / Bindemittel; Buchbinder) — nach den Nomen 2026-10-20
+  'Bindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: emotionale Bindung / Skibindung / chemische Bindung; Verpflichtung) — nach den Nomen 2026-10-20
+  'Bitterkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: bitterer Geschmack / Verbitterung, seelischer Schmerz) — nach den Nomen 2026-10-20
+  'Blackout', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stromausfall / Gedächtnisaussetzer, Filmriss) — nach den Nomen 2026-10-20
+  'Blase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Luftblase / Harnblase / Hautblase) — nach den Nomen 2026-10-20
+  'Blatt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenblatt / Blatt Papier / Zeitung («das Blatt»); Spielkarten) — nach den Nomen 2026-10-20
+  'Blech', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallblech / Backblech / umgangssprachlich: Unsinn («Red kein Blech»)) — nach den Nomen 2026-10-20
+  'Blitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetterblitz / Kamerablitz / Radarfalle («geblitzt werden»)) — nach den Nomen 2026-10-20
+  'Block', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klotz / Notizblock / Häuserblock / politischer Block) — nach den Nomen 2026-10-20
+  'Boden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußboden / Erdboden, Erde / Dachboden / Grund eines Gefäßes) — nach den Nomen 2026-10-20
+  'Bodenhaftung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haftung von Reifen auf der Straße / übertragen: Realitätssinn) — nach den Nomen 2026-10-20
+  'Binge', // zurückgestellt: fachsprachlich/Bergbau bzw. Anglizismus — Bedeutung als Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Bleiche', // zurückgestellt: veraltet (Rasenbleiche) bzw. selten — als Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Blocher', // zurückgestellt: schweizerisch: Bohnermaschine bzw. Familienname — nicht sicher (Regel 14) 2026-10-20
+  'Bobby', // zurückgestellt: englisch: britischer Polizist — im Deutschen selten, nicht sicher (Regel 14) 2026-10-20
+  'Bobo', // zurückgestellt: Szenewort (Bourgeois-Bohème, v. a. Wien) — Gebrauch nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
