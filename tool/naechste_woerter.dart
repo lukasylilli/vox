@@ -2528,6 +2528,19 @@ const zurueckgestellt = <String>{
   'Bete', // zurückgestellt: fast nur in «Rote Bete» — als eigenes Nomen nicht sicher (Regel 14) 2026-10-20
   'Bettag', // zurückgestellt: fast nur in «Buß- und Bettag» / «Eidgenössischer Bettag» (Feiertagsname) — nicht sicher (Regel 14) 2026-10-20
   'Bettel', // zurückgestellt: umgangssprachlich/veraltend (Kram; «den Bettel hinwerfen») — nicht sicher (Regel 14) 2026-10-20
+  'Bewegung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Bewegung / politische oder soziale Bewegung / innere Bewegung, Rührung) — nach den Nomen 2026-10-20
+  'Bewusstsein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zustand des Wachseins («das Bewusstsein verlieren») / Wissen, Bewusstheit («Umweltbewusstsein»)) — nach den Nomen 2026-10-20
+  'Beziehung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Liebesbeziehung, Partnerschaft / Verbindung, Zusammenhang / Plural: Kontakte («Beziehungen haben»)) — nach den Nomen 2026-10-20
+  'Bezirksrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium eines Bezirks / einzelnes Mitglied dieses Gremiums) — nach den Nomen 2026-10-20
+  'Bezirksverordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Bezirksverordnete) — nach den Nomen 2026-10-20
+  'Bezirksvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Bezirksvorsitzende) — nach den Nomen 2026-10-20
+  'Bezug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überzug (Kissenbezug) / Bezugnahme («in Bezug auf») / Erwerb, Erhalt; Plural: Gehalt («Bezüge»)) — nach den Nomen 2026-10-20
+  'Biedermann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltet: rechtschaffener Mann / abwertend: Spießer) — nach den Nomen 2026-10-20
+  'Bilanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft: Gegenüberstellung von Vermögen und Kapital / Ergebnis, Fazit («Bilanz ziehen»)) — nach den Nomen 2026-10-20
+  'Bildung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erziehung, Wissen / Entstehung, Formung (Wortbildung, Bildung einer Regierung)) — nach den Nomen 2026-10-20
+  'Bezirksbeirat', // zurückgestellt: regionales Gremium einzelner deutscher Städte — als allgemeines Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Bezirksklasse', // zurückgestellt: regionale Sportliga in Deutschland — als Lernwort nicht sicher (Regel 14) 2026-10-20
+  'Bibi', // zurückgestellt: umgangssprachlich (Kopfbedeckung bzw. Kosename) — Bedeutung nicht sicher (Regel 14) 2026-10-20
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

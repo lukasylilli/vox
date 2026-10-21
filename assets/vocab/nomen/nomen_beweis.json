@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beweis",
+  "wort": "der Beweis",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دلیل",
+      "مدرک",
+      "اثبات"
+    ],
+    "en": [
+      "proof",
+      "evidence"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Wissenschaft"
+  ],
+  "ipa": "bəˈvaɪ̯s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hast du einen Beweis dafür?",
+      "uebersetzung": {
+        "fa": "مدرکی برای این داری؟",
+        "en": "Do you have proof of that?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Polizei hat keine Beweise gefunden, deshalb musste sie den Verdächtigen freilassen.",
+      "uebersetzung": {
+        "fa": "پلیس مدرکی پیدا نکرد، برای همین مجبور شد مظنون را آزاد کند.",
+        "en": "The police found no evidence, so they had to release the suspect."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Nachweis",
+      "uebersetzung": {
+        "fa": "مدرک",
+        "en": "proof"
+      }
+    },
+    {
+      "wort": "der Beleg",
+      "uebersetzung": {
+        "fa": "سند",
+        "en": "evidence"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Beweismittel",
+      "uebersetzung": {
+        "fa": "مدرک",
+        "en": "piece of evidence"
+      }
+    },
+    {
+      "wort": "der Gegenbeweis",
+      "uebersetzung": {
+        "fa": "دلیل مخالف",
+        "en": "counter-evidence"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "beweisen (ثابت کردن) → Beweis",
+    "en": "beweisen (to prove) → Beweis"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Beweise",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Beweis für + Akk",
+        "beispiel": "Das Foto ist ein Beweis für seine Unschuld.",
+        "uebersetzung": {
+          "fa": "این عکس دلیلی بر بی‌گناهی اوست.",
+          "en": "The photo is proof of his innocence."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "unter Beweis stellen",
+        "beispiel": "Sie hat ihr Talent schon oft unter Beweis gestellt.",
+        "uebersetzung": {
+          "fa": "او بارها استعدادش را ثابت کرده است.",
+          "en": "She has often demonstrated her talent."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "beweisen",
+    "woerter": [
+      {
+        "wort": "beweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثابت کردن",
+          "en": "to prove"
+        },
+        "id_ref": "verb_beweisen"
+      },
+      {
+        "wort": "der Nachweis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدرک",
+          "en": "proof"
+        },
+        "id_ref": "nomen_nachweis"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "die Beweislast",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بار اثبات",
+          "en": "burden of proof"
+        },
+        "id_ref": "nomen_beweislast"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
