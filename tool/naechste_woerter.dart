@@ -2586,6 +2586,18 @@ const zurueckgestellt = <String>{
   'Brunn', // zurückgestellt: veraltet/dichterisch für Brunnen bzw. Ortsnamenteil — nicht sicher (Regel 14) 2026-10-20
   'Bubi', // zurückgestellt: umgangssprachlich/abwertend: Junge, Milchbubi — Gebrauch nicht sicher (Regel 14) 2026-10-20
   'Buchs', // zurückgestellt: Buchsbaum (meist «Buchsbaum») bzw. Ortsname in der Schweiz — nicht sicher (Regel 14/18) 2026-10-20
+  'Bundesrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Länderkammer (D, Ö) bzw. Regierung (CH) / Mitglied dieses Organs (CH, Ö: «ein Bundesrat»)) — nach den Nomen 2026-10-21
+  'Bundesstaat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staat aus mehreren Ländern (Föderation) / Gliedstaat eines Bundesstaates (z. B. US-Bundesstaat)) — nach den Nomen 2026-10-21
+  'Bundestagsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Bundestagsabgeordnete) — nach den Nomen 2026-10-21
+  'Bundestagsabgeordneter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundestagsabgeordnete») — nach den Nomen 2026-10-21
+  'Bundesvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Bundesvorsitzende) — nach den Nomen 2026-10-21
+  'Bundesvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundesvorsitzende») — nach den Nomen 2026-10-21
+  'Bunker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutzraum / Behälter für Kohle, Getreide / Golf: Sandhindernis) — nach den Nomen 2026-10-21
+  'Burg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Festung, Schloss / Strandburg (Sandwall) / Jägersprache: Biberbau) — nach den Nomen 2026-10-21
+  'Bursch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Bursche»: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft; v. a. österr./südd. Form) — nach den Nomen 2026-10-21
+  'Bursche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft / ugs.: großes Exemplar) — nach den Nomen 2026-10-21
+  'Bungee', // zurückgestellt: als selbständiges Nomen nicht gesichert (gebräuchlich: «Bungeejumping», «Bungeespringen») — nicht sicher (Regel 14) 2026-10-21
+  'Bureau', // zurückgestellt: veraltete bzw. schweizerische Schreibung von «Büro» — Gebrauch/Einordnung nicht sicher (Regel 14) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
