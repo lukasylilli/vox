@@ -2732,6 +2732,8 @@ const zurueckgestellt = <String>{
   'Durchsicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfung, Durchsehen / Blick durch etwas) — nach den Nomen 2026-10-22
   'Dynamik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Lehre von Kräften / Schwung, Triebkraft / Musik: Lautstärkeverlauf) — nach den Nomen 2026-10-22
   'Ebene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: flaches Land / Mathematik: Fläche / Stufe, Niveau) — nach den Nomen 2026-10-22
+  'Eckpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Punkt an einer Ecke, Endpunkt / wesentlicher Punkt («Eckpunkte eines Plans»)) — nach den Nomen 2026-10-22
+  'Eckstein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stein an einer Ecke, Grundstein / Spielkartenfarbe Karo) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2739,6 +2741,7 @@ const zurueckgestellt = <String>{
   'Drost', // zurückgestellt: regionaler/historischer Amtstitel (Landdrost) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
   'Duke', // zurückgestellt: englischer Adelstitel — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-22
   'Eagle', // zurückgestellt: Golfbegriff (englisch) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-22
+  'Ecker', // zurückgestellt: Buchecker bzw. Spielkartenfarbe (landschaftlich) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

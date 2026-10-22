@@ -2328,6 +2328,7 @@
 | ۲۱۵۱ | Drost | `substantiv_singular_alle.txt` | 2026-10-22 | regionaler/historischer Amtstitel (Landdrost) — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۱۵۲ | Duke | `substantiv_singular_alle.txt` | 2026-10-22 | englischer Adelstitel — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۵۳ | Eagle | `substantiv_singular_alle.txt` | 2026-10-22 | Golfbegriff (englisch) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۵۴ | Ecker | `substantiv_singular_alle.txt` | 2026-10-22 | Buchecker bzw. Spielkartenfarbe (landschaftlich) — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2708,3 +2709,5 @@
 | 534 | Durchsicht | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Prüfung, Durchsehen / Blick durch etwas) |
 | 535 | Dynamik | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Physik: Lehre von Kräften / Schwung, Triebkraft / Musik: Lautstärkeverlauf) |
 | 536 | Ebene | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: flaches Land / Mathematik: Fläche / Stufe, Niveau) |
+| 537 | Eckpunkt | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Punkt an einer Ecke, Endpunkt / wesentlicher Punkt («Eckpunkte eines Plans»)) |
+| 538 | Eckstein | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Stein an einer Ecke, Grundstein / Spielkartenfarbe Karo) |
