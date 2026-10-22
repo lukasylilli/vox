@@ -213,6 +213,8 @@
 - **⚡ سرعت:** `bash tool/wort_runde.sh /tmp/batch.json` = مراحل ۵–۷ (dry-run ⇒ import ⇒ index ⇒ ✓ ⇒ analyze ⇒ test ⇒ ۱۰ کلمه‌ی بعدی) در یک اجرا؛ اولین مشکل ⇒ توقف.
 - **جلسه‌ی 2026-10-22 (بخش ۱):** دور ۱۱۲۶–۱۱۳۱ — ۶۰ مدخل (Dolmetscherin … Dramaturg) ⇒ ۴۸ کارت، آرشیو ۱۱٬۶۹۵؛ ۱۱ ⇒ فهرست چهار حالت (#۵۰۷، #۵۰۸، #۵۰۹، #۵۱۰، #۵۱۱، #۵۱۲، #۵۱۳، #۵۱۴، #۵۱۵، #۵۱۶، #۵۱۷)؛ ۱ ⇒ «🏁» (#۲۱۵۰). بعدی: Dramaturgie.
 
+- **بازبینی 2026-10-22 (فاز Q):** ۸۷۲ کارت دیروز و امروز (Bewacher … Dramaturg) بررسی شد؛ ۱۸ فایل در `assets/vocab/nomen/` اصلاح شد (Komposita غلط، ۳ ترجمه‌ی fa، Dechant n-Dekl.، plural/zaehlbar، IPA). کد اپ دست نخورد.
+
 - **جلسه‌ی 2026-10-14:** دور ۶۴۳ — ۱۰ فعل (beklatschen … belasten)، اولین کارت‌ها با فیلدهای Regel 17 (خالی/null)؛ ۱ کنار گذاشته (#۱۵۳۳ belämmern). فقط `assets/vocab/verb/` + ✓ + `zurueckgestellt` + PLAN/MAP — کد اپ دست نخورد. 
 - **جلسه‌ی 2026-10-14 (ادامه):** دور ۶۴۴–۶۵۳ — ۱۰۰ فعل باقاعده (belästigen … bezichtigen)، آرشیو ۷۵۰۱؛ benennen مختلط (`regelmaessig: false`)؛ ۱۳ کنار گذاشته (#۱۵۳۴–۱۵۴۶؛ ⚠️ betatschen و bewegen ⇒ تصمیم Lukas). فقط `assets/vocab/verb/` + ✓ + `zurueckgestellt` + PLAN/MAP — کد اپ دست نخورد. بعدی: beziffern.
 - **جلسه‌ی 2026-10-15 (ادامه ۳):** دور ۶۷۷–۶۷۹ — ۳۰ فعل باقاعده (einwilligen … entkräften)، آرشیو ۷۷۶۱؛ ۱ کنار گذاشته (#۱۵۶۴: entblöden). فقط `assets/vocab/verb/` + ✓ + `zurueckgestellt` + PLAN/MAP — کد اپ دست نخورد. بعدی: entlarven.
