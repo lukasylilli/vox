@@ -2701,3 +2701,6 @@
 | 528 | Duktus | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Schriftzug, Linienführung / charakteristische Art des Ausdrucks) |
 | 529 | Duldung | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: das Dulden, Hinnehmen / Recht: ausgesetzte Abschiebung, Aufenthaltsstatus) |
 | 530 | Durchblick | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Blick durch etwas, Ausblick / ugs.: Überblick, Verständnis) |
+| 531 | Durchgang | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Weg, Passage / Runde, Wahlgang) |
+| 532 | Durchmarsch | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Marsch durch ein Gebiet / Sport, Politik: Siegesserie / Kartenspiel) |
+| 533 | Durchschlagskraft | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Kraft eines Geschosses / Wirksamkeit, Überzeugungskraft) |

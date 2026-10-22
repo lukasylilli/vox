@@ -2726,6 +2726,9 @@ const zurueckgestellt = <String>{
   'Duktus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schriftzug, Linienführung / charakteristische Art des Ausdrucks) — nach den Nomen 2026-10-22
   'Duldung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Dulden, Hinnehmen / Recht: ausgesetzte Abschiebung, Aufenthaltsstatus) — nach den Nomen 2026-10-22
   'Durchblick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blick durch etwas, Ausblick / ugs.: Überblick, Verständnis) — nach den Nomen 2026-10-22
+  'Durchgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weg, Passage / Runde, Wahlgang) — nach den Nomen 2026-10-22
+  'Durchmarsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marsch durch ein Gebiet / Sport, Politik: Siegesserie / Kartenspiel) — nach den Nomen 2026-10-22
+  'Durchschlagskraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kraft eines Geschosses / Wirksamkeit, Überzeugungskraft) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

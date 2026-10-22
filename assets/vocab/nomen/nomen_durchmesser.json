@@ -1,0 +1,119 @@
+{
+  "schema": "3.0",
+  "id": "nomen_durchmesser",
+  "wort": "der Durchmesser",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قطر (دایره)"
+    ],
+    "en": [
+      "diameter"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Mathematik",
+    "Technik"
+  ],
+  "ipa": "ˈdʊʁçˌmɛsɐ",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Tisch hat einen Durchmesser von einem Meter.",
+      "uebersetzung": {
+        "fa": "میز قطری یک‌متری دارد.",
+        "en": "The table has a diameter of one metre."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Um die Fläche eines Kreises zu berechnen, braucht man den Durchmesser oder den Radius.",
+      "uebersetzung": {
+        "fa": "برای محاسبه‌ی مساحت دایره، قطر یا شعاع لازم است.",
+        "en": "To calculate the area of a circle, you need the diameter or the radius."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "durch (از میان) + messen (اندازه گرفتن) + -er",
+    "en": "durch (through) + messen (to measure) + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Durchmesser",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "messen",
+    "woerter": [
+      {
+        "wort": "der Meter",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "متر",
+          "en": "metre"
+        },
+        "id_ref": "nomen_meter"
+      },
+      {
+        "wort": "der Kreis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دایره",
+          "en": "circle"
+        },
+        "id_ref": "nomen_kreis"
+      },
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      },
+      {
+        "wort": "die Fläche",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مساحت",
+          "en": "area"
+        },
+        "id_ref": "nomen_flaeche"
+      },
+      {
+        "wort": "der Radius",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شعاع",
+          "en": "radius"
+        },
+        "id_ref": "nomen_radius"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
