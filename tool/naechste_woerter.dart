@@ -2717,6 +2717,8 @@ const zurueckgestellt = <String>{
   'Dreher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beruf an der Drehbank / Volkstanz) — nach den Nomen 2026-10-22
   'Drehkreuz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sperre am Eingang / Verkehrsknotenpunkt (Luftverkehr)) — nach den Nomen 2026-10-22
   'Drehscheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Töpferscheibe / Gleisdrehscheibe / Knotenpunkt) — nach den Nomen 2026-10-22
+  'Dressur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrichten von Tieren / Dressurreiten als Disziplin) — nach den Nomen 2026-10-22
+  'Droge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rauschgift / Rohstoff für Arzneimittel / etwas, das süchtig macht) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
