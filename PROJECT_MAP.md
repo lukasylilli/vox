@@ -1,6 +1,7 @@
 # PROJECT MAP — VOX
 # نقشه کامل پروژه برای ناوبری سریع در هر session
 # 🚫 قاعده‌ی ثابت (Lukas، 2026-10-15): کار روی VOX (به‌ویژه وارد کردن کلمه‌ها) هیچ ربطی به Root-in ندارد — فایل‌ها و کد Root-in نه خوانده، نه بررسی، نه تغییر داده می‌شوند. تنها ارتباط: یک دکمه در VOX به اپ Root-in (`lib/core/constants/app_links.dart` → `rootInUrl`). جزئیات: PLAN.md بالا.
+# آپدیت 2026-10-22 خلاصه‌سازی چهارم (گام ۱): تازه `docs/ZURUECKGESTELLT.md` = تنها جای جدول‌های کلمه‌های کنار گذاشته‌شده (جدول ۱ ⇄ `zurueckgestellt`، جدول ۲ ⇄ «Vier-Fälle-Liste» در `tool/naechste_woerter.dart`)؛ از PLAN جدا شد. کامنت `naechste_woerter.dart` اصلاح شد، کد اپ دست نخورد.
 # آپدیت 2026-10-22 (بخش ۱) دور ۱۱۲۶–۱۱۳۵: ۸۰ کارت ⇒ assets/vocab/nomen (Dolmetscherin … Drogerie؛ ۳ نام جغرافیایی کوتاه) ⇒ آرشیو ۱۱٬۷۲۷ · tool/naechste_woerter.dart: zurueckgestellt += ۲۰ (۱۹ Vier-Fälle-Liste #۵۰۷–#۵۲۵ + ۱ نامطمئن #۲۱۵۰). کد اپ دست نخورد.
 
 # آپدیت 2026-10-21 (بخش ۶) دور ۱۱۱۶–۱۱۲۵: ۷۸ کارت ⇒ assets/vocab/nomen (Dienstleistungszentrum … Dolmetscher؛ ۱ نام جغرافیایی کوتاه) ⇒ آرشیو ۱۱٬۶۴۷ · tool/naechste_woerter.dart: zurueckgestellt += ۲۲ (۱۹ Vier-Fälle-Liste #۴۸۸–#۵۰۶ + ۳ نامطمئن #۲۱۴۷–#۲۱۴۹). کد اپ دست نخورد.
