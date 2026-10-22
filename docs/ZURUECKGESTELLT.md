@@ -2704,3 +2704,4 @@
 | 531 | Durchgang | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Weg, Passage / Runde, Wahlgang) |
 | 532 | Durchmarsch | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Marsch durch ein Gebiet / Sport, Politik: Siegesserie / Kartenspiel) |
 | 533 | Durchschlagskraft | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Kraft eines Geschosses / Wirksamkeit, Überzeugungskraft) |
+| 534 | Durchsicht | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Prüfung, Durchsehen / Blick durch etwas) |
