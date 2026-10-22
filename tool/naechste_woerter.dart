@@ -2705,6 +2705,7 @@ const zurueckgestellt = <String>{
   'Doppelpack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zwei Tore eines Spielers / zwei zusammen verpackte Stücke) — nach den Nomen 2026-10-22
   'Doppelpass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußball-Doppelpass / doppelte Staatsbürgerschaft (ugs.)) — nach den Nomen 2026-10-22
   'Doppelschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zwei Treffer in kurzer Folge / Verzierung in der Musik / zwei Schläge) — nach den Nomen 2026-10-22
+  'Dorado', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Paradies für jemanden / Sternbild) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
