@@ -2700,3 +2700,4 @@
 | 527 | Dschihad | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: «Heiliger Krieg» / religiöses Bemühen, innerer Kampf) |
 | 528 | Duktus | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Schriftzug, Linienführung / charakteristische Art des Ausdrucks) |
 | 529 | Duldung | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: das Dulden, Hinnehmen / Recht: ausgesetzte Abschiebung, Aufenthaltsstatus) |
+| 530 | Durchblick | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Blick durch etwas, Ausblick / ugs.: Überblick, Verständnis) |
