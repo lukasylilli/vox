@@ -2723,11 +2723,14 @@ const zurueckgestellt = <String>{
   'Drogentoter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Drogentote / ein Drogentoter) — nach den Nomen 2026-10-22
   'Drucker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Drucken / Facharbeiter in der Druckerei) — nach den Nomen 2026-10-22
   'Dschihad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «Heiliger Krieg» / religiöses Bemühen, innerer Kampf) — nach den Nomen 2026-10-22
+  'Duktus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schriftzug, Linienführung / charakteristische Art des Ausdrucks) — nach den Nomen 2026-10-22
+  'Duldung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Dulden, Hinnehmen / Recht: ausgesetzte Abschiebung, Aufenthaltsstatus) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
   'Donna', // zurückgestellt: italienische Anrede/Vorname — Bedeutung und Gebrauch im Deutschen nicht sicher (Regel 14) 2026-10-22
   'Drost', // zurückgestellt: regionaler/historischer Amtstitel (Landdrost) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
+  'Duke', // zurückgestellt: englischer Adelstitel — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-22
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
