@@ -2704,6 +2704,7 @@ const zurueckgestellt = <String>{
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
+  'Donna', // zurückgestellt: italienische Anrede/Vorname — Bedeutung und Gebrauch im Deutschen nicht sicher (Regel 14) 2026-10-22
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
