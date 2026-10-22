@@ -2702,6 +2702,9 @@ const zurueckgestellt = <String>{
   'Doktor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: akademischer Titel / ugs.: Arzt) — nach den Nomen 2026-10-21
   'Dokumentation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dokumentarfilm / das Dokumentieren, Pflegedokumentation / Sammlung von Unterlagen) — nach den Nomen 2026-10-21
   'Doppeldecker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flugzeug mit zwei Tragflächen / Bus mit zwei Etagen) — nach den Nomen 2026-10-22
+  'Doppelpack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zwei Tore eines Spielers / zwei zusammen verpackte Stücke) — nach den Nomen 2026-10-22
+  'Doppelpass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußball-Doppelpass / doppelte Staatsbürgerschaft (ugs.)) — nach den Nomen 2026-10-22
+  'Doppelschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zwei Treffer in kurzer Folge / Verzierung in der Musik / zwei Schläge) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

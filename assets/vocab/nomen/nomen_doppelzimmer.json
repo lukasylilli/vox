@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_doppelzimmer",
+  "wort": "das Doppelzimmer",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "اتاق دو نفره"
+    ],
+    "en": [
+      "double room"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Reisen",
+    "Hotel"
+  ],
+  "ipa": "ˈdɔpl̩ˌt͡sɪmɐ",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir möchten ein Doppelzimmer für zwei Nächte.",
+      "uebersetzung": {
+        "fa": "ما یک اتاق دو نفره برای دو شب می‌خواهیم.",
+        "en": "We would like a double room for two nights."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil das Hotel ausgebucht war, bekamen wir nur noch ein Doppelzimmer ohne Balkon.",
+      "uebersetzung": {
+        "fa": "چون هتل پر بود، فقط یک اتاق دو نفره بدون بالکن به ما رسید.",
+        "en": "Because the hotel was fully booked, we only got a double room without a balcony."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "das Einzelzimmer",
+      "uebersetzung": {
+        "fa": "اتاق یک نفره",
+        "en": "single room"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "doppel- (دوگانه) + das Zimmer (اتاق)",
+    "en": "doppel- (double) + das Zimmer (room)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Doppelzimmer",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Doppelzimmer buchen",
+        "beispiel": "Wir haben im Internet ein Doppelzimmer gebucht.",
+        "uebersetzung": {
+          "fa": "ما در اینترنت یک اتاق دو نفره رزرو کردیم.",
+          "en": "We booked a double room online."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Zimmer",
+    "woerter": [
+      {
+        "wort": "das Zimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتاق",
+          "en": "room"
+        },
+        "id_ref": "nomen_zimmer"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      },
+      {
+        "wort": "das Einzelzimmer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اتاق یک نفره",
+          "en": "single room"
+        },
+        "id_ref": "nomen_einzelzimmer"
+      },
+      {
+        "wort": "buchen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو کردن",
+          "en": "to book"
+        },
+        "id_ref": "verb_buchen"
+      },
+      {
+        "wort": "die Reservierung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رزرو",
+          "en": "reservation"
+        },
+        "id_ref": "nomen_reservierung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
