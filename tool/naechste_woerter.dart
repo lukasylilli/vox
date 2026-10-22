@@ -2668,6 +2668,20 @@ const zurueckgestellt = <String>{
   'Damian', // zurückgestellt: Vorname — kein Lernwort (Regel 14/18) 2026-10-21
   'Dan', // zurückgestellt: Rang im Budo (Judo, Karate) — Plural/Gebrauch nicht sicher (Regel 14) 2026-10-21
   'Dancing', // zurückgestellt: veraltend/schweizerisch für Tanzlokal — Gebrauch nicht sicher (Regel 14) 2026-10-21
+  'Demonstration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kundgebung, Protestmarsch / Vorführung, Beweis (z. B. «Demonstration der Stärke»)) — nach den Nomen 2026-10-21
+  'Demontage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abbau einer Anlage / übertragen: schrittweise Zerstörung, z. B. eines Politikers) — nach den Nomen 2026-10-21
+  'Departement', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ministerium in der Schweiz / Verwaltungsbezirk in Frankreich) — nach den Nomen 2026-10-21
+  'Depot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lager, Aufbewahrungsort / Wertpapierdepot / Betriebshof für Busse, Straßenbahnen) — nach den Nomen 2026-10-21
+  'Depression', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: psychische Krankheit / wirtschaftlicher Abschwung / Meteorologie: Tief) — nach den Nomen 2026-10-21
+  'Derivat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chemie: abgeleitete Verbindung / Finanzen: Finanzinstrument / Sprache: abgeleitetes Wort) — nach den Nomen 2026-10-21
+  'Desktop', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bildschirmoberfläche / Desktop-Computer) — nach den Nomen 2026-10-21
+  'Deutscher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Deutsche») — nach den Nomen 2026-10-21
+  'Devise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahlspruch, Motto / Plural «Devisen»: ausländische Zahlungsmittel) — nach den Nomen 2026-10-21
+  'Diakonie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kirchlicher Sozialdienst / Name der evangelischen Hilfsorganisation) — nach den Nomen 2026-10-21
+  'Diener', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bediensteter / ugs.: Verbeugung («einen Diener machen»)) — nach den Nomen 2026-10-21
+  'Dienst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeit, Schicht («Dienst haben») / Hilfe, Gefallen / Behörde, Einrichtung (z. B. Geheimdienst)) — nach den Nomen 2026-10-21
+  'Demos', // zurückgestellt: griechisch «Volk», Fachwort — Abgrenzung zu «die Demo» (Plural Demos) nicht sicher (Regel 14) 2026-10-21
+  'Deutschlandfunk', // zurückgestellt: Name eines Radiosenders — kein Lernwort (Regel 14/18) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
