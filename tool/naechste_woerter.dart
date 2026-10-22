@@ -2721,10 +2721,13 @@ const zurueckgestellt = <String>{
   'Dressur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abrichten von Tieren / Dressurreiten als Disziplin) — nach den Nomen 2026-10-22
   'Droge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rauschgift / Rohstoff für Arzneimittel / etwas, das süchtig macht) — nach den Nomen 2026-10-22
   'Drogentoter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Drogentote / ein Drogentoter) — nach den Nomen 2026-10-22
+  'Drucker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Drucken / Facharbeiter in der Druckerei) — nach den Nomen 2026-10-22
+  'Dschihad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «Heiliger Krieg» / religiöses Bemühen, innerer Kampf) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
   'Donna', // zurückgestellt: italienische Anrede/Vorname — Bedeutung und Gebrauch im Deutschen nicht sicher (Regel 14) 2026-10-22
+  'Drost', // zurückgestellt: regionaler/historischer Amtstitel (Landdrost) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

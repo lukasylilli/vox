@@ -2325,6 +2325,7 @@
 | ۲۱۴۸ | Direkteinspritzer | `substantiv_singular_alle.txt` | 2026-10-21 | Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۱۴۹ | Disc | `substantiv_singular_alle.txt` | 2026-10-21 | englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) | — |
 | ۲۱۵۰ | Donna | `substantiv_singular_alle.txt` | 2026-10-22 | italienische Anrede/Vorname — Bedeutung und Gebrauch im Deutschen nicht sicher (Regel 14) | — |
+| ۲۱۵۱ | Drost | `substantiv_singular_alle.txt` | 2026-10-22 | regionaler/historischer Amtstitel (Landdrost) — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2694,3 +2695,5 @@
 | 523 | Dressur | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Abrichten von Tieren / Dressurreiten als Disziplin) |
 | 524 | Droge | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Rauschgift / Rohstoff für Arzneimittel / etwas, das süchtig macht) |
 | 525 | Drogentoter | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 4 (substantiviertes Adjektiv: der/die Drogentote / ein Drogentoter) |
+| 526 | Drucker | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Gerät zum Drucken / Facharbeiter in der Druckerei) |
+| 527 | Dschihad | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: «Heiliger Krieg» / religiöses Bemühen, innerer Kampf) |
