@@ -2713,3 +2713,6 @@
 | 536 | Ebene | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: flaches Land / Mathematik: Fläche / Stufe, Niveau) |
 | 537 | Eckpunkt | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Punkt an einer Ecke, Endpunkt / wesentlicher Punkt («Eckpunkte eines Plans»)) |
 | 538 | Eckstein | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Stein an einer Ecke, Grundstein / Spielkartenfarbe Karo) |
+| 539 | Ehrenrunde | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 1 (mehrere Bedeutungen: Runde nach einem Sieg / ugs.: Wiederholen einer Schulklasse) |
+| 540 | Ehrenvorsitzende | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende) |
+| 541 | Ehrenvorsitzender | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende / ein Ehrenvorsitzender) |

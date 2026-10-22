@@ -2734,6 +2734,9 @@ const zurueckgestellt = <String>{
   'Ebene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: flaches Land / Mathematik: Fläche / Stufe, Niveau) — nach den Nomen 2026-10-22
   'Eckpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Punkt an einer Ecke, Endpunkt / wesentlicher Punkt («Eckpunkte eines Plans»)) — nach den Nomen 2026-10-22
   'Eckstein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stein an einer Ecke, Grundstein / Spielkartenfarbe Karo) — nach den Nomen 2026-10-22
+  'Ehrenrunde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Runde nach einem Sieg / ugs.: Wiederholen einer Schulklasse) — nach den Nomen 2026-10-22
+  'Ehrenvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende) — nach den Nomen 2026-10-22
+  'Ehrenvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende / ein Ehrenvorsitzender) — nach den Nomen 2026-10-22
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
