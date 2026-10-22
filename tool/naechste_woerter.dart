@@ -2682,6 +2682,28 @@ const zurueckgestellt = <String>{
   'Dienst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeit, Schicht («Dienst haben») / Hilfe, Gefallen / Behörde, Einrichtung (z. B. Geheimdienst)) — nach den Nomen 2026-10-21
   'Demos', // zurückgestellt: griechisch «Volk», Fachwort — Abgrenzung zu «die Demo» (Plural Demos) nicht sicher (Regel 14) 2026-10-21
   'Deutschlandfunk', // zurückgestellt: Name eines Radiosenders — kein Lernwort (Regel 14/18) 2026-10-21
+  'Dienstzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeitszeit, Dienststunden / Dauer der Beschäftigung, Dienstjahre) — nach den Nomen 2026-10-21
+  'Diesel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kraftstoff / Dieselmotor / Auto mit Dieselmotor) — nach den Nomen 2026-10-21
+  'Differenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterschied, Rechenergebnis / Plural: Meinungsverschiedenheiten) — nach den Nomen 2026-10-21
+  'Diktat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schreibübung in der Schule / Text zum Mitschreiben / aufgezwungene Bedingung («Diktat der Sieger»)) — nach den Nomen 2026-10-21
+  'Dimension', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausdehnung (Länge, Breite, Höhe) / Ausmaß, Größenordnung) — nach den Nomen 2026-10-21
+  'Ding', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sache, Gegenstand / ugs.: junges Mädchen («ein junges Ding»)) — nach den Nomen 2026-10-21
+  'Dino', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Dinosaurier / übertragen: etwas Veraltetes) — nach den Nomen 2026-10-21
+  'Dinosaurier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ausgestorbenes Reptil / übertragen: etwas Veraltetes, Rückständiges) — nach den Nomen 2026-10-21
+  'Diplomatie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Außenpolitik, diplomatischer Dienst / Geschick im Umgang («mit Diplomatie»)) — nach den Nomen 2026-10-21
+  'Discount', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verkauf mit Preisnachlass / Discountgeschäft) — nach den Nomen 2026-10-21
+  'Diskothek', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tanzlokal / Sammlung von Schallplatten) — nach den Nomen 2026-10-21
+  'Disposition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfügung, Planung («zur Disposition stehen») / Medizin: Veranlagung) — nach den Nomen 2026-10-21
+  'Dissonanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Missklang / übertragen: Unstimmigkeit) — nach den Nomen 2026-10-21
+  'Distribution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft: Vertrieb, Verteilung / EDV: Software-Distribution) — nach den Nomen 2026-10-21
+  'Disziplin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordnung, Selbstbeherrschung / Sportart / wissenschaftliches Fach) — nach den Nomen 2026-10-21
+  'Diva', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gefeierte Sängerin, Schauspielerin / abwertend: launische Person) — nach den Nomen 2026-10-21
+  'Division', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Teilen / Militär: Truppenverband / Sport: Liga) — nach den Nomen 2026-10-21
+  'Doktor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: akademischer Titel / ugs.: Arzt) — nach den Nomen 2026-10-21
+  'Dokumentation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dokumentarfilm / das Dokumentieren, Pflegedokumentation / Sammlung von Unterlagen) — nach den Nomen 2026-10-21
+  'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
+  'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
+  'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
