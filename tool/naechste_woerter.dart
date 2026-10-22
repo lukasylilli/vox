@@ -2742,6 +2742,8 @@ const zurueckgestellt = <String>{
   'Duke', // zurückgestellt: englischer Adelstitel — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-22
   'Eagle', // zurückgestellt: Golfbegriff (englisch) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-22
   'Ecker', // zurückgestellt: Buchecker bzw. Spielkartenfarbe (landschaftlich) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
+  'Eden', // zurückgestellt: biblischer Name (Garten Eden) — kein geografischer Name, Gebrauch als Nomen nicht sicher (Regel 14/18) 2026-10-22
+  'Egli', // zurückgestellt: schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) 2026-10-22
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

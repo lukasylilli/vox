@@ -2329,6 +2329,8 @@
 | ۲۱۵۲ | Duke | `substantiv_singular_alle.txt` | 2026-10-22 | englischer Adelstitel — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۵۳ | Eagle | `substantiv_singular_alle.txt` | 2026-10-22 | Golfbegriff (englisch) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۵۴ | Ecker | `substantiv_singular_alle.txt` | 2026-10-22 | Buchecker bzw. Spielkartenfarbe (landschaftlich) — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
+| ۲۱۵۵ | Eden | `substantiv_singular_alle.txt` | 2026-10-22 | biblischer Name (Garten Eden) — kein geografischer Name, Gebrauch als Nomen nicht sicher (Regel 14/18) | — |
+| ۲۱۵۶ | Egli | `substantiv_singular_alle.txt` | 2026-10-22 | schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
