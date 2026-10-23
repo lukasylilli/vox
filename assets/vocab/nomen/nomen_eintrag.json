@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_eintrag",
+  "wort": "der Eintrag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مدخل",
+      "ثبت",
+      "یادداشت (در دفتر یا فهرست)"
+    ],
+    "en": [
+      "entry"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Schule",
+    "Verwaltung"
+  ],
+  "ipa": "ˈaɪ̯nˌtʁaːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Wörterbuch gibt es keinen Eintrag zu diesem Wort.",
+      "uebersetzung": {
+        "fa": "در فرهنگ لغت هیچ مدخلی برای این کلمه نیست.",
+        "en": "There is no entry for this word in the dictionary."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil er im Unterricht gestört hat, bekam der Schüler einen Eintrag ins Klassenbuch.",
+      "uebersetzung": {
+        "fa": "چون دانش‌آموز سر کلاس مزاحمت ایجاد کرد، یک یادداشت در دفتر کلاس برایش ثبت شد.",
+        "en": "Because he disrupted the lesson, the pupil got an entry in the class register."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "eintragen (ثبت کردن)",
+    "en": "eintragen (to enter, to record)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Einträge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Eintrag in + Akk",
+        "beispiel": "Jeder Eintrag in die Liste muss vollständig sein.",
+        "uebersetzung": {
+          "fa": "هر ثبت در فهرست باید کامل باشد.",
+          "en": "Every entry in the list must be complete."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Liste",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فهرست",
+          "en": "list"
+        },
+        "id_ref": "nomen_liste"
+      },
+      {
+        "wort": "das Wörterbuch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرهنگ لغت",
+          "en": "dictionary"
+        },
+        "id_ref": "nomen_woerterbuch"
+      },
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "eintragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثبت کردن",
+          "en": "to enter"
+        },
+        "id_ref": "verb_eintragen"
+      },
+      {
+        "wort": "die Eintragung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت رسمی",
+          "en": "registration"
+        },
+        "id_ref": "nomen_eintragung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

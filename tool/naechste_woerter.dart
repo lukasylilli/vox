@@ -2773,6 +2773,8 @@ const zurueckgestellt = <String>{
   'Einstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erster Arbeitstag mit Ausgabe / Tennis: Gleichstand) — nach den Nomen 2026-10-23
   'Einstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haltung / Anstellung / Einstellen eines Geräts / Beenden / Filmaufnahme) — nach den Nomen 2026-10-23
   'Einstieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einsteigen, Tür eines Fahrzeugs / Beginn, Zugang zu einem Thema) — nach den Nomen 2026-10-23
+  'Eintagsfliege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insekt / kurzlebige Erscheinung) — nach den Nomen 2026-10-23
+  'Eintritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hineingehen / Eintrittsgeld / Beitritt zu einer Organisation / Beginn («Eintritt der Dunkelheit»)) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
