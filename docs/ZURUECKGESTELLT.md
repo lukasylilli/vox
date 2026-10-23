@@ -2729,3 +2729,6 @@
 | 550 | Einer | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Mathematik: Einerstelle / Sport: Einerboot) |
 | 551 | Einfall | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Idee / Eindringen in ein Land / Einfallen von Licht) |
 | 552 | Eingabe | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Gesuch an eine Behörde / EDV: Eingeben von Daten) |
+| 553 | Eingang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Tür, Zugang / Eintreffen von Post, Geld) |
+| 554 | Eingriff | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Medizin: Operation / Eingreifen in Rechte, Abläufe) |
+| 555 | Einheit | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einigkeit, Ganzes / Maßeinheit / militärische Gruppe / deutsche Einheit) |
