@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_eigenbedarf",
+  "wort": "der Eigenbedarf",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نیاز شخصی",
+      "مصرف شخصی"
+    ],
+    "en": [
+      "personal use",
+      "own needs"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Wohnen",
+    "Recht"
+  ],
+  "ipa": "ˈaɪ̯ɡn̩bəˌdaʁf",
+  "anmerkung": "Im Mietrecht: Kündigung wegen Eigenbedarf = der Vermieter braucht die Wohnung selbst.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gemüse aus dem Garten ist für den Eigenbedarf.",
+      "uebersetzung": {
+        "fa": "سبزیجات باغ برای مصرف شخصی است.",
+        "en": "The vegetables from the garden are for personal use."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Vermieter hat die Wohnung wegen Eigenbedarf gekündigt, weil seine Tochter dort einziehen möchte.",
+      "uebersetzung": {
+        "fa": "صاحبخانه قرارداد آپارتمان را به دلیل نیاز شخصی فسخ کرد، چون دخترش می‌خواهد آنجا ساکن شود.",
+        "en": "The landlord terminated the lease on the flat for personal use because his daughter wants to move in."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "eigen (خود) + Bedarf (نیاز)",
+    "en": "eigen (own) + Bedarf (need)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Eigenbedarf anmelden",
+        "beispiel": "Die Eigentümerin hat Eigenbedarf angemeldet.",
+        "uebersetzung": {
+          "fa": "مالک اعلام نیاز شخصی کرده است.",
+          "en": "The owner has declared that she needs the property for herself."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان",
+          "en": "flat"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "der Vermieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موجر، صاحبخانه",
+          "en": "landlord"
+        },
+        "id_ref": "nomen_vermieter"
+      },
+      {
+        "wort": "kündigen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ کردن",
+          "en": "to terminate"
+        },
+        "id_ref": "verb_kuendigen"
+      },
+      {
+        "wort": "die Kündigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فسخ قرارداد",
+          "en": "termination"
+        },
+        "id_ref": "nomen_kuendigung"
+      },
+      {
+        "wort": "der Bedarf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیاز",
+          "en": "need, demand"
+        },
+        "id_ref": "nomen_bedarf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

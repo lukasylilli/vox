@@ -2739,6 +2739,7 @@ const zurueckgestellt = <String>{
   'Ehrenvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende / ein Ehrenvorsitzender) — nach den Nomen 2026-10-22
   'Eichel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht der Eiche / Anatomie: Spitze des Penis / Spielkartenfarbe) — nach den Nomen 2026-10-23
   'Eidgenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied eines Eidbundes, historisch / Schweizer, Schweizerin) — nach den Nomen 2026-10-23
+  'Eidgenossenschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bund, durch Eid geschlossen / die Schweiz («Schweizerische Eidgenossenschaft»)) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2750,6 +2751,7 @@ const zurueckgestellt = <String>{
   'Eden', // zurückgestellt: biblischer Name (Garten Eden) — kein geografischer Name, Gebrauch als Nomen nicht sicher (Regel 14/18) 2026-10-22
   'Egli', // zurückgestellt: schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) 2026-10-22
   'Eicher', // zurückgestellt: Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-23
+  'Eigen', // zurückgestellt: das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-23
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

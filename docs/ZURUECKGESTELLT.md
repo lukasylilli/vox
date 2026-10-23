@@ -2332,6 +2332,7 @@
 | ۲۱۵۵ | Eden | `substantiv_singular_alle.txt` | 2026-10-22 | biblischer Name (Garten Eden) — kein geografischer Name, Gebrauch als Nomen nicht sicher (Regel 14/18) | — |
 | ۲۱۵۶ | Egli | `substantiv_singular_alle.txt` | 2026-10-22 | schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) | — |
 | ۲۱۵۷ | Eicher | `substantiv_singular_alle.txt` | 2026-10-23 | Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
+| ۲۱۵۸ | Eigen | `substantiv_singular_alle.txt` | 2026-10-23 | das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2719,3 +2720,4 @@
 | 541 | Ehrenvorsitzender | `substantiv_singular_alle.txt` | 2026-10-22 | Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende / ein Ehrenvorsitzender) |
 | 542 | Eichel | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Frucht der Eiche / Anatomie: Spitze des Penis / Spielkartenfarbe) |
 | 543 | Eidgenosse | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Mitglied eines Eidbundes, historisch / Schweizer, Schweizerin) |
+| 544 | Eidgenossenschaft | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Bund, durch Eid geschlossen / die Schweiz («Schweizerische Eidgenossenschaft»)) |
