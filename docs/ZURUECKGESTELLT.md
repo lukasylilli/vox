@@ -2723,3 +2723,7 @@
 | 544 | Eidgenossenschaft | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Bund, durch Eid geschlossen / die Schweiz («Schweizerische Eidgenossenschaft»)) |
 | 545 | Eigentor | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Ballspiele: Tor ins eigene Netz / Handlung, die einem selbst schadet) |
 | 546 | Einberufung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einberufen einer Versammlung / Einberufung zum Wehrdienst) |
+| 547 | Einblick | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Blick in etwas hinein / Kenntnis, Einsicht («Einblick gewinnen»)) |
+| 548 | Einbringung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Vorlegen eines Gesetzentwurfs / Einbringen von Kapital, Ernte) |
+| 549 | Einbruch | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Eindringen zum Stehlen / Beginn («bei Einbruch der Nacht») / Einsturz, starker Rückgang) |
+| 550 | Einer | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Mathematik: Einerstelle / Sport: Einerboot) |
