@@ -2763,6 +2763,8 @@ const zurueckgestellt = <String>{
   'Einrichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Möbel / Institution / Einrichten, Installation) — nach den Nomen 2026-10-23
   'Eins', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer 1 / Schulnote «sehr gut» / Linie 1) — nach den Nomen 2026-10-23
   'Einsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwendung / Einsatz von Polizei, Feuerwehr / Engagement / Spieleinsatz / Musik: Einsetzen) — nach den Nomen 2026-10-23
+  'Einsatzgebiet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebiet eines Polizei-/Militäreinsatzes / Anwendungsbereich eines Geräts) — nach den Nomen 2026-10-23
+  'Einschaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einschalten eines Geräts / Hinzuziehen («Einschaltung eines Anwalts») / Einschub) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
