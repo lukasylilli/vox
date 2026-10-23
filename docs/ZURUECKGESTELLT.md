@@ -2740,3 +2740,7 @@
 | 561 | Einlage | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Geldeinlage / Schuheinlage / Suppeneinlage / Programmeinlage) |
 | 562 | Einleitung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Vorwort, Anfang / Einleiten eines Verfahrens / Einleiten von Abwasser) |
 | 563 | Einnahme | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: eingenommenes Geld / Einnehmen von Medikamenten / Eroberung) |
+| 564 | Einordnung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einordnen, Klassifizierung / Verkehr: Einordnen in eine Spur) |
+| 565 | Einrichtung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Möbel / Institution / Einrichten, Installation) |
+| 566 | Eins | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Ziffer 1 / Schulnote «sehr gut» / Linie 1) |
+| 567 | Einsatz | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Verwendung / Einsatz von Polizei, Feuerwehr / Engagement / Spieleinsatz / Musik: Einsetzen) |
