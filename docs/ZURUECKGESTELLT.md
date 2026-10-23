@@ -2757,3 +2757,6 @@
 | 577 | Einstieg | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einsteigen, Tür eines Fahrzeugs / Beginn, Zugang zu einem Thema) |
 | 578 | Eintagsfliege | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Insekt / kurzlebige Erscheinung) |
 | 579 | Eintritt | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Hineingehen / Eintrittsgeld / Beitritt zu einer Organisation / Beginn («Eintritt der Dunkelheit»)) |
+| 580 | Einweihung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: feierliche Eröffnung / Einweihen in ein Geheimnis) |
+| 581 | Einweisung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einweisung ins Krankenhaus / Einführung, Anleitung) |
+| 582 | Einwurf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Sport: Einwurf des Balls / Öffnung, Schlitz / Einwand) |

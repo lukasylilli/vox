@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einwohner",
+  "wort": "der Einwohner",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ساکن",
+      "اهل (شهر یا کشور)"
+    ],
+    "en": [
+      "inhabitant",
+      "resident"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Stadt",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈaɪ̯nˌvoːnɐ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wien hat fast zwei Millionen Einwohner.",
+      "uebersetzung": {
+        "fa": "وین نزدیک به دو میلیون نفر جمعیت دارد.",
+        "en": "Vienna has almost two million inhabitants."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Jeder neue Einwohner muss sich innerhalb von drei Tagen beim Meldeamt anmelden.",
+      "uebersetzung": {
+        "fa": "هر ساکن جدید باید ظرف سه روز در اداره‌ی ثبت سکونت ثبت‌نام کند.",
+        "en": "Every new resident has to register at the registration office within three days."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Bewohner",
+      "uebersetzung": {
+        "fa": "ساکن",
+        "en": "resident"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (در) + wohnen (سکونت داشتن) + -er",
+    "en": "ein- (in) + wohnen (to live) + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Einwohner",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Stadt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شهر",
+          "en": "city"
+        },
+        "id_ref": "nomen_stadt"
+      },
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن، سکونت داشتن",
+          "en": "to live"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "der Bewohner",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساکن",
+          "en": "resident"
+        },
+        "id_ref": "nomen_bewohner"
+      },
+      {
+        "wort": "die Bevölkerung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمعیت",
+          "en": "population"
+        },
+        "id_ref": "nomen_bevoelkerung"
+      },
+      {
+        "wort": "die Einwohnerzahl",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تعداد جمعیت",
+          "en": "population figure"
+        },
+        "id_ref": "nomen_einwohnerzahl"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
