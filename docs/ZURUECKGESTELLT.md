@@ -2746,3 +2746,7 @@
 | 567 | Einsatz | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Verwendung / Einsatz von Polizei, Feuerwehr / Engagement / Spieleinsatz / Musik: Einsetzen) |
 | 568 | Einsatzgebiet | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Gebiet eines Polizei-/Militäreinsatzes / Anwendungsbereich eines Geräts) |
 | 569 | Einschaltung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einschalten eines Geräts / Hinzuziehen («Einschaltung eines Anwalts») / Einschub) |
+| 570 | Einschlag | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Aufprall, Blitzeinschlag / Holzeinschlag / Anteil, Note («mit südländischem Einschlag»)) |
+| 571 | Einschluss | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einbeziehung («mit Einschluss von») / Eingeschlossenes, z. B. im Gestein) |
+| 572 | Einschnitt | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Schnitt, Kerbe / Wendepunkt, Zäsur) |
+| 573 | Einsicht | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Erkenntnis, Verständnis / Einblick in Akten / Vernunft) |

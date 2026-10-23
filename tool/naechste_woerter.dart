@@ -2765,6 +2765,10 @@ const zurueckgestellt = <String>{
   'Einsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwendung / Einsatz von Polizei, Feuerwehr / Engagement / Spieleinsatz / Musik: Einsetzen) — nach den Nomen 2026-10-23
   'Einsatzgebiet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebiet eines Polizei-/Militäreinsatzes / Anwendungsbereich eines Geräts) — nach den Nomen 2026-10-23
   'Einschaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einschalten eines Geräts / Hinzuziehen («Einschaltung eines Anwalts») / Einschub) — nach den Nomen 2026-10-23
+  'Einschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufprall, Blitzeinschlag / Holzeinschlag / Anteil, Note («mit südländischem Einschlag»)) — nach den Nomen 2026-10-23
+  'Einschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einbeziehung («mit Einschluss von») / Eingeschlossenes, z. B. im Gestein) — nach den Nomen 2026-10-23
+  'Einschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnitt, Kerbe / Wendepunkt, Zäsur) — nach den Nomen 2026-10-23
+  'Einsicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erkenntnis, Verständnis / Einblick in Akten / Vernunft) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
