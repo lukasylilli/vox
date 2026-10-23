@@ -2746,6 +2746,8 @@ const zurueckgestellt = <String>{
   'Einbringung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlegen eines Gesetzentwurfs / Einbringen von Kapital, Ernte) — nach den Nomen 2026-10-23
   'Einbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eindringen zum Stehlen / Beginn («bei Einbruch der Nacht») / Einsturz, starker Rückgang) — nach den Nomen 2026-10-23
   'Einer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Einerstelle / Sport: Einerboot) — nach den Nomen 2026-10-23
+  'Einfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Idee / Eindringen in ein Land / Einfallen von Licht) — nach den Nomen 2026-10-23
+  'Eingabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesuch an eine Behörde / EDV: Eingeben von Daten) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

@@ -2727,3 +2727,5 @@
 | 548 | Einbringung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Vorlegen eines Gesetzentwurfs / Einbringen von Kapital, Ernte) |
 | 549 | Einbruch | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Eindringen zum Stehlen / Beginn («bei Einbruch der Nacht») / Einsturz, starker Rückgang) |
 | 550 | Einer | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Mathematik: Einerstelle / Sport: Einerboot) |
+| 551 | Einfall | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Idee / Eindringen in ein Land / Einfallen von Licht) |
+| 552 | Eingabe | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Gesuch an eine Behörde / EDV: Eingeben von Daten) |
