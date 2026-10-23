@@ -2737,6 +2737,8 @@ const zurueckgestellt = <String>{
   'Ehrenrunde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Runde nach einem Sieg / ugs.: Wiederholen einer Schulklasse) — nach den Nomen 2026-10-22
   'Ehrenvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende) — nach den Nomen 2026-10-22
   'Ehrenvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ehrenvorsitzende / ein Ehrenvorsitzender) — nach den Nomen 2026-10-22
+  'Eichel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht der Eiche / Anatomie: Spitze des Penis / Spielkartenfarbe) — nach den Nomen 2026-10-23
+  'Eidgenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied eines Eidbundes, historisch / Schweizer, Schweizerin) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2747,6 +2749,7 @@ const zurueckgestellt = <String>{
   'Ecker', // zurückgestellt: Buchecker bzw. Spielkartenfarbe (landschaftlich) — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-22
   'Eden', // zurückgestellt: biblischer Name (Garten Eden) — kein geografischer Name, Gebrauch als Nomen nicht sicher (Regel 14/18) 2026-10-22
   'Egli', // zurückgestellt: schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) 2026-10-22
+  'Eicher', // zurückgestellt: Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-23
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
