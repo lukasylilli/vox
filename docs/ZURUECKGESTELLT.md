@@ -2735,3 +2735,5 @@
 | 556 | Einigung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Übereinkunft / Vereinigung, z. B. deutsche Einigung) |
 | 557 | Einigungsprozess | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Vorgang einer Übereinkunft / Prozess der staatlichen Vereinigung) |
 | 558 | Einkauf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: das Einkaufen / gekaufte Ware / Einkaufsabteilung einer Firma) |
+| 559 | Einkehr | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einkehren in ein Gasthaus / Besinnung, innere Sammlung) |
+| 560 | Einklang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Musik: Zusammenklingen / Übereinstimmung («im Einklang mit»)) |
