@@ -2756,6 +2756,9 @@ const zurueckgestellt = <String>{
   'Einkauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Einkaufen / gekaufte Ware / Einkaufsabteilung einer Firma) — nach den Nomen 2026-10-23
   'Einkehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einkehren in ein Gasthaus / Besinnung, innere Sammlung) — nach den Nomen 2026-10-23
   'Einklang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Zusammenklingen / Übereinstimmung («im Einklang mit»)) — nach den Nomen 2026-10-23
+  'Einlage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldeinlage / Schuheinlage / Suppeneinlage / Programmeinlage) — nach den Nomen 2026-10-23
+  'Einleitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorwort, Anfang / Einleiten eines Verfahrens / Einleiten von Abwasser) — nach den Nomen 2026-10-23
+  'Einnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: eingenommenes Geld / Einnehmen von Medikamenten / Eroberung) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
