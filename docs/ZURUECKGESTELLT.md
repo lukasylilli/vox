@@ -2732,3 +2732,6 @@
 | 553 | Eingang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Tür, Zugang / Eintreffen von Post, Geld) |
 | 554 | Eingriff | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Medizin: Operation / Eingreifen in Rechte, Abläufe) |
 | 555 | Einheit | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einigkeit, Ganzes / Maßeinheit / militärische Gruppe / deutsche Einheit) |
+| 556 | Einigung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Übereinkunft / Vereinigung, z. B. deutsche Einigung) |
+| 557 | Einigungsprozess | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Vorgang einer Übereinkunft / Prozess der staatlichen Vereinigung) |
+| 558 | Einkauf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: das Einkaufen / gekaufte Ware / Einkaufsabteilung einer Firma) |
