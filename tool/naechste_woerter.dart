@@ -2741,6 +2741,7 @@ const zurueckgestellt = <String>{
   'Eidgenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied eines Eidbundes, historisch / Schweizer, Schweizerin) — nach den Nomen 2026-10-23
   'Eidgenossenschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bund, durch Eid geschlossen / die Schweiz («Schweizerische Eidgenossenschaft»)) — nach den Nomen 2026-10-23
   'Eigentor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ballspiele: Tor ins eigene Netz / Handlung, die einem selbst schadet) — nach den Nomen 2026-10-23
+  'Einberufung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einberufen einer Versammlung / Einberufung zum Wehrdienst) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
