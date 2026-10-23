@@ -2333,6 +2333,7 @@
 | ۲۱۵۶ | Egli | `substantiv_singular_alle.txt` | 2026-10-22 | schweizerisch für Flussbarsch, auch Familienname — nicht sicher (Regel 14) | — |
 | ۲۱۵۷ | Eicher | `substantiv_singular_alle.txt` | 2026-10-23 | Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۱۵۸ | Eigen | `substantiv_singular_alle.txt` | 2026-10-23 | das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) | — |
+| ۲۱۵۹ | Einst | `substantiv_singular_alle.txt` | 2026-10-23 | das Einst (gehoben, «das Einst und Jetzt») — als eigenes Nomen nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2750,3 +2751,7 @@
 | 571 | Einschluss | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einbeziehung («mit Einschluss von») / Eingeschlossenes, z. B. im Gestein) |
 | 572 | Einschnitt | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Schnitt, Kerbe / Wendepunkt, Zäsur) |
 | 573 | Einsicht | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Erkenntnis, Verständnis / Einblick in Akten / Vernunft) |
+| 574 | Einspielung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Musikaufnahme / Einspielen von Geld, z. B. eines Films) |
+| 575 | Einstand | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: erster Arbeitstag mit Ausgabe / Tennis: Gleichstand) |
+| 576 | Einstellung | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Haltung / Anstellung / Einstellen eines Geräts / Beenden / Filmaufnahme) |
+| 577 | Einstieg | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Einsteigen, Tür eines Fahrzeugs / Beginn, Zugang zu einem Thema) |

@@ -1,0 +1,138 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einstufung",
+  "wort": "die Einstufung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تعیین سطح",
+      "طبقه‌بندی",
+      "رده‌بندی"
+    ],
+    "en": [
+      "classification",
+      "placement",
+      "rating"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Lernen",
+    "Verwaltung"
+  ],
+  "ipa": "ˈaɪ̯nˌʃtuːfʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Vor dem Kurs gibt es eine Einstufung.",
+      "uebersetzung": {
+        "fa": "قبل از دوره، تعیین سطح انجام می‌شود.",
+        "en": "There is a placement test before the course."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Einstufung auf Niveau B1 konnte sie sofort mit dem Kurs beginnen.",
+      "uebersetzung": {
+        "fa": "پس از تعیین سطحش در B1 توانست فوراً دوره را شروع کند.",
+        "en": "After being placed at level B1, she was able to start the course straight away."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Einstufungstest",
+      "uebersetzung": {
+        "fa": "آزمون تعیین سطح",
+        "en": "placement test"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "einstufen (رده‌بندی کردن) + -ung (پسوند اسم‌ساز)",
+    "en": "einstufen (to classify) + -ung (noun suffix)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Einstufungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Einstufung in + Akk",
+        "beispiel": "Die Einstufung in den richtigen Pflegegrad ist für die Familie sehr wichtig.",
+        "uebersetzung": {
+          "fa": "تعیین درجه‌ی مراقبت درست برای خانواده خیلی مهم است.",
+          "en": "Being assigned the right care level is very important for the family."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Kurs",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوره، کلاس",
+          "en": "course"
+        },
+        "id_ref": "nomen_kurs"
+      },
+      {
+        "wort": "der Test",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزمون",
+          "en": "test"
+        },
+        "id_ref": "nomen_test"
+      },
+      {
+        "wort": "das Niveau",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سطح",
+          "en": "level"
+        },
+        "id_ref": "nomen_niveau"
+      },
+      {
+        "wort": "bewerten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارزیابی کردن",
+          "en": "to assess"
+        },
+        "id_ref": "verb_bewerten"
+      },
+      {
+        "wort": "einstufen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رده‌بندی کردن",
+          "en": "to classify"
+        },
+        "id_ref": "verb_einstufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
