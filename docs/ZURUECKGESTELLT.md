@@ -2826,4 +2826,5 @@
 | 643 | Ertrag | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Ernte, Ausbeute in der Landwirtschaft / Gewinn, Erlös) |
 | 644 | Eruption | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: vulkanischer Ausbruch / Medizin: Hautausschlag / Astronomie: Gasausbruch der Sonne) |
 | 645 | Erwerb | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: berufliche Tätigkeit, Lebensunterhalt / das Erwerben, Kauf / Aneignung von Wissen) |
+| 646 | Erzeuger | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Hersteller, Produzent (bes. Landwirtschaft) / ugs. scherzhaft-abwertend: leiblicher Vater) |
 

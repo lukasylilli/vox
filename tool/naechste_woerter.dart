@@ -2841,6 +2841,7 @@ const zurueckgestellt = <String>{
   'Ertrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ernte, Ausbeute in der Landwirtschaft / Gewinn, Erlös) — nach den Nomen 2026-10-25
   'Eruption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vulkanischer Ausbruch / Medizin: Hautausschlag / Astronomie: Gasausbruch der Sonne) — nach den Nomen 2026-10-25
   'Erwerb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: berufliche Tätigkeit, Lebensunterhalt / das Erwerben, Kauf / Aneignung von Wissen) — nach den Nomen 2026-10-25
+  'Erzeuger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hersteller, Produzent (bes. Landwirtschaft) / ugs. scherzhaft-abwertend: leiblicher Vater) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
