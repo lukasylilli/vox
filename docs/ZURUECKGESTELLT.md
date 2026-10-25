@@ -2353,6 +2353,7 @@
 | ۲۱۷۶ | Fashion | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (Mode) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۷۷ | Faxe | `substantiv_singular_alle.txt` | 2026-10-25 | meist Plural «die Faxen» (Unsinn, Albernheiten); Singular «die Faxe» unüblich — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۷۸ | Feature | `substantiv_singular_alle.txt` | 2026-10-25 | das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) | — |
+| ۲۱۷۹ | Federspiel | `substantiv_singular_alle.txt` | 2026-10-25 | Fachwort der Falknerei bzw. Spiel — Bedeutung als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2900,4 +2901,5 @@
 | 701 | Fassade | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Vorderseite eines Gebäudes / übertragen: äußerer Schein) |
 | 702 | Fassung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Version eines Textes oder Films / Selbstbeherrschung «die Fassung verlieren» / Halterung, z. B. Lampenfassung, Brillenfassung) |
 | 703 | Fax | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Faxgerät / gefaxtes Schriftstück) |
+| 704 | Feder | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Vogelfeder / Schreibfeder / Technik: Sprungfeder, Spiralfeder) |
 
