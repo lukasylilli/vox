@@ -2915,6 +2915,7 @@ const zurueckgestellt = <String>{
   'Fernsehsender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsehanstalt, Kanal / technische Sendeanlage) — nach den Nomen 2026-10-25
   'Feste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (veraltet: die Feste = Festung; sonst Pluralform von «das Fest») — Lemma unklar — nach den Nomen 2026-10-25
   'Festigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Widerstandsfähigkeit eines Materials / Standhaftigkeit, Entschlossenheit) — nach den Nomen 2026-10-25
+  'Festlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: festliche Stimmung / meist Plural: Feier, Festveranstaltung) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

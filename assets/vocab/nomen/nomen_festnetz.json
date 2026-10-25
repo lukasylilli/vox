@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "nomen_festnetz",
+  "wort": "das Festnetz",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تلفن ثابت",
+      "شبکه‌ی تلفن ثابت"
+    ],
+    "en": [
+      "landline"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Medien",
+    "Technik"
+  ],
+  "ipa": "ˈfɛstˌnɛt͡s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ruf mich auf dem Festnetz an.",
+      "uebersetzung": {
+        "fa": "به تلفن ثابتم زنگ بزن.",
+        "en": "Call me on the landline."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele junge Leute haben gar kein Festnetz mehr, weil sie nur ihr Handy benutzen.",
+      "uebersetzung": {
+        "fa": "خیلی از جوان‌ها دیگر اصلاً تلفن ثابت ندارند، چون فقط از گوشی همراه استفاده می‌کنند.",
+        "en": "Many young people no longer have a landline at all because they only use their mobile."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "das Mobilfunknetz",
+      "uebersetzung": {
+        "fa": "شبکه‌ی تلفن همراه",
+        "en": "mobile network"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Festnetznummer",
+      "uebersetzung": {
+        "fa": "شماره‌ی تلفن ثابت",
+        "en": "landline number"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "fest (ثابت) + Netz (شبکه)",
+    "en": "fest (fixed) + Netz (network)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Festnetze",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Netz",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شبکه",
+          "en": "network"
+        },
+        "id_ref": "nomen_netz"
+      },
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      },
+      {
+        "wort": "das Handy",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گوشی همراه",
+          "en": "mobile phone"
+        },
+        "id_ref": "nomen_handy"
+      },
+      {
+        "wort": "das Mobilnetz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبکه‌ی تلفن همراه",
+          "en": "mobile network"
+        },
+        "id_ref": "nomen_mobilnetz"
+      },
+      {
+        "wort": "anrufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زنگ زدن",
+          "en": "to call"
+        },
+        "id_ref": "verb_anrufen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
