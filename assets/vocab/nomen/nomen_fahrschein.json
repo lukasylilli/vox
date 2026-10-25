@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrschein",
+  "wort": "der Fahrschein",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بلیت"
+    ],
+    "en": [
+      "ticket"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈfaːɐ̯ˌʃaɪ̯n",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte zeigen Sie Ihren Fahrschein.",
+      "uebersetzung": {
+        "fa": "لطفاً بلیتتان را نشان دهید.",
+        "en": "Please show your ticket."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Den Fahrschein kann man auch mit dem Handy kaufen, wenn der Automat kaputt ist.",
+      "uebersetzung": {
+        "fa": "اگر دستگاه خراب باشد، بلیت را با گوشی هم می‌شود خرید.",
+        "en": "You can also buy the ticket with your phone if the machine is broken."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Fahrkarte",
+      "uebersetzung": {
+        "fa": "بلیت",
+        "en": "ticket"
+      }
+    },
+    {
+      "wort": "das Ticket",
+      "uebersetzung": {
+        "fa": "بلیت",
+        "en": "ticket"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Fahrscheinautomat",
+      "uebersetzung": {
+        "fa": "دستگاه فروش بلیت",
+        "en": "ticket machine"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "fahren (رفتن با وسیله) + Schein (برگه)",
+    "en": "fahren (to ride) + Schein (slip, certificate)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fahrscheine",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "den Fahrschein entwerten",
+        "beispiel": "Den Fahrschein muss man vor der Fahrt entwerten.",
+        "uebersetzung": {
+          "fa": "بلیت را باید پیش از سفر باطل (مهر) کرد.",
+          "en": "You have to validate the ticket before the journey."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      },
+      {
+        "wort": "das Ticket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_ticket"
+      },
+      {
+        "wort": "der Kontrolleur",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازرس بلیت",
+          "en": "ticket inspector"
+        },
+        "id_ref": "nomen_kontrolleur"
+      },
+      {
+        "wort": "der Bus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتوبوس",
+          "en": "bus"
+        },
+        "id_ref": "nomen_bus"
+      },
+      {
+        "wort": "die Straßenbahn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تراموا",
+          "en": "tram"
+        },
+        "id_ref": "nomen_strassenbahn"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

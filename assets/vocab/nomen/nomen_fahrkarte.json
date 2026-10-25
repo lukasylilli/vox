@@ -1,0 +1,165 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrkarte",
+  "wort": "die Fahrkarte",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بلیت"
+    ],
+    "en": [
+      "ticket"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈfaːɐ̯ˌkaʁtə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich kaufe eine Fahrkarte.",
+      "uebersetzung": {
+        "fa": "من یک بلیت می‌خرم.",
+        "en": "I am buying a ticket."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man keine Fahrkarte hat, muss man eine Strafe zahlen.",
+      "uebersetzung": {
+        "fa": "اگر آدم بلیت نداشته باشد، باید جریمه بپردازد.",
+        "en": "If you don't have a ticket, you have to pay a fine."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Fahrschein",
+      "uebersetzung": {
+        "fa": "بلیت",
+        "en": "ticket"
+      }
+    },
+    {
+      "wort": "das Ticket",
+      "uebersetzung": {
+        "fa": "بلیت",
+        "en": "ticket"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Fahrkartenautomat",
+      "uebersetzung": {
+        "fa": "دستگاه فروش بلیت",
+        "en": "ticket machine"
+      }
+    },
+    {
+      "wort": "der Fahrkartenschalter",
+      "uebersetzung": {
+        "fa": "باجه‌ی فروش بلیت",
+        "en": "ticket office"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "fahren (رفتن با وسیله) + Karte (کارت، بلیت)",
+    "en": "fahren (to ride) + Karte (card, ticket)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Fahrkarten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Fahrkarte nach + Dat",
+        "beispiel": "Eine Fahrkarte nach Wien, bitte.",
+        "uebersetzung": {
+          "fa": "یک بلیت به وین، لطفاً.",
+          "en": "A ticket to Vienna, please."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "die Fahrkarte entwerten",
+        "beispiel": "Vergiss nicht, die Fahrkarte zu entwerten!",
+        "uebersetzung": {
+          "fa": "یادت نرود بلیت را باطل (مهر) کنی!",
+          "en": "Don't forget to validate the ticket!"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Fahrschein",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrschein"
+      },
+      {
+        "wort": "das Ticket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_ticket"
+      },
+      {
+        "wort": "der Automat",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه خودکار",
+          "en": "machine"
+        },
+        "id_ref": "nomen_automat"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

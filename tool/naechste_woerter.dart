@@ -2877,6 +2877,7 @@ const zurueckgestellt = <String>{
   'Faden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph mit gleichem Artikel: der Faden «Garn» / der Faden «altes Längenmaß in der Seefahrt», Plural Faden) — nach den Nomen 2026-10-25
   'Fahne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flagge / ugs. Alkoholgeruch «eine Fahne haben» / Druckwesen: Korrekturabzug) — nach den Nomen 2026-10-25
   'Fahrdienst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dienst des Zugpersonals bei der Bahn / Beförderungsdienst, z. B. für Kranke oder Behinderte) — nach den Nomen 2026-10-25
+  'Fahrleistung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leistungsfähigkeit eines Fahrzeugs (Geschwindigkeit, Beschleunigung) / gefahrene Strecke, Kilometerleistung) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

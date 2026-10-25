@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrgast",
+  "wort": "der Fahrgast",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مسافر"
+    ],
+    "en": [
+      "passenger"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈfaːɐ̯ˌɡast",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fahrgast steigt am Bahnhof aus.",
+      "uebersetzung": {
+        "fa": "مسافر در ایستگاه قطار پیاده می‌شود.",
+        "en": "The passenger gets off at the station."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Jeder Fahrgast muss eine gültige Fahrkarte haben, wenn er in den Bus einsteigt.",
+      "uebersetzung": {
+        "fa": "هر مسافری وقتی سوار اتوبوس می‌شود باید بلیت معتبر داشته باشد.",
+        "en": "Every passenger must have a valid ticket when boarding the bus."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Passagier",
+      "uebersetzung": {
+        "fa": "مسافر",
+        "en": "passenger"
+      }
+    },
+    {
+      "wort": "der Reisende",
+      "uebersetzung": {
+        "fa": "مسافر",
+        "en": "traveller"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Fahrer",
+      "uebersetzung": {
+        "fa": "راننده",
+        "en": "driver"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fahren (رفتن با وسیله) + Gast (مهمان)",
+    "en": "fahren (to ride) + Gast (guest)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fahrgäste",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Gast",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مهمان",
+          "en": "guest"
+        },
+        "id_ref": "nomen_gast"
+      },
+      {
+        "wort": "der Passagier",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مسافر (هواپیما، کشتی)",
+          "en": "passenger"
+        },
+        "id_ref": "nomen_passagier"
+      },
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      },
+      {
+        "wort": "der Bus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتوبوس",
+          "en": "bus"
+        },
+        "id_ref": "nomen_bus"
+      },
+      {
+        "wort": "einsteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوار شدن",
+          "en": "to get on"
+        },
+        "id_ref": "verb_einsteigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
