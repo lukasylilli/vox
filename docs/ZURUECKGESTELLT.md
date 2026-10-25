@@ -2774,3 +2774,4 @@
 | 593 | Empfang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Erhalt / Rezeption im Hotel / feierliche Veranstaltung / Radio- und Handyempfang) |
 | 594 | Endkampf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: entscheidender Kampf im Krieg / Sport: Finale) |
 | 595 | Endspiel | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Sport: Finale / Schach: Endphase einer Partie) |
+
