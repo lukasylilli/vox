@@ -2864,6 +2864,10 @@ const zurueckgestellt = <String>{
   'Exote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, Tier oder Pflanze aus fernen Ländern / Börse: ausländisches, wenig gehandeltes Wertpapier) — nach den Nomen 2026-10-25
   'Expansion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Ausdehnung / Ausweitung von Macht- oder Wirtschaftsbereich) — nach den Nomen 2026-10-25
   'Expedition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Forschungsreise / Kaufmannssprache: Versandabteilung, Abfertigung) — nach den Nomen 2026-10-25
+  'Expertise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gutachten eines Sachverständigen / Fachwissen, Sachkenntnis) — nach den Nomen 2026-10-25
+  'Exponent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Hochzahl / herausragender Vertreter einer Richtung) — nach den Nomen 2026-10-25
+  'Exposition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Literatur/Musik: einleitender Teil / Medizin/Fotografie: Ausgesetztsein, Belichtung / veraltet: Ausstellung) — nach den Nomen 2026-10-25
+  'Express', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnellzug / «per Express»: Eilzustellung) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
