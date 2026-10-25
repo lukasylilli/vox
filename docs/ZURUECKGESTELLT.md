@@ -2827,4 +2827,6 @@
 | 644 | Eruption | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: vulkanischer Ausbruch / Medizin: Hautausschlag / Astronomie: Gasausbruch der Sonne) |
 | 645 | Erwerb | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: berufliche Tätigkeit, Lebensunterhalt / das Erwerben, Kauf / Aneignung von Wissen) |
 | 646 | Erzeuger | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Hersteller, Produzent (bes. Landwirtschaft) / ugs. scherzhaft-abwertend: leiblicher Vater) |
+| 647 | Esel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Tier (Huftier) / ugs. Schimpfwort: Dummkopf) |
+| 648 | Eskapade | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Reitsport: falscher Sprung des Pferdes zur Seite / abenteuerlicher Streich, Seitensprung) |
 
