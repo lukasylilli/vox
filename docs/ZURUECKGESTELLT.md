@@ -2335,6 +2335,7 @@
 | ۲۱۵۸ | Eigen | `substantiv_singular_alle.txt` | 2026-10-23 | das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۵۹ | Einst | `substantiv_singular_alle.txt` | 2026-10-23 | das Einst (gehoben, «das Einst und Jetzt») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۶۰ | Emd | `substantiv_singular_alle.txt` | 2026-10-23 | das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) | — |
+| ۲۱۶۱ | Erachten | `substantiv_singular_alle.txt` | 2026-10-25 | das Erachten (gehoben, fast nur «meines Erachtens», «nach meinem Erachten») — als eigenes Nomen nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2795,4 +2796,5 @@
 | 614 | Entzug | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Wegnahme, z. B. Führerscheinentzug / Drogen- bzw. Alkoholentzug) |
 | 615 | Episode | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Folge einer Serie / kurzer Abschnitt, Begebenheit im Leben) |
 | 616 | Equipe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Sport, bes. Reitsport: Mannschaft / schweizerisch: Arbeitsgruppe, Team) |
+| 617 | Erbgut | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Biologie: Gesamtheit der Erbanlagen / ererbter Besitz, z. B. Hof) |
 
