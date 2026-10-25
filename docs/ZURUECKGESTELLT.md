@@ -2772,3 +2772,4 @@
 | 591 | Emission | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Ausstoß von Schadstoffen / Ausgabe von Wertpapieren) |
 | 592 | Emittent | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Herausgeber von Wertpapieren / Verursacher von Emissionen) |
 | 593 | Empfang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Erhalt / Rezeption im Hotel / feierliche Veranstaltung / Radio- und Handyempfang) |
+| 594 | Endkampf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: entscheidender Kampf im Krieg / Sport: Finale) |
