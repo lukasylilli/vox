@@ -21,6 +21,7 @@
 >
 > 🗂️ **خلاصه‌سازی چهارم (2026-10-22، درخواست Lukas: «همه‌ی چهار فایل + حافظه را بررسی، خلاصه و بهینه کن»):** (۱) جدول‌های «🏁 مرحله‌ی آخر» (۲۳۱۲ ردیف) و «📋 …الف» (۳۶۳ ردیف) بدون تغییر ⇒ `docs/ZURUECKGESTELLT.md` (تصمیم Lukas)؛ (۲) ۱۶۰ ورودی «دور به دور» ⇒ «📜 کارنامه‌ی فشرده» + درس‌های ماندگار؛ (۳) ردیف‌های بلند «جدول پیشرفت» ⇒ شمارش + لینک؛ (۴) «🎯 وضعیت فعلی» و «🚀 قبل از انتشار» تازه/فشرده شدند؛ (۵) فهرست مطالب از نو، بالای فایل. حجم: ~۸۷۸KB ⇒ ~۲۴۳KB. فقط کامنت `tool/naechste_woerter.dart` عوض شد. متن قبل از خلاصه‌سازی: `git show 1def2f4:PLAN.md`.
 
+> 🗓️ **ثبت 2026-10-25 (بخش ۴):** Lukas درخواست «درس‌بندی» را داد ⇒ بخش تازه‌ی **«🎓 فاز K»** (بعد از فاز T) + یک خط در «⏭️ بعد از انتشار» + MAP. فقط سند؛ ساخت بعد از تمام شدن کل اپ. قدم بعدی کلمه‌ها بدون تغییر (ادامه‌ی اسم‌ها از آخرین کامیت).
 > 🗓️ **آخرین جلسه:** 2026-10-25 (بخش ۳) — Lukas: «ادامه بده — با توکن وصل شو». **۱۰۰ مدخل فهرست**، دور ۱۱۸۶–۱۱۹۵: Erde … Erstausgabe ⇒ **۷۵ کارت** ⇒ آرشیو **۱۲٬۱۹۹**. از جمله Erfurt و Eritrea (نام جغرافیایی، قاعده‌ی ۱۸)، Erlaubnis، Ergebnis، Erfolg، Erlebnis، Erholung؛ `mit_praeposition`: Ermittlungsverfahren (gegen + Akk)، Ernennung (zu + Dat)، Erstaunen (über + Akk)؛ Erkennung/Erkrankung (pflege_medizin)، Erdgas/Erprobung/Ersatzteil (technik)، Errichtung (bau)، Erfassung (it، buero)، Ermutigung/Ermahnung/Erfolgserlebnis (kinder_bildung)؛ `anmerkung`: Erdgeschoss (österr. Erdgeschoß)، Ersatzkasse (Art der gesetzlichen Krankenkasse)، Ermessen («nach eigenem Ermessen»)، Erfolgskurs/Erfolgsstory. **۲۴ کلمه ⇒ «📋 فهرست چهار حالت»** (#۶۱۸–#۶۴۱: Erde، Erdrutsch، Erfahrung، Erfindung، Erfrischung، Ergreifung، Erhalt، Erhebung، Erinnerung، Erlass، Erledigung، Erleichterung، Erleuchtung، Ermittlung، Erniedrigung، Erosion، Erreger، Erregung، Errungenschaft، Ersatz، Erscheinung، Ersparnis، Erstarrung، Erstattung). **۱ کلمه ⇒ «🏁 مرحله‌ی آخر»** (#۲۱۶۲: Ermangelung — تقریباً فقط «in Ermangelung»). فقط `assets/vocab/nomen/`، ✓ فهرست، `tool/naechste_woerter.dart` و `docs/ZURUECKGESTELLT.md`؛ کد اپ دست نخورد. هر دور: dry-run ۰/۰، `flutter analyze` بدون خطا، ۴۶۳ تست سبز، `tool/vokab_qualitaet.dart` بدون هشدار. ⚠️ **push هنوز ممکن نیست:** پراکسی محیط هر نوشتن روی GitHub را رد می‌کند — با توکن Lukas هم (API: «Write access … not permitted through this proxy»)؛ قاعده‌ی محیط اجازه‌ی دور زدن نمی‌دهد ⇒ **۲۲ کامیت** (دور ۱۱۷۶–۱۱۹۵ + دو ورودی جلسه) فقط محلی‌اند؛ پشتیبان: git bundle در scratchpad. ⏭️ Claude: اول push (بعد از درست شدن دسترسی Claude GitHub App)، بعد اسم‌ها **از Erstellung**.
 > 🔍 **بازبینی کارت‌های 2026-10-21 و 2026-10-22 (Lukas: «همه‌ی مدخل‌های دیروز و امروز را چک کن»):** ۸۷۲ کارت (Bewacher … Dramaturg، دور ۱۰۲۶–۱۱۳۱). بررسی خودکار: `tool/vokab_qualitaet.dart` بدون هشدار؛ پوشش فهرست کامل (۱۰۶۱ مدخل = ۸۷۳ کارت + ۱۸۸ کنارگذاشته، بدون جاافتاده و بدون ✓ بی‌کارت)؛ ۵۱۷ ردیف «چهار حالت» = ۵۱۷ ورودی در `naechste_woerter.dart`. بررسی دستی جدول کامل (آرتیکل/جمع/ترجمه) و نمونه‌ی ۷۰ جمله. **۱۸ کارت اصلاح شد:** Kompositum غلط حذف (Bierzelt→Festzelt، Computer→Laptop، Detektor→Rauchmelder)؛ ترجمه‌ی fa غلط (Bonbon «شکلات» حذف، Brandung «موج‌شکن» → «خیزاب»، Buchmacher «کتاب‌ساز» → «دلال شرط‌بندی»)؛ Dechant → n-Deklination؛ Beweismaterial: Synonym «die Beweismittel» → «das Beweismittel»؛ `zaehlbar: false` با plural ناسازگار (Beweismaterial، Bezahlung، Blau، Bora، Braun، Brunst → plural null؛ Bleiberecht → zaehlbar false)؛ IPA با دو تکیه‌ی اصلی (Bezirkshauptmannschaft، Bundesdenkmalamt، Bundesgrenzschutz، Bundesrechnungshof). آرتیکل‌های مغایر با فهرست (Biathlon، Biotop، Bonbon، Camping، Couch) بررسی شد و درست‌اند — فهرست آن‌ها ناقص است.
 
@@ -57,6 +58,7 @@
 - [⏭️ بعد از انتشار و تصمیم‌های باز](#-بعد-از-انتشار-و-تصمیم‌های-باز)
 - [🗂️ فاز F — فیلتر، دسته‌بندی و ترتیب جست‌وجوی Wortschatz (Lukas، 2026-10-14 — ✅ طرح تأیید شد)](#-فاز-f--فیلتر-دسته‌بندی-و-ترتیب-جست‌وجوی-wortschatz-lukas-2026-10-14---طرح-تأیید-شد)
 - [🧪 فاز T — آزمون‌ها و نتیجه در Lernpfad (پیش‌نویس 2026-09-25 دور ۸۳ — ⛔ منتظر تصمیم Lukas، هنوز هیچ …](#-فاز-t--آزمون‌ها-و-نتیجه-در-lernpfad-پیش‌نویس-2026-09-25-دور-۸۳---منتظر-تصمیم-lukas-هنوز-هیچ-کدی-ساخته-نشده)
+- [🎓 فاز K — درس‌بندی (Lektionen): ۱۰ کلمه، تمرین‌ها، آزمون روز بعد، مدال و Zertifikat (Lukas، 2026-10-25 — ⏸️ ساخت بعد از تمام شدن کل اپ)](#-فاز-k--درس‌بندی-lektionen-۱۰-کلمه-تمرین‌ها-آزمون-روز-بعد-مدال-و-zertifikat-lukas-2026-10-25---ساخت-بعد-از-تمام-شدن-کل-اپ)
 - [🔍 فاز Q — بازبینی کیفیت (کارهایی که شاید با Sonnet انجام شد؛ Lukas، 2026-10-11)](#-فاز-q--بازبینی-کیفیت-کارهایی-که-شاید-با-sonnet-انجام-شد-lukas-2026-10-11)
 - [📚 روال «ده کلمه جدید» — دیکشنری آنلاین VOX (L.4)](#-روال-ده-کلمه-جدید--دیکشنری-آنلاین-vox-l4)
 - [🎯 وضعیت فعلی (2026-10-22)](#-وضعیت-فعلی-2026-10-22)
@@ -149,6 +151,7 @@
 - **کلمه‌ها (L.4):** روال کامل، فایل‌ها و پیشرفت ⇒ بخش **«📚 روال ده کلمه جدید»** (پایین‌تر). Lukas فقط می‌گوید «ده کلمه جدید وارد کن».
 - **🔍 فاز Q (Lukas، 2026-10-11) — قبل از افعال:** بازبینی کیفیت کارهای بازه‌ی Sonnet ⇒ بخش «🔍 فاز Q».
 - **بعد از انتشار (به ترتیب Lukas):** L.2d منابع deckهای «به‌زودی» (یکی‌یکی) · G7d/G7e تمرین deckها + ذخیره‌ی نتیجه‌ی آزمون سطح · L.4 کلمه‌ها (روزانه؛ هر کلمه همیشه صفحه‌ی جدید — ⭐ اصل اول) · **L.4c کارت عبارت (NVV/Redemittel) — بعد از همه‌ی کلمه‌ها** · **L.4d تکراری‌ها — آخرین مرحله (Claude پیدا می‌کند، Lukas تصمیم می‌گیرد)** · R-2.2 صفحه‌ی جزئیات کامل deckها (صدا/لایتنر/دسته) · **R-2.3 گسترش همه‌ی محتوای Auswendiglernen** (مثال، ترجمه، تمرین؛ فقط افزودن) · L.5b ترجمه‌ی جمله‌به‌جمله در Lesen · L.5c تمرین از همه‌ی محتوا · L.5d صفحه‌ی کامل اکانت · L.5e آزمون بعد از هر بخش · G8 جست‌وجو/گلاسری · V.4 UI لیست بزرگ کلمه‌ها · B.4-alt و DS باقی‌مانده (vox_chip، vox_list_tile …).
+- **🎓 فاز K — درس‌بندی (Lukas، 2026-10-25) — ⏸️ بعد از تمام شدن کل اپ:** هر چیز به‌صورت درس هم نمایش داده شود؛ درس کلمه = ۱۰ کلمه + آموزش + ۷ تمرین + آزمون روز بعد (قبولی بالای ۹۰٪، رد ⇒ همه از اول)؛ تمرین/آزمون در بخش خودش **و** در Prüfungen؛ مدال ته Lernpfad + Zertifikat هر سطح ⇒ بخش «🎓 فاز K».
 - 🌍 **آخرین مرحله‌ی کل پروژه — فاز Z (Lukas، 2026-09-24):** فقط بعد از کامل شدن همه‌ی بخش‌ها و سبز بودن همه‌ی تست‌ها: Z.1 ربات تلگرام (ربات واقعی، نه Mini App) ⇒ Z.2 تبلیغات گوگل روی سایت ⇒ Z.3 اندروید و آیفون. جزئیات: بخش «🌍 فاز Z» ته همین فایل.
 - **تصمیم‌های باز Lukas (قبل از شروع حتماً بپرس):** L.5g ⛔⛔ ساختار دولایه‌ی متن‌ها · L.5a صفحه‌ی پیشرفت · V.5 توزیع آرشیو بزرگ.
 - ⚠️ **مقیاس:** جدول شکل‌ها (`assets/vocab_formen/`) تکه‌تکه است؛ با ~۲۶٬۰۰۰ کارت هر تکه چند صد KB می‌شود — اگر لازم شد، تکه‌ها بر اساس دو حرف اول.
@@ -252,6 +255,52 @@
 - [ ] **T.10 اتصال به جایزه‌های پروفایل** (آرزوی Lukas 2026-09-20) — مثلاً مدال قبولی در هر شبیه‌ساز.
 - [ ] **T.11 QA** — تست‌های واحد (امتیازدهی، ادغام نتیجه‌ها)، تست آفلاین، بازبینی چشمی Lukas روی آیفون/مک.
 
+## 🎓 فاز K — درس‌بندی (Lektionen): ۱۰ کلمه، تمرین‌ها، آزمون روز بعد، مدال و Zertifikat (Lukas، 2026-10-25 — ⏸️ ساخت بعد از تمام شدن کل اپ)
+
+> **درخواست Lukas (2026-10-25)، کامل و بدون تغییر در معنی ثبت شد.** ⛔ **هنوز هیچ کدی ساخته نمی‌شود:** ساخت تمرین‌ها و آزمون‌ها **بعد از تمام شدن کل اپ** شروع می‌شود، و همه‌ی آزمون‌ها آن موقع **از منابع خود اپ** ساخته می‌شوند (کارت‌های آرشیو، درس‌های گرامر، …).
+
+**K.A — نمایش درس‌بندی‌شده**
+- کلمه‌ها و بخش‌های دیگر اپ — همه‌چیز — **علاوه بر نمایش فعلی، به‌صورت درس‌بندی‌شده هم** نمایش داده می‌شوند (با فیلتر یا صفحه‌ی جدا — هنوز تصمیم نشده).
+- هر بخش **درس‌های مخصوص خودش** را دارد (مثلاً گرامر درس‌های خودش را)؛ قالب درس برای هر بخش شخصی‌سازی می‌شود.
+
+**K.B — درس کلمه‌ها (قالب ثابت)**
+- هر درس **فقط ۱۰ کلمه**.
+- هر درس شامل: ۱) آموزش · ۲) تمرین معنی · ۳) تمرین آرتیکل · ۴) تمرین املا · ۵) تمرین صدا (کلمه پخش می‌شود، کاربر می‌نویسد) · ۶) جور کردن معنی و کلمه · ۷) جمله‌سازی · ۸) تمرین معنی برعکس.
+- **ترتیبی:** درس باید تمام شود تا درس بعدی باز شود.
+
+**K.C — آزمون درس**
+- بعد از تمرین‌ها یک آزمون هست — **نه همان روز:** روز بعد یا دیرتر.
+- آزمون = **همه‌ی سؤال‌های همان تمرین‌ها**.
+- قبولی: **بالای ۹۰٪**.
+- رد ⇒ **همه‌ی تمرین‌های آن درس از اول**.
+
+**K.D — یک محتوا، دو جا** (همان اصل «⭐ یک محتوا، چند ورودی» — کپی ممنوع، فقط ارجاع)
+- تمرین و آزمون هر بخش **در خود همان بخش** است (کلمه‌ها ⇒ تمرین/آزمون کلمه‌ها؛ گرامر ⇒ گرامر). دسته‌بندی در خود بخش: سطح · موضوع · شماره‌ی درس.
+- **همان** تمرین‌ها و آزمون‌ها **در Prüfungen هم** نشان داده می‌شوند. دسته‌بندی در Prüfungen: سطح · موضوع · نوع آزمون (کلمه، گرامر، …) · شماره‌ی درس.
+
+**K.E — مدال‌ها و Zertifikat در Lernpfad**
+- با گذراندن این آزمون‌ها کاربر **achievementهای کاملاً متنوع** می‌گیرد ⇒ به‌صورت **مدال، ته صفحه‌ی Lernpfad**.
+- بعد از تمام کردن یک سطح (مثلاً A1) یک **صفحه‌ی شبیه مدرک زبان (Zertifikat)** برای کاربر در همان Lernpfad ساخته می‌شود.
+
+**🔗 ارتباط با بخش‌های دیگر (یادداشت Claude):** L.5c (تمرین از همه‌ی محتوا) و L.5e (آزمون بعد از هر بخش) و G7d (تمرین deckها) در عمل جزو همین فاز می‌شوند. ذخیره‌ی نتیجه‌ها روی پایه‌ی T.1 (`pruefungs_ergebnis.dart`، فقط افزودنی، در پشتیبان و همگام‌سازی). صفحه‌ی Prüfungen امروز فقط بر اساس مؤسسه چیده شده (شکاف A-1 در MAP) ⇒ K.D همان را حل می‌کند. فاز T (شبیه‌سازهای مؤسسه‌ها) جدا می‌ماند.
+
+**❓ سؤال‌های باز — وقتی ساخت شروع شد از Lukas بپرس (حدس نزن، قاعده‌ی ۳):**
+1. نمایش درس‌بندی: فیلتر یا صفحه‌ی جدا؟
+2. دقیقاً ۹۰٪ قبول است یا فقط بیشتر از ۹۰٪؟
+3. درسی که اسم ندارد (فعل، صفت…): «تمرین آرتیکل» برای آن کلمه‌ها حذف شود؟ ترتیب و انتخاب ۱۰ کلمه‌ی هر درس از کجا (سطح؟ موضوع؟ کتاب؟)
+4. فاصله‌ی آزمون: دقیقاً «روز بعد» یا یک فاصله‌ی قابل تنظیم؟ بعد از آزمون جواب درست نشان داده شود؟ (در فاز T هرگز — آیا این‌جا هم؟)
+5. تمرین صدا و املا: صدای دستگاه (TTS، مثل T.8) — تأیید؟ جمله‌سازی بدون هوش مصنوعی چطور بررسی شود (مثلاً چیدن کلمه‌ها)؟
+6. مدال‌های شبیه‌سازهای فاز T (طبق تصمیم 2026-09-25 در پروفایل) هم به Lernpfad بیایند یا جدا بمانند؟
+
+**مراحل (فعلاً فقط ثبت):**
+- [x] **K.0 ✅ 2026-10-25** — ثبت درخواست Lukas در PLAN و MAP (فقط سند، کد دست نخورد).
+- [ ] ⏸️ **K.1** — بعد از تمام شدن کل اپ: جواب سؤال‌های باز ⇒ طرح دقیق (مدل داده‌ی درس، قالب سؤال مشترک با T.3، ذخیره‌ی پیشرفت درس و قفل درس بعد در داده‌ی کاربر + پشتیبان).
+- [ ] ⏸️ **K.2** — درس‌های کلمه‌ها (آموزش + ۷ تمرین + آزمون روز بعد).
+- [ ] ⏸️ **K.3** — درس‌های هر بخش دیگر (گرامر، …)، هر کدام با قالب خودش.
+- [ ] ⏸️ **K.4** — ورودی دوم در Prüfungen با چهار دسته‌بندی.
+- [ ] ⏸️ **K.5** — مدال‌ها ته Lernpfad + صفحه‌ی Zertifikat هر سطح.
+- [ ] ⏸️ **K.6** — تست‌ها و بازبینی چشمی Lukas.
+
 ## 🔍 فاز Q — بازبینی کیفیت (کارهایی که شاید با Sonnet انجام شد؛ Lukas، 2026-10-11)
 
 > **چرا؟** Lukas چند مرحله‌ی آخر (حدود یک هفته قبل از 2026-10-11، تاریخ دقیق نامعلوم) را اشتباهی با Sonnet به‌جای Opus اجرا کرد. تصمیم Lukas: بازبینی هدفمند **قبل از افعال** — نه بررسی کل اپ کد به کد، نه صبر تا آخر.
@@ -313,7 +362,7 @@
 | ۱. `Adjektive.txt` (صفت) | aalartig … **überzeugend** (دور ۲۸–۵۲۱؛ فهرست دقیق: ✓ در `Adjektive.txt` = کارت در `assets/vocab/`) | **— ✅ فهرست صفت‌ها تمام شد (۰ باز)؛ بعدی: افعال، ⛔ منتظر تصمیم Lukas** | **790 کلمه** — فهرست کامل با تاریخ و دلیل: [`docs/ZURUECKGESTELLT.md`](docs/ZURUECKGESTELLT.md) ⇒ جدول ۱ |
 | ۲. `Verben_unregelmaeßig_Infinitiv.txt` (فعل بی‌قاعده) | abbacken … **zuwiderlaufen** (دور ۵۲۲–۶۲۰) | **— ✅ فهرست افعال بی‌قاعده تمام شد (۰ باز)؛ بعدی: فهرست ۳** | **653 کلمه** (docs/ZURUECKGESTELLT.md) · ✅ تصمیم Lukas 2026-10-11 — «افعال — تصمیم Lukas» پایین |
 | ۳. `Verben_regelmaesig.txt` (فعل باقاعده) | aalen … **zwitschern** (دور ۶۲۱–۸۶۳) | **— ✅ فهرست افعال باقاعده تمام شد (۰ باز)؛ بعدی: فهرست ۴ (اسم‌ها)، ⛔ منتظر تصمیم Lukas** | **591 کلمه** — فهرست کامل با تاریخ و دلیل: [`docs/ZURUECKGESTELLT.md`](docs/ZURUECKGESTELLT.md) ⇒ جدول ۱ |
-| ۴. `substantiv_singular_alle.txt` (اسم) | Aachen … Euphorie (دور ۸۶۴–۱۲۰۲) + نمونه‌ها (Birne، Abgeordnete) — 2026-10-19؛ چهار حالت ⇒ «📋 فهرست چهار حالت» | **Euroland** | **293 کلمه** — فهرست کامل با تاریخ و دلیل: [`docs/ZURUECKGESTELLT.md`](docs/ZURUECKGESTELLT.md) ⇒ جدول ۱ + 489 کلمه در «📋 فهرست چهار حالت» (جدول ۲) |
+| ۴. `substantiv_singular_alle.txt` (اسم) | Aachen … Ethnie (دور ۸۶۴–۱۲۰۱) + نمونه‌ها (Birne، Abgeordnete) — 2026-10-19؛ چهار حالت ⇒ «📋 فهرست چهار حالت» | **Ethnologe** | **290 کلمه** — فهرست کامل با تاریخ و دلیل: [`docs/ZURUECKGESTELLT.md`](docs/ZURUECKGESTELLT.md) ⇒ جدول ۱ + 489 کلمه در «📋 فهرست چهار حالت» (جدول ۲) |
 
 - ✅ **ترتیب فهرست‌ها (تصمیم Lukas، 2026-09-23):** ۱ صفت‌ها ⇒ ۲ افعال بی‌قاعده ⇒ ۳ افعال باقاعده ⇒ ۴ اسم‌ها. در `tool/naechste_woerter.dart` (`listen`) ثبت است؛ فهرست تمام شد ⇒ ابزار خودش سراغ بعدی می‌رود.
 - ✅ **اسم شهرها/کشورها/مکان‌ها (تصمیم Lukas، 2026-09-24؛ تأیید دوباره 2026-10-19: «کارت کوتاه، قالب ویژه بساز») — ✅ پیاده شد 2026-10-19:** کارت فقط با **تلفظ (IPA) + معنی (fa/en) + آرتیکل/Genus** — بدون مثال، توضیح، مترادف، wortnetz. پرامپت **قاعده‌ی ۱۸** + بلوک «1b. NOMEN — EIGENNAME» در TEIL 2: `wortart: nomen`، `details = {eigenname: true, genus, mit_artikel}`؛ لِما همان‌طور که به کار می‌رود (Aachen بدون آرتیکل، «die Schweiz» با آرتیکل)؛ `beispiele/synonyme/antonyme/komposita: []`، `etymologie/anmerkung/wortnetz: null`. فقط نام‌های جغرافیایی (شهر، کشور، ایالت/کانتون، منطقه، رود، دریاچه، کوه، جزیره، قاره)؛ نام اشخاص/برند/شرکت ⇒ نامطمئن ⇒ نساز و گزارش. کد: `vokab_schema.dart` (`vokabIstEigenname`؛ بدون هشدار مثال/wortnetz؛ genus نامعتبر یا eigenname بیرون از nomen ⇒ fatal؛ هشدار اگر لِما با `mit_artikel` نخواند)، `vokab_formen.dart` (Genitiv نام فقط «-s»: Aachens؛ نام‌های -s/-z بی‌شکل)، `details_renderer.dart` (بخش Grammatik کوتاه: Eigenname · Genus · Artikel). تست دائمی: `test/vokab_eigenname_homograph_test.dart`.
@@ -332,7 +381,7 @@
   · ✅ **یکدست‌سازی (2026-10-11):** ۷۶ کارت فعل قدیمی (`assets/vocab/verb/`) `konjunktiv1`/`konjunktiv2`/`modalverb: false` گرفتند (فقط افزودن): K I از ریشه‌ی مصدر، K II فعل‌های باقاعده = Präteritum، بی‌قاعده = ریشه‌ی Präteritum با Umlaut + e (استثناها طبق Duden: nennte، sendete، hülfe، empföhle). اعتبارسنجی رسمی ۷۶/۷۶: ۰ خطا ۰ هشدار. `vokab_schema.dart`: بررسی «کلمه در مثال» برای فعل حالا شکل صرف‌شده را هم می‌شناسد (همان فهرست شکل‌های جست‌وجو) — «Er ging nach Hause» دیگر هشدار نمی‌دهد.
 - ⚠️ برای اسم‌ها: `substantiv_singular_alle.txt` بدون آرتیکل است ⇒ genus از `substantiv_singular_der/die/das.txt`؛ نام‌های خاص (شهر/کشور، مثل Aachen) هم در فهرست‌اند — وقتی رسیدیم، همان قاعده‌ی پرامپت (مطمئن نیستی ⇒ نساز) و گزارش به Lukas.
 - ✅ **Wortart غلط در فهرست (2026-09-24 دور ۳۴):** aberhundert و abertausend (و عددهای ترتیبی achte، achtzehnte، achtzigste) در Adjektive.txt هستند ولی طبق Duden «unbestimmtes Zahlwort»اند ⇒ کارت در `assets/vocab/numerale/` ساخته شد و در `wortartKorrektur` (`tool/naechste_woerter.dart`) ثبت شد تا ابزار آن‌ها را ساخته‌شده بشناسد. قاعده: Wortart درست (Duden) مهم‌تر از برچسب فهرست است؛ هر مورد تازه همان‌جا ثبت شود. **2026-09-25 دور ۷۱:** andante (نشانه‌ی تمپوی موسیقی) و anderweit (صفتش anderweitig است) ⇒ `assets/vocab/adverb/`. **2026-09-26 دور ۱۳۵:** «blaß» (املای قدیمی) همان id کارت blass را دارد (`vokabId`: ß→ss) ⇒ ابزار آن را ساخته‌شده می‌شمارد؛ کارت جدا لازم نیست. **2026-09-26 دور ۱۱۱:** baldmöglichst (Duden: قید، زبان اداری) ⇒ `assets/vocab/adverb/`. **2026-09-26 دور ۱۵۳:** demgemäß (Duden: قید) ⇒ `assets/vocab/adverb/`. **2026-09-26 دور ۱۶۹–۱۷۱:** dreihundertste، dreißigste، dreiundzwanzigste، dreizehnte، dritte (عدد ترتیبی) ⇒ `numerale`. **2026-09-26 دور ۱۸۲–۱۸۴:** einhunderterste، einhundertste، einunddreißigste، einundzwanzigste (عدد ترتیبی) ⇒ `numerale`. **2026-09-26 دور ۱۸۴–۱۸۸:** einundzwanzigste، elfte ⇒ `numerale`. **2026-09-26 دور ۱۹۹:** erste ⇒ `numerale`. **2026-09-26 دور ۲۲۴:** forte (Duden: adverb) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-26 دور ۲۳۱:** fünfhundertste (Duden: numerale)؛ fünfte (Duden: numerale)؛ fünftel (Duden: numerale)؛ fünfzehnte (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-26 دور ۲۳۲:** fünfzigste (Duden: numerale)؛ fürbass (Duden: adverb) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-26 دور ۲۴۳:** gell (Duden: partikel) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-26 دور ۲۶۱:** gratis (Duden: adverb) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-27 دور ۲۹۰:** hunderterste (Duden: numerale)؛ hundertste (Duden: numerale)؛ hundertstel (Duden: numerale)؛ hunderttausendste (Duden: numerale)؛ hundertundzweite (Duden: numerale)؛ hundertzweite (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-27 دور ۳۹۰:** milliardste (Duden: numerale)؛ milliardstel (Duden: numerale)؛ millionste (Duden: numerale)؛ millionstel (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-27 دور ۴۱۳:** neunte (Duden: numerale)؛ neunzehnte (Duden: numerale)؛ neunzigste (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-27 دور ۴۱۹:** nullte (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-10-10 دور ۵۰۷–۵۱۶:** viel، wenig (Duden: numerale unbestimmt)؛ vierte، vierzehnte، vierzigste، viertel (numerale)؛ vorbehaltlich، vorbehältlich (praeposition + Gen)؛ wahrlich (adverb) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-09-29 دور ۴۶۳:** quadrillionste (Duden: numerale) ⇒ `assets/vocab/<wortart>/` + `wortartKorrektur`. **2026-10-10 دور ۵۱۱:** viel (Duden: Indefinitpronomen/unbestimmtes Zahlwort) ⇒ `assets/vocab/numerale/` + `wortartKorrektur`. **2026-10-11 دور ۵۱۸:** zehntausendste، zehnte (Duden: numerale ordinal)؛ zehntel (numerale bruchzahl) ⇒ `assets/vocab/numerale/` + `wortartKorrektur`. «Y-förmig» همان id کارت y-förmig را دارد (`vokabId` حروف کوچک) ⇒ ساخته‌شده حساب می‌شود. **2026-10-11 دور ۵۲۰:** zwanzigste (Duden: numerale ordinal) ⇒ `assets/vocab/numerale/` + `wortartKorrektur`. **2026-10-11 دور ۵۲۱:** zweihundertste، zweite، zweiundzwanzigste، zwölfte (Duden: numerale ordinal) ⇒ `assets/vocab/numerale/` + `wortartKorrektur`.
-- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۲٬۲۵۶ کارت** (2026-10-25).
+- کارت‌های دیگر آرشیو (افعال Dativ و …) از deckها آمده‌اند، نه از این فهرست‌ها. کل آرشیو: **۱۲٬۲۴۹ کارت** (2026-10-25).
 
 ---
 
