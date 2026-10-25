@@ -2887,4 +2887,6 @@
 | 691 | Falte | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: in Stoff oder Papier / in der Haut, Runzel / Geologie: Gesteinsfalte) |
 | 692 | Familiendrama | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Theaterstück/Film über eine Familie / tragisches Ereignis, Gewalttat in einer Familie) |
 | 693 | Familiengeschichte | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Geschichte einer Familie über Generationen / Ereignis, Angelegenheit innerhalb einer Familie) |
+| 694 | Familientag | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Treffen der ganzen Verwandtschaft / Aktionstag, Veranstaltung für Familien) |
+| 695 | Familienverband | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Organisation, Interessenverband für Familien / die Großfamilie, Verwandtschaft als Gemeinschaft) |
 
