@@ -2882,6 +2882,9 @@ const zurueckgestellt = <String>{
   'Fahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Fahren, Reise / Geschwindigkeit «Fahrt aufnehmen» / ugs. «in Fahrt sein» = in Schwung, wütend) — nach den Nomen 2026-10-25
   'Fahrverhalten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verhalten des Fahrers im Verkehr / Verhalten eines Fahrzeugs beim Fahren) — nach den Nomen 2026-10-25
   'Fahrwasser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schiffbare Fahrrinne / übertragen: Einflussbereich «in jemandes Fahrwasser») — nach den Nomen 2026-10-25
+  'Fahrwerk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flugzeug: Landeeinrichtung / Auto: Achsen, Federung, Räder) — nach den Nomen 2026-10-25
+  'Faktor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umstand, Einflussgröße / Mathematik: Zahl, die multipliziert wird / veraltet: Leiter einer Druckerei) — nach den Nomen 2026-10-25
+  'Falke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Greifvogel / Politik: Vertreter einer harten Linie) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2910,6 +2913,7 @@ const zurueckgestellt = <String>{
   'Exchange', // zurückgestellt: englisches Wort (Börse, Tausch) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-25
   'Faber', // zurückgestellt: Personen- bzw. Markenname (z. B. Faber-Castell), kein Gattungsnomen — nicht bauen (Regel 18) 2026-10-25
   'Face', // zurückgestellt: englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) 2026-10-25
+  'Fakt', // zurückgestellt: der oder das Fakt — Genus nicht eindeutig (Regel 14) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

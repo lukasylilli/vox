@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrzeit",
+  "wort": "die Fahrzeit",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مدت سفر",
+      "زمان رانندگی"
+    ],
+    "en": [
+      "travel time",
+      "journey time"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈfaːɐ̯ˌt͡saɪ̯t",
+  "anmerkung": "bei Berufskraftfahrern auch: Lenkzeit",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fahrzeit beträgt zwei Stunden.",
+      "uebersetzung": {
+        "fa": "مدت سفر دو ساعت است.",
+        "en": "The journey takes two hours."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Mit dem neuen Zug verkürzt sich die Fahrzeit nach Wien um fast eine Stunde.",
+      "uebersetzung": {
+        "fa": "با قطار جدید، مدت سفر به وین تقریباً یک ساعت کوتاه‌تر می‌شود.",
+        "en": "With the new train, the travel time to Vienna is cut by almost an hour."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Reisezeit",
+      "uebersetzung": {
+        "fa": "مدت سفر",
+        "en": "travel time"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fahren (رفتن با وسیله) + Zeit (زمان)",
+    "en": "fahren (to travel) + Zeit (time)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Fahrzeiten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zeit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زمان",
+          "en": "time"
+        },
+        "id_ref": "nomen_zeit"
+      },
+      {
+        "wort": "die Fahrt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفر، حرکت",
+          "en": "journey"
+        },
+        "id_ref": "nomen_fahrt"
+      },
+      {
+        "wort": "dauern",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "طول کشیدن",
+          "en": "to take (time)"
+        },
+        "id_ref": "verb_dauern"
+      },
+      {
+        "wort": "die Ankunft",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورود",
+          "en": "arrival"
+        },
+        "id_ref": "nomen_ankunft"
+      },
+      {
+        "wort": "der Fahrplan",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جدول حرکت",
+          "en": "timetable"
+        },
+        "id_ref": "nomen_fahrplan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2349,6 +2349,7 @@
 | ۲۱۷۲ | Exchange | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (Börse, Tausch) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۷۳ | Faber | `substantiv_singular_alle.txt` | 2026-10-25 | Personen- bzw. Markenname (z. B. Faber-Castell), kein Gattungsnomen — nicht bauen (Regel 18) | — |
 | ۲۱۷۴ | Face | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
+| ۲۱۷۵ | Fakt | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Fakt — Genus nicht eindeutig (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2879,4 +2880,7 @@
 | 684 | Fahrt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: das Fahren, Reise / Geschwindigkeit «Fahrt aufnehmen» / ugs. «in Fahrt sein» = in Schwung, wütend) |
 | 685 | Fahrverhalten | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verhalten des Fahrers im Verkehr / Verhalten eines Fahrzeugs beim Fahren) |
 | 686 | Fahrwasser | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: schiffbare Fahrrinne / übertragen: Einflussbereich «in jemandes Fahrwasser») |
+| 687 | Fahrwerk | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flugzeug: Landeeinrichtung / Auto: Achsen, Federung, Räder) |
+| 688 | Faktor | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Umstand, Einflussgröße / Mathematik: Zahl, die multipliziert wird / veraltet: Leiter einer Druckerei) |
+| 689 | Falke | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Greifvogel / Politik: Vertreter einer harten Linie) |
 
