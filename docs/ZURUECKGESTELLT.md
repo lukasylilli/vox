@@ -2347,6 +2347,8 @@
 | ۲۱۷۰ | Event | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Event — Genus nicht eindeutig (Regel 14) | — |
 | ۲۱۷۱ | Evergreen | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Evergreen — Genus nicht eindeutig (Regel 14) | — |
 | ۲۱۷۲ | Exchange | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (Börse, Tausch) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۷۳ | Faber | `substantiv_singular_alle.txt` | 2026-10-25 | Personen- bzw. Markenname (z. B. Faber-Castell), kein Gattungsnomen — nicht bauen (Regel 18) | — |
+| ۲۱۷۴ | Face | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2866,4 +2868,6 @@
 | 673 | Extrakt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Auszug aus Pflanzen o. Ä. / Zusammenfassung eines Textes; Genus der, fachsprachlich auch das) |
 | 674 | Exzellenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Titel/Anrede «Eure Exzellenz» / bildungssprachlich: hervorragende Qualität) |
 | 675 | Fabel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: lehrhafte Tiergeschichte / Handlung einer Dichtung / erfundene Geschichte) |
+| 676 | Facette | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: geschliffene Fläche eines Edelsteins / Aspekt, Seite einer Sache) |
+| 677 | Fach | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Abteil in Schrank, Tasche o. Ä. / Unterrichtsfach / Fachgebiet, Beruf) |
 

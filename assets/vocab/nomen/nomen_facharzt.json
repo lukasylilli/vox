@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_facharzt",
+  "wort": "der Facharzt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پزشک متخصص"
+    ],
+    "en": [
+      "specialist (doctor)"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈfaxˌʔaːɐ̯t͡st",
+  "anmerkung": "weiblich: die Fachärztin",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe morgen einen Termin beim Facharzt.",
+      "uebersetzung": {
+        "fa": "فردا پیش پزشک متخصص وقت دارم.",
+        "en": "I have an appointment with the specialist tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Hausarzt hat mich zum Facharzt überwiesen, weil die Schmerzen nicht besser wurden.",
+      "uebersetzung": {
+        "fa": "پزشک خانواده مرا به پزشک متخصص ارجاع داد، چون دردها بهتر نشد.",
+        "en": "My GP referred me to a specialist because the pain did not get better."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Spezialist",
+      "uebersetzung": {
+        "fa": "متخصص",
+        "en": "specialist"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Hausarzt",
+      "uebersetzung": {
+        "fa": "پزشک خانواده",
+        "en": "family doctor"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Fach (رشته) + Arzt (پزشک)",
+    "en": "Fach (field) + Arzt (doctor)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fachärzte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Facharzt für + Akk",
+        "beispiel": "Mein Bruder ist Facharzt für Kinderheilkunde.",
+        "uebersetzung": {
+          "fa": "برادرم پزشک متخصص کودکان است.",
+          "en": "My brother is a specialist in paediatrics."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "der Hausarzt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پزشک خانواده",
+          "en": "family doctor"
+        },
+        "id_ref": "nomen_hausarzt"
+      },
+      {
+        "wort": "die Überweisung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارجاع (پزشکی)",
+          "en": "referral"
+        },
+        "id_ref": "nomen_ueberweisung"
+      },
+      {
+        "wort": "die Praxis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مطب",
+          "en": "doctor's office"
+        },
+        "id_ref": "nomen_praxis"
+      },
+      {
+        "wort": "die Untersuchung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "معاینه",
+          "en": "examination"
+        },
+        "id_ref": "nomen_untersuchung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
