@@ -2926,4 +2926,5 @@
 | 725 | Fette | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (unklares Lemma: Plural von «das Fett» bzw. substantiviertes Adjektiv «die Fette») |
 | 726 | Feuer | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flamme, Brand / Feuer für die Zigarette / Beschuss «das Feuer eröffnen» / Leidenschaft, Begeisterung) |
 | 727 | Feuerbrand | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Pflanzenkrankheit bei Obstbäumen / gehoben: brennendes Holzstück) |
+| 728 | Feuertaufe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Militär: erster Kampfeinsatz / übertragen: erste Bewährungsprobe) |
 
