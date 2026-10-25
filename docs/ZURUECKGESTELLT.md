@@ -2872,4 +2872,6 @@
 | 677 | Fach | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Abteil in Schrank, Tasche o. Ä. / Unterrichtsfach / Fachgebiet, Beruf) |
 | 678 | Fachbereich | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fachgebiet / Organisationseinheit einer Hochschule) |
 | 679 | Faden | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 3 (Homograph mit gleichem Artikel: der Faden «Garn» / der Faden «altes Längenmaß in der Seefahrt», Plural Faden) |
+| 680 | Fahne | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flagge / ugs. Alkoholgeruch «eine Fahne haben» / Druckwesen: Korrekturabzug) |
+| 681 | Fahrdienst | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Dienst des Zugpersonals bei der Bahn / Beförderungsdienst, z. B. für Kranke oder Behinderte) |
 
