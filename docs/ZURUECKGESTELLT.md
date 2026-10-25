@@ -2852,4 +2852,7 @@
 | 659 | Exekution | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Hinrichtung / österr.: Zwangsvollstreckung, Pfändung) |
 | 660 | Exekutivbeamter | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Exekutivbeamte») |
 | 661 | Exekutive | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: vollziehende Gewalt im Staat / österr.: Polizei und Sicherheitsbehörden) |
+| 662 | Exempel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: (warnendes) Beispiel, «ein Exempel statuieren» / veraltend: Rechenaufgabe) |
+| 663 | Exhibitionist | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Person mit sexuellem Exhibitionismus / übertragen: jemand, der sich gern zur Schau stellt) |
+| 664 | Existenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Dasein, Vorhandensein / Lebensgrundlage, Auskommen / abwertend: Mensch, «eine verkrachte Existenz») |
 
