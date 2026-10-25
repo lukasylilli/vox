@@ -2830,4 +2830,6 @@
 | 647 | Esel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Tier (Huftier) / ugs. Schimpfwort: Dummkopf) |
 | 648 | Eskapade | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Reitsport: falscher Sprung des Pferdes zur Seite / abenteuerlicher Streich, Seitensprung) |
 | 649 | Essenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Wesen, Kern einer Sache / konzentrierter Auszug (Aroma, Duftstoff)) |
+| 650 | Etablissement | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Unternehmen, Geschäft / Lokal, Gaststätte / verhüllend: Bordell) |
+| 651 | Etappe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Teilstrecke einer Reise oder eines Rennens / Entwicklungsabschnitt / Militär (veraltet): rückwärtiges Gebiet hinter der Front) |
 

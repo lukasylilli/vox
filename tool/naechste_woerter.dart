@@ -2845,6 +2845,8 @@ const zurueckgestellt = <String>{
   'Esel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier (Huftier) / ugs. Schimpfwort: Dummkopf) — nach den Nomen 2026-10-25
   'Eskapade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reitsport: falscher Sprung des Pferdes zur Seite / abenteuerlicher Streich, Seitensprung) — nach den Nomen 2026-10-25
   'Essenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesen, Kern einer Sache / konzentrierter Auszug (Aroma, Duftstoff)) — nach den Nomen 2026-10-25
+  'Etablissement', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unternehmen, Geschäft / Lokal, Gaststätte / verhüllend: Bordell) — nach den Nomen 2026-10-25
+  'Etappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilstrecke einer Reise oder eines Rennens / Entwicklungsabschnitt / Militär (veraltet): rückwärtiges Gebiet hinter der Front) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
