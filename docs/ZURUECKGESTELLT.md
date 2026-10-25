@@ -2805,4 +2805,6 @@
 | 623 | Ergreifung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Festnahme eines Täters / Ergreifen der Macht bzw. Initiative) |
 | 624 | Erhalt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Empfang, Erhalt eines Briefes / Bewahrung, Erhalt der Natur) |
 | 625 | Erhebung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Umfrage, statistische Erhebung / Aufstand / Anhöhe / Einziehen von Gebühren) |
+| 626 | Erinnerung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Gedächtnis, Erinnertes / Mahnung, Erinnerungsschreiben / Andenken, Souvenir) |
+| 627 | Erlass | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verordnung einer Behörde / Befreiung von einer Pflicht, z. B. Steuererlass) |
 

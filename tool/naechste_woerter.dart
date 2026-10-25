@@ -2821,6 +2821,8 @@ const zurueckgestellt = <String>{
   'Ergreifung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Festnahme eines Täters / Ergreifen der Macht bzw. Initiative) — nach den Nomen 2026-10-25
   'Erhalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfang, Erhalt eines Briefes / Bewahrung, Erhalt der Natur) — nach den Nomen 2026-10-25
   'Erhebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umfrage, statistische Erhebung / Aufstand / Anhöhe / Einziehen von Gebühren) — nach den Nomen 2026-10-25
+  'Erinnerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gedächtnis, Erinnertes / Mahnung, Erinnerungsschreiben / Andenken, Souvenir) — nach den Nomen 2026-10-25
+  'Erlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verordnung einer Behörde / Befreiung von einer Pflicht, z. B. Steuererlass) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
