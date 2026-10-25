@@ -2916,4 +2916,6 @@
 | 715 | Ferkel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: junges Schwein / ugs. abwertend: schmutziger oder unanständiger Mensch) |
 | 716 | Fernsehprogramm | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Programmablauf eines Senders / Fernsehkanal / Programmzeitschrift) |
 | 717 | Fernsehsender | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fernsehanstalt, Kanal / technische Sendeanlage) |
+| 718 | Feste | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (veraltet: die Feste = Festung; sonst Pluralform von «das Fest») — Lemma unklar |
+| 719 | Festigkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Technik: Widerstandsfähigkeit eines Materials / Standhaftigkeit, Entschlossenheit) |
 
