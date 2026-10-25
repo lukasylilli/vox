@@ -2826,6 +2826,8 @@ const zurueckgestellt = <String>{
   'Erledigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschluss einer Aufgabe / Besorgung, Einkauf («Erledigungen machen»)) — nach den Nomen 2026-10-25
   'Erleichterung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Entlastung / Vereinfachung, Minderung, z. B. Steuererleichterung) — nach den Nomen 2026-10-25
   'Erleuchtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: plötzliche Einsicht, Idee / religiöse Erleuchtung / Beleuchtung) — nach den Nomen 2026-10-25
+  'Ermittlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: polizeiliche Untersuchung / Feststellung, Berechnung eines Wertes) — nach den Nomen 2026-10-25
+  'Erniedrigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Demütigung / Musik: Senkung eines Tones um einen Halbton) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

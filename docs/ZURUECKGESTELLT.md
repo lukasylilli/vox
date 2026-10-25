@@ -2811,4 +2811,6 @@
 | 628 | Erledigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Abschluss einer Aufgabe / Besorgung, Einkauf («Erledigungen machen»)) |
 | 629 | Erleichterung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Gefühl der Entlastung / Vereinfachung, Minderung, z. B. Steuererleichterung) |
 | 630 | Erleuchtung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: plötzliche Einsicht, Idee / religiöse Erleuchtung / Beleuchtung) |
+| 631 | Ermittlung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: polizeiliche Untersuchung / Feststellung, Berechnung eines Wertes) |
+| 632 | Erniedrigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Demütigung / Musik: Senkung eines Tones um einen Halbton) |
 
