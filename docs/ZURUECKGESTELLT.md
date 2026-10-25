@@ -2344,6 +2344,9 @@
 | ۲۱۶۷ | Eurotunnel | `substantiv_singular_alle.txt` | 2026-10-25 | Name eines Bauwerks bzw. der Betreibergesellschaft (Ärmelkanaltunnel), kein geografischer Name — nicht bauen (Regel 18) | — |
 | ۲۱۶۸ | Eurovision | `substantiv_singular_alle.txt` | 2026-10-25 | Name einer Organisation bzw. eines Fernsehverbunds, kein geografischer Name — nicht bauen (Regel 18) | — |
 | ۲۱۶۹ | Eva | `substantiv_singular_alle.txt` | 2026-10-25 | weiblicher Vorname (biblisch) — Personenname, nicht bauen (Regel 18) | — |
+| ۲۱۷۰ | Event | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Event — Genus nicht eindeutig (Regel 14) | — |
+| ۲۱۷۱ | Evergreen | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Evergreen — Genus nicht eindeutig (Regel 14) | — |
+| ۲۱۷۲ | Exchange | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (Börse, Tausch) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2843,4 +2846,10 @@
 | 653 | Europaabgeordnete | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: der/die Europaabgeordnete) |
 | 654 | Euthanasie | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Sterbehilfe / nationalsozialistisch verhüllend: Ermordung kranker und behinderter Menschen) |
 | 655 | Evangelist | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verfasser eines der vier Evangelien / Prediger, Wanderprediger) |
+| 656 | Evangelium | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Heilsbotschaft Jesu / eines der vier Bücher des Neuen Testaments / übertragen: etwas, woran man fest glaubt) |
+| 657 | Evolution | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: allmähliche Entwicklung / Biologie: stammesgeschichtliche Entwicklung der Lebewesen) |
+| 658 | Ewigkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: unendliche Zeit / Religion: Jenseits / ugs.: sehr lange Zeit) |
+| 659 | Exekution | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Hinrichtung / österr.: Zwangsvollstreckung, Pfändung) |
+| 660 | Exekutivbeamter | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Exekutivbeamte») |
+| 661 | Exekutive | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: vollziehende Gewalt im Staat / österr.: Polizei und Sicherheitsbehörden) |
 

@@ -2851,6 +2851,12 @@ const zurueckgestellt = <String>{
   'Europaabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Europaabgeordnete) — nach den Nomen 2026-10-25
   'Euthanasie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sterbehilfe / nationalsozialistisch verhüllend: Ermordung kranker und behinderter Menschen) — nach den Nomen 2026-10-25
   'Evangelist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser eines der vier Evangelien / Prediger, Wanderprediger) — nach den Nomen 2026-10-25
+  'Evangelium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heilsbotschaft Jesu / eines der vier Bücher des Neuen Testaments / übertragen: etwas, woran man fest glaubt) — nach den Nomen 2026-10-25
+  'Evolution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: allmähliche Entwicklung / Biologie: stammesgeschichtliche Entwicklung der Lebewesen) — nach den Nomen 2026-10-25
+  'Ewigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unendliche Zeit / Religion: Jenseits / ugs.: sehr lange Zeit) — nach den Nomen 2026-10-25
+  'Exekution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hinrichtung / österr.: Zwangsvollstreckung, Pfändung) — nach den Nomen 2026-10-25
+  'Exekutivbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Exekutivbeamte») — nach den Nomen 2026-10-25
+  'Exekutive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vollziehende Gewalt im Staat / österr.: Polizei und Sicherheitsbehörden) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2874,6 +2880,9 @@ const zurueckgestellt = <String>{
   'Eurotunnel', // zurückgestellt: Name eines Bauwerks bzw. der Betreibergesellschaft (Ärmelkanaltunnel), kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
   'Eurovision', // zurückgestellt: Name einer Organisation bzw. eines Fernsehverbunds, kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
   'Eva', // zurückgestellt: weiblicher Vorname (biblisch) — Personenname, nicht bauen (Regel 18) 2026-10-25
+  'Event', // zurückgestellt: der oder das Event — Genus nicht eindeutig (Regel 14) 2026-10-25
+  'Evergreen', // zurückgestellt: der oder das Evergreen — Genus nicht eindeutig (Regel 14) 2026-10-25
+  'Exchange', // zurückgestellt: englisches Wort (Börse, Tausch) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
