@@ -2350,6 +2350,7 @@
 | ۲۱۷۳ | Faber | `substantiv_singular_alle.txt` | 2026-10-25 | Personen- bzw. Markenname (z. B. Faber-Castell), kein Gattungsnomen — nicht bauen (Regel 18) | — |
 | ۲۱۷۴ | Face | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
 | ۲۱۷۵ | Fakt | `substantiv_singular_alle.txt` | 2026-10-25 | der oder das Fakt — Genus nicht eindeutig (Regel 14) | — |
+| ۲۱۷۶ | Fashion | `substantiv_singular_alle.txt` | 2026-10-25 | englisches Wort (Mode) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2892,4 +2893,6 @@
 | 696 | Fanfare | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: lange Trompete ohne Ventile / kurzes, festliches Signal-Musikstück) |
 | 697 | Fang | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: das Fangen, die Beute / Jägersprache: Fangzahn, Kralle eines Raubtiers) |
 | 698 | Farbe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Farbeindruck, Farbton / Anstrichmittel / Kartenspiel: Farbe der Spielkarten) |
+| 699 | Farbtupfer | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: kleiner farbiger Fleck / übertragen: etwas Belebendes, Abwechslung) |
+| 700 | Farce | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Posse, lächerliches Theater / Kochkunst: Füllung aus fein gehacktem Fleisch o. Ä.) |
 

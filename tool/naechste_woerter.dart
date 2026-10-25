@@ -2894,6 +2894,8 @@ const zurueckgestellt = <String>{
   'Fanfare', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lange Trompete ohne Ventile / kurzes, festliches Signal-Musikstück) — nach den Nomen 2026-10-25
   'Fang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Fangen, die Beute / Jägersprache: Fangzahn, Kralle eines Raubtiers) — nach den Nomen 2026-10-25
   'Farbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Farbeindruck, Farbton / Anstrichmittel / Kartenspiel: Farbe der Spielkarten) — nach den Nomen 2026-10-25
+  'Farbtupfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner farbiger Fleck / übertragen: etwas Belebendes, Abwechslung) — nach den Nomen 2026-10-25
+  'Farce', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Posse, lächerliches Theater / Kochkunst: Füllung aus fein gehacktem Fleisch o. Ä.) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2923,6 +2925,7 @@ const zurueckgestellt = <String>{
   'Faber', // zurückgestellt: Personen- bzw. Markenname (z. B. Faber-Castell), kein Gattungsnomen — nicht bauen (Regel 18) 2026-10-25
   'Face', // zurückgestellt: englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) 2026-10-25
   'Fakt', // zurückgestellt: der oder das Fakt — Genus nicht eindeutig (Regel 14) 2026-10-25
+  'Fashion', // zurückgestellt: englisches Wort (Mode) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
