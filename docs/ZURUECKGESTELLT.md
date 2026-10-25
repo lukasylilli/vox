@@ -2354,6 +2354,7 @@
 | ۲۱۷۷ | Faxe | `substantiv_singular_alle.txt` | 2026-10-25 | meist Plural «die Faxen» (Unsinn, Albernheiten); Singular «die Faxe» unüblich — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۷۸ | Feature | `substantiv_singular_alle.txt` | 2026-10-25 | das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) | — |
 | ۲۱۷۹ | Federspiel | `substantiv_singular_alle.txt` | 2026-10-25 | Fachwort der Falknerei bzw. Spiel — Bedeutung als Lernwort nicht sicher (Regel 14) | — |
+| ۲۱۸۰ | Ferner | `substantiv_singular_alle.txt` | 2026-10-25 | kein klares Nomen: Komparativ/Adverb «ferner»; regional (Tirol) auch: der Ferner = Gletscher — Lemma nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2912,4 +2913,5 @@
 | 712 | Feine | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: das Feine) |
 | 713 | Feinheit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: feine Beschaffenheit, Zartheit / meist Plural: Einzelheiten, Nuancen) |
 | 714 | Feld | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) |
+| 715 | Ferkel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: junges Schwein / ugs. abwertend: schmutziger oder unanständiger Mensch) |
 

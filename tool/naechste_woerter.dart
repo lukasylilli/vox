@@ -2910,6 +2910,7 @@ const zurueckgestellt = <String>{
   'Feine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Feine) — nach den Nomen 2026-10-25
   'Feinheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feine Beschaffenheit, Zartheit / meist Plural: Einzelheiten, Nuancen) — nach den Nomen 2026-10-25
   'Feld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) — nach den Nomen 2026-10-25
+  'Ferkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junges Schwein / ugs. abwertend: schmutziger oder unanständiger Mensch) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2943,6 +2944,7 @@ const zurueckgestellt = <String>{
   'Faxe', // zurückgestellt: meist Plural «die Faxen» (Unsinn, Albernheiten); Singular «die Faxe» unüblich — Lemma nicht sicher (Regel 14) 2026-10-25
   'Feature', // zurückgestellt: das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) 2026-10-25
   'Federspiel', // zurückgestellt: Fachwort der Falknerei bzw. Spiel — Bedeutung als Lernwort nicht sicher (Regel 14) 2026-10-25
+  'Ferner', // zurückgestellt: kein klares Nomen: Komparativ/Adverb «ferner»; regional (Tirol) auch: der Ferner = Gletscher — Lemma nicht sicher (Regel 14) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
