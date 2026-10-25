@@ -2919,4 +2919,7 @@
 | 718 | Feste | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (veraltet: die Feste = Festung; sonst Pluralform von «das Fest») — Lemma unklar |
 | 719 | Festigkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Technik: Widerstandsfähigkeit eines Materials / Standhaftigkeit, Entschlossenheit) |
 | 720 | Festlichkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: festliche Stimmung / meist Plural: Feier, Festveranstaltung) |
+| 721 | Festsetzung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Bestimmung, das Festlegen (Preis, Strafe) / Inhaftierung, Festnahme) |
+| 722 | Festspiel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: festliches Bühnenstück / Plural «Festspiele» = Festival, z. B. Salzburger Festspiele) |
+| 723 | Feststellung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Ermittlung, das Feststellen / Äußerung, Bemerkung) |
 
