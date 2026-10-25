@@ -2779,4 +2779,7 @@
 | 598 | Engpass | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: schmale Stelle eines Weges / Knappheit, Versorgungsengpass) |
 | 599 | Enquete | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: amtliche Untersuchung, Umfrage / österreichisch: Arbeitstagung) |
 | 600 | Ensemble | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Künstlergruppe / zusammengehörige Gruppe von Gebäuden / Kleidung: Kombination) |
+| 601 | Entbindung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Geburt eines Kindes / Befreiung von einer Pflicht, z. B. Entbindung von der Schweigepflicht) |
+| 602 | Ente | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Vogel / Zeitungsente, Falschmeldung / Urinflasche im Krankenhaus / ugs. Citroën 2CV) |
+| 603 | Entfaltung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Auseinanderfalten / Entwicklung, z. B. der Persönlichkeit / Darbietung, Zurschaustellung) |
 
