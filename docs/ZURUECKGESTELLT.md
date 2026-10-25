@@ -2822,4 +2822,7 @@
 | 639 | Ersparnis | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: erspartes Geld (meist Plural) / Einsparung, z. B. an Zeit) |
 | 640 | Erstarrung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Starrwerden, Gefrieren / übertragen: Stillstand, Unbeweglichkeit) |
 | 641 | Erstattung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Rückzahlung von Kosten / Erstatten einer Anzeige oder eines Berichts) |
+| 642 | Erstling | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: erstes Kind, erstes Junges / erstes Werk eines Künstlers) |
+| 643 | Ertrag | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Ernte, Ausbeute in der Landwirtschaft / Gewinn, Erlös) |
+| 644 | Eruption | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: vulkanischer Ausbruch / Medizin: Hautausschlag / Astronomie: Gasausbruch der Sonne) |
 

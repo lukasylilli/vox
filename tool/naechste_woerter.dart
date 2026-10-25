@@ -2837,6 +2837,9 @@ const zurueckgestellt = <String>{
   'Ersparnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erspartes Geld (meist Plural) / Einsparung, z. B. an Zeit) — nach den Nomen 2026-10-25
   'Erstarrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Starrwerden, Gefrieren / übertragen: Stillstand, Unbeweglichkeit) — nach den Nomen 2026-10-25
   'Erstattung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückzahlung von Kosten / Erstatten einer Anzeige oder eines Berichts) — nach den Nomen 2026-10-25
+  'Erstling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erstes Kind, erstes Junges / erstes Werk eines Künstlers) — nach den Nomen 2026-10-25
+  'Ertrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ernte, Ausbeute in der Landwirtschaft / Gewinn, Erlös) — nach den Nomen 2026-10-25
+  'Eruption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vulkanischer Ausbruch / Medizin: Hautausschlag / Astronomie: Gasausbruch der Sonne) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
