@@ -2849,6 +2849,8 @@ const zurueckgestellt = <String>{
   'Etappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilstrecke einer Reise oder eines Rennens / Entwicklungsabschnitt / Militär (veraltet): rückwärtiges Gebiet hinter der Front) — nach den Nomen 2026-10-25
   'Euroland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Gesamtgebiet der Eurozone / einzelnes Land der Eurozone) — nach den Nomen 2026-10-25
   'Europaabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Europaabgeordnete) — nach den Nomen 2026-10-25
+  'Euthanasie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sterbehilfe / nationalsozialistisch verhüllend: Ermordung kranker und behinderter Menschen) — nach den Nomen 2026-10-25
+  'Evangelist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser eines der vier Evangelien / Prediger, Wanderprediger) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2869,6 +2871,9 @@ const zurueckgestellt = <String>{
   'Etwas', // zurückgestellt: das Etwas (substantiviertes Pronomen, fast nur «das gewisse Etwas», «ein kleines Etwas») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-25
   'Eurofighter', // zurückgestellt: Produkt-/Markenname (Kampfflugzeug), kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
   'Europaliga', // zurückgestellt: deutsche Bezeichnung für die «Europa League» (Fußball) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-25
+  'Eurotunnel', // zurückgestellt: Name eines Bauwerks bzw. der Betreibergesellschaft (Ärmelkanaltunnel), kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
+  'Eurovision', // zurückgestellt: Name einer Organisation bzw. eines Fernsehverbunds, kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
+  'Eva', // zurückgestellt: weiblicher Vorname (biblisch) — Personenname, nicht bauen (Regel 18) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

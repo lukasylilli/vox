@@ -2341,6 +2341,9 @@
 | ۲۱۶۴ | Etwas | `substantiv_singular_alle.txt` | 2026-10-25 | das Etwas (substantiviertes Pronomen, fast nur «das gewisse Etwas», «ein kleines Etwas») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۶۵ | Eurofighter | `substantiv_singular_alle.txt` | 2026-10-25 | Produkt-/Markenname (Kampfflugzeug), kein geografischer Name — nicht bauen (Regel 18) | — |
 | ۲۱۶۶ | Europaliga | `substantiv_singular_alle.txt` | 2026-10-25 | deutsche Bezeichnung für die «Europa League» (Fußball) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۶۷ | Eurotunnel | `substantiv_singular_alle.txt` | 2026-10-25 | Name eines Bauwerks bzw. der Betreibergesellschaft (Ärmelkanaltunnel), kein geografischer Name — nicht bauen (Regel 18) | — |
+| ۲۱۶۸ | Eurovision | `substantiv_singular_alle.txt` | 2026-10-25 | Name einer Organisation bzw. eines Fernsehverbunds, kein geografischer Name — nicht bauen (Regel 18) | — |
+| ۲۱۶۹ | Eva | `substantiv_singular_alle.txt` | 2026-10-25 | weiblicher Vorname (biblisch) — Personenname, nicht bauen (Regel 18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2838,4 +2841,6 @@
 | 651 | Etappe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Teilstrecke einer Reise oder eines Rennens / Entwicklungsabschnitt / Militär (veraltet): rückwärtiges Gebiet hinter der Front) |
 | 652 | Euroland | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: ugs. Gesamtgebiet der Eurozone / einzelnes Land der Eurozone) |
 | 653 | Europaabgeordnete | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: der/die Europaabgeordnete) |
+| 654 | Euthanasie | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Sterbehilfe / nationalsozialistisch verhüllend: Ermordung kranker und behinderter Menschen) |
+| 655 | Evangelist | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verfasser eines der vier Evangelien / Prediger, Wanderprediger) |
 
