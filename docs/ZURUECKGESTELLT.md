@@ -2800,4 +2800,5 @@
 | 618 | Erde | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Planet / Boden, Erdreich / Elektrotechnik: Erdung) |
 | 619 | Erdrutsch | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: abrutschende Erdmassen / übertragen: Erdrutschsieg bei einer Wahl) |
 | 620 | Erfahrung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Erlebnis, aus dem man lernt / Kenntnisse, Berufserfahrung) |
+| 621 | Erfindung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: neu Erfundenes, Invention / Ausgedachtes, Lüge) |
 

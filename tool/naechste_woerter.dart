@@ -2816,6 +2816,7 @@ const zurueckgestellt = <String>{
   'Erde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Planet / Boden, Erdreich / Elektrotechnik: Erdung) — nach den Nomen 2026-10-25
   'Erdrutsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abrutschende Erdmassen / übertragen: Erdrutschsieg bei einer Wahl) — nach den Nomen 2026-10-25
   'Erfahrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erlebnis, aus dem man lernt / Kenntnisse, Berufserfahrung) — nach den Nomen 2026-10-25
+  'Erfindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neu Erfundenes, Invention / Ausgedachtes, Lüge) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

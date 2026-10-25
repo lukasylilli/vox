@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "nomen_erfassung",
+  "wort": "die Erfassung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ثبت",
+      "گردآوری (داده)",
+      "سرشماری"
+    ],
+    "en": [
+      "recording",
+      "registration",
+      "data capture"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Verwaltung"
+  ],
+  "ipa": "ɛɐ̯ˈfasʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Erfassung der Daten dauert lange.",
+      "uebersetzung": {
+        "fa": "ثبت داده‌ها زمان زیادی می‌برد.",
+        "en": "Recording the data takes a long time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Erfassung der Arbeitszeit ist Pflicht, damit Überstunden bezahlt werden können.",
+      "uebersetzung": {
+        "fa": "ثبت ساعت کاری الزامی است تا اضافه‌کاری قابل پرداخت باشد.",
+        "en": "Recording working hours is mandatory so that overtime can be paid."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Datenerfassung",
+      "uebersetzung": {
+        "fa": "ثبت داده",
+        "en": "data entry"
+      }
+    },
+    {
+      "wort": "die Zeiterfassung",
+      "uebersetzung": {
+        "fa": "ثبت ساعت کار",
+        "en": "time recording"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "erfassen (ثبت کردن) + -ung (پسوند اسم‌ساز)",
+    "en": "erfassen (to record) + -ung (noun suffix)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Erfassungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erfassen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت کردن، دریافتن",
+          "en": "to record, to grasp"
+        },
+        "id_ref": "verb_erfassen"
+      },
+      {
+        "wort": "die Daten",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "داده‌ها",
+          "en": "data"
+        },
+        "id_ref": "nomen_daten"
+      },
+      {
+        "wort": "die Registrierung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ثبت‌نام",
+          "en": "registration"
+        },
+        "id_ref": "nomen_registrierung"
+      },
+      {
+        "wort": "die Zeiterfassung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت ساعت کار",
+          "en": "time recording"
+        },
+        "id_ref": "nomen_zeiterfassung"
+      },
+      {
+        "wort": "die Eingabe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورود (داده)",
+          "en": "input"
+        },
+        "id_ref": "nomen_eingabe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
