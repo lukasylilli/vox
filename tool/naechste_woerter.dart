@@ -2863,6 +2863,9 @@ const zurueckgestellt = <String>{
   'Emd', // zurückgestellt: das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) 2026-10-23
   'Erachten', // zurückgestellt: das Erachten (gehoben, fast nur «meines Erachtens», «nach meinem Erachten») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-25
   'Ermangelung', // zurückgestellt: die Ermangelung (gehoben, fast nur «in Ermangelung + Gen») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-25
+  'Etter', // zurückgestellt: der Etter (südd./schweiz.: Gemarkung, bebautes Ortsgebiet; auch Zaun) — regional, Genus und Gebrauch nicht sicher (Regel 14) 2026-10-25
+  'Etwas', // zurückgestellt: das Etwas (substantiviertes Pronomen, fast nur «das gewisse Etwas», «ein kleines Etwas») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-25
+  'Eurofighter', // zurückgestellt: Produkt-/Markenname (Kampfflugzeug), kein geografischer Name — nicht bauen (Regel 18) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

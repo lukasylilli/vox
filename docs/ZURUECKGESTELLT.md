@@ -2337,6 +2337,9 @@
 | ۲۱۶۰ | Emd | `substantiv_singular_alle.txt` | 2026-10-23 | das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) | — |
 | ۲۱۶۱ | Erachten | `substantiv_singular_alle.txt` | 2026-10-25 | das Erachten (gehoben, fast nur «meines Erachtens», «nach meinem Erachten») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۶۲ | Ermangelung | `substantiv_singular_alle.txt` | 2026-10-25 | die Ermangelung (gehoben, fast nur «in Ermangelung + Gen») — als eigenes Nomen nicht sicher (Regel 14) | — |
+| ۲۱۶۳ | Etter | `substantiv_singular_alle.txt` | 2026-10-25 | der Etter (südd./schweiz.: Gemarkung, bebautes Ortsgebiet; auch Zaun) — regional, Genus und Gebrauch nicht sicher (Regel 14) | — |
+| ۲۱۶۴ | Etwas | `substantiv_singular_alle.txt` | 2026-10-25 | das Etwas (substantiviertes Pronomen, fast nur «das gewisse Etwas», «ein kleines Etwas») — als eigenes Nomen nicht sicher (Regel 14) | — |
+| ۲۱۶۵ | Eurofighter | `substantiv_singular_alle.txt` | 2026-10-25 | Produkt-/Markenname (Kampfflugzeug), kein geografischer Name — nicht bauen (Regel 18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
