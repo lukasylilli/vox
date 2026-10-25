@@ -2875,4 +2875,8 @@
 | 680 | Fahne | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flagge / ugs. Alkoholgeruch «eine Fahne haben» / Druckwesen: Korrekturabzug) |
 | 681 | Fahrdienst | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Dienst des Zugpersonals bei der Bahn / Beförderungsdienst, z. B. für Kranke oder Behinderte) |
 | 682 | Fahrleistung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Leistungsfähigkeit eines Fahrzeugs (Geschwindigkeit, Beschleunigung) / gefahrene Strecke, Kilometerleistung) |
+| 683 | Fahrstuhl | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Aufzug / veraltend: Rollstuhl) |
+| 684 | Fahrt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: das Fahren, Reise / Geschwindigkeit «Fahrt aufnehmen» / ugs. «in Fahrt sein» = in Schwung, wütend) |
+| 685 | Fahrverhalten | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verhalten des Fahrers im Verkehr / Verhalten eines Fahrzeugs beim Fahren) |
+| 686 | Fahrwasser | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: schiffbare Fahrrinne / übertragen: Einflussbereich «in jemandes Fahrwasser») |
 
