@@ -2903,6 +2903,9 @@ const zurueckgestellt = <String>{
   'Fehlanzeige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amtssprache: Meldung, dass nichts vorhanden ist / ugs. Ausruf «Fehlanzeige!» = Nein, nichts da) — nach den Nomen 2026-10-25
   'Fehlleistung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Psychologie: Versprecher, freudsche Fehlleistung / schlechte Leistung) — nach den Nomen 2026-10-25
   'Fehltritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falscher Schritt, Stolpern / übertragen: moralisches Vergehen) — nach den Nomen 2026-10-25
+  'Feierlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feierliche Stimmung, Würde / meist Plural: Feier, Festakt) — nach den Nomen 2026-10-25
+  'Feige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht, Feigenbaum / ugs. landschaftlich: Ohrfeige) — nach den Nomen 2026-10-25
+  'Feigenblatt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blatt des Feigenbaums / übertragen: Tarnung, Vorwand) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

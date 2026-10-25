@@ -2905,4 +2905,7 @@
 | 705 | Fehlanzeige | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Amtssprache: Meldung, dass nichts vorhanden ist / ugs. Ausruf «Fehlanzeige!» = Nein, nichts da) |
 | 706 | Fehlleistung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Psychologie: Versprecher, freudsche Fehlleistung / schlechte Leistung) |
 | 707 | Fehltritt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: falscher Schritt, Stolpern / übertragen: moralisches Vergehen) |
+| 708 | Feierlichkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: feierliche Stimmung, Würde / meist Plural: Feier, Festakt) |
+| 709 | Feige | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Frucht, Feigenbaum / ugs. landschaftlich: Ohrfeige) |
+| 710 | Feigenblatt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Blatt des Feigenbaums / übertragen: Tarnung, Vorwand) |
 
