@@ -2814,4 +2814,8 @@
 | 631 | Ermittlung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: polizeiliche Untersuchung / Feststellung, Berechnung eines Wertes) |
 | 632 | Erniedrigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Demütigung / Musik: Senkung eines Tones um einen Halbton) |
 | 633 | Erosion | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Geologie: Abtragung des Bodens / übertragen: allmählicher Verfall / Medizin: Schleimhautdefekt) |
+| 634 | Erreger | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Krankheitserreger / Elektrotechnik: Erregermaschine) |
+| 635 | Erregung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Aufregung, Zorn / sexuelle Erregung / Physiologie: Reizung von Nerven) |
+| 636 | Errungenschaft | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fortschritt, Leistung / ugs. scherzhaft: neue Anschaffung) |
+| 637 | Ersatz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Austausch, Ersatzstück / Entschädigung, Schadenersatz) |
 
