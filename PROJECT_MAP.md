@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-10-25 فاز K ثبت شد (Lukas، فقط سند): درس‌بندی همه‌ی بخش‌ها؛ درس کلمه = ۱۰ کلمه + آموزش + ۷ تمرین (معنی، آرتیکل، املا، صدا، جور کردن، جمله‌سازی، معنی برعکس) + آزمون روز بعد (بالای ۹۰٪، رد ⇒ از اول)؛ ورودی دوم در Prüfungen؛ مدال ته Lernpfad + Zertifikat. ساخت بعد از تمام شدن کل اپ. فایل‌های آینده: `features/pruefungen/screens/pruefungen_home_screen.dart` (دسته‌بندی سطح/موضوع/نوع/درس)، `features/selbstlernen/screens/leitfaden_screen.dart` (مدال + Zertifikat)، `core/backup/pruefungs_ergebnis.dart` (نتیجه‌ها). جزئیات و سؤال‌های باز: PLAN «🎓 فاز K».
 - آپدیت 2026-10-22 خلاصه‌سازی چهارم: (۱) تازه `docs/ZURUECKGESTELLT.md` = تنها جای جدول‌های کلمه‌های کنار گذاشته‌شده (جدول ۱ ⇄ `zurueckgestellt`، جدول ۲ ⇄ «Vier-Fälle-Liste» در `tool/naechste_woerter.dart`)؛ (۲) ~۱۵۰ ورودی «آپدیت/دور» بالای فایل و ورودی‌های «جلسه‌ی …» در بخش روال حذف/فشرده شد؛ (۳) فهرست مطالب از نو. حجم ~۲۳۹KB ⇒ ~۱۶۲KB. کد اپ دست نخورد (فقط یک کامنت).
 - آپدیت 2026-10-19 (بخش ۱۲): ثبت کد فعلی «چهار حالت» (تأیید نشده) — حالت ۱ چند معنی: `bedeutungen` ⇒ vokab_schema/vokab_index/wortseite_bausteine (vokabBedeutungenTexte)/wort_karte_inhalt/wort_card/archiv_flash_card؛ حالت ۲–۳ هم‌نویسه: `homograph` ⇒ vokab_schema (vokabId، vokabHomographMuster)/vokab_index (vokabHomographFamilien، homograph_nr)/vokabular_controller (vokabHomographeProvider)/widgets/homograph_hinweis.dart/wort_card (homographHoch)؛ حالت ۴ صفت‌گونه: `der/die` + `adjektivisch` ⇒ vokab_formen (vokabAdjektivischeFormen)/details_renderer/grammatikon_resolver (artikelFarbe)/wort_card+wort_karte_inhalt (artikelSpans)/core/wort/wort_form.dart. جدول کامل + متن یادآوری به Lukas: PLAN «📋 فهرست چهار حالت» ⇒ «ج» و «د». فقط سند.
 - آپدیت 2026-10-19 (بخش ۹): ⏸️ «چهار حالت» (چند معنی، هم‌نویسه‌ها، صفت‌گونه) تأیید نشد ⇒ کنار گذاشته تا بعد از اسم‌ها؛ خواسته‌های Lukas در PLAN «📚 روال» و «📋 فهرست چهار حالت»؛ پرامپت قاعده‌های ۱۹–۲۱ ausgesetzt؛ ۱۰ اسم تازه (Ablagerung … Abo) ⇒ آرشیو ۹۶۴۷. (بخش ۸: قاعده‌ی ۲۱ کد — تأیید نشده، می‌ماند تا بازطراحی.)
@@ -130,7 +131,7 @@
 - **جلسه‌ی 2026-10-16:** دور ۷۴۰–۷۴۹ — ۱۰۰ فعل باقاعده (kopieren … leuchten)، آرشیو ۸۴۶۱؛ ۸ فعل با sein؛ läppern بازتابی obligatorisch؛ «(sich …)» در fa دوازده کارت با `--update` برداشته شد؛ ۱۴ کنار گذاشته (#۱۶۵۸–۱۶۷۱؛ ⚠️ kopulieren، kotzen، krepieren ⇒ تصمیم Lukas؛ lecken = هم‌نویسه). فقط `assets/vocab/verb/`، فهرست ✓ و `tool/naechste_woerter.dart` (`zurueckgestellt`)؛ کد اپ دست نخورد.
 - **جلسه‌ی 2026-10-15 (ادامه ۷):** قاعده‌ی 🚫 جدایی VOX/Root-in (بالای MAP و PLAN). دور ۷۱۰–۷۱۹ — ۱۰۰ فعل باقاعده (hebeln … internieren)، آرشیو ۸۱۶۱؛ heißen بی‌قاعده (`regelmaessig: false`)، herabstufen جداشدنی؛ ۱۴ کنار گذاشته (#۱۶۳۰–۱۶۴۳؛ ⚠️ huren ⇒ تصمیم Lukas)؛ مثال heften با `--update` اصلاح شد. فقط `assets/vocab/verb/` + `assets/vocab_formen/` + ✓ + `zurueckgestellt` + PLAN/MAP — کد اپ دست نخورد؛ Root-in خوانده/تغییر داده نشد. بعدی: interpellieren.
 - **جلسه‌ی 2026-10-13 (ادامه ۸):** دور ۶۱۰–۶۱۲ — ۳۰ فعل تازه (weggießen … zerbeißen، با werden/wissen/wollen)، ۲۴ کنار گذاشته (#۱۳۷۷–۱۴۰۰)؛ wollen چون با صفت کنارگذاشته‌ی «wollen» هم‌نویسه بود از `naechste_woerter.dart` رد می‌شد ⇒ دستی ساخته شد. فقط `assets/vocab/verb/` + ✓ + PLAN/MAP — کد اپ دست نخورد.
-- **پیشرفت فهرست‌ها (2026-10-25):** صفت‌ها ✅ · افعال بی‌قاعده ✅ · افعال باقاعده ✅ · اسم‌ها در جریان — آخرین Euphorie (دور ۱۲۰۲)، آرشیو ۱۲٬۲۵۶، بعدی **Euroland**. جدول پیشرفت و ساخته‌نشده‌ها: PLAN.md ⇒ «📚 روال ده کلمه جدید» + `docs/ZURUECKGESTELLT.md`.
+- **پیشرفت فهرست‌ها (2026-10-25):** صفت‌ها ✅ · افعال بی‌قاعده ✅ · افعال باقاعده ✅ · اسم‌ها در جریان — آخرین Ethnie (دور ۱۲۰۱)، آرشیو ۱۲٬۲۴۹، بعدی **Ethnologe**. جدول پیشرفت و ساخته‌نشده‌ها: PLAN.md ⇒ «📚 روال ده کلمه جدید» + `docs/ZURUECKGESTELLT.md`.
 - **2026-09-30 (جست‌وجوی شکل‌ها، Lukas):** `features/vokabular/controllers/vokabular_controller.dart` ⇒ `vokabSucheProvider` (متن + شکل صرف‌شده، بدون تکرار) و `vokabTrefferZusammen` · `features/wortschatz/screens/wortschatz_list_screen.dart` ⇒ از `vokabSucheProvider` + شکل‌های کلمه‌های قدیمی · `features/home/controllers/search_controller.dart` ⇒ جست‌وجوی سراسری کارت‌های آرشیو (مسیر `/vokabular/wort/:id`) و شکل‌های کلمه‌های قدیمی · تازه: `core/wort/altwort_formen.dart` (شکل‌های drift: فعل präs/prät/pp، اسم جمع/‑n) · `core/database/dao/word_dao.dart` ⇒ `nachForm` · `core/wort/klick_wort_provider.dart` ⇒ لمس شکل کلمه‌ی قدیمی · تست: `test/vokab_suche_test.dart`.
 - **2026-09-30:** قفل افعال در `tool/naechste_woerter.dart` (`verbenFreigegeben = false`، پیام ⛔ به‌جای اولین فعل) — درخواست Lukas؛ کد اپ دست نخورد.
 
@@ -795,6 +796,7 @@ screens/
   habit_stats_screen.dart         [x]  — header + streak chart + ثبت امروز
   pomodoro_screen.dart            [x]  — phase label + بنر «فاز تمام شد» (_EndeBanner) + timer + play/pause/reset/skip + ۳ SwitchListTile (روشن ماندن صفحه، شروع خودکار، صدا)
   leitfaden_screen.dart           [x]  — MountainProgressWidget + level cards با skill chips
+                                         ⏸️ فاز K (2026-10-25): ته صفحه مدال‌های درس‌ها + صفحه‌ی Zertifikat هر سطح
   vorlagen_screen.dart            [x]  — ۶ قالب A1→C1، ExpansionTile، clipboard copy
 controllers/
   selbstlernen_controller.dart    [x]  — allHabitsProvider، activeHabitsProvider، habitByIdProvider
@@ -1491,6 +1493,7 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 
 - ✅ **انجام شد:** B-3 · R-1 (full form = R-2.1، 2026-09-22) · R-3 · R-4 · R-5 · R-6 · R-7 · L.5f (2026-09-20) · L.5d (عملاً با فاز P؛ فقط «سطح کاربر» نیامده)
 - ⏳ **بعد از انتشار:** R-2.2 (detail view کامل Präpositionen) · L.5b ترجمه‌ی زیر متن · L.5c تمرین از همه‌ی محتوا · L.5e آزمون بعد از هر بخش
+- ⏸️ **بعد از تمام شدن کل اپ:** فاز K درس‌بندی + تمرین/آزمون + مدال Lernpfad (PLAN «🎓 فاز K»)
 - ⛔ **تصمیم Lukas لازم:** L.5a صفحه‌ی پیشرفت · L.5g ⛔⛔ ساختار دو لایه‌ی Lesen/اخبار (قبل از شروع بپرس، حدس نزن)
 - ⚠️ `core/content/content_registry.dart` فعلاً فقط فهرست است؛ هیچ فایلی import‌اش نمی‌کند (2026-09-22).
 
