@@ -2817,6 +2817,10 @@ const zurueckgestellt = <String>{
   'Erdrutsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abrutschende Erdmassen / übertragen: Erdrutschsieg bei einer Wahl) — nach den Nomen 2026-10-25
   'Erfahrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erlebnis, aus dem man lernt / Kenntnisse, Berufserfahrung) — nach den Nomen 2026-10-25
   'Erfindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neu Erfundenes, Invention / Ausgedachtes, Lüge) — nach den Nomen 2026-10-25
+  'Erfrischung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Erfrischen, Abkühlung / Getränk oder kleiner Imbiss) — nach den Nomen 2026-10-25
+  'Ergreifung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Festnahme eines Täters / Ergreifen der Macht bzw. Initiative) — nach den Nomen 2026-10-25
+  'Erhalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfang, Erhalt eines Briefes / Bewahrung, Erhalt der Natur) — nach den Nomen 2026-10-25
+  'Erhebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umfrage, statistische Erhebung / Aufstand / Anhöhe / Einziehen von Gebühren) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
