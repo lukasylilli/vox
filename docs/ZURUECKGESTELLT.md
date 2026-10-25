@@ -2787,4 +2787,5 @@
 | 606 | Entgleisung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Herausspringen eines Zuges aus den Schienen / taktlose Äußerung, Fehltritt) |
 | 607 | Enthaltung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Stimmenthaltung bei einer Abstimmung / Verzicht, z. B. auf Alkohol) |
 | 608 | Entlassung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Kündigung durch den Arbeitgeber / Entlassung aus Krankenhaus oder Gefängnis) |
+| 609 | Entlastung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Erleichterung, Verringerung einer Belastung / Recht: Entlastung eines Angeklagten bzw. des Vorstands) |
 

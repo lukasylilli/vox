@@ -2804,6 +2804,7 @@ const zurueckgestellt = <String>{
   'Entgleisung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herausspringen eines Zuges aus den Schienen / taktlose Äußerung, Fehltritt) — nach den Nomen 2026-10-25
   'Enthaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stimmenthaltung bei einer Abstimmung / Verzicht, z. B. auf Alkohol) — nach den Nomen 2026-10-25
   'Entlassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kündigung durch den Arbeitgeber / Entlassung aus Krankenhaus oder Gefängnis) — nach den Nomen 2026-10-25
+  'Entlastung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erleichterung, Verringerung einer Belastung / Recht: Entlastung eines Angeklagten bzw. des Vorstands) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
