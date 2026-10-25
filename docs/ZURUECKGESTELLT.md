@@ -2883,4 +2883,6 @@
 | 687 | Fahrwerk | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flugzeug: Landeeinrichtung / Auto: Achsen, Federung, Räder) |
 | 688 | Faktor | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Umstand, Einflussgröße / Mathematik: Zahl, die multipliziert wird / veraltet: Leiter einer Druckerei) |
 | 689 | Falke | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Greifvogel / Politik: Vertreter einer harten Linie) |
+| 690 | Falle | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fangvorrichtung für Tiere / Hinterhalt, List / ugs. Bett) |
+| 691 | Falte | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: in Stoff oder Papier / in der Haut, Runzel / Geologie: Gesteinsfalte) |
 
