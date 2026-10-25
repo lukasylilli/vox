@@ -2792,4 +2792,7 @@
 | 611 | Entspannung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Erholung, Lockerung / Politik: Entspannung zwischen Staaten) |
 | 612 | Entwickler | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Person, die etwas entwickelt, z. B. Software / Fotografie: Entwicklerflüssigkeit) |
 | 613 | Entwicklung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fortschritt, Wachstum / Entwickeln eines Produkts / Fotografie: Entwickeln eines Films) |
+| 614 | Entzug | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Wegnahme, z. B. Führerscheinentzug / Drogen- bzw. Alkoholentzug) |
+| 615 | Episode | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Folge einer Serie / kurzer Abschnitt, Begebenheit im Leben) |
+| 616 | Equipe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Sport, bes. Reitsport: Mannschaft / schweizerisch: Arbeitsgruppe, Team) |
 

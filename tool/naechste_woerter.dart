@@ -2809,6 +2809,9 @@ const zurueckgestellt = <String>{
   'Entspannung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erholung, Lockerung / Politik: Entspannung zwischen Staaten) — nach den Nomen 2026-10-25
   'Entwickler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas entwickelt, z. B. Software / Fotografie: Entwicklerflüssigkeit) — nach den Nomen 2026-10-25
   'Entwicklung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fortschritt, Wachstum / Entwickeln eines Produkts / Fotografie: Entwickeln eines Films) — nach den Nomen 2026-10-25
+  'Entzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegnahme, z. B. Führerscheinentzug / Drogen- bzw. Alkoholentzug) — nach den Nomen 2026-10-25
+  'Episode', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Folge einer Serie / kurzer Abschnitt, Begebenheit im Leben) — nach den Nomen 2026-10-25
+  'Equipe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport, bes. Reitsport: Mannschaft / schweizerisch: Arbeitsgruppe, Team) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
