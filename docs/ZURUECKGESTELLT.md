@@ -2340,6 +2340,7 @@
 | ۲۱۶۳ | Etter | `substantiv_singular_alle.txt` | 2026-10-25 | der Etter (südd./schweiz.: Gemarkung, bebautes Ortsgebiet; auch Zaun) — regional, Genus und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۱۶۴ | Etwas | `substantiv_singular_alle.txt` | 2026-10-25 | das Etwas (substantiviertes Pronomen, fast nur «das gewisse Etwas», «ein kleines Etwas») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۶۵ | Eurofighter | `substantiv_singular_alle.txt` | 2026-10-25 | Produkt-/Markenname (Kampfflugzeug), kein geografischer Name — nicht bauen (Regel 18) | — |
+| ۲۱۶۶ | Europaliga | `substantiv_singular_alle.txt` | 2026-10-25 | deutsche Bezeichnung für die «Europa League» (Fußball) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2835,4 +2836,6 @@
 | 649 | Essenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Wesen, Kern einer Sache / konzentrierter Auszug (Aroma, Duftstoff)) |
 | 650 | Etablissement | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Unternehmen, Geschäft / Lokal, Gaststätte / verhüllend: Bordell) |
 | 651 | Etappe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Teilstrecke einer Reise oder eines Rennens / Entwicklungsabschnitt / Militär (veraltet): rückwärtiges Gebiet hinter der Front) |
+| 652 | Euroland | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: ugs. Gesamtgebiet der Eurozone / einzelnes Land der Eurozone) |
+| 653 | Europaabgeordnete | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: der/die Europaabgeordnete) |
 
