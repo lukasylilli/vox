@@ -2818,4 +2818,8 @@
 | 635 | Erregung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Aufregung, Zorn / sexuelle Erregung / Physiologie: Reizung von Nerven) |
 | 636 | Errungenschaft | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fortschritt, Leistung / ugs. scherzhaft: neue Anschaffung) |
 | 637 | Ersatz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Austausch, Ersatzstück / Entschädigung, Schadenersatz) |
+| 638 | Erscheinung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Phänomen / äußeres Bild einer Person / Geistererscheinung / Veröffentlichung) |
+| 639 | Ersparnis | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: erspartes Geld (meist Plural) / Einsparung, z. B. an Zeit) |
+| 640 | Erstarrung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Starrwerden, Gefrieren / übertragen: Stillstand, Unbeweglichkeit) |
+| 641 | Erstattung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Rückzahlung von Kosten / Erstatten einer Anzeige oder eines Berichts) |
 
