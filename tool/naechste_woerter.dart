@@ -2887,6 +2887,8 @@ const zurueckgestellt = <String>{
   'Falke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Greifvogel / Politik: Vertreter einer harten Linie) — nach den Nomen 2026-10-25
   'Falle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fangvorrichtung für Tiere / Hinterhalt, List / ugs. Bett) — nach den Nomen 2026-10-25
   'Falte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: in Stoff oder Papier / in der Haut, Runzel / Geologie: Gesteinsfalte) — nach den Nomen 2026-10-25
+  'Familiendrama', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück/Film über eine Familie / tragisches Ereignis, Gewalttat in einer Familie) — nach den Nomen 2026-10-25
+  'Familiengeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte einer Familie über Generationen / Ereignis, Angelegenheit innerhalb einer Familie) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
