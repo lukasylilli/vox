@@ -2895,4 +2895,6 @@
 | 698 | Farbe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Farbeindruck, Farbton / Anstrichmittel / Kartenspiel: Farbe der Spielkarten) |
 | 699 | Farbtupfer | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: kleiner farbiger Fleck / übertragen: etwas Belebendes, Abwechslung) |
 | 700 | Farce | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Posse, lächerliches Theater / Kochkunst: Füllung aus fein gehacktem Fleisch o. Ä.) |
+| 701 | Fassade | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Vorderseite eines Gebäudes / übertragen: äußerer Schein) |
+| 702 | Fassung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Version eines Textes oder Films / Selbstbeherrschung «die Fassung verlieren» / Halterung, z. B. Lampenfassung, Brillenfassung) |
 
