@@ -2873,6 +2873,7 @@ const zurueckgestellt = <String>{
   'Fabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lehrhafte Tiergeschichte / Handlung einer Dichtung / erfundene Geschichte) — nach den Nomen 2026-10-25
   'Facette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geschliffene Fläche eines Edelsteins / Aspekt, Seite einer Sache) — nach den Nomen 2026-10-25
   'Fach', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abteil in Schrank, Tasche o. Ä. / Unterrichtsfach / Fachgebiet, Beruf) — nach den Nomen 2026-10-25
+  'Fachbereich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachgebiet / Organisationseinheit einer Hochschule) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

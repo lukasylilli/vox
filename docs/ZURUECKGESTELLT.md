@@ -2870,4 +2870,5 @@
 | 675 | Fabel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: lehrhafte Tiergeschichte / Handlung einer Dichtung / erfundene Geschichte) |
 | 676 | Facette | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: geschliffene Fläche eines Edelsteins / Aspekt, Seite einer Sache) |
 | 677 | Fach | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Abteil in Schrank, Tasche o. Ä. / Unterrichtsfach / Fachgebiet, Beruf) |
+| 678 | Fachbereich | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fachgebiet / Organisationseinheit einer Hochschule) |
 
