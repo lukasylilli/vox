@@ -2919,6 +2919,10 @@ const zurueckgestellt = <String>{
   'Festsetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bestimmung, das Festlegen (Preis, Strafe) / Inhaftierung, Festnahme) — nach den Nomen 2026-10-25
   'Festspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: festliches Bühnenstück / Plural «Festspiele» = Festival, z. B. Salzburger Festspiele) — nach den Nomen 2026-10-25
   'Feststellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ermittlung, das Feststellen / Äußerung, Bemerkung) — nach den Nomen 2026-10-25
+  'Fetisch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kultgegenstand mit magischer Kraft / Psychologie, Sexualität: Fetisch) — nach den Nomen 2026-10-25
+  'Fette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (unklares Lemma: Plural von «das Fett» bzw. substantiviertes Adjektiv «die Fette») — nach den Nomen 2026-10-25
+  'Feuer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flamme, Brand / Feuer für die Zigarette / Beschuss «das Feuer eröffnen» / Leidenschaft, Begeisterung) — nach den Nomen 2026-10-25
+  'Feuerbrand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenkrankheit bei Obstbäumen / gehoben: brennendes Holzstück) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

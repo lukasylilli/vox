@@ -2922,4 +2922,8 @@
 | 721 | Festsetzung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Bestimmung, das Festlegen (Preis, Strafe) / Inhaftierung, Festnahme) |
 | 722 | Festspiel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: festliches Bühnenstück / Plural «Festspiele» = Festival, z. B. Salzburger Festspiele) |
 | 723 | Feststellung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Ermittlung, das Feststellen / Äußerung, Bemerkung) |
+| 724 | Fetisch | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Kultgegenstand mit magischer Kraft / Psychologie, Sexualität: Fetisch) |
+| 725 | Fette | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (unklares Lemma: Plural von «das Fett» bzw. substantiviertes Adjektiv «die Fette») |
+| 726 | Feuer | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flamme, Brand / Feuer für die Zigarette / Beschuss «das Feuer eröffnen» / Leidenschaft, Begeisterung) |
+| 727 | Feuerbrand | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Pflanzenkrankheit bei Obstbäumen / gehoben: brennendes Holzstück) |
 
