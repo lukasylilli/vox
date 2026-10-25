@@ -2786,6 +2786,9 @@ const zurueckgestellt = <String>{
   'Elle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterarmknochen / altes Längenmaß) — nach den Nomen 2026-10-23
   'Elternhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Familie, in der man aufwächst / Haus der Eltern) — nach den Nomen 2026-10-23
   'Email', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (das Email = Schmelzüberzug, Emaille / umgangssprachlich die Email = E-Mail) — nach den Nomen 2026-10-23
+  'Emission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstoß von Schadstoffen / Ausgabe von Wertpapieren) — nach den Nomen 2026-10-23
+  'Emittent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herausgeber von Wertpapieren / Verursacher von Emissionen) — nach den Nomen 2026-10-23
+  'Empfang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erhalt / Rezeption im Hotel / feierliche Veranstaltung / Radio- und Handyempfang) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2799,6 +2802,7 @@ const zurueckgestellt = <String>{
   'Eicher', // zurückgestellt: Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) 2026-10-23
   'Eigen', // zurückgestellt: das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-23
   'Einst', // zurückgestellt: das Einst (gehoben, «das Einst und Jetzt») — als eigenes Nomen nicht sicher (Regel 14) 2026-10-23
+  'Emd', // zurückgestellt: das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) 2026-10-23
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

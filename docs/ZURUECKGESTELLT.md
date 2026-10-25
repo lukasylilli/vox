@@ -2334,6 +2334,7 @@
 | ۲۱۵۷ | Eicher | `substantiv_singular_alle.txt` | 2026-10-23 | Eichmeister bzw. Familien-/Markenname — Bedeutung und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۱۵۸ | Eigen | `substantiv_singular_alle.txt` | 2026-10-23 | das Eigen (gehoben, fast nur «sein Eigen nennen», «zu eigen») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۵۹ | Einst | `substantiv_singular_alle.txt` | 2026-10-23 | das Einst (gehoben, «das Einst und Jetzt») — als eigenes Nomen nicht sicher (Regel 14) | — |
+| ۲۱۶۰ | Emd | `substantiv_singular_alle.txt` | 2026-10-23 | das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2768,3 +2769,6 @@
 | 588 | Elle | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Unterarmknochen / altes Längenmaß) |
 | 589 | Elternhaus | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Familie, in der man aufwächst / Haus der Eltern) |
 | 590 | Email | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 2 (das Email = Schmelzüberzug, Emaille / umgangssprachlich die Email = E-Mail) |
+| 591 | Emission | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Ausstoß von Schadstoffen / Ausgabe von Wertpapieren) |
+| 592 | Emittent | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Herausgeber von Wertpapieren / Verursacher von Emissionen) |
+| 593 | Empfang | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Erhalt / Rezeption im Hotel / feierliche Veranstaltung / Radio- und Handyempfang) |
