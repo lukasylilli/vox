@@ -2891,6 +2891,9 @@ const zurueckgestellt = <String>{
   'Familiengeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte einer Familie über Generationen / Ereignis, Angelegenheit innerhalb einer Familie) — nach den Nomen 2026-10-25
   'Familientag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treffen der ganzen Verwandtschaft / Aktionstag, Veranstaltung für Familien) — nach den Nomen 2026-10-25
   'Familienverband', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organisation, Interessenverband für Familien / die Großfamilie, Verwandtschaft als Gemeinschaft) — nach den Nomen 2026-10-25
+  'Fanfare', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lange Trompete ohne Ventile / kurzes, festliches Signal-Musikstück) — nach den Nomen 2026-10-25
+  'Fang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Fangen, die Beute / Jägersprache: Fangzahn, Kralle eines Raubtiers) — nach den Nomen 2026-10-25
+  'Farbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Farbeindruck, Farbton / Anstrichmittel / Kartenspiel: Farbe der Spielkarten) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

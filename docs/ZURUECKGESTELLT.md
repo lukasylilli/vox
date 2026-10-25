@@ -2889,4 +2889,7 @@
 | 693 | Familiengeschichte | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Geschichte einer Familie über Generationen / Ereignis, Angelegenheit innerhalb einer Familie) |
 | 694 | Familientag | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Treffen der ganzen Verwandtschaft / Aktionstag, Veranstaltung für Familien) |
 | 695 | Familienverband | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Organisation, Interessenverband für Familien / die Großfamilie, Verwandtschaft als Gemeinschaft) |
+| 696 | Fanfare | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: lange Trompete ohne Ventile / kurzes, festliches Signal-Musikstück) |
+| 697 | Fang | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: das Fangen, die Beute / Jägersprache: Fangzahn, Kralle eines Raubtiers) |
+| 698 | Farbe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Farbeindruck, Farbton / Anstrichmittel / Kartenspiel: Farbe der Spielkarten) |
 
