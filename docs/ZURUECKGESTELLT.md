@@ -2762,4 +2762,5 @@
 | 582 | Einwurf | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Sport: Einwurf des Balls / Öffnung, Schlitz / Einwand) |
 | 583 | Einzug | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Umzug in eine Wohnung / feierliches Hineinziehen / Einziehen von Geld) |
 | 584 | Eiszeit | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: erdgeschichtliche Kaltzeit / übertragen: Abkühlung von Beziehungen) |
-
+| 585 | Elektronik | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Fachgebiet der Elektrotechnik / elektronische Bauteile eines Geräts) |
+| 586 | Element | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: chemisches Element / Bestandteil, Bauteil / Naturelement) |
