@@ -2813,4 +2813,5 @@
 | 630 | Erleuchtung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: plötzliche Einsicht, Idee / religiöse Erleuchtung / Beleuchtung) |
 | 631 | Ermittlung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: polizeiliche Untersuchung / Feststellung, Berechnung eines Wertes) |
 | 632 | Erniedrigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Demütigung / Musik: Senkung eines Tones um einen Halbton) |
+| 633 | Erosion | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Geologie: Abtragung des Bodens / übertragen: allmählicher Verfall / Medizin: Schleimhautdefekt) |
 
