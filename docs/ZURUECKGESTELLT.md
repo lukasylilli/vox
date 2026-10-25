@@ -2790,4 +2790,6 @@
 | 609 | Entlastung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Erleichterung, Verringerung einer Belastung / Recht: Entlastung eines Angeklagten bzw. des Vorstands) |
 | 610 | Entschuldigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Bitte um Verzeihung / Rechtfertigung, Begründung / schriftliche Entschuldigung für Schule oder Arbeit) |
 | 611 | Entspannung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Erholung, Lockerung / Politik: Entspannung zwischen Staaten) |
+| 612 | Entwickler | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Person, die etwas entwickelt, z. B. Software / Fotografie: Entwicklerflüssigkeit) |
+| 613 | Entwicklung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fortschritt, Wachstum / Entwickeln eines Produkts / Fotografie: Entwickeln eines Films) |
 
