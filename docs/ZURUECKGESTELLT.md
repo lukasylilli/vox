@@ -2915,4 +2915,5 @@
 | 714 | Feld | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) |
 | 715 | Ferkel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: junges Schwein / ugs. abwertend: schmutziger oder unanständiger Mensch) |
 | 716 | Fernsehprogramm | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Programmablauf eines Senders / Fernsehkanal / Programmzeitschrift) |
+| 717 | Fernsehsender | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Fernsehanstalt, Kanal / technische Sendeanlage) |
 

@@ -2912,6 +2912,7 @@ const zurueckgestellt = <String>{
   'Feld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) — nach den Nomen 2026-10-25
   'Ferkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junges Schwein / ugs. abwertend: schmutziger oder unanständiger Mensch) — nach den Nomen 2026-10-25
   'Fernsehprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Programmablauf eines Senders / Fernsehkanal / Programmzeitschrift) — nach den Nomen 2026-10-25
+  'Fernsehsender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsehanstalt, Kanal / technische Sendeanlage) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
