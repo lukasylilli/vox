@@ -2906,6 +2906,10 @@ const zurueckgestellt = <String>{
   'Feierlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feierliche Stimmung, Würde / meist Plural: Feier, Festakt) — nach den Nomen 2026-10-25
   'Feige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht, Feigenbaum / ugs. landschaftlich: Ohrfeige) — nach den Nomen 2026-10-25
   'Feigenblatt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blatt des Feigenbaums / übertragen: Tarnung, Vorwand) — nach den Nomen 2026-10-25
+  'Feindseligkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feindselige Haltung / Plural: Kampfhandlungen) — nach den Nomen 2026-10-25
+  'Feine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Feine) — nach den Nomen 2026-10-25
+  'Feinheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feine Beschaffenheit, Zartheit / meist Plural: Einzelheiten, Nuancen) — nach den Nomen 2026-10-25
+  'Feld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

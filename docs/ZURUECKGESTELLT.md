@@ -2908,4 +2908,8 @@
 | 708 | Feierlichkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: feierliche Stimmung, Würde / meist Plural: Feier, Festakt) |
 | 709 | Feige | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Frucht, Feigenbaum / ugs. landschaftlich: Ohrfeige) |
 | 710 | Feigenblatt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Blatt des Feigenbaums / übertragen: Tarnung, Vorwand) |
+| 711 | Feindseligkeit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: feindselige Haltung / Plural: Kampfhandlungen) |
+| 712 | Feine | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 4 (substantiviertes Adjektiv: das Feine) |
+| 713 | Feinheit | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: feine Beschaffenheit, Zartheit / meist Plural: Einzelheiten, Nuancen) |
+| 714 | Feld | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Acker / Spielfeld, Kästchen / Fachgebiet, Bereich) |
 
