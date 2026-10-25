@@ -2868,6 +2868,9 @@ const zurueckgestellt = <String>{
   'Exponent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Hochzahl / herausragender Vertreter einer Richtung) — nach den Nomen 2026-10-25
   'Exposition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Literatur/Musik: einleitender Teil / Medizin/Fotografie: Ausgesetztsein, Belichtung / veraltet: Ausstellung) — nach den Nomen 2026-10-25
   'Express', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnellzug / «per Express»: Eilzustellung) — nach den Nomen 2026-10-25
+  'Extrakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auszug aus Pflanzen o. Ä. / Zusammenfassung eines Textes; Genus der, fachsprachlich auch das) — nach den Nomen 2026-10-25
+  'Exzellenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Titel/Anrede «Eure Exzellenz» / bildungssprachlich: hervorragende Qualität) — nach den Nomen 2026-10-25
+  'Fabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lehrhafte Tiergeschichte / Handlung einer Dichtung / erfundene Geschichte) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

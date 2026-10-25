@@ -2863,4 +2863,7 @@
 | 670 | Exponent | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Mathematik: Hochzahl / herausragender Vertreter einer Richtung) |
 | 671 | Exposition | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Literatur/Musik: einleitender Teil / Medizin/Fotografie: Ausgesetztsein, Belichtung / veraltet: Ausstellung) |
 | 672 | Express | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Schnellzug / «per Express»: Eilzustellung) |
+| 673 | Extrakt | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Auszug aus Pflanzen o. Ä. / Zusammenfassung eines Textes; Genus der, fachsprachlich auch das) |
+| 674 | Exzellenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Titel/Anrede «Eure Exzellenz» / bildungssprachlich: hervorragende Qualität) |
+| 675 | Fabel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: lehrhafte Tiergeschichte / Handlung einer Dichtung / erfundene Geschichte) |
 
