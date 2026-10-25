@@ -2336,6 +2336,7 @@
 | ۲۱۵۹ | Einst | `substantiv_singular_alle.txt` | 2026-10-23 | das Einst (gehoben, «das Einst und Jetzt») — als eigenes Nomen nicht sicher (Regel 14) | — |
 | ۲۱۶۰ | Emd | `substantiv_singular_alle.txt` | 2026-10-23 | das Emd (schweizerisch/landschaftlich für Grummet, zweiter Heuschnitt) — regional, Gebrauch und Plural nicht sicher (Regel 14) | — |
 | ۲۱۶۱ | Erachten | `substantiv_singular_alle.txt` | 2026-10-25 | das Erachten (gehoben, fast nur «meines Erachtens», «nach meinem Erachten») — als eigenes Nomen nicht sicher (Regel 14) | — |
+| ۲۱۶۲ | Ermangelung | `substantiv_singular_alle.txt` | 2026-10-25 | die Ermangelung (gehoben, fast nur «in Ermangelung + Gen») — als eigenes Nomen nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2807,4 +2808,7 @@
 | 625 | Erhebung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Umfrage, statistische Erhebung / Aufstand / Anhöhe / Einziehen von Gebühren) |
 | 626 | Erinnerung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Gedächtnis, Erinnertes / Mahnung, Erinnerungsschreiben / Andenken, Souvenir) |
 | 627 | Erlass | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Verordnung einer Behörde / Befreiung von einer Pflicht, z. B. Steuererlass) |
+| 628 | Erledigung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Abschluss einer Aufgabe / Besorgung, Einkauf («Erledigungen machen»)) |
+| 629 | Erleichterung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Gefühl der Entlastung / Vereinfachung, Minderung, z. B. Steuererleichterung) |
+| 630 | Erleuchtung | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: plötzliche Einsicht, Idee / religiöse Erleuchtung / Beleuchtung) |
 
