@@ -2860,6 +2860,10 @@ const zurueckgestellt = <String>{
   'Exempel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (warnendes) Beispiel, «ein Exempel statuieren» / veraltend: Rechenaufgabe) — nach den Nomen 2026-10-25
   'Exhibitionist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person mit sexuellem Exhibitionismus / übertragen: jemand, der sich gern zur Schau stellt) — nach den Nomen 2026-10-25
   'Existenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dasein, Vorhandensein / Lebensgrundlage, Auskommen / abwertend: Mensch, «eine verkrachte Existenz») — nach den Nomen 2026-10-25
+  'Exodus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: 2. Buch Mose / Auszug, massenhafte Abwanderung) — nach den Nomen 2026-10-25
+  'Exote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, Tier oder Pflanze aus fernen Ländern / Börse: ausländisches, wenig gehandeltes Wertpapier) — nach den Nomen 2026-10-25
+  'Expansion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Ausdehnung / Ausweitung von Macht- oder Wirtschaftsbereich) — nach den Nomen 2026-10-25
+  'Expedition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Forschungsreise / Kaufmannssprache: Versandabteilung, Abfertigung) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

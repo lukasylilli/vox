@@ -2855,4 +2855,8 @@
 | 662 | Exempel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: (warnendes) Beispiel, «ein Exempel statuieren» / veraltend: Rechenaufgabe) |
 | 663 | Exhibitionist | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Person mit sexuellem Exhibitionismus / übertragen: jemand, der sich gern zur Schau stellt) |
 | 664 | Existenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Dasein, Vorhandensein / Lebensgrundlage, Auskommen / abwertend: Mensch, «eine verkrachte Existenz») |
+| 665 | Exodus | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: 2. Buch Mose / Auszug, massenhafte Abwanderung) |
+| 666 | Exote | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Mensch, Tier oder Pflanze aus fernen Ländern / Börse: ausländisches, wenig gehandeltes Wertpapier) |
+| 667 | Expansion | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Physik: Ausdehnung / Ausweitung von Macht- oder Wirtschaftsbereich) |
+| 668 | Expedition | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Forschungsreise / Kaufmannssprache: Versandabteilung, Abfertigung) |
 
