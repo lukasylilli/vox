@@ -2829,4 +2829,5 @@
 | 646 | Erzeuger | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Hersteller, Produzent (bes. Landwirtschaft) / ugs. scherzhaft-abwertend: leiblicher Vater) |
 | 647 | Esel | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Tier (Huftier) / ugs. Schimpfwort: Dummkopf) |
 | 648 | Eskapade | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Reitsport: falscher Sprung des Pferdes zur Seite / abenteuerlicher Streich, Seitensprung) |
+| 649 | Essenz | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Wesen, Kern einer Sache / konzentrierter Auszug (Aroma, Duftstoff)) |
 
