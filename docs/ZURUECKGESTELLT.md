@@ -2766,3 +2766,5 @@
 | 586 | Element | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: chemisches Element / Bestandteil, Bauteil / Naturelement) |
 | 587 | Elfer | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: ugs. Elfmeter / Zahl Elf, Mannschaft aus elf) |
 | 588 | Elle | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Unterarmknochen / altes Längenmaß) |
+| 589 | Elternhaus | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Familie, in der man aufwächst / Haus der Eltern) |
+| 590 | Email | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 2 (das Email = Schmelzüberzug, Emaille / umgangssprachlich die Email = E-Mail) |
