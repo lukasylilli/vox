@@ -2782,6 +2782,8 @@ const zurueckgestellt = <String>{
   'Eiszeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erdgeschichtliche Kaltzeit / übertragen: Abkühlung von Beziehungen) — nach den Nomen 2026-10-23
   'Elektronik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachgebiet der Elektrotechnik / elektronische Bauteile eines Geräts) — nach den Nomen 2026-10-23
   'Element', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: chemisches Element / Bestandteil, Bauteil / Naturelement) — nach den Nomen 2026-10-23
+  'Elfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Elfmeter / Zahl Elf, Mannschaft aus elf) — nach den Nomen 2026-10-23
+  'Elle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterarmknochen / altes Längenmaß) — nach den Nomen 2026-10-23
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
