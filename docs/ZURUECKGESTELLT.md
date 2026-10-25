@@ -2776,4 +2776,7 @@
 | 595 | Endspiel | `substantiv_singular_alle.txt` | 2026-10-23 | Fall 1 (mehrere Bedeutungen: Sport: Finale / Schach: Endphase einer Partie) |
 | 596 | Engagement | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Einsatz für eine Sache / Anstellung eines Künstlers / Börse: Verpflichtung) |
 | 597 | Enge | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Mangel an Raum, Beengtheit / enge Stelle, Meerenge) |
+| 598 | Engpass | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: schmale Stelle eines Weges / Knappheit, Versorgungsengpass) |
+| 599 | Enquete | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: amtliche Untersuchung, Umfrage / österreichisch: Arbeitstagung) |
+| 600 | Ensemble | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Künstlergruppe / zusammengehörige Gruppe von Gebäuden / Kleidung: Kombination) |
 
