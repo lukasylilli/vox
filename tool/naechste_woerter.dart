@@ -2898,6 +2898,7 @@ const zurueckgestellt = <String>{
   'Farce', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Posse, lächerliches Theater / Kochkunst: Füllung aus fein gehacktem Fleisch o. Ä.) — nach den Nomen 2026-10-25
   'Fassade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorderseite eines Gebäudes / übertragen: äußerer Schein) — nach den Nomen 2026-10-25
   'Fassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Version eines Textes oder Films / Selbstbeherrschung «die Fassung verlieren» / Halterung, z. B. Lampenfassung, Brillenfassung) — nach den Nomen 2026-10-25
+  'Fax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Faxgerät / gefaxtes Schriftstück) — nach den Nomen 2026-10-25
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2928,6 +2929,8 @@ const zurueckgestellt = <String>{
   'Face', // zurückgestellt: englisches Wort (ugs./Jugendsprache: Gesicht) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) 2026-10-25
   'Fakt', // zurückgestellt: der oder das Fakt — Genus nicht eindeutig (Regel 14) 2026-10-25
   'Fashion', // zurückgestellt: englisches Wort (Mode) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-25
+  'Faxe', // zurückgestellt: meist Plural «die Faxen» (Unsinn, Albernheiten); Singular «die Faxe» unüblich — Lemma nicht sicher (Regel 14) 2026-10-25
+  'Feature', // zurückgestellt: das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) 2026-10-25
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
