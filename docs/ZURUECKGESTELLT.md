@@ -2370,6 +2370,7 @@
 | ۲۱۹۳ | Flair | `substantiv_singular_alle.txt` | 2026-10-26 | das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) | — |
 | ۲۱۹۴ | Flash | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۹۵ | Force | `substantiv_singular_alle.txt` | 2026-10-26 | kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) | — |
+| ۲۱۹۶ | Fortune | `substantiv_singular_alle.txt` | 2026-10-26 | Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2975,4 +2976,6 @@
 | 759 | Formel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Mathematik/Chemie: Formel / feste Redewendung / Motorsport: Formel 1) |
 | 760 | Forte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Musik: laut / Stärke, besondere Fähigkeit) |
 | 761 | Fortgang | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Weggang, Abreise / Fortschritt, Verlauf «der Fortgang der Arbeiten») |
+| 762 | Forum | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) |
+| 763 | Fotografie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) |
 

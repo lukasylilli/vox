@@ -2957,6 +2957,8 @@ const zurueckgestellt = <String>{
   'Formel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Chemie: Formel / feste Redewendung / Motorsport: Formel 1) — nach den Nomen 2026-10-26
   'Forte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: laut / Stärke, besondere Fähigkeit) — nach den Nomen 2026-10-26
   'Fortgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weggang, Abreise / Fortschritt, Verlauf «der Fortgang der Arbeiten») — nach den Nomen 2026-10-26
+  'Forum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) — nach den Nomen 2026-10-26
+  'Fotografie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3006,6 +3008,7 @@ const zurueckgestellt = <String>{
   'Flair', // zurückgestellt: das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) 2026-10-26
   'Flash', // zurückgestellt: englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'Force', // zurückgestellt: kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) 2026-10-26
+  'Fortune', // zurückgestellt: Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
