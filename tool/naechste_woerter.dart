@@ -2949,6 +2949,8 @@ const zurueckgestellt = <String>{
   'Flut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gezeiten, Hochwasser / Überschwemmung / große Menge «eine Flut von Briefen») — nach den Nomen 2026-10-26
   'Fokus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Optik: Brennpunkt / Mittelpunkt des Interesses «im Fokus stehen» / Medizin: Krankheitsherd) — nach den Nomen 2026-10-26
   'Folge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Konsequenz, Auswirkung / Teil einer Serie, Episode / Reihenfolge) — nach den Nomen 2026-10-26
+  'Fond', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rücksitz im Auto / Hintergrund / Kochkunst: Bratensaft als Grundlage für Soßen) — nach den Nomen 2026-10-26
+  'Forderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlangen, Anspruch / Wirtschaft: Geldforderung, offener Betrag) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2997,6 +2999,7 @@ const zurueckgestellt = <String>{
   'Flach', // zurückgestellt: kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) 2026-10-26
   'Flair', // zurückgestellt: das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) 2026-10-26
   'Flash', // zurückgestellt: englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
+  'Force', // zurückgestellt: kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

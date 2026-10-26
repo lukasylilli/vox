@@ -2369,6 +2369,7 @@
 | ۲۱۹۲ | Flach | `substantiv_singular_alle.txt` | 2026-10-26 | kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) | — |
 | ۲۱۹۳ | Flair | `substantiv_singular_alle.txt` | 2026-10-26 | das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) | — |
 | ۲۱۹۴ | Flash | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۹۵ | Force | `substantiv_singular_alle.txt` | 2026-10-26 | kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2966,4 +2967,6 @@
 | 751 | Flut | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gezeiten, Hochwasser / Überschwemmung / große Menge «eine Flut von Briefen») |
 | 752 | Fokus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Optik: Brennpunkt / Mittelpunkt des Interesses «im Fokus stehen» / Medizin: Krankheitsherd) |
 | 753 | Folge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Konsequenz, Auswirkung / Teil einer Serie, Episode / Reihenfolge) |
+| 754 | Fond | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Rücksitz im Auto / Hintergrund / Kochkunst: Bratensaft als Grundlage für Soßen) |
+| 755 | Forderung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Verlangen, Anspruch / Wirtschaft: Geldforderung, offener Betrag) |
 
