@@ -2951,6 +2951,10 @@ const zurueckgestellt = <String>{
   'Folge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Konsequenz, Auswirkung / Teil einer Serie, Episode / Reihenfolge) — nach den Nomen 2026-10-26
   'Fond', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rücksitz im Auto / Hintergrund / Kochkunst: Bratensaft als Grundlage für Soßen) — nach den Nomen 2026-10-26
   'Forderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlangen, Anspruch / Wirtschaft: Geldforderung, offener Betrag) — nach den Nomen 2026-10-26
+  'Form', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gestalt, Umriss / körperliche Verfassung «in Form sein» / Backform / Umgangsform) — nach den Nomen 2026-10-26
+  'Format', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Größe, Maß (Papier, Datei) / Persönlichkeit von Rang «ein Mann von Format» / Sendeformat) — nach den Nomen 2026-10-26
+  'Formation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gruppierung, Aufstellung / Geologie: Gesteinsformation / Militär: Verband) — nach den Nomen 2026-10-26
+  'Formel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Chemie: Formel / feste Redewendung / Motorsport: Formel 1) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

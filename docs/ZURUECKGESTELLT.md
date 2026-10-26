@@ -2969,4 +2969,8 @@
 | 753 | Folge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Konsequenz, Auswirkung / Teil einer Serie, Episode / Reihenfolge) |
 | 754 | Fond | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Rücksitz im Auto / Hintergrund / Kochkunst: Bratensaft als Grundlage für Soßen) |
 | 755 | Forderung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Verlangen, Anspruch / Wirtschaft: Geldforderung, offener Betrag) |
+| 756 | Form | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gestalt, Umriss / körperliche Verfassung «in Form sein» / Backform / Umgangsform) |
+| 757 | Format | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Größe, Maß (Papier, Datei) / Persönlichkeit von Rang «ein Mann von Format» / Sendeformat) |
+| 758 | Formation | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gruppierung, Aufstellung / Geologie: Gesteinsformation / Militär: Verband) |
+| 759 | Formel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Mathematik/Chemie: Formel / feste Redewendung / Motorsport: Formel 1) |
 
