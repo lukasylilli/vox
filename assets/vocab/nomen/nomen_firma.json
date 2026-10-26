@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "nomen_firma",
+  "wort": "die Firma",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شرکت",
+      "بنگاه"
+    ],
+    "en": [
+      "company",
+      "firm"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈfɪʁma",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich arbeite bei einer großen Firma.",
+      "uebersetzung": {
+        "fa": "من در یک شرکت بزرگ کار می‌کنم.",
+        "en": "I work for a big company."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Firma sucht neue Mitarbeiter, weil sie viele Aufträge aus dem Ausland bekommt.",
+      "uebersetzung": {
+        "fa": "شرکت دنبال کارمند جدید است، چون سفارش‌های زیادی از خارج می‌گیرد.",
+        "en": "The company is looking for new staff because it is getting a lot of orders from abroad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Unternehmen",
+      "uebersetzung": {
+        "fa": "شرکت",
+        "en": "company"
+      }
+    },
+    {
+      "wort": "der Betrieb",
+      "uebersetzung": {
+        "fa": "شرکت، کارگاه",
+        "en": "business"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Baufirma",
+      "uebersetzung": {
+        "fa": "شرکت ساختمانی",
+        "en": "construction company"
+      }
+    },
+    {
+      "wort": "die Firmengründung",
+      "uebersetzung": {
+        "fa": "تأسیس شرکت",
+        "en": "company formation"
+      }
+    },
+    {
+      "wort": "der Firmenwagen",
+      "uebersetzung": {
+        "fa": "ماشین شرکت",
+        "en": "company car"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از ایتالیایی firma (امضا)",
+    "en": "from Italian firma (signature)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Firmen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "bei einer Firma (bei + Dat)",
+        "beispiel": "Seit drei Jahren ist er bei dieser Firma angestellt.",
+        "uebersetzung": {
+          "fa": "او سه سال است که در این شرکت استخدام است.",
+          "en": "He has been employed by this company for three years."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Unternehmen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت، بنگاه",
+          "en": "company"
+        },
+        "id_ref": "nomen_unternehmen"
+      },
+      {
+        "wort": "der Betrieb",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارگاه، شرکت",
+          "en": "business"
+        },
+        "id_ref": "nomen_betrieb"
+      },
+      {
+        "wort": "der Chef",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رئیس",
+          "en": "boss"
+        },
+        "id_ref": "nomen_chef"
+      },
+      {
+        "wort": "der Mitarbeiter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارمند",
+          "en": "employee"
+        },
+        "id_ref": "nomen_mitarbeiter"
+      },
+      {
+        "wort": "gründen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأسیس کردن",
+          "en": "to found"
+        },
+        "id_ref": "verb_gruenden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

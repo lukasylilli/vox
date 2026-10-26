@@ -2362,6 +2362,7 @@
 | ۲۱۸۵ | File | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Datei) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
 | ۲۱۸۶ | Finanz | `substantiv_singular_alle.txt` | 2026-10-26 | Singular unüblich (meist Plural «die Finanzen»; österr. ugs. «die Finanz» = Finanzamt) — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۸۷ | Fine | `substantiv_singular_alle.txt` | 2026-10-26 | kein deutsches Nomen (ital. Musikbegriff «fine» = Ende) — Lemma nicht sicher (Regel 14) | — |
+| ۲۱۸۸ | Finke | `substantiv_singular_alle.txt` | 2026-10-26 | Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2943,4 +2944,6 @@
 | 735 | Finanzbeamter | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv: der Finanzbeamte / ein Finanzbeamter) |
 | 736 | Finanzvorstand | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: für Finanzen zuständiges Vorstandsmitglied (Person) / Gremium, Vorstand für Finanzen) |
 | 737 | Finesse | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Feinheit, Raffinesse / meist Plural: Kniff, Trick) |
+| 738 | Finish | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Sport: Endspurt / Technik: letzte Oberflächenbehandlung, Veredelung) |
+| 739 | Finsternis | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Dunkelheit / Astronomie: Sonnen- bzw. Mondfinsternis) |
 
