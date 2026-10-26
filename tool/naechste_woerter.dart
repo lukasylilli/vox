@@ -2958,6 +2958,9 @@ const zurueckgestellt = <String>{
   'Feature', // zurückgestellt: das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) 2026-10-25
   'Federspiel', // zurückgestellt: Fachwort der Falknerei bzw. Spiel — Bedeutung als Lernwort nicht sicher (Regel 14) 2026-10-25
   'Ferner', // zurückgestellt: kein klares Nomen: Komparativ/Adverb «ferner»; regional (Tirol) auch: der Ferner = Gletscher — Lemma nicht sicher (Regel 14) 2026-10-25
+  'Fiction', // zurückgestellt: englisches Wort (Belletristik) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
+  'Fidel', // zurückgestellt: mehrdeutig: Eigenname bzw. altes Streichinstrument «die Fidel» — Lemma nicht sicher (Regel 14) 2026-10-26
+  'Figaro', // zurückgestellt: Name einer Bühnenfigur bzw. scherzhaft «Friseur» — Eigenname, nicht bauen (Regel 18) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

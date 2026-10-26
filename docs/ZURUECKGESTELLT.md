@@ -2355,6 +2355,9 @@
 | ۲۱۷۸ | Feature | `substantiv_singular_alle.txt` | 2026-10-25 | das oder die Feature — Genus nicht eindeutig, mehrere Bedeutungen (Regel 14) | — |
 | ۲۱۷۹ | Federspiel | `substantiv_singular_alle.txt` | 2026-10-25 | Fachwort der Falknerei bzw. Spiel — Bedeutung als Lernwort nicht sicher (Regel 14) | — |
 | ۲۱۸۰ | Ferner | `substantiv_singular_alle.txt` | 2026-10-25 | kein klares Nomen: Komparativ/Adverb «ferner»; regional (Tirol) auch: der Ferner = Gletscher — Lemma nicht sicher (Regel 14) | — |
+| ۲۱۸۱ | Fiction | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Belletristik) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۸۲ | Fidel | `substantiv_singular_alle.txt` | 2026-10-26 | mehrdeutig: Eigenname bzw. altes Streichinstrument «die Fidel» — Lemma nicht sicher (Regel 14) | — |
+| ۲۱۸۳ | Figaro | `substantiv_singular_alle.txt` | 2026-10-26 | Name einer Bühnenfigur bzw. scherzhaft «Friseur» — Eigenname, nicht bauen (Regel 18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
