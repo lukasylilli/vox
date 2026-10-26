@@ -1,0 +1,154 @@
+{
+  "schema": "3.0",
+  "id": "nomen_freigabe",
+  "wort": "die Freigabe",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آزادسازی",
+      "اجازه‌ی انتشار",
+      "تأیید"
+    ],
+    "en": [
+      "release",
+      "approval",
+      "clearance"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Verwaltung",
+    "Technik"
+  ],
+  "ipa": "ˈfʁaɪ̯ɡaːbə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Wir warten noch auf die Freigabe vom Chef.",
+      "uebersetzung": {
+        "fa": "هنوز منتظر تأیید رئیس هستیم.",
+        "en": "We are still waiting for the boss's approval."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst nach der Freigabe durch die Behörde darf das neue Medikament verkauft werden.",
+      "uebersetzung": {
+        "fa": "فقط پس از تأیید اداره‌ی مربوط، داروی جدید اجازه‌ی فروش دارد.",
+        "en": "Only after approval by the authority may the new medicine be sold."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Genehmigung",
+      "uebersetzung": {
+        "fa": "مجوز",
+        "en": "permit"
+      }
+    },
+    {
+      "wort": "die Zustimmung",
+      "uebersetzung": {
+        "fa": "موافقت",
+        "en": "consent"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Sperre",
+      "uebersetzung": {
+        "fa": "مسدودسازی",
+        "en": "block"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "freigeben (آزاد کردن، اجازه دادن) → Freigabe",
+    "en": "freigeben (to release) → Freigabe"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Freigaben",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "die Freigabe erteilen",
+        "beispiel": "Die Projektleiterin hat die Freigabe für den Druck erteilt.",
+        "uebersetzung": {
+          "fa": "مدیر پروژه اجازه‌ی چاپ را صادر کرد.",
+          "en": "The project manager gave the go-ahead for printing."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "freigeben",
+    "woerter": [
+      {
+        "wort": "freigeben",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزاد کردن، اجازه دادن",
+          "en": "to release, to approve"
+        },
+        "id_ref": "verb_freigeben"
+      },
+      {
+        "wort": "frei",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آزاد",
+          "en": "free"
+        },
+        "id_ref": "adjektiv_frei"
+      },
+      {
+        "wort": "die Genehmigung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجوز",
+          "en": "permit"
+        },
+        "id_ref": "nomen_genehmigung"
+      },
+      {
+        "wort": "die Zustimmung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موافقت",
+          "en": "consent"
+        },
+        "id_ref": "nomen_zustimmung"
+      },
+      {
+        "wort": "die Sperre",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مسدودسازی",
+          "en": "block, ban"
+        },
+        "id_ref": "nomen_sperre"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

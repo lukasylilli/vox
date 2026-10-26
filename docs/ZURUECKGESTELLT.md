@@ -2992,4 +2992,7 @@
 | 773 | Frauenstimme | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stimme einer Frau beim Sprechen/Singen / Wählerstimme einer Frau) |
 | 774 | Frauentag | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Internationaler Frauentag am 8. März / kath. Marienfest) |
 | 775 | Freak | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Außenseiter, der sich nicht anpasst / begeisterter Fan, z. B. Computerfreak) |
+| 776 | Freibrief | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: früher Urkunde mit Vorrecht / übertragen: Erlaubnis, Rechtfertigung «kein Freibrief für …») |
+| 777 | Freiburg | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 3 (Homograph mit gleichem Genus: Freiburg im Breisgau / Freiburg im Üechtland (Fribourg), Schweiz) |
+| 778 | Freiheit | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zustand des Freiseins / Vorrecht «sich Freiheiten herausnehmen») |
 

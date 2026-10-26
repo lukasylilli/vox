@@ -2971,6 +2971,9 @@ const zurueckgestellt = <String>{
   'Frauenstimme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stimme einer Frau beim Sprechen/Singen / Wählerstimme einer Frau) — nach den Nomen 2026-10-26
   'Frauentag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Internationaler Frauentag am 8. März / kath. Marienfest) — nach den Nomen 2026-10-26
   'Freak', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Außenseiter, der sich nicht anpasst / begeisterter Fan, z. B. Computerfreak) — nach den Nomen 2026-10-26
+  'Freibrief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Urkunde mit Vorrecht / übertragen: Erlaubnis, Rechtfertigung «kein Freibrief für …») — nach den Nomen 2026-10-26
+  'Freiburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph mit gleichem Genus: Freiburg im Breisgau / Freiburg im Üechtland (Fribourg), Schweiz) — nach den Nomen 2026-10-26
+  'Freiheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zustand des Freiseins / Vorrecht «sich Freiheiten herausnehmen») — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
