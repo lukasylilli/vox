@@ -2365,6 +2365,9 @@
 | ۲۱۸۸ | Finke | `substantiv_singular_alle.txt` | 2026-10-26 | Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۸۹ | Fis | `substantiv_singular_alle.txt` | 2026-10-26 | Musik: Tonbezeichnung (das Fis) — sehr fachlich, Schreibung/Genus als Lernwort unsicher (Regel 14) | — |
 | ۲۱۹۰ | Fitz | `substantiv_singular_alle.txt` | 2026-10-26 | kein gesichertes Gattungsnomen (landschaftlich «Fitz» = Faden, Wirrwarr; sonst Familienname) (Regel 14) | — |
+| ۲۱۹۱ | Fixing | `substantiv_singular_alle.txt` | 2026-10-26 | englischer Fachbegriff der Börse (Kursfeststellung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۹۲ | Flach | `substantiv_singular_alle.txt` | 2026-10-26 | kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) | — |
+| ۲۱۹۳ | Flair | `substantiv_singular_alle.txt` | 2026-10-26 | das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2948,4 +2951,6 @@
 | 737 | Finesse | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Feinheit, Raffinesse / meist Plural: Kniff, Trick) |
 | 738 | Finish | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Sport: Endspurt / Technik: letzte Oberflächenbehandlung, Veredelung) |
 | 739 | Finsternis | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Dunkelheit / Astronomie: Sonnen- bzw. Mondfinsternis) |
+| 740 | Fixierung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Befestigung, Festhalten (auch Medizin: Fixierung eines Patienten) / Psychologie: starke Bindung an etwas / schriftliches Festlegen) |
+| 741 | Flaggschiff | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schiff des Flottenkommandanten / übertragen: wichtigstes Produkt oder Aushängeschild) |
 

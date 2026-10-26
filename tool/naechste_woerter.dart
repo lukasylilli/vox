@@ -2935,6 +2935,8 @@ const zurueckgestellt = <String>{
   'Finesse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feinheit, Raffinesse / meist Plural: Kniff, Trick) — nach den Nomen 2026-10-26
   'Finish', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Endspurt / Technik: letzte Oberflächenbehandlung, Veredelung) — nach den Nomen 2026-10-26
   'Finsternis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dunkelheit / Astronomie: Sonnen- bzw. Mondfinsternis) — nach den Nomen 2026-10-26
+  'Fixierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befestigung, Festhalten (auch Medizin: Fixierung eines Patienten) / Psychologie: starke Bindung an etwas / schriftliches Festlegen) — nach den Nomen 2026-10-26
+  'Flaggschiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiff des Flottenkommandanten / übertragen: wichtigstes Produkt oder Aushängeschild) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2979,6 +2981,9 @@ const zurueckgestellt = <String>{
   'Finke', // zurückgestellt: Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) 2026-10-26
   'Fis', // zurückgestellt: Musik: Tonbezeichnung (das Fis) — sehr fachlich, Schreibung/Genus als Lernwort unsicher (Regel 14) 2026-10-26
   'Fitz', // zurückgestellt: kein gesichertes Gattungsnomen (landschaftlich «Fitz» = Faden, Wirrwarr; sonst Familienname) (Regel 14) 2026-10-26
+  'Fixing', // zurückgestellt: englischer Fachbegriff der Börse (Kursfeststellung) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
+  'Flach', // zurückgestellt: kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) 2026-10-26
+  'Flair', // zurückgestellt: das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
