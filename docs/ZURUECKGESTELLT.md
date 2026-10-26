@@ -2964,4 +2964,6 @@
 | 749 | Fluglinie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Fluggesellschaft / regelmäßige Flugverbindung, Strecke) |
 | 750 | Flugstunde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stunde Flugzeit / Unterrichtsstunde beim Fliegenlernen) |
 | 751 | Flut | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gezeiten, Hochwasser / Überschwemmung / große Menge «eine Flut von Briefen») |
+| 752 | Fokus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Optik: Brennpunkt / Mittelpunkt des Interesses «im Fokus stehen» / Medizin: Krankheitsherd) |
+| 753 | Folge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Konsequenz, Auswirkung / Teil einer Serie, Episode / Reihenfolge) |
 
