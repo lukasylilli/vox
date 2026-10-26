@@ -2934,4 +2934,5 @@
 | 728 | Feuertaufe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Militär: erster Kampfeinsatz / übertragen: erste Bewährungsprobe) |
 | 729 | Figur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Körperform, Gestalt / Person in einem Werk / Spielfigur, Schachfigur / geometrische Figur) |
 | 730 | Film | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kino-/Fernsehfilm / dünne Schicht «ein Ölfilm» / Fotofilm, Filmrolle) |
+| 731 | Filmgeschichte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Geschichte des Films als Kunst / Handlung eines bestimmten Films) |
 
