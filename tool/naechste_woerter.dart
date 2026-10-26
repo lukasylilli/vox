@@ -2940,6 +2940,9 @@ const zurueckgestellt = <String>{
   'Flanke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite des Körpers (Tier) / Fußball: Flanke (Pass) / Turnen: Sprung / Militär: Seite einer Truppe) — nach den Nomen 2026-10-26
   'Flasche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefäß / ugs. abwertend: Versager) — nach den Nomen 2026-10-26
   'Fleck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmutzfleck / Stelle, Ort «nicht vom Fleck kommen» / österr. Kuttelfleck) — nach den Nomen 2026-10-26
+  'Fliege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insekt / Querbinder, Krawattenschleife) — nach den Nomen 2026-10-26
+  'Flieger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pilot / ugs. Flugzeug) — nach den Nomen 2026-10-26
+  'Flitzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. kleines schnelles Auto / nackter Läufer bei Veranstaltungen) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

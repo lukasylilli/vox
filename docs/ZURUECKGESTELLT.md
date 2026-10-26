@@ -2957,4 +2957,7 @@
 | 742 | Flanke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Seite des Körpers (Tier) / Fußball: Flanke (Pass) / Turnen: Sprung / Militär: Seite einer Truppe) |
 | 743 | Flasche | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gefäß / ugs. abwertend: Versager) |
 | 744 | Fleck | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schmutzfleck / Stelle, Ort «nicht vom Fleck kommen» / österr. Kuttelfleck) |
+| 745 | Fliege | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Insekt / Querbinder, Krawattenschleife) |
+| 746 | Flieger | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Pilot / ugs. Flugzeug) |
+| 747 | Flitzer | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: ugs. kleines schnelles Auto / nackter Läufer bei Veranstaltungen) |
 
