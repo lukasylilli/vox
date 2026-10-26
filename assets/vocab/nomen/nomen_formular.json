@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "nomen_formular",
+  "wort": "das Formular",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرم",
+      "برگه‌ی درخواست"
+    ],
+    "en": [
+      "form"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Behörden",
+    "Alltag"
+  ],
+  "ipa": "fɔʁmuˈlaːɐ̯",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Bitte füllen Sie das Formular aus.",
+      "uebersetzung": {
+        "fa": "لطفاً فرم را پر کنید.",
+        "en": "Please fill in the form."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn im Formular ein Feld leer bleibt, wird der Antrag nicht bearbeitet.",
+      "uebersetzung": {
+        "fa": "اگر یک خانه در فرم خالی بماند، درخواست بررسی نمی‌شود.",
+        "en": "If a field in the form is left empty, the application will not be processed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Vordruck",
+      "uebersetzung": {
+        "fa": "فرم چاپی",
+        "en": "printed form"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Anmeldeformular",
+      "uebersetzung": {
+        "fa": "فرم ثبت‌نام",
+        "en": "registration form"
+      }
+    },
+    {
+      "wort": "das Antragsformular",
+      "uebersetzung": {
+        "fa": "فرم درخواست",
+        "en": "application form"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین formula (قالب کوچک)",
+    "en": "from Latin formula (small form)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Formulare",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Formular ausfüllen",
+        "beispiel": "Auf dem Amt muss man viele Formulare ausfüllen.",
+        "uebersetzung": {
+          "fa": "در اداره باید فرم‌های زیادی پر کرد.",
+          "en": "At the office you have to fill in lots of forms."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "ausfüllen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پر کردن (فرم)",
+          "en": "to fill in"
+        },
+        "id_ref": "verb_ausfuellen"
+      },
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      },
+      {
+        "wort": "die Unterschrift",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امضا",
+          "en": "signature"
+        },
+        "id_ref": "nomen_unterschrift"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اداره",
+          "en": "office"
+        },
+        "id_ref": "nomen_amt"
+      },
+      {
+        "wort": "das Feld",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خانه (فرم)",
+          "en": "field"
+        },
+        "id_ref": "nomen_feld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
