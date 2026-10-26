@@ -2960,6 +2960,9 @@ const zurueckgestellt = <String>{
   'Forum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) — nach den Nomen 2026-10-26
   'Fotografie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) — nach den Nomen 2026-10-26
   'Fraktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abgeordnete einer Partei im Parlament / Gruppe innerhalb einer Organisation / Chemie: Bestandteil bei der Trennung) — nach den Nomen 2026-10-26
+  'Fraktionsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: die/der Fraktionsvorsitzende) — nach den Nomen 2026-10-26
+  'Fraktionsvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: ein Fraktionsvorsitzender) — nach den Nomen 2026-10-26
+  'Franke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angehöriger des germanischen Volks der Franken / Einwohner Frankens) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

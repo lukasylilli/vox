@@ -2980,4 +2980,7 @@
 | 762 | Forum | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) |
 | 763 | Fotografie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) |
 | 764 | Fraktion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Abgeordnete einer Partei im Parlament / Gruppe innerhalb einer Organisation / Chemie: Bestandteil bei der Trennung) |
+| 765 | Fraktionsvorsitzende | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: die/der Fraktionsvorsitzende) |
+| 766 | Fraktionsvorsitzender | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: ein Fraktionsvorsitzender) |
+| 767 | Franke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Angehöriger des germanischen Volks der Franken / Einwohner Frankens) |
 
