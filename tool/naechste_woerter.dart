@@ -2977,6 +2977,7 @@ const zurueckgestellt = <String>{
   'Finanz', // zurückgestellt: Singular unüblich (meist Plural «die Finanzen»; österr. ugs. «die Finanz» = Finanzamt) — Lemma nicht sicher (Regel 14) 2026-10-26
   'Fine', // zurückgestellt: kein deutsches Nomen (ital. Musikbegriff «fine» = Ende) — Lemma nicht sicher (Regel 14) 2026-10-26
   'Finke', // zurückgestellt: Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) 2026-10-26
+  'Fis', // zurückgestellt: Musik: Tonbezeichnung (das Fis) — sehr fachlich, Schreibung/Genus als Lernwort unsicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
