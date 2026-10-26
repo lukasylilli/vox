@@ -2969,6 +2969,8 @@ const zurueckgestellt = <String>{
   'Frauenbeauftragter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: ein Frauenbeauftragter) — nach den Nomen 2026-10-26
   'Frauenhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zufluchtsstätte für misshandelte Frauen / früher Frauengemach bzw. Bordell) — nach den Nomen 2026-10-26
   'Frauenstimme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stimme einer Frau beim Sprechen/Singen / Wählerstimme einer Frau) — nach den Nomen 2026-10-26
+  'Frauentag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Internationaler Frauentag am 8. März / kath. Marienfest) — nach den Nomen 2026-10-26
+  'Freak', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Außenseiter, der sich nicht anpasst / begeisterter Fan, z. B. Computerfreak) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3020,6 +3022,7 @@ const zurueckgestellt = <String>{
   'Force', // zurückgestellt: kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) 2026-10-26
   'Fortune', // zurückgestellt: Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) 2026-10-26
   'Fox', // zurückgestellt: kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) 2026-10-26
+  'Freestyle', // zurückgestellt: englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
