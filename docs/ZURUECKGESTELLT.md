@@ -2358,6 +2358,8 @@
 | ۲۱۸۱ | Fiction | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Belletristik) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۸۲ | Fidel | `substantiv_singular_alle.txt` | 2026-10-26 | mehrdeutig: Eigenname bzw. altes Streichinstrument «die Fidel» — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۸۳ | Figaro | `substantiv_singular_alle.txt` | 2026-10-26 | Name einer Bühnenfigur bzw. scherzhaft «Friseur» — Eigenname, nicht bauen (Regel 18) | — |
+| ۲۱۸۴ | Fighter | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Kämpfer) — als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۸۵ | File | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Datei) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2930,4 +2932,6 @@
 | 726 | Feuer | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Flamme, Brand / Feuer für die Zigarette / Beschuss «das Feuer eröffnen» / Leidenschaft, Begeisterung) |
 | 727 | Feuerbrand | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Pflanzenkrankheit bei Obstbäumen / gehoben: brennendes Holzstück) |
 | 728 | Feuertaufe | `substantiv_singular_alle.txt` | 2026-10-25 | Fall 1 (mehrere Bedeutungen: Militär: erster Kampfeinsatz / übertragen: erste Bewährungsprobe) |
+| 729 | Figur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Körperform, Gestalt / Person in einem Werk / Spielfigur, Schachfigur / geometrische Figur) |
+| 730 | Film | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kino-/Fernsehfilm / dünne Schicht «ein Ölfilm» / Fotofilm, Filmrolle) |
 
