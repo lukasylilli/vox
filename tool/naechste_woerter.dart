@@ -2931,6 +2931,8 @@ const zurueckgestellt = <String>{
   'Filz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff aus gepressten Fasern / ugs. abwertend: Vetternwirtschaft, Korruption) — nach den Nomen 2026-10-26
   'Finale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Endspiel / Musik: Schlusssatz / allgemein: Schluss, Höhepunkt) — nach den Nomen 2026-10-26
   'Finanzbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Finanzbeamte / ein Finanzbeamter) — nach den Nomen 2026-10-26
+  'Finanzvorstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: für Finanzen zuständiges Vorstandsmitglied (Person) / Gremium, Vorstand für Finanzen) — nach den Nomen 2026-10-26
+  'Finesse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feinheit, Raffinesse / meist Plural: Kniff, Trick) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2971,6 +2973,7 @@ const zurueckgestellt = <String>{
   'Fighter', // zurückgestellt: englisches Wort (Kämpfer) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'File', // zurückgestellt: englisches Wort (Datei) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) 2026-10-26
   'Finanz', // zurückgestellt: Singular unüblich (meist Plural «die Finanzen»; österr. ugs. «die Finanz» = Finanzamt) — Lemma nicht sicher (Regel 14) 2026-10-26
+  'Fine', // zurückgestellt: kein deutsches Nomen (ital. Musikbegriff «fine» = Ende) — Lemma nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
