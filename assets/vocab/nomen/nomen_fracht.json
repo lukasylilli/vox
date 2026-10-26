@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fracht",
+  "wort": "die Fracht",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بار",
+      "محموله"
+    ],
+    "en": [
+      "freight",
+      "cargo"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Wirtschaft"
+  ],
+  "ipa": "fʁaxt",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Schiff hat viel Fracht.",
+      "uebersetzung": {
+        "fa": "این کشتی بار زیادی دارد.",
+        "en": "The ship has a lot of cargo."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Fracht wird im Hafen von Containerschiffen auf Züge und Lastwagen umgeladen.",
+      "uebersetzung": {
+        "fa": "بار در بندر از کشتی‌های کانتینری به قطارها و کامیون‌ها منتقل می‌شود.",
+        "en": "In the port the freight is transferred from container ships to trains and lorries."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Ladung",
+      "uebersetzung": {
+        "fa": "بار",
+        "en": "load"
+      }
+    },
+    {
+      "wort": "das Frachtgut",
+      "uebersetzung": {
+        "fa": "کالای حمل",
+        "en": "freight"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Frachtschiff",
+      "uebersetzung": {
+        "fa": "کشتی باری",
+        "en": "cargo ship"
+      }
+    },
+    {
+      "wort": "die Luftfracht",
+      "uebersetzung": {
+        "fa": "بار هوایی",
+        "en": "air freight"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از آلمانی سفلی vracht (کرایه‌ی حمل)",
+    "en": "from Low German vracht (carriage fee)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Frachten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Frachter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کشتی باری",
+          "en": "freighter"
+        },
+        "id_ref": "nomen_frachter"
+      },
+      {
+        "wort": "die Ladung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "load"
+        },
+        "id_ref": "nomen_ladung"
+      },
+      {
+        "wort": "der Container",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کانتینر",
+          "en": "container"
+        },
+        "id_ref": "nomen_container"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      },
+      {
+        "wort": "der Hafen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بندر",
+          "en": "port"
+        },
+        "id_ref": "nomen_hafen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "nomen_frage",
+  "wort": "die Frage",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سؤال",
+      "پرسش",
+      "مسئله"
+    ],
+    "en": [
+      "question",
+      "issue"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Kommunikation",
+    "Alltag"
+  ],
+  "ipa": "ˈfʁaːɡə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich habe eine Frage.",
+      "uebersetzung": {
+        "fa": "یک سؤال دارم.",
+        "en": "I have a question."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Frage, wer die Kosten übernimmt, ist noch nicht geklärt.",
+      "uebersetzung": {
+        "fa": "این مسئله که چه کسی هزینه‌ها را می‌پردازد هنوز روشن نشده است.",
+        "en": "The question of who will cover the costs has not yet been settled."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "die Antwort",
+      "uebersetzung": {
+        "fa": "جواب",
+        "en": "answer"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Gegenfrage",
+      "uebersetzung": {
+        "fa": "سؤال متقابل",
+        "en": "counter-question"
+      }
+    },
+    {
+      "wort": "die Prüfungsfrage",
+      "uebersetzung": {
+        "fa": "سؤال امتحان",
+        "en": "exam question"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Fragen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "eine Frage an + Akk",
+        "beispiel": "Ich habe eine Frage an Sie.",
+        "uebersetzung": {
+          "fa": "از شما سؤالی دارم.",
+          "en": "I have a question for you."
+        }
+      },
+      {
+        "muster": "die Frage nach + Dat",
+        "beispiel": "Die Frage nach dem Sinn des Lebens ist sehr alt.",
+        "uebersetzung": {
+          "fa": "پرسش درباره‌ی معنای زندگی خیلی قدیمی است.",
+          "en": "The question of the meaning of life is very old."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Frage stellen",
+        "beispiel": "Darf ich Ihnen eine Frage stellen?",
+        "uebersetzung": {
+          "fa": "اجازه هست سؤالی از شما بپرسم؟",
+          "en": "May I ask you a question?"
+        }
+      },
+      {
+        "verbindung": "in Frage kommen",
+        "beispiel": "Dieser Termin kommt für mich nicht in Frage.",
+        "uebersetzung": {
+          "fa": "این وقت برای من مناسب نیست.",
+          "en": "This date is out of the question for me."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fragen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرسیدن",
+          "en": "to ask"
+        },
+        "id_ref": "verb_fragen"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "جواب",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "das Problem",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "مشکل",
+          "en": "problem"
+        },
+        "id_ref": "nomen_problem"
+      },
+      {
+        "wort": "das Fragezeichen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "علامت سؤال",
+          "en": "question mark"
+        },
+        "id_ref": "nomen_fragezeichen"
+      },
+      {
+        "wort": "beantworten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پاسخ دادن",
+          "en": "to answer"
+        },
+        "id_ref": "verb_beantworten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

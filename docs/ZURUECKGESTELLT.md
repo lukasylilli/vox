@@ -2371,6 +2371,7 @@
 | ۲۱۹۴ | Flash | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۹۵ | Force | `substantiv_singular_alle.txt` | 2026-10-26 | kein deutsches Nomen (engl./frz. «force»; nur in «Task-Force», «Force majeure») (Regel 14) | — |
 | ۲۱۹۶ | Fortune | `substantiv_singular_alle.txt` | 2026-10-26 | Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) | — |
+| ۲۱۹۷ | Fox | `substantiv_singular_alle.txt` | 2026-10-26 | kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
