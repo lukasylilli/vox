@@ -2939,4 +2939,5 @@
 | 732 | Filmrolle | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Rolle eines Schauspielers in einem Film / aufgerollter Fotofilm) |
 | 733 | Filz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stoff aus gepressten Fasern / ugs. abwertend: Vetternwirtschaft, Korruption) |
 | 734 | Finale | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Sport: Endspiel / Musik: Schlusssatz / allgemein: Schluss, Höhepunkt) |
+| 735 | Finanzbeamter | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv: der Finanzbeamte / ein Finanzbeamter) |
 
