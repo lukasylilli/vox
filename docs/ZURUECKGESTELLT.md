@@ -2996,4 +2996,5 @@
 | 777 | Freiburg | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 3 (Homograph mit gleichem Genus: Freiburg im Breisgau / Freiburg im Üechtland (Fribourg), Schweiz) |
 | 778 | Freiheit | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zustand des Freiseins / Vorrecht «sich Freiheiten herausnehmen») |
 | 779 | Freiraum | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: unbebaute, offene Fläche / Spielraum zur persönlichen Entfaltung) |
+| 780 | Freisetzung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freiwerden von Stoffen/Energie / Entlassung von Arbeitskräften) |
 
