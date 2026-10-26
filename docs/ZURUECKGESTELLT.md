@@ -2961,4 +2961,5 @@
 | 746 | Flieger | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Pilot / ugs. Flugzeug) |
 | 747 | Flitzer | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: ugs. kleines schnelles Auto / nackter Läufer bei Veranstaltungen) |
 | 748 | Fluch | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schimpfwort, Kraftausdruck / Verwünschung, böser Zauber) |
+| 749 | Fluglinie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Fluggesellschaft / regelmäßige Flugverbindung, Strecke) |
 

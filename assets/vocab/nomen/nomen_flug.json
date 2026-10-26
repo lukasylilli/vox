@@ -1,0 +1,154 @@
+{
+  "schema": "3.0",
+  "id": "nomen_flug",
+  "wort": "der Flug",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پرواز"
+    ],
+    "en": [
+      "flight"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Reisen",
+    "Verkehr"
+  ],
+  "ipa": "fluːk",
+  "anmerkung": "Redewendung: «wie im Flug(e) vergehen» (sehr schnell vergehen)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Flug nach Teheran dauert fünf Stunden.",
+      "uebersetzung": {
+        "fa": "پرواز به تهران پنج ساعت طول می‌کشد.",
+        "en": "The flight to Tehran takes five hours."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Unser Flug hatte zwei Stunden Verspätung, weil es in Frankfurt stark geschneit hat.",
+      "uebersetzung": {
+        "fa": "پرواز ما دو ساعت تأخیر داشت، چون در فرانکفورت برف شدیدی آمده بود.",
+        "en": "Our flight was two hours late because it had snowed heavily in Frankfurt."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Direktflug",
+      "uebersetzung": {
+        "fa": "پرواز مستقیم",
+        "en": "direct flight"
+      }
+    },
+    {
+      "wort": "der Rückflug",
+      "uebersetzung": {
+        "fa": "پرواز برگشت",
+        "en": "return flight"
+      }
+    },
+    {
+      "wort": "der Inlandsflug",
+      "uebersetzung": {
+        "fa": "پرواز داخلی",
+        "en": "domestic flight"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Flüge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Flug nach + Dat",
+        "beispiel": "Ich habe einen Flug nach Wien gebucht.",
+        "uebersetzung": {
+          "fa": "یک پرواز به وین رزرو کرده‌ام.",
+          "en": "I have booked a flight to Vienna."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Flug buchen",
+        "beispiel": "Wir buchen den Flug lieber früh, dann ist er billiger.",
+        "uebersetzung": {
+          "fa": "بهتر است پرواز را زود رزرو کنیم، چون ارزان‌تر است.",
+          "en": "We'd better book the flight early, then it's cheaper."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "das Flugzeug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هواپیما",
+          "en": "aeroplane"
+        },
+        "id_ref": "nomen_flugzeug"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "das Flugticket",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بلیت هواپیما",
+          "en": "plane ticket"
+        },
+        "id_ref": "nomen_flugticket"
+      },
+      {
+        "wort": "die Landung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فرود",
+          "en": "landing"
+        },
+        "id_ref": "nomen_landung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
