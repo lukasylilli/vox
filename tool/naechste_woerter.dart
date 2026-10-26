@@ -2974,6 +2974,7 @@ const zurueckgestellt = <String>{
   'Freibrief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Urkunde mit Vorrecht / übertragen: Erlaubnis, Rechtfertigung «kein Freibrief für …») — nach den Nomen 2026-10-26
   'Freiburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph mit gleichem Genus: Freiburg im Breisgau / Freiburg im Üechtland (Fribourg), Schweiz) — nach den Nomen 2026-10-26
   'Freiheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zustand des Freiseins / Vorrecht «sich Freiheiten herausnehmen») — nach den Nomen 2026-10-26
+  'Freiraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unbebaute, offene Fläche / Spielraum zur persönlichen Entfaltung) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
