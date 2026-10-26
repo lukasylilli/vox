@@ -2963,4 +2963,5 @@
 | 748 | Fluch | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schimpfwort, Kraftausdruck / Verwünschung, böser Zauber) |
 | 749 | Fluglinie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Fluggesellschaft / regelmäßige Flugverbindung, Strecke) |
 | 750 | Flugstunde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stunde Flugzeit / Unterrichtsstunde beim Fliegenlernen) |
+| 751 | Flut | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gezeiten, Hochwasser / Überschwemmung / große Menge «eine Flut von Briefen») |
 
