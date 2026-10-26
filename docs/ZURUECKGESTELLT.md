@@ -2368,6 +2368,7 @@
 | ۲۱۹۱ | Fixing | `substantiv_singular_alle.txt` | 2026-10-26 | englischer Fachbegriff der Börse (Kursfeststellung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۹۲ | Flach | `substantiv_singular_alle.txt` | 2026-10-26 | kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) | — |
 | ۲۱۹۳ | Flair | `substantiv_singular_alle.txt` | 2026-10-26 | das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) | — |
+| ۲۱۹۴ | Flash | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2953,4 +2954,7 @@
 | 739 | Finsternis | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Dunkelheit / Astronomie: Sonnen- bzw. Mondfinsternis) |
 | 740 | Fixierung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Befestigung, Festhalten (auch Medizin: Fixierung eines Patienten) / Psychologie: starke Bindung an etwas / schriftliches Festlegen) |
 | 741 | Flaggschiff | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schiff des Flottenkommandanten / übertragen: wichtigstes Produkt oder Aushängeschild) |
+| 742 | Flanke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Seite des Körpers (Tier) / Fußball: Flanke (Pass) / Turnen: Sprung / Militär: Seite einer Truppe) |
+| 743 | Flasche | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gefäß / ugs. abwertend: Versager) |
+| 744 | Fleck | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Schmutzfleck / Stelle, Ort «nicht vom Fleck kommen» / österr. Kuttelfleck) |
 

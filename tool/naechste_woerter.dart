@@ -2937,6 +2937,9 @@ const zurueckgestellt = <String>{
   'Finsternis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dunkelheit / Astronomie: Sonnen- bzw. Mondfinsternis) — nach den Nomen 2026-10-26
   'Fixierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befestigung, Festhalten (auch Medizin: Fixierung eines Patienten) / Psychologie: starke Bindung an etwas / schriftliches Festlegen) — nach den Nomen 2026-10-26
   'Flaggschiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiff des Flottenkommandanten / übertragen: wichtigstes Produkt oder Aushängeschild) — nach den Nomen 2026-10-26
+  'Flanke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite des Körpers (Tier) / Fußball: Flanke (Pass) / Turnen: Sprung / Militär: Seite einer Truppe) — nach den Nomen 2026-10-26
+  'Flasche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefäß / ugs. abwertend: Versager) — nach den Nomen 2026-10-26
+  'Fleck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmutzfleck / Stelle, Ort «nicht vom Fleck kommen» / österr. Kuttelfleck) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2984,6 +2987,7 @@ const zurueckgestellt = <String>{
   'Fixing', // zurückgestellt: englischer Fachbegriff der Börse (Kursfeststellung) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'Flach', // zurückgestellt: kein Nomen (Adjektiv «flach»); Substantivierung unklar (Regel 14) 2026-10-26
   'Flair', // zurückgestellt: das Flair (seltener: der Flair) — Genus nicht eindeutig (Regel 14) 2026-10-26
+  'Flash', // zurückgestellt: englisches Wort (Blitz, Rauschgift-Wirkung) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
