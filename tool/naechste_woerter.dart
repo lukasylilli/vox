@@ -2959,6 +2959,7 @@ const zurueckgestellt = <String>{
   'Fortgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weggang, Abreise / Fortschritt, Verlauf «der Fortgang der Arbeiten») — nach den Nomen 2026-10-26
   'Forum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) — nach den Nomen 2026-10-26
   'Fotografie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) — nach den Nomen 2026-10-26
+  'Fraktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abgeordnete einer Partei im Parlament / Gruppe innerhalb einer Organisation / Chemie: Bestandteil bei der Trennung) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

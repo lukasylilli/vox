@@ -2979,4 +2979,5 @@
 | 761 | Fortgang | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Weggang, Abreise / Fortschritt, Verlauf «der Fortgang der Arbeiten») |
 | 762 | Forum | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Marktplatz im alten Rom / Plattform für Diskussion / Internetforum) |
 | 763 | Fotografie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Technik und Kunst des Fotografierens / einzelnes Foto) |
+| 764 | Fraktion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Abgeordnete einer Partei im Parlament / Gruppe innerhalb einer Organisation / Chemie: Bestandteil bei der Trennung) |
 
