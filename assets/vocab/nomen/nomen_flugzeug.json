@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "nomen_flugzeug",
+  "wort": "das Flugzeug",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "هواپیما"
+    ],
+    "en": [
+      "aeroplane",
+      "airplane",
+      "aircraft"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ˈfluːkˌt͡sɔɪ̯k",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir fliegen mit dem Flugzeug nach Spanien.",
+      "uebersetzung": {
+        "fa": "ما با هواپیما به اسپانیا می‌رویم.",
+        "en": "We are flying to Spain by plane."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Flugzeug konnte erst starten, nachdem der Schnee von den Flügeln entfernt worden war.",
+      "uebersetzung": {
+        "fa": "هواپیما فقط بعد از برداشتن برف از روی بال‌ها توانست برخیزد.",
+        "en": "The plane could only take off after the snow had been removed from the wings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Flieger",
+      "uebersetzung": {
+        "fa": "هواپیما (عامیانه)",
+        "en": "plane (colloquial)"
+      }
+    },
+    {
+      "wort": "die Maschine",
+      "uebersetzung": {
+        "fa": "هواپیما (در زبان فرودگاه)",
+        "en": "aircraft"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Passagierflugzeug",
+      "uebersetzung": {
+        "fa": "هواپیمای مسافربری",
+        "en": "passenger aircraft"
+      }
+    },
+    {
+      "wort": "das Segelflugzeug",
+      "uebersetzung": {
+        "fa": "گلایدر",
+        "en": "glider"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Flug (پرواز) + Zeug (وسیله)",
+    "en": "Flug (flight) + Zeug (gear, device)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Flugzeuge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "mit dem Flugzeug fliegen",
+        "beispiel": "Sie fliegt nicht gern mit dem Flugzeug.",
+        "uebersetzung": {
+          "fa": "او دوست ندارد با هواپیما سفر کند.",
+          "en": "She doesn't like flying by plane."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Flug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز",
+          "en": "flight"
+        },
+        "id_ref": "nomen_flug"
+      },
+      {
+        "wort": "fliegen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرواز کردن",
+          "en": "to fly"
+        },
+        "id_ref": "verb_fliegen"
+      },
+      {
+        "wort": "der Flughafen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرودگاه",
+          "en": "airport"
+        },
+        "id_ref": "nomen_flughafen"
+      },
+      {
+        "wort": "der Pilot",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خلبان",
+          "en": "pilot"
+        },
+        "id_ref": "nomen_pilot"
+      },
+      {
+        "wort": "der Flügel",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بال",
+          "en": "wing"
+        },
+        "id_ref": "nomen_fluegel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
