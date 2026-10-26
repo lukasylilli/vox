@@ -2973,4 +2973,6 @@
 | 757 | Format | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Größe, Maß (Papier, Datei) / Persönlichkeit von Rang «ein Mann von Format» / Sendeformat) |
 | 758 | Formation | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gruppierung, Aufstellung / Geologie: Gesteinsformation / Militär: Verband) |
 | 759 | Formel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Mathematik/Chemie: Formel / feste Redewendung / Motorsport: Formel 1) |
+| 760 | Forte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Musik: laut / Stärke, besondere Fähigkeit) |
+| 761 | Fortgang | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Weggang, Abreise / Fortschritt, Verlauf «der Fortgang der Arbeiten») |
 
