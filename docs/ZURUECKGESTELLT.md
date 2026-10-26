@@ -2364,6 +2364,7 @@
 | ۲۱۸۷ | Fine | `substantiv_singular_alle.txt` | 2026-10-26 | kein deutsches Nomen (ital. Musikbegriff «fine» = Ende) — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۸۸ | Finke | `substantiv_singular_alle.txt` | 2026-10-26 | Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۸۹ | Fis | `substantiv_singular_alle.txt` | 2026-10-26 | Musik: Tonbezeichnung (das Fis) — sehr fachlich, Schreibung/Genus als Lernwort unsicher (Regel 14) | — |
+| ۲۱۹۰ | Fitz | `substantiv_singular_alle.txt` | 2026-10-26 | kein gesichertes Gattungsnomen (landschaftlich «Fitz» = Faden, Wirrwarr; sonst Familienname) (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

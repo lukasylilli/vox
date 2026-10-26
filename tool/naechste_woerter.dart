@@ -2978,6 +2978,7 @@ const zurueckgestellt = <String>{
   'Fine', // zurückgestellt: kein deutsches Nomen (ital. Musikbegriff «fine» = Ende) — Lemma nicht sicher (Regel 14) 2026-10-26
   'Finke', // zurückgestellt: Nebenform von «der Fink» bzw. Familienname — Lemma nicht sicher (Regel 14) 2026-10-26
   'Fis', // zurückgestellt: Musik: Tonbezeichnung (das Fis) — sehr fachlich, Schreibung/Genus als Lernwort unsicher (Regel 14) 2026-10-26
+  'Fitz', // zurückgestellt: kein gesichertes Gattungsnomen (landschaftlich «Fitz» = Faden, Wirrwarr; sonst Familienname) (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
