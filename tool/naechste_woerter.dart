@@ -2928,6 +2928,8 @@ const zurueckgestellt = <String>{
   'Film', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kino-/Fernsehfilm / dünne Schicht «ein Ölfilm» / Fotofilm, Filmrolle) — nach den Nomen 2026-10-26
   'Filmgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte des Films als Kunst / Handlung eines bestimmten Films) — nach den Nomen 2026-10-26
   'Filmrolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rolle eines Schauspielers in einem Film / aufgerollter Fotofilm) — nach den Nomen 2026-10-26
+  'Filz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff aus gepressten Fasern / ugs. abwertend: Vetternwirtschaft, Korruption) — nach den Nomen 2026-10-26
+  'Finale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Endspiel / Musik: Schlusssatz / allgemein: Schluss, Höhepunkt) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -2967,6 +2969,7 @@ const zurueckgestellt = <String>{
   'Figaro', // zurückgestellt: Name einer Bühnenfigur bzw. scherzhaft «Friseur» — Eigenname, nicht bauen (Regel 18) 2026-10-26
   'Fighter', // zurückgestellt: englisches Wort (Kämpfer) — als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'File', // zurückgestellt: englisches Wort (Datei) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) 2026-10-26
+  'Finanz', // zurückgestellt: Singular unüblich (meist Plural «die Finanzen»; österr. ugs. «die Finanz» = Finanzamt) — Lemma nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2360,6 +2360,7 @@
 | ۲۱۸۳ | Figaro | `substantiv_singular_alle.txt` | 2026-10-26 | Name einer Bühnenfigur bzw. scherzhaft «Friseur» — Eigenname, nicht bauen (Regel 18) | — |
 | ۲۱۸۴ | Fighter | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Kämpfer) — als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۸۵ | File | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Datei) — als deutsches Nomen nicht gesichert, Genus unklar (Regel 14) | — |
+| ۲۱۸۶ | Finanz | `substantiv_singular_alle.txt` | 2026-10-26 | Singular unüblich (meist Plural «die Finanzen»; österr. ugs. «die Finanz» = Finanzamt) — Lemma nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -2936,4 +2937,6 @@
 | 730 | Film | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kino-/Fernsehfilm / dünne Schicht «ein Ölfilm» / Fotofilm, Filmrolle) |
 | 731 | Filmgeschichte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Geschichte des Films als Kunst / Handlung eines bestimmten Films) |
 | 732 | Filmrolle | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Rolle eines Schauspielers in einem Film / aufgerollter Fotofilm) |
+| 733 | Filz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stoff aus gepressten Fasern / ugs. abwertend: Vetternwirtschaft, Korruption) |
+| 734 | Finale | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Sport: Endspiel / Musik: Schlusssatz / allgemein: Schluss, Höhepunkt) |
 
