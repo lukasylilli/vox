@@ -2983,4 +2983,8 @@
 | 765 | Fraktionsvorsitzende | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: die/der Fraktionsvorsitzende) |
 | 766 | Fraktionsvorsitzender | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: ein Fraktionsvorsitzender) |
 | 767 | Franke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Angehöriger des germanischen Volks der Franken / Einwohner Frankens) |
+| 768 | Frau | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: weiblicher Mensch / Ehefrau / Anrede «Frau Müller») |
+| 769 | Frauchen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: ugs. Besitzerin eines Hundes / Verkleinerung von Frau) |
+| 770 | Frauenbeauftragte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: die Frauenbeauftragte) |
+| 771 | Frauenbeauftragter | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: ein Frauenbeauftragter) |
 
