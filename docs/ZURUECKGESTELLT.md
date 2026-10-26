@@ -2987,4 +2987,6 @@
 | 769 | Frauchen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: ugs. Besitzerin eines Hundes / Verkleinerung von Frau) |
 | 770 | Frauenbeauftragte | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: die Frauenbeauftragte) |
 | 771 | Frauenbeauftragter | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: ein Frauenbeauftragter) |
+| 772 | Frauenhaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zufluchtsstätte für misshandelte Frauen / früher Frauengemach bzw. Bordell) |
+| 773 | Frauenstimme | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stimme einer Frau beim Sprechen/Singen / Wählerstimme einer Frau) |
 
