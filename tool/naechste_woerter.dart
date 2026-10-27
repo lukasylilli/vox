@@ -3093,6 +3093,10 @@ const zurueckgestellt = <String>{
   'Gesellschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft der Menschen / Firma, z. B. GmbH / Begleitung «jemandem Gesellschaft leisten» / Veranstaltung, Fest) — nach den Nomen 2026-10-27
   'Gesellschafter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilhaber einer Firma / jemand, der Gesellschaft leistet, Unterhalter «ein guter Gesellschafter») — nach den Nomen 2026-10-27
   'Gesetz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: staatliches Gesetz / Gesetzmäßigkeit in Natur und Wissenschaft «Naturgesetz» / feste Regel «ungeschriebenes Gesetz») — nach den Nomen 2026-10-27
+  'Gespann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zugtiere mit Wagen / ugs. zwei zusammengehörende Menschen «ein gutes Gespann») — nach den Nomen 2026-10-27
+  'Gespenst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geist, Spuk / drohende Gefahr «das Gespenst der Arbeitslosigkeit») — nach den Nomen 2026-10-27
+  'Gestalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperform, Figur / Person, oft unbekannt «eine dunkle Gestalt» / Figur in Literatur / Form «Gestalt annehmen») — nach den Nomen 2026-10-27
+  'Geste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handbewegung / symbolische Handlung «eine Geste der Versöhnung») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3163,6 +3167,8 @@ const zurueckgestellt = <String>{
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
   'Ger', // zurückgestellt: historisch: Wurfspeer der Germanen (Pl. Gere) — als Lernwort nicht sicher (Regel 14) 2026-10-27
   'Germania', // zurückgestellt: lateinischer Name / Personifikation Deutschlands (Allegorie) bzw. Eigenname — kein geografischer Name im heutigen Gebrauch, nicht sicher (Regel 14/18) 2026-10-27
+  'Gest', // zurückgestellt: landschaftlich/veraltet (Hefe bzw. Gischt), Genus und Gebrauch nicht sicher (Regel 14) 2026-10-27
+  'Gestapo', // zurückgestellt: Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
