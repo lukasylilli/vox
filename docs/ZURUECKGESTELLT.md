@@ -3099,3 +3099,4 @@
 | 868 | Gemeinheit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Charakter: Bosheit / gemeine Handlung / ugs. Ärgernis «So eine Gemeinheit!») |
 | 869 | Gemeinsamkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gemeinsames Merkmal / Zusammengehörigkeit, gemeinsames Handeln) |
 | 870 | Gemeinschaft | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) |
+| 871 | Gendarmeriebeamter | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der Gendarmeriebeamte / ein Gendarmeriebeamter) |
