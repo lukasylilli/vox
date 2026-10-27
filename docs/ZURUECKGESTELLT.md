@@ -3179,3 +3179,8 @@
 | 936 | Grammatik | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Regelsystem einer Sprache / Buch, Lehrbuch der Grammatik «eine Grammatik kaufen») |
 | 937 | Grat | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Bergkamm, schmaler Gebirgsrücken / Technik: scharfer Rand an Werkstücken) |
 | 938 | Gratwanderung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wanderung auf einem Grat / übertragen: heikles Vorgehen zwischen zwei Gefahren) |
+| 939 | Greif | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Fabeltier mit Adlerkopf und Löwenkörper / Greifvogel) |
+| 940 | Grenzbereich | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gebiet an einer Grenze / übertragen: Bereich an der Grenze des Möglichen, Grenzfall) |
+| 941 | Grenze | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Staatsgrenze, Landesgrenze / Trennlinie zwischen Gebieten / übertragen: Schranke, Limit «an seine Grenzen stoßen») |
+| 942 | Grenzer | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, ugs.: Grenzsoldat, Grenzbeamter / Grenzbewohner) |
+| 943 | Grenzgebiet | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gebiet an der Grenze eines Staates / übertragen: Übergangsgebiet zwischen Fachgebieten) |

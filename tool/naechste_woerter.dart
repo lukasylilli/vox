@@ -3134,6 +3134,11 @@ const zurueckgestellt = <String>{
   'Grammatik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regelsystem einer Sprache / Buch, Lehrbuch der Grammatik «eine Grammatik kaufen») — nach den Nomen 2026-10-27
   'Grat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergkamm, schmaler Gebirgsrücken / Technik: scharfer Rand an Werkstücken) — nach den Nomen 2026-10-27
   'Gratwanderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wanderung auf einem Grat / übertragen: heikles Vorgehen zwischen zwei Gefahren) — nach den Nomen 2026-10-27
+  'Greif', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fabeltier mit Adlerkopf und Löwenkörper / Greifvogel) — nach den Nomen 2026-10-27
+  'Grenzbereich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebiet an einer Grenze / übertragen: Bereich an der Grenze des Möglichen, Grenzfall) — nach den Nomen 2026-10-27
+  'Grenze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staatsgrenze, Landesgrenze / Trennlinie zwischen Gebieten / übertragen: Schranke, Limit «an seine Grenzen stoßen») — nach den Nomen 2026-10-27
+  'Grenzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, ugs.: Grenzsoldat, Grenzbeamter / Grenzbewohner) — nach den Nomen 2026-10-27
+  'Grenzgebiet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebiet an der Grenze eines Staates / übertragen: Übergangsgebiet zwischen Fachgebieten) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
