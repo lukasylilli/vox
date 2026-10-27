@@ -2378,6 +2378,7 @@
 | ۲۲۰۱ | Furore | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) | — |
 | ۲۲۰۲ | Gabler | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) | — |
 | ۲۲۰۳ | Gal | `substantiv_singular_alle.txt` | 2026-10-26 | Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) | — |
+| ۲۲۰۴ | Gams | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3033,4 +3034,7 @@
 | 809 | Galgen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gerüst zum Hinrichten / Technik: Ausleger, z. B. für ein Mikrofon) |
 | 810 | Galionsfigur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Figur am Bug eines Schiffes / übertragen: bekannte Leitfigur) |
 | 811 | Galopp | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gangart des Pferdes / schneller Rundtanz) |
+| 812 | Gangart | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Art des Gehens, Gangart eines Pferdes / übertragen: Vorgehensweise «eine härtere Gangart») |
+| 813 | Gans | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Vogel / Schimpfwort «dumme Gans») |
+| 814 | Garage | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Abstellraum für Autos / österr./schweiz.: Autowerkstatt) |
 

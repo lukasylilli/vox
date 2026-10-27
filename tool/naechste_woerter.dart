@@ -3007,6 +3007,9 @@ const zurueckgestellt = <String>{
   'Galgen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerüst zum Hinrichten / Technik: Ausleger, z. B. für ein Mikrofon) — nach den Nomen 2026-10-26
   'Galionsfigur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Figur am Bug eines Schiffes / übertragen: bekannte Leitfigur) — nach den Nomen 2026-10-26
   'Galopp', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gangart des Pferdes / schneller Rundtanz) — nach den Nomen 2026-10-26
+  'Gangart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art des Gehens, Gangart eines Pferdes / übertragen: Vorgehensweise «eine härtere Gangart») — nach den Nomen 2026-10-26
+  'Gans', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel / Schimpfwort «dumme Gans») — nach den Nomen 2026-10-26
+  'Garage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstellraum für Autos / österr./schweiz.: Autowerkstatt) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3064,6 +3067,7 @@ const zurueckgestellt = <String>{
   'Furore', // zurückgestellt: Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) 2026-10-26
   'Gabler', // zurückgestellt: Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) 2026-10-26
   'Gal', // zurückgestellt: Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) 2026-10-26
+  'Gams', // zurückgestellt: Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
