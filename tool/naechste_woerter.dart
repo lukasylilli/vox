@@ -3090,6 +3090,9 @@ const zurueckgestellt = <String>{
   'Geschrei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lautes Schreien / ugs. abwertend: übertriebenes Klagen, Aufhebens «viel Geschrei um nichts») — nach den Nomen 2026-10-27
   'Geselle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handwerker nach der Gesellenprüfung / veraltend: Kerl, Bursche «ein lustiger Geselle») — nach den Nomen 2026-10-27
   'Geselligkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ohne Pl.: Freude am Zusammensein / geselliges Beisammensein, Treffen) — nach den Nomen 2026-10-27
+  'Gesellschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft der Menschen / Firma, z. B. GmbH / Begleitung «jemandem Gesellschaft leisten» / Veranstaltung, Fest) — nach den Nomen 2026-10-27
+  'Gesellschafter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilhaber einer Firma / jemand, der Gesellschaft leistet, Unterhalter «ein guter Gesellschafter») — nach den Nomen 2026-10-27
+  'Gesetz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: staatliches Gesetz / Gesetzmäßigkeit in Natur und Wissenschaft «Naturgesetz» / feste Regel «ungeschriebenes Gesetz») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

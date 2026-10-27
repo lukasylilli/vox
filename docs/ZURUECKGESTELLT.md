@@ -3129,3 +3129,6 @@
 | 892 | Geschrei | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: lautes Schreien / ugs. abwertend: übertriebenes Klagen, Aufhebens «viel Geschrei um nichts») |
 | 893 | Geselle | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Handwerker nach der Gesellenprüfung / veraltend: Kerl, Bursche «ein lustiger Geselle») |
 | 894 | Geselligkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: ohne Pl.: Freude am Zusammensein / geselliges Beisammensein, Treffen) |
+| 895 | Gesellschaft | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gemeinschaft der Menschen / Firma, z. B. GmbH / Begleitung «jemandem Gesellschaft leisten» / Veranstaltung, Fest) |
+| 896 | Gesellschafter | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Teilhaber einer Firma / jemand, der Gesellschaft leistet, Unterhalter «ein guter Gesellschafter») |
+| 897 | Gesetz | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: staatliches Gesetz / Gesetzmäßigkeit in Natur und Wissenschaft «Naturgesetz» / feste Regel «ungeschriebenes Gesetz») |
