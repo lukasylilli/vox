@@ -3192,3 +3192,5 @@
 | 949 | Grube | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Loch, Vertiefung im Boden / Bergwerk, Zeche) |
 | 950 | Grund | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Ursache, Anlass / Erdboden, Grundstück «Grund und Boden» / Boden eines Gewässers oder Gefäßes) |
 | 951 | Grundgesetz | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Verfassung der Bundesrepublik Deutschland / allgemein: grundlegendes Gesetz, Grundprinzip «ein Grundgesetz der Natur») |
+| 952 | Grundlinie | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Sport (Tennis): Linie am Ende des Spielfelds / Grundzug, Leitlinie «die Grundlinien der Politik» / Mathematik: Grundseite) |
+| 953 | Grundpreis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Basispreis ohne Zuschläge, Grundgebühr / Preis je Mengeneinheit «Grundpreis pro Kilogramm») |
