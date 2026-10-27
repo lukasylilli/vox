@@ -2386,6 +2386,7 @@
 | ۲۲۰۹ | Geldhahn | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۱۰ | Gemeindevorstand | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) | — |
 | ۲۲۱۱ | Generale | `substantiv_singular_alle.txt` | 2026-10-27 | nur Pluralform von «General» (General steht in der Vier-Fälle-Liste) — kein eigenes Nomen | — |
+| ۲۲۱۲ | Generalleutnant | `substantiv_singular_alle.txt` | 2026-10-27 | Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
