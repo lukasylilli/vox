@@ -3191,3 +3191,4 @@
 | 948 | Groteske | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Kunst: Ornament mit Fabelwesen / Literatur: groteske Erzählung / absurd-komische Situation) |
 | 949 | Grube | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Loch, Vertiefung im Boden / Bergwerk, Zeche) |
 | 950 | Grund | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Ursache, Anlass / Erdboden, Grundstück «Grund und Boden» / Boden eines Gewässers oder Gefäßes) |
+| 951 | Grundgesetz | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Verfassung der Bundesrepublik Deutschland / allgemein: grundlegendes Gesetz, Grundprinzip «ein Grundgesetz der Natur») |

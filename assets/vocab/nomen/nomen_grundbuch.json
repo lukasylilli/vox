@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_grundbuch",
+  "wort": "das Grundbuch",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دفتر ثبت املاک",
+      "ثبت اسناد زمین"
+    ],
+    "en": [
+      "land register"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Wohnen"
+  ],
+  "ipa": "ˈɡʁʊntˌbuːx",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Haus steht im Grundbuch.",
+      "uebersetzung": {
+        "fa": "خانه در دفتر ثبت املاک ثبت شده است.",
+        "en": "The house is entered in the land register."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Erst wenn der neue Eigentümer im Grundbuch eingetragen ist, gehört ihm das Grundstück auch rechtlich.",
+      "uebersetzung": {
+        "fa": "فقط وقتی مالک جدید در دفتر ثبت املاک ثبت شود، زمین از نظر قانونی هم متعلق به اوست.",
+        "en": "Only when the new owner is entered in the land register does the property legally belong to him."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Grundbuchauszug",
+      "uebersetzung": {
+        "fa": "گواهی ثبت ملک",
+        "en": "extract from the land register"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Grund (زمین) + Buch (دفتر)",
+    "en": "Grund (land) + Buch (book)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Grundbücher",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Grundstück",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطعه زمین",
+          "en": "plot of land"
+        },
+        "id_ref": "nomen_grundstueck"
+      },
+      {
+        "wort": "der Eigentümer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالک",
+          "en": "owner"
+        },
+        "id_ref": "nomen_eigentuemer"
+      },
+      {
+        "wort": "der Notar",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سردفتر اسناد رسمی",
+          "en": "notary"
+        },
+        "id_ref": "nomen_notar"
+      },
+      {
+        "wort": "eintragen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ثبت کردن",
+          "en": "to enter, to register"
+        },
+        "id_ref": "verb_eintragen"
+      },
+      {
+        "wort": "die Immobilie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ملک",
+          "en": "property"
+        },
+        "id_ref": "nomen_immobilie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
