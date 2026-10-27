@@ -3160,3 +3160,9 @@
 | 919 | Gleichgewicht | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Physik: Zustand ausgeglichener Kräfte / körperliches Gleichgewicht, Balance / seelisches Gleichgewicht, Ausgeglichenheit) |
 | 920 | Gleichklang | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang von Tönen / übertragen: Übereinstimmung, Harmonie) |
 | 921 | Glied | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Körperteil, Arm/Bein / Teil einer Kette, Glied einer Reihe / Mitglied, Generation «bis ins dritte Glied» / männliches Glied) |
+| 922 | Glocke | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Kirchenglocke, Klingel / glockenförmiger Gegenstand, z. B. Käseglocke, Taucherglocke) |
+| 923 | Gloria | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 2 (Homograph mit anderem Artikel: das Gloria «Lobgesang in der Messe» / die Gloria «Ruhm, Glanz», oft ironisch; Liste nennt der) |
+| 924 | Glosse | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Journalismus: kurzer, spöttischer Kommentar / Sprachwissenschaft: Erklärung, Randbemerkung zu einem Wort) |
+| 925 | Glut | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: glühende Masse, Kohlenglut / große Hitze / Leidenschaft «die Glut der Liebe») |
+| 926 | Gnade | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gunst, Wohlwollen eines Höhergestellten / Milde, Verzeihung, Begnadigung / Religion: Gnade Gottes) |
+| 927 | Goal | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, österr./schweiz.: Tor als Gehäuse / erzielter Treffer) |

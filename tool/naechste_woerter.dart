@@ -3117,6 +3117,12 @@ const zurueckgestellt = <String>{
   'Gleichgewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Zustand ausgeglichener Kräfte / körperliches Gleichgewicht, Balance / seelisches Gleichgewicht, Ausgeglichenheit) — nach den Nomen 2026-10-27
   'Gleichklang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang von Tönen / übertragen: Übereinstimmung, Harmonie) — nach den Nomen 2026-10-27
   'Glied', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperteil, Arm/Bein / Teil einer Kette, Glied einer Reihe / Mitglied, Generation «bis ins dritte Glied» / männliches Glied) — nach den Nomen 2026-10-27
+  'Glocke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenglocke, Klingel / glockenförmiger Gegenstand, z. B. Käseglocke, Taucherglocke) — nach den Nomen 2026-10-27
+  'Gloria', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: das Gloria «Lobgesang in der Messe» / die Gloria «Ruhm, Glanz», oft ironisch; Liste nennt der) — nach den Nomen 2026-10-27
+  'Glosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Journalismus: kurzer, spöttischer Kommentar / Sprachwissenschaft: Erklärung, Randbemerkung zu einem Wort) — nach den Nomen 2026-10-27
+  'Glut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: glühende Masse, Kohlenglut / große Hitze / Leidenschaft «die Glut der Liebe») — nach den Nomen 2026-10-27
+  'Gnade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gunst, Wohlwollen eines Höhergestellten / Milde, Verzeihung, Begnadigung / Religion: Gnade Gottes) — nach den Nomen 2026-10-27
+  'Goal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, österr./schweiz.: Tor als Gehäuse / erzielter Treffer) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
