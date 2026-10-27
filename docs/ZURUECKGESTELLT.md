@@ -2383,6 +2383,7 @@
 | ۲۲۰۶ | Gatt | `substantiv_singular_alle.txt` | 2026-10-26 | Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۲۰۷ | Gault | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) | — |
 | ۲۲۰۸ | Gebauer | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) | — |
+| ۲۲۰۹ | Geldhahn | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3084,4 +3085,5 @@
 | 855 | Gehen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gehen allgemein / Sport: Gehen als Disziplin der Leichtathletik) |
 | 856 | Gehilfe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Helfer, Assistent / Recht: Gehilfe bei einer Straftat) |
 | 857 | Geier | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Greifvogel / abwertend: habgieriger Mensch; ugs. «Hol’s der Geier!») |
+| 858 | Geldmenge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eine bestimmte Menge Geld / Volkswirtschaft: gesamtes umlaufendes Geld) |
 

@@ -3053,6 +3053,7 @@ const zurueckgestellt = <String>{
   'Gehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Gehen allgemein / Sport: Gehen als Disziplin der Leichtathletik) — nach den Nomen 2026-10-26
   'Gehilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Helfer, Assistent / Recht: Gehilfe bei einer Straftat) — nach den Nomen 2026-10-26
   'Geier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Greifvogel / abwertend: habgieriger Mensch; ugs. «Hol’s der Geier!») — nach den Nomen 2026-10-26
+  'Geldmenge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: eine bestimmte Menge Geld / Volkswirtschaft: gesamtes umlaufendes Geld) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3115,6 +3116,7 @@ const zurueckgestellt = <String>{
   'Gatt', // zurückgestellt: Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) 2026-10-26
   'Gault', // zurückgestellt: Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) 2026-10-26
   'Gebauer', // zurückgestellt: veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) 2026-10-26
+  'Geldhahn', // zurückgestellt: nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
