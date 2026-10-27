@@ -3187,3 +3187,7 @@
 | 944 | Grenzwert | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: zulässiger Höchstwert «Grenzwerte für Feinstaub» / Mathematik: Limes einer Folge oder Funktion) |
 | 945 | Griff | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: das Greifen, Zugreifen «ein fester Griff» / Handgriff, Teil zum Anfassen (Tür, Koffer) / Musik, Sport: Griff, Technik) |
 | 946 | Grille | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Insekt, Heimchen / veraltend: Laune, wunderlicher Einfall) |
+| 947 | Groschen | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: österreichische Münze bis 2001 (1/100 Schilling) / ugs. deutsches Zehnpfennigstück / übertragen: wenig Geld «keinen Groschen haben») |
+| 948 | Groteske | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Kunst: Ornament mit Fabelwesen / Literatur: groteske Erzählung / absurd-komische Situation) |
+| 949 | Grube | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Loch, Vertiefung im Boden / Bergwerk, Zeche) |
+| 950 | Grund | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Ursache, Anlass / Erdboden, Grundstück «Grund und Boden» / Boden eines Gewässers oder Gefäßes) |

@@ -3142,6 +3142,10 @@ const zurueckgestellt = <String>{
   'Grenzwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zulässiger Höchstwert «Grenzwerte für Feinstaub» / Mathematik: Limes einer Folge oder Funktion) — nach den Nomen 2026-10-27
   'Griff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Greifen, Zugreifen «ein fester Griff» / Handgriff, Teil zum Anfassen (Tür, Koffer) / Musik, Sport: Griff, Technik) — nach den Nomen 2026-10-27
   'Grille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insekt, Heimchen / veraltend: Laune, wunderlicher Einfall) — nach den Nomen 2026-10-27
+  'Groschen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österreichische Münze bis 2001 (1/100 Schilling) / ugs. deutsches Zehnpfennigstück / übertragen: wenig Geld «keinen Groschen haben») — nach den Nomen 2026-10-27
+  'Groteske', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst: Ornament mit Fabelwesen / Literatur: groteske Erzählung / absurd-komische Situation) — nach den Nomen 2026-10-27
+  'Grube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Loch, Vertiefung im Boden / Bergwerk, Zeche) — nach den Nomen 2026-10-27
+  'Grund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ursache, Anlass / Erdboden, Grundstück «Grund und Boden» / Boden eines Gewässers oder Gefäßes) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
