@@ -3166,3 +3166,4 @@
 | 925 | Glut | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: glühende Masse, Kohlenglut / große Hitze / Leidenschaft «die Glut der Liebe») |
 | 926 | Gnade | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gunst, Wohlwollen eines Höhergestellten / Milde, Verzeihung, Begnadigung / Religion: Gnade Gottes) |
 | 927 | Goal | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, österr./schweiz.: Tor als Gehäuse / erzielter Treffer) |
+| 928 | Gondel | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: venezianisches Boot / Kabine einer Seilbahn / Korb eines Ballons / Verkaufsregal im Supermarkt) |
