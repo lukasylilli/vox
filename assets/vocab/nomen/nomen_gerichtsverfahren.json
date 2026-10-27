@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_gerichtsverfahren",
+  "wort": "das Gerichtsverfahren",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دادرسی",
+      "پرونده‌ی دادگاه"
+    ],
+    "en": [
+      "court proceedings",
+      "legal proceedings"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ɡəˈrɪçt͡sfɛɐ̯ˌfaːrən",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Gerichtsverfahren dauert lange.",
+      "uebersetzung": {
+        "fa": "دادرسی طول می‌کشد.",
+        "en": "The court proceedings take a long time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil sich die beiden Firmen nicht einigen konnten, kam es zu einem Gerichtsverfahren.",
+      "uebersetzung": {
+        "fa": "چون دو شرکت نتوانستند به توافق برسند، کار به دادگاه کشید.",
+        "en": "Because the two companies could not reach an agreement, it came to legal proceedings."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Prozess",
+      "uebersetzung": {
+        "fa": "دادرسی",
+        "en": "trial"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Gericht (دادگاه) + -s- + Verfahren (روند)",
+    "en": "Gericht (court) + -s- + Verfahren (procedure)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Gerichtsverfahren",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Gerichtsverfahren einleiten",
+        "beispiel": "Die Staatsanwaltschaft hat ein Gerichtsverfahren eingeleitet.",
+        "uebersetzung": {
+          "fa": "دادستانی یک پرونده‌ی قضایی را آغاز کرده است.",
+          "en": "The public prosecutor has initiated court proceedings."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "das Verfahren",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند، دادرسی",
+          "en": "procedure, proceedings"
+        },
+        "id_ref": "nomen_verfahren"
+      },
+      {
+        "wort": "der Prozess",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادرسی، روند",
+          "en": "trial, process"
+        },
+        "id_ref": "nomen_prozess"
+      },
+      {
+        "wort": "die Klage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکایت، دعوی",
+          "en": "lawsuit"
+        },
+        "id_ref": "nomen_klage"
+      },
+      {
+        "wort": "der Anwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل",
+          "en": "lawyer"
+        },
+        "id_ref": "nomen_anwalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

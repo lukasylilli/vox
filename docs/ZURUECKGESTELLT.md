@@ -2390,6 +2390,7 @@
 | ۲۲۱۳ | Genozid | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Genozid) — Regel 14 | — |
 | ۲۲۱۴ | Gens | `substantiv_singular_alle.txt` | 2026-10-27 | Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۱۵ | Ger | `substantiv_singular_alle.txt` | 2026-10-27 | historisch: Wurfspeer der Germanen (Pl. Gere) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۱۶ | Germania | `substantiv_singular_alle.txt` | 2026-10-27 | lateinischer Name / Personifikation Deutschlands (Allegorie) bzw. Eigenname — kein geografischer Name im heutigen Gebrauch, nicht sicher (Regel 14/18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

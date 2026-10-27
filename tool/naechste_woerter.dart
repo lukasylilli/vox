@@ -3148,6 +3148,7 @@ const zurueckgestellt = <String>{
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
   'Ger', // zurückgestellt: historisch: Wurfspeer der Germanen (Pl. Gere) — als Lernwort nicht sicher (Regel 14) 2026-10-27
+  'Germania', // zurückgestellt: lateinischer Name / Personifikation Deutschlands (Allegorie) bzw. Eigenname — kein geografischer Name im heutigen Gebrauch, nicht sicher (Regel 14/18) 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
