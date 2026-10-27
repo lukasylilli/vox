@@ -3078,4 +3078,7 @@
 | 849 | Gegenstand | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Ding, Objekt / Thema «Gegenstand der Diskussion» / österr.: Schulfach) |
 | 850 | Gegenstimme | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stimme gegen einen Antrag / Musik: Gegenstimme / abweichende Meinung) |
 | 851 | Gegenwart | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: jetzige Zeit / Anwesenheit «in Gegenwart von» / Grammatik: Präsens) |
+| 852 | Gegenwind | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Wind von vorn / übertragen: Widerstand, Kritik) |
+| 853 | Gegenzug | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gegenmaßnahme «im Gegenzug» / Zug aus der Gegenrichtung / Spielzug im Schach) |
+| 854 | Gehege | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eingezäuntes Gelände für Tiere / Jägersprache: Revier; «jemandem ins Gehege kommen») |
 
