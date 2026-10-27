@@ -3075,4 +3075,7 @@
 | 846 | Gegenpol | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Physik: entgegengesetzter Pol / übertragen: Gegenstück, Gegensatz) |
 | 847 | Gegensatz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gegenteil «im Gegensatz zu» / Meinungsverschiedenheit, Konflikt) |
 | 848 | Gegenseite | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: gegenüberliegende Seite / gegnerische Partei, z. B. vor Gericht) |
+| 849 | Gegenstand | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Ding, Objekt / Thema «Gegenstand der Diskussion» / österr.: Schulfach) |
+| 850 | Gegenstimme | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stimme gegen einen Antrag / Musik: Gegenstimme / abweichende Meinung) |
+| 851 | Gegenwart | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: jetzige Zeit / Anwesenheit «in Gegenwart von» / Grammatik: Präsens) |
 
