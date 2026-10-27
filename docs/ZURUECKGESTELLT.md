@@ -3041,4 +3041,7 @@
 | 815 | Garde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Leibwache, Elitetruppe / übertragen: Gruppe «die alte Garde») |
 | 816 | Garderobe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kleiderablage / Kleidung, die jemand besitzt / Ankleideraum im Theater) |
 | 817 | Garnitur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Satz zusammengehöriger Teile (Sitzgarnitur, Wäsche) / übertragen: «die erste Garnitur») |
+| 818 | Gartenhaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: kleines Haus im Garten / Hinterhaus eines Wohnblocks) |
+| 819 | Gartenzwerg | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zwergfigur im Garten / abwertend: kleiner, unbedeutender Mensch) |
+| 820 | Gas | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: luftförmiger Stoff, Brennstoff / ugs. Gaspedal «Gas geben») |
 
