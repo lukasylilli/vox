@@ -3083,4 +3083,5 @@
 | 854 | Gehege | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eingezäuntes Gelände für Tiere / Jägersprache: Revier; «jemandem ins Gehege kommen») |
 | 855 | Gehen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gehen allgemein / Sport: Gehen als Disziplin der Leichtathletik) |
 | 856 | Gehilfe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Helfer, Assistent / Recht: Gehilfe bei einer Straftat) |
+| 857 | Geier | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Greifvogel / abwertend: habgieriger Mensch; ugs. «Hol’s der Geier!») |
 
