@@ -3097,6 +3097,7 @@ const zurueckgestellt = <String>{
   'Gespenst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geist, Spuk / drohende Gefahr «das Gespenst der Arbeitslosigkeit») — nach den Nomen 2026-10-27
   'Gestalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperform, Figur / Person, oft unbekannt «eine dunkle Gestalt» / Figur in Literatur / Form «Gestalt annehmen») — nach den Nomen 2026-10-27
   'Geste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handbewegung / symbolische Handlung «eine Geste der Versöhnung») — nach den Nomen 2026-10-27
+  'Gestell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regal, Rahmen, Ständer / ugs. sehr dünner Mensch, Beine / Brillengestell) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3169,6 +3170,7 @@ const zurueckgestellt = <String>{
   'Germania', // zurückgestellt: lateinischer Name / Personifikation Deutschlands (Allegorie) bzw. Eigenname — kein geografischer Name im heutigen Gebrauch, nicht sicher (Regel 14/18) 2026-10-27
   'Gest', // zurückgestellt: landschaftlich/veraltet (Hefe bzw. Gischt), Genus und Gebrauch nicht sicher (Regel 14) 2026-10-27
   'Gestapo', // zurückgestellt: Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
+  'Gestus', // zurückgestellt: bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

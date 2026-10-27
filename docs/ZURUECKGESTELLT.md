@@ -2393,6 +2393,7 @@
 | ۲۲۱۶ | Germania | `substantiv_singular_alle.txt` | 2026-10-27 | lateinischer Name / Personifikation Deutschlands (Allegorie) bzw. Eigenname — kein geografischer Name im heutigen Gebrauch, nicht sicher (Regel 14/18) | — |
 | ۲۲۱۷ | Gest | `substantiv_singular_alle.txt` | 2026-10-27 | landschaftlich/veraltet (Hefe bzw. Gischt), Genus und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۲۱۸ | Gestapo | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۱۹ | Gestus | `substantiv_singular_alle.txt` | 2026-10-27 | bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3138,3 +3139,4 @@
 | 899 | Gespenst | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Geist, Spuk / drohende Gefahr «das Gespenst der Arbeitslosigkeit») |
 | 900 | Gestalt | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Körperform, Figur / Person, oft unbekannt «eine dunkle Gestalt» / Figur in Literatur / Form «Gestalt annehmen») |
 | 901 | Geste | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Handbewegung / symbolische Handlung «eine Geste der Versöhnung») |
+| 902 | Gestell | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Regal, Rahmen, Ständer / ugs. sehr dünner Mensch, Beine / Brillengestell) |
