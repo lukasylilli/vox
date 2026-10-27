@@ -1,0 +1,119 @@
+{
+  "schema": "3.0",
+  "id": "nomen_gesundheitszustand",
+  "wort": "der Gesundheitszustand",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "وضعیت سلامتی"
+    ],
+    "en": [
+      "state of health",
+      "condition"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ɡəˈzʊnthaɪ̯t͡sˌt͡suːʃtant",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sein Gesundheitszustand ist gut.",
+      "uebersetzung": {
+        "fa": "وضعیت سلامتی‌اش خوب است.",
+        "en": "His state of health is good."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Gesundheitszustand der Patientin hat sich seit gestern deutlich verbessert, sodass sie bald entlassen werden kann.",
+      "uebersetzung": {
+        "fa": "وضعیت سلامتی بیمار از دیروز به‌طور محسوسی بهتر شده، طوری که به‌زودی مرخص می‌شود.",
+        "en": "The patient’s condition has improved significantly since yesterday, so she can be discharged soon."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Gesundheit (سلامتی) + -s- + Zustand (وضعیت)",
+    "en": "Gesundheit (health) + -s- + Zustand (condition)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Gesundheitszustände",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "der Zustand",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وضعیت",
+          "en": "condition, state"
+        },
+        "id_ref": "nomen_zustand"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "die Genesung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بهبود",
+          "en": "recovery"
+        },
+        "id_ref": "nomen_genesung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
