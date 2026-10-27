@@ -3063,6 +3063,9 @@ const zurueckgestellt = <String>{
   'Gemeinde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politische Gemeinde / Kirchengemeinde / Gemeinschaft von Anhängern, z. B. Fangemeinde) — nach den Nomen 2026-10-27
   'Gemeindeammann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, schweiz.: Gemeindepräsident / Vollstreckungsbeamter) — nach den Nomen 2026-10-27
   'Gemeinderat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Gemeindevertretung / einzelnes Mitglied dieses Gremiums) — nach den Nomen 2026-10-27
+  'Gemeinheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Charakter: Bosheit / gemeine Handlung / ugs. Ärgernis «So eine Gemeinheit!») — nach den Nomen 2026-10-27
+  'Gemeinsamkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gemeinsames Merkmal / Zusammengehörigkeit, gemeinsames Handeln) — nach den Nomen 2026-10-27
+  'Gemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3126,6 +3129,7 @@ const zurueckgestellt = <String>{
   'Gault', // zurückgestellt: Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) 2026-10-26
   'Gebauer', // zurückgestellt: veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) 2026-10-26
   'Geldhahn', // zurückgestellt: nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
+  'Gemeindevorstand', // zurückgestellt: Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2384,6 +2384,7 @@
 | ۲۲۰۷ | Gault | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) | — |
 | ۲۲۰۸ | Gebauer | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) | — |
 | ۲۲۰۹ | Geldhahn | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۱۰ | Gemeindevorstand | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3095,3 +3096,6 @@
 | 865 | Gemeinde | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: politische Gemeinde / Kirchengemeinde / Gemeinschaft von Anhängern, z. B. Fangemeinde) |
 | 866 | Gemeindeammann | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, schweiz.: Gemeindepräsident / Vollstreckungsbeamter) |
 | 867 | Gemeinderat | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gremium der Gemeindevertretung / einzelnes Mitglied dieses Gremiums) |
+| 868 | Gemeinheit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Charakter: Bosheit / gemeine Handlung / ugs. Ärgernis «So eine Gemeinheit!») |
+| 869 | Gemeinsamkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gemeinsames Merkmal / Zusammengehörigkeit, gemeinsames Handeln) |
+| 870 | Gemeinschaft | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) |
