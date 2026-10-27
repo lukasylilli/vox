@@ -3059,4 +3059,7 @@
 | 830 | Gauner | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Betrüger / ugs. scherzhaft: schlauer, gerissener Mensch) |
 | 831 | Gebein | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: gehoben: Knochengerüst / Plural: sterbliche Überreste «die Gebeine») |
 | 832 | Geber | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: jemand, der etwas gibt / Kartenspiel: wer die Karten gibt / Technik: Messfühler) |
+| 833 | Gebiet | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Fläche, Region / Fachbereich «auf diesem Gebiet») |
+| 834 | Gebiss | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: alle Zähne / Zahnprothese / Mundstück am Pferdezaum) |
+| 835 | Gebot | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gebot, Vorschrift (die Zehn Gebote) / Angebot bei einer Versteigerung) |
 
