@@ -3065,4 +3065,5 @@
 | 836 | Gebrauch | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Benutzen / Plural Gebräuche: Sitten, Bräuche) |
 | 837 | Geburt | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gebären, Entbindung / Herkunft, Abstammung «von Geburt Österreicher») |
 | 838 | Geburtshaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Haus, in dem jemand geboren wurde / Einrichtung für Geburten mit Hebammen) |
+| 839 | Geburtsstunde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stunde der Geburt / übertragen: Entstehung «die Geburtsstunde des Internets») |
 
