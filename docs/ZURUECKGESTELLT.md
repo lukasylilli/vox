@@ -3185,3 +3185,5 @@
 | 942 | Grenzer | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, ugs.: Grenzsoldat, Grenzbeamter / Grenzbewohner) |
 | 943 | Grenzgebiet | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gebiet an der Grenze eines Staates / übertragen: Übergangsgebiet zwischen Fachgebieten) |
 | 944 | Grenzwert | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: zulässiger Höchstwert «Grenzwerte für Feinstaub» / Mathematik: Limes einer Folge oder Funktion) |
+| 945 | Griff | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: das Greifen, Zugreifen «ein fester Griff» / Handgriff, Teil zum Anfassen (Tür, Koffer) / Musik, Sport: Griff, Technik) |
+| 946 | Grille | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Insekt, Heimchen / veraltend: Laune, wunderlicher Einfall) |
