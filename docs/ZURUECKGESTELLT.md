@@ -3086,4 +3086,5 @@
 | 856 | Gehilfe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Helfer, Assistent / Recht: Gehilfe bei einer Straftat) |
 | 857 | Geier | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Greifvogel / abwertend: habgieriger Mensch; ugs. «Hol’s der Geier!») |
 | 858 | Geldmenge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eine bestimmte Menge Geld / Volkswirtschaft: gesamtes umlaufendes Geld) |
-
+| 859 | Gelegenheit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: günstiger Augenblick / Anlass / Kaufmannssprache: Gelegenheitskauf) |
+| 860 | Gelehrte | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der/die Gelehrte) |
