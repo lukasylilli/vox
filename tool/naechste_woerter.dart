@@ -2998,6 +2998,10 @@ const zurueckgestellt = <String>{
   'Funke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: glühendes Teilchen / übertragen: ein kleines bisschen «ein Funke Hoffnung») — nach den Nomen 2026-10-26
   'Funkstille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pause im Funkverkehr / ugs. kein Kontakt mehr) — nach den Nomen 2026-10-26
   'Funktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgabe, Zweck / Amt, Stellung / Mathematik: Funktion) — nach den Nomen 2026-10-26
+  'Furche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rille im Ackerboden / tiefe Falte in der Haut) — nach den Nomen 2026-10-26
+  'Fusion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenschluss von Firmen / Physik: Kernfusion / Musikstil) — nach den Nomen 2026-10-26
+  'Gabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschenk / Begabung, Talent / Medizin: Verabreichung, Dosis) — nach den Nomen 2026-10-26
+  'Gabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Essbesteck / Astgabel, Gabelung / Telefongabel) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3052,6 +3056,8 @@ const zurueckgestellt = <String>{
   'Freestyle', // zurückgestellt: englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'Friaul', // zurückgestellt: Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) 2026-10-26
   'Funkbild', // zurückgestellt: veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) 2026-10-26
+  'Furore', // zurückgestellt: Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) 2026-10-26
+  'Gabler', // zurückgestellt: Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

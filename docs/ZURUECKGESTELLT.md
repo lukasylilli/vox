@@ -2375,6 +2375,8 @@
 | ۲۱۹۸ | Freestyle | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۹۹ | Friaul | `substantiv_singular_alle.txt` | 2026-10-26 | Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) | — |
 | ۲۲۰۰ | Funkbild | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) | — |
+| ۲۲۰۱ | Furore | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) | — |
+| ۲۲۰۲ | Gabler | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3021,4 +3023,8 @@
 | 800 | Funke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: glühendes Teilchen / übertragen: ein kleines bisschen «ein Funke Hoffnung») |
 | 801 | Funkstille | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Pause im Funkverkehr / ugs. kein Kontakt mehr) |
 | 802 | Funktion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Aufgabe, Zweck / Amt, Stellung / Mathematik: Funktion) |
+| 803 | Furche | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Rille im Ackerboden / tiefe Falte in der Haut) |
+| 804 | Fusion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zusammenschluss von Firmen / Physik: Kernfusion / Musikstil) |
+| 805 | Gabe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Geschenk / Begabung, Talent / Medizin: Verabreichung, Dosis) |
+| 806 | Gabel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Essbesteck / Astgabel, Gabelung / Telefongabel) |
 
