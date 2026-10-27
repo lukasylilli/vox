@@ -3146,3 +3146,4 @@
 | 906 | Gewand | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gehoben: langes, festliches Kleidungsstück / österr., süddt. ugs.: Kleidung allgemein / übertragen: äußere Aufmachung «im neuen Gewand») |
 | 907 | Gewebe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Stoff, gewebtes Material / Biologie: Zellgewebe / übertragen: Geflecht «ein Gewebe aus Lügen») |
 | 908 | Gewerbe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: selbstständige Erwerbstätigkeit «ein Gewerbe anmelden» / Gesamtheit der Betriebe, Wirtschaftszweig / schweiz.: Bauernhof) |
+| 909 | Gewinn | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Profit / Preis, Treffer in Lotterie oder Spiel / Nutzen, Bereicherung «ein Gewinn für das Team») |
