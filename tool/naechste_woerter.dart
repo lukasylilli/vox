@@ -3081,6 +3081,9 @@ const zurueckgestellt = <String>{
   'Gerede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: dummes, überflüssiges Reden / Klatsch, Gerüchte «ins Gerede kommen») — nach den Nomen 2026-10-27
   'Geruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausdünstung, Duft «ein angenehmer Geruch» / Geruchssinn / gehoben: Ruf «in den Geruch kommen») — nach den Nomen 2026-10-27
   'Gesang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Singen «Unterricht in Gesang» / Lied «geistliche Gesänge» / Teil eines Epos) — nach den Nomen 2026-10-27
+  'Geschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Historie, Vergangenheit / Erzählung, Story / ugs. Angelegenheit «eine dumme Geschichte») — nach den Nomen 2026-10-27
+  'Geschirr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teller, Tassen usw. / Riemenzeug für Zugtiere, Pferdegeschirr) — nach den Nomen 2026-10-27
+  'Geschlecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: biologisches Geschlecht / Gattung, Generation, Familie «ein altes Geschlecht» / Grammatik: Genus / Geschlechtsteil) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
