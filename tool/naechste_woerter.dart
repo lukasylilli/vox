@@ -3076,6 +3076,9 @@ const zurueckgestellt = <String>{
   'Genossin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Genosse: Parteigenossin / Mitglied einer Genossenschaft) — nach den Nomen 2026-10-27
   'Genugtuung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiedergutmachung «Genugtuung verlangen» / innere Befriedigung «mit Genugtuung») — nach den Nomen 2026-10-27
   'Genuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zu-sich-Nehmen «der Genuss von Alkohol» / Freude, Wohlbehagen «ein Genuss»; auch «in den Genuss von etwas kommen») — nach den Nomen 2026-10-27
+  'Gerade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 + Fall 1 (wie ein Adjektiv gebeugt: eine Gerade, zwei Geraden; Bedeutungen: Mathematik: gerade Linie / Sport: gerades Teilstück der Bahn, Zielgerade / Boxen: gerader Stoß) — nach den Nomen 2026-10-27
+  'Gerangel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rangelei, Balgerei / übertragen, abwertend: zähes Ringen um etwas, z. B. Posten) — nach den Nomen 2026-10-27
+  'Gerede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: dummes, überflüssiges Reden / Klatsch, Gerüchte «ins Gerede kommen») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
