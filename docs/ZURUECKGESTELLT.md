@@ -3103,3 +3103,6 @@
 | 870 | Gemeinschaft | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) |
 | 871 | Gendarmeriebeamter | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der Gendarmeriebeamte / ein Gendarmeriebeamter) |
 | 872 | General | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Offizier im höchsten Rang / katholisch: Oberhaupt eines Ordens) |
+| 873 | Generation | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Altersgruppe / Glied in der Geschlechterfolge / Technik: Entwicklungsstufe, z. B. Handys der neuesten Generation) |
+| 874 | Generationswechsel | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wechsel zur jüngeren Generation, z. B. in Führung / Biologie: Wechsel von geschlechtlicher und ungeschlechtlicher Fortpflanzung) |
+| 875 | Genesis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gehoben: Entstehung / Bibel: erstes Buch Mose) |

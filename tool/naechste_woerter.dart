@@ -3068,6 +3068,9 @@ const zurueckgestellt = <String>{
   'Gemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) — nach den Nomen 2026-10-27
   'Gendarmeriebeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Gendarmeriebeamte / ein Gendarmeriebeamter) — nach den Nomen 2026-10-27
   'General', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Offizier im höchsten Rang / katholisch: Oberhaupt eines Ordens) — nach den Nomen 2026-10-27
+  'Generation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Altersgruppe / Glied in der Geschlechterfolge / Technik: Entwicklungsstufe, z. B. Handys der neuesten Generation) — nach den Nomen 2026-10-27
+  'Generationswechsel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wechsel zur jüngeren Generation, z. B. in Führung / Biologie: Wechsel von geschlechtlicher und ungeschlechtlicher Fortpflanzung) — nach den Nomen 2026-10-27
+  'Genesis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Entstehung / Bibel: erstes Buch Mose) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
