@@ -3024,6 +3024,10 @@ const zurueckgestellt = <String>{
   'Gattung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Gruppe verwandter Arten / Art, Sorte, z. B. literarische Gattung) — nach den Nomen 2026-10-26
   'Gau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: der Gau «Landschaft, Bezirk» / der GAU «größter anzunehmender Unfall») — nach den Nomen 2026-10-26
   'Gaukler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jahrmarktskünstler / übertragen: Betrüger, Schwindler) — nach den Nomen 2026-10-26
+  'Gaumen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: obere Wölbung der Mundhöhle / Geschmackssinn «ein feiner Gaumen») — nach den Nomen 2026-10-26
+  'Gauner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Betrüger / ugs. scherzhaft: schlauer, gerissener Mensch) — nach den Nomen 2026-10-26
+  'Gebein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Knochengerüst / Plural: sterbliche Überreste «die Gebeine») — nach den Nomen 2026-10-26
+  'Geber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der etwas gibt / Kartenspiel: wer die Karten gibt / Technik: Messfühler) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3084,6 +3088,8 @@ const zurueckgestellt = <String>{
   'Gams', // zurückgestellt: Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) 2026-10-26
   'Garaus', // zurückgestellt: nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
   'Gatt', // zurückgestellt: Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) 2026-10-26
+  'Gault', // zurückgestellt: Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) 2026-10-26
+  'Gebauer', // zurückgestellt: veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

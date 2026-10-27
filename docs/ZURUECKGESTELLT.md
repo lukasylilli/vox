@@ -2381,6 +2381,8 @@
 | ۲۲۰۴ | Gams | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) | — |
 | ۲۲۰۵ | Garaus | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۰۶ | Gatt | `substantiv_singular_alle.txt` | 2026-10-26 | Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) | — |
+| ۲۲۰۷ | Gault | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Fachbegriff der Geologie bzw. Eigenname) — nicht sicher (Regel 14) | — |
+| ۲۲۰۸ | Gebauer | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3053,4 +3055,8 @@
 | 826 | Gattung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Biologie: Gruppe verwandter Arten / Art, Sorte, z. B. literarische Gattung) |
 | 827 | Gau | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 3 (Homograph: der Gau «Landschaft, Bezirk» / der GAU «größter anzunehmender Unfall») |
 | 828 | Gaukler | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Jahrmarktskünstler / übertragen: Betrüger, Schwindler) |
+| 829 | Gaumen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: obere Wölbung der Mundhöhle / Geschmackssinn «ein feiner Gaumen») |
+| 830 | Gauner | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Betrüger / ugs. scherzhaft: schlauer, gerissener Mensch) |
+| 831 | Gebein | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: gehoben: Knochengerüst / Plural: sterbliche Überreste «die Gebeine») |
+| 832 | Geber | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: jemand, der etwas gibt / Kartenspiel: wer die Karten gibt / Technik: Messfühler) |
 
