@@ -2380,6 +2380,7 @@
 | ۲۲۰۳ | Gal | `substantiv_singular_alle.txt` | 2026-10-26 | Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) | — |
 | ۲۲۰۴ | Gams | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) | — |
 | ۲۲۰۵ | Garaus | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۰۶ | Gatt | `substantiv_singular_alle.txt` | 2026-10-26 | Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3048,4 +3049,8 @@
 | 822 | Gastgeber | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: jemand, der Gäste empfängt / Sport: Heimmannschaft) |
 | 823 | Gastgeberin | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Frau, die Gäste empfängt / Sport: Heimmannschaft) |
 | 824 | Gastronomie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gaststättengewerbe / feine Kochkunst) |
+| 825 | Gastspiel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Auftritt von Künstlern an einem fremden Ort / Sport: Auswärtsspiel) |
+| 826 | Gattung | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Biologie: Gruppe verwandter Arten / Art, Sorte, z. B. literarische Gattung) |
+| 827 | Gau | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 3 (Homograph: der Gau «Landschaft, Bezirk» / der GAU «größter anzunehmender Unfall») |
+| 828 | Gaukler | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Jahrmarktskünstler / übertragen: Betrüger, Schwindler) |
 

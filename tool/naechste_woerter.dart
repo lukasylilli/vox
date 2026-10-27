@@ -3020,6 +3020,10 @@ const zurueckgestellt = <String>{
   'Gastgeber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der Gäste empfängt / Sport: Heimmannschaft) — nach den Nomen 2026-10-26
   'Gastgeberin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frau, die Gäste empfängt / Sport: Heimmannschaft) — nach den Nomen 2026-10-26
   'Gastronomie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gaststättengewerbe / feine Kochkunst) — nach den Nomen 2026-10-26
+  'Gastspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftritt von Künstlern an einem fremden Ort / Sport: Auswärtsspiel) — nach den Nomen 2026-10-26
+  'Gattung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Gruppe verwandter Arten / Art, Sorte, z. B. literarische Gattung) — nach den Nomen 2026-10-26
+  'Gau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: der Gau «Landschaft, Bezirk» / der GAU «größter anzunehmender Unfall») — nach den Nomen 2026-10-26
+  'Gaukler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jahrmarktskünstler / übertragen: Betrüger, Schwindler) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3079,6 +3083,7 @@ const zurueckgestellt = <String>{
   'Gal', // zurückgestellt: Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) 2026-10-26
   'Gams', // zurückgestellt: Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) 2026-10-26
   'Garaus', // zurückgestellt: nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
+  'Gatt', // zurückgestellt: Seemannssprache (enge Durchfahrt, Loch im Schiff) — Genus/Plural und Gebrauch nicht sicher (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
