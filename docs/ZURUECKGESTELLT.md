@@ -2377,6 +2377,7 @@
 | ۲۲۰۰ | Funkbild | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) | — |
 | ۲۲۰۱ | Furore | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) | — |
 | ۲۲۰۲ | Gabler | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) | — |
+| ۲۲۰۳ | Gal | `substantiv_singular_alle.txt` | 2026-10-26 | Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3027,4 +3028,9 @@
 | 804 | Fusion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zusammenschluss von Firmen / Physik: Kernfusion / Musikstil) |
 | 805 | Gabe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Geschenk / Begabung, Talent / Medizin: Verabreichung, Dosis) |
 | 806 | Gabel | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Essbesteck / Astgabel, Gabelung / Telefongabel) |
+| 807 | Gala | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: festliche Kleidung «in Gala» / festliche Veranstaltung) |
+| 808 | Galerie | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kunstgalerie / oberster Rang im Theater / Laufgang an einem Gebäude) |
+| 809 | Galgen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gerüst zum Hinrichten / Technik: Ausleger, z. B. für ein Mikrofon) |
+| 810 | Galionsfigur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Figur am Bug eines Schiffes / übertragen: bekannte Leitfigur) |
+| 811 | Galopp | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gangart des Pferdes / schneller Rundtanz) |
 

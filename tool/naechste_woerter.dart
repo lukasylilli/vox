@@ -3002,6 +3002,11 @@ const zurueckgestellt = <String>{
   'Fusion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenschluss von Firmen / Physik: Kernfusion / Musikstil) — nach den Nomen 2026-10-26
   'Gabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschenk / Begabung, Talent / Medizin: Verabreichung, Dosis) — nach den Nomen 2026-10-26
   'Gabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Essbesteck / Astgabel, Gabelung / Telefongabel) — nach den Nomen 2026-10-26
+  'Gala', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: festliche Kleidung «in Gala» / festliche Veranstaltung) — nach den Nomen 2026-10-26
+  'Galerie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstgalerie / oberster Rang im Theater / Laufgang an einem Gebäude) — nach den Nomen 2026-10-26
+  'Galgen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerüst zum Hinrichten / Technik: Ausleger, z. B. für ein Mikrofon) — nach den Nomen 2026-10-26
+  'Galionsfigur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Figur am Bug eines Schiffes / übertragen: bekannte Leitfigur) — nach den Nomen 2026-10-26
+  'Galopp', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gangart des Pferdes / schneller Rundtanz) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3058,6 +3063,7 @@ const zurueckgestellt = <String>{
   'Funkbild', // zurückgestellt: veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) 2026-10-26
   'Furore', // zurückgestellt: Genus schwankt (die Furore / österr. das Furore), meist nur in «Furore machen» (Regel 14) 2026-10-26
   'Gabler', // zurückgestellt: Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) 2026-10-26
+  'Gal', // zurückgestellt: Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
