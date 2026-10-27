@@ -2387,6 +2387,8 @@
 | ۲۲۱۰ | Gemeindevorstand | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) | — |
 | ۲۲۱۱ | Generale | `substantiv_singular_alle.txt` | 2026-10-27 | nur Pluralform von «General» (General steht in der Vier-Fälle-Liste) — kein eigenes Nomen | — |
 | ۲۲۱۲ | Generalleutnant | `substantiv_singular_alle.txt` | 2026-10-27 | Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 | — |
+| ۲۲۱۳ | Genozid | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Genozid) — Regel 14 | — |
+| ۲۲۱۴ | Gens | `substantiv_singular_alle.txt` | 2026-10-27 | Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3108,3 +3110,5 @@
 | 875 | Genesis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gehoben: Entstehung / Bibel: erstes Buch Mose) |
 | 876 | Genius | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: genialer Mensch, Schöpferkraft / Mythologie: Schutzgeist) |
 | 877 | Genosse | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Parteigenosse, Anrede in sozialistischen Parteien / Mitglied einer Genossenschaft / veraltet: Gefährte) |
+| 878 | Genossin | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (wie Genosse: Parteigenossin / Mitglied einer Genossenschaft) |
+| 879 | Genugtuung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wiedergutmachung «Genugtuung verlangen» / innere Befriedigung «mit Genugtuung») |
