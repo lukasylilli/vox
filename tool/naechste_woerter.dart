@@ -3035,6 +3035,9 @@ const zurueckgestellt = <String>{
   'Geburt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Gebären, Entbindung / Herkunft, Abstammung «von Geburt Österreicher») — nach den Nomen 2026-10-26
   'Geburtshaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haus, in dem jemand geboren wurde / Einrichtung für Geburten mit Hebammen) — nach den Nomen 2026-10-26
   'Geburtsstunde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stunde der Geburt / übertragen: Entstehung «die Geburtsstunde des Internets») — nach den Nomen 2026-10-26
+  'Gefangener', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Gefangene, ein Gefangener) — nach den Nomen 2026-10-26
+  'Geflecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flechtwerk / übertragen: Netz von Beziehungen) — nach den Nomen 2026-10-26
+  'Gefolge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begleitung einer wichtigen Person / übertragen «im Gefolge von» = als Folge) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

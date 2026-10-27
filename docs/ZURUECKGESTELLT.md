@@ -3066,4 +3066,7 @@
 | 837 | Geburt | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gebären, Entbindung / Herkunft, Abstammung «von Geburt Österreicher») |
 | 838 | Geburtshaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Haus, in dem jemand geboren wurde / Einrichtung für Geburten mit Hebammen) |
 | 839 | Geburtsstunde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Stunde der Geburt / übertragen: Entstehung «die Geburtsstunde des Internets») |
+| 840 | Gefangener | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Gefangene, ein Gefangener) |
+| 841 | Geflecht | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Flechtwerk / übertragen: Netz von Beziehungen) |
+| 842 | Gefolge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Begleitung einer wichtigen Person / übertragen «im Gefolge von» = als Folge) |
 
