@@ -3067,6 +3067,7 @@ const zurueckgestellt = <String>{
   'Gemeinsamkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gemeinsames Merkmal / Zusammengehörigkeit, gemeinsames Handeln) — nach den Nomen 2026-10-27
   'Gemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) — nach den Nomen 2026-10-27
   'Gendarmeriebeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Gendarmeriebeamte / ein Gendarmeriebeamter) — nach den Nomen 2026-10-27
+  'General', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Offizier im höchsten Rang / katholisch: Oberhaupt eines Ordens) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3131,6 +3132,7 @@ const zurueckgestellt = <String>{
   'Gebauer', // zurückgestellt: veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) 2026-10-26
   'Geldhahn', // zurückgestellt: nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
   'Gemeindevorstand', // zurückgestellt: Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) 2026-10-27
+  'Generale', // zurückgestellt: nur Pluralform von «General» (General steht in der Vier-Fälle-Liste) — kein eigenes Nomen 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

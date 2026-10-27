@@ -1,0 +1,179 @@
+{
+  "schema": "3.0",
+  "id": "nomen_genehmigung",
+  "wort": "die Genehmigung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مجوز",
+      "اجازه",
+      "تأیید"
+    ],
+    "en": [
+      "permission",
+      "approval",
+      "permit"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Verwaltung",
+    "Recht"
+  ],
+  "ipa": "ɡəˈneːmɪɡʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Für das Fest brauchen wir eine Genehmigung.",
+      "uebersetzung": {
+        "fa": "برای این جشن به مجوز نیاز داریم.",
+        "en": "We need a permit for the party."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne Genehmigung der Behörde darf man an einem denkmalgeschützten Haus nichts verändern.",
+      "uebersetzung": {
+        "fa": "بدون مجوز اداره نمی‌شود در خانه‌ای که جزو آثار حفاظت‌شده است چیزی را تغییر داد.",
+        "en": "Without the authority's permission you may not change anything on a listed building."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Erlaubnis",
+      "uebersetzung": {
+        "fa": "اجازه",
+        "en": "permission"
+      }
+    },
+    {
+      "wort": "die Zustimmung",
+      "uebersetzung": {
+        "fa": "موافقت",
+        "en": "approval"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "das Verbot",
+      "uebersetzung": {
+        "fa": "ممنوعیت",
+        "en": "ban, prohibition"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Baugenehmigung",
+      "uebersetzung": {
+        "fa": "مجوز ساخت",
+        "en": "building permit"
+      }
+    },
+    {
+      "wort": "die Arbeitsgenehmigung",
+      "uebersetzung": {
+        "fa": "مجوز کار",
+        "en": "work permit"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "genehmigen (مجوز دادن) + -ung",
+    "en": "genehmigen (to approve) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Genehmigungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Genehmigung für + Akk",
+        "beispiel": "Wir haben die Genehmigung für den Umbau endlich bekommen.",
+        "uebersetzung": {
+          "fa": "بالاخره مجوز بازسازی را گرفتیم.",
+          "en": "We finally got permission for the conversion."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Genehmigung beantragen",
+        "beispiel": "Sie hat bei der Stadt eine Genehmigung für den Stand beantragt.",
+        "uebersetzung": {
+          "fa": "او از شهرداری برای غرفه مجوز درخواست کرد.",
+          "en": "She applied to the city for a permit for the stall."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "erlauben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجازه دادن",
+          "en": "to allow"
+        },
+        "id_ref": "verb_erlauben"
+      },
+      {
+        "wort": "die Erlaubnis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اجازه",
+          "en": "permission"
+        },
+        "id_ref": "nomen_erlaubnis"
+      },
+      {
+        "wort": "genehmigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تصویب کردن، مجوز دادن",
+          "en": "to approve"
+        },
+        "id_ref": "verb_genehmigen"
+      },
+      {
+        "wort": "die Behörde",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اداره‌ی دولتی",
+          "en": "authority"
+        },
+        "id_ref": "nomen_behoerde"
+      },
+      {
+        "wort": "der Antrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درخواست",
+          "en": "application"
+        },
+        "id_ref": "nomen_antrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2385,6 +2385,7 @@
 | ۲۲۰۸ | Gebauer | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet/landschaftlich (Vogelkäfig) bzw. Familienname — nicht sicher (Regel 14) | — |
 | ۲۲۰۹ | Geldhahn | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۱۰ | Gemeindevorstand | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) | — |
+| ۲۲۱۱ | Generale | `substantiv_singular_alle.txt` | 2026-10-27 | nur Pluralform von «General» (General steht in der Vier-Fälle-Liste) — kein eigenes Nomen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3100,3 +3101,4 @@
 | 869 | Gemeinsamkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gemeinsames Merkmal / Zusammengehörigkeit, gemeinsames Handeln) |
 | 870 | Gemeinschaft | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zusammensein / Gruppe von Menschen / Staatenbund, z. B. Europäische Gemeinschaft) |
 | 871 | Gendarmeriebeamter | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der Gendarmeriebeamte / ein Gendarmeriebeamter) |
+| 872 | General | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Offizier im höchsten Rang / katholisch: Oberhaupt eines Ordens) |
