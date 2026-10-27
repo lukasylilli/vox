@@ -3118,3 +3118,4 @@
 | 881 | Gerade | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 + Fall 1 (wie ein Adjektiv gebeugt: eine Gerade, zwei Geraden; Bedeutungen: Mathematik: gerade Linie / Sport: gerades Teilstück der Bahn, Zielgerade / Boxen: gerader Stoß) |
 | 882 | Gerangel | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Rangelei, Balgerei / übertragen, abwertend: zähes Ringen um etwas, z. B. Posten) |
 | 883 | Gerede | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: abwertend: dummes, überflüssiges Reden / Klatsch, Gerüchte «ins Gerede kommen») |
+| 884 | Geruch | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Ausdünstung, Duft «ein angenehmer Geruch» / Geruchssinn / gehoben: Ruf «in den Geruch kommen») |

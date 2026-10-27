@@ -3079,6 +3079,7 @@ const zurueckgestellt = <String>{
   'Gerade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 + Fall 1 (wie ein Adjektiv gebeugt: eine Gerade, zwei Geraden; Bedeutungen: Mathematik: gerade Linie / Sport: gerades Teilstück der Bahn, Zielgerade / Boxen: gerader Stoß) — nach den Nomen 2026-10-27
   'Gerangel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rangelei, Balgerei / übertragen, abwertend: zähes Ringen um etwas, z. B. Posten) — nach den Nomen 2026-10-27
   'Gerede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: dummes, überflüssiges Reden / Klatsch, Gerüchte «ins Gerede kommen») — nach den Nomen 2026-10-27
+  'Geruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausdünstung, Duft «ein angenehmer Geruch» / Geruchssinn / gehoben: Ruf «in den Geruch kommen») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
