@@ -2979,6 +2979,8 @@ const zurueckgestellt = <String>{
   'Freizeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: freie Zeit / mehrtägiges Gruppentreffen, z. B. Jugendfreizeit) — nach den Nomen 2026-10-26
   'Fremder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Fremde, ein Fremder) — nach den Nomen 2026-10-26
   'Frequenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Häufigkeit, Besucherzahl / Physik: Schwingungszahl) — nach den Nomen 2026-10-26
+  'Freund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freund allgemein / fester Partner «mein Freund») — nach den Nomen 2026-10-26
+  'Freundin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freundin allgemein / feste Partnerin «meine Freundin») — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3031,6 +3033,7 @@ const zurueckgestellt = <String>{
   'Fortune', // zurückgestellt: Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) 2026-10-26
   'Fox', // zurückgestellt: kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) 2026-10-26
   'Freestyle', // zurückgestellt: englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
+  'Friaul', // zurückgestellt: Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

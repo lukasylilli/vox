@@ -2373,6 +2373,7 @@
 | ۲۱۹۶ | Fortune | `substantiv_singular_alle.txt` | 2026-10-26 | Schreibung schwankt (die Fortune / Fortüne), veraltend — Lemma nicht sicher (Regel 14) | — |
 | ۲۱۹۷ | Fox | `substantiv_singular_alle.txt` | 2026-10-26 | kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) | — |
 | ۲۱۹۸ | Freestyle | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) | — |
+| ۲۱۹۹ | Friaul | `substantiv_singular_alle.txt` | 2026-10-26 | Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3000,4 +3001,6 @@
 | 781 | Freizeit | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: freie Zeit / mehrtägiges Gruppentreffen, z. B. Jugendfreizeit) |
 | 782 | Fremder | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv: der/die Fremde, ein Fremder) |
 | 783 | Frequenz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Häufigkeit, Besucherzahl / Physik: Schwingungszahl) |
+| 784 | Freund | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freund allgemein / fester Partner «mein Freund») |
+| 785 | Freundin | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freundin allgemein / feste Partnerin «meine Freundin») |
 
