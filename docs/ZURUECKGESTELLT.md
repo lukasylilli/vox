@@ -3044,4 +3044,5 @@
 | 818 | Gartenhaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: kleines Haus im Garten / Hinterhaus eines Wohnblocks) |
 | 819 | Gartenzwerg | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Zwergfigur im Garten / abwertend: kleiner, unbedeutender Mensch) |
 | 820 | Gas | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: luftförmiger Stoff, Brennstoff / ugs. Gaspedal «Gas geben») |
+| 821 | Gasse | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: schmale Straße / österr.: Straße allgemein / Durchgang in einer Menschenmenge) |
 
