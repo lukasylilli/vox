@@ -3123,3 +3123,9 @@
 | 886 | Geschichte | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Historie, Vergangenheit / Erzählung, Story / ugs. Angelegenheit «eine dumme Geschichte») |
 | 887 | Geschirr | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Teller, Tassen usw. / Riemenzeug für Zugtiere, Pferdegeschirr) |
 | 888 | Geschlecht | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: biologisches Geschlecht / Gattung, Generation, Familie «ein altes Geschlecht» / Grammatik: Genus / Geschlechtsteil) |
+| 889 | Geschmack | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Geschmackssinn, Geschmack von Speisen / ästhetisches Urteil «guten Geschmack haben» / Vorliebe «auf den Geschmack kommen») |
+| 890 | Geschmacklosigkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: ohne Pl.: Mangel an Geschmack, Taktlosigkeit / zählbar: geschmacklose Äußerung oder Handlung) |
+| 891 | Geschoss | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Projektil, Kugel / Stockwerk, Etage; österr. auch «Geschoß») |
+| 892 | Geschrei | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: lautes Schreien / ugs. abwertend: übertriebenes Klagen, Aufhebens «viel Geschrei um nichts») |
+| 893 | Geselle | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Handwerker nach der Gesellenprüfung / veraltend: Kerl, Bursche «ein lustiger Geselle») |
+| 894 | Geselligkeit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: ohne Pl.: Freude am Zusammensein / geselliges Beisammensein, Treffen) |

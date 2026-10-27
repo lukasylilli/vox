@@ -3084,6 +3084,12 @@ const zurueckgestellt = <String>{
   'Geschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Historie, Vergangenheit / Erzählung, Story / ugs. Angelegenheit «eine dumme Geschichte») — nach den Nomen 2026-10-27
   'Geschirr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teller, Tassen usw. / Riemenzeug für Zugtiere, Pferdegeschirr) — nach den Nomen 2026-10-27
   'Geschlecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: biologisches Geschlecht / Gattung, Generation, Familie «ein altes Geschlecht» / Grammatik: Genus / Geschlechtsteil) — nach den Nomen 2026-10-27
+  'Geschmack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschmackssinn, Geschmack von Speisen / ästhetisches Urteil «guten Geschmack haben» / Vorliebe «auf den Geschmack kommen») — nach den Nomen 2026-10-27
+  'Geschmacklosigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ohne Pl.: Mangel an Geschmack, Taktlosigkeit / zählbar: geschmacklose Äußerung oder Handlung) — nach den Nomen 2026-10-27
+  'Geschoss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Projektil, Kugel / Stockwerk, Etage; österr. auch «Geschoß») — nach den Nomen 2026-10-27
+  'Geschrei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lautes Schreien / ugs. abwertend: übertriebenes Klagen, Aufhebens «viel Geschrei um nichts») — nach den Nomen 2026-10-27
+  'Geselle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handwerker nach der Gesellenprüfung / veraltend: Kerl, Bursche «ein lustiger Geselle») — nach den Nomen 2026-10-27
+  'Geselligkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ohne Pl.: Freude am Zusammensein / geselliges Beisammensein, Treffen) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
