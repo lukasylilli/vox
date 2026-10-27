@@ -3098,6 +3098,9 @@ const zurueckgestellt = <String>{
   'Gestalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperform, Figur / Person, oft unbekannt «eine dunkle Gestalt» / Figur in Literatur / Form «Gestalt annehmen») — nach den Nomen 2026-10-27
   'Geste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handbewegung / symbolische Handlung «eine Geste der Versöhnung») — nach den Nomen 2026-10-27
   'Gestell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regal, Rahmen, Ständer / ugs. sehr dünner Mensch, Beine / Brillengestell) — nach den Nomen 2026-10-27
+  'Getriebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Zahnradgetriebe, z. B. im Auto / gehoben: lebhaftes Treiben «das Getriebe der Großstadt») — nach den Nomen 2026-10-27
+  'Getto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: abgesondertes jüdisches Wohnviertel / abgesondertes Viertel einer benachteiligten Gruppe / übertragen: Abschottung; auch «Ghetto») — nach den Nomen 2026-10-27
+  'Gewalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalttätigkeit / Macht, Herrschaft «die Staatsgewalt», «in seiner Gewalt» / Naturkraft «die Gewalt des Sturms») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
