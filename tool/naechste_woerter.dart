@@ -3109,6 +3109,9 @@ const zurueckgestellt = <String>{
   'Gigant', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mythologie: Riese / übertragen: Großunternehmen, Riese «ein Gigant der Branche», etwas sehr Großes) — nach den Nomen 2026-10-27
   'Gilde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: Zunft, Genossenschaft von Kaufleuten oder Handwerkern / Gruppe Gleichgesinnter, oft scherzhaft «die Gilde der Kritiker») — nach den Nomen 2026-10-27
   'Gips', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mineral, Baustoff / Medizin: Gipsverband «den Arm in Gips haben») — nach den Nomen 2026-10-27
+  'Girl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs.: Mädchen, junge Frau / Revuetänzerin, Mitglied einer Tanzgruppe) — nach den Nomen 2026-10-27
+  'Glanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schimmer, Leuchten / Pracht, Herrlichkeit «der Glanz vergangener Zeiten») — nach den Nomen 2026-10-27
+  'Glanzlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: hellster Lichtreflex / übertragen: Höhepunkt «ein Glanzlicht des Festivals») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3182,6 +3185,7 @@ const zurueckgestellt = <String>{
   'Gest', // zurückgestellt: landschaftlich/veraltet (Hefe bzw. Gischt), Genus und Gebrauch nicht sicher (Regel 14) 2026-10-27
   'Gestapo', // zurückgestellt: Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
   'Gestus', // zurückgestellt: bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) 2026-10-27
+  'Glamour', // zurückgestellt: Genus schwankt (der oder das Glamour) — Regel 14 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

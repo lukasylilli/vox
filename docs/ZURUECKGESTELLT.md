@@ -2394,6 +2394,7 @@
 | ۲۲۱۷ | Gest | `substantiv_singular_alle.txt` | 2026-10-27 | landschaftlich/veraltet (Hefe bzw. Gischt), Genus und Gebrauch nicht sicher (Regel 14) | — |
 | ۲۲۱۸ | Gestapo | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۱۹ | Gestus | `substantiv_singular_alle.txt` | 2026-10-27 | bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) | — |
+| ۲۲۲۰ | Glamour | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Glamour) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3151,3 +3152,6 @@
 | 911 | Gigant | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Mythologie: Riese / übertragen: Großunternehmen, Riese «ein Gigant der Branche», etwas sehr Großes) |
 | 912 | Gilde | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: historisch: Zunft, Genossenschaft von Kaufleuten oder Handwerkern / Gruppe Gleichgesinnter, oft scherzhaft «die Gilde der Kritiker») |
 | 913 | Gips | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Mineral, Baustoff / Medizin: Gipsverband «den Arm in Gips haben») |
+| 914 | Girl | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: ugs.: Mädchen, junge Frau / Revuetänzerin, Mitglied einer Tanzgruppe) |
+| 915 | Glanz | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Schimmer, Leuchten / Pracht, Herrlichkeit «der Glanz vergangener Zeiten») |
+| 916 | Glanzlicht | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: hellster Lichtreflex / übertragen: Höhepunkt «ein Glanzlicht des Festivals») |
