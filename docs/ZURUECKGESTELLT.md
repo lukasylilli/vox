@@ -3062,4 +3062,7 @@
 | 833 | Gebiet | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Fläche, Region / Fachbereich «auf diesem Gebiet») |
 | 834 | Gebiss | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: alle Zähne / Zahnprothese / Mundstück am Pferdezaum) |
 | 835 | Gebot | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gebot, Vorschrift (die Zehn Gebote) / Angebot bei einer Versteigerung) |
+| 836 | Gebrauch | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Benutzen / Plural Gebräuche: Sitten, Bräuche) |
+| 837 | Geburt | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gebären, Entbindung / Herkunft, Abstammung «von Geburt Österreicher») |
+| 838 | Geburtshaus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Haus, in dem jemand geboren wurde / Einrichtung für Geburten mit Hebammen) |
 
