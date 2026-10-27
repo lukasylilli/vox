@@ -3003,4 +3003,5 @@
 | 783 | Frequenz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Häufigkeit, Besucherzahl / Physik: Schwingungszahl) |
 | 784 | Freund | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freund allgemein / fester Partner «mein Freund») |
 | 785 | Freundin | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freundin allgemein / feste Partnerin «meine Freundin») |
+| 786 | Friese | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Bewohner Frieslands / Friesenpferd) |
 
