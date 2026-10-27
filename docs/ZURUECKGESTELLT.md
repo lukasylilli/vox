@@ -3081,4 +3081,6 @@
 | 852 | Gegenwind | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Wind von vorn / übertragen: Widerstand, Kritik) |
 | 853 | Gegenzug | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gegenmaßnahme «im Gegenzug» / Zug aus der Gegenrichtung / Spielzug im Schach) |
 | 854 | Gehege | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eingezäuntes Gelände für Tiere / Jägersprache: Revier; «jemandem ins Gehege kommen») |
+| 855 | Gehen | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Gehen allgemein / Sport: Gehen als Disziplin der Leichtathletik) |
+| 856 | Gehilfe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Helfer, Assistent / Recht: Gehilfe bei einer Straftat) |
 
