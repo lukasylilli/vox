@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fremdverschulden",
+  "wort": "das Fremdverschulden",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تقصیر شخص دیگر",
+      "دخالت عامل خارجی"
+    ],
+    "en": [
+      "third-party fault",
+      "foul play"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Versicherung"
+  ],
+  "ipa": "ˈfʁɛmtfɛɐ̯ˌʃʊldn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Polizei schließt Fremdverschulden aus.",
+      "uebersetzung": {
+        "fa": "پلیس تقصیر شخص دیگری را رد می‌کند.",
+        "en": "The police rule out foul play."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Versicherung zahlt nur, wenn ein Fremdverschulden nachgewiesen werden kann.",
+      "uebersetzung": {
+        "fa": "بیمه فقط وقتی پرداخت می‌کند که تقصیر شخص دیگری ثابت شود.",
+        "en": "The insurance only pays if third-party fault can be proven."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "das Eigenverschulden",
+      "uebersetzung": {
+        "fa": "تقصیر خود شخص",
+        "en": "one's own fault"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "fremd (دیگری، بیگانه) + Verschulden (تقصیر)",
+    "en": "fremd (other, outside) + Verschulden (fault)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Fremdverschulden ausschließen",
+        "beispiel": "Nach der Obduktion konnte Fremdverschulden ausgeschlossen werden.",
+        "uebersetzung": {
+          "fa": "پس از کالبدشکافی، دخالت شخص دیگری منتفی شد.",
+          "en": "After the autopsy, foul play could be ruled out."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Schuld",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تقصیر",
+          "en": "fault, guilt"
+        },
+        "id_ref": "nomen_schuld"
+      },
+      {
+        "wort": "verschulden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسبب شدن",
+          "en": "to cause through one's fault"
+        },
+        "id_ref": "verb_verschulden"
+      },
+      {
+        "wort": "das Eigenverschulden",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تقصیر خود شخص",
+          "en": "own fault"
+        },
+        "id_ref": "nomen_eigenverschulden"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "die Versicherung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه",
+          "en": "insurance"
+        },
+        "id_ref": "nomen_versicherung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2977,6 +2977,8 @@ const zurueckgestellt = <String>{
   'Freiraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unbebaute, offene Fläche / Spielraum zur persönlichen Entfaltung) — nach den Nomen 2026-10-26
   'Freisetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freiwerden von Stoffen/Energie / Entlassung von Arbeitskräften) — nach den Nomen 2026-10-26
   'Freizeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: freie Zeit / mehrtägiges Gruppentreffen, z. B. Jugendfreizeit) — nach den Nomen 2026-10-26
+  'Fremder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Fremde, ein Fremder) — nach den Nomen 2026-10-26
+  'Frequenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Häufigkeit, Besucherzahl / Physik: Schwingungszahl) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
