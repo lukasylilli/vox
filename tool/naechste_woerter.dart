@@ -3062,6 +3062,7 @@ const zurueckgestellt = <String>{
   'Geltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gültigkeit / Ansehen, Wert / Wirkung «zur Geltung kommen») — nach den Nomen 2026-10-27
   'Gemeinde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politische Gemeinde / Kirchengemeinde / Gemeinschaft von Anhängern, z. B. Fangemeinde) — nach den Nomen 2026-10-27
   'Gemeindeammann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, schweiz.: Gemeindepräsident / Vollstreckungsbeamter) — nach den Nomen 2026-10-27
+  'Gemeinderat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Gemeindevertretung / einzelnes Mitglied dieses Gremiums) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

@@ -3094,3 +3094,4 @@
 | 864 | Geltung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gültigkeit / Ansehen, Wert / Wirkung «zur Geltung kommen») |
 | 865 | Gemeinde | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: politische Gemeinde / Kirchengemeinde / Gemeinschaft von Anhängern, z. B. Fangemeinde) |
 | 866 | Gemeindeammann | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, schweiz.: Gemeindepräsident / Vollstreckungsbeamter) |
+| 867 | Gemeinderat | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gremium der Gemeindevertretung / einzelnes Mitglied dieses Gremiums) |
