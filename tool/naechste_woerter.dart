@@ -2988,6 +2988,11 @@ const zurueckgestellt = <String>{
   'Frosch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Knallkörper / Teil am Geigenbogen) — nach den Nomen 2026-10-26
   'Frost', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Temperatur unter null / Kältegefühl, Schüttelfrost) — nach den Nomen 2026-10-26
   'Frucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenfrucht / Leibesfrucht / übertragen: Ergebnis «Früchte der Arbeit») — nach den Nomen 2026-10-26
+  'Fuchs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / schlauer Mensch / Pferd mit rotbraunem Fell) — nach den Nomen 2026-10-26
+  'Fuhrmann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kutscher, Fahrer eines Fuhrwerks / Sternbild) — nach den Nomen 2026-10-26
+  'Fund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Finden / gefundener Gegenstand) — nach den Nomen 2026-10-26
+  'Fundament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterbau eines Gebäudes / übertragen: Grundlage) — nach den Nomen 2026-10-26
+  'Fundgrube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort mit vielen wertvollen Dingen / Bergbau: Grube) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
