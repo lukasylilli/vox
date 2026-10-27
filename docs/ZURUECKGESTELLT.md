@@ -2389,6 +2389,7 @@
 | ۲۲۱۲ | Generalleutnant | `substantiv_singular_alle.txt` | 2026-10-27 | Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 | — |
 | ۲۲۱۳ | Genozid | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Genozid) — Regel 14 | — |
 | ۲۲۱۴ | Gens | `substantiv_singular_alle.txt` | 2026-10-27 | Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۱۵ | Ger | `substantiv_singular_alle.txt` | 2026-10-27 | historisch: Wurfspeer der Germanen (Pl. Gere) — als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3112,3 +3113,4 @@
 | 877 | Genosse | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Parteigenosse, Anrede in sozialistischen Parteien / Mitglied einer Genossenschaft / veraltet: Gefährte) |
 | 878 | Genossin | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (wie Genosse: Parteigenossin / Mitglied einer Genossenschaft) |
 | 879 | Genugtuung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wiedergutmachung «Genugtuung verlangen» / innere Befriedigung «mit Genugtuung») |
+| 880 | Genuss | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zu-sich-Nehmen «der Genuss von Alkohol» / Freude, Wohlbehagen «ein Genuss»; auch «in den Genuss von etwas kommen») |
