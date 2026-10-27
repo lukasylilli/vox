@@ -3131,6 +3131,7 @@ const zurueckgestellt = <String>{
   'Grabenkampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Kampf aus Schützengräben / übertragen: zäher, verbissener Streit) — nach den Nomen 2026-10-27
   'Grad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Temperatur- und Winkelgrad / akademischer oder militärischer Rang / Maß, Ausmaß «in hohem Grad») — nach den Nomen 2026-10-27
   'Grafik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst: Grafik als Kunstwerk, Druckgrafik / Diagramm, Schaubild / Computergrafik, grafische Gestaltung) — nach den Nomen 2026-10-27
+  'Grammatik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regelsystem einer Sprache / Buch, Lehrbuch der Grammatik «eine Grammatik kaufen») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
