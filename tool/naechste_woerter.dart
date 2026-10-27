@@ -3116,6 +3116,7 @@ const zurueckgestellt = <String>{
   'Glaubensbekenntnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion: formelhafte Zusammenfassung des Glaubens, Credo / übertragen: persönliche Überzeugung, Weltanschauung) — nach den Nomen 2026-10-27
   'Gleichgewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Zustand ausgeglichener Kräfte / körperliches Gleichgewicht, Balance / seelisches Gleichgewicht, Ausgeglichenheit) — nach den Nomen 2026-10-27
   'Gleichklang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang von Tönen / übertragen: Übereinstimmung, Harmonie) — nach den Nomen 2026-10-27
+  'Glied', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperteil, Arm/Bein / Teil einer Kette, Glied einer Reihe / Mitglied, Generation «bis ins dritte Glied» / männliches Glied) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

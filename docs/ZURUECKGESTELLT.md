@@ -3159,3 +3159,4 @@
 | 918 | Glaubensbekenntnis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Religion: formelhafte Zusammenfassung des Glaubens, Credo / übertragen: persönliche Überzeugung, Weltanschauung) |
 | 919 | Gleichgewicht | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Physik: Zustand ausgeglichener Kräfte / körperliches Gleichgewicht, Balance / seelisches Gleichgewicht, Ausgeglichenheit) |
 | 920 | Gleichklang | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang von Tönen / übertragen: Übereinstimmung, Harmonie) |
+| 921 | Glied | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Körperteil, Arm/Bein / Teil einer Kette, Glied einer Reihe / Mitglied, Generation «bis ins dritte Glied» / männliches Glied) |

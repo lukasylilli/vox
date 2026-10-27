@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_gleis",
+  "wort": "das Gleis",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سکو (راه‌آهن)",
+      "ریل",
+      "خط آهن"
+    ],
+    "en": [
+      "platform",
+      "track",
+      "rails"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "ɡlaɪ̯s",
+  "anmerkung": "am Bahnhof: Nummer des Bahnsteigs («Gleis 5»); übertragen: «etwas aufs richtige Gleis bringen»",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Der Zug fährt von Gleis drei ab.",
+      "uebersetzung": {
+        "fa": "قطار از سکوی سه حرکت می‌کند.",
+        "en": "The train leaves from platform three."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil Bauarbeiten am Gleis stattfinden, fallen heute mehrere Züge aus.",
+      "uebersetzung": {
+        "fa": "چون روی خط آهن کارهای ساختمانی انجام می‌شود، امروز چند قطار لغو شده‌اند.",
+        "en": "Because construction work is taking place on the track, several trains are cancelled today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Schiene",
+      "uebersetzung": {
+        "fa": "ریل",
+        "en": "rail"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Abstellgleis",
+      "uebersetzung": {
+        "fa": "خط فرعی",
+        "en": "siding"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Gleise",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "der Bahnsteig",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سکوی قطار",
+          "en": "platform"
+        },
+        "id_ref": "nomen_bahnsteig"
+      },
+      {
+        "wort": "die Schiene",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ریل",
+          "en": "rail"
+        },
+        "id_ref": "nomen_schiene"
+      },
+      {
+        "wort": "die Bahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "راه‌آهن، قطار",
+          "en": "railway"
+        },
+        "id_ref": "nomen_bahn"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
