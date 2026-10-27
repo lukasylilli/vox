@@ -3106,3 +3106,5 @@
 | 873 | Generation | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Altersgruppe / Glied in der Geschlechterfolge / Technik: Entwicklungsstufe, z. B. Handys der neuesten Generation) |
 | 874 | Generationswechsel | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wechsel zur jüngeren Generation, z. B. in Führung / Biologie: Wechsel von geschlechtlicher und ungeschlechtlicher Fortpflanzung) |
 | 875 | Genesis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gehoben: Entstehung / Bibel: erstes Buch Mose) |
+| 876 | Genius | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: genialer Mensch, Schöpferkraft / Mythologie: Schutzgeist) |
+| 877 | Genosse | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Parteigenosse, Anrede in sozialistischen Parteien / Mitglied einer Genossenschaft / veraltet: Gefährte) |
