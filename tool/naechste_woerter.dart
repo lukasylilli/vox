@@ -2982,6 +2982,12 @@ const zurueckgestellt = <String>{
   'Freund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freund allgemein / fester Partner «mein Freund») — nach den Nomen 2026-10-26
   'Freundin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freundin allgemein / feste Partnerin «meine Freundin») — nach den Nomen 2026-10-26
   'Friese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewohner Frieslands / Friesenpferd) — nach den Nomen 2026-10-26
+  'Fromme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Fromme) — nach den Nomen 2026-10-26
+  'Front', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorderseite eines Gebäudes / Kampflinie im Krieg / Wetterfront) — nach den Nomen 2026-10-26
+  'Frontmann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sänger einer Band / führende Person einer Gruppe) — nach den Nomen 2026-10-26
+  'Frosch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Knallkörper / Teil am Geigenbogen) — nach den Nomen 2026-10-26
+  'Frost', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Temperatur unter null / Kältegefühl, Schüttelfrost) — nach den Nomen 2026-10-26
+  'Frucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenfrucht / Leibesfrucht / übertragen: Ergebnis «Früchte der Arbeit») — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

@@ -3004,4 +3004,10 @@
 | 784 | Freund | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freund allgemein / fester Partner «mein Freund») |
 | 785 | Freundin | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Freundin allgemein / feste Partnerin «meine Freundin») |
 | 786 | Friese | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Bewohner Frieslands / Friesenpferd) |
+| 787 | Fromme | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv: der/die Fromme) |
+| 788 | Front | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Vorderseite eines Gebäudes / Kampflinie im Krieg / Wetterfront) |
+| 789 | Frontmann | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Sänger einer Band / führende Person einer Gruppe) |
+| 790 | Frosch | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Tier / Knallkörper / Teil am Geigenbogen) |
+| 791 | Frost | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Temperatur unter null / Kältegefühl, Schüttelfrost) |
+| 792 | Frucht | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Pflanzenfrucht / Leibesfrucht / übertragen: Ergebnis «Früchte der Arbeit») |
 
