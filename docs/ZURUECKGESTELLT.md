@@ -3143,3 +3143,6 @@
 | 903 | Getriebe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Technik: Zahnradgetriebe, z. B. im Auto / gehoben: lebhaftes Treiben «das Getriebe der Großstadt») |
 | 904 | Getto | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: historisch: abgesondertes jüdisches Wohnviertel / abgesondertes Viertel einer benachteiligten Gruppe / übertragen: Abschottung; auch «Ghetto») |
 | 905 | Gewalt | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gewalttätigkeit / Macht, Herrschaft «die Staatsgewalt», «in seiner Gewalt» / Naturkraft «die Gewalt des Sturms») |
+| 906 | Gewand | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: gehoben: langes, festliches Kleidungsstück / österr., süddt. ugs.: Kleidung allgemein / übertragen: äußere Aufmachung «im neuen Gewand») |
+| 907 | Gewebe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Stoff, gewebtes Material / Biologie: Zellgewebe / übertragen: Geflecht «ein Gewebe aus Lügen») |
+| 908 | Gewerbe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: selbstständige Erwerbstätigkeit «ein Gewerbe anmelden» / Gesamtheit der Betriebe, Wirtschaftszweig / schweiz.: Bauernhof) |

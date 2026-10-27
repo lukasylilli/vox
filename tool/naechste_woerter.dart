@@ -3101,6 +3101,9 @@ const zurueckgestellt = <String>{
   'Getriebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Zahnradgetriebe, z. B. im Auto / gehoben: lebhaftes Treiben «das Getriebe der Großstadt») — nach den Nomen 2026-10-27
   'Getto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: abgesondertes jüdisches Wohnviertel / abgesondertes Viertel einer benachteiligten Gruppe / übertragen: Abschottung; auch «Ghetto») — nach den Nomen 2026-10-27
   'Gewalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalttätigkeit / Macht, Herrschaft «die Staatsgewalt», «in seiner Gewalt» / Naturkraft «die Gewalt des Sturms») — nach den Nomen 2026-10-27
+  'Gewand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: langes, festliches Kleidungsstück / österr., süddt. ugs.: Kleidung allgemein / übertragen: äußere Aufmachung «im neuen Gewand») — nach den Nomen 2026-10-27
+  'Gewebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff, gewebtes Material / Biologie: Zellgewebe / übertragen: Geflecht «ein Gewebe aus Lügen») — nach den Nomen 2026-10-27
+  'Gewerbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: selbstständige Erwerbstätigkeit «ein Gewerbe anmelden» / Gesamtheit der Betriebe, Wirtschaftszweig / schweiz.: Bauernhof) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
