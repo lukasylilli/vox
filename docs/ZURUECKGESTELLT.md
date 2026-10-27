@@ -2395,6 +2395,7 @@
 | ۲۲۱۸ | Gestapo | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Organisation (Geheime Staatspolizei, NS-Zeit) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۱۹ | Gestus | `substantiv_singular_alle.txt` | 2026-10-27 | bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) | — |
 | ۲۲۲۰ | Glamour | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Glamour) — Regel 14 | — |
+| ۲۲۲۱ | Google | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3167,3 +3168,6 @@
 | 926 | Gnade | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gunst, Wohlwollen eines Höhergestellten / Milde, Verzeihung, Begnadigung / Religion: Gnade Gottes) |
 | 927 | Goal | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, österr./schweiz.: Tor als Gehäuse / erzielter Treffer) |
 | 928 | Gondel | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: venezianisches Boot / Kabine einer Seilbahn / Korb eines Ballons / Verkaufsregal im Supermarkt) |
+| 929 | Goodwill | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wohlwollen, guter Wille / Wirtschaft: Firmenwert, Ansehen eines Unternehmens) |
+| 930 | Gorilla | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Menschenaffe / ugs.: Leibwächter, Türsteher) |
+| 931 | Gott | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Christentum/Monotheismus: der eine Gott / übermenschliches Wesen, Gottheit «die griechischen Götter») |
