@@ -3069,4 +3069,5 @@
 | 840 | Gefangener | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Gefangene, ein Gefangener) |
 | 841 | Geflecht | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Flechtwerk / übertragen: Netz von Beziehungen) |
 | 842 | Gefolge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Begleitung einer wichtigen Person / übertragen «im Gefolge von» = als Folge) |
+| 843 | Gefolgschaft | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Anhänger, Gefolge / Treue, Gehorsam «Gefolgschaft leisten») |
 
