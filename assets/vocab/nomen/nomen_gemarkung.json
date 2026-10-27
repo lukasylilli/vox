@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "nomen_gemarkung",
+  "wort": "die Gemarkung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "محدوده‌ی شهرداری",
+      "حوزه‌ی ثبتی ده"
+    ],
+    "en": [
+      "municipal area",
+      "cadastral district"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C2",
+  "themen": [
+    "Verwaltung"
+  ],
+  "ipa": "ɡəˈmaʁkʊŋ",
+  "anmerkung": "Amtssprache (Grundbuch, Vermessung)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Wald gehört zur Gemarkung unseres Dorfes.",
+      "uebersetzung": {
+        "fa": "این جنگل جزو محدوده‌ی ده ماست.",
+        "en": "The forest belongs to our village's municipal area."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Grundbuch steht, in welcher Gemarkung das Grundstück liegt und welche Flurnummer es hat.",
+      "uebersetzung": {
+        "fa": "در دفتر ثبت املاک نوشته شده که زمین در کدام حوزه‌ی ثبتی است و چه شماره‌ی قطعه‌ای دارد.",
+        "en": "The land register states which cadastral district the plot is in and what its parcel number is."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Ge- + Mark (مرز، سرزمین مرزی) + -ung",
+    "en": "Ge- + Mark (boundary, border land) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Gemarkungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Grenze",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مرز",
+          "en": "border"
+        },
+        "id_ref": "nomen_grenze"
+      },
+      {
+        "wort": "die Gemeinde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شهرداری، جماعت",
+          "en": "municipality, community"
+        },
+        "id_ref": "nomen_gemeinde"
+      },
+      {
+        "wort": "das Gebiet",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه",
+          "en": "area, region"
+        },
+        "id_ref": "nomen_gebiet"
+      },
+      {
+        "wort": "das Grundstück",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قطعه زمین",
+          "en": "plot of land"
+        },
+        "id_ref": "nomen_grundstueck"
+      },
+      {
+        "wort": "das Grundbuch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دفتر ثبت املاک",
+          "en": "land register"
+        },
+        "id_ref": "nomen_grundbuch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

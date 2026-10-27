@@ -3088,3 +3088,9 @@
 | 858 | Geldmenge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: eine bestimmte Menge Geld / Volkswirtschaft: gesamtes umlaufendes Geld) |
 | 859 | Gelegenheit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: günstiger Augenblick / Anlass / Kaufmannssprache: Gelegenheitskauf) |
 | 860 | Gelehrte | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der/die Gelehrte) |
+| 861 | Geleit | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Begleitung, «freies Geleit» / Schutzbegleitung (Geleitzug) / Geleitwort) |
+| 862 | Gelenk | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Anatomie: Knochenverbindung / Technik: bewegliche Verbindung von Teilen) |
+| 863 | Geliebte | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 4 (substantiviertes Adjektiv: der/die Geliebte) |
+| 864 | Geltung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gültigkeit / Ansehen, Wert / Wirkung «zur Geltung kommen») |
+| 865 | Gemeinde | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: politische Gemeinde / Kirchengemeinde / Gemeinschaft von Anhängern, z. B. Fangemeinde) |
+| 866 | Gemeindeammann | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen, schweiz.: Gemeindepräsident / Vollstreckungsbeamter) |
