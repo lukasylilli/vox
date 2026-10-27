@@ -3147,3 +3147,4 @@
 | 907 | Gewebe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Stoff, gewebtes Material / Biologie: Zellgewebe / übertragen: Geflecht «ein Gewebe aus Lügen») |
 | 908 | Gewerbe | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: selbstständige Erwerbstätigkeit «ein Gewerbe anmelden» / Gesamtheit der Betriebe, Wirtschaftszweig / schweiz.: Bauernhof) |
 | 909 | Gewinn | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Profit / Preis, Treffer in Lotterie oder Spiel / Nutzen, Bereicherung «ein Gewinn für das Team») |
+| 910 | Gezerre | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: dauerndes Zerren, Ziehen / übertragen, abwertend: langes Streiten, Feilschen «das Gezerre um den Haushalt») |
