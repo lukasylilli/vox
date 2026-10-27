@@ -3039,6 +3039,11 @@ const zurueckgestellt = <String>{
   'Geflecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flechtwerk / übertragen: Netz von Beziehungen) — nach den Nomen 2026-10-26
   'Gefolge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begleitung einer wichtigen Person / übertragen «im Gefolge von» = als Folge) — nach den Nomen 2026-10-26
   'Gefolgschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhänger, Gefolge / Treue, Gehorsam «Gefolgschaft leisten») — nach den Nomen 2026-10-26
+  'Gegengewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewicht, das ein anderes ausgleicht / übertragen: Ausgleich «ein Gegengewicht bilden») — nach den Nomen 2026-10-26
+  'Gegenliebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erwiderte Liebe / Zustimmung «auf wenig Gegenliebe stoßen») — nach den Nomen 2026-10-26
+  'Gegenpol', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: entgegengesetzter Pol / übertragen: Gegenstück, Gegensatz) — nach den Nomen 2026-10-26
+  'Gegensatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenteil «im Gegensatz zu» / Meinungsverschiedenheit, Konflikt) — nach den Nomen 2026-10-26
+  'Gegenseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gegenüberliegende Seite / gegnerische Partei, z. B. vor Gericht) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

@@ -3070,4 +3070,9 @@
 | 841 | Geflecht | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Flechtwerk / übertragen: Netz von Beziehungen) |
 | 842 | Gefolge | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Begleitung einer wichtigen Person / übertragen «im Gefolge von» = als Folge) |
 | 843 | Gefolgschaft | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Anhänger, Gefolge / Treue, Gehorsam «Gefolgschaft leisten») |
+| 844 | Gegengewicht | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gewicht, das ein anderes ausgleicht / übertragen: Ausgleich «ein Gegengewicht bilden») |
+| 845 | Gegenliebe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: erwiderte Liebe / Zustimmung «auf wenig Gegenliebe stoßen») |
+| 846 | Gegenpol | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Physik: entgegengesetzter Pol / übertragen: Gegenstück, Gegensatz) |
+| 847 | Gegensatz | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Gegenteil «im Gegensatz zu» / Meinungsverschiedenheit, Konflikt) |
+| 848 | Gegenseite | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: gegenüberliegende Seite / gegnerische Partei, z. B. vor Gericht) |
 
