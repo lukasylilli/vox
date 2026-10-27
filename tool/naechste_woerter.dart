@@ -3127,6 +3127,10 @@ const zurueckgestellt = <String>{
   'Goodwill', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohlwollen, guter Wille / Wirtschaft: Firmenwert, Ansehen eines Unternehmens) — nach den Nomen 2026-10-27
   'Gorilla', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Menschenaffe / ugs.: Leibwächter, Türsteher) — nach den Nomen 2026-10-27
   'Gott', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Christentum/Monotheismus: der eine Gott / übermenschliches Wesen, Gottheit «die griechischen Götter») — nach den Nomen 2026-10-27
+  'Graben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rinne im Boden, Straßengraben / Militär: Schützengraben / Geologie: Grabenbruch) — nach den Nomen 2026-10-27
+  'Grabenkampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Kampf aus Schützengräben / übertragen: zäher, verbissener Streit) — nach den Nomen 2026-10-27
+  'Grad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Temperatur- und Winkelgrad / akademischer oder militärischer Rang / Maß, Ausmaß «in hohem Grad») — nach den Nomen 2026-10-27
+  'Grafik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst: Grafik als Kunstwerk, Druckgrafik / Diagramm, Schaubild / Computergrafik, grafische Gestaltung) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3202,6 +3206,7 @@ const zurueckgestellt = <String>{
   'Gestus', // zurückgestellt: bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) 2026-10-27
   'Glamour', // zurückgestellt: Genus schwankt (der oder das Glamour) — Regel 14 2026-10-27
   'Google', // zurückgestellt: Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
+  'Graffito', // zurückgestellt: Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

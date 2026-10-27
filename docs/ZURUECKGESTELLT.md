@@ -2396,6 +2396,7 @@
 | ۲۲۱۹ | Gestus | `substantiv_singular_alle.txt` | 2026-10-27 | bildungssprachlich/Theater (Ausdruck, Gebärde); Plural nicht sicher (Regel 14) | — |
 | ۲۲۲۰ | Glamour | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Glamour) — Regel 14 | — |
 | ۲۲۲۱ | Google | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۲۲ | Graffito | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3171,3 +3172,7 @@
 | 929 | Goodwill | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Wohlwollen, guter Wille / Wirtschaft: Firmenwert, Ansehen eines Unternehmens) |
 | 930 | Gorilla | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Menschenaffe / ugs.: Leibwächter, Türsteher) |
 | 931 | Gott | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Christentum/Monotheismus: der eine Gott / übermenschliches Wesen, Gottheit «die griechischen Götter») |
+| 932 | Graben | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Rinne im Boden, Straßengraben / Militär: Schützengraben / Geologie: Grabenbruch) |
+| 933 | Grabenkampf | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Militär: Kampf aus Schützengräben / übertragen: zäher, verbissener Streit) |
+| 934 | Grad | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Temperatur- und Winkelgrad / akademischer oder militärischer Rang / Maß, Ausmaß «in hohem Grad») |
+| 935 | Grafik | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Kunst: Grafik als Kunstwerk, Druckgrafik / Diagramm, Schaubild / Computergrafik, grafische Gestaltung) |
