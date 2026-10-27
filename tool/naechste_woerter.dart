@@ -2993,6 +2993,11 @@ const zurueckgestellt = <String>{
   'Fund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Finden / gefundener Gegenstand) — nach den Nomen 2026-10-26
   'Fundament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterbau eines Gebäudes / übertragen: Grundlage) — nach den Nomen 2026-10-26
   'Fundgrube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort mit vielen wertvollen Dingen / Bergbau: Grube) — nach den Nomen 2026-10-26
+  'Fundstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort eines Fundes / Stelle in einem Text, Beleg) — nach den Nomen 2026-10-26
+  'Fundus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bestand an Kostümen/Requisiten im Theater / übertragen: Grundstock an Wissen) — nach den Nomen 2026-10-26
+  'Funke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: glühendes Teilchen / übertragen: ein kleines bisschen «ein Funke Hoffnung») — nach den Nomen 2026-10-26
+  'Funkstille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pause im Funkverkehr / ugs. kein Kontakt mehr) — nach den Nomen 2026-10-26
+  'Funktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgabe, Zweck / Amt, Stellung / Mathematik: Funktion) — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3046,6 +3051,7 @@ const zurueckgestellt = <String>{
   'Fox', // zurückgestellt: kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) 2026-10-26
   'Freestyle', // zurückgestellt: englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) 2026-10-26
   'Friaul', // zurückgestellt: Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) 2026-10-26
+  'Funkbild', // zurückgestellt: veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

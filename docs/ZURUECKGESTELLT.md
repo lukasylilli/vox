@@ -2374,6 +2374,7 @@
 | ۲۱۹۷ | Fox | `substantiv_singular_alle.txt` | 2026-10-26 | kein gesichertes Nomen (Kurzform von Foxtrott bzw. Foxterrier; engl. «fox») (Regel 14) | — |
 | ۲۱۹۸ | Freestyle | `substantiv_singular_alle.txt` | 2026-10-26 | englisches Wort (Sport, Musik) — Genus und Gebrauch als deutsches Nomen nicht gesichert (Regel 14) | — |
 | ۲۱۹۹ | Friaul | `substantiv_singular_alle.txt` | 2026-10-26 | Region in Italien — Gebrauch mit/ohne Artikel schwankt («das Friaul» / «in Friaul»), Lemma nicht sicher (Regel 14/18) | — |
+| ۲۲۰۰ | Funkbild | `substantiv_singular_alle.txt` | 2026-10-26 | veraltet (per Funk übertragenes Bild) — als Lernwort nicht gesichert (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3015,4 +3016,9 @@
 | 795 | Fund | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: das Finden / gefundener Gegenstand) |
 | 796 | Fundament | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Unterbau eines Gebäudes / übertragen: Grundlage) |
 | 797 | Fundgrube | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Ort mit vielen wertvollen Dingen / Bergbau: Grube) |
+| 798 | Fundstelle | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Ort eines Fundes / Stelle in einem Text, Beleg) |
+| 799 | Fundus | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Bestand an Kostümen/Requisiten im Theater / übertragen: Grundstock an Wissen) |
+| 800 | Funke | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: glühendes Teilchen / übertragen: ein kleines bisschen «ein Funke Hoffnung») |
+| 801 | Funkstille | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Pause im Funkverkehr / ugs. kein Kontakt mehr) |
+| 802 | Funktion | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Aufgabe, Zweck / Amt, Stellung / Mathematik: Funktion) |
 
