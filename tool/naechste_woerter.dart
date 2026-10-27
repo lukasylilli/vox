@@ -3010,6 +3010,9 @@ const zurueckgestellt = <String>{
   'Gangart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art des Gehens, Gangart eines Pferdes / übertragen: Vorgehensweise «eine härtere Gangart») — nach den Nomen 2026-10-26
   'Gans', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel / Schimpfwort «dumme Gans») — nach den Nomen 2026-10-26
   'Garage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstellraum für Autos / österr./schweiz.: Autowerkstatt) — nach den Nomen 2026-10-26
+  'Garde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leibwache, Elitetruppe / übertragen: Gruppe «die alte Garde») — nach den Nomen 2026-10-26
+  'Garderobe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleiderablage / Kleidung, die jemand besitzt / Ankleideraum im Theater) — nach den Nomen 2026-10-26
+  'Garnitur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Satz zusammengehöriger Teile (Sitzgarnitur, Wäsche) / übertragen: «die erste Garnitur») — nach den Nomen 2026-10-26
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3068,6 +3071,7 @@ const zurueckgestellt = <String>{
   'Gabler', // zurückgestellt: Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) 2026-10-26
   'Gal', // zurückgestellt: Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) 2026-10-26
   'Gams', // zurückgestellt: Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) 2026-10-26
+  'Garaus', // zurückgestellt: nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

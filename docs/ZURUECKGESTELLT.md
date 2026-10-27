@@ -2379,6 +2379,7 @@
 | ۲۲۰۲ | Gabler | `substantiv_singular_alle.txt` | 2026-10-26 | Bedeutung unklar (Jägersprache: Rehbock mit Gabelgeweih bzw. Familienname) — nicht sicher (Regel 14) | — |
 | ۲۲۰۳ | Gal | `substantiv_singular_alle.txt` | 2026-10-26 | Fachwort (physikalische Einheit der Beschleunigung) bzw. Abkürzung — als Lernwort nicht gesichert (Regel 14) | — |
 | ۲۲۰۴ | Gams | `substantiv_singular_alle.txt` | 2026-10-26 | Genus schwankt (die Gams / Jägersprache der oder das Gams; standardsprachlich die Gämse) (Regel 14) | — |
+| ۲۲۰۵ | Garaus | `substantiv_singular_alle.txt` | 2026-10-26 | nur in der festen Wendung «jemandem/etwas den Garaus machen» — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3037,4 +3038,7 @@
 | 812 | Gangart | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Art des Gehens, Gangart eines Pferdes / übertragen: Vorgehensweise «eine härtere Gangart») |
 | 813 | Gans | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Vogel / Schimpfwort «dumme Gans») |
 | 814 | Garage | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Abstellraum für Autos / österr./schweiz.: Autowerkstatt) |
+| 815 | Garde | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Leibwache, Elitetruppe / übertragen: Gruppe «die alte Garde») |
+| 816 | Garderobe | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Kleiderablage / Kleidung, die jemand besitzt / Ankleideraum im Theater) |
+| 817 | Garnitur | `substantiv_singular_alle.txt` | 2026-10-26 | Fall 1 (mehrere Bedeutungen: Satz zusammengehöriger Teile (Sitzgarnitur, Wäsche) / übertragen: «die erste Garnitur») |
 
