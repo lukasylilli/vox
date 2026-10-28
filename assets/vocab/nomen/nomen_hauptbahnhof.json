@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hauptbahnhof",
+  "wort": "der Hauptbahnhof",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ایستگاه مرکزی قطار"
+    ],
+    "en": [
+      "main station",
+      "central station"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Stadt"
+  ],
+  "ipa": "ˈhaʊ̯ptbaːnˌhoːf",
+  "anmerkung": "Abkürzung: Hbf.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wo ist der Hauptbahnhof?",
+      "uebersetzung": {
+        "fa": "ایستگاه مرکزی قطار کجاست؟",
+        "en": "Where is the main station?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Vom Hauptbahnhof fährt alle zehn Minuten ein Bus direkt zum Flughafen.",
+      "uebersetzung": {
+        "fa": "از ایستگاه مرکزی هر ده دقیقه یک اتوبوس مستقیم به فرودگاه می‌رود.",
+        "en": "A bus leaves the main station for the airport every ten minutes."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Haupt- (اصلی) + Bahnhof (ایستگاه قطار)",
+    "en": "Haupt- (main) + Bahnhof (station)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Hauptbahnhöfe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "am Hauptbahnhof (an + Dat)",
+        "beispiel": "Wir treffen uns um acht am Hauptbahnhof.",
+        "uebersetzung": {
+          "fa": "ساعت هشت در ایستگاه مرکزی همدیگر را می‌بینیم.",
+          "en": "We are meeting at the main station at eight."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "der Zug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قطار",
+          "en": "train"
+        },
+        "id_ref": "nomen_zug"
+      },
+      {
+        "wort": "das Gleis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سکو، ریل",
+          "en": "platform, track"
+        },
+        "id_ref": "nomen_gleis"
+      },
+      {
+        "wort": "die Haltestelle",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه",
+          "en": "stop"
+        },
+        "id_ref": "nomen_haltestelle"
+      },
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

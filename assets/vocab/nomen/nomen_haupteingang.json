@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_haupteingang",
+  "wort": "der Haupteingang",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ورودی اصلی"
+    ],
+    "en": [
+      "main entrance"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Gebäude",
+    "Orientierung"
+  ],
+  "ipa": "ˈhaʊ̯ptʔaɪ̯nˌɡaŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir treffen uns am Haupteingang.",
+      "uebersetzung": {
+        "fa": "دم ورودی اصلی همدیگر را می‌بینیم.",
+        "en": "We'll meet at the main entrance."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil der Haupteingang renoviert wird, benutzen Besucher bitte den Seiteneingang neben der Apotheke.",
+      "uebersetzung": {
+        "fa": "چون ورودی اصلی در حال تعمیر است، لطفاً بازدیدکنندگان از ورودی کناری کنار داروخانه استفاده کنند.",
+        "en": "Because the main entrance is being renovated, visitors please use the side entrance next to the pharmacy."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Haupt- (اصلی) + Eingang (ورودی)",
+    "en": "Haupt- (main) + Eingang (entrance)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Haupteingänge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "am Haupteingang (an + Dat)",
+        "beispiel": "Das Taxi wartet am Haupteingang des Krankenhauses.",
+        "uebersetzung": {
+          "fa": "تاکسی جلوی ورودی اصلی بیمارستان منتظر است.",
+          "en": "The taxi is waiting at the main entrance of the hospital."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Eingang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ورودی",
+          "en": "entrance"
+        },
+        "id_ref": "nomen_eingang"
+      },
+      {
+        "wort": "der Ausgang",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خروجی",
+          "en": "exit"
+        },
+        "id_ref": "nomen_ausgang"
+      },
+      {
+        "wort": "der Seiteneingang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورودی کناری",
+          "en": "side entrance"
+        },
+        "id_ref": "nomen_seiteneingang"
+      },
+      {
+        "wort": "die Tür",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "در",
+          "en": "door"
+        },
+        "id_ref": "nomen_tuer"
+      },
+      {
+        "wort": "das Gebäude",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ساختمان",
+          "en": "building"
+        },
+        "id_ref": "nomen_gebaeude"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
