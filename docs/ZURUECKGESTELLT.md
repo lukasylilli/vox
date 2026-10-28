@@ -2429,6 +2429,8 @@
 | ۲۲۵۲ | Hofgarten | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Parkanlagen (Hofgarten Innsbruck, München) — als allgemeines Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۵۳ | Hofmann | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (historisch auch: Hofbeamter) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۵۴ | Hot | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (englisches Adjektiv; nur in Fügungen wie Hot Jazz, Hotdog) — Regel 14 | — |
+| ۲۲۵۵ | Hube | `substantiv_singular_alle.txt` | 2026-10-28 | landschaftlich/veraltet (= Hufe, bäuerliches Landmaß) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۵۶ | Huber | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3332,3 +3334,4 @@
 | 1057 | Hort | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kinderhort, Nachmittagsbetreuung / (gehoben) Zuflucht, Stätte «ein Hort der Freiheit» / (dichterisch) Schatz) |
 | 1058 | Hospital | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (veraltend) Krankenhaus / (veraltet) Pflegeheim, Altenheim) |
 | 1059 | Hospiz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Einrichtung zur Begleitung Sterbender / Herberge im Gebirge / christlich geführtes Hotel) |
+| 1060 | Huhn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haushuhn als Tier / Fleisch «Huhn mit Reis» / (ugs.) Person «ein dummes Huhn») |
