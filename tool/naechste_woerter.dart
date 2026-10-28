@@ -3340,6 +3340,11 @@ const zurueckgestellt = <String>{
   'Idiot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (ugs., Schimpfwort) Dummkopf / (veraltet, Medizin) geistig schwer behinderter Mensch) — nach den Nomen 2026-10-28
   'Idol', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: verehrtes Vorbild «Idol der Jugend» / Götzenbild) — nach den Nomen 2026-10-28
   'Idylle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Literatur: Hirtendichtung / = das Idyll, friedlicher Zustand) — nach den Nomen 2026-10-28
+  'Ikone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heiligenbild der Ostkirche / Kultfigur, Symbol «eine Ikone der Mode» / Bildschirmsymbol) — nach den Nomen 2026-10-28
+  'Illusion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falsche Hoffnung «sich Illusionen machen» / Sinnestäuschung «optische Illusion» / Zauberkunst) — nach den Nomen 2026-10-28
+  'Illustration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bild in einem Buch / Veranschaulichung, Erläuterung) — nach den Nomen 2026-10-28
+  'Imam', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorbeter in der Moschee / Ehrentitel, im schiitischen Islam: einer der zwölf Imame) — nach den Nomen 2026-10-28
+  'Imbiss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

@@ -3357,3 +3357,8 @@
 | 1077 | Idiot | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (ugs., Schimpfwort) Dummkopf / (veraltet, Medizin) geistig schwer behinderter Mensch) |
 | 1078 | Idol | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: verehrtes Vorbild «Idol der Jugend» / Götzenbild) |
 | 1079 | Idylle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Literatur: Hirtendichtung / = das Idyll, friedlicher Zustand) |
+| 1080 | Ikone | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Heiligenbild der Ostkirche / Kultfigur, Symbol «eine Ikone der Mode» / Bildschirmsymbol) |
+| 1081 | Illusion | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: falsche Hoffnung «sich Illusionen machen» / Sinnestäuschung «optische Illusion» / Zauberkunst) |
+| 1082 | Illustration | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bild in einem Buch / Veranschaulichung, Erläuterung) |
+| 1083 | Imam | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vorbeter in der Moschee / Ehrentitel, im schiitischen Islam: einer der zwölf Imame) |
+| 1084 | Imbiss | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) |
