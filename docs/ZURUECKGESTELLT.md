@@ -2404,6 +2404,7 @@
 | ۲۲۲۷ | Haber | `substantiv_singular_alle.txt` | 2026-10-28 | landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) | — |
 | ۲۲۲۸ | Hack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 | — |
 | ۲۲۲۹ | Hag | `substantiv_singular_alle.txt` | 2026-10-28 | veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۳۰ | Haller | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3221,3 +3222,5 @@
 | 971 | Haken | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haken zum Aufhängen / ugs. Schwierigkeit «die Sache hat einen Haken» / Häkchen, Zeichen / Boxen: Haken) |
 | 972 | Halbe | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: die Halbe / eine Halbe = halber Liter Bier, bayr./österr.) |
 | 973 | Halbzeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hälfte der Spielzeit «die zweite Halbzeit» / Pause zwischen den Hälften «zur Halbzeit») |
+| 974 | Halde | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Aufschüttung, Abraumhalde, Lager «auf Halde produzieren» / landschaftlich: Berghang) |
+| 975 | Halle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 2 (Homograph: die Halle = großer Raum, Sporthalle / Halle (Saale) = Stadt, das) |

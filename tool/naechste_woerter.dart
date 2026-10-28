@@ -3234,6 +3234,8 @@ const zurueckgestellt = <String>{
   'Haken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haken zum Aufhängen / ugs. Schwierigkeit «die Sache hat einen Haken» / Häkchen, Zeichen / Boxen: Haken) — nach den Nomen 2026-10-28
   'Halbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: die Halbe / eine Halbe = halber Liter Bier, bayr./österr.) — nach den Nomen 2026-10-28
   'Halbzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hälfte der Spielzeit «die zweite Halbzeit» / Pause zwischen den Hälften «zur Halbzeit») — nach den Nomen 2026-10-28
+  'Halde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufschüttung, Abraumhalde, Lager «auf Halde produzieren» / landschaftlich: Berghang) — nach den Nomen 2026-10-28
+  'Halle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Halle = großer Raum, Sporthalle / Halle (Saale) = Stadt, das) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3252,6 +3254,7 @@ const zurueckgestellt = <String>{
   'Haber', // zurückgestellt: landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) 2026-10-28
   'Hack', // zurückgestellt: Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 2026-10-28
   'Hag', // zurückgestellt: veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) 2026-10-28
+  'Haller', // zurückgestellt: Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
