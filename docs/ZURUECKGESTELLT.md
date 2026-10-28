@@ -3254,3 +3254,8 @@
 | 994 | Harnisch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Ritterrüstung / Weberei: Teil des Webstuhls / Wendung «in Harnisch geraten» = wütend werden) |
 | 995 | Hatz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hetzjagd, Treibjagd auf Tiere / landschaftlich, ugs.: Hast, Eile, Stress) |
 | 996 | Haube | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kopfbedeckung, Mütze / Motorhaube / Auszeichnung in der Gastronomie (Gault-Millau) / «unter die Haube kommen» = heiraten) |
+| 997 | Hauch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Atem, Luftzug / Spur, ein wenig «ein Hauch von Parfüm») |
+| 998 | Hauer | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Eckzahn des Keilers / Bergmann, der Gestein abbaut) |
+| 999 | Haufen | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: aufgeschüttete Menge «ein Haufen Sand» / ugs. große Menge, viele «ein Haufen Arbeit») |
+| 1000 | Haupt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: gehoben: Kopf / Oberhaupt, Anführer «das Haupt der Familie») |
+| 1001 | Hauptangeklagte | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Hauptangeklagte) |

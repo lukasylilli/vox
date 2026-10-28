@@ -3257,6 +3257,11 @@ const zurueckgestellt = <String>{
   'Harnisch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ritterrüstung / Weberei: Teil des Webstuhls / Wendung «in Harnisch geraten» = wütend werden) — nach den Nomen 2026-10-28
   'Hatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hetzjagd, Treibjagd auf Tiere / landschaftlich, ugs.: Hast, Eile, Stress) — nach den Nomen 2026-10-28
   'Haube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopfbedeckung, Mütze / Motorhaube / Auszeichnung in der Gastronomie (Gault-Millau) / «unter die Haube kommen» = heiraten) — nach den Nomen 2026-10-28
+  'Hauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Atem, Luftzug / Spur, ein wenig «ein Hauch von Parfüm») — nach den Nomen 2026-10-28
+  'Hauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eckzahn des Keilers / Bergmann, der Gestein abbaut) — nach den Nomen 2026-10-28
+  'Haufen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: aufgeschüttete Menge «ein Haufen Sand» / ugs. große Menge, viele «ein Haufen Arbeit») — nach den Nomen 2026-10-28
+  'Haupt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Kopf / Oberhaupt, Anführer «das Haupt der Familie») — nach den Nomen 2026-10-28
+  'Hauptangeklagte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Hauptangeklagte) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
