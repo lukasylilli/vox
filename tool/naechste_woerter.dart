@@ -3307,6 +3307,8 @@ const zurueckgestellt = <String>{
   'Hochtour', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergtour im Hochgebirge / nur Plural «auf Hochtouren laufen» = mit voller Kraft) — nach den Nomen 2026-10-28
   'Hochwasser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hoher Wasserstand, Überschwemmung eines Flusses / Flut am Meer / (ugs.) zu kurze Hose «Hochwasser haben») — nach den Nomen 2026-10-28
   'Hochzeitstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tag der Hochzeit / jährlicher Jahrestag der Hochzeit) — nach den Nomen 2026-10-28
+  'Hof', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Platz hinter/zwischen Gebäuden / Bauernhof / Fürstenhof «am Hof des Kaisers» / Lichtkranz um Sonne oder Mond) — nach den Nomen 2026-10-28
+  'Hofmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3347,6 +3349,8 @@ const zurueckgestellt = <String>{
   'Hickhack', // zurückgestellt: Genus schwankt (das oder der Hickhack) — Regel 14 2026-10-28
   'Hinkunft', // zurückgestellt: nur in der Wendung «in Hinkunft» (österr. = künftig) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
   'Hintertreffen', // zurückgestellt: nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
+  'Hofgarten', // zurückgestellt: meist Name bestimmter Parkanlagen (Hofgarten Innsbruck, München) — als allgemeines Lernwort nicht sicher (Regel 14) 2026-10-28
+  'Hofmann', // zurückgestellt: Familienname (historisch auch: Hofbeamter) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

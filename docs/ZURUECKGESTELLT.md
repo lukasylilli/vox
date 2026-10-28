@@ -2426,6 +2426,8 @@
 | ۲۲۴۹ | Hickhack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hickhack) — Regel 14 | — |
 | ۲۲۵۰ | Hinkunft | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «in Hinkunft» (österr. = künftig) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۵۱ | Hintertreffen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۵۲ | Hofgarten | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Parkanlagen (Hofgarten Innsbruck, München) — als allgemeines Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۵۳ | Hofmann | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (historisch auch: Hofbeamter) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3316,3 +3318,5 @@
 | 1044 | Hochtour | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bergtour im Hochgebirge / nur Plural «auf Hochtouren laufen» = mit voller Kraft) |
 | 1045 | Hochwasser | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hoher Wasserstand, Überschwemmung eines Flusses / Flut am Meer / (ugs.) zu kurze Hose «Hochwasser haben») |
 | 1046 | Hochzeitstag | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Tag der Hochzeit / jährlicher Jahrestag der Hochzeit) |
+| 1047 | Hof | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Platz hinter/zwischen Gebäuden / Bauernhof / Fürstenhof «am Hof des Kaisers» / Lichtkranz um Sonne oder Mond) |
+| 1048 | Hofmeister | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) |
