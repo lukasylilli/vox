@@ -3294,6 +3294,8 @@ const zurueckgestellt = <String>{
   'Hinterbliebene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Hinterbliebene, ein Hinterbliebener) — nach den Nomen 2026-10-28
   'Hintergrund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hinterer Teil eines Bildes/Raumes / unauffällige Stelle «im Hintergrund bleiben» / Umstände, Zusammenhänge «die Hintergründe einer Tat») — nach den Nomen 2026-10-28
   'Hinterhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hinterer Teil eines Pferdes / Kartenspiel: Spieler, der zuletzt ausspielt «etwas in der Hinterhand haben») — nach den Nomen 2026-10-28
+  'Hintermann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person dahinter (Schlange, Verkehr) / Drahtzieher im Verborgenen «die Hintermänner eines Anschlags») — nach den Nomen 2026-10-28
+  'Hinterteil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesäß (ugs.) / hinterer Teil einer Sache) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3333,6 +3335,7 @@ const zurueckgestellt = <String>{
   'Herzenslust', // zurückgestellt: nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
   'Hickhack', // zurückgestellt: Genus schwankt (das oder der Hickhack) — Regel 14 2026-10-28
   'Hinkunft', // zurückgestellt: nur in der Wendung «in Hinkunft» (österr. = künftig) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
+  'Hintertreffen', // zurückgestellt: nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

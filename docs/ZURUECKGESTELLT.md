@@ -2425,6 +2425,7 @@
 | ۲۲۴۸ | Herzenslust | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۴۹ | Hickhack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hickhack) — Regel 14 | — |
 | ۲۲۵۰ | Hinkunft | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «in Hinkunft» (österr. = künftig) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۵۱ | Hintertreffen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3302,3 +3303,5 @@
 | 1031 | Hinterbliebene | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Hinterbliebene, ein Hinterbliebener) |
 | 1032 | Hintergrund | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hinterer Teil eines Bildes/Raumes / unauffällige Stelle «im Hintergrund bleiben» / Umstände, Zusammenhänge «die Hintergründe einer Tat») |
 | 1033 | Hinterhand | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hinterer Teil eines Pferdes / Kartenspiel: Spieler, der zuletzt ausspielt «etwas in der Hinterhand haben») |
+| 1034 | Hintermann | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Person dahinter (Schlange, Verkehr) / Drahtzieher im Verborgenen «die Hintermänner eines Anschlags») |
+| 1035 | Hinterteil | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gesäß (ugs.) / hinterer Teil einer Sache) |
