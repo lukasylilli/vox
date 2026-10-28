@@ -2398,6 +2398,8 @@
 | ۲۲۲۱ | Google | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۲۲ | Graffito | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 | — |
 | ۲۲۲۳ | Guardian | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung unsicher (Franziskaner-Oberer / englischer Name, Zeitung) — Regel 14 | — |
+| ۲۲۲۴ | Gulasch | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (das oder der Gulasch, österr. das) — Regel 14 | — |
+| ۲۲۲۵ | Gun | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung unsicher (Jargon, englisch; z. B. Drogenszene: Spritze) — kein gesichertes deutsches Lernwort, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3202,3 +3204,7 @@
 | 958 | Grunge | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musikstil der 1990er-Jahre / Modestil, absichtlich nachlässige Kleidung) |
 | 959 | Gruppierung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Anordnung, Einteilung in Gruppen / Gruppe, Fraktion innerhalb einer Organisation) |
 | 960 | Guide | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Reiseführer als Person / Reiseführer als Buch, Handbuch) |
+| 961 | Gurke | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gemüse, Gewürzgurke / ugs. scherzhaft: große Nase, altes Auto) |
+| 962 | Guru | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: religiöser Lehrer im Hinduismus / übertragen: Leitfigur, Experte «ein Guru der Modewelt») |
+| 963 | Guss | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gießen von Metall, Gussstück / kurzer, heftiger Regen / Zuckerguss, Glasur) |
+| 964 | Gusto | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Geschmack, Neigung «nach meinem Gusto» / österr.: Appetit, Lust auf etwas) |

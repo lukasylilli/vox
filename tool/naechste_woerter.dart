@@ -3156,6 +3156,10 @@ const zurueckgestellt = <String>{
   'Grunge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstil der 1990er-Jahre / Modestil, absichtlich nachlässige Kleidung) — nach den Nomen 2026-10-27
   'Gruppierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anordnung, Einteilung in Gruppen / Gruppe, Fraktion innerhalb einer Organisation) — nach den Nomen 2026-10-27
   'Guide', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reiseführer als Person / Reiseführer als Buch, Handbuch) — nach den Nomen 2026-10-27
+  'Gurke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemüse, Gewürzgurke / ugs. scherzhaft: große Nase, altes Auto) — nach den Nomen 2026-10-27
+  'Guru', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöser Lehrer im Hinduismus / übertragen: Leitfigur, Experte «ein Guru der Modewelt») — nach den Nomen 2026-10-27
+  'Guss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gießen von Metall, Gussstück / kurzer, heftiger Regen / Zuckerguss, Glasur) — nach den Nomen 2026-10-27
+  'Gusto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschmack, Neigung «nach meinem Gusto» / österr.: Appetit, Lust auf etwas) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3233,6 +3237,8 @@ const zurueckgestellt = <String>{
   'Google', // zurückgestellt: Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
   'Graffito', // zurückgestellt: Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 2026-10-27
   'Guardian', // zurückgestellt: Bedeutung unsicher (Franziskaner-Oberer / englischer Name, Zeitung) — Regel 14 2026-10-27
+  'Gulasch', // zurückgestellt: Genus schwankt (das oder der Gulasch, österr. das) — Regel 14 2026-10-27
+  'Gun', // zurückgestellt: Bedeutung unsicher (Jargon, englisch; z. B. Drogenszene: Spritze) — kein gesichertes deutsches Lernwort, Regel 14 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
