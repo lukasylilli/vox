@@ -3244,6 +3244,9 @@ const zurueckgestellt = <String>{
   'Handball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — wie Basketball — nach den Nomen 2026-10-28
   'Handeln', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: substantivierter Infinitiv: Tun, Vorgehen «schnelles Handeln» / Feilschen, Handeltreiben) — nach den Nomen 2026-10-28
   'Handelsbilanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bilanz eines Kaufmanns, Jahresabschluss / Außenhandelsbilanz eines Landes, Export minus Import) — nach den Nomen 2026-10-28
+  'Handgriff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Griff zum Festhalten, Henkel / kurze Handbewegung, Tätigkeit «mit wenigen Handgriffen») — nach den Nomen 2026-10-28
+  'Handicap', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behinderung, Nachteil / Sport: Vorgabe, Golf-Handicap) — nach den Nomen 2026-10-28
+  'Handlanger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfsarbeiter am Bau / abwertend: Helfershelfer, Werkzeug anderer) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

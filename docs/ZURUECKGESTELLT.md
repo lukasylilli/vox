@@ -3234,3 +3234,6 @@
 | 981 | Handball | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — wie Basketball |
 | 982 | Handeln | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: substantivierter Infinitiv: Tun, Vorgehen «schnelles Handeln» / Feilschen, Handeltreiben) |
 | 983 | Handelsbilanz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bilanz eines Kaufmanns, Jahresabschluss / Außenhandelsbilanz eines Landes, Export minus Import) |
+| 984 | Handgriff | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Griff zum Festhalten, Henkel / kurze Handbewegung, Tätigkeit «mit wenigen Handgriffen») |
+| 985 | Handicap | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Behinderung, Nachteil / Sport: Vorgabe, Golf-Handicap) |
+| 986 | Handlanger | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hilfsarbeiter am Bau / abwertend: Helfershelfer, Werkzeug anderer) |
