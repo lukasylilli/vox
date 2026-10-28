@@ -3296,3 +3296,5 @@
 | 1026 | Hetze | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hast, Eile, Stress / hetzerische Stimmungsmache gegen Menschen «Hetze gegen Flüchtlinge») |
 | 1027 | Hetzjagd | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Jagd mit Hunden auf Tiere / Verfolgung von Menschen, auch Medienkampagne / große Eile) |
 | 1028 | Hilfestellung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Sport/Turnen: Sicherung beim Üben / allgemein: Unterstützung, Hilfe «Hilfestellung geben») |
+| 1029 | Himmel | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Luftraum über der Erde «blauer Himmel» / Religion: Aufenthalt Gottes, Paradies / Baldachin «Betthimmel») |
+| 1030 | Himmelfahrt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Auffahrt in den Himmel (Religion) / Feiertag «Christi Himmelfahrt») |
