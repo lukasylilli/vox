@@ -3160,6 +3160,7 @@ const zurueckgestellt = <String>{
   'Guru', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöser Lehrer im Hinduismus / übertragen: Leitfigur, Experte «ein Guru der Modewelt») — nach den Nomen 2026-10-27
   'Guss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gießen von Metall, Gussstück / kurzer, heftiger Regen / Zuckerguss, Glasur) — nach den Nomen 2026-10-27
   'Gusto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschmack, Neigung «nach meinem Gusto» / österr.: Appetit, Lust auf etwas) — nach den Nomen 2026-10-27
+  'Gut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Besitz, Habe «Hab und Gut» / Landgut, Gutshof / Ware, Wirtschaftsgut «Güter des täglichen Bedarfs» / ethischer Wert «das höchste Gut») — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3239,6 +3240,7 @@ const zurueckgestellt = <String>{
   'Guardian', // zurückgestellt: Bedeutung unsicher (Franziskaner-Oberer / englischer Name, Zeitung) — Regel 14 2026-10-27
   'Gulasch', // zurückgestellt: Genus schwankt (das oder der Gulasch, österr. das) — Regel 14 2026-10-27
   'Gun', // zurückgestellt: Bedeutung unsicher (Jargon, englisch; z. B. Drogenszene: Spritze) — kein gesichertes deutsches Lernwort, Regel 14 2026-10-27
+  'Haag', // zurückgestellt: Lemma unsicher: die Stadt heißt «Den Haag» (mit Artikel, niederländisch); Listeneintrag «Haag» mit der — Regel 14 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
