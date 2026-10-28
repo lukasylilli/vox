@@ -3219,3 +3219,5 @@
 | 969 | Hahn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: männliches Huhn / Wasserhahn, Zapfhahn / Abzugshahn einer Waffe) |
 | 970 | Hahnenkamm | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kamm des Hahns / Pflanze (Celosia) / Berg und Skirennen bei Kitzbühel) |
 | 971 | Haken | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haken zum Aufhängen / ugs. Schwierigkeit «die Sache hat einen Haken» / Häkchen, Zeichen / Boxen: Haken) |
+| 972 | Halbe | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: die Halbe / eine Halbe = halber Liter Bier, bayr./österr.) |
+| 973 | Halbzeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hälfte der Spielzeit «die zweite Halbzeit» / Pause zwischen den Hälften «zur Halbzeit») |
