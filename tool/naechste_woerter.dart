@@ -3311,6 +3311,10 @@ const zurueckgestellt = <String>{
   'Hofmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) — nach den Nomen 2026-10-28
   'Hofrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Beamter eines Fürstenhofs / (österr.) Ehrentitel für hohe Beamte «Herr Hofrat») — nach den Nomen 2026-10-28
   'Hoheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: staatliche Souveränität «die Hoheit über ein Gebiet» / Titel und Anrede fürstlicher Personen «Eure Hoheit» / Erhabenheit) — nach den Nomen 2026-10-28
+  'Holzbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bauweise mit Holz / Gebäude aus Holz) — nach den Nomen 2026-10-28
+  'Holzschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: grafische Technik / einzelnes so hergestelltes Bild) — nach den Nomen 2026-10-28
+  'Holzweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Waldweg zum Holztransport / übertragen «auf dem Holzweg sein» = sich irren) — nach den Nomen 2026-10-28
+  'Homburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

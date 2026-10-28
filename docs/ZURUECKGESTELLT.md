@@ -3322,3 +3322,7 @@
 | 1048 | Hofmeister | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) |
 | 1049 | Hofrat | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: früher Beamter eines Fürstenhofs / (österr.) Ehrentitel für hohe Beamte «Herr Hofrat») |
 | 1050 | Hoheit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: staatliche Souveränität «die Hoheit über ein Gebiet» / Titel und Anrede fürstlicher Personen «Eure Hoheit» / Erhabenheit) |
+| 1051 | Holzbau | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bauweise mit Holz / Gebäude aus Holz) |
+| 1052 | Holzschnitt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: grafische Technik / einzelnes so hergestelltes Bild) |
+| 1053 | Holzweg | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Waldweg zum Holztransport / übertragen «auf dem Holzweg sein» = sich irren) |
+| 1054 | Homburg | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) |
