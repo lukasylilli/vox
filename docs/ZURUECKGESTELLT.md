@@ -3224,3 +3224,6 @@
 | 973 | Halbzeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hälfte der Spielzeit «die zweite Halbzeit» / Pause zwischen den Hälften «zur Halbzeit») |
 | 974 | Halde | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Aufschüttung, Abraumhalde, Lager «auf Halde produzieren» / landschaftlich: Berghang) |
 | 975 | Halle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 2 (Homograph: die Halle = großer Raum, Sporthalle / Halle (Saale) = Stadt, das) |
+| 976 | Halt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Anhalten, Stopp «Halt machen» / Stütze, innere Stabilität «Halt geben, keinen Halt finden») |
+| 977 | Halter | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vorrichtung zum Halten «Handyhalter» / Besitzer, Fahrzeug- oder Tierhalter) |
+| 978 | Haltung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Körperhaltung / Einstellung, Meinung / Tierhaltung) |

@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "nomen_haltestelle",
+  "wort": "die Haltestelle",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ایستگاه (اتوبوس، تراموا)"
+    ],
+    "en": [
+      "stop",
+      "bus stop"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Verkehr",
+    "Stadt"
+  ],
+  "ipa": "ˈhaltəˌʃtɛlə",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wo ist die nächste Haltestelle?",
+      "uebersetzung": {
+        "fa": "نزدیک‌ترین ایستگاه کجاست؟",
+        "en": "Where is the nearest stop?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Steigen Sie an der dritten Haltestelle aus, dann sehen Sie das Krankenhaus direkt gegenüber.",
+      "uebersetzung": {
+        "fa": "در ایستگاه سوم پیاده شوید، بعد بیمارستان را درست روبه‌رو می‌بینید.",
+        "en": "Get off at the third stop, then you will see the hospital directly opposite."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Bushaltestelle",
+      "uebersetzung": {
+        "fa": "ایستگاه اتوبوس",
+        "en": "bus stop"
+      }
+    },
+    {
+      "wort": "die Straßenbahnhaltestelle",
+      "uebersetzung": {
+        "fa": "ایستگاه تراموا",
+        "en": "tram stop"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "halten (ایستادن) + Stelle (جا)",
+    "en": "halten (to stop) + Stelle (place)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Haltestellen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "an der Haltestelle (an + Dat)",
+        "beispiel": "Wir warten an der Haltestelle auf den Bus.",
+        "uebersetzung": {
+          "fa": "در ایستگاه منتظر اتوبوس هستیم.",
+          "en": "We are waiting at the stop for the bus."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتوبوس",
+          "en": "bus"
+        },
+        "id_ref": "nomen_bus"
+      },
+      {
+        "wort": "die Straßenbahn",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تراموا",
+          "en": "tram"
+        },
+        "id_ref": "nomen_strassenbahn"
+      },
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار",
+          "en": "station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "aussteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پیاده شدن",
+          "en": "to get off"
+        },
+        "id_ref": "verb_aussteigen"
+      },
+      {
+        "wort": "einsteigen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوار شدن",
+          "en": "to get on"
+        },
+        "id_ref": "verb_einsteigen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

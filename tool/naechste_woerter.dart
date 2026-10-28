@@ -3236,6 +3236,9 @@ const zurueckgestellt = <String>{
   'Halbzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hälfte der Spielzeit «die zweite Halbzeit» / Pause zwischen den Hälften «zur Halbzeit») — nach den Nomen 2026-10-28
   'Halde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufschüttung, Abraumhalde, Lager «auf Halde produzieren» / landschaftlich: Berghang) — nach den Nomen 2026-10-28
   'Halle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Halle = großer Raum, Sporthalle / Halle (Saale) = Stadt, das) — nach den Nomen 2026-10-28
+  'Halt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhalten, Stopp «Halt machen» / Stütze, innere Stabilität «Halt geben, keinen Halt finden») — nach den Nomen 2026-10-28
+  'Halter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrichtung zum Halten «Handyhalter» / Besitzer, Fahrzeug- oder Tierhalter) — nach den Nomen 2026-10-28
+  'Haltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperhaltung / Einstellung, Meinung / Tierhaltung) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

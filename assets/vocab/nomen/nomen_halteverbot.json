@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_halteverbot",
+  "wort": "das Halteverbot",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "توقف ممنوع"
+    ],
+    "en": [
+      "no-stopping zone",
+      "no stopping"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Auto"
+  ],
+  "ipa": "ˈhaltəfɛɐ̯ˌboːt",
+  "anmerkung": "Halteverbot = gar nicht anhalten; Parkverbot = kurz halten erlaubt.",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hier ist Halteverbot.",
+      "uebersetzung": {
+        "fa": "اینجا توقف ممنوع است.",
+        "en": "Stopping is prohibited here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Er hat im Halteverbot geparkt und musste deshalb eine Strafe von fünfzig Euro zahlen.",
+      "uebersetzung": {
+        "fa": "او در منطقه‌ی توقف ممنوع پارک کرد و برای همین پنجاه یورو جریمه داد.",
+        "en": "He parked in a no-stopping zone and therefore had to pay a fine of fifty euros."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "halten (ایستادن) + Verbot (ممنوعیت)",
+    "en": "halten (to stop) + Verbot (ban)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Halteverbote",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "im Halteverbot stehen (in + Dat)",
+        "beispiel": "Dein Auto steht im Halteverbot!",
+        "uebersetzung": {
+          "fa": "ماشینت در منطقه‌ی توقف ممنوع است!",
+          "en": "Your car is in a no-stopping zone!"
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Parkverbot",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پارک ممنوع",
+          "en": "no parking"
+        },
+        "id_ref": "nomen_parkverbot"
+      },
+      {
+        "wort": "das Verbot",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ممنوعیت",
+          "en": "ban"
+        },
+        "id_ref": "nomen_verbot"
+      },
+      {
+        "wort": "halten",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستادن",
+          "en": "to stop"
+        },
+        "id_ref": "verb_halten"
+      },
+      {
+        "wort": "parken",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پارک کردن",
+          "en": "to park"
+        },
+        "id_ref": "verb_parken"
+      },
+      {
+        "wort": "das Verkehrsschild",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تابلوی راهنمایی",
+          "en": "traffic sign"
+        },
+        "id_ref": "nomen_verkehrsschild"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
