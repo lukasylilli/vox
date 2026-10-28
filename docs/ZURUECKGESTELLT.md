@@ -2424,6 +2424,7 @@
 | ۲۲۴۷ | Helfe | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 | — |
 | ۲۲۴۸ | Herzenslust | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۴۹ | Hickhack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hickhack) — Regel 14 | — |
+| ۲۲۵۰ | Hinkunft | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «in Hinkunft» (österr. = künftig) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3298,3 +3299,6 @@
 | 1028 | Hilfestellung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Sport/Turnen: Sicherung beim Üben / allgemein: Unterstützung, Hilfe «Hilfestellung geben») |
 | 1029 | Himmel | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Luftraum über der Erde «blauer Himmel» / Religion: Aufenthalt Gottes, Paradies / Baldachin «Betthimmel») |
 | 1030 | Himmelfahrt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Auffahrt in den Himmel (Religion) / Feiertag «Christi Himmelfahrt») |
+| 1031 | Hinterbliebene | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Hinterbliebene, ein Hinterbliebener) |
+| 1032 | Hintergrund | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hinterer Teil eines Bildes/Raumes / unauffällige Stelle «im Hintergrund bleiben» / Umstände, Zusammenhänge «die Hintergründe einer Tat») |
+| 1033 | Hinterhand | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hinterer Teil eines Pferdes / Kartenspiel: Spieler, der zuletzt ausspielt «etwas in der Hinterhand haben») |
