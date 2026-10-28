@@ -2403,6 +2403,7 @@
 | ۲۲۲۶ | Haag | `substantiv_singular_alle.txt` | 2026-10-27 | Lemma unsicher: die Stadt heißt «Den Haag» (mit Artikel, niederländisch); Listeneintrag «Haag» mit der — Regel 14 | — |
 | ۲۲۲۷ | Haber | `substantiv_singular_alle.txt` | 2026-10-28 | landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) | — |
 | ۲۲۲۸ | Hack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 | — |
+| ۲۲۲۹ | Hag | `substantiv_singular_alle.txt` | 2026-10-28 | veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

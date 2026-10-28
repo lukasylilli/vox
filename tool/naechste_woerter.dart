@@ -3246,6 +3246,7 @@ const zurueckgestellt = <String>{
   'Haag', // zurückgestellt: Lemma unsicher: die Stadt heißt «Den Haag» (mit Artikel, niederländisch); Listeneintrag «Haag» mit der — Regel 14 2026-10-27
   'Haber', // zurückgestellt: landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) 2026-10-28
   'Hack', // zurückgestellt: Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 2026-10-28
+  'Hag', // zurückgestellt: veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
