@@ -2397,6 +2397,7 @@
 | ۲۲۲۰ | Glamour | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Glamour) — Regel 14 | — |
 | ۲۲۲۱ | Google | `substantiv_singular_alle.txt` | 2026-10-27 | Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۲۲ | Graffito | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 | — |
+| ۲۲۲۳ | Guardian | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung unsicher (Franziskaner-Oberer / englischer Name, Zeitung) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3198,3 +3199,6 @@
 | 955 | Grundstoff | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Rohstoff, Ausgangsmaterial für die Industrie / Chemie: chemisches Element) |
 | 956 | Grundton | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musik: Grundton einer Tonart / vorherrschende Farbe / übertragen: Grundstimmung «der Grundton der Rede») |
 | 957 | Grundwert | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: grundlegender ethischer Wert «Grundwerte der Demokratie» / Mathematik: Grundwert der Prozentrechnung) |
+| 958 | Grunge | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musikstil der 1990er-Jahre / Modestil, absichtlich nachlässige Kleidung) |
+| 959 | Gruppierung | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Anordnung, Einteilung in Gruppen / Gruppe, Fraktion innerhalb einer Organisation) |
+| 960 | Guide | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Reiseführer als Person / Reiseführer als Buch, Handbuch) |

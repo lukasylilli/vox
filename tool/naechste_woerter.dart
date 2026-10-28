@@ -3153,6 +3153,9 @@ const zurueckgestellt = <String>{
   'Grundstoff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rohstoff, Ausgangsmaterial für die Industrie / Chemie: chemisches Element) — nach den Nomen 2026-10-27
   'Grundton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Grundton einer Tonart / vorherrschende Farbe / übertragen: Grundstimmung «der Grundton der Rede») — nach den Nomen 2026-10-27
   'Grundwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: grundlegender ethischer Wert «Grundwerte der Demokratie» / Mathematik: Grundwert der Prozentrechnung) — nach den Nomen 2026-10-27
+  'Grunge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstil der 1990er-Jahre / Modestil, absichtlich nachlässige Kleidung) — nach den Nomen 2026-10-27
+  'Gruppierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anordnung, Einteilung in Gruppen / Gruppe, Fraktion innerhalb einer Organisation) — nach den Nomen 2026-10-27
+  'Guide', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reiseführer als Person / Reiseführer als Buch, Handbuch) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21
@@ -3229,6 +3232,7 @@ const zurueckgestellt = <String>{
   'Glamour', // zurückgestellt: Genus schwankt (der oder das Glamour) — Regel 14 2026-10-27
   'Google', // zurückgestellt: Name einer Firma/Marke — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-27
   'Graffito', // zurückgestellt: Genus schwankt (der oder das Graffito), meist nur Plural Graffiti — Regel 14 2026-10-27
+  'Guardian', // zurückgestellt: Bedeutung unsicher (Franziskaner-Oberer / englischer Name, Zeitung) — Regel 14 2026-10-27
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
