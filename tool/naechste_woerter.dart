@@ -3315,6 +3315,8 @@ const zurueckgestellt = <String>{
   'Holzschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: grafische Technik / einzelnes so hergestelltes Bild) — nach den Nomen 2026-10-28
   'Holzweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Waldweg zum Holztransport / übertragen «auf dem Holzweg sein» = sich irren) — nach den Nomen 2026-10-28
   'Homburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) — nach den Nomen 2026-10-28
+  'Horizont', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie zwischen Himmel und Erde / geistiger Gesichtskreis «seinen Horizont erweitern») — nach den Nomen 2026-10-28
+  'Horn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Horn eines Tieres / Blechblasinstrument / Hornsubstanz als Material) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

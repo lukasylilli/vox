@@ -3326,3 +3326,5 @@
 | 1052 | Holzschnitt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: grafische Technik / einzelnes so hergestelltes Bild) |
 | 1053 | Holzweg | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Waldweg zum Holztransport / übertragen «auf dem Holzweg sein» = sich irren) |
 | 1054 | Homburg | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) |
+| 1055 | Horizont | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Linie zwischen Himmel und Erde / geistiger Gesichtskreis «seinen Horizont erweitern») |
+| 1056 | Horn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Horn eines Tieres / Blechblasinstrument / Hornsubstanz als Material) |
