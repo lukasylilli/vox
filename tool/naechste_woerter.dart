@@ -3306,6 +3306,7 @@ const zurueckgestellt = <String>{
   'Hauptwache', // zurückgestellt: meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 2026-10-28
   'Hauser', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
   'Heilsarmee', // zurückgestellt: Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
+  'Heimen', // zurückgestellt: als Nomen nicht belegt (vermutlich Pluralform von «das Heim» oder Familienname) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

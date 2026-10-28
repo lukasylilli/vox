@@ -2417,6 +2417,7 @@
 | ۲۲۴۰ | Hauptwache | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 | — |
 | ۲۲۴۱ | Hauser | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۴۲ | Heilsarmee | `substantiv_singular_alle.txt` | 2026-10-28 | Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۴۳ | Heimen | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (vermutlich Pluralform von «das Heim» oder Familienname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
