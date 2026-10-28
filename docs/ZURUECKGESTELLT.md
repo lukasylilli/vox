@@ -2406,6 +2406,7 @@
 | ۲۲۲۹ | Hag | `substantiv_singular_alle.txt` | 2026-10-28 | veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۳۰ | Haller | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) | — |
 | ۲۲۳۱ | Han | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 | — |
+| ۲۲۳۲ | Handelssystem | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

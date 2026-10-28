@@ -3264,6 +3264,7 @@ const zurueckgestellt = <String>{
   'Hag', // zurückgestellt: veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Haller', // zurückgestellt: Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) 2026-10-28
   'Han', // zurückgestellt: Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 2026-10-28
+  'Handelssystem', // zurückgestellt: Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
