@@ -3285,6 +3285,9 @@ const zurueckgestellt = <String>{
   'Herrschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Macht, Regierung «unter der Herrschaft des Königs» / Plural als Anrede «meine Herrschaften» / früher: Dienstherren eines Hauses) — nach den Nomen 2026-10-28
   'Herz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organ / Gefühl, Gemüt «ein gutes Herz» / Mitte, Zentrum «im Herzen der Stadt» / Spielkartenfarbe) — nach den Nomen 2026-10-28
   'Herzblatt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kosewort für einen geliebten Menschen / Botanik: inneres, junges Blatt einer Pflanze) — nach den Nomen 2026-10-28
+  'Herzschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: einzelner Schlag des Herzens, Puls / plötzlicher Herztod «an einem Herzschlag sterben») — nach den Nomen 2026-10-28
+  'Hetze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hast, Eile, Stress / hetzerische Stimmungsmache gegen Menschen «Hetze gegen Flüchtlinge») — nach den Nomen 2026-10-28
+  'Hetzjagd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jagd mit Hunden auf Tiere / Verfolgung von Menschen, auch Medienkampagne / große Eile) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

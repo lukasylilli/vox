@@ -3291,3 +3291,6 @@
 | 1022 | Herrschaft | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Macht, Regierung «unter der Herrschaft des Königs» / Plural als Anrede «meine Herrschaften» / früher: Dienstherren eines Hauses) |
 | 1023 | Herz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Organ / Gefühl, Gemüt «ein gutes Herz» / Mitte, Zentrum «im Herzen der Stadt» / Spielkartenfarbe) |
 | 1024 | Herzblatt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kosewort für einen geliebten Menschen / Botanik: inneres, junges Blatt einer Pflanze) |
+| 1025 | Herzschlag | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: einzelner Schlag des Herzens, Puls / plötzlicher Herztod «an einem Herzschlag sterben») |
+| 1026 | Hetze | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hast, Eile, Stress / hetzerische Stimmungsmache gegen Menschen «Hetze gegen Flüchtlinge») |
+| 1027 | Hetzjagd | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Jagd mit Hunden auf Tiere / Verfolgung von Menschen, auch Medienkampagne / große Eile) |

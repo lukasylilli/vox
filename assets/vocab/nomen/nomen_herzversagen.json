@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_herzversagen",
+  "wort": "das Herzversagen",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نارسایی قلبی، ایست قلبی"
+    ],
+    "en": [
+      "heart failure"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈhɛʁt͡sfɛɐ̯ˌzaːɡn̩",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Er starb an Herzversagen.",
+      "uebersetzung": {
+        "fa": "او بر اثر ایست قلبی درگذشت.",
+        "en": "He died of heart failure."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Laut Arzt war Herzversagen die Todesursache, nachdem das Herz jahrelang geschwächt gewesen war.",
+      "uebersetzung": {
+        "fa": "به گفته‌ی پزشک، علت مرگ نارسایی قلبی بود، پس از آن‌که قلب سال‌ها ضعیف شده بود.",
+        "en": "According to the doctor, heart failure was the cause of death after the heart had been weakened for years."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Herz (قلب) + Versagen (از کار افتادن)",
+    "en": "Herz (heart) + Versagen (failure)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "an Herzversagen sterben (an + Dat)",
+        "beispiel": "Die Sängerin ist an Herzversagen gestorben.",
+        "uebersetzung": {
+          "fa": "آن خواننده بر اثر ایست قلبی درگذشت.",
+          "en": "The singer died of heart failure."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Herz",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قلب",
+          "en": "heart"
+        },
+        "id_ref": "nomen_herz"
+      },
+      {
+        "wort": "versagen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "از کار افتادن",
+          "en": "to fail"
+        },
+        "id_ref": "verb_versagen"
+      },
+      {
+        "wort": "der Herzinfarkt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سکته‌ی قلبی",
+          "en": "heart attack"
+        },
+        "id_ref": "nomen_herzinfarkt"
+      },
+      {
+        "wort": "die Todesursache",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "علت مرگ",
+          "en": "cause of death"
+        },
+        "id_ref": "nomen_todesursache"
+      },
+      {
+        "wort": "die Herzinsuffizienz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "نارسایی قلبی",
+          "en": "cardiac insufficiency"
+        },
+        "id_ref": "nomen_herzinsuffizienz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
