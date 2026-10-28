@@ -3267,6 +3267,7 @@ const zurueckgestellt = <String>{
   'Haushalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnung und Hausarbeit, Familie «ein Haushalt mit drei Personen» / Staatshaushalt, Etat) — nach den Nomen 2026-10-28
   'Haushaltsberatung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beratung über den Staatshaushalt im Parlament / Beratung für private Haushalte, z. B. Schulden- oder Energieberatung) — nach den Nomen 2026-10-28
   'Hausherr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gastgeber, Haushaltsvorstand / Hausbesitzer, Vermieter / Sport: Heimmannschaft «die Hausherren») — nach den Nomen 2026-10-28
+  'Havarie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unfall eines Schiffs oder Flugzeugs / Schaden an Schiff oder Ladung / österr.: Autounfall, Schaden an einem Gerät) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
