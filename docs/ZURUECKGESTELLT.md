@@ -3346,3 +3346,9 @@
 | 1066 | Hymnus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (gehoben) Lobgesang, Hymne / Kirchenlied der Liturgie) |
 | 1067 | Hypothek | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Grundpfandrecht, Immobilienkredit / übertragen: Belastung «eine schwere Hypothek für die Zukunft») |
 | 1068 | Hysterie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Medizin (veraltet): psychische Störung / übertragen: übertriebene Aufregung «Massenhysterie») |
+| 1069 | Ich | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: das eigene Selbst «mein anderes Ich» / Psychoanalyse: Ich (neben Es und Über-Ich)) |
+| 1070 | Ideal | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Inbegriff der Vollkommenheit, Vorbild / erstrebenswerter Wert «seine Ideale verraten») |
+| 1071 | Idealismus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Philosophie (deutscher Idealismus) / selbstloses Streben nach Idealen) |
+| 1072 | Idealist | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Mensch, der nach Idealen strebt / Vertreter des philosophischen Idealismus) |
+| 1073 | Idee | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Einfall, Gedanke / Philosophie: Urbild / (ugs.) ein bisschen «eine Idee mehr Salz») |
+| 1074 | Identifikation | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifikation des Opfers» / psychisch: sich mit jemandem gleichsetzen) |

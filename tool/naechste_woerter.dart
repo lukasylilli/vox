@@ -3329,6 +3329,12 @@ const zurueckgestellt = <String>{
   'Hymnus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (gehoben) Lobgesang, Hymne / Kirchenlied der Liturgie) — nach den Nomen 2026-10-28
   'Hypothek', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundpfandrecht, Immobilienkredit / übertragen: Belastung «eine schwere Hypothek für die Zukunft») — nach den Nomen 2026-10-28
   'Hysterie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin (veraltet): psychische Störung / übertragen: übertriebene Aufregung «Massenhysterie») — nach den Nomen 2026-10-28
+  'Ich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das eigene Selbst «mein anderes Ich» / Psychoanalyse: Ich (neben Es und Über-Ich)) — nach den Nomen 2026-10-28
+  'Ideal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Inbegriff der Vollkommenheit, Vorbild / erstrebenswerter Wert «seine Ideale verraten») — nach den Nomen 2026-10-28
+  'Idealismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Philosophie (deutscher Idealismus) / selbstloses Streben nach Idealen) — nach den Nomen 2026-10-28
+  'Idealist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, der nach Idealen strebt / Vertreter des philosophischen Idealismus) — nach den Nomen 2026-10-28
+  'Idee', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfall, Gedanke / Philosophie: Urbild / (ugs.) ein bisschen «eine Idee mehr Salz») — nach den Nomen 2026-10-28
+  'Identifikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifikation des Opfers» / psychisch: sich mit jemandem gleichsetzen) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
