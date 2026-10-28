@@ -3317,6 +3317,9 @@ const zurueckgestellt = <String>{
   'Homburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) — nach den Nomen 2026-10-28
   'Horizont', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie zwischen Himmel und Erde / geistiger Gesichtskreis «seinen Horizont erweitern») — nach den Nomen 2026-10-28
   'Horn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Horn eines Tieres / Blechblasinstrument / Hornsubstanz als Material) — nach den Nomen 2026-10-28
+  'Hort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kinderhort, Nachmittagsbetreuung / (gehoben) Zuflucht, Stätte «ein Hort der Freiheit» / (dichterisch) Schatz) — nach den Nomen 2026-10-28
+  'Hospital', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (veraltend) Krankenhaus / (veraltet) Pflegeheim, Altenheim) — nach den Nomen 2026-10-28
+  'Hospiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einrichtung zur Begleitung Sterbender / Herberge im Gebirge / christlich geführtes Hotel) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3359,6 +3362,7 @@ const zurueckgestellt = <String>{
   'Hintertreffen', // zurückgestellt: nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
   'Hofgarten', // zurückgestellt: meist Name bestimmter Parkanlagen (Hofgarten Innsbruck, München) — als allgemeines Lernwort nicht sicher (Regel 14) 2026-10-28
   'Hofmann', // zurückgestellt: Familienname (historisch auch: Hofbeamter) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
+  'Hot', // zurückgestellt: als Nomen nicht belegt (englisches Adjektiv; nur in Fügungen wie Hot Jazz, Hotdog) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

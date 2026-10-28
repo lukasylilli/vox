@@ -2428,6 +2428,7 @@
 | ۲۲۵۱ | Hintertreffen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der Wendung «ins Hintertreffen geraten/kommen» (= in Nachteil geraten) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۵۲ | Hofgarten | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Parkanlagen (Hofgarten Innsbruck, München) — als allgemeines Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۵۳ | Hofmann | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (historisch auch: Hofbeamter) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۵۴ | Hot | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (englisches Adjektiv; nur in Fügungen wie Hot Jazz, Hotdog) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3328,3 +3329,6 @@
 | 1054 | Homburg | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 3 (Homograph: Homburg, Stadt / der Homburg, Herrenhut) |
 | 1055 | Horizont | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Linie zwischen Himmel und Erde / geistiger Gesichtskreis «seinen Horizont erweitern») |
 | 1056 | Horn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Horn eines Tieres / Blechblasinstrument / Hornsubstanz als Material) |
+| 1057 | Hort | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kinderhort, Nachmittagsbetreuung / (gehoben) Zuflucht, Stätte «ein Hort der Freiheit» / (dichterisch) Schatz) |
+| 1058 | Hospital | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (veraltend) Krankenhaus / (veraltet) Pflegeheim, Altenheim) |
+| 1059 | Hospiz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Einrichtung zur Begleitung Sterbender / Herberge im Gebirge / christlich geführtes Hotel) |
