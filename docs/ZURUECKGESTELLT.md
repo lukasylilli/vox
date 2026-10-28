@@ -2416,6 +2416,7 @@
 | ۲۲۳۹ | Hau | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 | — |
 | ۲۲۴۰ | Hauptwache | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 | — |
 | ۲۲۴۱ | Hauser | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
+| ۲۲۴۲ | Heilsarmee | `substantiv_singular_alle.txt` | 2026-10-28 | Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3273,3 +3274,4 @@
 | 1011 | Heilbad | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kurort mit Heilquelle / medizinisches Bad zur Behandlung) |
 | 1012 | Heilige | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Heilige) |
 | 1013 | Heiliger | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) |
+| 1014 | Heim | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) |

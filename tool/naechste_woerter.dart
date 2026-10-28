@@ -3274,6 +3274,7 @@ const zurueckgestellt = <String>{
   'Heilbad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurort mit Heilquelle / medizinisches Bad zur Behandlung) — nach den Nomen 2026-10-28
   'Heilige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Heilige) — nach den Nomen 2026-10-28
   'Heiliger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) — nach den Nomen 2026-10-28
+  'Heim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3304,6 +3305,7 @@ const zurueckgestellt = <String>{
   'Hau', // zurückgestellt: Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 2026-10-28
   'Hauptwache', // zurückgestellt: meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 2026-10-28
   'Hauser', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
+  'Heilsarmee', // zurückgestellt: Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
