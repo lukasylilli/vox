@@ -2414,6 +2414,7 @@
 | ۲۲۳۷ | Haschisch | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Haschisch) — Regel 14 | — |
 | ۲۲۳۸ | Haslinger | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۳۹ | Hau | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 | — |
+| ۲۲۴۰ | Hauptwache | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3259,3 +3260,4 @@
 | 999 | Haufen | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: aufgeschüttete Menge «ein Haufen Sand» / ugs. große Menge, viele «ein Haufen Arbeit») |
 | 1000 | Haupt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: gehoben: Kopf / Oberhaupt, Anführer «das Haupt der Familie») |
 | 1001 | Hauptangeklagte | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Hauptangeklagte) |
+| 1002 | Haus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gebäude / Haushalt, Familie, Dynastie «das Haus Habsburg» / Firma, Institution «im Haus» / Theater, Parlamentskammer) |
