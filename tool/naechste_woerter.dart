@@ -3270,6 +3270,10 @@ const zurueckgestellt = <String>{
   'Havarie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unfall eines Schiffs oder Flugzeugs / Schaden an Schiff oder Ladung / österr.: Autounfall, Schaden an einem Gerät) — nach den Nomen 2026-10-28
   'Heber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Heben, Wagenheber / Saugheber, Pipette / Sportler: Gewichtheber) — nach den Nomen 2026-10-28
   'Hebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Heben, Anheben / Verbesserung «Hebung des Lebensstandards» / Geologie: Erdhebung / Verslehre: betonte Silbe) — nach den Nomen 2026-10-28
+  'Heil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohlergehen, Glück «sein Heil versuchen» / Religion: Erlösung / Grußformel, auch historisch belastet) — nach den Nomen 2026-10-28
+  'Heilbad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurort mit Heilquelle / medizinisches Bad zur Behandlung) — nach den Nomen 2026-10-28
+  'Heilige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Heilige) — nach den Nomen 2026-10-28
+  'Heiliger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

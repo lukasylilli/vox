@@ -3269,3 +3269,7 @@
 | 1007 | Havarie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Unfall eines Schiffs oder Flugzeugs / Schaden an Schiff oder Ladung / österr.: Autounfall, Schaden an einem Gerät) |
 | 1008 | Heber | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gerät zum Heben, Wagenheber / Saugheber, Pipette / Sportler: Gewichtheber) |
 | 1009 | Hebung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: das Heben, Anheben / Verbesserung «Hebung des Lebensstandards» / Geologie: Erdhebung / Verslehre: betonte Silbe) |
+| 1010 | Heil | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Wohlergehen, Glück «sein Heil versuchen» / Religion: Erlösung / Grußformel, auch historisch belastet) |
+| 1011 | Heilbad | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kurort mit Heilquelle / medizinisches Bad zur Behandlung) |
+| 1012 | Heilige | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Heilige) |
+| 1013 | Heiliger | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) |
