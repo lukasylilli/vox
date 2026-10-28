@@ -2423,6 +2423,7 @@
 | ۲۲۴۶ | Hektoliter | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (der oder das Hektoliter) — Regel 14 | — |
 | ۲۲۴۷ | Helfe | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 | — |
 | ۲۲۴۸ | Herzenslust | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۴۹ | Hickhack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hickhack) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3294,3 +3295,4 @@
 | 1025 | Herzschlag | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: einzelner Schlag des Herzens, Puls / plötzlicher Herztod «an einem Herzschlag sterben») |
 | 1026 | Hetze | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hast, Eile, Stress / hetzerische Stimmungsmache gegen Menschen «Hetze gegen Flüchtlinge») |
 | 1027 | Hetzjagd | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Jagd mit Hunden auf Tiere / Verfolgung von Menschen, auch Medienkampagne / große Eile) |
+| 1028 | Hilfestellung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Sport/Turnen: Sicherung beim Üben / allgemein: Unterstützung, Hilfe «Hilfestellung geben») |

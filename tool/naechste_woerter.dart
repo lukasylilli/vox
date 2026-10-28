@@ -3288,6 +3288,7 @@ const zurueckgestellt = <String>{
   'Herzschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: einzelner Schlag des Herzens, Puls / plötzlicher Herztod «an einem Herzschlag sterben») — nach den Nomen 2026-10-28
   'Hetze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hast, Eile, Stress / hetzerische Stimmungsmache gegen Menschen «Hetze gegen Flüchtlinge») — nach den Nomen 2026-10-28
   'Hetzjagd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jagd mit Hunden auf Tiere / Verfolgung von Menschen, auch Medienkampagne / große Eile) — nach den Nomen 2026-10-28
+  'Hilfestellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport/Turnen: Sicherung beim Üben / allgemein: Unterstützung, Hilfe «Hilfestellung geben») — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3325,6 +3326,7 @@ const zurueckgestellt = <String>{
   'Hektoliter', // zurückgestellt: Genus schwankt (der oder das Hektoliter) — Regel 14 2026-10-28
   'Helfe', // zurückgestellt: als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 2026-10-28
   'Herzenslust', // zurückgestellt: nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
+  'Hickhack', // zurückgestellt: Genus schwankt (das oder der Hickhack) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
