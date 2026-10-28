@@ -3309,3 +3309,5 @@
 | 1037 | Hirt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte»; Nebenform zu Hirte) |
 | 1038 | Hirte | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte») |
 | 1039 | Historie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Geschichte, Geschichtswissenschaft (veraltend) / (veraltet) Bericht, Erzählung) |
+| 1040 | Hit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: erfolgreiches Lied / etwas sehr Erfolgreiches, Verkaufsschlager / (Jargon) Portion Rauschgift) |
+| 1041 | Hoch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hochdruckgebiet (Wetter) / Hochruf «ein Hoch auf das Brautpaar» / Höhepunkt «ein Hoch erleben») |
