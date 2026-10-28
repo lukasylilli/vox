@@ -3325,6 +3325,10 @@ const zurueckgestellt = <String>{
   'Humanist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vertreter des Humanismus / Kenner der alten Sprachen) — nach den Nomen 2026-10-28
   'Hund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haustier / (ugs., Schimpfwort) Mensch «gemeiner Hund» / Bergbau: Förderwagen) — nach den Nomen 2026-10-28
   'Hunderter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderteuroschein / Zahl an der Hunderterstelle) — nach den Nomen 2026-10-28
+  'Hymne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feierlicher Lobgesang, Gedicht / Nationalhymne) — nach den Nomen 2026-10-28
+  'Hymnus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (gehoben) Lobgesang, Hymne / Kirchenlied der Liturgie) — nach den Nomen 2026-10-28
+  'Hypothek', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundpfandrecht, Immobilienkredit / übertragen: Belastung «eine schwere Hypothek für die Zukunft») — nach den Nomen 2026-10-28
+  'Hysterie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin (veraltet): psychische Störung / übertragen: übertriebene Aufregung «Massenhysterie») — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

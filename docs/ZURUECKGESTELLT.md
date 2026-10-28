@@ -3342,3 +3342,7 @@
 | 1062 | Humanist | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vertreter des Humanismus / Kenner der alten Sprachen) |
 | 1063 | Hund | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haustier / (ugs., Schimpfwort) Mensch «gemeiner Hund» / Bergbau: Förderwagen) |
 | 1064 | Hunderter | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hunderteuroschein / Zahl an der Hunderterstelle) |
+| 1065 | Hymne | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: feierlicher Lobgesang, Gedicht / Nationalhymne) |
+| 1066 | Hymnus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (gehoben) Lobgesang, Hymne / Kirchenlied der Liturgie) |
+| 1067 | Hypothek | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Grundpfandrecht, Immobilienkredit / übertragen: Belastung «eine schwere Hypothek für die Zukunft») |
+| 1068 | Hysterie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Medizin (veraltet): psychische Störung / übertragen: übertriebene Aufregung «Massenhysterie») |
