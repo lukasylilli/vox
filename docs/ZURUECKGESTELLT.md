@@ -3305,3 +3305,7 @@
 | 1033 | Hinterhand | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hinterer Teil eines Pferdes / Kartenspiel: Spieler, der zuletzt ausspielt «etwas in der Hinterhand haben») |
 | 1034 | Hintermann | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Person dahinter (Schlange, Verkehr) / Drahtzieher im Verborgenen «die Hintermänner eines Anschlags») |
 | 1035 | Hinterteil | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gesäß (ugs.) / hinterer Teil einer Sache) |
+| 1036 | Hirn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gehirn / Hirn als Speise «Kalbshirn» / Verstand (ugs.) «sein Hirn anstrengen») |
+| 1037 | Hirt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte»; Nebenform zu Hirte) |
+| 1038 | Hirte | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte») |
+| 1039 | Historie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Geschichte, Geschichtswissenschaft (veraltend) / (veraltet) Bericht, Erzählung) |

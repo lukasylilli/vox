@@ -3296,6 +3296,10 @@ const zurueckgestellt = <String>{
   'Hinterhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hinterer Teil eines Pferdes / Kartenspiel: Spieler, der zuletzt ausspielt «etwas in der Hinterhand haben») — nach den Nomen 2026-10-28
   'Hintermann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person dahinter (Schlange, Verkehr) / Drahtzieher im Verborgenen «die Hintermänner eines Anschlags») — nach den Nomen 2026-10-28
   'Hinterteil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesäß (ugs.) / hinterer Teil einer Sache) — nach den Nomen 2026-10-28
+  'Hirn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gehirn / Hirn als Speise «Kalbshirn» / Verstand (ugs.) «sein Hirn anstrengen») — nach den Nomen 2026-10-28
+  'Hirt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte»; Nebenform zu Hirte) — nach den Nomen 2026-10-28
+  'Hirte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der eine Herde hütet / Religion: Seelsorger «der gute Hirte») — nach den Nomen 2026-10-28
+  'Historie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte, Geschichtswissenschaft (veraltend) / (veraltet) Bericht, Erzählung) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
