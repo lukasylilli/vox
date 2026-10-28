@@ -2410,6 +2410,10 @@
 | ۲۲۳۳ | Handumdrehen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۳۴ | Hanke | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (Hüfte, Hinterteil des Pferdes) bzw. Familienname — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۳۵ | Hartmann | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
+| ۲۲۳۶ | Hartung | `substantiv_singular_alle.txt` | 2026-10-28 | veraltet für Januar, auch Familienname — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۳۷ | Haschisch | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Haschisch) — Regel 14 | — |
+| ۲۲۳۸ | Haslinger | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
+| ۲۲۳۹ | Hau | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3248,3 +3252,5 @@
 | 992 | Harmonie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang / Einklang, Eintracht zwischen Menschen / Ebenmaß der Teile) |
 | 993 | Harmonika | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Ziehharmonika, Akkordeon / Mundharmonika) |
 | 994 | Harnisch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Ritterrüstung / Weberei: Teil des Webstuhls / Wendung «in Harnisch geraten» = wütend werden) |
+| 995 | Hatz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hetzjagd, Treibjagd auf Tiere / landschaftlich, ugs.: Hast, Eile, Stress) |
+| 996 | Haube | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kopfbedeckung, Mütze / Motorhaube / Auszeichnung in der Gastronomie (Gault-Millau) / «unter die Haube kommen» = heiraten) |
