@@ -3284,6 +3284,7 @@ const zurueckgestellt = <String>{
   'Herrenhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gutshaus eines Adligen / historisch: Erste Kammer des Parlaments, z. B. österreichisches Herrenhaus) — nach den Nomen 2026-10-28
   'Herrschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Macht, Regierung «unter der Herrschaft des Königs» / Plural als Anrede «meine Herrschaften» / früher: Dienstherren eines Hauses) — nach den Nomen 2026-10-28
   'Herz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organ / Gefühl, Gemüt «ein gutes Herz» / Mitte, Zentrum «im Herzen der Stadt» / Spielkartenfarbe) — nach den Nomen 2026-10-28
+  'Herzblatt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kosewort für einen geliebten Menschen / Botanik: inneres, junges Blatt einer Pflanze) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3320,6 +3321,7 @@ const zurueckgestellt = <String>{
   'Hektare', // zurückgestellt: schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 2026-10-28
   'Hektoliter', // zurückgestellt: Genus schwankt (der oder das Hektoliter) — Regel 14 2026-10-28
   'Helfe', // zurückgestellt: als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 2026-10-28
+  'Herzenslust', // zurückgestellt: nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

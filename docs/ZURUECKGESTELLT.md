@@ -2422,6 +2422,7 @@
 | ۲۲۴۵ | Hektare | `substantiv_singular_alle.txt` | 2026-10-28 | schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 | — |
 | ۲۲۴۶ | Hektoliter | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (der oder das Hektoliter) — Regel 14 | — |
 | ۲۲۴۷ | Helfe | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 | — |
+| ۲۲۴۸ | Herzenslust | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «nach Herzenslust» (= so viel man will) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3289,3 +3290,4 @@
 | 1021 | Herrenhaus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gutshaus eines Adligen / historisch: Erste Kammer des Parlaments, z. B. österreichisches Herrenhaus) |
 | 1022 | Herrschaft | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Macht, Regierung «unter der Herrschaft des Königs» / Plural als Anrede «meine Herrschaften» / früher: Dienstherren eines Hauses) |
 | 1023 | Herz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Organ / Gefühl, Gemüt «ein gutes Herz» / Mitte, Zentrum «im Herzen der Stadt» / Spielkartenfarbe) |
+| 1024 | Herzblatt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kosewort für einen geliebten Menschen / Botanik: inneres, junges Blatt einer Pflanze) |
