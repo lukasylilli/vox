@@ -2408,6 +2408,7 @@
 | ۲۲۳۱ | Han | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 | — |
 | ۲۲۳۲ | Handelssystem | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 | — |
 | ۲۲۳۳ | Handumdrehen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
+| ۲۲۳۴ | Hanke | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (Hüfte, Hinterteil des Pferdes) bzw. Familienname — als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3241,3 +3242,5 @@
 | 987 | Handlung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Tat, Tun / Geschehen in Roman oder Film / Geschäft, Laden «Buchhandlung») |
 | 988 | Handschrift | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: persönliche Schrift / handgeschriebenes Buch, Manuskript / übertragen: persönlicher Stil «trägt seine Handschrift») |
 | 989 | Hang | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Abhang, Berghang / Neigung, Vorliebe «einen Hang zu etwas haben») |
+| 990 | Hanseat | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: historisch: Mitglied der Hanse, Kaufmann / Bewohner einer Hansestadt, bes. Hamburg, Bremen) |
+| 991 | Hardcore | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Musikrichtung (Punk) / pornografischer Film mit expliziten Szenen / ugs.: extrem, kompromisslos) |
