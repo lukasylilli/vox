@@ -3242,6 +3242,8 @@ const zurueckgestellt = <String>{
   'Hammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug / Sport: Hammerwurf-Gerät / ugs. «Das ist der Hammer!» = unglaublich) — nach den Nomen 2026-10-28
   'Handarbeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeit mit der Hand, handgefertigt / Nähen, Stricken, Sticken als Tätigkeit oder Gegenstand) — nach den Nomen 2026-10-28
   'Handball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — wie Basketball — nach den Nomen 2026-10-28
+  'Handeln', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: substantivierter Infinitiv: Tun, Vorgehen «schnelles Handeln» / Feilschen, Handeltreiben) — nach den Nomen 2026-10-28
+  'Handelsbilanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bilanz eines Kaufmanns, Jahresabschluss / Außenhandelsbilanz eines Landes, Export minus Import) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
