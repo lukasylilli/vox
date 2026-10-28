@@ -3216,3 +3216,6 @@
 | 966 | Haben | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kaufmannssprache Habenseite «Soll und Haben» / substantivierter Infinitiv: das Besitzen) |
 | 967 | Haberer | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen, österr. ugs.: Kumpel, Freund / Liebhaber, fester Freund) |
 | 968 | Habitus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Erscheinungsbild, Auftreten, Haltung / Medizin: Körperbau, Konstitution) |
+| 969 | Hahn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: männliches Huhn / Wasserhahn, Zapfhahn / Abzugshahn einer Waffe) |
+| 970 | Hahnenkamm | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kamm des Hahns / Pflanze (Celosia) / Berg und Skirennen bei Kitzbühel) |
+| 971 | Haken | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haken zum Aufhängen / ugs. Schwierigkeit «die Sache hat einen Haken» / Häkchen, Zeichen / Boxen: Haken) |

@@ -3229,6 +3229,9 @@ const zurueckgestellt = <String>{
   'Haben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaufmannssprache Habenseite «Soll und Haben» / substantivierter Infinitiv: das Besitzen) — nach den Nomen 2026-10-28
   'Haberer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, österr. ugs.: Kumpel, Freund / Liebhaber, fester Freund) — nach den Nomen 2026-10-28
   'Habitus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erscheinungsbild, Auftreten, Haltung / Medizin: Körperbau, Konstitution) — nach den Nomen 2026-10-28
+  'Hahn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: männliches Huhn / Wasserhahn, Zapfhahn / Abzugshahn einer Waffe) — nach den Nomen 2026-10-28
+  'Hahnenkamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kamm des Hahns / Pflanze (Celosia) / Berg und Skirennen bei Kitzbühel) — nach den Nomen 2026-10-28
+  'Haken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haken zum Aufhängen / ugs. Schwierigkeit «die Sache hat einen Haken» / Häkchen, Zeichen / Boxen: Haken) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
