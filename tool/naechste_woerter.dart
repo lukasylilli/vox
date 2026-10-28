@@ -3321,6 +3321,10 @@ const zurueckgestellt = <String>{
   'Hospital', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (veraltend) Krankenhaus / (veraltet) Pflegeheim, Altenheim) — nach den Nomen 2026-10-28
   'Hospiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einrichtung zur Begleitung Sterbender / Herberge im Gebirge / christlich geführtes Hotel) — nach den Nomen 2026-10-28
   'Huhn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haushuhn als Tier / Fleisch «Huhn mit Reis» / (ugs.) Person «ein dummes Huhn») — nach den Nomen 2026-10-28
+  'Humanismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geistige Bewegung der Renaissance / Denken und Handeln im Sinne der Menschlichkeit) — nach den Nomen 2026-10-28
+  'Humanist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vertreter des Humanismus / Kenner der alten Sprachen) — nach den Nomen 2026-10-28
+  'Hund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haustier / (ugs., Schimpfwort) Mensch «gemeiner Hund» / Bergbau: Förderwagen) — nach den Nomen 2026-10-28
+  'Hunderter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderteuroschein / Zahl an der Hunderterstelle) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

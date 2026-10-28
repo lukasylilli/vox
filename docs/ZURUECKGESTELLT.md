@@ -3335,3 +3335,7 @@
 | 1058 | Hospital | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (veraltend) Krankenhaus / (veraltet) Pflegeheim, Altenheim) |
 | 1059 | Hospiz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Einrichtung zur Begleitung Sterbender / Herberge im Gebirge / christlich geführtes Hotel) |
 | 1060 | Huhn | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haushuhn als Tier / Fleisch «Huhn mit Reis» / (ugs.) Person «ein dummes Huhn») |
+| 1061 | Humanismus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: geistige Bewegung der Renaissance / Denken und Handeln im Sinne der Menschlichkeit) |
+| 1062 | Humanist | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vertreter des Humanismus / Kenner der alten Sprachen) |
+| 1063 | Hund | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Haustier / (ugs., Schimpfwort) Mensch «gemeiner Hund» / Bergbau: Förderwagen) |
+| 1064 | Hunderter | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hunderteuroschein / Zahl an der Hunderterstelle) |
