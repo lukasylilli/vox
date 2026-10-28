@@ -3247,6 +3247,8 @@ const zurueckgestellt = <String>{
   'Handgriff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Griff zum Festhalten, Henkel / kurze Handbewegung, Tätigkeit «mit wenigen Handgriffen») — nach den Nomen 2026-10-28
   'Handicap', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behinderung, Nachteil / Sport: Vorgabe, Golf-Handicap) — nach den Nomen 2026-10-28
   'Handlanger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfsarbeiter am Bau / abwertend: Helfershelfer, Werkzeug anderer) — nach den Nomen 2026-10-28
+  'Handlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tat, Tun / Geschehen in Roman oder Film / Geschäft, Laden «Buchhandlung») — nach den Nomen 2026-10-28
+  'Handschrift', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: persönliche Schrift / handgeschriebenes Buch, Manuskript / übertragen: persönlicher Stil «trägt seine Handschrift») — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3268,6 +3270,7 @@ const zurueckgestellt = <String>{
   'Haller', // zurückgestellt: Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) 2026-10-28
   'Han', // zurückgestellt: Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 2026-10-28
   'Handelssystem', // zurückgestellt: Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 2026-10-28
+  'Handumdrehen', // zurückgestellt: nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

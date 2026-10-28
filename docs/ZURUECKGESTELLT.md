@@ -2407,6 +2407,7 @@
 | ۲۲۳۰ | Haller | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) | — |
 | ۲۲۳۱ | Han | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 | — |
 | ۲۲۳۲ | Handelssystem | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 | — |
+| ۲۲۳۳ | Handumdrehen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3237,3 +3238,5 @@
 | 984 | Handgriff | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Griff zum Festhalten, Henkel / kurze Handbewegung, Tätigkeit «mit wenigen Handgriffen») |
 | 985 | Handicap | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Behinderung, Nachteil / Sport: Vorgabe, Golf-Handicap) |
 | 986 | Handlanger | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hilfsarbeiter am Bau / abwertend: Helfershelfer, Werkzeug anderer) |
+| 987 | Handlung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Tat, Tun / Geschehen in Roman oder Film / Geschäft, Laden «Buchhandlung») |
+| 988 | Handschrift | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: persönliche Schrift / handgeschriebenes Buch, Manuskript / übertragen: persönlicher Stil «trägt seine Handschrift») |
