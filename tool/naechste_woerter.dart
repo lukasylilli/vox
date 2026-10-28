@@ -3302,6 +3302,7 @@ const zurueckgestellt = <String>{
   'Historie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte, Geschichtswissenschaft (veraltend) / (veraltet) Bericht, Erzählung) — nach den Nomen 2026-10-28
   'Hit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erfolgreiches Lied / etwas sehr Erfolgreiches, Verkaufsschlager / (Jargon) Portion Rauschgift) — nach den Nomen 2026-10-28
   'Hoch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hochdruckgebiet (Wetter) / Hochruf «ein Hoch auf das Brautpaar» / Höhepunkt «ein Hoch erleben») — nach den Nomen 2026-10-28
+  'Hochkultur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hoch entwickelte Kultur einer frühen Gesellschaft «die Hochkultur der Maya» / anspruchsvolle Kunst im Gegensatz zur Populärkultur) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
