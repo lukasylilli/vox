@@ -3150,6 +3150,9 @@ const zurueckgestellt = <String>{
   'Grundlinie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport (Tennis): Linie am Ende des Spielfelds / Grundzug, Leitlinie «die Grundlinien der Politik» / Mathematik: Grundseite) — nach den Nomen 2026-10-27
   'Grundpreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Basispreis ohne Zuschläge, Grundgebühr / Preis je Mengeneinheit «Grundpreis pro Kilogramm») — nach den Nomen 2026-10-27
   'Grundriss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichnung eines Gebäudes von oben, Wohnungsplan / kurzes Lehrbuch, Abriss «Grundriss der deutschen Grammatik») — nach den Nomen 2026-10-27
+  'Grundstoff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rohstoff, Ausgangsmaterial für die Industrie / Chemie: chemisches Element) — nach den Nomen 2026-10-27
+  'Grundton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Grundton einer Tonart / vorherrschende Farbe / übertragen: Grundstimmung «der Grundton der Rede») — nach den Nomen 2026-10-27
+  'Grundwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: grundlegender ethischer Wert «Grundwerte der Demokratie» / Mathematik: Grundwert der Prozentrechnung) — nach den Nomen 2026-10-27
   'Dings', // zurückgestellt: ugs. Platzhalterwort (der/die/das Dings) — Genus nicht eindeutig (Regel 14) 2026-10-21
   'Direkteinspritzer', // zurückgestellt: Fachjargon (Motor mit Direkteinspritzung) — als Lernwort nicht sicher (Regel 14) 2026-10-21
   'Disc', // zurückgestellt: englische Schreibung (CD, Bandscheibe …) — Lemma/Bedeutung nicht sicher (Regel 14) 2026-10-21

@@ -3195,3 +3195,6 @@
 | 952 | Grundlinie | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Sport (Tennis): Linie am Ende des Spielfelds / Grundzug, Leitlinie «die Grundlinien der Politik» / Mathematik: Grundseite) |
 | 953 | Grundpreis | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Basispreis ohne Zuschläge, Grundgebühr / Preis je Mengeneinheit «Grundpreis pro Kilogramm») |
 | 954 | Grundriss | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Zeichnung eines Gebäudes von oben, Wohnungsplan / kurzes Lehrbuch, Abriss «Grundriss der deutschen Grammatik») |
+| 955 | Grundstoff | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Rohstoff, Ausgangsmaterial für die Industrie / Chemie: chemisches Element) |
+| 956 | Grundton | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Musik: Grundton einer Tonart / vorherrschende Farbe / übertragen: Grundstimmung «der Grundton der Rede») |
+| 957 | Grundwert | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: grundlegender ethischer Wert «Grundwerte der Demokratie» / Mathematik: Grundwert der Prozentrechnung) |
