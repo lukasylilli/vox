@@ -3287,3 +3287,5 @@
 | 1019 | Hering | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Fisch / Zeltpflock, Zelthering) |
 | 1020 | Herr | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Anrede, Mann «Herr Müller» / Herrscher, Gebieter «Herr im Haus» / Religion: Gott «der Herr») |
 | 1021 | Herrenhaus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gutshaus eines Adligen / historisch: Erste Kammer des Parlaments, z. B. österreichisches Herrenhaus) |
+| 1022 | Herrschaft | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Macht, Regierung «unter der Herrschaft des Königs» / Plural als Anrede «meine Herrschaften» / früher: Dienstherren eines Hauses) |
+| 1023 | Herz | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Organ / Gefühl, Gemüt «ein gutes Herz» / Mitte, Zentrum «im Herzen der Stadt» / Spielkartenfarbe) |
