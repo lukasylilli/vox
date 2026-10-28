@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hacker",
+  "wort": "der Hacker",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "هکر"
+    ],
+    "en": [
+      "hacker"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Computer",
+    "Technik"
+  ],
+  "ipa": "ˈhɛkɐ",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Hacker hat mein Passwort gestohlen.",
+      "uebersetzung": {
+        "fa": "یک هکر رمز عبورم را دزدید.",
+        "en": "A hacker stole my password."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Firma hat erst nach Wochen gemerkt, dass Hacker in ihr Netzwerk eingedrungen waren.",
+      "uebersetzung": {
+        "fa": "شرکت تازه بعد از چند هفته فهمید که هکرها وارد شبکه‌اش شده بودند.",
+        "en": "The company only noticed after weeks that hackers had broken into its network."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "engl. to hack (هک کردن) + -er",
+    "en": "English to hack + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Hacker",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "von Hackern angegriffen werden",
+        "beispiel": "Die Webseite der Stadt wurde gestern von Hackern angegriffen.",
+        "uebersetzung": {
+          "fa": "دیروز هکرها به وب‌سایت شهر حمله کردند.",
+          "en": "The city's website was attacked by hackers yesterday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کامپیوتر",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "das Netzwerk",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شبکه",
+          "en": "network"
+        },
+        "id_ref": "nomen_netzwerk"
+      },
+      {
+        "wort": "der Angriff",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمله",
+          "en": "attack"
+        },
+        "id_ref": "nomen_angriff"
+      },
+      {
+        "wort": "hacken",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هک کردن",
+          "en": "to hack"
+        },
+        "id_ref": "verb_hacken"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

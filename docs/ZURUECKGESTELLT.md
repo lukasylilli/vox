@@ -2401,6 +2401,8 @@
 | ۲۲۲۴ | Gulasch | `substantiv_singular_alle.txt` | 2026-10-27 | Genus schwankt (das oder der Gulasch, österr. das) — Regel 14 | — |
 | ۲۲۲۵ | Gun | `substantiv_singular_alle.txt` | 2026-10-27 | Bedeutung unsicher (Jargon, englisch; z. B. Drogenszene: Spritze) — kein gesichertes deutsches Lernwort, Regel 14 | — |
 | ۲۲۲۶ | Haag | `substantiv_singular_alle.txt` | 2026-10-27 | Lemma unsicher: die Stadt heißt «Den Haag» (mit Artikel, niederländisch); Listeneintrag «Haag» mit der — Regel 14 | — |
+| ۲۲۲۷ | Haber | `substantiv_singular_alle.txt` | 2026-10-28 | landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) | — |
+| ۲۲۲۸ | Hack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3210,3 +3212,6 @@
 | 963 | Guss | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Gießen von Metall, Gussstück / kurzer, heftiger Regen / Zuckerguss, Glasur) |
 | 964 | Gusto | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Geschmack, Neigung «nach meinem Gusto» / österr.: Appetit, Lust auf etwas) |
 | 965 | Gut | `substantiv_singular_alle.txt` | 2026-10-27 | Fall 1 (mehrere Bedeutungen: Besitz, Habe «Hab und Gut» / Landgut, Gutshof / Ware, Wirtschaftsgut «Güter des täglichen Bedarfs» / ethischer Wert «das höchste Gut») |
+| 966 | Haben | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Kaufmannssprache Habenseite «Soll und Haben» / substantivierter Infinitiv: das Besitzen) |
+| 967 | Haberer | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen, österr. ugs.: Kumpel, Freund / Liebhaber, fester Freund) |
+| 968 | Habitus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Erscheinungsbild, Auftreten, Haltung / Medizin: Körperbau, Konstitution) |

@@ -3226,6 +3226,9 @@ const zurueckgestellt = <String>{
   'Geldhahn', // zurückgestellt: nur in der festen Wendung «jemandem den Geldhahn zudrehen» — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-26
   'Gemeindevorstand', // zurückgestellt: Bedeutung je nach Land verschieden (Gremium der Gemeindeleitung / Gemeindevorsteher, Mitglied) — nicht sicher (Regel 14) 2026-10-27
   'Generale', // zurückgestellt: nur Pluralform von «General» (General steht in der Vier-Fälle-Liste) — kein eigenes Nomen 2026-10-27
+  'Haben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaufmannssprache Habenseite «Soll und Haben» / substantivierter Infinitiv: das Besitzen) — nach den Nomen 2026-10-28
+  'Haberer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, österr. ugs.: Kumpel, Freund / Liebhaber, fester Freund) — nach den Nomen 2026-10-28
+  'Habitus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erscheinungsbild, Auftreten, Haltung / Medizin: Körperbau, Konstitution) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3241,6 +3244,8 @@ const zurueckgestellt = <String>{
   'Gulasch', // zurückgestellt: Genus schwankt (das oder der Gulasch, österr. das) — Regel 14 2026-10-27
   'Gun', // zurückgestellt: Bedeutung unsicher (Jargon, englisch; z. B. Drogenszene: Spritze) — kein gesichertes deutsches Lernwort, Regel 14 2026-10-27
   'Haag', // zurückgestellt: Lemma unsicher: die Stadt heißt «Den Haag» (mit Artikel, niederländisch); Listeneintrag «Haag» mit der — Regel 14 2026-10-27
+  'Haber', // zurückgestellt: landschaftlich (österr./schweiz.) für Hafer, auch Familienname — nicht sicher (Regel 14) 2026-10-28
+  'Hack', // zurückgestellt: Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
