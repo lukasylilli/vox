@@ -2409,6 +2409,7 @@
 | ۲۲۳۲ | Handelssystem | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 | — |
 | ۲۲۳۳ | Handumdrehen | `substantiv_singular_alle.txt` | 2026-10-28 | nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) | — |
 | ۲۲۳۴ | Hanke | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (Hüfte, Hinterteil des Pferdes) bzw. Familienname — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۳۵ | Hartmann | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3244,3 +3245,6 @@
 | 989 | Hang | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Abhang, Berghang / Neigung, Vorliebe «einen Hang zu etwas haben») |
 | 990 | Hanseat | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: historisch: Mitglied der Hanse, Kaufmann / Bewohner einer Hansestadt, bes. Hamburg, Bremen) |
 | 991 | Hardcore | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Musikrichtung (Punk) / pornografischer Film mit expliziten Szenen / ugs.: extrem, kompromisslos) |
+| 992 | Harmonie | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang / Einklang, Eintracht zwischen Menschen / Ebenmaß der Teile) |
+| 993 | Harmonika | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Ziehharmonika, Akkordeon / Mundharmonika) |
+| 994 | Harnisch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Ritterrüstung / Weberei: Teil des Webstuhls / Wendung «in Harnisch geraten» = wütend werden) |

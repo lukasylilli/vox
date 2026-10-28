@@ -3252,6 +3252,9 @@ const zurueckgestellt = <String>{
   'Hang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abhang, Berghang / Neigung, Vorliebe «einen Hang zu etwas haben») — nach den Nomen 2026-10-28
   'Hanseat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: Mitglied der Hanse, Kaufmann / Bewohner einer Hansestadt, bes. Hamburg, Bremen) — nach den Nomen 2026-10-28
   'Hardcore', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikrichtung (Punk) / pornografischer Film mit expliziten Szenen / ugs.: extrem, kompromisslos) — nach den Nomen 2026-10-28
+  'Harmonie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Zusammenklang / Einklang, Eintracht zwischen Menschen / Ebenmaß der Teile) — nach den Nomen 2026-10-28
+  'Harmonika', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziehharmonika, Akkordeon / Mundharmonika) — nach den Nomen 2026-10-28
+  'Harnisch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ritterrüstung / Weberei: Teil des Webstuhls / Wendung «in Harnisch geraten» = wütend werden) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3275,6 +3278,7 @@ const zurueckgestellt = <String>{
   'Handelssystem', // zurückgestellt: Bedeutung unscharf (Handelsordnung eines Staates / Börsen-Handelsplattform / Anlagestrategie) — Regel 14 2026-10-28
   'Handumdrehen', // zurückgestellt: nur in der festen Wendung «im Handumdrehen» (= sehr schnell) — als eigenes Nomen nicht sinnvoll (Regel 14) 2026-10-28
   'Hanke', // zurückgestellt: Fachwort (Hüfte, Hinterteil des Pferdes) bzw. Familienname — als Lernwort nicht sicher (Regel 14) 2026-10-28
+  'Hartmann', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
