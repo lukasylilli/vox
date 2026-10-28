@@ -3265,3 +3265,4 @@
 | 1003 | Hausarbeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Arbeit im Haushalt / schriftliche Arbeit für Schule oder Studium, Seminararbeit) |
 | 1004 | Haushalt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Wohnung und Hausarbeit, Familie «ein Haushalt mit drei Personen» / Staatshaushalt, Etat) |
 | 1005 | Haushaltsberatung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Beratung über den Staatshaushalt im Parlament / Beratung für private Haushalte, z. B. Schulden- oder Energieberatung) |
+| 1006 | Hausherr | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gastgeber, Haushaltsvorstand / Hausbesitzer, Vermieter / Sport: Heimmannschaft «die Hausherren») |

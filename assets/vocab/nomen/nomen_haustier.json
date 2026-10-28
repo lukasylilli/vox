@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "nomen_haustier",
+  "wort": "das Haustier",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حیوان خانگی"
+    ],
+    "en": [
+      "pet"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Tiere",
+    "Alltag"
+  ],
+  "ipa": "ˈhaʊ̯sˌtiːɐ̯",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Hast du ein Haustier?",
+      "uebersetzung": {
+        "fa": "حیوان خانگی داری؟",
+        "en": "Do you have a pet?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In vielen Mietwohnungen sind Haustiere nur erlaubt, wenn der Vermieter zustimmt.",
+      "uebersetzung": {
+        "fa": "در بسیاری از خانه‌های اجاره‌ای، حیوان خانگی فقط با موافقت موجر مجاز است.",
+        "en": "In many rented flats pets are only allowed if the landlord agrees."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "das Wildtier",
+      "uebersetzung": {
+        "fa": "حیوان وحشی",
+        "en": "wild animal"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Haus (خانه) + Tier (حیوان)",
+    "en": "Haus (house) + Tier (animal)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Haustiere",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Tier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حیوان",
+          "en": "animal"
+        },
+        "id_ref": "nomen_tier"
+      },
+      {
+        "wort": "der Hund",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سگ",
+          "en": "dog"
+        },
+        "id_ref": "nomen_hund"
+      },
+      {
+        "wort": "die Katze",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گربه",
+          "en": "cat"
+        },
+        "id_ref": "nomen_katze"
+      },
+      {
+        "wort": "füttern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "غذا دادن",
+          "en": "to feed"
+        },
+        "id_ref": "verb_fuettern"
+      },
+      {
+        "wort": "der Tierarzt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دامپزشک",
+          "en": "vet"
+        },
+        "id_ref": "nomen_tierarzt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
