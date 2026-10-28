@@ -2418,6 +2418,9 @@
 | ۲۲۴۱ | Hauser | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۴۲ | Heilsarmee | `substantiv_singular_alle.txt` | 2026-10-28 | Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۴۳ | Heimen | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (vermutlich Pluralform von «das Heim» oder Familienname) — Regel 14 | — |
+| ۲۲۴۴ | Hektar | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hektar) — Regel 14 | — |
+| ۲۲۴۵ | Hektare | `substantiv_singular_alle.txt` | 2026-10-28 | schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 | — |
+| ۲۲۴۶ | Hektoliter | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (der oder das Hektoliter) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

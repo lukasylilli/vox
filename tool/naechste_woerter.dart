@@ -3307,6 +3307,9 @@ const zurueckgestellt = <String>{
   'Hauser', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
   'Heilsarmee', // zurückgestellt: Name einer Organisation (christliche Hilfsorganisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
   'Heimen', // zurückgestellt: als Nomen nicht belegt (vermutlich Pluralform von «das Heim» oder Familienname) — Regel 14 2026-10-28
+  'Hektar', // zurückgestellt: Genus schwankt (das oder der Hektar) — Regel 14 2026-10-28
+  'Hektare', // zurückgestellt: schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 2026-10-28
+  'Hektoliter', // zurückgestellt: Genus schwankt (der oder das Hektoliter) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
