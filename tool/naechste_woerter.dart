@@ -3279,6 +3279,9 @@ const zurueckgestellt = <String>{
   'Herabsetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Senkung, Verringerung «Herabsetzung der Preise» / Kränkung, Abwertung einer Person) — nach den Nomen 2026-10-28
   'Herausgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aushändigung, Rückgabe «Herausgabe der Dokumente» / Veröffentlichung eines Buches oder einer Zeitung) — nach den Nomen 2026-10-28
   'Herd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Küchenherd zum Kochen / Ausgangspunkt «Krankheitsherd, Brandherd» / gehoben: Zuhause «der eigene Herd») — nach den Nomen 2026-10-28
+  'Hering', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fisch / Zeltpflock, Zelthering) — nach den Nomen 2026-10-28
+  'Herr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anrede, Mann «Herr Müller» / Herrscher, Gebieter «Herr im Haus» / Religion: Gott «der Herr») — nach den Nomen 2026-10-28
+  'Herrenhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gutshaus eines Adligen / historisch: Erste Kammer des Parlaments, z. B. österreichisches Herrenhaus) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

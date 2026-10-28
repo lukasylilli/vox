@@ -3284,3 +3284,6 @@
 | 1016 | Herabsetzung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Senkung, Verringerung «Herabsetzung der Preise» / Kränkung, Abwertung einer Person) |
 | 1017 | Herausgabe | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Aushändigung, Rückgabe «Herausgabe der Dokumente» / Veröffentlichung eines Buches oder einer Zeitung) |
 | 1018 | Herd | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Küchenherd zum Kochen / Ausgangspunkt «Krankheitsherd, Brandherd» / gehoben: Zuhause «der eigene Herd») |
+| 1019 | Hering | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Fisch / Zeltpflock, Zelthering) |
+| 1020 | Herr | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Anrede, Mann «Herr Müller» / Herrscher, Gebieter «Herr im Haus» / Religion: Gott «der Herr») |
+| 1021 | Herrenhaus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gutshaus eines Adligen / historisch: Erste Kammer des Parlaments, z. B. österreichisches Herrenhaus) |
