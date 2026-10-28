@@ -3370,6 +3370,9 @@ const zurueckgestellt = <String>{
   'Hot', // zurückgestellt: als Nomen nicht belegt (englisches Adjektiv; nur in Fügungen wie Hot Jazz, Hotdog) — Regel 14 2026-10-28
   'Hube', // zurückgestellt: landschaftlich/veraltet (= Hufe, bäuerliches Landmaß) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Huber', // zurückgestellt: Familienname — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-28
+  'Hunderttausend', // zurückgestellt: Wortart/Genus unsicher (Zahlwort «hunderttausend» oder Nomen «das Hunderttausend», meist Plural «Hunderttausende») — Regel 14 2026-10-28
+  'Hunt', // zurückgestellt: Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) 2026-10-28
+  'Hunter', // zurückgestellt: Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

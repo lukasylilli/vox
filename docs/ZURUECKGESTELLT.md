@@ -2431,6 +2431,9 @@
 | ۲۲۵۴ | Hot | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (englisches Adjektiv; nur in Fügungen wie Hot Jazz, Hotdog) — Regel 14 | — |
 | ۲۲۵۵ | Hube | `substantiv_singular_alle.txt` | 2026-10-28 | landschaftlich/veraltet (= Hufe, bäuerliches Landmaß) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۵۶ | Huber | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۵۷ | Hunderttausend | `substantiv_singular_alle.txt` | 2026-10-28 | Wortart/Genus unsicher (Zahlwort «hunderttausend» oder Nomen «das Hunderttausend», meist Plural «Hunderttausende») — Regel 14 | — |
+| ۲۲۵۸ | Hunt | `substantiv_singular_alle.txt` | 2026-10-28 | Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۵۹ | Hunter | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
