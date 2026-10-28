@@ -2421,6 +2421,7 @@
 | ۲۲۴۴ | Hektar | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (das oder der Hektar) — Regel 14 | — |
 | ۲۲۴۵ | Hektare | `substantiv_singular_alle.txt` | 2026-10-28 | schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 | — |
 | ۲۲۴۶ | Hektoliter | `substantiv_singular_alle.txt` | 2026-10-28 | Genus schwankt (der oder das Hektoliter) — Regel 14 | — |
+| ۲۲۴۷ | Helfe | `substantiv_singular_alle.txt` | 2026-10-28 | als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3279,3 +3280,4 @@
 | 1012 | Heilige | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Heilige) |
 | 1013 | Heiliger | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) |
 | 1014 | Heim | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) |
+| 1015 | Helle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 2/4 (die Helle «Helligkeit» ↔ das Helle «helles Bier», substantiviertes Adjektiv) |

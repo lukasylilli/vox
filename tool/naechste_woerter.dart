@@ -3275,6 +3275,7 @@ const zurueckgestellt = <String>{
   'Heilige', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Heilige) — nach den Nomen 2026-10-28
   'Heiliger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Heilige», substantiviertes Adjektiv) — nach den Nomen 2026-10-28
   'Heim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) — nach den Nomen 2026-10-28
+  'Helle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/4 (die Helle «Helligkeit» ↔ das Helle «helles Bier», substantiviertes Adjektiv) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3310,6 +3311,7 @@ const zurueckgestellt = <String>{
   'Hektar', // zurückgestellt: Genus schwankt (das oder der Hektar) — Regel 14 2026-10-28
   'Hektare', // zurückgestellt: schweizerische Nebenform von «Hektar» (die Hektare); Genus/Lemma von Hektar selbst unsicher — Regel 14 2026-10-28
   'Hektoliter', // zurückgestellt: Genus schwankt (der oder das Hektoliter) — Regel 14 2026-10-28
+  'Helfe', // zurückgestellt: als Nomen nicht belegt (Verbform von «helfen» oder Nebenform von «Hilfe») — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
