@@ -3312,3 +3312,7 @@
 | 1040 | Hit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: erfolgreiches Lied / etwas sehr Erfolgreiches, Verkaufsschlager / (Jargon) Portion Rauschgift) |
 | 1041 | Hoch | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Hochdruckgebiet (Wetter) / Hochruf «ein Hoch auf das Brautpaar» / Höhepunkt «ein Hoch erleben») |
 | 1042 | Hochkultur | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hoch entwickelte Kultur einer frühen Gesellschaft «die Hochkultur der Maya» / anspruchsvolle Kunst im Gegensatz zur Populärkultur) |
+| 1043 | Hochspannung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: elektrische Hochspannung / große Spannung, Nervenkitzel «ein Krimi voller Hochspannung») |
+| 1044 | Hochtour | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bergtour im Hochgebirge / nur Plural «auf Hochtouren laufen» = mit voller Kraft) |
+| 1045 | Hochwasser | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: hoher Wasserstand, Überschwemmung eines Flusses / Flut am Meer / (ugs.) zu kurze Hose «Hochwasser haben») |
+| 1046 | Hochzeitstag | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Tag der Hochzeit / jährlicher Jahrestag der Hochzeit) |
