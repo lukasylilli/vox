@@ -3264,6 +3264,8 @@ const zurueckgestellt = <String>{
   'Hauptangeklagte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Hauptangeklagte) — nach den Nomen 2026-10-28
   'Haus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude / Haushalt, Familie, Dynastie «das Haus Habsburg» / Firma, Institution «im Haus» / Theater, Parlamentskammer) — nach den Nomen 2026-10-28
   'Hausarbeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeit im Haushalt / schriftliche Arbeit für Schule oder Studium, Seminararbeit) — nach den Nomen 2026-10-28
+  'Haushalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnung und Hausarbeit, Familie «ein Haushalt mit drei Personen» / Staatshaushalt, Etat) — nach den Nomen 2026-10-28
+  'Haushaltsberatung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beratung über den Staatshaushalt im Parlament / Beratung für private Haushalte, z. B. Schulden- oder Energieberatung) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3293,6 +3295,7 @@ const zurueckgestellt = <String>{
   'Haslinger', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
   'Hau', // zurückgestellt: Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 2026-10-28
   'Hauptwache', // zurückgestellt: meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 2026-10-28
+  'Hauser', // zurückgestellt: Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

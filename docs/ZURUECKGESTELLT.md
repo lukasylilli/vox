@@ -2415,6 +2415,7 @@
 | ۲۲۳۸ | Haslinger | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۳۹ | Hau | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung und Gebrauch unsicher (ugs. Hieb, «einen Hau haben» = verrückt sein) — Regel 14 | — |
 | ۲۲۴۰ | Hauptwache | `substantiv_singular_alle.txt` | 2026-10-28 | meist Name bestimmter Gebäude/Plätze (z. B. Frankfurter Hauptwache), sonst veraltet für Hauptpolizeiwache — Regel 14 | — |
+| ۲۲۴۱ | Hauser | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname (Personenname) — keine Eigennamen-Karte nach Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3262,3 +3263,5 @@
 | 1001 | Hauptangeklagte | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 4 (substantiviertes Adjektiv: der/die Hauptangeklagte) |
 | 1002 | Haus | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Gebäude / Haushalt, Familie, Dynastie «das Haus Habsburg» / Firma, Institution «im Haus» / Theater, Parlamentskammer) |
 | 1003 | Hausarbeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Arbeit im Haushalt / schriftliche Arbeit für Schule oder Studium, Seminararbeit) |
+| 1004 | Haushalt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Wohnung und Hausarbeit, Familie «ein Haushalt mit drei Personen» / Staatshaushalt, Etat) |
+| 1005 | Haushaltsberatung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Beratung über den Staatshaushalt im Parlament / Beratung für private Haushalte, z. B. Schulden- oder Energieberatung) |
