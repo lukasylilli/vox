@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "nomen_herberge",
+  "wort": "die Herberge",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مسافرخانه، اقامتگاه ساده"
+    ],
+    "en": [
+      "hostel, inn"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Reisen"
+  ],
+  "ipa": "ˈhɛʁbɛʁɡə",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir schlafen in einer Herberge.",
+      "uebersetzung": {
+        "fa": "در یک مسافرخانه می‌خوابیم.",
+        "en": "We are sleeping in a hostel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pilger übernachten in einfachen Herbergen, die oft nur ein paar Euro kosten.",
+      "uebersetzung": {
+        "fa": "زائران در مسافرخانه‌های ساده‌ای شب می‌مانند که اغلب فقط چند یورو خرج دارد.",
+        "en": "The pilgrims stay overnight in simple hostels that often cost only a few euros."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Jugendherberge",
+      "uebersetzung": {
+        "fa": "مسافرخانه‌ی جوانان",
+        "en": "youth hostel"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Herbergen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in einer Herberge (in + Dat)",
+        "beispiel": "In der Herberge gibt es nur Schlafsäle.",
+        "uebersetzung": {
+          "fa": "در آن مسافرخانه فقط خوابگاه جمعی هست.",
+          "en": "There are only dormitories in the hostel."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Jugendherberge",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مسافرخانه‌ی جوانان",
+          "en": "youth hostel"
+        },
+        "id_ref": "nomen_jugendherberge"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      },
+      {
+        "wort": "die Unterkunft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقامتگاه",
+          "en": "accommodation"
+        },
+        "id_ref": "nomen_unterkunft"
+      },
+      {
+        "wort": "übernachten",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شب ماندن",
+          "en": "to stay overnight"
+        },
+        "id_ref": "verb_uebernachten"
+      },
+      {
+        "wort": "das Gasthaus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهمانخانه",
+          "en": "inn"
+        },
+        "id_ref": "nomen_gasthaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

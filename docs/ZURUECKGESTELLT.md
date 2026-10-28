@@ -3282,3 +3282,5 @@
 | 1014 | Heim | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) |
 | 1015 | Helle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 2/4 (die Helle «Helligkeit» ↔ das Helle «helles Bier», substantiviertes Adjektiv) |
 | 1016 | Herabsetzung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Senkung, Verringerung «Herabsetzung der Preise» / Kränkung, Abwertung einer Person) |
+| 1017 | Herausgabe | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Aushändigung, Rückgabe «Herausgabe der Dokumente» / Veröffentlichung eines Buches oder einer Zeitung) |
+| 1018 | Herd | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Küchenherd zum Kochen / Ausgangspunkt «Krankheitsherd, Brandherd» / gehoben: Zuhause «der eigene Herd») |

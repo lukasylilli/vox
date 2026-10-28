@@ -3277,6 +3277,8 @@ const zurueckgestellt = <String>{
   'Heim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuhause, Wohnung «ein gemütliches Heim» / Einrichtung: Alten-, Kinder-, Studentenheim) — nach den Nomen 2026-10-28
   'Helle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/4 (die Helle «Helligkeit» ↔ das Helle «helles Bier», substantiviertes Adjektiv) — nach den Nomen 2026-10-28
   'Herabsetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Senkung, Verringerung «Herabsetzung der Preise» / Kränkung, Abwertung einer Person) — nach den Nomen 2026-10-28
+  'Herausgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aushändigung, Rückgabe «Herausgabe der Dokumente» / Veröffentlichung eines Buches oder einer Zeitung) — nach den Nomen 2026-10-28
+  'Herd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Küchenherd zum Kochen / Ausgangspunkt «Krankheitsherd, Brandherd» / gehoben: Zuhause «der eigene Herd») — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
