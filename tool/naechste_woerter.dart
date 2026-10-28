@@ -3239,6 +3239,9 @@ const zurueckgestellt = <String>{
   'Halt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhalten, Stopp «Halt machen» / Stütze, innere Stabilität «Halt geben, keinen Halt finden») — nach den Nomen 2026-10-28
   'Halter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrichtung zum Halten «Handyhalter» / Besitzer, Fahrzeug- oder Tierhalter) — nach den Nomen 2026-10-28
   'Haltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperhaltung / Einstellung, Meinung / Tierhaltung) — nach den Nomen 2026-10-28
+  'Hammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug / Sport: Hammerwurf-Gerät / ugs. «Das ist der Hammer!» = unglaublich) — nach den Nomen 2026-10-28
+  'Handarbeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeit mit der Hand, handgefertigt / Nähen, Stricken, Sticken als Tätigkeit oder Gegenstand) — nach den Nomen 2026-10-28
+  'Handball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — wie Basketball — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3258,6 +3261,7 @@ const zurueckgestellt = <String>{
   'Hack', // zurückgestellt: Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 2026-10-28
   'Hag', // zurückgestellt: veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Haller', // zurückgestellt: Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) 2026-10-28
+  'Han', // zurückgestellt: Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 2026-10-28
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

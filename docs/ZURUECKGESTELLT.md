@@ -2405,6 +2405,7 @@
 | ۲۲۲۸ | Hack | `substantiv_singular_alle.txt` | 2026-10-28 | Genus und Bedeutung unsicher (ugs. Hackfleisch: das/der Hack; Computer: Hack) — Regel 14 | — |
 | ۲۲۲۹ | Hag | `substantiv_singular_alle.txt` | 2026-10-28 | veraltet/dichterisch (Hecke, umfriedeter Wald, Hain) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۳۰ | Haller | `substantiv_singular_alle.txt` | 2026-10-28 | Familienname bzw. Bewohner von Hall/Halle — kein Lernwort (Regel 14/18) | — |
+| ۲۲۳۱ | Han | `substantiv_singular_alle.txt` | 2026-10-28 | Bedeutung unsicher (chinesische Dynastie / Volksgruppe der Han / Name) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3227,3 +3228,6 @@
 | 976 | Halt | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Anhalten, Stopp «Halt machen» / Stütze, innere Stabilität «Halt geben, keinen Halt finden») |
 | 977 | Halter | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vorrichtung zum Halten «Handyhalter» / Besitzer, Fahrzeug- oder Tierhalter) |
 | 978 | Haltung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Körperhaltung / Einstellung, Meinung / Tierhaltung) |
+| 979 | Hammer | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Werkzeug / Sport: Hammerwurf-Gerät / ugs. «Das ist der Hammer!» = unglaublich) |
+| 980 | Handarbeit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Arbeit mit der Hand, handgefertigt / Nähen, Stricken, Sticken als Tätigkeit oder Gegenstand) |
+| 981 | Handball | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Sportart / der Ball selbst) — wie Basketball |
