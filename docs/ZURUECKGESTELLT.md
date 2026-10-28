@@ -3320,3 +3320,5 @@
 | 1046 | Hochzeitstag | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Tag der Hochzeit / jährlicher Jahrestag der Hochzeit) |
 | 1047 | Hof | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Platz hinter/zwischen Gebäuden / Bauernhof / Fürstenhof «am Hof des Kaisers» / Lichtkranz um Sonne oder Mond) |
 | 1048 | Hofmeister | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) |
+| 1049 | Hofrat | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: früher Beamter eines Fürstenhofs / (österr.) Ehrentitel für hohe Beamte «Herr Hofrat») |
+| 1050 | Hoheit | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: staatliche Souveränität «die Hoheit über ein Gebiet» / Titel und Anrede fürstlicher Personen «Eure Hoheit» / Erhabenheit) |

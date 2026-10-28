@@ -3309,6 +3309,8 @@ const zurueckgestellt = <String>{
   'Hochzeitstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tag der Hochzeit / jährlicher Jahrestag der Hochzeit) — nach den Nomen 2026-10-28
   'Hof', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Platz hinter/zwischen Gebäuden / Bauernhof / Fürstenhof «am Hof des Kaisers» / Lichtkranz um Sonne oder Mond) — nach den Nomen 2026-10-28
   'Hofmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen (veraltet): Verwalter eines Gutshofs / Hauslehrer und Erzieher adliger Kinder) — nach den Nomen 2026-10-28
+  'Hofrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Beamter eines Fürstenhofs / (österr.) Ehrentitel für hohe Beamte «Herr Hofrat») — nach den Nomen 2026-10-28
+  'Hoheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: staatliche Souveränität «die Hoheit über ein Gebiet» / Titel und Anrede fürstlicher Personen «Eure Hoheit» / Erhabenheit) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
