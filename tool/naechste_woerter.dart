@@ -3335,6 +3335,11 @@ const zurueckgestellt = <String>{
   'Idealist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, der nach Idealen strebt / Vertreter des philosophischen Idealismus) — nach den Nomen 2026-10-28
   'Idee', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfall, Gedanke / Philosophie: Urbild / (ugs.) ein bisschen «eine Idee mehr Salz») — nach den Nomen 2026-10-28
   'Identifikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifikation des Opfers» / psychisch: sich mit jemandem gleichsetzen) — nach den Nomen 2026-10-28
+  'Identifizierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifizierung des Toten» / innere Gleichsetzung mit jemandem) — nach den Nomen 2026-10-28
+  'Idiom', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spracheigentümlichkeit einer Gruppe, Mundart / feste Redewendung) — nach den Nomen 2026-10-28
+  'Idiot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (ugs., Schimpfwort) Dummkopf / (veraltet, Medizin) geistig schwer behinderter Mensch) — nach den Nomen 2026-10-28
+  'Idol', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: verehrtes Vorbild «Idol der Jugend» / Götzenbild) — nach den Nomen 2026-10-28
+  'Idylle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Literatur: Hirtendichtung / = das Idyll, friedlicher Zustand) — nach den Nomen 2026-10-28
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

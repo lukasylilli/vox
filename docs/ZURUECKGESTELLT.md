@@ -3352,3 +3352,8 @@
 | 1072 | Idealist | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Mensch, der nach Idealen strebt / Vertreter des philosophischen Idealismus) |
 | 1073 | Idee | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Einfall, Gedanke / Philosophie: Urbild / (ugs.) ein bisschen «eine Idee mehr Salz») |
 | 1074 | Identifikation | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifikation des Opfers» / psychisch: sich mit jemandem gleichsetzen) |
+| 1075 | Identifizierung | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Feststellung der Identität «Identifizierung des Toten» / innere Gleichsetzung mit jemandem) |
+| 1076 | Idiom | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Spracheigentümlichkeit einer Gruppe, Mundart / feste Redewendung) |
+| 1077 | Idiot | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: (ugs., Schimpfwort) Dummkopf / (veraltet, Medizin) geistig schwer behinderter Mensch) |
+| 1078 | Idol | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: verehrtes Vorbild «Idol der Jugend» / Götzenbild) |
+| 1079 | Idylle | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Literatur: Hirtendichtung / = das Idyll, friedlicher Zustand) |
