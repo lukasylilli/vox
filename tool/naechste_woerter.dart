@@ -3463,6 +3463,8 @@ const zurueckgestellt = <String>{
   'Jerez', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Genus: Jerez de la Frontera, Stadt in Spanien / der Jerez = Sherry, Wein aus dieser Gegend) — nach den Nomen 2026-10-29
   'Jesuit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied des Jesuitenordens / abwertend: spitzfindig, listig argumentierender Mensch) — nach den Nomen 2026-10-29
   'Joch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuggeschirr für Rinder / übertragen: drückende Last, Unterdrückung «das Joch abschütteln» / Bergsattel, Pass / Bauwesen: Brückenjoch, Gewölbejoch) — nach den Nomen 2026-10-29
+  'Jodler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: einzelner Jodelruf, Jodellied / Person, die jodelt) — nach den Nomen 2026-10-29
+  'Joker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielkarte mit beliebigem Wert / übertragen: Trumpf, Hilfe im Quiz «den Joker ziehen») — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3473,6 +3475,8 @@ const zurueckgestellt = <String>{
   'Investitionsbank', // zurückgestellt: meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) 2026-10-29
   'Ischl', // zurückgestellt: der Ortsname lautet «Bad Ischl» (Lemma der Liste unvollständig, wie Haag ⇒ Den Haag) — Regel 14/18 2026-10-29
   'Jeep', // zurückgestellt: Markenname (Jeep®) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
+  'Joghurt', // zurückgestellt: Genus schwankt (der, das; österr. auch die Joghurt) — Regel 14 2026-10-29
+  'Johanniter', // zurückgestellt: Mitglied eines Ordens bzw. Name einer Hilfsorganisation (Johanniter-Unfall-Hilfe) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2445,6 +2445,8 @@
 | ۲۲۶۸ | Investitionsbank | `substantiv_singular_alle.txt` | 2026-10-29 | meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) | — |
 | ۲۲۶۹ | Ischl | `substantiv_singular_alle.txt` | 2026-10-29 | der Ortsname lautet «Bad Ischl» (Lemma der Liste unvollständig, wie Haag ⇒ Den Haag) — Regel 14/18 | — |
 | ۲۲۷۰ | Jeep | `substantiv_singular_alle.txt` | 2026-10-29 | Markenname (Jeep®) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۷۱ | Joghurt | `substantiv_singular_alle.txt` | 2026-10-29 | Genus schwankt (der, das; österr. auch die Joghurt) — Regel 14 | — |
+| ۲۲۷۲ | Johanniter | `substantiv_singular_alle.txt` | 2026-10-29 | Mitglied eines Ordens bzw. Name einer Hilfsorganisation (Johanniter-Unfall-Hilfe) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3442,3 +3444,5 @@
 | 1151 | Jerez | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 2 (Homograph mit anderem Genus: Jerez de la Frontera, Stadt in Spanien / der Jerez = Sherry, Wein aus dieser Gegend) |
 | 1152 | Jesuit | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mitglied des Jesuitenordens / abwertend: spitzfindig, listig argumentierender Mensch) |
 | 1153 | Joch | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zuggeschirr für Rinder / übertragen: drückende Last, Unterdrückung «das Joch abschütteln» / Bergsattel, Pass / Bauwesen: Brückenjoch, Gewölbejoch) |
+| 1154 | Jodler | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: einzelner Jodelruf, Jodellied / Person, die jodelt) |
+| 1155 | Joker | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spielkarte mit beliebigem Wert / übertragen: Trumpf, Hilfe im Quiz «den Joker ziehen») |
