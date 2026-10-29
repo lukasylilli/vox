@@ -3439,10 +3439,16 @@ const zurueckgestellt = <String>{
   'Hunt', // zurückgestellt: Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Hunter', // zurückgestellt: Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Importe', // zurückgestellt: Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 2026-10-29
+  'Interpellation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: parlamentarische Anfrage an die Regierung / veraltet: Einspruch, Unterbrechung) — nach den Nomen 2026-10-29
+  'Interpret', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der etwas deutet, auslegt / Künstler, der ein Musikstück wiedergibt, Sänger) — nach den Nomen 2026-10-29
+  'Interpretation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deutung, Auslegung eines Textes / künstlerische Wiedergabe eines Musikstücks) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Input', // zurückgestellt: zurückgestellt: Genus schwankt (der oder das Input) — Regel 14 2026-10-29
+  'Interpol', // zurückgestellt: Name einer Organisation (Internationale Kriminalpolizeiliche Organisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
+  'Interregio', // zurückgestellt: Name einer Zuggattung der Bahn (in Deutschland 2006 eingestellt, in der Schweiz weiter) — Markenname, Gebrauch je Land verschieden, nicht sicher (Regel 14/18) 2026-10-29
+  'Intershop', // zurückgestellt: Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

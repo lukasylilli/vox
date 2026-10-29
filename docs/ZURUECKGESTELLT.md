@@ -2439,6 +2439,9 @@
 | ۲۲۶۲ | Industriellenvereinigung | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۳ | Innenministerkonferenz | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۴ | Input | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: Genus schwankt (der oder das Input) — Regel 14 | — |
+| ۲۲۶۵ | Interpol | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Organisation (Internationale Kriminalpolizeiliche Organisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۶۶ | Interregio | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Zuggattung der Bahn (in Deutschland 2006 eingestellt, in der Schweiz weiter) — Markenname, Gebrauch je Land verschieden, nicht sicher (Regel 14/18) | — |
+| ۲۲۶۷ | Intershop | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3412,3 +3415,6 @@
 | 1127 | Interieur | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: das Innere, die Ausstattung eines Raumes / Kunst: Bild eines Innenraums) |
 | 1128 | Interim | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zwischenzeit / vorläufige Regelung, Übergangslösung) |
 | 1129 | Intermezzo | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Musik, Theater: Zwischenspiel / kleiner, kurzer Zwischenfall) |
+| 1130 | Interpellation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: parlamentarische Anfrage an die Regierung / veraltet: Einspruch, Unterbrechung) |
+| 1131 | Interpret | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: jemand, der etwas deutet, auslegt / Künstler, der ein Musikstück wiedergibt, Sänger) |
+| 1132 | Interpretation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Deutung, Auslegung eines Textes / künstlerische Wiedergabe eines Musikstücks) |
