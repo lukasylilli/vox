@@ -2444,6 +2444,7 @@
 | ۲۲۶۷ | Intershop | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۸ | Investitionsbank | `substantiv_singular_alle.txt` | 2026-10-29 | meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) | — |
 | ۲۲۶۹ | Ischl | `substantiv_singular_alle.txt` | 2026-10-29 | der Ortsname lautet «Bad Ischl» (Lemma der Liste unvollständig, wie Haag ⇒ Den Haag) — Regel 14/18 | — |
+| ۲۲۷۰ | Jeep | `substantiv_singular_alle.txt` | 2026-10-29 | Markenname (Jeep®) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3438,3 +3439,6 @@
 | 1148 | Jahrgang | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: alle im selben Jahr Geborenen «Jahrgang 1990» / alle Hefte einer Zeitschrift aus einem Jahr / Wein aus einem bestimmten Erntejahr) |
 | 1149 | Jammer | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: lautes Klagen, Wehklagen / Elend, Kummer / ugs.: «Es ist ein Jammer» = schade) |
 | 1150 | Jargon | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Fachsprache, Sondersprache einer Gruppe «Juristenjargon» / abwertend: saloppe, ungepflegte Ausdrucksweise) |
+| 1151 | Jerez | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 2 (Homograph mit anderem Genus: Jerez de la Frontera, Stadt in Spanien / der Jerez = Sherry, Wein aus dieser Gegend) |
+| 1152 | Jesuit | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mitglied des Jesuitenordens / abwertend: spitzfindig, listig argumentierender Mensch) |
+| 1153 | Joch | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zuggeschirr für Rinder / übertragen: drückende Last, Unterdrückung «das Joch abschütteln» / Bergsattel, Pass / Bauwesen: Brückenjoch, Gewölbejoch) |
