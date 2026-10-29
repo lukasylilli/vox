@@ -3365,6 +3365,10 @@ const zurueckgestellt = <String>{
   'Informationsstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stand mit Informationen, Infostand / Grad der Informiertheit «nach dem jetzigen Informationsstand») — nach den Nomen 2026-10-29
   'Inhalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Enthaltene «Inhalt der Flasche» / Gedankengehalt «Inhalt eines Buches» / Mathematik: Flächen- oder Rauminhalt) — nach den Nomen 2026-10-29
   'Initiative', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anstoß, Entschlusskraft «die Initiative ergreifen» / Gruppe mit gemeinsamem Ziel «Bürgerinitiative» / schweiz.: Volksbegehren) — nach den Nomen 2026-10-29
+  'Injektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Einspritzung, Spritze / Bautechnik, Geologie: Einpressen von Material) — nach den Nomen 2026-10-29
+  'Inka', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrscher des Inkareichs / Angehöriger des Volkes der Inka) — nach den Nomen 2026-10-29
+  'Inkarnation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion: Fleischwerdung, Menschwerdung / Verkörperung «die Inkarnation des Bösen») — nach den Nomen 2026-10-29
+  'Inland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: eigenes Staatsgebiet, Gegensatz zu Ausland / Binnenland, von der Küste entfernt) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
