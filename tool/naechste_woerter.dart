@@ -3347,6 +3347,8 @@ const zurueckgestellt = <String>{
   'Imbiss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) — nach den Nomen 2026-10-28
   'Imitation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachahmung / minderwertige Nachbildung «Imitation aus Plastik» / Musik: Wiederholung eines Themas in einer anderen Stimme) — nach den Nomen 2026-10-29
   'Imperativ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») — nach den Nomen 2026-10-29
+  'Imperium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaiserreich, Weltreich «das Römische Imperium» / übertragen: großer Machtbereich «Wirtschaftsimperium») — nach den Nomen 2026-10-29
+  'Import', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfuhr von Waren / eingeführte Ware (meist Pl. «Importe») / EDV: Übernahme von Daten) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3395,6 +3397,7 @@ const zurueckgestellt = <String>{
   'Hunderttausend', // zurückgestellt: Wortart/Genus unsicher (Zahlwort «hunderttausend» oder Nomen «das Hunderttausend», meist Plural «Hunderttausende») — Regel 14 2026-10-28
   'Hunt', // zurückgestellt: Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Hunter', // zurückgestellt: Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) 2026-10-28
+  'Importe', // zurückgestellt: Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

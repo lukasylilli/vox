@@ -2434,6 +2434,7 @@
 | ۲۲۵۷ | Hunderttausend | `substantiv_singular_alle.txt` | 2026-10-28 | Wortart/Genus unsicher (Zahlwort «hunderttausend» oder Nomen «das Hunderttausend», meist Plural «Hunderttausende») — Regel 14 | — |
 | ۲۲۵۸ | Hunt | `substantiv_singular_alle.txt` | 2026-10-28 | Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۵۹ | Hunter | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) | — |
+| ۲۲۶۰ | Importe | `substantiv_singular_alle.txt` | 2026-10-29 | Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3364,3 +3365,5 @@
 | 1084 | Imbiss | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) |
 | 1085 | Imitation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Nachahmung / minderwertige Nachbildung «Imitation aus Plastik» / Musik: Wiederholung eines Themas in einer anderen Stimme) |
 | 1086 | Imperativ | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») |
+| 1087 | Imperium | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kaiserreich, Weltreich «das Römische Imperium» / übertragen: großer Machtbereich «Wirtschaftsimperium») |
+| 1088 | Import | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einfuhr von Waren / eingeführte Ware (meist Pl. «Importe») / EDV: Übernahme von Daten) |
