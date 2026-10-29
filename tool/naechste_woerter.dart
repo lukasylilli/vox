@@ -3345,6 +3345,8 @@ const zurueckgestellt = <String>{
   'Illustration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bild in einem Buch / Veranschaulichung, Erläuterung) — nach den Nomen 2026-10-28
   'Imam', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorbeter in der Moschee / Ehrentitel, im schiitischen Islam: einer der zwölf Imame) — nach den Nomen 2026-10-28
   'Imbiss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) — nach den Nomen 2026-10-28
+  'Imitation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachahmung / minderwertige Nachbildung «Imitation aus Plastik» / Musik: Wiederholung eines Themas in einer anderen Stimme) — nach den Nomen 2026-10-29
+  'Imperativ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

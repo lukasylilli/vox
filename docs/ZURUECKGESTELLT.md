@@ -3362,3 +3362,5 @@
 | 1082 | Illustration | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Bild in einem Buch / Veranschaulichung, Erläuterung) |
 | 1083 | Imam | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: Vorbeter in der Moschee / Ehrentitel, im schiitischen Islam: einer der zwölf Imame) |
 | 1084 | Imbiss | `substantiv_singular_alle.txt` | 2026-10-28 | Fall 1 (mehrere Bedeutungen: kleine Mahlzeit / Imbissstube, Imbissstand) |
+| 1085 | Imitation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Nachahmung / minderwertige Nachbildung «Imitation aus Plastik» / Musik: Wiederholung eines Themas in einer anderen Stimme) |
+| 1086 | Imperativ | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») |
