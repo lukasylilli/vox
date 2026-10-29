@@ -3367,3 +3367,6 @@
 | 1086 | Imperativ | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») |
 | 1087 | Imperium | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kaiserreich, Weltreich «das Römische Imperium» / übertragen: großer Machtbereich «Wirtschaftsimperium») |
 | 1088 | Import | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einfuhr von Waren / eingeführte Ware (meist Pl. «Importe») / EDV: Übernahme von Daten) |
+| 1089 | Impression | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Eindruck, Sinneswahrnehmung / Medizin: Eindellung eines Organs) |
+| 1090 | Impuls | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anstoß, Anregung / innere Regung, Antrieb / Physik: Bewegungsgröße / Elektrotechnik: Stromstoß) |
+| 1091 | Inanspruchnahme | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Nutzung «Inanspruchnahme einer Leistung» / Belastung, Beanspruchung «starke berufliche Inanspruchnahme») |

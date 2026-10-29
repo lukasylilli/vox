@@ -3349,6 +3349,9 @@ const zurueckgestellt = <String>{
   'Imperativ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik: Befehlsform / Philosophie: Pflichtgebot «kategorischer Imperativ») — nach den Nomen 2026-10-29
   'Imperium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaiserreich, Weltreich «das Römische Imperium» / übertragen: großer Machtbereich «Wirtschaftsimperium») — nach den Nomen 2026-10-29
   'Import', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfuhr von Waren / eingeführte Ware (meist Pl. «Importe») / EDV: Übernahme von Daten) — nach den Nomen 2026-10-29
+  'Impression', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eindruck, Sinneswahrnehmung / Medizin: Eindellung eines Organs) — nach den Nomen 2026-10-29
+  'Impuls', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anstoß, Anregung / innere Regung, Antrieb / Physik: Bewegungsgröße / Elektrotechnik: Stromstoß) — nach den Nomen 2026-10-29
+  'Inanspruchnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutzung «Inanspruchnahme einer Leistung» / Belastung, Beanspruchung «starke berufliche Inanspruchnahme») — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
