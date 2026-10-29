@@ -3433,3 +3433,5 @@
 | 1143 | Irrweg | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: falscher Weg beim Gehen oder Fahren / übertragen: falsches Vorgehen «auf dem Irrweg sein») |
 | 1144 | Isolation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absonderung, z. B. von Kranken / Vereinsamung, Abgeschiedenheit / Technik: Dämmung gegen Strom, Wärme, Schall) |
 | 1145 | Isolierung | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absonderung, Abtrennung von anderen / Technik: Dämmung, Isoliermaterial gegen Strom, Kälte, Schall) |
+| 1146 | Jagd | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: das Jagen von Wild / Jagdrevier, Jagdgesellschaft / übertragen: Verfolgung, eifrige Suche «die Jagd nach dem Glück») |
+| 1147 | Jahresabschluss | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Ende des Jahres «zum Jahresabschluss» / Wirtschaft: Bilanz und Abrechnung eines Geschäftsjahres) |

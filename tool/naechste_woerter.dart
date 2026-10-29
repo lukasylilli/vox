@@ -3455,6 +3455,8 @@ const zurueckgestellt = <String>{
   'Irrweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falscher Weg beim Gehen oder Fahren / übertragen: falsches Vorgehen «auf dem Irrweg sein») — nach den Nomen 2026-10-29
   'Isolation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absonderung, z. B. von Kranken / Vereinsamung, Abgeschiedenheit / Technik: Dämmung gegen Strom, Wärme, Schall) — nach den Nomen 2026-10-29
   'Isolierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absonderung, Abtrennung von anderen / Technik: Dämmung, Isoliermaterial gegen Strom, Kälte, Schall) — nach den Nomen 2026-10-29
+  'Jagd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Jagen von Wild / Jagdrevier, Jagdgesellschaft / übertragen: Verfolgung, eifrige Suche «die Jagd nach dem Glück») — nach den Nomen 2026-10-29
+  'Jahresabschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ende des Jahres «zum Jahresabschluss» / Wirtschaft: Bilanz und Abrechnung eines Geschäftsjahres) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
