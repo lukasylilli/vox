@@ -3352,6 +3352,9 @@ const zurueckgestellt = <String>{
   'Impression', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eindruck, Sinneswahrnehmung / Medizin: Eindellung eines Organs) — nach den Nomen 2026-10-29
   'Impuls', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anstoß, Anregung / innere Regung, Antrieb / Physik: Bewegungsgröße / Elektrotechnik: Stromstoß) — nach den Nomen 2026-10-29
   'Inanspruchnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutzung «Inanspruchnahme einer Leistung» / Belastung, Beanspruchung «starke berufliche Inanspruchnahme») — nach den Nomen 2026-10-29
+  'Index', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis, Register / Kennzahl «Preisindex» / kirchliches Verbotsverzeichnis «auf dem Index» / Mathematik: Kennziffer) — nach den Nomen 2026-10-29
+  'Indikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Grund für eine Behandlung / Recht: Grund für einen erlaubten Schwangerschaftsabbruch) — nach den Nomen 2026-10-29
+  'Indikator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anzeichen, Merkmal / Chemie: Stoff, der durch Farbe etwas anzeigt / Technik: Messgerät) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3401,6 +3404,7 @@ const zurueckgestellt = <String>{
   'Hunt', // zurückgestellt: Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Hunter', // zurückgestellt: Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Importe', // zurückgestellt: Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 2026-10-29
+  'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2435,6 +2435,7 @@
 | ۲۲۵۸ | Hunt | `substantiv_singular_alle.txt` | 2026-10-28 | Bergbau-Fachwort (Förderwagen, auch «Hund» geschrieben) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۵۹ | Hunter | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۶۰ | Importe | `substantiv_singular_alle.txt` | 2026-10-29 | Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 | — |
+| ۲۲۶۱ | Indian | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3370,3 +3371,6 @@
 | 1089 | Impression | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Eindruck, Sinneswahrnehmung / Medizin: Eindellung eines Organs) |
 | 1090 | Impuls | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anstoß, Anregung / innere Regung, Antrieb / Physik: Bewegungsgröße / Elektrotechnik: Stromstoß) |
 | 1091 | Inanspruchnahme | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Nutzung «Inanspruchnahme einer Leistung» / Belastung, Beanspruchung «starke berufliche Inanspruchnahme») |
+| 1092 | Index | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Verzeichnis, Register / Kennzahl «Preisindex» / kirchliches Verbotsverzeichnis «auf dem Index» / Mathematik: Kennziffer) |
+| 1093 | Indikation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Medizin: Grund für eine Behandlung / Recht: Grund für einen erlaubten Schwangerschaftsabbruch) |
+| 1094 | Indikator | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anzeichen, Merkmal / Chemie: Stoff, der durch Farbe etwas anzeigt / Technik: Messgerät) |
