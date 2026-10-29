@@ -3387,6 +3387,9 @@ const zurueckgestellt = <String>{
   'Intelligenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) — nach den Nomen 2026-10-29
   'Intendanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amt, Leitung eines Intendanten / Büro, Verwaltung eines Theaters oder Senders) — nach den Nomen 2026-10-29
   'Interesse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteilnahme, Aufmerksamkeit «Interesse an + Dat» / Neigung, Hobby «meine Interessen» / Belang, Vorteil «im Interesse der Kunden») — nach den Nomen 2026-10-29
+  'Interieur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Innere, die Ausstattung eines Raumes / Kunst: Bild eines Innenraums) — nach den Nomen 2026-10-29
+  'Interim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zwischenzeit / vorläufige Regelung, Übergangslösung) — nach den Nomen 2026-10-29
+  'Intermezzo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik, Theater: Zwischenspiel / kleiner, kurzer Zwischenfall) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

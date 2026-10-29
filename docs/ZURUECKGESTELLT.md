@@ -3409,3 +3409,6 @@
 | 1124 | Intelligenz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) |
 | 1125 | Intendanz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Amt, Leitung eines Intendanten / Büro, Verwaltung eines Theaters oder Senders) |
 | 1126 | Interesse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anteilnahme, Aufmerksamkeit «Interesse an + Dat» / Neigung, Hobby «meine Interessen» / Belang, Vorteil «im Interesse der Kunden») |
+| 1127 | Interieur | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: das Innere, die Ausstattung eines Raumes / Kunst: Bild eines Innenraums) |
+| 1128 | Interim | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zwischenzeit / vorläufige Regelung, Übergangslösung) |
+| 1129 | Intermezzo | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Musik, Theater: Zwischenspiel / kleiner, kurzer Zwischenfall) |
