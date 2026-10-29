@@ -2436,6 +2436,7 @@
 | ۲۲۵۹ | Hunter | `substantiv_singular_alle.txt` | 2026-10-28 | Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) | — |
 | ۲۲۶۰ | Importe | `substantiv_singular_alle.txt` | 2026-10-29 | Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 | — |
 | ۲۲۶۱ | Indian | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) | — |
+| ۲۲۶۲ | Industriellenvereinigung | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3377,3 +3378,4 @@
 | 1095 | Individualismus | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Philosophie: Lehre vom Vorrang des Einzelnen / Haltung, die das Eigene betont) |
 | 1096 | Individualist | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mensch mit ausgeprägter Eigenart / Vertreter des philosophischen Individualismus) |
 | 1097 | Individuum | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einzelwesen, Mensch / abwertend: zweifelhafte Person «ein verdächtiges Individuum» / Biologie: Einzelorganismus) |
+| 1098 | Industrieller | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 4 (substantiviertes Adjektiv: der Industrielle / ein Industrieller) |

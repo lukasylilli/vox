@@ -3358,6 +3358,7 @@ const zurueckgestellt = <String>{
   'Individualismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Philosophie: Lehre vom Vorrang des Einzelnen / Haltung, die das Eigene betont) — nach den Nomen 2026-10-29
   'Individualist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch mit ausgeprägter Eigenart / Vertreter des philosophischen Individualismus) — nach den Nomen 2026-10-29
   'Individuum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einzelwesen, Mensch / abwertend: zweifelhafte Person «ein verdächtiges Individuum» / Biologie: Einzelorganismus) — nach den Nomen 2026-10-29
+  'Industrieller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Industrielle / ein Industrieller) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3408,6 +3409,7 @@ const zurueckgestellt = <String>{
   'Hunter', // zurückgestellt: Fachwort (englisch: Jagdpferd) — als Lernwort nicht sicher (Regel 14) 2026-10-28
   'Importe', // zurückgestellt: Pluralform von «der Import» (kein eigenes Lemma); «Import» selbst steht in der Vier-Fälle-Liste — Regel 14 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
+  'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
