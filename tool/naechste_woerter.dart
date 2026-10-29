@@ -3448,6 +3448,7 @@ const zurueckgestellt = <String>{
   'Intonation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) — nach den Nomen 2026-10-29
   'Invasion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) — nach den Nomen 2026-10-29
   'Inventar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Einrichtungsgegenstände eines Betriebs / Bestandsverzeichnis, Liste / ugs.: «zum Inventar gehören» von Personen) — nach den Nomen 2026-10-29
+  'Inzest', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschlechtsverkehr zwischen engen Blutsverwandten / Biologie: Inzucht bei Tieren und Pflanzen) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

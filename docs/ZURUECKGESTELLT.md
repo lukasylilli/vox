@@ -3425,3 +3425,4 @@
 | 1136 | Intonation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) |
 | 1137 | Invasion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) |
 | 1138 | Inventar | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Einrichtungsgegenstände eines Betriebs / Bestandsverzeichnis, Liste / ugs.: «zum Inventar gehören» von Personen) |
+| 1139 | Inzest | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschlechtsverkehr zwischen engen Blutsverwandten / Biologie: Inzucht bei Tieren und Pflanzen) |
