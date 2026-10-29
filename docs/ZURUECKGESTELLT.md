@@ -3436,3 +3436,4 @@
 | 1146 | Jagd | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: das Jagen von Wild / Jagdrevier, Jagdgesellschaft / übertragen: Verfolgung, eifrige Suche «die Jagd nach dem Glück») |
 | 1147 | Jahresabschluss | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Ende des Jahres «zum Jahresabschluss» / Wirtschaft: Bilanz und Abrechnung eines Geschäftsjahres) |
 | 1148 | Jahrgang | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: alle im selben Jahr Geborenen «Jahrgang 1990» / alle Hefte einer Zeitschrift aus einem Jahr / Wein aus einem bestimmten Erntejahr) |
+| 1149 | Jammer | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: lautes Klagen, Wehklagen / Elend, Kummer / ugs.: «Es ist ein Jammer» = schade) |
