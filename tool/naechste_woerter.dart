@@ -3385,6 +3385,8 @@ const zurueckgestellt = <String>{
   'Inszenierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theater: Einstudierung, Aufführung / übertragen: geschickt organisierte Show «eine perfekte Inszenierung») — nach den Nomen 2026-10-29
   'Integration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eingliederung in die Gesellschaft / Zusammenschluss «europäische Integration» / Mathematik: Berechnung eines Integrals) — nach den Nomen 2026-10-29
   'Intelligenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) — nach den Nomen 2026-10-29
+  'Intendanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amt, Leitung eines Intendanten / Büro, Verwaltung eines Theaters oder Senders) — nach den Nomen 2026-10-29
+  'Interesse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteilnahme, Aufmerksamkeit «Interesse an + Dat» / Neigung, Hobby «meine Interessen» / Belang, Vorteil «im Interesse der Kunden») — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27

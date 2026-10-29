@@ -3407,3 +3407,5 @@
 | 1122 | Inszenierung | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Theater: Einstudierung, Aufführung / übertragen: geschickt organisierte Show «eine perfekte Inszenierung») |
 | 1123 | Integration | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Eingliederung in die Gesellschaft / Zusammenschluss «europäische Integration» / Mathematik: Berechnung eines Integrals) |
 | 1124 | Intelligenz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) |
+| 1125 | Intendanz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Amt, Leitung eines Intendanten / Büro, Verwaltung eines Theaters oder Senders) |
+| 1126 | Interesse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anteilnahme, Aufmerksamkeit «Interesse an + Dat» / Neigung, Hobby «meine Interessen» / Belang, Vorteil «im Interesse der Kunden») |
