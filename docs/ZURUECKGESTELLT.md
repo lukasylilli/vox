@@ -3374,3 +3374,6 @@
 | 1092 | Index | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Verzeichnis, Register / Kennzahl «Preisindex» / kirchliches Verbotsverzeichnis «auf dem Index» / Mathematik: Kennziffer) |
 | 1093 | Indikation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Medizin: Grund für eine Behandlung / Recht: Grund für einen erlaubten Schwangerschaftsabbruch) |
 | 1094 | Indikator | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anzeichen, Merkmal / Chemie: Stoff, der durch Farbe etwas anzeigt / Technik: Messgerät) |
+| 1095 | Individualismus | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Philosophie: Lehre vom Vorrang des Einzelnen / Haltung, die das Eigene betont) |
+| 1096 | Individualist | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mensch mit ausgeprägter Eigenart / Vertreter des philosophischen Individualismus) |
+| 1097 | Individuum | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einzelwesen, Mensch / abwertend: zweifelhafte Person «ein verdächtiges Individuum» / Biologie: Einzelorganismus) |

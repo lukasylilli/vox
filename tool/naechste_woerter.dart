@@ -3355,6 +3355,9 @@ const zurueckgestellt = <String>{
   'Index', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis, Register / Kennzahl «Preisindex» / kirchliches Verbotsverzeichnis «auf dem Index» / Mathematik: Kennziffer) — nach den Nomen 2026-10-29
   'Indikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Grund für eine Behandlung / Recht: Grund für einen erlaubten Schwangerschaftsabbruch) — nach den Nomen 2026-10-29
   'Indikator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anzeichen, Merkmal / Chemie: Stoff, der durch Farbe etwas anzeigt / Technik: Messgerät) — nach den Nomen 2026-10-29
+  'Individualismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Philosophie: Lehre vom Vorrang des Einzelnen / Haltung, die das Eigene betont) — nach den Nomen 2026-10-29
+  'Individualist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch mit ausgeprägter Eigenart / Vertreter des philosophischen Individualismus) — nach den Nomen 2026-10-29
+  'Individuum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einzelwesen, Mensch / abwertend: zweifelhafte Person «ein verdächtiges Individuum» / Biologie: Einzelorganismus) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
