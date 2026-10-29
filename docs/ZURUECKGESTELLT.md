@@ -3382,3 +3382,4 @@
 | 1099 | Inferno | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Hölle «Dantes Inferno» / übertragen: schreckliches Geschehen «Flammeninferno») |
 | 1100 | Inflation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geldentwertung / übertragen: übermäßige Ausweitung «eine Inflation von Preisen, Titeln») |
 | 1101 | Information | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Auskunft, Nachricht / Auskunftsschalter «an der Information fragen» / Informatik: Information als Datenmenge) |
+| 1102 | Informationsstand | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Stand mit Informationen, Infostand / Grad der Informiertheit «nach dem jetzigen Informationsstand») |
