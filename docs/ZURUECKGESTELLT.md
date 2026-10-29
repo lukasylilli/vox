@@ -3459,3 +3459,6 @@
 | 1166 | Jury | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Preisrichter-Gremium bei Wettbewerben / Geschworene vor Gericht, bes. in den USA) |
 | 1167 | Kabarett | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kleinkunstbühne, satirische Darbietung / drehbare, unterteilte Servierplatte) |
 | 1168 | Kabine | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Schiffskabine / Umkleidekabine, Telefonkabine / Kabine einer Seilbahn, eines Flugzeugs) |
+| 1169 | Kabinett | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister einer Regierung / kleiner Nebenraum, Ausstellungsraum / Qualitätsstufe beim Wein) |
+| 1170 | Kader | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Stammmannschaft, Kerntruppe (Sport, Militär) / Führungskraft, Gruppe von Führungskräften (DDR, schweiz.)) |
+| 1171 | Kadi | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Richter in islamischen Ländern / ugs. scherzhaft für Gericht «vor den Kadi bringen») |
