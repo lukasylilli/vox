@@ -3418,3 +3418,8 @@
 | 1130 | Interpellation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: parlamentarische Anfrage an die Regierung / veraltet: Einspruch, Unterbrechung) |
 | 1131 | Interpret | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: jemand, der etwas deutet, auslegt / Künstler, der ein Musikstück wiedergibt, Sänger) |
 | 1132 | Interpretation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Deutung, Auslegung eines Textes / künstlerische Wiedergabe eines Musikstücks) |
+| 1133 | Intervall | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zeitabstand, Zwischenraum / Musik: Abstand zweier Töne / Mathematik: Bereich zwischen zwei Zahlen) |
+| 1134 | Intervention | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Eingreifen eines Staates in fremde Angelegenheiten / Vermittlung, Einschreiten / Medizin, Psychologie: gezielte Maßnahme) |
+| 1135 | Intoleranz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Unduldsamkeit gegenüber anderen Meinungen / Medizin: Unverträglichkeit «Laktoseintoleranz») |
+| 1136 | Intonation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) |
+| 1137 | Invasion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) |

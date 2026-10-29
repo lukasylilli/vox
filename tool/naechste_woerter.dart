@@ -3442,6 +3442,11 @@ const zurueckgestellt = <String>{
   'Interpellation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: parlamentarische Anfrage an die Regierung / veraltet: Einspruch, Unterbrechung) — nach den Nomen 2026-10-29
   'Interpret', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der etwas deutet, auslegt / Künstler, der ein Musikstück wiedergibt, Sänger) — nach den Nomen 2026-10-29
   'Interpretation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deutung, Auslegung eines Textes / künstlerische Wiedergabe eines Musikstücks) — nach den Nomen 2026-10-29
+  'Intervall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitabstand, Zwischenraum / Musik: Abstand zweier Töne / Mathematik: Bereich zwischen zwei Zahlen) — nach den Nomen 2026-10-29
+  'Intervention', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eingreifen eines Staates in fremde Angelegenheiten / Vermittlung, Einschreiten / Medizin, Psychologie: gezielte Maßnahme) — nach den Nomen 2026-10-29
+  'Intoleranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unduldsamkeit gegenüber anderen Meinungen / Medizin: Unverträglichkeit «Laktoseintoleranz») — nach den Nomen 2026-10-29
+  'Intonation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) — nach den Nomen 2026-10-29
+  'Invasion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
