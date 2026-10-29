@@ -3446,3 +3446,5 @@
 | 1153 | Joch | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zuggeschirr für Rinder / übertragen: drückende Last, Unterdrückung «das Joch abschütteln» / Bergsattel, Pass / Bauwesen: Brückenjoch, Gewölbejoch) |
 | 1154 | Jodler | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: einzelner Jodelruf, Jodellied / Person, die jodelt) |
 | 1155 | Joker | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spielkarte mit beliebigem Wert / übertragen: Trumpf, Hilfe im Quiz «den Joker ziehen») |
+| 1156 | Jugend | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zeit des Jungseins «in meiner Jugend» / die jungen Menschen als Gruppe «die Jugend von heute») |
+| 1157 | Jugendarbeit | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sozialarbeit, Freizeitangebote für Jugendliche / Erwerbsarbeit von Jugendlichen «Jugendarbeitsschutz») |
