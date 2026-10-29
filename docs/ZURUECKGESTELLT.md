@@ -3457,3 +3457,5 @@
 | 1164 | Juniorpartner | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: jüngerer Teilhaber einer Firma / Politik: kleinerer Partner einer Koalition) |
 | 1165 | Junker | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: historisch: junger Adliger / adliger Gutsbesitzer in Ostelbien, Preußen) |
 | 1166 | Jury | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Preisrichter-Gremium bei Wettbewerben / Geschworene vor Gericht, bes. in den USA) |
+| 1167 | Kabarett | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kleinkunstbühne, satirische Darbietung / drehbare, unterteilte Servierplatte) |
+| 1168 | Kabine | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Schiffskabine / Umkleidekabine, Telefonkabine / Kabine einer Seilbahn, eines Flugzeugs) |
