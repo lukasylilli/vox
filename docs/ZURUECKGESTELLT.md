@@ -3383,3 +3383,5 @@
 | 1100 | Inflation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geldentwertung / übertragen: übermäßige Ausweitung «eine Inflation von Preisen, Titeln») |
 | 1101 | Information | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Auskunft, Nachricht / Auskunftsschalter «an der Information fragen» / Informatik: Information als Datenmenge) |
 | 1102 | Informationsstand | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Stand mit Informationen, Infostand / Grad der Informiertheit «nach dem jetzigen Informationsstand») |
+| 1103 | Inhalt | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: das Enthaltene «Inhalt der Flasche» / Gedankengehalt «Inhalt eines Buches» / Mathematik: Flächen- oder Rauminhalt) |
+| 1104 | Initiative | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Anstoß, Entschlusskraft «die Initiative ergreifen» / Gruppe mit gemeinsamem Ziel «Bürgerinitiative» / schweiz.: Volksbegehren) |
