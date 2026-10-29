@@ -3394,3 +3394,7 @@
 | 1109 | Innenleben | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Seelenleben, innere Gefühle / ugs.: innerer Aufbau eines Geräts «das Innenleben des Computers») |
 | 1110 | Inquisition | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschichte: kirchliches Gericht gegen Ketzer / strenges, peinliches Verhör) |
 | 1111 | Insasse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Fahrgast eines Fahrzeugs / Bewohner eines Heims, Gefangener einer Anstalt) |
+| 1112 | Inspekteur | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Leiter einer Inspektion, Prüfer / Bundeswehr: höchster Offizier einer Teilstreitkraft) |
+| 1113 | Inspektion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Prüfung, Kontrolle / Wartung eines Fahrzeugs / Behörde, Dienststelle) |
+| 1114 | Inspektor | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Beamter im gehobenen Dienst / Kontrolleur, Prüfer; österr.: Polizeiinspektor) |
+| 1115 | Installation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einbau von Leitungen, Anlagen / EDV: Installieren von Software / Kunst: Rauminstallation) |

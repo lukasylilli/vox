@@ -3372,6 +3372,10 @@ const zurueckgestellt = <String>{
   'Innenleben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seelenleben, innere Gefühle / ugs.: innerer Aufbau eines Geräts «das Innenleben des Computers») — nach den Nomen 2026-10-29
   'Inquisition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: kirchliches Gericht gegen Ketzer / strenges, peinliches Verhör) — nach den Nomen 2026-10-29
   'Insasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrgast eines Fahrzeugs / Bewohner eines Heims, Gefangener einer Anstalt) — nach den Nomen 2026-10-29
+  'Inspekteur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leiter einer Inspektion, Prüfer / Bundeswehr: höchster Offizier einer Teilstreitkraft) — nach den Nomen 2026-10-29
+  'Inspektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfung, Kontrolle / Wartung eines Fahrzeugs / Behörde, Dienststelle) — nach den Nomen 2026-10-29
+  'Inspektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beamter im gehobenen Dienst / Kontrolleur, Prüfer; österr.: Polizeiinspektor) — nach den Nomen 2026-10-29
+  'Installation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einbau von Leitungen, Anlagen / EDV: Installieren von Software / Kunst: Rauminstallation) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
