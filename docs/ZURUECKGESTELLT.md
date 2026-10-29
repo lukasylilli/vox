@@ -3403,3 +3403,7 @@
 | 1118 | Instinkt | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: angeborener Trieb bei Tieren / sicheres Gefühl, Gespür «ein guter Instinkt») |
 | 1119 | Institution | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: öffentliche Einrichtung, Behörde / gesellschaftliche Einrichtung wie Ehe, Familie / ugs.: feste Größe «Er ist eine Institution») |
 | 1120 | Instrument | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gerät, Werkzeug / Musikinstrument / Mittel zum Zweck «ein politisches Instrument») |
+| 1121 | Instrumentarium | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Instrumente, Geräte / übertragen: Gesamtheit der Mittel «das politische Instrumentarium») |
+| 1122 | Inszenierung | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Theater: Einstudierung, Aufführung / übertragen: geschickt organisierte Show «eine perfekte Inszenierung») |
+| 1123 | Integration | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Eingliederung in die Gesellschaft / Zusammenschluss «europäische Integration» / Mathematik: Berechnung eines Integrals) |
+| 1124 | Intelligenz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) |

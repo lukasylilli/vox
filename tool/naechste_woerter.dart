@@ -3381,6 +3381,10 @@ const zurueckgestellt = <String>{
   'Instinkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: angeborener Trieb bei Tieren / sicheres Gefühl, Gespür «ein guter Instinkt») — nach den Nomen 2026-10-29
   'Institution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: öffentliche Einrichtung, Behörde / gesellschaftliche Einrichtung wie Ehe, Familie / ugs.: feste Größe «Er ist eine Institution») — nach den Nomen 2026-10-29
   'Instrument', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät, Werkzeug / Musikinstrument / Mittel zum Zweck «ein politisches Instrument») — nach den Nomen 2026-10-29
+  'Instrumentarium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Instrumente, Geräte / übertragen: Gesamtheit der Mittel «das politische Instrumentarium») — nach den Nomen 2026-10-29
+  'Inszenierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theater: Einstudierung, Aufführung / übertragen: geschickt organisierte Show «eine perfekte Inszenierung») — nach den Nomen 2026-10-29
+  'Integration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eingliederung in die Gesellschaft / Zusammenschluss «europäische Integration» / Mathematik: Berechnung eines Integrals) — nach den Nomen 2026-10-29
+  'Intelligenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klugheit, Denkvermögen / Schicht der Intellektuellen / intelligentes Wesen, künstliche Intelligenz) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
