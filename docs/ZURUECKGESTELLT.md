@@ -3431,3 +3431,5 @@
 | 1141 | Irritation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Medizin: Reizung «Hautirritation» / Verunsicherung, Verärgerung) |
 | 1142 | Irrsinn | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: veraltend: schwere geistige Störung / ugs.: großer Unsinn, Unvernunft «Das ist doch Irrsinn!») |
 | 1143 | Irrweg | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: falscher Weg beim Gehen oder Fahren / übertragen: falsches Vorgehen «auf dem Irrweg sein») |
+| 1144 | Isolation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absonderung, z. B. von Kranken / Vereinsamung, Abgeschiedenheit / Technik: Dämmung gegen Strom, Wärme, Schall) |
+| 1145 | Isolierung | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absonderung, Abtrennung von anderen / Technik: Dämmung, Isoliermaterial gegen Strom, Kälte, Schall) |
