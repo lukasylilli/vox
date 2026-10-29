@@ -2447,6 +2447,8 @@
 | ۲۲۷۰ | Jeep | `substantiv_singular_alle.txt` | 2026-10-29 | Markenname (Jeep®) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۷۱ | Joghurt | `substantiv_singular_alle.txt` | 2026-10-29 | Genus schwankt (der, das; österr. auch die Joghurt) — Regel 14 | — |
 | ۲۲۷۲ | Johanniter | `substantiv_singular_alle.txt` | 2026-10-29 | Mitglied eines Ordens bzw. Name einer Hilfsorganisation (Johanniter-Unfall-Hilfe) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۷۳ | Kajak | `substantiv_singular_alle.txt` | 2026-10-29 | Genus schwankt (das Kajak, auch der Kajak) — Regel 14 | — |
+| ۲۲۷۴ | Kalaschnikow | `substantiv_singular_alle.txt` | 2026-10-29 | nach einer Person benannte Waffe (Michail Kalaschnikow), Gattungsname/Markenname nicht sicher — Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3465,3 +3467,8 @@
 | 1172 | Kaffee | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kaffeebohnen, Pulver / Getränk / Nachmittagsmahlzeit «zum Kaffee einladen») |
 | 1173 | Kahlschlag | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Abholzen eines ganzen Waldstücks / übertragen: radikaler Abbau, z. B. von Stellen) |
 | 1174 | Kahn | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleines Ruderboot / Lastschiff ohne Motor / ugs. Gefängnis, Bett) |
+| 1175 | Kakao | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kakaobaum, Kakaobohnen, Pulver / Getränk «eine Tasse Kakao») |
+| 1176 | Kalb | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: junges Rind / Junges anderer großer Säugetiere (Hirsch, Elefant, Wal) / Kalbfleisch) |
+| 1177 | Kaleidoskop | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spielzeug-Fernrohr mit bunten Mustern / übertragen: bunte, wechselnde Folge «ein Kaleidoskop von Eindrücken») |
+| 1178 | Kalender | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Wand-/Taschenkalender, Terminkalender / Zeitrechnung «der gregorianische Kalender») |
+| 1179 | Kaliber | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Durchmesser eines Laufs, Geschosses / ugs. Art, Format «ein Mann seines Kalibers») |
