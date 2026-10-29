@@ -2438,6 +2438,7 @@
 | ۲۲۶۱ | Indian | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) | — |
 | ۲۲۶۲ | Industriellenvereinigung | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۳ | Innenministerkonferenz | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۶۴ | Input | `substantiv_singular_alle.txt` | 2026-10-29 | zurückgestellt: Genus schwankt (der oder das Input) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3391,3 +3392,5 @@
 | 1107 | Inkarnation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Religion: Fleischwerdung, Menschwerdung / Verkörperung «die Inkarnation des Bösen») |
 | 1108 | Inland | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: eigenes Staatsgebiet, Gegensatz zu Ausland / Binnenland, von der Küste entfernt) |
 | 1109 | Innenleben | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Seelenleben, innere Gefühle / ugs.: innerer Aufbau eines Geräts «das Innenleben des Computers») |
+| 1110 | Inquisition | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschichte: kirchliches Gericht gegen Ketzer / strenges, peinliches Verhör) |
+| 1111 | Insasse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Fahrgast eines Fahrzeugs / Bewohner eines Heims, Gefangener einer Anstalt) |

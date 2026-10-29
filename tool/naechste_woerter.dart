@@ -3370,6 +3370,8 @@ const zurueckgestellt = <String>{
   'Inkarnation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion: Fleischwerdung, Menschwerdung / Verkörperung «die Inkarnation des Bösen») — nach den Nomen 2026-10-29
   'Inland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: eigenes Staatsgebiet, Gegensatz zu Ausland / Binnenland, von der Küste entfernt) — nach den Nomen 2026-10-29
   'Innenleben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seelenleben, innere Gefühle / ugs.: innerer Aufbau eines Geräts «das Innenleben des Computers») — nach den Nomen 2026-10-29
+  'Inquisition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: kirchliches Gericht gegen Ketzer / strenges, peinliches Verhör) — nach den Nomen 2026-10-29
+  'Insasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrgast eines Fahrzeugs / Bewohner eines Heims, Gefangener einer Anstalt) — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
@@ -3422,6 +3424,7 @@ const zurueckgestellt = <String>{
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
+  'Input', // zurückgestellt: zurückgestellt: Genus schwankt (der oder das Input) — Regel 14 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
