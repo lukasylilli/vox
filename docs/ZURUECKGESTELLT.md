@@ -3452,3 +3452,7 @@
 | 1159 | Jugendmusik | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Musik, die Jugendliche hören / schweiz., österr.: Blasmusikkapelle von Jugendlichen) |
 | 1160 | Junge | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 2/4 (der Junge = Knabe ↔ das Junge = Jungtier, adjektivisch gebeugt «ein Junges») |
 | 1161 | Jungfrau | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Frau ohne Geschlechtsverkehr / Sternzeichen / Berg in den Berner Alpen) |
+| 1162 | Junior | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sohn im Vergleich zum Vater, «der Junior» im Familienbetrieb / Sport: Nachwuchsspieler / Wirtschaft: jüngerer Teilhaber) |
+| 1163 | Juniorin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Tochter im Familienbetrieb / Sport: Nachwuchssportlerin) |
+| 1164 | Juniorpartner | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: jüngerer Teilhaber einer Firma / Politik: kleinerer Partner einer Koalition) |
+| 1165 | Junker | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: historisch: junger Adliger / adliger Gutsbesitzer in Ostelbien, Preußen) |

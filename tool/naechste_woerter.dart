@@ -3471,6 +3471,10 @@ const zurueckgestellt = <String>{
   'Jugendmusik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik, die Jugendliche hören / schweiz., österr.: Blasmusikkapelle von Jugendlichen) — nach den Nomen 2026-10-29
   'Junge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/4 (der Junge = Knabe ↔ das Junge = Jungtier, adjektivisch gebeugt «ein Junges») — nach den Nomen 2026-10-29
   'Jungfrau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frau ohne Geschlechtsverkehr / Sternzeichen / Berg in den Berner Alpen) — nach den Nomen 2026-10-29
+  'Junior', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sohn im Vergleich zum Vater, «der Junior» im Familienbetrieb / Sport: Nachwuchsspieler / Wirtschaft: jüngerer Teilhaber) — nach den Nomen 2026-10-29
+  'Juniorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tochter im Familienbetrieb / Sport: Nachwuchssportlerin) — nach den Nomen 2026-10-29
+  'Juniorpartner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jüngerer Teilhaber einer Firma / Politik: kleinerer Partner einer Koalition) — nach den Nomen 2026-10-29
+  'Junker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: junger Adliger / adliger Gutsbesitzer in Ostelbien, Preußen) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
