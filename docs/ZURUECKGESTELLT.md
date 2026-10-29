@@ -2443,6 +2443,7 @@
 | ۲۲۶۶ | Interregio | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Zuggattung der Bahn (in Deutschland 2006 eingestellt, in der Schweiz weiter) — Markenname, Gebrauch je Land verschieden, nicht sicher (Regel 14/18) | — |
 | ۲۲۶۷ | Intershop | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۸ | Investitionsbank | `substantiv_singular_alle.txt` | 2026-10-29 | meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) | — |
+| ۲۲۶۹ | Ischl | `substantiv_singular_alle.txt` | 2026-10-29 | der Ortsname lautet «Bad Ischl» (Lemma der Liste unvollständig, wie Haag ⇒ Den Haag) — Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3426,3 +3427,7 @@
 | 1137 | Invasion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) |
 | 1138 | Inventar | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Einrichtungsgegenstände eines Betriebs / Bestandsverzeichnis, Liste / ugs.: «zum Inventar gehören» von Personen) |
 | 1139 | Inzest | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschlechtsverkehr zwischen engen Blutsverwandten / Biologie: Inzucht bei Tieren und Pflanzen) |
+| 1140 | Ironie | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: feiner, versteckter Spott / Widersinn, paradoxer Zufall «die Ironie des Schicksals») |
+| 1141 | Irritation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Medizin: Reizung «Hautirritation» / Verunsicherung, Verärgerung) |
+| 1142 | Irrsinn | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: veraltend: schwere geistige Störung / ugs.: großer Unsinn, Unvernunft «Das ist doch Irrsinn!») |
+| 1143 | Irrweg | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: falscher Weg beim Gehen oder Fahren / übertragen: falsches Vorgehen «auf dem Irrweg sein») |
