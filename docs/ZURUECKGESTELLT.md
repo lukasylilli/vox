@@ -3448,3 +3448,5 @@
 | 1155 | Joker | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spielkarte mit beliebigem Wert / übertragen: Trumpf, Hilfe im Quiz «den Joker ziehen») |
 | 1156 | Jugend | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zeit des Jungseins «in meiner Jugend» / die jungen Menschen als Gruppe «die Jugend von heute») |
 | 1157 | Jugendarbeit | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sozialarbeit, Freizeitangebote für Jugendliche / Erwerbsarbeit von Jugendlichen «Jugendarbeitsschutz») |
+| 1158 | Jugendheim | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Treffpunkt, Freizeitheim für Jugendliche / Heim, in dem Jugendliche untergebracht und betreut werden) |
+| 1159 | Jugendmusik | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Musik, die Jugendliche hören / schweiz., österr.: Blasmusikkapelle von Jugendlichen) |
