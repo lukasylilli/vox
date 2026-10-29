@@ -3398,3 +3398,8 @@
 | 1113 | Inspektion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Prüfung, Kontrolle / Wartung eines Fahrzeugs / Behörde, Dienststelle) |
 | 1114 | Inspektor | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Beamter im gehobenen Dienst / Kontrolleur, Prüfer; österr.: Polizeiinspektor) |
 | 1115 | Installation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einbau von Leitungen, Anlagen / EDV: Installieren von Software / Kunst: Rauminstallation) |
+| 1116 | Installierung | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen wie «Installation»: Einbau von Leitungen, Anlagen / EDV: Installieren von Software) |
+| 1117 | Instanz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: zuständige Stelle, Behörde / Recht: Stufe eines Gerichtsverfahrens «in zweiter Instanz») |
+| 1118 | Instinkt | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: angeborener Trieb bei Tieren / sicheres Gefühl, Gespür «ein guter Instinkt») |
+| 1119 | Institution | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: öffentliche Einrichtung, Behörde / gesellschaftliche Einrichtung wie Ehe, Familie / ugs.: feste Größe «Er ist eine Institution») |
+| 1120 | Instrument | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gerät, Werkzeug / Musikinstrument / Mittel zum Zweck «ein politisches Instrument») |

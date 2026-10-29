@@ -3376,6 +3376,11 @@ const zurueckgestellt = <String>{
   'Inspektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfung, Kontrolle / Wartung eines Fahrzeugs / Behörde, Dienststelle) — nach den Nomen 2026-10-29
   'Inspektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beamter im gehobenen Dienst / Kontrolleur, Prüfer; österr.: Polizeiinspektor) — nach den Nomen 2026-10-29
   'Installation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einbau von Leitungen, Anlagen / EDV: Installieren von Software / Kunst: Rauminstallation) — nach den Nomen 2026-10-29
+  'Installierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Installation»: Einbau von Leitungen, Anlagen / EDV: Installieren von Software) — nach den Nomen 2026-10-29
+  'Instanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zuständige Stelle, Behörde / Recht: Stufe eines Gerichtsverfahrens «in zweiter Instanz») — nach den Nomen 2026-10-29
+  'Instinkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: angeborener Trieb bei Tieren / sicheres Gefühl, Gespür «ein guter Instinkt») — nach den Nomen 2026-10-29
+  'Institution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: öffentliche Einrichtung, Behörde / gesellschaftliche Einrichtung wie Ehe, Familie / ugs.: feste Größe «Er ist eine Institution») — nach den Nomen 2026-10-29
+  'Instrument', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät, Werkzeug / Musikinstrument / Mittel zum Zweck «ein politisches Instrument») — nach den Nomen 2026-10-29
   'Generalleutnant', // zurückgestellt: Plural nicht sicher (Generalleutnante / Generalleutnants) — Regel 14 2026-10-27
   'Genozid', // zurückgestellt: Genus schwankt (der oder das Genozid) — Regel 14 2026-10-27
   'Gens', // zurückgestellt: Fachwort der Geschichte (altrömische Sippe, Pl. Gentes) — als Lernwort nicht sicher (Regel 14) 2026-10-27
