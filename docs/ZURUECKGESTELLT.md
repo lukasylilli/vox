@@ -2442,6 +2442,7 @@
 | ۲۲۶۵ | Interpol | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Organisation (Internationale Kriminalpolizeiliche Organisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۶۶ | Interregio | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Zuggattung der Bahn (in Deutschland 2006 eingestellt, in der Schweiz weiter) — Markenname, Gebrauch je Land verschieden, nicht sicher (Regel 14/18) | — |
 | ۲۲۶۷ | Intershop | `substantiv_singular_alle.txt` | 2026-10-29 | Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۶۸ | Investitionsbank | `substantiv_singular_alle.txt` | 2026-10-29 | meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3423,3 +3424,4 @@
 | 1135 | Intoleranz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Unduldsamkeit gegenüber anderen Meinungen / Medizin: Unverträglichkeit «Laktoseintoleranz») |
 | 1136 | Intonation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) |
 | 1137 | Invasion | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) |
+| 1138 | Inventar | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Einrichtungsgegenstände eines Betriebs / Bestandsverzeichnis, Liste / ugs.: «zum Inventar gehören» von Personen) |

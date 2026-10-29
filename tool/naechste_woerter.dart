@@ -3447,6 +3447,7 @@ const zurueckgestellt = <String>{
   'Intoleranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unduldsamkeit gegenüber anderen Meinungen / Medizin: Unverträglichkeit «Laktoseintoleranz») — nach den Nomen 2026-10-29
   'Intonation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache: Satzmelodie / Musik: Tongebung, saubere Tonhöhe beim Singen und Spielen) — nach den Nomen 2026-10-29
   'Invasion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärischer Einfall in ein Land / übertragen: massenhaftes Eindringen «eine Invasion von Touristen» / Medizin: Eindringen von Erregern) — nach den Nomen 2026-10-29
+  'Inventar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Einrichtungsgegenstände eines Betriebs / Bestandsverzeichnis, Liste / ugs.: «zum Inventar gehören» von Personen) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3454,6 +3455,7 @@ const zurueckgestellt = <String>{
   'Interpol', // zurückgestellt: Name einer Organisation (Internationale Kriminalpolizeiliche Organisation) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Interregio', // zurückgestellt: Name einer Zuggattung der Bahn (in Deutschland 2006 eingestellt, in der Schweiz weiter) — Markenname, Gebrauch je Land verschieden, nicht sicher (Regel 14/18) 2026-10-29
   'Intershop', // zurückgestellt: Name einer Ladenkette der DDR (historisch) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
+  'Investitionsbank', // zurückgestellt: meist Teil von Namen einzelner Förderbanken (Investitionsbank Berlin, Investitionsbank Schleswig-Holstein …) — als Gattungswort nicht sicher (Regel 14/18) 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
