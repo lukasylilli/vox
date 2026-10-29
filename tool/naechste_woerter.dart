@@ -3481,6 +3481,9 @@ const zurueckgestellt = <String>{
   'Kabinett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister einer Regierung / kleiner Nebenraum, Ausstellungsraum / Qualitätsstufe beim Wein) — nach den Nomen 2026-10-29
   'Kader', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stammmannschaft, Kerntruppe (Sport, Militär) / Führungskraft, Gruppe von Führungskräften (DDR, schweiz.)) — nach den Nomen 2026-10-29
   'Kadi', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Richter in islamischen Ländern / ugs. scherzhaft für Gericht «vor den Kadi bringen») — nach den Nomen 2026-10-29
+  'Kaffee', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaffeebohnen, Pulver / Getränk / Nachmittagsmahlzeit «zum Kaffee einladen») — nach den Nomen 2026-10-29
+  'Kahlschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abholzen eines ganzen Waldstücks / übertragen: radikaler Abbau, z. B. von Stellen) — nach den Nomen 2026-10-29
+  'Kahn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Ruderboot / Lastschiff ohne Motor / ugs. Gefängnis, Bett) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

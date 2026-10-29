@@ -3462,3 +3462,6 @@
 | 1169 | Kabinett | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister einer Regierung / kleiner Nebenraum, Ausstellungsraum / Qualitätsstufe beim Wein) |
 | 1170 | Kader | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Stammmannschaft, Kerntruppe (Sport, Militär) / Führungskraft, Gruppe von Führungskräften (DDR, schweiz.)) |
 | 1171 | Kadi | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Richter in islamischen Ländern / ugs. scherzhaft für Gericht «vor den Kadi bringen») |
+| 1172 | Kaffee | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kaffeebohnen, Pulver / Getränk / Nachmittagsmahlzeit «zum Kaffee einladen») |
+| 1173 | Kahlschlag | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Abholzen eines ganzen Waldstücks / übertragen: radikaler Abbau, z. B. von Stellen) |
+| 1174 | Kahn | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleines Ruderboot / Lastschiff ohne Motor / ugs. Gefängnis, Bett) |
