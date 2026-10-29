@@ -3469,6 +3469,8 @@ const zurueckgestellt = <String>{
   'Jugendarbeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sozialarbeit, Freizeitangebote für Jugendliche / Erwerbsarbeit von Jugendlichen «Jugendarbeitsschutz») — nach den Nomen 2026-10-29
   'Jugendheim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treffpunkt, Freizeitheim für Jugendliche / Heim, in dem Jugendliche untergebracht und betreut werden) — nach den Nomen 2026-10-29
   'Jugendmusik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik, die Jugendliche hören / schweiz., österr.: Blasmusikkapelle von Jugendlichen) — nach den Nomen 2026-10-29
+  'Junge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/4 (der Junge = Knabe ↔ das Junge = Jungtier, adjektivisch gebeugt «ein Junges») — nach den Nomen 2026-10-29
+  'Jungfrau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frau ohne Geschlechtsverkehr / Sternzeichen / Berg in den Berner Alpen) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

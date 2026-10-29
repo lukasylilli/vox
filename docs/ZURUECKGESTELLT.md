@@ -3450,3 +3450,5 @@
 | 1157 | Jugendarbeit | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Sozialarbeit, Freizeitangebote für Jugendliche / Erwerbsarbeit von Jugendlichen «Jugendarbeitsschutz») |
 | 1158 | Jugendheim | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Treffpunkt, Freizeitheim für Jugendliche / Heim, in dem Jugendliche untergebracht und betreut werden) |
 | 1159 | Jugendmusik | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Musik, die Jugendliche hören / schweiz., österr.: Blasmusikkapelle von Jugendlichen) |
+| 1160 | Junge | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 2/4 (der Junge = Knabe ↔ das Junge = Jungtier, adjektivisch gebeugt «ein Junges») |
+| 1161 | Jungfrau | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Frau ohne Geschlechtsverkehr / Sternzeichen / Berg in den Berner Alpen) |
