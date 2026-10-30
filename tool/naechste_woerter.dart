@@ -3503,6 +3503,11 @@ const zurueckgestellt = <String>{
   'Kanal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlicher Wasserweg / Abwasserkanal / Fernseh-, Kommunikationskanal / der Ärmelkanal) — nach den Nomen 2026-10-29
   'Kanone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschütz / ugs. Könner, Ass «Sportkanone» / salopp: Pistole) — nach den Nomen 2026-10-29
   'Kante', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rand, Grenzlinie einer Fläche / Webkante, Saum; Wendung «auf die hohe Kante legen») — nach den Nomen 2026-10-29
+  'Kantonsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parlament eines Kantons / Mitglied dieses Parlaments) — nach den Nomen 2026-10-29
+  'Kantor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenmusiker, Leiter des Kirchenchors / Vorsänger in der Synagoge) — nach den Nomen 2026-10-29
+  'Kanzel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erhöhter Predigtplatz in der Kirche / Cockpit eines Flugzeugs / Hochsitz) — nach den Nomen 2026-10-29
+  'Kanzlei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Büro eines Anwalts oder Notars / Behörde, Amt (Staatskanzlei)) — nach den Nomen 2026-10-29
+  'Kanzler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regierungschef (Bundeskanzler) / Verwaltungsleiter einer Universität) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

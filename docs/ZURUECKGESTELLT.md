@@ -3490,3 +3490,8 @@
 | 1191 | Kanal | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: künstlicher Wasserweg / Abwasserkanal / Fernseh-, Kommunikationskanal / der Ärmelkanal) |
 | 1192 | Kanone | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschütz / ugs. Könner, Ass «Sportkanone» / salopp: Pistole) |
 | 1193 | Kante | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Rand, Grenzlinie einer Fläche / Webkante, Saum; Wendung «auf die hohe Kante legen») |
+| 1194 | Kantonsrat | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Parlament eines Kantons / Mitglied dieses Parlaments) |
+| 1195 | Kantor | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kirchenmusiker, Leiter des Kirchenchors / Vorsänger in der Synagoge) |
+| 1196 | Kanzel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: erhöhter Predigtplatz in der Kirche / Cockpit eines Flugzeugs / Hochsitz) |
+| 1197 | Kanzlei | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Büro eines Anwalts oder Notars / Behörde, Amt (Staatskanzlei)) |
+| 1198 | Kanzler | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Regierungschef (Bundeskanzler) / Verwaltungsleiter einer Universität) |
