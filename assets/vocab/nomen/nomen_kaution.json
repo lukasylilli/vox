@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kaution",
+  "wort": "die Kaution",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ودیعه",
+      "پیش‌پرداخت اجاره",
+      "وثیقه"
+    ],
+    "en": [
+      "deposit",
+      "security deposit",
+      "bail"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Wohnen",
+    "Recht"
+  ],
+  "ipa": "kaʊ̯ˈt͡si̯oːn",
+  "anmerkung": "im Strafrecht auch: Geld, gegen das ein Verdächtiger freigelassen wird (gegen Kaution)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Für die Wohnung zahle ich eine Kaution.",
+      "uebersetzung": {
+        "fa": "برای آپارتمان ودیعه می‌پردازم.",
+        "en": "I pay a deposit for the flat."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Vermieter muss die Kaution zurückzahlen, wenn man die Wohnung ohne Schäden übergibt.",
+      "uebersetzung": {
+        "fa": "اگر آپارتمان را بدون خسارت تحویل بدهی، صاحبخانه باید ودیعه را پس بدهد.",
+        "en": "The landlord has to pay back the deposit if you hand over the flat without damage."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Mietkaution",
+      "uebersetzung": {
+        "fa": "ودیعه‌ی اجاره",
+        "en": "rent deposit"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Kautionen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "gegen Kaution",
+        "beispiel": "Der Verdächtige wurde gegen Kaution freigelassen.",
+        "uebersetzung": {
+          "fa": "مظنون با وثیقه آزاد شد.",
+          "en": "The suspect was released on bail."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Kaution hinterlegen",
+        "beispiel": "Wir mussten drei Monatsmieten als Kaution hinterlegen.",
+        "uebersetzung": {
+          "fa": "ما مجبور شدیم سه ماه اجاره را به‌عنوان ودیعه بگذاریم.",
+          "en": "We had to put down three months' rent as a deposit."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      },
+      {
+        "wort": "der Vermieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صاحبخانه",
+          "en": "landlord"
+        },
+        "id_ref": "nomen_vermieter"
+      },
+      {
+        "wort": "der Mietvertrag",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرارداد اجاره",
+          "en": "rental contract"
+        },
+        "id_ref": "nomen_mietvertrag"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تضمین، امنیت",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "zurückzahlen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس دادن (پول)",
+          "en": "to pay back"
+        },
+        "id_ref": "verb_zurueckzahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

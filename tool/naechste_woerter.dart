@@ -3559,6 +3559,7 @@ const zurueckgestellt = <String>{
   'Karabach', // zurückgestellt: Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 2026-10-29
   'Kart', // zurückgestellt: Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 2026-10-29
   'Kauder', // zurückgestellt: Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 2026-10-30
+  'Kaugummi', // zurückgestellt: Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

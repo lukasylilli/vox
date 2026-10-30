@@ -2457,6 +2457,7 @@
 | ۲۲۸۰ | Karabach | `substantiv_singular_alle.txt` | 2026-10-29 | Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 | — |
 | ۲۲۸۱ | Kart | `substantiv_singular_alle.txt` | 2026-10-29 | Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 | — |
 | ۲۲۸۲ | Kauder | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 | — |
+| ۲۲۸۳ | Kaugummi | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
