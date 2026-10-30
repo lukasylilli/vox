@@ -3516,3 +3516,7 @@
 | 1214 | Kartell | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absprache, Zusammenschluss von Unternehmen / kriminelle Organisation (Drogenkartell) / politisches Bündnis) |
 | 1215 | Kartenspiel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spiel mit Karten / Satz Spielkarten) |
 | 1216 | Karton | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: dünne Pappe / Schachtel aus Pappe) |
+| 1217 | Kasper | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: lustige Figur im Puppenspiel / ugs. alberner Mensch) |
+| 1218 | Kassa | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (österr. für Kasse; mehrere Bedeutungen: Geldkassette, Ladenkasse / Zahlstelle, Schalter / Krankenkasse) |
+| 1219 | Kasse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Ladenkasse, Zahlstelle / Geldkassette, Barbestand / Krankenkasse «auf Kasse») |
+| 1220 | Kassette | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Tonband-/Videokassette / Kästchen für Schmuck, Geld / Schuber für Bücher) |

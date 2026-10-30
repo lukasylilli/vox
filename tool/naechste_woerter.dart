@@ -3526,6 +3526,10 @@ const zurueckgestellt = <String>{
   'Kartell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absprache, Zusammenschluss von Unternehmen / kriminelle Organisation (Drogenkartell) / politisches Bündnis) — nach den Nomen 2026-10-29
   'Kartenspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel mit Karten / Satz Spielkarten) — nach den Nomen 2026-10-29
   'Karton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: dünne Pappe / Schachtel aus Pappe) — nach den Nomen 2026-10-29
+  'Kasper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lustige Figur im Puppenspiel / ugs. alberner Mensch) — nach den Nomen 2026-10-29
+  'Kassa', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (österr. für Kasse; mehrere Bedeutungen: Geldkassette, Ladenkasse / Zahlstelle, Schalter / Krankenkasse) — nach den Nomen 2026-10-29
+  'Kasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ladenkasse, Zahlstelle / Geldkassette, Barbestand / Krankenkasse «auf Kasse») — nach den Nomen 2026-10-29
+  'Kassette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tonband-/Videokassette / Kästchen für Schmuck, Geld / Schuber für Bücher) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
