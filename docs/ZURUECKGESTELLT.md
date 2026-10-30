@@ -2458,6 +2458,7 @@
 | ۲۲۸۱ | Kart | `substantiv_singular_alle.txt` | 2026-10-29 | Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 | — |
 | ۲۲۸۲ | Kauder | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 | — |
 | ۲۲۸۳ | Kaugummi | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 | — |
+| ۲۲۸۴ | Keks | `substantiv_singular_alle.txt` | 2026-10-30 | Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3529,3 +3530,9 @@
 | 1225 | Katalysator | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Chemie: Stoff, der eine Reaktion beschleunigt / Abgaskatalysator im Auto / übertragen: Auslöser, Beschleuniger) |
 | 1226 | Katzenjammer | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kater nach Alkohol / gedrückte Stimmung, Reue) |
 | 1227 | Kauf | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: das Kaufen / das Gekaufte «ein guter Kauf» / Wendung «in Kauf nehmen») |
+| 1228 | Kegel | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: geometrischer Körper / Spielfigur beim Kegeln / Lichtkegel) |
+| 1229 | Kehle | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Gurgel, Rachen / vordere Halsseite / Hohlkehle (Bauwesen)) |
+| 1230 | Kehre | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Haarnadelkurve / Turnübung (Schwung über das Gerät)) |
+| 1231 | Kehrseite | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Rückseite / übertragen: Nachteil «die Kehrseite der Medaille» / scherzh. Hintern) |
+| 1232 | Keim | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Krankheitserreger / Pflanzenkeim, Sprössling / übertragen: Ursprung «im Keim ersticken») |
+| 1233 | Keimzelle | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Biologie: Geschlechtszelle / übertragen: Ausgangspunkt, Kern) |

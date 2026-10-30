@@ -3537,6 +3537,12 @@ const zurueckgestellt = <String>{
   'Katalysator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chemie: Stoff, der eine Reaktion beschleunigt / Abgaskatalysator im Auto / übertragen: Auslöser, Beschleuniger) — nach den Nomen 2026-10-30
   'Katzenjammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kater nach Alkohol / gedrückte Stimmung, Reue) — nach den Nomen 2026-10-30
   'Kauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Kaufen / das Gekaufte «ein guter Kauf» / Wendung «in Kauf nehmen») — nach den Nomen 2026-10-30
+  'Kegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geometrischer Körper / Spielfigur beim Kegeln / Lichtkegel) — nach den Nomen 2026-10-30
+  'Kehle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gurgel, Rachen / vordere Halsseite / Hohlkehle (Bauwesen)) — nach den Nomen 2026-10-30
+  'Kehre', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarnadelkurve / Turnübung (Schwung über das Gerät)) — nach den Nomen 2026-10-30
+  'Kehrseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückseite / übertragen: Nachteil «die Kehrseite der Medaille» / scherzh. Hintern) — nach den Nomen 2026-10-30
+  'Keim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankheitserreger / Pflanzenkeim, Sprössling / übertragen: Ursprung «im Keim ersticken») — nach den Nomen 2026-10-30
+  'Keimzelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Geschlechtszelle / übertragen: Ausgangspunkt, Kern) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3560,6 +3566,7 @@ const zurueckgestellt = <String>{
   'Kart', // zurückgestellt: Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 2026-10-29
   'Kauder', // zurückgestellt: Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 2026-10-30
   'Kaugummi', // zurückgestellt: Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 2026-10-30
+  'Keks', // zurückgestellt: Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
