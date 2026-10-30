@@ -3505,3 +3505,6 @@
 | 1204 | Kapsel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Arzneikapsel / Raumkapsel / kleiner Behälter, Kaffeekapsel / Kapsel um ein Gelenk (Anatomie)) |
 | 1205 | Karambolage | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zusammenstoß (Massenkarambolage) / Billard: Treffen zweier Bälle) |
 | 1206 | Karawane | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Reisegruppe mit Kamelen in der Wüste / übertragen: lange Reihe, Kolonne «Autokarawane») |
+| 1207 | Kardinal | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: katholischer Würdenträger / Singvogel / Getränk (Bowle)) |
+| 1208 | Karenz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: österr. Elternkarenz, unbezahlter Urlaub / Wartezeit, Sperrfrist (Versicherung, Arbeitsrecht)) |
+| 1209 | Karikatur | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: satirische Zeichnung / übertragen: Zerrbild «eine Karikatur der Demokratie») |
