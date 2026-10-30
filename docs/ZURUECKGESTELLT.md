@@ -2450,6 +2450,8 @@
 | ۲۲۷۳ | Kajak | `substantiv_singular_alle.txt` | 2026-10-29 | Genus schwankt (das Kajak, auch der Kajak) — Regel 14 | — |
 | ۲۲۷۴ | Kalaschnikow | `substantiv_singular_alle.txt` | 2026-10-29 | nach einer Person benannte Waffe (Michail Kalaschnikow), Gattungsname/Markenname nicht sicher — Regel 14/18 | — |
 | ۲۲۷۵ | Kalle | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Rufname für Karl / Gaunersprache) — kein klares Gattungswort, Regel 14 | — |
+| ۲۲۷۶ | Kammergericht | `substantiv_singular_alle.txt` | 2026-10-29 | Name eines bestimmten Gerichts (Oberlandesgericht Berlin, historisch Reichskammergericht) — keine Eigennamen-Karte nach Regel 18 | — |
+| ۲۲۷۷ | Kamp | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3479,3 +3481,7 @@
 | 1183 | Kamin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: offene Feuerstelle im Zimmer / südd., österr.: Schornstein / Bergsteigen: Felsspalt) |
 | 1184 | Kamm | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Haarkamm / Hahnenkamm / Gebirgskamm / Nackenstück (Fleisch)) |
 | 1185 | Kammer | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleiner Raum / Berufsvertretung (Ärztekammer) / Parlamentskammer / Herzkammer) |
+| 1186 | Kammeroper | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Oper für kleine Besetzung / kleines Opernhaus, Bühne dafür) |
+| 1187 | Kammerspiel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Theaterstück mit wenigen Personen / Pl. «Kammerspiele»: kleines Theater) |
+| 1188 | Kampagne | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Aktion, Werbe-/Wahlkampagne / veraltet: Feldzug / Betriebszeit in Saisonbetrieben) |
+| 1189 | Kampf | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: körperliche Auseinandersetzung, Gefecht / Wettkampf / Anstrengung für ein Ziel «Kampf gegen Armut») |

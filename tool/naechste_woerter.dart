@@ -3495,6 +3495,10 @@ const zurueckgestellt = <String>{
   'Kamin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offene Feuerstelle im Zimmer / südd., österr.: Schornstein / Bergsteigen: Felsspalt) — nach den Nomen 2026-10-29
   'Kamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarkamm / Hahnenkamm / Gebirgskamm / Nackenstück (Fleisch)) — nach den Nomen 2026-10-29
   'Kammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Raum / Berufsvertretung (Ärztekammer) / Parlamentskammer / Herzkammer) — nach den Nomen 2026-10-29
+  'Kammeroper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oper für kleine Besetzung / kleines Opernhaus, Bühne dafür) — nach den Nomen 2026-10-29
+  'Kammerspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück mit wenigen Personen / Pl. «Kammerspiele»: kleines Theater) — nach den Nomen 2026-10-29
+  'Kampagne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aktion, Werbe-/Wahlkampagne / veraltet: Feldzug / Betriebszeit in Saisonbetrieben) — nach den Nomen 2026-10-29
+  'Kampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Auseinandersetzung, Gefecht / Wettkampf / Anstrengung für ein Ziel «Kampf gegen Armut») — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3510,6 +3514,8 @@ const zurueckgestellt = <String>{
   'Kajak', // zurückgestellt: Genus schwankt (das Kajak, auch der Kajak) — Regel 14 2026-10-29
   'Kalaschnikow', // zurückgestellt: nach einer Person benannte Waffe (Michail Kalaschnikow), Gattungsname/Markenname nicht sicher — Regel 14/18 2026-10-29
   'Kalle', // zurückgestellt: Bedeutung unsicher (Rufname für Karl / Gaunersprache) — kein klares Gattungswort, Regel 14 2026-10-29
+  'Kammergericht', // zurückgestellt: Name eines bestimmten Gerichts (Oberlandesgericht Berlin, historisch Reichskammergericht) — keine Eigennamen-Karte nach Regel 18 2026-10-29
+  'Kamp', // zurückgestellt: Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
