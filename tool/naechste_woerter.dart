@@ -3562,6 +3562,9 @@ const zurueckgestellt = <String>{
   'Kinderschuh', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuh für Kinder / Redewendung «noch in den Kinderschuhen stecken» = am Anfang stehen) — nach den Nomen 2026-10-30
   'Kinderspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel für Kinder / übertragen: sehr leichte Sache «das ist ein Kinderspiel») — nach den Nomen 2026-10-30
   'Kino', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Filmtheater (Gebäude) / Filmvorstellung «nach dem Kino» / Film als Kunst «das europäische Kino») — nach den Nomen 2026-10-30
+  'Kippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Zigarettenstummel, Zigarette / Mülldeponie, Halde / Wendung «auf der Kippe stehen») — nach den Nomen 2026-10-30
+  'Kirchdorf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dorf mit Pfarrkirche / häufiger Ortsname (Kirchdorf an der Krems u. a.)) — nach den Nomen 2026-10-30
+  'Kirche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude / Institution, Glaubensgemeinschaft / Gottesdienst «nach der Kirche») — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
