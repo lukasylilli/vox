@@ -3558,6 +3558,8 @@ const zurueckgestellt = <String>{
   'Kicker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußballspieler (ugs.) / Tischfußball / Name einer Sportzeitschrift) — nach den Nomen 2026-10-30
   'Kies', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Steine, Schotter / ugs. Geld) — nach den Nomen 2026-10-30
   'Kinderfreund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, der Kinder mag / österr. Name einer Organisation «die Kinderfreunde») — nach den Nomen 2026-10-30
+  'Kinderkrankheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: typische Krankheit im Kindesalter / übertragen: Anfangsfehler eines neuen Produkts) — nach den Nomen 2026-10-30
+  'Kinderschuh', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuh für Kinder / Redewendung «noch in den Kinderschuhen stecken» = am Anfang stehen) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

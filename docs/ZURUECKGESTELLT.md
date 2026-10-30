@@ -3552,3 +3552,5 @@
 | 1246 | Kicker | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Fußballspieler (ugs.) / Tischfußball / Name einer Sportzeitschrift) |
 | 1247 | Kies | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: kleine Steine, Schotter / ugs. Geld) |
 | 1248 | Kinderfreund | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Mensch, der Kinder mag / österr. Name einer Organisation «die Kinderfreunde») |
+| 1249 | Kinderkrankheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: typische Krankheit im Kindesalter / übertragen: Anfangsfehler eines neuen Produkts) |
+| 1250 | Kinderschuh | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schuh für Kinder / Redewendung «noch in den Kinderschuhen stecken» = am Anfang stehen) |
