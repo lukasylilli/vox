@@ -3485,3 +3485,5 @@
 | 1187 | Kammerspiel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Theaterstück mit wenigen Personen / Pl. «Kammerspiele»: kleines Theater) |
 | 1188 | Kampagne | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Aktion, Werbe-/Wahlkampagne / veraltet: Feldzug / Betriebszeit in Saisonbetrieben) |
 | 1189 | Kampf | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: körperliche Auseinandersetzung, Gefecht / Wettkampf / Anstrengung für ein Ziel «Kampf gegen Armut») |
+| 1190 | Kanadier | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einwohner Kanadas / offenes Sportboot, Kanu mit Stechpaddel) |
+| 1191 | Kanal | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: künstlicher Wasserweg / Abwasserkanal / Fernseh-, Kommunikationskanal / der Ärmelkanal) |

@@ -3499,6 +3499,8 @@ const zurueckgestellt = <String>{
   'Kammerspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück mit wenigen Personen / Pl. «Kammerspiele»: kleines Theater) — nach den Nomen 2026-10-29
   'Kampagne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aktion, Werbe-/Wahlkampagne / veraltet: Feldzug / Betriebszeit in Saisonbetrieben) — nach den Nomen 2026-10-29
   'Kampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Auseinandersetzung, Gefecht / Wettkampf / Anstrengung für ein Ziel «Kampf gegen Armut») — nach den Nomen 2026-10-29
+  'Kanadier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Kanadas / offenes Sportboot, Kanu mit Stechpaddel) — nach den Nomen 2026-10-29
+  'Kanal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlicher Wasserweg / Abwasserkanal / Fernseh-, Kommunikationskanal / der Ärmelkanal) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
