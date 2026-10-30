@@ -3513,3 +3513,6 @@
 | 1211 | Karren | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleiner Wagen zum Schieben oder Ziehen / ugs. abwertend: altes Auto) |
 | 1212 | Karriere | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: berufliche Laufbahn, Aufstieg / Reitsport: schnellster Galopp) |
 | 1213 | Karte | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Postkarte / Eintrittskarte, Fahrkarte / Landkarte / Spielkarte / Speisekarte) |
+| 1214 | Kartell | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Absprache, Zusammenschluss von Unternehmen / kriminelle Organisation (Drogenkartell) / politisches Bündnis) |
+| 1215 | Kartenspiel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spiel mit Karten / Satz Spielkarten) |
+| 1216 | Karton | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: dünne Pappe / Schachtel aus Pappe) |
