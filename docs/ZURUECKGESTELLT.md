@@ -3475,3 +3475,7 @@
 | 1179 | Kaliber | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Durchmesser eines Laufs, Geschosses / ugs. Art, Format «ein Mann seines Kalibers») |
 | 1180 | Kalkulation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kostenberechnung (Wirtschaft) / allgemein: Berechnung, Überlegung «nach meiner Kalkulation») |
 | 1181 | Kamel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Tier / salopp abwertend: Dummkopf) |
+| 1182 | Kameradschaft | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Verbundenheit unter Kameraden / Gruppe, Vereinigung von Kameraden) |
+| 1183 | Kamin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: offene Feuerstelle im Zimmer / südd., österr.: Schornstein / Bergsteigen: Felsspalt) |
+| 1184 | Kamm | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Haarkamm / Hahnenkamm / Gebirgskamm / Nackenstück (Fleisch)) |
+| 1185 | Kammer | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleiner Raum / Berufsvertretung (Ärztekammer) / Parlamentskammer / Herzkammer) |

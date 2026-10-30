@@ -3491,6 +3491,10 @@ const zurueckgestellt = <String>{
   'Kaliber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchmesser eines Laufs, Geschosses / ugs. Art, Format «ein Mann seines Kalibers») — nach den Nomen 2026-10-29
   'Kalkulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostenberechnung (Wirtschaft) / allgemein: Berechnung, Überlegung «nach meiner Kalkulation») — nach den Nomen 2026-10-29
   'Kamel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / salopp abwertend: Dummkopf) — nach den Nomen 2026-10-29
+  'Kameradschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verbundenheit unter Kameraden / Gruppe, Vereinigung von Kameraden) — nach den Nomen 2026-10-29
+  'Kamin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offene Feuerstelle im Zimmer / südd., österr.: Schornstein / Bergsteigen: Felsspalt) — nach den Nomen 2026-10-29
+  'Kamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarkamm / Hahnenkamm / Gebirgskamm / Nackenstück (Fleisch)) — nach den Nomen 2026-10-29
+  'Kammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Raum / Berufsvertretung (Ärztekammer) / Parlamentskammer / Herzkammer) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
