@@ -2460,6 +2460,7 @@
 | ۲۲۸۳ | Kaugummi | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 | — |
 | ۲۲۸۴ | Keks | `substantiv_singular_alle.txt` | 2026-10-30 | Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 | — |
 | ۲۲۸۵ | Ketchup | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Ketchup) — Regel 14 | — |
+| ۲۲۸۶ | Kinderschutzbund | `substantiv_singular_alle.txt` | 2026-10-30 | Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3554,3 +3555,4 @@
 | 1248 | Kinderfreund | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Mensch, der Kinder mag / österr. Name einer Organisation «die Kinderfreunde») |
 | 1249 | Kinderkrankheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: typische Krankheit im Kindesalter / übertragen: Anfangsfehler eines neuen Produkts) |
 | 1250 | Kinderschuh | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schuh für Kinder / Redewendung «noch in den Kinderschuhen stecken» = am Anfang stehen) |
+| 1251 | Kinderspiel | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Spiel für Kinder / übertragen: sehr leichte Sache «das ist ein Kinderspiel») |
