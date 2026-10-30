@@ -2465,6 +2465,7 @@
 | ۲۲۸۸ | Klar | `substantiv_singular_alle.txt` | 2026-10-30 | österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 | — |
 | ۲۲۸۹ | Klauenseuche | `substantiv_singular_alle.txt` | 2026-10-30 | fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 | — |
 | ۲۲۹۰ | Klein | `substantiv_singular_alle.txt` | 2026-10-30 | als Nomen unklar (das Klein = Gänseklein? / Familienname) — Bedeutung nicht sicher, Regel 14 | — |
+| ۲۲۹۱ | Kleinfeld | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung und Gebrauch als Einzelwort nicht sicher (Sport: kleines Spielfeld? Kleinfeldfußball) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3581,3 +3582,4 @@
 | 1270 | Klausur | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Prüfungsarbeit (Schule, Uni) / Abgeschiedenheit, Klausurtagung «in Klausur gehen» / Klosterbereich) |
 | 1271 | Klavierkonzert | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Musikstück für Klavier und Orchester / Konzertveranstaltung eines Pianisten) |
 | 1272 | Kleber | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Klebstoff / Eiweiß im Getreide (Gluten) / ugs. Aufkleber) |
+| 1273 | Kleine | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 4 (substantiviertes Adjektiv: der/die/das Kleine, ein Kleiner) + Fall 1 (kleines Kind / Freundin, Kosewort) |
