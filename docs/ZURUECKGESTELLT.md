@@ -3524,3 +3524,4 @@
 | 1222 | Kassierin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (österr./schweiz.; mehrere Bedeutungen: Kassiererin / Kassenwartin eines Vereins) |
 | 1223 | Kastanie | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Rosskastanie (Baum, Frucht) / Edelkastanie, Maroni (essbar)) |
 | 1224 | Kasten | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kiste, Getränkekasten / südd., österr., schweiz.: Schrank / Turngerät / ugs. großes Gebäude, Fahrzeug) |
+| 1225 | Katalysator | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Chemie: Stoff, der eine Reaktion beschleunigt / Abgaskatalysator im Auto / übertragen: Auslöser, Beschleuniger) |
