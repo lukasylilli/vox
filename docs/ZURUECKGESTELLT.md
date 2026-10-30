@@ -2454,6 +2454,7 @@
 | ۲۲۷۷ | Kamp | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 | — |
 | ۲۲۷۸ | Kanten | `substantiv_singular_alle.txt` | 2026-10-29 | landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 | — |
 | ۲۲۷۹ | Kappel | `substantiv_singular_alle.txt` | 2026-10-29 | kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 | — |
+| ۲۲۸۰ | Karabach | `substantiv_singular_alle.txt` | 2026-10-29 | Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3500,3 +3501,7 @@
 | 1200 | Kapital | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geldvermögen, Betriebskapital / übertragen: Wert, Vorteil «Kapital schlagen aus» / die Kapitalbesitzer als Klasse) |
 | 1201 | Kapitel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Abschnitt eines Buches / übertragen: Zeitabschnitt, Angelegenheit «ein dunkles Kapitel» / Domkapitel, Ordenskapitel) |
 | 1202 | Kappe | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mütze ohne Krempe / Verschlusskappe, Schuhkappe) |
+| 1203 | Kapriole | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Luftsprung, übermütiger Streich «Kapriolen des Wetters» / Sprung in der Hohen Schule (Reitkunst)) |
+| 1204 | Kapsel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Arzneikapsel / Raumkapsel / kleiner Behälter, Kaffeekapsel / Kapsel um ein Gelenk (Anatomie)) |
+| 1205 | Karambolage | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Zusammenstoß (Massenkarambolage) / Billard: Treffen zweier Bälle) |
+| 1206 | Karawane | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Reisegruppe mit Kamelen in der Wüste / übertragen: lange Reihe, Kolonne «Autokarawane») |

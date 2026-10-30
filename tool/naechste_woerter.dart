@@ -3512,6 +3512,10 @@ const zurueckgestellt = <String>{
   'Kapital', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldvermögen, Betriebskapital / übertragen: Wert, Vorteil «Kapital schlagen aus» / die Kapitalbesitzer als Klasse) — nach den Nomen 2026-10-29
   'Kapitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschnitt eines Buches / übertragen: Zeitabschnitt, Angelegenheit «ein dunkles Kapitel» / Domkapitel, Ordenskapitel) — nach den Nomen 2026-10-29
   'Kappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mütze ohne Krempe / Verschlusskappe, Schuhkappe) — nach den Nomen 2026-10-29
+  'Kapriole', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Luftsprung, übermütiger Streich «Kapriolen des Wetters» / Sprung in der Hohen Schule (Reitkunst)) — nach den Nomen 2026-10-29
+  'Kapsel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arzneikapsel / Raumkapsel / kleiner Behälter, Kaffeekapsel / Kapsel um ein Gelenk (Anatomie)) — nach den Nomen 2026-10-29
+  'Karambolage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenstoß (Massenkarambolage) / Billard: Treffen zweier Bälle) — nach den Nomen 2026-10-29
+  'Karawane', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reisegruppe mit Kamelen in der Wüste / übertragen: lange Reihe, Kolonne «Autokarawane») — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3531,6 +3535,7 @@ const zurueckgestellt = <String>{
   'Kamp', // zurückgestellt: Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 2026-10-29
   'Kanten', // zurückgestellt: landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 2026-10-29
   'Kappel', // zurückgestellt: kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 2026-10-29
+  'Karabach', // zurückgestellt: Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
