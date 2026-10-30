@@ -2461,6 +2461,7 @@
 | ۲۲۸۴ | Keks | `substantiv_singular_alle.txt` | 2026-10-30 | Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 | — |
 | ۲۲۸۵ | Ketchup | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Ketchup) — Regel 14 | — |
 | ۲۲۸۶ | Kinderschutzbund | `substantiv_singular_alle.txt` | 2026-10-30 | Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 | — |
+| ۲۲۸۷ | Kirchner | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3560,3 +3561,4 @@
 | 1253 | Kippe | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Zigarettenstummel, Zigarette / Mülldeponie, Halde / Wendung «auf der Kippe stehen») |
 | 1254 | Kirchdorf | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Dorf mit Pfarrkirche / häufiger Ortsname (Kirchdorf an der Krems u. a.)) |
 | 1255 | Kirche | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Gebäude / Institution, Glaubensgemeinschaft / Gottesdienst «nach der Kirche») |
+| 1256 | Kirchenrat | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Kirche / Mitglied dieses Gremiums, Amtstitel) |

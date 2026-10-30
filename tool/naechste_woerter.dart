@@ -3565,6 +3565,7 @@ const zurueckgestellt = <String>{
   'Kippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Zigarettenstummel, Zigarette / Mülldeponie, Halde / Wendung «auf der Kippe stehen») — nach den Nomen 2026-10-30
   'Kirchdorf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dorf mit Pfarrkirche / häufiger Ortsname (Kirchdorf an der Krems u. a.)) — nach den Nomen 2026-10-30
   'Kirche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude / Institution, Glaubensgemeinschaft / Gottesdienst «nach der Kirche») — nach den Nomen 2026-10-30
+  'Kirchenrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Kirche / Mitglied dieses Gremiums, Amtstitel) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3591,6 +3592,7 @@ const zurueckgestellt = <String>{
   'Keks', // zurückgestellt: Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 2026-10-30
   'Ketchup', // zurückgestellt: Genus schwankt (der oder das Ketchup) — Regel 14 2026-10-30
   'Kinderschutzbund', // zurückgestellt: Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 2026-10-30
+  'Kirchner', // zurückgestellt: Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
