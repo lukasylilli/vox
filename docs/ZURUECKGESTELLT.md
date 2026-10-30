@@ -3520,3 +3520,7 @@
 | 1218 | Kassa | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (österr. für Kasse; mehrere Bedeutungen: Geldkassette, Ladenkasse / Zahlstelle, Schalter / Krankenkasse) |
 | 1219 | Kasse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Ladenkasse, Zahlstelle / Geldkassette, Barbestand / Krankenkasse «auf Kasse») |
 | 1220 | Kassette | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Tonband-/Videokassette / Kästchen für Schmuck, Geld / Schuber für Bücher) |
+| 1221 | Kassier | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (österr./schweiz.; mehrere Bedeutungen: Kassierer im Geschäft, in der Bank / Kassenwart eines Vereins) |
+| 1222 | Kassierin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (österr./schweiz.; mehrere Bedeutungen: Kassiererin / Kassenwartin eines Vereins) |
+| 1223 | Kastanie | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Rosskastanie (Baum, Frucht) / Edelkastanie, Maroni (essbar)) |
+| 1224 | Kasten | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kiste, Getränkekasten / südd., österr., schweiz.: Schrank / Turngerät / ugs. großes Gebäude, Fahrzeug) |

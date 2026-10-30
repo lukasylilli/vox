@@ -3530,6 +3530,10 @@ const zurueckgestellt = <String>{
   'Kassa', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (österr. für Kasse; mehrere Bedeutungen: Geldkassette, Ladenkasse / Zahlstelle, Schalter / Krankenkasse) — nach den Nomen 2026-10-29
   'Kasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ladenkasse, Zahlstelle / Geldkassette, Barbestand / Krankenkasse «auf Kasse») — nach den Nomen 2026-10-29
   'Kassette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tonband-/Videokassette / Kästchen für Schmuck, Geld / Schuber für Bücher) — nach den Nomen 2026-10-29
+  'Kassier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (österr./schweiz.; mehrere Bedeutungen: Kassierer im Geschäft, in der Bank / Kassenwart eines Vereins) — nach den Nomen 2026-10-29
+  'Kassierin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (österr./schweiz.; mehrere Bedeutungen: Kassiererin / Kassenwartin eines Vereins) — nach den Nomen 2026-10-29
+  'Kastanie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rosskastanie (Baum, Frucht) / Edelkastanie, Maroni (essbar)) — nach den Nomen 2026-10-29
+  'Kasten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kiste, Getränkekasten / südd., österr., schweiz.: Schrank / Turngerät / ugs. großes Gebäude, Fahrzeug) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
