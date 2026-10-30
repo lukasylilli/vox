@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kennwort",
+  "wort": "das Kennwort",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رمز عبور",
+      "گذرواژه",
+      "اسم رمز"
+    ],
+    "en": [
+      "password",
+      "code word"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Computer",
+    "Sicherheit"
+  ],
+  "ipa": "ˈkɛnvɔʁt",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte gib dein Kennwort ein.",
+      "uebersetzung": {
+        "fa": "لطفاً رمز عبورت را وارد کن.",
+        "en": "Please enter your password."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Man sollte das Kennwort regelmäßig ändern und es niemandem verraten, auch nicht Kollegen.",
+      "uebersetzung": {
+        "fa": "آدم باید رمز عبور را مرتب عوض کند و آن را به هیچ‌کس، حتی همکاران، نگوید.",
+        "en": "You should change your password regularly and not tell it to anyone, not even colleagues."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Passwort",
+      "uebersetzung": {
+        "fa": "رمز عبور",
+        "en": "password"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "kennen (شناختن) + Wort (کلمه)",
+    "en": "kennen (to know) + Wort (word)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Kennwörter",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "das Kennwort für + Akk",
+        "beispiel": "Ich habe das Kennwort für das WLAN vergessen.",
+        "uebersetzung": {
+          "fa": "رمز وای‌فای را فراموش کرده‌ام.",
+          "en": "I have forgotten the password for the Wi-Fi."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Kennwort ändern",
+        "beispiel": "Ändern Sie Ihr Kennwort nach der ersten Anmeldung.",
+        "uebersetzung": {
+          "fa": "پس از اولین ورود، رمز عبورتان را عوض کنید.",
+          "en": "Change your password after the first login."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "der Benutzername",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نام کاربری",
+          "en": "username"
+        },
+        "id_ref": "nomen_benutzername"
+      },
+      {
+        "wort": "anmelden",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وارد شدن، ثبت‌نام کردن",
+          "en": "to log in"
+        },
+        "id_ref": "verb_anmelden"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "die PIN",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رمز (پین)",
+          "en": "PIN"
+        },
+        "id_ref": "nomen_pin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

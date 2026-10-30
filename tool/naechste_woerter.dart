@@ -3543,6 +3543,10 @@ const zurueckgestellt = <String>{
   'Kehrseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückseite / übertragen: Nachteil «die Kehrseite der Medaille» / scherzh. Hintern) — nach den Nomen 2026-10-30
   'Keim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankheitserreger / Pflanzenkeim, Sprössling / übertragen: Ursprung «im Keim ersticken») — nach den Nomen 2026-10-30
   'Keimzelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Geschlechtszelle / übertragen: Ausgangspunkt, Kern) — nach den Nomen 2026-10-30
+  'Kelch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trinkgefäß, Abendmahlskelch / Blütenkelch (Botanik) / übertragen: Leid «der Kelch ist an mir vorübergegangen») — nach den Nomen 2026-10-30
+  'Kelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schöpfkelle / Maurerkelle / Signalkelle (Polizei, Bahn)) — nach den Nomen 2026-10-30
+  'Kenntnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissen von einer Sache «zur Kenntnis nehmen» / Plural: Fachwissen, Fähigkeiten «Sprachkenntnisse») — nach den Nomen 2026-10-30
+  'Kennzahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kennziffer, Vorwahl / betriebswirtschaftliche Kenngröße) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

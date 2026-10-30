@@ -3536,3 +3536,7 @@
 | 1231 | Kehrseite | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Rückseite / übertragen: Nachteil «die Kehrseite der Medaille» / scherzh. Hintern) |
 | 1232 | Keim | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Krankheitserreger / Pflanzenkeim, Sprössling / übertragen: Ursprung «im Keim ersticken») |
 | 1233 | Keimzelle | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Biologie: Geschlechtszelle / übertragen: Ausgangspunkt, Kern) |
+| 1234 | Kelch | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Trinkgefäß, Abendmahlskelch / Blütenkelch (Botanik) / übertragen: Leid «der Kelch ist an mir vorübergegangen») |
+| 1235 | Kelle | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schöpfkelle / Maurerkelle / Signalkelle (Polizei, Bahn)) |
+| 1236 | Kenntnis | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wissen von einer Sache «zur Kenntnis nehmen» / Plural: Fachwissen, Fähigkeiten «Sprachkenntnisse») |
+| 1237 | Kennzahl | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kennziffer, Vorwahl / betriebswirtschaftliche Kenngröße) |
