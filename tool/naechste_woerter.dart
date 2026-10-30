@@ -3580,6 +3580,8 @@ const zurueckgestellt = <String>{
   'Klatsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Gerede, Tratsch / klatschendes Geräusch) — nach den Nomen 2026-10-30
   'Klatsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fliegenklatsche / ugs. hohe Niederlage / ugs. Spickzettel) — nach den Nomen 2026-10-30
   'Klausur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfungsarbeit (Schule, Uni) / Abgeschiedenheit, Klausurtagung «in Klausur gehen» / Klosterbereich) — nach den Nomen 2026-10-30
+  'Klavierkonzert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück für Klavier und Orchester / Konzertveranstaltung eines Pianisten) — nach den Nomen 2026-10-30
+  'Kleber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Klebstoff / Eiweiß im Getreide (Gluten) / ugs. Aufkleber) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3609,6 +3611,7 @@ const zurueckgestellt = <String>{
   'Kirchner', // zurückgestellt: Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 2026-10-30
   'Klar', // zurückgestellt: österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 2026-10-30
   'Klauenseuche', // zurückgestellt: fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 2026-10-30
+  'Klein', // zurückgestellt: als Nomen unklar (das Klein = Gänseklein? / Familienname) — Bedeutung nicht sicher, Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
