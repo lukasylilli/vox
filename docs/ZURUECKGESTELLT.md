@@ -3570,3 +3570,5 @@
 | 1261 | Klamotte | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Plural: Kleidung «die Klamotten» / anspruchsloses, derbes Theaterstück oder Film) |
 | 1262 | Klappe | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Deckel, Lasche / Herzklappe, Ventil / derb: Mund «halt die Klappe» / Filmklappe) |
 | 1263 | Klarheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Durchsichtigkeit, Reinheit (Wasser, Luft) / Deutlichkeit, Verständlichkeit «Klarheit schaffen») |
+| 1264 | Klartext | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: entschlüsselter Text (Technik) / übertragen: offene Worte «Klartext reden») |
+| 1265 | Klasse | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schulklasse, Jahrgang / Klassenzimmer / Gesellschaftsklasse / Kategorie, Güteklasse / ugs. «Klasse!» = toll) |
