@@ -3551,3 +3551,4 @@
 | 1245 | Keyboard | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: elektronisches Tasteninstrument / Computertastatur) |
 | 1246 | Kicker | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Fußballspieler (ugs.) / Tischfußball / Name einer Sportzeitschrift) |
 | 1247 | Kies | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: kleine Steine, Schotter / ugs. Geld) |
+| 1248 | Kinderfreund | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Mensch, der Kinder mag / österr. Name einer Organisation «die Kinderfreunde») |
