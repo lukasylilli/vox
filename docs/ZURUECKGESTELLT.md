@@ -2463,6 +2463,7 @@
 | ۲۲۸۶ | Kinderschutzbund | `substantiv_singular_alle.txt` | 2026-10-30 | Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۸۷ | Kirchner | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 | — |
 | ۲۲۸۸ | Klar | `substantiv_singular_alle.txt` | 2026-10-30 | österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 | — |
+| ۲۲۸۹ | Klauenseuche | `substantiv_singular_alle.txt` | 2026-10-30 | fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3572,3 +3573,8 @@
 | 1263 | Klarheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Durchsichtigkeit, Reinheit (Wasser, Luft) / Deutlichkeit, Verständlichkeit «Klarheit schaffen») |
 | 1264 | Klartext | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: entschlüsselter Text (Technik) / übertragen: offene Worte «Klartext reden») |
 | 1265 | Klasse | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schulklasse, Jahrgang / Klassenzimmer / Gesellschaftsklasse / Kategorie, Güteklasse / ugs. «Klasse!» = toll) |
+| 1266 | Klassik | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Epoche (Weimarer Klassik, Wiener Klassik) / klassische Musik allgemein / Antike) |
+| 1267 | Klassiker | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Dichter/Komponist der Klassik / bewährtes, bekanntes Werk oder Produkt «ein Klassiker») |
+| 1268 | Klatsch | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Gerede, Tratsch / klatschendes Geräusch) |
+| 1269 | Klatsche | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Fliegenklatsche / ugs. hohe Niederlage / ugs. Spickzettel) |
+| 1270 | Klausur | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Prüfungsarbeit (Schule, Uni) / Abgeschiedenheit, Klausurtagung «in Klausur gehen» / Klosterbereich) |

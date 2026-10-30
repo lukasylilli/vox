@@ -3575,6 +3575,11 @@ const zurueckgestellt = <String>{
   'Klarheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchsichtigkeit, Reinheit (Wasser, Luft) / Deutlichkeit, Verständlichkeit «Klarheit schaffen») — nach den Nomen 2026-10-30
   'Klartext', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: entschlüsselter Text (Technik) / übertragen: offene Worte «Klartext reden») — nach den Nomen 2026-10-30
   'Klasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulklasse, Jahrgang / Klassenzimmer / Gesellschaftsklasse / Kategorie, Güteklasse / ugs. «Klasse!» = toll) — nach den Nomen 2026-10-30
+  'Klassik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Epoche (Weimarer Klassik, Wiener Klassik) / klassische Musik allgemein / Antike) — nach den Nomen 2026-10-30
+  'Klassiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dichter/Komponist der Klassik / bewährtes, bekanntes Werk oder Produkt «ein Klassiker») — nach den Nomen 2026-10-30
+  'Klatsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Gerede, Tratsch / klatschendes Geräusch) — nach den Nomen 2026-10-30
+  'Klatsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fliegenklatsche / ugs. hohe Niederlage / ugs. Spickzettel) — nach den Nomen 2026-10-30
+  'Klausur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfungsarbeit (Schule, Uni) / Abgeschiedenheit, Klausurtagung «in Klausur gehen» / Klosterbereich) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3603,6 +3608,7 @@ const zurueckgestellt = <String>{
   'Kinderschutzbund', // zurückgestellt: Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 2026-10-30
   'Kirchner', // zurückgestellt: Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 2026-10-30
   'Klar', // zurückgestellt: österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 2026-10-30
+  'Klauenseuche', // zurückgestellt: fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
