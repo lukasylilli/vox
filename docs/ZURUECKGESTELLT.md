@@ -3540,3 +3540,6 @@
 | 1235 | Kelle | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schöpfkelle / Maurerkelle / Signalkelle (Polizei, Bahn)) |
 | 1236 | Kenntnis | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wissen von einer Sache «zur Kenntnis nehmen» / Plural: Fachwissen, Fähigkeiten «Sprachkenntnisse») |
 | 1237 | Kennzahl | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kennziffer, Vorwahl / betriebswirtschaftliche Kenngröße) |
+| 1238 | Kennzeichen | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Merkmal / Autokennzeichen, Nummernschild) |
+| 1239 | Keramik | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Werkstoff, gebrannter Ton / Töpferkunst / einzelner Gegenstand aus Keramik) |
+| 1240 | Kern | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Obstkern, Samen / Atomkern / übertragen: das Wesentliche «der Kern der Sache») |

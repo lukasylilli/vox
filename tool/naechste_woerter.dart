@@ -3547,6 +3547,9 @@ const zurueckgestellt = <String>{
   'Kelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schöpfkelle / Maurerkelle / Signalkelle (Polizei, Bahn)) — nach den Nomen 2026-10-30
   'Kenntnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissen von einer Sache «zur Kenntnis nehmen» / Plural: Fachwissen, Fähigkeiten «Sprachkenntnisse») — nach den Nomen 2026-10-30
   'Kennzahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kennziffer, Vorwahl / betriebswirtschaftliche Kenngröße) — nach den Nomen 2026-10-30
+  'Kennzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Merkmal / Autokennzeichen, Nummernschild) — nach den Nomen 2026-10-30
+  'Keramik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkstoff, gebrannter Ton / Töpferkunst / einzelner Gegenstand aus Keramik) — nach den Nomen 2026-10-30
+  'Kern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Obstkern, Samen / Atomkern / übertragen: das Wesentliche «der Kern der Sache») — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
