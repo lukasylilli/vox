@@ -3583,3 +3583,6 @@
 | 1271 | Klavierkonzert | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Musikstück für Klavier und Orchester / Konzertveranstaltung eines Pianisten) |
 | 1272 | Kleber | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Klebstoff / Eiweiß im Getreide (Gluten) / ugs. Aufkleber) |
 | 1273 | Kleine | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 4 (substantiviertes Adjektiv: der/die/das Kleine, ein Kleiner) + Fall 1 (kleines Kind / Freundin, Kosewort) |
+| 1274 | Kleinkrieg | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Guerillakrieg / dauernde kleine Streitereien) |
+| 1275 | Kleinkunst | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kabarett, Varieté, Kleinkunstbühne / kunsthandwerkliche Kleinarbeiten) |
+| 1276 | Kleinod | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schmuckstück, Pl. Kleinodien / übertragen: etwas Kostbares, Pl. Kleinode) |

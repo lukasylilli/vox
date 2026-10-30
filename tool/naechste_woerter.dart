@@ -3583,6 +3583,9 @@ const zurueckgestellt = <String>{
   'Klavierkonzert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück für Klavier und Orchester / Konzertveranstaltung eines Pianisten) — nach den Nomen 2026-10-30
   'Kleber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Klebstoff / Eiweiß im Getreide (Gluten) / ugs. Aufkleber) — nach den Nomen 2026-10-30
   'Kleine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die/das Kleine, ein Kleiner) + Fall 1 (kleines Kind / Freundin, Kosewort) — nach den Nomen 2026-10-30
+  'Kleinkrieg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Guerillakrieg / dauernde kleine Streitereien) — nach den Nomen 2026-10-30
+  'Kleinkunst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kabarett, Varieté, Kleinkunstbühne / kunsthandwerkliche Kleinarbeiten) — nach den Nomen 2026-10-30
+  'Kleinod', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmuckstück, Pl. Kleinodien / übertragen: etwas Kostbares, Pl. Kleinode) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
