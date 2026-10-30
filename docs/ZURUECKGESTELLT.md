@@ -3556,3 +3556,4 @@
 | 1249 | Kinderkrankheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: typische Krankheit im Kindesalter / übertragen: Anfangsfehler eines neuen Produkts) |
 | 1250 | Kinderschuh | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schuh für Kinder / Redewendung «noch in den Kinderschuhen stecken» = am Anfang stehen) |
 | 1251 | Kinderspiel | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Spiel für Kinder / übertragen: sehr leichte Sache «das ist ein Kinderspiel») |
+| 1252 | Kino | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Filmtheater (Gebäude) / Filmvorstellung «nach dem Kino» / Film als Kunst «das europäische Kino») |
