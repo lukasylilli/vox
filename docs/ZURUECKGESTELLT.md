@@ -2449,6 +2449,7 @@
 | ۲۲۷۲ | Johanniter | `substantiv_singular_alle.txt` | 2026-10-29 | Mitglied eines Ordens bzw. Name einer Hilfsorganisation (Johanniter-Unfall-Hilfe) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۷۳ | Kajak | `substantiv_singular_alle.txt` | 2026-10-29 | Genus schwankt (das Kajak, auch der Kajak) — Regel 14 | — |
 | ۲۲۷۴ | Kalaschnikow | `substantiv_singular_alle.txt` | 2026-10-29 | nach einer Person benannte Waffe (Michail Kalaschnikow), Gattungsname/Markenname nicht sicher — Regel 14/18 | — |
+| ۲۲۷۵ | Kalle | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Rufname für Karl / Gaunersprache) — kein klares Gattungswort, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3472,3 +3473,5 @@
 | 1177 | Kaleidoskop | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Spielzeug-Fernrohr mit bunten Mustern / übertragen: bunte, wechselnde Folge «ein Kaleidoskop von Eindrücken») |
 | 1178 | Kalender | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Wand-/Taschenkalender, Terminkalender / Zeitrechnung «der gregorianische Kalender») |
 | 1179 | Kaliber | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Durchmesser eines Laufs, Geschosses / ugs. Art, Format «ein Mann seines Kalibers») |
+| 1180 | Kalkulation | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kostenberechnung (Wirtschaft) / allgemein: Berechnung, Überlegung «nach meiner Kalkulation») |
+| 1181 | Kamel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Tier / salopp abwertend: Dummkopf) |

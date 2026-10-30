@@ -3489,6 +3489,8 @@ const zurueckgestellt = <String>{
   'Kaleidoskop', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielzeug-Fernrohr mit bunten Mustern / übertragen: bunte, wechselnde Folge «ein Kaleidoskop von Eindrücken») — nach den Nomen 2026-10-29
   'Kalender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wand-/Taschenkalender, Terminkalender / Zeitrechnung «der gregorianische Kalender») — nach den Nomen 2026-10-29
   'Kaliber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchmesser eines Laufs, Geschosses / ugs. Art, Format «ein Mann seines Kalibers») — nach den Nomen 2026-10-29
+  'Kalkulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostenberechnung (Wirtschaft) / allgemein: Berechnung, Überlegung «nach meiner Kalkulation») — nach den Nomen 2026-10-29
+  'Kamel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / salopp abwertend: Dummkopf) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3503,6 +3505,7 @@ const zurueckgestellt = <String>{
   'Johanniter', // zurückgestellt: Mitglied eines Ordens bzw. Name einer Hilfsorganisation (Johanniter-Unfall-Hilfe) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Kajak', // zurückgestellt: Genus schwankt (das Kajak, auch der Kajak) — Regel 14 2026-10-29
   'Kalaschnikow', // zurückgestellt: nach einer Person benannte Waffe (Michail Kalaschnikow), Gattungsname/Markenname nicht sicher — Regel 14/18 2026-10-29
+  'Kalle', // zurückgestellt: Bedeutung unsicher (Rufname für Karl / Gaunersprache) — kein klares Gattungswort, Regel 14 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
