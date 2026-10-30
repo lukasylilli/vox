@@ -3586,3 +3586,5 @@
 | 1274 | Kleinkrieg | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Guerillakrieg / dauernde kleine Streitereien) |
 | 1275 | Kleinkunst | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kabarett, Varieté, Kleinkunstbühne / kunsthandwerkliche Kleinarbeiten) |
 | 1276 | Kleinod | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schmuckstück, Pl. Kleinodien / übertragen: etwas Kostbares, Pl. Kleinode) |
+| 1277 | Klemme | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Klammer, Haarklemme, Kabelklemme (Technik) / ugs. Notlage «in der Klemme sitzen») |
+| 1278 | Klima | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wetterverhältnisse eines Gebiets / Atmosphäre, Stimmung «Betriebsklima») |
