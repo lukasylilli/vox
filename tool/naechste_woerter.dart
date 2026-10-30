@@ -3566,6 +3566,9 @@ const zurueckgestellt = <String>{
   'Kirchdorf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dorf mit Pfarrkirche / häufiger Ortsname (Kirchdorf an der Krems u. a.)) — nach den Nomen 2026-10-30
   'Kirche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude / Institution, Glaubensgemeinschaft / Gottesdienst «nach der Kirche») — nach den Nomen 2026-10-30
   'Kirchenrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Kirche / Mitglied dieses Gremiums, Amtstitel) — nach den Nomen 2026-10-30
+  'Kirsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht / Kirschbaum / Kirschholz) — nach den Nomen 2026-10-30
+  'Kiste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzkasten, Kasten / ugs. altes Auto, Flugzeug / ugs. Angelegenheit «eine schwierige Kiste») — nach den Nomen 2026-10-30
+  'Klage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Klage vor Gericht / Beschwerde / Wehklage, Trauer) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

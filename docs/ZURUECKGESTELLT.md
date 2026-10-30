@@ -3562,3 +3562,6 @@
 | 1254 | Kirchdorf | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Dorf mit Pfarrkirche / häufiger Ortsname (Kirchdorf an der Krems u. a.)) |
 | 1255 | Kirche | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Gebäude / Institution, Glaubensgemeinschaft / Gottesdienst «nach der Kirche») |
 | 1256 | Kirchenrat | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Kirche / Mitglied dieses Gremiums, Amtstitel) |
+| 1257 | Kirsche | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Frucht / Kirschbaum / Kirschholz) |
+| 1258 | Kiste | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Holzkasten, Kasten / ugs. altes Auto, Flugzeug / ugs. Angelegenheit «eine schwierige Kiste») |
+| 1259 | Klage | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Recht: Klage vor Gericht / Beschwerde / Wehklage, Trauer) |
