@@ -3519,6 +3519,10 @@ const zurueckgestellt = <String>{
   'Kardinal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: katholischer Würdenträger / Singvogel / Getränk (Bowle)) — nach den Nomen 2026-10-29
   'Karenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. Elternkarenz, unbezahlter Urlaub / Wartezeit, Sperrfrist (Versicherung, Arbeitsrecht)) — nach den Nomen 2026-10-29
   'Karikatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: satirische Zeichnung / übertragen: Zerrbild «eine Karikatur der Demokratie») — nach den Nomen 2026-10-29
+  'Karosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prunkkutsche / ugs. großes, prächtiges Auto / Karosserie) — nach den Nomen 2026-10-29
+  'Karren', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Wagen zum Schieben oder Ziehen / ugs. abwertend: altes Auto) — nach den Nomen 2026-10-29
+  'Karriere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: berufliche Laufbahn, Aufstieg / Reitsport: schnellster Galopp) — nach den Nomen 2026-10-29
+  'Karte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Postkarte / Eintrittskarte, Fahrkarte / Landkarte / Spielkarte / Speisekarte) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3539,6 +3543,7 @@ const zurueckgestellt = <String>{
   'Kanten', // zurückgestellt: landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 2026-10-29
   'Kappel', // zurückgestellt: kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 2026-10-29
   'Karabach', // zurückgestellt: Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 2026-10-29
+  'Kart', // zurückgestellt: Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

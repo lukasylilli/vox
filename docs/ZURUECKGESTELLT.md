@@ -2455,6 +2455,7 @@
 | ۲۲۷۸ | Kanten | `substantiv_singular_alle.txt` | 2026-10-29 | landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 | — |
 | ۲۲۷۹ | Kappel | `substantiv_singular_alle.txt` | 2026-10-29 | kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 | — |
 | ۲۲۸۰ | Karabach | `substantiv_singular_alle.txt` | 2026-10-29 | Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 | — |
+| ۲۲۸۱ | Kart | `substantiv_singular_alle.txt` | 2026-10-29 | Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3508,3 +3509,7 @@
 | 1207 | Kardinal | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: katholischer Würdenträger / Singvogel / Getränk (Bowle)) |
 | 1208 | Karenz | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: österr. Elternkarenz, unbezahlter Urlaub / Wartezeit, Sperrfrist (Versicherung, Arbeitsrecht)) |
 | 1209 | Karikatur | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: satirische Zeichnung / übertragen: Zerrbild «eine Karikatur der Demokratie») |
+| 1210 | Karosse | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Prunkkutsche / ugs. großes, prächtiges Auto / Karosserie) |
+| 1211 | Karren | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: kleiner Wagen zum Schieben oder Ziehen / ugs. abwertend: altes Auto) |
+| 1212 | Karriere | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: berufliche Laufbahn, Aufstieg / Reitsport: schnellster Galopp) |
+| 1213 | Karte | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Postkarte / Eintrittskarte, Fahrkarte / Landkarte / Spielkarte / Speisekarte) |
