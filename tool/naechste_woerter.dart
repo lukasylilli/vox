@@ -3535,6 +3535,8 @@ const zurueckgestellt = <String>{
   'Kastanie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rosskastanie (Baum, Frucht) / Edelkastanie, Maroni (essbar)) — nach den Nomen 2026-10-29
   'Kasten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kiste, Getränkekasten / südd., österr., schweiz.: Schrank / Turngerät / ugs. großes Gebäude, Fahrzeug) — nach den Nomen 2026-10-29
   'Katalysator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chemie: Stoff, der eine Reaktion beschleunigt / Abgaskatalysator im Auto / übertragen: Auslöser, Beschleuniger) — nach den Nomen 2026-10-30
+  'Katzenjammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kater nach Alkohol / gedrückte Stimmung, Reue) — nach den Nomen 2026-10-30
+  'Kauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Kaufen / das Gekaufte «ein guter Kauf» / Wendung «in Kauf nehmen») — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3556,6 +3558,7 @@ const zurueckgestellt = <String>{
   'Kappel', // zurückgestellt: kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 2026-10-29
   'Karabach', // zurückgestellt: Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 2026-10-29
   'Kart', // zurückgestellt: Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 2026-10-29
+  'Kauder', // zurückgestellt: Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

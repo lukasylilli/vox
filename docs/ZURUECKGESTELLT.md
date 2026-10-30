@@ -2456,6 +2456,7 @@
 | ۲۲۷۹ | Kappel | `substantiv_singular_alle.txt` | 2026-10-29 | kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 | — |
 | ۲۲۸۰ | Karabach | `substantiv_singular_alle.txt` | 2026-10-29 | Lemma unvollständig/schwankend (meist «Bergkarabach», auch Nagorny-Karabach) — Regel 14/18 | — |
 | ۲۲۸۱ | Kart | `substantiv_singular_alle.txt` | 2026-10-29 | Genus/Plural nicht sicher (der Kart / das Kart, Go-Kart) — Regel 14 | — |
+| ۲۲۸۲ | Kauder | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3525,3 +3526,5 @@
 | 1223 | Kastanie | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Rosskastanie (Baum, Frucht) / Edelkastanie, Maroni (essbar)) |
 | 1224 | Kasten | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Kiste, Getränkekasten / südd., österr., schweiz.: Schrank / Turngerät / ugs. großes Gebäude, Fahrzeug) |
 | 1225 | Katalysator | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Chemie: Stoff, der eine Reaktion beschleunigt / Abgaskatalysator im Auto / übertragen: Auslöser, Beschleuniger) |
+| 1226 | Katzenjammer | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kater nach Alkohol / gedrückte Stimmung, Reue) |
+| 1227 | Kauf | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: das Kaufen / das Gekaufte «ein guter Kauf» / Wendung «in Kauf nehmen») |
