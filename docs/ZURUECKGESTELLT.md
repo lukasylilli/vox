@@ -2452,6 +2452,7 @@
 | ۲۲۷۵ | Kalle | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Rufname für Karl / Gaunersprache) — kein klares Gattungswort, Regel 14 | — |
 | ۲۲۷۶ | Kammergericht | `substantiv_singular_alle.txt` | 2026-10-29 | Name eines bestimmten Gerichts (Oberlandesgericht Berlin, historisch Reichskammergericht) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۷۷ | Kamp | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 | — |
+| ۲۲۷۸ | Kanten | `substantiv_singular_alle.txt` | 2026-10-29 | landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3487,3 +3488,5 @@
 | 1189 | Kampf | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: körperliche Auseinandersetzung, Gefecht / Wettkampf / Anstrengung für ein Ziel «Kampf gegen Armut») |
 | 1190 | Kanadier | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Einwohner Kanadas / offenes Sportboot, Kanu mit Stechpaddel) |
 | 1191 | Kanal | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: künstlicher Wasserweg / Abwasserkanal / Fernseh-, Kommunikationskanal / der Ärmelkanal) |
+| 1192 | Kanone | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geschütz / ugs. Könner, Ass «Sportkanone» / salopp: Pistole) |
+| 1193 | Kante | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Rand, Grenzlinie einer Fläche / Webkante, Saum; Wendung «auf die hohe Kante legen») |
