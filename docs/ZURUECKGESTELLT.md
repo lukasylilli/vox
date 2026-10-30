@@ -3495,3 +3495,5 @@
 | 1196 | Kanzel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: erhöhter Predigtplatz in der Kirche / Cockpit eines Flugzeugs / Hochsitz) |
 | 1197 | Kanzlei | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Büro eines Anwalts oder Notars / Behörde, Amt (Staatskanzlei)) |
 | 1198 | Kanzler | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Regierungschef (Bundeskanzler) / Verwaltungsleiter einer Universität) |
+| 1199 | Kanzlerin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Regierungschefin (Bundeskanzlerin) / Verwaltungsleiterin einer Universität) |
+| 1200 | Kapital | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geldvermögen, Betriebskapital / übertragen: Wert, Vorteil «Kapital schlagen aus» / die Kapitalbesitzer als Klasse) |
