@@ -2459,6 +2459,7 @@
 | ۲۲۸۲ | Kauder | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 | — |
 | ۲۲۸۳ | Kaugummi | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 | — |
 | ۲۲۸۴ | Keks | `substantiv_singular_alle.txt` | 2026-10-30 | Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 | — |
+| ۲۲۸۵ | Ketchup | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Ketchup) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3543,3 +3544,8 @@
 | 1238 | Kennzeichen | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Merkmal / Autokennzeichen, Nummernschild) |
 | 1239 | Keramik | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Werkstoff, gebrannter Ton / Töpferkunst / einzelner Gegenstand aus Keramik) |
 | 1240 | Kern | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Obstkern, Samen / Atomkern / übertragen: das Wesentliche «der Kern der Sache») |
+| 1241 | Kerze | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wachskerze / Turnübung (Schulterstand) / Zündkerze) |
+| 1242 | Kessel | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Kochkessel, Heizkessel / Talkessel / Einkesselung (Militär, Polizei)) |
+| 1243 | Kette | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Metallkette / Halskette, Schmuck / Ladenkette, Hotelkette / Reihe «eine Kette von Ereignissen») |
+| 1244 | Keule | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schlagwaffe / Fleisch: Hinterbein (Hähnchenkeule) / Turngerät) |
+| 1245 | Keyboard | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: elektronisches Tasteninstrument / Computertastatur) |

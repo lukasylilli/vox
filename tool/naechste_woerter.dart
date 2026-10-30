@@ -3550,6 +3550,11 @@ const zurueckgestellt = <String>{
   'Kennzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Merkmal / Autokennzeichen, Nummernschild) — nach den Nomen 2026-10-30
   'Keramik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkstoff, gebrannter Ton / Töpferkunst / einzelner Gegenstand aus Keramik) — nach den Nomen 2026-10-30
   'Kern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Obstkern, Samen / Atomkern / übertragen: das Wesentliche «der Kern der Sache») — nach den Nomen 2026-10-30
+  'Kerze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wachskerze / Turnübung (Schulterstand) / Zündkerze) — nach den Nomen 2026-10-30
+  'Kessel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kochkessel, Heizkessel / Talkessel / Einkesselung (Militär, Polizei)) — nach den Nomen 2026-10-30
+  'Kette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallkette / Halskette, Schmuck / Ladenkette, Hotelkette / Reihe «eine Kette von Ereignissen») — nach den Nomen 2026-10-30
+  'Keule', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlagwaffe / Fleisch: Hinterbein (Hähnchenkeule) / Turngerät) — nach den Nomen 2026-10-30
+  'Keyboard', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektronisches Tasteninstrument / Computertastatur) — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3574,6 +3579,7 @@ const zurueckgestellt = <String>{
   'Kauder', // zurückgestellt: Bedeutung unsicher (landschaftlich: Werg, Flachsabfall / Kurzform von Kauderwelsch?) — kein sicheres Gattungswort, Regel 14 2026-10-30
   'Kaugummi', // zurückgestellt: Genus schwankt (der oder das Kaugummi, österr. meist das) — Regel 14 2026-10-30
   'Keks', // zurückgestellt: Genus regional verschieden (der Keks, österr. das Keks) — Regel 14 2026-10-30
+  'Ketchup', // zurückgestellt: Genus schwankt (der oder das Ketchup) — Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
