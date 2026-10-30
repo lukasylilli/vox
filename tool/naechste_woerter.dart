@@ -3510,6 +3510,8 @@ const zurueckgestellt = <String>{
   'Kanzler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regierungschef (Bundeskanzler) / Verwaltungsleiter einer Universität) — nach den Nomen 2026-10-29
   'Kanzlerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regierungschefin (Bundeskanzlerin) / Verwaltungsleiterin einer Universität) — nach den Nomen 2026-10-29
   'Kapital', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldvermögen, Betriebskapital / übertragen: Wert, Vorteil «Kapital schlagen aus» / die Kapitalbesitzer als Klasse) — nach den Nomen 2026-10-29
+  'Kapitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschnitt eines Buches / übertragen: Zeitabschnitt, Angelegenheit «ein dunkles Kapitel» / Domkapitel, Ordenskapitel) — nach den Nomen 2026-10-29
+  'Kappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mütze ohne Krempe / Verschlusskappe, Schuhkappe) — nach den Nomen 2026-10-29
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3528,6 +3530,7 @@ const zurueckgestellt = <String>{
   'Kammergericht', // zurückgestellt: Name eines bestimmten Gerichts (Oberlandesgericht Berlin, historisch Reichskammergericht) — keine Eigennamen-Karte nach Regel 18 2026-10-29
   'Kamp', // zurückgestellt: Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 2026-10-29
   'Kanten', // zurückgestellt: landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 2026-10-29
+  'Kappel', // zurückgestellt: kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 2026-10-29
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

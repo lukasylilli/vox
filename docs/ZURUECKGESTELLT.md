@@ -2453,6 +2453,7 @@
 | ۲۲۷۶ | Kammergericht | `substantiv_singular_alle.txt` | 2026-10-29 | Name eines bestimmten Gerichts (Oberlandesgericht Berlin, historisch Reichskammergericht) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۷۷ | Kamp | `substantiv_singular_alle.txt` | 2026-10-29 | Bedeutung unsicher (Fluss in Niederösterreich / nordd. eingezäuntes Feldstück) — Regel 14 | — |
 | ۲۲۷۸ | Kanten | `substantiv_singular_alle.txt` | 2026-10-29 | landschaftlich (nordd.: Anschnitt des Brotes) und gleich geschrieben wie der Plural von «Kante» — Regel 14 | — |
+| ۲۲۷۹ | Kappel | `substantiv_singular_alle.txt` | 2026-10-29 | kein Gattungswort; Orts- oder Familienname (Kappel am Albis u. a.) — Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3497,3 +3498,5 @@
 | 1198 | Kanzler | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Regierungschef (Bundeskanzler) / Verwaltungsleiter einer Universität) |
 | 1199 | Kanzlerin | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Regierungschefin (Bundeskanzlerin) / Verwaltungsleiterin einer Universität) |
 | 1200 | Kapital | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Geldvermögen, Betriebskapital / übertragen: Wert, Vorteil «Kapital schlagen aus» / die Kapitalbesitzer als Klasse) |
+| 1201 | Kapitel | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Abschnitt eines Buches / übertragen: Zeitabschnitt, Angelegenheit «ein dunkles Kapitel» / Domkapitel, Ordenskapitel) |
+| 1202 | Kappe | `substantiv_singular_alle.txt` | 2026-10-29 | Fall 1 (mehrere Bedeutungen: Mütze ohne Krempe / Verschlusskappe, Schuhkappe) |
