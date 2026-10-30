@@ -2462,6 +2462,7 @@
 | ۲۲۸۵ | Ketchup | `substantiv_singular_alle.txt` | 2026-10-30 | Genus schwankt (der oder das Ketchup) — Regel 14 | — |
 | ۲۲۸۶ | Kinderschutzbund | `substantiv_singular_alle.txt` | 2026-10-30 | Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 | — |
 | ۲۲۸۷ | Kirchner | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 | — |
+| ۲۲۸۸ | Klar | `substantiv_singular_alle.txt` | 2026-10-30 | österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3565,3 +3566,7 @@
 | 1257 | Kirsche | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Frucht / Kirschbaum / Kirschholz) |
 | 1258 | Kiste | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Holzkasten, Kasten / ugs. altes Auto, Flugzeug / ugs. Angelegenheit «eine schwierige Kiste») |
 | 1259 | Klage | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Recht: Klage vor Gericht / Beschwerde / Wehklage, Trauer) |
+| 1260 | Klammer | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wäscheklammer, Büroklammer / Satzzeichen (runde, eckige Klammer) / Wundklammer, Zahnklammer) |
+| 1261 | Klamotte | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: ugs. Plural: Kleidung «die Klamotten» / anspruchsloses, derbes Theaterstück oder Film) |
+| 1262 | Klappe | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Deckel, Lasche / Herzklappe, Ventil / derb: Mund «halt die Klappe» / Filmklappe) |
+| 1263 | Klarheit | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Durchsichtigkeit, Reinheit (Wasser, Luft) / Deutlichkeit, Verständlichkeit «Klarheit schaffen») |

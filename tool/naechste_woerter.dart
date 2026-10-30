@@ -3569,6 +3569,10 @@ const zurueckgestellt = <String>{
   'Kirsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht / Kirschbaum / Kirschholz) — nach den Nomen 2026-10-30
   'Kiste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzkasten, Kasten / ugs. altes Auto, Flugzeug / ugs. Angelegenheit «eine schwierige Kiste») — nach den Nomen 2026-10-30
   'Klage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Klage vor Gericht / Beschwerde / Wehklage, Trauer) — nach den Nomen 2026-10-30
+  'Klammer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wäscheklammer, Büroklammer / Satzzeichen (runde, eckige Klammer) / Wundklammer, Zahnklammer) — nach den Nomen 2026-10-30
+  'Klamotte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Plural: Kleidung «die Klamotten» / anspruchsloses, derbes Theaterstück oder Film) — nach den Nomen 2026-10-30
+  'Klappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deckel, Lasche / Herzklappe, Ventil / derb: Mund «halt die Klappe» / Filmklappe) — nach den Nomen 2026-10-30
+  'Klarheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchsichtigkeit, Reinheit (Wasser, Luft) / Deutlichkeit, Verständlichkeit «Klarheit schaffen») — nach den Nomen 2026-10-30
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3596,6 +3600,7 @@ const zurueckgestellt = <String>{
   'Ketchup', // zurückgestellt: Genus schwankt (der oder das Ketchup) — Regel 14 2026-10-30
   'Kinderschutzbund', // zurückgestellt: Name einer bestimmten Organisation (Deutscher Kinderschutzbund) — keine Eigennamen-Karte nach Regel 18 2026-10-30
   'Kirchner', // zurückgestellt: Bedeutung unsicher (veraltet/landschaftlich: Küster, Mesner / häufiger Familienname) — Regel 14 2026-10-30
+  'Klar', // zurückgestellt: österr. Kurzform für Eiklar (das Klar); Plural und Gebrauch als eigenes Stichwort nicht sicher — Regel 14 2026-10-30
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
