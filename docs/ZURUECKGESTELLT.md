@@ -3678,3 +3678,4 @@
 | 1356 | Konzil | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kirchenversammlung / Hochschulgremium) |
 | 1357 | Koordination | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Abstimmung, Zusammenspiel / Medizin: Zusammenwirken der Muskeln / Chemie: Koordinationsverbindung) |
 | 1358 | Kopf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Körperteil / Person, Anführer «der Kopf der Bande» / oberer Teil «Kopf des Briefes») |
+| 1359 | Kopie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Abschrift, Fotokopie / Nachbildung eines Kunstwerks, Imitat / Film, Fotografie: Abzug) |
