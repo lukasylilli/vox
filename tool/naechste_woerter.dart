@@ -3700,6 +3700,10 @@ const zurueckgestellt = <String>{
   'Kreation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Modeschöpfung, Modell / allgemein: Schöpfung, Erfindung) — nach den Nomen 2026-10-31
   'Kreatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschöpf, Lebewesen / abwertend: Mensch, bedauernswertes Wesen / willenloses Werkzeug eines anderen) — nach den Nomen 2026-10-31
   'Krebs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krebstier / Krankheit, bösartiger Tumor / Sternbild, Tierkreiszeichen) — nach den Nomen 2026-10-31
+  'Kreide', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kalkgestein / Schreibkreide / Geologie: Erdzeitalter / Redewendung «in der Kreide stehen» = Schulden haben) — nach den Nomen 2026-10-31
+  'Kreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geometrische Figur / Gruppe von Menschen «Freundeskreis» / Verwaltungsbezirk, Landkreis) — nach den Nomen 2026-10-31
+  'Kreisel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielzeug / umgangssprachlich: Kreisverkehr / Technik: Gyroskop) — nach den Nomen 2026-10-31
+  'Kreislauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Blutkreislauf «Kreislaufprobleme» / Zyklus, Wasserkreislauf, Wirtschaftskreislauf) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

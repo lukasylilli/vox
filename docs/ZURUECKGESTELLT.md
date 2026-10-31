@@ -3713,3 +3713,7 @@
 | 1388 | Kreation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Modeschöpfung, Modell / allgemein: Schöpfung, Erfindung) |
 | 1389 | Kreatur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschöpf, Lebewesen / abwertend: Mensch, bedauernswertes Wesen / willenloses Werkzeug eines anderen) |
 | 1390 | Krebs | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Krebstier / Krankheit, bösartiger Tumor / Sternbild, Tierkreiszeichen) |
+| 1391 | Kreide | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kalkgestein / Schreibkreide / Geologie: Erdzeitalter / Redewendung «in der Kreide stehen» = Schulden haben) |
+| 1392 | Kreis | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geometrische Figur / Gruppe von Menschen «Freundeskreis» / Verwaltungsbezirk, Landkreis) |
+| 1393 | Kreisel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Spielzeug / umgangssprachlich: Kreisverkehr / Technik: Gyroskop) |
+| 1394 | Kreislauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Blutkreislauf «Kreislaufprobleme» / Zyklus, Wasserkreislauf, Wirtschaftskreislauf) |

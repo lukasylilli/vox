@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kreisgebiet",
+  "wort": "das Kreisgebiet",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "محدوده‌ی شهرستان",
+      "قلمرو شهرستان"
+    ],
+    "en": [
+      "district area"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Verwaltung",
+    "Geografie"
+  ],
+  "ipa": "ˈkʁaɪ̯sɡəˌbiːt",
+  "anmerkung": "vor allem Deutschland (Landkreis)",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Im Kreisgebiet gibt es zehn Schulen.",
+      "uebersetzung": {
+        "fa": "در محدوده‌ی شهرستان ده مدرسه هست.",
+        "en": "There are ten schools in the district area."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im gesamten Kreisgebiet fährt ab Montag ein neuer Nachtbus, der auch kleine Dörfer verbindet.",
+      "uebersetzung": {
+        "fa": "از دوشنبه در کل محدوده‌ی شهرستان اتوبوس شبانه‌ی تازه‌ای راه می‌افتد که روستاهای کوچک را هم به هم وصل می‌کند.",
+        "en": "From Monday a new night bus will run across the entire district, also connecting small villages."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kreis (شهرستان) + Gebiet (منطقه)",
+    "en": "Kreis (district) + Gebiet (area)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Kreisgebiete",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "im Kreisgebiet (in + Dat)",
+        "beispiel": "Im Kreisgebiet wurden drei neue Windräder gebaut.",
+        "uebersetzung": {
+          "fa": "در محدوده‌ی شهرستان سه توربین بادی تازه ساخته شد.",
+          "en": "Three new wind turbines were built in the district."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Landkreis",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شهرستان (در آلمان)",
+          "en": "district"
+        },
+        "id_ref": "nomen_landkreis"
+      },
+      {
+        "wort": "das Gebiet",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه",
+          "en": "area"
+        },
+        "id_ref": "nomen_gebiet"
+      },
+      {
+        "wort": "die Gemeinde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش، شهرداری کوچک",
+          "en": "municipality"
+        },
+        "id_ref": "nomen_gemeinde"
+      },
+      {
+        "wort": "die Kreisstadt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مرکز شهرستان",
+          "en": "district town"
+        },
+        "id_ref": "nomen_kreisstadt"
+      },
+      {
+        "wort": "die Region",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "منطقه",
+          "en": "region"
+        },
+        "id_ref": "nomen_region"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
