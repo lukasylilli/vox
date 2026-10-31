@@ -3766,3 +3766,6 @@
 | 1430 | Kunst | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: bildende Kunst, Musik, Literatur / Können, Fertigkeit «die Kunst des Kochens» / Schulfach Kunst) |
 | 1431 | Kunstbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kunstwelt insgesamt, Kunstmarkt und Institutionen / einzelner Betrieb der Kunst — wie Kulturbetrieb) |
 | 1432 | Kupfer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Metall / Kupfergeschirr / Kupferstich) |
+| 1433 | Kupplung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Auto: Kupplung und Kupplungspedal / Anhängerkupplung, Verbindung zwischen Fahrzeugen) |
+| 1434 | Kurator | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacher im Museum / Recht: Vormund, Pfleger / Verwaltungsbeamter einer Universität) |
+| 1435 | Kuratorin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacherin im Museum / Recht: Vormundin, Pflegerin / Verwaltung einer Universität) |

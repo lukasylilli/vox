@@ -3797,6 +3797,9 @@ const zurueckgestellt = <String>{
   'Kunkel', // zurückgestellt: landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Kunstbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstwelt insgesamt, Kunstmarkt und Institutionen / einzelner Betrieb der Kunst — wie Kulturbetrieb) — nach den Nomen 2026-10-31
   'Kupfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metall / Kupfergeschirr / Kupferstich) — nach den Nomen 2026-10-31
+  'Kupplung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auto: Kupplung und Kupplungspedal / Anhängerkupplung, Verbindung zwischen Fahrzeugen) — nach den Nomen 2026-10-31
+  'Kurator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellungsmacher im Museum / Recht: Vormund, Pfleger / Verwaltungsbeamter einer Universität) — nach den Nomen 2026-10-31
+  'Kuratorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellungsmacherin im Museum / Recht: Vormundin, Pflegerin / Verwaltung einer Universität) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
