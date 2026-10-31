@@ -3709,3 +3709,7 @@
 | 1384 | Krankheitsfall | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: «im Krankheitsfall» = wenn jemand krank wird / einzelner Fall einer Krankheit) |
 | 1385 | Kranz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gebinde aus Blumen, Zweigen / ringförmiges Gebäck «Frankfurter Kranz» / Kreis, Ring) |
 | 1386 | Kratzer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schramme, Kratzspur / Technik: Kratzeisen, Werkzeug) |
+| 1387 | Krawall | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Aufruhr, Tumult (meist Plural «Krawalle») / umgangssprachlich: Lärm, Krach «Krawall machen») |
+| 1388 | Kreation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Modeschöpfung, Modell / allgemein: Schöpfung, Erfindung) |
+| 1389 | Kreatur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschöpf, Lebewesen / abwertend: Mensch, bedauernswertes Wesen / willenloses Werkzeug eines anderen) |
+| 1390 | Krebs | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Krebstier / Krankheit, bösartiger Tumor / Sternbild, Tierkreiszeichen) |

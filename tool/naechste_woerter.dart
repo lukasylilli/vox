@@ -3696,6 +3696,10 @@ const zurueckgestellt = <String>{
   'Krankheitsfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «im Krankheitsfall» = wenn jemand krank wird / einzelner Fall einer Krankheit) — nach den Nomen 2026-10-31
   'Kranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebinde aus Blumen, Zweigen / ringförmiges Gebäck «Frankfurter Kranz» / Kreis, Ring) — nach den Nomen 2026-10-31
   'Kratzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schramme, Kratzspur / Technik: Kratzeisen, Werkzeug) — nach den Nomen 2026-10-31
+  'Krawall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufruhr, Tumult (meist Plural «Krawalle») / umgangssprachlich: Lärm, Krach «Krawall machen») — nach den Nomen 2026-10-31
+  'Kreation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Modeschöpfung, Modell / allgemein: Schöpfung, Erfindung) — nach den Nomen 2026-10-31
+  'Kreatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschöpf, Lebewesen / abwertend: Mensch, bedauernswertes Wesen / willenloses Werkzeug eines anderen) — nach den Nomen 2026-10-31
+  'Krebs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krebstier / Krankheit, bösartiger Tumor / Sternbild, Tierkreiszeichen) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
