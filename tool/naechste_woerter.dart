@@ -3679,6 +3679,10 @@ const zurueckgestellt = <String>{
   'Korrespondentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Journalistin, Auslandsberichterstatterin / Kauffrau für Geschäftsbriefe «Fremdsprachenkorrespondentin») — nach den Nomen 2026-10-31
   'Korrespondenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Briefwechsel, Schriftverkehr / gehoben: Übereinstimmung) — nach den Nomen 2026-10-31
   'Korridor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flur, Gang / Landstreifen, Luftkorridor / übertragen: Spielraum «Zinskorridor») — nach den Nomen 2026-10-31
+  'Korsett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mieder / Medizin: Stützkorsett / übertragen: einengende Vorschriften) — nach den Nomen 2026-10-31
+  'Kosmetik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schönheitspflege / übertragen: oberflächliche Verbesserung «reine Kosmetik») — nach den Nomen 2026-10-31
+  'Kosmos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») — nach den Nomen 2026-10-31
+  'Kostbarkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

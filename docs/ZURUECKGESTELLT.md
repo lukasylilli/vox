@@ -3689,3 +3689,7 @@
 | 1367 | Korrespondentin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Journalistin, Auslandsberichterstatterin / Kauffrau für Geschäftsbriefe «Fremdsprachenkorrespondentin») |
 | 1368 | Korrespondenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Briefwechsel, Schriftverkehr / gehoben: Übereinstimmung) |
 | 1369 | Korridor | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Flur, Gang / Landstreifen, Luftkorridor / übertragen: Spielraum «Zinskorridor») |
+| 1370 | Korsett | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Mieder / Medizin: Stützkorsett / übertragen: einengende Vorschriften) |
+| 1371 | Kosmetik | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schönheitspflege / übertragen: oberflächliche Verbesserung «reine Kosmetik») |
+| 1372 | Kosmos | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») |
+| 1373 | Kostbarkeit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) |
