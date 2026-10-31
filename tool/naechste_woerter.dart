@@ -3602,6 +3602,9 @@ const zurueckgestellt = <String>{
   'Knirps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. kleiner Junge / Taschenschirm (Markenname)) — nach den Nomen 2026-10-31
   'Knopf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleiderknopf / Taste, Schaltknopf / österr. Knoten) — nach den Nomen 2026-10-31
   'Knoten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlinge, Verknotung / Medizin: Verdickung im Gewebe / Seefahrt: Geschwindigkeitsmaß) — nach den Nomen 2026-10-31
+  'Kodex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regelwerk, Verhaltenskodex / alte Handschrift) — nach den Nomen 2026-10-31
+  'Kohl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemüse / ugs. Unsinn «Kohl reden») — nach den Nomen 2026-10-31
+  'Kohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

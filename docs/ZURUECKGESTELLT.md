@@ -3607,3 +3607,6 @@
 | 1290 | Knirps | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: ugs. kleiner Junge / Taschenschirm (Markenname)) |
 | 1291 | Knopf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kleiderknopf / Taste, Schaltknopf / österr. Knoten) |
 | 1292 | Knoten | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schlinge, Verknotung / Medizin: Verdickung im Gewebe / Seefahrt: Geschwindigkeitsmaß) |
+| 1293 | Kodex | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Regelwerk, Verhaltenskodex / alte Handschrift) |
+| 1294 | Kohl | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemüse / ugs. Unsinn «Kohl reden») |
+| 1295 | Kohle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) |

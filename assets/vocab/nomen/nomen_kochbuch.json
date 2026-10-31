@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kochbuch",
+  "wort": "das Kochbuch",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کتاب آشپزی"
+    ],
+    "en": [
+      "cookbook",
+      "cookery book"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Essen und Trinken",
+    "Kochen"
+  ],
+  "ipa": "ˈkɔxˌbuːx",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Kochbuch hat schöne Bilder.",
+      "uebersetzung": {
+        "fa": "این کتاب آشپزی عکس‌های قشنگی دارد.",
+        "en": "The cookbook has beautiful pictures."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe ein Kochbuch gekauft, in dem es viele vegetarische Rezepte gibt.",
+      "uebersetzung": {
+        "fa": "یک کتاب آشپزی خریدم که در آن دستورهای گیاهی زیادی هست.",
+        "en": "I bought a cookbook that has a lot of vegetarian recipes."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "kochen (پختن) + das Buch (کتاب)",
+    "en": "kochen (to cook) + das Buch (book)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Kochbücher",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "ein Rezept aus dem Kochbuch (aus + Dat)",
+        "beispiel": "Dieses Rezept ist aus dem Kochbuch meiner Oma.",
+        "uebersetzung": {
+          "fa": "این دستور از کتاب آشپزی مادربزرگم است.",
+          "en": "This recipe is from my grandmother's cookbook."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "kochen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پختن، آشپزی کردن",
+          "en": "to cook"
+        },
+        "id_ref": "verb_kochen"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستور غذا",
+          "en": "recipe"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "die Küche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آشپزخانه",
+          "en": "kitchen"
+        },
+        "id_ref": "nomen_kueche"
+      },
+      {
+        "wort": "der Koch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آشپز",
+          "en": "cook, chef"
+        },
+        "id_ref": "nomen_koch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
