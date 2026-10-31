@@ -3721,3 +3721,8 @@
 | 1394 | Kreislauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Blutkreislauf «Kreislaufprobleme» / Zyklus, Wasserkreislauf, Wirtschaftskreislauf) |
 | 1395 | Kreisvorsitzende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Kreisvorsitzende, ein Kreisvorsitzender) |
 | 1396 | Kreisvorsitzender | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «der/die Kreisvorsitzende») |
+| 1397 | Kreml | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Burganlage in russischen Städten / der Moskauer Kreml als Sitz und Sinnbild der russischen Regierung) |
+| 1398 | Kremser | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: offener Pferdewagen für Ausflüge / Einwohner von Krems) |
+| 1399 | Kreuz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zeichen aus zwei Balken, christliches Symbol / unterer Rücken «Kreuzschmerzen» / Spielkartenfarbe / Autobahnkreuz / Musik: Vorzeichen) |
+| 1400 | Kreuzer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kriegsschiff / historische Münze / Segeljacht für längere Fahrten) |
+| 1401 | Kreuzfeuer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Militär: Beschuss von mehreren Seiten / übertragen: «im Kreuzfeuer der Kritik stehen») |

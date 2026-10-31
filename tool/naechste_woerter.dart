@@ -3752,6 +3752,11 @@ const zurueckgestellt = <String>{
   'Kreisvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Kreisvorsitzende») — nach den Nomen 2026-10-31
   'Kreisverwaltungsreferat', // zurückgestellt: Name einer Behörde (KVR in München) — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
   'Krem', // zurückgestellt: Genus schwankend (die oder der Krem; eingedeutschte Schreibung von «Creme») — Lemma und Genus nicht sicher, Regel 14 2026-10-31
+  'Kreml', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Burganlage in russischen Städten / der Moskauer Kreml als Sitz und Sinnbild der russischen Regierung) — nach den Nomen 2026-10-31
+  'Kremser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offener Pferdewagen für Ausflüge / Einwohner von Krems) — nach den Nomen 2026-10-31
+  'Kreuz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen aus zwei Balken, christliches Symbol / unterer Rücken «Kreuzschmerzen» / Spielkartenfarbe / Autobahnkreuz / Musik: Vorzeichen) — nach den Nomen 2026-10-31
+  'Kreuzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kriegsschiff / historische Münze / Segeljacht für längere Fahrten) — nach den Nomen 2026-10-31
+  'Kreuzfeuer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Beschuss von mehreren Seiten / übertragen: «im Kreuzfeuer der Kritik stehen») — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
