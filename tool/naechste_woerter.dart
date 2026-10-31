@@ -3683,6 +3683,7 @@ const zurueckgestellt = <String>{
   'Kosmetik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schönheitspflege / übertragen: oberflächliche Verbesserung «reine Kosmetik») — nach den Nomen 2026-10-31
   'Kosmos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») — nach den Nomen 2026-10-31
   'Kostbarkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) — nach den Nomen 2026-10-31
+  'Kostprobe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Menge zum Probieren / übertragen: Beispiel, Probe «eine Kostprobe seines Könnens») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

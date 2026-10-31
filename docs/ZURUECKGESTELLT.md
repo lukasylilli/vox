@@ -3693,3 +3693,4 @@
 | 1371 | Kosmetik | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schönheitspflege / übertragen: oberflächliche Verbesserung «reine Kosmetik») |
 | 1372 | Kosmos | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») |
 | 1373 | Kostbarkeit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) |
+| 1374 | Kostprobe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kleine Menge zum Probieren / übertragen: Beispiel, Probe «eine Kostprobe seines Könnens») |
