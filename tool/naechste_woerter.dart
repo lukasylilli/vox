@@ -3871,6 +3871,16 @@ const zurueckgestellt = <String>{
   'Lebenslauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlauf des Lebens / schriftliche Darstellung, CV für Bewerbungen) — nach den Nomen 2026-10-31
   'Lebensraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Raum zum Leben eines Menschen, Volkes / Biologie: Biotop, Habitat / NS-Begriff) — nach den Nomen 2026-10-31
   'Lebensversicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versicherungsvertrag auf den Todes-/Erlebensfall / Versicherungsgesellschaft) — nach den Nomen 2026-10-31
+  'Lebenszeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen, dass jemand lebt (Puls, Atmung) / Nachricht von jemandem «kein Lebenszeichen von sich geben») — nach den Nomen 2026-10-31
+  'Leber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organ / Speise aus Tierleber «Leber mit Zwiebeln») — nach den Nomen 2026-10-31
+  'Lech', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Lech = Fluss ↔ Lech = Ort am Arlberg in Vorarlberg, ohne Artikel) — nach den Nomen 2026-10-31
+  'Leckerbissen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besonders feine Speise / übertragen: etwas Besonderes «ein musikalischer Leckerbissen») — nach den Nomen 2026-10-31
+  'Leder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Material aus Tierhaut / ugs. der Fußball «das Leder» / Fensterleder) — nach den Nomen 2026-10-31
+  'Lederer', // zurückgestellt: veraltet/landschaftlich für Gerber, sonst Familienname — Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Lee', // zurückgestellt: Seemannssprache (die dem Wind abgewandte Seite), Genus schwankend (die oder das Lee) — Regel 14 2026-10-31
+  'Leere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (mehrere Bedeutungen: Leersein, leerer Raum / innere Leere, Gefühl; dazu substantiviertes «ins Leere») — nach den Nomen 2026-10-31
+  'Leerlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Leerlauf des Motors, Gang / übertragen: Phase ohne Ergebnis) — nach den Nomen 2026-10-31
+  'Leerstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: freie Stelle, Lücke / Sprachwissenschaft: Valenzstelle / Leerzeichen beim Schreiben) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

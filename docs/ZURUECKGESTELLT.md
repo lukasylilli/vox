@@ -2495,6 +2495,8 @@
 | ۲۳۱۸ | Laptop | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Laptop, Duden) — wie Kubikmeter, Regel 14 | — |
 | ۲۳۱۹ | Lauda | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (Niki Lauda) — kein Gattungswort und kein geografischer Name, Regel 18 | — |
 | ۲۳۲۰ | Learning | `substantiv_singular_alle.txt` | 2026-10-31 | kein selbstständiges deutsches Nomen (nur in Fügungen wie E-Learning, Machine Learning) — Gebrauch und Genus nicht sicher, Regel 14 | — |
+| ۲۳۲۱ | Lederer | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet/landschaftlich für Gerber, sonst Familienname — Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۲۲ | Lee | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (die dem Wind abgewandte Seite), Genus schwankend (die oder das Lee) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3839,3 +3841,11 @@
 | 1498 | Lebenslauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Verlauf des Lebens / schriftliche Darstellung, CV für Bewerbungen) |
 | 1499 | Lebensraum | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Raum zum Leben eines Menschen, Volkes / Biologie: Biotop, Habitat / NS-Begriff) |
 | 1500 | Lebensversicherung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Versicherungsvertrag auf den Todes-/Erlebensfall / Versicherungsgesellschaft) |
+| 1501 | Lebenszeichen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zeichen, dass jemand lebt (Puls, Atmung) / Nachricht von jemandem «kein Lebenszeichen von sich geben») |
+| 1502 | Leber | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Organ / Speise aus Tierleber «Leber mit Zwiebeln») |
+| 1503 | Lech | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 2 (Homograph: der Lech = Fluss ↔ Lech = Ort am Arlberg in Vorarlberg, ohne Artikel) |
+| 1504 | Leckerbissen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: besonders feine Speise / übertragen: etwas Besonderes «ein musikalischer Leckerbissen») |
+| 1505 | Leder | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Material aus Tierhaut / ugs. der Fußball «das Leder» / Fensterleder) |
+| 1506 | Leere | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1/4 (mehrere Bedeutungen: Leersein, leerer Raum / innere Leere, Gefühl; dazu substantiviertes «ins Leere») |
+| 1507 | Leerlauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Technik: Leerlauf des Motors, Gang / übertragen: Phase ohne Ergebnis) |
+| 1508 | Leerstelle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: freie Stelle, Lücke / Sprachwissenschaft: Valenzstelle / Leerzeichen beim Schreiben) |
