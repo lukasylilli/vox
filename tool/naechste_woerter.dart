@@ -3894,6 +3894,17 @@ const zurueckgestellt = <String>{
   'Leibchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Mieder, Kinderleibchen / österr., schweiz.: Unterhemd, T-Shirt, Trikot) — nach den Nomen 2026-10-31
   'Leichter', // zurückgestellt: Seemannssprache (Lastkahn zum Leichtern) — sonst Komparativ von «leicht»; gemeintes Wort und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Leichtgewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Gewichtsklasse / Sportler dieser Klasse / ugs. übertragen: unbedeutende Person, leichte Sache) — nach den Nomen 2026-10-31
+  'Leichtigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geringes Gewicht / Mühelosigkeit «mit Leichtigkeit» / Unbeschwertheit) — nach den Nomen 2026-10-31
+  'Leidenschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: starkes Gefühl, Begeisterung für etwas / heftige Liebe, Verlangen) — nach den Nomen 2026-10-31
+  'Leidensgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte des Leidens eines Menschen / Christentum: Passion Christi) — nach den Nomen 2026-10-31
+  'Leidensweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lange Zeit des Leidens / Christentum: Kreuzweg Christi) — nach den Nomen 2026-10-31
+  'Leidtragende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Leidtragende, ein Leidtragender) — nach den Nomen 2026-10-31
+  'Leidwesen', // zurückgestellt: nur in der festen Wendung «zu meinem/seinem Leidwesen» — wie im Handumdrehen, Regel 14 2026-10-31
+  'Leinen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Gewebe aus Flachs / Leinenzeug; dazu gleich geschrieben: die Leinen = Plural von die Leine) — nach den Nomen 2026-10-31
+  'Leinwand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerleinwand / Projektionsfläche im Kino / Gewebe) — nach den Nomen 2026-10-31
+  'Leis', // zurückgestellt: Fachwort (mittelalterliches geistliches Volkslied) bzw. Nebenform von «leise» — gemeintes Wort und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Leisten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Leisten = Schuhmacherform «alles über einen Leisten schlagen» ↔ das Leisten = substantivierter Infinitiv von leisten) — nach den Nomen 2026-10-31
+  'Leistung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ergebnis, Arbeitsleistung / Physik, Technik: Leistung in Watt / Dienstleistung, Versicherungsleistung, Zahlung) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

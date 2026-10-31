@@ -2498,6 +2498,8 @@
 | ۲۳۲۱ | Lederer | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet/landschaftlich für Gerber, sonst Familienname — Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۲۲ | Lee | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (die dem Wind abgewandte Seite), Genus schwankend (die oder das Lee) — Regel 14 | — |
 | ۲۳۲۳ | Leichter | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (Lastkahn zum Leichtern) — sonst Komparativ von «leicht»; gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۲۴ | Leidwesen | `substantiv_singular_alle.txt` | 2026-10-31 | nur in der festen Wendung «zu meinem/seinem Leidwesen» — wie im Handumdrehen, Regel 14 | — |
+| ۲۳۲۵ | Leis | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (mittelalterliches geistliches Volkslied) bzw. Nebenform von «leise» — gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3862,3 +3864,12 @@
 | 1518 | Leib | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Körper «am eigenen Leib» / Bauch, Rumpf; dazu Leib Christi) |
 | 1519 | Leibchen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: früher Mieder, Kinderleibchen / österr., schweiz.: Unterhemd, T-Shirt, Trikot) |
 | 1520 | Leichtgewicht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sport: Gewichtsklasse / Sportler dieser Klasse / ugs. übertragen: unbedeutende Person, leichte Sache) |
+| 1521 | Leichtigkeit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geringes Gewicht / Mühelosigkeit «mit Leichtigkeit» / Unbeschwertheit) |
+| 1522 | Leidenschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: starkes Gefühl, Begeisterung für etwas / heftige Liebe, Verlangen) |
+| 1523 | Leidensgeschichte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte des Leidens eines Menschen / Christentum: Passion Christi) |
+| 1524 | Leidensweg | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: lange Zeit des Leidens / Christentum: Kreuzweg Christi) |
+| 1525 | Leidtragende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Leidtragende, ein Leidtragender) |
+| 1526 | Leinen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1/3 (mehrere Bedeutungen: Gewebe aus Flachs / Leinenzeug; dazu gleich geschrieben: die Leinen = Plural von die Leine) |
+| 1527 | Leinwand | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Malerleinwand / Projektionsfläche im Kino / Gewebe) |
+| 1528 | Leisten | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 2 (Homograph: der Leisten = Schuhmacherform «alles über einen Leisten schlagen» ↔ das Leisten = substantivierter Infinitiv von leisten) |
+| 1529 | Leistung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ergebnis, Arbeitsleistung / Physik, Technik: Leistung in Watt / Dienstleistung, Versicherungsleistung, Zahlung) |
