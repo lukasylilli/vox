@@ -3635,3 +3635,5 @@
 | 1316 | Komposition | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musikwerk, das Komponieren / Aufbau, Gestaltung eines Kunstwerks) |
 | 1317 | Kondition | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: körperliche Leistungsfähigkeit / meist Pl. Geschäftsbedingungen «Konditionen») |
 | 1318 | Konfiguration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gestaltung, Anordnung / EDV: Einstellungen eines Systems / Chemie, Astronomie: räumliche Anordnung) |
+| 1319 | Konglomerat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemisch, Ansammlung / Geologie: Gestein / Wirtschaft: Mischkonzern) |
+| 1320 | Kongress | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fachtagung / Parlament der USA «der Kongress») |

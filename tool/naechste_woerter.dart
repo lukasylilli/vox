@@ -3628,6 +3628,8 @@ const zurueckgestellt = <String>{
   'Komposition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikwerk, das Komponieren / Aufbau, Gestaltung eines Kunstwerks) — nach den Nomen 2026-10-31
   'Kondition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Leistungsfähigkeit / meist Pl. Geschäftsbedingungen «Konditionen») — nach den Nomen 2026-10-31
   'Konfiguration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gestaltung, Anordnung / EDV: Einstellungen eines Systems / Chemie, Astronomie: räumliche Anordnung) — nach den Nomen 2026-10-31
+  'Konglomerat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemisch, Ansammlung / Geologie: Gestein / Wirtschaft: Mischkonzern) — nach den Nomen 2026-10-31
+  'Kongress', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachtagung / Parlament der USA «der Kongress») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
