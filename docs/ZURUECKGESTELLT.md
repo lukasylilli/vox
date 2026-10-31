@@ -2477,6 +2477,7 @@
 | ۲۳۰۰ | Kontrollamt | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Name einer Behörde (Kontrollamt der Stadt Wien, heute Stadtrechnungshof) — als Gattungswort nicht sicher, Regel 14/18 | — |
 | ۲۳۰۱ | Kontur | `substantiv_singular_alle.txt` | 2026-10-31 | Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 | — |
 | ۲۳۰۲ | Kramer | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 | — |
+| ۲۳۰۳ | Krankenschein | `substantiv_singular_alle.txt` | 2026-10-31 | früher Behandlungsschein der Krankenkasse (heute Versichertenkarte, e-card), umgangssprachlich auch Krankmeldung — Bedeutung und Markierung nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3703,3 +3704,4 @@
 | 1380 | Krampf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Muskelkrampf / umgangssprachlich: Unsinn, krampfhaftes Bemühen «so ein Krampf») |
 | 1381 | Kran | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Hebevorrichtung, Baukran / landschaftlich: Wasserhahn) |
 | 1382 | Kranke | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Kranke, ein Kranker) |
+| 1383 | Krankenstand | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: vor allem österr.: Zeit der Arbeitsunfähigkeit «im Krankenstand sein» / Anzahl der Kranken in einem Betrieb) |

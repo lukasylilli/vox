@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenbett",
+  "wort": "das Krankenbett",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تخت بیمار",
+      "تخت بیمارستان"
+    ],
+    "en": [
+      "sickbed",
+      "hospital bed"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Krankenhaus"
+  ],
+  "ipa": "ˈkʁaŋkn̩ˌbɛt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Krankenbett steht am Fenster.",
+      "uebersetzung": {
+        "fa": "تخت بیمار کنار پنجره است.",
+        "en": "The hospital bed is by the window."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Tochter saß jeden Abend am Krankenbett ihrer Mutter und las ihr vor.",
+      "uebersetzung": {
+        "fa": "دختر هر شب کنار تخت مادرش می‌نشست و برایش کتاب می‌خواند.",
+        "en": "Every evening the daughter sat at her mother’s bedside and read to her."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kranke (بیمار) + Bett (تخت)",
+    "en": "Kranke (sick person) + Bett (bed)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Krankenbetten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "am Krankenbett (an + Dat)",
+        "beispiel": "Der Arzt erklärte die Behandlung direkt am Krankenbett.",
+        "uebersetzung": {
+          "fa": "پزشک درمان را درست کنار تخت بیمار توضیح داد.",
+          "en": "The doctor explained the treatment right at the bedside."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "die Station",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "ward"
+        },
+        "id_ref": "nomen_station"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

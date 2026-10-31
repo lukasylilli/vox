@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenhaus",
+  "wort": "das Krankenhaus",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمارستان"
+    ],
+    "en": [
+      "hospital"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit",
+    "Stadt"
+  ],
+  "ipa": "ˈkʁaŋkn̩ˌhaʊ̯s",
+  "anmerkung": "österreichisch und schweizerisch auch «das Spital»",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Mein Opa ist im Krankenhaus.",
+      "uebersetzung": {
+        "fa": "پدربزرگم در بیمارستان است.",
+        "en": "My grandpa is in hospital."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Unfall wurde er sofort ins Krankenhaus gebracht, wo man ihn operierte.",
+      "uebersetzung": {
+        "fa": "پس از تصادف او را فوراً به بیمارستان بردند و آنجا عملش کردند.",
+        "en": "After the accident he was taken straight to hospital, where he was operated on."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Klinik",
+      "uebersetzung": {
+        "fa": "کلینیک",
+        "en": "clinic"
+      }
+    },
+    {
+      "wort": "das Spital",
+      "uebersetzung": {
+        "fa": "بیمارستان",
+        "en": "hospital"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Krankenhausaufenthalt",
+      "uebersetzung": {
+        "fa": "بستری در بیمارستان",
+        "en": "hospital stay"
+      }
+    },
+    {
+      "wort": "das Kreiskrankenhaus",
+      "uebersetzung": {
+        "fa": "بیمارستان شهرستان",
+        "en": "district hospital"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Kranke (بیمار) + Haus (خانه)",
+    "en": "Kranke (sick person) + Haus (house)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Krankenhäuser",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "im Krankenhaus liegen (in + Dat)",
+        "beispiel": "Sie liegt seit einer Woche im Krankenhaus.",
+        "uebersetzung": {
+          "fa": "یک هفته است در بیمارستان بستری است.",
+          "en": "She has been in hospital for a week."
+        }
+      },
+      {
+        "muster": "ins Krankenhaus kommen (in + Akk)",
+        "beispiel": "Er musste mit Fieber ins Krankenhaus.",
+        "uebersetzung": {
+          "fa": "او با تب مجبور شد به بیمارستان برود.",
+          "en": "He had to go to hospital with a fever."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلینیک",
+          "en": "clinic"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "das Spital",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_spital"
+      },
+      {
+        "wort": "die Notaufnahme",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اورژانس",
+          "en": "emergency room"
+        },
+        "id_ref": "nomen_notaufnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

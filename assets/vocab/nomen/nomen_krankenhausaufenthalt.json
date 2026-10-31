@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenhausaufenthalt",
+  "wort": "der Krankenhausaufenthalt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بستری در بیمارستان",
+      "مدت بستری"
+    ],
+    "en": [
+      "hospital stay"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Krankenhaus"
+  ],
+  "ipa": "ˈkʁaŋkn̩haʊ̯sˌʔaʊ̯fɛnthalt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Krankenhausaufenthalt war kurz.",
+      "uebersetzung": {
+        "fa": "بستری در بیمارستان کوتاه بود.",
+        "en": "The hospital stay was short."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach einem langen Krankenhausaufenthalt braucht man oft noch eine Reha, bevor man wieder arbeiten kann.",
+      "uebersetzung": {
+        "fa": "پس از بستری طولانی در بیمارستان اغلب هنوز به توان‌بخشی نیاز است تا بتوان دوباره کار کرد.",
+        "en": "After a long hospital stay you often still need rehab before you can work again."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krankenhaus (بیمارستان) + Aufenthalt (اقامت)",
+    "en": "Krankenhaus (hospital) + Aufenthalt (stay)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Krankenhausaufenthalte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Krankenhausaufenthalt vermeiden",
+        "beispiel": "Mit der frühen Behandlung konnte ein Krankenhausaufenthalt vermieden werden.",
+        "uebersetzung": {
+          "fa": "با درمان زودهنگام از بستری شدن در بیمارستان جلوگیری شد.",
+          "en": "Early treatment made it possible to avoid a hospital stay."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Aufenthalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اقامت",
+          "en": "stay"
+        },
+        "id_ref": "nomen_aufenthalt"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Entlassung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترخیص",
+          "en": "discharge"
+        },
+        "id_ref": "nomen_entlassung"
+      },
+      {
+        "wort": "die Operation",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "operation"
+        },
+        "id_ref": "nomen_operation"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

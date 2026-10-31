@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenkasse",
+  "wort": "die Krankenkasse",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمه‌ی درمانی",
+      "صندوق بیمه‌ی درمانی"
+    ],
+    "en": [
+      "health insurance fund",
+      "health insurer"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Versicherung"
+  ],
+  "ipa": "ˈkʁaŋkn̩ˌkasə",
+  "anmerkung": "Österreich: gesetzliche Krankenkasse seit 2020 meist die ÖGK (Österreichische Gesundheitskasse)",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bei welcher Krankenkasse bist du?",
+      "uebersetzung": {
+        "fa": "بیمه‌ی درمانی‌ات کدام است؟",
+        "en": "Which health insurer are you with?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Krankenkasse zahlt die Brille nur, wenn der Augenarzt sie verschrieben hat.",
+      "uebersetzung": {
+        "fa": "بیمه‌ی درمانی هزینه‌ی عینک را فقط وقتی می‌پردازد که چشم‌پزشک آن را تجویز کرده باشد.",
+        "en": "The health insurer only pays for the glasses if the eye doctor prescribed them."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Krankenversicherung",
+      "uebersetzung": {
+        "fa": "بیمه‌ی درمانی",
+        "en": "health insurance"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Kranke (بیمار) + Kasse (صندوق)",
+    "en": "Kranke (sick person) + Kasse (fund)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Krankenkassen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "bei einer Krankenkasse versichert sein (bei + Dat)",
+        "beispiel": "Ich bin bei der Österreichischen Gesundheitskasse versichert.",
+        "uebersetzung": {
+          "fa": "من نزد صندوق سلامت اتریش بیمه هستم.",
+          "en": "I am insured with the Austrian Health Insurance Fund."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Versicherung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمه",
+          "en": "insurance"
+        },
+        "id_ref": "nomen_versicherung"
+      },
+      {
+        "wort": "die Krankenversicherung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه‌ی درمانی",
+          "en": "health insurance"
+        },
+        "id_ref": "nomen_krankenversicherung"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Rezept",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نسخه",
+          "en": "prescription"
+        },
+        "id_ref": "nomen_rezept"
+      },
+      {
+        "wort": "der Beitrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق بیمه",
+          "en": "contribution"
+        },
+        "id_ref": "nomen_beitrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
