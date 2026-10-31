@@ -3613,3 +3613,6 @@
 | 1295 | Kohle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) |
 | 1296 | Kollaboration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammenarbeit mit dem Feind / bildungsspr. Zusammenarbeit allgemein) |
 | 1297 | Kollaps | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Kreislaufzusammenbruch / übertragen Zusammenbruch eines Systems) |
+| 1298 | Kollektiv | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemeinschaft, Gruppe / DDR: Produktionsgemeinschaft / Statistik: Gesamtheit) |
+| 1299 | Kollision | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammenstoß von Fahrzeugen / Widerstreit, z. B. von Interessen oder Terminen) |
+| 1300 | Kolloquium | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: wissenschaftliches Gespräch, Tagung / österr. mündliche Prüfung an der Uni) |

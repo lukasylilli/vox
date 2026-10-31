@@ -3607,6 +3607,9 @@ const zurueckgestellt = <String>{
   'Kohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) — nach den Nomen 2026-10-31
   'Kollaboration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenarbeit mit dem Feind / bildungsspr. Zusammenarbeit allgemein) — nach den Nomen 2026-10-31
   'Kollaps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Kreislaufzusammenbruch / übertragen Zusammenbruch eines Systems) — nach den Nomen 2026-10-31
+  'Kollektiv', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft, Gruppe / DDR: Produktionsgemeinschaft / Statistik: Gesamtheit) — nach den Nomen 2026-10-31
+  'Kollision', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenstoß von Fahrzeugen / Widerstreit, z. B. von Interessen oder Terminen) — nach den Nomen 2026-10-31
+  'Kolloquium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wissenschaftliches Gespräch, Tagung / österr. mündliche Prüfung an der Uni) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
