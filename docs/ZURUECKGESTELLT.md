@@ -3836,3 +3836,6 @@
 | 1495 | Lebensdauer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Dauer des Lebens / Haltbarkeit, Nutzungsdauer eines Geräts) |
 | 1496 | Lebensform | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Art des Zusammenlebens / Biologie: Organismus, Lebewesen) |
 | 1497 | Lebensgemeinschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammenleben, eheähnliche Gemeinschaft / Biologie: Biozönose) |
+| 1498 | Lebenslauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Verlauf des Lebens / schriftliche Darstellung, CV für Bewerbungen) |
+| 1499 | Lebensraum | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Raum zum Leben eines Menschen, Volkes / Biologie: Biotop, Habitat / NS-Begriff) |
+| 1500 | Lebensversicherung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Versicherungsvertrag auf den Todes-/Erlebensfall / Versicherungsgesellschaft) |

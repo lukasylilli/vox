@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "nomen_lebensmittel",
+  "wort": "das Lebensmittel",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مواد غذایی",
+      "خوراکی"
+    ],
+    "en": [
+      "food",
+      "groceries"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Essen",
+    "Einkaufen"
+  ],
+  "ipa": "ˈleːbn̩sˌmɪtl̩",
+  "anmerkung": "meist im Plural: die Lebensmittel",
+  "berufe": [
+    "gastro_hotel",
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich kaufe Lebensmittel im Supermarkt.",
+      "uebersetzung": {
+        "fa": "من مواد غذایی را از سوپرمارکت می‌خرم.",
+        "en": "I buy groceries at the supermarket."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Frische Lebensmittel sollte man im Kühlschrank aufbewahren, damit sie nicht schlecht werden.",
+      "uebersetzung": {
+        "fa": "مواد غذایی تازه را باید در یخچال نگه داشت تا خراب نشوند.",
+        "en": "Fresh food should be kept in the fridge so that it does not go bad."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Nahrungsmittel",
+      "uebersetzung": {
+        "fa": "ماده‌ی غذایی",
+        "en": "foodstuff"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Lebensmittelgeschäft",
+      "uebersetzung": {
+        "fa": "فروشگاه مواد غذایی",
+        "en": "grocery store"
+      }
+    },
+    {
+      "wort": "die Lebensmittelvergiftung",
+      "uebersetzung": {
+        "fa": "مسمومیت غذایی",
+        "en": "food poisoning"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Leben (زندگی) + -s- + Mittel (وسیله)",
+    "en": "Leben (life) + -s- + Mittel (means)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Lebensmittel",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Essen",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "غذا",
+          "en": "food, meal"
+        },
+        "id_ref": "nomen_essen"
+      },
+      {
+        "wort": "einkaufen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خرید کردن",
+          "en": "to shop"
+        },
+        "id_ref": "verb_einkaufen"
+      },
+      {
+        "wort": "der Supermarkt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سوپرمارکت",
+          "en": "supermarket"
+        },
+        "id_ref": "nomen_supermarkt"
+      },
+      {
+        "wort": "die Nahrung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "غذا، تغذیه",
+          "en": "nourishment"
+        },
+        "id_ref": "nomen_nahrung"
+      },
+      {
+        "wort": "das Nahrungsmittel",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماده‌ی غذایی",
+          "en": "foodstuff"
+        },
+        "id_ref": "nomen_nahrungsmittel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

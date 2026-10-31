@@ -3868,6 +3868,9 @@ const zurueckgestellt = <String>{
   'Lebensdauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dauer des Lebens / Haltbarkeit, Nutzungsdauer eines Geräts) — nach den Nomen 2026-10-31
   'Lebensform', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art des Zusammenlebens / Biologie: Organismus, Lebewesen) — nach den Nomen 2026-10-31
   'Lebensgemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenleben, eheähnliche Gemeinschaft / Biologie: Biozönose) — nach den Nomen 2026-10-31
+  'Lebenslauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verlauf des Lebens / schriftliche Darstellung, CV für Bewerbungen) — nach den Nomen 2026-10-31
+  'Lebensraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Raum zum Leben eines Menschen, Volkes / Biologie: Biotop, Habitat / NS-Begriff) — nach den Nomen 2026-10-31
+  'Lebensversicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versicherungsvertrag auf den Todes-/Erlebensfall / Versicherungsgesellschaft) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
