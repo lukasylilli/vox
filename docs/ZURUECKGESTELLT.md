@@ -3770,3 +3770,7 @@
 | 1434 | Kurator | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacher im Museum / Recht: Vormund, Pfleger / Verwaltungsbeamter einer Universität) |
 | 1435 | Kuratorin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacherin im Museum / Recht: Vormundin, Pflegerin / Verwaltung einer Universität) |
 | 1436 | Kurs | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lehrgang, Sprachkurs / Richtung, Route eines Schiffes oder Flugzeugs / Börse: Kurs einer Aktie, Wechselkurs / politische Linie) |
+| 1437 | Kurskorrektur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Börse: Korrektur der Aktienkurse / Änderung von Richtung oder politischer Linie) |
+| 1438 | Kursniveau | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Börse: Höhe der Kurse / Niveau eines Sprach- oder Lehrkurses) |
+| 1439 | Kursziel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Börse: erwarteter Aktienkurs / Navigation: Ziel einer Fahrt, eines Flugs) |
+| 1440 | Kurve | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Straßenkurve / Mathematik: Kurve im Diagramm / ugs. Körperrundungen; «die Kurve kriegen») |

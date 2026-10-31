@@ -3802,6 +3802,10 @@ const zurueckgestellt = <String>{
   'Kurator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellungsmacher im Museum / Recht: Vormund, Pfleger / Verwaltungsbeamter einer Universität) — nach den Nomen 2026-10-31
   'Kuratorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellungsmacherin im Museum / Recht: Vormundin, Pflegerin / Verwaltung einer Universität) — nach den Nomen 2026-10-31
   'Kurs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehrgang, Sprachkurs / Richtung, Route eines Schiffes oder Flugzeugs / Börse: Kurs einer Aktie, Wechselkurs / politische Linie) — nach den Nomen 2026-10-31
+  'Kurskorrektur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börse: Korrektur der Aktienkurse / Änderung von Richtung oder politischer Linie) — nach den Nomen 2026-10-31
+  'Kursniveau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börse: Höhe der Kurse / Niveau eines Sprach- oder Lehrkurses) — nach den Nomen 2026-10-31
+  'Kursziel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börse: erwarteter Aktienkurs / Navigation: Ziel einer Fahrt, eines Flugs) — nach den Nomen 2026-10-31
+  'Kurve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straßenkurve / Mathematik: Kurve im Diagramm / ugs. Körperrundungen; «die Kurve kriegen») — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
