@@ -1,0 +1,178 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krieg",
+  "wort": "der Krieg",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "جنگ"
+    ],
+    "en": [
+      "war"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Politik",
+    "Geschichte"
+  ],
+  "ipa": "kʁiːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Krieg ist zu Ende.",
+      "uebersetzung": {
+        "fa": "جنگ تمام شده است.",
+        "en": "The war is over."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Viele Menschen sind aus ihrer Heimat geflohen, weil dort seit Jahren Krieg herrscht.",
+      "uebersetzung": {
+        "fa": "بسیاری از مردم از وطنشان فرار کرده‌اند، چون سال‌هاست آنجا جنگ است.",
+        "en": "Many people have fled their home country because there has been war there for years."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der Frieden",
+      "uebersetzung": {
+        "fa": "صلح",
+        "en": "peace"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Weltkrieg",
+      "uebersetzung": {
+        "fa": "جنگ جهانی",
+        "en": "world war"
+      }
+    },
+    {
+      "wort": "der Bürgerkrieg",
+      "uebersetzung": {
+        "fa": "جنگ داخلی",
+        "en": "civil war"
+      }
+    },
+    {
+      "wort": "das Kriegsende",
+      "uebersetzung": {
+        "fa": "پایان جنگ",
+        "en": "end of the war"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Kriege",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Krieg gegen + Akk",
+        "beispiel": "Der Krieg gegen das Nachbarland dauerte vier Jahre.",
+        "uebersetzung": {
+          "fa": "جنگ با کشور همسایه چهار سال طول کشید.",
+          "en": "The war against the neighbouring country lasted four years."
+        }
+      },
+      {
+        "muster": "im Krieg (in + Dat)",
+        "beispiel": "Mein Großvater war im Krieg Soldat.",
+        "uebersetzung": {
+          "fa": "پدربزرگم در جنگ سرباز بود.",
+          "en": "My grandfather was a soldier in the war."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Krieg führen",
+        "beispiel": "Die beiden Länder führen seit Jahren Krieg.",
+        "uebersetzung": {
+          "fa": "این دو کشور سال‌هاست با هم می‌جنگند.",
+          "en": "The two countries have been at war for years."
+        }
+      },
+      {
+        "verbindung": "den Krieg erklären",
+        "beispiel": "Im Jahr 1914 wurde vielen Ländern der Krieg erklärt.",
+        "uebersetzung": {
+          "fa": "در سال ۱۹۱۴ به کشورهای زیادی اعلان جنگ شد.",
+          "en": "In 1914 war was declared on many countries."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Frieden",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صلح",
+          "en": "peace"
+        },
+        "id_ref": "nomen_frieden"
+      },
+      {
+        "wort": "der Soldat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرباز",
+          "en": "soldier"
+        },
+        "id_ref": "nomen_soldat"
+      },
+      {
+        "wort": "kämpfen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنگیدن",
+          "en": "to fight"
+        },
+        "id_ref": "verb_kaempfen"
+      },
+      {
+        "wort": "die Armee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتش",
+          "en": "army"
+        },
+        "id_ref": "nomen_armee"
+      },
+      {
+        "wort": "der Bürgerkrieg",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جنگ داخلی",
+          "en": "civil war"
+        },
+        "id_ref": "nomen_buergerkrieg"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

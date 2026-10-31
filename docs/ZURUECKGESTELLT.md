@@ -2481,6 +2481,7 @@
 | ۲۳۰۴ | Krause | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Familienname; als Gattungswort selten (Halskrause, krauses Haar) — Bedeutung nicht sicher, Regel 14 | — |
 | ۲۳۰۵ | Kreisverwaltungsreferat | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Behörde (KVR in München) — als Gattungswort nicht sicher, Regel 14/18 | — |
 | ۲۳۰۶ | Krem | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (die oder der Krem; eingedeutschte Schreibung von «Creme») — Lemma und Genus nicht sicher, Regel 14 | — |
+| ۲۳۰۷ | Krida | `substantiv_singular_alle.txt` | 2026-10-31 | österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3726,3 +3727,6 @@
 | 1399 | Kreuz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zeichen aus zwei Balken, christliches Symbol / unterer Rücken «Kreuzschmerzen» / Spielkartenfarbe / Autobahnkreuz / Musik: Vorzeichen) |
 | 1400 | Kreuzer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kriegsschiff / historische Münze / Segeljacht für längere Fahrten) |
 | 1401 | Kreuzfeuer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Militär: Beschuss von mehreren Seiten / übertragen: «im Kreuzfeuer der Kritik stehen») |
+| 1402 | Kreuzung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Straßenkreuzung / Biologie: Kreuzung von Rassen oder Sorten) |
+| 1403 | Kreuzweg | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wegkreuzung / Religion: Leidensweg Jesu, Kreuzwegstationen) |
+| 1404 | Kreuzzug | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: Kriegszüge des Mittelalters / übertragen: leidenschaftlicher Kampf für oder gegen etwas) |

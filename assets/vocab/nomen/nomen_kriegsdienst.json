@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kriegsdienst",
+  "wort": "der Kriegsdienst",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "خدمت نظامی در جنگ"
+    ],
+    "en": [
+      "military service",
+      "war service"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Militär",
+    "Politik"
+  ],
+  "ipa": "ˈkʁiːksˌdiːnst",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er wollte keinen Kriegsdienst.",
+      "uebersetzung": {
+        "fa": "او خدمت نظامی جنگی نمی‌خواست.",
+        "en": "He did not want military service."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer den Kriegsdienst mit der Waffe verweigert, muss in Deutschland einen Ersatzdienst leisten können.",
+      "uebersetzung": {
+        "fa": "هر کس خدمت نظامی با سلاح را رد کند، در آلمان باید بتواند خدمت جایگزین انجام دهد.",
+        "en": "Anyone who refuses military service with weapons must be able to do alternative service in Germany."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krieg (جنگ) + -s- + Dienst (خدمت)",
+    "en": "Krieg (war) + -s- + Dienst (service)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Kriegsdienste",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "den Kriegsdienst verweigern",
+        "beispiel": "Aus Gewissensgründen hat er den Kriegsdienst verweigert.",
+        "uebersetzung": {
+          "fa": "او به دلایل وجدانی از خدمت نظامی امتناع کرد.",
+          "en": "He refused military service for reasons of conscience."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Wehrdienst",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خدمت سربازی",
+          "en": "military service"
+        },
+        "id_ref": "nomen_wehrdienst"
+      },
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "die Armee",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتش",
+          "en": "army"
+        },
+        "id_ref": "nomen_armee"
+      },
+      {
+        "wort": "verweigern",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "امتناع کردن",
+          "en": "to refuse"
+        },
+        "id_ref": "verb_verweigern"
+      },
+      {
+        "wort": "der Kriegsdienstverweigerer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مخالف خدمت نظامی",
+          "en": "conscientious objector"
+        },
+        "id_ref": "nomen_kriegsdienstverweigerer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

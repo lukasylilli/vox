@@ -3757,6 +3757,10 @@ const zurueckgestellt = <String>{
   'Kreuz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen aus zwei Balken, christliches Symbol / unterer Rücken «Kreuzschmerzen» / Spielkartenfarbe / Autobahnkreuz / Musik: Vorzeichen) — nach den Nomen 2026-10-31
   'Kreuzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kriegsschiff / historische Münze / Segeljacht für längere Fahrten) — nach den Nomen 2026-10-31
   'Kreuzfeuer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Beschuss von mehreren Seiten / übertragen: «im Kreuzfeuer der Kritik stehen») — nach den Nomen 2026-10-31
+  'Kreuzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straßenkreuzung / Biologie: Kreuzung von Rassen oder Sorten) — nach den Nomen 2026-10-31
+  'Kreuzweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegkreuzung / Religion: Leidensweg Jesu, Kreuzwegstationen) — nach den Nomen 2026-10-31
+  'Kreuzzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: Kriegszüge des Mittelalters / übertragen: leidenschaftlicher Kampf für oder gegen etwas) — nach den Nomen 2026-10-31
+  'Krida', // zurückgestellt: österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
