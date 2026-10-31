@@ -3786,6 +3786,8 @@ const zurueckgestellt = <String>{
   'Kultur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst, Bildung, Lebensweise eines Volkes / Landwirtschaft: Anbau, Pflanzung / Biologie: Bakterienkultur) — nach den Nomen 2026-10-31
   'Kuhl', // zurückgestellt: kein gesichertes Nomen (Familienname; evtl. falsch für «kühl» oder Kuhle) — Regel 14 2026-10-31
   'Kulturbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kulturleben insgesamt, der Kulturbetrieb einer Stadt / einzelne Kultureinrichtung als Betrieb) — nach den Nomen 2026-10-31
+  'Kulturkampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: Konflikt zwischen Bismarck und der katholischen Kirche / übertragen: heftiger Streit um Werte in der Gesellschaft) — nach den Nomen 2026-10-31
+  'Kulturlandschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vom Menschen geprägte Landschaft / Gesamtheit der Kultureinrichtungen einer Region) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
