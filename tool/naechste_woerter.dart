@@ -3834,6 +3834,14 @@ const zurueckgestellt = <String>{
   'Landesvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Landesvorsitzende) — nach den Nomen 2026-10-31
   'Landesvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «Landesvorsitzende» — gehört zu derselben Karte) — nach den Nomen 2026-10-31
   'Landeszentrale', // zurückgestellt: meist nur Teil von Behördennamen («Landeszentrale für politische Bildung») — als Einzelwort Bedeutung nicht sicher, Regel 14/18 2026-10-31
+  'Landhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haus auf dem Land / österr. Sitz von Landtag und Landesregierung) — nach den Nomen 2026-10-31
+  'Landjugend', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jugend auf dem Land insgesamt / Verband, Verein «die Landjugend») — nach den Nomen 2026-10-31
+  'Landrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deutschland: Leiter eines Landkreises, Person / Schweiz: Kantonsparlament in einigen Kantonen) — nach den Nomen 2026-10-31
+  'Landschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegend, Natur / Landschaftsgemälde / übertragen «die politische Landschaft») — nach den Nomen 2026-10-31
+  'Landschaftsbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aussehen einer Landschaft / Landschaftsgemälde) — nach den Nomen 2026-10-31
+  'Landsmannschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vereinigung von Heimatvertriebenen / Studentenverbindung) — nach den Nomen 2026-10-31
+  'Landtagsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Landtagsabgeordnete) — nach den Nomen 2026-10-31
+  'Landtagsabgeordneter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «Landtagsabgeordnete» — gehört zu derselben Karte) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

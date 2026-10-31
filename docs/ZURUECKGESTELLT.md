@@ -3802,3 +3802,11 @@
 | 1464 | Landesvater | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: veraltet Landesherr, Fürst / scherzhaft Regierungschef eines Landes) |
 | 1465 | Landesvorsitzende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Landesvorsitzende) |
 | 1466 | Landesvorsitzender | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «Landesvorsitzende» — gehört zu derselben Karte) |
+| 1467 | Landhaus | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Haus auf dem Land / österr. Sitz von Landtag und Landesregierung) |
+| 1468 | Landjugend | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Jugend auf dem Land insgesamt / Verband, Verein «die Landjugend») |
+| 1469 | Landrat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Deutschland: Leiter eines Landkreises, Person / Schweiz: Kantonsparlament in einigen Kantonen) |
+| 1470 | Landschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gegend, Natur / Landschaftsgemälde / übertragen «die politische Landschaft») |
+| 1471 | Landschaftsbild | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Aussehen einer Landschaft / Landschaftsgemälde) |
+| 1472 | Landsmannschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vereinigung von Heimatvertriebenen / Studentenverbindung) |
+| 1473 | Landtagsabgeordnete | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Landtagsabgeordnete) |
+| 1474 | Landtagsabgeordneter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «Landtagsabgeordnete» — gehört zu derselben Karte) |
