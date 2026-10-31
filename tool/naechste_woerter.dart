@@ -3820,6 +3820,10 @@ const zurueckgestellt = <String>{
   'Lager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenlager / Zelt-, Ferienlager / politisches Lager / Technik: Kugellager; Plural Lager/Läger) — nach den Nomen 2026-10-31
   'Lagerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufbewahrung von Waren / Pflege: Lagerung des Patienten / Geologie: Schichtung) — nach den Nomen 2026-10-31
   'Laie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nichtfachmann / Kirche: Nichtgeistlicher) — nach den Nomen 2026-10-31
+  'Lamento', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. abwertend Gejammer, Klage / Musik: Klagegesang) — nach den Nomen 2026-10-31
+  'Lamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junges Schaf / Lammfleisch / Lammfell / Religion: Lamm Gottes) — nach den Nomen 2026-10-31
+  'Land', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staat / Bundesland / Festland / Ackerland, Boden / Gegensatz zur Stadt; Plural Länder/Lande) — nach den Nomen 2026-10-31
+  'Landauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kutschenart / Einwohner von Landau) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

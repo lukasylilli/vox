@@ -3788,3 +3788,7 @@
 | 1451 | Lager | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Warenlager / Zelt-, Ferienlager / politisches Lager / Technik: Kugellager; Plural Lager/Läger) |
 | 1452 | Lagerung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Aufbewahrung von Waren / Pflege: Lagerung des Patienten / Geologie: Schichtung) |
 | 1453 | Laie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Nichtfachmann / Kirche: Nichtgeistlicher) |
+| 1454 | Lamento | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: ugs. abwertend Gejammer, Klage / Musik: Klagegesang) |
+| 1455 | Lamm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: junges Schaf / Lammfleisch / Lammfell / Religion: Lamm Gottes) |
+| 1456 | Land | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Staat / Bundesland / Festland / Ackerland, Boden / Gegensatz zur Stadt; Plural Länder/Lande) |
+| 1457 | Landauer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kutschenart / Einwohner von Landau) |
