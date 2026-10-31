@@ -3671,3 +3671,5 @@
 | 1349 | Konvergenzkriterium | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wirtschaft: EU-Kriterien für den Euro / Mathematik: Kriterium für Konvergenz) |
 | 1350 | Konversion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Religion: Übertritt / Chemie, Physik: Umwandlung / Sprachwissenschaft / Wirtschaft: Umwandlung, militärische Flächen) |
 | 1351 | Konzentration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geistige Sammlung / Zusammenballung, Wirtschaft / Chemie: Gehalt eines Stoffes) |
+| 1352 | Konzept | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Rohfassung, Entwurf «aus dem Konzept bringen» / Plan, Programm) |
+| 1353 | Konzeption | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Leitidee, Entwurf eines Werkes / Medizin: Empfängnis) |
