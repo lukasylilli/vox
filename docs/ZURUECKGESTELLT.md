@@ -3679,3 +3679,7 @@
 | 1357 | Koordination | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Abstimmung, Zusammenspiel / Medizin: Zusammenwirken der Muskeln / Chemie: Koordinationsverbindung) |
 | 1358 | Kopf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Körperteil / Person, Anführer «der Kopf der Bande» / oberer Teil «Kopf des Briefes») |
 | 1359 | Kopie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Abschrift, Fotokopie / Nachbildung eines Kunstwerks, Imitat / Film, Fotografie: Abzug) |
+| 1360 | Koppelung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: das Koppeln, Verbindung, Verknüpfung / Technik: Vorrichtung zum Koppeln) |
+| 1361 | Kopplung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: das Koppeln, Verbindung, Verknüpfung / Technik: Vorrichtung zum Koppeln) |
+| 1362 | Koralle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meerestier / Schmuck aus Korallen) |
+| 1363 | Korb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geflochtener Behälter / Basketball: Korb / Ablehnung «einen Korb geben») |
