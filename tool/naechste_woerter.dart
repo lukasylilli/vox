@@ -3780,6 +3780,11 @@ const zurueckgestellt = <String>{
   'Krupp', // zurückgestellt: vor allem Familien- und Firmenname; als Gattungswort nur medizinisch veraltet (Krupp = Kehlkopfdiphtherie) — Bedeutung nicht sicher, Regel 14/18 2026-10-31
   'Kubikmeter', // zurückgestellt: Genus schwankend (der oder das Kubikmeter, Duden) — wie Hektar/Hektoliter, Regel 14 2026-10-31
   'Kubikzentimeter', // zurückgestellt: Genus schwankend (der oder das Kubikzentimeter, Duden) — wie Kubikmeter, Regel 14 2026-10-31
+  'Kugel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: runder Körper, Kugelform / Geschoss einer Schusswaffe / Sport: Kugelstoßen / eine Kugel Eis) — nach den Nomen 2026-10-31
+  'Kulisse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theater: bemalte Bühnenwand / übertragen: Hintergrund, Rahmen «vor der Kulisse der Alpen» / Schein, Fassade) — nach den Nomen 2026-10-31
+  'Kult', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöse Verehrung, Ritus / übertragen: übertriebene Verehrung, «Kult sein» = sehr beliebt) — nach den Nomen 2026-10-31
+  'Kultur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst, Bildung, Lebensweise eines Volkes / Landwirtschaft: Anbau, Pflanzung / Biologie: Bakterienkultur) — nach den Nomen 2026-10-31
+  'Kuhl', // zurückgestellt: kein gesichertes Nomen (Familienname; evtl. falsch für «kühl» oder Kuhle) — Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

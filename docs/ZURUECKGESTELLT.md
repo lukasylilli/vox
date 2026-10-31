@@ -2487,6 +2487,7 @@
 | ۲۳۱۰ | Krupp | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Familien- und Firmenname; als Gattungswort nur medizinisch veraltet (Krupp = Kehlkopfdiphtherie) — Bedeutung nicht sicher, Regel 14/18 | — |
 | ۲۳۱۱ | Kubikmeter | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Kubikmeter, Duden) — wie Hektar/Hektoliter, Regel 14 | — |
 | ۲۳۱۲ | Kubikzentimeter | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Kubikzentimeter, Duden) — wie Kubikmeter, Regel 14 | — |
+| ۲۳۱۳ | Kuhl | `substantiv_singular_alle.txt` | 2026-10-31 | kein gesichertes Nomen (Familienname; evtl. falsch für «kühl» oder Kuhle) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3749,3 +3750,7 @@
 | 1416 | Kronzeuge | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Recht: Mittäter, der gegen andere aussagt und milder bestraft wird / wichtigster Zeuge für etwas) |
 | 1417 | Krug | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 3 (Homograph mit gleichem Artikel: der Krug «Gefäß mit Henkel» / der Krug «norddeutsch: Dorfwirtshaus») |
 | 1418 | Kuckuck | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vogel / umgangssprachlich: Pfandsiegel des Gerichtsvollziehers / Ausruf «zum Kuckuck!», «Kuckuck!» beim Versteckspiel) |
+| 1419 | Kugel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: runder Körper, Kugelform / Geschoss einer Schusswaffe / Sport: Kugelstoßen / eine Kugel Eis) |
+| 1420 | Kulisse | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Theater: bemalte Bühnenwand / übertragen: Hintergrund, Rahmen «vor der Kulisse der Alpen» / Schein, Fassade) |
+| 1421 | Kult | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: religiöse Verehrung, Ritus / übertragen: übertriebene Verehrung, «Kult sein» = sehr beliebt) |
+| 1422 | Kultur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kunst, Bildung, Lebensweise eines Volkes / Landwirtschaft: Anbau, Pflanzung / Biologie: Bakterienkultur) |
