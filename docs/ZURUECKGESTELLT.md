@@ -2497,6 +2497,7 @@
 | ۲۳۲۰ | Learning | `substantiv_singular_alle.txt` | 2026-10-31 | kein selbstständiges deutsches Nomen (nur in Fügungen wie E-Learning, Machine Learning) — Gebrauch und Genus nicht sicher, Regel 14 | — |
 | ۲۳۲۱ | Lederer | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet/landschaftlich für Gerber, sonst Familienname — Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۲۲ | Lee | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (die dem Wind abgewandte Seite), Genus schwankend (die oder das Lee) — Regel 14 | — |
+| ۲۳۲۳ | Leichter | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (Lastkahn zum Leichtern) — sonst Komparativ von «leicht»; gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3855,3 +3856,9 @@
 | 1512 | Lehne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Rücken-/Armlehne / süddeutsch, österreichisch: Abhang, Hang) |
 | 1513 | Lehrberuf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beruf des Lehrers / Ausbildungsberuf mit Lehre) |
 | 1514 | Lehrbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausbildungsbetrieb für Lehrlinge / Unterrichtsbetrieb an Schule, Hochschule) |
+| 1515 | Lehrgeld | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: früher Gebühr für die Lehre / übertragen «Lehrgeld zahlen» = durch Schaden lernen) |
+| 1516 | Lehrmeister | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meister, der Lehrlinge ausbildet / übertragen: Vorbild «Das Leben ist der beste Lehrmeister») |
+| 1517 | Lehrstunde | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Unterrichtsstunde / übertragen: lehrreiche Erfahrung, Lektion «eine Lehrstunde erteilen») |
+| 1518 | Leib | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Körper «am eigenen Leib» / Bauch, Rumpf; dazu Leib Christi) |
+| 1519 | Leibchen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: früher Mieder, Kinderleibchen / österr., schweiz.: Unterhemd, T-Shirt, Trikot) |
+| 1520 | Leichtgewicht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sport: Gewichtsklasse / Sportler dieser Klasse / ugs. übertragen: unbedeutende Person, leichte Sache) |

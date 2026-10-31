@@ -3887,6 +3887,13 @@ const zurueckgestellt = <String>{
   'Lehne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rücken-/Armlehne / süddeutsch, österreichisch: Abhang, Hang) — nach den Nomen 2026-10-31
   'Lehrberuf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beruf des Lehrers / Ausbildungsberuf mit Lehre) — nach den Nomen 2026-10-31
   'Lehrbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausbildungsbetrieb für Lehrlinge / Unterrichtsbetrieb an Schule, Hochschule) — nach den Nomen 2026-10-31
+  'Lehrgeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Gebühr für die Lehre / übertragen «Lehrgeld zahlen» = durch Schaden lernen) — nach den Nomen 2026-10-31
+  'Lehrmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meister, der Lehrlinge ausbildet / übertragen: Vorbild «Das Leben ist der beste Lehrmeister») — nach den Nomen 2026-10-31
+  'Lehrstunde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterrichtsstunde / übertragen: lehrreiche Erfahrung, Lektion «eine Lehrstunde erteilen») — nach den Nomen 2026-10-31
+  'Leib', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körper «am eigenen Leib» / Bauch, Rumpf; dazu Leib Christi) — nach den Nomen 2026-10-31
+  'Leibchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: früher Mieder, Kinderleibchen / österr., schweiz.: Unterhemd, T-Shirt, Trikot) — nach den Nomen 2026-10-31
+  'Leichter', // zurückgestellt: Seemannssprache (Lastkahn zum Leichtern) — sonst Komparativ von «leicht»; gemeintes Wort und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Leichtgewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Gewichtsklasse / Sportler dieser Klasse / ugs. übertragen: unbedeutende Person, leichte Sache) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
