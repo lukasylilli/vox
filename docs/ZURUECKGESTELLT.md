@@ -3638,3 +3638,9 @@
 | 1319 | Konglomerat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemisch, Ansammlung / Geologie: Gestein / Wirtschaft: Mischkonzern) |
 | 1320 | Kongress | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fachtagung / Parlament der USA «der Kongress») |
 | 1321 | Konkurrenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wettbewerb, Rivalität / die Konkurrenten, Konkurrenzfirma «zur Konkurrenz gehen» / Sport: Wettkampf) |
+| 1322 | Konsequenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Folge «Konsequenzen ziehen» / Folgerichtigkeit, Beharrlichkeit «mit Konsequenz») |
+| 1323 | Konserve | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Konservendose mit Inhalt / Blutkonserve / übertragen «Musik aus der Konserve») |
+| 1324 | Konsistenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beschaffenheit, Dichte (z. B. Teig) / Widerspruchsfreiheit, Beständigkeit) |
+| 1325 | Konsole | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wandvorsprung, Ablage / Spielkonsole / Bedienpult, EDV) |
+| 1326 | Konsorte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: meist Pl., abwertend Mittäter «und Konsorten» / Bankwesen: Mitglied eines Konsortiums) |
+| 1327 | Konstante | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Mathematik, Physik: unveränderliche Größe / übertragen beständiger Faktor) |
