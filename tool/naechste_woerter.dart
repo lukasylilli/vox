@@ -3673,6 +3673,12 @@ const zurueckgestellt = <String>{
   'Kopplung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Koppeln, Verbindung, Verknüpfung / Technik: Vorrichtung zum Koppeln) — nach den Nomen 2026-10-31
   'Koralle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meerestier / Schmuck aus Korallen) — nach den Nomen 2026-10-31
   'Korb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geflochtener Behälter / Basketball: Korb / Ablehnung «einen Korb geben») — nach den Nomen 2026-10-31
+  'Korps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Truppenverband / diplomatisches Korps / Studentenverbindung) — nach den Nomen 2026-10-31
+  'Korrektur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Berichtigung, Verbesserung / Druckwesen: Korrekturfahne, Korrekturlesen) — nach den Nomen 2026-10-31
+  'Korrespondent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Journalist, Auslandsberichterstatter / Kaufmann für Geschäftsbriefe «Fremdsprachenkorrespondent») — nach den Nomen 2026-10-31
+  'Korrespondentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Journalistin, Auslandsberichterstatterin / Kauffrau für Geschäftsbriefe «Fremdsprachenkorrespondentin») — nach den Nomen 2026-10-31
+  'Korrespondenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Briefwechsel, Schriftverkehr / gehoben: Übereinstimmung) — nach den Nomen 2026-10-31
+  'Korridor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flur, Gang / Landstreifen, Luftkorridor / übertragen: Spielraum «Zinskorridor») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

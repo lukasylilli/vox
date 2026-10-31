@@ -3683,3 +3683,9 @@
 | 1361 | Kopplung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: das Koppeln, Verbindung, Verknüpfung / Technik: Vorrichtung zum Koppeln) |
 | 1362 | Koralle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meerestier / Schmuck aus Korallen) |
 | 1363 | Korb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geflochtener Behälter / Basketball: Korb / Ablehnung «einen Korb geben») |
+| 1364 | Korps | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Militär: Truppenverband / diplomatisches Korps / Studentenverbindung) |
+| 1365 | Korrektur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Berichtigung, Verbesserung / Druckwesen: Korrekturfahne, Korrekturlesen) |
+| 1366 | Korrespondent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Journalist, Auslandsberichterstatter / Kaufmann für Geschäftsbriefe «Fremdsprachenkorrespondent») |
+| 1367 | Korrespondentin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Journalistin, Auslandsberichterstatterin / Kauffrau für Geschäftsbriefe «Fremdsprachenkorrespondentin») |
+| 1368 | Korrespondenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Briefwechsel, Schriftverkehr / gehoben: Übereinstimmung) |
+| 1369 | Korridor | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Flur, Gang / Landstreifen, Luftkorridor / übertragen: Spielraum «Zinskorridor») |
