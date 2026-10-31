@@ -3863,6 +3863,11 @@ const zurueckgestellt = <String>{
   'Leader', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anführer, Bandleader / Sport, österr./schweiz.: Tabellenführer) — nach den Nomen 2026-10-31
   'Leben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebendigsein / Lebenszeit, Lebenslauf / Lebensweise, Alltag / Lebhaftigkeit «Leben in die Bude bringen») — nach den Nomen 2026-10-31
   'Learning', // zurückgestellt: kein selbstständiges deutsches Nomen (nur in Fügungen wie E-Learning, Machine Learning) — Gebrauch und Genus nicht sicher, Regel 14 2026-10-31
+  'Lebensalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Alter eines Menschen / Lebensabschnitt «im mittleren Lebensalter») — nach den Nomen 2026-10-31
+  'Lebensart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebensweise / gutes Benehmen, Umgangsformen «keine Lebensart haben») — nach den Nomen 2026-10-31
+  'Lebensdauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dauer des Lebens / Haltbarkeit, Nutzungsdauer eines Geräts) — nach den Nomen 2026-10-31
+  'Lebensform', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art des Zusammenlebens / Biologie: Organismus, Lebewesen) — nach den Nomen 2026-10-31
+  'Lebensgemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenleben, eheähnliche Gemeinschaft / Biologie: Biozönose) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
