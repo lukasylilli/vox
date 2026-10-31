@@ -2472,6 +2472,7 @@
 | ۲۲۹۵ | Knorr | `substantiv_singular_alle.txt` | 2026-10-31 | Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۹۶ | Kober | `substantiv_singular_alle.txt` | 2026-10-31 | regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۲۹۷ | Kolbe | `substantiv_singular_alle.txt` | 2026-10-31 | als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 | — |
+| ۲۲۹۸ | Kommunique | `substantiv_singular_alle.txt` | 2026-10-31 | Schreibweise unsicher (Duden: «Kommuniqué», auch «Kommunikee») — Lemma der Liste nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3628,3 +3629,4 @@
 | 1310 | Kommissarin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen wie Kommissar: Kriminalbeamtin / EU-Kommissarin) |
 | 1311 | Kommission | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausschuss, Gremium / EU-Kommission / Handel: «in Kommission» verkaufen) |
 | 1312 | Kommune | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemeinde / Wohngemeinschaft (1968er) / historisch Pariser Kommune) |
+| 1313 | Kompanie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: militärische Einheit / veraltet Handelsgesellschaft, «& Co.») |

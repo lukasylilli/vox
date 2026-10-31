@@ -3622,6 +3622,7 @@ const zurueckgestellt = <String>{
   'Kommissarin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie Kommissar: Kriminalbeamtin / EU-Kommissarin) — nach den Nomen 2026-10-31
   'Kommission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausschuss, Gremium / EU-Kommission / Handel: «in Kommission» verkaufen) — nach den Nomen 2026-10-31
   'Kommune', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinde / Wohngemeinschaft (1968er) / historisch Pariser Kommune) — nach den Nomen 2026-10-31
+  'Kompanie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärische Einheit / veraltet Handelsgesellschaft, «& Co.») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3659,6 +3660,7 @@ const zurueckgestellt = <String>{
   'Knorr', // zurückgestellt: Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
   'Kober', // zurückgestellt: regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Kolbe', // zurückgestellt: als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 2026-10-31
+  'Kommunique', // zurückgestellt: Schreibweise unsicher (Duden: «Kommuniqué», auch «Kommunikee») — Lemma der Liste nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
