@@ -3610,6 +3610,10 @@ const zurueckgestellt = <String>{
   'Kollektiv', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft, Gruppe / DDR: Produktionsgemeinschaft / Statistik: Gesamtheit) — nach den Nomen 2026-10-31
   'Kollision', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenstoß von Fahrzeugen / Widerstreit, z. B. von Interessen oder Terminen) — nach den Nomen 2026-10-31
   'Kolloquium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wissenschaftliches Gespräch, Tagung / österr. mündliche Prüfung an der Uni) — nach den Nomen 2026-10-31
+  'Kolonie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebiet unter Fremdherrschaft / Siedlung, z. B. Künstlerkolonie, Gartenkolonie / Biologie: Verband von Lebewesen) — nach den Nomen 2026-10-31
+  'Kolonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrzeugkolonne / Arbeitstrupp / senkrechte Zahlenreihe) — nach den Nomen 2026-10-31
+  'Koloss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riesenstandbild / ugs. riesiger Mensch oder Gegenstand) — nach den Nomen 2026-10-31
+  'Kolumne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druckspalte / regelmäßiger Meinungsbeitrag in der Zeitung) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

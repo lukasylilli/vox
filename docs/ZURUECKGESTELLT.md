@@ -3616,3 +3616,7 @@
 | 1298 | Kollektiv | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemeinschaft, Gruppe / DDR: Produktionsgemeinschaft / Statistik: Gesamtheit) |
 | 1299 | Kollision | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammenstoß von Fahrzeugen / Widerstreit, z. B. von Interessen oder Terminen) |
 | 1300 | Kolloquium | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: wissenschaftliches Gespräch, Tagung / österr. mündliche Prüfung an der Uni) |
+| 1301 | Kolonie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gebiet unter Fremdherrschaft / Siedlung, z. B. Künstlerkolonie, Gartenkolonie / Biologie: Verband von Lebewesen) |
+| 1302 | Kolonne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fahrzeugkolonne / Arbeitstrupp / senkrechte Zahlenreihe) |
+| 1303 | Koloss | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Riesenstandbild / ugs. riesiger Mensch oder Gegenstand) |
+| 1304 | Kolumne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckspalte / regelmäßiger Meinungsbeitrag in der Zeitung) |
