@@ -3684,6 +3684,11 @@ const zurueckgestellt = <String>{
   'Kosmos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») — nach den Nomen 2026-10-31
   'Kostbarkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) — nach den Nomen 2026-10-31
   'Kostprobe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Menge zum Probieren / übertragen: Beispiel, Probe «eine Kostprobe seines Könnens») — nach den Nomen 2026-10-31
+  'Kot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Exkremente / veraltet: Schmutz, Schlamm) — nach den Nomen 2026-10-31
+  'Krabbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krebstier mit breitem Körper / umgangssprachlich: Garnele, Nordseekrabbe / umgangssprachlich: kleines Kind) — nach den Nomen 2026-10-31
+  'Krach', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lärm / Streit «Krach haben» / Wirtschaft: Zusammenbruch, Börsenkrach) — nach den Nomen 2026-10-31
+  'Kracher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feuerwerkskörper / umgangssprachlich: Erfolg, Knaller) — nach den Nomen 2026-10-31
+  'Kraftakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Darbietung von Körperkraft / übertragen: große Anstrengung) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

@@ -3694,3 +3694,8 @@
 | 1372 | Kosmos | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Weltall / Philosophie, übertragen: geordnete Welt, eigene Welt «der Kosmos des Autors») |
 | 1373 | Kostbarkeit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kostbarer Gegenstand / das Kostbarsein, hoher Wert) |
 | 1374 | Kostprobe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kleine Menge zum Probieren / übertragen: Beispiel, Probe «eine Kostprobe seines Könnens») |
+| 1375 | Kot | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Exkremente / veraltet: Schmutz, Schlamm) |
+| 1376 | Krabbe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Krebstier mit breitem Körper / umgangssprachlich: Garnele, Nordseekrabbe / umgangssprachlich: kleines Kind) |
+| 1377 | Krach | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lärm / Streit «Krach haben» / Wirtschaft: Zusammenbruch, Börsenkrach) |
+| 1378 | Kracher | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Feuerwerkskörper / umgangssprachlich: Erfolg, Knaller) |
+| 1379 | Kraftakt | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Darbietung von Körperkraft / übertragen: große Anstrengung) |
