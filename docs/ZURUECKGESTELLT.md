@@ -2484,6 +2484,9 @@
 | ۲۳۰۷ | Krida | `substantiv_singular_alle.txt` | 2026-10-31 | österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۰۸ | Kris | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (malaiischer Dolch) bzw. Kurzform — Bedeutung und Gebrauch im Deutschen nicht sicher, Regel 14 | — |
 | ۲۳۰۹ | Krisis | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet für «Krise» bzw. medizinisches Fachwort (Wendepunkt einer Krankheit) — Markierung und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۱۰ | Krupp | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Familien- und Firmenname; als Gattungswort nur medizinisch veraltet (Krupp = Kehlkopfdiphtherie) — Bedeutung nicht sicher, Regel 14/18 | — |
+| ۲۳۱۱ | Kubikmeter | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Kubikmeter, Duden) — wie Hektar/Hektoliter, Regel 14 | — |
+| ۲۳۱۲ | Kubikzentimeter | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Kubikzentimeter, Duden) — wie Kubikmeter, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3744,3 +3747,5 @@
 | 1414 | Krone | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kopfschmuck eines Königs, Monarchie / Baumkrone / Zahnkrone / Währung, z. B. dänische Krone) |
 | 1415 | Kronprinz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Thronfolger / übertragen: designierter Nachfolger in Partei oder Firma) |
 | 1416 | Kronzeuge | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Recht: Mittäter, der gegen andere aussagt und milder bestraft wird / wichtigster Zeuge für etwas) |
+| 1417 | Krug | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 3 (Homograph mit gleichem Artikel: der Krug «Gefäß mit Henkel» / der Krug «norddeutsch: Dorfwirtshaus») |
+| 1418 | Kuckuck | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vogel / umgangssprachlich: Pfandsiegel des Gerichtsvollziehers / Ausruf «zum Kuckuck!», «Kuckuck!» beim Versteckspiel) |

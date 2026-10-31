@@ -3775,6 +3775,11 @@ const zurueckgestellt = <String>{
   'Krone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopfschmuck eines Königs, Monarchie / Baumkrone / Zahnkrone / Währung, z. B. dänische Krone) — nach den Nomen 2026-10-31
   'Kronprinz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Thronfolger / übertragen: designierter Nachfolger in Partei oder Firma) — nach den Nomen 2026-10-31
   'Kronzeuge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Mittäter, der gegen andere aussagt und milder bestraft wird / wichtigster Zeuge für etwas) — nach den Nomen 2026-10-31
+  'Krug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph mit gleichem Artikel: der Krug «Gefäß mit Henkel» / der Krug «norddeutsch: Dorfwirtshaus») — nach den Nomen 2026-10-31
+  'Kuckuck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel / umgangssprachlich: Pfandsiegel des Gerichtsvollziehers / Ausruf «zum Kuckuck!», «Kuckuck!» beim Versteckspiel) — nach den Nomen 2026-10-31
+  'Krupp', // zurückgestellt: vor allem Familien- und Firmenname; als Gattungswort nur medizinisch veraltet (Krupp = Kehlkopfdiphtherie) — Bedeutung nicht sicher, Regel 14/18 2026-10-31
+  'Kubikmeter', // zurückgestellt: Genus schwankend (der oder das Kubikmeter, Duden) — wie Hektar/Hektoliter, Regel 14 2026-10-31
+  'Kubikzentimeter', // zurückgestellt: Genus schwankend (der oder das Kubikzentimeter, Duden) — wie Kubikmeter, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
