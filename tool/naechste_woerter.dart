@@ -3605,6 +3605,8 @@ const zurueckgestellt = <String>{
   'Kodex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regelwerk, Verhaltenskodex / alte Handschrift) — nach den Nomen 2026-10-31
   'Kohl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemüse / ugs. Unsinn «Kohl reden») — nach den Nomen 2026-10-31
   'Kohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) — nach den Nomen 2026-10-31
+  'Kollaboration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenarbeit mit dem Feind / bildungsspr. Zusammenarbeit allgemein) — nach den Nomen 2026-10-31
+  'Kollaps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Kreislaufzusammenbruch / übertragen Zusammenbruch eines Systems) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3641,6 +3643,7 @@ const zurueckgestellt = <String>{
   'Knopp', // zurückgestellt: Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
   'Knorr', // zurückgestellt: Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
   'Kober', // zurückgestellt: regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Kolbe', // zurückgestellt: als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

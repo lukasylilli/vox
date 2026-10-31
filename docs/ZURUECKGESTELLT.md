@@ -2471,6 +2471,7 @@
 | ۲۲۹۴ | Knopp | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۹۵ | Knorr | `substantiv_singular_alle.txt` | 2026-10-31 | Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۹۶ | Kober | `substantiv_singular_alle.txt` | 2026-10-31 | regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۲۹۷ | Kolbe | `substantiv_singular_alle.txt` | 2026-10-31 | als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3610,3 +3611,5 @@
 | 1293 | Kodex | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Regelwerk, Verhaltenskodex / alte Handschrift) |
 | 1294 | Kohl | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemüse / ugs. Unsinn «Kohl reden») |
 | 1295 | Kohle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Brennstoff / ugs. Geld / Zeichenkohle) |
+| 1296 | Kollaboration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammenarbeit mit dem Feind / bildungsspr. Zusammenarbeit allgemein) |
+| 1297 | Kollaps | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Kreislaufzusammenbruch / übertragen Zusammenbruch eines Systems) |
