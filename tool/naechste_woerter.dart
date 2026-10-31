@@ -3666,6 +3666,8 @@ const zurueckgestellt = <String>{
   'Konzert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikaufführung / Komposition für Soloinstrument und Orchester «Klavierkonzert» / übertragen: Zusammenwirken «Konzert der Mächte») — nach den Nomen 2026-10-31
   'Konzession', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: behördliche Genehmigung, Lizenz / Zugeständnis) — nach den Nomen 2026-10-31
   'Konzil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenversammlung / Hochschulgremium) — nach den Nomen 2026-10-31
+  'Koordination', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstimmung, Zusammenspiel / Medizin: Zusammenwirken der Muskeln / Chemie: Koordinationsverbindung) — nach den Nomen 2026-10-31
+  'Kopf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperteil / Person, Anführer «der Kopf der Bande» / oberer Teil «Kopf des Briefes») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

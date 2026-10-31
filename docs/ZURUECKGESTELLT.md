@@ -3676,3 +3676,5 @@
 | 1354 | Konzert | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musikaufführung / Komposition für Soloinstrument und Orchester «Klavierkonzert» / übertragen: Zusammenwirken «Konzert der Mächte») |
 | 1355 | Konzession | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: behördliche Genehmigung, Lizenz / Zugeständnis) |
 | 1356 | Konzil | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kirchenversammlung / Hochschulgremium) |
+| 1357 | Koordination | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Abstimmung, Zusammenspiel / Medizin: Zusammenwirken der Muskeln / Chemie: Koordinationsverbindung) |
+| 1358 | Kopf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Körperteil / Person, Anführer «der Kopf der Bande» / oberer Teil «Kopf des Briefes») |
