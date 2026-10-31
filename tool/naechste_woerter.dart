@@ -3767,6 +3767,11 @@ const zurueckgestellt = <String>{
   'Kriminalist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beamter der Kriminalpolizei / Fachmann der Kriminalistik) — nach den Nomen 2026-10-31
   'Krippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Futterkrippe für Tiere / Weihnachtskrippe / Kinderkrippe, Kita für Kleinkinder) — nach den Nomen 2026-10-31
   'Kris', // zurückgestellt: Fachwort (malaiischer Dolch) bzw. Kurzform — Bedeutung und Gebrauch im Deutschen nicht sicher, Regel 14 2026-10-31
+  'Kriterium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prüfstein, Merkmal für eine Entscheidung / Radsport: Rundstreckenrennen) — nach den Nomen 2026-10-31
+  'Kritik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beanstandung, Tadel / Besprechung eines Buches oder Films, Rezension / Philosophie: kritische Prüfung) — nach den Nomen 2026-10-31
+  'Kritiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der etwas kritisiert / Rezensent, Literatur- oder Filmkritiker) — nach den Nomen 2026-10-31
+  'Kritikerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, die etwas kritisiert / Rezensentin, Literatur- oder Filmkritikerin) — nach den Nomen 2026-10-31
+  'Krisis', // zurückgestellt: veraltet für «Krise» bzw. medizinisches Fachwort (Wendepunkt einer Krankheit) — Markierung und Gebrauch nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
