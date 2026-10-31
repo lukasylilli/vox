@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "nomen_landgericht",
+  "wort": "das Landgericht",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دادگاه منطقه‌ای (آلمان)"
+    ],
+    "en": [
+      "regional court (Germany)"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈlantɡəˌʁɪçt",
+  "anmerkung": "Deutschland: Gericht über dem Amtsgericht; in Österreich heißt die entsprechende Stufe «Landesgericht».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fall ist am Landgericht.",
+      "uebersetzung": {
+        "fa": "پرونده در دادگاه منطقه‌ای است.",
+        "en": "The case is at the regional court."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Gegen das Urteil des Amtsgerichts kann man beim Landgericht Berufung einlegen.",
+      "uebersetzung": {
+        "fa": "علیه حکم دادگاه بخش می‌شود در دادگاه منطقه‌ای درخواست تجدیدنظر کرد.",
+        "en": "You can appeal against the local court's judgment at the regional court."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Land (منطقه) + Gericht (دادگاه)",
+    "en": "Land (region) + Gericht (court)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Landgerichte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "vor + Dat (vor dem Landgericht)",
+        "beispiel": "Der Streit landete schließlich vor dem Landgericht.",
+        "uebersetzung": {
+          "fa": "این دعوا سرانجام به دادگاه منطقه‌ای کشید.",
+          "en": "The dispute finally ended up before the regional court."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gericht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دادگاه",
+          "en": "court"
+        },
+        "id_ref": "nomen_gericht"
+      },
+      {
+        "wort": "das Amtsgericht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دادگاه بخش (آلمان)",
+          "en": "local court (Germany)"
+        },
+        "id_ref": "nomen_amtsgericht"
+      },
+      {
+        "wort": "der Richter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قاضی",
+          "en": "judge"
+        },
+        "id_ref": "nomen_richter"
+      },
+      {
+        "wort": "das Urteil",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حکم",
+          "en": "verdict"
+        },
+        "id_ref": "nomen_urteil"
+      },
+      {
+        "wort": "die Berufung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجدیدنظر",
+          "en": "appeal"
+        },
+        "id_ref": "nomen_berufung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2491,6 +2491,7 @@
 | ۲۳۱۴ | Kultusministerkonferenz | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Organisation (KMK, Deutschland) — keine Gattungs- oder Eigennamen-Karte nach Regel 18 | — |
 | ۲۳۱۵ | Kunkel | `substantiv_singular_alle.txt` | 2026-10-31 | landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۱۶ | Lab | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (das Lab = Labferment zur Käseherstellung) bzw. ugs. englische Kurzform «Lab» für Labor — gemeinte Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۱۷ | Landeszentrale | `substantiv_singular_alle.txt` | 2026-10-31 | meist nur Teil von Behördennamen («Landeszentrale für politische Bildung») — als Einzelwort Bedeutung nicht sicher, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3796,3 +3797,8 @@
 | 1459 | Landesmeister | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meister eines Bundeslandes / nationaler Meister, «Europapokal der Landesmeister») |
 | 1460 | Landesmeisterschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meisterschaft eines Bundeslandes / nationale Meisterschaft — wie Landesmeister) |
 | 1461 | Landespartei | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Landesorganisation einer Bundespartei / regionale Partei, nur in einem Land) |
+| 1462 | Landesrat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: österr. Mitglied der Landesregierung, Person / beratendes Gremium eines Landes) |
+| 1463 | Landesschulrat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: österr. Schulbehörde bis 2018 / Person: Schulaufsichtsbeamter) |
+| 1464 | Landesvater | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: veraltet Landesherr, Fürst / scherzhaft Regierungschef eines Landes) |
+| 1465 | Landesvorsitzende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Landesvorsitzende) |
+| 1466 | Landesvorsitzender | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «Landesvorsitzende» — gehört zu derselben Karte) |

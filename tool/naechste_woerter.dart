@@ -3828,6 +3828,12 @@ const zurueckgestellt = <String>{
   'Landesmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meister eines Bundeslandes / nationaler Meister, «Europapokal der Landesmeister») — nach den Nomen 2026-10-31
   'Landesmeisterschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meisterschaft eines Bundeslandes / nationale Meisterschaft — wie Landesmeister) — nach den Nomen 2026-10-31
   'Landespartei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Landesorganisation einer Bundespartei / regionale Partei, nur in einem Land) — nach den Nomen 2026-10-31
+  'Landesrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. Mitglied der Landesregierung, Person / beratendes Gremium eines Landes) — nach den Nomen 2026-10-31
+  'Landesschulrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. Schulbehörde bis 2018 / Person: Schulaufsichtsbeamter) — nach den Nomen 2026-10-31
+  'Landesvater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltet Landesherr, Fürst / scherzhaft Regierungschef eines Landes) — nach den Nomen 2026-10-31
+  'Landesvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Landesvorsitzende) — nach den Nomen 2026-10-31
+  'Landesvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «Landesvorsitzende» — gehört zu derselben Karte) — nach den Nomen 2026-10-31
+  'Landeszentrale', // zurückgestellt: meist nur Teil von Behördennamen («Landeszentrale für politische Bildung») — als Einzelwort Bedeutung nicht sicher, Regel 14/18 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
