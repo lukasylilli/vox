@@ -1,0 +1,160 @@
+{
+  "schema": "3.0",
+  "id": "nomen_klo",
+  "wort": "das Klo",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "توالت",
+      "دستشویی"
+    ],
+    "en": [
+      "loo",
+      "toilet"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Wohnen",
+    "Alltag"
+  ],
+  "ipa": "kloː",
+  "anmerkung": "umgangssprachlich; neutral: die Toilette.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wo ist das Klo?",
+      "uebersetzung": {
+        "fa": "دستشویی کجاست؟",
+        "en": "Where is the loo?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich muss kurz aufs Klo, bevor der Film anfängt.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه فیلم شروع شود، باید سریع به دستشویی بروم.",
+        "en": "I need to pop to the loo before the film starts."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Toilette",
+      "uebersetzung": {
+        "fa": "توالت",
+        "en": "toilet"
+      }
+    },
+    {
+      "wort": "das WC",
+      "uebersetzung": {
+        "fa": "دستشویی",
+        "en": "toilet"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Klopapier",
+      "uebersetzung": {
+        "fa": "دستمال توالت",
+        "en": "toilet paper"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Kurzform von das Klosett (توالت فرنگی)",
+    "en": "short form of das Klosett (water closet)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Klos",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "aufs Klo (auf + Akk) / auf dem Klo (auf + Dat)",
+        "beispiel": "Er ist gerade auf dem Klo.",
+        "uebersetzung": {
+          "fa": "او الان در دستشویی است.",
+          "en": "He is in the loo right now."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "aufs Klo gehen",
+        "beispiel": "Darf ich mal aufs Klo gehen?",
+        "uebersetzung": {
+          "fa": "می‌توانم به دستشویی بروم؟",
+          "en": "May I go to the loo?"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Toilette",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "توالت",
+          "en": "toilet"
+        },
+        "id_ref": "nomen_toilette"
+      },
+      {
+        "wort": "das Bad",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمام",
+          "en": "bathroom"
+        },
+        "id_ref": "nomen_bad"
+      },
+      {
+        "wort": "das WC",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستشویی",
+          "en": "toilet"
+        },
+        "id_ref": "nomen_wc"
+      },
+      {
+        "wort": "das Klopapier",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستمال توالت",
+          "en": "toilet paper"
+        },
+        "id_ref": "nomen_klopapier"
+      },
+      {
+        "wort": "die Spülung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیفون",
+          "en": "flush"
+        },
+        "id_ref": "nomen_spuelung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

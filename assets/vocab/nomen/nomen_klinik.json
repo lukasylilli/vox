@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "nomen_klinik",
+  "wort": "die Klinik",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کلینیک",
+      "بیمارستان"
+    ],
+    "en": [
+      "clinic",
+      "hospital"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈkliːnɪk",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Vater liegt in der Klinik.",
+      "uebersetzung": {
+        "fa": "پدرم در بیمارستان بستری است.",
+        "en": "My father is in hospital."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Unfall wurde sie in eine Klinik gebracht, die auf Verbrennungen spezialisiert ist.",
+      "uebersetzung": {
+        "fa": "بعد از تصادف او را به کلینیکی بردند که در سوختگی تخصص دارد.",
+        "en": "After the accident she was taken to a clinic that specializes in burns."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Krankenhaus",
+      "uebersetzung": {
+        "fa": "بیمارستان",
+        "en": "hospital"
+      }
+    },
+    {
+      "wort": "das Spital",
+      "uebersetzung": {
+        "fa": "بیمارستان (اتریش/سوئیس)",
+        "en": "hospital (Austria/Switzerland)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Universitätsklinik",
+      "uebersetzung": {
+        "fa": "بیمارستان دانشگاهی",
+        "en": "university hospital"
+      }
+    },
+    {
+      "wort": "die Privatklinik",
+      "uebersetzung": {
+        "fa": "کلینیک خصوصی",
+        "en": "private clinic"
+      }
+    },
+    {
+      "wort": "die Tagesklinik",
+      "uebersetzung": {
+        "fa": "کلینیک روزانه",
+        "en": "day clinic"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Kliniken",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in der Klinik (+ Dat) / in die Klinik (+ Akk)",
+        "beispiel": "Der Krankenwagen bringt ihn in die Klinik.",
+        "uebersetzung": {
+          "fa": "آمبولانس او را به بیمارستان می‌برد.",
+          "en": "The ambulance takes him to the clinic."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "in die Klinik eingeliefert werden",
+        "beispiel": "Der Mann wurde gestern in die Klinik eingeliefert.",
+        "uebersetzung": {
+          "fa": "آن مرد دیروز به بیمارستان منتقل شد.",
+          "en": "The man was admitted to the clinic yesterday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Station",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش (بیمارستان)",
+          "en": "ward"
+        },
+        "id_ref": "nomen_station"
+      },
+      {
+        "wort": "klinisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بالینی",
+          "en": "clinical"
+        },
+        "id_ref": "adjektiv_klinisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

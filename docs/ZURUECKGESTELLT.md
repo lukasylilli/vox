@@ -3588,3 +3588,5 @@
 | 1276 | Kleinod | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Schmuckstück, Pl. Kleinodien / übertragen: etwas Kostbares, Pl. Kleinode) |
 | 1277 | Klemme | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Klammer, Haarklemme, Kabelklemme (Technik) / ugs. Notlage «in der Klemme sitzen») |
 | 1278 | Klima | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wetterverhältnisse eines Gebiets / Atmosphäre, Stimmung «Betriebsklima») |
+| 1279 | Klippe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Felsen im Meer / übertragen Hindernis, Schwierigkeit «eine Klippe umschiffen») |
+| 1280 | Klischee | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckstock (Druckwesen) / abgegriffene Vorstellung, Stereotyp) |

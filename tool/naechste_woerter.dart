@@ -3588,6 +3588,8 @@ const zurueckgestellt = <String>{
   'Kleinod', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmuckstück, Pl. Kleinodien / übertragen: etwas Kostbares, Pl. Kleinode) — nach den Nomen 2026-10-30
   'Klemme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klammer, Haarklemme, Kabelklemme (Technik) / ugs. Notlage «in der Klemme sitzen») — nach den Nomen 2026-10-30
   'Klima', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetterverhältnisse eines Gebiets / Atmosphäre, Stimmung «Betriebsklima») — nach den Nomen 2026-10-30
+  'Klippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Felsen im Meer / übertragen Hindernis, Schwierigkeit «eine Klippe umschiffen») — nach den Nomen 2026-10-31
+  'Klischee', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druckstock (Druckwesen) / abgegriffene Vorstellung, Stereotyp) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
