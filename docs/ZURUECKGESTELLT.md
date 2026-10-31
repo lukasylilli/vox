@@ -2473,6 +2473,7 @@
 | ۲۲۹۶ | Kober | `substantiv_singular_alle.txt` | 2026-10-31 | regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۲۹۷ | Kolbe | `substantiv_singular_alle.txt` | 2026-10-31 | als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 | — |
 | ۲۲۹۸ | Kommunique | `substantiv_singular_alle.txt` | 2026-10-31 | Schreibweise unsicher (Duden: «Kommuniqué», auch «Kommunikee») — Lemma der Liste nicht sicher, Regel 14 | — |
+| ۲۲۹۹ | Kontaktgruppe | `substantiv_singular_alle.txt` | 2026-10-31 | Bedeutung je nach Bereich verschieden (Diplomatie: Staatengruppe in einem Konflikt / Gruppe von Kontaktpersonen) — als Gattungswort nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3650,3 +3651,7 @@
 | 1331 | Konsul | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: diplomatischer Vertreter / Geschichte: römischer Konsul) |
 | 1332 | Konsulat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Dienststelle eines Konsuls / Geschichte: Amt und Amtszeit eines römischen Konsuls) |
 | 1333 | Konsultation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beratung, Untersuchung durch Arzt oder Fachmann / Politik: gemeinsame Beratung von Regierungen) |
+| 1334 | Kontakt | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Verbindung, Beziehung «Kontakt haben» / Berührung / Elektrotechnik: Kontaktstelle) |
+| 1335 | Konter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sport: Gegenangriff / Boxen: Konterschlag / übertragen: schlagfertige Antwort) |
+| 1336 | Kontext | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sprachwissenschaft: umgebender Text / Zusammenhang, Umfeld) |
+| 1337 | Kontinent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Erdteil / Festland «auf dem Kontinent» im Gegensatz zu Inseln) |
