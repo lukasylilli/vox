@@ -3854,6 +3854,15 @@ const zurueckgestellt = <String>{
   'Laufbahn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: berufliche Karriere / Sport: Laufbahn im Stadion) — nach den Nomen 2026-10-31
   'Laptop', // zurückgestellt: Genus schwankend (der oder das Laptop, Duden) — wie Kubikmeter, Regel 14 2026-10-31
   'Lauda', // zurückgestellt: Familienname (Niki Lauda) — kein Gattungswort und kein geografischer Name, Regel 18 2026-10-31
+  'Laufsteg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Modenschau, Catwalk / schmaler Steg, Laufbrett) — nach den Nomen 2026-10-31
+  'Laufwerk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer: Laufwerk / Mechanik: Antriebswerk, Uhrwerk) — nach den Nomen 2026-10-31
+  'Laufzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gültigkeitsdauer eines Vertrags, Kredits / Spieldauer eines Films / Sport: gelaufene Zeit / IT: Laufzeit eines Programms) — nach den Nomen 2026-10-31
+  'Laune', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stimmung «gute Laune» / Plural Launen: wechselnde Stimmungen, Einfälle «eine Laune der Natur») — nach den Nomen 2026-10-31
+  'Laut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ton, Geräusch / Sprachlaut, Phonetik) — nach den Nomen 2026-10-31
+  'Laute', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: die Laute = Saiteninstrument ↔ die Laute = Plural von der Laut) — nach den Nomen 2026-10-31
+  'Leader', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anführer, Bandleader / Sport, österr./schweiz.: Tabellenführer) — nach den Nomen 2026-10-31
+  'Leben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebendigsein / Lebenszeit, Lebenslauf / Lebensweise, Alltag / Lebhaftigkeit «Leben in die Bude bringen») — nach den Nomen 2026-10-31
+  'Learning', // zurückgestellt: kein selbstständiges deutsches Nomen (nur in Fügungen wie E-Learning, Machine Learning) — Gebrauch und Genus nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

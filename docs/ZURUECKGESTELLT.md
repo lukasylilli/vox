@@ -2494,6 +2494,7 @@
 | ۲۳۱۷ | Landeszentrale | `substantiv_singular_alle.txt` | 2026-10-31 | meist nur Teil von Behördennamen («Landeszentrale für politische Bildung») — als Einzelwort Bedeutung nicht sicher, Regel 14/18 | — |
 | ۲۳۱۸ | Laptop | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Laptop, Duden) — wie Kubikmeter, Regel 14 | — |
 | ۲۳۱۹ | Lauda | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (Niki Lauda) — kein Gattungswort und kein geografischer Name, Regel 18 | — |
+| ۲۳۲۰ | Learning | `substantiv_singular_alle.txt` | 2026-10-31 | kein selbstständiges deutsches Nomen (nur in Fügungen wie E-Learning, Machine Learning) — Gebrauch und Genus nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3822,3 +3823,11 @@
 | 1482 | Latte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Holzlatte / Sport: Torlatte, Querlatte / ugs. Latte macchiato / vulgär) |
 | 1483 | Lauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Laufen, Wettlauf / Verlauf «im Lauf der Zeit» / Flusslauf / Gewehrlauf / Musik: Lauf) |
 | 1484 | Laufbahn | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: berufliche Karriere / Sport: Laufbahn im Stadion) |
+| 1485 | Laufsteg | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Modenschau, Catwalk / schmaler Steg, Laufbrett) |
+| 1486 | Laufwerk | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Computer: Laufwerk / Mechanik: Antriebswerk, Uhrwerk) |
+| 1487 | Laufzeit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gültigkeitsdauer eines Vertrags, Kredits / Spieldauer eines Films / Sport: gelaufene Zeit / IT: Laufzeit eines Programms) |
+| 1488 | Laune | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Stimmung «gute Laune» / Plural Launen: wechselnde Stimmungen, Einfälle «eine Laune der Natur») |
+| 1489 | Laut | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ton, Geräusch / Sprachlaut, Phonetik) |
+| 1490 | Laute | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 3 (Homograph: die Laute = Saiteninstrument ↔ die Laute = Plural von der Laut) |
+| 1491 | Leader | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Anführer, Bandleader / Sport, österr./schweiz.: Tabellenführer) |
+| 1492 | Leben | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lebendigsein / Lebenszeit, Lebenslauf / Lebensweise, Alltag / Lebhaftigkeit «Leben in die Bude bringen») |
