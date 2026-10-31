@@ -3593,6 +3593,11 @@ const zurueckgestellt = <String>{
   'Klotz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzklotz, Block / ugs. abwertend plumper Mensch / «Klotz am Bein») — nach den Nomen 2026-10-31
   'Klub', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verein / Nachtklub, Räume / österr. Parlamentsfraktion) — nach den Nomen 2026-10-31
   'Klubchef', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorsitzender eines Vereins / österr. Fraktionschef im Parlament) — nach den Nomen 2026-10-31
+  'Knaller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Knallkörper / ugs. Sensation, Hit) — nach den Nomen 2026-10-31
+  'Knappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergmann / historisch Edelknabe, Schildträger) — nach den Nomen 2026-10-31
+  'Knappheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mangel «Knappheit an Wasser» / Kürze des Ausdrucks) — nach den Nomen 2026-10-31
+  'Knecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltend Landarbeiter / abwertend unterwürfiger Diener) — nach den Nomen 2026-10-31
+  'Knick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biegung, Falz / norddt. Wallhecke / «einen Knick in der Optik haben») — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3624,6 +3629,7 @@ const zurueckgestellt = <String>{
   'Klauenseuche', // zurückgestellt: fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 2026-10-30
   'Klein', // zurückgestellt: als Nomen unklar (das Klein = Gänseklein? / Familienname) — Bedeutung nicht sicher, Regel 14 2026-10-30
   'Kleinfeld', // zurückgestellt: Bedeutung und Gebrauch als Einzelwort nicht sicher (Sport: kleines Spielfeld? Kleinfeldfußball) — Regel 14 2026-10-30
+  'Knesset', // zurückgestellt: Name einer Einrichtung (Parlament Israels) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

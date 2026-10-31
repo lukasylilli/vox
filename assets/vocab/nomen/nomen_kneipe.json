@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kneipe",
+  "wort": "die Kneipe",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "میخانه",
+      "بار (محلی)"
+    ],
+    "en": [
+      "pub",
+      "bar"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Freizeit",
+    "Essen und Trinken"
+  ],
+  "ipa": "ˈknaɪ̯pə",
+  "anmerkung": "umgangssprachlich; in Österreich auch «das Beisl».",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir treffen uns heute Abend in der Kneipe.",
+      "uebersetzung": {
+        "fa": "امشب در بار همدیگر را می‌بینیم.",
+        "en": "We are meeting in the pub tonight."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der Kneipe an der Ecke, wo wir früher oft waren, gibt es jetzt Live-Musik.",
+      "uebersetzung": {
+        "fa": "در بار سر نبش که قبلاً زیاد می‌رفتیم، حالا موسیقی زنده هست.",
+        "en": "In the pub on the corner, where we often used to go, there is live music now."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Lokal",
+      "uebersetzung": {
+        "fa": "رستوران، کافه",
+        "en": "bar, restaurant"
+      }
+    },
+    {
+      "wort": "das Beisl",
+      "uebersetzung": {
+        "fa": "میخانه (اتریش)",
+        "en": "pub (Austria)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Stammkneipe",
+      "uebersetzung": {
+        "fa": "بار همیشگی",
+        "en": "local pub"
+      }
+    },
+    {
+      "wort": "die Eckkneipe",
+      "uebersetzung": {
+        "fa": "بار سر نبش",
+        "en": "corner pub"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Kneipen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in die Kneipe (in + Akk) / in der Kneipe (in + Dat)",
+        "beispiel": "Nach der Arbeit gehen sie in die Kneipe.",
+        "uebersetzung": {
+          "fa": "بعد از کار به بار می‌روند.",
+          "en": "After work they go to the pub."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Lokal",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رستوران، کافه",
+          "en": "restaurant, bar"
+        },
+        "id_ref": "nomen_lokal"
+      },
+      {
+        "wort": "die Bar",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بار",
+          "en": "bar"
+        },
+        "id_ref": "nomen_bar"
+      },
+      {
+        "wort": "das Bier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبجو",
+          "en": "beer"
+        },
+        "id_ref": "nomen_bier"
+      },
+      {
+        "wort": "der Wirt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صاحب میخانه",
+          "en": "landlord"
+        },
+        "id_ref": "nomen_wirt"
+      },
+      {
+        "wort": "das Gasthaus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهمانخانه، رستوران سنتی",
+          "en": "inn"
+        },
+        "id_ref": "nomen_gasthaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

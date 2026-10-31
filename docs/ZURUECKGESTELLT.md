@@ -2466,6 +2466,7 @@
 | ۲۲۸۹ | Klauenseuche | `substantiv_singular_alle.txt` | 2026-10-30 | fast nur in «Maul- und Klauenseuche» gebraucht — Lemma als Einzelwort nicht sicher, Regel 14 | — |
 | ۲۲۹۰ | Klein | `substantiv_singular_alle.txt` | 2026-10-30 | als Nomen unklar (das Klein = Gänseklein? / Familienname) — Bedeutung nicht sicher, Regel 14 | — |
 | ۲۲۹۱ | Kleinfeld | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung und Gebrauch als Einzelwort nicht sicher (Sport: kleines Spielfeld? Kleinfeldfußball) — Regel 14 | — |
+| ۲۲۹۲ | Knesset | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Einrichtung (Parlament Israels) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3593,3 +3594,8 @@
 | 1281 | Klotz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Holzklotz, Block / ugs. abwertend plumper Mensch / «Klotz am Bein») |
 | 1282 | Klub | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Verein / Nachtklub, Räume / österr. Parlamentsfraktion) |
 | 1283 | Klubchef | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vorsitzender eines Vereins / österr. Fraktionschef im Parlament) |
+| 1284 | Knaller | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: ugs. Knallkörper / ugs. Sensation, Hit) |
+| 1285 | Knappe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bergmann / historisch Edelknabe, Schildträger) |
+| 1286 | Knappheit | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Mangel «Knappheit an Wasser» / Kürze des Ausdrucks) |
+| 1287 | Knecht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: veraltend Landarbeiter / abwertend unterwürfiger Diener) |
+| 1288 | Knick | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Biegung, Falz / norddt. Wallhecke / «einen Knick in der Optik haben») |
