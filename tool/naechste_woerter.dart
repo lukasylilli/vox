@@ -3689,6 +3689,9 @@ const zurueckgestellt = <String>{
   'Krach', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lärm / Streit «Krach haben» / Wirtschaft: Zusammenbruch, Börsenkrach) — nach den Nomen 2026-10-31
   'Kracher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Feuerwerkskörper / umgangssprachlich: Erfolg, Knaller) — nach den Nomen 2026-10-31
   'Kraftakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Darbietung von Körperkraft / übertragen: große Anstrengung) — nach den Nomen 2026-10-31
+  'Krampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Muskelkrampf / umgangssprachlich: Unsinn, krampfhaftes Bemühen «so ein Krampf») — nach den Nomen 2026-10-31
+  'Kran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hebevorrichtung, Baukran / landschaftlich: Wasserhahn) — nach den Nomen 2026-10-31
+  'Kranke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Kranke, ein Kranker) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3730,6 +3733,7 @@ const zurueckgestellt = <String>{
   'Kontaktgruppe', // zurückgestellt: Bedeutung je nach Bereich verschieden (Diplomatie: Staatengruppe in einem Konflikt / Gruppe von Kontaktpersonen) — als Gattungswort nicht sicher, Regel 14 2026-10-31
   'Kontrollamt', // zurückgestellt: vor allem Name einer Behörde (Kontrollamt der Stadt Wien, heute Stadtrechnungshof) — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
   'Kontur', // zurückgestellt: Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 2026-10-31
+  'Kramer', // zurückgestellt: Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

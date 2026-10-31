@@ -1,0 +1,147 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenanstalt",
+  "wort": "die Krankenanstalt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمارستان",
+      "مرکز درمانی"
+    ],
+    "en": [
+      "hospital",
+      "medical institution"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Verwaltung"
+  ],
+  "ipa": "ˈkʁaŋkn̩ˌʔanʃtalt",
+  "anmerkung": "österreichische Amtssprache; im Alltag «Krankenhaus» oder «Spital»",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Krankenanstalt ist groß.",
+      "uebersetzung": {
+        "fa": "بیمارستان بزرگ است.",
+        "en": "The hospital is large."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Österreich regelt ein eigenes Gesetz, welche Leistungen eine Krankenanstalt anbieten muss.",
+      "uebersetzung": {
+        "fa": "در اتریش قانون جداگانه‌ای تعیین می‌کند که یک بیمارستان چه خدماتی باید ارائه دهد.",
+        "en": "In Austria a separate law regulates which services a hospital must offer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Krankenhaus",
+      "uebersetzung": {
+        "fa": "بیمارستان",
+        "en": "hospital"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Krankenanstaltengesetz",
+      "uebersetzung": {
+        "fa": "قانون بیمارستان‌ها",
+        "en": "hospitals act"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Kranke (بیمار) + Anstalt (مؤسسه)",
+    "en": "Kranke (sick person) + Anstalt (institution)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Krankenanstalten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in einer Krankenanstalt (in + Dat)",
+        "beispiel": "Sie arbeitet als Pflegerin in einer Krankenanstalt in Graz.",
+        "uebersetzung": {
+          "fa": "او به عنوان پرستار در یک بیمارستان در گراتس کار می‌کند.",
+          "en": "She works as a nurse in a hospital in Graz."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "das Spital",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_spital"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کلینیک",
+          "en": "clinic"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Station",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش",
+          "en": "ward"
+        },
+        "id_ref": "nomen_station"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
