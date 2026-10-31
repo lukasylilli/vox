@@ -3590,3 +3590,6 @@
 | 1278 | Klima | `substantiv_singular_alle.txt` | 2026-10-30 | Fall 1 (mehrere Bedeutungen: Wetterverhältnisse eines Gebiets / Atmosphäre, Stimmung «Betriebsklima») |
 | 1279 | Klippe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Felsen im Meer / übertragen Hindernis, Schwierigkeit «eine Klippe umschiffen») |
 | 1280 | Klischee | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckstock (Druckwesen) / abgegriffene Vorstellung, Stereotyp) |
+| 1281 | Klotz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Holzklotz, Block / ugs. abwertend plumper Mensch / «Klotz am Bein») |
+| 1282 | Klub | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Verein / Nachtklub, Räume / österr. Parlamentsfraktion) |
+| 1283 | Klubchef | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vorsitzender eines Vereins / österr. Fraktionschef im Parlament) |
