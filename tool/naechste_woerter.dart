@@ -3637,6 +3637,7 @@ const zurueckgestellt = <String>{
   'Knight', // zurückgestellt: englischer Adelstitel (Ritter, «Sir») — kein gebräuchliches deutsches Nomen; Gebrauch/Genus nicht sicher, Regel 14 2026-10-31
   'Knopp', // zurückgestellt: Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
   'Knorr', // zurückgestellt: Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
+  'Kober', // zurückgestellt: regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

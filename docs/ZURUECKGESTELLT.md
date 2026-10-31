@@ -2470,6 +2470,7 @@
 | ۲۲۹۳ | Knight | `substantiv_singular_alle.txt` | 2026-10-31 | englischer Adelstitel (Ritter, «Sir») — kein gebräuchliches deutsches Nomen; Gebrauch/Genus nicht sicher, Regel 14 | — |
 | ۲۲۹۴ | Knopp | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۹۵ | Knorr | `substantiv_singular_alle.txt` | 2026-10-31 | Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۹۶ | Kober | `substantiv_singular_alle.txt` | 2026-10-31 | regional (Korb) / Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
