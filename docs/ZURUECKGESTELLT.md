@@ -2482,6 +2482,7 @@
 | ۲۳۰۵ | Kreisverwaltungsreferat | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Behörde (KVR in München) — als Gattungswort nicht sicher, Regel 14/18 | — |
 | ۲۳۰۶ | Krem | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (die oder der Krem; eingedeutschte Schreibung von «Creme») — Lemma und Genus nicht sicher, Regel 14 | — |
 | ۲۳۰۷ | Krida | `substantiv_singular_alle.txt` | 2026-10-31 | österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۰۸ | Kris | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (malaiischer Dolch) bzw. Kurzform — Bedeutung und Gebrauch im Deutschen nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3734,3 +3735,4 @@
 | 1406 | Kriegsrecht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») |
 | 1407 | Kriminalbeamter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der Kriminalbeamte, ein Kriminalbeamter) |
 | 1408 | Kriminalist | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beamter der Kriminalpolizei / Fachmann der Kriminalistik) |
+| 1409 | Krippe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Futterkrippe für Tiere / Weihnachtskrippe / Kinderkrippe, Kita für Kleinkinder) |

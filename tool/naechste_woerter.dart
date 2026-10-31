@@ -3765,6 +3765,8 @@ const zurueckgestellt = <String>{
   'Kriegsrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») — nach den Nomen 2026-10-31
   'Kriminalbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Kriminalbeamte, ein Kriminalbeamter) — nach den Nomen 2026-10-31
   'Kriminalist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beamter der Kriminalpolizei / Fachmann der Kriminalistik) — nach den Nomen 2026-10-31
+  'Krippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Futterkrippe für Tiere / Weihnachtskrippe / Kinderkrippe, Kita für Kleinkinder) — nach den Nomen 2026-10-31
+  'Kris', // zurückgestellt: Fachwort (malaiischer Dolch) bzw. Kurzform — Bedeutung und Gebrauch im Deutschen nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
