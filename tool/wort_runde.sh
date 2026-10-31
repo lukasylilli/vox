@@ -7,10 +7,10 @@
 #   bash tool/wort_runde.sh /tmp/batch.json          alles in einem Aufruf
 #   bash tool/wort_runde.sh --teil 1 /tmp/batch.json Dry-Run ⇒ Import ⇒ Index ⇒ ✓ ⇒ analyze
 #   bash tool/wort_runde.sh --teil 2                 Tests ohne grammatik_uebungen_test.dart
-#   bash tool/wort_runde.sh --teil 3                 grammatik_uebungen_test.dart ⇒ nächste 10
+#   bash tool/wort_runde.sh --teil 3                 grammatik_uebungen_test.dart ⇒ nächste 20
 #   bash tool/wort_runde.sh --teil daten /tmp/batch.json
 #        NUR Dart-SDK (source tool/dart_umgebung.sh): Dry-Run ⇒ Import ⇒ Index
-#        ⇒ ✓ ⇒ nächste 10 — ohne analyze/test. Erlaubt NUR, solange lib/,
+#        ⇒ ✓ ⇒ nächste 20 — ohne analyze/test. Erlaubt NUR, solange lib/,
 #        test/, pubspec.* und analysis_options.yaml unverändert sind (wird
 #        vor und nach der Runde geprüft). analyze + test laufen vollständig in
 #        deploy-web.yml VOR der Veröffentlichung: rot ⇒ kein Deploy, die

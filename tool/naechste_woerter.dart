@@ -2,9 +2,10 @@
 // PURPOSE: Routine «ده کلمه جدید» (Lukas, 2026-09-23) — nennt die nächsten N
 //          Wörter der Wortliste, für die es noch KEINE Karte gibt.
 //
-//   dart run tool/naechste_woerter.dart            # 10 aus der aktuellen Liste
-//   dart run tool/naechste_woerter.dart 5          # 5
-//   dart run tool/naechste_woerter.dart --abhaken  # ✓ vor jedes Wort mit Karte
+//   dart tool/naechste_woerter.dart                # 20 aus der aktuellen Liste
+//   dart tool/naechste_woerter.dart 5              # 5
+//   (Rundengröße 20 statt 10: Lukas 2026-10-31 — «Zeit verkürzen»)
+//   dart tool/naechste_woerter.dart --abhaken      # ✓ vor jedes Wort mit Karte
 //
 // Regeln (siehe PLAN.md → «📚 روال ده کلمه جدید»):
 //   · Reihenfolge = Reihenfolge der Datei (alphabetisch) — NIE umsortieren.
@@ -3931,7 +3932,7 @@ void main(List<String> args) {
     abhaken();
     return;
   }
-  final anzahl = args.isNotEmpty ? int.parse(args.first) : 10;
+  final anzahl = args.isNotEmpty ? int.parse(args.first) : 20;
   final treffer = <(String, String)>[]; // (Wort, Wortart)
 
   for (final (liste, wortart) in listen) {
