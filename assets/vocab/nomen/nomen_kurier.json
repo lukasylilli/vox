@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kurier",
+  "wort": "der Kurier",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پیک",
+      "قاصد"
+    ],
+    "en": [
+      "courier",
+      "messenger"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Post",
+    "Arbeit"
+  ],
+  "ipa": "kuˈʁiːɐ̯",
+  "anmerkung": "auch häufig in Zeitungsnamen («Kurier», Österreich)",
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ein Kurier bringt das Paket.",
+      "uebersetzung": {
+        "fa": "یک پیک بسته را می‌آورد.",
+        "en": "A courier brings the parcel."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Unterlagen sind so wichtig, dass sie per Kurier und nicht mit der normalen Post verschickt werden.",
+      "uebersetzung": {
+        "fa": "مدارک آن‌قدر مهم‌اند که با پیک فرستاده می‌شوند، نه با پست معمولی.",
+        "en": "The documents are so important that they are sent by courier and not by normal post."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Bote",
+      "uebersetzung": {
+        "fa": "پیک، قاصد",
+        "en": "messenger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Kuriere",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "per Kurier schicken (per + Akk)",
+        "beispiel": "Wir schicken Ihnen die Verträge per Kurier.",
+        "uebersetzung": {
+          "fa": "قراردادها را با پیک برایتان می‌فرستیم.",
+          "en": "We will send you the contracts by courier."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Bote",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیک، قاصد",
+          "en": "messenger"
+        },
+        "id_ref": "nomen_bote"
+      },
+      {
+        "wort": "die Lieferung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تحویل",
+          "en": "delivery"
+        },
+        "id_ref": "nomen_lieferung"
+      },
+      {
+        "wort": "das Paket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بسته",
+          "en": "parcel"
+        },
+        "id_ref": "nomen_paket"
+      },
+      {
+        "wort": "der Kurierdienst",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شرکت پیک",
+          "en": "courier service"
+        },
+        "id_ref": "nomen_kurierdienst"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

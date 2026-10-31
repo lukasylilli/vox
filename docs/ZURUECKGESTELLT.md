@@ -3769,3 +3769,4 @@
 | 1433 | Kupplung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Auto: Kupplung und Kupplungspedal / Anhängerkupplung, Verbindung zwischen Fahrzeugen) |
 | 1434 | Kurator | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacher im Museum / Recht: Vormund, Pfleger / Verwaltungsbeamter einer Universität) |
 | 1435 | Kuratorin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausstellungsmacherin im Museum / Recht: Vormundin, Pflegerin / Verwaltung einer Universität) |
+| 1436 | Kurs | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lehrgang, Sprachkurs / Richtung, Route eines Schiffes oder Flugzeugs / Börse: Kurs einer Aktie, Wechselkurs / politische Linie) |
