@@ -3637,6 +3637,12 @@ const zurueckgestellt = <String>{
   'Konsole', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wandvorsprung, Ablage / Spielkonsole / Bedienpult, EDV) — nach den Nomen 2026-10-31
   'Konsorte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: meist Pl., abwertend Mittäter «und Konsorten» / Bankwesen: Mitglied eines Konsortiums) — nach den Nomen 2026-10-31
   'Konstante', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik, Physik: unveränderliche Größe / übertragen beständiger Faktor) — nach den Nomen 2026-10-31
+  'Konstellation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammentreffen von Umständen, Lage / Astronomie: Stellung der Gestirne) — nach den Nomen 2026-10-31
+  'Konstitution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Verfassung / Staatsverfassung / Chemie: Aufbau eines Moleküls) — nach den Nomen 2026-10-31
+  'Konstruktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bauart, das Konstruieren / Sprachwissenschaft: Satzkonstruktion / Mathematik: geometrische Konstruktion) — nach den Nomen 2026-10-31
+  'Konsul', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: diplomatischer Vertreter / Geschichte: römischer Konsul) — nach den Nomen 2026-10-31
+  'Konsulat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dienststelle eines Konsuls / Geschichte: Amt und Amtszeit eines römischen Konsuls) — nach den Nomen 2026-10-31
+  'Konsultation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beratung, Untersuchung durch Arzt oder Fachmann / Politik: gemeinsame Beratung von Regierungen) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

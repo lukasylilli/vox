@@ -3644,3 +3644,9 @@
 | 1325 | Konsole | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wandvorsprung, Ablage / Spielkonsole / Bedienpult, EDV) |
 | 1326 | Konsorte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: meist Pl., abwertend Mittäter «und Konsorten» / Bankwesen: Mitglied eines Konsortiums) |
 | 1327 | Konstante | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Mathematik, Physik: unveränderliche Größe / übertragen beständiger Faktor) |
+| 1328 | Konstellation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Zusammentreffen von Umständen, Lage / Astronomie: Stellung der Gestirne) |
+| 1329 | Konstitution | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: körperliche Verfassung / Staatsverfassung / Chemie: Aufbau eines Moleküls) |
+| 1330 | Konstruktion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bauart, das Konstruieren / Sprachwissenschaft: Satzkonstruktion / Mathematik: geometrische Konstruktion) |
+| 1331 | Konsul | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: diplomatischer Vertreter / Geschichte: römischer Konsul) |
+| 1332 | Konsulat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Dienststelle eines Konsuls / Geschichte: Amt und Amtszeit eines römischen Konsuls) |
+| 1333 | Konsultation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beratung, Untersuchung durch Arzt oder Fachmann / Politik: gemeinsame Beratung von Regierungen) |
