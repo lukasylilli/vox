@@ -3637,3 +3637,4 @@
 | 1318 | Konfiguration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gestaltung, Anordnung / EDV: Einstellungen eines Systems / Chemie, Astronomie: räumliche Anordnung) |
 | 1319 | Konglomerat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemisch, Ansammlung / Geologie: Gestein / Wirtschaft: Mischkonzern) |
 | 1320 | Kongress | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fachtagung / Parlament der USA «der Kongress») |
+| 1321 | Konkurrenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wettbewerb, Rivalität / die Konkurrenten, Konkurrenzfirma «zur Konkurrenz gehen» / Sport: Wettkampf) |
