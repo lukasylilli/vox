@@ -3789,6 +3789,9 @@ const zurueckgestellt = <String>{
   'Kulturkampf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: Konflikt zwischen Bismarck und der katholischen Kirche / übertragen: heftiger Streit um Werte in der Gesellschaft) — nach den Nomen 2026-10-31
   'Kulturlandschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vom Menschen geprägte Landschaft / Gesamtheit der Kultureinrichtungen einer Region) — nach den Nomen 2026-10-31
   'Kulturrevolution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: die chinesische Kulturrevolution 1966–1976 / allgemein: tiefgreifender kultureller Umbruch) — nach den Nomen 2026-10-31
+  'Kumpan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Kamerad, Begleiter / abwertend: Mittäter, Komplize) — nach den Nomen 2026-10-31
+  'Kumpel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergmann / umgangssprachlich: Freund, Kamerad) — nach den Nomen 2026-10-31
+  'Kultusministerkonferenz', // zurückgestellt: Name einer Organisation (KMK, Deutschland) — keine Gattungs- oder Eigennamen-Karte nach Regel 18 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
