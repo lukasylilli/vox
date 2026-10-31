@@ -3621,3 +3621,8 @@
 | 1303 | Koloss | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Riesenstandbild / ugs. riesiger Mensch oder Gegenstand) |
 | 1304 | Kolumne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckspalte / regelmäßiger Meinungsbeitrag in der Zeitung) |
 | 1305 | Komiker | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Künstler, der Leute zum Lachen bringt / ugs. abwertend jemand, den man nicht ernst nimmt) |
+| 1306 | Kommando | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Befehl / Befehlsgewalt «das Kommando haben» / militärische Einheit, Sonderkommando) |
+| 1307 | Kommentar | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Stellungnahme, Meinungsbeitrag / Erläuterungswerk, z. B. zu einem Gesetz / ugs. Bemerkung) |
+| 1308 | Kommissar | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kriminalbeamter / EU-Kommissar / staatlich Beauftragter) |
+| 1309 | Kommissariat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Polizeidienststelle / Amt eines Kommissars) |
+| 1310 | Kommissarin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen wie Kommissar: Kriminalbeamtin / EU-Kommissarin) |
