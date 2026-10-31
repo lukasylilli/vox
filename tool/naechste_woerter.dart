@@ -3600,6 +3600,8 @@ const zurueckgestellt = <String>{
   'Knick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biegung, Falz / norddt. Wallhecke / «einen Knick in der Optik haben») — nach den Nomen 2026-10-31
   'Kniff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trick, Kunstgriff / Kneifen / Falte, Knick im Papier) — nach den Nomen 2026-10-31
   'Knirps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. kleiner Junge / Taschenschirm (Markenname)) — nach den Nomen 2026-10-31
+  'Knopf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleiderknopf / Taste, Schaltknopf / österr. Knoten) — nach den Nomen 2026-10-31
+  'Knoten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlinge, Verknotung / Medizin: Verdickung im Gewebe / Seefahrt: Geschwindigkeitsmaß) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3633,6 +3635,8 @@ const zurueckgestellt = <String>{
   'Kleinfeld', // zurückgestellt: Bedeutung und Gebrauch als Einzelwort nicht sicher (Sport: kleines Spielfeld? Kleinfeldfußball) — Regel 14 2026-10-30
   'Knesset', // zurückgestellt: Name einer Einrichtung (Parlament Israels) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
   'Knight', // zurückgestellt: englischer Adelstitel (Ritter, «Sir») — kein gebräuchliches deutsches Nomen; Gebrauch/Genus nicht sicher, Regel 14 2026-10-31
+  'Knopp', // zurückgestellt: Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
+  'Knorr', // zurückgestellt: Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

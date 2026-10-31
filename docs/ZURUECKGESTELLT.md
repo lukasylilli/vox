@@ -2468,6 +2468,8 @@
 | ۲۲۹۱ | Kleinfeld | `substantiv_singular_alle.txt` | 2026-10-30 | Bedeutung und Gebrauch als Einzelwort nicht sicher (Sport: kleines Spielfeld? Kleinfeldfußball) — Regel 14 | — |
 | ۲۲۹۲ | Knesset | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Einrichtung (Parlament Israels) — keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 | ۲۲۹۳ | Knight | `substantiv_singular_alle.txt` | 2026-10-31 | englischer Adelstitel (Ritter, «Sir») — kein gebräuchliches deutsches Nomen; Gebrauch/Genus nicht sicher, Regel 14 | — |
+| ۲۲۹۴ | Knopp | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (z. B. Guido Knopp) — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
+| ۲۲۹۵ | Knorr | `substantiv_singular_alle.txt` | 2026-10-31 | Familien- und Markenname — kein Nomen, keine Eigennamen-Karte nach Regel 18, nicht bauen | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3602,3 +3604,5 @@
 | 1288 | Knick | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Biegung, Falz / norddt. Wallhecke / «einen Knick in der Optik haben») |
 | 1289 | Kniff | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Trick, Kunstgriff / Kneifen / Falte, Knick im Papier) |
 | 1290 | Knirps | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: ugs. kleiner Junge / Taschenschirm (Markenname)) |
+| 1291 | Knopf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kleiderknopf / Taste, Schaltknopf / österr. Knoten) |
+| 1292 | Knoten | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schlinge, Verknotung / Medizin: Verdickung im Gewebe / Seefahrt: Geschwindigkeitsmaß) |
