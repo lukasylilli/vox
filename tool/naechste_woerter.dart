@@ -3795,6 +3795,7 @@ const zurueckgestellt = <String>{
   'Kundschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Kunden / österreichisch auch: einzelner Kunde / veraltet: Erkundung, Nachricht) — nach den Nomen 2026-10-31
   'Kunst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: bildende Kunst, Musik, Literatur / Können, Fertigkeit «die Kunst des Kochens» / Schulfach Kunst) — nach den Nomen 2026-10-31
   'Kunkel', // zurückgestellt: landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Kunstbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstwelt insgesamt, Kunstmarkt und Institutionen / einzelner Betrieb der Kunst — wie Kulturbetrieb) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

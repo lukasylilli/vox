@@ -3764,3 +3764,4 @@
 | 1428 | Kumpel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bergmann / umgangssprachlich: Freund, Kamerad) |
 | 1429 | Kundschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Kunden / österreichisch auch: einzelner Kunde / veraltet: Erkundung, Nachricht) |
 | 1430 | Kunst | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: bildende Kunst, Musik, Literatur / Können, Fertigkeit «die Kunst des Kochens» / Schulfach Kunst) |
+| 1431 | Kunstbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kunstwelt insgesamt, Kunstmarkt und Institutionen / einzelner Betrieb der Kunst — wie Kulturbetrieb) |
