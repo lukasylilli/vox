@@ -2490,6 +2490,7 @@
 | ۲۳۱۳ | Kuhl | `substantiv_singular_alle.txt` | 2026-10-31 | kein gesichertes Nomen (Familienname; evtl. falsch für «kühl» oder Kuhle) — Regel 14 | — |
 | ۲۳۱۴ | Kultusministerkonferenz | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Organisation (KMK, Deutschland) — keine Gattungs- oder Eigennamen-Karte nach Regel 18 | — |
 | ۲۳۱۵ | Kunkel | `substantiv_singular_alle.txt` | 2026-10-31 | landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۱۶ | Lab | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (das Lab = Labferment zur Käseherstellung) bzw. ugs. englische Kurzform «Lab» für Labor — gemeinte Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3774,3 +3775,10 @@
 | 1438 | Kursniveau | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Börse: Höhe der Kurse / Niveau eines Sprach- oder Lehrkurses) |
 | 1439 | Kursziel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Börse: erwarteter Aktienkurs / Navigation: Ziel einer Fahrt, eines Flugs) |
 | 1440 | Kurve | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Straßenkurve / Mathematik: Kurve im Diagramm / ugs. Körperrundungen; «die Kurve kriegen») |
+| 1441 | Kurzprogramm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Eiskunstlauf: Kurzprogramm / Waschmaschine, Gerät: kurzes Programm) |
+| 1442 | Kurzschluss | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Elektrik: Kurzschluss / ugs. unüberlegte Handlung im Affekt) |
+| 1443 | Kuvert | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Briefumschlag, bes. österr. / gehoben veraltend: Gedeck bei Tisch) |
+| 1444 | Label | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Etikett, Aufkleber / Plattenfirma / Marke, Modelabel) |
+| 1445 | Labyrinth | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Irrgarten / Anatomie: Innenohr) |
+| 1446 | Lacher | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Person, die lacht / kurzes Auflachen, «einen Lacher ernten») |
+| 1447 | Laden | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 + 2 (mehrere Bedeutungen: Geschäft / Fensterladen / ugs. Betrieb «der Laden läuft»; dazu das Laden = Beladen, Aufladen) |

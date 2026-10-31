@@ -3806,6 +3806,14 @@ const zurueckgestellt = <String>{
   'Kursniveau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börse: Höhe der Kurse / Niveau eines Sprach- oder Lehrkurses) — nach den Nomen 2026-10-31
   'Kursziel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börse: erwarteter Aktienkurs / Navigation: Ziel einer Fahrt, eines Flugs) — nach den Nomen 2026-10-31
   'Kurve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straßenkurve / Mathematik: Kurve im Diagramm / ugs. Körperrundungen; «die Kurve kriegen») — nach den Nomen 2026-10-31
+  'Kurzprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eiskunstlauf: Kurzprogramm / Waschmaschine, Gerät: kurzes Programm) — nach den Nomen 2026-10-31
+  'Kurzschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Elektrik: Kurzschluss / ugs. unüberlegte Handlung im Affekt) — nach den Nomen 2026-10-31
+  'Kuvert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Briefumschlag, bes. österr. / gehoben veraltend: Gedeck bei Tisch) — nach den Nomen 2026-10-31
+  'Label', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Etikett, Aufkleber / Plattenfirma / Marke, Modelabel) — nach den Nomen 2026-10-31
+  'Labyrinth', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Irrgarten / Anatomie: Innenohr) — nach den Nomen 2026-10-31
+  'Lacher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die lacht / kurzes Auflachen, «einen Lacher ernten») — nach den Nomen 2026-10-31
+  'Laden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 + 2 (mehrere Bedeutungen: Geschäft / Fensterladen / ugs. Betrieb «der Laden läuft»; dazu das Laden = Beladen, Aufladen) — nach den Nomen 2026-10-31
+  'Lab', // zurückgestellt: Fachwort (das Lab = Labferment zur Käseherstellung) bzw. ugs. englische Kurzform «Lab» für Labor — gemeinte Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
