@@ -3626,3 +3626,5 @@
 | 1308 | Kommissar | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kriminalbeamter / EU-Kommissar / staatlich Beauftragter) |
 | 1309 | Kommissariat | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Polizeidienststelle / Amt eines Kommissars) |
 | 1310 | Kommissarin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen wie Kommissar: Kriminalbeamtin / EU-Kommissarin) |
+| 1311 | Kommission | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausschuss, Gremium / EU-Kommission / Handel: «in Kommission» verkaufen) |
+| 1312 | Kommune | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gemeinde / Wohngemeinschaft (1968er) / historisch Pariser Kommune) |

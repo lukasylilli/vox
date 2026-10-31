@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kommunalwahl",
+  "wort": "die Kommunalwahl",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "انتخابات محلی",
+      "انتخابات شوراهای شهر"
+    ],
+    "en": [
+      "local election",
+      "municipal election"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "kɔmuˈnaːlˌvaːl",
+  "anmerkung": "Oft im Plural: «die Kommunalwahlen».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Sonntag ist Kommunalwahl.",
+      "uebersetzung": {
+        "fa": "یکشنبه انتخابات محلی است.",
+        "en": "There is a local election on Sunday."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Kommunalwahl dürfen auch EU-Bürger wählen, die keine deutsche Staatsbürgerschaft haben.",
+      "uebersetzung": {
+        "fa": "در انتخابات محلی شهروندان اتحادیه‌ی اروپا هم که تابعیت آلمان ندارند می‌توانند رأی بدهند.",
+        "en": "EU citizens without German citizenship are also allowed to vote in local elections."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Gemeinderatswahl",
+      "uebersetzung": {
+        "fa": "انتخابات شورای شهر",
+        "en": "municipal council election"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "kommunal (محلی) + die Wahl (انتخابات)",
+    "en": "kommunal (municipal) + die Wahl (election)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Kommunalwahlen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "bei der Kommunalwahl (bei + Dat)",
+        "beispiel": "Bei der Kommunalwahl hat die Partei gewonnen.",
+        "uebersetzung": {
+          "fa": "حزب در انتخابات محلی پیروز شد.",
+          "en": "The party won in the local election."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Wahl",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انتخابات",
+          "en": "election"
+        },
+        "id_ref": "nomen_wahl"
+      },
+      {
+        "wort": "wählen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رأی دادن",
+          "en": "to vote"
+        },
+        "id_ref": "verb_waehlen"
+      },
+      {
+        "wort": "die Gemeinde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شهرداری، بخش",
+          "en": "municipality"
+        },
+        "id_ref": "nomen_gemeinde"
+      },
+      {
+        "wort": "die Kommunalpolitik",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیاست محلی",
+          "en": "local politics"
+        },
+        "id_ref": "nomen_kommunalpolitik"
+      },
+      {
+        "wort": "der Gemeinderat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شورای شهر",
+          "en": "municipal council"
+        },
+        "id_ref": "nomen_gemeinderat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
