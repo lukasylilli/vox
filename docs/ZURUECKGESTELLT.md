@@ -3741,3 +3741,6 @@
 | 1411 | Kritik | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beanstandung, Tadel / Besprechung eines Buches oder Films, Rezension / Philosophie: kritische Prüfung) |
 | 1412 | Kritiker | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: jemand, der etwas kritisiert / Rezensent, Literatur- oder Filmkritiker) |
 | 1413 | Kritikerin | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: jemand, die etwas kritisiert / Rezensentin, Literatur- oder Filmkritikerin) |
+| 1414 | Krone | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kopfschmuck eines Königs, Monarchie / Baumkrone / Zahnkrone / Währung, z. B. dänische Krone) |
+| 1415 | Kronprinz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Thronfolger / übertragen: designierter Nachfolger in Partei oder Firma) |
+| 1416 | Kronzeuge | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Recht: Mittäter, der gegen andere aussagt und milder bestraft wird / wichtigster Zeuge für etwas) |

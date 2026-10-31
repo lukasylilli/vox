@@ -3772,6 +3772,9 @@ const zurueckgestellt = <String>{
   'Kritiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der etwas kritisiert / Rezensent, Literatur- oder Filmkritiker) — nach den Nomen 2026-10-31
   'Kritikerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, die etwas kritisiert / Rezensentin, Literatur- oder Filmkritikerin) — nach den Nomen 2026-10-31
   'Krisis', // zurückgestellt: veraltet für «Krise» bzw. medizinisches Fachwort (Wendepunkt einer Krankheit) — Markierung und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Krone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopfschmuck eines Königs, Monarchie / Baumkrone / Zahnkrone / Währung, z. B. dänische Krone) — nach den Nomen 2026-10-31
+  'Kronprinz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Thronfolger / übertragen: designierter Nachfolger in Partei oder Firma) — nach den Nomen 2026-10-31
+  'Kronzeuge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Mittäter, der gegen andere aussagt und milder bestraft wird / wichtigster Zeuge für etwas) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
