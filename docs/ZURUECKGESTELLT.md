@@ -3757,3 +3757,4 @@
 | 1423 | Kulturbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kulturleben insgesamt, der Kulturbetrieb einer Stadt / einzelne Kultureinrichtung als Betrieb) |
 | 1424 | Kulturkampf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: Konflikt zwischen Bismarck und der katholischen Kirche / übertragen: heftiger Streit um Werte in der Gesellschaft) |
 | 1425 | Kulturlandschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: vom Menschen geprägte Landschaft / Gesamtheit der Kultureinrichtungen einer Region) |
+| 1426 | Kulturrevolution | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: die chinesische Kulturrevolution 1966–1976 / allgemein: tiefgreifender kultureller Umbruch) |
