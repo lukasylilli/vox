@@ -3754,3 +3754,4 @@
 | 1420 | Kulisse | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Theater: bemalte Bühnenwand / übertragen: Hintergrund, Rahmen «vor der Kulisse der Alpen» / Schein, Fassade) |
 | 1421 | Kult | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: religiöse Verehrung, Ritus / übertragen: übertriebene Verehrung, «Kult sein» = sehr beliebt) |
 | 1422 | Kultur | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kunst, Bildung, Lebensweise eines Volkes / Landwirtschaft: Anbau, Pflanzung / Biologie: Bakterienkultur) |
+| 1423 | Kulturbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kulturleben insgesamt, der Kulturbetrieb einer Stadt / einzelne Kultureinrichtung als Betrieb) |
