@@ -3849,3 +3849,9 @@
 | 1506 | Leere | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1/4 (mehrere Bedeutungen: Leersein, leerer Raum / innere Leere, Gefühl; dazu substantiviertes «ins Leere») |
 | 1507 | Leerlauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Technik: Leerlauf des Motors, Gang / übertragen: Phase ohne Ergebnis) |
 | 1508 | Leerstelle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: freie Stelle, Lücke / Sprachwissenschaft: Valenzstelle / Leerzeichen beim Schreiben) |
+| 1509 | Legende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Heiligenlegende, Sage / Mythos um eine Person «eine lebende Legende» / Zeichenerklärung auf Karten) |
+| 1510 | Legion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: römische Truppeneinheit / Fremdenlegion / gehoben: große Menge «Legion sein») |
+| 1511 | Legitimation | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Berechtigung, Rechtfertigung / Ausweis, Nachweis / Recht: Ehelicherklärung eines Kindes) |
+| 1512 | Lehne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Rücken-/Armlehne / süddeutsch, österreichisch: Abhang, Hang) |
+| 1513 | Lehrberuf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beruf des Lehrers / Ausbildungsberuf mit Lehre) |
+| 1514 | Lehrbetrieb | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ausbildungsbetrieb für Lehrlinge / Unterrichtsbetrieb an Schule, Hochschule) |

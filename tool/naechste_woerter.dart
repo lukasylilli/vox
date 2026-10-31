@@ -3881,6 +3881,12 @@ const zurueckgestellt = <String>{
   'Leere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (mehrere Bedeutungen: Leersein, leerer Raum / innere Leere, Gefühl; dazu substantiviertes «ins Leere») — nach den Nomen 2026-10-31
   'Leerlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Leerlauf des Motors, Gang / übertragen: Phase ohne Ergebnis) — nach den Nomen 2026-10-31
   'Leerstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: freie Stelle, Lücke / Sprachwissenschaft: Valenzstelle / Leerzeichen beim Schreiben) — nach den Nomen 2026-10-31
+  'Legende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heiligenlegende, Sage / Mythos um eine Person «eine lebende Legende» / Zeichenerklärung auf Karten) — nach den Nomen 2026-10-31
+  'Legion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: römische Truppeneinheit / Fremdenlegion / gehoben: große Menge «Legion sein») — nach den Nomen 2026-10-31
+  'Legitimation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Berechtigung, Rechtfertigung / Ausweis, Nachweis / Recht: Ehelicherklärung eines Kindes) — nach den Nomen 2026-10-31
+  'Lehne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rücken-/Armlehne / süddeutsch, österreichisch: Abhang, Hang) — nach den Nomen 2026-10-31
+  'Lehrberuf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beruf des Lehrers / Ausbildungsberuf mit Lehre) — nach den Nomen 2026-10-31
+  'Lehrbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausbildungsbetrieb für Lehrlinge / Unterrichtsbetrieb an Schule, Hochschule) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
