@@ -2479,6 +2479,8 @@
 | ۲۳۰۲ | Kramer | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 | — |
 | ۲۳۰۳ | Krankenschein | `substantiv_singular_alle.txt` | 2026-10-31 | früher Behandlungsschein der Krankenkasse (heute Versichertenkarte, e-card), umgangssprachlich auch Krankmeldung — Bedeutung und Markierung nicht sicher, Regel 14 | — |
 | ۲۳۰۴ | Krause | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Familienname; als Gattungswort selten (Halskrause, krauses Haar) — Bedeutung nicht sicher, Regel 14 | — |
+| ۲۳۰۵ | Kreisverwaltungsreferat | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Behörde (KVR in München) — als Gattungswort nicht sicher, Regel 14/18 | — |
+| ۲۳۰۶ | Krem | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (die oder der Krem; eingedeutschte Schreibung von «Creme») — Lemma und Genus nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3717,3 +3719,5 @@
 | 1392 | Kreis | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geometrische Figur / Gruppe von Menschen «Freundeskreis» / Verwaltungsbezirk, Landkreis) |
 | 1393 | Kreisel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Spielzeug / umgangssprachlich: Kreisverkehr / Technik: Gyroskop) |
 | 1394 | Kreislauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Blutkreislauf «Kreislaufprobleme» / Zyklus, Wasserkreislauf, Wirtschaftskreislauf) |
+| 1395 | Kreisvorsitzende | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Kreisvorsitzende, ein Kreisvorsitzender) |
+| 1396 | Kreisvorsitzender | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «der/die Kreisvorsitzende») |

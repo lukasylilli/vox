@@ -3748,6 +3748,10 @@ const zurueckgestellt = <String>{
   'Kramer', // zurückgestellt: Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
   'Krankenschein', // zurückgestellt: früher Behandlungsschein der Krankenkasse (heute Versichertenkarte, e-card), umgangssprachlich auch Krankmeldung — Bedeutung und Markierung nicht sicher, Regel 14 2026-10-31
   'Krause', // zurückgestellt: vor allem Familienname; als Gattungswort selten (Halskrause, krauses Haar) — Bedeutung nicht sicher, Regel 14 2026-10-31
+  'Kreisvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Kreisvorsitzende, ein Kreisvorsitzender) — nach den Nomen 2026-10-31
+  'Kreisvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Kreisvorsitzende») — nach den Nomen 2026-10-31
+  'Kreisverwaltungsreferat', // zurückgestellt: Name einer Behörde (KVR in München) — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
+  'Krem', // zurückgestellt: Genus schwankend (die oder der Krem; eingedeutschte Schreibung von «Creme») — Lemma und Genus nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
