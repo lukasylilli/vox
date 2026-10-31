@@ -2474,6 +2474,8 @@
 | ۲۲۹۷ | Kolbe | `substantiv_singular_alle.txt` | 2026-10-31 | als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 | — |
 | ۲۲۹۸ | Kommunique | `substantiv_singular_alle.txt` | 2026-10-31 | Schreibweise unsicher (Duden: «Kommuniqué», auch «Kommunikee») — Lemma der Liste nicht sicher, Regel 14 | — |
 | ۲۲۹۹ | Kontaktgruppe | `substantiv_singular_alle.txt` | 2026-10-31 | Bedeutung je nach Bereich verschieden (Diplomatie: Staatengruppe in einem Konflikt / Gruppe von Kontaktpersonen) — als Gattungswort nicht sicher, Regel 14 | — |
+| ۲۳۰۰ | Kontrollamt | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Name einer Behörde (Kontrollamt der Stadt Wien, heute Stadtrechnungshof) — als Gattungswort nicht sicher, Regel 14/18 | — |
+| ۲۳۰۱ | Kontur | `substantiv_singular_alle.txt` | 2026-10-31 | Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3661,3 +3663,5 @@
 | 1341 | Kontrapunkt | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musik: Satztechnik / übertragen: Gegenpol, Gegengewicht) |
 | 1342 | Kontrast | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: starker Gegensatz / Optik, Fernsehen: Helligkeitsunterschied) |
 | 1343 | Kontrastprogramm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) |
+| 1344 | Kontrolle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Überprüfung, Überwachung / Beherrschung, Gewalt «die Kontrolle verlieren») |
+| 1345 | Kontrollstelle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ort, an dem kontrolliert wird / Behörde, Stelle mit Aufsichtsfunktion) |

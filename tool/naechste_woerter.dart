@@ -3653,6 +3653,8 @@ const zurueckgestellt = <String>{
   'Kontrapunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Satztechnik / übertragen: Gegenpol, Gegengewicht) — nach den Nomen 2026-10-31
   'Kontrast', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: starker Gegensatz / Optik, Fernsehen: Helligkeitsunterschied) — nach den Nomen 2026-10-31
   'Kontrastprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) — nach den Nomen 2026-10-31
+  'Kontrolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überprüfung, Überwachung / Beherrschung, Gewalt «die Kontrolle verlieren») — nach den Nomen 2026-10-31
+  'Kontrollstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort, an dem kontrolliert wird / Behörde, Stelle mit Aufsichtsfunktion) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3692,6 +3694,8 @@ const zurueckgestellt = <String>{
   'Kolbe', // zurückgestellt: als Nomen unklar (Familienname, z. B. Georg Kolbe; oder Verwechslung mit «der Kolben») — Regel 14 2026-10-31
   'Kommunique', // zurückgestellt: Schreibweise unsicher (Duden: «Kommuniqué», auch «Kommunikee») — Lemma der Liste nicht sicher, Regel 14 2026-10-31
   'Kontaktgruppe', // zurückgestellt: Bedeutung je nach Bereich verschieden (Diplomatie: Staatengruppe in einem Konflikt / Gruppe von Kontaktpersonen) — als Gattungswort nicht sicher, Regel 14 2026-10-31
+  'Kontrollamt', // zurückgestellt: vor allem Name einer Behörde (Kontrollamt der Stadt Wien, heute Stadtrechnungshof) — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
+  'Kontur', // zurückgestellt: Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
