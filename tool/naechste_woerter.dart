@@ -3614,6 +3614,7 @@ const zurueckgestellt = <String>{
   'Kolonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrzeugkolonne / Arbeitstrupp / senkrechte Zahlenreihe) — nach den Nomen 2026-10-31
   'Koloss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riesenstandbild / ugs. riesiger Mensch oder Gegenstand) — nach den Nomen 2026-10-31
   'Kolumne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druckspalte / regelmäßiger Meinungsbeitrag in der Zeitung) — nach den Nomen 2026-10-31
+  'Komiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Künstler, der Leute zum Lachen bringt / ugs. abwertend jemand, den man nicht ernst nimmt) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

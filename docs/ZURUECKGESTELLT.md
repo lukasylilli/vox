@@ -3620,3 +3620,4 @@
 | 1302 | Kolonne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fahrzeugkolonne / Arbeitstrupp / senkrechte Zahlenreihe) |
 | 1303 | Koloss | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Riesenstandbild / ugs. riesiger Mensch oder Gegenstand) |
 | 1304 | Kolumne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckspalte / regelmäßiger Meinungsbeitrag in der Zeitung) |
+| 1305 | Komiker | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Künstler, der Leute zum Lachen bringt / ugs. abwertend jemand, den man nicht ernst nimmt) |
