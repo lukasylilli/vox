@@ -3632,3 +3632,5 @@
 | 1313 | Kompanie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: militärische Einheit / veraltet Handelsgesellschaft, «& Co.») |
 | 1314 | Kompetenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fähigkeit, Sachverstand / Zuständigkeit, Befugnis) |
 | 1315 | Komplex | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gebäudekomplex, zusammenhängendes Ganzes / Psychologie: Minderwertigkeitskomplex) |
+| 1316 | Komposition | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musikwerk, das Komponieren / Aufbau, Gestaltung eines Kunstwerks) |
+| 1317 | Kondition | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: körperliche Leistungsfähigkeit / meist Pl. Geschäftsbedingungen «Konditionen») |
