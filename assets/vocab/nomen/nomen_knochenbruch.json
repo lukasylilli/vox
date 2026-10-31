@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_knochenbruch",
+  "wort": "der Knochenbruch",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شکستگی استخوان"
+    ],
+    "en": [
+      "bone fracture",
+      "broken bone"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈknɔxn̩ˌbrʊx",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat einen Knochenbruch am Arm.",
+      "uebersetzung": {
+        "fa": "دستش شکستگی دارد.",
+        "en": "He has a broken bone in his arm."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ein Knochenbruch muss oft geröntgt werden, damit der Arzt sieht, wie schwer er ist.",
+      "uebersetzung": {
+        "fa": "شکستگی استخوان اغلب باید عکس‌برداری شود تا پزشک ببیند چقدر شدید است.",
+        "en": "A fracture often has to be X-rayed so that the doctor can see how serious it is."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Fraktur",
+      "uebersetzung": {
+        "fa": "شکستگی (پزشکی)",
+        "en": "fracture (medical)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "der Knochen (استخوان) + der Bruch (شکستگی)",
+    "en": "der Knochen (bone) + der Bruch (break)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Knochenbrüche",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Knochenbruch erleiden",
+        "beispiel": "Bei dem Unfall hat sie einen Knochenbruch erlitten.",
+        "uebersetzung": {
+          "fa": "در تصادف دچار شکستگی استخوان شد.",
+          "en": "She suffered a fracture in the accident."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Knochen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استخوان",
+          "en": "bone"
+        },
+        "id_ref": "nomen_knochen"
+      },
+      {
+        "wort": "der Bruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکستگی",
+          "en": "fracture"
+        },
+        "id_ref": "nomen_bruch"
+      },
+      {
+        "wort": "der Gips",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گچ",
+          "en": "plaster cast"
+        },
+        "id_ref": "nomen_gips"
+      },
+      {
+        "wort": "röntgen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عکس‌برداری با اشعه‌ی ایکس",
+          "en": "to X-ray"
+        },
+        "id_ref": "verb_roentgen"
+      },
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف، حادثه",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
