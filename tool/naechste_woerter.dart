@@ -3647,6 +3647,12 @@ const zurueckgestellt = <String>{
   'Konter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Gegenangriff / Boxen: Konterschlag / übertragen: schlagfertige Antwort) — nach den Nomen 2026-10-31
   'Kontext', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachwissenschaft: umgebender Text / Zusammenhang, Umfeld) — nach den Nomen 2026-10-31
   'Kontinent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erdteil / Festland «auf dem Kontinent» im Gegensatz zu Inseln) — nach den Nomen 2026-10-31
+  'Kontingent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteil, Menge, Quote / Militär: Truppenkontingent) — nach den Nomen 2026-10-31
+  'Kontra', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kartenspiel: Gegenansage / übertragen «Kontra geben» = widersprechen / «das Pro und Kontra») — nach den Nomen 2026-10-31
+  'Kontrahent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegner, Widersacher / Recht: Vertragspartner) — nach den Nomen 2026-10-31
+  'Kontrapunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Satztechnik / übertragen: Gegenpol, Gegengewicht) — nach den Nomen 2026-10-31
+  'Kontrast', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: starker Gegensatz / Optik, Fernsehen: Helligkeitsunterschied) — nach den Nomen 2026-10-31
+  'Kontrastprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

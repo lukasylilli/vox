@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "nomen_konto",
+  "wort": "das Konto",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حساب بانکی",
+      "حساب"
+    ],
+    "en": [
+      "account",
+      "bank account"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Bank",
+    "Geld"
+  ],
+  "ipa": "ˈkɔnto",
+  "anmerkung": "Plural auch «die Kontos» oder «die Konti»; Redewendung: «etwas geht auf jemandes Konto» (jemand ist schuld daran)",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe ein Konto bei dieser Bank.",
+      "uebersetzung": {
+        "fa": "من در این بانک یک حساب دارم.",
+        "en": "I have an account at this bank."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Gehalt wird jeden Monat auf mein Konto überwiesen, bevor die Miete abgebucht wird.",
+      "uebersetzung": {
+        "fa": "حقوق هر ماه به حسابم واریز می‌شود، پیش از آنکه اجاره برداشت شود.",
+        "en": "The salary is transferred to my account every month before the rent is debited."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Bankkonto",
+      "uebersetzung": {
+        "fa": "حساب بانکی",
+        "en": "bank account"
+      }
+    },
+    {
+      "wort": "das Sparkonto",
+      "uebersetzung": {
+        "fa": "حساب پس‌انداز",
+        "en": "savings account"
+      }
+    },
+    {
+      "wort": "das Girokonto",
+      "uebersetzung": {
+        "fa": "حساب جاری",
+        "en": "current account"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Konten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "Geld auf + Akk Konto überweisen",
+        "beispiel": "Bitte überweisen Sie den Betrag auf dieses Konto.",
+        "uebersetzung": {
+          "fa": "لطفاً مبلغ را به این حساب واریز کنید.",
+          "en": "Please transfer the amount to this account."
+        }
+      },
+      {
+        "muster": "Geld auf + Dat Konto haben",
+        "beispiel": "Ich habe nicht mehr viel Geld auf dem Konto.",
+        "uebersetzung": {
+          "fa": "دیگر پول زیادی در حسابم ندارم.",
+          "en": "I do not have much money left in my account."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Konto eröffnen",
+        "beispiel": "Ich möchte ein Konto eröffnen.",
+        "uebersetzung": {
+          "fa": "می‌خواهم یک حساب باز کنم.",
+          "en": "I would like to open an account."
+        }
+      },
+      {
+        "verbindung": "das Konto überziehen",
+        "beispiel": "Er hat sein Konto überzogen.",
+        "uebersetzung": {
+          "fa": "او از موجودی حسابش بیشتر برداشت کرده است.",
+          "en": "He has overdrawn his account."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "id_ref": "nomen_bank"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "überweisen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حواله کردن، واریز کردن",
+          "en": "to transfer"
+        },
+        "id_ref": "verb_ueberweisen"
+      },
+      {
+        "wort": "die Kontonummer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شماره حساب",
+          "en": "account number"
+        },
+        "id_ref": "nomen_kontonummer"
+      },
+      {
+        "wort": "das Guthaben",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجودی",
+          "en": "credit balance"
+        },
+        "id_ref": "nomen_guthaben"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

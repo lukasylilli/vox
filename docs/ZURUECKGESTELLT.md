@@ -3655,3 +3655,9 @@
 | 1335 | Konter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sport: Gegenangriff / Boxen: Konterschlag / übertragen: schlagfertige Antwort) |
 | 1336 | Kontext | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sprachwissenschaft: umgebender Text / Zusammenhang, Umfeld) |
 | 1337 | Kontinent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Erdteil / Festland «auf dem Kontinent» im Gegensatz zu Inseln) |
+| 1338 | Kontingent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Anteil, Menge, Quote / Militär: Truppenkontingent) |
+| 1339 | Kontra | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kartenspiel: Gegenansage / übertragen «Kontra geben» = widersprechen / «das Pro und Kontra») |
+| 1340 | Kontrahent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gegner, Widersacher / Recht: Vertragspartner) |
+| 1341 | Kontrapunkt | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musik: Satztechnik / übertragen: Gegenpol, Gegengewicht) |
+| 1342 | Kontrast | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: starker Gegensatz / Optik, Fernsehen: Helligkeitsunterschied) |
+| 1343 | Kontrastprogramm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) |
