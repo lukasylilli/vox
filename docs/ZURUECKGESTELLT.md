@@ -3782,3 +3782,9 @@
 | 1445 | Labyrinth | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Irrgarten / Anatomie: Innenohr) |
 | 1446 | Lacher | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Person, die lacht / kurzes Auflachen, «einen Lacher ernten») |
 | 1447 | Laden | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 + 2 (mehrere Bedeutungen: Geschäft / Fensterladen / ugs. Betrieb «der Laden läuft»; dazu das Laden = Beladen, Aufladen) |
+| 1448 | Lady | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Dame, vornehme Frau / britischer Adelstitel «Lady») |
+| 1449 | Lage | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Situation / Ort, Position eines Hauses / Schicht «eine Lage Papier» / Musik: Tonlage / ugs. «eine Lage» = Runde Getränke) |
+| 1450 | Lagebericht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bericht über die aktuelle Situation, Polizei/Militär / Wirtschaft: Lagebericht im Jahresabschluss) |
+| 1451 | Lager | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Warenlager / Zelt-, Ferienlager / politisches Lager / Technik: Kugellager; Plural Lager/Läger) |
+| 1452 | Lagerung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Aufbewahrung von Waren / Pflege: Lagerung des Patienten / Geologie: Schichtung) |
+| 1453 | Laie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Nichtfachmann / Kirche: Nichtgeistlicher) |

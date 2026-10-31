@@ -3814,6 +3814,12 @@ const zurueckgestellt = <String>{
   'Lacher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die lacht / kurzes Auflachen, «einen Lacher ernten») — nach den Nomen 2026-10-31
   'Laden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 + 2 (mehrere Bedeutungen: Geschäft / Fensterladen / ugs. Betrieb «der Laden läuft»; dazu das Laden = Beladen, Aufladen) — nach den Nomen 2026-10-31
   'Lab', // zurückgestellt: Fachwort (das Lab = Labferment zur Käseherstellung) bzw. ugs. englische Kurzform «Lab» für Labor — gemeinte Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Lady', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dame, vornehme Frau / britischer Adelstitel «Lady») — nach den Nomen 2026-10-31
+  'Lage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Situation / Ort, Position eines Hauses / Schicht «eine Lage Papier» / Musik: Tonlage / ugs. «eine Lage» = Runde Getränke) — nach den Nomen 2026-10-31
+  'Lagebericht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bericht über die aktuelle Situation, Polizei/Militär / Wirtschaft: Lagebericht im Jahresabschluss) — nach den Nomen 2026-10-31
+  'Lager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenlager / Zelt-, Ferienlager / politisches Lager / Technik: Kugellager; Plural Lager/Läger) — nach den Nomen 2026-10-31
+  'Lagerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufbewahrung von Waren / Pflege: Lagerung des Patienten / Geologie: Schichtung) — nach den Nomen 2026-10-31
+  'Laie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nichtfachmann / Kirche: Nichtgeistlicher) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
