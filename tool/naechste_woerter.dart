@@ -3763,6 +3763,8 @@ const zurueckgestellt = <String>{
   'Krida', // zurückgestellt: österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Kriegsgegner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegner des Krieges, Pazifist / Feind im Krieg, gegnerische Kriegspartei) — nach den Nomen 2026-10-31
   'Kriegsrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») — nach den Nomen 2026-10-31
+  'Kriminalbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Kriminalbeamte, ein Kriminalbeamter) — nach den Nomen 2026-10-31
+  'Kriminalist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beamter der Kriminalpolizei / Fachmann der Kriminalistik) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -3732,3 +3732,5 @@
 | 1404 | Kreuzzug | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: Kriegszüge des Mittelalters / übertragen: leidenschaftlicher Kampf für oder gegen etwas) |
 | 1405 | Kriegsgegner | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gegner des Krieges, Pazifist / Feind im Krieg, gegnerische Kriegspartei) |
 | 1406 | Kriegsrecht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») |
+| 1407 | Kriminalbeamter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der Kriminalbeamte, ein Kriminalbeamter) |
+| 1408 | Kriminalist | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Beamter der Kriminalpolizei / Fachmann der Kriminalistik) |
