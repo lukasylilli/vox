@@ -3693,6 +3693,9 @@ const zurueckgestellt = <String>{
   'Kran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hebevorrichtung, Baukran / landschaftlich: Wasserhahn) — nach den Nomen 2026-10-31
   'Kranke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Kranke, ein Kranker) — nach den Nomen 2026-10-31
   'Krankenstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vor allem österr.: Zeit der Arbeitsunfähigkeit «im Krankenstand sein» / Anzahl der Kranken in einem Betrieb) — nach den Nomen 2026-10-31
+  'Krankheitsfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «im Krankheitsfall» = wenn jemand krank wird / einzelner Fall einer Krankheit) — nach den Nomen 2026-10-31
+  'Kranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebinde aus Blumen, Zweigen / ringförmiges Gebäck «Frankfurter Kranz» / Kreis, Ring) — nach den Nomen 2026-10-31
+  'Kratzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schramme, Kratzspur / Technik: Kratzeisen, Werkzeug) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
@@ -3736,6 +3739,7 @@ const zurueckgestellt = <String>{
   'Kontur', // zurückgestellt: Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 2026-10-31
   'Kramer', // zurückgestellt: Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 2026-10-31
   'Krankenschein', // zurückgestellt: früher Behandlungsschein der Krankenkasse (heute Versichertenkarte, e-card), umgangssprachlich auch Krankmeldung — Bedeutung und Markierung nicht sicher, Regel 14 2026-10-31
+  'Krause', // zurückgestellt: vor allem Familienname; als Gattungswort selten (Halskrause, krauses Haar) — Bedeutung nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

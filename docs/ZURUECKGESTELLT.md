@@ -2478,6 +2478,7 @@
 | ۲۳۰۱ | Kontur | `substantiv_singular_alle.txt` | 2026-10-31 | Genus in der Fachsprache schwankend (die Kontur; Kunst auch der Kontur), meist Plural — Regel 14 | — |
 | ۲۳۰۲ | Kramer | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname bzw. veraltet für «Krämer» — als Gattungswort nicht sicher, Regel 14/18 | — |
 | ۲۳۰۳ | Krankenschein | `substantiv_singular_alle.txt` | 2026-10-31 | früher Behandlungsschein der Krankenkasse (heute Versichertenkarte, e-card), umgangssprachlich auch Krankmeldung — Bedeutung und Markierung nicht sicher, Regel 14 | — |
+| ۲۳۰۴ | Krause | `substantiv_singular_alle.txt` | 2026-10-31 | vor allem Familienname; als Gattungswort selten (Halskrause, krauses Haar) — Bedeutung nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3705,3 +3706,6 @@
 | 1381 | Kran | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Hebevorrichtung, Baukran / landschaftlich: Wasserhahn) |
 | 1382 | Kranke | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Kranke, ein Kranker) |
 | 1383 | Krankenstand | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: vor allem österr.: Zeit der Arbeitsunfähigkeit «im Krankenstand sein» / Anzahl der Kranken in einem Betrieb) |
+| 1384 | Krankheitsfall | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: «im Krankheitsfall» = wenn jemand krank wird / einzelner Fall einer Krankheit) |
+| 1385 | Kranz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gebinde aus Blumen, Zweigen / ringförmiges Gebäck «Frankfurter Kranz» / Kreis, Ring) |
+| 1386 | Kratzer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Schramme, Kratzspur / Technik: Kratzeisen, Werkzeug) |

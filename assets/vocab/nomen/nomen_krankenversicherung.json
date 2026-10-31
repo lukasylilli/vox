@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenversicherung",
+  "wort": "die Krankenversicherung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمه‌ی درمانی"
+    ],
+    "en": [
+      "health insurance"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit",
+    "Versicherung"
+  ],
+  "ipa": "ˈkʁaŋkn̩fɛɐ̯ˌzɪçəʁʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Hast du eine Krankenversicherung?",
+      "uebersetzung": {
+        "fa": "بیمه‌ی درمانی داری؟",
+        "en": "Do you have health insurance?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In Österreich ist man automatisch in der Krankenversicherung, sobald man angestellt ist.",
+      "uebersetzung": {
+        "fa": "در اتریش به محض استخدام شدن، آدم خودبه‌خود بیمه‌ی درمانی دارد.",
+        "en": "In Austria you automatically have health insurance as soon as you are employed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Krankenversicherungskarte",
+      "uebersetzung": {
+        "fa": "کارت بیمه‌ی درمانی",
+        "en": "health insurance card"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Kranke (بیمار) + Versicherung (بیمه)",
+    "en": "Kranke (sick person) + Versicherung (insurance)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Krankenversicherungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in der Krankenversicherung sein (in + Dat)",
+        "beispiel": "Kinder sind bei den Eltern in der Krankenversicherung mitversichert.",
+        "uebersetzung": {
+          "fa": "بچه‌ها در بیمه‌ی درمانی والدین هم‌بیمه هستند.",
+          "en": "Children are co-insured in their parents’ health insurance."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Krankenversicherung abschließen",
+        "beispiel": "Für das Auslandssemester habe ich eine Krankenversicherung abgeschlossen.",
+        "uebersetzung": {
+          "fa": "برای ترم خارج از کشور یک بیمه‌ی درمانی گرفتم.",
+          "en": "I took out health insurance for my semester abroad."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Versicherung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمه",
+          "en": "insurance"
+        },
+        "id_ref": "nomen_versicherung"
+      },
+      {
+        "wort": "die Krankenkasse",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صندوق بیمه‌ی درمانی",
+          "en": "health insurance fund"
+        },
+        "id_ref": "nomen_krankenkasse"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "der Beitrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حق بیمه",
+          "en": "contribution"
+        },
+        "id_ref": "nomen_beitrag"
+      },
+      {
+        "wort": "die E-Card",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارت بیمه (اتریش)",
+          "en": "health insurance card (Austria)"
+        },
+        "id_ref": "nomen_e-card"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

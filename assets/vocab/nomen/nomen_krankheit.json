@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankheit",
+  "wort": "die Krankheit",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیماری"
+    ],
+    "en": [
+      "illness",
+      "disease"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "ˈkʁaŋkhaɪ̯t",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Er hat eine schwere Krankheit.",
+      "uebersetzung": {
+        "fa": "او بیماری سختی دارد.",
+        "en": "He has a serious illness."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wegen ihrer Krankheit konnte sie mehrere Wochen nicht zur Arbeit gehen.",
+      "uebersetzung": {
+        "fa": "به خاطر بیماری‌اش چند هفته نتوانست سر کار برود.",
+        "en": "Because of her illness she could not go to work for several weeks."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "die Gesundheit",
+      "uebersetzung": {
+        "fa": "سلامتی",
+        "en": "health"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Kinderkrankheit",
+      "uebersetzung": {
+        "fa": "بیماری کودکان",
+        "en": "childhood illness"
+      }
+    },
+    {
+      "wort": "die Infektionskrankheit",
+      "uebersetzung": {
+        "fa": "بیماری عفونی",
+        "en": "infectious disease"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "krank (بیمار) + -heit",
+    "en": "krank (ill) + -heit"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Krankheiten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "an einer Krankheit leiden (an + Dat)",
+        "beispiel": "Sie leidet seit Jahren an einer chronischen Krankheit.",
+        "uebersetzung": {
+          "fa": "او سال‌هاست از یک بیماری مزمن رنج می‌برد.",
+          "en": "She has been suffering from a chronic illness for years."
+        }
+      },
+      {
+        "muster": "an einer Krankheit sterben (an + Dat)",
+        "beispiel": "Er ist an einer seltenen Krankheit gestorben.",
+        "uebersetzung": {
+          "fa": "او بر اثر یک بیماری نادر درگذشت.",
+          "en": "He died of a rare disease."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Krankheit behandeln",
+        "beispiel": "Diese Krankheit kann man heute gut behandeln.",
+        "uebersetzung": {
+          "fa": "این بیماری را امروز می‌شود خوب درمان کرد.",
+          "en": "This disease can be treated well today."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "ill"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Gesundheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سلامتی",
+          "en": "health"
+        },
+        "id_ref": "nomen_gesundheit"
+      },
+      {
+        "wort": "die Behandlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "treatment"
+        },
+        "id_ref": "nomen_behandlung"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

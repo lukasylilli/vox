@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankheitserreger",
+  "wort": "der Krankheitserreger",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "عامل بیماری‌زا",
+      "میکروب"
+    ],
+    "en": [
+      "pathogen",
+      "germ"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Biologie"
+  ],
+  "ipa": "ˈkʁaŋkhaɪ̯tsʔɛɐ̯ˌʁeːɡɐ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Viren sind Krankheitserreger.",
+      "uebersetzung": {
+        "fa": "ویروس‌ها عامل بیماری‌زا هستند.",
+        "en": "Viruses are pathogens."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Regelmäßiges Händewaschen verhindert, dass sich ein Krankheitserreger im Krankenhaus ausbreitet.",
+      "uebersetzung": {
+        "fa": "شستن مرتب دست‌ها جلوی پخش شدن عامل بیماری‌زا در بیمارستان را می‌گیرد.",
+        "en": "Regular hand washing prevents a pathogen from spreading in hospital."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Erreger",
+      "uebersetzung": {
+        "fa": "عامل بیماری",
+        "en": "pathogen"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krankheit (بیماری) + Erreger (برانگیزاننده)",
+    "en": "Krankheit (illness) + Erreger (agent)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Krankheitserreger",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "das Virus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویروس",
+          "en": "virus"
+        },
+        "id_ref": "nomen_virus"
+      },
+      {
+        "wort": "das Bakterium",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "باکتری",
+          "en": "bacterium"
+        },
+        "id_ref": "nomen_bakterium"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "die Hygiene",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بهداشت",
+          "en": "hygiene"
+        },
+        "id_ref": "nomen_hygiene"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

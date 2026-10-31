@@ -1,0 +1,120 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankheitsbild",
+  "wort": "das Krankheitsbild",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تصویر بالینی",
+      "مجموعه‌ی علائم بیماری"
+    ],
+    "en": [
+      "clinical picture",
+      "symptoms of a disease"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ˈkʁaŋkhaɪ̯tsˌbɪlt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Krankheitsbild ist typisch.",
+      "uebersetzung": {
+        "fa": "تصویر بالینی معمولی است.",
+        "en": "The clinical picture is typical."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Krankheitsbild ähnelt einer Grippe, deshalb wird die Infektion oft zu spät erkannt.",
+      "uebersetzung": {
+        "fa": "تصویر بالینی شبیه آنفلوانزاست، برای همین عفونت اغلب دیر تشخیص داده می‌شود.",
+        "en": "The clinical picture resembles flu, which is why the infection is often recognised too late."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Krankheit (بیماری) + Bild (تصویر)",
+    "en": "Krankheit (illness) + Bild (picture)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Krankheitsbilder",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نشانه",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تشخیص",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "der Befund",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یافته‌ی پزشکی",
+          "en": "findings"
+        },
+        "id_ref": "nomen_befund"
+      },
+      {
+        "wort": "der Verlauf",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روند",
+          "en": "course"
+        },
+        "id_ref": "nomen_verlauf"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
