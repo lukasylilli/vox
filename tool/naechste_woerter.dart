@@ -3623,6 +3623,8 @@ const zurueckgestellt = <String>{
   'Kommission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausschuss, Gremium / EU-Kommission / Handel: «in Kommission» verkaufen) — nach den Nomen 2026-10-31
   'Kommune', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinde / Wohngemeinschaft (1968er) / historisch Pariser Kommune) — nach den Nomen 2026-10-31
   'Kompanie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärische Einheit / veraltet Handelsgesellschaft, «& Co.») — nach den Nomen 2026-10-31
+  'Kompetenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fähigkeit, Sachverstand / Zuständigkeit, Befugnis) — nach den Nomen 2026-10-31
+  'Komplex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäudekomplex, zusammenhängendes Ganzes / Psychologie: Minderwertigkeitskomplex) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
