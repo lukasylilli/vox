@@ -3845,6 +3845,15 @@ const zurueckgestellt = <String>{
   'Landwirtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaftszweig Agrarwirtschaft / einzelner landwirtschaftlicher Betrieb «eine kleine Landwirtschaft») — nach den Nomen 2026-10-31
   'Langzeitarbeitsloser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Langzeitarbeitslose», substantiviertes Adjektiv) — nach den Nomen 2026-10-31
   'Lappen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Putzlappen, Stück Stoff / Anatomie: Lungenlappen, Ohrläppchen / ugs. Führerschein / ugs. Geldschein) — nach den Nomen 2026-10-31
+  'Larve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insektenlarve / veraltet: Maske, Gesichtsmaske) — nach den Nomen 2026-10-31
+  'Last', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schwere Ladung / Bürde, Belastung «zur Last fallen» / Plural Lasten: finanzielle Abgaben) — nach den Nomen 2026-10-31
+  'Lastenausgleich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: allgemein Ausgleich von Belastungen / BRD: Entschädigung für Kriegsschäden, Gesetz) — nach den Nomen 2026-10-31
+  'Laterne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lampe mit Gehäuse, Laterne zu Sankt Martin / Straßenlaterne / Bauwesen: Dachaufsatz) — nach den Nomen 2026-10-31
+  'Latte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzlatte / Sport: Torlatte, Querlatte / ugs. Latte macchiato / vulgär) — nach den Nomen 2026-10-31
+  'Lauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Laufen, Wettlauf / Verlauf «im Lauf der Zeit» / Flusslauf / Gewehrlauf / Musik: Lauf) — nach den Nomen 2026-10-31
+  'Laufbahn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: berufliche Karriere / Sport: Laufbahn im Stadion) — nach den Nomen 2026-10-31
+  'Laptop', // zurückgestellt: Genus schwankend (der oder das Laptop, Duden) — wie Kubikmeter, Regel 14 2026-10-31
+  'Lauda', // zurückgestellt: Familienname (Niki Lauda) — kein Gattungswort und kein geografischer Name, Regel 18 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

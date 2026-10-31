@@ -2492,6 +2492,8 @@
 | ۲۳۱۵ | Kunkel | `substantiv_singular_alle.txt` | 2026-10-31 | landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۱۶ | Lab | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (das Lab = Labferment zur Käseherstellung) bzw. ugs. englische Kurzform «Lab» für Labor — gemeinte Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۱۷ | Landeszentrale | `substantiv_singular_alle.txt` | 2026-10-31 | meist nur Teil von Behördennamen («Landeszentrale für politische Bildung») — als Einzelwort Bedeutung nicht sicher, Regel 14/18 | — |
+| ۲۳۱۸ | Laptop | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Laptop, Duden) — wie Kubikmeter, Regel 14 | — |
+| ۲۳۱۹ | Lauda | `substantiv_singular_alle.txt` | 2026-10-31 | Familienname (Niki Lauda) — kein Gattungswort und kein geografischer Name, Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3813,3 +3815,10 @@
 | 1475 | Landwirtschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wirtschaftszweig Agrarwirtschaft / einzelner landwirtschaftlicher Betrieb «eine kleine Landwirtschaft») |
 | 1476 | Langzeitarbeitsloser | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «der/die Langzeitarbeitslose», substantiviertes Adjektiv) |
 | 1477 | Lappen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Putzlappen, Stück Stoff / Anatomie: Lungenlappen, Ohrläppchen / ugs. Führerschein / ugs. Geldschein) |
+| 1478 | Larve | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Insektenlarve / veraltet: Maske, Gesichtsmaske) |
+| 1479 | Last | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: schwere Ladung / Bürde, Belastung «zur Last fallen» / Plural Lasten: finanzielle Abgaben) |
+| 1480 | Lastenausgleich | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: allgemein Ausgleich von Belastungen / BRD: Entschädigung für Kriegsschäden, Gesetz) |
+| 1481 | Laterne | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lampe mit Gehäuse, Laterne zu Sankt Martin / Straßenlaterne / Bauwesen: Dachaufsatz) |
+| 1482 | Latte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Holzlatte / Sport: Torlatte, Querlatte / ugs. Latte macchiato / vulgär) |
+| 1483 | Lauf | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Laufen, Wettlauf / Verlauf «im Lauf der Zeit» / Flusslauf / Gewehrlauf / Musik: Lauf) |
+| 1484 | Laufbahn | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: berufliche Karriere / Sport: Laufbahn im Stadion) |
