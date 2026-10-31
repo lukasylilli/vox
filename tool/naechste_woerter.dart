@@ -3655,6 +3655,12 @@ const zurueckgestellt = <String>{
   'Kontrastprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) — nach den Nomen 2026-10-31
   'Kontrolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überprüfung, Überwachung / Beherrschung, Gewalt «die Kontrolle verlieren») — nach den Nomen 2026-10-31
   'Kontrollstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort, an dem kontrolliert wird / Behörde, Stelle mit Aufsichtsfunktion) — nach den Nomen 2026-10-31
+  'Konvent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versammlung der Mitglieder eines Klosters / Zusammenkunft, Gremium (Verfassungskonvent) / Studentenverbindung) — nach den Nomen 2026-10-31
+  'Konvention', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: völkerrechtliches Abkommen «Genfer Konvention» / Regel des Umgangs, Gepflogenheit) — nach den Nomen 2026-10-31
+  'Konvergenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Annäherung, Übereinstimmung / Mathematik, Biologie: Fachbegriff) — nach den Nomen 2026-10-31
+  'Konvergenzkriterium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft: EU-Kriterien für den Euro / Mathematik: Kriterium für Konvergenz) — nach den Nomen 2026-10-31
+  'Konversion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion: Übertritt / Chemie, Physik: Umwandlung / Sprachwissenschaft / Wirtschaft: Umwandlung, militärische Flächen) — nach den Nomen 2026-10-31
+  'Konzentration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geistige Sammlung / Zusammenballung, Wirtschaft / Chemie: Gehalt eines Stoffes) — nach den Nomen 2026-10-31
   'Indian', // zurückgestellt: zurückgestellt: österr./bayr. für Truthahn — Plural und Aussprache nicht sicher (Regel 14) 2026-10-29
   'Industriellenvereinigung', // zurückgestellt: zurückgestellt: v. a. Name einer Organisation (Industriellenvereinigung, Österreich) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29
   'Innenministerkonferenz', // zurückgestellt: zurückgestellt: Name einer Einrichtung (Ständige Konferenz der Innenminister, Deutschland) — keine Eigennamen-Karte nach Regel 18, nicht bauen 2026-10-29

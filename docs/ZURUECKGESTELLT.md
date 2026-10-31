@@ -3665,3 +3665,9 @@
 | 1343 | Kontrastprogramm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fernsehen: gleichzeitig laufendes Gegenprogramm / übertragen: ganz andere Erfahrung, Gegensatz) |
 | 1344 | Kontrolle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Überprüfung, Überwachung / Beherrschung, Gewalt «die Kontrolle verlieren») |
 | 1345 | Kontrollstelle | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ort, an dem kontrolliert wird / Behörde, Stelle mit Aufsichtsfunktion) |
+| 1346 | Konvent | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Versammlung der Mitglieder eines Klosters / Zusammenkunft, Gremium (Verfassungskonvent) / Studentenverbindung) |
+| 1347 | Konvention | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: völkerrechtliches Abkommen «Genfer Konvention» / Regel des Umgangs, Gepflogenheit) |
+| 1348 | Konvergenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Annäherung, Übereinstimmung / Mathematik, Biologie: Fachbegriff) |
+| 1349 | Konvergenzkriterium | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wirtschaft: EU-Kriterien für den Euro / Mathematik: Kriterium für Konvergenz) |
+| 1350 | Konversion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Religion: Übertritt / Chemie, Physik: Umwandlung / Sprachwissenschaft / Wirtschaft: Umwandlung, militärische Flächen) |
+| 1351 | Konzentration | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: geistige Sammlung / Zusammenballung, Wirtschaft / Chemie: Gehalt eines Stoffes) |
