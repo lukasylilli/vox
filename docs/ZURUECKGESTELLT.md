@@ -3810,3 +3810,6 @@
 | 1472 | Landsmannschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Vereinigung von Heimatvertriebenen / Studentenverbindung) |
 | 1473 | Landtagsabgeordnete | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (substantiviertes Adjektiv: der/die Landtagsabgeordnete) |
 | 1474 | Landtagsabgeordneter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «Landtagsabgeordnete» — gehört zu derselben Karte) |
+| 1475 | Landwirtschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wirtschaftszweig Agrarwirtschaft / einzelner landwirtschaftlicher Betrieb «eine kleine Landwirtschaft») |
+| 1476 | Langzeitarbeitsloser | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 4 (stark gebeugte Form von «der/die Langzeitarbeitslose», substantiviertes Adjektiv) |
+| 1477 | Lappen | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Putzlappen, Stück Stoff / Anatomie: Lungenlappen, Ohrläppchen / ugs. Führerschein / ugs. Geldschein) |

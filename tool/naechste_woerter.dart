@@ -3842,6 +3842,9 @@ const zurueckgestellt = <String>{
   'Landsmannschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vereinigung von Heimatvertriebenen / Studentenverbindung) — nach den Nomen 2026-10-31
   'Landtagsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Landtagsabgeordnete) — nach den Nomen 2026-10-31
   'Landtagsabgeordneter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «Landtagsabgeordnete» — gehört zu derselben Karte) — nach den Nomen 2026-10-31
+  'Landwirtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaftszweig Agrarwirtschaft / einzelner landwirtschaftlicher Betrieb «eine kleine Landwirtschaft») — nach den Nomen 2026-10-31
+  'Langzeitarbeitsloser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der/die Langzeitarbeitslose», substantiviertes Adjektiv) — nach den Nomen 2026-10-31
+  'Lappen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Putzlappen, Stück Stoff / Anatomie: Lungenlappen, Ohrläppchen / ugs. Führerschein / ugs. Geldschein) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
