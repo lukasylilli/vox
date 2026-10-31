@@ -3730,3 +3730,5 @@
 | 1402 | Kreuzung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Straßenkreuzung / Biologie: Kreuzung von Rassen oder Sorten) |
 | 1403 | Kreuzweg | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Wegkreuzung / Religion: Leidensweg Jesu, Kreuzwegstationen) |
 | 1404 | Kreuzzug | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: Kriegszüge des Mittelalters / übertragen: leidenschaftlicher Kampf für oder gegen etwas) |
+| 1405 | Kriegsgegner | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gegner des Krieges, Pazifist / Feind im Krieg, gegnerische Kriegspartei) |
+| 1406 | Kriegsrecht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») |

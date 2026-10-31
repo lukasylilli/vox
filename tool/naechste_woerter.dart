@@ -3761,6 +3761,8 @@ const zurueckgestellt = <String>{
   'Kreuzweg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegkreuzung / Religion: Leidensweg Jesu, Kreuzwegstationen) — nach den Nomen 2026-10-31
   'Kreuzzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte: Kriegszüge des Mittelalters / übertragen: leidenschaftlicher Kampf für oder gegen etwas) — nach den Nomen 2026-10-31
   'Krida', // zurückgestellt: österreichischer Rechtsbegriff (betrügerische/fahrlässige Krida = Insolvenzdelikt) — Plural und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Kriegsgegner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegner des Krieges, Pazifist / Feind im Krieg, gegnerische Kriegspartei) — nach den Nomen 2026-10-31
+  'Kriegsrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Völkerrecht für den Krieg / Ausnahmerecht, Militärherrschaft «das Kriegsrecht verhängen») — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
