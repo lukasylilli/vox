@@ -3792,6 +3792,9 @@ const zurueckgestellt = <String>{
   'Kumpan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Kamerad, Begleiter / abwertend: Mittäter, Komplize) — nach den Nomen 2026-10-31
   'Kumpel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergmann / umgangssprachlich: Freund, Kamerad) — nach den Nomen 2026-10-31
   'Kultusministerkonferenz', // zurückgestellt: Name einer Organisation (KMK, Deutschland) — keine Gattungs- oder Eigennamen-Karte nach Regel 18 2026-10-31
+  'Kundschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Kunden / österreichisch auch: einzelner Kunde / veraltet: Erkundung, Nachricht) — nach den Nomen 2026-10-31
+  'Kunst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: bildende Kunst, Musik, Literatur / Können, Fertigkeit «die Kunst des Kochens» / Schulfach Kunst) — nach den Nomen 2026-10-31
+  'Kunkel', // zurückgestellt: landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

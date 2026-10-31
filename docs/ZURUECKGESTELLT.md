@@ -2489,6 +2489,7 @@
 | ۲۳۱۲ | Kubikzentimeter | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Kubikzentimeter, Duden) — wie Kubikmeter, Regel 14 | — |
 | ۲۳۱۳ | Kuhl | `substantiv_singular_alle.txt` | 2026-10-31 | kein gesichertes Nomen (Familienname; evtl. falsch für «kühl» oder Kuhle) — Regel 14 | — |
 | ۲۳۱۴ | Kultusministerkonferenz | `substantiv_singular_alle.txt` | 2026-10-31 | Name einer Organisation (KMK, Deutschland) — keine Gattungs- oder Eigennamen-Karte nach Regel 18 | — |
+| ۲۳۱۵ | Kunkel | `substantiv_singular_alle.txt` | 2026-10-31 | landschaftlich/veraltet für Spinnrocken, sonst Familienname — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3761,3 +3762,5 @@
 | 1426 | Kulturrevolution | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Geschichte: die chinesische Kulturrevolution 1966–1976 / allgemein: tiefgreifender kultureller Umbruch) |
 | 1427 | Kumpan | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Kamerad, Begleiter / abwertend: Mittäter, Komplize) |
 | 1428 | Kumpel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bergmann / umgangssprachlich: Freund, Kamerad) |
+| 1429 | Kundschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Kunden / österreichisch auch: einzelner Kunde / veraltet: Erkundung, Nachricht) |
+| 1430 | Kunst | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: bildende Kunst, Musik, Literatur / Können, Fertigkeit «die Kunst des Kochens» / Schulfach Kunst) |
