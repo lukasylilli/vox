@@ -3792,3 +3792,7 @@
 | 1455 | Lamm | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: junges Schaf / Lammfleisch / Lammfell / Religion: Lamm Gottes) |
 | 1456 | Land | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Staat / Bundesland / Festland / Ackerland, Boden / Gegensatz zur Stadt; Plural Länder/Lande) |
 | 1457 | Landauer | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kutschenart / Einwohner von Landau) |
+| 1458 | Landesgruppe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Bundestag: Abgeordnete eines Bundeslandes in einer Fraktion / regionale Untergliederung eines Verbandes) |
+| 1459 | Landesmeister | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meister eines Bundeslandes / nationaler Meister, «Europapokal der Landesmeister») |
+| 1460 | Landesmeisterschaft | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Meisterschaft eines Bundeslandes / nationale Meisterschaft — wie Landesmeister) |
+| 1461 | Landespartei | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Landesorganisation einer Bundespartei / regionale Partei, nur in einem Land) |

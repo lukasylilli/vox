@@ -3824,6 +3824,10 @@ const zurueckgestellt = <String>{
   'Lamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: junges Schaf / Lammfleisch / Lammfell / Religion: Lamm Gottes) — nach den Nomen 2026-10-31
   'Land', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staat / Bundesland / Festland / Ackerland, Boden / Gegensatz zur Stadt; Plural Länder/Lande) — nach den Nomen 2026-10-31
   'Landauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kutschenart / Einwohner von Landau) — nach den Nomen 2026-10-31
+  'Landesgruppe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bundestag: Abgeordnete eines Bundeslandes in einer Fraktion / regionale Untergliederung eines Verbandes) — nach den Nomen 2026-10-31
+  'Landesmeister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meister eines Bundeslandes / nationaler Meister, «Europapokal der Landesmeister») — nach den Nomen 2026-10-31
+  'Landesmeisterschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Meisterschaft eines Bundeslandes / nationale Meisterschaft — wie Landesmeister) — nach den Nomen 2026-10-31
+  'Landespartei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Landesorganisation einer Bundespartei / regionale Partei, nur in einem Land) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
