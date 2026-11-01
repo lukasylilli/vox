@@ -2598,6 +2598,8 @@
 | ۲۴۲۱ | Oberhand | `substantiv_singular_alle.txt` | 2026-11-02 | fast nur in festen Wendungen («die Oberhand gewinnen/behalten/haben») — Regel 14 | — |
 | ۲۴۲۲ | Oberschule | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land/Zeit verschieden (Sachsen: Mittel-/Realschule; früher: Gymnasium; DDR: POS/EOS) — Regel 14 | — |
 | ۲۴۲۳ | Oberst | `substantiv_singular_alle.txt` | 2026-11-02 | Plural und Deklination schwankend (die Obersten / die Oberste; des Obersts / des Obersten) — Regel 14 | — |
+| ۲۴۲۴ | Odeon | `substantiv_singular_alle.txt` | 2026-11-02 | meist Eigenname von Kinos/Konzerthäusern; als Gattungswort unsicher — Regel 14 | — |
+| ۲۴۲۵ | Ofenloch | `substantiv_singular_alle.txt` | 2026-11-02 | selten, Bedeutung/Gebrauch (Ofenöffnung, regional) unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4250,3 +4252,10 @@
 | 1806 | Objekt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gegenstand / Grammatik: Satzergänzung / Immobilie / Kunstobjekt) |
 | 1807 | Obligation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wertpapier, Schuldverschreibung / veraltet: Verpflichtung) |
 | 1808 | Obolus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kleiner Geldbeitrag / altgriechische Münze) |
+| 1809 | Ochs | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kastriertes Rind / ugs. Schimpfwort «dummer Ochs»; Nebenform von Ochse) |
+| 1810 | Ochse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kastriertes Rind / ugs. Schimpfwort «dummer Ochse») |
+| 1811 | Odyssee | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: Epos Homers / übertragen lange Irrfahrt) |
+| 1812 | Ofen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Heizofen / Backofen / technischer Ofen, Hochofen / ugs. «der Ofen ist aus») |
+| 1813 | Offenbarung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: religiöse Offenbarung, Johannesoffenbarung / Enthüllung / großartiges Erlebnis «eine Offenbarung sein») |
+| 1814 | Offenbarungseid | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rechtswesen: eidesstattliche Versicherung über Vermögen / übertragen Eingeständnis des Scheiterns) |
+| 1815 | Offensive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: militärischer Angriff / Sport: Angriffsspiel / übertragen Kampagne «Bildungsoffensive») |

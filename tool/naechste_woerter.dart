@@ -4282,6 +4282,15 @@ const zurueckgestellt = <String>{
   'Objekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand / Grammatik: Satzergänzung / Immobilie / Kunstobjekt) — nach den Nomen 2026-11-02
   'Obligation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wertpapier, Schuldverschreibung / veraltet: Verpflichtung) — nach den Nomen 2026-11-02
   'Obolus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Geldbeitrag / altgriechische Münze) — nach den Nomen 2026-11-02
+  'Ochs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kastriertes Rind / ugs. Schimpfwort «dummer Ochs»; Nebenform von Ochse) — nach den Nomen 2026-11-02
+  'Ochse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kastriertes Rind / ugs. Schimpfwort «dummer Ochse») — nach den Nomen 2026-11-02
+  'Odeon', // zurückgestellt: meist Eigenname von Kinos/Konzerthäusern; als Gattungswort unsicher — Regel 14 2026-11-02
+  'Odyssee', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Epos Homers / übertragen lange Irrfahrt) — nach den Nomen 2026-11-02
+  'Ofen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heizofen / Backofen / technischer Ofen, Hochofen / ugs. «der Ofen ist aus») — nach den Nomen 2026-11-02
+  'Ofenloch', // zurückgestellt: selten, Bedeutung/Gebrauch (Ofenöffnung, regional) unsicher — Regel 14 2026-11-02
+  'Offenbarung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöse Offenbarung, Johannesoffenbarung / Enthüllung / großartiges Erlebnis «eine Offenbarung sein») — nach den Nomen 2026-11-02
+  'Offenbarungseid', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtswesen: eidesstattliche Versicherung über Vermögen / übertragen Eingeständnis des Scheiterns) — nach den Nomen 2026-11-02
+  'Offensive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärischer Angriff / Sport: Angriffsspiel / übertragen Kampagne «Bildungsoffensive») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
