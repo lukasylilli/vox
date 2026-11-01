@@ -2527,6 +2527,8 @@
 | ۲۳۵۰ | Lost | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, kein deutsches Nomen — Regel 14 | — |
 | ۲۳۵۱ | Lotus | `substantiv_singular_alle.txt` | 2026-11-01 | Schreibvariante (Duden: Hauptform «Lotos»), auch Marke — Regel 14 | — |
 | ۲۳۵۲ | Lufthansa | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Firma (Fluggesellschaft) — Regel 18 | — |
+| ۲۳۵۳ | Lummer | `substantiv_singular_alle.txt` | 2026-11-01 | regional/Fachwort (Lendenstück), Bedeutung und Gebrauch nicht sicher — Regel 14 | — |
+| ۲۳۵۴ | Lustgarten | `substantiv_singular_alle.txt` | 2026-11-01 | heute v. a. Name (Berliner Lustgarten), sonst veraltet — Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3954,3 +3956,5 @@
 | 1581 | Luft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gasgemisch, das wir atmen / Atem «Luft holen» / Spielraum «Luft haben») |
 | 1582 | Luftdruck | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Druck der Atmosphäre / Reifendruck / Druckwelle einer Explosion) |
 | 1583 | Luftlinie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kürzeste Entfernung «Luftlinie 10 km» / Fluggesellschaft) |
+| 1584 | Lust | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wunsch, Bedürfnis «Lust haben» / Freude / sexuelles Verlangen) |
+| 1585 | Luzern | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stadt / Kanton Luzern) |

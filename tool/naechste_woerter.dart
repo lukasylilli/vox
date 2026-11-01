@@ -3986,6 +3986,10 @@ const zurueckgestellt = <String>{
   'Luftdruck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druck der Atmosphäre / Reifendruck / Druckwelle einer Explosion) — nach den Nomen 2026-11-01
   'Lufthansa', // zurückgestellt: Name einer Firma (Fluggesellschaft) — Regel 18 2026-11-01
   'Luftlinie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kürzeste Entfernung «Luftlinie 10 km» / Fluggesellschaft) — nach den Nomen 2026-11-01
+  'Lummer', // zurückgestellt: regional/Fachwort (Lendenstück), Bedeutung und Gebrauch nicht sicher — Regel 14 2026-11-01
+  'Lust', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wunsch, Bedürfnis «Lust haben» / Freude / sexuelles Verlangen) — nach den Nomen 2026-11-01
+  'Lustgarten', // zurückgestellt: heute v. a. Name (Berliner Lustgarten), sonst veraltet — Gebrauch nicht sicher, Regel 14 2026-11-01
+  'Luzern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stadt / Kanton Luzern) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
