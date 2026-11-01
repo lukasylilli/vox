@@ -4308,6 +4308,12 @@ const zurueckgestellt = <String>{
   'Oper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikwerk / Opernhaus / Institution, Ensemble) — nach den Nomen 2026-11-02
   'Operation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: chirurgischer Eingriff / militärische Operation / Mathematik, Rechenoperation) — nach den Nomen 2026-11-02
   'Opfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschädigter, Verletzter / religiöses Opfer / Verzicht «Opfer bringen») — nach den Nomen 2026-11-02
+  'Opposition', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parteien außerhalb der Regierung / Widerstand, Gegensatz / Astronomie: Gegenstellung) — nach den Nomen 2026-11-02
+  'Optik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre vom Licht / Linsensystem eines Geräts / Aussehen, äußerer Eindruck «aus optischen Gründen») — nach den Nomen 2026-11-02
+  'Option', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wahlmöglichkeit / Börse: Optionsrecht / Recht auf Vorkauf) — nach den Nomen 2026-11-02
+  'Opus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlerisches Werk / nummeriertes Musikwerk «op. 27») — nach den Nomen 2026-11-02
+  'Orakel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort der Weissagung, z. B. Delphi / rätselhafte Weissagung) — nach den Nomen 2026-11-02
+  'Oratorium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: musikalisches Werk / Gebetsraum) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -4276,3 +4276,9 @@
 | 1825 | Oper | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Musikwerk / Opernhaus / Institution, Ensemble) |
 | 1826 | Operation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: chirurgischer Eingriff / militärische Operation / Mathematik, Rechenoperation) |
 | 1827 | Opfer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Geschädigter, Verletzter / religiöses Opfer / Verzicht «Opfer bringen») |
+| 1828 | Opposition | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Parteien außerhalb der Regierung / Widerstand, Gegensatz / Astronomie: Gegenstellung) |
+| 1829 | Optik | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Lehre vom Licht / Linsensystem eines Geräts / Aussehen, äußerer Eindruck «aus optischen Gründen») |
+| 1830 | Option | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wahlmöglichkeit / Börse: Optionsrecht / Recht auf Vorkauf) |
+| 1831 | Opus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: künstlerisches Werk / nummeriertes Musikwerk «op. 27») |
+| 1832 | Orakel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ort der Weissagung, z. B. Delphi / rätselhafte Weissagung) |
+| 1833 | Oratorium | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: musikalisches Werk / Gebetsraum) |
