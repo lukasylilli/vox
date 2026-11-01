@@ -3912,6 +3912,15 @@ const zurueckgestellt = <String>{
   'Leitschiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr./schweiz.: Leitplanke / Technik, Bahn: führende Schiene) — nach den Nomen 2026-10-31
   'Leitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führung, Management / Rohrleitung, Stromleitung / Telefonleitung «in der Leitung sein») — nach den Nomen 2026-10-31
   'Lektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterrichtsstunde, Kapitel im Lehrbuch / übertragen: Lehre, Zurechtweisung «jemandem eine Lektion erteilen») — nach den Nomen 2026-10-31
+  'Lektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachlehrer an der Universität / Verlagslektor / kath. Kirche: Vorleser im Gottesdienst) — nach den Nomen 2026-10-31
+  'Lenker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lenkstange am Fahrrad / österr.: Fahrer eines Fahrzeugs / jemand, der etwas lenkt) — nach den Nomen 2026-10-31
+  'Lenkung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Lenken, Steuerung, Führung / Technik: Lenkvorrichtung eines Fahrzeugs) — nach den Nomen 2026-10-31
+  'Lenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: dichterisch: Frühling / ugs. «sich einen schönen Lenz machen» = faulenzen / Plural: Lebensjahre) — nach den Nomen 2026-10-31
+  'Lenzing', // zurückgestellt: Ortsname in Oberösterreich, vor allem als Firmenname (Lenzing AG) bekannt — geografische Karte oder Firmenname nicht sicher, Regel 18 2026-10-31
+  'Lesart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deutung, Interpretation / Philologie: Textvariante) — nach den Nomen 2026-10-31
+  'Leslie', // zurückgestellt: Vorname — kein Gattungswort und kein geografischer Name, Regel 18 2026-10-31
+  'Lesung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autorenlesung / Parlament: Beratung eines Gesetzes «in erster Lesung» / Kirche: Lesung aus der Bibel) — nach den Nomen 2026-10-31
+  'Let', // zurückgestellt: Fachwort Tennis (Netzaufschlag), Genus und Gebrauch nicht sicher — Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

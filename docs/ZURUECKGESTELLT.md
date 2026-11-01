@@ -2501,6 +2501,9 @@
 | ۲۳۲۴ | Leidwesen | `substantiv_singular_alle.txt` | 2026-10-31 | nur in der festen Wendung «zu meinem/seinem Leidwesen» — wie im Handumdrehen, Regel 14 | — |
 | ۲۳۲۵ | Leis | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (mittelalterliches geistliches Volkslied) bzw. Nebenform von «leise» — gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۲۶ | Leitgeb | `substantiv_singular_alle.txt` | 2026-10-31 | österreichisch-mundartlich/veraltet für Wirt, sonst Familienname — Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۲۷ | Lenzing | `substantiv_singular_alle.txt` | 2026-10-31 | Ortsname in Oberösterreich, vor allem als Firmenname (Lenzing AG) bekannt — geografische Karte oder Firmenname nicht sicher, Regel 18 | — |
+| ۲۳۲۸ | Leslie | `substantiv_singular_alle.txt` | 2026-10-31 | Vorname — kein Gattungswort und kein geografischer Name, Regel 18 | — |
+| ۲۳۲۹ | Let | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort Tennis (Netzaufschlag), Genus und Gebrauch nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3880,3 +3883,9 @@
 | 1533 | Leitschiene | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: österr./schweiz.: Leitplanke / Technik, Bahn: führende Schiene) |
 | 1534 | Leitung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Führung, Management / Rohrleitung, Stromleitung / Telefonleitung «in der Leitung sein») |
 | 1535 | Lektion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Unterrichtsstunde, Kapitel im Lehrbuch / übertragen: Lehre, Zurechtweisung «jemandem eine Lektion erteilen») |
+| 1536 | Lektor | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Sprachlehrer an der Universität / Verlagslektor / kath. Kirche: Vorleser im Gottesdienst) |
+| 1537 | Lenker | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lenkstange am Fahrrad / österr.: Fahrer eines Fahrzeugs / jemand, der etwas lenkt) |
+| 1538 | Lenkung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: das Lenken, Steuerung, Führung / Technik: Lenkvorrichtung eines Fahrzeugs) |
+| 1539 | Lenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: dichterisch: Frühling / ugs. «sich einen schönen Lenz machen» = faulenzen / Plural: Lebensjahre) |
+| 1540 | Lesart | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Deutung, Interpretation / Philologie: Textvariante) |
+| 1541 | Lesung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Autorenlesung / Parlament: Beratung eines Gesetzes «in erster Lesung» / Kirche: Lesung aus der Bibel) |
