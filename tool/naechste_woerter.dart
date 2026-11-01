@@ -4156,6 +4156,9 @@ const zurueckgestellt = <String>{
   'Modus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art und Weise, Betriebsart / Grammatik Aussageweise) — nach den Nomen 2026-11-01
   'Mohn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanze / Samen zum Backen) — nach den Nomen 2026-11-01
   'Mohr', // zurückgestellt: veraltet und diskriminierend; Ersatz wäre nur ein substantiviertes Adjektiv (Fall 4) — Lukas entscheidet 2026-11-01
+  'Momentaufnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Foto mit kurzer Belichtung / übertragen kurze Darstellung eines Zustands) — nach den Nomen 2026-11-01
+  'Monitor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bildschirm / medizinisches Überwachungsgerät / Strahlungsmessgerät) — nach den Nomen 2026-11-01
+  'Monopoly', // zurückgestellt: Markenname eines Brettspiels — Regel 18 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
