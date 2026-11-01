@@ -2591,6 +2591,7 @@
 | ۲۴۱۴ | Neubauer | `substantiv_singular_alle.txt` | 2026-11-01 | vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 | — |
 | ۲۴۱۵ | Neuner | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۴۱۶ | Newsletter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Newsletter) — Regel 14 | — |
+| ۲۴۱۷ | Newtonmeter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Newtonmeter, wie Meter) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4203,3 +4204,7 @@
 | 1766 | Neuland | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: neu urbar gemachtes Land / übertragen unbekanntes Gebiet «Neuland betreten») |
 | 1767 | Neustadt | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1/3 (mehrere Bedeutungen: neuer Stadtteil / zahlreiche Ortsnamen, z. B. Wiener Neustadt) |
 | 1768 | Neustart | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Computer neu starten / Neuanfang) |
+| 1769 | Nichts | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leere, das Nichtsein / abwertend unbedeutender Mensch «ein Nichts») |
+| 1770 | Niederlassung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Filiale / Ansiedlung, Niederlassungsbewilligung / Praxiseröffnung) |
+| 1771 | Niederschlag | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Regen, Schnee / Boxen K.-o.-Schlag / Chemie Bodensatz / «seinen Niederschlag finden») |
+| 1772 | Niederschlagung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: gewaltsame Unterdrückung eines Aufstands / Einstellung eines Verfahrens, Erlass einer Forderung) |

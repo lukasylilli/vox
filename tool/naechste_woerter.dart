@@ -4235,6 +4235,11 @@ const zurueckgestellt = <String>{
   'Neustadt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: neuer Stadtteil / zahlreiche Ortsnamen, z. B. Wiener Neustadt) — nach den Nomen 2026-11-01
   'Neustart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer neu starten / Neuanfang) — nach den Nomen 2026-11-01
   'Newsletter', // zurückgestellt: Artikel doppelt (der/das Newsletter) — Regel 14 2026-11-01
+  'Newtonmeter', // zurückgestellt: Artikel doppelt (das/der Newtonmeter, wie Meter) — Regel 14 2026-11-01
+  'Nichts', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leere, das Nichtsein / abwertend unbedeutender Mensch «ein Nichts») — nach den Nomen 2026-11-01
+  'Niederlassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Filiale / Ansiedlung, Niederlassungsbewilligung / Praxiseröffnung) — nach den Nomen 2026-11-01
+  'Niederschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regen, Schnee / Boxen K.-o.-Schlag / Chemie Bodensatz / «seinen Niederschlag finden») — nach den Nomen 2026-11-01
+  'Niederschlagung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gewaltsame Unterdrückung eines Aufstands / Einstellung eines Verfahrens, Erlass einer Forderung) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
