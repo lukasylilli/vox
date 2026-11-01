@@ -4076,6 +4076,11 @@ const zurueckgestellt = <String>{
   'Mechanismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Vorrichtung / übertragen selbsttätiger Ablauf) — nach den Nomen 2026-11-01
   'Meditation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachdenken, Betrachtung / religiöse Versenkung, Entspannungsübung) — nach den Nomen 2026-11-01
   'Medizin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heilkunde / Arznei, Medikament) — nach den Nomen 2026-11-01
+  'Mehr', // zurückgestellt: substantiviertes Zahlwort, fast nur in Wendungen («ein Mehr an …»), Plural nicht sicher — Regel 14 2026-11-01
+  'Mehrwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutzen, zusätzlicher Wert / Wirtschaft, Marx: Mehrwert) — nach den Nomen 2026-11-01
+  'Mehrzahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: größerer Teil, Mehrheit / Grammatik: Plural) — nach den Nomen 2026-11-01
+  'Meier', // zurückgestellt: Familienname / historisch Gutsverwalter — Gebrauch nicht sicher, Regel 14/18 2026-11-01
+  'Meilenstein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stein am Weg / übertragen wichtiger Abschnitt) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

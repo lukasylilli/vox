@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mehrwertsteuer",
+  "wort": "die Mehrwertsteuer",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مالیات بر ارزش افزوده"
+    ],
+    "en": [
+      "value-added tax",
+      "VAT"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Geld"
+  ],
+  "ipa": "ˈmeːɐ̯veːɐ̯tˌʃtɔɪ̯ɐ",
+  "anmerkung": "Abkürzung: MwSt.; in Österreich amtlich «Umsatzsteuer» (USt)",
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Preis ist mit Mehrwertsteuer.",
+      "uebersetzung": {
+        "fa": "این قیمت با مالیات بر ارزش افزوده است.",
+        "en": "The price includes VAT."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf der Rechnung muss die Mehrwertsteuer extra ausgewiesen werden, damit die Firma sie zurückbekommt.",
+      "uebersetzung": {
+        "fa": "مالیات بر ارزش افزوده باید جداگانه روی فاکتور نوشته شود تا شرکت بتواند آن را پس بگیرد.",
+        "en": "VAT must be shown separately on the invoice so that the company can claim it back."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Umsatzsteuer",
+      "uebersetzung": {
+        "fa": "مالیات بر فروش",
+        "en": "turnover tax"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Mehrwert (ارزش افزوده) + Steuer (مالیات)",
+    "en": "Mehrwert (added value) + Steuer (tax)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Mehrwertsteuern",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Steuer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مالیات",
+          "en": "tax"
+        },
+        "id_ref": "nomen_steuer"
+      },
+      {
+        "wort": "der Preis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "قیمت",
+          "en": "price"
+        },
+        "id_ref": "nomen_preis"
+      },
+      {
+        "wort": "die Rechnung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فاکتور، صورت‌حساب",
+          "en": "invoice, bill"
+        },
+        "id_ref": "nomen_rechnung"
+      },
+      {
+        "wort": "netto",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خالص",
+          "en": "net"
+        },
+        "id_ref": "adverb_netto"
+      },
+      {
+        "wort": "brutto",
+        "wortart": "adverb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ناخالص",
+          "en": "gross"
+        },
+        "id_ref": "adverb_brutto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

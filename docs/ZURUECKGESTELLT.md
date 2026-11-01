@@ -2543,6 +2543,8 @@
 | ۲۳۶۶ | Matz | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/Kosename, Gebrauch nicht sicher — Regel 14 | — |
 | ۲۳۶۷ | Mautner | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/österr. für Zöllner, auch Familienname — Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۶۸ | Maxwell | `substantiv_singular_alle.txt` | 2026-11-01 | Personenname / physikalische Einheit — kein sicheres Nomen, Regel 14/18 | — |
+| ۲۳۶۹ | Mehr | `substantiv_singular_alle.txt` | 2026-11-01 | substantiviertes Zahlwort, fast nur in Wendungen («ein Mehr an …»), Plural nicht sicher — Regel 14 | — |
+| ۲۳۷۰ | Meier | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname / historisch Gutsverwalter — Gebrauch nicht sicher, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4044,3 +4046,6 @@
 | 1655 | Mechanismus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: technische Vorrichtung / übertragen selbsttätiger Ablauf) |
 | 1656 | Meditation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachdenken, Betrachtung / religiöse Versenkung, Entspannungsübung) |
 | 1657 | Medizin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Heilkunde / Arznei, Medikament) |
+| 1658 | Mehrwert | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nutzen, zusätzlicher Wert / Wirtschaft, Marx: Mehrwert) |
+| 1659 | Mehrzahl | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: größerer Teil, Mehrheit / Grammatik: Plural) |
+| 1660 | Meilenstein | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stein am Weg / übertragen wichtiger Abschnitt) |
