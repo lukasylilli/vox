@@ -2516,6 +2516,9 @@
 | ۲۳۳۹ | Linux | `substantiv_singular_alle.txt` | 2026-11-01 | Name eines Betriebssystems (Produkt/Marke) — Regel 18 | — |
 | ۲۳۴۰ | Lion | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort bzw. Name, kein deutsches Nomen — Regel 14 | — |
 | ۲۳۴۱ | Liter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Liter, Duden) — Regel 14 | — |
+| ۲۳۴۲ | Live | `substantiv_singular_alle.txt` | 2026-11-01 | kein Nomen (Adverb/Adjektiv «live»), als Nomen nicht sicher — Regel 14 | — |
+| ۲۳۴۳ | Lloyd | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Firmen/Personen: Lloyd’s, Norddeutscher Lloyd) — Regel 18 | — |
+| ۲۳۴۴ | Lodge | `substantiv_singular_alle.txt` | 2026-11-01 | Fremdwort (Unterkunft), Gebrauch und Genus im Deutschen nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3929,3 +3932,6 @@
 | 1567 | Liquidierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auflösung einer Firma / Tötung) |
 | 1568 | Literatur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Dichtung, schöne Literatur / Fachliteratur, Schriften zu einem Thema) |
 | 1569 | Literaturbetrieb | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (wie Kulturbetrieb: Gesamtheit der Einrichtungen / Tätigkeit des Literaturmarkts) |
+| 1570 | Literaturgeschichte | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geschichte der Literatur / Werk, das sie darstellt) |
+| 1571 | Lobby | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Hotelhalle, Vorhalle / Interessengruppe) |
+| 1572 | Lockerung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Lockern «Schraube, Muskeln» / Abschwächung von Regeln) |

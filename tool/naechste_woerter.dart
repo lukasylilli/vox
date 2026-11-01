@@ -3961,6 +3961,12 @@ const zurueckgestellt = <String>{
   'Liter', // zurückgestellt: Artikel doppelt (der/das Liter, Duden) — Regel 14 2026-11-01
   'Literatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dichtung, schöne Literatur / Fachliteratur, Schriften zu einem Thema) — nach den Nomen 2026-11-01
   'Literaturbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Kulturbetrieb: Gesamtheit der Einrichtungen / Tätigkeit des Literaturmarkts) — nach den Nomen 2026-11-01
+  'Literaturgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte der Literatur / Werk, das sie darstellt) — nach den Nomen 2026-11-01
+  'Live', // zurückgestellt: kein Nomen (Adverb/Adjektiv «live»), als Nomen nicht sicher — Regel 14 2026-11-01
+  'Lloyd', // zurückgestellt: Name (Firmen/Personen: Lloyd’s, Norddeutscher Lloyd) — Regel 18 2026-11-01
+  'Lobby', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hotelhalle, Vorhalle / Interessengruppe) — nach den Nomen 2026-11-01
+  'Lockerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Lockern «Schraube, Muskeln» / Abschwächung von Regeln) — nach den Nomen 2026-11-01
+  'Lodge', // zurückgestellt: Fremdwort (Unterkunft), Gebrauch und Genus im Deutschen nicht sicher — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
