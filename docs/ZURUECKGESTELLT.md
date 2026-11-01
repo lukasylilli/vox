@@ -2551,6 +2551,8 @@
 | ۲۳۷۴ | Meteorit | `substantiv_singular_alle.txt` | 2026-11-01 | Deklination schwankend (des Meteoriten / des Meteorits) — Regel 14 | — |
 | ۲۳۷۵ | Meter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Meter) — Regel 14 | — |
 | ۲۳۷۶ | Metropolis | `substantiv_singular_alle.txt` | 2026-11-01 | seltene Nebenform von Metropole, Plural nicht sicher — Regel 14 | — |
+| ۲۳۷۷ | Metzler | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname — kein sicheres Nomen, Regel 14/18 | — |
+| ۲۳۷۸ | Mieterbund | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Organisation (Deutscher Mieterbund) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4073,3 +4075,4 @@
 | 1676 | Metaller | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Metallarbeiter, umgangssprachlich / Fan von Heavy-Metal-Musik) |
 | 1677 | Metamorphose | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Biologie Verwandlung von Tieren / allgemein Umgestaltung, Mythologie) |
 | 1678 | Methodik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lehre von den Methoden / Unterrichtsmethode, Vorgehensweise) |
+| 1679 | Meute | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Jagdhunde / abwertend Menschengruppe) |

@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mietpreis",
+  "wort": "der Mietpreis",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قیمت اجاره",
+      "نرخ اجاره"
+    ],
+    "en": [
+      "rent",
+      "rental price"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Wohnen",
+    "Geld"
+  ],
+  "ipa": "ˈmiːtˌpʁaɪ̯s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mietpreis ist hier sehr hoch.",
+      "uebersetzung": {
+        "fa": "قیمت اجاره اینجا خیلی بالاست.",
+        "en": "The rent here is very high."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In vielen Städten ist der Mietpreis so stark gestiegen, dass Familien an den Stadtrand ziehen müssen.",
+      "uebersetzung": {
+        "fa": "در بسیاری از شهرها قیمت اجاره چنان بالا رفته که خانواده‌ها مجبورند به حاشیه‌ی شهر بروند.",
+        "en": "In many cities the rent has risen so sharply that families have to move to the outskirts."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Miete (اجاره) + Preis (قیمت)",
+    "en": "Miete (rent) + Preis (price)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Mietpreise",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Mietpreis für + Akk",
+        "beispiel": "Der Mietpreis für eine kleine Wohnung liegt bei 900 Euro.",
+        "uebersetzung": {
+          "fa": "قیمت اجاره برای یک آپارتمان کوچک حدود ۹۰۰ یوروست.",
+          "en": "The rent for a small flat is around 900 euros."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      },
+      {
+        "wort": "der Wohnungsmarkt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازار مسکن",
+          "en": "housing market"
+        },
+        "id_ref": "nomen_wohnungsmarkt"
+      },
+      {
+        "wort": "teuer",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گران",
+          "en": "expensive"
+        },
+        "id_ref": "adjektiv_teuer"
+      },
+      {
+        "wort": "der Mietspiegel",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "جدول نرخ اجاره",
+          "en": "rent index"
+        },
+        "id_ref": "nomen_mietspiegel"
+      },
+      {
+        "wort": "der Mieter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مستأجر",
+          "en": "tenant"
+        },
+        "id_ref": "nomen_mieter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
