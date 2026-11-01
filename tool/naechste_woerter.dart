@@ -3990,6 +3990,9 @@ const zurueckgestellt = <String>{
   'Lust', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wunsch, Bedürfnis «Lust haben» / Freude / sexuelles Verlangen) — nach den Nomen 2026-11-01
   'Lustgarten', // zurückgestellt: heute v. a. Name (Berliner Lustgarten), sonst veraltet — Gebrauch nicht sicher, Regel 14 2026-11-01
   'Luzern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stadt / Kanton Luzern) — nach den Nomen 2026-11-01
+  'Mach', // zurückgestellt: Fachwort/Name (Mach-Zahl, Physiker Ernst Mach) — als eigenes Nomen nicht sicher, Regel 14 2026-11-01
+  'Mache', // zurückgestellt: umgangssprachlich, fast nur in Wendungen («etwas in der Mache haben», «das ist nur Mache») — Regel 14 2026-11-01
+  'Macht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfluss, Herrschaft / Kraft, Stärke / mächtiger Staat «Großmacht») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

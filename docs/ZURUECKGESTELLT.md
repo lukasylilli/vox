@@ -2529,6 +2529,8 @@
 | ۲۳۵۲ | Lufthansa | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Firma (Fluggesellschaft) — Regel 18 | — |
 | ۲۳۵۳ | Lummer | `substantiv_singular_alle.txt` | 2026-11-01 | regional/Fachwort (Lendenstück), Bedeutung und Gebrauch nicht sicher — Regel 14 | — |
 | ۲۳۵۴ | Lustgarten | `substantiv_singular_alle.txt` | 2026-11-01 | heute v. a. Name (Berliner Lustgarten), sonst veraltet — Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۵۵ | Mach | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort/Name (Mach-Zahl, Physiker Ernst Mach) — als eigenes Nomen nicht sicher, Regel 14 | — |
+| ۲۳۵۶ | Mache | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich, fast nur in Wendungen («etwas in der Mache haben», «das ist nur Mache») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3958,3 +3960,4 @@
 | 1583 | Luftlinie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kürzeste Entfernung «Luftlinie 10 km» / Fluggesellschaft) |
 | 1584 | Lust | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wunsch, Bedürfnis «Lust haben» / Freude / sexuelles Verlangen) |
 | 1585 | Luzern | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stadt / Kanton Luzern) |
+| 1586 | Macht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Einfluss, Herrschaft / Kraft, Stärke / mächtiger Staat «Großmacht») |
