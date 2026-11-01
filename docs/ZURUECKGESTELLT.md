@@ -2545,6 +2545,8 @@
 | ۲۳۶۸ | Maxwell | `substantiv_singular_alle.txt` | 2026-11-01 | Personenname / physikalische Einheit — kein sicheres Nomen, Regel 14/18 | — |
 | ۲۳۶۹ | Mehr | `substantiv_singular_alle.txt` | 2026-11-01 | substantiviertes Zahlwort, fast nur in Wendungen («ein Mehr an …»), Plural nicht sicher — Regel 14 | — |
 | ۲۳۷۰ | Meier | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname / historisch Gutsverwalter — Gebrauch nicht sicher, Regel 14/18 | — |
+| ۲۳۷۱ | Memory | `substantiv_singular_alle.txt` | 2026-11-01 | Markenname (Spiel) — Regel 18 | — |
+| ۲۳۷۲ | Menschenrechtskommission | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Organisation (UN-Menschenrechtskommission) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4055,3 +4057,9 @@
 | 1664 | Meisterschaft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wettkampf um den Titel / Können, Vollendung) |
 | 1665 | Meistertitel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Titel als Sieger einer Meisterschaft / Handwerksmeistertitel) |
 | 1666 | Melange | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mischung / österr. Milchkaffee) |
+| 1667 | Meldung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachricht, Bericht / dienstliche Mitteilung, Anzeige / Anmeldung, Teilnahme) |
+| 1668 | Melodram | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bühnenwerk mit Musikbegleitung / rührseliges Stück) |
+| 1669 | Melone | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Frucht / steifer runder Hut) |
+| 1670 | Membran | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Technik dünnes Blättchen / Biologie Häutchen) |
+| 1671 | Menge | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Anzahl, Quantität / Menschenmenge / Mathematik) |
+| 1672 | Menschenleben | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leben eines Menschen, Todesopfer / Lebenszeit eines Menschen) |

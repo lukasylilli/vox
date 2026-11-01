@@ -4087,6 +4087,14 @@ const zurueckgestellt = <String>{
   'Meisterschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wettkampf um den Titel / Können, Vollendung) — nach den Nomen 2026-11-01
   'Meistertitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Titel als Sieger einer Meisterschaft / Handwerksmeistertitel) — nach den Nomen 2026-11-01
   'Melange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mischung / österr. Milchkaffee) — nach den Nomen 2026-11-01
+  'Meldung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachricht, Bericht / dienstliche Mitteilung, Anzeige / Anmeldung, Teilnahme) — nach den Nomen 2026-11-01
+  'Melodram', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenwerk mit Musikbegleitung / rührseliges Stück) — nach den Nomen 2026-11-01
+  'Melone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht / steifer runder Hut) — nach den Nomen 2026-11-01
+  'Membran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik dünnes Blättchen / Biologie Häutchen) — nach den Nomen 2026-11-01
+  'Memory', // zurückgestellt: Markenname (Spiel) — Regel 18 2026-11-01
+  'Menge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anzahl, Quantität / Menschenmenge / Mathematik) — nach den Nomen 2026-11-01
+  'Menschenleben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leben eines Menschen, Todesopfer / Lebenszeit eines Menschen) — nach den Nomen 2026-11-01
+  'Menschenrechtskommission', // zurückgestellt: Name einer Organisation (UN-Menschenrechtskommission) — Regel 18 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
