@@ -4119,6 +4119,10 @@ const zurueckgestellt = <String>{
   'Mimi', // zurückgestellt: Vorname / Kosename — kein sicheres Nomen, Regel 14/18 2026-11-01
   'Mimus', // zurückgestellt: Fachwort (antike Posse/Darsteller), Plural und Gebrauch nicht sicher — Regel 14 2026-11-01
   'Mineral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gestein, Mineralstoff / österr. Mineralwasser) — nach den Nomen 2026-11-01
+  'Miniatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Bild, Buchmalerei / verkleinerte Nachbildung, Modell) — nach den Nomen 2026-11-01
+  'Minimum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mindestmaß / Tiefstwert, Mathematik, Meteorologie) — nach den Nomen 2026-11-01
+  'Minus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fehlbetrag, Verlust / Nachteil / Minuszeichen) — nach den Nomen 2026-11-01
+  'Mischling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier aus verschiedenen Rassen / Mensch, abwertend und NS-Begriff) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -4087,3 +4087,7 @@
 | 1683 | Milde | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mildes Wetter, Sanftheit / Nachsicht, Gnade) |
 | 1684 | Milieu | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziales Umfeld / Rotlichtmilieu / Biologie Lebensraum) |
 | 1685 | Mineral | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gestein, Mineralstoff / österr. Mineralwasser) |
+| 1686 | Miniatur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kleines Bild, Buchmalerei / verkleinerte Nachbildung, Modell) |
+| 1687 | Minimum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mindestmaß / Tiefstwert, Mathematik, Meteorologie) |
+| 1688 | Minus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Fehlbetrag, Verlust / Nachteil / Minuszeichen) |
+| 1689 | Mischling | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Tier aus verschiedenen Rassen / Mensch, abwertend und NS-Begriff) |
