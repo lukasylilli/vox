@@ -4225,6 +4225,10 @@ const zurueckgestellt = <String>{
   'Nest', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogelnest / ugs. kleiner Ort «ein Nest» / Versteck) — nach den Nomen 2026-11-01
   'Net', // zurückgestellt: englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 2026-11-01
   'Netz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geknüpftes Netz / Strom-, Verkehrsnetz / Internet, Mobilfunknetz) — nach den Nomen 2026-11-01
+  'Netzwerk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computernetzwerk / Beziehungsnetz, soziales Netzwerk) — nach den Nomen 2026-11-01
+  'Neuauflage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neue Auflage eines Buches / übertragen Wiederholung «Neuauflage des Duells») — nach den Nomen 2026-11-01
+  'Neubau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bau eines neuen Gebäudes / das neue Gebäude selbst) — nach den Nomen 2026-11-01
+  'Neubauer', // zurückgestellt: vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

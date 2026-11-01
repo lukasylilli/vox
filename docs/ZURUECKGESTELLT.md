@@ -2588,6 +2588,7 @@
 | ۲۴۱۱ | Nehmer | `substantiv_singular_alle.txt` | 2026-11-01 | als freies Nomen selten (meist in Komposita: Arbeitnehmer); Bedeutung unsicher — Regel 14 | — |
 | ۲۴۱۲ | Neige | `substantiv_singular_alle.txt` | 2026-11-01 | fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 | — |
 | ۲۴۱۳ | Net | `substantiv_singular_alle.txt` | 2026-11-01 | englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 | — |
+| ۲۴۱۴ | Neubauer | `substantiv_singular_alle.txt` | 2026-11-01 | vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4193,3 +4194,6 @@
 | 1759 | Nerv | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nervenfaser / Plural Nerven: Belastbarkeit «die Nerven verlieren» / Blattnerv) |
 | 1760 | Nest | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Vogelnest / ugs. kleiner Ort «ein Nest» / Versteck) |
 | 1761 | Netz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: geknüpftes Netz / Strom-, Verkehrsnetz / Internet, Mobilfunknetz) |
+| 1762 | Netzwerk | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Computernetzwerk / Beziehungsnetz, soziales Netzwerk) |
+| 1763 | Neuauflage | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: neue Auflage eines Buches / übertragen Wiederholung «Neuauflage des Duells») |
+| 1764 | Neubau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bau eines neuen Gebäudes / das neue Gebäude selbst) |
