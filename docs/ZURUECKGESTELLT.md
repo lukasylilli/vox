@@ -2580,6 +2580,8 @@
 | ۲۴۰۳ | Nationalcoach | `substantiv_singular_alle.txt` | 2026-11-01 | Duden-Eintrag und Gebrauch (bes. CH, Sportjargon) nicht sicher — Regel 14 | — |
 | ۲۴۰۴ | Nationale | `substantiv_singular_alle.txt` | 2026-11-01 | österr. «das Nationale» (Personalien) — Genus und Gebrauch nicht sicher — Regel 14 | — |
 | ۲۴۰۵ | Nationalgalerie | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Institution (Berlin, London) — Regel 18 | — |
+| ۲۴۰۶ | Nationalliga | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Liga (CH, AT) — Regel 18 | — |
+| ۲۴۰۷ | Nationaltheater | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Bühne (Mannheim, München, Prag) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4171,3 +4173,6 @@
 | 1745 | Nagel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Metallstift / Finger-, Fußnagel) |
 | 1746 | Naht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: genähte Verbindung / Medizin Wundnaht / Schweißnaht) |
 | 1747 | Narbe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wundnarbe / Botanik Teil des Stempels) |
+| 1748 | Nationalrat | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Parlamentskammer AT/CH / Mitglied dieser Kammer) |
+| 1749 | Nationalratsabgeordnete | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: der/die Nationalratsabgeordnete) |
+| 1750 | Natur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Natur, Umwelt / Wesen, Charakter, «von Natur aus» / Körperbeschaffenheit); Hinweis: 27 ältere Karten verweisen im wortnetz auf nomen_natur |

@@ -4203,6 +4203,11 @@ const zurueckgestellt = <String>{
   'Nationalcoach', // zurückgestellt: Duden-Eintrag und Gebrauch (bes. CH, Sportjargon) nicht sicher — Regel 14 2026-11-01
   'Nationale', // zurückgestellt: österr. «das Nationale» (Personalien) — Genus und Gebrauch nicht sicher — Regel 14 2026-11-01
   'Nationalgalerie', // zurückgestellt: meist Name einer bestimmten Institution (Berlin, London) — Regel 18 2026-11-01
+  'Nationalliga', // zurückgestellt: meist Name einer bestimmten Liga (CH, AT) — Regel 18 2026-11-01
+  'Nationalrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parlamentskammer AT/CH / Mitglied dieser Kammer) — nach den Nomen 2026-11-01
+  'Nationalratsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Nationalratsabgeordnete) — nach den Nomen 2026-11-01
+  'Nationaltheater', // zurückgestellt: meist Name einer bestimmten Bühne (Mannheim, München, Prag) — Regel 18 2026-11-01
+  'Natur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Natur, Umwelt / Wesen, Charakter, «von Natur aus» / Körperbeschaffenheit); Hinweis: 27 ältere Karten verweisen im wortnetz auf nomen_natur — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
