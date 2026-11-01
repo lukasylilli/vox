@@ -2603,6 +2603,8 @@
 | ۲۴۲۶ | Oh | `substantiv_singular_alle.txt` | 2026-11-02 | substantivierte Interjektion «das Oh»; als Lernwort/Nomen unsicher — Regel 14 | — |
 | ۲۴۲۷ | Olympiahalle | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines bestimmten Gebäudes (München), kein geografischer Name nach Regel 18 — Regel 14 | — |
 | ۲۴۲۸ | Olympiapark | `substantiv_singular_alle.txt` | 2026-11-02 | Name einer bestimmten Anlage (München u. a.), kein geografischer Name nach Regel 18 — Regel 14 | — |
+| ۲۴۲۹ | Oman | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (Oman / der Oman: «in Oman» / «im Oman») — Regel 14 | — |
+| ۲۴۳۰ | Omega | `substantiv_singular_alle.txt` | 2026-11-02 | Buchstabe des griechischen Alphabets; Lernwortkarte/Gebrauch unsicher (auch Zeichen für Ohm) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4269,3 +4271,8 @@
 | 1820 | Olive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Frucht / Olivenbaum) |
 | 1821 | Olymp | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: Berg in Griechenland, Sitz der Götter / übertragen Spitze «der Olymp des Sports» / scherzhaft oberste Theatergalerie) |
 | 1822 | Olympiade | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: ugs. Olympische Spiele / Zeitraum von vier Jahren / Wettbewerb, z. B. Mathematik-Olympiade) |
+| 1823 | Oma | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Großmutter / ugs., oft abwertend: alte Frau) |
+| 1824 | Opa | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Großvater / ugs., oft abwertend: alter Mann) |
+| 1825 | Oper | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Musikwerk / Opernhaus / Institution, Ensemble) |
+| 1826 | Operation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: chirurgischer Eingriff / militärische Operation / Mathematik, Rechenoperation) |
+| 1827 | Opfer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Geschädigter, Verletzter / religiöses Opfer / Verzicht «Opfer bringen») |

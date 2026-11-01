@@ -4301,6 +4301,13 @@ const zurueckgestellt = <String>{
   'Olympiade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Olympische Spiele / Zeitraum von vier Jahren / Wettbewerb, z. B. Mathematik-Olympiade) — nach den Nomen 2026-11-02
   'Olympiahalle', // zurückgestellt: Name eines bestimmten Gebäudes (München), kein geografischer Name nach Regel 18 — Regel 14 2026-11-02
   'Olympiapark', // zurückgestellt: Name einer bestimmten Anlage (München u. a.), kein geografischer Name nach Regel 18 — Regel 14 2026-11-02
+  'Oma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Großmutter / ugs., oft abwertend: alte Frau) — nach den Nomen 2026-11-02
+  'Oman', // zurückgestellt: Artikel schwankend (Oman / der Oman: «in Oman» / «im Oman») — Regel 14 2026-11-02
+  'Omega', // zurückgestellt: Buchstabe des griechischen Alphabets; Lernwortkarte/Gebrauch unsicher (auch Zeichen für Ohm) — Regel 14 2026-11-02
+  'Opa', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Großvater / ugs., oft abwertend: alter Mann) — nach den Nomen 2026-11-02
+  'Oper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikwerk / Opernhaus / Institution, Ensemble) — nach den Nomen 2026-11-02
+  'Operation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: chirurgischer Eingriff / militärische Operation / Mathematik, Rechenoperation) — nach den Nomen 2026-11-02
+  'Opfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschädigter, Verletzter / religiöses Opfer / Verzicht «Opfer bringen») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
