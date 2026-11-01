@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_liefervertrag",
+  "wort": "der Liefervertrag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قرارداد تأمین",
+      "قرارداد تحویل کالا"
+    ],
+    "en": [
+      "supply contract",
+      "delivery contract"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Recht"
+  ],
+  "ipa": "ˈliːfɐfɛɐ̯ˌtraːk",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Firma hat einen Liefervertrag unterschrieben.",
+      "uebersetzung": {
+        "fa": "شرکت یک قرارداد تأمین امضا کرده است.",
+        "en": "The company has signed a supply contract."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Der Liefervertrag regelt genau, wann und in welcher Menge das Material geliefert werden muss.",
+      "uebersetzung": {
+        "fa": "قرارداد تأمین دقیقاً مشخص می‌کند مواد کِی و به چه مقدار باید تحویل داده شود.",
+        "en": "The supply contract specifies exactly when and in what quantity the material must be delivered."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "liefern (تحویل دادن) + Vertrag (قرارداد)",
+    "en": "liefern (to deliver) + Vertrag (contract)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Lieferverträge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "ein Liefervertrag mit + Dat",
+        "beispiel": "Wir haben einen Liefervertrag mit einer Firma aus Polen.",
+        "uebersetzung": {
+          "fa": "ما با یک شرکت لهستانی قرارداد تأمین داریم.",
+          "en": "We have a supply contract with a company from Poland."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "liefern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تحویل دادن",
+          "en": "to deliver"
+        },
+        "id_ref": "verb_liefern"
+      },
+      {
+        "wort": "der Lieferant",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأمین‌کننده",
+          "en": "supplier"
+        },
+        "id_ref": "nomen_lieferant"
+      },
+      {
+        "wort": "unterschreiben",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "امضا کردن",
+          "en": "to sign"
+        },
+        "id_ref": "verb_unterschreiben"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

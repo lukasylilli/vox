@@ -3910,3 +3910,7 @@
 | 1551 | Lichterkette | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kette aus kleinen Lampen / Demonstration mit Kerzen, Menschenkette) |
 | 1552 | Lichtspiel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: veraltet: Film, Kino «Lichtspieltheater» / Spiel des Lichts) |
 | 1553 | Liebe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gefühl der Zuneigung / geliebte Person «meine große Liebe» / Liebe zu etwas, Hingabe / Sexualität) |
+| 1554 | Liebesgeschichte | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: erzählte Geschichte über Liebe / ugs. Liebesaffäre) |
+| 1555 | Liebhaber | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geliebter, Liebespartner / Kenner, Freund einer Sache «Kunstliebhaber») |
+| 1556 | Liebling | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: geliebte Person, Kosewort / bevorzugte Person «Liebling des Lehrers») |
+| 1557 | Lieferung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Liefern / gelieferte Ware / Teil eines Werkes in Lieferungen) |

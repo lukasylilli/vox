@@ -3942,6 +3942,10 @@ const zurueckgestellt = <String>{
   'Lido', // zurückgestellt: Fremdwort (Badestrand) bzw. Name (Lido di Venezia) — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Lieb', // zurückgestellt: veraltet/dichterisch (das Lieb = Geliebte) — Gebrauch und Genus nicht sicher, Regel 14 2026-10-31
   'Liebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Zuneigung / geliebte Person «meine große Liebe» / Liebe zu etwas, Hingabe / Sexualität) — nach den Nomen 2026-10-31
+  'Liebesgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erzählte Geschichte über Liebe / ugs. Liebesaffäre) — nach den Nomen 2026-11-01
+  'Liebhaber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geliebter, Liebespartner / Kenner, Freund einer Sache «Kunstliebhaber») — nach den Nomen 2026-11-01
+  'Liebling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geliebte Person, Kosewort / bevorzugte Person «Liebling des Lehrers») — nach den Nomen 2026-11-01
+  'Lieferung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Liefern / gelieferte Ware / Teil eines Werkes in Lieferungen) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
