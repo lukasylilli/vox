@@ -3946,6 +3946,12 @@ const zurueckgestellt = <String>{
   'Liebhaber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geliebter, Liebespartner / Kenner, Freund einer Sache «Kunstliebhaber») — nach den Nomen 2026-11-01
   'Liebling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geliebte Person, Kosewort / bevorzugte Person «Liebling des Lehrers») — nach den Nomen 2026-11-01
   'Lieferung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Liefern / gelieferte Ware / Teil eines Werkes in Lieferungen) — nach den Nomen 2026-11-01
+  'Liga', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Spielklasse / Bund, Vereinigung «Liga der Nationen») — nach den Nomen 2026-11-01
+  'Limburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stadt an der Lahn / Provinz in Belgien bzw. den Niederlanden) — nach den Nomen 2026-11-01
+  'Limes', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: römischer Grenzwall / Mathematik: Grenzwert) — nach den Nomen 2026-11-01
+  'Limousine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pkw mit Stufenheck, österr. auch normaler Pkw / lange Luxus-Limousine) — nach den Nomen 2026-11-01
+  'Linie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strich / Verkehrsverbindung «Linie 5» / Reihe / Richtung, Kurs «in erster Linie») — nach den Nomen 2026-11-01
+  'Linke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: die linke Hand / politische Linke) + Fall 1 — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

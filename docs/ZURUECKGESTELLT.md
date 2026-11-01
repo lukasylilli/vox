@@ -3914,3 +3914,9 @@
 | 1555 | Liebhaber | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geliebter, Liebespartner / Kenner, Freund einer Sache «Kunstliebhaber») |
 | 1556 | Liebling | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: geliebte Person, Kosewort / bevorzugte Person «Liebling des Lehrers») |
 | 1557 | Lieferung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Liefern / gelieferte Ware / Teil eines Werkes in Lieferungen) |
+| 1558 | Liga | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sport: Spielklasse / Bund, Vereinigung «Liga der Nationen») |
+| 1559 | Limburg | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stadt an der Lahn / Provinz in Belgien bzw. den Niederlanden) |
+| 1560 | Limes | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: römischer Grenzwall / Mathematik: Grenzwert) |
+| 1561 | Limousine | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pkw mit Stufenheck, österr. auch normaler Pkw / lange Luxus-Limousine) |
+| 1562 | Linie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Strich / Verkehrsverbindung «Linie 5» / Reihe / Richtung, Kurs «in erster Linie») |
+| 1563 | Linke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: die linke Hand / politische Linke) + Fall 1 |
