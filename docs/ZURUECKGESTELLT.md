@@ -2566,6 +2566,8 @@
 | ۲۳۸۹ | Mohr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet und diskriminierend; Ersatz wäre nur ein substantiviertes Adjektiv (Fall 4) — Lukas entscheidet | — |
 | ۲۳۹۰ | Monopoly | `substantiv_singular_alle.txt` | 2026-11-01 | Markenname eines Brettspiels — Regel 18 | — |
 | ۲۳۹۱ | Monsieur | `substantiv_singular_alle.txt` | 2026-11-01 | französische Anrede, kein eigenständiges deutsches Nomen — Regel 14 | — |
+| ۲۳۹۲ | More | `substantiv_singular_alle.txt` | 2026-11-01 | Bedeutung/Gebrauch unklar (Mores «Sitten» nur in «jemanden Mores lehren») — Regel 14 | — |
+| ۲۳۹۳ | Morgenpost | `substantiv_singular_alle.txt` | 2026-11-01 | meist Zeitungsname (Berliner/Hamburger Morgenpost) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4132,3 +4134,4 @@
 | 1720 | Montage | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zusammenbau, Einbau / Film- und Bildmontage); dazu Gleichform mit Plural von «Montag» |
 | 1721 | Moos | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / ugs. Geld) |
 | 1722 | Moral | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: sittliche Werte / Lehre einer Geschichte / Kampfgeist, Moral der Truppe) |
+| 1723 | Morgenstern | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Planet Venus am Morgenhimmel / mittelalterliche Schlagwaffe) |

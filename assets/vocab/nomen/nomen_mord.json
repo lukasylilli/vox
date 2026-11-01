@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mord",
+  "wort": "der Mord",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قتل",
+      "آدم‌کشی"
+    ],
+    "en": [
+      "murder",
+      "homicide"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Recht",
+    "Kriminalität"
+  ],
+  "ipa": "mɔrt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Mord war im Juni.",
+      "uebersetzung": {
+        "fa": "قتل در ماه ژوئن اتفاق افتاد.",
+        "en": "The murder was in June."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Mord geschah in der Nacht, deshalb gibt es kaum Zeugen.",
+      "uebersetzung": {
+        "fa": "قتل شبانه اتفاق افتاد، برای همین تقریباً هیچ شاهدی نیست.",
+        "en": "The murder happened at night, so there are hardly any witnesses."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Tötung",
+      "uebersetzung": {
+        "fa": "کشتن",
+        "en": "killing"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Doppelmord",
+      "uebersetzung": {
+        "fa": "قتل دوگانه",
+        "en": "double murder"
+      }
+    },
+    {
+      "wort": "der Raubmord",
+      "uebersetzung": {
+        "fa": "قتل همراه سرقت",
+        "en": "robbery-murder"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Morde",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Mord an + Dat",
+        "beispiel": "Der Mord an dem Journalisten wurde nie aufgeklärt.",
+        "uebersetzung": {
+          "fa": "قتل آن روزنامه‌نگار هیچ‌وقت روشن نشد.",
+          "en": "The murder of the journalist was never solved."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Mord begehen",
+        "beispiel": "Er soll einen Mord begangen haben.",
+        "uebersetzung": {
+          "fa": "گفته می‌شود او مرتکب قتل شده است.",
+          "en": "He is said to have committed a murder."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Mörder",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قاتل",
+          "en": "murderer"
+        },
+        "id_ref": "nomen_moerder"
+      },
+      {
+        "wort": "ermorden",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "به قتل رساندن",
+          "en": "to murder"
+        },
+        "id_ref": "verb_ermorden"
+      },
+      {
+        "wort": "das Verbrechen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنایت",
+          "en": "crime"
+        },
+        "id_ref": "nomen_verbrechen"
+      },
+      {
+        "wort": "der Täter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجرم، عامل جرم",
+          "en": "perpetrator"
+        },
+        "id_ref": "nomen_taeter"
+      },
+      {
+        "wort": "die Leiche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جسد",
+          "en": "corpse"
+        },
+        "id_ref": "nomen_leiche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

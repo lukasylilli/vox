@@ -4164,6 +4164,9 @@ const zurueckgestellt = <String>{
   'Montage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenbau, Einbau / Film- und Bildmontage); dazu Gleichform mit Plural von «Montag» — nach den Nomen 2026-11-01
   'Moos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanze / ugs. Geld) — nach den Nomen 2026-11-01
   'Moral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sittliche Werte / Lehre einer Geschichte / Kampfgeist, Moral der Truppe) — nach den Nomen 2026-11-01
+  'More', // zurückgestellt: Bedeutung/Gebrauch unklar (Mores «Sitten» nur in «jemanden Mores lehren») — Regel 14 2026-11-01
+  'Morgenpost', // zurückgestellt: meist Zeitungsname (Berliner/Hamburger Morgenpost) — Regel 18 2026-11-01
+  'Morgenstern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Planet Venus am Morgenhimmel / mittelalterliche Schlagwaffe) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
