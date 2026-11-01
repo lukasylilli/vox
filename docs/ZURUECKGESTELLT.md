@@ -2554,6 +2554,10 @@
 | ۲۳۷۷ | Metzler | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname — kein sicheres Nomen, Regel 14/18 | — |
 | ۲۳۷۸ | Mieterbund | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Organisation (Deutscher Mieterbund) — Regel 18 | — |
 | ۲۳۷۹ | Mika | `substantiv_singular_alle.txt` | 2026-11-01 | Vorname / unbekanntes Wort — kein sicheres Nomen, Regel 14/18 | — |
+| ۲۳۸۰ | Milliliter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Milliliter) — Regel 14 | — |
+| ۲۳۸۱ | Millimeter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Millimeter) — Regel 14 | — |
+| ۲۳۸۲ | Mimi | `substantiv_singular_alle.txt` | 2026-11-01 | Vorname / Kosename — kein sicheres Nomen, Regel 14/18 | — |
+| ۲۳۸۳ | Mimus | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort (antike Posse/Darsteller), Plural und Gebrauch nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4082,3 +4086,4 @@
 | 1682 | Mikrowelle | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mikrowellengerät / Physik elektromagnetische Welle) |
 | 1683 | Milde | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mildes Wetter, Sanftheit / Nachsicht, Gnade) |
 | 1684 | Milieu | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziales Umfeld / Rotlichtmilieu / Biologie Lebensraum) |
+| 1685 | Mineral | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gestein, Mineralstoff / österr. Mineralwasser) |

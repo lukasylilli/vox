@@ -4114,6 +4114,11 @@ const zurueckgestellt = <String>{
   'Mikrowelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mikrowellengerät / Physik elektromagnetische Welle) — nach den Nomen 2026-11-01
   'Milde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mildes Wetter, Sanftheit / Nachsicht, Gnade) — nach den Nomen 2026-11-01
   'Milieu', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziales Umfeld / Rotlichtmilieu / Biologie Lebensraum) — nach den Nomen 2026-11-01
+  'Milliliter', // zurückgestellt: Artikel doppelt (der/das Milliliter) — Regel 14 2026-11-01
+  'Millimeter', // zurückgestellt: Artikel doppelt (der/das Millimeter) — Regel 14 2026-11-01
+  'Mimi', // zurückgestellt: Vorname / Kosename — kein sicheres Nomen, Regel 14/18 2026-11-01
+  'Mimus', // zurückgestellt: Fachwort (antike Posse/Darsteller), Plural und Gebrauch nicht sicher — Regel 14 2026-11-01
+  'Mineral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gestein, Mineralstoff / österr. Mineralwasser) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
