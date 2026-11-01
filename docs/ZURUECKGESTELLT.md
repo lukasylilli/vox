@@ -4049,3 +4049,9 @@
 | 1658 | Mehrwert | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nutzen, zusätzlicher Wert / Wirtschaft, Marx: Mehrwert) |
 | 1659 | Mehrzahl | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: größerer Teil, Mehrheit / Grammatik: Plural) |
 | 1660 | Meilenstein | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stein am Weg / übertragen wichtiger Abschnitt) |
+| 1661 | Meister | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Handwerksmeister / Sieger, Champion / großer Könner, Lehrer) |
+| 1662 | Meisterin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Handwerksmeisterin / Siegerin, Championesse / große Könnerin) |
+| 1663 | Meisterklasse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Klasse für besonders Begabte an Musik-/Kunsthochschulen / Vorbereitungsklasse auf die Meisterprüfung) |
+| 1664 | Meisterschaft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wettkampf um den Titel / Können, Vollendung) |
+| 1665 | Meistertitel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Titel als Sieger einer Meisterschaft / Handwerksmeistertitel) |
+| 1666 | Melange | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mischung / österr. Milchkaffee) |

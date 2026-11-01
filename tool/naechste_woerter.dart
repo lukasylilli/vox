@@ -4081,6 +4081,12 @@ const zurueckgestellt = <String>{
   'Mehrzahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: größerer Teil, Mehrheit / Grammatik: Plural) — nach den Nomen 2026-11-01
   'Meier', // zurückgestellt: Familienname / historisch Gutsverwalter — Gebrauch nicht sicher, Regel 14/18 2026-11-01
   'Meilenstein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stein am Weg / übertragen wichtiger Abschnitt) — nach den Nomen 2026-11-01
+  'Meister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handwerksmeister / Sieger, Champion / großer Könner, Lehrer) — nach den Nomen 2026-11-01
+  'Meisterin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handwerksmeisterin / Siegerin, Championesse / große Könnerin) — nach den Nomen 2026-11-01
+  'Meisterklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klasse für besonders Begabte an Musik-/Kunsthochschulen / Vorbereitungsklasse auf die Meisterprüfung) — nach den Nomen 2026-11-01
+  'Meisterschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wettkampf um den Titel / Können, Vollendung) — nach den Nomen 2026-11-01
+  'Meistertitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Titel als Sieger einer Meisterschaft / Handwerksmeistertitel) — nach den Nomen 2026-11-01
+  'Melange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mischung / österr. Milchkaffee) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
