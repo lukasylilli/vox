@@ -2509,6 +2509,10 @@
 | ۲۳۳۲ | Lex | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (Gesetz, meist mit Namen: «Lex XY»), Gebrauch als Einzelwort nicht sicher — Regel 14 | — |
 | ۲۳۳۳ | Liberation | `substantiv_singular_alle.txt` | 2026-10-31 | kein gebräuchliches deutsches Nomen (veraltet für Befreiung bzw. englisch) — Regel 14 | — |
 | ۲۳۳۴ | Liberty | `substantiv_singular_alle.txt` | 2026-10-31 | englisches Wort, kein deutsches Nomen (allenfalls Name) — Regel 14 | — |
+| ۲۳۳۵ | Lichte | `substantiv_singular_alle.txt` | 2026-10-31 | nur in Fügungen («lichte Weite», «im Lichte von») bzw. Form von Licht — als eigenes Nomen nicht sicher, Regel 14 | — |
+| ۲۳۳۶ | Lichter | `substantiv_singular_alle.txt` | 2026-10-31 | nur Pluralform von «das Licht» (bzw. Seemannssprache Lastkahn) — kein eigenes Lemma sicher, Regel 14 | — |
+| ۲۳۳۷ | Lido | `substantiv_singular_alle.txt` | 2026-10-31 | Fremdwort (Badestrand) bzw. Name (Lido di Venezia) — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۳۸ | Lieb | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet/dichterisch (das Lieb = Geliebte) — Gebrauch und Genus nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3901,3 +3905,8 @@
 | 1546 | Lexikon | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Nachschlagewerk / Sprachwissenschaft: Wortschatz einer Sprache) |
 | 1547 | Liaison | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Liebesbeziehung / Verbindung, Zusammenarbeit / Phonetik: Bindung im Französischen) |
 | 1548 | Libero | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fußball: freier Abwehrspieler / Volleyball: Abwehrspezialist) |
+| 1549 | Licht | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Helligkeit / Lampe «das Licht ausmachen» / Kerze / übertragen «ans Licht kommen») |
+| 1550 | Lichtbild | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Amtssprache: Passfoto / veraltend: Dia, Fotografie) |
+| 1551 | Lichterkette | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Kette aus kleinen Lampen / Demonstration mit Kerzen, Menschenkette) |
+| 1552 | Lichtspiel | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: veraltet: Film, Kino «Lichtspieltheater» / Spiel des Lichts) |
+| 1553 | Liebe | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Gefühl der Zuneigung / geliebte Person «meine große Liebe» / Liebe zu etwas, Hingabe / Sexualität) |

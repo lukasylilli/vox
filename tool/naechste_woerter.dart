@@ -3933,6 +3933,15 @@ const zurueckgestellt = <String>{
   'Liberation', // zurückgestellt: kein gebräuchliches deutsches Nomen (veraltet für Befreiung bzw. englisch) — Regel 14 2026-10-31
   'Libero', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußball: freier Abwehrspieler / Volleyball: Abwehrspezialist) — nach den Nomen 2026-10-31
   'Liberty', // zurückgestellt: englisches Wort, kein deutsches Nomen (allenfalls Name) — Regel 14 2026-10-31
+  'Licht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Helligkeit / Lampe «das Licht ausmachen» / Kerze / übertragen «ans Licht kommen») — nach den Nomen 2026-10-31
+  'Lichtbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amtssprache: Passfoto / veraltend: Dia, Fotografie) — nach den Nomen 2026-10-31
+  'Lichte', // zurückgestellt: nur in Fügungen («lichte Weite», «im Lichte von») bzw. Form von Licht — als eigenes Nomen nicht sicher, Regel 14 2026-10-31
+  'Lichter', // zurückgestellt: nur Pluralform von «das Licht» (bzw. Seemannssprache Lastkahn) — kein eigenes Lemma sicher, Regel 14 2026-10-31
+  'Lichterkette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kette aus kleinen Lampen / Demonstration mit Kerzen, Menschenkette) — nach den Nomen 2026-10-31
+  'Lichtspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltet: Film, Kino «Lichtspieltheater» / Spiel des Lichts) — nach den Nomen 2026-10-31
+  'Lido', // zurückgestellt: Fremdwort (Badestrand) bzw. Name (Lido di Venezia) — Bedeutung und Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Lieb', // zurückgestellt: veraltet/dichterisch (das Lieb = Geliebte) — Gebrauch und Genus nicht sicher, Regel 14 2026-10-31
+  'Liebe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Zuneigung / geliebte Person «meine große Liebe» / Liebe zu etwas, Hingabe / Sexualität) — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
