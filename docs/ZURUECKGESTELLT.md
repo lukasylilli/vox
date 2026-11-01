@@ -2558,6 +2558,8 @@
 | ۲۳۸۱ | Millimeter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Millimeter) — Regel 14 | — |
 | ۲۳۸۲ | Mimi | `substantiv_singular_alle.txt` | 2026-11-01 | Vorname / Kosename — kein sicheres Nomen, Regel 14/18 | — |
 | ۲۳۸۳ | Mimus | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort (antike Posse/Darsteller), Plural und Gebrauch nicht sicher — Regel 14 | — |
+| ۲۳۸۴ | Missa | `substantiv_singular_alle.txt` | 2026-11-01 | lateinischer Fachausdruck (Missa solemnis), kein gebräuchliches Nomen — Regel 14 | — |
+| ۲۳۸۵ | Misskredit | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4091,3 +4093,7 @@
 | 1687 | Minimum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mindestmaß / Tiefstwert, Mathematik, Meteorologie) |
 | 1688 | Minus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Fehlbetrag, Verlust / Nachteil / Minuszeichen) |
 | 1689 | Mischling | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Tier aus verschiedenen Rassen / Mensch, abwertend und NS-Begriff) |
+| 1690 | Miss | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: engl. Anrede Fräulein / Schönheitskönigin) |
+| 1691 | Missachtung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nichtbeachtung von Regeln / Geringschätzung einer Person) |
+| 1692 | Missbrauch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: falscher Gebrauch / sexueller Missbrauch) |
+| 1693 | Mission | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) |

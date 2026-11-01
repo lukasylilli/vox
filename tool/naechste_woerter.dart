@@ -4123,6 +4123,12 @@ const zurueckgestellt = <String>{
   'Minimum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mindestmaß / Tiefstwert, Mathematik, Meteorologie) — nach den Nomen 2026-11-01
   'Minus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fehlbetrag, Verlust / Nachteil / Minuszeichen) — nach den Nomen 2026-11-01
   'Mischling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier aus verschiedenen Rassen / Mensch, abwertend und NS-Begriff) — nach den Nomen 2026-11-01
+  'Miss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: engl. Anrede Fräulein / Schönheitskönigin) — nach den Nomen 2026-11-01
+  'Missa', // zurückgestellt: lateinischer Fachausdruck (Missa solemnis), kein gebräuchliches Nomen — Regel 14 2026-11-01
+  'Missachtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nichtbeachtung von Regeln / Geringschätzung einer Person) — nach den Nomen 2026-11-01
+  'Missbrauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falscher Gebrauch / sexueller Missbrauch) — nach den Nomen 2026-11-01
+  'Mission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) — nach den Nomen 2026-11-01
+  'Misskredit', // zurückgestellt: nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
