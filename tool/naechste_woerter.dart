@@ -4188,6 +4188,11 @@ const zurueckgestellt = <String>{
   'Nachfrage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft Bedarf, Nachfrage nach Waren / Erkundigung, Rückfrage) — nach den Nomen 2026-11-01
   'Nachlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erbe, hinterlassenes Vermögen / Preisnachlass, Rabatt / Nachlassen, Abnahme) — nach den Nomen 2026-11-01
   'Nachrede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «üble Nachrede», Verleumdung / Nachwort, Epilog) — nach den Nomen 2026-11-01
+  'Nachrichtendienst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimdienst / veraltend Nachrichtenagentur, Nachrichtenübermittlung) — nach den Nomen 2026-11-01
+  'Nachsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachschrift, Postskriptum / Grammatik nachgestellter Satz) — nach den Nomen 2026-11-01
+  'Nachschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zusätzliche Essensportion / Musik Verzierung) — nach den Nomen 2026-11-01
+  'Nachsehen', // zurückgestellt: nur in fester Wendung «das Nachsehen haben» — Regel 14 2026-11-01
+  'Nachspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Folgen, «ein gerichtliches Nachspiel» / Theater, Musik Epilog) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

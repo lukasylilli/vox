@@ -2574,6 +2574,7 @@
 | ۲۳۹۷ | Multi | `substantiv_singular_alle.txt` | 2026-11-01 | Jargon-Kurzwort (multinationaler Konzern); Gebrauch und Plural nicht sicher — Regel 14 | — |
 | ۲۳۹۸ | Musica | `substantiv_singular_alle.txt` | 2026-11-01 | lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 | — |
 | ۲۳۹۹ | Muslime | `substantiv_singular_alle.txt` | 2026-11-01 | Pluralform von «Muslim» bzw. seltene feminine Form (die Muslime) — Lemma unklar — Regel 14 | — |
+| ۲۴۰۰ | Nachsehen | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung «das Nachsehen haben» — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4156,3 +4157,7 @@
 | 1736 | Nachfrage | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wirtschaft Bedarf, Nachfrage nach Waren / Erkundigung, Rückfrage) |
 | 1737 | Nachlass | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Erbe, hinterlassenes Vermögen / Preisnachlass, Rabatt / Nachlassen, Abnahme) |
 | 1738 | Nachrede | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: «üble Nachrede», Verleumdung / Nachwort, Epilog) |
+| 1739 | Nachrichtendienst | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geheimdienst / veraltend Nachrichtenagentur, Nachrichtenübermittlung) |
+| 1740 | Nachsatz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachschrift, Postskriptum / Grammatik nachgestellter Satz) |
+| 1741 | Nachschlag | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: zusätzliche Essensportion / Musik Verzierung) |
+| 1742 | Nachspiel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Folgen, «ein gerichtliches Nachspiel» / Theater, Musik Epilog) |
