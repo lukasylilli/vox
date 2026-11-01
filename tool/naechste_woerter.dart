@@ -4291,6 +4291,16 @@ const zurueckgestellt = <String>{
   'Offenbarung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöse Offenbarung, Johannesoffenbarung / Enthüllung / großartiges Erlebnis «eine Offenbarung sein») — nach den Nomen 2026-11-02
   'Offenbarungseid', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtswesen: eidesstattliche Versicherung über Vermögen / übertragen Eingeständnis des Scheiterns) — nach den Nomen 2026-11-02
   'Offensive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärischer Angriff / Sport: Angriffsspiel / übertragen Kampagne «Bildungsoffensive») — nach den Nomen 2026-11-02
+  'Oh', // zurückgestellt: substantivierte Interjektion «das Oh»; als Lernwort/Nomen unsicher — Regel 14 2026-11-02
+  'Ohnmacht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewusstlosigkeit / Machtlosigkeit, Hilflosigkeit) — nach den Nomen 2026-11-02
+  'Ohrwurm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: eingängige Melodie / Insekt, Gemeiner Ohrwurm) — nach den Nomen 2026-11-02
+  'Okkupation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärische Besetzung / Rechtswesen: Aneignung herrenloser Sachen) — nach den Nomen 2026-11-02
+  'Oldtimer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: altes Auto, Flugzeug / ugs. scherzhaft älterer Mensch, langjähriges Mitglied) — nach den Nomen 2026-11-02
+  'Olive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht / Olivenbaum) — nach den Nomen 2026-11-02
+  'Olymp', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Berg in Griechenland, Sitz der Götter / übertragen Spitze «der Olymp des Sports» / scherzhaft oberste Theatergalerie) — nach den Nomen 2026-11-02
+  'Olympiade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Olympische Spiele / Zeitraum von vier Jahren / Wettbewerb, z. B. Mathematik-Olympiade) — nach den Nomen 2026-11-02
+  'Olympiahalle', // zurückgestellt: Name eines bestimmten Gebäudes (München), kein geografischer Name nach Regel 18 — Regel 14 2026-11-02
+  'Olympiapark', // zurückgestellt: Name einer bestimmten Anlage (München u. a.), kein geografischer Name nach Regel 18 — Regel 14 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

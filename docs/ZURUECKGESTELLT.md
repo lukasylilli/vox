@@ -2600,6 +2600,9 @@
 | ۲۴۲۳ | Oberst | `substantiv_singular_alle.txt` | 2026-11-02 | Plural und Deklination schwankend (die Obersten / die Oberste; des Obersts / des Obersten) — Regel 14 | — |
 | ۲۴۲۴ | Odeon | `substantiv_singular_alle.txt` | 2026-11-02 | meist Eigenname von Kinos/Konzerthäusern; als Gattungswort unsicher — Regel 14 | — |
 | ۲۴۲۵ | Ofenloch | `substantiv_singular_alle.txt` | 2026-11-02 | selten, Bedeutung/Gebrauch (Ofenöffnung, regional) unsicher — Regel 14 | — |
+| ۲۴۲۶ | Oh | `substantiv_singular_alle.txt` | 2026-11-02 | substantivierte Interjektion «das Oh»; als Lernwort/Nomen unsicher — Regel 14 | — |
+| ۲۴۲۷ | Olympiahalle | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines bestimmten Gebäudes (München), kein geografischer Name nach Regel 18 — Regel 14 | — |
+| ۲۴۲۸ | Olympiapark | `substantiv_singular_alle.txt` | 2026-11-02 | Name einer bestimmten Anlage (München u. a.), kein geografischer Name nach Regel 18 — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4259,3 +4262,10 @@
 | 1813 | Offenbarung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: religiöse Offenbarung, Johannesoffenbarung / Enthüllung / großartiges Erlebnis «eine Offenbarung sein») |
 | 1814 | Offenbarungseid | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rechtswesen: eidesstattliche Versicherung über Vermögen / übertragen Eingeständnis des Scheiterns) |
 | 1815 | Offensive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: militärischer Angriff / Sport: Angriffsspiel / übertragen Kampagne «Bildungsoffensive») |
+| 1816 | Ohnmacht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bewusstlosigkeit / Machtlosigkeit, Hilflosigkeit) |
+| 1817 | Ohrwurm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: eingängige Melodie / Insekt, Gemeiner Ohrwurm) |
+| 1818 | Okkupation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: militärische Besetzung / Rechtswesen: Aneignung herrenloser Sachen) |
+| 1819 | Oldtimer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: altes Auto, Flugzeug / ugs. scherzhaft älterer Mensch, langjähriges Mitglied) |
+| 1820 | Olive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Frucht / Olivenbaum) |
+| 1821 | Olymp | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: Berg in Griechenland, Sitz der Götter / übertragen Spitze «der Olymp des Sports» / scherzhaft oberste Theatergalerie) |
+| 1822 | Olympiade | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: ugs. Olympische Spiele / Zeitraum von vier Jahren / Wettbewerb, z. B. Mathematik-Olympiade) |
