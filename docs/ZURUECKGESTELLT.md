@@ -4161,3 +4161,4 @@
 | 1740 | Nachsatz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachschrift, Postskriptum / Grammatik nachgestellter Satz) |
 | 1741 | Nachschlag | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: zusätzliche Essensportion / Musik Verzierung) |
 | 1742 | Nachspiel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Folgen, «ein gerichtliches Nachspiel» / Theater, Musik Epilog) |
+| 1743 | Nachwuchs | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kinder einer Familie / junge Kräfte in Beruf, Sport) |
