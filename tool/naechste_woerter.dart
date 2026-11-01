@@ -4263,6 +4263,12 @@ const zurueckgestellt = <String>{
   'Nudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teigware / ugs. Person «eine ulkige Nudel») — nach den Nomen 2026-11-02
   'Nullnummer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Probeausgabe einer Zeitung / ugs. Reinfall, Fehlschlag / Sport 0:0) — nach den Nomen 2026-11-02
   'Nullpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nullpunkt einer Skala, Gefrierpunkt / Tiefpunkt «auf dem Nullpunkt») — nach den Nomen 2026-11-02
+  'Numerus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik Singular/Plural / Mathematik Zahl beim Logarithmus / Numerus clausus) — nach den Nomen 2026-11-02
+  'Nummer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahl, Telefonnummer / Ausgabe einer Zeitschrift / Auftritt im Programm / Größe «eine Nummer zu groß») — nach den Nomen 2026-11-02
+  'Nuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frucht / ugs. Person «doofe Nuss» / «harte Nuss» schwierige Aufgabe) — nach den Nomen 2026-11-02
+  'Nussbaum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baum / Holz «Möbel aus Nussbaum») — nach den Nomen 2026-11-02
+  'Oase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserstelle in der Wüste / übertragen Ort der Ruhe) — nach den Nomen 2026-11-02
+  'Ob', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: der Ob, Fluss in Sibirien / das Ob «das Ob und Wie») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

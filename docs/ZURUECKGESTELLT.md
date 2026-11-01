@@ -4231,3 +4231,9 @@
 | 1790 | Nudel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Teigware / ugs. Person «eine ulkige Nudel») |
 | 1791 | Nullnummer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Probeausgabe einer Zeitung / ugs. Reinfall, Fehlschlag / Sport 0:0) |
 | 1792 | Nullpunkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Nullpunkt einer Skala, Gefrierpunkt / Tiefpunkt «auf dem Nullpunkt») |
+| 1793 | Numerus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Grammatik Singular/Plural / Mathematik Zahl beim Logarithmus / Numerus clausus) |
+| 1794 | Nummer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahl, Telefonnummer / Ausgabe einer Zeitschrift / Auftritt im Programm / Größe «eine Nummer zu groß») |
+| 1795 | Nuss | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Frucht / ugs. Person «doofe Nuss» / «harte Nuss» schwierige Aufgabe) |
+| 1796 | Nussbaum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Baum / Holz «Möbel aus Nussbaum») |
+| 1797 | Oase | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wasserstelle in der Wüste / übertragen Ort der Ruhe) |
+| 1798 | Ob | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph mit anderem Artikel: der Ob, Fluss in Sibirien / das Ob «das Ob und Wie») |
