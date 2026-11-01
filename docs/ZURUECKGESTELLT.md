@@ -2525,6 +2525,8 @@
 | ۲۳۴۸ | Lolita | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Romanfigur) bzw. übertragener Gebrauch für Mädchen — Gebrauch heikel/unsicher, Regel 14 | — |
 | ۲۳۴۹ | Lose | `substantiv_singular_alle.txt` | 2026-11-01 | als eigenes Lemma nicht sicher (Pluralform von «das Los»; Seemannssprache) — Regel 14 | — |
 | ۲۳۵۰ | Lost | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, kein deutsches Nomen — Regel 14 | — |
+| ۲۳۵۱ | Lotus | `substantiv_singular_alle.txt` | 2026-11-01 | Schreibvariante (Duden: Hauptform «Lotos»), auch Marke — Regel 14 | — |
+| ۲۳۵۲ | Lufthansa | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Firma (Fluggesellschaft) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3949,3 +3951,6 @@
 | 1578 | Los | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lotterielos / Schicksal / Warenposten) |
 | 1579 | Lotse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schiffslotse / Fluglotse / übertragen: Führer, Begleiter) |
 | 1580 | Lotto | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zahlenlotterie / Gesellschaftsspiel mit Bildkarten) |
+| 1581 | Luft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gasgemisch, das wir atmen / Atem «Luft holen» / Spielraum «Luft haben») |
+| 1582 | Luftdruck | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Druck der Atmosphäre / Reifendruck / Druckwelle einer Explosion) |
+| 1583 | Luftlinie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kürzeste Entfernung «Luftlinie 10 km» / Fluggesellschaft) |

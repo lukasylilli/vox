@@ -3981,6 +3981,11 @@ const zurueckgestellt = <String>{
   'Lost', // zurückgestellt: englisches Wort, kein deutsches Nomen — Regel 14 2026-11-01
   'Lotse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiffslotse / Fluglotse / übertragen: Führer, Begleiter) — nach den Nomen 2026-11-01
   'Lotto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlenlotterie / Gesellschaftsspiel mit Bildkarten) — nach den Nomen 2026-11-01
+  'Lotus', // zurückgestellt: Schreibvariante (Duden: Hauptform «Lotos»), auch Marke — Regel 14 2026-11-01
+  'Luft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gasgemisch, das wir atmen / Atem «Luft holen» / Spielraum «Luft haben») — nach den Nomen 2026-11-01
+  'Luftdruck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druck der Atmosphäre / Reifendruck / Druckwelle einer Explosion) — nach den Nomen 2026-11-01
+  'Lufthansa', // zurückgestellt: Name einer Firma (Fluggesellschaft) — Regel 18 2026-11-01
+  'Luftlinie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kürzeste Entfernung «Luftlinie 10 km» / Fluggesellschaft) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
