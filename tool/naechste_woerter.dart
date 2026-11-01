@@ -4011,6 +4011,15 @@ const zurueckgestellt = <String>{
   'Mailbox', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachbox am Telefon / elektronisches Postfach) — nach den Nomen 2026-11-01
   'Makedonien', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staat Nordmazedonien / historische Region, griechische Region) — nach den Nomen 2026-11-01
   'Makulatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Altpapier, Fehldruck / übertragen wertlos «etwas ist Makulatur») — nach den Nomen 2026-11-01
+  'Mal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph gleicher Artikel: das Mal «Zeitpunkt, -mal» / das Mal «Zeichen, Fleck» — Plural Male/Mäler) — nach den Nomen 2026-11-01
+  'Maler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstmaler / Handwerker, Anstreicher) — nach den Nomen 2026-11-01
+  'Malerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst des Malens / einzelnes Gemälde) — nach den Nomen 2026-11-01
+  'Malerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstmalerin / Handwerkerin, Anstreicherin) — nach den Nomen 2026-11-01
+  'Malteser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Maltas / Mitglied des Malteserordens, Hilfsdienst / Hunderasse) — nach den Nomen 2026-11-01
+  'Mamma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin Brustdrüse / landschaftlich Mama) — nach den Nomen 2026-11-01
+  'Management', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitung, Führung als Tätigkeit / die Führungskräfte eines Unternehmens) — nach den Nomen 2026-11-01
+  'Manager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuer von Künstlern oder Sportlern) — nach den Nomen 2026-11-01
+  'Managerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuerin von Künstlern oder Sportlern) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

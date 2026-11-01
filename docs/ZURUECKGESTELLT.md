@@ -3979,3 +3979,12 @@
 | 1599 | Mailbox | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sprachbox am Telefon / elektronisches Postfach) |
 | 1600 | Makedonien | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Staat Nordmazedonien / historische Region, griechische Region) |
 | 1601 | Makulatur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Altpapier, Fehldruck / übertragen wertlos «etwas ist Makulatur») |
+| 1602 | Mal | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 3 (Homograph gleicher Artikel: das Mal «Zeitpunkt, -mal» / das Mal «Zeichen, Fleck» — Plural Male/Mäler) |
+| 1603 | Maler | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kunstmaler / Handwerker, Anstreicher) |
+| 1604 | Malerei | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kunst des Malens / einzelnes Gemälde) |
+| 1605 | Malerin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kunstmalerin / Handwerkerin, Anstreicherin) |
+| 1606 | Malteser | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Einwohner Maltas / Mitglied des Malteserordens, Hilfsdienst / Hunderasse) |
+| 1607 | Mamma | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Medizin Brustdrüse / landschaftlich Mama) |
+| 1608 | Management | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leitung, Führung als Tätigkeit / die Führungskräfte eines Unternehmens) |
+| 1609 | Manager | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuer von Künstlern oder Sportlern) |
+| 1610 | Managerin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuerin von Künstlern oder Sportlern) |
