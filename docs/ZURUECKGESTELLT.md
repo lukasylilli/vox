@@ -2522,6 +2522,9 @@
 | ۲۳۴۵ | Loft | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Loft, Duden) — Regel 14 | — |
 | ۲۳۴۶ | Logo | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Logo, Duden) — Regel 14 | — |
 | ۲۳۴۷ | Logos | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort (Philosophie/Theologie) bzw. Pluralform von «Logo» — als Lemma nicht sicher, Regel 14 | — |
+| ۲۳۴۸ | Lolita | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Romanfigur) bzw. übertragener Gebrauch für Mädchen — Gebrauch heikel/unsicher, Regel 14 | — |
+| ۲۳۴۹ | Lose | `substantiv_singular_alle.txt` | 2026-11-01 | als eigenes Lemma nicht sicher (Pluralform von «das Los»; Seemannssprache) — Regel 14 | — |
+| ۲۳۵۰ | Lost | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, kein deutsches Nomen — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3942,3 +3945,7 @@
 | 1574 | Logik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lehre vom Denken / Folgerichtigkeit «die Logik einer Sache») |
 | 1575 | Lohn | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Arbeitsentgelt / Belohnung, Vergeltung «der Lohn für die Mühe») |
 | 1576 | Lokal | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gaststätte / Raum, Versammlungslokal) |
+| 1577 | Lorbeer | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / Gewürz «Lorbeerblatt» / übertragen Ruhm «Lorbeeren ernten») |
+| 1578 | Los | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lotterielos / Schicksal / Warenposten) |
+| 1579 | Lotse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schiffslotse / Fluglotse / übertragen: Führer, Begleiter) |
+| 1580 | Lotto | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zahlenlotterie / Gesellschaftsspiel mit Bildkarten) |

@@ -3974,6 +3974,13 @@ const zurueckgestellt = <String>{
   'Logos', // zurückgestellt: Fachwort (Philosophie/Theologie) bzw. Pluralform von «Logo» — als Lemma nicht sicher, Regel 14 2026-11-01
   'Lohn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeitsentgelt / Belohnung, Vergeltung «der Lohn für die Mühe») — nach den Nomen 2026-11-01
   'Lokal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gaststätte / Raum, Versammlungslokal) — nach den Nomen 2026-11-01
+  'Lolita', // zurückgestellt: Name (Romanfigur) bzw. übertragener Gebrauch für Mädchen — Gebrauch heikel/unsicher, Regel 14 2026-11-01
+  'Lorbeer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanze / Gewürz «Lorbeerblatt» / übertragen Ruhm «Lorbeeren ernten») — nach den Nomen 2026-11-01
+  'Los', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lotterielos / Schicksal / Warenposten) — nach den Nomen 2026-11-01
+  'Lose', // zurückgestellt: als eigenes Lemma nicht sicher (Pluralform von «das Los»; Seemannssprache) — Regel 14 2026-11-01
+  'Lost', // zurückgestellt: englisches Wort, kein deutsches Nomen — Regel 14 2026-11-01
+  'Lotse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiffslotse / Fluglotse / übertragen: Führer, Begleiter) — nach den Nomen 2026-11-01
+  'Lotto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlenlotterie / Gesellschaftsspiel mit Bildkarten) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
