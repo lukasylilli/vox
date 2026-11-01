@@ -4020,3 +4020,6 @@
 | 1635 | Masche | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schlinge beim Stricken, Netz / ugs. Trick) |
 | 1636 | Maschine | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gerät / ugs. Flugzeug, Motorrad / Schreibmaschine) |
 | 1637 | Maschinenbauer | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ingenieur, Facharbeiter / Unternehmen des Maschinenbaus) |
+| 1638 | Maschinerie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mechanismus, Antrieb / übertragen Apparat, Bürokratie) |
+| 1639 | Maske | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gesichtsmaske, Schutzmaske / Theater, Verkleidung / Computer Eingabemaske) |
+| 1640 | Masse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Menge, Menschenmenge / Physik Masse / breiige Mischung, Teig) |

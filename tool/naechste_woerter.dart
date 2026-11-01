@@ -4052,6 +4052,9 @@ const zurueckgestellt = <String>{
   'Masche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlinge beim Stricken, Netz / ugs. Trick) — nach den Nomen 2026-11-01
   'Maschine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät / ugs. Flugzeug, Motorrad / Schreibmaschine) — nach den Nomen 2026-11-01
   'Maschinenbauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ingenieur, Facharbeiter / Unternehmen des Maschinenbaus) — nach den Nomen 2026-11-01
+  'Maschinerie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mechanismus, Antrieb / übertragen Apparat, Bürokratie) — nach den Nomen 2026-11-01
+  'Maske', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesichtsmaske, Schutzmaske / Theater, Verkleidung / Computer Eingabemaske) — nach den Nomen 2026-11-01
+  'Masse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Menge, Menschenmenge / Physik Masse / breiige Mischung, Teig) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
