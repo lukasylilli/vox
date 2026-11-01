@@ -2504,6 +2504,11 @@
 | ۲۳۲۷ | Lenzing | `substantiv_singular_alle.txt` | 2026-10-31 | Ortsname in Oberösterreich, vor allem als Firmenname (Lenzing AG) bekannt — geografische Karte oder Firmenname nicht sicher, Regel 18 | — |
 | ۲۳۲۸ | Leslie | `substantiv_singular_alle.txt` | 2026-10-31 | Vorname — kein Gattungswort und kein geografischer Name, Regel 18 | — |
 | ۲۳۲۹ | Let | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort Tennis (Netzaufschlag), Genus und Gebrauch nicht sicher — Regel 14 | — |
+| ۲۳۳۰ | Level | `substantiv_singular_alle.txt` | 2026-10-31 | Genus schwankend (der oder das Level, Duden) — wie Laptop, Regel 14 | — |
+| ۲۳۳۱ | Lew | `substantiv_singular_alle.txt` | 2026-10-31 | Währungseinheit Bulgariens (Plural Lewa) bzw. Vorname — gemeintes Wort nicht sicher, Regel 14 | — |
+| ۲۳۳۲ | Lex | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (Gesetz, meist mit Namen: «Lex XY»), Gebrauch als Einzelwort nicht sicher — Regel 14 | — |
+| ۲۳۳۳ | Liberation | `substantiv_singular_alle.txt` | 2026-10-31 | kein gebräuchliches deutsches Nomen (veraltet für Befreiung bzw. englisch) — Regel 14 | — |
+| ۲۳۳۴ | Liberty | `substantiv_singular_alle.txt` | 2026-10-31 | englisches Wort, kein deutsches Nomen (allenfalls Name) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3889,3 +3894,10 @@
 | 1539 | Lenz | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: dichterisch: Frühling / ugs. «sich einen schönen Lenz machen» = faulenzen / Plural: Lebensjahre) |
 | 1540 | Lesart | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Deutung, Interpretation / Philologie: Textvariante) |
 | 1541 | Lesung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Autorenlesung / Parlament: Beratung eines Gesetzes «in erster Lesung» / Kirche: Lesung aus der Bibel) |
+| 1542 | Lethargie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Medizin: Schlafsucht, Bewusstseinstrübung / Teilnahmslosigkeit, Trägheit) |
+| 1543 | Letten | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1/3 (der Letten = landschaftlich: Lehm, Ton ↔ die Letten = Plural von der Lette, Volk in Lettland) |
+| 1544 | Letter | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Druckbuchstabe / Druckwesen: Drucktype) |
+| 1545 | Leuchte | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Lampe, Beleuchtungskörper / ugs. kluger Mensch «keine große Leuchte sein») |
+| 1546 | Lexikon | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Nachschlagewerk / Sprachwissenschaft: Wortschatz einer Sprache) |
+| 1547 | Liaison | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Liebesbeziehung / Verbindung, Zusammenarbeit / Phonetik: Bindung im Französischen) |
+| 1548 | Libero | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Fußball: freier Abwehrspieler / Volleyball: Abwehrspezialist) |

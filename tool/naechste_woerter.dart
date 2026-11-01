@@ -3921,6 +3921,18 @@ const zurueckgestellt = <String>{
   'Leslie', // zurückgestellt: Vorname — kein Gattungswort und kein geografischer Name, Regel 18 2026-10-31
   'Lesung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autorenlesung / Parlament: Beratung eines Gesetzes «in erster Lesung» / Kirche: Lesung aus der Bibel) — nach den Nomen 2026-10-31
   'Let', // zurückgestellt: Fachwort Tennis (Netzaufschlag), Genus und Gebrauch nicht sicher — Regel 14 2026-10-31
+  'Lethargie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Schlafsucht, Bewusstseinstrübung / Teilnahmslosigkeit, Trägheit) — nach den Nomen 2026-10-31
+  'Letten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (der Letten = landschaftlich: Lehm, Ton ↔ die Letten = Plural von der Lette, Volk in Lettland) — nach den Nomen 2026-10-31
+  'Letter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druckbuchstabe / Druckwesen: Drucktype) — nach den Nomen 2026-10-31
+  'Leuchte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lampe, Beleuchtungskörper / ugs. kluger Mensch «keine große Leuchte sein») — nach den Nomen 2026-10-31
+  'Level', // zurückgestellt: Genus schwankend (der oder das Level, Duden) — wie Laptop, Regel 14 2026-10-31
+  'Lew', // zurückgestellt: Währungseinheit Bulgariens (Plural Lewa) bzw. Vorname — gemeintes Wort nicht sicher, Regel 14 2026-10-31
+  'Lex', // zurückgestellt: Fachwort (Gesetz, meist mit Namen: «Lex XY»), Gebrauch als Einzelwort nicht sicher — Regel 14 2026-10-31
+  'Lexikon', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachschlagewerk / Sprachwissenschaft: Wortschatz einer Sprache) — nach den Nomen 2026-10-31
+  'Liaison', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Liebesbeziehung / Verbindung, Zusammenarbeit / Phonetik: Bindung im Französischen) — nach den Nomen 2026-10-31
+  'Liberation', // zurückgestellt: kein gebräuchliches deutsches Nomen (veraltet für Befreiung bzw. englisch) — Regel 14 2026-10-31
+  'Libero', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußball: freier Abwehrspieler / Volleyball: Abwehrspezialist) — nach den Nomen 2026-10-31
+  'Liberty', // zurückgestellt: englisches Wort, kein deutsches Nomen (allenfalls Name) — Regel 14 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
