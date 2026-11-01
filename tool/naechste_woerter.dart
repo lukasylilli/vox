@@ -4183,6 +4183,8 @@ const zurueckgestellt = <String>{
   'Muster', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzierung, Dessin / Probe, Warenmuster / Vorlage, Vorbild) — nach den Nomen 2026-11-01
   'Mutation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie Veränderung im Erbgut / Medizin Stimmbruch) — nach den Nomen 2026-11-01
   'Mutterland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herkunftsland / Kolonialmacht gegenüber Kolonien / Ursprungsland, «Mutterland des Fußballs») — nach den Nomen 2026-11-01
+  'Mysterium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimnis, Rätsel / Religion Geheimkult, Mysterienspiel) — nach den Nomen 2026-11-01
+  'Mythos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Göttersage / verklärte Person, Sache / falsche Vorstellung, «Es ist ein Mythos, dass …») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

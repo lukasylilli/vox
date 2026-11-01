@@ -4151,3 +4151,5 @@
 | 1731 | Muster | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Verzierung, Dessin / Probe, Warenmuster / Vorlage, Vorbild) |
 | 1732 | Mutation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Biologie Veränderung im Erbgut / Medizin Stimmbruch) |
 | 1733 | Mutterland | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Herkunftsland / Kolonialmacht gegenüber Kolonien / Ursprungsland, «Mutterland des Fußballs») |
+| 1734 | Mysterium | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geheimnis, Rätsel / Religion Geheimkult, Mysterienspiel) |
+| 1735 | Mythos | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Göttersage / verklärte Person, Sache / falsche Vorstellung, «Es ist ein Mythos, dass …») |
