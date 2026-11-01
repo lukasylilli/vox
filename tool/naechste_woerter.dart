@@ -4129,6 +4129,7 @@ const zurueckgestellt = <String>{
   'Missbrauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: falscher Gebrauch / sexueller Missbrauch) — nach den Nomen 2026-11-01
   'Mission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) — nach den Nomen 2026-11-01
   'Misskredit', // zurückgestellt: nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 2026-11-01
+  'Mitbewerber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitbewerber um eine Stelle / Konkurrent auf dem Markt) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

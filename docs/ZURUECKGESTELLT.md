@@ -4097,3 +4097,4 @@
 | 1691 | Missachtung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nichtbeachtung von Regeln / Geringschätzung einer Person) |
 | 1692 | Missbrauch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: falscher Gebrauch / sexueller Missbrauch) |
 | 1693 | Mission | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) |
+| 1694 | Mitbewerber | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mitbewerber um eine Stelle / Konkurrent auf dem Markt) |
