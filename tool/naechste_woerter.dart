@@ -4074,6 +4074,8 @@ const zurueckgestellt = <String>{
   'Maxwell', // zurückgestellt: Personenname / physikalische Einheit — kein sicheres Nomen, Regel 14/18 2026-11-01
   'Mechanik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilgebiet der Physik / Mechanismus, Getriebe einer Maschine) — nach den Nomen 2026-11-01
   'Mechanismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Vorrichtung / übertragen selbsttätiger Ablauf) — nach den Nomen 2026-11-01
+  'Meditation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachdenken, Betrachtung / religiöse Versenkung, Entspannungsübung) — nach den Nomen 2026-11-01
+  'Medizin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heilkunde / Arznei, Medikament) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

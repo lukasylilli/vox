@@ -1,0 +1,174 @@
+{
+  "schema": "3.0",
+  "id": "nomen_medikament",
+  "wort": "das Medikament",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دارو"
+    ],
+    "en": [
+      "medicine",
+      "medication",
+      "drug"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "medikaˈmɛnt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich muss jeden Morgen ein Medikament nehmen.",
+      "uebersetzung": {
+        "fa": "باید هر صبح یک دارو بخورم.",
+        "en": "I have to take a medication every morning."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bevor Sie das Medikament einnehmen, lesen Sie bitte die Packungsbeilage.",
+      "uebersetzung": {
+        "fa": "قبل از اینکه دارو را مصرف کنید، لطفاً بروشور داخل جعبه را بخوانید.",
+        "en": "Before you take the medication, please read the package leaflet."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Arzneimittel",
+      "uebersetzung": {
+        "fa": "دارو",
+        "en": "medicine"
+      }
+    },
+    {
+      "wort": "die Arznei",
+      "uebersetzung": {
+        "fa": "دارو",
+        "en": "medicine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Medikamentenliste",
+      "uebersetzung": {
+        "fa": "فهرست داروها",
+        "en": "medication list"
+      }
+    },
+    {
+      "wort": "das Schmerzmedikament",
+      "uebersetzung": {
+        "fa": "داروی مسکن",
+        "en": "painkiller"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Medikamente",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "das Medikament gegen + Akk",
+        "beispiel": "Gibt es ein Medikament gegen Kopfschmerzen?",
+        "uebersetzung": {
+          "fa": "آیا دارویی برای سردرد هست؟",
+          "en": "Is there a medicine for headaches?"
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Medikament einnehmen",
+        "beispiel": "Sie nimmt das Medikament dreimal täglich ein.",
+        "uebersetzung": {
+          "fa": "او دارو را سه بار در روز مصرف می‌کند.",
+          "en": "She takes the medication three times a day."
+        }
+      },
+      {
+        "verbindung": "ein Medikament verschreiben",
+        "beispiel": "Der Arzt hat mir ein Medikament verschrieben.",
+        "uebersetzung": {
+          "fa": "پزشک برایم دارو تجویز کرده است.",
+          "en": "The doctor prescribed me a medication."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Apotheke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داروخانه",
+          "en": "pharmacy"
+        },
+        "id_ref": "nomen_apotheke"
+      },
+      {
+        "wort": "die Tablette",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرص",
+          "en": "tablet, pill"
+        },
+        "id_ref": "nomen_tablette"
+      },
+      {
+        "wort": "die Salbe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پماد",
+          "en": "ointment"
+        },
+        "id_ref": "nomen_salbe"
+      },
+      {
+        "wort": "die Nebenwirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عارضه‌ی جانبی",
+          "en": "side effect"
+        },
+        "id_ref": "nomen_nebenwirkung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -4042,3 +4042,5 @@
 | 1653 | Maximum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Höchstmaß, Höchstwert / Mathematik / Meteorologie Hochdruckgebiet) |
 | 1654 | Mechanik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Teilgebiet der Physik / Mechanismus, Getriebe einer Maschine) |
 | 1655 | Mechanismus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: technische Vorrichtung / übertragen selbsttätiger Ablauf) |
+| 1656 | Meditation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachdenken, Betrachtung / religiöse Versenkung, Entspannungsübung) |
+| 1657 | Medizin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Heilkunde / Arznei, Medikament) |
