@@ -4248,6 +4248,11 @@ const zurueckgestellt = <String>{
   'Nomenklatura', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis der Führungspositionen in der Sowjetunion / herrschende Führungsschicht) — nach den Nomen 2026-11-01
   'Nomination', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kath. Kirche Benennung für ein Amt / bes. schweiz. Nominierung) — nach den Nomen 2026-11-01
   'Nonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordensfrau / Nachtfalter / Dachziegel) — nach den Nomen 2026-11-01
+  'Norden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Himmelsrichtung / nördliche Gegend «der hohe Norden»; Homograph Norden, Stadt in Ostfriesland) — nach den Nomen 2026-11-01
+  'Nordlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Polarlicht / ugs. scherzhaft Norddeutscher) — nach den Nomen 2026-11-01
+  'Norm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regel, Maßstab / technische Norm DIN / Arbeits-, Leistungsnorm) — nach den Nomen 2026-11-01
+  'Normal', // zurückgestellt: meist kurz für «Normalbenzin» (das Normal); Gebrauch und Lemma unsicher — Regel 14 2026-11-01
+  'Normale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (mehrere Bedeutungen: Mathematik die Normale (Senkrechte) / substantiviertes Adjektiv das Normale) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

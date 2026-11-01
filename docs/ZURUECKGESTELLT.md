@@ -2594,6 +2594,7 @@
 | ۲۴۱۷ | Newtonmeter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Newtonmeter, wie Meter) — Regel 14 | — |
 | ۲۴۱۸ | Nippon | `substantiv_singular_alle.txt` | 2026-11-01 | japanischer Landesname, im Deutschen kaum gebräuchlich (Japan) — Regel 14 | — |
 | ۲۴۱۹ | Nix | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich für «nichts» (Pronomen) bzw. «der Nix» Wassergeist — Wortart/Bedeutung unsicher — Regel 14 | — |
+| ۲۴۲۰ | Normal | `substantiv_singular_alle.txt` | 2026-11-01 | meist kurz für «Normalbenzin» (das Normal); Gebrauch und Lemma unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4216,3 +4217,7 @@
 | 1776 | Nomenklatura | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Verzeichnis der Führungspositionen in der Sowjetunion / herrschende Führungsschicht) |
 | 1777 | Nomination | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kath. Kirche Benennung für ein Amt / bes. schweiz. Nominierung) |
 | 1778 | Nonne | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ordensfrau / Nachtfalter / Dachziegel) |
+| 1779 | Norden | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1/3 (mehrere Bedeutungen: Himmelsrichtung / nördliche Gegend «der hohe Norden»; Homograph Norden, Stadt in Ostfriesland) |
+| 1780 | Nordlicht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Polarlicht / ugs. scherzhaft Norddeutscher) |
+| 1781 | Norm | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Regel, Maßstab / technische Norm DIN / Arbeits-, Leistungsnorm) |
+| 1782 | Normale | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1/4 (mehrere Bedeutungen: Mathematik die Normale (Senkrechte) / substantiviertes Adjektiv das Normale) |
