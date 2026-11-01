@@ -2547,6 +2547,7 @@
 | ۲۳۷۰ | Meier | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname / historisch Gutsverwalter — Gebrauch nicht sicher, Regel 14/18 | — |
 | ۲۳۷۱ | Memory | `substantiv_singular_alle.txt` | 2026-11-01 | Markenname (Spiel) — Regel 18 | — |
 | ۲۳۷۲ | Menschenrechtskommission | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Organisation (UN-Menschenrechtskommission) — Regel 18 | — |
+| ۲۳۷۳ | Mephisto | `substantiv_singular_alle.txt` | 2026-11-01 | literarische Figur / Eigenname (Teufel) — kein sicheres Nomen, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4063,3 +4064,6 @@
 | 1670 | Membran | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Technik dünnes Blättchen / Biologie Häutchen) |
 | 1671 | Menge | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Anzahl, Quantität / Menschenmenge / Mathematik) |
 | 1672 | Menschenleben | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leben eines Menschen, Todesopfer / Lebenszeit eines Menschen) |
+| 1673 | Menschlichkeit | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Menschsein, menschliche Natur / humane Gesinnung) |
+| 1674 | Messias | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Religion, Erlöser / übertragen Retter) |
+| 1675 | Messlatte | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Latte zum Messen, Sport / übertragen Maßstab) |

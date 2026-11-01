@@ -4095,6 +4095,10 @@ const zurueckgestellt = <String>{
   'Menge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anzahl, Quantität / Menschenmenge / Mathematik) — nach den Nomen 2026-11-01
   'Menschenleben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leben eines Menschen, Todesopfer / Lebenszeit eines Menschen) — nach den Nomen 2026-11-01
   'Menschenrechtskommission', // zurückgestellt: Name einer Organisation (UN-Menschenrechtskommission) — Regel 18 2026-11-01
+  'Menschlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Menschsein, menschliche Natur / humane Gesinnung) — nach den Nomen 2026-11-01
+  'Mephisto', // zurückgestellt: literarische Figur / Eigenname (Teufel) — kein sicheres Nomen, Regel 14/18 2026-11-01
+  'Messias', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion, Erlöser / übertragen Retter) — nach den Nomen 2026-11-01
+  'Messlatte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Latte zum Messen, Sport / übertragen Maßstab) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
