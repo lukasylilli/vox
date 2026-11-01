@@ -4214,6 +4214,13 @@ const zurueckgestellt = <String>{
   'Nazi', // zurückgestellt: Kurzwort für Nationalsozialist; Duden-Markierung (abwertend?) nicht sicher — Regel 14/17 2026-11-01
   'Neandertaler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urmensch / ugs. abwertend grober Mensch) — nach den Nomen 2026-11-01
   'Nebel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetter / Astronomie Sternnebel) — nach den Nomen 2026-11-01
+  'Negativ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fotonegativ / Gegenbild, Kehrseite; Homograph zu Adjektiv negativ) — nach den Nomen 2026-11-01
+  'Negative', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Negative) — nach den Nomen 2026-11-01
+  'Neger', // zurückgestellt: diskriminierend; Ersatz wäre ein Fall-4-Wort (der/die Schwarze) — wie Mohr, Entscheidung Lukas 2026-11-01
+  'Nehmer', // zurückgestellt: als freies Nomen selten (meist in Komposita: Arbeitnehmer); Bedeutung unsicher — Regel 14 2026-11-01
+  'Neige', // zurückgestellt: fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 2026-11-01
+  'Neigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schräge, Gefälle / Vorliebe, Hang / Tendenz) — nach den Nomen 2026-11-01
+  'Nelke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blume / Gewürznelke) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

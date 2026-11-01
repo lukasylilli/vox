@@ -2584,6 +2584,9 @@
 | ۲۴۰۷ | Nationaltheater | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Bühne (Mannheim, München, Prag) — Regel 18 | — |
 | ۲۴۰۸ | Naturschutzbund | `substantiv_singular_alle.txt` | 2026-11-01 | Name eines bestimmten Verbands (NABU) — Regel 18 | — |
 | ۲۴۰۹ | Nazi | `substantiv_singular_alle.txt` | 2026-11-01 | Kurzwort für Nationalsozialist; Duden-Markierung (abwertend?) nicht sicher — Regel 14/17 | — |
+| ۲۴۱۰ | Neger | `substantiv_singular_alle.txt` | 2026-11-01 | diskriminierend; Ersatz wäre ein Fall-4-Wort (der/die Schwarze) — wie Mohr, Entscheidung Lukas | — |
+| ۲۴۱۱ | Nehmer | `substantiv_singular_alle.txt` | 2026-11-01 | als freies Nomen selten (meist in Komposita: Arbeitnehmer); Bedeutung unsicher — Regel 14 | — |
+| ۲۴۱۲ | Neige | `substantiv_singular_alle.txt` | 2026-11-01 | fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4182,3 +4185,7 @@
 | 1752 | Navigator | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Navigationsoffizier / Navigationsgerät, Software) |
 | 1753 | Neandertaler | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Urmensch / ugs. abwertend grober Mensch) |
 | 1754 | Nebel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wetter / Astronomie Sternnebel) |
+| 1755 | Negativ | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Fotonegativ / Gegenbild, Kehrseite; Homograph zu Adjektiv negativ) |
+| 1756 | Negative | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: das Negative) |
+| 1757 | Neigung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schräge, Gefälle / Vorliebe, Hang / Tendenz) |
+| 1758 | Nelke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Blume / Gewürznelke) |
