@@ -4162,3 +4162,6 @@
 | 1741 | Nachschlag | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: zusätzliche Essensportion / Musik Verzierung) |
 | 1742 | Nachspiel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Folgen, «ein gerichtliches Nachspiel» / Theater, Musik Epilog) |
 | 1743 | Nachwuchs | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kinder einer Familie / junge Kräfte in Beruf, Sport) |
+| 1744 | Nadel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nähnadel / Nadel von Nadelbäumen / Kanüle, Anstecknadel) |
+| 1745 | Nagel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Metallstift / Finger-, Fußnagel) |
+| 1746 | Naht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: genähte Verbindung / Medizin Wundnaht / Schweißnaht) |

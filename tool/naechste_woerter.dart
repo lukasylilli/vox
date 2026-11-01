@@ -4194,6 +4194,9 @@ const zurueckgestellt = <String>{
   'Nachsehen', // zurückgestellt: nur in fester Wendung «das Nachsehen haben» — Regel 14 2026-11-01
   'Nachspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Folgen, «ein gerichtliches Nachspiel» / Theater, Musik Epilog) — nach den Nomen 2026-11-01
   'Nachwuchs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kinder einer Familie / junge Kräfte in Beruf, Sport) — nach den Nomen 2026-11-01
+  'Nadel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nähnadel / Nadel von Nadelbäumen / Kanüle, Anstecknadel) — nach den Nomen 2026-11-01
+  'Nagel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallstift / Finger-, Fußnagel) — nach den Nomen 2026-11-01
+  'Naht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: genähte Verbindung / Medizin Wundnaht / Schweißnaht) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
