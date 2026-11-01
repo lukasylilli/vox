@@ -2542,6 +2542,7 @@
 | ۲۳۶۵ | Match | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das Match; österr./schweiz. auch der Match) — Regel 14 | — |
 | ۲۳۶۶ | Matz | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/Kosename, Gebrauch nicht sicher — Regel 14 | — |
 | ۲۳۶۷ | Mautner | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/österr. für Zöllner, auch Familienname — Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۶۸ | Maxwell | `substantiv_singular_alle.txt` | 2026-11-01 | Personenname / physikalische Einheit — kein sicheres Nomen, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4039,3 +4040,5 @@
 | 1651 | Maulkorb | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Korb für Hunde / übertragen Redeverbot) |
 | 1652 | Maulwurf | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Tier / übertragen eingeschleuster Spion) |
 | 1653 | Maximum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Höchstmaß, Höchstwert / Mathematik / Meteorologie Hochdruckgebiet) |
+| 1654 | Mechanik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Teilgebiet der Physik / Mechanismus, Getriebe einer Maschine) |
+| 1655 | Mechanismus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: technische Vorrichtung / übertragen selbsttätiger Ablauf) |
