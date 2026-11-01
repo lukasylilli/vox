@@ -3952,6 +3952,15 @@ const zurueckgestellt = <String>{
   'Limousine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pkw mit Stufenheck, österr. auch normaler Pkw / lange Luxus-Limousine) — nach den Nomen 2026-11-01
   'Linie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strich / Verkehrsverbindung «Linie 5» / Reihe / Richtung, Kurs «in erster Linie») — nach den Nomen 2026-11-01
   'Linke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: die linke Hand / politische Linke) + Fall 1 — nach den Nomen 2026-11-01
+  'Linkspartei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: allgemein linke Partei / Name der Partei «Die Linke» bzw. Linkspartei.PDS) — nach den Nomen 2026-11-01
+  'Linse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hülsenfrucht / optische Linse / Augenlinse) — nach den Nomen 2026-11-01
+  'Linux', // zurückgestellt: Name eines Betriebssystems (Produkt/Marke) — Regel 18 2026-11-01
+  'Lion', // zurückgestellt: englisches Wort bzw. Name, kein deutsches Nomen — Regel 14 2026-11-01
+  'Liquidation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auflösung einer Firma / Tötung / Honorarrechnung) — nach den Nomen 2026-11-01
+  'Liquidierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auflösung einer Firma / Tötung) — nach den Nomen 2026-11-01
+  'Liter', // zurückgestellt: Artikel doppelt (der/das Liter, Duden) — Regel 14 2026-11-01
+  'Literatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dichtung, schöne Literatur / Fachliteratur, Schriften zu einem Thema) — nach den Nomen 2026-11-01
+  'Literaturbetrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Kulturbetrieb: Gesamtheit der Einrichtungen / Tätigkeit des Literaturmarkts) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

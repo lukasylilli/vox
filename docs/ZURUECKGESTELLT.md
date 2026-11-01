@@ -2513,6 +2513,9 @@
 | ۲۳۳۶ | Lichter | `substantiv_singular_alle.txt` | 2026-10-31 | nur Pluralform von «das Licht» (bzw. Seemannssprache Lastkahn) — kein eigenes Lemma sicher, Regel 14 | — |
 | ۲۳۳۷ | Lido | `substantiv_singular_alle.txt` | 2026-10-31 | Fremdwort (Badestrand) bzw. Name (Lido di Venezia) — Bedeutung und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۳۸ | Lieb | `substantiv_singular_alle.txt` | 2026-10-31 | veraltet/dichterisch (das Lieb = Geliebte) — Gebrauch und Genus nicht sicher, Regel 14 | — |
+| ۲۳۳۹ | Linux | `substantiv_singular_alle.txt` | 2026-11-01 | Name eines Betriebssystems (Produkt/Marke) — Regel 18 | — |
+| ۲۳۴۰ | Lion | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort bzw. Name, kein deutsches Nomen — Regel 14 | — |
+| ۲۳۴۱ | Liter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Liter, Duden) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3920,3 +3923,9 @@
 | 1561 | Limousine | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pkw mit Stufenheck, österr. auch normaler Pkw / lange Luxus-Limousine) |
 | 1562 | Linie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Strich / Verkehrsverbindung «Linie 5» / Reihe / Richtung, Kurs «in erster Linie») |
 | 1563 | Linke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: die linke Hand / politische Linke) + Fall 1 |
+| 1564 | Linkspartei | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: allgemein linke Partei / Name der Partei «Die Linke» bzw. Linkspartei.PDS) |
+| 1565 | Linse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Hülsenfrucht / optische Linse / Augenlinse) |
+| 1566 | Liquidation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auflösung einer Firma / Tötung / Honorarrechnung) |
+| 1567 | Liquidierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auflösung einer Firma / Tötung) |
+| 1568 | Literatur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Dichtung, schöne Literatur / Fachliteratur, Schriften zu einem Thema) |
+| 1569 | Literaturbetrieb | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (wie Kulturbetrieb: Gesamtheit der Einrichtungen / Tätigkeit des Literaturmarkts) |
