@@ -4108,6 +4108,12 @@ const zurueckgestellt = <String>{
   'Metzler', // zurückgestellt: Familienname — kein sicheres Nomen, Regel 14/18 2026-11-01
   'Meute', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jagdhunde / abwertend Menschengruppe) — nach den Nomen 2026-11-01
   'Mieterbund', // zurückgestellt: Name einer Organisation (Deutscher Mieterbund) — Regel 18 2026-11-01
+  'Migration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wanderung von Menschen / EDV Datenübertragung / Biologie Tierwanderung) — nach den Nomen 2026-11-01
+  'Mika', // zurückgestellt: Vorname / unbekanntes Wort — kein sicheres Nomen, Regel 14/18 2026-11-01
+  'Mikrokosmos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Welt der Kleinstlebewesen / Mensch als kleine Welt, Philosophie) — nach den Nomen 2026-11-01
+  'Mikrowelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mikrowellengerät / Physik elektromagnetische Welle) — nach den Nomen 2026-11-01
+  'Milde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mildes Wetter, Sanftheit / Nachsicht, Gnade) — nach den Nomen 2026-11-01
+  'Milieu', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziales Umfeld / Rotlichtmilieu / Biologie Lebensraum) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

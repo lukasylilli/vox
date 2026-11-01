@@ -2553,6 +2553,7 @@
 | ۲۳۷۶ | Metropolis | `substantiv_singular_alle.txt` | 2026-11-01 | seltene Nebenform von Metropole, Plural nicht sicher — Regel 14 | — |
 | ۲۳۷۷ | Metzler | `substantiv_singular_alle.txt` | 2026-11-01 | Familienname — kein sicheres Nomen, Regel 14/18 | — |
 | ۲۳۷۸ | Mieterbund | `substantiv_singular_alle.txt` | 2026-11-01 | Name einer Organisation (Deutscher Mieterbund) — Regel 18 | — |
+| ۲۳۷۹ | Mika | `substantiv_singular_alle.txt` | 2026-11-01 | Vorname / unbekanntes Wort — kein sicheres Nomen, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4076,3 +4077,8 @@
 | 1677 | Metamorphose | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Biologie Verwandlung von Tieren / allgemein Umgestaltung, Mythologie) |
 | 1678 | Methodik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lehre von den Methoden / Unterrichtsmethode, Vorgehensweise) |
 | 1679 | Meute | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Jagdhunde / abwertend Menschengruppe) |
+| 1680 | Migration | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wanderung von Menschen / EDV Datenübertragung / Biologie Tierwanderung) |
+| 1681 | Mikrokosmos | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Welt der Kleinstlebewesen / Mensch als kleine Welt, Philosophie) |
+| 1682 | Mikrowelle | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mikrowellengerät / Physik elektromagnetische Welle) |
+| 1683 | Milde | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mildes Wetter, Sanftheit / Nachsicht, Gnade) |
+| 1684 | Milieu | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziales Umfeld / Rotlichtmilieu / Biologie Lebensraum) |
