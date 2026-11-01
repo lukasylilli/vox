@@ -2606,6 +2606,7 @@
 | ۲۴۲۹ | Oman | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (Oman / der Oman: «in Oman» / «im Oman») — Regel 14 | — |
 | ۲۴۳۰ | Omega | `substantiv_singular_alle.txt` | 2026-11-02 | Buchstabe des griechischen Alphabets; Lernwortkarte/Gebrauch unsicher (auch Zeichen für Ohm) — Regel 14 | — |
 | ۲۴۳۱ | Orchestra | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort (Tanzplatz im antiken Theater) bzw. Schreibvariante; Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۴۳۲ | Orlean | `substantiv_singular_alle.txt` | 2026-11-02 | seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4292,3 +4293,9 @@
 | 1840 | Ordnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ordentlichkeit / Regelsystem, Vorschrift / Biologie: Rangstufe / «in Ordnung») |
 | 1841 | Organ | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Körperorgan / Einrichtung, Behörde / Zeitung als Sprachrohr / ugs. Stimme) |
 | 1842 | Organisation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Organisieren / Vereinigung, Verband) |
+| 1843 | Organismus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Lebewesen / gegliedertes Ganzes, System «der Organismus des Staates») |
+| 1844 | Orgie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: ausschweifendes Fest / übertragen Exzess «eine Orgie der Gewalt») |
+| 1845 | Orient | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vorderer und Mittlerer Osten / veraltet: Osten als Himmelsrichtung) |
+| 1846 | Orientierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Orientierungssinn, Zurechtfinden / Ausrichtung, Einstellung «politische Orientierung» / Information, Überblick) |
+| 1847 | Original | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Urfassung, echtes Werk / ugs. eigenwilliger Mensch «ein Original») |
+| 1848 | Orthodoxie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: orthodoxe Kirche, Glaube / strenge Rechtgläubigkeit, Festhalten an Lehrmeinungen) |

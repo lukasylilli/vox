@@ -4324,6 +4324,13 @@ const zurueckgestellt = <String>{
   'Organ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperorgan / Einrichtung, Behörde / Zeitung als Sprachrohr / ugs. Stimme) — nach den Nomen 2026-11-02
   'Organisation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Organisieren / Vereinigung, Verband) — nach den Nomen 2026-11-02
   'Orchestra', // zurückgestellt: Fachwort (Tanzplatz im antiken Theater) bzw. Schreibvariante; Gebrauch als Lernwort unsicher — Regel 14 2026-11-02
+  'Organismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebewesen / gegliedertes Ganzes, System «der Organismus des Staates») — nach den Nomen 2026-11-02
+  'Orgie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ausschweifendes Fest / übertragen Exzess «eine Orgie der Gewalt») — nach den Nomen 2026-11-02
+  'Orient', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorderer und Mittlerer Osten / veraltet: Osten als Himmelsrichtung) — nach den Nomen 2026-11-02
+  'Orientierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Orientierungssinn, Zurechtfinden / Ausrichtung, Einstellung «politische Orientierung» / Information, Überblick) — nach den Nomen 2026-11-02
+  'Original', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urfassung, echtes Werk / ugs. eigenwilliger Mensch «ein Original») — nach den Nomen 2026-11-02
+  'Orthodoxie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: orthodoxe Kirche, Glaube / strenge Rechtgläubigkeit, Festhalten an Lehrmeinungen) — nach den Nomen 2026-11-02
+  'Orlean', // zurückgestellt: seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
