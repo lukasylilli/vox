@@ -4179,6 +4179,10 @@ const zurueckgestellt = <String>{
   'Muschel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weichtier, Schale / Hör- und Sprechmuschel des Telefons) — nach den Nomen 2026-11-01
   'Muse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Göttin der Künste / Inspiration; «die leichte Muse») — nach den Nomen 2026-11-01
   'Musica', // zurückgestellt: lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 2026-11-01
+  'Muslime', // zurückgestellt: Pluralform von «Muslim» bzw. seltene feminine Form (die Muslime) — Lemma unklar — Regel 14 2026-11-01
+  'Muster', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzierung, Dessin / Probe, Warenmuster / Vorlage, Vorbild) — nach den Nomen 2026-11-01
+  'Mutation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie Veränderung im Erbgut / Medizin Stimmbruch) — nach den Nomen 2026-11-01
+  'Mutterland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herkunftsland / Kolonialmacht gegenüber Kolonien / Ursprungsland, «Mutterland des Fußballs») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

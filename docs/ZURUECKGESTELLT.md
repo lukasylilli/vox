@@ -2573,6 +2573,7 @@
 | ۲۳۹۶ | Mount | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, nur in Namen (Mount Everest) — Regel 14/18 | — |
 | ۲۳۹۷ | Multi | `substantiv_singular_alle.txt` | 2026-11-01 | Jargon-Kurzwort (multinationaler Konzern); Gebrauch und Plural nicht sicher — Regel 14 | — |
 | ۲۳۹۸ | Musica | `substantiv_singular_alle.txt` | 2026-11-01 | lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 | — |
+| ۲۳۹۹ | Muslime | `substantiv_singular_alle.txt` | 2026-11-01 | Pluralform von «Muslim» bzw. seltene feminine Form (die Muslime) — Lemma unklar — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4147,3 +4148,6 @@
 | 1728 | Mulde | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geländevertiefung / Trog, Backmulde / Container, Absetzmulde) |
 | 1729 | Muschel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Weichtier, Schale / Hör- und Sprechmuschel des Telefons) |
 | 1730 | Muse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Göttin der Künste / Inspiration; «die leichte Muse») |
+| 1731 | Muster | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Verzierung, Dessin / Probe, Warenmuster / Vorlage, Vorbild) |
+| 1732 | Mutation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Biologie Veränderung im Erbgut / Medizin Stimmbruch) |
+| 1733 | Mutterland | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Herkunftsland / Kolonialmacht gegenüber Kolonien / Ursprungsland, «Mutterland des Fußballs») |
