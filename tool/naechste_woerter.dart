@@ -4099,6 +4099,12 @@ const zurueckgestellt = <String>{
   'Mephisto', // zurückgestellt: literarische Figur / Eigenname (Teufel) — kein sicheres Nomen, Regel 14/18 2026-11-01
   'Messias', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Religion, Erlöser / übertragen Retter) — nach den Nomen 2026-11-01
   'Messlatte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Latte zum Messen, Sport / übertragen Maßstab) — nach den Nomen 2026-11-01
+  'Metaller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallarbeiter, umgangssprachlich / Fan von Heavy-Metal-Musik) — nach den Nomen 2026-11-01
+  'Metamorphose', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie Verwandlung von Tieren / allgemein Umgestaltung, Mythologie) — nach den Nomen 2026-11-01
+  'Meteorit', // zurückgestellt: Deklination schwankend (des Meteoriten / des Meteorits) — Regel 14 2026-11-01
+  'Meter', // zurückgestellt: Artikel doppelt (der/das Meter) — Regel 14 2026-11-01
+  'Methodik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre von den Methoden / Unterrichtsmethode, Vorgehensweise) — nach den Nomen 2026-11-01
+  'Metropolis', // zurückgestellt: seltene Nebenform von Metropole, Plural nicht sicher — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
