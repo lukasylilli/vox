@@ -4240,6 +4240,14 @@ const zurueckgestellt = <String>{
   'Niederlassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Filiale / Ansiedlung, Niederlassungsbewilligung / Praxiseröffnung) — nach den Nomen 2026-11-01
   'Niederschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regen, Schnee / Boxen K.-o.-Schlag / Chemie Bodensatz / «seinen Niederschlag finden») — nach den Nomen 2026-11-01
   'Niederschlagung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gewaltsame Unterdrückung eines Aufstands / Einstellung eines Verfahrens, Erlass einer Forderung) — nach den Nomen 2026-11-01
+  'Nimbus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Heiligenschein / Ansehen, Ruhm / Meteorologie Regenwolke) — nach den Nomen 2026-11-01
+  'Nippon', // zurückgestellt: japanischer Landesname, im Deutschen kaum gebräuchlich (Japan) — Regel 14 2026-11-01
+  'Nische', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mauernische / Marktnische, ökologische Nische) — nach den Nomen 2026-11-01
+  'Niveau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Höhe, Höhenlage / Leistungs-, Sprachniveau / geistiger Anspruch «Niveau haben») — nach den Nomen 2026-11-01
+  'Nix', // zurückgestellt: umgangssprachlich für «nichts» (Pronomen) bzw. «der Nix» Wassergeist — Wortart/Bedeutung unsicher — Regel 14 2026-11-01
+  'Nomenklatura', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis der Führungspositionen in der Sowjetunion / herrschende Führungsschicht) — nach den Nomen 2026-11-01
+  'Nomination', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kath. Kirche Benennung für ein Amt / bes. schweiz. Nominierung) — nach den Nomen 2026-11-01
+  'Nonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordensfrau / Nachtfalter / Dachziegel) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

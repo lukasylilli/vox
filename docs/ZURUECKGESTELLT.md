@@ -2592,6 +2592,8 @@
 | ۲۴۱۵ | Neuner | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۴۱۶ | Newsletter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Newsletter) — Regel 14 | — |
 | ۲۴۱۷ | Newtonmeter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Newtonmeter, wie Meter) — Regel 14 | — |
+| ۲۴۱۸ | Nippon | `substantiv_singular_alle.txt` | 2026-11-01 | japanischer Landesname, im Deutschen kaum gebräuchlich (Japan) — Regel 14 | — |
+| ۲۴۱۹ | Nix | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich für «nichts» (Pronomen) bzw. «der Nix» Wassergeist — Wortart/Bedeutung unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4208,3 +4210,9 @@
 | 1770 | Niederlassung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Filiale / Ansiedlung, Niederlassungsbewilligung / Praxiseröffnung) |
 | 1771 | Niederschlag | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Regen, Schnee / Boxen K.-o.-Schlag / Chemie Bodensatz / «seinen Niederschlag finden») |
 | 1772 | Niederschlagung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: gewaltsame Unterdrückung eines Aufstands / Einstellung eines Verfahrens, Erlass einer Forderung) |
+| 1773 | Nimbus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Heiligenschein / Ansehen, Ruhm / Meteorologie Regenwolke) |
+| 1774 | Nische | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mauernische / Marktnische, ökologische Nische) |
+| 1775 | Niveau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Höhe, Höhenlage / Leistungs-, Sprachniveau / geistiger Anspruch «Niveau haben») |
+| 1776 | Nomenklatura | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Verzeichnis der Führungspositionen in der Sowjetunion / herrschende Führungsschicht) |
+| 1777 | Nomination | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: kath. Kirche Benennung für ein Amt / bes. schweiz. Nominierung) |
+| 1778 | Nonne | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ordensfrau / Nachtfalter / Dachziegel) |
