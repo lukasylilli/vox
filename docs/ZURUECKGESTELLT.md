@@ -2571,6 +2571,8 @@
 | ۲۳۹۴ | Moslem | `substantiv_singular_alle.txt` | 2026-11-01 | ältere Nebenform von «Muslim»; Markierung (veraltend/abwertend empfunden) nicht sicher — Regel 14/17 | — |
 | ۲۳۹۵ | Moto | `substantiv_singular_alle.txt` | 2026-11-01 | kein sicheres deutsches Nomen — Regel 14 | — |
 | ۲۳۹۶ | Mount | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, nur in Namen (Mount Everest) — Regel 14/18 | — |
+| ۲۳۹۷ | Multi | `substantiv_singular_alle.txt` | 2026-11-01 | Jargon-Kurzwort (multinationaler Konzern); Gebrauch und Plural nicht sicher — Regel 14 | — |
+| ۲۳۹۸ | Musica | `substantiv_singular_alle.txt` | 2026-11-01 | lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4142,3 +4144,6 @@
 | 1725 | Motion | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: CH parlamentarischer Antrag / veraltet Bewegung) |
 | 1726 | Motiv | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Beweggrund / Bildmotiv, Gegenstand eines Kunstwerks / Musik) |
 | 1727 | Motor | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Maschine / übertragen treibende Kraft, «Motor der Wirtschaft») |
+| 1728 | Mulde | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geländevertiefung / Trog, Backmulde / Container, Absetzmulde) |
+| 1729 | Muschel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Weichtier, Schale / Hör- und Sprechmuschel des Telefons) |
+| 1730 | Muse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Göttin der Künste / Inspiration; «die leichte Muse») |

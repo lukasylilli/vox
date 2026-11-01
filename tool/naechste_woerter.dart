@@ -4174,6 +4174,11 @@ const zurueckgestellt = <String>{
   'Moto', // zurückgestellt: kein sicheres deutsches Nomen — Regel 14 2026-11-01
   'Motor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Maschine / übertragen treibende Kraft, «Motor der Wirtschaft») — nach den Nomen 2026-11-01
   'Mount', // zurückgestellt: englisches Wort, nur in Namen (Mount Everest) — Regel 14/18 2026-11-01
+  'Mulde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geländevertiefung / Trog, Backmulde / Container, Absetzmulde) — nach den Nomen 2026-11-01
+  'Multi', // zurückgestellt: Jargon-Kurzwort (multinationaler Konzern); Gebrauch und Plural nicht sicher — Regel 14 2026-11-01
+  'Muschel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weichtier, Schale / Hör- und Sprechmuschel des Telefons) — nach den Nomen 2026-11-01
+  'Muse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Göttin der Künste / Inspiration; «die leichte Muse») — nach den Nomen 2026-11-01
+  'Musica', // zurückgestellt: lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
