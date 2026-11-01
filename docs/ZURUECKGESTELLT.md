@@ -4221,3 +4221,8 @@
 | 1780 | Nordlicht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Polarlicht / ugs. scherzhaft Norddeutscher) |
 | 1781 | Norm | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Regel, Maßstab / technische Norm DIN / Arbeits-, Leistungsnorm) |
 | 1782 | Normale | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1/4 (mehrere Bedeutungen: Mathematik die Normale (Senkrechte) / substantiviertes Adjektiv das Normale) |
+| 1783 | Not | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Armut, Elend / Notlage, Gefahr / «mit knapper Not» / Notwendigkeit «ohne Not») |
+| 1784 | Note | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schulnote / Musiknote / diplomatische Note / Banknote / persönliche Note) |
+| 1785 | Nothilfe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Hilfe in einer Notlage / schweiz. Nothilfe für abgewiesene Asylsuchende) |
+| 1786 | Notierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Börsenkurs / Notenschrift in der Musik / das Notieren) |
+| 1787 | Notiz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Aufzeichnung / kurze Zeitungsmeldung / «Notiz nehmen von») |

@@ -4253,6 +4253,11 @@ const zurueckgestellt = <String>{
   'Norm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regel, Maßstab / technische Norm DIN / Arbeits-, Leistungsnorm) — nach den Nomen 2026-11-01
   'Normal', // zurückgestellt: meist kurz für «Normalbenzin» (das Normal); Gebrauch und Lemma unsicher — Regel 14 2026-11-01
   'Normale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (mehrere Bedeutungen: Mathematik die Normale (Senkrechte) / substantiviertes Adjektiv das Normale) — nach den Nomen 2026-11-01
+  'Not', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Armut, Elend / Notlage, Gefahr / «mit knapper Not» / Notwendigkeit «ohne Not») — nach den Nomen 2026-11-01
+  'Note', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulnote / Musiknote / diplomatische Note / Banknote / persönliche Note) — nach den Nomen 2026-11-01
+  'Nothilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfe in einer Notlage / schweiz. Nothilfe für abgewiesene Asylsuchende) — nach den Nomen 2026-11-01
+  'Notierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börsenkurs / Notenschrift in der Musik / das Notieren) — nach den Nomen 2026-11-01
+  'Notiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufzeichnung / kurze Zeitungsmeldung / «Notiz nehmen von») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
