@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_lohnfortzahlung",
+  "wort": "die Lohnfortzahlung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ادامه‌ی پرداخت دستمزد"
+    ],
+    "en": [
+      "continued payment of wages",
+      "sick pay"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Gesundheit"
+  ],
+  "ipa": "ˈloːnˌfɔʁtt͡saːlʊŋ",
+  "anmerkung": "In Österreich auch «Entgeltfortzahlung»",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Bei Krankheit gibt es Lohnfortzahlung.",
+      "uebersetzung": {
+        "fa": "در صورت بیماری دستمزد ادامه پیدا می‌کند.",
+        "en": "In case of illness wages continue to be paid."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Damit die Lohnfortzahlung im Krankheitsfall greift, muss der Arbeitnehmer rechtzeitig eine Krankmeldung abgeben.",
+      "uebersetzung": {
+        "fa": "برای این‌که ادامه‌ی پرداخت دستمزد در بیماری اعمال شود، کارمند باید به‌موقع گواهی بیماری تحویل دهد.",
+        "en": "For sick pay to apply, the employee must hand in a sick note in time."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Lohn (دستمزد) + Fortzahlung (ادامه‌ی پرداخت)",
+    "en": "Lohn (wage) + Fortzahlung (continued payment)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Lohnfortzahlungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Lohnfortzahlung im Krankheitsfall",
+        "beispiel": "Die Lohnfortzahlung im Krankheitsfall dauert sechs Wochen.",
+        "uebersetzung": {
+          "fa": "ادامه‌ی پرداخت دستمزد در بیماری شش هفته طول می‌کشد.",
+          "en": "Sick pay lasts six weeks."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Krankmeldung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی بیماری",
+          "en": "sick note"
+        },
+        "id_ref": "nomen_krankmeldung"
+      },
+      {
+        "wort": "der Arbeitnehmer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارمند، کارگر",
+          "en": "employee"
+        },
+        "id_ref": "nomen_arbeitnehmer"
+      },
+      {
+        "wort": "der Arbeitgeber",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارفرما",
+          "en": "employer"
+        },
+        "id_ref": "nomen_arbeitgeber"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

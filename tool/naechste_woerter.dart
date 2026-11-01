@@ -3967,6 +3967,13 @@ const zurueckgestellt = <String>{
   'Lobby', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hotelhalle, Vorhalle / Interessengruppe) — nach den Nomen 2026-11-01
   'Lockerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Lockern «Schraube, Muskeln» / Abschwächung von Regeln) — nach den Nomen 2026-11-01
   'Lodge', // zurückgestellt: Fremdwort (Unterkunft), Gebrauch und Genus im Deutschen nicht sicher — Regel 14 2026-11-01
+  'Loft', // zurückgestellt: Artikel doppelt (der/das Loft, Duden) — Regel 14 2026-11-01
+  'Loge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterloge / Pförtnerloge / Freimaurerloge) — nach den Nomen 2026-11-01
+  'Logik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre vom Denken / Folgerichtigkeit «die Logik einer Sache») — nach den Nomen 2026-11-01
+  'Logo', // zurückgestellt: Artikel doppelt (das/der Logo, Duden) — Regel 14 2026-11-01
+  'Logos', // zurückgestellt: Fachwort (Philosophie/Theologie) bzw. Pluralform von «Logo» — als Lemma nicht sicher, Regel 14 2026-11-01
+  'Lohn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arbeitsentgelt / Belohnung, Vergeltung «der Lohn für die Mühe») — nach den Nomen 2026-11-01
+  'Lokal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gaststätte / Raum, Versammlungslokal) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

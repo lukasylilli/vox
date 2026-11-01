@@ -2519,6 +2519,9 @@
 | ۲۳۴۲ | Live | `substantiv_singular_alle.txt` | 2026-11-01 | kein Nomen (Adverb/Adjektiv «live»), als Nomen nicht sicher — Regel 14 | — |
 | ۲۳۴۳ | Lloyd | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Firmen/Personen: Lloyd’s, Norddeutscher Lloyd) — Regel 18 | — |
 | ۲۳۴۴ | Lodge | `substantiv_singular_alle.txt` | 2026-11-01 | Fremdwort (Unterkunft), Gebrauch und Genus im Deutschen nicht sicher — Regel 14 | — |
+| ۲۳۴۵ | Loft | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Loft, Duden) — Regel 14 | — |
+| ۲۳۴۶ | Logo | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Logo, Duden) — Regel 14 | — |
+| ۲۳۴۷ | Logos | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort (Philosophie/Theologie) bzw. Pluralform von «Logo» — als Lemma nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3935,3 +3938,7 @@
 | 1570 | Literaturgeschichte | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Geschichte der Literatur / Werk, das sie darstellt) |
 | 1571 | Lobby | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Hotelhalle, Vorhalle / Interessengruppe) |
 | 1572 | Lockerung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Lockern «Schraube, Muskeln» / Abschwächung von Regeln) |
+| 1573 | Loge | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Theaterloge / Pförtnerloge / Freimaurerloge) |
+| 1574 | Logik | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Lehre vom Denken / Folgerichtigkeit «die Logik einer Sache») |
+| 1575 | Lohn | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Arbeitsentgelt / Belohnung, Vergeltung «der Lohn für die Mühe») |
+| 1576 | Lokal | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gaststätte / Raum, Versammlungslokal) |
