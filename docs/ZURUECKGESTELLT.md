@@ -4105,3 +4105,8 @@
 | 1698 | Mittelalter | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Epoche 500–1500 / scherzhaft Menschen mittleren Alters) |
 | 1699 | Mittelbau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mittlerer Gebäudeteil / akademischer Mittelbau an Hochschulen) |
 | 1700 | Mittelfeld | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Spielfeldmitte, Mannschaftsteil / Mittelplatz in einer Rangliste) |
+| 1701 | Mittelhand | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Anatomie Mittelhandknochen / Kartenspiel mittlerer Spieler) |
+| 1702 | Mittelklasse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / mittlere Preis- und Qualitätsklasse, z. B. Auto) |
+| 1703 | Mittelschule | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen je Land: AT Pflichtschule 10–14 / DE z. T. Realschule / CH höhere Schule) |
+| 1704 | Mittelstand | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / kleine und mittlere Unternehmen) |
+| 1705 | Mittelstufe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mittlere Schulklassen / mittleres Niveau eines Sprachkurses) |

@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mittelwert",
+  "wort": "der Mittelwert",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "میانگین",
+      "مقدار متوسط"
+    ],
+    "en": [
+      "mean",
+      "average",
+      "mean value"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Mathematik",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈmɪtl̩ˌveːɐ̯t",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir berechnen den Mittelwert.",
+      "uebersetzung": {
+        "fa": "میانگین را حساب می‌کنیم.",
+        "en": "We calculate the mean."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Mittelwert der Temperaturen lag im Juli höher als in den Jahren zuvor.",
+      "uebersetzung": {
+        "fa": "میانگین دما در ژوئیه بالاتر از سال‌های قبل بود.",
+        "en": "The mean temperature in July was higher than in previous years."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Durchschnitt",
+      "uebersetzung": {
+        "fa": "میانگین",
+        "en": "average"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "mittel- (میانی) + Wert (مقدار)",
+    "en": "mittel- (middle) + Wert (value)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Mittelwerte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Mittelwert aus + Dat",
+        "beispiel": "Der Mittelwert aus drei Messungen ist 120.",
+        "uebersetzung": {
+          "fa": "میانگین سه اندازه‌گیری ۱۲۰ است.",
+          "en": "The mean of three measurements is 120."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Durchschnitt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میانگین",
+          "en": "average"
+        },
+        "id_ref": "nomen_durchschnitt"
+      },
+      {
+        "wort": "berechnen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "محاسبه کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_berechnen"
+      },
+      {
+        "wort": "die Statistik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آمار",
+          "en": "statistics"
+        },
+        "id_ref": "nomen_statistik"
+      },
+      {
+        "wort": "der Wert",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مقدار، ارزش",
+          "en": "value"
+        },
+        "id_ref": "nomen_wert"
+      },
+      {
+        "wort": "messen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اندازه گرفتن",
+          "en": "to measure"
+        },
+        "id_ref": "verb_messen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

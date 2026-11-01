@@ -4137,6 +4137,11 @@ const zurueckgestellt = <String>{
   'Mittelalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Epoche 500–1500 / scherzhaft Menschen mittleren Alters) — nach den Nomen 2026-11-01
   'Mittelbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mittlerer Gebäudeteil / akademischer Mittelbau an Hochschulen) — nach den Nomen 2026-11-01
   'Mittelfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielfeldmitte, Mannschaftsteil / Mittelplatz in einer Rangliste) — nach den Nomen 2026-11-01
+  'Mittelhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anatomie Mittelhandknochen / Kartenspiel mittlerer Spieler) — nach den Nomen 2026-11-01
+  'Mittelklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / mittlere Preis- und Qualitätsklasse, z. B. Auto) — nach den Nomen 2026-11-01
+  'Mittelschule', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen je Land: AT Pflichtschule 10–14 / DE z. T. Realschule / CH höhere Schule) — nach den Nomen 2026-11-01
+  'Mittelstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / kleine und mittlere Unternehmen) — nach den Nomen 2026-11-01
+  'Mittelstufe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mittlere Schulklassen / mittleres Niveau eines Sprachkurses) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
