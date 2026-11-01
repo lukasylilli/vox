@@ -4185,6 +4185,9 @@ const zurueckgestellt = <String>{
   'Mutterland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herkunftsland / Kolonialmacht gegenüber Kolonien / Ursprungsland, «Mutterland des Fußballs») — nach den Nomen 2026-11-01
   'Mysterium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimnis, Rätsel / Religion Geheimkult, Mysterienspiel) — nach den Nomen 2026-11-01
   'Mythos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Göttersage / verklärte Person, Sache / falsche Vorstellung, «Es ist ein Mythos, dass …») — nach den Nomen 2026-11-01
+  'Nachfrage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft Bedarf, Nachfrage nach Waren / Erkundigung, Rückfrage) — nach den Nomen 2026-11-01
+  'Nachlass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erbe, hinterlassenes Vermögen / Preisnachlass, Rabatt / Nachlassen, Abnahme) — nach den Nomen 2026-11-01
+  'Nachrede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «üble Nachrede», Verleumdung / Nachwort, Epilog) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
