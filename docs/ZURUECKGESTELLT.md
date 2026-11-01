@@ -2534,6 +2534,8 @@
 | ۲۳۵۷ | Madison | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Stadt/Person, englisch) — Bezug nicht eindeutig, Regel 14/18 | — |
 | ۲۳۵۸ | Mahl | `substantiv_singular_alle.txt` | 2026-11-01 | gehoben; Plural doppelt (Mähler/Mahle) und Gebrauch nur in Wendungen sicher — Regel 14 | — |
 | ۲۳۵۹ | Mahr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/landschaftlich (Nachtmahr), Gebrauch nicht sicher — Regel 14 | — |
+| ۲۳۶۰ | Mandl | `substantiv_singular_alle.txt` | 2026-11-01 | österr./bair. ugs. für Männchen, Gebrauch und Plural nicht sicher — Regel 14 | — |
+| ۲۳۶۱ | Mannequin | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Mannequin) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3988,3 +3990,11 @@
 | 1608 | Management | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leitung, Führung als Tätigkeit / die Führungskräfte eines Unternehmens) |
 | 1609 | Manager | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuer von Künstlern oder Sportlern) |
 | 1610 | Managerin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuerin von Künstlern oder Sportlern) |
+| 1611 | Mandat | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auftrag, Vollmacht «Anwaltsmandat» / Sitz eines Abgeordneten) |
+| 1612 | Mandatar | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bevollmächtigter / österr. Abgeordneter) |
+| 1613 | Manier | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Art und Weise, Stil / Plural «Manieren» = Umgangsformen) |
+| 1614 | Manifest | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Grundsatzerklärung, Programm / Seefahrt Ladungsverzeichnis) |
+| 1615 | Manifestation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Sichtbarwerden / Medizin Auftreten einer Krankheit / schweiz. Kundgebung) |
+| 1616 | Manipulation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: gezielte Beeinflussung / Handhabung, Handgriff / Medizin) |
+| 1617 | Manko | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mangel, Nachteil / Kaufmannssprache Fehlbetrag) |
+| 1618 | Mannschaft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sportteam / Besatzung eines Schiffes, Flugzeugs / Truppe) |

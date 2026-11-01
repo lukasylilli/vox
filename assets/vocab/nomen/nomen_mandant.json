@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mandant",
+  "wort": "der Mandant",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "موکل"
+    ],
+    "en": [
+      "client (of a lawyer)"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Beruf"
+  ],
+  "ipa": "manˈdant",
+  "anmerkung": "Vor allem bei Rechtsanwälten und Steuerberatern; weiblich: die Mandantin",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Anwalt spricht mit seinem Mandanten.",
+      "uebersetzung": {
+        "fa": "وکیل با موکلش صحبت می‌کند.",
+        "en": "The lawyer is talking to his client."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Anwältin rät ihrem Mandanten, vor Gericht nichts zu sagen, solange die Beweise unklar sind.",
+      "uebersetzung": {
+        "fa": "وکیل به موکلش توصیه می‌کند تا زمانی که مدارک روشن نیست، در دادگاه چیزی نگوید.",
+        "en": "The lawyer advises her client to say nothing in court as long as the evidence is unclear."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Klient",
+      "uebersetzung": {
+        "fa": "موکل، مراجع",
+        "en": "client"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lateinisch mandans (سفارش‌دهنده)",
+    "en": "Latin mandans (one who commissions)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Mandanten",
+    "deklinationstyp": "n-deklination",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Mandanten vertreten",
+        "beispiel": "Sie vertritt den Mandanten vor Gericht.",
+        "uebersetzung": {
+          "fa": "او موکل را در دادگاه نمایندگی می‌کند.",
+          "en": "She represents the client in court."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Rechtsanwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل دادگستری",
+          "en": "lawyer"
+        },
+        "id_ref": "nomen_rechtsanwalt"
+      },
+      {
+        "wort": "der Kunde",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مشتری",
+          "en": "customer"
+        },
+        "id_ref": "nomen_kunde"
+      },
+      {
+        "wort": "vertreten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نمایندگی کردن",
+          "en": "to represent"
+        },
+        "id_ref": "verb_vertreten"
+      },
+      {
+        "wort": "die Vollmacht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "وکالت‌نامه",
+          "en": "power of attorney"
+        },
+        "id_ref": "nomen_vollmacht"
+      },
+      {
+        "wort": "beraten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مشاوره دادن",
+          "en": "to advise"
+        },
+        "id_ref": "verb_beraten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

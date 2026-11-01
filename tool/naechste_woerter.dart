@@ -4020,6 +4020,16 @@ const zurueckgestellt = <String>{
   'Management', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitung, Führung als Tätigkeit / die Führungskräfte eines Unternehmens) — nach den Nomen 2026-11-01
   'Manager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuer von Künstlern oder Sportlern) — nach den Nomen 2026-11-01
   'Managerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führungskraft im Unternehmen / Betreuerin von Künstlern oder Sportlern) — nach den Nomen 2026-11-01
+  'Mandat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftrag, Vollmacht «Anwaltsmandat» / Sitz eines Abgeordneten) — nach den Nomen 2026-11-01
+  'Mandatar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bevollmächtigter / österr. Abgeordneter) — nach den Nomen 2026-11-01
+  'Mandl', // zurückgestellt: österr./bair. ugs. für Männchen, Gebrauch und Plural nicht sicher — Regel 14 2026-11-01
+  'Manier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art und Weise, Stil / Plural «Manieren» = Umgangsformen) — nach den Nomen 2026-11-01
+  'Manifest', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundsatzerklärung, Programm / Seefahrt Ladungsverzeichnis) — nach den Nomen 2026-11-01
+  'Manifestation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Sichtbarwerden / Medizin Auftreten einer Krankheit / schweiz. Kundgebung) — nach den Nomen 2026-11-01
+  'Manipulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gezielte Beeinflussung / Handhabung, Handgriff / Medizin) — nach den Nomen 2026-11-01
+  'Manko', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mangel, Nachteil / Kaufmannssprache Fehlbetrag) — nach den Nomen 2026-11-01
+  'Mannequin', // zurückgestellt: Artikel doppelt (das/der Mannequin) — Regel 14 2026-11-01
+  'Mannschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportteam / Besatzung eines Schiffes, Flugzeugs / Truppe) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
