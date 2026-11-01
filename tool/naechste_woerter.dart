@@ -4269,6 +4269,12 @@ const zurueckgestellt = <String>{
   'Nussbaum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baum / Holz «Möbel aus Nussbaum») — nach den Nomen 2026-11-02
   'Oase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserstelle in der Wüste / übertragen Ort der Ruhe) — nach den Nomen 2026-11-02
   'Ob', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: der Ob, Fluss in Sibirien / das Ob «das Ob und Wie») — nach den Nomen 2026-11-02
+  'Oberdorf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: oberer Teil eines Dorfes / häufiger Ortsname, z. B. Oberdorf in der Schweiz) — nach den Nomen 2026-11-02
+  'Oberhand', // zurückgestellt: fast nur in festen Wendungen («die Oberhand gewinnen/behalten/haben») — Regel 14 2026-11-02
+  'Oberklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberschicht der Gesellschaft / obere Schulklassen / Fahrzeugklasse, Luxusklasse) — nach den Nomen 2026-11-02
+  'Oberkommandierender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip/Adjektiv: der/die Oberkommandierende) — nach den Nomen 2026-11-02
+  'Oberland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: höher gelegener Landesteil / Eigenname, z. B. Berner Oberland) — nach den Nomen 2026-11-02
+  'Oberleitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrleitung von Bahn/Straßenbahn / oberste Leitung, Führung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

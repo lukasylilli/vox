@@ -2595,6 +2595,7 @@
 | ۲۴۱۸ | Nippon | `substantiv_singular_alle.txt` | 2026-11-01 | japanischer Landesname, im Deutschen kaum gebräuchlich (Japan) — Regel 14 | — |
 | ۲۴۱۹ | Nix | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich für «nichts» (Pronomen) bzw. «der Nix» Wassergeist — Wortart/Bedeutung unsicher — Regel 14 | — |
 | ۲۴۲۰ | Normal | `substantiv_singular_alle.txt` | 2026-11-01 | meist kurz für «Normalbenzin» (das Normal); Gebrauch und Lemma unsicher — Regel 14 | — |
+| ۲۴۲۱ | Oberhand | `substantiv_singular_alle.txt` | 2026-11-02 | fast nur in festen Wendungen («die Oberhand gewinnen/behalten/haben») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4237,3 +4238,8 @@
 | 1796 | Nussbaum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Baum / Holz «Möbel aus Nussbaum») |
 | 1797 | Oase | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wasserstelle in der Wüste / übertragen Ort der Ruhe) |
 | 1798 | Ob | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph mit anderem Artikel: der Ob, Fluss in Sibirien / das Ob «das Ob und Wie») |
+| 1799 | Oberdorf | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: oberer Teil eines Dorfes / häufiger Ortsname, z. B. Oberdorf in der Schweiz) |
+| 1800 | Oberklasse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Oberschicht der Gesellschaft / obere Schulklassen / Fahrzeugklasse, Luxusklasse) |
+| 1801 | Oberkommandierender | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Partizip/Adjektiv: der/die Oberkommandierende) |
+| 1802 | Oberland | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: höher gelegener Landesteil / Eigenname, z. B. Berner Oberland) |
+| 1803 | Oberleitung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fahrleitung von Bahn/Straßenbahn / oberste Leitung, Führung) |
