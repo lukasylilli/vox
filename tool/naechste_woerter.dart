@@ -4044,6 +4044,14 @@ const zurueckgestellt = <String>{
   'Markenzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) — nach den Nomen 2026-11-01
   'Markierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Markieren / Zeichen, Kennzeichnung) — nach den Nomen 2026-11-01
   'Markt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wochenmarkt, Marktplatz / Wirtschaft: Angebot und Nachfrage / Marktgemeinde) — nach den Nomen 2026-11-01
+  'Marquis', // zurückgestellt: französischer Adelstitel, selten; Aussprache/Plural im Deutschen nicht sicher — Regel 14 2026-11-01
+  'Marschrichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Richtung eines Marsches / übertragen Vorgehensweise, Kurs) — nach den Nomen 2026-11-01
+  'Marschroute', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weg eines Marsches / übertragen Strategie, Vorgehen) — nach den Nomen 2026-11-01
+  'Martini', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph: Martini «Martinstag, 11. November» / der Martini «Cocktail, Wermut») — nach den Nomen 2026-11-01
+  'Martyrium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Opfertod für den Glauben / übertragen große Qual) — nach den Nomen 2026-11-01
+  'Masche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlinge beim Stricken, Netz / ugs. Trick) — nach den Nomen 2026-11-01
+  'Maschine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät / ugs. Flugzeug, Motorrad / Schreibmaschine) — nach den Nomen 2026-11-01
+  'Maschinenbauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ingenieur, Facharbeiter / Unternehmen des Maschinenbaus) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

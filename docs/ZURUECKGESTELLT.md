@@ -2538,6 +2538,7 @@
 | ۲۳۶۱ | Mannequin | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Mannequin) — Regel 14 | — |
 | ۲۳۶۲ | Mara | `substantiv_singular_alle.txt` | 2026-11-01 | Tiername (Pampashase) oder Name — Bezug nicht eindeutig, Regel 14 | — |
 | ۲۳۶۳ | Marienkirche | `substantiv_singular_alle.txt` | 2026-11-01 | Kirchenname vieler Kirchen — kein allgemeines Nomen, Regel 14/18 | — |
+| ۲۳۶۴ | Marquis | `substantiv_singular_alle.txt` | 2026-11-01 | französischer Adelstitel, selten; Aussprache/Plural im Deutschen nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4012,3 +4013,10 @@
 | 1628 | Markenzeichen | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) |
 | 1629 | Markierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Markieren / Zeichen, Kennzeichnung) |
 | 1630 | Markt | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wochenmarkt, Marktplatz / Wirtschaft: Angebot und Nachfrage / Marktgemeinde) |
+| 1631 | Marschrichtung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Richtung eines Marsches / übertragen Vorgehensweise, Kurs) |
+| 1632 | Marschroute | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Weg eines Marsches / übertragen Strategie, Vorgehen) |
+| 1633 | Martini | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 3 (Homograph: Martini «Martinstag, 11. November» / der Martini «Cocktail, Wermut») |
+| 1634 | Martyrium | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Opfertod für den Glauben / übertragen große Qual) |
+| 1635 | Masche | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schlinge beim Stricken, Netz / ugs. Trick) |
+| 1636 | Maschine | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gerät / ugs. Flugzeug, Motorrad / Schreibmaschine) |
+| 1637 | Maschinenbauer | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ingenieur, Facharbeiter / Unternehmen des Maschinenbaus) |
