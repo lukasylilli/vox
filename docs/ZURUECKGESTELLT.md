@@ -2539,6 +2539,7 @@
 | ۲۳۶۲ | Mara | `substantiv_singular_alle.txt` | 2026-11-01 | Tiername (Pampashase) oder Name — Bezug nicht eindeutig, Regel 14 | — |
 | ۲۳۶۳ | Marienkirche | `substantiv_singular_alle.txt` | 2026-11-01 | Kirchenname vieler Kirchen — kein allgemeines Nomen, Regel 14/18 | — |
 | ۲۳۶۴ | Marquis | `substantiv_singular_alle.txt` | 2026-11-01 | französischer Adelstitel, selten; Aussprache/Plural im Deutschen nicht sicher — Regel 14 | — |
+| ۲۳۶۵ | Match | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das Match; österr./schweiz. auch der Match) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4023,3 +4024,9 @@
 | 1638 | Maschinerie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mechanismus, Antrieb / übertragen Apparat, Bürokratie) |
 | 1639 | Maske | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gesichtsmaske, Schutzmaske / Theater, Verkleidung / Computer Eingabemaske) |
 | 1640 | Masse | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Menge, Menschenmenge / Physik Masse / breiige Mischung, Teig) |
+| 1641 | Master | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: akademischer Grad, Masterstudium / Originalaufnahme / Spielleiter) |
+| 1642 | Material | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Werkstoff, Rohstoff / Unterlagen, Hilfsmittel, Beweismaterial) |
+| 1643 | Materialismus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: philosophische Lehre / Einstellung, die nur Besitz schätzt) |
+| 1644 | Materie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stoff, Physik / Gegenstand eines Fachgebiets, Thema) |
+| 1645 | Matrix | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mathematik / Biologie, Technik Grundsubstanz, Form) |
+| 1646 | Matsch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: breiiger Schmutz, Schneematsch / Kartenspiel) |

@@ -4055,6 +4055,13 @@ const zurueckgestellt = <String>{
   'Maschinerie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mechanismus, Antrieb / übertragen Apparat, Bürokratie) — nach den Nomen 2026-11-01
   'Maske', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesichtsmaske, Schutzmaske / Theater, Verkleidung / Computer Eingabemaske) — nach den Nomen 2026-11-01
   'Masse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Menge, Menschenmenge / Physik Masse / breiige Mischung, Teig) — nach den Nomen 2026-11-01
+  'Master', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: akademischer Grad, Masterstudium / Originalaufnahme / Spielleiter) — nach den Nomen 2026-11-01
+  'Match', // zurückgestellt: Artikel doppelt (das Match; österr./schweiz. auch der Match) — Regel 14 2026-11-01
+  'Material', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkstoff, Rohstoff / Unterlagen, Hilfsmittel, Beweismaterial) — nach den Nomen 2026-11-01
+  'Materialismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: philosophische Lehre / Einstellung, die nur Besitz schätzt) — nach den Nomen 2026-11-01
+  'Materie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff, Physik / Gegenstand eines Fachgebiets, Thema) — nach den Nomen 2026-11-01
+  'Matrix', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik / Biologie, Technik Grundsubstanz, Form) — nach den Nomen 2026-11-01
+  'Matsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: breiiger Schmutz, Schneematsch / Kartenspiel) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
