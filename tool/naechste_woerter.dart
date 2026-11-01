@@ -4197,6 +4197,12 @@ const zurueckgestellt = <String>{
   'Nadel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nähnadel / Nadel von Nadelbäumen / Kanüle, Anstecknadel) — nach den Nomen 2026-11-01
   'Nagel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallstift / Finger-, Fußnagel) — nach den Nomen 2026-11-01
   'Naht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: genähte Verbindung / Medizin Wundnaht / Schweißnaht) — nach den Nomen 2026-11-01
+  'Narbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wundnarbe / Botanik Teil des Stempels) — nach den Nomen 2026-11-01
+  'Narben', // zurückgestellt: Pluralform von «Narbe», keine eigene Grundform — Regel 14 2026-11-01
+  'Nass', // zurückgestellt: «das Nass» nur gehoben/scherzhaft («das kühle Nass»); Gebrauch als Lernwort unsicher — Regel 14 2026-11-01
+  'Nationalcoach', // zurückgestellt: Duden-Eintrag und Gebrauch (bes. CH, Sportjargon) nicht sicher — Regel 14 2026-11-01
+  'Nationale', // zurückgestellt: österr. «das Nationale» (Personalien) — Genus und Gebrauch nicht sicher — Regel 14 2026-11-01
+  'Nationalgalerie', // zurückgestellt: meist Name einer bestimmten Institution (Berlin, London) — Regel 18 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

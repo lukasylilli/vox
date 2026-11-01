@@ -2575,6 +2575,11 @@
 | ۲۳۹۸ | Musica | `substantiv_singular_alle.txt` | 2026-11-01 | lateinisch, nur in festen Fügungen (Musica sacra/viva) — Regel 14 | — |
 | ۲۳۹۹ | Muslime | `substantiv_singular_alle.txt` | 2026-11-01 | Pluralform von «Muslim» bzw. seltene feminine Form (die Muslime) — Lemma unklar — Regel 14 | — |
 | ۲۴۰۰ | Nachsehen | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung «das Nachsehen haben» — Regel 14 | — |
+| ۲۴۰۱ | Narben | `substantiv_singular_alle.txt` | 2026-11-01 | Pluralform von «Narbe», keine eigene Grundform — Regel 14 | — |
+| ۲۴۰۲ | Nass | `substantiv_singular_alle.txt` | 2026-11-01 | «das Nass» nur gehoben/scherzhaft («das kühle Nass»); Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۴۰۳ | Nationalcoach | `substantiv_singular_alle.txt` | 2026-11-01 | Duden-Eintrag und Gebrauch (bes. CH, Sportjargon) nicht sicher — Regel 14 | — |
+| ۲۴۰۴ | Nationale | `substantiv_singular_alle.txt` | 2026-11-01 | österr. «das Nationale» (Personalien) — Genus und Gebrauch nicht sicher — Regel 14 | — |
+| ۲۴۰۵ | Nationalgalerie | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Institution (Berlin, London) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4165,3 +4170,4 @@
 | 1744 | Nadel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nähnadel / Nadel von Nadelbäumen / Kanüle, Anstecknadel) |
 | 1745 | Nagel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Metallstift / Finger-, Fußnagel) |
 | 1746 | Naht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: genähte Verbindung / Medizin Wundnaht / Schweißnaht) |
+| 1747 | Narbe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wundnarbe / Botanik Teil des Stempels) |
