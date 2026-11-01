@@ -4229,6 +4229,9 @@ const zurueckgestellt = <String>{
   'Neuauflage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neue Auflage eines Buches / übertragen Wiederholung «Neuauflage des Duells») — nach den Nomen 2026-11-01
   'Neubau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bau eines neuen Gebäudes / das neue Gebäude selbst) — nach den Nomen 2026-11-01
   'Neubauer', // zurückgestellt: vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 2026-11-01
+  'Neuheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Neusein / neues Produkt, etwas Neues) — nach den Nomen 2026-11-01
+  'Neuland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neu urbar gemachtes Land / übertragen unbekanntes Gebiet «Neuland betreten») — nach den Nomen 2026-11-01
+  'Neuner', // zurückgestellt: umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

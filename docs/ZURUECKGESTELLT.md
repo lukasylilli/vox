@@ -2589,6 +2589,7 @@
 | ۲۴۱۲ | Neige | `substantiv_singular_alle.txt` | 2026-11-01 | fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 | — |
 | ۲۴۱۳ | Net | `substantiv_singular_alle.txt` | 2026-11-01 | englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 | — |
 | ۲۴۱۴ | Neubauer | `substantiv_singular_alle.txt` | 2026-11-01 | vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 | — |
+| ۲۴۱۵ | Neuner | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4197,3 +4198,5 @@
 | 1762 | Netzwerk | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Computernetzwerk / Beziehungsnetz, soziales Netzwerk) |
 | 1763 | Neuauflage | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: neue Auflage eines Buches / übertragen Wiederholung «Neuauflage des Duells») |
 | 1764 | Neubau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bau eines neuen Gebäudes / das neue Gebäude selbst) |
+| 1765 | Neuheit | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Neusein / neues Produkt, etwas Neues) |
+| 1766 | Neuland | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: neu urbar gemachtes Land / übertragen unbekanntes Gebiet «Neuland betreten») |
