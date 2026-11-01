@@ -2590,6 +2590,7 @@
 | ۲۴۱۳ | Net | `substantiv_singular_alle.txt` | 2026-11-01 | englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 | — |
 | ۲۴۱۴ | Neubauer | `substantiv_singular_alle.txt` | 2026-11-01 | vor allem Familienname; als Gattungswort (Neusiedler) unsicher — Regel 14 | — |
 | ۲۴۱۵ | Neuner | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۴۱۶ | Newsletter | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (der/das Newsletter) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4200,3 +4201,5 @@
 | 1764 | Neubau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bau eines neuen Gebäudes / das neue Gebäude selbst) |
 | 1765 | Neuheit | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Neusein / neues Produkt, etwas Neues) |
 | 1766 | Neuland | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: neu urbar gemachtes Land / übertragen unbekanntes Gebiet «Neuland betreten») |
+| 1767 | Neustadt | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1/3 (mehrere Bedeutungen: neuer Stadtteil / zahlreiche Ortsnamen, z. B. Wiener Neustadt) |
+| 1768 | Neustart | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Computer neu starten / Neuanfang) |

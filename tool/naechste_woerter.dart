@@ -4232,6 +4232,9 @@ const zurueckgestellt = <String>{
   'Neuheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Neusein / neues Produkt, etwas Neues) — nach den Nomen 2026-11-01
   'Neuland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: neu urbar gemachtes Land / übertragen unbekanntes Gebiet «Neuland betreten») — nach den Nomen 2026-11-01
   'Neuner', // zurückgestellt: umgangssprachlich/regional (Ziffer 9, Buslinie, österr. Schulnote); Gebrauch als Lernwort unsicher — Regel 14 2026-11-01
+  'Neustadt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: neuer Stadtteil / zahlreiche Ortsnamen, z. B. Wiener Neustadt) — nach den Nomen 2026-11-01
+  'Neustart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer neu starten / Neuanfang) — nach den Nomen 2026-11-01
+  'Newsletter', // zurückgestellt: Artikel doppelt (der/das Newsletter) — Regel 14 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
