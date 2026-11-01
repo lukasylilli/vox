@@ -3905,6 +3905,13 @@ const zurueckgestellt = <String>{
   'Leis', // zurückgestellt: Fachwort (mittelalterliches geistliches Volkslied) bzw. Nebenform von «leise» — gemeintes Wort und Gebrauch nicht sicher, Regel 14 2026-10-31
   'Leisten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Leisten = Schuhmacherform «alles über einen Leisten schlagen» ↔ das Leisten = substantivierter Infinitiv von leisten) — nach den Nomen 2026-10-31
   'Leistung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ergebnis, Arbeitsleistung / Physik, Technik: Leistung in Watt / Dienstleistung, Versicherungsleistung, Zahlung) — nach den Nomen 2026-10-31
+  'Leitfaden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kurzes Lehrbuch, Anleitung / leitender Gedanke, roter Faden) — nach den Nomen 2026-10-31
+  'Leitgeb', // zurückgestellt: österreichisch-mundartlich/veraltet für Wirt, sonst Familienname — Gebrauch nicht sicher, Regel 14 2026-10-31
+  'Leitlinie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundsatz, Richtlinie / Verkehr: unterbrochene Linie auf der Fahrbahn / Mathematik) — nach den Nomen 2026-10-31
+  'Leitmotiv', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik, Literatur: wiederkehrendes Motiv / übertragen: Leitgedanke) — nach den Nomen 2026-10-31
+  'Leitschiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr./schweiz.: Leitplanke / Technik, Bahn: führende Schiene) — nach den Nomen 2026-10-31
+  'Leitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Führung, Management / Rohrleitung, Stromleitung / Telefonleitung «in der Leitung sein») — nach den Nomen 2026-10-31
+  'Lektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterrichtsstunde, Kapitel im Lehrbuch / übertragen: Lehre, Zurechtweisung «jemandem eine Lektion erteilen») — nach den Nomen 2026-10-31
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

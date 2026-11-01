@@ -2500,6 +2500,7 @@
 | ۲۳۲۳ | Leichter | `substantiv_singular_alle.txt` | 2026-10-31 | Seemannssprache (Lastkahn zum Leichtern) — sonst Komparativ von «leicht»; gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۲۴ | Leidwesen | `substantiv_singular_alle.txt` | 2026-10-31 | nur in der festen Wendung «zu meinem/seinem Leidwesen» — wie im Handumdrehen, Regel 14 | — |
 | ۲۳۲۵ | Leis | `substantiv_singular_alle.txt` | 2026-10-31 | Fachwort (mittelalterliches geistliches Volkslied) bzw. Nebenform von «leise» — gemeintes Wort und Gebrauch nicht sicher, Regel 14 | — |
+| ۲۳۲۶ | Leitgeb | `substantiv_singular_alle.txt` | 2026-10-31 | österreichisch-mundartlich/veraltet für Wirt, sonst Familienname — Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3873,3 +3874,9 @@
 | 1527 | Leinwand | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Malerleinwand / Projektionsfläche im Kino / Gewebe) |
 | 1528 | Leisten | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 2 (Homograph: der Leisten = Schuhmacherform «alles über einen Leisten schlagen» ↔ das Leisten = substantivierter Infinitiv von leisten) |
 | 1529 | Leistung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Ergebnis, Arbeitsleistung / Physik, Technik: Leistung in Watt / Dienstleistung, Versicherungsleistung, Zahlung) |
+| 1530 | Leitfaden | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: kurzes Lehrbuch, Anleitung / leitender Gedanke, roter Faden) |
+| 1531 | Leitlinie | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Grundsatz, Richtlinie / Verkehr: unterbrochene Linie auf der Fahrbahn / Mathematik) |
+| 1532 | Leitmotiv | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Musik, Literatur: wiederkehrendes Motiv / übertragen: Leitgedanke) |
+| 1533 | Leitschiene | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: österr./schweiz.: Leitplanke / Technik, Bahn: führende Schiene) |
+| 1534 | Leitung | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Führung, Management / Rohrleitung, Stromleitung / Telefonleitung «in der Leitung sein») |
+| 1535 | Lektion | `substantiv_singular_alle.txt` | 2026-10-31 | Fall 1 (mehrere Bedeutungen: Unterrichtsstunde, Kapitel im Lehrbuch / übertragen: Lehre, Zurechtweisung «jemandem eine Lektion erteilen») |
