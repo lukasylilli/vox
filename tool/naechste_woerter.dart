@@ -4062,6 +4062,15 @@ const zurueckgestellt = <String>{
   'Materie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff, Physik / Gegenstand eines Fachgebiets, Thema) — nach den Nomen 2026-11-01
   'Matrix', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik / Biologie, Technik Grundsubstanz, Form) — nach den Nomen 2026-11-01
   'Matsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: breiiger Schmutz, Schneematsch / Kartenspiel) — nach den Nomen 2026-11-01
+  'Mattscheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bildschirm, ugs. Fernseher / mattes Glas / ugs. «Mattscheibe haben» = benommen sein) — nach den Nomen 2026-11-01
+  'Matz', // zurückgestellt: umgangssprachlich/Kosename, Gebrauch nicht sicher — Regel 14 2026-11-01
+  'Mauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wand aus Steinen / die Berliner Mauer / Sport Spielermauer beim Freistoß) — nach den Nomen 2026-11-01
+  'Mauerbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bau einer Mauer / Bau der Berliner Mauer 1961) — nach den Nomen 2026-11-01
+  'Maul', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mund eines Tieres / derb Mund eines Menschen) — nach den Nomen 2026-11-01
+  'Maulkorb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Korb für Hunde / übertragen Redeverbot) — nach den Nomen 2026-11-01
+  'Maulwurf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / übertragen eingeschleuster Spion) — nach den Nomen 2026-11-01
+  'Mautner', // zurückgestellt: veraltet/österr. für Zöllner, auch Familienname — Gebrauch nicht sicher, Regel 14 2026-11-01
+  'Maximum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Höchstmaß, Höchstwert / Mathematik / Meteorologie Hochdruckgebiet) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

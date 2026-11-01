@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "nomen_maut",
+  "wort": "die Maut",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "عوارض جاده",
+      "عوارض آزادراه"
+    ],
+    "en": [
+      "toll",
+      "road toll"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "maʊ̯t",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Auf der Autobahn muss man Maut zahlen.",
+      "uebersetzung": {
+        "fa": "در آزادراه باید عوارض پرداخت.",
+        "en": "You have to pay a toll on the motorway."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für den Tunnel zahlt man eine extra Maut, obwohl man schon eine Vignette hat.",
+      "uebersetzung": {
+        "fa": "برای تونل باید عوارض جداگانه پرداخت، با اینکه برچسب عوارض آزادراه را داری.",
+        "en": "You pay an extra toll for the tunnel even though you already have a vignette."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Lkw-Maut",
+      "uebersetzung": {
+        "fa": "عوارض کامیون",
+        "en": "truck toll"
+      }
+    },
+    {
+      "wort": "die Mautstelle",
+      "uebersetzung": {
+        "fa": "باجه‌ی عوارض",
+        "en": "toll station"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Mauten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Maut für + Akk",
+        "beispiel": "Die Maut für den Brenner ist ziemlich teuer.",
+        "uebersetzung": {
+          "fa": "عوارض گذرگاه برنر نسبتاً گران است.",
+          "en": "The toll for the Brenner Pass is quite expensive."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Autobahn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آزادراه",
+          "en": "motorway"
+        },
+        "id_ref": "nomen_autobahn"
+      },
+      {
+        "wort": "die Gebühr",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "هزینه، عوارض",
+          "en": "fee"
+        },
+        "id_ref": "nomen_gebuehr"
+      },
+      {
+        "wort": "die Vignette",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برچسب عوارض آزادراه",
+          "en": "vignette"
+        },
+        "id_ref": "nomen_vignette"
+      },
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "der Lkw",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کامیون",
+          "en": "lorry"
+        },
+        "id_ref": "nomen_lkw"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

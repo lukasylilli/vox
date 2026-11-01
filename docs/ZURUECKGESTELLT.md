@@ -2540,6 +2540,8 @@
 | ۲۳۶۳ | Marienkirche | `substantiv_singular_alle.txt` | 2026-11-01 | Kirchenname vieler Kirchen — kein allgemeines Nomen, Regel 14/18 | — |
 | ۲۳۶۴ | Marquis | `substantiv_singular_alle.txt` | 2026-11-01 | französischer Adelstitel, selten; Aussprache/Plural im Deutschen nicht sicher — Regel 14 | — |
 | ۲۳۶۵ | Match | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das Match; österr./schweiz. auch der Match) — Regel 14 | — |
+| ۲۳۶۶ | Matz | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich/Kosename, Gebrauch nicht sicher — Regel 14 | — |
+| ۲۳۶۷ | Mautner | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/österr. für Zöllner, auch Familienname — Gebrauch nicht sicher, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4030,3 +4032,10 @@
 | 1644 | Materie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stoff, Physik / Gegenstand eines Fachgebiets, Thema) |
 | 1645 | Matrix | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mathematik / Biologie, Technik Grundsubstanz, Form) |
 | 1646 | Matsch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: breiiger Schmutz, Schneematsch / Kartenspiel) |
+| 1647 | Mattscheibe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bildschirm, ugs. Fernseher / mattes Glas / ugs. «Mattscheibe haben» = benommen sein) |
+| 1648 | Mauer | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wand aus Steinen / die Berliner Mauer / Sport Spielermauer beim Freistoß) |
+| 1649 | Mauerbau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bau einer Mauer / Bau der Berliner Mauer 1961) |
+| 1650 | Maul | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mund eines Tieres / derb Mund eines Menschen) |
+| 1651 | Maulkorb | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Korb für Hunde / übertragen Redeverbot) |
+| 1652 | Maulwurf | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Tier / übertragen eingeschleuster Spion) |
+| 1653 | Maximum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Höchstmaß, Höchstwert / Mathematik / Meteorologie Hochdruckgebiet) |
