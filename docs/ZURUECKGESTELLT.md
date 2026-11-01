@@ -4010,3 +4010,5 @@
 | 1626 | Marionette | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gliederpuppe / übertragen willenloser Mensch) |
 | 1627 | Marke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Warenmarke / Briefmarke / Wertmarke, Grenzwert «Marke») |
 | 1628 | Markenzeichen | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) |
+| 1629 | Markierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: das Markieren / Zeichen, Kennzeichnung) |
+| 1630 | Markt | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wochenmarkt, Marktplatz / Wirtschaft: Angebot und Nachfrage / Marktgemeinde) |

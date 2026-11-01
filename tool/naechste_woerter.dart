@@ -4042,6 +4042,8 @@ const zurueckgestellt = <String>{
   'Marionette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gliederpuppe / übertragen willenloser Mensch) — nach den Nomen 2026-11-01
   'Marke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenmarke / Briefmarke / Wertmarke, Grenzwert «Marke») — nach den Nomen 2026-11-01
   'Markenzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) — nach den Nomen 2026-11-01
+  'Markierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Markieren / Zeichen, Kennzeichnung) — nach den Nomen 2026-11-01
+  'Markt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wochenmarkt, Marktplatz / Wirtschaft: Angebot und Nachfrage / Marktgemeinde) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
