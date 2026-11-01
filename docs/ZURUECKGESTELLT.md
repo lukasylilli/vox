@@ -2560,6 +2560,7 @@
 | ۲۳۸۳ | Mimus | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort (antike Posse/Darsteller), Plural und Gebrauch nicht sicher — Regel 14 | — |
 | ۲۳۸۴ | Missa | `substantiv_singular_alle.txt` | 2026-11-01 | lateinischer Fachausdruck (Missa solemnis), kein gebräuchliches Nomen — Regel 14 | — |
 | ۲۳۸۵ | Misskredit | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 | — |
+| ۲۳۸۶ | Mitleidenschaft | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Mitleidenschaft ziehen») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4098,3 +4099,9 @@
 | 1692 | Missbrauch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: falscher Gebrauch / sexueller Missbrauch) |
 | 1693 | Mission | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) |
 | 1694 | Mitbewerber | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mitbewerber um eine Stelle / Konkurrent auf dem Markt) |
+| 1695 | Mitreisende | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Mitreisende) |
+| 1696 | Mittagstisch | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Esstisch zu Mittag / Mittagsmenü im Lokal / Mittagessen für Bedürftige) |
+| 1697 | Mitte | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mittelpunkt, Zentrum / politische Mitte / Zeitangabe «Mitte Mai») |
+| 1698 | Mittelalter | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Epoche 500–1500 / scherzhaft Menschen mittleren Alters) |
+| 1699 | Mittelbau | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mittlerer Gebäudeteil / akademischer Mittelbau an Hochschulen) |
+| 1700 | Mittelfeld | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Spielfeldmitte, Mannschaftsteil / Mittelplatz in einer Rangliste) |

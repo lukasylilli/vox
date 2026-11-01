@@ -4130,6 +4130,13 @@ const zurueckgestellt = <String>{
   'Mission', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftrag / diplomatische Vertretung / Verbreitung des Glaubens) — nach den Nomen 2026-11-01
   'Misskredit', // zurückgestellt: nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 2026-11-01
   'Mitbewerber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitbewerber um eine Stelle / Konkurrent auf dem Markt) — nach den Nomen 2026-11-01
+  'Mitleidenschaft', // zurückgestellt: nur in fester Wendung («in Mitleidenschaft ziehen») — Regel 14 2026-11-01
+  'Mitreisende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Mitreisende) — nach den Nomen 2026-11-01
+  'Mittagstisch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Esstisch zu Mittag / Mittagsmenü im Lokal / Mittagessen für Bedürftige) — nach den Nomen 2026-11-01
+  'Mitte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mittelpunkt, Zentrum / politische Mitte / Zeitangabe «Mitte Mai») — nach den Nomen 2026-11-01
+  'Mittelalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Epoche 500–1500 / scherzhaft Menschen mittleren Alters) — nach den Nomen 2026-11-01
+  'Mittelbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mittlerer Gebäudeteil / akademischer Mittelbau an Hochschulen) — nach den Nomen 2026-11-01
+  'Mittelfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielfeldmitte, Mannschaftsteil / Mittelplatz in einer Rangliste) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
