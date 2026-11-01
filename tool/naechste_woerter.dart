@@ -4208,6 +4208,12 @@ const zurueckgestellt = <String>{
   'Nationalratsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Nationalratsabgeordnete) — nach den Nomen 2026-11-01
   'Nationaltheater', // zurückgestellt: meist Name einer bestimmten Bühne (Mannheim, München, Prag) — Regel 18 2026-11-01
   'Natur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Natur, Umwelt / Wesen, Charakter, «von Natur aus» / Körperbeschaffenheit); Hinweis: 27 ältere Karten verweisen im wortnetz auf nomen_natur — nach den Nomen 2026-11-01
+  'Naturschutzbund', // zurückgestellt: Name eines bestimmten Verbands (NABU) — Regel 18 2026-11-01
+  'Navigation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kursbestimmung bei Schiff/Flugzeug / Bewegung durch Website, Menü) — nach den Nomen 2026-11-01
+  'Navigator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Navigationsoffizier / Navigationsgerät, Software) — nach den Nomen 2026-11-01
+  'Nazi', // zurückgestellt: Kurzwort für Nationalsozialist; Duden-Markierung (abwertend?) nicht sicher — Regel 14/17 2026-11-01
+  'Neandertaler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urmensch / ugs. abwertend grober Mensch) — nach den Nomen 2026-11-01
+  'Nebel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetter / Astronomie Sternnebel) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

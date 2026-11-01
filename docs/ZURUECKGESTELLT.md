@@ -2582,6 +2582,8 @@
 | ۲۴۰۵ | Nationalgalerie | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Institution (Berlin, London) — Regel 18 | — |
 | ۲۴۰۶ | Nationalliga | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Liga (CH, AT) — Regel 18 | — |
 | ۲۴۰۷ | Nationaltheater | `substantiv_singular_alle.txt` | 2026-11-01 | meist Name einer bestimmten Bühne (Mannheim, München, Prag) — Regel 18 | — |
+| ۲۴۰۸ | Naturschutzbund | `substantiv_singular_alle.txt` | 2026-11-01 | Name eines bestimmten Verbands (NABU) — Regel 18 | — |
+| ۲۴۰۹ | Nazi | `substantiv_singular_alle.txt` | 2026-11-01 | Kurzwort für Nationalsozialist; Duden-Markierung (abwertend?) nicht sicher — Regel 14/17 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4176,3 +4178,7 @@
 | 1748 | Nationalrat | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Parlamentskammer AT/CH / Mitglied dieser Kammer) |
 | 1749 | Nationalratsabgeordnete | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: der/die Nationalratsabgeordnete) |
 | 1750 | Natur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Natur, Umwelt / Wesen, Charakter, «von Natur aus» / Körperbeschaffenheit); Hinweis: 27 ältere Karten verweisen im wortnetz auf nomen_natur |
+| 1751 | Navigation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kursbestimmung bei Schiff/Flugzeug / Bewegung durch Website, Menü) |
+| 1752 | Navigator | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Navigationsoffizier / Navigationsgerät, Software) |
+| 1753 | Neandertaler | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Urmensch / ugs. abwertend grober Mensch) |
+| 1754 | Nebel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wetter / Astronomie Sternnebel) |
