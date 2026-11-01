@@ -4030,6 +4030,18 @@ const zurueckgestellt = <String>{
   'Manko', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mangel, Nachteil / Kaufmannssprache Fehlbetrag) — nach den Nomen 2026-11-01
   'Mannequin', // zurückgestellt: Artikel doppelt (das/der Mannequin) — Regel 14 2026-11-01
   'Mannschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportteam / Besatzung eines Schiffes, Flugzeugs / Truppe) — nach den Nomen 2026-11-01
+  'Mantel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleidungsstück / Hülle, Reifenmantel / Technik, Geometrie) — nach den Nomen 2026-11-01
+  'Manufaktur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Betrieb mit Handarbeit / handgefertigtes Erzeugnis) — nach den Nomen 2026-11-01
+  'Manuskript', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handschrift / Druckvorlage / Notizen für eine Rede) — nach den Nomen 2026-11-01
+  'Mappe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sammelmappe, Ordner / Schultasche, Aktentasche) — nach den Nomen 2026-11-01
+  'Mara', // zurückgestellt: Tiername (Pampashase) oder Name — Bezug nicht eindeutig, Regel 14 2026-11-01
+  'Marburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stadt in Hessen / deutscher Name von Maribor, Slowenien) — nach den Nomen 2026-11-01
+  'Marge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handelsspanne / Spielraum, Abstand) — nach den Nomen 2026-11-01
+  'Marienkirche', // zurückgestellt: Kirchenname vieler Kirchen — kein allgemeines Nomen, Regel 14/18 2026-11-01
+  'Marine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seestreitkräfte / Seewesen eines Staates / Malerei Seestück) — nach den Nomen 2026-11-01
+  'Marionette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gliederpuppe / übertragen willenloser Mensch) — nach den Nomen 2026-11-01
+  'Marke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenmarke / Briefmarke / Wertmarke, Grenzwert «Marke») — nach den Nomen 2026-11-01
+  'Markenzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

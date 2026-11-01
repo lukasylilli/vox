@@ -2536,6 +2536,8 @@
 | ۲۳۵۹ | Mahr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/landschaftlich (Nachtmahr), Gebrauch nicht sicher — Regel 14 | — |
 | ۲۳۶۰ | Mandl | `substantiv_singular_alle.txt` | 2026-11-01 | österr./bair. ugs. für Männchen, Gebrauch und Plural nicht sicher — Regel 14 | — |
 | ۲۳۶۱ | Mannequin | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Mannequin) — Regel 14 | — |
+| ۲۳۶۲ | Mara | `substantiv_singular_alle.txt` | 2026-11-01 | Tiername (Pampashase) oder Name — Bezug nicht eindeutig, Regel 14 | — |
+| ۲۳۶۳ | Marienkirche | `substantiv_singular_alle.txt` | 2026-11-01 | Kirchenname vieler Kirchen — kein allgemeines Nomen, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3998,3 +4000,13 @@
 | 1616 | Manipulation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: gezielte Beeinflussung / Handhabung, Handgriff / Medizin) |
 | 1617 | Manko | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mangel, Nachteil / Kaufmannssprache Fehlbetrag) |
 | 1618 | Mannschaft | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sportteam / Besatzung eines Schiffes, Flugzeugs / Truppe) |
+| 1619 | Mantel | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Kleidungsstück / Hülle, Reifenmantel / Technik, Geometrie) |
+| 1620 | Manufaktur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Betrieb mit Handarbeit / handgefertigtes Erzeugnis) |
+| 1621 | Manuskript | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Handschrift / Druckvorlage / Notizen für eine Rede) |
+| 1622 | Mappe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sammelmappe, Ordner / Schultasche, Aktentasche) |
+| 1623 | Marburg | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stadt in Hessen / deutscher Name von Maribor, Slowenien) |
+| 1624 | Marge | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Handelsspanne / Spielraum, Abstand) |
+| 1625 | Marine | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Seestreitkräfte / Seewesen eines Staates / Malerei Seestück) |
+| 1626 | Marionette | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gliederpuppe / übertragen willenloser Mensch) |
+| 1627 | Marke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Warenmarke / Briefmarke / Wertmarke, Grenzwert «Marke») |
+| 1628 | Markenzeichen | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Warenzeichen / übertragen typisches Kennzeichen einer Person) |
