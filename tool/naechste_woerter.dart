@@ -4149,6 +4149,13 @@ const zurueckgestellt = <String>{
   'Mode', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: die Mode «Kleidung» / der Mode «Betriebsart», EDV) — nach den Nomen 2026-11-01
   'Modehaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bekleidungsgeschäft / Modeunternehmen, Designerlabel) — nach den Nomen 2026-11-01
   'Modell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachbildung / Typ eines Produkts / Fotomodell / wissenschaftliches Modell) — nach den Nomen 2026-11-01
+  'Modem', // zurückgestellt: Artikel doppelt (das/der Modem) — Regel 14 2026-11-01
+  'Moderation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitung einer Sendung oder Diskussion / veraltet Mäßigung) — nach den Nomen 2026-11-01
+  'Moderator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sendungs- und Diskussionsleiter / Kernphysik Bremssubstanz) — nach den Nomen 2026-11-01
+  'Moderne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: moderne Zeit / moderne Richtung in Kunst und Literatur) — nach den Nomen 2026-11-01
+  'Modus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art und Weise, Betriebsart / Grammatik Aussageweise) — nach den Nomen 2026-11-01
+  'Mohn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanze / Samen zum Backen) — nach den Nomen 2026-11-01
+  'Mohr', // zurückgestellt: veraltet und diskriminierend; Ersatz wäre nur ein substantiviertes Adjektiv (Fall 4) — Lukas entscheidet 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2562,6 +2562,8 @@
 | ۲۳۸۵ | Misskredit | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 | — |
 | ۲۳۸۶ | Mitleidenschaft | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Mitleidenschaft ziehen») — Regel 14 | — |
 | ۲۳۸۷ | Mixed | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Fachwort (Tennis/Badminton «gemischtes Doppel»), Gebrauch als eigenes Nomen nicht sicher — Regel 14 | — |
+| ۲۳۸۸ | Modem | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Modem) — Regel 14 | — |
+| ۲۳۸۹ | Mohr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet und diskriminierend; Ersatz wäre nur ein substantiviertes Adjektiv (Fall 4) — Lukas entscheidet | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4117,3 +4119,8 @@
 | 1709 | Mode | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 2 (Homograph mit anderem Artikel: die Mode «Kleidung» / der Mode «Betriebsart», EDV) |
 | 1710 | Modehaus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bekleidungsgeschäft / Modeunternehmen, Designerlabel) |
 | 1711 | Modell | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachbildung / Typ eines Produkts / Fotomodell / wissenschaftliches Modell) |
+| 1712 | Moderation | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Leitung einer Sendung oder Diskussion / veraltet Mäßigung) |
+| 1713 | Moderator | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sendungs- und Diskussionsleiter / Kernphysik Bremssubstanz) |
+| 1714 | Moderne | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: moderne Zeit / moderne Richtung in Kunst und Literatur) |
+| 1715 | Modus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Art und Weise, Betriebsart / Grammatik Aussageweise) |
+| 1716 | Mohn | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / Samen zum Backen) |
