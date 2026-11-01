@@ -2532,6 +2532,8 @@
 | ۲۳۵۵ | Mach | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort/Name (Mach-Zahl, Physiker Ernst Mach) — als eigenes Nomen nicht sicher, Regel 14 | — |
 | ۲۳۵۶ | Mache | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich, fast nur in Wendungen («etwas in der Mache haben», «das ist nur Mache») — Regel 14 | — |
 | ۲۳۵۷ | Madison | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Stadt/Person, englisch) — Bezug nicht eindeutig, Regel 14/18 | — |
+| ۲۳۵۸ | Mahl | `substantiv_singular_alle.txt` | 2026-11-01 | gehoben; Plural doppelt (Mähler/Mahle) und Gebrauch nur in Wendungen sicher — Regel 14 | — |
+| ۲۳۵۹ | Mahr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet/landschaftlich (Nachtmahr), Gebrauch nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3971,3 +3973,9 @@
 | 1593 | Magier | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zauberer, Zauberkünstler / Priester im alten Persien) |
 | 1594 | Magister | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: akademischer Grad / Titel, österr. auch Apotheker / veraltet Lehrer) |
 | 1595 | Magnet | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Eisen anziehender Körper / übertragen Anziehungspunkt «Publikumsmagnet») |
+| 1596 | Magnum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: große Weinflasche / Patrone, Revolver «Magnum») |
+| 1597 | Mahlzeit | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Essen / Gruß «Mahlzeit!») |
+| 1598 | Mahnung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ermahnung / Zahlungserinnerung, Mahnbrief) |
+| 1599 | Mailbox | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Sprachbox am Telefon / elektronisches Postfach) |
+| 1600 | Makedonien | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Staat Nordmazedonien / historische Region, griechische Region) |
+| 1601 | Makulatur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Altpapier, Fehldruck / übertragen wertlos «etwas ist Makulatur») |

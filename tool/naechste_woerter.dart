@@ -4003,6 +4003,14 @@ const zurueckgestellt = <String>{
   'Magier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zauberer, Zauberkünstler / Priester im alten Persien) — nach den Nomen 2026-11-01
   'Magister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: akademischer Grad / Titel, österr. auch Apotheker / veraltet Lehrer) — nach den Nomen 2026-11-01
   'Magnet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisen anziehender Körper / übertragen Anziehungspunkt «Publikumsmagnet») — nach den Nomen 2026-11-01
+  'Magnum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: große Weinflasche / Patrone, Revolver «Magnum») — nach den Nomen 2026-11-01
+  'Mahl', // zurückgestellt: gehoben; Plural doppelt (Mähler/Mahle) und Gebrauch nur in Wendungen sicher — Regel 14 2026-11-01
+  'Mahlzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Essen / Gruß «Mahlzeit!») — nach den Nomen 2026-11-01
+  'Mahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ermahnung / Zahlungserinnerung, Mahnbrief) — nach den Nomen 2026-11-01
+  'Mahr', // zurückgestellt: veraltet/landschaftlich (Nachtmahr), Gebrauch nicht sicher — Regel 14 2026-11-01
+  'Mailbox', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachbox am Telefon / elektronisches Postfach) — nach den Nomen 2026-11-01
+  'Makedonien', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staat Nordmazedonien / historische Region, griechische Region) — nach den Nomen 2026-11-01
+  'Makulatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Altpapier, Fehldruck / übertragen wertlos «etwas ist Makulatur») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
