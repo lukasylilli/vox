@@ -4142,6 +4142,13 @@ const zurueckgestellt = <String>{
   'Mittelschule', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen je Land: AT Pflichtschule 10–14 / DE z. T. Realschule / CH höhere Schule) — nach den Nomen 2026-11-01
   'Mittelstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / kleine und mittlere Unternehmen) — nach den Nomen 2026-11-01
   'Mittelstufe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mittlere Schulklassen / mittleres Niveau eines Sprachkurses) — nach den Nomen 2026-11-01
+  'Mixed', // zurückgestellt: englisches Fachwort (Tennis/Badminton «gemischtes Doppel»), Gebrauch als eigenes Nomen nicht sicher — Regel 14 2026-11-01
+  'Mixtur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arzneimischung / Mischung allgemein / Orgelregister) — nach den Nomen 2026-11-01
+  'Moabiter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner von Berlin-Moabit / Angehöriger des biblischen Volkes Moab) — nach den Nomen 2026-11-01
+  'Mobilisierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mobilmachung, Aktivierung von Menschen / Pflege: Mobilisation von Patienten) — nach den Nomen 2026-11-01
+  'Mode', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: die Mode «Kleidung» / der Mode «Betriebsart», EDV) — nach den Nomen 2026-11-01
+  'Modehaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bekleidungsgeschäft / Modeunternehmen, Designerlabel) — nach den Nomen 2026-11-01
+  'Modell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachbildung / Typ eines Produkts / Fotomodell / wissenschaftliches Modell) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

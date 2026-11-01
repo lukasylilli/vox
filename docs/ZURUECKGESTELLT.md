@@ -2561,6 +2561,7 @@
 | ۲۳۸۴ | Missa | `substantiv_singular_alle.txt` | 2026-11-01 | lateinischer Fachausdruck (Missa solemnis), kein gebräuchliches Nomen — Regel 14 | — |
 | ۲۳۸۵ | Misskredit | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Misskredit bringen/geraten») — Regel 14 | — |
 | ۲۳۸۶ | Mitleidenschaft | `substantiv_singular_alle.txt` | 2026-11-01 | nur in fester Wendung («in Mitleidenschaft ziehen») — Regel 14 | — |
+| ۲۳۸۷ | Mixed | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Fachwort (Tennis/Badminton «gemischtes Doppel»), Gebrauch als eigenes Nomen nicht sicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4110,3 +4111,9 @@
 | 1703 | Mittelschule | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen je Land: AT Pflichtschule 10–14 / DE z. T. Realschule / CH höhere Schule) |
 | 1704 | Mittelstand | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: soziale Mittelschicht / kleine und mittlere Unternehmen) |
 | 1705 | Mittelstufe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: mittlere Schulklassen / mittleres Niveau eines Sprachkurses) |
+| 1706 | Mixtur | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Arzneimischung / Mischung allgemein / Orgelregister) |
+| 1707 | Moabiter | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Einwohner von Berlin-Moabit / Angehöriger des biblischen Volkes Moab) |
+| 1708 | Mobilisierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Mobilmachung, Aktivierung von Menschen / Pflege: Mobilisation von Patienten) |
+| 1709 | Mode | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 2 (Homograph mit anderem Artikel: die Mode «Kleidung» / der Mode «Betriebsart», EDV) |
+| 1710 | Modehaus | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bekleidungsgeschäft / Modeunternehmen, Designerlabel) |
+| 1711 | Modell | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nachbildung / Typ eines Produkts / Fotomodell / wissenschaftliches Modell) |
