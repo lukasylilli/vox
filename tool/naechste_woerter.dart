@@ -4159,6 +4159,11 @@ const zurueckgestellt = <String>{
   'Momentaufnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Foto mit kurzer Belichtung / übertragen kurze Darstellung eines Zustands) — nach den Nomen 2026-11-01
   'Monitor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bildschirm / medizinisches Überwachungsgerät / Strahlungsmessgerät) — nach den Nomen 2026-11-01
   'Monopoly', // zurückgestellt: Markenname eines Brettspiels — Regel 18 2026-11-01
+  'Monsieur', // zurückgestellt: französische Anrede, kein eigenständiges deutsches Nomen — Regel 14 2026-11-01
+  'Monstrum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ungeheuer / ugs. riesiges, unförmiges Ding) — nach den Nomen 2026-11-01
+  'Montage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenbau, Einbau / Film- und Bildmontage); dazu Gleichform mit Plural von «Montag» — nach den Nomen 2026-11-01
+  'Moos', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanze / ugs. Geld) — nach den Nomen 2026-11-01
+  'Moral', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sittliche Werte / Lehre einer Geschichte / Kampfgeist, Moral der Truppe) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

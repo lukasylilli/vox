@@ -2565,6 +2565,7 @@
 | ۲۳۸۸ | Modem | `substantiv_singular_alle.txt` | 2026-11-01 | Artikel doppelt (das/der Modem) — Regel 14 | — |
 | ۲۳۸۹ | Mohr | `substantiv_singular_alle.txt` | 2026-11-01 | veraltet und diskriminierend; Ersatz wäre nur ein substantiviertes Adjektiv (Fall 4) — Lukas entscheidet | — |
 | ۲۳۹۰ | Monopoly | `substantiv_singular_alle.txt` | 2026-11-01 | Markenname eines Brettspiels — Regel 18 | — |
+| ۲۳۹۱ | Monsieur | `substantiv_singular_alle.txt` | 2026-11-01 | französische Anrede, kein eigenständiges deutsches Nomen — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4127,3 +4128,7 @@
 | 1716 | Mohn | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / Samen zum Backen) |
 | 1717 | Momentaufnahme | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Foto mit kurzer Belichtung / übertragen kurze Darstellung eines Zustands) |
 | 1718 | Monitor | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Bildschirm / medizinisches Überwachungsgerät / Strahlungsmessgerät) |
+| 1719 | Monstrum | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Ungeheuer / ugs. riesiges, unförmiges Ding) |
+| 1720 | Montage | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zusammenbau, Einbau / Film- und Bildmontage); dazu Gleichform mit Plural von «Montag» |
+| 1721 | Moos | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / ugs. Geld) |
+| 1722 | Moral | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: sittliche Werte / Lehre einer Geschichte / Kampfgeist, Moral der Truppe) |
