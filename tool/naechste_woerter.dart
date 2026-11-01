@@ -4275,6 +4275,13 @@ const zurueckgestellt = <String>{
   'Oberkommandierender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip/Adjektiv: der/die Oberkommandierende) — nach den Nomen 2026-11-02
   'Oberland', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: höher gelegener Landesteil / Eigenname, z. B. Berner Oberland) — nach den Nomen 2026-11-02
   'Oberleitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrleitung von Bahn/Straßenbahn / oberste Leitung, Führung) — nach den Nomen 2026-11-02
+  'Oberschule', // zurückgestellt: Bedeutung je nach Land/Zeit verschieden (Sachsen: Mittel-/Realschule; früher: Gymnasium; DDR: POS/EOS) — Regel 14 2026-11-02
+  'Oberst', // zurückgestellt: Plural und Deklination schwankend (die Obersten / die Oberste; des Obersts / des Obersten) — Regel 14 2026-11-02
+  'Oberteil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kleidungsstück für den Oberkörper / oberer Teil eines Gegenstands) — nach den Nomen 2026-11-02
+  'Obi', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Gürtel des Kimonos / Markenname einer Baumarktkette) — nach den Nomen 2026-11-02
+  'Objekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand / Grammatik: Satzergänzung / Immobilie / Kunstobjekt) — nach den Nomen 2026-11-02
+  'Obligation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wertpapier, Schuldverschreibung / veraltet: Verpflichtung) — nach den Nomen 2026-11-02
+  'Obolus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Geldbeitrag / altgriechische Münze) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

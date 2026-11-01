@@ -2596,6 +2596,8 @@
 | ۲۴۱۹ | Nix | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich für «nichts» (Pronomen) bzw. «der Nix» Wassergeist — Wortart/Bedeutung unsicher — Regel 14 | — |
 | ۲۴۲۰ | Normal | `substantiv_singular_alle.txt` | 2026-11-01 | meist kurz für «Normalbenzin» (das Normal); Gebrauch und Lemma unsicher — Regel 14 | — |
 | ۲۴۲۱ | Oberhand | `substantiv_singular_alle.txt` | 2026-11-02 | fast nur in festen Wendungen («die Oberhand gewinnen/behalten/haben») — Regel 14 | — |
+| ۲۴۲۲ | Oberschule | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land/Zeit verschieden (Sachsen: Mittel-/Realschule; früher: Gymnasium; DDR: POS/EOS) — Regel 14 | — |
+| ۲۴۲۳ | Oberst | `substantiv_singular_alle.txt` | 2026-11-02 | Plural und Deklination schwankend (die Obersten / die Oberste; des Obersts / des Obersten) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4243,3 +4245,8 @@
 | 1801 | Oberkommandierender | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Partizip/Adjektiv: der/die Oberkommandierende) |
 | 1802 | Oberland | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: höher gelegener Landesteil / Eigenname, z. B. Berner Oberland) |
 | 1803 | Oberleitung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fahrleitung von Bahn/Straßenbahn / oberste Leitung, Führung) |
+| 1804 | Oberteil | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kleidungsstück für den Oberkörper / oberer Teil eines Gegenstands) |
+| 1805 | Obi | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: Gürtel des Kimonos / Markenname einer Baumarktkette) |
+| 1806 | Objekt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gegenstand / Grammatik: Satzergänzung / Immobilie / Kunstobjekt) |
+| 1807 | Obligation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wertpapier, Schuldverschreibung / veraltet: Verpflichtung) |
+| 1808 | Obolus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kleiner Geldbeitrag / altgriechische Münze) |
