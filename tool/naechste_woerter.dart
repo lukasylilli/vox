@@ -3993,6 +3993,16 @@ const zurueckgestellt = <String>{
   'Mach', // zurückgestellt: Fachwort/Name (Mach-Zahl, Physiker Ernst Mach) — als eigenes Nomen nicht sicher, Regel 14 2026-11-01
   'Mache', // zurückgestellt: umgangssprachlich, fast nur in Wendungen («etwas in der Mache haben», «das ist nur Mache») — Regel 14 2026-11-01
   'Macht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einfluss, Herrschaft / Kraft, Stärke / mächtiger Staat «Großmacht») — nach den Nomen 2026-11-01
+  'Madame', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: französische Anrede, Dame / ugs. Bordellwirtin) — nach den Nomen 2026-11-01
+  'Madison', // zurückgestellt: Name (Stadt/Person, englisch) — Bezug nicht eindeutig, Regel 14/18 2026-11-01
+  'Madonna', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gottesmutter Maria / Darstellung Marias in der Kunst) — nach den Nomen 2026-11-01
+  'Mafia', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sizilianische Verbrecherorganisation / übertragen jede mafiaähnliche Gruppe) — nach den Nomen 2026-11-01
+  'Magazin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitschrift / Lager, Lagerraum / Patronenmagazin) — nach den Nomen 2026-11-01
+  'Magd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltend Landarbeiterin / dichterisch veraltet Jungfrau) — nach den Nomen 2026-11-01
+  'Magie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zauberei / Zauberkunst des Varietés / übertragen Faszination, Zauber) — nach den Nomen 2026-11-01
+  'Magier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zauberer, Zauberkünstler / Priester im alten Persien) — nach den Nomen 2026-11-01
+  'Magister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: akademischer Grad / Titel, österr. auch Apotheker / veraltet Lehrer) — nach den Nomen 2026-11-01
+  'Magnet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisen anziehender Körper / übertragen Anziehungspunkt «Publikumsmagnet») — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

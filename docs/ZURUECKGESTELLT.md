@@ -2531,6 +2531,7 @@
 | ۲۳۵۴ | Lustgarten | `substantiv_singular_alle.txt` | 2026-11-01 | heute v. a. Name (Berliner Lustgarten), sonst veraltet — Gebrauch nicht sicher, Regel 14 | — |
 | ۲۳۵۵ | Mach | `substantiv_singular_alle.txt` | 2026-11-01 | Fachwort/Name (Mach-Zahl, Physiker Ernst Mach) — als eigenes Nomen nicht sicher, Regel 14 | — |
 | ۲۳۵۶ | Mache | `substantiv_singular_alle.txt` | 2026-11-01 | umgangssprachlich, fast nur in Wendungen («etwas in der Mache haben», «das ist nur Mache») — Regel 14 | — |
+| ۲۳۵۷ | Madison | `substantiv_singular_alle.txt` | 2026-11-01 | Name (Stadt/Person, englisch) — Bezug nicht eindeutig, Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -3961,3 +3962,12 @@
 | 1584 | Lust | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Wunsch, Bedürfnis «Lust haben» / Freude / sexuelles Verlangen) |
 | 1585 | Luzern | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Stadt / Kanton Luzern) |
 | 1586 | Macht | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Einfluss, Herrschaft / Kraft, Stärke / mächtiger Staat «Großmacht») |
+| 1587 | Madame | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: französische Anrede, Dame / ugs. Bordellwirtin) |
+| 1588 | Madonna | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Gottesmutter Maria / Darstellung Marias in der Kunst) |
+| 1589 | Mafia | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: sizilianische Verbrecherorganisation / übertragen jede mafiaähnliche Gruppe) |
+| 1590 | Magazin | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zeitschrift / Lager, Lagerraum / Patronenmagazin) |
+| 1591 | Magd | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: veraltend Landarbeiterin / dichterisch veraltet Jungfrau) |
+| 1592 | Magie | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zauberei / Zauberkunst des Varietés / übertragen Faszination, Zauber) |
+| 1593 | Magier | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Zauberer, Zauberkünstler / Priester im alten Persien) |
+| 1594 | Magister | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: akademischer Grad / Titel, österr. auch Apotheker / veraltet Lehrer) |
+| 1595 | Magnet | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Eisen anziehender Körper / übertragen Anziehungspunkt «Publikumsmagnet») |
