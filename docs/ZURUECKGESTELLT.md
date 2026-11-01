@@ -2568,6 +2568,9 @@
 | ۲۳۹۱ | Monsieur | `substantiv_singular_alle.txt` | 2026-11-01 | französische Anrede, kein eigenständiges deutsches Nomen — Regel 14 | — |
 | ۲۳۹۲ | More | `substantiv_singular_alle.txt` | 2026-11-01 | Bedeutung/Gebrauch unklar (Mores «Sitten» nur in «jemanden Mores lehren») — Regel 14 | — |
 | ۲۳۹۳ | Morgenpost | `substantiv_singular_alle.txt` | 2026-11-01 | meist Zeitungsname (Berliner/Hamburger Morgenpost) — Regel 18 | — |
+| ۲۳۹۴ | Moslem | `substantiv_singular_alle.txt` | 2026-11-01 | ältere Nebenform von «Muslim»; Markierung (veraltend/abwertend empfunden) nicht sicher — Regel 14/17 | — |
+| ۲۳۹۵ | Moto | `substantiv_singular_alle.txt` | 2026-11-01 | kein sicheres deutsches Nomen — Regel 14 | — |
+| ۲۳۹۶ | Mount | `substantiv_singular_alle.txt` | 2026-11-01 | englisches Wort, nur in Namen (Mount Everest) — Regel 14/18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4135,3 +4138,7 @@
 | 1721 | Moos | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Pflanze / ugs. Geld) |
 | 1722 | Moral | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: sittliche Werte / Lehre einer Geschichte / Kampfgeist, Moral der Truppe) |
 | 1723 | Morgenstern | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Planet Venus am Morgenhimmel / mittelalterliche Schlagwaffe) |
+| 1724 | Most | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen je Region: unvergorener Fruchtsaft / AT, süddt. Obstwein) |
+| 1725 | Motion | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: CH parlamentarischer Antrag / veraltet Bewegung) |
+| 1726 | Motiv | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Beweggrund / Bildmotiv, Gegenstand eines Kunstwerks / Musik) |
+| 1727 | Motor | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Maschine / übertragen treibende Kraft, «Motor der Wirtschaft») |

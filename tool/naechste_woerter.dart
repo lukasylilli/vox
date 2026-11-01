@@ -4167,6 +4167,13 @@ const zurueckgestellt = <String>{
   'More', // zurückgestellt: Bedeutung/Gebrauch unklar (Mores «Sitten» nur in «jemanden Mores lehren») — Regel 14 2026-11-01
   'Morgenpost', // zurückgestellt: meist Zeitungsname (Berliner/Hamburger Morgenpost) — Regel 18 2026-11-01
   'Morgenstern', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Planet Venus am Morgenhimmel / mittelalterliche Schlagwaffe) — nach den Nomen 2026-11-01
+  'Moslem', // zurückgestellt: ältere Nebenform von «Muslim»; Markierung (veraltend/abwertend empfunden) nicht sicher — Regel 14/17 2026-11-01
+  'Most', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen je Region: unvergorener Fruchtsaft / AT, süddt. Obstwein) — nach den Nomen 2026-11-01
+  'Motion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: CH parlamentarischer Antrag / veraltet Bewegung) — nach den Nomen 2026-11-01
+  'Motiv', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beweggrund / Bildmotiv, Gegenstand eines Kunstwerks / Musik) — nach den Nomen 2026-11-01
+  'Moto', // zurückgestellt: kein sicheres deutsches Nomen — Regel 14 2026-11-01
+  'Motor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Maschine / übertragen treibende Kraft, «Motor der Wirtschaft») — nach den Nomen 2026-11-01
+  'Mount', // zurückgestellt: englisches Wort, nur in Namen (Mount Everest) — Regel 14/18 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
