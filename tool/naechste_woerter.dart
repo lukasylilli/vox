@@ -4258,6 +4258,11 @@ const zurueckgestellt = <String>{
   'Nothilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfe in einer Notlage / schweiz. Nothilfe für abgewiesene Asylsuchende) — nach den Nomen 2026-11-01
   'Notierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Börsenkurs / Notenschrift in der Musik / das Notieren) — nach den Nomen 2026-11-01
   'Notiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufzeichnung / kurze Zeitungsmeldung / «Notiz nehmen von») — nach den Nomen 2026-11-01
+  'Notstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Notlage / Rechtswesen: Notstand nach StGB / staatsrechtlich: Ausnahmezustand) — nach den Nomen 2026-11-02
+  'Novelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: literarische Erzählform / Gesetzesänderung) — nach den Nomen 2026-11-02
+  'Nudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teigware / ugs. Person «eine ulkige Nudel») — nach den Nomen 2026-11-02
+  'Nullnummer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Probeausgabe einer Zeitung / ugs. Reinfall, Fehlschlag / Sport 0:0) — nach den Nomen 2026-11-02
+  'Nullpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nullpunkt einer Skala, Gefrierpunkt / Tiefpunkt «auf dem Nullpunkt») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

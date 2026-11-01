@@ -4226,3 +4226,8 @@
 | 1785 | Nothilfe | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Hilfe in einer Notlage / schweiz. Nothilfe für abgewiesene Asylsuchende) |
 | 1786 | Notierung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Börsenkurs / Notenschrift in der Musik / das Notieren) |
 | 1787 | Notiz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Aufzeichnung / kurze Zeitungsmeldung / «Notiz nehmen von») |
+| 1788 | Notstand | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Notlage / Rechtswesen: Notstand nach StGB / staatsrechtlich: Ausnahmezustand) |
+| 1789 | Novelle | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: literarische Erzählform / Gesetzesänderung) |
+| 1790 | Nudel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Teigware / ugs. Person «eine ulkige Nudel») |
+| 1791 | Nullnummer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Probeausgabe einer Zeitung / ugs. Reinfall, Fehlschlag / Sport 0:0) |
+| 1792 | Nullpunkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Nullpunkt einer Skala, Gefrierpunkt / Tiefpunkt «auf dem Nullpunkt») |
