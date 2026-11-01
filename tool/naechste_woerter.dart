@@ -4314,6 +4314,16 @@ const zurueckgestellt = <String>{
   'Opus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlerisches Werk / nummeriertes Musikwerk «op. 27») — nach den Nomen 2026-11-02
   'Orakel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort der Weissagung, z. B. Delphi / rätselhafte Weissagung) — nach den Nomen 2026-11-02
   'Oratorium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: musikalisches Werk / Gebetsraum) — nach den Nomen 2026-11-02
+  'Orden', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auszeichnung, Medaille / religiöse Gemeinschaft, Ordensgemeinschaft) — nach den Nomen 2026-11-02
+  'Order', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befehl, Anweisung / Kaufmannssprache: Auftrag, Bestellung) — nach den Nomen 2026-11-02
+  'Ordinariat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: bischöfliche Verwaltungsbehörde / ordentliche Professur) — nach den Nomen 2026-11-02
+  'Ordinarius', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ordentlicher Professor / katholische Kirche: Bischof als Inhaber der Amtsgewalt) — nach den Nomen 2026-11-02
+  'Ordination', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Priesterweihe / österr. Arztpraxis, Sprechstunde / Verordnung) — nach den Nomen 2026-11-02
+  'Ordner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aktenordner / Person, die bei Veranstaltungen für Ordnung sorgt / Computer: Verzeichnis) — nach den Nomen 2026-11-02
+  'Ordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordentlichkeit / Regelsystem, Vorschrift / Biologie: Rangstufe / «in Ordnung») — nach den Nomen 2026-11-02
+  'Organ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperorgan / Einrichtung, Behörde / Zeitung als Sprachrohr / ugs. Stimme) — nach den Nomen 2026-11-02
+  'Organisation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Organisieren / Vereinigung, Verband) — nach den Nomen 2026-11-02
+  'Orchestra', // zurückgestellt: Fachwort (Tanzplatz im antiken Theater) bzw. Schreibvariante; Gebrauch als Lernwort unsicher — Regel 14 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

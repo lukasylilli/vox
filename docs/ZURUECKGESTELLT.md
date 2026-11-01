@@ -2605,6 +2605,7 @@
 | ۲۴۲۸ | Olympiapark | `substantiv_singular_alle.txt` | 2026-11-02 | Name einer bestimmten Anlage (München u. a.), kein geografischer Name nach Regel 18 — Regel 14 | — |
 | ۲۴۲۹ | Oman | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (Oman / der Oman: «in Oman» / «im Oman») — Regel 14 | — |
 | ۲۴۳۰ | Omega | `substantiv_singular_alle.txt` | 2026-11-02 | Buchstabe des griechischen Alphabets; Lernwortkarte/Gebrauch unsicher (auch Zeichen für Ohm) — Regel 14 | — |
+| ۲۴۳۱ | Orchestra | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort (Tanzplatz im antiken Theater) bzw. Schreibvariante; Gebrauch als Lernwort unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4282,3 +4283,12 @@
 | 1831 | Opus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: künstlerisches Werk / nummeriertes Musikwerk «op. 27») |
 | 1832 | Orakel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ort der Weissagung, z. B. Delphi / rätselhafte Weissagung) |
 | 1833 | Oratorium | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: musikalisches Werk / Gebetsraum) |
+| 1834 | Orden | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Auszeichnung, Medaille / religiöse Gemeinschaft, Ordensgemeinschaft) |
+| 1835 | Order | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Befehl, Anweisung / Kaufmannssprache: Auftrag, Bestellung) |
+| 1836 | Ordinariat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: bischöfliche Verwaltungsbehörde / ordentliche Professur) |
+| 1837 | Ordinarius | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: ordentlicher Professor / katholische Kirche: Bischof als Inhaber der Amtsgewalt) |
+| 1838 | Ordination | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Priesterweihe / österr. Arztpraxis, Sprechstunde / Verordnung) |
+| 1839 | Ordner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aktenordner / Person, die bei Veranstaltungen für Ordnung sorgt / Computer: Verzeichnis) |
+| 1840 | Ordnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ordentlichkeit / Regelsystem, Vorschrift / Biologie: Rangstufe / «in Ordnung») |
+| 1841 | Organ | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Körperorgan / Einrichtung, Behörde / Zeitung als Sprachrohr / ugs. Stimme) |
+| 1842 | Organisation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Organisieren / Vereinigung, Verband) |
