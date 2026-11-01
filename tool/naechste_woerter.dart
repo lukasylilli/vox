@@ -4221,6 +4221,10 @@ const zurueckgestellt = <String>{
   'Neige', // zurückgestellt: fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 2026-11-01
   'Neigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schräge, Gefälle / Vorliebe, Hang / Tendenz) — nach den Nomen 2026-11-01
   'Nelke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blume / Gewürznelke) — nach den Nomen 2026-11-01
+  'Nerv', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nervenfaser / Plural Nerven: Belastbarkeit «die Nerven verlieren» / Blattnerv) — nach den Nomen 2026-11-01
+  'Nest', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogelnest / ugs. kleiner Ort «ein Nest» / Versteck) — nach den Nomen 2026-11-01
+  'Net', // zurückgestellt: englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 2026-11-01
+  'Netz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geknüpftes Netz / Strom-, Verkehrsnetz / Internet, Mobilfunknetz) — nach den Nomen 2026-11-01
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

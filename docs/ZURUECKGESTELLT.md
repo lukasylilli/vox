@@ -2587,6 +2587,7 @@
 | ۲۴۱۰ | Neger | `substantiv_singular_alle.txt` | 2026-11-01 | diskriminierend; Ersatz wäre ein Fall-4-Wort (der/die Schwarze) — wie Mohr, Entscheidung Lukas | — |
 | ۲۴۱۱ | Nehmer | `substantiv_singular_alle.txt` | 2026-11-01 | als freies Nomen selten (meist in Komposita: Arbeitnehmer); Bedeutung unsicher — Regel 14 | — |
 | ۲۴۱۲ | Neige | `substantiv_singular_alle.txt` | 2026-11-01 | fast nur in festen Wendungen («zur Neige gehen», «bis zur Neige») — Regel 14 | — |
+| ۲۴۱۳ | Net | `substantiv_singular_alle.txt` | 2026-11-01 | englisch, als deutsches Nomen nicht gesichert (Tennis: Netz) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4189,3 +4190,6 @@
 | 1756 | Negative | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 4 (substantiviertes Adjektiv: das Negative) |
 | 1757 | Neigung | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Schräge, Gefälle / Vorliebe, Hang / Tendenz) |
 | 1758 | Nelke | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Blume / Gewürznelke) |
+| 1759 | Nerv | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Nervenfaser / Plural Nerven: Belastbarkeit «die Nerven verlieren» / Blattnerv) |
+| 1760 | Nest | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: Vogelnest / ugs. kleiner Ort «ein Nest» / Versteck) |
+| 1761 | Netz | `substantiv_singular_alle.txt` | 2026-11-01 | Fall 1 (mehrere Bedeutungen: geknüpftes Netz / Strom-, Verkehrsnetz / Internet, Mobilfunknetz) |

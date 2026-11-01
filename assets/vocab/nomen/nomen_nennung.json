@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_nennung",
+  "wort": "die Nennung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ذکر",
+      "نام بردن"
+    ],
+    "en": [
+      "mention",
+      "naming"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Kommunikation",
+    "Medien"
+  ],
+  "ipa": "ˈnɛnʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Nennung seines Namens war ihm peinlich.",
+      "uebersetzung": {
+        "fa": "ذکر نامش برایش خجالت‌آور بود.",
+        "en": "The mention of his name embarrassed him."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Zeitung berichtete über den Unfall, verzichtete aber auf die Nennung der Namen.",
+      "uebersetzung": {
+        "fa": "روزنامه درباره‌ی تصادف گزارش داد، اما از ذکر نام‌ها خودداری کرد.",
+        "en": "The newspaper reported on the accident but refrained from naming names."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Erwähnung",
+      "uebersetzung": {
+        "fa": "اشاره، ذکر",
+        "en": "mention"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "nennen (نام بردن) + -ung (پسوند اسم‌ساز)",
+    "en": "nennen (to name) + -ung (noun suffix)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Nennungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "unter Nennung + Gen",
+        "beispiel": "Sie zitierte den Text unter Nennung der Quelle.",
+        "uebersetzung": {
+          "fa": "او متن را با ذکر منبع نقل کرد.",
+          "en": "She quoted the text, citing the source."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "nennen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نام بردن، نامیدن",
+          "en": "to name"
+        },
+        "id_ref": "verb_nennen"
+      },
+      {
+        "wort": "der Name",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نام",
+          "en": "name"
+        },
+        "id_ref": "nomen_name"
+      },
+      {
+        "wort": "das Zitat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل قول",
+          "en": "quotation"
+        },
+        "id_ref": "nomen_zitat"
+      },
+      {
+        "wort": "die Erwähnung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اشاره، ذکر",
+          "en": "mention"
+        },
+        "id_ref": "nomen_erwaehnung"
+      },
+      {
+        "wort": "die Aufzählung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برشمردن، فهرست",
+          "en": "enumeration"
+        },
+        "id_ref": "nomen_aufzaehlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
