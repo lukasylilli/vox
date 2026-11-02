@@ -4500,3 +4500,8 @@
 | 2001 | Prostituierte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Prostituierte) |
 | 2002 | Protagonist | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hauptfigur, Hauptdarsteller / Vorkämpfer) |
 | 2003 | Protagonistin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie «Protagonist»: Hauptfigur / Vorkämpferin) |
+| 2004 | Protektorat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schirmherrschaft / Schutzgebiet unter Herrschaft eines anderen Staates) |
+| 2005 | Prothese | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: künstliches Glied / Zahnersatz / Sprachwissenschaft: Vorsetzen eines Lautes) |
+| 2006 | Protokoll | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Niederschrift einer Sitzung / diplomatische Regeln / EDV: Übertragungsregeln) |
+| 2007 | Prototyp | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: erstes Modell, Technik / Urbild, Inbegriff eines Typs) |
+| 2008 | Provinz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verwaltungsgebiet / oft abwertend: ländliche Gegend fern der Großstadt) |
