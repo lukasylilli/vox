@@ -2628,6 +2628,7 @@
 | ۲۴۵۱ | Pechstein | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Geologie (vulkanisches Glas); persische Fachbezeichnung unsicher — Regel 14 | — |
 | ۲۴۵۲ | Pegasus | `substantiv_singular_alle.txt` | 2026-11-02 | Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 | — |
 | ۲۴۵۳ | Petit | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Typografie (Schriftgrad); Lernwert/Gebrauch unsicher — Regel 14 | — |
+| ۲۴۵۴ | Pfefferspray | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das/der Pfefferspray) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4387,3 +4388,8 @@
 | 1913 | Pfanne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bratpfanne / Dachziegel «Dachpfanne» / Anatomie: Gelenkpfanne) |
 | 1914 | Pfarramt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Amt des Pfarrers / Büro, Dienststelle der Pfarrei) |
 | 1915 | Pfarrgemeinderat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gremium der Pfarrgemeinde / Mitglied dieses Gremiums) |
+| 1916 | Pfeife | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Trillerpfeife / Tabakspfeife / Orgelpfeife / salopp: Versager) |
+| 1917 | Pfeil | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Geschoss für Bogen / Richtungszeichen) |
+| 1918 | Pferd | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tier / Turngerät / Schachfigur «Springer») |
+| 1919 | Pfiff | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ton beim Pfeifen / umgangssprachlich: besonderer Reiz, Schwung «mit Pfiff») |
+| 1920 | Pflanze | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gewächs / umgangssprachlich: Person, z. B. «eine seltsame Pflanze») |

@@ -4419,6 +4419,12 @@ const zurueckgestellt = <String>{
   'Pfanne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bratpfanne / Dachziegel «Dachpfanne» / Anatomie: Gelenkpfanne) — nach den Nomen 2026-11-02
   'Pfarramt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amt des Pfarrers / Büro, Dienststelle der Pfarrei) — nach den Nomen 2026-11-02
   'Pfarrgemeinderat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Pfarrgemeinde / Mitglied dieses Gremiums) — nach den Nomen 2026-11-02
+  'Pfefferspray', // zurückgestellt: Artikel schwankend (das/der Pfefferspray) — Regel 14 2026-11-02
+  'Pfeife', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trillerpfeife / Tabakspfeife / Orgelpfeife / salopp: Versager) — nach den Nomen 2026-11-02
+  'Pfeil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschoss für Bogen / Richtungszeichen) — nach den Nomen 2026-11-02
+  'Pferd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Turngerät / Schachfigur «Springer») — nach den Nomen 2026-11-02
+  'Pfiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ton beim Pfeifen / umgangssprachlich: besonderer Reiz, Schwung «mit Pfiff») — nach den Nomen 2026-11-02
+  'Pflanze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewächs / umgangssprachlich: Person, z. B. «eine seltsame Pflanze») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
