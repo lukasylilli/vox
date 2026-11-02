@@ -4443,6 +4443,16 @@ const zurueckgestellt = <String>{
   'Philharmoniker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plural: philharmonisches Orchester / Mitglied dieses Orchesters) — nach den Nomen 2026-11-02
   'Philosophie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft / persönliche Grundhaltung, z. B. «Firmenphilosophie») — nach den Nomen 2026-11-02
   'Phrase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abgegriffene Redensart / Sprachwissenschaft: Wortgruppe / Musik: Sinneinheit) — nach den Nomen 2026-11-02
+  'Pichler', // zurückgestellt: Familienname, kein gebräuchliches Nomen — Regel 14 2026-11-02
+  'Pickel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hautpustel / Spitzhacke, Eispickel) — nach den Nomen 2026-11-02
+  'Pickerl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, österreichisch: Aufkleber / Autobahnvignette bzw. Begutachtungsplakette) — nach den Nomen 2026-11-02
+  'Pieper', // zurückgestellt: umgangssprachlich für Funkrufempfänger bzw. Familienname; Bedeutung/Gebrauch unsicher — Regel 14 2026-11-02
+  'Piercing', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Durchstechen der Haut / der eingesetzte Schmuck) — nach den Nomen 2026-11-02
+  'Pietsch', // zurückgestellt: Familienname, kein gebräuchliches Nomen — Regel 14 2026-11-02
+  'Pille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tablette / Antibabypille «die Pille») — nach den Nomen 2026-11-02
+  'Piller', // zurückgestellt: kein gebräuchliches Nomen (Familienname?) — Regel 14 2026-11-02
+  'Pilote', // zurückgestellt: kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 2026-11-02
+  'Pilz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schwammerl, Speisepilz / Pilzinfektion, z. B. Fußpilz) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

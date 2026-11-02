@@ -2629,6 +2629,11 @@
 | ۲۴۵۲ | Pegasus | `substantiv_singular_alle.txt` | 2026-11-02 | Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 | — |
 | ۲۴۵۳ | Petit | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Typografie (Schriftgrad); Lernwert/Gebrauch unsicher — Regel 14 | — |
 | ۲۴۵۴ | Pfefferspray | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das/der Pfefferspray) — Regel 14 | — |
+| ۲۴۵۵ | Pichler | `substantiv_singular_alle.txt` | 2026-11-02 | Familienname, kein gebräuchliches Nomen — Regel 14 | — |
+| ۲۴۵۶ | Pieper | `substantiv_singular_alle.txt` | 2026-11-02 | umgangssprachlich für Funkrufempfänger bzw. Familienname; Bedeutung/Gebrauch unsicher — Regel 14 | — |
+| ۲۴۵۷ | Pietsch | `substantiv_singular_alle.txt` | 2026-11-02 | Familienname, kein gebräuchliches Nomen — Regel 14 | — |
+| ۲۴۵۸ | Piller | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (Familienname?) — Regel 14 | — |
+| ۲۴۵۹ | Pilote | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4411,3 +4416,8 @@
 | 1936 | Philharmoniker | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Plural: philharmonisches Orchester / Mitglied dieses Orchesters) |
 | 1937 | Philosophie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wissenschaft / persönliche Grundhaltung, z. B. «Firmenphilosophie») |
 | 1938 | Phrase | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: abgegriffene Redensart / Sprachwissenschaft: Wortgruppe / Musik: Sinneinheit) |
+| 1939 | Pickel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hautpustel / Spitzhacke, Eispickel) |
+| 1940 | Pickerl | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen, österreichisch: Aufkleber / Autobahnvignette bzw. Begutachtungsplakette) |
+| 1941 | Piercing | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Durchstechen der Haut / der eingesetzte Schmuck) |
+| 1942 | Pille | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tablette / Antibabypille «die Pille») |
+| 1943 | Pilz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schwammerl, Speisepilz / Pilzinfektion, z. B. Fußpilz) |
