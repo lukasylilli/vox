@@ -4382,6 +4382,13 @@ const zurueckgestellt = <String>{
   'Passage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einkaufspassage / Abschnitt eines Textes oder Musikstücks / Überfahrt, Durchgang) — nach den Nomen 2026-11-02
   'Passer', // zurückgestellt: Fachwort aus der Drucktechnik bzw. Sport-Jargon; Bedeutung/Lernwert unsicher — Regel 14 2026-11-02
   'Passion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leidenschaft / Leidensgeschichte Jesu, Passionsmusik) — nach den Nomen 2026-11-02
+  'Pasta', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Paste, streichbare Masse (Plural Pasten) / italienische Teigwaren) — nach den Nomen 2026-11-02
+  'Patchwork', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flickenarbeit aus Stoff / übertragen: Zusammengesetztes «Patchworkfamilie») — nach den Nomen 2026-11-02
+  'Patent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutzrecht für eine Erfindung / Urkunde, Befähigungsnachweis «Kapitänspatent») — nach den Nomen 2026-11-02
+  'Pathologie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehre von den Krankheiten / Krankenhausabteilung, Institut / krankhafte Veränderung) — nach den Nomen 2026-11-02
+  'Patriarch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenoberhaupt, Titel / Stammvater, autoritäres Familienoberhaupt) — nach den Nomen 2026-11-02
+  'Patriarchat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesellschaftsordnung mit Vorrang des Mannes / Amt, Bezirk eines Patriarchen) — nach den Nomen 2026-11-02
+  'Patrone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Munition / Druckerpatrone, Tintenpatrone) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

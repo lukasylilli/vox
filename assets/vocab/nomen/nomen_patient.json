@@ -1,0 +1,155 @@
+{
+  "schema": "3.0",
+  "id": "nomen_patient",
+  "wort": "der Patient",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمار"
+    ],
+    "en": [
+      "patient"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "paˈt͡si̯ɛnt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Patient wartet auf den Arzt.",
+      "uebersetzung": {
+        "fa": "بیمار منتظر پزشک است.",
+        "en": "The patient is waiting for the doctor."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Patient darf morgen nach Hause, wenn die Wunde gut heilt.",
+      "uebersetzung": {
+        "fa": "بیمار فردا می‌تواند به خانه برود، اگر زخم خوب جوش بخورد.",
+        "en": "The patient may go home tomorrow if the wound heals well."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Privatpatient",
+      "uebersetzung": {
+        "fa": "بیمار خصوصی",
+        "en": "private patient"
+      }
+    },
+    {
+      "wort": "der Kassenpatient",
+      "uebersetzung": {
+        "fa": "بیمار بیمه‌ی عمومی",
+        "en": "patient with statutory insurance"
+      }
+    },
+    {
+      "wort": "die Patientenverfügung",
+      "uebersetzung": {
+        "fa": "وصیت‌نامه‌ی پزشکی",
+        "en": "advance directive"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Patienten",
+    "deklinationstyp": "n-deklination",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Patienten aufnehmen",
+        "beispiel": "Die Station kann heute keinen Patienten mehr aufnehmen.",
+        "uebersetzung": {
+          "fa": "این بخش امروز دیگر نمی‌تواند بیماری بپذیرد.",
+          "en": "The ward cannot admit any more patients today."
+        }
+      },
+      {
+        "verbindung": "einen Patienten entlassen",
+        "beispiel": "Wir entlassen den Patienten morgen früh.",
+        "uebersetzung": {
+          "fa": "بیمار را فردا صبح مرخص می‌کنیم.",
+          "en": "We are discharging the patient tomorrow morning."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص (بیماری)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "die Krankenschwester",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرستار (زن)",
+          "en": "nurse"
+        },
+        "id_ref": "nomen_krankenschwester"
+      },
+      {
+        "wort": "die Patientin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار (زن)",
+          "en": "patient (female)"
+        },
+        "id_ref": "nomen_patientin"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

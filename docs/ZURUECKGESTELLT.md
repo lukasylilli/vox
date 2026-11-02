@@ -4350,3 +4350,10 @@
 | 1879 | Partnerschaft | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zusammenleben, Lebensgemeinschaft / eingetragene Partnerschaft / Zusammenarbeit, Städtepartnerschaft) |
 | 1880 | Passage | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einkaufspassage / Abschnitt eines Textes oder Musikstücks / Überfahrt, Durchgang) |
 | 1881 | Passion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Leidenschaft / Leidensgeschichte Jesu, Passionsmusik) |
+| 1882 | Pasta | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Paste, streichbare Masse (Plural Pasten) / italienische Teigwaren) |
+| 1883 | Patchwork | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Flickenarbeit aus Stoff / übertragen: Zusammengesetztes «Patchworkfamilie») |
+| 1884 | Patent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schutzrecht für eine Erfindung / Urkunde, Befähigungsnachweis «Kapitänspatent») |
+| 1885 | Pathologie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Lehre von den Krankheiten / Krankenhausabteilung, Institut / krankhafte Veränderung) |
+| 1886 | Patriarch | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kirchenoberhaupt, Titel / Stammvater, autoritäres Familienoberhaupt) |
+| 1887 | Patriarchat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesellschaftsordnung mit Vorrang des Mannes / Amt, Bezirk eines Patriarchen) |
+| 1888 | Patrone | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Munition / Druckerpatrone, Tintenpatrone) |

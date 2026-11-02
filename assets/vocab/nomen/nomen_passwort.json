@@ -1,0 +1,138 @@
+{
+  "schema": "3.0",
+  "id": "nomen_passwort",
+  "wort": "das Passwort",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رمز عبور",
+      "گذرواژه"
+    ],
+    "en": [
+      "password"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Computer",
+    "Internet"
+  ],
+  "ipa": "ˈpasˌvɔʁt",
+  "anmerkung": null,
+  "berufe": [
+    "it",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe mein Passwort vergessen.",
+      "uebersetzung": {
+        "fa": "رمز عبورم را فراموش کرده‌ام.",
+        "en": "I have forgotten my password."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ein sicheres Passwort sollte lang sein und Zahlen sowie Sonderzeichen enthalten.",
+      "uebersetzung": {
+        "fa": "یک رمز عبور امن باید طولانی باشد و عدد و نشانه‌های ویژه داشته باشد.",
+        "en": "A secure password should be long and contain numbers as well as special characters."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Kennwort",
+      "uebersetzung": {
+        "fa": "رمز عبور",
+        "en": "password"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "englisch password: Pass (گذر) + Wort (کلمه)",
+    "en": "after English password: Pass (pass) + Wort (word)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Passwörter",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Passwort eingeben",
+        "beispiel": "Bitte geben Sie Ihr Passwort ein.",
+        "uebersetzung": {
+          "fa": "لطفاً رمز عبورتان را وارد کنید.",
+          "en": "Please enter your password."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب (بانکی یا کاربری)",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "der Benutzername",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نام کاربری",
+          "en": "username"
+        },
+        "id_ref": "nomen_benutzername"
+      },
+      {
+        "wort": "vergessen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فراموش کردن",
+          "en": "to forget"
+        },
+        "id_ref": "verb_vergessen"
+      },
+      {
+        "wort": "die Sicherheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "امنیت",
+          "en": "security"
+        },
+        "id_ref": "nomen_sicherheit"
+      },
+      {
+        "wort": "das Login",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ورود (به حساب کاربری)",
+          "en": "login"
+        },
+        "id_ref": "nomen_login"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
