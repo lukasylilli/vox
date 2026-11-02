@@ -4428,3 +4428,10 @@
 | 1946 | Piste | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Skipiste / Rollbahn auf dem Flugplatz / Rennstrecke) |
 | 1947 | Plasma | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: ionisiertes Gas / Medizin: Blutplasma) |
 | 1948 | Plateau | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hochebene / Stillstand einer Entwicklung, z. B. Leistungsplateau) |
+| 1949 | Plattform | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: erhöhte Fläche, Bahnsteig / Grundlage, Basis / Internetplattform) |
+| 1950 | Platz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ort, Stadtplatz / Sitzplatz / Raum / Rang, Platzierung) |
+| 1951 | Platzhirsch | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: stärkster Hirsch eines Reviers / übertragen: dominierende Person oder Firma) |
+| 1952 | Platzierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rang in einem Wettbewerb / Aufstellen, Anordnen, z. B. von Waren oder Werbung) |
+| 1953 | Platzverweis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Sport: Feldverweis / Polizei: Anordnung, einen Ort zu verlassen) |
+| 1954 | Player | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Abspielgerät, z. B. MP3-Player / Akteur auf dem Markt) |
+| 1955 | Pleite | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsunfähigkeit / umgangssprachlich: Reinfall, Misserfolg) |

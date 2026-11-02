@@ -4460,6 +4460,13 @@ const zurueckgestellt = <String>{
   'Planungsreferat', // zurückgestellt: meist Name einer Behörde (Referat für Stadtplanung und Bauordnung, München) — wie Kreisverwaltungsreferat, Regel 18 — 2026-11-02
   'Plasma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: ionisiertes Gas / Medizin: Blutplasma) — nach den Nomen 2026-11-02
   'Plateau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hochebene / Stillstand einer Entwicklung, z. B. Leistungsplateau) — nach den Nomen 2026-11-02
+  'Plattform', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erhöhte Fläche, Bahnsteig / Grundlage, Basis / Internetplattform) — nach den Nomen 2026-11-02
+  'Platz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort, Stadtplatz / Sitzplatz / Raum / Rang, Platzierung) — nach den Nomen 2026-11-02
+  'Platzhirsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: stärkster Hirsch eines Reviers / übertragen: dominierende Person oder Firma) — nach den Nomen 2026-11-02
+  'Platzierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rang in einem Wettbewerb / Aufstellen, Anordnen, z. B. von Waren oder Werbung) — nach den Nomen 2026-11-02
+  'Platzverweis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Feldverweis / Polizei: Anordnung, einen Ort zu verlassen) — nach den Nomen 2026-11-02
+  'Player', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abspielgerät, z. B. MP3-Player / Akteur auf dem Markt) — nach den Nomen 2026-11-02
+  'Pleite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsunfähigkeit / umgangssprachlich: Reinfall, Misserfolg) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
