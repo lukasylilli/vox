@@ -4474,6 +4474,9 @@ const zurueckgestellt = <String>{
   'Poesie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dichtkunst, Dichtung / poetischer Zauber, Stimmung) — nach den Nomen 2026-11-02
   'Pogrom', // zurückgestellt: Artikel schwankend (der/das Pogrom) — Regel 14 — 2026-11-02
   'Pokal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Siegerpokal / Trinkgefäß mit Fuß / Pokalwettbewerb) — nach den Nomen 2026-11-02
+  'Poker', // zurückgestellt: Artikel schwankend (das Poker, österreichisch auch der Poker) — Regel 14 — 2026-11-02
+  'Polarisierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spaltung einer Gesellschaft in Lager / Physik: Polarisation, Ausrichtung) — nach den Nomen 2026-11-02
+  'Politik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staatsführung, Politik eines Landes / berechnendes Vorgehen, Taktik) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

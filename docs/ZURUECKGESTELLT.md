@@ -2639,6 +2639,7 @@
 | ۲۴۶۲ | Plot | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Plot) — Regel 14 | — |
 | ۲۴۶۳ | Podest | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Podest, landschaftlich/österreichisch auch der Podest) — Regel 14 | — |
 | ۲۴۶۴ | Pogrom | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Pogrom) — Regel 14 | — |
+| ۲۴۶۵ | Poker | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Poker, österreichisch auch der Poker) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4442,3 +4443,5 @@
 | 1957 | Podium | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: erhöhte Bühne / die Diskussionsrunde auf dem Podium) |
 | 1958 | Poesie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Dichtkunst, Dichtung / poetischer Zauber, Stimmung) |
 | 1959 | Pokal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Siegerpokal / Trinkgefäß mit Fuß / Pokalwettbewerb) |
+| 1960 | Polarisierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spaltung einer Gesellschaft in Lager / Physik: Polarisation, Ausrichtung) |
+| 1961 | Politik | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Staatsführung, Politik eines Landes / berechnendes Vorgehen, Taktik) |
