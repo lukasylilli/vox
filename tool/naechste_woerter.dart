@@ -4516,6 +4516,12 @@ const zurueckgestellt = <String>{
   'Probe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Test, Prüfung / Muster, Stichprobe (Blutprobe) / Theater-, Musikprobe) — nach den Nomen 2026-11-02
   'Produkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erzeugnis, Ware / Ergebnis, Folge / Mathematik: Ergebnis einer Multiplikation) — nach den Nomen 2026-11-02
   'Produktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herstellung / hergestellte Menge / Film-, Theaterproduktion als Werk / Abteilung im Betrieb) — nach den Nomen 2026-11-02
+  'Produzent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hersteller, Erzeuger / Film-, Musikproduzent) — nach den Nomen 2026-11-02
+  'Professor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hochschullehrer / österr. Titel für Lehrer an höheren Schulen) — nach den Nomen 2026-11-02
+  'Professorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie «Professor»: Hochschullehrerin / österr. Titel für Lehrerinnen an höheren Schulen) — nach den Nomen 2026-11-02
+  'Profil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seitenansicht / Reifenprofil / Persönlichkeit, Ausprägung / Nutzerprofil) — nach den Nomen 2026-11-02
+  'Profilierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) — nach den Nomen 2026-11-02
+  'Programm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -4484,3 +4484,9 @@
 | 1986 | Probe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Test, Prüfung / Muster, Stichprobe (Blutprobe) / Theater-, Musikprobe) |
 | 1987 | Produkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erzeugnis, Ware / Ergebnis, Folge / Mathematik: Ergebnis einer Multiplikation) |
 | 1988 | Produktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herstellung / hergestellte Menge / Film-, Theaterproduktion als Werk / Abteilung im Betrieb) |
+| 1989 | Produzent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hersteller, Erzeuger / Film-, Musikproduzent) |
+| 1990 | Professor | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hochschullehrer / österr. Titel für Lehrer an höheren Schulen) |
+| 1991 | Professorin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie «Professor»: Hochschullehrerin / österr. Titel für Lehrerinnen an höheren Schulen) |
+| 1992 | Profil | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Seitenansicht / Reifenprofil / Persönlichkeit, Ausprägung / Nutzerprofil) |
+| 1993 | Profilierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) |
+| 1994 | Programm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) |
