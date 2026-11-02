@@ -4523,6 +4523,15 @@ const zurueckgestellt = <String>{
   'Profilierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) — nach den Nomen 2026-11-02
   'Programm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) — nach den Nomen 2026-11-02
   'Projektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bild auf Leinwand / Psychologie: Übertragung eigener Gefühle / Mathematik, Kartografie: Abbildung) — nach den Nomen 2026-11-02
+  'Promille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tausendstel / ugs. Blutalkoholgehalt) — nach den Nomen 2026-11-02
+  'Prominenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Prominenten / das Prominentsein) — nach den Nomen 2026-11-02
+  'Promoter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Veranstalter von Konzerten, Boxkämpfen / Verkaufsförderer) — nach den Nomen 2026-11-02
+  'Propagandist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer Propaganda macht / Wirtschaft: Werbefachmann, Produktvorführer) — nach den Nomen 2026-11-02
+  'Proporz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verteilung von Ämtern nach Parteienstärke / österr., schweiz.: Verhältniswahl) — nach den Nomen 2026-11-02
+  'Prospekt', // zurückgestellt: Artikel in Österreich auch «das Prospekt»; dazu mehrere Bedeutungen (Werbeheft / Bühnenhintergrund / Straße in Russland) — 2026-11-02
+  'Prostituierte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Prostituierte) — nach den Nomen 2026-11-02
+  'Protagonist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hauptfigur, Hauptdarsteller / Vorkämpfer) — nach den Nomen 2026-11-02
+  'Protagonistin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie «Protagonist»: Hauptfigur / Vorkämpferin) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

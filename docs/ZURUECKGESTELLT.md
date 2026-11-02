@@ -2652,6 +2652,7 @@
 | ۲۴۷۵ | Prater | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 | — |
 | ۲۴۷۶ | Primo | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 | — |
 | ۲۴۷۷ | Prix | `substantiv_singular_alle.txt` | 2026-11-02 | nur in festen Fügungen (Grand Prix), kein eigenständiges deutsches Nomen — Regel 14 | — |
+| ۲۴۷۸ | Prospekt | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel in Österreich auch «das Prospekt»; dazu mehrere Bedeutungen (Werbeheft / Bühnenhintergrund / Straße in Russland) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4491,3 +4492,11 @@
 | 1993 | Profilierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) |
 | 1994 | Programm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) |
 | 1995 | Projektion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bild auf Leinwand / Psychologie: Übertragung eigener Gefühle / Mathematik, Kartografie: Abbildung) |
+| 1996 | Promille | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tausendstel / ugs. Blutalkoholgehalt) |
+| 1997 | Prominenz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Prominenten / das Prominentsein) |
+| 1998 | Promoter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Veranstalter von Konzerten, Boxkämpfen / Verkaufsförderer) |
+| 1999 | Propagandist | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: wer Propaganda macht / Wirtschaft: Werbefachmann, Produktvorführer) |
+| 2000 | Proporz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verteilung von Ämtern nach Parteienstärke / österr., schweiz.: Verhältniswahl) |
+| 2001 | Prostituierte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Prostituierte) |
+| 2002 | Protagonist | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hauptfigur, Hauptdarsteller / Vorkämpfer) |
+| 2003 | Protagonistin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie «Protagonist»: Hauptfigur / Vorkämpferin) |
