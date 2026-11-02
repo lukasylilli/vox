@@ -2655,6 +2655,7 @@
 | ۲۴۷۸ | Prospekt | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel in Österreich auch «das Prospekt»; dazu mehrere Bedeutungen (Werbeheft / Bühnenhintergrund / Straße in Russland) | — |
 | ۲۴۷۹ | Pub | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Pub) — wie Poster, Plot | — |
 | ۲۴۸۰ | Pulp | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Fruchtmark / Schundliteratur «Pulp Fiction»), kein gebräuchliches deutsches Nomen — Regel 14 | — |
+| ۲۴۸۱ | Quadratmeter | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Quadratmeter) — wie Meter, Millimeter | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4520,3 +4521,12 @@
 | 2019 | Punk | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Protestbewegung / Punkrock / Punker als Person) |
 | 2020 | Punkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Satzzeichen / Stelle, Ort / Wertungseinheit / Thema einer Liste) |
 | 2021 | Puppe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spielzeug / Entwicklungsstadium von Insekten / ugs. Mädchen) |
+| 2022 | Putz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wandverputz / veraltend: Kleidung, Schmuck; ugs. «auf den Putz hauen») |
+| 2023 | Pyramide | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: geometrischer Körper / Bauwerk in Ägypten / übertragen: Alterspyramide, Hierarchie) |
+| 2024 | Python | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: der Python «Riesenschlange» / Python «Programmiersprache»; Plural Pythons/Pythonen) |
+| 2025 | Quadrat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Viereck / Mathematik: zweite Potenz) |
+| 2026 | Quadratur | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mathematik / «Quadratur des Kreises» = unlösbare Aufgabe / Astronomie) |
+| 2027 | Qualifikation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: berufliche Befähigung / Sport: Ausscheidungswettbewerb) |
+| 2028 | Qualifizierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Weiterbildung / Sport: das Sich-Qualifizieren / Einstufung) |
+| 2029 | Quantensprung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik / übertragen: großer Fortschritt) |
+| 2030 | Quantum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Menge, Anteil / Physik: Quant) |

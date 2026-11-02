@@ -4552,6 +4552,16 @@ const zurueckgestellt = <String>{
   'Punk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Protestbewegung / Punkrock / Punker als Person) — nach den Nomen 2026-11-02
   'Punkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Satzzeichen / Stelle, Ort / Wertungseinheit / Thema einer Liste) — nach den Nomen 2026-11-02
   'Puppe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielzeug / Entwicklungsstadium von Insekten / ugs. Mädchen) — nach den Nomen 2026-11-02
+  'Putz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wandverputz / veraltend: Kleidung, Schmuck; ugs. «auf den Putz hauen») — nach den Nomen 2026-11-02
+  'Pyramide', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geometrischer Körper / Bauwerk in Ägypten / übertragen: Alterspyramide, Hierarchie) — nach den Nomen 2026-11-02
+  'Python', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Python «Riesenschlange» / Python «Programmiersprache»; Plural Pythons/Pythonen) — nach den Nomen 2026-11-02
+  'Quadrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Viereck / Mathematik: zweite Potenz) — nach den Nomen 2026-11-02
+  'Quadratur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik / «Quadratur des Kreises» = unlösbare Aufgabe / Astronomie) — nach den Nomen 2026-11-02
+  'Qualifikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: berufliche Befähigung / Sport: Ausscheidungswettbewerb) — nach den Nomen 2026-11-02
+  'Qualifizierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weiterbildung / Sport: das Sich-Qualifizieren / Einstufung) — nach den Nomen 2026-11-02
+  'Quantensprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik / übertragen: großer Fortschritt) — nach den Nomen 2026-11-02
+  'Quantum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Menge, Anteil / Physik: Quant) — nach den Nomen 2026-11-02
+  'Quadratmeter', // zurückgestellt: Artikel doppelt (der/das Quadratmeter) — wie Meter, Millimeter — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
