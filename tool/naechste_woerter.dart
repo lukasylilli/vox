@@ -4545,6 +4545,7 @@ const zurueckgestellt = <String>{
   'Puck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph, gleicher Artikel: Puck «Kobold» / Puck «Eishockeyscheibe») — nach den Nomen 2026-11-02
   'Pudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / Kegeln: Fehlwurf) — nach den Nomen 2026-11-02
   'Puffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisenbahn: Stoßdämpfer / EDV: Zwischenspeicher / Kartoffelpuffer / Reserve) — nach den Nomen 2026-11-02
+  'Pulp', // zurückgestellt: Bedeutung/Gebrauch unsicher (Fruchtmark / Schundliteratur «Pulp Fiction»), kein gebräuchliches deutsches Nomen — Regel 14 — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

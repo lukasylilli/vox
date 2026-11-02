@@ -2654,6 +2654,7 @@
 | ۲۴۷۷ | Prix | `substantiv_singular_alle.txt` | 2026-11-02 | nur in festen Fügungen (Grand Prix), kein eigenständiges deutsches Nomen — Regel 14 | — |
 | ۲۴۷۸ | Prospekt | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel in Österreich auch «das Prospekt»; dazu mehrere Bedeutungen (Werbeheft / Bühnenhintergrund / Straße in Russland) | — |
 | ۲۴۷۹ | Pub | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Pub) — wie Poster, Plot | — |
+| ۲۴۸۰ | Pulp | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Fruchtmark / Schundliteratur «Pulp Fiction»), kein gebräuchliches deutsches Nomen — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
