@@ -4396,6 +4396,10 @@ const zurueckgestellt = <String>{
   'Pegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserstandsmesser / Wasserstand / Niveau, z. B. Lärm- oder Alkoholpegel) — nach den Nomen 2026-11-02
   'Pechstein', // zurückgestellt: Fachwort der Geologie (vulkanisches Glas); persische Fachbezeichnung unsicher — Regel 14 2026-11-02
   'Pegasus', // zurückgestellt: Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 2026-11-02
+  'Pelz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fell eines Tieres / Kleidungsstück aus Fell, Pelzmantel) — nach den Nomen 2026-11-02
+  'Pendant', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstück, Entsprechung / veraltend: Ohrgehänge) — nach den Nomen 2026-11-02
+  'Penner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, salopp abwertend: Obdachloser / verschlafener, langsamer Mensch) — nach den Nomen 2026-11-02
+  'Pension', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruhestand, Ruhegehalt / kleines Gästehaus, Unterkunft mit Verpflegung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

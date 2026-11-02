@@ -4364,3 +4364,7 @@
 | 1891 | Pavillon | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Festzelt / Gartenhäuschen / Ausstellungsbau, Nebengebäude) |
 | 1892 | Pech | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: zähe schwarze Masse, Teer / Unglück, Missgeschick) |
 | 1893 | Pegel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wasserstandsmesser / Wasserstand / Niveau, z. B. Lärm- oder Alkoholpegel) |
+| 1894 | Pelz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fell eines Tieres / Kleidungsstück aus Fell, Pelzmantel) |
+| 1895 | Pendant | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gegenstück, Entsprechung / veraltend: Ohrgehänge) |
+| 1896 | Penner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen, salopp abwertend: Obdachloser / verschlafener, langsamer Mensch) |
+| 1897 | Pension | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ruhestand, Ruhegehalt / kleines Gästehaus, Unterkunft mit Verpflegung) |
