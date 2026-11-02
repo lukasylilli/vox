@@ -2619,6 +2619,7 @@
 | ۲۴۴۲ | Pak | `substantiv_singular_alle.txt` | 2026-11-02 | militärische Abkürzung (Panzerabwehrkanone); Lernwert/Gebrauch unsicher — Regel 14 | — |
 | ۲۴۴۳ | Pale | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (Bedeutung unklar) — Regel 14 | — |
 | ۲۴۴۴ | Palmengarten | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Anlage (Palmengarten Frankfurt), kein geografischer Eigenname — wie Hofgarten, Regel 18 | — |
+| ۲۴۴۵ | Papagei | `substantiv_singular_alle.txt` | 2026-11-02 | Deklination schwankend (des Papageis / des Papageien; Plural Papageien, seltener Papageie) — wie Meteorit/Oberst, Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4318,3 +4319,8 @@
 | 1853 | Page | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (der Page «junger Diener, Hoteldiener» / ugs. die Page «Webseite») |
 | 1854 | Paket | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Postsendung / Packung, Bündel «ein Paket Papier» / Gesamtheit von Maßnahmen «Sparpaket» / Aktienpaket) |
 | 1855 | Palette | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Farbpalette des Malers / Auswahl, Vielfalt «eine breite Palette» / Transportpalette) |
+| 1856 | Panel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Diskussionsrunde, Podium / feste Befragtengruppe in der Marktforschung / Bedienfeld, Verkleidungsplatte) |
+| 1857 | Panzer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kampfpanzer, gepanzertes Fahrzeug / Schutzhülle, z. B. der Schildkröte / Rüstung) |
+| 1858 | Paper | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: schriftliche Unterlage, Thesenpapier / wissenschaftlicher Aufsatz) |
+| 1859 | Papier | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Material / Schriftstück, Dokument «die Papiere» / Wertpapier) |
+| 1860 | Parabel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: lehrhafte Erzählung, Gleichnis / Kurve in der Mathematik) |

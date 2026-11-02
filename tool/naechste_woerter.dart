@@ -4350,6 +4350,12 @@ const zurueckgestellt = <String>{
   'Pale', // zurückgestellt: kein gebräuchliches deutsches Nomen (Bedeutung unklar) — Regel 14 2026-11-02
   'Palette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Farbpalette des Malers / Auswahl, Vielfalt «eine breite Palette» / Transportpalette) — nach den Nomen 2026-11-02
   'Palmengarten', // zurückgestellt: meist Name einer Anlage (Palmengarten Frankfurt), kein geografischer Eigenname — wie Hofgarten, Regel 18 2026-11-02
+  'Panel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Diskussionsrunde, Podium / feste Befragtengruppe in der Marktforschung / Bedienfeld, Verkleidungsplatte) — nach den Nomen 2026-11-02
+  'Panzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kampfpanzer, gepanzertes Fahrzeug / Schutzhülle, z. B. der Schildkröte / Rüstung) — nach den Nomen 2026-11-02
+  'Papagei', // zurückgestellt: Deklination schwankend (des Papageis / des Papageien; Plural Papageien, seltener Papageie) — wie Meteorit/Oberst, Regel 14 2026-11-02
+  'Paper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schriftliche Unterlage, Thesenpapier / wissenschaftlicher Aufsatz) — nach den Nomen 2026-11-02
+  'Papier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Material / Schriftstück, Dokument «die Papiere» / Wertpapier) — nach den Nomen 2026-11-02
+  'Parabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lehrhafte Erzählung, Gleichnis / Kurve in der Mathematik) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
