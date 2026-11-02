@@ -4389,6 +4389,13 @@ const zurueckgestellt = <String>{
   'Patriarch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenoberhaupt, Titel / Stammvater, autoritäres Familienoberhaupt) — nach den Nomen 2026-11-02
   'Patriarchat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesellschaftsordnung mit Vorrang des Mannes / Amt, Bezirk eines Patriarchen) — nach den Nomen 2026-11-02
   'Patrone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Munition / Druckerpatrone, Tintenpatrone) — nach den Nomen 2026-11-02
+  'Patzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Fehler / abwertend: jemand, der patzt, schwacher Schachspieler) — nach den Nomen 2026-11-02
+  'Paukenschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlag auf die Pauke / übertragen: aufsehenerregendes Ereignis) — nach den Nomen 2026-11-02
+  'Pavillon', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Festzelt / Gartenhäuschen / Ausstellungsbau, Nebengebäude) — nach den Nomen 2026-11-02
+  'Pech', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zähe schwarze Masse, Teer / Unglück, Missgeschick) — nach den Nomen 2026-11-02
+  'Pegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserstandsmesser / Wasserstand / Niveau, z. B. Lärm- oder Alkoholpegel) — nach den Nomen 2026-11-02
+  'Pechstein', // zurückgestellt: Fachwort der Geologie (vulkanisches Glas); persische Fachbezeichnung unsicher — Regel 14 2026-11-02
+  'Pegasus', // zurückgestellt: Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

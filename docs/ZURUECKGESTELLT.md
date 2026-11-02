@@ -2625,6 +2625,8 @@
 | ۲۴۴۸ | Partisane | `substantiv_singular_alle.txt` | 2026-11-02 | Listeneintrag unklar: «die Partisane» = alte Stoßwaffe; gemeint vielleicht «der Partisan» (Kämpfer) — Regel 14 | — |
 | ۲۴۴۹ | Pas | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus dem Ballett (Tanzschritt); Lernwert/Gebrauch unsicher — Regel 14 | — |
 | ۲۴۵۰ | Passer | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus der Drucktechnik bzw. Sport-Jargon; Bedeutung/Lernwert unsicher — Regel 14 | — |
+| ۲۴۵۱ | Pechstein | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Geologie (vulkanisches Glas); persische Fachbezeichnung unsicher — Regel 14 | — |
+| ۲۴۵۲ | Pegasus | `substantiv_singular_alle.txt` | 2026-11-02 | Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4357,3 +4359,8 @@
 | 1886 | Patriarch | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kirchenoberhaupt, Titel / Stammvater, autoritäres Familienoberhaupt) |
 | 1887 | Patriarchat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesellschaftsordnung mit Vorrang des Mannes / Amt, Bezirk eines Patriarchen) |
 | 1888 | Patrone | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Munition / Druckerpatrone, Tintenpatrone) |
+| 1889 | Patzer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kleiner Fehler / abwertend: jemand, der patzt, schwacher Schachspieler) |
+| 1890 | Paukenschlag | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schlag auf die Pauke / übertragen: aufsehenerregendes Ereignis) |
+| 1891 | Pavillon | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Festzelt / Gartenhäuschen / Ausstellungsbau, Nebengebäude) |
+| 1892 | Pech | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: zähe schwarze Masse, Teer / Unglück, Missgeschick) |
+| 1893 | Pegel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wasserstandsmesser / Wasserstand / Niveau, z. B. Lärm- oder Alkoholpegel) |
