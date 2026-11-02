@@ -4331,3 +4331,7 @@
 | 1863 | Parallele | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: parallele Linie in der Mathematik / vergleichbarer Fall, Entsprechung) |
 | 1864 | Parasit | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schmarotzer in der Biologie / abwertend für einen Menschen, der auf Kosten anderer lebt) |
 | 1865 | Parkett | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Holzfußboden / vordere Sitzreihen im Theater / Börsenparkett, öffentliche Bühne) |
+| 1866 | Parlamentsabgeordnete | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Parlamentsabgeordnete, ein Parlamentsabgeordneter) |
+| 1867 | Parlamentssitz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mandat, Sitz im Parlament / Ort, an dem das Parlament tagt) |
+| 1868 | Part | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Anteil «seinen Part beitragen» / Rolle, Stimme in Musik oder Theater) |
+| 1869 | Partei | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: politische Partei / Prozess- oder Vertragspartei / Mietpartei «Partei ergreifen») |

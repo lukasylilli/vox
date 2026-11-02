@@ -4363,6 +4363,10 @@ const zurueckgestellt = <String>{
   'Pardon', // zurückgestellt: Artikel schwankend (der/das Pardon); meist nur als Ausruf «Pardon!» — Regel 14 2026-11-02
   'Parker', // zurückgestellt: kein gebräuchliches Nomen (Familienname/Marke; «der Parker» = Parkender unsicher) — Regel 14 2026-11-02
   'Parkett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzfußboden / vordere Sitzreihen im Theater / Börsenparkett, öffentliche Bühne) — nach den Nomen 2026-11-02
+  'Parlamentsabgeordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Parlamentsabgeordnete, ein Parlamentsabgeordneter) — nach den Nomen 2026-11-02
+  'Parlamentssitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mandat, Sitz im Parlament / Ort, an dem das Parlament tagt) — nach den Nomen 2026-11-02
+  'Part', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteil «seinen Part beitragen» / Rolle, Stimme in Musik oder Theater) — nach den Nomen 2026-11-02
+  'Partei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politische Partei / Prozess- oder Vertragspartei / Mietpartei «Partei ergreifen») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
