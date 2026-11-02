@@ -2627,6 +2627,7 @@
 | ۲۴۵۰ | Passer | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus der Drucktechnik bzw. Sport-Jargon; Bedeutung/Lernwert unsicher — Regel 14 | — |
 | ۲۴۵۱ | Pechstein | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Geologie (vulkanisches Glas); persische Fachbezeichnung unsicher — Regel 14 | — |
 | ۲۴۵۲ | Pegasus | `substantiv_singular_alle.txt` | 2026-11-02 | Name aus der Mythologie bzw. Sternbild — kein geografischer Name (Regel 18); Karte unsicher — Regel 14 | — |
+| ۲۴۵۳ | Petit | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort der Typografie (Schriftgrad); Lernwert/Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4380,3 +4381,9 @@
 | 1907 | Personenzug | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zug für Reisende / früher: langsamer Nahverkehrszug, der überall hält) |
 | 1908 | Perspektive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: räumliche Darstellung / Blickwinkel, Sichtweise / Aussicht für die Zukunft) |
 | 1909 | Perversion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: sexuelle Abweichung / übertragen: Verkehrung ins Gegenteil, z. B. «Perversion des Rechts») |
+| 1910 | Petroleum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Leuchtöl, Kerosin / veraltet: Erdöl) |
+| 1911 | Pfad | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: schmaler Weg / EDV: Dateipfad) |
+| 1912 | Pfand | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Sicherheit, verpfändeter Gegenstand / Flaschenpfand, Leergutgebühr) |
+| 1913 | Pfanne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bratpfanne / Dachziegel «Dachpfanne» / Anatomie: Gelenkpfanne) |
+| 1914 | Pfarramt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Amt des Pfarrers / Büro, Dienststelle der Pfarrei) |
+| 1915 | Pfarrgemeinderat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gremium der Pfarrgemeinde / Mitglied dieses Gremiums) |

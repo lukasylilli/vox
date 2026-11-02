@@ -4412,6 +4412,13 @@ const zurueckgestellt = <String>{
   'Personenzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug für Reisende / früher: langsamer Nahverkehrszug, der überall hält) — nach den Nomen 2026-11-02
   'Perspektive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: räumliche Darstellung / Blickwinkel, Sichtweise / Aussicht für die Zukunft) — nach den Nomen 2026-11-02
   'Perversion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sexuelle Abweichung / übertragen: Verkehrung ins Gegenteil, z. B. «Perversion des Rechts») — nach den Nomen 2026-11-02
+  'Petit', // zurückgestellt: Fachwort der Typografie (Schriftgrad); Lernwert/Gebrauch unsicher — Regel 14 2026-11-02
+  'Petroleum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leuchtöl, Kerosin / veraltet: Erdöl) — nach den Nomen 2026-11-02
+  'Pfad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schmaler Weg / EDV: Dateipfad) — nach den Nomen 2026-11-02
+  'Pfand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sicherheit, verpfändeter Gegenstand / Flaschenpfand, Leergutgebühr) — nach den Nomen 2026-11-02
+  'Pfanne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bratpfanne / Dachziegel «Dachpfanne» / Anatomie: Gelenkpfanne) — nach den Nomen 2026-11-02
+  'Pfarramt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Amt des Pfarrers / Büro, Dienststelle der Pfarrei) — nach den Nomen 2026-11-02
+  'Pfarrgemeinderat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Pfarrgemeinde / Mitglied dieses Gremiums) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
