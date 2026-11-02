@@ -2670,6 +2670,7 @@
 | ۲۴۹۳ | Randal | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (üblich: die Randale) — Regel 14 | — |
 | ۲۴۹۴ | Range | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (landschaftlich «wildes Kind» / engl. range) — Regel 14 | — |
 | ۲۴۹۵ | Rank | `substantiv_singular_alle.txt` | 2026-11-02 | regional (schweiz.), meist nur in Wendungen («den Rank finden») — Regel 14 | — |
+| ۲۴۹۶ | Rapp | `substantiv_singular_alle.txt` | 2026-11-02 | keine gebräuchliche Form (üblich: der Rappe) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4569,3 +4570,11 @@
 | 2053 | Rampenlicht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bühnenbeleuchtung / übertragen: Öffentlichkeit) |
 | 2054 | Rang | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Stellung, Stufe / Theater: Galerie / Sport: Platzierung) |
 | 2055 | Ranger | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufseher im Nationalpark / Soldat einer US-Spezialeinheit) |
+| 2056 | Rappen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: der Rappen «Schweizer Münze» / Plural von «der Rappe» «schwarzes Pferd») |
+| 2057 | Rapport | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bericht, Meldung / Psychologie: Beziehung, Kontakt) |
+| 2058 | Raps | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: der Raps «Pflanze» / Plural von «der Rap») |
+| 2059 | Raserei | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: zu schnelles Fahren / Tobsucht, Wut) |
+| 2060 | Rasse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tierrasse / Menschen: heute problematisch; dazu ugs. «Rasse haben») |
+| 2061 | Rat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ratschlag / Gremium / Titel, Person) |
+| 2062 | Rate | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Teilzahlung / Quote, Anteil) |
+| 2063 | Ratgeber | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Person, die rät / Buch mit Ratschlägen) |

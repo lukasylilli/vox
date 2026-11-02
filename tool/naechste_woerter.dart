@@ -4601,6 +4601,15 @@ const zurueckgestellt = <String>{
   'Randal', // zurückgestellt: kein gebräuchliches Nomen (üblich: die Randale) — Regel 14 — 2026-11-02
   'Range', // zurückgestellt: Bedeutung/Gebrauch unsicher (landschaftlich «wildes Kind» / engl. range) — Regel 14 — 2026-11-02
   'Rank', // zurückgestellt: regional (schweiz.), meist nur in Wendungen («den Rank finden») — Regel 14 — 2026-11-02
+  'Rappen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Rappen «Schweizer Münze» / Plural von «der Rappe» «schwarzes Pferd») — nach den Nomen 2026-11-02
+  'Rapport', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bericht, Meldung / Psychologie: Beziehung, Kontakt) — nach den Nomen 2026-11-02
+  'Raps', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Raps «Pflanze» / Plural von «der Rap») — nach den Nomen 2026-11-02
+  'Raserei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zu schnelles Fahren / Tobsucht, Wut) — nach den Nomen 2026-11-02
+  'Rasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tierrasse / Menschen: heute problematisch; dazu ugs. «Rasse haben») — nach den Nomen 2026-11-02
+  'Rat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ratschlag / Gremium / Titel, Person) — nach den Nomen 2026-11-02
+  'Rate', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilzahlung / Quote, Anteil) — nach den Nomen 2026-11-02
+  'Ratgeber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die rät / Buch mit Ratschlägen) — nach den Nomen 2026-11-02
+  'Rapp', // zurückgestellt: keine gebräuchliche Form (üblich: der Rappe) — Regel 14 — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
