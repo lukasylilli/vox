@@ -4467,6 +4467,13 @@ const zurueckgestellt = <String>{
   'Platzverweis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Feldverweis / Polizei: Anordnung, einen Ort zu verlassen) — nach den Nomen 2026-11-02
   'Player', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abspielgerät, z. B. MP3-Player / Akteur auf dem Markt) — nach den Nomen 2026-11-02
   'Pleite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsunfähigkeit / umgangssprachlich: Reinfall, Misserfolg) — nach den Nomen 2026-11-02
+  'Plot', // zurückgestellt: Artikel schwankend (der/das Plot) — Regel 14 — 2026-11-02
+  'Plus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pluszeichen / Überschuss, Gewinn / Vorteil) — nach den Nomen 2026-11-02
+  'Podest', // zurückgestellt: Artikel schwankend (das Podest, landschaftlich/österreichisch auch der Podest) — Regel 14 — 2026-11-02
+  'Podium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erhöhte Bühne / die Diskussionsrunde auf dem Podium) — nach den Nomen 2026-11-02
+  'Poesie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dichtkunst, Dichtung / poetischer Zauber, Stimmung) — nach den Nomen 2026-11-02
+  'Pogrom', // zurückgestellt: Artikel schwankend (der/das Pogrom) — Regel 14 — 2026-11-02
+  'Pokal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Siegerpokal / Trinkgefäß mit Fuß / Pokalwettbewerb) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

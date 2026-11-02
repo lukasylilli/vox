@@ -2636,6 +2636,9 @@
 | ۲۴۵۹ | Pilote | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 | — |
 | ۲۴۶۰ | Pipa | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (chinesisches Saiteninstrument? Kröte?); Bedeutung unsicher — Regel 14 | — |
 | ۲۴۶۱ | Planungsreferat | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Behörde (Referat für Stadtplanung und Bauordnung, München) — wie Kreisverwaltungsreferat, Regel 18 | — |
+| ۲۴۶۲ | Plot | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Plot) — Regel 14 | — |
+| ۲۴۶۳ | Podest | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Podest, landschaftlich/österreichisch auch der Podest) — Regel 14 | — |
+| ۲۴۶۴ | Pogrom | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Pogrom) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4435,3 +4438,7 @@
 | 1953 | Platzverweis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Sport: Feldverweis / Polizei: Anordnung, einen Ort zu verlassen) |
 | 1954 | Player | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Abspielgerät, z. B. MP3-Player / Akteur auf dem Markt) |
 | 1955 | Pleite | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsunfähigkeit / umgangssprachlich: Reinfall, Misserfolg) |
+| 1956 | Plus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Pluszeichen / Überschuss, Gewinn / Vorteil) |
+| 1957 | Podium | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: erhöhte Bühne / die Diskussionsrunde auf dem Podium) |
+| 1958 | Poesie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Dichtkunst, Dichtung / poetischer Zauber, Stimmung) |
+| 1959 | Pokal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Siegerpokal / Trinkgefäß mit Fuß / Pokalwettbewerb) |
