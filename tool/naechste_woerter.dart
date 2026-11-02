@@ -4616,6 +4616,12 @@ const zurueckgestellt = <String>{
   'Ratte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / abwertend: gemeiner Mensch) — nach den Nomen 2026-11-02
   'Raub', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Rauben / Beute, «ein Raub der Flammen») — nach den Nomen 2026-11-02
   'Raucher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die raucht / ugs. Raucherabteil) — nach den Nomen 2026-11-02
+  'Raum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zimmer / Platz, Fläche / Weltraum / Gebiet, Region) — nach den Nomen 2026-11-02
+  'Raupe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insektenlarve / Kettenfahrzeug, Planierraupe) — nach den Nomen 2026-11-02
+  'Rausch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trunkenheit, Drogenrausch / übertragen: Begeisterung, Taumel) — nach den Nomen 2026-11-02
+  'Reaktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Antwort auf etwas / Chemie / Politik: Reaktionäre) — nach den Nomen 2026-11-02
+  'Rauscher', // zurückgestellt: Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 — 2026-11-02
+  'Rave', // zurückgestellt: Artikel doppelt (der/das Rave) — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

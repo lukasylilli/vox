@@ -2671,6 +2671,8 @@
 | ۲۴۹۴ | Range | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (landschaftlich «wildes Kind» / engl. range) — Regel 14 | — |
 | ۲۴۹۵ | Rank | `substantiv_singular_alle.txt` | 2026-11-02 | regional (schweiz.), meist nur in Wendungen («den Rank finden») — Regel 14 | — |
 | ۲۴۹۶ | Rapp | `substantiv_singular_alle.txt` | 2026-11-02 | keine gebräuchliche Form (üblich: der Rappe) — Regel 14 | — |
+| ۲۴۹۷ | Rauscher | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 | — |
+| ۲۴۹۸ | Rave | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Rave) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4584,3 +4586,7 @@
 | 2067 | Ratte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tier / abwertend: gemeiner Mensch) |
 | 2068 | Raub | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Rauben / Beute, «ein Raub der Flammen») |
 | 2069 | Raucher | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Person, die raucht / ugs. Raucherabteil) |
+| 2070 | Raum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zimmer / Platz, Fläche / Weltraum / Gebiet, Region) |
+| 2071 | Raupe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Insektenlarve / Kettenfahrzeug, Planierraupe) |
+| 2072 | Rausch | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Trunkenheit, Drogenrausch / übertragen: Begeisterung, Taumel) |
+| 2073 | Reaktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Antwort auf etwas / Chemie / Politik: Reaktionäre) |
