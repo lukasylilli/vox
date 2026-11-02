@@ -4584,6 +4584,12 @@ const zurueckgestellt = <String>{
   'Rabbi', // zurückgestellt: Titel/Anrede jüdischer Gelehrter, Plural doppelt (Rabbinen/Rabbis); gebräuchlich ist «Rabbiner» — Regel 14 — 2026-11-02
   'Radar', // zurückgestellt: Artikel doppelt (der/das Radar) — 2026-11-02
   'Radio', // zurückgestellt: Artikel regional doppelt (süddt./österr./schweiz. auch «der Radio») und mehrere Bedeutungen (Gerät / Rundfunk) — 2026-11-02
+  'Radius', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Halbmesser / Reichweite, Aktionsradius) — nach den Nomen 2026-11-02
+  'Raffinesse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlauheit, Durchtriebenheit / meist Plural: technische Feinheit) — nach den Nomen 2026-11-02
+  'Rahmen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bilderrahmen / Fahrzeuggestell / übertragen: Rahmen, Umfang) — nach den Nomen 2026-11-02
+  'Rahmenprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begleitprogramm einer Veranstaltung / Förderprogramm, z. B. der EU) — nach den Nomen 2026-11-02
+  'Rakete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weltraumrakete / Waffe / Feuerwerkskörper) — nach den Nomen 2026-11-02
+  'Radl', // zurückgestellt: Plural regional unsicher (die Radl / die Radln), dazu Mundartwort — Regel 14 — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

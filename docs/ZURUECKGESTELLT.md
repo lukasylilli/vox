@@ -2662,6 +2662,7 @@
 | ۲۴۸۵ | Rabbi | `substantiv_singular_alle.txt` | 2026-11-02 | Titel/Anrede jüdischer Gelehrter, Plural doppelt (Rabbinen/Rabbis); gebräuchlich ist «Rabbiner» — Regel 14 | — |
 | ۲۴۸۶ | Radar | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Radar) | — |
 | ۲۴۸۷ | Radio | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel regional doppelt (süddt./österr./schweiz. auch «der Radio») und mehrere Bedeutungen (Gerät / Rundfunk) | — |
+| ۲۴۸۸ | Radl | `substantiv_singular_alle.txt` | 2026-11-02 | Plural regional unsicher (die Radl / die Radln), dazu Mundartwort — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4552,3 +4553,8 @@
 | 2044 | Radfahrerin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie Radfahrer: wer Rad fährt / ugs. abwertend) |
 | 2045 | Radierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Technik des Radierens / so hergestelltes Bild) |
 | 2046 | Radikal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Chemie: freies Radikal / Mathematik: Wurzel; dazu Verwechslung mit «der/die Radikale», Fall 4) |
+| 2047 | Radius | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mathematik: Halbmesser / Reichweite, Aktionsradius) |
+| 2048 | Raffinesse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schlauheit, Durchtriebenheit / meist Plural: technische Feinheit) |
+| 2049 | Rahmen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bilderrahmen / Fahrzeuggestell / übertragen: Rahmen, Umfang) |
+| 2050 | Rahmenprogramm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begleitprogramm einer Veranstaltung / Förderprogramm, z. B. der EU) |
+| 2051 | Rakete | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Weltraumrakete / Waffe / Feuerwerkskörper) |
