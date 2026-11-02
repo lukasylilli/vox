@@ -4335,3 +4335,9 @@
 | 1867 | Parlamentssitz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mandat, Sitz im Parlament / Ort, an dem das Parlament tagt) |
 | 1868 | Part | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Anteil «seinen Part beitragen» / Rolle, Stimme in Musik oder Theater) |
 | 1869 | Partei | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: politische Partei / Prozess- oder Vertragspartei / Mietpartei «Partei ergreifen») |
+| 1870 | Parteigenosse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mitglied einer (Arbeiter-)Partei / historisch: Mitglied der NSDAP) |
+| 1871 | Parteilinke | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4/1 (die Parteilinke «linker Flügel einer Partei» / der/die Parteilinke «Person», wie ein Adjektiv gebeugt) |
+| 1872 | Parteivorsitzende | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Parteivorsitzende) |
+| 1873 | Parteivorsitzender | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (stark gebeugte Form von «der Parteivorsitzende») |
+| 1874 | Parteivorstand | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Partei / Mitglied dieses Gremiums) |
+| 1875 | Parterre | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erdgeschoss / Sitzplätze im Theater) |

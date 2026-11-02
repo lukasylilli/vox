@@ -4367,6 +4367,12 @@ const zurueckgestellt = <String>{
   'Parlamentssitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mandat, Sitz im Parlament / Ort, an dem das Parlament tagt) — nach den Nomen 2026-11-02
   'Part', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteil «seinen Part beitragen» / Rolle, Stimme in Musik oder Theater) — nach den Nomen 2026-11-02
   'Partei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politische Partei / Prozess- oder Vertragspartei / Mietpartei «Partei ergreifen») — nach den Nomen 2026-11-02
+  'Parteigenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied einer (Arbeiter-)Partei / historisch: Mitglied der NSDAP) — nach den Nomen 2026-11-02
+  'Parteilinke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4/1 (die Parteilinke «linker Flügel einer Partei» / der/die Parteilinke «Person», wie ein Adjektiv gebeugt) — nach den Nomen 2026-11-02
+  'Parteivorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Parteivorsitzende) — nach den Nomen 2026-11-02
+  'Parteivorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der Parteivorsitzende») — nach den Nomen 2026-11-02
+  'Parteivorstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Partei / Mitglied dieses Gremiums) — nach den Nomen 2026-11-02
+  'Parterre', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erdgeschoss / Sitzplätze im Theater) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
