@@ -4506,6 +4506,7 @@ const zurueckgestellt = <String>{
   'Prater', // zurückgestellt: Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 — 2026-11-02
   'Praxis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arztpraxis, Kanzlei / praktische Erfahrung / Anwendung, Wirklichkeit) — nach den Nomen 2026-11-02
   'Preis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) — nach den Nomen 2026-11-02
+  'Preisspanne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spanne zwischen niedrigstem und höchstem Preis / Handelsspanne zwischen Einkaufs- und Verkaufspreis) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
