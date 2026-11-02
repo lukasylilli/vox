@@ -2643,6 +2643,8 @@
 | ۲۴۶۶ | Polster | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel und Plural schwankend (das Polster, österreichisch der Polster, Plural auch Pölster) — Regel 14 | — |
 | ۲۴۶۷ | Pont | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (französisch «Brücke»; Namensbestandteil) — Regel 14 | — |
 | ۲۴۶۸ | Ponte | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (italienisch «Brücke»; Namensbestandteil) — Regel 14 | — |
+| ۲۴۶۹ | Porter | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Porter, Biersorte) — Regel 14 | — |
+| ۲۴۷۰ | Portrait | `substantiv_singular_alle.txt` | 2026-11-02 | Schreibvariante von «das Porträt» (eigene Karte nach Regel 5 wäre doppelt) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4449,3 +4451,8 @@
 | 1960 | Polarisierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spaltung einer Gesellschaft in Lager / Physik: Polarisation, Ausrichtung) |
 | 1961 | Politik | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Staatsführung, Politik eines Landes / berechnendes Vorgehen, Taktik) |
 | 1962 | Polizeibeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Polizeibeamte, ein Polizeibeamter) |
+| 1963 | Portal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: großes Tor, Eingang / Internetportal) |
+| 1964 | Portefeuille | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: veraltet Brieftasche / Geschäftsbereich eines Ministers / Wertpapierbestand) |
+| 1965 | Portfolio | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wertpapierbestand / Mappe mit Arbeitsproben / Produktpalette) |
+| 1966 | Position | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Stelle, Lage / berufliche Stellung / Standpunkt / Posten einer Liste) |
+| 1967 | Positionierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufstellen an einer Stelle / Marktpositionierung / Stellungnahme) |

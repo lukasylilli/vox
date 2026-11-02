@@ -4481,6 +4481,13 @@ const zurueckgestellt = <String>{
   'Polster', // zurückgestellt: Artikel und Plural schwankend (das Polster, österreichisch der Polster, Plural auch Pölster) — Regel 14 — 2026-11-02
   'Pont', // zurückgestellt: kein gebräuchliches deutsches Nomen (französisch «Brücke»; Namensbestandteil) — Regel 14 — 2026-11-02
   'Ponte', // zurückgestellt: kein gebräuchliches deutsches Nomen (italienisch «Brücke»; Namensbestandteil) — Regel 14 — 2026-11-02
+  'Portal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: großes Tor, Eingang / Internetportal) — nach den Nomen 2026-11-02
+  'Portefeuille', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltet Brieftasche / Geschäftsbereich eines Ministers / Wertpapierbestand) — nach den Nomen 2026-11-02
+  'Porter', // zurückgestellt: Artikel schwankend (der/das Porter, Biersorte) — Regel 14 — 2026-11-02
+  'Portfolio', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wertpapierbestand / Mappe mit Arbeitsproben / Produktpalette) — nach den Nomen 2026-11-02
+  'Portrait', // zurückgestellt: Schreibvariante von «das Porträt» (eigene Karte nach Regel 5 wäre doppelt) — Regel 14 — 2026-11-02
+  'Position', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stelle, Lage / berufliche Stellung / Standpunkt / Posten einer Liste) — nach den Nomen 2026-11-02
+  'Positionierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufstellen an einer Stelle / Marktpositionierung / Stellungnahme) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
