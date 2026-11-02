@@ -4498,6 +4498,14 @@ const zurueckgestellt = <String>{
   'Postmoderne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (Epoche der Kunst und Philosophie / wie «die Moderne» möglicherweise adjektivisch gebeugt) — nach den Nomen 2026-11-02
   'Postulat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Forderung / Philosophie: unbeweisbare Annahme / schweizerisch: parlamentarischer Auftrag) — nach den Nomen 2026-11-02
   'Potenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Potenz / Zeugungsfähigkeit / Leistungsfähigkeit) — nach den Nomen 2026-11-02
+  'Pott', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, umgangssprachlich: Topf / großes Schiff / «der Pott» = Ruhrgebiet) — nach den Nomen 2026-11-02
+  'Pound', // zurückgestellt: englisches Wort (britisches Pfund), kein gebräuchliches deutsches Nomen — Regel 14 — 2026-11-02
+  'Powerplay', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eishockey: Überzahlspiel / allgemein: Angriff mit großem Druck) — nach den Nomen 2026-11-02
+  'Praktik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfahrensweise, Methode / meist Plural, abwertend: unerlaubte Machenschaften) — nach den Nomen 2026-11-02
+  'Praktiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch mit praktischer Erfahrung / umgangssprachlich: praktischer Arzt, Allgemeinmediziner) — nach den Nomen 2026-11-02
+  'Prater', // zurückgestellt: Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 — 2026-11-02
+  'Praxis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arztpraxis, Kanzlei / praktische Erfahrung / Anwendung, Wirklichkeit) — nach den Nomen 2026-11-02
+  'Preis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

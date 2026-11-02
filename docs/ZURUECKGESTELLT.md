@@ -2648,6 +2648,8 @@
 | ۲۴۷۱ | Postbank | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Unternehmens (Bank) — Regel 18 | — |
 | ۲۴۷۲ | Poster | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Poster, auch der Poster) — Regel 14 | — |
 | ۲۴۷۳ | Postgewerkschaft | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Organisation (Deutsche Postgewerkschaft, bis 2001) — Regel 18 | — |
+| ۲۴۷۴ | Pound | `substantiv_singular_alle.txt` | 2026-11-02 | englisches Wort (britisches Pfund), kein gebräuchliches deutsches Nomen — Regel 14 | — |
+| ۲۴۷۵ | Prater | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4466,3 +4468,9 @@
 | 1972 | Postmoderne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/4 (Epoche der Kunst und Philosophie / wie «die Moderne» möglicherweise adjektivisch gebeugt) |
 | 1973 | Postulat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Forderung / Philosophie: unbeweisbare Annahme / schweizerisch: parlamentarischer Auftrag) |
 | 1974 | Potenz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mathematik: Potenz / Zeugungsfähigkeit / Leistungsfähigkeit) |
+| 1975 | Pott | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen, umgangssprachlich: Topf / großes Schiff / «der Pott» = Ruhrgebiet) |
+| 1976 | Powerplay | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Eishockey: Überzahlspiel / allgemein: Angriff mit großem Druck) |
+| 1977 | Praktik | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verfahrensweise, Methode / meist Plural, abwertend: unerlaubte Machenschaften) |
+| 1978 | Praktiker | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mensch mit praktischer Erfahrung / umgangssprachlich: praktischer Arzt, Allgemeinmediziner) |
+| 1979 | Praxis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Arztpraxis, Kanzlei / praktische Erfahrung / Anwendung, Wirklichkeit) |
+| 1980 | Preis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) |
