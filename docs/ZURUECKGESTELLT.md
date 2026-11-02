@@ -2651,6 +2651,7 @@
 | ۲۴۷۴ | Pound | `substantiv_singular_alle.txt` | 2026-11-02 | englisches Wort (britisches Pfund), kein gebräuchliches deutsches Nomen — Regel 14 | — |
 | ۲۴۷۵ | Prater | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 | — |
 | ۲۴۷۶ | Primo | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 | — |
+| ۲۴۷۷ | Prix | `substantiv_singular_alle.txt` | 2026-11-02 | nur in festen Fügungen (Grand Prix), kein eigenständiges deutsches Nomen — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4480,3 +4481,6 @@
 | 1983 | Prim | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fechten: Prim-Stellung / Musik: Prime, erster Ton / kath. Liturgie: Morgengebet) |
 | 1984 | Primarius | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: österr. Primararzt / Musik: Primgeiger im Streichquartett / veraltet: Hauptpfarrer) |
 | 1985 | Prise | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kleine Menge, «eine Prise Salz» / Seerecht: erbeutetes Schiff) |
+| 1986 | Probe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Test, Prüfung / Muster, Stichprobe (Blutprobe) / Theater-, Musikprobe) |
+| 1987 | Produkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erzeugnis, Ware / Ergebnis, Folge / Mathematik: Ergebnis einer Multiplikation) |
+| 1988 | Produktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herstellung / hergestellte Menge / Film-, Theaterproduktion als Werk / Abteilung im Betrieb) |

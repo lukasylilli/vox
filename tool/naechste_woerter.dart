@@ -4512,6 +4512,10 @@ const zurueckgestellt = <String>{
   'Primarius', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. Primararzt / Musik: Primgeiger im Streichquartett / veraltet: Hauptpfarrer) — nach den Nomen 2026-11-02
   'Primo', // zurückgestellt: Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 — 2026-11-02
   'Prise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Menge, «eine Prise Salz» / Seerecht: erbeutetes Schiff) — nach den Nomen 2026-11-02
+  'Prix', // zurückgestellt: nur in festen Fügungen (Grand Prix), kein eigenständiges deutsches Nomen — Regel 14 — 2026-11-02
+  'Probe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Test, Prüfung / Muster, Stichprobe (Blutprobe) / Theater-, Musikprobe) — nach den Nomen 2026-11-02
+  'Produkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erzeugnis, Ware / Ergebnis, Folge / Mathematik: Ergebnis einer Multiplikation) — nach den Nomen 2026-11-02
+  'Produktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herstellung / hergestellte Menge / Film-, Theaterproduktion als Werk / Abteilung im Betrieb) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
