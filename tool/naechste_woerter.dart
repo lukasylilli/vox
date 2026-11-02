@@ -4335,6 +4335,13 @@ const zurueckgestellt = <String>{
   'Oscar', // zurückgestellt: Name eines Filmpreises (kein geografischer Eigenname) — Regel 18 2026-11-02
   'Osten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Himmelsrichtung / östliches Gebiet / Osteuropa, Ostblock / ugs. ehemalige DDR) — wie Norden — nach den Nomen 2026-11-02
   'Ostler', // zurückgestellt: umgangssprachlich für Ostdeutsche; Markierung (abwertend oder nicht) unsicher — Regel 14/17 2026-11-02
+  'Oststaat', // zurückgestellt: Bedeutung unsicher (Staat im Osten / ehemaliger Ostblockstaat / Ostküstenstaat der USA) — Regel 14 2026-11-02
+  'Outdoor', // zurückgestellt: als selbständiges Nomen unsicher (meist nur Bestimmungswort: Outdoorjacke, Outdoorsport) — Regel 14 2026-11-02
+  'Output', // zurückgestellt: Artikel schwankend (der/das Output) — wie Input, Regel 14 2026-11-02
+  'Ozon', // zurückgestellt: Artikel schwankend (das Ozon fachsprachlich / der Ozon umgangssprachlich) — Regel 14 2026-11-02
+  'Paar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: zwei zusammengehörige Personen/Dinge «ein Paar Schuhe» / Liebespaar; dazu «ein paar» = einige) — nach den Nomen 2026-11-02
+  'Paarkreuz', // zurückgestellt: Fachwort aus dem Tischtennis (Mannschaftsaufstellung); Lernwert/Gebrauch unsicher — Regel 14 2026-11-02
+  'Paarung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begattung bei Tieren / Zusammenstellung, Spielpaarung im Sport) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
