@@ -4400,6 +4400,12 @@ const zurueckgestellt = <String>{
   'Pendant', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstück, Entsprechung / veraltend: Ohrgehänge) — nach den Nomen 2026-11-02
   'Penner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, salopp abwertend: Obdachloser / verschlafener, langsamer Mensch) — nach den Nomen 2026-11-02
   'Pension', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruhestand, Ruhegehalt / kleines Gästehaus, Unterkunft mit Verpflegung) — nach den Nomen 2026-11-02
+  'Performance', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlerische Aktion, Darbietung / Leistung, z. B. eines Fonds, Computers) — nach den Nomen 2026-11-02
+  'Periode', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitabschnitt / Menstruation / Mathematik: periodische Ziffernfolge) — nach den Nomen 2026-11-02
+  'Peripherie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Randgebiet, Stadtrand / EDV: Peripheriegeräte / Mathematik: Umfangslinie) — nach den Nomen 2026-11-02
+  'Perser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Persiens / Perserteppich) — nach den Nomen 2026-11-02
+  'Person', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, Einzelwesen / Figur in Drama, Roman / Grammatik: erste, zweite, dritte Person) — nach den Nomen 2026-11-02
+  'Personalie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plural «Personalien» = Angaben zur Person / Entscheidung über eine Besetzung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

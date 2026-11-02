@@ -4368,3 +4368,9 @@
 | 1895 | Pendant | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gegenstück, Entsprechung / veraltend: Ohrgehänge) |
 | 1896 | Penner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen, salopp abwertend: Obdachloser / verschlafener, langsamer Mensch) |
 | 1897 | Pension | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ruhestand, Ruhegehalt / kleines Gästehaus, Unterkunft mit Verpflegung) |
+| 1898 | Performance | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: künstlerische Aktion, Darbietung / Leistung, z. B. eines Fonds, Computers) |
+| 1899 | Periode | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zeitabschnitt / Menstruation / Mathematik: periodische Ziffernfolge) |
+| 1900 | Peripherie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Randgebiet, Stadtrand / EDV: Peripheriegeräte / Mathematik: Umfangslinie) |
+| 1901 | Perser | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einwohner Persiens / Perserteppich) |
+| 1902 | Person | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mensch, Einzelwesen / Figur in Drama, Roman / Grammatik: erste, zweite, dritte Person) |
+| 1903 | Personalie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Plural «Personalien» = Angaben zur Person / Entscheidung über eine Besetzung) |
