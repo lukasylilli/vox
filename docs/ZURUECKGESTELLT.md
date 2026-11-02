@@ -2620,6 +2620,8 @@
 | ۲۴۴۳ | Pale | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (Bedeutung unklar) — Regel 14 | — |
 | ۲۴۴۴ | Palmengarten | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Anlage (Palmengarten Frankfurt), kein geografischer Eigenname — wie Hofgarten, Regel 18 | — |
 | ۲۴۴۵ | Papagei | `substantiv_singular_alle.txt` | 2026-11-02 | Deklination schwankend (des Papageis / des Papageien; Plural Papageien, seltener Papageie) — wie Meteorit/Oberst, Regel 14 | — |
+| ۲۴۴۶ | Pardon | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Pardon); meist nur als Ausruf «Pardon!» — Regel 14 | — |
+| ۲۴۴۷ | Parker | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (Familienname/Marke; «der Parker» = Parkender unsicher) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4324,3 +4326,8 @@
 | 1858 | Paper | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: schriftliche Unterlage, Thesenpapier / wissenschaftlicher Aufsatz) |
 | 1859 | Papier | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Material / Schriftstück, Dokument «die Papiere» / Wertpapier) |
 | 1860 | Parabel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: lehrhafte Erzählung, Gleichnis / Kurve in der Mathematik) |
+| 1861 | Paradigma | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Denkmuster, Modell in der Wissenschaft / Sprachwissenschaft: Flexionsmuster) |
+| 1862 | Paragleiter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gleitschirm als Gerät / Person, die damit fliegt) |
+| 1863 | Parallele | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: parallele Linie in der Mathematik / vergleichbarer Fall, Entsprechung) |
+| 1864 | Parasit | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schmarotzer in der Biologie / abwertend für einen Menschen, der auf Kosten anderer lebt) |
+| 1865 | Parkett | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Holzfußboden / vordere Sitzreihen im Theater / Börsenparkett, öffentliche Bühne) |

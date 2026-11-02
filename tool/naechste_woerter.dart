@@ -4356,6 +4356,13 @@ const zurueckgestellt = <String>{
   'Paper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schriftliche Unterlage, Thesenpapier / wissenschaftlicher Aufsatz) — nach den Nomen 2026-11-02
   'Papier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Material / Schriftstück, Dokument «die Papiere» / Wertpapier) — nach den Nomen 2026-11-02
   'Parabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: lehrhafte Erzählung, Gleichnis / Kurve in der Mathematik) — nach den Nomen 2026-11-02
+  'Paradigma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Denkmuster, Modell in der Wissenschaft / Sprachwissenschaft: Flexionsmuster) — nach den Nomen 2026-11-02
+  'Paragleiter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gleitschirm als Gerät / Person, die damit fliegt) — nach den Nomen 2026-11-02
+  'Parallele', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: parallele Linie in der Mathematik / vergleichbarer Fall, Entsprechung) — nach den Nomen 2026-11-02
+  'Parasit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmarotzer in der Biologie / abwertend für einen Menschen, der auf Kosten anderer lebt) — nach den Nomen 2026-11-02
+  'Pardon', // zurückgestellt: Artikel schwankend (der/das Pardon); meist nur als Ausruf «Pardon!» — Regel 14 2026-11-02
+  'Parker', // zurückgestellt: kein gebräuchliches Nomen (Familienname/Marke; «der Parker» = Parkender unsicher) — Regel 14 2026-11-02
+  'Parkett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzfußboden / vordere Sitzreihen im Theater / Börsenparkett, öffentliche Bühne) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
