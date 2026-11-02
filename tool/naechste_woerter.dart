@@ -4622,6 +4622,11 @@ const zurueckgestellt = <String>{
   'Reaktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Antwort auf etwas / Chemie / Politik: Reaktionäre) — nach den Nomen 2026-11-02
   'Rauscher', // zurückgestellt: Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 — 2026-11-02
   'Rave', // zurückgestellt: Artikel doppelt (der/das Rave) — 2026-11-02
+  'Realisierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwirklichung / Wirtschaft: Umwandlung in Geld / Erkennen) — nach den Nomen 2026-11-02
+  'Realismus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wirklichkeitsnahe Haltung / Kunst- und Literaturepoche / Philosophie) — nach den Nomen 2026-11-02
+  'Realist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: nüchtern denkender Mensch / Vertreter des Realismus in Kunst und Literatur) — nach den Nomen 2026-11-02
+  'Rechner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) — nach den Nomen 2026-11-02
+  'Rechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

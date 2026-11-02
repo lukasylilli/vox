@@ -4590,3 +4590,8 @@
 | 2071 | Raupe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Insektenlarve / Kettenfahrzeug, Planierraupe) |
 | 2072 | Rausch | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Trunkenheit, Drogenrausch / übertragen: Begeisterung, Taumel) |
 | 2073 | Reaktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Antwort auf etwas / Chemie / Politik: Reaktionäre) |
+| 2074 | Realisierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verwirklichung / Wirtschaft: Umwandlung in Geld / Erkennen) |
+| 2075 | Realismus | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: wirklichkeitsnahe Haltung / Kunst- und Literaturepoche / Philosophie) |
+| 2076 | Realist | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: nüchtern denkender Mensch / Vertreter des Realismus in Kunst und Literatur) |
+| 2077 | Rechner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) |
+| 2078 | Rechnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») |
