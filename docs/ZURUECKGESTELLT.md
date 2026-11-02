@@ -2607,6 +2607,8 @@
 | ۲۴۳۰ | Omega | `substantiv_singular_alle.txt` | 2026-11-02 | Buchstabe des griechischen Alphabets; Lernwortkarte/Gebrauch unsicher (auch Zeichen für Ohm) — Regel 14 | — |
 | ۲۴۳۱ | Orchestra | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort (Tanzplatz im antiken Theater) bzw. Schreibvariante; Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۴۳۲ | Orlean | `substantiv_singular_alle.txt` | 2026-11-02 | seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 | — |
+| ۲۴۳۳ | Ortsgemeinde | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land/Bundesland verschieden (Rheinland-Pfalz: Teil einer Verbandsgemeinde; Schweiz: politische Gemeinde) — wie Gemeindevorstand, Regel 14 | — |
+| ۲۴۳۴ | Oscar | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Filmpreises (kein geografischer Eigenname) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

@@ -4331,6 +4331,8 @@ const zurueckgestellt = <String>{
   'Original', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urfassung, echtes Werk / ugs. eigenwilliger Mensch «ein Original») — nach den Nomen 2026-11-02
   'Orthodoxie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: orthodoxe Kirche, Glaube / strenge Rechtgläubigkeit, Festhalten an Lehrmeinungen) — nach den Nomen 2026-11-02
   'Orlean', // zurückgestellt: seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 2026-11-02
+  'Ortsgemeinde', // zurückgestellt: Bedeutung je nach Land/Bundesland verschieden (Rheinland-Pfalz: Teil einer Verbandsgemeinde; Schweiz: politische Gemeinde) — wie Gemeindevorstand, Regel 14 2026-11-02
+  'Oscar', // zurückgestellt: Name eines Filmpreises (kein geografischer Eigenname) — Regel 18 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
