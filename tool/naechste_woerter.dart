@@ -4342,6 +4342,14 @@ const zurueckgestellt = <String>{
   'Paar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: zwei zusammengehörige Personen/Dinge «ein Paar Schuhe» / Liebespaar; dazu «ein paar» = einige) — nach den Nomen 2026-11-02
   'Paarkreuz', // zurückgestellt: Fachwort aus dem Tischtennis (Mannschaftsaufstellung); Lernwert/Gebrauch unsicher — Regel 14 2026-11-02
   'Paarung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begattung bei Tieren / Zusammenstellung, Spielpaarung im Sport) — nach den Nomen 2026-11-02
+  'Packung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verpackung, Schachtel «eine Packung Milch» / Umschlag, Wickel in der Medizin / ugs. hohe Niederlage) — nach den Nomen 2026-11-02
+  'Page', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (der Page «junger Diener, Hoteldiener» / ugs. die Page «Webseite») — nach den Nomen 2026-11-02
+  'Paisley', // zurückgestellt: Musterbezeichnung (auch Stadtname); Genus und Lernwert unsicher — Regel 14 2026-11-02
+  'Pak', // zurückgestellt: militärische Abkürzung (Panzerabwehrkanone); Lernwert/Gebrauch unsicher — Regel 14 2026-11-02
+  'Paket', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Postsendung / Packung, Bündel «ein Paket Papier» / Gesamtheit von Maßnahmen «Sparpaket» / Aktienpaket) — nach den Nomen 2026-11-02
+  'Pale', // zurückgestellt: kein gebräuchliches deutsches Nomen (Bedeutung unklar) — Regel 14 2026-11-02
+  'Palette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Farbpalette des Malers / Auswahl, Vielfalt «eine breite Palette» / Transportpalette) — nach den Nomen 2026-11-02
+  'Palmengarten', // zurückgestellt: meist Name einer Anlage (Palmengarten Frankfurt), kein geografischer Eigenname — wie Hofgarten, Regel 18 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

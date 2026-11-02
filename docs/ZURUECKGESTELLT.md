@@ -2615,6 +2615,10 @@
 | ۲۴۳۸ | Output | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Output) — wie Input, Regel 14 | — |
 | ۲۴۳۹ | Ozon | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Ozon fachsprachlich / der Ozon umgangssprachlich) — Regel 14 | — |
 | ۲۴۴۰ | Paarkreuz | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus dem Tischtennis (Mannschaftsaufstellung); Lernwert/Gebrauch unsicher — Regel 14 | — |
+| ۲۴۴۱ | Paisley | `substantiv_singular_alle.txt` | 2026-11-02 | Musterbezeichnung (auch Stadtname); Genus und Lernwert unsicher — Regel 14 | — |
+| ۲۴۴۲ | Pak | `substantiv_singular_alle.txt` | 2026-11-02 | militärische Abkürzung (Panzerabwehrkanone); Lernwert/Gebrauch unsicher — Regel 14 | — |
+| ۲۴۴۳ | Pale | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (Bedeutung unklar) — Regel 14 | — |
+| ۲۴۴۴ | Palmengarten | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Anlage (Palmengarten Frankfurt), kein geografischer Eigenname — wie Hofgarten, Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4310,3 +4314,7 @@
 | 1849 | Osten | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung / östliches Gebiet / Osteuropa, Ostblock / ugs. ehemalige DDR) — wie Norden |
 | 1850 | Paar | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/3 (mehrere Bedeutungen: zwei zusammengehörige Personen/Dinge «ein Paar Schuhe» / Liebespaar; dazu «ein paar» = einige) |
 | 1851 | Paarung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begattung bei Tieren / Zusammenstellung, Spielpaarung im Sport) |
+| 1852 | Packung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verpackung, Schachtel «eine Packung Milch» / Umschlag, Wickel in der Medizin / ugs. hohe Niederlage) |
+| 1853 | Page | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (der Page «junger Diener, Hoteldiener» / ugs. die Page «Webseite») |
+| 1854 | Paket | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Postsendung / Packung, Bündel «ein Paket Papier» / Gesamtheit von Maßnahmen «Sparpaket» / Aktienpaket) |
+| 1855 | Palette | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Farbpalette des Malers / Auswahl, Vielfalt «eine breite Palette» / Transportpalette) |

@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pacht",
+  "wort": "die Pacht",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "اجاره (زمین، مزرعه یا رستوران)",
+      "اجاره‌بها"
+    ],
+    "en": [
+      "lease",
+      "rent (for land or a business)"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Recht"
+  ],
+  "ipa": "paxt",
+  "anmerkung": "Pacht = Miete, bei der man das Gepachtete auch nutzt und Ertrag daraus zieht (Feld, Gasthaus, Jagd).",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pacht für den Acker ist nicht teuer.",
+      "uebersetzung": {
+        "fa": "اجاره‌ی این زمین زراعی گران نیست.",
+        "en": "The rent for the field is not expensive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Wirt hat das Gasthaus nicht gekauft, sondern hat es in Pacht, weshalb er jeden Monat zahlen muss.",
+      "uebersetzung": {
+        "fa": "صاحب رستوران آن را نخریده، بلکه اجاره کرده، برای همین هر ماه باید پول بدهد.",
+        "en": "The landlord did not buy the inn but leases it, which is why he has to pay every month."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Miete",
+      "uebersetzung": {
+        "fa": "اجاره‌بها",
+        "en": "rent"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Pachten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "in Pacht + haben / nehmen / geben",
+        "beispiel": "Die Familie hat den Hof seit 30 Jahren in Pacht.",
+        "uebersetzung": {
+          "fa": "این خانواده ۳۰ سال است مزرعه را اجاره کرده است.",
+          "en": "The family has had the farm on lease for 30 years."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "pachten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اجاره کردن (زمین یا ملک)",
+          "en": "to lease"
+        },
+        "id_ref": "verb_pachten"
+      },
+      {
+        "wort": "der Pachtvertrag",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قرارداد اجاره (زمین یا ملک)",
+          "en": "lease agreement"
+        },
+        "id_ref": "nomen_pachtvertrag"
+      },
+      {
+        "wort": "der Acker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زمین زراعی",
+          "en": "field"
+        },
+        "id_ref": "nomen_acker"
+      },
+      {
+        "wort": "der Landwirt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_landwirt"
+      },
+      {
+        "wort": "die Miete",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اجاره‌بها",
+          "en": "rent"
+        },
+        "id_ref": "nomen_miete"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
