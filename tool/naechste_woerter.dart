@@ -4333,6 +4333,8 @@ const zurueckgestellt = <String>{
   'Orlean', // zurückgestellt: seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 2026-11-02
   'Ortsgemeinde', // zurückgestellt: Bedeutung je nach Land/Bundesland verschieden (Rheinland-Pfalz: Teil einer Verbandsgemeinde; Schweiz: politische Gemeinde) — wie Gemeindevorstand, Regel 14 2026-11-02
   'Oscar', // zurückgestellt: Name eines Filmpreises (kein geografischer Eigenname) — Regel 18 2026-11-02
+  'Osten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Himmelsrichtung / östliches Gebiet / Osteuropa, Ostblock / ugs. ehemalige DDR) — wie Norden — nach den Nomen 2026-11-02
+  'Ostler', // zurückgestellt: umgangssprachlich für Ostdeutsche; Markierung (abwertend oder nicht) unsicher — Regel 14/17 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

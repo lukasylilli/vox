@@ -2609,6 +2609,7 @@
 | ۲۴۳۲ | Orlean | `substantiv_singular_alle.txt` | 2026-11-02 | seltener Farbstoff (Annatto); Gebrauch, Genus und Lernwert unsicher — Regel 14 | — |
 | ۲۴۳۳ | Ortsgemeinde | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land/Bundesland verschieden (Rheinland-Pfalz: Teil einer Verbandsgemeinde; Schweiz: politische Gemeinde) — wie Gemeindevorstand, Regel 14 | — |
 | ۲۴۳۴ | Oscar | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Filmpreises (kein geografischer Eigenname) — Regel 18 | — |
+| ۲۴۳۵ | Ostler | `substantiv_singular_alle.txt` | 2026-11-02 | umgangssprachlich für Ostdeutsche; Markierung (abwertend oder nicht) unsicher — Regel 14/17 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4301,3 +4302,4 @@
 | 1846 | Orientierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Orientierungssinn, Zurechtfinden / Ausrichtung, Einstellung «politische Orientierung» / Information, Überblick) |
 | 1847 | Original | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Urfassung, echtes Werk / ugs. eigenwilliger Mensch «ein Original») |
 | 1848 | Orthodoxie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: orthodoxe Kirche, Glaube / strenge Rechtgläubigkeit, Festhalten an Lehrmeinungen) |
+| 1849 | Osten | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung / östliches Gebiet / Osteuropa, Ostblock / ugs. ehemalige DDR) — wie Norden |
