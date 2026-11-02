@@ -4373,6 +4373,15 @@ const zurueckgestellt = <String>{
   'Parteivorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (stark gebeugte Form von «der Parteivorsitzende») — nach den Nomen 2026-11-02
   'Parteivorstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Partei / Mitglied dieses Gremiums) — nach den Nomen 2026-11-02
   'Parterre', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erdgeschoss / Sitzplätze im Theater) — nach den Nomen 2026-11-02
+  'Partie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel «eine Partie Schach» / Teil, Abschnitt / Heiratspartner «eine gute Partie» / Warenposten) — nach den Nomen 2026-11-02
+  'Partisane', // zurückgestellt: Listeneintrag unklar: «die Partisane» = alte Stoßwaffe; gemeint vielleicht «der Partisan» (Kämpfer) — Regel 14 2026-11-02
+  'Partner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebenspartner / Geschäftspartner, Teilhaber / Mitspieler, Gegenüber) — wie Freund — nach den Nomen 2026-11-02
+  'Partnerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Partner: Lebenspartnerin / Geschäftspartnerin / Mitspielerin) — nach den Nomen 2026-11-02
+  'Partnerschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenleben, Lebensgemeinschaft / eingetragene Partnerschaft / Zusammenarbeit, Städtepartnerschaft) — nach den Nomen 2026-11-02
+  'Pas', // zurückgestellt: Fachwort aus dem Ballett (Tanzschritt); Lernwert/Gebrauch unsicher — Regel 14 2026-11-02
+  'Passage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einkaufspassage / Abschnitt eines Textes oder Musikstücks / Überfahrt, Durchgang) — nach den Nomen 2026-11-02
+  'Passer', // zurückgestellt: Fachwort aus der Drucktechnik bzw. Sport-Jargon; Bedeutung/Lernwert unsicher — Regel 14 2026-11-02
+  'Passion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leidenschaft / Leidensgeschichte Jesu, Passionsmusik) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

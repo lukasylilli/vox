@@ -2622,6 +2622,9 @@
 | ۲۴۴۵ | Papagei | `substantiv_singular_alle.txt` | 2026-11-02 | Deklination schwankend (des Papageis / des Papageien; Plural Papageien, seltener Papageie) — wie Meteorit/Oberst, Regel 14 | — |
 | ۲۴۴۶ | Pardon | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Pardon); meist nur als Ausruf «Pardon!» — Regel 14 | — |
 | ۲۴۴۷ | Parker | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (Familienname/Marke; «der Parker» = Parkender unsicher) — Regel 14 | — |
+| ۲۴۴۸ | Partisane | `substantiv_singular_alle.txt` | 2026-11-02 | Listeneintrag unklar: «die Partisane» = alte Stoßwaffe; gemeint vielleicht «der Partisan» (Kämpfer) — Regel 14 | — |
+| ۲۴۴۹ | Pas | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus dem Ballett (Tanzschritt); Lernwert/Gebrauch unsicher — Regel 14 | — |
+| ۲۴۵۰ | Passer | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort aus der Drucktechnik bzw. Sport-Jargon; Bedeutung/Lernwert unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4341,3 +4344,9 @@
 | 1873 | Parteivorsitzender | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (stark gebeugte Form von «der Parteivorsitzende») |
 | 1874 | Parteivorstand | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Partei / Mitglied dieses Gremiums) |
 | 1875 | Parterre | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erdgeschoss / Sitzplätze im Theater) |
+| 1876 | Partie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spiel «eine Partie Schach» / Teil, Abschnitt / Heiratspartner «eine gute Partie» / Warenposten) |
+| 1877 | Partner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Lebenspartner / Geschäftspartner, Teilhaber / Mitspieler, Gegenüber) — wie Freund |
+| 1878 | Partnerin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie Partner: Lebenspartnerin / Geschäftspartnerin / Mitspielerin) |
+| 1879 | Partnerschaft | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zusammenleben, Lebensgemeinschaft / eingetragene Partnerschaft / Zusammenarbeit, Städtepartnerschaft) |
+| 1880 | Passage | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einkaufspassage / Abschnitt eines Textes oder Musikstücks / Überfahrt, Durchgang) |
+| 1881 | Passion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Leidenschaft / Leidensgeschichte Jesu, Passionsmusik) |
