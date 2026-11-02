@@ -2640,6 +2640,9 @@
 | ۲۴۶۳ | Podest | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Podest, landschaftlich/österreichisch auch der Podest) — Regel 14 | — |
 | ۲۴۶۴ | Pogrom | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Pogrom) — Regel 14 | — |
 | ۲۴۶۵ | Poker | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Poker, österreichisch auch der Poker) — Regel 14 | — |
+| ۲۴۶۶ | Polster | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel und Plural schwankend (das Polster, österreichisch der Polster, Plural auch Pölster) — Regel 14 | — |
+| ۲۴۶۷ | Pont | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (französisch «Brücke»; Namensbestandteil) — Regel 14 | — |
+| ۲۴۶۸ | Ponte | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (italienisch «Brücke»; Namensbestandteil) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)

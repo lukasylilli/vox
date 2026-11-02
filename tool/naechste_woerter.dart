@@ -4478,6 +4478,9 @@ const zurueckgestellt = <String>{
   'Polarisierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spaltung einer Gesellschaft in Lager / Physik: Polarisation, Ausrichtung) — nach den Nomen 2026-11-02
   'Politik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staatsführung, Politik eines Landes / berechnendes Vorgehen, Taktik) — nach den Nomen 2026-11-02
   'Polizeibeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Polizeibeamte, ein Polizeibeamter) — nach den Nomen 2026-11-02
+  'Polster', // zurückgestellt: Artikel und Plural schwankend (das Polster, österreichisch der Polster, Plural auch Pölster) — Regel 14 — 2026-11-02
+  'Pont', // zurückgestellt: kein gebräuchliches deutsches Nomen (französisch «Brücke»; Namensbestandteil) — Regel 14 — 2026-11-02
+  'Ponte', // zurückgestellt: kein gebräuchliches deutsches Nomen (italienisch «Brücke»; Namensbestandteil) — Regel 14 — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
