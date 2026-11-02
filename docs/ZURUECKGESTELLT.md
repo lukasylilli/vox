@@ -2663,6 +2663,13 @@
 | ۲۴۸۶ | Radar | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Radar) | — |
 | ۲۴۸۷ | Radio | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel regional doppelt (süddt./österr./schweiz. auch «der Radio») und mehrere Bedeutungen (Gerät / Rundfunk) | — |
 | ۲۴۸۸ | Radl | `substantiv_singular_alle.txt` | 2026-11-02 | Plural regional unsicher (die Radl / die Radln), dazu Mundartwort — Regel 14 | — |
+| ۲۴۸۹ | Rallye | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel regional doppelt (die Rallye, schweiz. das Rallye) | — |
+| ۲۴۹۰ | Rambo | `substantiv_singular_alle.txt` | 2026-11-02 | aus einem Filmtitel, umgangssprachlich; Markierung unsicher — Regel 14 | — |
+| ۲۴۹۱ | Ramsau | `substantiv_singular_alle.txt` | 2026-11-02 | mehrere Orte gleichen Namens (Ramsau am Dachstein / bei Berchtesgaden), Artikel unsicher (die Ramsau) — Regel 14 | — |
+| ۲۴۹۲ | Ranch | `substantiv_singular_alle.txt` | 2026-11-02 | Plural doppelt (Ranchs/Ranches), Aussprache doppelt — Regel 14 | — |
+| ۲۴۹۳ | Randal | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (üblich: die Randale) — Regel 14 | — |
+| ۲۴۹۴ | Range | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (landschaftlich «wildes Kind» / engl. range) — Regel 14 | — |
+| ۲۴۹۵ | Rank | `substantiv_singular_alle.txt` | 2026-11-02 | regional (schweiz.), meist nur in Wendungen («den Rank finden») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4558,3 +4565,7 @@
 | 2049 | Rahmen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bilderrahmen / Fahrzeuggestell / übertragen: Rahmen, Umfang) |
 | 2050 | Rahmenprogramm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begleitprogramm einer Veranstaltung / Förderprogramm, z. B. der EU) |
 | 2051 | Rakete | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Weltraumrakete / Waffe / Feuerwerkskörper) |
+| 2052 | Rampe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: schräge Auffahrt / Laderampe / Bühnenrand) |
+| 2053 | Rampenlicht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bühnenbeleuchtung / übertragen: Öffentlichkeit) |
+| 2054 | Rang | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Stellung, Stufe / Theater: Galerie / Sport: Platzierung) |
+| 2055 | Ranger | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufseher im Nationalpark / Soldat einer US-Spezialeinheit) |

@@ -4590,6 +4590,17 @@ const zurueckgestellt = <String>{
   'Rahmenprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begleitprogramm einer Veranstaltung / Förderprogramm, z. B. der EU) — nach den Nomen 2026-11-02
   'Rakete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weltraumrakete / Waffe / Feuerwerkskörper) — nach den Nomen 2026-11-02
   'Radl', // zurückgestellt: Plural regional unsicher (die Radl / die Radln), dazu Mundartwort — Regel 14 — 2026-11-02
+  'Rampe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schräge Auffahrt / Laderampe / Bühnenrand) — nach den Nomen 2026-11-02
+  'Rampenlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenbeleuchtung / übertragen: Öffentlichkeit) — nach den Nomen 2026-11-02
+  'Rang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stellung, Stufe / Theater: Galerie / Sport: Platzierung) — nach den Nomen 2026-11-02
+  'Ranger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufseher im Nationalpark / Soldat einer US-Spezialeinheit) — nach den Nomen 2026-11-02
+  'Rallye', // zurückgestellt: Artikel regional doppelt (die Rallye, schweiz. das Rallye) — 2026-11-02
+  'Rambo', // zurückgestellt: aus einem Filmtitel, umgangssprachlich; Markierung unsicher — Regel 14 — 2026-11-02
+  'Ramsau', // zurückgestellt: mehrere Orte gleichen Namens (Ramsau am Dachstein / bei Berchtesgaden), Artikel unsicher (die Ramsau) — Regel 14 — 2026-11-02
+  'Ranch', // zurückgestellt: Plural doppelt (Ranchs/Ranches), Aussprache doppelt — Regel 14 — 2026-11-02
+  'Randal', // zurückgestellt: kein gebräuchliches Nomen (üblich: die Randale) — Regel 14 — 2026-11-02
+  'Range', // zurückgestellt: Bedeutung/Gebrauch unsicher (landschaftlich «wildes Kind» / engl. range) — Regel 14 — 2026-11-02
+  'Rank', // zurückgestellt: regional (schweiz.), meist nur in Wendungen («den Rank finden») — Regel 14 — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
