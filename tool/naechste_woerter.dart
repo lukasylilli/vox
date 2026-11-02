@@ -4406,6 +4406,12 @@ const zurueckgestellt = <String>{
   'Perser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Persiens / Perserteppich) — nach den Nomen 2026-11-02
   'Person', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, Einzelwesen / Figur in Drama, Roman / Grammatik: erste, zweite, dritte Person) — nach den Nomen 2026-11-02
   'Personalie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plural «Personalien» = Angaben zur Person / Entscheidung über eine Besetzung) — nach den Nomen 2026-11-02
+  'Personalrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Personalvertretung im öffentlichen Dienst / Mitglied dieser Vertretung) — nach den Nomen 2026-11-02
+  'Personalunion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verbindung mehrerer Ämter in einer Person / Geschichte: Staatenverbindung unter einem Monarchen) — nach den Nomen 2026-11-02
+  'Personenwagen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Personenkraftwagen, Pkw / Eisenbahnwagen für Reisende) — nach den Nomen 2026-11-02
+  'Personenzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug für Reisende / früher: langsamer Nahverkehrszug, der überall hält) — nach den Nomen 2026-11-02
+  'Perspektive', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: räumliche Darstellung / Blickwinkel, Sichtweise / Aussicht für die Zukunft) — nach den Nomen 2026-11-02
+  'Perversion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sexuelle Abweichung / übertragen: Verkehrung ins Gegenteil, z. B. «Perversion des Rechts») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

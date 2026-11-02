@@ -4374,3 +4374,9 @@
 | 1901 | Perser | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einwohner Persiens / Perserteppich) |
 | 1902 | Person | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mensch, Einzelwesen / Figur in Drama, Roman / Grammatik: erste, zweite, dritte Person) |
 | 1903 | Personalie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Plural «Personalien» = Angaben zur Person / Entscheidung über eine Besetzung) |
+| 1904 | Personalrat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Personalvertretung im öffentlichen Dienst / Mitglied dieser Vertretung) |
+| 1905 | Personalunion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verbindung mehrerer Ämter in einer Person / Geschichte: Staatenverbindung unter einem Monarchen) |
+| 1906 | Personenwagen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Personenkraftwagen, Pkw / Eisenbahnwagen für Reisende) |
+| 1907 | Personenzug | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zug für Reisende / früher: langsamer Nahverkehrszug, der überall hält) |
+| 1908 | Perspektive | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: räumliche Darstellung / Blickwinkel, Sichtweise / Aussicht für die Zukunft) |
+| 1909 | Perversion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: sexuelle Abweichung / übertragen: Verkehrung ins Gegenteil, z. B. «Perversion des Rechts») |
