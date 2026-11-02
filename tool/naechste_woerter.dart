@@ -4522,6 +4522,7 @@ const zurueckgestellt = <String>{
   'Profil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seitenansicht / Reifenprofil / Persönlichkeit, Ausprägung / Nutzerprofil) — nach den Nomen 2026-11-02
   'Profilierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) — nach den Nomen 2026-11-02
   'Programm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) — nach den Nomen 2026-11-02
+  'Projektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bild auf Leinwand / Psychologie: Übertragung eigener Gefühle / Mathematik, Kartografie: Abbildung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

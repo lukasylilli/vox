@@ -4490,3 +4490,4 @@
 | 1992 | Profil | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Seitenansicht / Reifenprofil / Persönlichkeit, Ausprägung / Nutzerprofil) |
 | 1993 | Profilierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: sich profilieren, Ansehen gewinnen / mit Profil versehen, technisch) |
 | 1994 | Programm | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fernseh-, Veranstaltungsprogramm / Computerprogramm / Parteiprogramm, Plan) |
+| 1995 | Projektion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bild auf Leinwand / Psychologie: Übertragung eigener Gefühle / Mathematik, Kartografie: Abbildung) |
