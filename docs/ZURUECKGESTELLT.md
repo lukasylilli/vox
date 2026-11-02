@@ -4402,3 +4402,12 @@
 | 1927 | Pflegerin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Krankenpflegerin / Tierpflegerin / Recht: Pflegerin, Vormund) |
 | 1928 | Pflicht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufgabe, Verpflichtung / Sport: Pflichtübung, Pflichtteil) |
 | 1929 | Pforte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tor, Eingang / Pförtnerloge, Empfang z. B. im Krankenhaus) |
+| 1930 | Pfote | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fuß eines Tieres / salopp: Hand) |
+| 1931 | Pfund | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gewichtseinheit, 500 Gramm / britische Währung) |
+| 1932 | Phalanx | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schlachtordnung / geschlossene Front / Anatomie: Fingerglied) |
+| 1933 | Phantom | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Trugbild, Gespenst / Medizin: Übungsmodell / unbekannter gesuchter Täter) |
+| 1934 | Phase | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Abschnitt einer Entwicklung / Elektrotechnik: Phase / Mondphase) |
+| 1935 | Philharmonie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Orchester / Konzerthaus) |
+| 1936 | Philharmoniker | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Plural: philharmonisches Orchester / Mitglied dieses Orchesters) |
+| 1937 | Philosophie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wissenschaft / persönliche Grundhaltung, z. B. «Firmenphilosophie») |
+| 1938 | Phrase | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: abgegriffene Redensart / Sprachwissenschaft: Wortgruppe / Musik: Sinneinheit) |

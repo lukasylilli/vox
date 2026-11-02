@@ -4434,6 +4434,15 @@ const zurueckgestellt = <String>{
   'Pflegerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankenpflegerin / Tierpflegerin / Recht: Pflegerin, Vormund) — nach den Nomen 2026-11-02
   'Pflicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgabe, Verpflichtung / Sport: Pflichtübung, Pflichtteil) — nach den Nomen 2026-11-02
   'Pforte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tor, Eingang / Pförtnerloge, Empfang z. B. im Krankenhaus) — nach den Nomen 2026-11-02
+  'Pfote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fuß eines Tieres / salopp: Hand) — nach den Nomen 2026-11-02
+  'Pfund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewichtseinheit, 500 Gramm / britische Währung) — nach den Nomen 2026-11-02
+  'Phalanx', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlachtordnung / geschlossene Front / Anatomie: Fingerglied) — nach den Nomen 2026-11-02
+  'Phantom', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trugbild, Gespenst / Medizin: Übungsmodell / unbekannter gesuchter Täter) — nach den Nomen 2026-11-02
+  'Phase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschnitt einer Entwicklung / Elektrotechnik: Phase / Mondphase) — nach den Nomen 2026-11-02
+  'Philharmonie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Orchester / Konzerthaus) — nach den Nomen 2026-11-02
+  'Philharmoniker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plural: philharmonisches Orchester / Mitglied dieses Orchesters) — nach den Nomen 2026-11-02
+  'Philosophie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft / persönliche Grundhaltung, z. B. «Firmenphilosophie») — nach den Nomen 2026-11-02
+  'Phrase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abgegriffene Redensart / Sprachwissenschaft: Wortgruppe / Musik: Sinneinheit) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
