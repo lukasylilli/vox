@@ -4514,3 +4514,9 @@
 | 2013 | Puck | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 3 (Homograph, gleicher Artikel: Puck «Kobold» / Puck «Eishockeyscheibe») |
 | 2014 | Pudel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hunderasse / Kegeln: Fehlwurf) |
 | 2015 | Puffer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Eisenbahn: Stoßdämpfer / EDV: Zwischenspeicher / Kartoffelpuffer / Reserve) |
+| 2016 | Pulver | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: feiner Staub / Schießpulver / salopp: Geld) |
+| 2017 | Pulverfass | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fass mit Schießpulver / übertragen: Krisenherd) |
+| 2018 | Pumpe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gerät zum Fördern von Flüssigkeit/Luft / salopp: Herz) |
+| 2019 | Punk | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Protestbewegung / Punkrock / Punker als Person) |
+| 2020 | Punkt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Satzzeichen / Stelle, Ort / Wertungseinheit / Thema einer Liste) |
+| 2021 | Puppe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spielzeug / Entwicklungsstadium von Insekten / ugs. Mädchen) |

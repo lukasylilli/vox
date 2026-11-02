@@ -4546,6 +4546,12 @@ const zurueckgestellt = <String>{
   'Pudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / Kegeln: Fehlwurf) — nach den Nomen 2026-11-02
   'Puffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisenbahn: Stoßdämpfer / EDV: Zwischenspeicher / Kartoffelpuffer / Reserve) — nach den Nomen 2026-11-02
   'Pulp', // zurückgestellt: Bedeutung/Gebrauch unsicher (Fruchtmark / Schundliteratur «Pulp Fiction»), kein gebräuchliches deutsches Nomen — Regel 14 — 2026-11-02
+  'Pulver', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: feiner Staub / Schießpulver / salopp: Geld) — nach den Nomen 2026-11-02
+  'Pulverfass', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fass mit Schießpulver / übertragen: Krisenherd) — nach den Nomen 2026-11-02
+  'Pumpe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Fördern von Flüssigkeit/Luft / salopp: Herz) — nach den Nomen 2026-11-02
+  'Punk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Protestbewegung / Punkrock / Punker als Person) — nach den Nomen 2026-11-02
+  'Punkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Satzzeichen / Stelle, Ort / Wertungseinheit / Thema einer Liste) — nach den Nomen 2026-11-02
+  'Puppe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielzeug / Entwicklungsstadium von Insekten / ugs. Mädchen) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
