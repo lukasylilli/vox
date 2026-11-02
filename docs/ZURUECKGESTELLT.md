@@ -2634,6 +2634,7 @@
 | ۲۴۵۷ | Pietsch | `substantiv_singular_alle.txt` | 2026-11-02 | Familienname, kein gebräuchliches Nomen — Regel 14 | — |
 | ۲۴۵۸ | Piller | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (Familienname?) — Regel 14 | — |
 | ۲۴۵۹ | Pilote | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 | — |
+| ۲۴۶۰ | Pipa | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (chinesisches Saiteninstrument? Kröte?); Bedeutung unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4421,3 +4422,6 @@
 | 1941 | Piercing | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Durchstechen der Haut / der eingesetzte Schmuck) |
 | 1942 | Pille | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tablette / Antibabypille «die Pille») |
 | 1943 | Pilz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schwammerl, Speisepilz / Pilzinfektion, z. B. Fußpilz) |
+| 1944 | Pin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/2 (mehrere Bedeutungen und Artikel: die PIN = Geheimzahl / der Pin = Anstecknadel, Kegel) |
+| 1945 | Pionier | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wegbereiter / Soldat der Pioniertruppe) |
+| 1946 | Piste | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Skipiste / Rollbahn auf dem Flugplatz / Rennstrecke) |

@@ -4453,6 +4453,10 @@ const zurueckgestellt = <String>{
   'Piller', // zurückgestellt: kein gebräuchliches Nomen (Familienname?) — Regel 14 2026-11-02
   'Pilote', // zurückgestellt: kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 2026-11-02
   'Pilz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schwammerl, Speisepilz / Pilzinfektion, z. B. Fußpilz) — nach den Nomen 2026-11-02
+  'Pin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/2 (mehrere Bedeutungen und Artikel: die PIN = Geheimzahl / der Pin = Anstecknadel, Kegel) — nach den Nomen 2026-11-02
+  'Pionier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegbereiter / Soldat der Pioniertruppe) — nach den Nomen 2026-11-02
+  'Pipa', // zurückgestellt: kein gebräuchliches deutsches Nomen (chinesisches Saiteninstrument? Kröte?); Bedeutung unsicher — Regel 14 2026-11-02
+  'Piste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Skipiste / Rollbahn auf dem Flugplatz / Rennstrecke) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
