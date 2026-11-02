@@ -4475,3 +4475,4 @@
 | 1979 | Praxis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Arztpraxis, Kanzlei / praktische Erfahrung / Anwendung, Wirklichkeit) |
 | 1980 | Preis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) |
 | 1981 | Preisspanne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spanne zwischen niedrigstem und höchstem Preis / Handelsspanne zwischen Einkaufs- und Verkaufspreis) |
+| 1982 | Presse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Druck-/Pressmaschine / Zeitungen, Journalismus / Saftpresse / ugs. Paukschule) |
