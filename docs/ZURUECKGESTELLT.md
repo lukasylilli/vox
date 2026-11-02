@@ -2645,6 +2645,9 @@
 | ۲۴۶۸ | Ponte | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (italienisch «Brücke»; Namensbestandteil) — Regel 14 | — |
 | ۲۴۶۹ | Porter | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (der/das Porter, Biersorte) — Regel 14 | — |
 | ۲۴۷۰ | Portrait | `substantiv_singular_alle.txt` | 2026-11-02 | Schreibvariante von «das Porträt» (eigene Karte nach Regel 5 wäre doppelt) — Regel 14 | — |
+| ۲۴۷۱ | Postbank | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Unternehmens (Bank) — Regel 18 | — |
+| ۲۴۷۲ | Poster | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel schwankend (das Poster, auch der Poster) — Regel 14 | — |
+| ۲۴۷۳ | Postgewerkschaft | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Organisation (Deutsche Postgewerkschaft, bis 2001) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4456,3 +4459,10 @@
 | 1965 | Portfolio | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wertpapierbestand / Mappe mit Arbeitsproben / Produktpalette) |
 | 1966 | Position | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Stelle, Lage / berufliche Stellung / Standpunkt / Posten einer Liste) |
 | 1967 | Positionierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufstellen an einer Stelle / Marktpositionierung / Stellungnahme) |
+| 1968 | Post | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/2 (mehrere Bedeutungen und Artikel: die Post = Postdienst, Briefe, Postamt / der Post = Beitrag in sozialen Medien) |
+| 1969 | Postauto | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fahrzeug der Post / schweizerisch: Postbus, Linienbus) |
+| 1970 | Postbeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Postbeamte, ein Postbeamter) |
+| 1971 | Posten | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Stelle, Amt / Wachposten / Warenposten, Rechnungsposten) |
+| 1972 | Postmoderne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/4 (Epoche der Kunst und Philosophie / wie «die Moderne» möglicherweise adjektivisch gebeugt) |
+| 1973 | Postulat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Forderung / Philosophie: unbeweisbare Annahme / schweizerisch: parlamentarischer Auftrag) |
+| 1974 | Potenz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Mathematik: Potenz / Zeugungsfähigkeit / Leistungsfähigkeit) |

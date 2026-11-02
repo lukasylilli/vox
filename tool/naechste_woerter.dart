@@ -4488,6 +4488,16 @@ const zurueckgestellt = <String>{
   'Portrait', // zurückgestellt: Schreibvariante von «das Porträt» (eigene Karte nach Regel 5 wäre doppelt) — Regel 14 — 2026-11-02
   'Position', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stelle, Lage / berufliche Stellung / Standpunkt / Posten einer Liste) — nach den Nomen 2026-11-02
   'Positionierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufstellen an einer Stelle / Marktpositionierung / Stellungnahme) — nach den Nomen 2026-11-02
+  'Post', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/2 (mehrere Bedeutungen und Artikel: die Post = Postdienst, Briefe, Postamt / der Post = Beitrag in sozialen Medien) — nach den Nomen 2026-11-02
+  'Postauto', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrzeug der Post / schweizerisch: Postbus, Linienbus) — nach den Nomen 2026-11-02
+  'Postbank', // zurückgestellt: Name eines Unternehmens (Bank) — Regel 18 — 2026-11-02
+  'Postbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Postbeamte, ein Postbeamter) — nach den Nomen 2026-11-02
+  'Posten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stelle, Amt / Wachposten / Warenposten, Rechnungsposten) — nach den Nomen 2026-11-02
+  'Poster', // zurückgestellt: Artikel schwankend (das Poster, auch der Poster) — Regel 14 — 2026-11-02
+  'Postgewerkschaft', // zurückgestellt: meist Name einer Organisation (Deutsche Postgewerkschaft, bis 2001) — Regel 18 — 2026-11-02
+  'Postmoderne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/4 (Epoche der Kunst und Philosophie / wie «die Moderne» möglicherweise adjektivisch gebeugt) — nach den Nomen 2026-11-02
+  'Postulat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Forderung / Philosophie: unbeweisbare Annahme / schweizerisch: parlamentarischer Auftrag) — nach den Nomen 2026-11-02
+  'Potenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik: Potenz / Zeugungsfähigkeit / Leistungsfähigkeit) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
