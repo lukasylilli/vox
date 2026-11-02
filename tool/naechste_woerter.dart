@@ -4574,6 +4574,16 @@ const zurueckgestellt = <String>{
   'Quarterback', // zurückgestellt: englisches Fachwort (American Football), Aussprache und Gebrauch im Deutschen unsicher — Regel 14 — 2026-11-02
   'Quast', // zurückgestellt: Bedeutung regional unsicher (breiter Pinsel / Quaste) — Regel 14 — 2026-11-02
   'Quere', // zurückgestellt: nur in fester Wendung («jemandem in die Quere kommen») — 2026-11-02
+  'Quote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anteil, Rate / festgelegter Anteil (Frauenquote) / Einschaltquote) — nach den Nomen 2026-11-02
+  'Rabatte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Rabatte «schmales Beet» / Plural von «der Rabatt») — nach den Nomen 2026-11-02
+  'Rachen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlund beim Menschen / Maul großer Raubtiere) — nach den Nomen 2026-11-02
+  'Radfahrer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer Rad fährt / ugs. abwertend: wer nach oben buckelt und nach unten tritt) — nach den Nomen 2026-11-02
+  'Radfahrerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Radfahrer: wer Rad fährt / ugs. abwertend) — nach den Nomen 2026-11-02
+  'Radierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik des Radierens / so hergestelltes Bild) — nach den Nomen 2026-11-02
+  'Radikal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Chemie: freies Radikal / Mathematik: Wurzel; dazu Verwechslung mit «der/die Radikale», Fall 4) — nach den Nomen 2026-11-02
+  'Rabbi', // zurückgestellt: Titel/Anrede jüdischer Gelehrter, Plural doppelt (Rabbinen/Rabbis); gebräuchlich ist «Rabbiner» — Regel 14 — 2026-11-02
+  'Radar', // zurückgestellt: Artikel doppelt (der/das Radar) — 2026-11-02
+  'Radio', // zurückgestellt: Artikel regional doppelt (süddt./österr./schweiz. auch «der Radio») und mehrere Bedeutungen (Gerät / Rundfunk) — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

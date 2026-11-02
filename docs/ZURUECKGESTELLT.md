@@ -2659,6 +2659,9 @@
 | ۲۴۸۲ | Quarterback | `substantiv_singular_alle.txt` | 2026-11-02 | englisches Fachwort (American Football), Aussprache und Gebrauch im Deutschen unsicher — Regel 14 | — |
 | ۲۴۸۳ | Quast | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (breiter Pinsel / Quaste) — Regel 14 | — |
 | ۲۴۸۴ | Quere | `substantiv_singular_alle.txt` | 2026-11-02 | nur in fester Wendung («jemandem in die Quere kommen») | — |
+| ۲۴۸۵ | Rabbi | `substantiv_singular_alle.txt` | 2026-11-02 | Titel/Anrede jüdischer Gelehrter, Plural doppelt (Rabbinen/Rabbis); gebräuchlich ist «Rabbiner» — Regel 14 | — |
+| ۲۴۸۶ | Radar | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Radar) | — |
+| ۲۴۸۷ | Radio | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel regional doppelt (süddt./österr./schweiz. auch «der Radio») und mehrere Bedeutungen (Gerät / Rundfunk) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4542,3 +4545,10 @@
 | 2037 | Querverbindung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verkehrsverbindung / gedanklicher Zusammenhang) |
 | 2038 | Quintett | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Musikstück für fünf / Gruppe von fünf Musikern) |
 | 2039 | Quittung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Empfangsbestätigung / übertragen: unangenehme Folge) |
+| 2040 | Quote | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Anteil, Rate / festgelegter Anteil (Frauenquote) / Einschaltquote) |
+| 2041 | Rabatte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: die Rabatte «schmales Beet» / Plural von «der Rabatt») |
+| 2042 | Rachen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schlund beim Menschen / Maul großer Raubtiere) |
+| 2043 | Radfahrer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: wer Rad fährt / ugs. abwertend: wer nach oben buckelt und nach unten tritt) |
+| 2044 | Radfahrerin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (wie Radfahrer: wer Rad fährt / ugs. abwertend) |
+| 2045 | Radierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Technik des Radierens / so hergestelltes Bild) |
+| 2046 | Radikal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Chemie: freies Radikal / Mathematik: Wurzel; dazu Verwechslung mit «der/die Radikale», Fall 4) |
