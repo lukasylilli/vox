@@ -4445,3 +4445,4 @@
 | 1959 | Pokal | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Siegerpokal / Trinkgefäß mit Fuß / Pokalwettbewerb) |
 | 1960 | Polarisierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spaltung einer Gesellschaft in Lager / Physik: Polarisation, Ausrichtung) |
 | 1961 | Politik | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Staatsführung, Politik eines Landes / berechnendes Vorgehen, Taktik) |
+| 1962 | Polizeibeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Polizeibeamte, ein Polizeibeamter) |
