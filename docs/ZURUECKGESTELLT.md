@@ -2656,6 +2656,9 @@
 | ۲۴۷۹ | Pub | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Pub) — wie Poster, Plot | — |
 | ۲۴۸۰ | Pulp | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Fruchtmark / Schundliteratur «Pulp Fiction»), kein gebräuchliches deutsches Nomen — Regel 14 | — |
 | ۲۴۸۱ | Quadratmeter | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Quadratmeter) — wie Meter, Millimeter | — |
+| ۲۴۸۲ | Quarterback | `substantiv_singular_alle.txt` | 2026-11-02 | englisches Fachwort (American Football), Aussprache und Gebrauch im Deutschen unsicher — Regel 14 | — |
+| ۲۴۸۳ | Quast | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (breiter Pinsel / Quaste) — Regel 14 | — |
+| ۲۴۸۴ | Quere | `substantiv_singular_alle.txt` | 2026-11-02 | nur in fester Wendung («jemandem in die Quere kommen») | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4530,3 +4533,12 @@
 | 2028 | Qualifizierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Weiterbildung / Sport: das Sich-Qualifizieren / Einstufung) |
 | 2029 | Quantensprung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik / übertragen: großer Fortschritt) |
 | 2030 | Quantum | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Menge, Anteil / Physik: Quant) |
+| 2031 | Quartett | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Musikstück/Gruppe für vier / Kartenspiel) |
+| 2032 | Quartier | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Unterkunft / österr./schweiz.: Stadtviertel / Militär: Truppenunterkunft) |
+| 2033 | Quell | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (dichterisch für Quelle: Wasserquelle / Ursprung) |
+| 2034 | Quelle | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wasserquelle / Informationsquelle / Ursprung) |
+| 2035 | Querdenker | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: unkonventioneller Denker / seit 2020 abwertend: Gegner der Corona-Maßnahmen) |
+| 2036 | Querschnitt | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schnitt quer zur Achse / repräsentativer Überblick) |
+| 2037 | Querverbindung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verkehrsverbindung / gedanklicher Zusammenhang) |
+| 2038 | Quintett | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Musikstück für fünf / Gruppe von fünf Musikern) |
+| 2039 | Quittung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Empfangsbestätigung / übertragen: unangenehme Folge) |

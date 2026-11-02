@@ -4562,6 +4562,18 @@ const zurueckgestellt = <String>{
   'Quantensprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik / übertragen: großer Fortschritt) — nach den Nomen 2026-11-02
   'Quantum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Menge, Anteil / Physik: Quant) — nach den Nomen 2026-11-02
   'Quadratmeter', // zurückgestellt: Artikel doppelt (der/das Quadratmeter) — wie Meter, Millimeter — 2026-11-02
+  'Quartett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück/Gruppe für vier / Kartenspiel) — nach den Nomen 2026-11-02
+  'Quartier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterkunft / österr./schweiz.: Stadtviertel / Militär: Truppenunterkunft) — nach den Nomen 2026-11-02
+  'Quell', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (dichterisch für Quelle: Wasserquelle / Ursprung) — nach den Nomen 2026-11-02
+  'Quelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserquelle / Informationsquelle / Ursprung) — nach den Nomen 2026-11-02
+  'Querdenker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unkonventioneller Denker / seit 2020 abwertend: Gegner der Corona-Maßnahmen) — nach den Nomen 2026-11-02
+  'Querschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnitt quer zur Achse / repräsentativer Überblick) — nach den Nomen 2026-11-02
+  'Querverbindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verkehrsverbindung / gedanklicher Zusammenhang) — nach den Nomen 2026-11-02
+  'Quintett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück für fünf / Gruppe von fünf Musikern) — nach den Nomen 2026-11-02
+  'Quittung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfangsbestätigung / übertragen: unangenehme Folge) — nach den Nomen 2026-11-02
+  'Quarterback', // zurückgestellt: englisches Fachwort (American Football), Aussprache und Gebrauch im Deutschen unsicher — Regel 14 — 2026-11-02
+  'Quast', // zurückgestellt: Bedeutung regional unsicher (breiter Pinsel / Quaste) — Regel 14 — 2026-11-02
+  'Quere', // zurückgestellt: nur in fester Wendung («jemandem in die Quere kommen») — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
