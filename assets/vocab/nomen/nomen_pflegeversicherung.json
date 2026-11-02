@@ -1,0 +1,121 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pflegeversicherung",
+  "wort": "die Pflegeversicherung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بیمه‌ی پرستاری",
+      "بیمه‌ی مراقبت بلندمدت"
+    ],
+    "en": [
+      "long-term care insurance"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Recht"
+  ],
+  "ipa": "ˈp͡fleːɡəfɛɐ̯ˌzɪçərʊŋ",
+  "anmerkung": "In Deutschland eigener Zweig der Sozialversicherung; Österreich hat stattdessen das staatliche Pflegegeld.",
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Pflegeversicherung zahlt einen Teil.",
+      "uebersetzung": {
+        "fa": "بیمه‌ی پرستاری بخشی از هزینه را می‌پردازد.",
+        "en": "The long-term care insurance pays part of it."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In Deutschland ist die Pflegeversicherung Pflicht, damit Pflegebedürftige finanzielle Hilfe bekommen.",
+      "uebersetzung": {
+        "fa": "در آلمان بیمه‌ی پرستاری اجباری است تا افراد نیازمند مراقبت کمک مالی بگیرند.",
+        "en": "In Germany long-term care insurance is compulsory so that people in need of care receive financial help."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Pflege (مراقبت) + die Versicherung (بیمه)",
+    "en": "die Pflege (care) + die Versicherung (insurance)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Pflegeversicherungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankenversicherung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه‌ی درمانی",
+          "en": "health insurance"
+        },
+        "id_ref": "nomen_krankenversicherung"
+      },
+      {
+        "wort": "der Pflegefall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فرد نیازمند مراقبت",
+          "en": "person in need of care"
+        },
+        "id_ref": "nomen_pflegefall"
+      },
+      {
+        "wort": "pflegebedürftig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیازمند مراقبت",
+          "en": "in need of care"
+        },
+        "id_ref": "adjektiv_pflegebeduerftig"
+      },
+      {
+        "wort": "die Sozialversicherung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیمه‌ی اجتماعی",
+          "en": "social insurance"
+        },
+        "id_ref": "nomen_sozialversicherung"
+      },
+      {
+        "wort": "versichern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیمه کردن",
+          "en": "to insure"
+        },
+        "id_ref": "verb_versichern"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

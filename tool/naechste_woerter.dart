@@ -4425,6 +4425,15 @@ const zurueckgestellt = <String>{
   'Pferd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Turngerät / Schachfigur «Springer») — nach den Nomen 2026-11-02
   'Pfiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ton beim Pfeifen / umgangssprachlich: besonderer Reiz, Schwung «mit Pfiff») — nach den Nomen 2026-11-02
   'Pflanze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewächs / umgangssprachlich: Person, z. B. «eine seltsame Pflanze») — nach den Nomen 2026-11-02
+  'Pflanzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Pflanzen / Plantage, bepflanzte Fläche) — nach den Nomen 2026-11-02
+  'Pflaster', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wundpflaster / Straßenbelag aus Steinen) — nach den Nomen 2026-11-02
+  'Pflege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Betreuung von Kranken und Alten / Instandhaltung, Pflege von Dingen / Aufnahme eines Kindes «in Pflege») — nach den Nomen 2026-11-02
+  'Pflegedienst', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bereich der Krankenpflege / Unternehmen, z. B. ambulanter Pflegedienst) — nach den Nomen 2026-11-02
+  'Pflegegeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldleistung für Pflegebedürftige / Geld für Pflegeeltern) — nach den Nomen 2026-11-02
+  'Pfleger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankenpfleger / Tierpfleger / Recht: Vormund, Pfleger) — nach den Nomen 2026-11-02
+  'Pflegerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Krankenpflegerin / Tierpflegerin / Recht: Pflegerin, Vormund) — nach den Nomen 2026-11-02
+  'Pflicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgabe, Verpflichtung / Sport: Pflichtübung, Pflichtteil) — nach den Nomen 2026-11-02
+  'Pforte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tor, Eingang / Pförtnerloge, Empfang z. B. im Krankenhaus) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pflegefall",
+  "wort": "der Pflegefall",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرد نیازمند مراقبت دائمی",
+      "بیمار نیازمند پرستاری"
+    ],
+    "en": [
+      "person in need of (long-term) care"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈp͡fleːɡəˌfal",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Mein Opa ist ein Pflegefall.",
+      "uebersetzung": {
+        "fa": "پدربزرگم به مراقبت دائمی نیاز دارد.",
+        "en": "My grandpa needs long-term care."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Schlaganfall wurde sie zum Pflegefall, sodass ihre Kinder einen Heimplatz suchen mussten.",
+      "uebersetzung": {
+        "fa": "بعد از سکته‌ی مغزی او به مراقبت دائمی نیاز پیدا کرد، طوری که فرزندانش مجبور شدند جایی در خانه‌ی سالمندان پیدا کنند.",
+        "en": "After the stroke she became dependent on care, so her children had to look for a place in a home."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "die Pflege (مراقبت) + der Fall (مورد)",
+    "en": "die Pflege (care) + der Fall (case)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Pflegefälle",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "zum Pflegefall werden",
+        "beispiel": "Viele Menschen haben Angst, im Alter zum Pflegefall zu werden.",
+        "uebersetzung": {
+          "fa": "بسیاری از مردم می‌ترسند در پیری به مراقبت دائمی نیاز پیدا کنند.",
+          "en": "Many people are afraid of becoming dependent on care in old age."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "pflegebedürftig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نیازمند مراقبت",
+          "en": "in need of care"
+        },
+        "id_ref": "adjektiv_pflegebeduerftig"
+      },
+      {
+        "wort": "pflegen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مراقبت کردن، پرستاری کردن",
+          "en": "to care for, to nurse"
+        },
+        "id_ref": "verb_pflegen"
+      },
+      {
+        "wort": "das Pflegeheim",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خانه‌ی سالمندان، آسایشگاه",
+          "en": "nursing home"
+        },
+        "id_ref": "nomen_pflegeheim"
+      },
+      {
+        "wort": "die Pflegeversicherung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بیمه‌ی پرستاری",
+          "en": "long-term care insurance"
+        },
+        "id_ref": "nomen_pflegeversicherung"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

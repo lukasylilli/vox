@@ -4393,3 +4393,12 @@
 | 1918 | Pferd | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tier / Turngerät / Schachfigur «Springer») |
 | 1919 | Pfiff | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ton beim Pfeifen / umgangssprachlich: besonderer Reiz, Schwung «mit Pfiff») |
 | 1920 | Pflanze | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gewächs / umgangssprachlich: Person, z. B. «eine seltsame Pflanze») |
+| 1921 | Pflanzung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Pflanzen / Plantage, bepflanzte Fläche) |
+| 1922 | Pflaster | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wundpflaster / Straßenbelag aus Steinen) |
+| 1923 | Pflege | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Betreuung von Kranken und Alten / Instandhaltung, Pflege von Dingen / Aufnahme eines Kindes «in Pflege») |
+| 1924 | Pflegedienst | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bereich der Krankenpflege / Unternehmen, z. B. ambulanter Pflegedienst) |
+| 1925 | Pflegegeld | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Geldleistung für Pflegebedürftige / Geld für Pflegeeltern) |
+| 1926 | Pfleger | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Krankenpfleger / Tierpfleger / Recht: Vormund, Pfleger) |
+| 1927 | Pflegerin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Krankenpflegerin / Tierpflegerin / Recht: Pflegerin, Vormund) |
+| 1928 | Pflicht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Aufgabe, Verpflichtung / Sport: Pflichtübung, Pflichtteil) |
+| 1929 | Pforte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tor, Eingang / Pförtnerloge, Empfang z. B. im Krankenhaus) |
