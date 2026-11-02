@@ -2650,6 +2650,7 @@
 | ۲۴۷۳ | Postgewerkschaft | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Organisation (Deutsche Postgewerkschaft, bis 2001) — Regel 18 | — |
 | ۲۴۷۴ | Pound | `substantiv_singular_alle.txt` | 2026-11-02 | englisches Wort (britisches Pfund), kein gebräuchliches deutsches Nomen — Regel 14 | — |
 | ۲۴۷۵ | Prater | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Parks/Vergnügungsgeländes in Wien, kein geografischer Eigenname — wie Palmengarten, Regel 18 | — |
+| ۲۴۷۶ | Primo | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4476,3 +4477,6 @@
 | 1980 | Preis | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) |
 | 1981 | Preisspanne | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spanne zwischen niedrigstem und höchstem Preis / Handelsspanne zwischen Einkaufs- und Verkaufspreis) |
 | 1982 | Presse | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Druck-/Pressmaschine / Zeitungen, Journalismus / Saftpresse / ugs. Paukschule) |
+| 1983 | Prim | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fechten: Prim-Stellung / Musik: Prime, erster Ton / kath. Liturgie: Morgengebet) |
+| 1984 | Primarius | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: österr. Primararzt / Musik: Primgeiger im Streichquartett / veraltet: Hauptpfarrer) |
+| 1985 | Prise | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: kleine Menge, «eine Prise Salz» / Seerecht: erbeutetes Schiff) |

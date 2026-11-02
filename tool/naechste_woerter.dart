@@ -4508,6 +4508,10 @@ const zurueckgestellt = <String>{
   'Preis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kaufpreis / Auszeichnung, Gewinn) — nach den Nomen 2026-11-02
   'Preisspanne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spanne zwischen niedrigstem und höchstem Preis / Handelsspanne zwischen Einkaufs- und Verkaufspreis) — nach den Nomen 2026-11-02
   'Presse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druck-/Pressmaschine / Zeitungen, Journalismus / Saftpresse / ugs. Paukschule) — nach den Nomen 2026-11-02
+  'Prim', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fechten: Prim-Stellung / Musik: Prime, erster Ton / kath. Liturgie: Morgengebet) — nach den Nomen 2026-11-02
+  'Primarius', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. Primararzt / Musik: Primgeiger im Streichquartett / veraltet: Hauptpfarrer) — nach den Nomen 2026-11-02
+  'Primo', // zurückgestellt: Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 — 2026-11-02
+  'Prise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Menge, «eine Prise Salz» / Seerecht: erbeutetes Schiff) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
