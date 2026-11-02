@@ -4537,6 +4537,9 @@ const zurueckgestellt = <String>{
   'Protokoll', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Niederschrift einer Sitzung / diplomatische Regeln / EDV: Übertragungsregeln) — nach den Nomen 2026-11-02
   'Prototyp', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erstes Modell, Technik / Urbild, Inbegriff eines Typs) — nach den Nomen 2026-11-02
   'Provinz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwaltungsgebiet / oft abwertend: ländliche Gegend fern der Großstadt) — nach den Nomen 2026-11-02
+  'Prozent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hundertstel / Plural ugs.: Rabatt, Gewinnanteil «Prozente bekommen») — nach den Nomen 2026-11-02
+  'Prozess', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerichtsverfahren / Vorgang, Entwicklung) — nach den Nomen 2026-11-02
+  'Psychiatrie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachgebiet der Medizin / psychiatrische Klinik, Abteilung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

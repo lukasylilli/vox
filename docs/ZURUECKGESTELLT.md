@@ -4505,3 +4505,6 @@
 | 2006 | Protokoll | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Niederschrift einer Sitzung / diplomatische Regeln / EDV: Übertragungsregeln) |
 | 2007 | Prototyp | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: erstes Modell, Technik / Urbild, Inbegriff eines Typs) |
 | 2008 | Provinz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verwaltungsgebiet / oft abwertend: ländliche Gegend fern der Großstadt) |
+| 2009 | Prozent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hundertstel / Plural ugs.: Rabatt, Gewinnanteil «Prozente bekommen») |
+| 2010 | Prozess | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gerichtsverfahren / Vorgang, Entwicklung) |
+| 2011 | Psychiatrie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fachgebiet der Medizin / psychiatrische Klinik, Abteilung) |
