@@ -4578,3 +4578,9 @@
 | 2061 | Rat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ratschlag / Gremium / Titel, Person) |
 | 2062 | Rate | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Teilzahlung / Quote, Anteil) |
 | 2063 | Ratgeber | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Person, die rät / Buch mit Ratschlägen) |
+| 2064 | Rating | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Bonitätseinstufung / Verfahren zur Einschätzung) |
+| 2065 | Rationalisierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Effizienzsteigerung / Psychologie: nachträgliche Rechtfertigung) |
+| 2066 | Ratsvorsitzende | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der/die Ratsvorsitzende) |
+| 2067 | Ratte | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Tier / abwertend: gemeiner Mensch) |
+| 2068 | Raub | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Rauben / Beute, «ein Raub der Flammen») |
+| 2069 | Raucher | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Person, die raucht / ugs. Raucherabteil) |

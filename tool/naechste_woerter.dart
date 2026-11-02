@@ -4610,6 +4610,12 @@ const zurueckgestellt = <String>{
   'Rate', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilzahlung / Quote, Anteil) — nach den Nomen 2026-11-02
   'Ratgeber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die rät / Buch mit Ratschlägen) — nach den Nomen 2026-11-02
   'Rapp', // zurückgestellt: keine gebräuchliche Form (üblich: der Rappe) — Regel 14 — 2026-11-02
+  'Rating', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bonitätseinstufung / Verfahren zur Einschätzung) — nach den Nomen 2026-11-02
+  'Rationalisierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft: Effizienzsteigerung / Psychologie: nachträgliche Rechtfertigung) — nach den Nomen 2026-11-02
+  'Ratsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Ratsvorsitzende) — nach den Nomen 2026-11-02
+  'Ratte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / abwertend: gemeiner Mensch) — nach den Nomen 2026-11-02
+  'Raub', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Rauben / Beute, «ein Raub der Flammen») — nach den Nomen 2026-11-02
+  'Raucher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die raucht / ugs. Raucherabteil) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
