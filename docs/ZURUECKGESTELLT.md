@@ -2635,6 +2635,7 @@
 | ۲۴۵۸ | Piller | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches Nomen (Familienname?) — Regel 14 | — |
 | ۲۴۵۹ | Pilote | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen; gemeint vielleicht «der Pilot» — Regel 14 | — |
 | ۲۴۶۰ | Pipa | `substantiv_singular_alle.txt` | 2026-11-02 | kein gebräuchliches deutsches Nomen (chinesisches Saiteninstrument? Kröte?); Bedeutung unsicher — Regel 14 | — |
+| ۲۴۶۱ | Planungsreferat | `substantiv_singular_alle.txt` | 2026-11-02 | meist Name einer Behörde (Referat für Stadtplanung und Bauordnung, München) — wie Kreisverwaltungsreferat, Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4425,3 +4426,5 @@
 | 1944 | Pin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1/2 (mehrere Bedeutungen und Artikel: die PIN = Geheimzahl / der Pin = Anstecknadel, Kegel) |
 | 1945 | Pionier | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wegbereiter / Soldat der Pioniertruppe) |
 | 1946 | Piste | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Skipiste / Rollbahn auf dem Flugplatz / Rennstrecke) |
+| 1947 | Plasma | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: ionisiertes Gas / Medizin: Blutplasma) |
+| 1948 | Plateau | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hochebene / Stillstand einer Entwicklung, z. B. Leistungsplateau) |

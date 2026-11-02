@@ -4457,6 +4457,9 @@ const zurueckgestellt = <String>{
   'Pionier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegbereiter / Soldat der Pioniertruppe) — nach den Nomen 2026-11-02
   'Pipa', // zurückgestellt: kein gebräuchliches deutsches Nomen (chinesisches Saiteninstrument? Kröte?); Bedeutung unsicher — Regel 14 2026-11-02
   'Piste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Skipiste / Rollbahn auf dem Flugplatz / Rennstrecke) — nach den Nomen 2026-11-02
+  'Planungsreferat', // zurückgestellt: meist Name einer Behörde (Referat für Stadtplanung und Bauordnung, München) — wie Kreisverwaltungsreferat, Regel 18 — 2026-11-02
+  'Plasma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: ionisiertes Gas / Medizin: Blutplasma) — nach den Nomen 2026-11-02
+  'Plateau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hochebene / Stillstand einer Entwicklung, z. B. Leistungsplateau) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
