@@ -2653,6 +2653,7 @@
 | ۲۴۷۶ | Primo | `substantiv_singular_alle.txt` | 2026-11-02 | Fachwort Musik (erste Stimme beim vierhändigen Klavierspiel), Genus/Plural und Gebrauch als Nomen unsicher — Regel 14 | — |
 | ۲۴۷۷ | Prix | `substantiv_singular_alle.txt` | 2026-11-02 | nur in festen Fügungen (Grand Prix), kein eigenständiges deutsches Nomen — Regel 14 | — |
 | ۲۴۷۸ | Prospekt | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel in Österreich auch «das Prospekt»; dazu mehrere Bedeutungen (Werbeheft / Bühnenhintergrund / Straße in Russland) | — |
+| ۲۴۷۹ | Pub | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Pub) — wie Poster, Plot | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4508,3 +4509,7 @@
 | 2009 | Prozent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hundertstel / Plural ugs.: Rabatt, Gewinnanteil «Prozente bekommen») |
 | 2010 | Prozess | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gerichtsverfahren / Vorgang, Entwicklung) |
 | 2011 | Psychiatrie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fachgebiet der Medizin / psychiatrische Klinik, Abteilung) |
+| 2012 | Psychologie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wissenschaft vom Seelenleben / Gespür für Menschen, «mit viel Psychologie») |
+| 2013 | Puck | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 3 (Homograph, gleicher Artikel: Puck «Kobold» / Puck «Eishockeyscheibe») |
+| 2014 | Pudel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Hunderasse / Kegeln: Fehlwurf) |
+| 2015 | Puffer | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Eisenbahn: Stoßdämpfer / EDV: Zwischenspeicher / Kartoffelpuffer / Reserve) |

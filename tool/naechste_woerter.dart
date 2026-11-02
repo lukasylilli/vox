@@ -4540,6 +4540,11 @@ const zurueckgestellt = <String>{
   'Prozent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hundertstel / Plural ugs.: Rabatt, Gewinnanteil «Prozente bekommen») — nach den Nomen 2026-11-02
   'Prozess', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerichtsverfahren / Vorgang, Entwicklung) — nach den Nomen 2026-11-02
   'Psychiatrie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fachgebiet der Medizin / psychiatrische Klinik, Abteilung) — nach den Nomen 2026-11-02
+  'Psychologie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft vom Seelenleben / Gespür für Menschen, «mit viel Psychologie») — nach den Nomen 2026-11-02
+  'Pub', // zurückgestellt: Artikel doppelt (der/das Pub) — wie Poster, Plot — 2026-11-02
+  'Puck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph, gleicher Artikel: Puck «Kobold» / Puck «Eishockeyscheibe») — nach den Nomen 2026-11-02
+  'Pudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / Kegeln: Fehlwurf) — nach den Nomen 2026-11-02
+  'Puffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eisenbahn: Stoßdämpfer / EDV: Zwischenspeicher / Kartoffelpuffer / Reserve) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
