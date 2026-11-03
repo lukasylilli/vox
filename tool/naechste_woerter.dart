@@ -4756,6 +4756,11 @@ const zurueckgestellt = <String>{
   'Rotation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Drehung (Physik) / regelmäßiger Wechsel, Turnus / Fruchtfolge) — nach den Nomen 2026-11-03
   'Rotlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: rotes Ampellicht / Infrarotlampe (Therapie) / Rotlichtmilieu) — nach den Nomen 2026-11-03
   'Rotstift', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: roter Stift / übertragen: Kürzung «den Rotstift ansetzen») — nach den Nomen 2026-11-03
+  'Rottweiler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / Einwohner von Rottweil) — nach den Nomen 2026-11-03
+  'Routine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewohnheit, gleichförmiger Ablauf / Erfahrung, Übung «Routine haben» / EDV: Programmroutine) — nach den Nomen 2026-11-03
+  'Ruch', // zurückgestellt: gehoben/veraltend (Ruf, übler Beigeschmack), selten — Regel 14 — 2026-11-03
+  'Ruder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riemen zum Rudern / Steuerruder / übertragen: Führung «am Ruder sein») — nach den Nomen 2026-11-03
+  'Rudolph', // zurückgestellt: Personenname (Vorname) — kein Eigenname nach Regel 18 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

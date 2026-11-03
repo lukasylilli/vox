@@ -2693,6 +2693,8 @@
 | ۲۵۱۶ | Rogner | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (weiblicher Fisch mit Rogen), selten — Regel 14 | — |
 | ۲۵۱۷ | Romane | `substantiv_singular_alle.txt` | 2026-11-03 | als Listeneintrag unsicher (Plural von «der Roman» oder seltenes Nomen «der Romane» = Angehöriger eines romanischsprachigen Volkes) — Regel 14 | — |
 | ۲۵۱۸ | Romeo | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Romeo und Julia) — kein Eigenname nach Regel 18 | — |
+| ۲۵۱۹ | Ruch | `substantiv_singular_alle.txt` | 2026-11-03 | gehoben/veraltend (Ruf, übler Beigeschmack), selten — Regel 14 | — |
+| ۲۵۲۰ | Rudolph | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Vorname) — kein Eigenname nach Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4724,3 +4726,6 @@
 | 2185 | Rotation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Drehung (Physik) / regelmäßiger Wechsel, Turnus / Fruchtfolge) |
 | 2186 | Rotlicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: rotes Ampellicht / Infrarotlampe (Therapie) / Rotlichtmilieu) |
 | 2187 | Rotstift | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: roter Stift / übertragen: Kürzung «den Rotstift ansetzen») |
+| 2188 | Rottweiler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Hunderasse / Einwohner von Rottweil) |
+| 2189 | Routine | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gewohnheit, gleichförmiger Ablauf / Erfahrung, Übung «Routine haben» / EDV: Programmroutine) |
+| 2190 | Ruder | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Riemen zum Rudern / Steuerruder / übertragen: Führung «am Ruder sein») |
