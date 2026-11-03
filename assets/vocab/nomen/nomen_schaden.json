@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "nomen_schaden",
+  "wort": "der Schaden",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "خسارت",
+      "آسیب",
+      "ضرر"
+    ],
+    "en": [
+      "damage",
+      "harm"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Versicherung"
+  ],
+  "ipa": "ˈʃaːdn̩",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Schaden am Auto ist klein.",
+      "uebersetzung": {
+        "fa": "خسارت ماشین کم است.",
+        "en": "The damage to the car is small."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Sturm hat großen Schaden angerichtet, den die Versicherung bezahlen muss.",
+      "uebersetzung": {
+        "fa": "طوفان خسارت زیادی به بار آورد که بیمه باید آن را بپردازد.",
+        "en": "The storm caused a lot of damage, which the insurance has to pay for."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der Nutzen",
+      "uebersetzung": {
+        "fa": "سود، فایده",
+        "en": "benefit"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Sachschaden",
+      "uebersetzung": {
+        "fa": "خسارت مالی",
+        "en": "property damage"
+      }
+    },
+    {
+      "wort": "der Wasserschaden",
+      "uebersetzung": {
+        "fa": "خسارت آب",
+        "en": "water damage"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Schäden",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Schaden an + Dat",
+        "beispiel": "Am Dach ist ein Schaden entstanden.",
+        "uebersetzung": {
+          "fa": "به سقف آسیب رسیده است.",
+          "en": "Damage has occurred to the roof."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Schaden anrichten",
+        "beispiel": "Der Hagel hat viel Schaden angerichtet.",
+        "uebersetzung": {
+          "fa": "تگرگ خسارت زیادی به بار آورد.",
+          "en": "The hail caused a lot of damage."
+        }
+      },
+      {
+        "verbindung": "einen Schaden melden",
+        "beispiel": "Sie müssen den Schaden sofort der Versicherung melden.",
+        "uebersetzung": {
+          "fa": "باید خسارت را فوراً به بیمه اطلاع دهید.",
+          "en": "You must report the damage to the insurance immediately."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "schaden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب رساندن",
+          "en": "to harm"
+        },
+        "id_ref": "verb_schaden"
+      },
+      {
+        "wort": "kaputt",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "خراب",
+          "en": "broken"
+        },
+        "id_ref": "adjektiv_kaputt"
+      },
+      {
+        "wort": "die Reparatur",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تعمیر",
+          "en": "repair"
+        },
+        "id_ref": "nomen_reparatur"
+      },
+      {
+        "wort": "der Sachschaden",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خسارت مالی",
+          "en": "property damage"
+        },
+        "id_ref": "nomen_sachschaden"
+      },
+      {
+        "wort": "die Haftpflicht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مسئولیت مدنی",
+          "en": "liability"
+        },
+        "id_ref": "nomen_haftpflicht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

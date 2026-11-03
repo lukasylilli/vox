@@ -2713,6 +2713,7 @@
 | ۲۵۳۶ | Sandwich | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sandwich, auch: der Sandwich) — Regel 14 | — |
 | ۲۵۳۷ | Sanierer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 | — |
 | ۲۵۳۸ | Sauer | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 | — |
+| ۲۵۳۹ | Schade | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4781,3 +4782,8 @@
 | 2222 | Satellit | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») |
 | 2223 | Sattel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) |
 | 2224 | Satz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) |
+| 2225 | Sauerei | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) |
+| 2226 | Schablone | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) |
+| 2227 | Schachspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) |
+| 2228 | Schachtel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) |
+| 2229 | Schachzug | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») |

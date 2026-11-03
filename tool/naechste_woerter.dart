@@ -4813,6 +4813,12 @@ const zurueckgestellt = <String>{
   'Sattel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) — nach den Nomen 2026-11-03
   'Satz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) — nach den Nomen 2026-11-03
   'Sauer', // zurückgestellt: als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 — 2026-11-03
+  'Sauerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) — nach den Nomen 2026-11-03
+  'Schablone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) — nach den Nomen 2026-11-03
+  'Schachspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) — nach den Nomen 2026-11-03
+  'Schachtel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) — nach den Nomen 2026-11-03
+  'Schachzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») — nach den Nomen 2026-11-03
+  'Schade', // zurückgestellt: veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
