@@ -4791,6 +4791,12 @@ const zurueckgestellt = <String>{
   'Salami', // zurückgestellt: Artikel doppelt (die Salami, schweizerisch auch: der Salami) — Regel 14 — 2026-11-03
   'Salon', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfangszimmer / Geschäft «Friseursalon, Kosmetiksalon» / Ausstellung, Messe «Automobilsalon») — nach den Nomen 2026-11-03
   'Salve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gleichzeitiges Abfeuern von Schüssen / übertragen: Lachsalve, Beifallssalve) — nach den Nomen 2026-11-03
+  'Samariter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einwohner Samarias (Bibel) / hilfsbereiter Mensch «barmherziger Samariter» / Sanitäter, Mitglied eines Samariterbundes) — nach den Nomen 2026-11-03
+  'Samba', // zurückgestellt: Artikel doppelt (die Samba, auch/österreichisch: der Samba) — Regel 14 — 2026-11-03
+  'Samen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzensamen / Sperma) — nach den Nomen 2026-11-03
+  'Sammler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas sammelt «Briefmarkensammler» / Jäger und Sammler (Frühgeschichte) / Technik: Sammelbehälter) — nach den Nomen 2026-11-03
+  'Sammlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gesammelte Gegenstände, Kollektion / Geldsammlung, Spendenaktion / innere Konzentration) — nach den Nomen 2026-11-03
+  'Sampler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik-Kompilation (CD) / elektronisches Gerät zum Samplen) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

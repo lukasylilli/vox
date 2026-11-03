@@ -2708,6 +2708,7 @@
 | ۲۵۳۱ | Safe | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Safe, auch: das Safe) — Regel 14 | — |
 | ۲۵۳۲ | Sakko | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sakko, auch: der Sakko) — Regel 14 | — |
 | ۲۵۳۳ | Salami | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (die Salami, schweizerisch auch: der Salami) — Regel 14 | — |
+| ۲۵۳۴ | Samba | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (die Samba, auch/österreichisch: der Samba) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4759,3 +4760,8 @@
 | 2205 | Saga | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: altisländische Prosaerzählung / lange Familien- oder Filmgeschichte) |
 | 2206 | Salon | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Empfangszimmer / Geschäft «Friseursalon, Kosmetiksalon» / Ausstellung, Messe «Automobilsalon») |
 | 2207 | Salve | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: gleichzeitiges Abfeuern von Schüssen / übertragen: Lachsalve, Beifallssalve) |
+| 2208 | Samariter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Einwohner Samarias (Bibel) / hilfsbereiter Mensch «barmherziger Samariter» / Sanitäter, Mitglied eines Samariterbundes) |
+| 2209 | Samen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Pflanzensamen / Sperma) |
+| 2210 | Sammler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Person, die etwas sammelt «Briefmarkensammler» / Jäger und Sammler (Frühgeschichte) / Technik: Sammelbehälter) |
+| 2211 | Sammlung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: gesammelte Gegenstände, Kollektion / Geldsammlung, Spendenaktion / innere Konzentration) |
+| 2212 | Sampler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Musik-Kompilation (CD) / elektronisches Gerät zum Samplen) |
