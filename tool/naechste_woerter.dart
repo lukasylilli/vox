@@ -4675,6 +4675,9 @@ const zurueckgestellt = <String>{
   'Reimer', // zurückgestellt: Familienname bzw. selten (Reimschmied) — Regel 14 — 2026-11-02
   'Reine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) — nach den Nomen 2026-11-02
   'Reinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) — nach den Nomen 2026-11-02
+  'Reisende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) — nach den Nomen 2026-11-02
+  'Reisezeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) — nach den Nomen 2026-11-02
+  'Reiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

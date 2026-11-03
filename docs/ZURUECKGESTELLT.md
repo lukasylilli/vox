@@ -4643,3 +4643,6 @@
 | 2116 | Reihe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) |
 | 2117 | Reine | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) |
 | 2118 | Reinigung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) |
+| 2119 | Reisende | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) |
+| 2120 | Reisezeit | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) |
+| 2121 | Reiz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») |
