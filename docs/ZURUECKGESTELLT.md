@@ -2675,6 +2675,8 @@
 | ۲۴۹۸ | Rave | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Rave) | — |
 | ۲۴۹۹ | Reeperbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Straßenname in Hamburg (kein geografischer Name nach Regel 18) | — |
 | ۲۵۰۰ | Referee | `substantiv_singular_alle.txt` | 2026-11-02 | Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 | — |
+| ۲۵۰۱ | Reformstaat | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 | — |
+| ۲۵۰۲ | Regale | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4611,3 +4613,8 @@
 | 2090 | Reflexion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) |
 | 2091 | Reformation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) |
 | 2092 | Reformator | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) |
+| 2093 | Regel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vorschrift, Norm / Gewohnheit «in der Regel» / Menstruation) |
+| 2094 | Regelung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Regeln, Ordnen / festgelegte Vorschrift, Vereinbarung / Technik: Steuerung) |
+| 2095 | Regeneration | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) |
+| 2096 | Regent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) |
+| 2097 | Regentschaft | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) |
