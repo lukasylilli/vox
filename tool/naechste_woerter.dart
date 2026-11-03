@@ -4627,57 +4627,57 @@ const zurueckgestellt = <String>{
   'Realist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: nüchtern denkender Mensch / Vertreter des Realismus in Kunst und Literatur) — nach den Nomen 2026-11-02
   'Rechner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) — nach den Nomen 2026-11-02
   'Rechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») — nach den Nomen 2026-11-02
-  'Recht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») — nach den Nomen 2026-11-02
-  'Rechtsschutz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) — nach den Nomen 2026-11-02
-  'Recke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») — nach den Nomen 2026-11-02
-  'Redaktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) — nach den Nomen 2026-11-02
-  'Rede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) — nach den Nomen 2026-11-02
-  'Reduktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) — nach den Nomen 2026-11-02
-  'Reeperbahn', // zurückgestellt: Straßenname in Hamburg (kein geografischer Name nach Regel 18) — 2026-11-02
-  'Referat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) — nach den Nomen 2026-11-02
-  'Referee', // zurückgestellt: Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 — 2026-11-02
-  'Referent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) — nach den Nomen 2026-11-02
-  'Referentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) — nach den Nomen 2026-11-02
-  'Referenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) — nach den Nomen 2026-11-02
-  'Reflex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) — nach den Nomen 2026-11-02
-  'Reflexion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) — nach den Nomen 2026-11-02
-  'Reformation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) — nach den Nomen 2026-11-02
-  'Reformator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) — nach den Nomen 2026-11-02
-  'Reformstaat', // zurückgestellt: Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 — 2026-11-02
-  'Regale', // zurückgestellt: nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 — 2026-11-02
-  'Regel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorschrift, Norm / Gewohnheit «in der Regel» / Menstruation) — nach den Nomen 2026-11-02
-  'Regelung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Regeln, Ordnen / festgelegte Vorschrift, Vereinbarung / Technik: Steuerung) — nach den Nomen 2026-11-02
-  'Regeneration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) — nach den Nomen 2026-11-02
-  'Regent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) — nach den Nomen 2026-11-02
-  'Regentschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) — nach den Nomen 2026-11-02
-  'Regie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») — nach den Nomen 2026-11-02
-  'Regierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) — nach den Nomen 2026-11-02
-  'Regierungsbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) — nach den Nomen 2026-11-02
-  'Regierungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) — nach den Nomen 2026-11-02
-  'Regime', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) — nach den Nomen 2026-11-02
-  'Regiment', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) — nach den Nomen 2026-11-02
-  'Regionalverband', // zurückgestellt: Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 — 2026-11-02
-  'Register', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) — nach den Nomen 2026-11-02
-  'Registrierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) — nach den Nomen 2026-11-02
-  'Regulierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) — nach den Nomen 2026-11-02
-  'Regung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) — nach den Nomen 2026-11-02
-  'Rehabilitation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) — nach den Nomen 2026-11-02
-  'Rehabilitierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) — nach den Nomen 2026-11-02
-  'Rehe', // zurückgestellt: nur Plural von «das Reh» (eigene Karte) — 2026-11-02
-  'Reibung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) — nach den Nomen 2026-11-02
-  'Reich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) — nach den Nomen 2026-11-02
-  'Reichsbahn', // zurückgestellt: Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 — 2026-11-02
-  'Reichstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) — nach den Nomen 2026-11-02
-  'Reife', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») — nach den Nomen 2026-11-02
-  'Reifen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) — nach den Nomen 2026-11-02
-  'Reigen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») — nach den Nomen 2026-11-02
-  'Reihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) — nach den Nomen 2026-11-02
-  'Reimer', // zurückgestellt: Familienname bzw. selten (Reimschmied) — Regel 14 — 2026-11-02
-  'Reine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) — nach den Nomen 2026-11-02
-  'Reinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) — nach den Nomen 2026-11-02
-  'Reisende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) — nach den Nomen 2026-11-02
-  'Reisezeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) — nach den Nomen 2026-11-02
-  'Reiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») — nach den Nomen 2026-11-02
+  'Recht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») — nach den Nomen 2026-11-03
+  'Rechtsschutz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) — nach den Nomen 2026-11-03
+  'Recke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») — nach den Nomen 2026-11-03
+  'Redaktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) — nach den Nomen 2026-11-03
+  'Rede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) — nach den Nomen 2026-11-03
+  'Reduktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) — nach den Nomen 2026-11-03
+  'Reeperbahn', // zurückgestellt: Straßenname in Hamburg (kein geografischer Name nach Regel 18) — 2026-11-03
+  'Referat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) — nach den Nomen 2026-11-03
+  'Referee', // zurückgestellt: Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 — 2026-11-03
+  'Referent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) — nach den Nomen 2026-11-03
+  'Referentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) — nach den Nomen 2026-11-03
+  'Referenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) — nach den Nomen 2026-11-03
+  'Reflex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) — nach den Nomen 2026-11-03
+  'Reflexion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) — nach den Nomen 2026-11-03
+  'Reformation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) — nach den Nomen 2026-11-03
+  'Reformator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) — nach den Nomen 2026-11-03
+  'Reformstaat', // zurückgestellt: Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 — 2026-11-03
+  'Regale', // zurückgestellt: nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 — 2026-11-03
+  'Regel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorschrift, Norm / Gewohnheit «in der Regel» / Menstruation) — nach den Nomen 2026-11-03
+  'Regelung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Regeln, Ordnen / festgelegte Vorschrift, Vereinbarung / Technik: Steuerung) — nach den Nomen 2026-11-03
+  'Regeneration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) — nach den Nomen 2026-11-03
+  'Regent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) — nach den Nomen 2026-11-03
+  'Regentschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) — nach den Nomen 2026-11-03
+  'Regie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») — nach den Nomen 2026-11-03
+  'Regierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) — nach den Nomen 2026-11-03
+  'Regierungsbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) — nach den Nomen 2026-11-03
+  'Regierungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) — nach den Nomen 2026-11-03
+  'Regime', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) — nach den Nomen 2026-11-03
+  'Regiment', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) — nach den Nomen 2026-11-03
+  'Regionalverband', // zurückgestellt: Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 — 2026-11-03
+  'Register', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) — nach den Nomen 2026-11-03
+  'Registrierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) — nach den Nomen 2026-11-03
+  'Regulierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) — nach den Nomen 2026-11-03
+  'Regung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) — nach den Nomen 2026-11-03
+  'Rehabilitation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) — nach den Nomen 2026-11-03
+  'Rehabilitierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) — nach den Nomen 2026-11-03
+  'Rehe', // zurückgestellt: nur Plural von «das Reh» (eigene Karte) — 2026-11-03
+  'Reibung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) — nach den Nomen 2026-11-03
+  'Reich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) — nach den Nomen 2026-11-03
+  'Reichsbahn', // zurückgestellt: Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 — 2026-11-03
+  'Reichstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) — nach den Nomen 2026-11-03
+  'Reife', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») — nach den Nomen 2026-11-03
+  'Reifen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) — nach den Nomen 2026-11-03
+  'Reigen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») — nach den Nomen 2026-11-03
+  'Reihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) — nach den Nomen 2026-11-03
+  'Reimer', // zurückgestellt: Familienname bzw. selten (Reimschmied) — Regel 14 — 2026-11-03
+  'Reine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) — nach den Nomen 2026-11-03
+  'Reinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) — nach den Nomen 2026-11-03
+  'Reisende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) — nach den Nomen 2026-11-03
+  'Reisezeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) — nach den Nomen 2026-11-03
+  'Reiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

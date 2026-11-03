@@ -2673,14 +2673,14 @@
 | ۲۴۹۶ | Rapp | `substantiv_singular_alle.txt` | 2026-11-02 | keine gebräuchliche Form (üblich: der Rappe) — Regel 14 | — |
 | ۲۴۹۷ | Rauscher | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 | — |
 | ۲۴۹۸ | Rave | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Rave) | — |
-| ۲۴۹۹ | Reeperbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Straßenname in Hamburg (kein geografischer Name nach Regel 18) | — |
-| ۲۵۰۰ | Referee | `substantiv_singular_alle.txt` | 2026-11-02 | Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 | — |
-| ۲۵۰۱ | Reformstaat | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 | — |
-| ۲۵۰۲ | Regale | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 | — |
-| ۲۵۰۳ | Regionalverband | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 | — |
-| ۲۵۰۴ | Rehe | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Reh» (eigene Karte) | — |
-| ۲۵۰۵ | Reichsbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 | — |
-| ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-02 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
+| ۲۴۹۹ | Reeperbahn | `substantiv_singular_alle.txt` | 2026-11-03 | Straßenname in Hamburg (kein geografischer Name nach Regel 18) | — |
+| ۲۵۰۰ | Referee | `substantiv_singular_alle.txt` | 2026-11-03 | Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 | — |
+| ۲۵۰۱ | Reformstaat | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 | — |
+| ۲۵۰۲ | Regale | `substantiv_singular_alle.txt` | 2026-11-03 | nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 | — |
+| ۲۵۰۳ | Regionalverband | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 | — |
+| ۲۵۰۴ | Rehe | `substantiv_singular_alle.txt` | 2026-11-03 | nur Plural von «das Reh» (eigene Karte) | — |
+| ۲۵۰۵ | Reichsbahn | `substantiv_singular_alle.txt` | 2026-11-03 | Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 | — |
+| ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4603,46 +4603,46 @@
 | 2076 | Realist | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: nüchtern denkender Mensch / Vertreter des Realismus in Kunst und Literatur) |
 | 2077 | Rechner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) |
 | 2078 | Rechnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») |
-| 2079 | Recht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») |
-| 2080 | Rechtsschutz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) |
-| 2081 | Recke | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») |
-| 2082 | Redaktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) |
-| 2083 | Rede | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) |
-| 2084 | Reduktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) |
-| 2085 | Referat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) |
-| 2086 | Referent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) |
-| 2087 | Referentin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) |
-| 2088 | Referenz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) |
-| 2089 | Reflex | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) |
-| 2090 | Reflexion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) |
-| 2091 | Reformation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) |
-| 2092 | Reformator | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) |
-| 2093 | Regel | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vorschrift, Norm / Gewohnheit «in der Regel» / Menstruation) |
-| 2094 | Regelung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Regeln, Ordnen / festgelegte Vorschrift, Vereinbarung / Technik: Steuerung) |
-| 2095 | Regeneration | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) |
-| 2096 | Regent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) |
-| 2097 | Regentschaft | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) |
-| 2098 | Regie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») |
-| 2099 | Regierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) |
-| 2100 | Regierungsbeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) |
-| 2101 | Regierungsrat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) |
-| 2102 | Regime | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) |
-| 2103 | Regiment | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) |
-| 2104 | Register | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) |
-| 2105 | Registrierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) |
-| 2106 | Regulierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) |
-| 2107 | Regung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) |
-| 2108 | Rehabilitation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) |
-| 2109 | Rehabilitierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) |
-| 2110 | Reibung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) |
-| 2111 | Reich | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) |
-| 2112 | Reichstag | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) |
-| 2113 | Reife | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») |
-| 2114 | Reifen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) |
-| 2115 | Reigen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») |
-| 2116 | Reihe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) |
-| 2117 | Reine | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) |
-| 2118 | Reinigung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) |
-| 2119 | Reisende | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) |
-| 2120 | Reisezeit | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) |
-| 2121 | Reiz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») |
+| 2079 | Recht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») |
+| 2080 | Rechtsschutz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) |
+| 2081 | Recke | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») |
+| 2082 | Redaktion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) |
+| 2083 | Rede | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) |
+| 2084 | Reduktion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) |
+| 2085 | Referat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) |
+| 2086 | Referent | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) |
+| 2087 | Referentin | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) |
+| 2088 | Referenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) |
+| 2089 | Reflex | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) |
+| 2090 | Reflexion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) |
+| 2091 | Reformation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) |
+| 2092 | Reformator | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) |
+| 2093 | Regel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vorschrift, Norm / Gewohnheit «in der Regel» / Menstruation) |
+| 2094 | Regelung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Regeln, Ordnen / festgelegte Vorschrift, Vereinbarung / Technik: Steuerung) |
+| 2095 | Regeneration | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) |
+| 2096 | Regent | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) |
+| 2097 | Regentschaft | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) |
+| 2098 | Regie | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») |
+| 2099 | Regierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) |
+| 2100 | Regierungsbeamter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) |
+| 2101 | Regierungsrat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) |
+| 2102 | Regime | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) |
+| 2103 | Regiment | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) |
+| 2104 | Register | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) |
+| 2105 | Registrierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) |
+| 2106 | Regulierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) |
+| 2107 | Regung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) |
+| 2108 | Rehabilitation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) |
+| 2109 | Rehabilitierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) |
+| 2110 | Reibung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) |
+| 2111 | Reich | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) |
+| 2112 | Reichstag | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) |
+| 2113 | Reife | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») |
+| 2114 | Reifen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) |
+| 2115 | Reigen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») |
+| 2116 | Reihe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) |
+| 2117 | Reine | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) |
+| 2118 | Reinigung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) |
+| 2119 | Reisende | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) |
+| 2120 | Reisezeit | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) |
+| 2121 | Reiz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») |
