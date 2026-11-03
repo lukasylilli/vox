@@ -2674,6 +2674,7 @@
 | ۲۴۹۷ | Rauscher | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 | — |
 | ۲۴۹۸ | Rave | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Rave) | — |
 | ۲۴۹۹ | Reeperbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Straßenname in Hamburg (kein geografischer Name nach Regel 18) | — |
+| ۲۵۰۰ | Referee | `substantiv_singular_alle.txt` | 2026-11-02 | Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4602,3 +4603,11 @@
 | 2082 | Redaktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) |
 | 2083 | Rede | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) |
 | 2084 | Reduktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) |
+| 2085 | Referat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) |
+| 2086 | Referent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) |
+| 2087 | Referentin | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) |
+| 2088 | Referenz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) |
+| 2089 | Reflex | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) |
+| 2090 | Reflexion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) |
+| 2091 | Reformation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) |
+| 2092 | Reformator | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) |

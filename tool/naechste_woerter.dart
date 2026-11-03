@@ -4634,6 +4634,15 @@ const zurueckgestellt = <String>{
   'Rede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) — nach den Nomen 2026-11-02
   'Reduktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) — nach den Nomen 2026-11-02
   'Reeperbahn', // zurückgestellt: Straßenname in Hamburg (kein geografischer Name nach Regel 18) — 2026-11-02
+  'Referat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortrag, schriftliche Arbeit / Abteilung in einer Behörde) — nach den Nomen 2026-11-02
+  'Referee', // zurückgestellt: Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 — 2026-11-02
+  'Referent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragender / Sachbearbeiter, Berater in Behörde / Sprachwissenschaft: Bezugsobjekt) — nach den Nomen 2026-11-02
+  'Referentin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vortragende / Sachbearbeiterin, Beraterin in Behörde) — nach den Nomen 2026-11-02
+  'Referenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfehlung, Zeugnis / Bezug, Verweis / Vergleichsgröße) — nach den Nomen 2026-11-02
+  'Reflex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unwillkürliche Reaktion des Körpers / Widerschein, Lichtreflex) — nach den Nomen 2026-11-02
+  'Reflexion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Zurückwerfen von Licht, Schall / Nachdenken, Überlegung) — nach den Nomen 2026-11-02
+  'Reformation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchenreform im 16. Jh. / gehoben: Erneuerung, Umgestaltung) — nach den Nomen 2026-11-02
+  'Reformator', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begründer der Reformation (Luther u. a.) / allgemein: Erneuerer) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
