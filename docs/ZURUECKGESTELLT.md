@@ -2709,6 +2709,9 @@
 | ۲۵۳۲ | Sakko | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sakko, auch: der Sakko) — Regel 14 | — |
 | ۲۵۳۳ | Salami | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (die Salami, schweizerisch auch: der Salami) — Regel 14 | — |
 | ۲۵۳۴ | Samba | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (die Samba, auch/österreichisch: der Samba) — Regel 14 | — |
+| ۲۵۳۵ | Sander | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (Geologie: Schwemmfläche) bzw. Familienname, selten — Regel 14 | — |
+| ۲۵۳۶ | Sandwich | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sandwich, auch: der Sandwich) — Regel 14 | — |
+| ۲۵۳۷ | Sanierer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4765,3 +4768,10 @@
 | 2210 | Sammler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Person, die etwas sammelt «Briefmarkensammler» / Jäger und Sammler (Frühgeschichte) / Technik: Sammelbehälter) |
 | 2211 | Sammlung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: gesammelte Gegenstände, Kollektion / Geldsammlung, Spendenaktion / innere Konzentration) |
 | 2212 | Sampler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Musik-Kompilation (CD) / elektronisches Gerät zum Samplen) |
+| 2213 | Sandler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: österr. ugs. Obdachloser, Stadtstreicher / abwertend: Versager, Nichtsnutz) |
+| 2214 | Sandsack | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: mit Sand gefüllter Sack (Hochwasserschutz) / Boxsack (Training)) |
+| 2215 | Sanierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Renovierung von Gebäuden / wirtschaftliche Sanierung eines Unternehmens / Altlasten-, Umweltsanierung) |
+| 2216 | Sanierungsfall | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: sanierungsbedürftiges Gebäude / Unternehmen in der Krise) |
+| 2217 | Sanierungskonzept | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) |
+| 2218 | Sanierungsplan | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) |
+| 2219 | Sanierungsprogramm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) |

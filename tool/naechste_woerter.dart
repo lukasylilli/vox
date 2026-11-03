@@ -4797,6 +4797,16 @@ const zurueckgestellt = <String>{
   'Sammler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas sammelt «Briefmarkensammler» / Jäger und Sammler (Frühgeschichte) / Technik: Sammelbehälter) — nach den Nomen 2026-11-03
   'Sammlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gesammelte Gegenstände, Kollektion / Geldsammlung, Spendenaktion / innere Konzentration) — nach den Nomen 2026-11-03
   'Sampler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik-Kompilation (CD) / elektronisches Gerät zum Samplen) — nach den Nomen 2026-11-03
+  'Sander', // zurückgestellt: Fachwort (Geologie: Schwemmfläche) bzw. Familienname, selten — Regel 14 — 2026-11-03
+  'Sandler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: österr. ugs. Obdachloser, Stadtstreicher / abwertend: Versager, Nichtsnutz) — nach den Nomen 2026-11-03
+  'Sandsack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mit Sand gefüllter Sack (Hochwasserschutz) / Boxsack (Training)) — nach den Nomen 2026-11-03
+  'Sandwich', // zurückgestellt: Artikel doppelt (das Sandwich, auch: der Sandwich) — Regel 14 — 2026-11-03
+  'Sanierer', // zurückgestellt: selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 — 2026-11-03
+  'Sanierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Renovierung von Gebäuden / wirtschaftliche Sanierung eines Unternehmens / Altlasten-, Umweltsanierung) — nach den Nomen 2026-11-03
+  'Sanierungsfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sanierungsbedürftiges Gebäude / Unternehmen in der Krise) — nach den Nomen 2026-11-03
+  'Sanierungskonzept', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) — nach den Nomen 2026-11-03
+  'Sanierungsplan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) — nach den Nomen 2026-11-03
+  'Sanierungsprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
