@@ -2691,6 +2691,8 @@
 | ۲۵۱۴ | Ritz | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (regional für die Ritze, Kratzer; Name eines Hotels) — Regel 14 | — |
 | ۲۵۱۵ | Robinson | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Robinson Crusoe) bzw. Gattungsname «ein Robinson» selten — Regel 14 | — |
 | ۲۵۱۶ | Rogner | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (weiblicher Fisch mit Rogen), selten — Regel 14 | — |
+| ۲۵۱۷ | Romane | `substantiv_singular_alle.txt` | 2026-11-03 | als Listeneintrag unsicher (Plural von «der Roman» oder seltenes Nomen «der Romane» = Angehöriger eines romanischsprachigen Volkes) — Regel 14 | — |
+| ۲۵۱۸ | Romeo | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Romeo und Julia) — kein Eigenname nach Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4715,3 +4717,10 @@
 | 2178 | Rohr | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Röhre, Leitung / Schilf, Bambus «das Rohr» / Lauf einer Waffe; österr. Backrohr = Backofen) |
 | 2179 | Rolle | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rolle im Theater, Funktion / Walze, Spule «eine Rolle Klopapier» / Turnübung) |
 | 2180 | Roller | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tretroller, Motorroller / Farbroller / Brecher, Welle) |
+| 2181 | Romantik | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kunst- und Literaturepoche um 1800 / romantische Stimmung, Gefühl) |
+| 2182 | Romantiker | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Künstler der Romantik / romantischer, schwärmerischer Mensch) |
+| 2183 | Romanze | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: kurze Liebesbeziehung / Musikstück, Gedicht) |
+| 2184 | Rosenkranz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gebetskette / das Gebet selbst «den Rosenkranz beten») |
+| 2185 | Rotation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Drehung (Physik) / regelmäßiger Wechsel, Turnus / Fruchtfolge) |
+| 2186 | Rotlicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: rotes Ampellicht / Infrarotlampe (Therapie) / Rotlichtmilieu) |
+| 2187 | Rotstift | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: roter Stift / übertragen: Kürzung «den Rotstift ansetzen») |

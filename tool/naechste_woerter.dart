@@ -4747,6 +4747,15 @@ const zurueckgestellt = <String>{
   'Rohr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Röhre, Leitung / Schilf, Bambus «das Rohr» / Lauf einer Waffe; österr. Backrohr = Backofen) — nach den Nomen 2026-11-03
   'Rolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rolle im Theater, Funktion / Walze, Spule «eine Rolle Klopapier» / Turnübung) — nach den Nomen 2026-11-03
   'Roller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tretroller, Motorroller / Farbroller / Brecher, Welle) — nach den Nomen 2026-11-03
+  'Romane', // zurückgestellt: als Listeneintrag unsicher (Plural von «der Roman» oder seltenes Nomen «der Romane» = Angehöriger eines romanischsprachigen Volkes) — Regel 14 — 2026-11-03
+  'Romantik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst- und Literaturepoche um 1800 / romantische Stimmung, Gefühl) — nach den Nomen 2026-11-03
+  'Romantiker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Künstler der Romantik / romantischer, schwärmerischer Mensch) — nach den Nomen 2026-11-03
+  'Romanze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kurze Liebesbeziehung / Musikstück, Gedicht) — nach den Nomen 2026-11-03
+  'Romeo', // zurückgestellt: Personenname (Romeo und Julia) — kein Eigenname nach Regel 18 — 2026-11-03
+  'Rosenkranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebetskette / das Gebet selbst «den Rosenkranz beten») — nach den Nomen 2026-11-03
+  'Rotation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Drehung (Physik) / regelmäßiger Wechsel, Turnus / Fruchtfolge) — nach den Nomen 2026-11-03
+  'Rotlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: rotes Ampellicht / Infrarotlampe (Therapie) / Rotlichtmilieu) — nach den Nomen 2026-11-03
+  'Rotstift', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: roter Stift / übertragen: Kürzung «den Rotstift ansetzen») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
