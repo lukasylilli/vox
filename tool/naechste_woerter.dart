@@ -4832,6 +4832,12 @@ const zurueckgestellt = <String>{
   'Schattenseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») — nach den Nomen 2026-11-03
   'Schattierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») — nach den Nomen 2026-11-03
   'Schatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») — nach den Nomen 2026-11-03
+  'Schau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») — nach den Nomen 2026-11-03
+  'Schaub', // zurückgestellt: selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 — 2026-11-03
+  'Schaufel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) — nach den Nomen 2026-11-03
+  'Schauspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») — nach den Nomen 2026-11-03
+  'Schauspielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») — nach den Nomen 2026-11-03
+  'Scheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

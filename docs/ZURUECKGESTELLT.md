@@ -2716,6 +2716,7 @@
 | ۲۵۳۹ | Schade | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 | — |
 | ۲۵۴۰ | Schalk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 | — |
 | ۲۵۴۱ | Schalke | `substantiv_singular_alle.txt` | 2026-11-03 | Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 | — |
+| ۲۵۴۲ | Schaub | `substantiv_singular_alle.txt` | 2026-11-03 | selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4800,3 +4801,8 @@
 | 2238 | Schattenseite | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») |
 | 2239 | Schattierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») |
 | 2240 | Schatz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») |
+| 2241 | Schau | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») |
+| 2242 | Schaufel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) |
+| 2243 | Schauspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») |
+| 2244 | Schauspielerei | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») |
+| 2245 | Scheibe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) |
