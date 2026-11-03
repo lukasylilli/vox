@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-11-03 (بخش ۱۴) فاز X (فقط سند): شروع بعد از اتمام کلمه‌ها؛ در پایانش `add_word_screen.dart` جای خود را به «درخواست کلمه» (لینک تلگرام) می‌دهد.
 - آپدیت 2026-11-03 (بخش ۱۳) فاز X (فقط سند): سقف پیش‌فرض Deck اصلی ۵۰، Subdeck (هر عمق) ۱۰؛ هر سقف کل زیردرخت خودش را محدود می‌کند.
 - آپدیت 2026-11-03 (بخش ۱۲) فاز X (فقط سند): سقف کلمه‌ی تازه جدا برای هر Deck، پیش‌فرض ۱۰.
 - آپدیت 2026-11-03 (بخش ۱۱) فاز X (فقط سند): سقف کلمه‌ی تازه در روز، قابل تغییر توسط کاربر.
@@ -527,7 +528,7 @@ screens/
   type_words_screen.dart       [x]  — wordsByTypeProvider + _TypePickerBar (legacy، هنوز در router)
   word_detail_screen.dart      [x]  — ⭐ کلمه‌ی قبلی اپ با کارت پرامپتی ⇒ زیر بخش‌های قبلی کارت را **اضافه** نشان می‌دهد (`_KartenErweiterung` ← `WortKarteKopf`/`WortKarteAbschnitte`)؛ کارت صفحه‌ی خودش را هم دارد (اصل اول)؛ هیچ بخشی حذف نشد. — همه فیلدها conditional + BottomBar: (2026-09-22: دکمه‌ی «favorit» جدا وجود ندارد — دسته‌بندی/فهرست جایش است)
                                       LeitnerAddButton / دسته‌بندی / آزمون(placeholder)
-  add_word_screen.dart         [x]  — TextField → ParserRegistry.parse → _ParsePreview → save
+  add_word_screen.dart         [x]  — TextField → ParserRegistry.parse → _ParsePreview → save — 🃏 فاز X.7: جای خود را به «درخواست کلمه» (تلگرام) می‌دهد؛ کاربر دیگر کلمه وارد نمی‌کند
 controllers/
   altwort_karte_provider.dart  [x]  — altwortZuordnungProvider (فقط برای نمایش اضافه در word_detail_screen)
   word_controller.dart         [x]  — databaseProvider، wordDaoProvider
