@@ -2681,6 +2681,7 @@
 | ۲۵۰۴ | Rehe | `substantiv_singular_alle.txt` | 2026-11-03 | nur Plural von «das Reh» (eigene Karte) | — |
 | ۲۵۰۵ | Reichsbahn | `substantiv_singular_alle.txt` | 2026-11-03 | Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 | — |
 | ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
+| ۲۵۰۷ | Relativ | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4646,3 +4647,9 @@
 | 2119 | Reisende | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) |
 | 2120 | Reisezeit | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) |
 | 2121 | Reiz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») |
+| 2122 | Rektor | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schulleiter, v. a. Deutschland / Leiter einer Universität) |
+| 2123 | Rektorin | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schulleiterin / Leiterin einer Universität) |
+| 2124 | Rekurs | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rechtsmittel, Einspruch (AT/CH) / bildungssprachlich: Rückgriff, Bezugnahme) |
+| 2125 | Relation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Beziehung, Verhältnis «in Relation zu» / Mathematik, Logik: Relation) |
+| 2126 | Relegation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Entscheidungsspiele um Auf-/Abstieg / Verweis von der Schule, Hochschule) |
+| 2127 | Relief | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kunst: erhabenes Bildwerk / Geografie: Oberflächengestalt des Geländes) |

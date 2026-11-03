@@ -4678,6 +4678,13 @@ const zurueckgestellt = <String>{
   'Reisende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Reisende, ein Reisender) — nach den Nomen 2026-11-03
   'Reisezeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrtdauer / günstige Jahreszeit zum Reisen, Urlaubszeit) — nach den Nomen 2026-11-03
   'Reiz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinnesreiz, Stimulus / Anziehungskraft, Charme «der Reiz des Neuen») — nach den Nomen 2026-11-03
+  'Rektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulleiter, v. a. Deutschland / Leiter einer Universität) — nach den Nomen 2026-11-03
+  'Rektorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulleiterin / Leiterin einer Universität) — nach den Nomen 2026-11-03
+  'Rekurs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsmittel, Einspruch (AT/CH) / bildungssprachlich: Rückgriff, Bezugnahme) — nach den Nomen 2026-11-03
+  'Relation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beziehung, Verhältnis «in Relation zu» / Mathematik, Logik: Relation) — nach den Nomen 2026-11-03
+  'Relativ', // zurückgestellt: Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 — 2026-11-03
+  'Relegation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Entscheidungsspiele um Auf-/Abstieg / Verweis von der Schule, Hochschule) — nach den Nomen 2026-11-03
+  'Relief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst: erhabenes Bildwerk / Geografie: Oberflächengestalt des Geländes) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
