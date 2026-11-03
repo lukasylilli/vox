@@ -2714,6 +2714,8 @@
 | ۲۵۳۷ | Sanierer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 | — |
 | ۲۵۳۸ | Sauer | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 | — |
 | ۲۵۳۹ | Schade | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 | — |
+| ۲۵۴۰ | Schalk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 | — |
+| ۲۵۴۱ | Schalke | `substantiv_singular_alle.txt` | 2026-11-03 | Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4787,3 +4789,6 @@
 | 2227 | Schachspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) |
 | 2228 | Schachtel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) |
 | 2229 | Schachzug | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») |
+| 2230 | Schaf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») |
+| 2231 | Schale | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») |
+| 2232 | Schallmauer | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) |

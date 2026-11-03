@@ -4819,6 +4819,11 @@ const zurueckgestellt = <String>{
   'Schachtel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) — nach den Nomen 2026-11-03
   'Schachzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») — nach den Nomen 2026-11-03
   'Schade', // zurückgestellt: veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 — 2026-11-03
+  'Schaf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») — nach den Nomen 2026-11-03
+  'Schale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») — nach den Nomen 2026-11-03
+  'Schalk', // zurückgestellt: veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 — 2026-11-03
+  'Schalke', // zurückgestellt: Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 — 2026-11-03
+  'Schallmauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
