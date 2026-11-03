@@ -4824,6 +4824,14 @@ const zurueckgestellt = <String>{
   'Schalk', // zurückgestellt: veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 — 2026-11-03
   'Schalke', // zurückgestellt: Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 — 2026-11-03
   'Schallmauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) — nach den Nomen 2026-11-03
+  'Schalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) — nach den Nomen 2026-11-03
+  'Schaltstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») — nach den Nomen 2026-11-03
+  'Schaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) — nach den Nomen 2026-11-03
+  'Scham', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) — nach den Nomen 2026-11-03
+  'Schandfleck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») — nach den Nomen 2026-11-03
+  'Schattenseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») — nach den Nomen 2026-11-03
+  'Schattierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») — nach den Nomen 2026-11-03
+  'Schatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -4792,3 +4792,11 @@
 | 2230 | Schaf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») |
 | 2231 | Schale | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») |
 | 2232 | Schallmauer | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) |
+| 2233 | Schalter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) |
+| 2234 | Schaltstelle | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») |
+| 2235 | Schaltung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) |
+| 2236 | Scham | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) |
+| 2237 | Schandfleck | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») |
+| 2238 | Schattenseite | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») |
+| 2239 | Schattierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») |
+| 2240 | Schatz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») |
