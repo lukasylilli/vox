@@ -4653,6 +4653,9 @@ const zurueckgestellt = <String>{
   'Regie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») — nach den Nomen 2026-11-02
   'Regierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) — nach den Nomen 2026-11-02
   'Regierungsbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) — nach den Nomen 2026-11-02
+  'Regierungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) — nach den Nomen 2026-11-02
+  'Regime', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) — nach den Nomen 2026-11-02
+  'Regiment', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

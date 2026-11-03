@@ -4621,3 +4621,6 @@
 | 2098 | Regie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») |
 | 2099 | Regierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) |
 | 2100 | Regierungsbeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) |
+| 2101 | Regierungsrat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) |
+| 2102 | Regime | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) |
+| 2103 | Regiment | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) |
