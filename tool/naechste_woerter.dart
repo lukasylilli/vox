@@ -4628,6 +4628,7 @@ const zurueckgestellt = <String>{
   'Rechner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) — nach den Nomen 2026-11-02
   'Rechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») — nach den Nomen 2026-11-02
   'Recht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») — nach den Nomen 2026-11-02
+  'Rechtsschutz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

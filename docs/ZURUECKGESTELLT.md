@@ -4596,3 +4596,4 @@
 | 2077 | Rechner | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Computer / Taschenrechner / Person, die gut rechnet) |
 | 2078 | Rechnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») |
 | 2079 | Recht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») |
+| 2080 | Rechtsschutz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) |
