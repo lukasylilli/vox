@@ -4728,6 +4728,11 @@ const zurueckgestellt = <String>{
   'Riege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Turnen: Mannschaft, Gruppe / übertragen: Gruppe von Personen «die alte Riege») — nach den Nomen 2026-11-03
   'Riegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verschluss an Tür, Fenster / Schokoriegel, Müsliriegel / Bauwesen, Kleidung) — nach den Nomen 2026-11-03
   'Riemer', // zurückgestellt: veraltete Berufsbezeichnung (Riemenmacher) bzw. Familienname — Regel 14 — 2026-11-03
+  'Rind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier, Hausrind / ohne Plural: Rindfleisch «vom Rind») — nach den Nomen 2026-11-03
+  'Rinde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baumrinde / Brotrinde, Käserinde / Anatomie: Hirnrinde) — nach den Nomen 2026-11-03
+  'Ring', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmuckring / Boxring / Ringstraße «der Ring» in Wien / Kreis, Verbindung) — nach den Nomen 2026-11-03
+  'Ringen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart Ringen / Kampf, Bemühen «das Ringen um eine Lösung») — nach den Nomen 2026-11-03
+  'Rippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anatomie: Knochen im Brustkorb / Fleisch: Rippchen / Technik: Rippe am Heizkörper, Blattrippe) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

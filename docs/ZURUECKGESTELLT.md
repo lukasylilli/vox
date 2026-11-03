@@ -4696,3 +4696,8 @@
 | 2163 | Richtung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung, Weg «in Richtung Bahnhof» / Strömung, Tendenz «politische Richtung») |
 | 2164 | Riege | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Turnen: Mannschaft, Gruppe / übertragen: Gruppe von Personen «die alte Riege») |
 | 2165 | Riegel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verschluss an Tür, Fenster / Schokoriegel, Müsliriegel / Bauwesen, Kleidung) |
+| 2166 | Rind | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier, Hausrind / ohne Plural: Rindfleisch «vom Rind») |
+| 2167 | Rinde | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Baumrinde / Brotrinde, Käserinde / Anatomie: Hirnrinde) |
+| 2168 | Ring | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schmuckring / Boxring / Ringstraße «der Ring» in Wien / Kreis, Verbindung) |
+| 2169 | Ringen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sportart Ringen / Kampf, Bemühen «das Ringen um eine Lösung») |
+| 2170 | Rippe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Anatomie: Knochen im Brustkorb / Fleisch: Rippchen / Technik: Rippe am Heizkörper, Blattrippe) |
