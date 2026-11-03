@@ -2687,6 +2687,9 @@
 | ۲۵۱۰ | Retour | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adverb «retour» = zurück; die Retoure = zurückgeschickte Ware; österr. ugs. Rückfahrkarte) — Regel 14 | — |
 | ۲۵۱۱ | Rick | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung regional/selten (Stange, Gestell; Familienname) — Regel 14 | — |
 | ۲۵۱۲ | Riemer | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Berufsbezeichnung (Riemenmacher) bzw. Familienname — Regel 14 | — |
+| ۲۵۱۳ | Rita | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Vorname) — kein Eigenname nach Regel 18 | — |
+| ۲۵۱۴ | Ritz | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (regional für die Ritze, Kratzer; Name eines Hotels) — Regel 14 | — |
+| ۲۵۱۵ | Robinson | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Robinson Crusoe) bzw. Gattungsname «ein Robinson» selten — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4701,3 +4704,8 @@
 | 2168 | Ring | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schmuckring / Boxring / Ringstraße «der Ring» in Wien / Kreis, Verbindung) |
 | 2169 | Ringen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sportart Ringen / Kampf, Bemühen «das Ringen um eine Lösung») |
 | 2170 | Rippe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Anatomie: Knochen im Brustkorb / Fleisch: Rippchen / Technik: Rippe am Heizkörper, Blattrippe) |
+| 2171 | Riss | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Spalt, Sprung «ein Riss in der Wand» / technische Zeichnung «Grundriss» / übertragen: Bruch in einer Beziehung) |
+| 2172 | Rist | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fußrücken, Spann / Handrücken / Widerrist bei Tieren) |
+| 2173 | Ritter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: mittelalterlicher Krieger / Ordensritter, Adelstitel «Ritter von …»; dazu «arme Ritter» (Speise)) |
+| 2174 | Ritual | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: religiöser Brauch, Zeremonie / feste Gewohnheit «mein Morgenritual») |
+| 2175 | Robe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: festliches Abendkleid / Amtstracht von Richtern, Anwälten, Geistlichen) |

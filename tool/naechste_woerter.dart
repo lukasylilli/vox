@@ -4733,6 +4733,14 @@ const zurueckgestellt = <String>{
   'Ring', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmuckring / Boxring / Ringstraße «der Ring» in Wien / Kreis, Verbindung) — nach den Nomen 2026-11-03
   'Ringen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart Ringen / Kampf, Bemühen «das Ringen um eine Lösung») — nach den Nomen 2026-11-03
   'Rippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anatomie: Knochen im Brustkorb / Fleisch: Rippchen / Technik: Rippe am Heizkörper, Blattrippe) — nach den Nomen 2026-11-03
+  'Riss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spalt, Sprung «ein Riss in der Wand» / technische Zeichnung «Grundriss» / übertragen: Bruch in einer Beziehung) — nach den Nomen 2026-11-03
+  'Rist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fußrücken, Spann / Handrücken / Widerrist bei Tieren) — nach den Nomen 2026-11-03
+  'Rita', // zurückgestellt: Personenname (Vorname) — kein Eigenname nach Regel 18 — 2026-11-03
+  'Ritter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mittelalterlicher Krieger / Ordensritter, Adelstitel «Ritter von …»; dazu «arme Ritter» (Speise)) — nach den Nomen 2026-11-03
+  'Ritual', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöser Brauch, Zeremonie / feste Gewohnheit «mein Morgenritual») — nach den Nomen 2026-11-03
+  'Ritz', // zurückgestellt: als Nomen unsicher (regional für die Ritze, Kratzer; Name eines Hotels) — Regel 14 — 2026-11-03
+  'Robe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: festliches Abendkleid / Amtstracht von Richtern, Anwälten, Geistlichen) — nach den Nomen 2026-11-03
+  'Robinson', // zurückgestellt: Personenname (Robinson Crusoe) bzw. Gattungsname «ein Robinson» selten — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
