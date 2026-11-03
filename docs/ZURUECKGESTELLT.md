@@ -2706,6 +2706,8 @@
 | ۲۵۲۹ | Saalbau | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Gebäude mit großem Saal; oft Name von Veranstaltungshäusern) — Regel 14 | — |
 | ۲۵۳۰ | Sabena | `substantiv_singular_alle.txt` | 2026-11-03 | Firmenname (ehemalige belgische Fluggesellschaft) — Regel 18 | — |
 | ۲۵۳۱ | Safe | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Safe, auch: das Safe) — Regel 14 | — |
+| ۲۵۳۲ | Sakko | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sakko, auch: der Sakko) — Regel 14 | — |
+| ۲۵۳۳ | Salami | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (die Salami, schweizerisch auch: der Salami) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4755,3 +4757,5 @@
 | 2203 | Sackgasse | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Straße ohne Durchfahrt / übertragen: ausweglose Lage «in eine Sackgasse geraten») |
 | 2204 | Saft | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fruchtsaft / Pflanzensaft, Bratensaft / ugs.: Strom, Energie «kein Saft mehr im Akku») |
 | 2205 | Saga | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: altisländische Prosaerzählung / lange Familien- oder Filmgeschichte) |
+| 2206 | Salon | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Empfangszimmer / Geschäft «Friseursalon, Kosmetiksalon» / Ausstellung, Messe «Automobilsalon») |
+| 2207 | Salve | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: gleichzeitiges Abfeuern von Schüssen / übertragen: Lachsalve, Beifallssalve) |

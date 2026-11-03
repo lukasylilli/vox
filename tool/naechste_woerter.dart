@@ -4787,6 +4787,10 @@ const zurueckgestellt = <String>{
   'Safe', // zurückgestellt: Artikel doppelt (der Safe, auch: das Safe) — Regel 14 — 2026-11-03
   'Saft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fruchtsaft / Pflanzensaft, Bratensaft / ugs.: Strom, Energie «kein Saft mehr im Akku») — nach den Nomen 2026-11-03
   'Saga', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: altisländische Prosaerzählung / lange Familien- oder Filmgeschichte) — nach den Nomen 2026-11-03
+  'Sakko', // zurückgestellt: Artikel doppelt (das Sakko, auch: der Sakko) — Regel 14 — 2026-11-03
+  'Salami', // zurückgestellt: Artikel doppelt (die Salami, schweizerisch auch: der Salami) — Regel 14 — 2026-11-03
+  'Salon', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfangszimmer / Geschäft «Friseursalon, Kosmetiksalon» / Ausstellung, Messe «Automobilsalon») — nach den Nomen 2026-11-03
+  'Salve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gleichzeitiges Abfeuern von Schüssen / übertragen: Lachsalve, Beifallssalve) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
