@@ -4807,6 +4807,12 @@ const zurueckgestellt = <String>{
   'Sanierungskonzept', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) — nach den Nomen 2026-11-03
   'Sanierungsplan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) — nach den Nomen 2026-11-03
   'Sanierungsprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) — nach den Nomen 2026-11-03
+  'Sanktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) — nach den Nomen 2026-11-03
+  'Satan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») — nach den Nomen 2026-11-03
+  'Satellit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») — nach den Nomen 2026-11-03
+  'Sattel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) — nach den Nomen 2026-11-03
+  'Satz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) — nach den Nomen 2026-11-03
+  'Sauer', // zurückgestellt: als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

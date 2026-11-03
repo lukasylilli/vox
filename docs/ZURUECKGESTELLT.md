@@ -2712,6 +2712,7 @@
 | ۲۵۳۵ | Sander | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (Geologie: Schwemmfläche) bzw. Familienname, selten — Regel 14 | — |
 | ۲۵۳۶ | Sandwich | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sandwich, auch: der Sandwich) — Regel 14 | — |
 | ۲۵۳۷ | Sanierer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 | — |
+| ۲۵۳۸ | Sauer | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4775,3 +4776,8 @@
 | 2217 | Sanierungskonzept | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) |
 | 2218 | Sanierungsplan | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) |
 | 2219 | Sanierungsprogramm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) |
+| 2220 | Sanktion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) |
+| 2221 | Satan | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») |
+| 2222 | Satellit | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») |
+| 2223 | Sattel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) |
+| 2224 | Satz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) |
