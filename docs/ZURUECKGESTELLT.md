@@ -2682,6 +2682,7 @@
 | ۲۵۰۵ | Reichsbahn | `substantiv_singular_alle.txt` | 2026-11-03 | Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 | — |
 | ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
 | ۲۵۰۷ | Relativ | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 | — |
+| ۲۵۰۸ | Rem | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Maßeinheit der Strahlendosis (heute Sievert); Fachwort, Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4653,3 +4654,8 @@
 | 2125 | Relation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Beziehung, Verhältnis «in Relation zu» / Mathematik, Logik: Relation) |
 | 2126 | Relegation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Entscheidungsspiele um Auf-/Abstieg / Verweis von der Schule, Hochschule) |
 | 2127 | Relief | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kunst: erhabenes Bildwerk / Geografie: Oberflächengestalt des Geländes) |
+| 2128 | Reminiszenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Erinnerung von Bedeutung / Anklang, Ähnlichkeit «eine Reminiszenz an …») |
+| 2129 | Remise | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schuppen, Wagenschuppen / Schach (veraltet): Remis) |
+| 2130 | Renaissance | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kunstepoche des 15./16. Jh. / Wiederbelebung, Wiederaufleben «eine Renaissance erleben») |
+| 2131 | Rendezvous | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verabredung, Treffen von Verliebten / Raumfahrt: Begegnung zweier Raumfahrzeuge) |
+| 2132 | Renner | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) |

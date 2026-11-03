@@ -4685,6 +4685,12 @@ const zurueckgestellt = <String>{
   'Relativ', // zurückgestellt: Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 — 2026-11-03
   'Relegation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Entscheidungsspiele um Auf-/Abstieg / Verweis von der Schule, Hochschule) — nach den Nomen 2026-11-03
   'Relief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunst: erhabenes Bildwerk / Geografie: Oberflächengestalt des Geländes) — nach den Nomen 2026-11-03
+  'Rem', // zurückgestellt: veraltete Maßeinheit der Strahlendosis (heute Sievert); Fachwort, Gebrauch unsicher — Regel 14 — 2026-11-03
+  'Reminiszenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erinnerung von Bedeutung / Anklang, Ähnlichkeit «eine Reminiszenz an …») — nach den Nomen 2026-11-03
+  'Remise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuppen, Wagenschuppen / Schach (veraltet): Remis) — nach den Nomen 2026-11-03
+  'Renaissance', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstepoche des 15./16. Jh. / Wiederbelebung, Wiederaufleben «eine Renaissance erleben») — nach den Nomen 2026-11-03
+  'Rendezvous', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verabredung, Treffen von Verliebten / Raumfahrt: Begegnung zweier Raumfahrzeuge) — nach den Nomen 2026-11-03
+  'Renner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
