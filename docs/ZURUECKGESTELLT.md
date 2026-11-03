@@ -4669,3 +4669,11 @@
 | 2139 | Reservat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schutzgebiet für Tiere und Pflanzen / Siedlungsgebiet für Ureinwohner) |
 | 2140 | Reservation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: schweizerisch/veraltet: Reservierung / Gebiet für Ureinwohner in Nordamerika) |
 | 2141 | Reserve | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vorrat, Rücklage / Militär: Reservisten / Sport: Ersatzmannschaft / Zurückhaltung «jemanden aus der Reserve locken») |
+| 2142 | Reservoir | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sammelbecken, Wasserspeicher / übertragen: Vorrat, Reservebestand) |
+| 2143 | Residenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wohnsitz eines Fürsten, Bischofs / Hauptstadt mit Herrschersitz / gehoben: Wohnsitz) |
+| 2144 | Resignation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Aufgeben, Mutlosigkeit / Amtssprache veraltet: Rücktritt) |
+| 2145 | Resistenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Widerstand / Medizin, Biologie: Widerstandsfähigkeit gegen Erreger, Medikamente) |
+| 2146 | Resolution | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Entschließung, Beschluss / Medizin: Rückbildung) |
+| 2147 | Resonanz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik, Musik: Mitschwingen / Widerhall, Reaktion, Zustimmung «große Resonanz finden») |
+| 2148 | Respekt | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Achtung, Wertschätzung / Scheu, Furcht «Respekt vor dem Wasser haben») |
+| 2149 | Ressort | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Geschäfts-, Zuständigkeitsbereich eines Ministers / Abteilung einer Zeitung, Redaktion) |

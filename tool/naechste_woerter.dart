@@ -4701,6 +4701,14 @@ const zurueckgestellt = <String>{
   'Reservat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutzgebiet für Tiere und Pflanzen / Siedlungsgebiet für Ureinwohner) — nach den Nomen 2026-11-03
   'Reservation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schweizerisch/veraltet: Reservierung / Gebiet für Ureinwohner in Nordamerika) — nach den Nomen 2026-11-03
   'Reserve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrat, Rücklage / Militär: Reservisten / Sport: Ersatzmannschaft / Zurückhaltung «jemanden aus der Reserve locken») — nach den Nomen 2026-11-03
+  'Reservoir', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sammelbecken, Wasserspeicher / übertragen: Vorrat, Reservebestand) — nach den Nomen 2026-11-03
+  'Residenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnsitz eines Fürsten, Bischofs / Hauptstadt mit Herrschersitz / gehoben: Wohnsitz) — nach den Nomen 2026-11-03
+  'Resignation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufgeben, Mutlosigkeit / Amtssprache veraltet: Rücktritt) — nach den Nomen 2026-11-03
+  'Resistenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Widerstand / Medizin, Biologie: Widerstandsfähigkeit gegen Erreger, Medikamente) — nach den Nomen 2026-11-03
+  'Resolution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Entschließung, Beschluss / Medizin: Rückbildung) — nach den Nomen 2026-11-03
+  'Resonanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik, Musik: Mitschwingen / Widerhall, Reaktion, Zustimmung «große Resonanz finden») — nach den Nomen 2026-11-03
+  'Respekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Achtung, Wertschätzung / Scheu, Furcht «Respekt vor dem Wasser haben») — nach den Nomen 2026-11-03
+  'Ressort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschäfts-, Zuständigkeitsbereich eines Ministers / Abteilung einer Zeitung, Redaktion) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
