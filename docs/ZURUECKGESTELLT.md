@@ -2703,6 +2703,8 @@
 | ۲۵۲۶ | Rus | `substantiv_singular_alle.txt` | 2026-11-03 | historischer Name (die Kiewer Rus), kein geografischer Eigenname nach Regel 18 — Regel 14 | — |
 | ۲۵۲۷ | Rusch | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (regional/Familienname) — Regel 14 | — |
 | ۲۵۲۸ | Rush | `substantiv_singular_alle.txt` | 2026-11-03 | als deutsches Nomen selten, Bedeutung unsicher (Ansturm, Hauptverkehrszeit «Rushhour») — Regel 14 | — |
+| ۲۵۲۹ | Saalbau | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Gebäude mit großem Saal; oft Name von Veranstaltungshäusern) — Regel 14 | — |
+| ۲۵۳۰ | Sabena | `substantiv_singular_alle.txt` | 2026-11-03 | Firmenname (ehemalige belgische Fluggesellschaft) — Regel 18 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4746,3 +4748,5 @@
 | 2197 | Rundung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wölbung, runde Form / Mathematik: Runden einer Zahl) |
 | 2198 | Russlanddeutsche | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv: der/die Russlanddeutsche, ein Russlanddeutscher) |
 | 2199 | Rute | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gerte, Zweig (auch Krampusrute) / Angelrute / Wünschelrute; Jägersprache: Schwanz) |
+| 2200 | Saat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Saatgut, Samen / das Säen / junge Pflanzen auf dem Feld) |
+| 2201 | Sache | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gegenstand, Ding / Angelegenheit «eine wichtige Sache» / Recht: Rechtssache; Plural «Sachen» = Kleidung, Besitz) |

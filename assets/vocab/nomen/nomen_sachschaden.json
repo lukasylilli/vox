@@ -1,0 +1,119 @@
+{
+  "schema": "3.0",
+  "id": "nomen_sachschaden",
+  "wort": "der Sachschaden",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "خسارت مالی",
+      "خسارت به اموال"
+    ],
+    "en": [
+      "property damage",
+      "material damage"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Verkehr",
+    "Versicherung"
+  ],
+  "ipa": "ˈzaxˌʃaːdn̩",
+  "anmerkung": "Gegensatz: der Personenschaden",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bei dem Unfall gab es nur Sachschaden.",
+      "uebersetzung": {
+        "fa": "در آن تصادف فقط خسارت مالی وارد شد.",
+        "en": "There was only property damage in the accident."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Versicherung übernimmt den Sachschaden, weil der andere Fahrer schuld war.",
+      "uebersetzung": {
+        "fa": "بیمه خسارت مالی را می‌پردازد، چون راننده‌ی دیگر مقصر بود.",
+        "en": "The insurance covers the property damage because the other driver was at fault."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Sache (چیز، اموال) + Schaden (خسارت)",
+    "en": "Sache (thing, property) + Schaden (damage)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Sachschäden",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Autounfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف ماشین",
+          "en": "car accident"
+        },
+        "id_ref": "nomen_autounfall"
+      },
+      {
+        "wort": "schädigen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آسیب زدن",
+          "en": "to damage"
+        },
+        "id_ref": "verb_schaedigen"
+      },
+      {
+        "wort": "versehentlich",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ناخواسته",
+          "en": "accidental"
+        },
+        "id_ref": "adjektiv_versehentlich"
+      },
+      {
+        "wort": "der Polizist",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police officer"
+        },
+        "id_ref": "nomen_polizist"
+      },
+      {
+        "wort": "die Haftpflichtversicherung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیمه‌ی مسئولیت مدنی",
+          "en": "liability insurance"
+        },
+        "id_ref": "nomen_haftpflichtversicherung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
