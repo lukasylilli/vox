@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-11-03 (بخش ۵) فاز X (فقط سند): Deck «مرور»/«فقط دفترچه» + سه حالت کلمه (بیرون لایتنر / داخل / خارج‌شده از آخرین جعبه).
 - آپدیت 2026-11-03 (بخش ۴) فاز X (فقط سند): پیشرفت = حالت کلمه (یادگرفته‌نشده/در حال یادگیری/یادگرفته) + درصد هر Deck + درصد کل، همه محاسبه از «کلمه × تمرین»؛ اسم Deck/Subdeck مثل Anki.
 - آپدیت 2026-11-03 (بخش ۳) فاز X ثبت شد (Lukas، فقط سند): لایتنر شبیه Anki — deck درختی، چند deck برای یک کلمه با پیشرفت مشترک، پیشرفت «کلمه × تمرین» (کلمه/deck/کل محاسبه‌ای — منتظر تأیید)، ادغام «دسته‌بندی‌های من». فایل‌های درگیر آن زمان: `core/database/app_database.dart` (+ مهاجرت)، `core/database/dao/leitner_dao.dart`، `core/backup/nutzer_zustand.dart` + `user_state_repository.dart`، `core/widgets/leitner_add_button.dart`، `features/vokabular/widgets/wort_actions.dart`، `features/leitner/*`، `features/wortschatz/data/wortschatz_filter.dart` (کشوی F.4)، تست‌ها.
 - آپدیت 2026-11-02 (بخش ۲) قاعده‌ی Lukas برای مرحله‌ی (۴) ثبت شد (فقط سند): پس از پایان «📋 چهار حالت»، ارجاع wortnetz به کلمه‌های چندمعنایی مجاز است؛ فایل‌های درگیر آن زمان: `old files Lukasalmani/Wort prompt` (Regel 13)، `vokab_schema.dart`، چک `zurueckgestellt` در `tool/wort_runde.sh`. کد دست نخورد.
