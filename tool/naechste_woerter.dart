@@ -4656,6 +4656,15 @@ const zurueckgestellt = <String>{
   'Regierungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) — nach den Nomen 2026-11-02
   'Regime', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) — nach den Nomen 2026-11-02
   'Regiment', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) — nach den Nomen 2026-11-02
+  'Regionalverband', // zurückgestellt: Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 — 2026-11-02
+  'Register', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) — nach den Nomen 2026-11-02
+  'Registrierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) — nach den Nomen 2026-11-02
+  'Regulierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) — nach den Nomen 2026-11-02
+  'Regung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) — nach den Nomen 2026-11-02
+  'Rehabilitation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) — nach den Nomen 2026-11-02
+  'Rehabilitierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) — nach den Nomen 2026-11-02
+  'Rehe', // zurückgestellt: nur Plural von «das Reh» (eigene Karte) — 2026-11-02
+  'Reibung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

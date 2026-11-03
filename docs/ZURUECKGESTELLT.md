@@ -2677,6 +2677,8 @@
 | ۲۵۰۰ | Referee | `substantiv_singular_alle.txt` | 2026-11-02 | Fremdwort aus dem Sport (Schiedsrichter); Gebrauch/Region unsicher — Regel 14 | — |
 | ۲۵۰۱ | Reformstaat | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung/Gebrauch unsicher (Staat mit Reformen / Reformstaaten Osteuropas), kein fester Duden-Eintrag — Regel 14 | — |
 | ۲۵۰۲ | Regale | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 | — |
+| ۲۵۰۳ | Regionalverband | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 | — |
+| ۲۵۰۴ | Rehe | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Reh» (eigene Karte) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4624,3 +4626,10 @@
 | 2101 | Regierungsrat | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schweiz: Kantonsregierung bzw. ihr Mitglied / Deutschland, Österreich: Beamtentitel) |
 | 2102 | Regime | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: abwertend: undemokratische Regierung / Ordnung, Lebensweise «Diätregime»; Plural Regime/Regimes) |
 | 2103 | Regiment | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft, Leitung «ein strenges Regiment führen» (Pl. Regimente) / Truppeneinheit (Pl. Regimenter)) |
+| 2104 | Register | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verzeichnis, amtliche Liste / Orgel: Pfeifenreihe / Stimm- und Sprachlage) |
+| 2105 | Registrierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Eintragung, Anmeldung / Aufzeichnung (Messgerät) / Orgel: Wahl der Register) |
+| 2106 | Regulierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Einstellung, Steuerung (Technik) / Begradigung eines Flusses / staatliche Regelung der Wirtschaft) |
+| 2107 | Regung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: leichte Bewegung / Gefühl, innere Empfindung) |
+| 2108 | Rehabilitation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) |
+| 2109 | Rehabilitierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) |
+| 2110 | Reibung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) |
