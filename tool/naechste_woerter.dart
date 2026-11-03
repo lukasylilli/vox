@@ -4691,6 +4691,8 @@ const zurueckgestellt = <String>{
   'Renaissance', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kunstepoche des 15./16. Jh. / Wiederbelebung, Wiederaufleben «eine Renaissance erleben») — nach den Nomen 2026-11-03
   'Rendezvous', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verabredung, Treffen von Verliebten / Raumfahrt: Begegnung zweier Raumfahrzeuge) — nach den Nomen 2026-11-03
   'Renner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) — nach den Nomen 2026-11-03
+  'Rennstall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stall mit Rennpferden / Motor- und Radsport: Rennteam) — nach den Nomen 2026-11-03
+  'Rep', // zurückgestellt: Bedeutung unsicher (Kurzwort: Republikaner, z. B. für Republikaner) — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

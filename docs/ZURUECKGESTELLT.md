@@ -2683,6 +2683,7 @@
 | ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
 | ۲۵۰۷ | Relativ | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 | — |
 | ۲۵۰۸ | Rem | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Maßeinheit der Strahlendosis (heute Sievert); Fachwort, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۰۹ | Rep | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (Kurzwort: Republikaner, z. B. für Republikaner) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4659,3 +4660,4 @@
 | 2130 | Renaissance | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kunstepoche des 15./16. Jh. / Wiederbelebung, Wiederaufleben «eine Renaissance erleben») |
 | 2131 | Rendezvous | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verabredung, Treffen von Verliebten / Raumfahrt: Begegnung zweier Raumfahrzeuge) |
 | 2132 | Renner | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) |
+| 2133 | Rennstall | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Stall mit Rennpferden / Motor- und Radsport: Rennteam) |
