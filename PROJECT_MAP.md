@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-11-03 (بخش ۳) فاز X ثبت شد (Lukas، فقط سند): لایتنر شبیه Anki — deck درختی، چند deck برای یک کلمه با پیشرفت مشترک، پیشرفت «کلمه × تمرین» (کلمه/deck/کل محاسبه‌ای — منتظر تأیید)، ادغام «دسته‌بندی‌های من». فایل‌های درگیر آن زمان: `core/database/app_database.dart` (+ مهاجرت)، `core/database/dao/leitner_dao.dart`، `core/backup/nutzer_zustand.dart` + `user_state_repository.dart`، `core/widgets/leitner_add_button.dart`، `features/vokabular/widgets/wort_actions.dart`، `features/leitner/*`، `features/wortschatz/data/wortschatz_filter.dart` (کشوی F.4)، تست‌ها.
 - آپدیت 2026-11-02 (بخش ۲) قاعده‌ی Lukas برای مرحله‌ی (۴) ثبت شد (فقط سند): پس از پایان «📋 چهار حالت»، ارجاع wortnetz به کلمه‌های چندمعنایی مجاز است؛ فایل‌های درگیر آن زمان: `old files Lukasalmani/Wort prompt` (Regel 13)، `vokab_schema.dart`، چک `zurueckgestellt` در `tool/wort_runde.sh`. کد دست نخورد.
 - آپدیت 2026-11-01 (بخش ۳) دو مرحله‌ی آخر کلمه ثبت شد (Lukas، فقط سند): PLAN «🕸️ مرحله‌ی آخر (۴)» — گسترش wortnetz (هم‌خانواده، ریشه، هم‌معنی …) + کارت برای هر `id_ref` بی‌کارت؛ فایل‌های درگیر آن زمان: `old files Lukasalmani/Wort prompt` (Regel 13/TEIL 3)، `vokabular/data/vokab_schema.dart`، `tool/naechste_woerter.dart`، `tool/wort_runde.sh` · «✅ مرحله‌ی آخر (۵)» — کنترل نهایی: همه‌ی کارت‌ها و کلمه‌های deckها (`assets/data/*_data.json`، مثلاً dativ_akkusativ) طبق پرامپت و یکسان؛ `tool/vokab_qualitaet.dart`. کد دست نخورد.
 - آپدیت 2026-10-31 (بخش ۴) خلاصه‌سازی پنجم: گزارش‌های مفصل دور به دور کلمه (PLAN سرخط + همین MAP «📚 کلمه‌ها») بدون حذف ⇒ تازه `docs/WORTRUNDEN.md` (بایگانی؛ اول چت خوانده نمی‌شود). push یک‌جا (حداقل هر ۵ دور)؛ هر دور ۲۰ کلمه (`tool/naechste_woerter.dart` پیش‌فرض ۲۰). روال: PLAN «📚» مرحله‌ی ۸ + «🧠 درس‌های دورهای کلمه».
@@ -535,6 +536,7 @@ widgets/
 ```
 
 #### lib/features/leitner/ [x]
+> 🃏 **فاز X (PLAN، 2026-11-03, ⛔ طرح):** این بخش با deckهای درختی و انواع تمرین بازسازی می‌شود — قبل از هر تغییر بخش «🃏 فاز X» در PLAN را بخوان.
 ```
 screens/
   leitner_home_screen.dart   [x]  — _DueBanner (gradient) + BoxProgressWidget + FAB مرور
