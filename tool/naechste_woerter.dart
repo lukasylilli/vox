@@ -4693,6 +4693,14 @@ const zurueckgestellt = <String>{
   'Renner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) — nach den Nomen 2026-11-03
   'Rennstall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stall mit Rennpferden / Motor- und Radsport: Rennteam) — nach den Nomen 2026-11-03
   'Rep', // zurückgestellt: Bedeutung unsicher (Kurzwort: Republikaner, z. B. für Republikaner) — Regel 14 — 2026-11-03
+  'Replik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erwiderung, Entgegnung / Kunst: Nachbildung eines Originals durch den Künstler) — nach den Nomen 2026-11-03
+  'Report', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bericht, Dokumentation / Börse: Kursaufschlag beim Termingeschäft) — nach den Nomen 2026-11-03
+  'Reproduktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Fortpflanzung / Nachbildung, Kopie eines Kunstwerks / Wiedergabe) — nach den Nomen 2026-11-03
+  'Republikaner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhänger der Republik / Mitglied der Republikanischen Partei, z. B. in den USA) — nach den Nomen 2026-11-03
+  'Requiem', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Totenmesse / musikalisches Werk für diese Messe) — nach den Nomen 2026-11-03
+  'Reservat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutzgebiet für Tiere und Pflanzen / Siedlungsgebiet für Ureinwohner) — nach den Nomen 2026-11-03
+  'Reservation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schweizerisch/veraltet: Reservierung / Gebiet für Ureinwohner in Nordamerika) — nach den Nomen 2026-11-03
+  'Reserve', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrat, Rücklage / Militär: Reservisten / Sport: Ersatzmannschaft / Zurückhaltung «jemanden aus der Reserve locken») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -4661,3 +4661,11 @@
 | 2131 | Rendezvous | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verabredung, Treffen von Verliebten / Raumfahrt: Begegnung zweier Raumfahrzeuge) |
 | 2132 | Renner | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Verkaufsschlager / Rennpferd) |
 | 2133 | Rennstall | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Stall mit Rennpferden / Motor- und Radsport: Rennteam) |
+| 2134 | Replik | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Erwiderung, Entgegnung / Kunst: Nachbildung eines Originals durch den Künstler) |
+| 2135 | Report | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Bericht, Dokumentation / Börse: Kursaufschlag beim Termingeschäft) |
+| 2136 | Reproduktion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Biologie: Fortpflanzung / Nachbildung, Kopie eines Kunstwerks / Wiedergabe) |
+| 2137 | Republikaner | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Anhänger der Republik / Mitglied der Republikanischen Partei, z. B. in den USA) |
+| 2138 | Requiem | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Totenmesse / musikalisches Werk für diese Messe) |
+| 2139 | Reservat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schutzgebiet für Tiere und Pflanzen / Siedlungsgebiet für Ureinwohner) |
+| 2140 | Reservation | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: schweizerisch/veraltet: Reservierung / Gebiet für Ureinwohner in Nordamerika) |
+| 2141 | Reserve | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vorrat, Rücklage / Militär: Reservisten / Sport: Ersatzmannschaft / Zurückhaltung «jemanden aus der Reserve locken») |
