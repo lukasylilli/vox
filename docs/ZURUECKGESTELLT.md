@@ -2695,6 +2695,9 @@
 | ۲۵۱۸ | Romeo | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Romeo und Julia) — kein Eigenname nach Regel 18 | — |
 | ۲۵۱۹ | Ruch | `substantiv_singular_alle.txt` | 2026-11-03 | gehoben/veraltend (Ruf, übler Beigeschmack), selten — Regel 14 | — |
 | ۲۵۲۰ | Rudolph | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Vorname) — kein Eigenname nach Regel 18 | — |
+| ۲۵۲۱ | Rufer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (nur in Wendungen wie «ein Rufer in der Wüste») — Regel 14 | — |
+| ۲۵۲۲ | Rum | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Rum, österr. auch das Rum) — Regel 14 | — |
+| ۲۵۲۳ | Rund | `substantiv_singular_alle.txt` | 2026-11-03 | selten/gehoben (das Rund = Kreis, Rundung; Stadion-Rund) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4729,3 +4732,7 @@
 | 2188 | Rottweiler | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Hunderasse / Einwohner von Rottweil) |
 | 2189 | Routine | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gewohnheit, gleichförmiger Ablauf / Erfahrung, Übung «Routine haben» / EDV: Programmroutine) |
 | 2190 | Ruder | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Riemen zum Rudern / Steuerruder / übertragen: Führung «am Ruder sein») |
+| 2191 | Ruf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rufen, Schrei / Ansehen, Reputation «einen guten Ruf haben» / Berufung «einen Ruf an die Universität») |
+| 2192 | Ruhe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Stille «Ruhe bitte!» / Erholung, Ausruhen / Gelassenheit «die Ruhe bewahren») |
+| 2193 | Rumpf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Oberkörper / Schiffsrumpf / Flugzeugrumpf) |
+| 2194 | Runde | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Durchgang, Spielrunde / Rundgang, Strecke / Gruppe von Menschen / eine Runde Getränke) |

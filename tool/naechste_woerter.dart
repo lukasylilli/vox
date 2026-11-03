@@ -4761,6 +4761,13 @@ const zurueckgestellt = <String>{
   'Ruch', // zurückgestellt: gehoben/veraltend (Ruf, übler Beigeschmack), selten — Regel 14 — 2026-11-03
   'Ruder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riemen zum Rudern / Steuerruder / übertragen: Führung «am Ruder sein») — nach den Nomen 2026-11-03
   'Rudolph', // zurückgestellt: Personenname (Vorname) — kein Eigenname nach Regel 18 — 2026-11-03
+  'Ruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rufen, Schrei / Ansehen, Reputation «einen guten Ruf haben» / Berufung «einen Ruf an die Universität») — nach den Nomen 2026-11-03
+  'Rufer', // zurückgestellt: selten (nur in Wendungen wie «ein Rufer in der Wüste») — Regel 14 — 2026-11-03
+  'Ruhe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stille «Ruhe bitte!» / Erholung, Ausruhen / Gelassenheit «die Ruhe bewahren») — nach den Nomen 2026-11-03
+  'Rum', // zurückgestellt: Artikel doppelt (der Rum, österr. auch das Rum) — Regel 14 — 2026-11-03
+  'Rumpf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberkörper / Schiffsrumpf / Flugzeugrumpf) — nach den Nomen 2026-11-03
+  'Rund', // zurückgestellt: selten/gehoben (das Rund = Kreis, Rundung; Stadion-Rund) — Regel 14 — 2026-11-03
+  'Runde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Durchgang, Spielrunde / Rundgang, Strecke / Gruppe von Menschen / eine Runde Getränke) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
