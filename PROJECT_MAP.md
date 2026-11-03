@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-11-03 (بخش ۱۵) فاز X (فقط سند): `Words` (کلمه‌های خودساخته) کنار می‌رود؛ `book_list_screen.dart`/`Books`/`WordBooks` در Deckها ادغام می‌شوند؛ لینک «درخواست کلمه» = حساب شخصی تلگرام Lukas در `app_links.dart`.
 - آپدیت 2026-11-03 (بخش ۱۴) فاز X (فقط سند): شروع بعد از اتمام کلمه‌ها؛ در پایانش `add_word_screen.dart` جای خود را به «درخواست کلمه» (لینک تلگرام) می‌دهد.
 - آپدیت 2026-11-03 (بخش ۱۳) فاز X (فقط سند): سقف پیش‌فرض Deck اصلی ۵۰، Subdeck (هر عمق) ۱۰؛ هر سقف کل زیردرخت خودش را محدود می‌کند.
 - آپدیت 2026-11-03 (بخش ۱۲) فاز X (فقط سند): سقف کلمه‌ی تازه جدا برای هر Deck، پیش‌فرض ۱۰.
@@ -522,7 +523,7 @@ screens/
                                       + vokabularProvider (assets/vocab → WortCard+WortActions → /vokabular/wort/:id)؛
                                       سورت الفبایی مشترک (بدون Artikel)؛ SearchBar + FilterAccordion (Niveau، Wortart،
                                       نگاشت _typZuWortart) + FilterChipBar؛ query param `suche`؛ route: /wortschatz/list
-  book_list_screen.dart        [x]  — allBooksProvider + FAB + _addBook dialog
+  book_list_screen.dart        [x]  — allBooksProvider + FAB + _addBook dialog — 🃏 فاز X: با Deckها یکی می‌شود (تصمیم ۱۴)
   book_words_screen.dart       [x]  — wordsByBookProvider(bookId) + ListView
   level_words_screen.dart      [x]  — wordsByLevelProvider + _LevelPickerBar (legacy، هنوز در router)
   type_words_screen.dart       [x]  — wordsByTypeProvider + _TypePickerBar (legacy، هنوز در router)
