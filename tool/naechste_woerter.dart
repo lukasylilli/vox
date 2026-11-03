@@ -4650,6 +4650,9 @@ const zurueckgestellt = <String>{
   'Regeneration', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) — nach den Nomen 2026-11-02
   'Regent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) — nach den Nomen 2026-11-02
   'Regentschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) — nach den Nomen 2026-11-02
+  'Regie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») — nach den Nomen 2026-11-02
+  'Regierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) — nach den Nomen 2026-11-02
+  'Regierungsbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

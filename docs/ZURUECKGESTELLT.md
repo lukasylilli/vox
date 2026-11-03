@@ -4618,3 +4618,6 @@
 | 2095 | Regeneration | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Erholung / Biologie: Neubildung von Gewebe / Technik: Wiederaufbereitung) |
 | 2096 | Regent | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: regierender Fürst / Stellvertreter eines minderjährigen oder verhinderten Herrschers) |
 | 2097 | Regentschaft | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaft eines Regenten / stellvertretende Herrschaft) |
+| 2098 | Regie | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Spielleitung bei Film, Theater / Verwaltung, Leitung «in eigener Regie») |
+| 2099 | Regierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Gesamtheit der Minister, Kabinett / das Regieren, Herrschaft / Regierungszeit) |
+| 2100 | Regierungsbeamter | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: der Regierungsbeamte / ein Regierungsbeamter) |
