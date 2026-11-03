@@ -2690,6 +2690,7 @@
 | ۲۵۱۳ | Rita | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Vorname) — kein Eigenname nach Regel 18 | — |
 | ۲۵۱۴ | Ritz | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (regional für die Ritze, Kratzer; Name eines Hotels) — Regel 14 | — |
 | ۲۵۱۵ | Robinson | `substantiv_singular_alle.txt` | 2026-11-03 | Personenname (Robinson Crusoe) bzw. Gattungsname «ein Robinson» selten — Regel 14 | — |
+| ۲۵۱۶ | Rogner | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (weiblicher Fisch mit Rogen), selten — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4709,3 +4710,8 @@
 | 2173 | Ritter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: mittelalterlicher Krieger / Ordensritter, Adelstitel «Ritter von …»; dazu «arme Ritter» (Speise)) |
 | 2174 | Ritual | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: religiöser Brauch, Zeremonie / feste Gewohnheit «mein Morgenritual») |
 | 2175 | Robe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: festliches Abendkleid / Amtstracht von Richtern, Anwälten, Geistlichen) |
+| 2176 | Rochade | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schach: Rochade von König und Turm / Sport, Politik: Platz- oder Positionstausch) |
+| 2177 | Rocker | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rockmusiker, Rockfan / Mitglied einer Motorradbande) |
+| 2178 | Rohr | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Röhre, Leitung / Schilf, Bambus «das Rohr» / Lauf einer Waffe; österr. Backrohr = Backofen) |
+| 2179 | Rolle | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Rolle im Theater, Funktion / Walze, Spule «eine Rolle Klopapier» / Turnübung) |
+| 2180 | Roller | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tretroller, Motorroller / Farbroller / Brecher, Welle) |

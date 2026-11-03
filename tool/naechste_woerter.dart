@@ -4741,6 +4741,12 @@ const zurueckgestellt = <String>{
   'Ritz', // zurückgestellt: als Nomen unsicher (regional für die Ritze, Kratzer; Name eines Hotels) — Regel 14 — 2026-11-03
   'Robe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: festliches Abendkleid / Amtstracht von Richtern, Anwälten, Geistlichen) — nach den Nomen 2026-11-03
   'Robinson', // zurückgestellt: Personenname (Robinson Crusoe) bzw. Gattungsname «ein Robinson» selten — Regel 14 — 2026-11-03
+  'Rochade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schach: Rochade von König und Turm / Sport, Politik: Platz- oder Positionstausch) — nach den Nomen 2026-11-03
+  'Rocker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rockmusiker, Rockfan / Mitglied einer Motorradbande) — nach den Nomen 2026-11-03
+  'Rogner', // zurückgestellt: Fachwort (weiblicher Fisch mit Rogen), selten — Regel 14 — 2026-11-03
+  'Rohr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Röhre, Leitung / Schilf, Bambus «das Rohr» / Lauf einer Waffe; österr. Backrohr = Backofen) — nach den Nomen 2026-11-03
+  'Rolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rolle im Theater, Funktion / Walze, Spule «eine Rolle Klopapier» / Turnübung) — nach den Nomen 2026-11-03
+  'Roller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tretroller, Motorroller / Farbroller / Brecher, Welle) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
