@@ -2679,6 +2679,8 @@
 | ۲۵۰۲ | Regale | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Regal»; als eigenes Wort (Orgelregister «das Regal», Pl. Regale) unsicher — Regel 14 | — |
 | ۲۵۰۳ | Regionalverband | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung je nach Land und Bereich verschieden (Planungsverband, Sport- oder Wirtschaftsverband) — Regel 14 | — |
 | ۲۵۰۴ | Rehe | `substantiv_singular_alle.txt` | 2026-11-02 | nur Plural von «das Reh» (eigene Karte) | — |
+| ۲۵۰۵ | Reichsbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 | — |
+| ۲۵۰۶ | Reimer | `substantiv_singular_alle.txt` | 2026-11-02 | Familienname bzw. selten (Reimschmied) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4633,3 +4635,11 @@
 | 2108 | Rehabilitation | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: medizinische und berufliche Wiedereingliederung / Wiederherstellung des Ansehens) |
 | 2109 | Rehabilitierung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) |
 | 2110 | Reibung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) |
+| 2111 | Reich | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) |
+| 2112 | Reichstag | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) |
+| 2113 | Reife | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») |
+| 2114 | Reifen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) |
+| 2115 | Reigen | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») |
+| 2116 | Reihe | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) |
+| 2117 | Reine | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) |
+| 2118 | Reinigung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) |

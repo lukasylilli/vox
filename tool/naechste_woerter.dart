@@ -4665,6 +4665,16 @@ const zurueckgestellt = <String>{
   'Rehabilitierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiederherstellung des Ansehens, der Rechte / Wiedereingliederung, Reha) — nach den Nomen 2026-11-02
   'Rehe', // zurückgestellt: nur Plural von «das Reh» (eigene Karte) — 2026-11-02
   'Reibung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Widerstand beim Reiben / Spannung, Streit zwischen Menschen) — nach den Nomen 2026-11-02
+  'Reich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaftsgebiet, Imperium «das Römische Reich» / übertragen: Bereich «das Reich der Träume»; historisch: das Deutsche Reich) — nach den Nomen 2026-11-02
+  'Reichsbahn', // zurückgestellt: Name eines Unternehmens (Deutsche Reichsbahn) — Regel 18 — 2026-11-02
+  'Reichstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisches Parlament / Gebäude in Berlin, heute Sitz des Bundestags) — nach den Nomen 2026-11-02
+  'Reife', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reifsein von Obst / geistige Reife eines Menschen / Schulabschluss «mittlere Reife») — nach den Nomen 2026-11-02
+  'Reifen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autoreifen / Ring, Spielreifen; dazu Homograph «das Reifen» zu reifen) — nach den Nomen 2026-11-02
+  'Reigen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rundtanz / übertragen: Folge, Reihe «ein Reigen von Festen») — nach den Nomen 2026-11-02
+  'Reihe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie, Sitzreihe / Serie, Buchreihe / «an der Reihe sein» / Mathematik) — nach den Nomen 2026-11-02
+  'Reimer', // zurückgestellt: Familienname bzw. selten (Reimschmied) — Regel 14 — 2026-11-02
+  'Reine', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: das Reine «ins Reine schreiben», der/die Reine) — nach den Nomen 2026-11-02
+  'Reinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Säubern / chemische Reinigung, Geschäft) — nach den Nomen 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
