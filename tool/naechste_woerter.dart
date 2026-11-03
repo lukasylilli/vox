@@ -4782,6 +4782,11 @@ const zurueckgestellt = <String>{
   'Saat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Saatgut, Samen / das Säen / junge Pflanzen auf dem Feld) — nach den Nomen 2026-11-03
   'Sabena', // zurückgestellt: Firmenname (ehemalige belgische Fluggesellschaft) — Regel 18 — 2026-11-03
   'Sache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand, Ding / Angelegenheit «eine wichtige Sache» / Recht: Rechtssache; Plural «Sachen» = Kleidung, Besitz) — nach den Nomen 2026-11-03
+  'Sack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: großer Beutel «ein Sack Kartoffeln» / derb: Hodensack; Schimpfwort «blöder Sack») — nach den Nomen 2026-11-03
+  'Sackgasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straße ohne Durchfahrt / übertragen: ausweglose Lage «in eine Sackgasse geraten») — nach den Nomen 2026-11-03
+  'Safe', // zurückgestellt: Artikel doppelt (der Safe, auch: das Safe) — Regel 14 — 2026-11-03
+  'Saft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fruchtsaft / Pflanzensaft, Bratensaft / ugs.: Strom, Energie «kein Saft mehr im Akku») — nach den Nomen 2026-11-03
+  'Saga', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: altisländische Prosaerzählung / lange Familien- oder Filmgeschichte) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
