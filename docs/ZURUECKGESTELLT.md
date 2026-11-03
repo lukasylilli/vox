@@ -4683,3 +4683,9 @@
 | 2152 | Reverenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ehrerbietung «jemandem seine Reverenz erweisen» / Verbeugung) |
 | 2153 | Revier | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Polizeirevier / Jagdrevier, Gebiet eines Tieres / Bergbau, «das Revier» = Ruhrgebiet) |
 | 2154 | Revision | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Überprüfung, Kontrolle / Recht: Rechtsmittel gegen ein Urteil / Druck: letzte Korrektur) |
+| 2155 | Revisor | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wirtschafts-, Buchprüfer / Druckwesen: Korrektor der letzten Fahne) |
+| 2156 | Revolution | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: politischer Umsturz / umwälzende Neuerung «eine Revolution in der Medizin» / Astronomie: Umlauf) |
+| 2157 | Revue | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Bühnenshow mit Musik und Tanz / Titel von Zeitschriften «etwas Revue passieren lassen») |
+| 2158 | Rezept | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kochrezept / ärztliche Verordnung für Medikamente / übertragen: Mittel, Methode «ein Rezept gegen …») |
+| 2159 | Rezeption | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Empfang im Hotel / Aufnahme eines Werkes durch Publikum, Wissenschaft) |
+| 2160 | Rezeptur | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Pharmazie: Zubereitung nach Rezept / Arbeitsraum in der Apotheke / Zusammensetzung, Rezept eines Produkts) |

@@ -4715,6 +4715,12 @@ const zurueckgestellt = <String>{
   'Reverenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ehrerbietung «jemandem seine Reverenz erweisen» / Verbeugung) — nach den Nomen 2026-11-03
   'Revier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Polizeirevier / Jagdrevier, Gebiet eines Tieres / Bergbau, «das Revier» = Ruhrgebiet) — nach den Nomen 2026-11-03
   'Revision', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überprüfung, Kontrolle / Recht: Rechtsmittel gegen ein Urteil / Druck: letzte Korrektur) — nach den Nomen 2026-11-03
+  'Revisor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschafts-, Buchprüfer / Druckwesen: Korrektor der letzten Fahne) — nach den Nomen 2026-11-03
+  'Revolution', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: politischer Umsturz / umwälzende Neuerung «eine Revolution in der Medizin» / Astronomie: Umlauf) — nach den Nomen 2026-11-03
+  'Revue', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenshow mit Musik und Tanz / Titel von Zeitschriften «etwas Revue passieren lassen») — nach den Nomen 2026-11-03
+  'Rezept', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kochrezept / ärztliche Verordnung für Medikamente / übertragen: Mittel, Methode «ein Rezept gegen …») — nach den Nomen 2026-11-03
+  'Rezeption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfang im Hotel / Aufnahme eines Werkes durch Publikum, Wissenschaft) — nach den Nomen 2026-11-03
+  'Rezeptur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pharmazie: Zubereitung nach Rezept / Arbeitsraum in der Apotheke / Zusammensetzung, Rezept eines Produkts) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
