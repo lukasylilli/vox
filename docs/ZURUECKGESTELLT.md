@@ -2698,6 +2698,11 @@
 | ۲۵۲۱ | Rufer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (nur in Wendungen wie «ein Rufer in der Wüste») — Regel 14 | — |
 | ۲۵۲۲ | Rum | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Rum, österr. auch das Rum) — Regel 14 | — |
 | ۲۵۲۳ | Rund | `substantiv_singular_alle.txt` | 2026-11-03 | selten/gehoben (das Rund = Kreis, Rundung; Stadion-Rund) — Regel 14 | — |
+| ۲۵۲۴ | Rundschau | `substantiv_singular_alle.txt` | 2026-11-03 | meist nur in Namen von Zeitungen und Sendungen («Frankfurter Rundschau»), sonst selten — Regel 14 | — |
+| ۲۵۲۵ | Runge | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (Stütze am Wagen), selten; auch Familienname — Regel 14 | — |
+| ۲۵۲۶ | Rus | `substantiv_singular_alle.txt` | 2026-11-03 | historischer Name (die Kiewer Rus), kein geografischer Eigenname nach Regel 18 — Regel 14 | — |
+| ۲۵۲۷ | Rusch | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (regional/Familienname) — Regel 14 | — |
+| ۲۵۲۸ | Rush | `substantiv_singular_alle.txt` | 2026-11-03 | als deutsches Nomen selten, Bedeutung unsicher (Ansturm, Hauptverkehrszeit «Rushhour») — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4736,3 +4741,8 @@
 | 2192 | Ruhe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Stille «Ruhe bitte!» / Erholung, Ausruhen / Gelassenheit «die Ruhe bewahren») |
 | 2193 | Rumpf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Oberkörper / Schiffsrumpf / Flugzeugrumpf) |
 | 2194 | Runde | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Durchgang, Spielrunde / Rundgang, Strecke / Gruppe von Menschen / eine Runde Getränke) |
+| 2195 | Rundfunkrat | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Aufsichtsgremium einer Rundfunkanstalt / Mitglied dieses Gremiums) |
+| 2196 | Rundumschlag | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schlag nach allen Seiten / übertragen: pauschale Kritik an allen) |
+| 2197 | Rundung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wölbung, runde Form / Mathematik: Runden einer Zahl) |
+| 2198 | Russlanddeutsche | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 4 (substantiviertes Adjektiv: der/die Russlanddeutsche, ein Russlanddeutscher) |
+| 2199 | Rute | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gerte, Zweig (auch Krampusrute) / Angelrute / Wünschelrute; Jägersprache: Schwanz) |

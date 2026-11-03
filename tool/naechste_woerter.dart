@@ -4768,6 +4768,16 @@ const zurueckgestellt = <String>{
   'Rumpf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberkörper / Schiffsrumpf / Flugzeugrumpf) — nach den Nomen 2026-11-03
   'Rund', // zurückgestellt: selten/gehoben (das Rund = Kreis, Rundung; Stadion-Rund) — Regel 14 — 2026-11-03
   'Runde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Durchgang, Spielrunde / Rundgang, Strecke / Gruppe von Menschen / eine Runde Getränke) — nach den Nomen 2026-11-03
+  'Rundfunkrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufsichtsgremium einer Rundfunkanstalt / Mitglied dieses Gremiums) — nach den Nomen 2026-11-03
+  'Rundschau', // zurückgestellt: meist nur in Namen von Zeitungen und Sendungen («Frankfurter Rundschau»), sonst selten — Regel 14 — 2026-11-03
+  'Rundumschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlag nach allen Seiten / übertragen: pauschale Kritik an allen) — nach den Nomen 2026-11-03
+  'Rundung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wölbung, runde Form / Mathematik: Runden einer Zahl) — nach den Nomen 2026-11-03
+  'Runge', // zurückgestellt: Fachwort (Stütze am Wagen), selten; auch Familienname — Regel 14 — 2026-11-03
+  'Rus', // zurückgestellt: historischer Name (die Kiewer Rus), kein geografischer Eigenname nach Regel 18 — Regel 14 — 2026-11-03
+  'Rusch', // zurückgestellt: Bedeutung unsicher (regional/Familienname) — Regel 14 — 2026-11-03
+  'Rush', // zurückgestellt: als deutsches Nomen selten, Bedeutung unsicher (Ansturm, Hauptverkehrszeit «Rushhour») — Regel 14 — 2026-11-03
+  'Russlanddeutsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Russlanddeutsche, ein Russlanddeutscher) — nach den Nomen 2026-11-03
+  'Rute', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerte, Zweig (auch Krampusrute) / Angelrute / Wünschelrute; Jägersprache: Schwanz) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
