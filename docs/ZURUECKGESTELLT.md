@@ -2684,6 +2684,7 @@
 | ۲۵۰۷ | Relativ | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort der Grammatik (Relativpronomen/-adverb), Gebrauch selten und unsicher — Regel 14 | — |
 | ۲۵۰۸ | Rem | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Maßeinheit der Strahlendosis (heute Sievert); Fachwort, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۰۹ | Rep | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (Kurzwort: Republikaner, z. B. für Republikaner) — Regel 14 | — |
+| ۲۵۱۰ | Retour | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adverb «retour» = zurück; die Retoure = zurückgeschickte Ware; österr. ugs. Rückfahrkarte) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4677,3 +4678,8 @@
 | 2147 | Resonanz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik, Musik: Mitschwingen / Widerhall, Reaktion, Zustimmung «große Resonanz finden») |
 | 2148 | Respekt | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Achtung, Wertschätzung / Scheu, Furcht «Respekt vor dem Wasser haben») |
 | 2149 | Ressort | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Geschäfts-, Zuständigkeitsbereich eines Ministers / Abteilung einer Zeitung, Redaktion) |
+| 2150 | Rettung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Retten, Rettung aus Gefahr / österreichisch: Rettungsdienst, Krankenwagen «die Rettung rufen») |
+| 2151 | Revanche | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vergeltung, Rache / Sport, Spiel: Rückspiel, Gelegenheit zur Revanche) |
+| 2152 | Reverenz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ehrerbietung «jemandem seine Reverenz erweisen» / Verbeugung) |
+| 2153 | Revier | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Polizeirevier / Jagdrevier, Gebiet eines Tieres / Bergbau, «das Revier» = Ruhrgebiet) |
+| 2154 | Revision | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Überprüfung, Kontrolle / Recht: Rechtsmittel gegen ein Urteil / Druck: letzte Korrektur) |

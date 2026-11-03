@@ -4709,6 +4709,12 @@ const zurueckgestellt = <String>{
   'Resonanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik, Musik: Mitschwingen / Widerhall, Reaktion, Zustimmung «große Resonanz finden») — nach den Nomen 2026-11-03
   'Respekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Achtung, Wertschätzung / Scheu, Furcht «Respekt vor dem Wasser haben») — nach den Nomen 2026-11-03
   'Ressort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschäfts-, Zuständigkeitsbereich eines Ministers / Abteilung einer Zeitung, Redaktion) — nach den Nomen 2026-11-03
+  'Retour', // zurückgestellt: als Nomen unsicher (Adverb «retour» = zurück; die Retoure = zurückgeschickte Ware; österr. ugs. Rückfahrkarte) — Regel 14 — 2026-11-03
+  'Rettung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Retten, Rettung aus Gefahr / österreichisch: Rettungsdienst, Krankenwagen «die Rettung rufen») — nach den Nomen 2026-11-03
+  'Revanche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vergeltung, Rache / Sport, Spiel: Rückspiel, Gelegenheit zur Revanche) — nach den Nomen 2026-11-03
+  'Reverenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ehrerbietung «jemandem seine Reverenz erweisen» / Verbeugung) — nach den Nomen 2026-11-03
+  'Revier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Polizeirevier / Jagdrevier, Gebiet eines Tieres / Bergbau, «das Revier» = Ruhrgebiet) — nach den Nomen 2026-11-03
+  'Revision', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Überprüfung, Kontrolle / Recht: Rechtsmittel gegen ein Urteil / Druck: letzte Korrektur) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
