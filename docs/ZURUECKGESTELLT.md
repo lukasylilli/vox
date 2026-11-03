@@ -2673,6 +2673,7 @@
 | ۲۴۹۶ | Rapp | `substantiv_singular_alle.txt` | 2026-11-02 | keine gebräuchliche Form (üblich: der Rappe) — Regel 14 | — |
 | ۲۴۹۷ | Rauscher | `substantiv_singular_alle.txt` | 2026-11-02 | Bedeutung regional unsicher (Sturm, junger Wein) bzw. Familienname — Regel 14 | — |
 | ۲۴۹۸ | Rave | `substantiv_singular_alle.txt` | 2026-11-02 | Artikel doppelt (der/das Rave) | — |
+| ۲۴۹۹ | Reeperbahn | `substantiv_singular_alle.txt` | 2026-11-02 | Straßenname in Hamburg (kein geografischer Name nach Regel 18) | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4597,3 +4598,7 @@
 | 2078 | Rechnung | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») |
 | 2079 | Recht | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») |
 | 2080 | Rechtsschutz | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) |
+| 2081 | Recke | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») |
+| 2082 | Redaktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) |
+| 2083 | Rede | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) |
+| 2084 | Reduktion | `substantiv_singular_alle.txt` | 2026-11-02 | Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) |

@@ -4629,6 +4629,11 @@ const zurueckgestellt = <String>{
   'Rechnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlungsaufforderung / Berechnung; «etwas in Rechnung stellen») — nach den Nomen 2026-11-02
   'Recht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsordnung, Gesetze / Anspruch, Befugnis «das Recht auf …» / Rechtswissenschaft; dazu «recht haben») — nach den Nomen 2026-11-02
   'Rechtsschutz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz durch die Gerichte / kurz für Rechtsschutzversicherung) — nach den Nomen 2026-11-02
+  'Recke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: der Recke «Held» / Plural von «das Reck») — nach den Nomen 2026-11-02
+  'Redaktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Redigieren / Gesamtheit der Redakteure / Büro, Raum) — nach den Nomen 2026-11-02
+  'Rede', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ansprache / das Reden, Gespräch «Davon ist keine Rede» / Grammatik: direkte, indirekte Rede) — nach den Nomen 2026-11-02
+  'Reduktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verringerung / Chemie: Elektronenaufnahme / Philosophie, Zurückführung) — nach den Nomen 2026-11-02
+  'Reeperbahn', // zurückgestellt: Straßenname in Hamburg (kein geografischer Name nach Regel 18) — 2026-11-02
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
