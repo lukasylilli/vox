@@ -4721,6 +4721,13 @@ const zurueckgestellt = <String>{
   'Rezept', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kochrezept / ärztliche Verordnung für Medikamente / übertragen: Mittel, Methode «ein Rezept gegen …») — nach den Nomen 2026-11-03
   'Rezeption', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Empfang im Hotel / Aufnahme eines Werkes durch Publikum, Wissenschaft) — nach den Nomen 2026-11-03
   'Rezeptur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pharmazie: Zubereitung nach Rezept / Arbeitsraum in der Apotheke / Zusammensetzung, Rezept eines Produkts) — nach den Nomen 2026-11-03
+  'Rhythmik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: rhythmischer Charakter, Rhythmus / Lehre vom Rhythmus / rhythmische Erziehung) — nach den Nomen 2026-11-03
+  'Rhythmus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Takt, Gliederung / Sprache, Vers: Rhythmus / regelmäßige Wiederkehr «Tagesrhythmus») — nach den Nomen 2026-11-03
+  'Richtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Himmelsrichtung, Weg «in Richtung Bahnhof» / Strömung, Tendenz «politische Richtung») — nach den Nomen 2026-11-03
+  'Rick', // zurückgestellt: Bedeutung regional/selten (Stange, Gestell; Familienname) — Regel 14 — 2026-11-03
+  'Riege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Turnen: Mannschaft, Gruppe / übertragen: Gruppe von Personen «die alte Riege») — nach den Nomen 2026-11-03
+  'Riegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verschluss an Tür, Fenster / Schokoriegel, Müsliriegel / Bauwesen, Kleidung) — nach den Nomen 2026-11-03
+  'Riemer', // zurückgestellt: veraltete Berufsbezeichnung (Riemenmacher) bzw. Familienname — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2685,6 +2685,8 @@
 | ۲۵۰۸ | Rem | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Maßeinheit der Strahlendosis (heute Sievert); Fachwort, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۰۹ | Rep | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (Kurzwort: Republikaner, z. B. für Republikaner) — Regel 14 | — |
 | ۲۵۱۰ | Retour | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adverb «retour» = zurück; die Retoure = zurückgeschickte Ware; österr. ugs. Rückfahrkarte) — Regel 14 | — |
+| ۲۵۱۱ | Rick | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung regional/selten (Stange, Gestell; Familienname) — Regel 14 | — |
+| ۲۵۱۲ | Riemer | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Berufsbezeichnung (Riemenmacher) bzw. Familienname — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4689,3 +4691,8 @@
 | 2158 | Rezept | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kochrezept / ärztliche Verordnung für Medikamente / übertragen: Mittel, Methode «ein Rezept gegen …») |
 | 2159 | Rezeption | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Empfang im Hotel / Aufnahme eines Werkes durch Publikum, Wissenschaft) |
 | 2160 | Rezeptur | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Pharmazie: Zubereitung nach Rezept / Arbeitsraum in der Apotheke / Zusammensetzung, Rezept eines Produkts) |
+| 2161 | Rhythmik | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: rhythmischer Charakter, Rhythmus / Lehre vom Rhythmus / rhythmische Erziehung) |
+| 2162 | Rhythmus | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Musik: Takt, Gliederung / Sprache, Vers: Rhythmus / regelmäßige Wiederkehr «Tagesrhythmus») |
+| 2163 | Richtung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung, Weg «in Richtung Bahnhof» / Strömung, Tendenz «politische Richtung») |
+| 2164 | Riege | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Turnen: Mannschaft, Gruppe / übertragen: Gruppe von Personen «die alte Riege») |
+| 2165 | Riegel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Verschluss an Tür, Fenster / Schokoriegel, Müsliriegel / Bauwesen, Kleidung) |
