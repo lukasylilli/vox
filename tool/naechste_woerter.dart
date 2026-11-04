@@ -4958,6 +4958,18 @@ const zurueckgestellt = <String>{
   'Schwindel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gleichgewichtsstörung (Medizin) / Betrug, Lüge) — nach den Nomen 2026-11-04
   'Schwinge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Flügel / landschaftlich: flacher Korb / Technik: Schwingarm) — nach den Nomen 2026-11-04
   'Schwinger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Schlag mit gestrecktem Arm / schweiz.: Ringer beim Schwingen) — nach den Nomen 2026-11-04
+  'Schwitze', // zurückgestellt: selten; meist «Mehlschwitze» (Küche) — Regel 14 — 2026-11-04
+  'Schwund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abnahme, Verlust / Warenverlust (Handel) / Medizin: Muskelschwund, Atrophie) — nach den Nomen 2026-11-04
+  'Schwung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewegung, Schwungkraft / Elan, Begeisterung / ugs.: Menge («ein Schwung Bücher»)) — nach den Nomen 2026-11-04
+  'Scientologe', // zurückgestellt: Mitglied einer bestimmten Organisation (Organisationsname, Regel 18) — Regel 14 — 2026-11-04
+  'Scientology', // zurückgestellt: Name einer Organisation (Regel 18) — Regel 14 — 2026-11-04
+  'Scout', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pfadfinder / Talentsucher im Sport, in der Mode) — nach den Nomen 2026-11-04
+  'Screen', // zurückgestellt: Anglizismus (Bildschirm, Jargon); Gebrauch als Lernwort unsicher — Regel 14 — 2026-11-04
+  'Sechs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer 6 / Schulnote «ungenügend» (Deutschland) / Linie 6) — nach den Nomen 2026-11-04
+  'Sechser', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Ziffer 6 / sechs Richtige im Lotto / Schulnote / Buslinie) — nach den Nomen 2026-11-04
+  'Sechszylinder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Motor mit sechs Zylindern / Auto mit diesem Motor) — nach den Nomen 2026-11-04
+  'Seebad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Badeort an der See / Bad im Meer) — nach den Nomen 2026-11-04
+  'Seele', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seele, Psyche / Mensch («keine Seele») / Herz, Mittelpunkt («die Seele des Vereins»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2740,6 +2740,10 @@
 | ۲۵۶۳ | Schwarzafrikaner | `substantiv_singular_alle.txt` | 2026-11-04 | Bezeichnung wird teils als diskriminierend empfunden; Bewertung unsicher — Regel 14 | — |
 | ۲۵۶۴ | Schwebe | `substantiv_singular_alle.txt` | 2026-11-04 | fast nur in der festen Wendung «in der Schwebe» — Regel 14 | — |
 | ۲۵۶۵ | Schweiger | `substantiv_singular_alle.txt` | 2026-11-04 | selten (nur «der große Schweiger») bzw. Familienname — Regel 14 | — |
+| ۲۵۶۶ | Schwitze | `substantiv_singular_alle.txt` | 2026-11-04 | selten; meist «Mehlschwitze» (Küche) — Regel 14 | — |
+| ۲۵۶۷ | Scientologe | `substantiv_singular_alle.txt` | 2026-11-04 | Mitglied einer bestimmten Organisation (Organisationsname, Regel 18) — Regel 14 | — |
+| ۲۵۶۸ | Scientology | `substantiv_singular_alle.txt` | 2026-11-04 | Name einer Organisation (Regel 18) — Regel 14 | — |
+| ۲۵۶۹ | Screen | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Bildschirm, Jargon); Gebrauch als Lernwort unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4926,3 +4930,11 @@
 | 2340 | Schwindel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gleichgewichtsstörung (Medizin) / Betrug, Lüge) |
 | 2341 | Schwinge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: gehoben: Flügel / landschaftlich: flacher Korb / Technik: Schwingarm) |
 | 2342 | Schwinger | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Boxen: Schlag mit gestrecktem Arm / schweiz.: Ringer beim Schwingen) |
+| 2343 | Schwund | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abnahme, Verlust / Warenverlust (Handel) / Medizin: Muskelschwund, Atrophie) |
+| 2344 | Schwung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bewegung, Schwungkraft / Elan, Begeisterung / ugs.: Menge («ein Schwung Bücher»)) |
+| 2345 | Scout | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Pfadfinder / Talentsucher im Sport, in der Mode) |
+| 2346 | Sechs | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ziffer 6 / Schulnote «ungenügend» (Deutschland) / Linie 6) |
+| 2347 | Sechser | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. Ziffer 6 / sechs Richtige im Lotto / Schulnote / Buslinie) |
+| 2348 | Sechszylinder | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Motor mit sechs Zylindern / Auto mit diesem Motor) |
+| 2349 | Seebad | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Badeort an der See / Bad im Meer) |
+| 2350 | Seele | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Seele, Psyche / Mensch («keine Seele») / Herz, Mittelpunkt («die Seele des Vereins»)) |
