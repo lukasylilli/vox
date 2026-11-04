@@ -4909,6 +4909,15 @@ const zurueckgestellt = <String>{
   'Schnickschnack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: überflüssiges Beiwerk, wertloses Zeug / ugs.: dummes Gerede) — nach den Nomen 2026-11-04
   'Schnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnittwunde / Haarschnitt / Durchschnitt («im Schnitt») / Filmschnitt / Schnittmuster) — nach den Nomen 2026-11-04
   'Schnitte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brotscheibe, belegtes Brot / österr.: Waffel / ugs.: attraktive Frau) — nach den Nomen 2026-11-04
+  'Schnitzel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2/3 (Homograph: das Schnitzel (Fleisch) / das/der Schnitzel (Papierschnitzel, Stückchen)) — nach den Nomen 2026-11-04
+  'Schnitzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Holzschnitzer / ugs.: Fehler, Patzer) — nach den Nomen 2026-11-04
+  'Schober', // zurückgestellt: landschaftlich (Heuhaufen, Feldscheune) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-04
+  'Scholle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fisch (Plattfisch) / Eisscholle / Erdscholle / gehoben: Heimatboden) — nach den Nomen 2026-11-04
+  'Schonung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: rücksichtsvolle Behandlung / Erholung / junger, eingezäunter Wald) — nach den Nomen 2026-11-04
+  'Schotter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Steinchen, Kies / ugs.: Geld) — nach den Nomen 2026-11-04
+  'Schranke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahnschranke, Schlagbaum / übertragen: Grenze («in Schranken weisen»)); österr. auch «der Schranken» — nach den Nomen 2026-11-04
+  'Schranz', // zurückgestellt: Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 — 2026-11-04
+  'Schraube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befestigungsschraube / Schiffsschraube, Propeller / ugs.: «eine Schraube locker haben») — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

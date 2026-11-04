@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_schnittstelle",
+  "wort": "die Schnittstelle",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رابط",
+      "واسط (اینترفیس)"
+    ],
+    "en": [
+      "interface"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Computer"
+  ],
+  "ipa": "ˈʃnɪtˌʃtɛlə",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Computer hat eine neue Schnittstelle.",
+      "uebersetzung": {
+        "fa": "کامپیوتر یک رابط جدید دارد.",
+        "en": "The computer has a new interface."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Über eine gemeinsame Schnittstelle können die beiden Programme Daten austauschen.",
+      "uebersetzung": {
+        "fa": "دو برنامه از طریق یک رابط مشترک می‌توانند داده رد و بدل کنند.",
+        "en": "The two programs can exchange data via a common interface."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Interface",
+      "uebersetzung": {
+        "fa": "رابط",
+        "en": "interface"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Schnitt (برش، تقاطع) + Stelle (جا، نقطه)",
+    "en": "Schnitt (cut, intersection) + Stelle (place, point)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Schnittstellen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Schnittstelle zwischen + Dat",
+        "beispiel": "Die Abteilung bildet die Schnittstelle zwischen Technik und Vertrieb.",
+        "uebersetzung": {
+          "fa": "این بخش رابط میان فنی و فروش است.",
+          "en": "The department forms the interface between engineering and sales."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "verbinden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وصل کردن، به هم پیوند دادن",
+          "en": "to connect, to join"
+        },
+        "id_ref": "verb_verbinden"
+      },
+      {
+        "wort": "vernetzen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبکه کردن، به هم وصل کردن",
+          "en": "to network"
+        },
+        "id_ref": "verb_vernetzen"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه، کامپیوتر",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "das Computersystem",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سیستم کامپیوتری",
+          "en": "computer system"
+        },
+        "id_ref": "nomen_computersystem"
+      },
+      {
+        "wort": "das Interface",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رابط، واسط (کاربری)",
+          "en": "interface"
+        },
+        "id_ref": "nomen_interface"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

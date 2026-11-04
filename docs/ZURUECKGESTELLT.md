@@ -2732,6 +2732,8 @@
 | ۲۵۵۵ | Schneewittchen | `substantiv_singular_alle.txt` | 2026-11-04 | Name einer Märchenfigur (Personenname) — keine Eigennamen-Karte nach Regel 18 — Regel 14 | — |
 | ۲۵۵۶ | Schneid | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der Schneid, bayr./österr. die Schneid), umgangssprachlich — Regel 14 | — |
 | ۲۵۵۷ | Schneller | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (landschaftlich: Murmel, Schnipser; sonst Komparativ «schneller») — Regel 14 — Regel 14 | — |
+| ۲۵۵۸ | Schober | `substantiv_singular_alle.txt` | 2026-11-04 | landschaftlich (Heuhaufen, Feldscheune) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۵۹ | Schranz | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4877,3 +4879,10 @@
 | 2299 | Schnickschnack | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: überflüssiges Beiwerk, wertloses Zeug / ugs.: dummes Gerede) |
 | 2300 | Schnitt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schnittwunde / Haarschnitt / Durchschnitt («im Schnitt») / Filmschnitt / Schnittmuster) |
 | 2301 | Schnitte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brotscheibe, belegtes Brot / österr.: Waffel / ugs.: attraktive Frau) |
+| 2302 | Schnitzel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 2/3 (Homograph: das Schnitzel (Fleisch) / das/der Schnitzel (Papierschnitzel, Stückchen)) |
+| 2303 | Schnitzer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Holzschnitzer / ugs.: Fehler, Patzer) |
+| 2304 | Scholle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fisch (Plattfisch) / Eisscholle / Erdscholle / gehoben: Heimatboden) |
+| 2305 | Schonung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: rücksichtsvolle Behandlung / Erholung / junger, eingezäunter Wald) |
+| 2306 | Schotter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Steinchen, Kies / ugs.: Geld) |
+| 2307 | Schranke | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bahnschranke, Schlagbaum / übertragen: Grenze («in Schranken weisen»)); österr. auch «der Schranken» |
+| 2308 | Schraube | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Befestigungsschraube / Schiffsschraube, Propeller / ugs.: «eine Schraube locker haben») |
