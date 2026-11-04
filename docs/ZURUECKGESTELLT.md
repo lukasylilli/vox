@@ -5066,3 +5066,9 @@
 | 2452 | Spielerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: dauerndes Spielen / leichte Sache, Kleinigkeit / überflüssiges Zubehör, Gadget) |
 | 2453 | Spielerin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Teilnehmerin an einem Spiel, Sportlerin / Glücksspielerin) |
 | 2454 | Spielgemeinschaft | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tippgemeinschaft beim Lotto / Sport: Zusammenschluss von Vereinen) |
+| 2455 | Spielleiter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Leiter eines Spiels, Quizmaster / Theater: Regisseur) |
+| 2456 | Spielplan | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Programm eines Theaters / Sport: Terminplan der Spiele / Brett eines Brettspiels) |
+| 2457 | Spielraum | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Freiraum, Handlungsspielraum / Technik: Spiel zwischen Teilen) |
+| 2458 | Spielwiese | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wiese zum Spielen / übertragen: Feld zum Ausprobieren) |
+| 2459 | Spielzeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Saison (Theater, Sport) / Dauer eines Spiels, Films) |
+| 2460 | Spike | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Metallstift an Sohle oder Reifen / Laufschuh mit Spikes) |

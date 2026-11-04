@@ -5098,6 +5098,12 @@ const zurueckgestellt = <String>{
   'Spielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: dauerndes Spielen / leichte Sache, Kleinigkeit / überflüssiges Zubehör, Gadget) — nach den Nomen 2026-11-04
   'Spielerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnehmerin an einem Spiel, Sportlerin / Glücksspielerin) — nach den Nomen 2026-11-04
   'Spielgemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tippgemeinschaft beim Lotto / Sport: Zusammenschluss von Vereinen) — nach den Nomen 2026-11-04
+  'Spielleiter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leiter eines Spiels, Quizmaster / Theater: Regisseur) — nach den Nomen 2026-11-04
+  'Spielplan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Programm eines Theaters / Sport: Terminplan der Spiele / Brett eines Brettspiels) — nach den Nomen 2026-11-04
+  'Spielraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Freiraum, Handlungsspielraum / Technik: Spiel zwischen Teilen) — nach den Nomen 2026-11-04
+  'Spielwiese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiese zum Spielen / übertragen: Feld zum Ausprobieren) — nach den Nomen 2026-11-04
+  'Spielzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Saison (Theater, Sport) / Dauer eines Spiels, Films) — nach den Nomen 2026-11-04
+  'Spike', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallstift an Sohle oder Reifen / Laufschuh mit Spikes) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
