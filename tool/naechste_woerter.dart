@@ -5015,6 +5015,9 @@ const zurueckgestellt = <String>{
   'Shuttle', // zurückgestellt: Artikel doppelt (der/das Shuttle) — Regel 14 — 2026-11-04
   'Sichel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug / Mondsichel) — nach den Nomen 2026-11-04
   'Sicherheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz vor Gefahr / Gewissheit / Bürgschaft, Pfand (Kredit)) — nach den Nomen 2026-11-04
+  'Sicherheitsfrage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frage der Sicherheit / Kontrollfrage beim Passwort) — nach den Nomen 2026-11-04
+  'Sicherstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beschlagnahme durch die Polizei / Gewährleistung) — nach den Nomen 2026-11-04
+  'Sicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektrische Sicherung / Schutz, Absicherung / Datensicherung / Sicherung an der Waffe) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

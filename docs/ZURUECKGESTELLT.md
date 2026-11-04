@@ -4983,3 +4983,6 @@
 | 2384 | Show | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterhaltungssendung, Vorführung / ugs.: Getue («eine Show abziehen»)) |
 | 2385 | Sichel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Werkzeug / Mondsichel) |
 | 2386 | Sicherheit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schutz vor Gefahr / Gewissheit / Bürgschaft, Pfand (Kredit)) |
+| 2387 | Sicherheitsfrage | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Frage der Sicherheit / Kontrollfrage beim Passwort) |
+| 2388 | Sicherstellung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Beschlagnahme durch die Polizei / Gewährleistung) |
+| 2389 | Sicherung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: elektrische Sicherung / Schutz, Absicherung / Datensicherung / Sicherung an der Waffe) |
