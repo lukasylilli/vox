@@ -5023,6 +5023,14 @@ const zurueckgestellt = <String>{
   'Sieben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Sieben «Ziffer, Note, Linie» / das Sieben «Sieben von Mehl») — nach den Nomen 2026-11-04
   'Siedlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnsiedlung am Stadtrand / Niederlassung, Ansiedlung) — nach den Nomen 2026-11-04
   'Siegeszug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug der Sieger / übertragen: erfolgreiche Verbreitung («Siegeszug des Smartphones»)) — nach den Nomen 2026-11-04
+  'Sierra', // zurückgestellt: geografischer Namensteil (Sierra Nevada …), kein selbstständiges Nomen — Regel 14 — 2026-11-04
+  'Signal', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen, Hinweis / Eisenbahnsignal / Funk- und Messsignal) — nach den Nomen 2026-11-04
+  'Signatur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterschrift, digitale Signatur / Buchsignatur in der Bibliothek / Kartenzeichen) — nach den Nomen 2026-11-04
+  'Signet', // zurückgestellt: Aussprache und Plural doppelt (frz. -s bzw. -e) — Regel 14 — 2026-11-04
+  'Silk', // zurückgestellt: Bedeutung unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 — 2026-11-04
+  'Silo', // zurückgestellt: Artikel doppelt (der/das Silo) — Regel 14 — 2026-11-04
+  'Simulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachbildung, Computersimulation / Vortäuschung einer Krankheit) — nach den Nomen 2026-11-04
+  'Sinai', // zurückgestellt: Bezug unsicher (Halbinsel bzw. Berg Sinai; Artikelgebrauch) — Regel 14 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

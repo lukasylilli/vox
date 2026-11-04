@@ -2755,6 +2755,11 @@
 | ۲۵۷۶ | Sergeant | `substantiv_singular_alle.txt` | 2026-11-04 | Aussprache und Deklination doppelt (frz. -en/-en bzw. engl. -s/-s) — Regel 14 | — |
 | ۲۵۷۷ | Serra | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 | — |
 | ۲۵۷۸ | Shuttle | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der/das Shuttle) — Regel 14 | — |
+| ۲۵۷۹ | Sierra | `substantiv_singular_alle.txt` | 2026-11-04 | geografischer Namensteil (Sierra Nevada …), kein selbstständiges Nomen — Regel 14 | — |
+| ۲۵۸۰ | Signet | `substantiv_singular_alle.txt` | 2026-11-04 | Aussprache und Plural doppelt (frz. -s bzw. -e) — Regel 14 | — |
+| ۲۵۸۱ | Silk | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 | — |
+| ۲۵۸۲ | Silo | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der/das Silo) — Regel 14 | — |
+| ۲۵۸۳ | Sinai | `substantiv_singular_alle.txt` | 2026-11-04 | Bezug unsicher (Halbinsel bzw. Berg Sinai; Artikelgebrauch) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -4991,3 +4996,6 @@
 | 2392 | Sieben | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 2 (Homograph: die Sieben «Ziffer, Note, Linie» / das Sieben «Sieben von Mehl») |
 | 2393 | Siedlung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wohnsiedlung am Stadtrand / Niederlassung, Ansiedlung) |
 | 2394 | Siegeszug | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zug der Sieger / übertragen: erfolgreiche Verbreitung («Siegeszug des Smartphones»)) |
+| 2395 | Signal | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zeichen, Hinweis / Eisenbahnsignal / Funk- und Messsignal) |
+| 2396 | Signatur | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterschrift, digitale Signatur / Buchsignatur in der Bibliothek / Kartenzeichen) |
+| 2397 | Simulation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Nachbildung, Computersimulation / Vortäuschung einer Krankheit) |
