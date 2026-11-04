@@ -4892,3 +4892,7 @@
 | 2311 | Schreibweise | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rechtschreibung eines Wortes / Stil eines Autors) |
 | 2312 | Schrift | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Handschrift / Schriftsystem, Schriftart / Schriften = Werke, Publikationen) |
 | 2313 | Schritt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schritt beim Gehen / Maßnahme («der nächste Schritt») / Schritttempo / Schritt der Hose) |
+| 2314 | Schrittmacher | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Herzschrittmacher (Medizin) / Tempomacher im Sport / übertragen: Vorreiter) |
+| 2315 | Schrott | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Altmetall / ugs.: wertloses Zeug, Unsinn) |
+| 2316 | Schub | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Antriebskraft (Physik, Rakete) / Krankheitsschub / Gruppe, Ladung («ein Schub Gäste»)) |
+| 2317 | Schuld | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) |

@@ -4924,6 +4924,10 @@ const zurueckgestellt = <String>{
   'Schreier', // zurückgestellt: umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-04
   'Schrift', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handschrift / Schriftsystem, Schriftart / Schriften = Werke, Publikationen) — nach den Nomen 2026-11-04
   'Schritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schritt beim Gehen / Maßnahme («der nächste Schritt») / Schritttempo / Schritt der Hose) — nach den Nomen 2026-11-04
+  'Schrittmacher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herzschrittmacher (Medizin) / Tempomacher im Sport / übertragen: Vorreiter) — nach den Nomen 2026-11-04
+  'Schrott', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Altmetall / ugs.: wertloses Zeug, Unsinn) — nach den Nomen 2026-11-04
+  'Schub', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Antriebskraft (Physik, Rakete) / Krankheitsschub / Gruppe, Ladung («ein Schub Gäste»)) — nach den Nomen 2026-11-04
+  'Schuld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
