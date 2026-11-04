@@ -2769,6 +2769,7 @@
 | ۲۵۹۰ | Soja | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/das Soja) — Regel 14 | — |
 | ۲۵۹۱ | Sommernachtstraum | `substantiv_singular_alle.txt` | 2026-11-04 | Werktitel (Shakespeare «Ein Sommernachtstraum»), kein allgemeines Nomen — Regel 14 | — |
 | ۲۵۹۲ | Spaghetti | `substantiv_singular_alle.txt` | 2026-11-04 | Pluraletantum (die Spaghetti); Artikel der Liste (der) passt nicht, Kartenform unklar — Regel 14 | — |
+| ۲۵۹۳ | Spider | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Roadster, offener Sportwagen), Gebrauch als Lernwort unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5052,3 +5053,9 @@
 | 2439 | Spektrum | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Farbspektrum / übertragen: Bandbreite, Vielfalt) |
 | 2440 | Spekulation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vermutung ohne Beweis / Finanzgeschäft mit Kursgewinnen) |
 | 2441 | Spender | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Person, die Geld spendet / Blut-, Organspender / Gerät: Seifen-, Handtuchspender) |
+| 2442 | Sperre | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Absperrung, Schranke / Sport: Spielsperre / Blockierung (Handy-, Kontosperre)) |
+| 2443 | Sperrung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schließen einer Straße / Blockieren eines Kontos, einer Karte) |
+| 2444 | Spezies | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Biologie: Art / ugs. scherzhaft: Sorte Mensch) |
+| 2445 | Spezifikation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: genaue technische Beschreibung / Wirtschaft: Aufstellung, Liste / Logik: Einteilung) |
+| 2446 | Spiegel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Glas, in dem man sich sieht / Höhe, Konzentration (Wasser-, Blutzuckerspiegel) / Revers am Anzug) |
+| 2447 | Spiegelung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reflexion von Licht / Medizin: Endoskopie (Magenspiegelung)) |

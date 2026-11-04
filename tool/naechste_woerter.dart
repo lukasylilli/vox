@@ -5084,6 +5084,13 @@ const zurueckgestellt = <String>{
   'Spektrum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Farbspektrum / übertragen: Bandbreite, Vielfalt) — nach den Nomen 2026-11-04
   'Spekulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vermutung ohne Beweis / Finanzgeschäft mit Kursgewinnen) — nach den Nomen 2026-11-04
   'Spender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die Geld spendet / Blut-, Organspender / Gerät: Seifen-, Handtuchspender) — nach den Nomen 2026-11-04
+  'Spider', // zurückgestellt: Anglizismus (Roadster, offener Sportwagen), Gebrauch als Lernwort unsicher — Regel 14 — 2026-11-04
+  'Sperre', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absperrung, Schranke / Sport: Spielsperre / Blockierung (Handy-, Kontosperre)) — nach den Nomen 2026-11-04
+  'Sperrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schließen einer Straße / Blockieren eines Kontos, einer Karte) — nach den Nomen 2026-11-04
+  'Spezies', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Biologie: Art / ugs. scherzhaft: Sorte Mensch) — nach den Nomen 2026-11-04
+  'Spezifikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: genaue technische Beschreibung / Wirtschaft: Aufstellung, Liste / Logik: Einteilung) — nach den Nomen 2026-11-04
+  'Spiegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Glas, in dem man sich sieht / Höhe, Konzentration (Wasser-, Blutzuckerspiegel) / Revers am Anzug) — nach den Nomen 2026-11-04
+  'Spiegelung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reflexion von Licht / Medizin: Endoskopie (Magenspiegelung)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
