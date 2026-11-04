@@ -4848,6 +4848,15 @@ const zurueckgestellt = <String>{
   'Scherben', // zurückgestellt: regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 — 2026-11-03
   'Scherbenhaufen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») — nach den Nomen 2026-11-03
   'Schere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») — nach den Nomen 2026-11-03
+  'Scherer', // zurückgestellt: selten (Schafscherer) bzw. Familienname — Regel 14 — 2026-11-03
+  'Scheuer', // zurückgestellt: landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-03
+  'Schicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) — nach den Nomen 2026-11-03
+  'Schichte', // zurückgestellt: österreichische Nebenform von «die Schicht», selten — Regel 14 — 2026-11-03
+  'Schieber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) — nach den Nomen 2026-11-03
+  'Schiedsrichter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) — nach den Nomen 2026-11-03
+  'Schiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») — nach den Nomen 2026-11-03
+  'Schiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) — nach den Nomen 2026-11-03
+  'Schiffbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

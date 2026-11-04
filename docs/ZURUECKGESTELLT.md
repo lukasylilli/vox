@@ -2720,6 +2720,9 @@
 | ۲۵۴۳ | Schenk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 | — |
 | ۲۵۴۴ | Schenker | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die schenkt) bzw. Familienname — Regel 14 | — |
 | ۲۵۴۵ | Scherben | `substantiv_singular_alle.txt` | 2026-11-03 | regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 | — |
+| ۲۵۴۶ | Scherer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Schafscherer) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۷ | Scheuer | `substantiv_singular_alle.txt` | 2026-11-03 | landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۴۸ | Schichte | `substantiv_singular_alle.txt` | 2026-11-03 | österreichische Nebenform von «die Schicht», selten — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4816,3 +4819,9 @@
 | 2250 | Schenkel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) |
 | 2251 | Scherbenhaufen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») |
 | 2252 | Schere | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») |
+| 2253 | Schicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) |
+| 2254 | Schieber | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) |
+| 2255 | Schiedsrichter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) |
+| 2256 | Schiene | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») |
+| 2257 | Schiff | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) |
+| 2258 | Schiffbruch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») |
