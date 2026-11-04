@@ -2771,6 +2771,7 @@
 | ۲۵۹۲ | Spaghetti | `substantiv_singular_alle.txt` | 2026-11-04 | Pluraletantum (die Spaghetti); Artikel der Liste (der) passt nicht, Kartenform unklar — Regel 14 | — |
 | ۲۵۹۳ | Spider | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Roadster, offener Sportwagen), Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۵۹۴ | Spirit | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Geist, Schwung), Gebrauch und Genus als Lernwort unsicher — Regel 14 | — |
+| ۲۵۹۵ | Sporthilfe | `substantiv_singular_alle.txt` | 2026-11-04 | meist Name der Stiftung Deutsche Sporthilfe (Organisation, Regel 18); als allgemeines Lernwort unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5081,3 +5082,6 @@
 | 2466 | Spitz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) |
 | 2467 | Spitze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) |
 | 2468 | Spitzenzeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zeit der stärksten Belastung, Stoßzeit / Sport: Bestzeit) |
+| 2469 | Sporn | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reiten: Metallbügel am Stiefel / Medizin: Knochenauswuchs (Fersensporn) / Botanik, Zoologie: spitzer Fortsatz) |
+| 2470 | Sport | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: körperliche Betätigung, Sportart, Schulfach / Liebhaberei, Hobby («sich einen Sport daraus machen»)) |
+| 2471 | Sportfreund | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Anhänger des Sports / Sportkamerad, auch Anrede) |

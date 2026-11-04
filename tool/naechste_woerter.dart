@@ -5113,6 +5113,10 @@ const zurueckgestellt = <String>{
   'Spitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) — nach den Nomen 2026-11-04
   'Spitze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) — nach den Nomen 2026-11-04
   'Spitzenzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeit der stärksten Belastung, Stoßzeit / Sport: Bestzeit) — nach den Nomen 2026-11-04
+  'Sporn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reiten: Metallbügel am Stiefel / Medizin: Knochenauswuchs (Fersensporn) / Botanik, Zoologie: spitzer Fortsatz) — nach den Nomen 2026-11-04
+  'Sport', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Betätigung, Sportart, Schulfach / Liebhaberei, Hobby («sich einen Sport daraus machen»)) — nach den Nomen 2026-11-04
+  'Sportfreund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhänger des Sports / Sportkamerad, auch Anrede) — nach den Nomen 2026-11-04
+  'Sporthilfe', // zurückgestellt: meist Name der Stiftung Deutsche Sporthilfe (Organisation, Regel 18); als allgemeines Lernwort unsicher — Regel 14 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
