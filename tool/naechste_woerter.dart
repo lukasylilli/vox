@@ -5041,6 +5041,10 @@ const zurueckgestellt = <String>{
   'Sixt', // zurückgestellt: Firmenname (Regel 18) — Regel 14 — 2026-11-04
   'Skala', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Messskala / Bandbreite, Abstufung («Farbskala») / Musik: Tonleiter) — nach den Nomen 2026-11-04
   'Skat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kartenspiel / die zwei verdeckt abgelegten Karten); Plural -e/-s — nach den Nomen 2026-11-04
+  'Skizze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schnelle Zeichnung / Entwurf, kurze Darstellung eines Textes) — nach den Nomen 2026-11-04
+  'Skorpion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Sternzeichen) — nach den Nomen 2026-11-04
+  'Skript', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlesungsskript / Drehbuch / Computerskript); Plural -s/-en — nach den Nomen 2026-11-04
+  'Slip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterhose / Seemannssprache: Slipanlage für Schiffe) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

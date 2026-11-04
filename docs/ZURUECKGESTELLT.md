@@ -5009,3 +5009,7 @@
 | 2403 | Sitzung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Versammlung, Besprechung / Behandlungstermin (Therapie) / Sitzung beim Maler) |
 | 2404 | Skala | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Messskala / Bandbreite, Abstufung («Farbskala») / Musik: Tonleiter) |
 | 2405 | Skat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kartenspiel / die zwei verdeckt abgelegten Karten); Plural -e/-s |
+| 2406 | Skizze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: schnelle Zeichnung / Entwurf, kurze Darstellung eines Textes) |
+| 2407 | Skorpion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Sternzeichen) |
+| 2408 | Skript | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vorlesungsskript / Drehbuch / Computerskript); Plural -s/-en |
+| 2409 | Slip | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterhose / Seemannssprache: Slipanlage für Schiffe) |
