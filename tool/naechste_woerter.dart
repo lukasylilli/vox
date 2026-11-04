@@ -5148,6 +5148,11 @@ const zurueckgestellt = <String>{
   'Staat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Land als politische Einheit / Bundesstaat, Gliedstaat (USA) / veraltend: Prunk, festliche Kleidung («Staat machen»)) — nach den Nomen 2026-11-04
   'Staatsamt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: öffentliches Amt im Staat / österr. historisch: Ministerium 1918–1920) — nach den Nomen 2026-11-04
   'Staatsduma', // zurückgestellt: Eigenname (Parlament Russlands), kein geografischer Name — Regel 18 — 2026-11-04
+  'Staatsgewalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herrschaftsgewalt des Staates / eine der drei Gewalten (Legislative, Exekutive, Judikative)) — nach den Nomen 2026-11-04
+  'Staatsliga', // zurückgestellt: österr. Bezeichnung einer Sportliga je Sportart, Gebrauch als Lernwort unsicher — Regel 14 — 2026-11-04
+  'Staatsminister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Minister eines Landes (Bayern, Sachsen) / Bund: Staatssekretär mit Titel Staatsminister) — nach den Nomen 2026-11-04
+  'Staatspolizei', // zurückgestellt: Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 — 2026-11-04
+  'Staatsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium, Regierungsorgan / Mitglied, Titel) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

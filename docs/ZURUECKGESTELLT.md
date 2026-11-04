@@ -2776,6 +2776,8 @@
 | ۲۵۹۷ | Sprenger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Rasensprenger / Person, die sprengt) — Regel 14 | — |
 | ۲۵۹۸ | Sputnik | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Satellit), kein geografischer Name — Regel 18 | — |
 | ۲۵۹۹ | Staatsduma | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Parlament Russlands), kein geografischer Name — Regel 18 | — |
+| ۲۶۰۰ | Staatsliga | `substantiv_singular_alle.txt` | 2026-11-04 | österr. Bezeichnung einer Sportliga je Sportart, Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۶۰۱ | Staatspolizei | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5116,3 +5118,6 @@
 | 2496 | Spur | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abdruck, Spur / Fahrspur / sehr kleine Menge (eine Spur Salz)) |
 | 2497 | Staat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Land als politische Einheit / Bundesstaat, Gliedstaat (USA) / veraltend: Prunk, festliche Kleidung («Staat machen»)) |
 | 2498 | Staatsamt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: öffentliches Amt im Staat / österr. historisch: Ministerium 1918–1920) |
+| 2499 | Staatsgewalt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Herrschaftsgewalt des Staates / eine der drei Gewalten (Legislative, Exekutive, Judikative)) |
+| 2500 | Staatsminister | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Minister eines Landes (Bayern, Sachsen) / Bund: Staatssekretär mit Titel Staatsminister) |
+| 2501 | Staatsrat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gremium, Regierungsorgan / Mitglied, Titel) |
