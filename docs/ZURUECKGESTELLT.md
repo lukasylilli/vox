@@ -5027,3 +5027,7 @@
 | 2415 | Sommerzeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Jahreszeit Sommer / Uhrzeitumstellung, MESZ) |
 | 2416 | Sonde | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Medizin: Schlauch, Magensonde / Raumsonde / Messsonde) |
 | 2417 | Sonderausgabe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: besondere Ausgabe einer Zeitung, eines Buches / Steuerrecht: Sonderausgaben (absetzbare Kosten)) |
+| 2418 | Sonderbeauftragter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Partizip: der/die Sonderbeauftragte, ein Sonderbeauftragter) |
+| 2419 | Sondergesandte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Partizip: der/die Sondergesandte) |
+| 2420 | Sonderklasse | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) |
+| 2421 | Sonderpreis | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) |

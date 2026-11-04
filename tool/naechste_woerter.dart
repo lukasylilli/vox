@@ -5059,6 +5059,10 @@ const zurueckgestellt = <String>{
   'Sommerzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jahreszeit Sommer / Uhrzeitumstellung, MESZ) — nach den Nomen 2026-11-04
   'Sonde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Schlauch, Magensonde / Raumsonde / Messsonde) — nach den Nomen 2026-11-04
   'Sonderausgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besondere Ausgabe einer Zeitung, eines Buches / Steuerrecht: Sonderausgaben (absetzbare Kosten)) — nach den Nomen 2026-11-04
+  'Sonderbeauftragter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Sonderbeauftragte, ein Sonderbeauftragter) — nach den Nomen 2026-11-04
+  'Sondergesandte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Sondergesandte) — nach den Nomen 2026-11-04
+  'Sonderklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) — nach den Nomen 2026-11-04
+  'Sonderpreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
