@@ -5002,6 +5002,13 @@ const zurueckgestellt = <String>{
   'Senn', // zurückgestellt: Plural/Deklination unsicher (-e bzw. österr. -en), regional (Alpen) — Regel 14 — 2026-11-04
   'Senna', // zurückgestellt: Bedeutung unsicher (Heilpflanze/Abführmittel bzw. Personenname) — Regel 14 — 2026-11-04
   'Sensation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: aufsehenerregendes Ereignis / Medizin, Psychologie: Empfindung) — nach den Nomen 2026-11-04
+  'Sequenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abfolge, Reihe / Film: Szenenfolge / Musik: Tonfolge / Kartenspiel) — nach den Nomen 2026-11-04
+  'Serge', // zurückgestellt: Artikel unsicher (die/der Serge, Stoff), selten — Regel 14 — 2026-11-04
+  'Sergeant', // zurückgestellt: Aussprache und Deklination doppelt (frz. -en/-en bzw. engl. -s/-s) — Regel 14 — 2026-11-04
+  'Serie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reihe, Folge / Fernsehserie / Produktionsserie) — nach den Nomen 2026-11-04
+  'Serra', // zurückgestellt: Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 — 2026-11-04
+  'Serum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blutserum / Impfserum, Gegengift); Plural Seren/Sera — nach den Nomen 2026-11-04
+  'Sessel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Polstersessel / österr.: Stuhl) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2751,6 +2751,9 @@
 | ۲۵۷۴ | Senna | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Heilpflanze/Abführmittel bzw. Personenname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
+| ۲۵۷۵ | Serge | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/der Serge, Stoff), selten — Regel 14 | — |
+| ۲۵۷۶ | Sergeant | `substantiv_singular_alle.txt` | 2026-11-04 | Aussprache und Deklination doppelt (frz. -en/-en bzw. engl. -s/-s) — Regel 14 | — |
+| ۲۵۷۷ | Serra | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -4970,3 +4973,7 @@
 | 2375 | Seniorin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ältere Frau / Sport: Seniorenklasse) |
 | 2376 | Senkung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Herabsetzung (Preise, Steuern) / Absinken des Bodens / Medizin: Blutsenkung / Verslehre) |
 | 2377 | Sensation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: aufsehenerregendes Ereignis / Medizin, Psychologie: Empfindung) |
+| 2378 | Sequenz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abfolge, Reihe / Film: Szenenfolge / Musik: Tonfolge / Kartenspiel) |
+| 2379 | Serie | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reihe, Folge / Fernsehserie / Produktionsserie) |
+| 2380 | Serum | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Blutserum / Impfserum, Gegengift); Plural Seren/Sera |
+| 2381 | Sessel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Polstersessel / österr.: Stuhl) |
