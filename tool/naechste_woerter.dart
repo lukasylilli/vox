@@ -4918,6 +4918,12 @@ const zurueckgestellt = <String>{
   'Schranke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahnschranke, Schlagbaum / übertragen: Grenze («in Schranken weisen»)); österr. auch «der Schranken» — nach den Nomen 2026-11-04
   'Schranz', // zurückgestellt: Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 — 2026-11-04
   'Schraube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befestigungsschraube / Schiffsschraube, Propeller / ugs.: «eine Schraube locker haben») — nach den Nomen 2026-11-04
+  'Schreiben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Schreiben = Brief, Schriftstück / Tätigkeit des Schreibens (nominalisiertes Verb)) — nach den Nomen 2026-11-04
+  'Schreiber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser / Schriftführer, Kanzlist / ugs.: Stift zum Schreiben) — nach den Nomen 2026-11-04
+  'Schreibweise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtschreibung eines Wortes / Stil eines Autors) — nach den Nomen 2026-11-04
+  'Schreier', // zurückgestellt: umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-04
+  'Schrift', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handschrift / Schriftsystem, Schriftart / Schriften = Werke, Publikationen) — nach den Nomen 2026-11-04
+  'Schritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schritt beim Gehen / Maßnahme («der nächste Schritt») / Schritttempo / Schritt der Hose) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

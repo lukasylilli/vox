@@ -2734,6 +2734,7 @@
 | ۲۵۵۷ | Schneller | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (landschaftlich: Murmel, Schnipser; sonst Komparativ «schneller») — Regel 14 — Regel 14 | — |
 | ۲۵۵۸ | Schober | `substantiv_singular_alle.txt` | 2026-11-04 | landschaftlich (Heuhaufen, Feldscheune) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۵۹ | Schranz | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 | — |
+| ۲۵۶۰ | Schreier | `substantiv_singular_alle.txt` | 2026-11-04 | umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4886,3 +4887,8 @@
 | 2306 | Schotter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Steinchen, Kies / ugs.: Geld) |
 | 2307 | Schranke | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bahnschranke, Schlagbaum / übertragen: Grenze («in Schranken weisen»)); österr. auch «der Schranken» |
 | 2308 | Schraube | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Befestigungsschraube / Schiffsschraube, Propeller / ugs.: «eine Schraube locker haben») |
+| 2309 | Schreiben | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: das Schreiben = Brief, Schriftstück / Tätigkeit des Schreibens (nominalisiertes Verb)) |
+| 2310 | Schreiber | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Verfasser / Schriftführer, Kanzlist / ugs.: Stift zum Schreiben) |
+| 2311 | Schreibweise | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rechtschreibung eines Wortes / Stil eines Autors) |
+| 2312 | Schrift | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Handschrift / Schriftsystem, Schriftart / Schriften = Werke, Publikationen) |
+| 2313 | Schritt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schritt beim Gehen / Maßnahme («der nächste Schritt») / Schritttempo / Schritt der Hose) |
