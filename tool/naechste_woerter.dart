@@ -4857,6 +4857,14 @@ const zurueckgestellt = <String>{
   'Schiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») — nach den Nomen 2026-11-03
   'Schiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) — nach den Nomen 2026-11-03
   'Schiffbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») — nach den Nomen 2026-11-03
+  'Schikane', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) — nach den Nomen 2026-11-03
+  'Schill', // zurückgestellt: Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 — 2026-11-03
+  'Schimmel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) — nach den Nomen 2026-11-03
+  'Schimmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») — nach den Nomen 2026-11-03
+  'Schinken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) — nach den Nomen 2026-11-03
+  'Schippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) — nach den Nomen 2026-11-03
+  'Schirm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) — nach den Nomen 2026-11-03
+  'Schirmer', // zurückgestellt: Familienname — Regel 14 — 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

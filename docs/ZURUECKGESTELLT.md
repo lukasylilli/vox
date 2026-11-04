@@ -2723,6 +2723,8 @@
 | ۲۵۴۶ | Scherer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Schafscherer) bzw. Familienname — Regel 14 | — |
 | ۲۵۴۷ | Scheuer | `substantiv_singular_alle.txt` | 2026-11-03 | landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۴۸ | Schichte | `substantiv_singular_alle.txt` | 2026-11-03 | österreichische Nebenform von «die Schicht», selten — Regel 14 | — |
+| ۲۵۴۹ | Schill | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 | — |
+| ۲۵۵۰ | Schirmer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4825,3 +4827,9 @@
 | 2256 | Schiene | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») |
 | 2257 | Schiff | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) |
 | 2258 | Schiffbruch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») |
+| 2259 | Schikane | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) |
+| 2260 | Schimmel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) |
+| 2261 | Schimmer | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») |
+| 2262 | Schinken | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) |
+| 2263 | Schippe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) |
+| 2264 | Schirm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) |
