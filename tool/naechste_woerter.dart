@@ -4939,6 +4939,11 @@ const zurueckgestellt = <String>{
   'Schwalbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel / Fußball: vorgetäuschtes Foul) — nach den Nomen 2026-11-04
   'Schwamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Putz-/Badeschwamm / süddt./österr.: Pilz / Hausschwamm (Holzfäule) / Meerestier) — nach den Nomen 2026-11-04
   'Schwangere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: die Schwangere / eine Schwangere) — nach den Nomen 2026-11-04
+  'Schwanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schwanz eines Tieres / Ende, Schluss einer Reihe / vulgär: Penis) — nach den Nomen 2026-11-04
+  'Schwarm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gruppe von Tieren (Vögel, Fische, Bienen) / ugs.: heimlich verehrte Person) — nach den Nomen 2026-11-04
+  'Schwarzafrikaner', // zurückgestellt: Bezeichnung wird teils als diskriminierend empfunden; Bewertung unsicher — Regel 14 — 2026-11-04
+  'Schwarzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Schwarze / ein Schwarzer; zudem österr.: «ein kleiner Schwarzer» = Mokka) — nach den Nomen 2026-11-04
+  'Schwebe', // zurückgestellt: fast nur in der festen Wendung «in der Schwebe» — Regel 14 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

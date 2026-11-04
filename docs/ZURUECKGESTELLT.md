@@ -2737,6 +2737,8 @@
 | ۲۵۶۰ | Schreier | `substantiv_singular_alle.txt` | 2026-11-04 | umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۶۱ | Schulze | `substantiv_singular_alle.txt` | 2026-11-04 | Familienname bzw. veraltet für Dorfvorsteher (Schultheiß) — Regel 14 — Regel 14 | — |
 | ۲۵۶۲ | Schwaiger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (bairisch: Senner, Viehwirt; sonst Familienname) — Regel 14 | — |
+| ۲۵۶۳ | Schwarzafrikaner | `substantiv_singular_alle.txt` | 2026-11-04 | Bezeichnung wird teils als diskriminierend empfunden; Bewertung unsicher — Regel 14 | — |
+| ۲۵۶۴ | Schwebe | `substantiv_singular_alle.txt` | 2026-11-04 | fast nur in der festen Wendung «in der Schwebe» — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4907,3 +4909,6 @@
 | 2324 | Schwalbe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogel / Fußball: vorgetäuschtes Foul) |
 | 2325 | Schwamm | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Putz-/Badeschwamm / süddt./österr.: Pilz / Hausschwamm (Holzfäule) / Meerestier) |
 | 2326 | Schwangere | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Adjektiv: die Schwangere / eine Schwangere) |
+| 2327 | Schwanz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schwanz eines Tieres / Ende, Schluss einer Reihe / vulgär: Penis) |
+| 2328 | Schwarm | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gruppe von Tieren (Vögel, Fische, Bienen) / ugs.: heimlich verehrte Person) |
+| 2329 | Schwarzer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Adjektiv: der Schwarze / ein Schwarzer; zudem österr.: «ein kleiner Schwarzer» = Mokka) |
