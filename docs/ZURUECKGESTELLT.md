@@ -5080,3 +5080,4 @@
 | 2465 | Spirale | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schraubenlinie, Spirale / Verhütungsmittel (Spirale) / übertragen: Preis-, Gewaltspirale) |
 | 2466 | Spitz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) |
 | 2467 | Spitze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) |
+| 2468 | Spitzenzeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zeit der stärksten Belastung, Stoßzeit / Sport: Bestzeit) |

@@ -5112,6 +5112,7 @@ const zurueckgestellt = <String>{
   'Spirit', // zurückgestellt: Anglizismus (Geist, Schwung), Gebrauch und Genus als Lernwort unsicher — Regel 14 — 2026-11-04
   'Spitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) — nach den Nomen 2026-11-04
   'Spitze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) — nach den Nomen 2026-11-04
+  'Spitzenzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeit der stärksten Belastung, Stoßzeit / Sport: Bestzeit) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
