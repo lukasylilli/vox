@@ -5068,6 +5068,14 @@ const zurueckgestellt = <String>{
   'Sorge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) — nach den Nomen 2026-11-04
   'Sorgenkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) — nach den Nomen 2026-11-04
   'Sowjet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rat (Organ) in der Sowjetunion / Plural ugs.: «die Sowjets» = die Sowjetunion, ihre Führung) — nach den Nomen 2026-11-04
+  'Spaghetti', // zurückgestellt: Pluraletantum (die Spaghetti); Artikel der Liste (der) passt nicht, Kartenform unklar — Regel 14 — 2026-11-04
+  'Spalier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gitter für Pflanzen / Reihe von Menschen («Spalier stehen»)) — nach den Nomen 2026-11-04
+  'Spalte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riss, Felsspalte / Textspalte, Tabellenspalte) — nach den Nomen 2026-11-04
+  'Spaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spalten (Holz, Kernspaltung) / Teilung einer Gruppe, Partei, Gesellschaft) — nach den Nomen 2026-11-04
+  'Spanne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitspanne / Preis-, Handelsspanne / Handspanne (Maß)) — nach den Nomen 2026-11-04
+  'Spanner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Spannen (Schuhspanner) / ugs. abwertend: Voyeur / Schmetterling (Zoologie)) — nach den Nomen 2026-11-04
+  'Spannung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Neugier, Nervenkitzel / Konflikt, gespannte Lage / Elektrotechnik: elektrische Spannung) — nach den Nomen 2026-11-04
+  'Spannweite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2768,6 +2768,7 @@
 | ۲۵۸۹ | Socken | `substantiv_singular_alle.txt` | 2026-11-04 | Lemma/Artikel doppelt (die Socke / der Socken, österr. der Socken) — Regel 14 | — |
 | ۲۵۹۰ | Soja | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/das Soja) — Regel 14 | — |
 | ۲۵۹۱ | Sommernachtstraum | `substantiv_singular_alle.txt` | 2026-11-04 | Werktitel (Shakespeare «Ein Sommernachtstraum»), kein allgemeines Nomen — Regel 14 | — |
+| ۲۵۹۲ | Spaghetti | `substantiv_singular_alle.txt` | 2026-11-04 | Pluraletantum (die Spaghetti); Artikel der Liste (der) passt nicht, Kartenform unklar — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5036,3 +5037,10 @@
 | 2424 | Sorge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) |
 | 2425 | Sorgenkind | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) |
 | 2426 | Sowjet | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rat (Organ) in der Sowjetunion / Plural ugs.: «die Sowjets» = die Sowjetunion, ihre Führung) |
+| 2427 | Spalier | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gitter für Pflanzen / Reihe von Menschen («Spalier stehen»)) |
+| 2428 | Spalte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Riss, Felsspalte / Textspalte, Tabellenspalte) |
+| 2429 | Spaltung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Spalten (Holz, Kernspaltung) / Teilung einer Gruppe, Partei, Gesellschaft) |
+| 2430 | Spanne | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zeitspanne / Preis-, Handelsspanne / Handspanne (Maß)) |
+| 2431 | Spanner | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gerät zum Spannen (Schuhspanner) / ugs. abwertend: Voyeur / Schmetterling (Zoologie)) |
+| 2432 | Spannung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Neugier, Nervenkitzel / Konflikt, gespannte Lage / Elektrotechnik: elektrische Spannung) |
+| 2433 | Spannweite | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) |
