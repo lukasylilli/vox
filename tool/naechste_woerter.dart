@@ -4977,6 +4977,14 @@ const zurueckgestellt = <String>{
   'Sehne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anatomie: Sehne / Bogensehne / Geometrie: Verbindungsstrecke) — nach den Nomen 2026-11-04
   'Seidel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bierglas / österr.: Maß, 0,3 Liter Bier / veraltetes Flüssigkeitsmaß) — nach den Nomen 2026-11-04
   'Seifenblase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blase aus Seifenwasser / übertragen: Illusion, die schnell platzt) — nach den Nomen 2026-11-04
+  'Seilschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bergsteiger am selben Seil / abwertend: Gruppe, die sich gegenseitig Vorteile verschafft) — nach den Nomen 2026-11-04
+  'Seite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite eines Körpers, Raums / Buchseite / Partei, Standpunkt («auf meiner Seite»)) — nach den Nomen 2026-11-04
+  'Seitenhieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fechten: seitlicher Hieb / übertragen: spitze Bemerkung) — nach den Nomen 2026-11-04
+  'Seitenlinie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Spielfeldbegrenzung / Nebenlinie einer Familie / Nebenstrecke der Bahn) — nach den Nomen 2026-11-04
+  'Seitenwechsel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Wechsel der Spielfeldhälfte / Wechsel zur Gegenpartei) — nach den Nomen 2026-11-04
+  'Sektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abteilung, Bereich / Medizin: Leichenöffnung, Obduktion) — nach den Nomen 2026-11-04
+  'Sektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bereich (Wirtschaftssektor) / Geometrie: Kreisausschnitt / Besatzungssektor (Berlin, Wien)) — nach den Nomen 2026-11-04
+  'Sekundenschnelle', // zurückgestellt: nur in der festen Wendung «in Sekundenschnelle» — Regel 14 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

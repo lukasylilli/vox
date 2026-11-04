@@ -2744,6 +2744,7 @@
 | ۲۵۶۷ | Scientologe | `substantiv_singular_alle.txt` | 2026-11-04 | Mitglied einer bestimmten Organisation (Organisationsname, Regel 18) — Regel 14 | — |
 | ۲۵۶۸ | Scientology | `substantiv_singular_alle.txt` | 2026-11-04 | Name einer Organisation (Regel 18) — Regel 14 | — |
 | ۲۵۶۹ | Screen | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Bildschirm, Jargon); Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۵۷۰ | Sekundenschnelle | `substantiv_singular_alle.txt` | 2026-11-04 | nur in der festen Wendung «in Sekundenschnelle» — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4945,3 +4946,10 @@
 | 2355 | Sehne | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Anatomie: Sehne / Bogensehne / Geometrie: Verbindungsstrecke) |
 | 2356 | Seidel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bierglas / österr.: Maß, 0,3 Liter Bier / veraltetes Flüssigkeitsmaß) |
 | 2357 | Seifenblase | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Blase aus Seifenwasser / übertragen: Illusion, die schnell platzt) |
+| 2358 | Seilschaft | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bergsteiger am selben Seil / abwertend: Gruppe, die sich gegenseitig Vorteile verschafft) |
+| 2359 | Seite | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Seite eines Körpers, Raums / Buchseite / Partei, Standpunkt («auf meiner Seite»)) |
+| 2360 | Seitenhieb | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fechten: seitlicher Hieb / übertragen: spitze Bemerkung) |
+| 2361 | Seitenlinie | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: Spielfeldbegrenzung / Nebenlinie einer Familie / Nebenstrecke der Bahn) |
+| 2362 | Seitenwechsel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: Wechsel der Spielfeldhälfte / Wechsel zur Gegenpartei) |
+| 2363 | Sektion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abteilung, Bereich / Medizin: Leichenöffnung, Obduktion) |
+| 2364 | Sektor | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bereich (Wirtschaftssektor) / Geometrie: Kreisausschnitt / Besatzungssektor (Berlin, Wien)) |
