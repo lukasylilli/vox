@@ -4938,3 +4938,10 @@
 | 2348 | Sechszylinder | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Motor mit sechs Zylindern / Auto mit diesem Motor) |
 | 2349 | Seebad | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Badeort an der See / Bad im Meer) |
 | 2350 | Seele | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Seele, Psyche / Mensch («keine Seele») / Herz, Mittelpunkt («die Seele des Vereins»)) |
+| 2351 | Segen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: religiöser Segen / ugs.: Zustimmung («seinen Segen geben») / Glück, Wohltat («ein Segen»)) |
+| 2352 | Segler | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Person, die segelt / Segelflugzeug, Segelschiff / Vogel (Mauersegler)) |
+| 2353 | Segnung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: das Segnen / meist Plural, oft ironisch: Vorzüge («die Segnungen der Technik»)) |
+| 2354 | Seher | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Prophet, Wahrsager / Jägersprache: Auge des Wildes) |
+| 2355 | Sehne | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Anatomie: Sehne / Bogensehne / Geometrie: Verbindungsstrecke) |
+| 2356 | Seidel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bierglas / österr.: Maß, 0,3 Liter Bier / veraltetes Flüssigkeitsmaß) |
+| 2357 | Seifenblase | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Blase aus Seifenwasser / übertragen: Illusion, die schnell platzt) |

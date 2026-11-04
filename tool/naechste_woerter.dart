@@ -4970,6 +4970,13 @@ const zurueckgestellt = <String>{
   'Sechszylinder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Motor mit sechs Zylindern / Auto mit diesem Motor) — nach den Nomen 2026-11-04
   'Seebad', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Badeort an der See / Bad im Meer) — nach den Nomen 2026-11-04
   'Seele', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seele, Psyche / Mensch («keine Seele») / Herz, Mittelpunkt («die Seele des Vereins»)) — nach den Nomen 2026-11-04
+  'Segen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöser Segen / ugs.: Zustimmung («seinen Segen geben») / Glück, Wohltat («ein Segen»)) — nach den Nomen 2026-11-04
+  'Segler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die segelt / Segelflugzeug, Segelschiff / Vogel (Mauersegler)) — nach den Nomen 2026-11-04
+  'Segnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Segnen / meist Plural, oft ironisch: Vorzüge («die Segnungen der Technik»)) — nach den Nomen 2026-11-04
+  'Seher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Prophet, Wahrsager / Jägersprache: Auge des Wildes) — nach den Nomen 2026-11-04
+  'Sehne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anatomie: Sehne / Bogensehne / Geometrie: Verbindungsstrecke) — nach den Nomen 2026-11-04
+  'Seidel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bierglas / österr.: Maß, 0,3 Liter Bier / veraltetes Flüssigkeitsmaß) — nach den Nomen 2026-11-04
+  'Seifenblase', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blase aus Seifenwasser / übertragen: Illusion, die schnell platzt) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
