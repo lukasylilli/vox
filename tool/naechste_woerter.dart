@@ -4807,81 +4807,81 @@ const zurueckgestellt = <String>{
   'Sanierungskonzept', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) — nach den Nomen 2026-11-03
   'Sanierungsplan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) — nach den Nomen 2026-11-03
   'Sanierungsprogramm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) — nach den Nomen 2026-11-03
-  'Sanktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) — nach den Nomen 2026-11-03
-  'Satan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») — nach den Nomen 2026-11-03
-  'Satellit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») — nach den Nomen 2026-11-03
-  'Sattel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) — nach den Nomen 2026-11-03
-  'Satz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) — nach den Nomen 2026-11-03
-  'Sauer', // zurückgestellt: als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 — 2026-11-03
-  'Sauerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) — nach den Nomen 2026-11-03
-  'Schablone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) — nach den Nomen 2026-11-03
-  'Schachspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) — nach den Nomen 2026-11-03
-  'Schachtel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) — nach den Nomen 2026-11-03
-  'Schachzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») — nach den Nomen 2026-11-03
-  'Schade', // zurückgestellt: veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 — 2026-11-03
-  'Schaf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») — nach den Nomen 2026-11-03
-  'Schale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») — nach den Nomen 2026-11-03
-  'Schalk', // zurückgestellt: veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 — 2026-11-03
-  'Schalke', // zurückgestellt: Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 — 2026-11-03
-  'Schallmauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) — nach den Nomen 2026-11-03
-  'Schalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) — nach den Nomen 2026-11-03
-  'Schaltstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») — nach den Nomen 2026-11-03
-  'Schaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) — nach den Nomen 2026-11-03
-  'Scham', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) — nach den Nomen 2026-11-03
-  'Schandfleck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») — nach den Nomen 2026-11-03
-  'Schattenseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») — nach den Nomen 2026-11-03
-  'Schattierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») — nach den Nomen 2026-11-03
-  'Schatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») — nach den Nomen 2026-11-03
-  'Schau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») — nach den Nomen 2026-11-03
-  'Schaub', // zurückgestellt: selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 — 2026-11-03
-  'Schaufel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) — nach den Nomen 2026-11-03
-  'Schauspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») — nach den Nomen 2026-11-03
-  'Schauspielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») — nach den Nomen 2026-11-03
-  'Scheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) — nach den Nomen 2026-11-03
-  'Scheich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) — nach den Nomen 2026-11-03
-  'Schein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») — nach den Nomen 2026-11-03
-  'Scheinwerferlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») — nach den Nomen 2026-11-03
-  'Scheitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») — nach den Nomen 2026-11-03
-  'Schenk', // zurückgestellt: veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 — 2026-11-03
-  'Schenkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) — nach den Nomen 2026-11-03
-  'Schenker', // zurückgestellt: selten (Person, die schenkt) bzw. Familienname — Regel 14 — 2026-11-03
-  'Scherben', // zurückgestellt: regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 — 2026-11-03
-  'Scherbenhaufen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») — nach den Nomen 2026-11-03
-  'Schere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») — nach den Nomen 2026-11-03
-  'Scherer', // zurückgestellt: selten (Schafscherer) bzw. Familienname — Regel 14 — 2026-11-03
-  'Scheuer', // zurückgestellt: landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-03
-  'Schicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) — nach den Nomen 2026-11-03
-  'Schichte', // zurückgestellt: österreichische Nebenform von «die Schicht», selten — Regel 14 — 2026-11-03
-  'Schieber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) — nach den Nomen 2026-11-03
-  'Schiedsrichter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) — nach den Nomen 2026-11-03
-  'Schiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») — nach den Nomen 2026-11-03
-  'Schiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) — nach den Nomen 2026-11-03
-  'Schiffbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») — nach den Nomen 2026-11-03
-  'Schikane', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) — nach den Nomen 2026-11-03
-  'Schill', // zurückgestellt: Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 — 2026-11-03
-  'Schimmel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) — nach den Nomen 2026-11-03
-  'Schimmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») — nach den Nomen 2026-11-03
-  'Schinken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) — nach den Nomen 2026-11-03
-  'Schippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) — nach den Nomen 2026-11-03
-  'Schirm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) — nach den Nomen 2026-11-03
-  'Schirmer', // zurückgestellt: Familienname — Regel 14 — 2026-11-03
-  'Schizophrenie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») — nach den Nomen 2026-11-03
-  'Schlachtfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») — nach den Nomen 2026-11-03
-  'Schlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) — nach den Nomen 2026-11-03
-  'Schlagabtausch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) — nach den Nomen 2026-11-03
-  'Schlager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) — nach den Nomen 2026-11-03
-  'Schlagkraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») — nach den Nomen 2026-11-03
-  'Schlaglicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) — nach den Nomen 2026-11-03
-  'Schlagwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) — nach den Nomen 2026-11-03
-  'Schlamassel', // zurückgestellt: Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 — 2026-11-03
-  'Schlammschlacht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) — nach den Nomen 2026-11-03
-  'Schlange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) — nach den Nomen 2026-11-03
-  'Schlauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) — nach den Nomen 2026-11-03
-  'Schleicher', // zurückgestellt: selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-03
-  'Schleier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») — nach den Nomen 2026-11-03
-  'Schlepper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) — nach den Nomen 2026-11-03
-  'Schlepptau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) — nach den Nomen 2026-11-03
-  'Schleuse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») — nach den Nomen 2026-11-03
+  'Sanktion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) — nach den Nomen 2026-11-04
+  'Satan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») — nach den Nomen 2026-11-04
+  'Satellit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») — nach den Nomen 2026-11-04
+  'Sattel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) — nach den Nomen 2026-11-04
+  'Satz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) — nach den Nomen 2026-11-04
+  'Sauer', // zurückgestellt: als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 — 2026-11-04
+  'Sauerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) — nach den Nomen 2026-11-04
+  'Schablone', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) — nach den Nomen 2026-11-04
+  'Schachspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) — nach den Nomen 2026-11-04
+  'Schachtel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) — nach den Nomen 2026-11-04
+  'Schachzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») — nach den Nomen 2026-11-04
+  'Schade', // zurückgestellt: veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 — 2026-11-04
+  'Schaf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») — nach den Nomen 2026-11-04
+  'Schale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») — nach den Nomen 2026-11-04
+  'Schalk', // zurückgestellt: veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 — 2026-11-04
+  'Schalke', // zurückgestellt: Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 — 2026-11-04
+  'Schallmauer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) — nach den Nomen 2026-11-04
+  'Schalter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) — nach den Nomen 2026-11-04
+  'Schaltstelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») — nach den Nomen 2026-11-04
+  'Schaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) — nach den Nomen 2026-11-04
+  'Scham', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) — nach den Nomen 2026-11-04
+  'Schandfleck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») — nach den Nomen 2026-11-04
+  'Schattenseite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») — nach den Nomen 2026-11-04
+  'Schattierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») — nach den Nomen 2026-11-04
+  'Schatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») — nach den Nomen 2026-11-04
+  'Schau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») — nach den Nomen 2026-11-04
+  'Schaub', // zurückgestellt: selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 — 2026-11-04
+  'Schaufel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) — nach den Nomen 2026-11-04
+  'Schauspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») — nach den Nomen 2026-11-04
+  'Schauspielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») — nach den Nomen 2026-11-04
+  'Scheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) — nach den Nomen 2026-11-04
+  'Scheich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) — nach den Nomen 2026-11-04
+  'Schein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») — nach den Nomen 2026-11-04
+  'Scheinwerferlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») — nach den Nomen 2026-11-04
+  'Scheitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») — nach den Nomen 2026-11-04
+  'Schenk', // zurückgestellt: veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 — 2026-11-04
+  'Schenkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) — nach den Nomen 2026-11-04
+  'Schenker', // zurückgestellt: selten (Person, die schenkt) bzw. Familienname — Regel 14 — 2026-11-04
+  'Scherben', // zurückgestellt: regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 — 2026-11-04
+  'Scherbenhaufen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») — nach den Nomen 2026-11-04
+  'Schere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») — nach den Nomen 2026-11-04
+  'Scherer', // zurückgestellt: selten (Schafscherer) bzw. Familienname — Regel 14 — 2026-11-04
+  'Scheuer', // zurückgestellt: landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-04
+  'Schicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) — nach den Nomen 2026-11-04
+  'Schichte', // zurückgestellt: österreichische Nebenform von «die Schicht», selten — Regel 14 — 2026-11-04
+  'Schieber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) — nach den Nomen 2026-11-04
+  'Schiedsrichter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) — nach den Nomen 2026-11-04
+  'Schiene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») — nach den Nomen 2026-11-04
+  'Schiff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) — nach den Nomen 2026-11-04
+  'Schiffbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») — nach den Nomen 2026-11-04
+  'Schikane', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) — nach den Nomen 2026-11-04
+  'Schill', // zurückgestellt: Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 — 2026-11-04
+  'Schimmel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) — nach den Nomen 2026-11-04
+  'Schimmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») — nach den Nomen 2026-11-04
+  'Schinken', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) — nach den Nomen 2026-11-04
+  'Schippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) — nach den Nomen 2026-11-04
+  'Schirm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) — nach den Nomen 2026-11-04
+  'Schirmer', // zurückgestellt: Familienname — Regel 14 — 2026-11-04
+  'Schizophrenie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») — nach den Nomen 2026-11-04
+  'Schlachtfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») — nach den Nomen 2026-11-04
+  'Schlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) — nach den Nomen 2026-11-04
+  'Schlagabtausch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) — nach den Nomen 2026-11-04
+  'Schlager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) — nach den Nomen 2026-11-04
+  'Schlagkraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») — nach den Nomen 2026-11-04
+  'Schlaglicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) — nach den Nomen 2026-11-04
+  'Schlagwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) — nach den Nomen 2026-11-04
+  'Schlamassel', // zurückgestellt: Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 — 2026-11-04
+  'Schlammschlacht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) — nach den Nomen 2026-11-04
+  'Schlange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) — nach den Nomen 2026-11-04
+  'Schlauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) — nach den Nomen 2026-11-04
+  'Schleicher', // zurückgestellt: selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-04
+  'Schleier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») — nach den Nomen 2026-11-04
+  'Schlepper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) — nach den Nomen 2026-11-04
+  'Schlepptau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) — nach den Nomen 2026-11-04
+  'Schleuse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

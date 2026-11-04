@@ -2712,21 +2712,21 @@
 | ۲۵۳۵ | Sander | `substantiv_singular_alle.txt` | 2026-11-03 | Fachwort (Geologie: Schwemmfläche) bzw. Familienname, selten — Regel 14 | — |
 | ۲۵۳۶ | Sandwich | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (das Sandwich, auch: der Sandwich) — Regel 14 | — |
 | ۲۵۳۷ | Sanierer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die ein Unternehmen oder Gebäude saniert), Bedeutung je nach Bereich — Regel 14 | — |
-| ۲۵۳۸ | Sauer | `substantiv_singular_alle.txt` | 2026-11-03 | als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 | — |
-| ۲۵۳۹ | Schade | `substantiv_singular_alle.txt` | 2026-11-03 | veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 | — |
-| ۲۵۴۰ | Schalk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 | — |
-| ۲۵۴۱ | Schalke | `substantiv_singular_alle.txt` | 2026-11-03 | Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 | — |
-| ۲۵۴۲ | Schaub | `substantiv_singular_alle.txt` | 2026-11-03 | selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 | — |
-| ۲۵۴۳ | Schenk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 | — |
-| ۲۵۴۴ | Schenker | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die schenkt) bzw. Familienname — Regel 14 | — |
-| ۲۵۴۵ | Scherben | `substantiv_singular_alle.txt` | 2026-11-03 | regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 | — |
-| ۲۵۴۶ | Scherer | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Schafscherer) bzw. Familienname — Regel 14 | — |
-| ۲۵۴۷ | Scheuer | `substantiv_singular_alle.txt` | 2026-11-03 | landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
-| ۲۵۴۸ | Schichte | `substantiv_singular_alle.txt` | 2026-11-03 | österreichische Nebenform von «die Schicht», selten — Regel 14 | — |
-| ۲۵۴۹ | Schill | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 | — |
-| ۲۵۵۰ | Schirmer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname — Regel 14 | — |
-| ۲۵۵۱ | Schlamassel | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 | — |
-| ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-03 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۳۸ | Sauer | `substantiv_singular_alle.txt` | 2026-11-04 | als Nomen unsicher (Adjektiv «sauer»; Familienname) — Regel 14 | — |
+| ۲۵۳۹ | Schade | `substantiv_singular_alle.txt` | 2026-11-04 | veraltete Nebenform von «der Schaden», nur noch in festen Wendungen («es soll dein Schade nicht sein») — Regel 14 | — |
+| ۲۵۴۰ | Schalk | `substantiv_singular_alle.txt` | 2026-11-04 | veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 | — |
+| ۲۵۴۱ | Schalke | `substantiv_singular_alle.txt` | 2026-11-04 | Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 | — |
+| ۲۵۴۲ | Schaub | `substantiv_singular_alle.txt` | 2026-11-04 | selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۳ | Schenk | `substantiv_singular_alle.txt` | 2026-11-04 | veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۴ | Schenker | `substantiv_singular_alle.txt` | 2026-11-04 | selten (Person, die schenkt) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۵ | Scherben | `substantiv_singular_alle.txt` | 2026-11-04 | regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 | — |
+| ۲۵۴۶ | Scherer | `substantiv_singular_alle.txt` | 2026-11-04 | selten (Schafscherer) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۷ | Scheuer | `substantiv_singular_alle.txt` | 2026-11-04 | landschaftlich für «die Scheune» bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۴۸ | Schichte | `substantiv_singular_alle.txt` | 2026-11-04 | österreichische Nebenform von «die Schicht», selten — Regel 14 | — |
+| ۲۵۴۹ | Schill | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 | — |
+| ۲۵۵۰ | Schirmer | `substantiv_singular_alle.txt` | 2026-11-04 | Familienname — Regel 14 | — |
+| ۲۵۵۱ | Schlamassel | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 | — |
+| ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-04 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4790,63 +4790,63 @@
 | 2217 | Sanierungskonzept | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Umwelt) |
 | 2218 | Sanierungsplan | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen; österr. Insolvenzrecht: Sanierungsplan) |
 | 2219 | Sanierungsprogramm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen wie «Sanierung»: Gebäude / Unternehmen / Staatsfinanzen) |
-| 2220 | Sanktion | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) |
-| 2221 | Satan | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») |
-| 2222 | Satellit | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») |
-| 2223 | Sattel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) |
-| 2224 | Satz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) |
-| 2225 | Sauerei | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) |
-| 2226 | Schablone | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) |
-| 2227 | Schachspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) |
-| 2228 | Schachtel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) |
-| 2229 | Schachzug | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») |
-| 2230 | Schaf | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») |
-| 2231 | Schale | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») |
-| 2232 | Schallmauer | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) |
-| 2233 | Schalter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) |
-| 2234 | Schaltstelle | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») |
-| 2235 | Schaltung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) |
-| 2236 | Scham | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) |
-| 2237 | Schandfleck | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») |
-| 2238 | Schattenseite | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») |
-| 2239 | Schattierung | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») |
-| 2240 | Schatz | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») |
-| 2241 | Schau | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») |
-| 2242 | Schaufel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) |
-| 2243 | Schauspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») |
-| 2244 | Schauspielerei | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») |
-| 2245 | Scheibe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) |
-| 2246 | Scheich | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) |
-| 2247 | Schein | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») |
-| 2248 | Scheinwerferlicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») |
-| 2249 | Scheitel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») |
-| 2250 | Schenkel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) |
-| 2251 | Scherbenhaufen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») |
-| 2252 | Schere | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») |
-| 2253 | Schicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) |
-| 2254 | Schieber | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) |
-| 2255 | Schiedsrichter | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) |
-| 2256 | Schiene | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») |
-| 2257 | Schiff | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) |
-| 2258 | Schiffbruch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») |
-| 2259 | Schikane | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) |
-| 2260 | Schimmel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) |
-| 2261 | Schimmer | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») |
-| 2262 | Schinken | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) |
-| 2263 | Schippe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) |
-| 2264 | Schirm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) |
-| 2265 | Schizophrenie | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») |
-| 2266 | Schlachtfeld | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») |
-| 2267 | Schlag | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) |
-| 2268 | Schlagabtausch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) |
-| 2269 | Schlager | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) |
-| 2270 | Schlagkraft | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») |
-| 2271 | Schlaglicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) |
-| 2272 | Schlagwort | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) |
-| 2273 | Schlammschlacht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) |
-| 2274 | Schlange | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) |
-| 2275 | Schlauch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) |
-| 2276 | Schleier | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») |
-| 2277 | Schlepper | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) |
-| 2278 | Schlepptau | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) |
-| 2279 | Schleuse | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») |
+| 2220 | Sanktion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Strafmaßnahme «Sanktionen gegen ein Land» / Rechtssprache: Billigung, Bestätigung) |
+| 2221 | Satan | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: der Teufel (Religion) / übertragen: boshafter Mensch «ein Satan») |
+| 2222 | Satellit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: künstlicher Raumflugkörper / Himmelskörper, Mond / übertragen: abhängiger Staat «Satellitenstaat») |
+| 2223 | Sattel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reitsattel / Fahrradsattel / Bergsattel, Pass) |
+| 2224 | Satz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Grammatik / Sprung «mit einem Satz» / Tennis, Volleyball / Musik / Bodensatz / Tarif, Steuersatz) |
+| 2225 | Sauerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen, derb: Schmutz, Unordnung / Gemeinheit, Skandal / Zote) |
+| 2226 | Schablone | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vorlage zum Zeichnen, Ausschneiden / übertragen: Klischee, starres Muster) |
+| 2227 | Schachspiel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: das Spiel Schach / Brett mit Figuren / einzelne Partie) |
+| 2228 | Schachtel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Karton, Behälter / abwertend: «alte Schachtel» (ältere Frau)) |
+| 2229 | Schachzug | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zug im Schachspiel / übertragen: geschickte Maßnahme «ein kluger Schachzug») |
+| 2230 | Schaf | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / übertragen: gutmütiger, einfältiger Mensch «du Schaf»; «schwarzes Schaf») |
+| 2231 | Schale | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Obst-, Eierschale / flaches Gefäß, Schüssel / österr.: Tasse «eine Schale Kaffee») |
+| 2232 | Schallmauer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Schallgeschwindigkeit «die Schallmauer durchbrechen» / übertragen: Grenze, Rekordmarke) |
+| 2233 | Schalter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Licht-, Stromschalter / Bank-, Post-, Fahrkartenschalter) |
+| 2234 | Schaltstelle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: technische Schaltanlage / übertragen: Zentrale, Machtzentrum «die Schaltstellen der Macht») |
+| 2235 | Schaltung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: elektrische Schaltung / Gangschaltung (Auto, Fahrrad) / Liveschaltung (Fernsehen)) |
+| 2236 | Scham | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gefühl der Scham / gehoben: äußere Geschlechtsteile) |
+| 2237 | Schandfleck | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: hässliches Gebäude, das die Umgebung verschandelt / Person oder Sache, die Schande bringt «der Schandfleck der Familie») |
+| 2238 | Schattenseite | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Seite im Schatten / übertragen: Nachteil «die Schattenseiten des Ruhms») |
+| 2239 | Schattierung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schattieren in der Malerei / Farbton, Nuance / übertragen: Richtung, Spielart «Politiker aller Schattierungen») |
+| 2240 | Schatz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: wertvolle Dinge, Schatztruhe / Kosewort «mein Schatz») |
+| 2241 | Schau | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ausstellung, Messe / Vorführung, Show / «zur Schau stellen» (zeigen); ugs. «eine Schau abziehen») |
+| 2242 | Schaufel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Werkzeug zum Graben / Turbinen-, Radschaufel / Jägersprache: Geweih) |
+| 2243 | Schauspiel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») |
+| 2244 | Schauspielerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») |
+| 2245 | Scheibe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) |
+| 2246 | Scheich | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) |
+| 2247 | Schein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») |
+| 2248 | Scheinwerferlicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») |
+| 2249 | Scheitel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») |
+| 2250 | Schenkel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) |
+| 2251 | Scherbenhaufen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») |
+| 2252 | Schere | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») |
+| 2253 | Schicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Lage, Schicht Farbe / Arbeitsschicht «Nachtschicht» / gesellschaftliche Schicht) |
+| 2254 | Schieber | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Riegel, Regler / ugs.: Schwarzhändler / Bettschieber (Bettpfanne) / Tanz) |
+| 2255 | Schiedsrichter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: Unparteiischer / Recht: Mitglied eines Schiedsgerichts, Schlichter) |
+| 2256 | Schiene | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bahngleis / Medizin: Schiene zum Ruhigstellen / Führungsschiene, Leiste / übertragen: Bereich «auf der politischen Schiene») |
+| 2257 | Schiff | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wasserfahrzeug / Kirchenschiff (Langhaus)) |
+| 2258 | Schiffbruch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Untergang eines Schiffes / übertragen: Scheitern «mit einem Plan Schiffbruch erleiden») |
+| 2259 | Schikane | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: böswillige Behinderung, Quälerei / Motorsport: Schikane (Kurvenkombination) / ugs. «mit allen Schikanen» (mit allem Komfort)) |
+| 2260 | Schimmel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schimmelpilz / weißes Pferd) |
+| 2261 | Schimmer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: schwacher Glanz, Lichtschein / Spur, Andeutung «ein Schimmer Hoffnung»; ugs. «keinen blassen Schimmer haben») |
+| 2262 | Schinken | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) |
+| 2263 | Schippe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) |
+| 2264 | Schirm | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) |
+| 2265 | Schizophrenie | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») |
+| 2266 | Schlachtfeld | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») |
+| 2267 | Schlag | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) |
+| 2268 | Schlagabtausch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) |
+| 2269 | Schlager | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) |
+| 2270 | Schlagkraft | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») |
+| 2271 | Schlaglicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) |
+| 2272 | Schlagwort | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) |
+| 2273 | Schlammschlacht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) |
+| 2274 | Schlange | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) |
+| 2275 | Schlauch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) |
+| 2276 | Schleier | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») |
+| 2277 | Schlepper | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) |
+| 2278 | Schlepptau | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) |
+| 2279 | Schleuse | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») |
