@@ -5032,3 +5032,6 @@
 | 2420 | Sonderklasse | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) |
 | 2421 | Sonderpreis | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) |
 | 2422 | Sonnenschein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Licht der Sonne / ugs. Kosewort für einen geliebten Menschen, «mein Sonnenschein») |
+| 2423 | Sopran | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: hohe Stimmlage / Sängerin mit dieser Stimme / Stimmgruppe im Chor) |
+| 2424 | Sorge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) |
+| 2425 | Sorgenkind | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) |

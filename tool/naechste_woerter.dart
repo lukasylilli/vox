@@ -5064,6 +5064,9 @@ const zurueckgestellt = <String>{
   'Sonderklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) — nach den Nomen 2026-11-04
   'Sonderpreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) — nach den Nomen 2026-11-04
   'Sonnenschein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht der Sonne / ugs. Kosewort für einen geliebten Menschen, «mein Sonnenschein») — nach den Nomen 2026-11-04
+  'Sopran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hohe Stimmlage / Sängerin mit dieser Stimme / Stimmgruppe im Chor) — nach den Nomen 2026-11-04
+  'Sorge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) — nach den Nomen 2026-11-04
+  'Sorgenkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
