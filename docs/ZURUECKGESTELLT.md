@@ -5046,3 +5046,9 @@
 | 2433 | Spannweite | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) |
 | 2434 | Sparte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geschäftsbereich, Branche, Fachgebiet / Rubrik einer Zeitung) |
 | 2435 | Spatz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogel (Sperling) / ugs. Kosewort für ein Kind); Deklination schwankend |
+| 2436 | Speerspitze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Spitze eines Speers / übertragen: Vorreiter, Spitze einer Bewegung) |
+| 2437 | Speicher | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Dachboden / Lagerhaus, Silo / Datenspeicher, Energiespeicher) |
+| 2438 | Speise | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gericht, Essen / landschaftlich: Mörtel (Bau)) |
+| 2439 | Spektrum | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Farbspektrum / übertragen: Bandbreite, Vielfalt) |
+| 2440 | Spekulation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vermutung ohne Beweis / Finanzgeschäft mit Kursgewinnen) |
+| 2441 | Spender | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Person, die Geld spendet / Blut-, Organspender / Gerät: Seifen-, Handtuchspender) |

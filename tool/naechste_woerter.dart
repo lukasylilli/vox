@@ -5078,6 +5078,12 @@ const zurueckgestellt = <String>{
   'Spannweite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) — nach den Nomen 2026-11-04
   'Sparte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschäftsbereich, Branche, Fachgebiet / Rubrik einer Zeitung) — nach den Nomen 2026-11-04
   'Spatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel (Sperling) / ugs. Kosewort für ein Kind); Deklination schwankend — nach den Nomen 2026-11-04
+  'Speerspitze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spitze eines Speers / übertragen: Vorreiter, Spitze einer Bewegung) — nach den Nomen 2026-11-04
+  'Speicher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dachboden / Lagerhaus, Silo / Datenspeicher, Energiespeicher) — nach den Nomen 2026-11-04
+  'Speise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gericht, Essen / landschaftlich: Mörtel (Bau)) — nach den Nomen 2026-11-04
+  'Spektrum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Farbspektrum / übertragen: Bandbreite, Vielfalt) — nach den Nomen 2026-11-04
+  'Spekulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vermutung ohne Beweis / Finanzgeschäft mit Kursgewinnen) — nach den Nomen 2026-11-04
+  'Spender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die Geld spendet / Blut-, Organspender / Gerät: Seifen-, Handtuchspender) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
