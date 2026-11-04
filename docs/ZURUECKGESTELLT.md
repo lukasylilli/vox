@@ -5035,3 +5035,4 @@
 | 2423 | Sopran | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: hohe Stimmlage / Sängerin mit dieser Stimme / Stimmgruppe im Chor) |
 | 2424 | Sorge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) |
 | 2425 | Sorgenkind | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) |
+| 2426 | Sowjet | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rat (Organ) in der Sowjetunion / Plural ugs.: «die Sowjets» = die Sowjetunion, ihre Führung) |

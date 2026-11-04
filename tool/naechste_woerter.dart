@@ -5067,6 +5067,7 @@ const zurueckgestellt = <String>{
   'Sopran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: hohe Stimmlage / Sängerin mit dieser Stimme / Stimmgruppe im Chor) — nach den Nomen 2026-11-04
   'Sorge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kummer, Besorgnis / Fürsorge, Bemühen um jmdn. («für etw. Sorge tragen»)) — nach den Nomen 2026-11-04
   'Sorgenkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kind, um das man sich sorgt / übertragen: Problembereich («Sorgenkind der Firma»)) — nach den Nomen 2026-11-04
+  'Sowjet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rat (Organ) in der Sowjetunion / Plural ugs.: «die Sowjets» = die Sowjetunion, ihre Führung) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
