@@ -5038,6 +5038,9 @@ const zurueckgestellt = <String>{
   'Sitte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brauch, Gewohnheit / Plural: Moral, Anstand («gute Sitten»)) — nach den Nomen 2026-11-04
   'Sitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sitzplatz / Firmensitz, Amtssitz / Sitz im Parlament / Passform der Kleidung) — nach den Nomen 2026-11-04
   'Sitzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versammlung, Besprechung / Behandlungstermin (Therapie) / Sitzung beim Maler) — nach den Nomen 2026-11-04
+  'Sixt', // zurückgestellt: Firmenname (Regel 18) — Regel 14 — 2026-11-04
+  'Skala', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Messskala / Bandbreite, Abstufung («Farbskala») / Musik: Tonleiter) — nach den Nomen 2026-11-04
+  'Skat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kartenspiel / die zwei verdeckt abgelegten Karten); Plural -e/-s — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

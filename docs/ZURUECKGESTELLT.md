@@ -2761,6 +2761,7 @@
 | ۲۵۸۲ | Silo | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der/das Silo) — Regel 14 | — |
 | ۲۵۸۳ | Sinai | `substantiv_singular_alle.txt` | 2026-11-04 | Bezug unsicher (Halbinsel bzw. Berg Sinai; Artikelgebrauch) — Regel 14 | — |
 | ۲۵۸۴ | Site | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Website), Gebrauch als eigenes Nomen unsicher — Regel 14 | — |
+| ۲۵۸۵ | Sixt | `substantiv_singular_alle.txt` | 2026-11-04 | Firmenname (Regel 18) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5006,3 +5007,5 @@
 | 2401 | Sitte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brauch, Gewohnheit / Plural: Moral, Anstand («gute Sitten»)) |
 | 2402 | Sitz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sitzplatz / Firmensitz, Amtssitz / Sitz im Parlament / Passform der Kleidung) |
 | 2403 | Sitzung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Versammlung, Besprechung / Behandlungstermin (Therapie) / Sitzung beim Maler) |
+| 2404 | Skala | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Messskala / Bandbreite, Abstufung («Farbskala») / Musik: Tonleiter) |
+| 2405 | Skat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kartenspiel / die zwei verdeckt abgelegten Karten); Plural -e/-s |
