@@ -5031,6 +5031,13 @@ const zurueckgestellt = <String>{
   'Silo', // zurückgestellt: Artikel doppelt (der/das Silo) — Regel 14 — 2026-11-04
   'Simulation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nachbildung, Computersimulation / Vortäuschung einer Krankheit) — nach den Nomen 2026-11-04
   'Sinai', // zurückgestellt: Bezug unsicher (Halbinsel bzw. Berg Sinai; Artikelgebrauch) — Regel 14 — 2026-11-04
+  'Sinn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinnesorgan (Sehen, Hören …) / Bedeutung, Zweck / Verständnis, Gespür («Sinn für Humor»)) — nach den Nomen 2026-11-04
+  'Sintflut', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: biblische Flut / übertragen: riesige Menge («eine Sintflut von Briefen»)) — nach den Nomen 2026-11-04
+  'Sirene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Warnsignal, Alarmanlage / Mythologie: Fabelwesen / Zoologie: Seekuh) — nach den Nomen 2026-11-04
+  'Site', // zurückgestellt: Anglizismus (Website), Gebrauch als eigenes Nomen unsicher — Regel 14 — 2026-11-04
+  'Sitte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brauch, Gewohnheit / Plural: Moral, Anstand («gute Sitten»)) — nach den Nomen 2026-11-04
+  'Sitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sitzplatz / Firmensitz, Amtssitz / Sitz im Parlament / Passform der Kleidung) — nach den Nomen 2026-11-04
+  'Sitzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versammlung, Besprechung / Behandlungstermin (Therapie) / Sitzung beim Maler) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
