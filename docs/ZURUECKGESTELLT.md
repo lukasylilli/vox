@@ -4897,3 +4897,4 @@
 | 2316 | Schub | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Antriebskraft (Physik, Rakete) / Krankheitsschub / Gruppe, Ladung («ein Schub Gäste»)) |
 | 2317 | Schuld | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) |
 | 2318 | Schulgemeinde | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gemeinschaft von Schülern, Eltern, Lehrern / schweiz.: kommunaler Schulbezirk mit eigener Verwaltung) |
+| 2319 | Schulrat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schulaufsichtsbeamter (Person) / Gremium, Schulbehörde (bes. schweiz.)) |
