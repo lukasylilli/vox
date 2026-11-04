@@ -4900,6 +4900,15 @@ const zurueckgestellt = <String>{
   'Schnabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogelschnabel / ugs.: Mund («Halt den Schnabel!») / Ausguss einer Kanne) — nach den Nomen 2026-11-04
   'Schnauze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tiermaul / derb: Mund («die Schnauze voll haben») / ugs.: Vorderteil von Auto, Flugzeug) — nach den Nomen 2026-11-04
   'Schnecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Gebäck (Zimtschnecke) / Gehörschnecke im Ohr) — nach den Nomen 2026-11-04
+  'Schneewittchen', // zurückgestellt: Name einer Märchenfigur (Personenname) — keine Eigennamen-Karte nach Regel 18 — Regel 14 — 2026-11-04
+  'Schneid', // zurückgestellt: Artikel doppelt (der Schneid, bayr./österr. die Schneid), umgangssprachlich — Regel 14 — 2026-11-04
+  'Schneise', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Waldschneise / Flugschneise / übertragen: «eine Schneise schlagen») — nach den Nomen 2026-11-04
+  'Schneller', // zurückgestellt: Bedeutung unsicher (landschaftlich: Murmel, Schnipser; sonst Komparativ «schneller») — Regel 14 — Regel 14 — 2026-11-04
+  'Schnellschuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: schneller Schuss / ugs.: übereilte Entscheidung, Schnellprodukt) — nach den Nomen 2026-11-04
+  'Schnellverfahren', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: beschleunigtes Strafverfahren / allgemein: schnelle Methode) — nach den Nomen 2026-11-04
+  'Schnickschnack', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: überflüssiges Beiwerk, wertloses Zeug / ugs.: dummes Gerede) — nach den Nomen 2026-11-04
+  'Schnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schnittwunde / Haarschnitt / Durchschnitt («im Schnitt») / Filmschnitt / Schnittmuster) — nach den Nomen 2026-11-04
+  'Schnitte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brotscheibe, belegtes Brot / österr.: Waffel / ugs.: attraktive Frau) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

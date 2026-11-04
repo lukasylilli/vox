@@ -2729,6 +2729,9 @@
 | ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-04 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۵۳ | Schlich | `substantiv_singular_alle.txt` | 2026-11-04 | Singular kaum gebräuchlich; fast nur in «jemandem auf die Schliche kommen» (Plural) bzw. Fachwort (Erzschlamm) — Regel 14 | — |
 | ۲۵۵۴ | Schlussrang | `substantiv_singular_alle.txt` | 2026-11-04 | besonders schweizerisch (Platzierung am Ende), Gebrauch unsicher — Regel 14 | — |
+| ۲۵۵۵ | Schneewittchen | `substantiv_singular_alle.txt` | 2026-11-04 | Name einer Märchenfigur (Personenname) — keine Eigennamen-Karte nach Regel 18 — Regel 14 | — |
+| ۲۵۵۶ | Schneid | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der Schneid, bayr./österr. die Schneid), umgangssprachlich — Regel 14 | — |
+| ۲۵۵۷ | Schneller | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (landschaftlich: Murmel, Schnipser; sonst Komparativ «schneller») — Regel 14 — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4868,3 +4871,9 @@
 | 2293 | Schnabel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogelschnabel / ugs.: Mund («Halt den Schnabel!») / Ausguss einer Kanne) |
 | 2294 | Schnauze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tiermaul / derb: Mund («die Schnauze voll haben») / ugs.: Vorderteil von Auto, Flugzeug) |
 | 2295 | Schnecke | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Gebäck (Zimtschnecke) / Gehörschnecke im Ohr) |
+| 2296 | Schneise | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Waldschneise / Flugschneise / übertragen: «eine Schneise schlagen») |
+| 2297 | Schnellschuss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: schneller Schuss / ugs.: übereilte Entscheidung, Schnellprodukt) |
+| 2298 | Schnellverfahren | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Recht: beschleunigtes Strafverfahren / allgemein: schnelle Methode) |
+| 2299 | Schnickschnack | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: überflüssiges Beiwerk, wertloses Zeug / ugs.: dummes Gerede) |
+| 2300 | Schnitt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schnittwunde / Haarschnitt / Durchschnitt («im Schnitt») / Filmschnitt / Schnittmuster) |
+| 2301 | Schnitte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brotscheibe, belegtes Brot / österr.: Waffel / ugs.: attraktive Frau) |
