@@ -4833,3 +4833,11 @@
 | 2262 | Schinken | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Fleischware / ugs.: dickes Buch, großes Gemälde) |
 | 2263 | Schippe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) |
 | 2264 | Schirm | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) |
+| 2265 | Schizophrenie | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») |
+| 2266 | Schlachtfeld | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») |
+| 2267 | Schlag | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) |
+| 2268 | Schlagabtausch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) |
+| 2269 | Schlager | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) |
+| 2270 | Schlagkraft | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») |
+| 2271 | Schlaglicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) |
+| 2272 | Schlagwort | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) |

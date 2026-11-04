@@ -4865,6 +4865,14 @@ const zurueckgestellt = <String>{
   'Schippe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schaufel / ugs. «jemanden auf die Schippe nehmen» / Pik (Spielkarten) / ugs.: Schmollmund) — nach den Nomen 2026-11-03
   'Schirm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Regenschirm / Bildschirm, Lampenschirm / Mützenschirm / übertragen: Schutz) — nach den Nomen 2026-11-03
   'Schirmer', // zurückgestellt: Familienname — Regel 14 — 2026-11-03
+  'Schizophrenie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: psychische Krankheit / bildungssprachlich: Widersinnigkeit, Widerspruch «die Schizophrenie dieser Politik») — nach den Nomen 2026-11-03
+  'Schlachtfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort einer Schlacht / ugs. übertragen: große Unordnung «die Küche war ein Schlachtfeld») — nach den Nomen 2026-11-03
+  'Schlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hieb / Herzschlag, Glockenschlag / Stromschlag, Schlaganfall / Schicksalsschlag / österr. Schlagobers / Menschenschlag) — nach den Nomen 2026-11-03
+  'Schlagabtausch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Austausch von Schlägen / übertragen: heftiges Wortgefecht) — nach den Nomen 2026-11-03
+  'Schlager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: populäres Lied, Schlagermusik / übertragen: Verkaufsschlager, Erfolg) — nach den Nomen 2026-11-03
+  'Schlagkraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») — nach den Nomen 2026-11-03
+  'Schlaglicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) — nach den Nomen 2026-11-03
+  'Schlagwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
