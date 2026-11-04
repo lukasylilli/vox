@@ -1,0 +1,119 @@
+{
+  "schema": "3.0",
+  "id": "nomen_sparkasse",
+  "wort": "die Sparkasse",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بانک پس‌انداز (اشپارکاسه)"
+    ],
+    "en": [
+      "savings bank"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Bank"
+  ],
+  "ipa": "ˈʃpaːɐ̯ˌkasə",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe ein Konto bei der Sparkasse.",
+      "uebersetzung": {
+        "fa": "من در اشپارکاسه حساب دارم.",
+        "en": "I have an account at the savings bank."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Sparkasse hat in unserem Dorf ihre Filiale geschlossen, sodass wir jetzt in die Stadt fahren müssen.",
+      "uebersetzung": {
+        "fa": "اشپارکاسه شعبه‌اش را در روستای ما بسته، طوری که حالا باید به شهر برویم.",
+        "en": "The savings bank has closed its branch in our village, so we now have to drive to town."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sparen (پس‌انداز کردن) + Kasse (صندوق)",
+    "en": "sparen (to save) + Kasse (fund, cash box)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Sparkassen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "die Filiale",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شعبه",
+          "en": "branch"
+        },
+        "id_ref": "nomen_filiale"
+      },
+      {
+        "wort": "das Sparbuch",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دفترچه‌ی پس‌انداز",
+          "en": "savings book"
+        },
+        "id_ref": "nomen_sparbuch"
+      },
+      {
+        "wort": "das Girokonto",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حساب جاری",
+          "en": "current account"
+        },
+        "id_ref": "nomen_girokonto"
+      },
+      {
+        "wort": "sparen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پس‌انداز کردن، صرفه‌جویی کردن",
+          "en": "to save"
+        },
+        "id_ref": "verb_sparen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

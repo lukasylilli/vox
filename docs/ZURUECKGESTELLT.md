@@ -5044,3 +5044,5 @@
 | 2431 | Spanner | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gerät zum Spannen (Schuhspanner) / ugs. abwertend: Voyeur / Schmetterling (Zoologie)) |
 | 2432 | Spannung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Neugier, Nervenkitzel / Konflikt, gespannte Lage / Elektrotechnik: elektrische Spannung) |
 | 2433 | Spannweite | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) |
+| 2434 | Sparte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geschäftsbereich, Branche, Fachgebiet / Rubrik einer Zeitung) |
+| 2435 | Spatz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogel (Sperling) / ugs. Kosewort für ein Kind); Deklination schwankend |

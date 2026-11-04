@@ -5076,6 +5076,8 @@ const zurueckgestellt = <String>{
   'Spanner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Spannen (Schuhspanner) / ugs. abwertend: Voyeur / Schmetterling (Zoologie)) — nach den Nomen 2026-11-04
   'Spannung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Neugier, Nervenkitzel / Konflikt, gespannte Lage / Elektrotechnik: elektrische Spannung) — nach den Nomen 2026-11-04
   'Spannweite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flügelspannweite / Weite einer Brücke / übertragen: Bandbreite) — nach den Nomen 2026-11-04
+  'Sparte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschäftsbereich, Branche, Fachgebiet / Rubrik einer Zeitung) — nach den Nomen 2026-11-04
+  'Spatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel (Sperling) / ugs. Kosewort für ein Kind); Deklination schwankend — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
