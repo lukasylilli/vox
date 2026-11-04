@@ -4838,6 +4838,16 @@ const zurueckgestellt = <String>{
   'Schauspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») — nach den Nomen 2026-11-03
   'Schauspielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») — nach den Nomen 2026-11-03
   'Scheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) — nach den Nomen 2026-11-03
+  'Scheich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) — nach den Nomen 2026-11-03
+  'Schein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») — nach den Nomen 2026-11-03
+  'Scheinwerferlicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») — nach den Nomen 2026-11-03
+  'Scheitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») — nach den Nomen 2026-11-03
+  'Schenk', // zurückgestellt: veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 — 2026-11-03
+  'Schenkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) — nach den Nomen 2026-11-03
+  'Schenker', // zurückgestellt: selten (Person, die schenkt) bzw. Familienname — Regel 14 — 2026-11-03
+  'Scherben', // zurückgestellt: regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 — 2026-11-03
+  'Scherbenhaufen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») — nach den Nomen 2026-11-03
+  'Schere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

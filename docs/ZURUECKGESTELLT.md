@@ -2717,6 +2717,9 @@
 | ۲۵۴۰ | Schalk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltend, fast nur in fester Wendung («ihm sitzt der Schalk im Nacken») — Regel 14 | — |
 | ۲۵۴۱ | Schalke | `substantiv_singular_alle.txt` | 2026-11-03 | Name (Stadtteil von Gelsenkirchen, Fußballverein FC Schalke 04) — Regel 18 — Regel 14 | — |
 | ۲۵۴۲ | Schaub | `substantiv_singular_alle.txt` | 2026-11-03 | selten (landschaftlich: Strohbündel) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۳ | Schenk | `substantiv_singular_alle.txt` | 2026-11-03 | veraltet (Mundschenk, Wirt) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۴ | Schenker | `substantiv_singular_alle.txt` | 2026-11-03 | selten (Person, die schenkt) bzw. Familienname — Regel 14 | — |
+| ۲۵۴۵ | Scherben | `substantiv_singular_alle.txt` | 2026-11-03 | regionale Nebenform (süddt./österr. «der Scherben» = die Scherbe; Fachsprache: Blumentopf, Keramik), Lemma unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4806,3 +4809,10 @@
 | 2243 | Schauspiel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Theaterstück, Drama / Schauspielkunst / übertragen: Anblick, Spektakel «ein Schauspiel der Natur») |
 | 2244 | Schauspielerei | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: ugs. Beruf des Schauspielers / abwertend: Verstellung, Theater «Das ist doch alles Schauspielerei») |
 | 2245 | Scheibe | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Brot-, Wurstscheibe / Glasscheibe, Fenster / runde flache Platte, Zielscheibe) |
+| 2246 | Scheich | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: arabischer Herrscher, Stammesoberhaupt / ugs. salopp: Freund, Liebhaber) |
+| 2247 | Schein | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht, Lichtschein / äußerer Anschein «der Schein trügt» / Geldschein / Bescheinigung «Krankenschein, Führerschein») |
+| 2248 | Scheinwerferlicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Licht eines Scheinwerfers / übertragen: öffentliche Aufmerksamkeit «im Scheinwerferlicht stehen») |
+| 2249 | Scheitel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Haarscheitel / höchster Punkt, Scheitelpunkt (Mathematik) / gehoben: Kopf «vom Scheitel bis zur Sohle») |
+| 2250 | Schenkel | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Oberschenkel, Bein / Schenkel eines Winkels, einer Zange) |
+| 2251 | Scherbenhaufen | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Haufen aus Scherben / übertragen: Trümmer, Scheitern «vor einem Scherbenhaufen stehen») |
+| 2252 | Schere | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Schneidewerkzeug / Krebsschere / übertragen: wachsender Abstand «die Schere zwischen Arm und Reich») |
