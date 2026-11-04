@@ -4888,6 +4888,13 @@ const zurueckgestellt = <String>{
   'Schloss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude (Palast, Burg) / Türschloss) — nach den Nomen 2026-11-04
   'Schlupfloch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Öffnung zum Durchschlüpfen / Versteck / übertragen: Gesetzeslücke) — nach den Nomen 2026-11-04
   'Schluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ende / Folgerung («zu dem Schluss kommen»); «Schluss machen» (Beziehung beenden)) — nach den Nomen 2026-11-04
+  'Schlusslicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rücklicht am Fahrzeug / übertragen: Letzter, Tabellenletzter) — nach den Nomen 2026-11-04
+  'Schlussmann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Torwart / letzter Läufer einer Staffel / Letzter einer Reihe) — nach den Nomen 2026-11-04
+  'Schlusspunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Punkt am Satzende / übertragen: Abschluss, Ende («einen Schlusspunkt setzen»)) — nach den Nomen 2026-11-04
+  'Schlussrang', // zurückgestellt: besonders schweizerisch (Platzierung am Ende), Gebrauch unsicher — Regel 14 — 2026-11-04
+  'Schmankerl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: süddt./österr.: Leckerbissen, besonderes Gericht / übertragen: besonderer Höhepunkt, Zugabe) — nach den Nomen 2026-11-04
+  'Schmelz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahnschmelz / Glasur, Email / Wohlklang der Stimme) — nach den Nomen 2026-11-04
+  'Schmerz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperlicher Schmerz / seelischer Schmerz, Kummer; meist Plural «Schmerzen») — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

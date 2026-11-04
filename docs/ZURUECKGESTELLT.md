@@ -2728,6 +2728,7 @@
 | ۲۵۵۱ | Schlamassel | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 | — |
 | ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-04 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۵۳ | Schlich | `substantiv_singular_alle.txt` | 2026-11-04 | Singular kaum gebräuchlich; fast nur in «jemandem auf die Schliche kommen» (Plural) bzw. Fachwort (Erzschlamm) — Regel 14 | — |
+| ۲۵۵۴ | Schlussrang | `substantiv_singular_alle.txt` | 2026-11-04 | besonders schweizerisch (Platzierung am Ende), Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4856,3 +4857,9 @@
 | 2282 | Schloss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gebäude (Palast, Burg) / Türschloss) |
 | 2283 | Schlupfloch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Öffnung zum Durchschlüpfen / Versteck / übertragen: Gesetzeslücke) |
 | 2284 | Schluss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ende / Folgerung («zu dem Schluss kommen»); «Schluss machen» (Beziehung beenden)) |
+| 2285 | Schlusslicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rücklicht am Fahrzeug / übertragen: Letzter, Tabellenletzter) |
+| 2286 | Schlussmann | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: Torwart / letzter Läufer einer Staffel / Letzter einer Reihe) |
+| 2287 | Schlusspunkt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Punkt am Satzende / übertragen: Abschluss, Ende («einen Schlusspunkt setzen»)) |
+| 2288 | Schmankerl | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: süddt./österr.: Leckerbissen, besonderes Gericht / übertragen: besonderer Höhepunkt, Zugabe) |
+| 2289 | Schmelz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zahnschmelz / Glasur, Email / Wohlklang der Stimme) |
+| 2290 | Schmerz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: körperlicher Schmerz / seelischer Schmerz, Kummer; meist Plural «Schmerzen») |
