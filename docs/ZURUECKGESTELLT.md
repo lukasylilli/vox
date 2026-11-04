@@ -2739,6 +2739,7 @@
 | ۲۵۶۲ | Schwaiger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (bairisch: Senner, Viehwirt; sonst Familienname) — Regel 14 | — |
 | ۲۵۶۳ | Schwarzafrikaner | `substantiv_singular_alle.txt` | 2026-11-04 | Bezeichnung wird teils als diskriminierend empfunden; Bewertung unsicher — Regel 14 | — |
 | ۲۵۶۴ | Schwebe | `substantiv_singular_alle.txt` | 2026-11-04 | fast nur in der festen Wendung «in der Schwebe» — Regel 14 | — |
+| ۲۵۶۵ | Schweiger | `substantiv_singular_alle.txt` | 2026-11-04 | selten (nur «der große Schweiger») bzw. Familienname — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4912,3 +4913,10 @@
 | 2327 | Schwanz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schwanz eines Tieres / Ende, Schluss einer Reihe / vulgär: Penis) |
 | 2328 | Schwarm | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gruppe von Tieren (Vögel, Fische, Bienen) / ugs.: heimlich verehrte Person) |
 | 2329 | Schwarzer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Adjektiv: der Schwarze / ein Schwarzer; zudem österr.: «ein kleiner Schwarzer» = Mokka) |
+| 2330 | Schwein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Schimpfwort für Menschen / ugs. «Schwein haben» = Glück haben) |
+| 2331 | Schweinchen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: kleines Schwein / Kindersprache: schmutziges Kind; vgl. Meerschweinchen) |
+| 2332 | Schweinerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. Schmutz, Unordnung / Gemeinheit, Skandal / Zote) |
+| 2333 | Schwelle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Türschwelle / Grenzwert («Schwelle zu») / Eisenbahnschwelle) |
+| 2334 | Schwere | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gewicht, Schwerkraft / Schwere eines Verbrechens, einer Krankheit / Schwierigkeit) |
+| 2335 | Schwergewicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gewichtsklasse im Sport / Person in dieser Klasse / übertragen: wichtige Person, Hauptgewicht) |
+| 2336 | Schwerpunkt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Massenmittelpunkt / Hauptgewicht, Fokus («Schwerpunkt auf»)) |

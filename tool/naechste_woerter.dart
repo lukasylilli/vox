@@ -4944,6 +4944,14 @@ const zurueckgestellt = <String>{
   'Schwarzafrikaner', // zurückgestellt: Bezeichnung wird teils als diskriminierend empfunden; Bewertung unsicher — Regel 14 — 2026-11-04
   'Schwarzer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der Schwarze / ein Schwarzer; zudem österr.: «ein kleiner Schwarzer» = Mokka) — nach den Nomen 2026-11-04
   'Schwebe', // zurückgestellt: fast nur in der festen Wendung «in der Schwebe» — Regel 14 — 2026-11-04
+  'Schweiger', // zurückgestellt: selten (nur «der große Schweiger») bzw. Familienname — Regel 14 — 2026-11-04
+  'Schwein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Schimpfwort für Menschen / ugs. «Schwein haben» = Glück haben) — nach den Nomen 2026-11-04
+  'Schweinchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Schwein / Kindersprache: schmutziges Kind; vgl. Meerschweinchen) — nach den Nomen 2026-11-04
+  'Schweinerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Schmutz, Unordnung / Gemeinheit, Skandal / Zote) — nach den Nomen 2026-11-04
+  'Schwelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Türschwelle / Grenzwert («Schwelle zu») / Eisenbahnschwelle) — nach den Nomen 2026-11-04
+  'Schwere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewicht, Schwerkraft / Schwere eines Verbrechens, einer Krankheit / Schwierigkeit) — nach den Nomen 2026-11-04
+  'Schwergewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewichtsklasse im Sport / Person in dieser Klasse / übertragen: wichtige Person, Hauptgewicht) — nach den Nomen 2026-11-04
+  'Schwerpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Massenmittelpunkt / Hauptgewicht, Fokus («Schwerpunkt auf»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
