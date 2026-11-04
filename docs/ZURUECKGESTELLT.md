@@ -4920,3 +4920,9 @@
 | 2334 | Schwere | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gewicht, Schwerkraft / Schwere eines Verbrechens, einer Krankheit / Schwierigkeit) |
 | 2335 | Schwergewicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gewichtsklasse im Sport / Person in dieser Klasse / übertragen: wichtige Person, Hauptgewicht) |
 | 2336 | Schwerpunkt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Massenmittelpunkt / Hauptgewicht, Fokus («Schwerpunkt auf»)) |
+| 2337 | Schwerverletzter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Adjektiv: der/die Schwerverletzte / ein Schwerverletzter) |
+| 2338 | Schwester | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geschwister / Krankenschwester, Pflegerin / Ordensschwester) |
+| 2339 | Schwimmer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Person, die schwimmt / Technik: Schwimmkörper (Vergaser, Spülkasten) / Angeln: Pose) |
+| 2340 | Schwindel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gleichgewichtsstörung (Medizin) / Betrug, Lüge) |
+| 2341 | Schwinge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: gehoben: Flügel / landschaftlich: flacher Korb / Technik: Schwingarm) |
+| 2342 | Schwinger | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Boxen: Schlag mit gestrecktem Arm / schweiz.: Ringer beim Schwingen) |

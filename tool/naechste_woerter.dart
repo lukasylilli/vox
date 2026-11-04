@@ -4952,6 +4952,12 @@ const zurueckgestellt = <String>{
   'Schwere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewicht, Schwerkraft / Schwere eines Verbrechens, einer Krankheit / Schwierigkeit) — nach den Nomen 2026-11-04
   'Schwergewicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewichtsklasse im Sport / Person in dieser Klasse / übertragen: wichtige Person, Hauptgewicht) — nach den Nomen 2026-11-04
   'Schwerpunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Massenmittelpunkt / Hauptgewicht, Fokus («Schwerpunkt auf»)) — nach den Nomen 2026-11-04
+  'Schwerverletzter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Schwerverletzte / ein Schwerverletzter) — nach den Nomen 2026-11-04
+  'Schwester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwister / Krankenschwester, Pflegerin / Ordensschwester) — nach den Nomen 2026-11-04
+  'Schwimmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die schwimmt / Technik: Schwimmkörper (Vergaser, Spülkasten) / Angeln: Pose) — nach den Nomen 2026-11-04
+  'Schwindel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gleichgewichtsstörung (Medizin) / Betrug, Lüge) — nach den Nomen 2026-11-04
+  'Schwinge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Flügel / landschaftlich: flacher Korb / Technik: Schwingarm) — nach den Nomen 2026-11-04
+  'Schwinger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: Schlag mit gestrecktem Arm / schweiz.: Ringer beim Schwingen) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
