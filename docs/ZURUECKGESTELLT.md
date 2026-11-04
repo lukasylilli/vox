@@ -2735,6 +2735,7 @@
 | ۲۵۵۸ | Schober | `substantiv_singular_alle.txt` | 2026-11-04 | landschaftlich (Heuhaufen, Feldscheune) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۵۹ | Schranz | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 | — |
 | ۲۵۶۰ | Schreier | `substantiv_singular_alle.txt` | 2026-11-04 | umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۶۱ | Schulze | `substantiv_singular_alle.txt` | 2026-11-04 | Familienname bzw. veraltet für Dorfvorsteher (Schultheiß) — Regel 14 — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4898,3 +4899,5 @@
 | 2317 | Schuld | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) |
 | 2318 | Schulgemeinde | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gemeinschaft von Schülern, Eltern, Lehrern / schweiz.: kommunaler Schulbezirk mit eigener Verwaltung) |
 | 2319 | Schulrat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schulaufsichtsbeamter (Person) / Gremium, Schulbehörde (bes. schweiz.)) |
+| 2320 | Schuppen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gartenschuppen (Hütte) / Plural von «die Schuppe» (Fisch-, Kopfschuppen) / ugs.: Lokal, Disco) |
+| 2321 | Schuss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schuss aus einer Waffe / Torschuss / kleine Menge («ein Schuss Milch») / «in Schuss» (in Ordnung)) |

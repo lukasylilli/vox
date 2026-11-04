@@ -4930,6 +4930,9 @@ const zurueckgestellt = <String>{
   'Schuld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) — nach den Nomen 2026-11-04
   'Schulgemeinde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft von Schülern, Eltern, Lehrern / schweiz.: kommunaler Schulbezirk mit eigener Verwaltung) — nach den Nomen 2026-11-04
   'Schulrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulaufsichtsbeamter (Person) / Gremium, Schulbehörde (bes. schweiz.)) — nach den Nomen 2026-11-04
+  'Schulze', // zurückgestellt: Familienname bzw. veraltet für Dorfvorsteher (Schultheiß) — Regel 14 — Regel 14 — 2026-11-04
+  'Schuppen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gartenschuppen (Hütte) / Plural von «die Schuppe» (Fisch-, Kopfschuppen) / ugs.: Lokal, Disco) — nach den Nomen 2026-11-04
+  'Schuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuss aus einer Waffe / Torschuss / kleine Menge («ein Schuss Milch») / «in Schuss» (in Ordnung)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
