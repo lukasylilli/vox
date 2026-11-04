@@ -5091,6 +5091,13 @@ const zurueckgestellt = <String>{
   'Spezifikation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: genaue technische Beschreibung / Wirtschaft: Aufstellung, Liste / Logik: Einteilung) — nach den Nomen 2026-11-04
   'Spiegel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Glas, in dem man sich sieht / Höhe, Konzentration (Wasser-, Blutzuckerspiegel) / Revers am Anzug) — nach den Nomen 2026-11-04
   'Spiegelung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reflexion von Licht / Medizin: Endoskopie (Magenspiegelung)) — nach den Nomen 2026-11-04
+  'Spiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spielen, Game / Wettkampf, Match / Technik: Spielraum zwischen Teilen) — nach den Nomen 2026-11-04
+  'Spielart', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art zu spielen / Variante, Abart) — nach den Nomen 2026-11-04
+  'Spielball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ball zum Spielen / übertragen: jemand, der anderen ausgeliefert ist) — nach den Nomen 2026-11-04
+  'Spieler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnehmer an einem Spiel, Sportler / Glücksspieler) — nach den Nomen 2026-11-04
+  'Spielerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: dauerndes Spielen / leichte Sache, Kleinigkeit / überflüssiges Zubehör, Gadget) — nach den Nomen 2026-11-04
+  'Spielerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnehmerin an einem Spiel, Sportlerin / Glücksspielerin) — nach den Nomen 2026-11-04
+  'Spielgemeinschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tippgemeinschaft beim Lotto / Sport: Zusammenschluss von Vereinen) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

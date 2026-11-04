@@ -5059,3 +5059,10 @@
 | 2445 | Spezifikation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: genaue technische Beschreibung / Wirtschaft: Aufstellung, Liste / Logik: Einteilung) |
 | 2446 | Spiegel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Glas, in dem man sich sieht / Höhe, Konzentration (Wasser-, Blutzuckerspiegel) / Revers am Anzug) |
 | 2447 | Spiegelung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reflexion von Licht / Medizin: Endoskopie (Magenspiegelung)) |
+| 2448 | Spiel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Spielen, Game / Wettkampf, Match / Technik: Spielraum zwischen Teilen) |
+| 2449 | Spielart | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Art zu spielen / Variante, Abart) |
+| 2450 | Spielball | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ball zum Spielen / übertragen: jemand, der anderen ausgeliefert ist) |
+| 2451 | Spieler | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Teilnehmer an einem Spiel, Sportler / Glücksspieler) |
+| 2452 | Spielerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: dauerndes Spielen / leichte Sache, Kleinigkeit / überflüssiges Zubehör, Gadget) |
+| 2453 | Spielerin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Teilnehmerin an einem Spiel, Sportlerin / Glücksspielerin) |
+| 2454 | Spielgemeinschaft | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tippgemeinschaft beim Lotto / Sport: Zusammenschluss von Vereinen) |
