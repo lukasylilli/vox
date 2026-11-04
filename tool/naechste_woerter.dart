@@ -5054,6 +5054,11 @@ const zurueckgestellt = <String>{
   'Sohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fuß-/Schuhsohle / Boden eines Tals, Flusses («Talsohle») / Bergbau: Stollenboden) — nach den Nomen 2026-11-04
   'Soja', // zurückgestellt: Artikel unsicher (die/das Soja) — Regel 14 — 2026-11-04
   'Solo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Solopartie / Sport: Alleingang / Kartenspiel); Plural -s/Soli — nach den Nomen 2026-11-04
+  'Sommernachtstraum', // zurückgestellt: Werktitel (Shakespeare «Ein Sommernachtstraum»), kein allgemeines Nomen — Regel 14 — 2026-11-04
+  'Sommertheater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theateraufführung im Sommer / übertragen: politisches Gezänk in der Sommerpause) — nach den Nomen 2026-11-04
+  'Sommerzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jahreszeit Sommer / Uhrzeitumstellung, MESZ) — nach den Nomen 2026-11-04
+  'Sonde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Schlauch, Magensonde / Raumsonde / Messsonde) — nach den Nomen 2026-11-04
+  'Sonderausgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besondere Ausgabe einer Zeitung, eines Buches / Steuerrecht: Sonderausgaben (absetzbare Kosten)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
