@@ -4987,6 +4987,11 @@ const zurueckgestellt = <String>{
   'Sekundenschnelle', // zurückgestellt: nur in der festen Wendung «in Sekundenschnelle» — Regel 14 — 2026-11-04
   'Selbstbewusstsein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Selbstvertrauen / Philosophie: Bewusstsein von sich selbst) — nach den Nomen 2026-11-04
   'Selbstkontrolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beherrschung der eigenen Gefühle / Kontrolle einer Branche durch sich selbst («freiwillige Selbstkontrolle»)) — nach den Nomen 2026-11-04
+  'Selektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auswahl / Biologie: natürliche Auslese / historisch: Selektion in NS-Lagern) — nach den Nomen 2026-11-04
+  'Seltenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: seltenes Vorkommen / seltener Gegenstand, Rarität) — nach den Nomen 2026-11-04
+  'Semester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Studienhalbjahr / ugs.: Student im … Semester; «ein älteres Semester» = älterer Mensch) — nach den Nomen 2026-11-04
+  'Seminar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehrveranstaltung, Kurs / Universitätsinstitut / Priesterseminar) — nach den Nomen 2026-11-04
+  'Senat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parlamentskammer / Landesregierung in Berlin, Hamburg, Bremen / Richterkollegium / Universitätsgremium) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

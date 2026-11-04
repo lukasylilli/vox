@@ -4955,3 +4955,8 @@
 | 2364 | Sektor | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bereich (Wirtschaftssektor) / Geometrie: Kreisausschnitt / Besatzungssektor (Berlin, Wien)) |
 | 2365 | Selbstbewusstsein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Selbstvertrauen / Philosophie: Bewusstsein von sich selbst) |
 | 2366 | Selbstkontrolle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Beherrschung der eigenen Gefühle / Kontrolle einer Branche durch sich selbst («freiwillige Selbstkontrolle»)) |
+| 2367 | Selektion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Auswahl / Biologie: natürliche Auslese / historisch: Selektion in NS-Lagern) |
+| 2368 | Seltenheit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: seltenes Vorkommen / seltener Gegenstand, Rarität) |
+| 2369 | Semester | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Studienhalbjahr / ugs.: Student im … Semester; «ein älteres Semester» = älterer Mensch) |
+| 2370 | Seminar | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Lehrveranstaltung, Kurs / Universitätsinstitut / Priesterseminar) |
+| 2371 | Senat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Parlamentskammer / Landesregierung in Berlin, Hamburg, Bremen / Richterkollegium / Universitätsgremium) |
