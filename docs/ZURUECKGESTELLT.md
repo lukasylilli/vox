@@ -2754,6 +2754,7 @@
 | ۲۵۷۵ | Serge | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/der Serge, Stoff), selten — Regel 14 | — |
 | ۲۵۷۶ | Sergeant | `substantiv_singular_alle.txt` | 2026-11-04 | Aussprache und Deklination doppelt (frz. -en/-en bzw. engl. -s/-s) — Regel 14 | — |
 | ۲۵۷۷ | Serra | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 | — |
+| ۲۵۷۸ | Shuttle | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der/das Shuttle) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -4977,3 +4978,8 @@
 | 2379 | Serie | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reihe, Folge / Fernsehserie / Produktionsserie) |
 | 2380 | Serum | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Blutserum / Impfserum, Gegengift); Plural Seren/Sera |
 | 2381 | Sessel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Polstersessel / österr.: Stuhl) |
+| 2382 | Sex | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geschlechtsverkehr / Sexualität / Sex-Appeal) |
+| 2383 | Sextett | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Musikstück für sechs Stimmen / Gruppe von sechs Musikern) |
+| 2384 | Show | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterhaltungssendung, Vorführung / ugs.: Getue («eine Show abziehen»)) |
+| 2385 | Sichel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Werkzeug / Mondsichel) |
+| 2386 | Sicherheit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schutz vor Gefahr / Gewissheit / Bürgschaft, Pfand (Kredit)) |

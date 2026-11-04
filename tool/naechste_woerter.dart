@@ -5009,6 +5009,12 @@ const zurueckgestellt = <String>{
   'Serra', // zurückgestellt: Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 — 2026-11-04
   'Serum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blutserum / Impfserum, Gegengift); Plural Seren/Sera — nach den Nomen 2026-11-04
   'Sessel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Polstersessel / österr.: Stuhl) — nach den Nomen 2026-11-04
+  'Sex', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschlechtsverkehr / Sexualität / Sex-Appeal) — nach den Nomen 2026-11-04
+  'Sextett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück für sechs Stimmen / Gruppe von sechs Musikern) — nach den Nomen 2026-11-04
+  'Show', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterhaltungssendung, Vorführung / ugs.: Getue («eine Show abziehen»)) — nach den Nomen 2026-11-04
+  'Shuttle', // zurückgestellt: Artikel doppelt (der/das Shuttle) — Regel 14 — 2026-11-04
+  'Sichel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werkzeug / Mondsichel) — nach den Nomen 2026-11-04
+  'Sicherheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz vor Gefahr / Gewissheit / Bürgschaft, Pfand (Kredit)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
