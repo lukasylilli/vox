@@ -4863,3 +4863,8 @@
 | 2288 | Schmankerl | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: süddt./österr.: Leckerbissen, besonderes Gericht / übertragen: besonderer Höhepunkt, Zugabe) |
 | 2289 | Schmelz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zahnschmelz / Glasur, Email / Wohlklang der Stimme) |
 | 2290 | Schmerz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: körperlicher Schmerz / seelischer Schmerz, Kummer; meist Plural «Schmerzen») |
+| 2291 | Schmerzgrenze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Grenze, ab der man Schmerz spürt / übertragen: Grenze des Erträglichen, z. B. beim Preis) |
+| 2292 | Schmuck | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schmuckstücke (Ringe, Ketten) / Verzierung, Dekoration (Weihnachtsschmuck)) |
+| 2293 | Schnabel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogelschnabel / ugs.: Mund («Halt den Schnabel!») / Ausguss einer Kanne) |
+| 2294 | Schnauze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tiermaul / derb: Mund («die Schnauze voll haben») / ugs.: Vorderteil von Auto, Flugzeug) |
+| 2295 | Schnecke | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Gebäck (Zimtschnecke) / Gehörschnecke im Ohr) |

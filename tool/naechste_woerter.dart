@@ -4895,6 +4895,11 @@ const zurueckgestellt = <String>{
   'Schmankerl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: süddt./österr.: Leckerbissen, besonderes Gericht / übertragen: besonderer Höhepunkt, Zugabe) — nach den Nomen 2026-11-04
   'Schmelz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahnschmelz / Glasur, Email / Wohlklang der Stimme) — nach den Nomen 2026-11-04
   'Schmerz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperlicher Schmerz / seelischer Schmerz, Kummer; meist Plural «Schmerzen») — nach den Nomen 2026-11-04
+  'Schmerzgrenze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grenze, ab der man Schmerz spürt / übertragen: Grenze des Erträglichen, z. B. beim Preis) — nach den Nomen 2026-11-04
+  'Schmuck', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schmuckstücke (Ringe, Ketten) / Verzierung, Dekoration (Weihnachtsschmuck)) — nach den Nomen 2026-11-04
+  'Schnabel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogelschnabel / ugs.: Mund («Halt den Schnabel!») / Ausguss einer Kanne) — nach den Nomen 2026-11-04
+  'Schnauze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tiermaul / derb: Mund («die Schnauze voll haben») / ugs.: Vorderteil von Auto, Flugzeug) — nach den Nomen 2026-11-04
+  'Schnecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Gebäck (Zimtschnecke) / Gehörschnecke im Ohr) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
