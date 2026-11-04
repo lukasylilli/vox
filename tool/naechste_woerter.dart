@@ -4933,6 +4933,12 @@ const zurueckgestellt = <String>{
   'Schulze', // zurückgestellt: Familienname bzw. veraltet für Dorfvorsteher (Schultheiß) — Regel 14 — Regel 14 — 2026-11-04
   'Schuppen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gartenschuppen (Hütte) / Plural von «die Schuppe» (Fisch-, Kopfschuppen) / ugs.: Lokal, Disco) — nach den Nomen 2026-11-04
   'Schuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuss aus einer Waffe / Torschuss / kleine Menge («ein Schuss Milch») / «in Schuss» (in Ordnung)) — nach den Nomen 2026-11-04
+  'Schutztruppe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Truppe zum Schutz einer Bevölkerung, z. B. UN-Schutztruppe / historisch: Kolonialtruppe des Deutschen Reichs) — nach den Nomen 2026-11-04
+  'Schwachsinn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. abwertend: Unsinn / Medizin veraltet: Intelligenzminderung — zudem abwertend) — nach den Nomen 2026-11-04
+  'Schwaiger', // zurückgestellt: Bedeutung unsicher (bairisch: Senner, Viehwirt; sonst Familienname) — Regel 14 — 2026-11-04
+  'Schwalbe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vogel / Fußball: vorgetäuschtes Foul) — nach den Nomen 2026-11-04
+  'Schwamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Putz-/Badeschwamm / süddt./österr.: Pilz / Hausschwamm (Holzfäule) / Meerestier) — nach den Nomen 2026-11-04
+  'Schwangere', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: die Schwangere / eine Schwangere) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

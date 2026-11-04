@@ -2736,6 +2736,7 @@
 | ۲۵۵۹ | Schranz | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Familienname; Musikrichtung «Schranz») — Regel 14 — Regel 14 | — |
 | ۲۵۶۰ | Schreier | `substantiv_singular_alle.txt` | 2026-11-04 | umgangssprachlich (Schreihals) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 | ۲۵۶۱ | Schulze | `substantiv_singular_alle.txt` | 2026-11-04 | Familienname bzw. veraltet für Dorfvorsteher (Schultheiß) — Regel 14 — Regel 14 | — |
+| ۲۵۶۲ | Schwaiger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (bairisch: Senner, Viehwirt; sonst Familienname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4901,3 +4902,8 @@
 | 2319 | Schulrat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schulaufsichtsbeamter (Person) / Gremium, Schulbehörde (bes. schweiz.)) |
 | 2320 | Schuppen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gartenschuppen (Hütte) / Plural von «die Schuppe» (Fisch-, Kopfschuppen) / ugs.: Lokal, Disco) |
 | 2321 | Schuss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schuss aus einer Waffe / Torschuss / kleine Menge («ein Schuss Milch») / «in Schuss» (in Ordnung)) |
+| 2322 | Schutztruppe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Truppe zum Schutz einer Bevölkerung, z. B. UN-Schutztruppe / historisch: Kolonialtruppe des Deutschen Reichs) |
+| 2323 | Schwachsinn | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. abwertend: Unsinn / Medizin veraltet: Intelligenzminderung — zudem abwertend) |
+| 2324 | Schwalbe | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vogel / Fußball: vorgetäuschtes Foul) |
+| 2325 | Schwamm | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Putz-/Badeschwamm / süddt./österr.: Pilz / Hausschwamm (Holzfäule) / Meerestier) |
+| 2326 | Schwangere | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Adjektiv: die Schwangere / eine Schwangere) |
