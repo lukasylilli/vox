@@ -4986,3 +4986,8 @@
 | 2387 | Sicherheitsfrage | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Frage der Sicherheit / Kontrollfrage beim Passwort) |
 | 2388 | Sicherstellung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Beschlagnahme durch die Polizei / Gewährleistung) |
 | 2389 | Sicherung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: elektrische Sicherung / Schutz, Absicherung / Datensicherung / Sicherung an der Waffe) |
+| 2390 | Sicht | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sichtweite, Aussicht / Sichtweise («aus meiner Sicht») / Zeitraum («auf lange Sicht»)) |
+| 2391 | Sichtung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Erblicken (eines Tieres, UFOs) / prüfendes Durchsehen von Unterlagen) |
+| 2392 | Sieben | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 2 (Homograph: die Sieben «Ziffer, Note, Linie» / das Sieben «Sieben von Mehl») |
+| 2393 | Siedlung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wohnsiedlung am Stadtrand / Niederlassung, Ansiedlung) |
+| 2394 | Siegeszug | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Zug der Sieger / übertragen: erfolgreiche Verbreitung («Siegeszug des Smartphones»)) |
