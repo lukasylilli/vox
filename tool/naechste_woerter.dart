@@ -4928,6 +4928,7 @@ const zurueckgestellt = <String>{
   'Schrott', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Altmetall / ugs.: wertloses Zeug, Unsinn) — nach den Nomen 2026-11-04
   'Schub', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Antriebskraft (Physik, Rakete) / Krankheitsschub / Gruppe, Ladung («ein Schub Gäste»)) — nach den Nomen 2026-11-04
   'Schuld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verantwortung für Fehler («Schuld haben») / Geldschuld (meist Plural «Schulden»)) — nach den Nomen 2026-11-04
+  'Schulgemeinde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemeinschaft von Schülern, Eltern, Lehrern / schweiz.: kommunaler Schulbezirk mit eigener Verwaltung) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
