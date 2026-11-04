@@ -5145,6 +5145,9 @@ const zurueckgestellt = <String>{
   'Spuk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geistererscheinung / ugs. abwertend: Lärm, Unfug) — nach den Nomen 2026-11-04
   'Spur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abdruck, Spur / Fahrspur / sehr kleine Menge (eine Spur Salz)) — nach den Nomen 2026-11-04
   'Sputnik', // zurückgestellt: Eigenname (Satellit), kein geografischer Name — Regel 18 — 2026-11-04
+  'Staat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Land als politische Einheit / Bundesstaat, Gliedstaat (USA) / veraltend: Prunk, festliche Kleidung («Staat machen»)) — nach den Nomen 2026-11-04
+  'Staatsamt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: öffentliches Amt im Staat / österr. historisch: Ministerium 1918–1920) — nach den Nomen 2026-11-04
+  'Staatsduma', // zurückgestellt: Eigenname (Parlament Russlands), kein geografischer Name — Regel 18 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

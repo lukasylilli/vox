@@ -2775,6 +2775,7 @@
 | ۲۵۹۶ | Spray | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (das/der Spray) — Regel 14 | — |
 | ۲۵۹۷ | Sprenger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Rasensprenger / Person, die sprengt) — Regel 14 | — |
 | ۲۵۹۸ | Sputnik | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Satellit), kein geografischer Name — Regel 18 | — |
+| ۲۵۹۹ | Staatsduma | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Parlament Russlands), kein geografischer Name — Regel 18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5113,3 +5114,5 @@
 | 2494 | Sprungbrett | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brett zum Springen (Schwimmbad, Turnen) / übertragen: Ausgangspunkt für Karriere) |
 | 2495 | Spuk | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geistererscheinung / ugs. abwertend: Lärm, Unfug) |
 | 2496 | Spur | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abdruck, Spur / Fahrspur / sehr kleine Menge (eine Spur Salz)) |
+| 2497 | Staat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Land als politische Einheit / Bundesstaat, Gliedstaat (USA) / veraltend: Prunk, festliche Kleidung («Staat machen»)) |
+| 2498 | Staatsamt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: öffentliches Amt im Staat / österr. historisch: Ministerium 1918–1920) |
