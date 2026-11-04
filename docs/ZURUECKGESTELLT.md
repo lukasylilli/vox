@@ -2774,6 +2774,7 @@
 | ۲۵۹۵ | Sporthilfe | `substantiv_singular_alle.txt` | 2026-11-04 | meist Name der Stiftung Deutsche Sporthilfe (Organisation, Regel 18); als allgemeines Lernwort unsicher — Regel 14 | — |
 | ۲۵۹۶ | Spray | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (das/der Spray) — Regel 14 | — |
 | ۲۵۹۷ | Sprenger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Rasensprenger / Person, die sprengt) — Regel 14 | — |
+| ۲۵۹۸ | Sputnik | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Satellit), kein geografischer Name — Regel 18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5102,3 +5103,13 @@
 | 2484 | Sprengstoff | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: explosiver Stoff / übertragen: brisantes Thema, Zündstoff) |
 | 2485 | Springen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: das Springen als Tätigkeit / Sport: Wettbewerb (Skispringen)) |
 | 2486 | Springer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sportler, der springt / Schach: Pferd, Springer / Arbeit: Aushilfskraft für wechselnde Stellen) |
+| 2487 | Sprint | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kurzstreckenlauf, Spurt / Projektarbeit (IT): kurzer Arbeitszyklus) |
+| 2488 | Sprinter | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kurzstreckenläufer / Kleintransporter (Markenname)) |
+| 2489 | Sprit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. Treibstoff, Benzin / ugs. Alkohol, Schnaps) |
+| 2490 | Spritze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Injektion, Spritze beim Arzt / Gerät zum Spritzen (Feuerwehrspritze, Spritzbeutel)) |
+| 2491 | Spross | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Pflanzentrieb / Nachkomme, Sohn) |
+| 2492 | Spruch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Satz, Spruch, Motto / Urteil (Schiedsspruch, Richterspruch)) |
+| 2493 | Sprung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Springen, Satz / Riss in Glas oder Porzellan) |
+| 2494 | Sprungbrett | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Brett zum Springen (Schwimmbad, Turnen) / übertragen: Ausgangspunkt für Karriere) |
+| 2495 | Spuk | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Geistererscheinung / ugs. abwertend: Lärm, Unfug) |
+| 2496 | Spur | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abdruck, Spur / Fahrspur / sehr kleine Menge (eine Spur Salz)) |

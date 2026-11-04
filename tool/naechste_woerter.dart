@@ -5134,6 +5134,17 @@ const zurueckgestellt = <String>{
   'Sprengstoff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: explosiver Stoff / übertragen: brisantes Thema, Zündstoff) — nach den Nomen 2026-11-04
   'Springen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Springen als Tätigkeit / Sport: Wettbewerb (Skispringen)) — nach den Nomen 2026-11-04
   'Springer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportler, der springt / Schach: Pferd, Springer / Arbeit: Aushilfskraft für wechselnde Stellen) — nach den Nomen 2026-11-04
+  'Sprint', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurzstreckenlauf, Spurt / Projektarbeit (IT): kurzer Arbeitszyklus) — nach den Nomen 2026-11-04
+  'Sprinter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurzstreckenläufer / Kleintransporter (Markenname)) — nach den Nomen 2026-11-04
+  'Sprit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Treibstoff, Benzin / ugs. Alkohol, Schnaps) — nach den Nomen 2026-11-04
+  'Spritze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Injektion, Spritze beim Arzt / Gerät zum Spritzen (Feuerwehrspritze, Spritzbeutel)) — nach den Nomen 2026-11-04
+  'Spross', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzentrieb / Nachkomme, Sohn) — nach den Nomen 2026-11-04
+  'Spruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Satz, Spruch, Motto / Urteil (Schiedsspruch, Richterspruch)) — nach den Nomen 2026-11-04
+  'Sprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Springen, Satz / Riss in Glas oder Porzellan) — nach den Nomen 2026-11-04
+  'Sprungbrett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Brett zum Springen (Schwimmbad, Turnen) / übertragen: Ausgangspunkt für Karriere) — nach den Nomen 2026-11-04
+  'Spuk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geistererscheinung / ugs. abwertend: Lärm, Unfug) — nach den Nomen 2026-11-04
+  'Spur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abdruck, Spur / Fahrspur / sehr kleine Menge (eine Spur Salz)) — nach den Nomen 2026-11-04
+  'Sputnik', // zurückgestellt: Eigenname (Satellit), kein geografischer Name — Regel 18 — 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
