@@ -5051,6 +5051,9 @@ const zurueckgestellt = <String>{
   'Sockel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterbau einer Statue, eines Hauses / Lampenfassung / Grundbetrag («Sockelbetrag»)) — nach den Nomen 2026-11-04
   'Socken', // zurückgestellt: Lemma/Artikel doppelt (die Socke / der Socken, österr. der Socken) — Regel 14 — 2026-11-04
   'Sog', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: saugende Strömung / übertragen: Anziehungskraft («in den Sog geraten»)) — nach den Nomen 2026-11-04
+  'Sohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fuß-/Schuhsohle / Boden eines Tals, Flusses («Talsohle») / Bergbau: Stollenboden) — nach den Nomen 2026-11-04
+  'Soja', // zurückgestellt: Artikel unsicher (die/das Soja) — Regel 14 — 2026-11-04
+  'Solo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Solopartie / Sport: Alleingang / Kartenspiel); Plural -s/Soli — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

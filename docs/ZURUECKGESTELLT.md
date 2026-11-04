@@ -2766,6 +2766,7 @@
 | ۲۵۸۷ | Soccer | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus, im Deutschen kaum gebräuchlich — Regel 14 | — |
 | ۲۵۸۸ | Society | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (High Society); Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۵۸۹ | Socken | `substantiv_singular_alle.txt` | 2026-11-04 | Lemma/Artikel doppelt (die Socke / der Socken, österr. der Socken) — Regel 14 | — |
+| ۲۵۹۰ | Soja | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/das Soja) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5019,3 +5020,5 @@
 | 2409 | Slip | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterhose / Seemannssprache: Slipanlage für Schiffe) |
 | 2410 | Sockel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterbau einer Statue, eines Hauses / Lampenfassung / Grundbetrag («Sockelbetrag»)) |
 | 2411 | Sog | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: saugende Strömung / übertragen: Anziehungskraft («in den Sog geraten»)) |
+| 2412 | Sohle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fuß-/Schuhsohle / Boden eines Tals, Flusses («Talsohle») / Bergbau: Stollenboden) |
+| 2413 | Solo | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Musik: Solopartie / Sport: Alleingang / Kartenspiel); Plural -s/Soli |
