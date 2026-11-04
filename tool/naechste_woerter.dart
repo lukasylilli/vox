@@ -4992,6 +4992,16 @@ const zurueckgestellt = <String>{
   'Semester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Studienhalbjahr / ugs.: Student im … Semester; «ein älteres Semester» = älterer Mensch) — nach den Nomen 2026-11-04
   'Seminar', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lehrveranstaltung, Kurs / Universitätsinstitut / Priesterseminar) — nach den Nomen 2026-11-04
   'Senat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parlamentskammer / Landesregierung in Berlin, Hamburg, Bremen / Richterkollegium / Universitätsgremium) — nach den Nomen 2026-11-04
+  'Send', // zurückgestellt: Bedeutung unsicher (Name des Volksfests in Münster; veraltet: Sendgericht) — Regel 14 — 2026-11-04
+  'Sender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Radio-/Fernsehsender / technisches Gerät, Sendeanlage / Absender) — nach den Nomen 2026-11-04
+  'Sendling', // zurückgestellt: Stadtteil von München bzw. veraltet für «Abgesandter» — Regel 14 — 2026-11-04
+  'Sendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Radio-/Fernsehsendung / Postsendung, Lieferung / gehoben: Auftrag, Mission) — nach den Nomen 2026-11-04
+  'Senior', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: älterer Mensch / Sport: Seniorenklasse / Vater bzw. Firmengründer (im Gegensatz zu Junior)) — nach den Nomen 2026-11-04
+  'Seniorin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ältere Frau / Sport: Seniorenklasse) — nach den Nomen 2026-11-04
+  'Senkung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Herabsetzung (Preise, Steuern) / Absinken des Bodens / Medizin: Blutsenkung / Verslehre) — nach den Nomen 2026-11-04
+  'Senn', // zurückgestellt: Plural/Deklination unsicher (-e bzw. österr. -en), regional (Alpen) — Regel 14 — 2026-11-04
+  'Senna', // zurückgestellt: Bedeutung unsicher (Heilpflanze/Abführmittel bzw. Personenname) — Regel 14 — 2026-11-04
+  'Sensation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: aufsehenerregendes Ereignis / Medizin, Psychologie: Empfindung) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

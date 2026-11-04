@@ -2745,6 +2745,10 @@
 | ۲۵۶۸ | Scientology | `substantiv_singular_alle.txt` | 2026-11-04 | Name einer Organisation (Regel 18) — Regel 14 | — |
 | ۲۵۶۹ | Screen | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Bildschirm, Jargon); Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۵۷۰ | Sekundenschnelle | `substantiv_singular_alle.txt` | 2026-11-04 | nur in der festen Wendung «in Sekundenschnelle» — Regel 14 | — |
+| ۲۵۷۱ | Send | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Name des Volksfests in Münster; veraltet: Sendgericht) — Regel 14 | — |
+| ۲۵۷۲ | Sendling | `substantiv_singular_alle.txt` | 2026-11-04 | Stadtteil von München bzw. veraltet für «Abgesandter» — Regel 14 | — |
+| ۲۵۷۳ | Senn | `substantiv_singular_alle.txt` | 2026-11-04 | Plural/Deklination unsicher (-e bzw. österr. -en), regional (Alpen) — Regel 14 | — |
+| ۲۵۷۴ | Senna | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Heilpflanze/Abführmittel bzw. Personenname) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4960,3 +4964,9 @@
 | 2369 | Semester | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Studienhalbjahr / ugs.: Student im … Semester; «ein älteres Semester» = älterer Mensch) |
 | 2370 | Seminar | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Lehrveranstaltung, Kurs / Universitätsinstitut / Priesterseminar) |
 | 2371 | Senat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Parlamentskammer / Landesregierung in Berlin, Hamburg, Bremen / Richterkollegium / Universitätsgremium) |
+| 2372 | Sender | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Radio-/Fernsehsender / technisches Gerät, Sendeanlage / Absender) |
+| 2373 | Sendung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Radio-/Fernsehsendung / Postsendung, Lieferung / gehoben: Auftrag, Mission) |
+| 2374 | Senior | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: älterer Mensch / Sport: Seniorenklasse / Vater bzw. Firmengründer (im Gegensatz zu Junior)) |
+| 2375 | Seniorin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ältere Frau / Sport: Seniorenklasse) |
+| 2376 | Senkung | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Herabsetzung (Preise, Steuern) / Absinken des Bodens / Medizin: Blutsenkung / Verslehre) |
+| 2377 | Sensation | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: aufsehenerregendes Ereignis / Medizin, Psychologie: Empfindung) |
