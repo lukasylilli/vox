@@ -5031,3 +5031,4 @@
 | 2419 | Sondergesandte | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 4 (substantiviertes Partizip: der/die Sondergesandte) |
 | 2420 | Sonderklasse | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) |
 | 2421 | Sonderpreis | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) |
+| 2422 | Sonnenschein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Licht der Sonne / ugs. Kosewort für einen geliebten Menschen, «mein Sonnenschein») |

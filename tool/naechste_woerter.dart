@@ -5063,6 +5063,7 @@ const zurueckgestellt = <String>{
   'Sondergesandte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Sondergesandte) — nach den Nomen 2026-11-04
   'Sonderklasse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: besondere Qualitätsstufe («der Sonderklasse») / österr. Krankenhaus: Privatstation / Schule: Sonderklasse) — nach den Nomen 2026-11-04
   'Sonderpreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ermäßigter Preis / besondere Auszeichnung, Preis einer Jury) — nach den Nomen 2026-11-04
+  'Sonnenschein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Licht der Sonne / ugs. Kosewort für einen geliebten Menschen, «mein Sonnenschein») — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
