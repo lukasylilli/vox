@@ -5104,6 +5104,14 @@ const zurueckgestellt = <String>{
   'Spielwiese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wiese zum Spielen / übertragen: Feld zum Ausprobieren) — nach den Nomen 2026-11-04
   'Spielzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Saison (Theater, Sport) / Dauer eines Spiels, Films) — nach den Nomen 2026-11-04
   'Spike', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Metallstift an Sohle oder Reifen / Laufschuh mit Spikes) — nach den Nomen 2026-11-04
+  'Spin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Eigendrehimpuls / Sport: Drall eines Balls / Politik: gezielte Deutung, Spin) — nach den Nomen 2026-11-04
+  'Spinner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. verrückter Mensch / Arbeiter in einer Spinnerei / Angeln: Köder) — nach den Nomen 2026-11-04
+  'Spinnerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fabrik zum Spinnen von Garn / ugs. verrückte Idee) — nach den Nomen 2026-11-04
+  'Spion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Agent, der spioniert / Guckloch in der Tür) — nach den Nomen 2026-11-04
+  'Spirale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schraubenlinie, Spirale / Verhütungsmittel (Spirale) / übertragen: Preis-, Gewaltspirale) — nach den Nomen 2026-11-04
+  'Spirit', // zurückgestellt: Anglizismus (Geist, Schwung), Gebrauch und Genus als Lernwort unsicher — Regel 14 — 2026-11-04
+  'Spitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) — nach den Nomen 2026-11-04
+  'Spitze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

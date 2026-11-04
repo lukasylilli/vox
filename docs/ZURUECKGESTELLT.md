@@ -2770,6 +2770,7 @@
 | ۲۵۹۱ | Sommernachtstraum | `substantiv_singular_alle.txt` | 2026-11-04 | Werktitel (Shakespeare «Ein Sommernachtstraum»), kein allgemeines Nomen — Regel 14 | — |
 | ۲۵۹۲ | Spaghetti | `substantiv_singular_alle.txt` | 2026-11-04 | Pluraletantum (die Spaghetti); Artikel der Liste (der) passt nicht, Kartenform unklar — Regel 14 | — |
 | ۲۵۹۳ | Spider | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Roadster, offener Sportwagen), Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۵۹۴ | Spirit | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Geist, Schwung), Gebrauch und Genus als Lernwort unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5072,3 +5073,10 @@
 | 2458 | Spielwiese | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wiese zum Spielen / übertragen: Feld zum Ausprobieren) |
 | 2459 | Spielzeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Saison (Theater, Sport) / Dauer eines Spiels, Films) |
 | 2460 | Spike | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Metallstift an Sohle oder Reifen / Laufschuh mit Spikes) |
+| 2461 | Spin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Physik: Eigendrehimpuls / Sport: Drall eines Balls / Politik: gezielte Deutung, Spin) |
+| 2462 | Spinner | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: ugs. verrückter Mensch / Arbeiter in einer Spinnerei / Angeln: Köder) |
+| 2463 | Spinnerei | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fabrik zum Spinnen von Garn / ugs. verrückte Idee) |
+| 2464 | Spion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Agent, der spioniert / Guckloch in der Tür) |
+| 2465 | Spirale | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schraubenlinie, Spirale / Verhütungsmittel (Spirale) / übertragen: Preis-, Gewaltspirale) |
+| 2466 | Spitz | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Hunderasse / ugs. leichter Rausch / spitzes Ende) |
+| 2467 | Spitze | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: spitzes Ende, Gipfel / Führung, Spitzenposition / Gewebe aus Garn (Klöppelspitze) / ugs. Spitze! = toll) |
