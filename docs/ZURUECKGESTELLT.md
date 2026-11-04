@@ -4953,3 +4953,5 @@
 | 2362 | Seitenwechsel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sport: Wechsel der Spielfeldhälfte / Wechsel zur Gegenpartei) |
 | 2363 | Sektion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abteilung, Bereich / Medizin: Leichenöffnung, Obduktion) |
 | 2364 | Sektor | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Bereich (Wirtschaftssektor) / Geometrie: Kreisausschnitt / Besatzungssektor (Berlin, Wien)) |
+| 2365 | Selbstbewusstsein | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Selbstvertrauen / Philosophie: Bewusstsein von sich selbst) |
+| 2366 | Selbstkontrolle | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Beherrschung der eigenen Gefühle / Kontrolle einer Branche durch sich selbst («freiwillige Selbstkontrolle»)) |

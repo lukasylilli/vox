@@ -4985,6 +4985,8 @@ const zurueckgestellt = <String>{
   'Sektion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abteilung, Bereich / Medizin: Leichenöffnung, Obduktion) — nach den Nomen 2026-11-04
   'Sektor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bereich (Wirtschaftssektor) / Geometrie: Kreisausschnitt / Besatzungssektor (Berlin, Wien)) — nach den Nomen 2026-11-04
   'Sekundenschnelle', // zurückgestellt: nur in der festen Wendung «in Sekundenschnelle» — Regel 14 — 2026-11-04
+  'Selbstbewusstsein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Selbstvertrauen / Philosophie: Bewusstsein von sich selbst) — nach den Nomen 2026-11-04
+  'Selbstkontrolle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beherrschung der eigenen Gefühle / Kontrolle einer Branche durch sich selbst («freiwillige Selbstkontrolle»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
