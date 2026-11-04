@@ -5117,6 +5117,12 @@ const zurueckgestellt = <String>{
   'Sport', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Betätigung, Sportart, Schulfach / Liebhaberei, Hobby («sich einen Sport daraus machen»)) — nach den Nomen 2026-11-04
   'Sportfreund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anhänger des Sports / Sportkamerad, auch Anrede) — nach den Nomen 2026-11-04
   'Sporthilfe', // zurückgestellt: meist Name der Stiftung Deutsche Sporthilfe (Organisation, Regel 18); als allgemeines Lernwort unsicher — Regel 14 — 2026-11-04
+  'Sportschule', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausbildungsstätte für Trainer und Sportlehrer, Lehrgangszentrum / Schule mit Sportschwerpunkt) — nach den Nomen 2026-11-04
+  'Sportstudio', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fitnessstudio / Fernsehstudio für Sportsendungen) — nach den Nomen 2026-11-04
+  'Sportwagen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schnelles Auto / Kinderwagen zum Sitzen, Buggy) — nach den Nomen 2026-11-04
+  'Spot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werbespot / Scheinwerfer, Spotlight / ugs. Ort, Platz (Surfspot)) — nach den Nomen 2026-11-04
+  'Sprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache eines Volkes, Deutsch, Persisch / Fähigkeit zu sprechen / Ausdrucksweise, Stil) — nach den Nomen 2026-11-04
+  'Sprachlosigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachlossein vor Staunen / Unfähigkeit, miteinander zu reden) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

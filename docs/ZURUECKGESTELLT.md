@@ -5085,3 +5085,9 @@
 | 2469 | Sporn | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Reiten: Metallbügel am Stiefel / Medizin: Knochenauswuchs (Fersensporn) / Botanik, Zoologie: spitzer Fortsatz) |
 | 2470 | Sport | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: körperliche Betätigung, Sportart, Schulfach / Liebhaberei, Hobby («sich einen Sport daraus machen»)) |
 | 2471 | Sportfreund | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Anhänger des Sports / Sportkamerad, auch Anrede) |
+| 2472 | Sportschule | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ausbildungsstätte für Trainer und Sportlehrer, Lehrgangszentrum / Schule mit Sportschwerpunkt) |
+| 2473 | Sportstudio | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Fitnessstudio / Fernsehstudio für Sportsendungen) |
+| 2474 | Sportwagen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: schnelles Auto / Kinderwagen zum Sitzen, Buggy) |
+| 2475 | Spot | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Werbespot / Scheinwerfer, Spotlight / ugs. Ort, Platz (Surfspot)) |
+| 2476 | Sprache | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sprache eines Volkes, Deutsch, Persisch / Fähigkeit zu sprechen / Ausdrucksweise, Stil) |
+| 2477 | Sprachlosigkeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sprachlossein vor Staunen / Unfähigkeit, miteinander zu reden) |
