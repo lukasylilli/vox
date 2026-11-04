@@ -4873,6 +4873,15 @@ const zurueckgestellt = <String>{
   'Schlagkraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») — nach den Nomen 2026-11-03
   'Schlaglicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) — nach den Nomen 2026-11-03
   'Schlagwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) — nach den Nomen 2026-11-03
+  'Schlamassel', // zurückgestellt: Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 — 2026-11-03
+  'Schlammschlacht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) — nach den Nomen 2026-11-03
+  'Schlange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) — nach den Nomen 2026-11-03
+  'Schlauch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) — nach den Nomen 2026-11-03
+  'Schleicher', // zurückgestellt: selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 — 2026-11-03
+  'Schleier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») — nach den Nomen 2026-11-03
+  'Schlepper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) — nach den Nomen 2026-11-03
+  'Schlepptau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) — nach den Nomen 2026-11-03
+  'Schleuse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») — nach den Nomen 2026-11-03
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

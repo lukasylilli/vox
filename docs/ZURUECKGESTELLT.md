@@ -2725,6 +2725,8 @@
 | ۲۵۴۸ | Schichte | `substantiv_singular_alle.txt` | 2026-11-03 | österreichische Nebenform von «die Schicht», selten — Regel 14 | — |
 | ۲۵۴۹ | Schill | `substantiv_singular_alle.txt` | 2026-11-03 | Bedeutung unsicher (österr. Name für den Zander; Familienname) — Regel 14 | — |
 | ۲۵۵۰ | Schirmer | `substantiv_singular_alle.txt` | 2026-11-03 | Familienname — Regel 14 | — |
+| ۲۵۵۱ | Schlamassel | `substantiv_singular_alle.txt` | 2026-11-03 | Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 | — |
+| ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-03 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4841,3 +4843,10 @@
 | 2270 | Schlagkraft | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: körperliche Kraft zum Schlagen / Kampfkraft einer Armee / übertragen: Wirksamkeit «die Schlagkraft eines Arguments») |
 | 2271 | Schlaglicht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Malerei, Fotografie: starkes Licht / übertragen: «ein Schlaglicht auf etwas werfen» (deutlich zeigen)) |
 | 2272 | Schlagwort | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Parole, Slogan / Stichwort, Schlüsselwort (Katalog, Register)) |
+| 2273 | Schlammschlacht | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Sport im Schlamm, Spiel auf schlammigem Platz / übertragen: Streit mit gegenseitigen Beschimpfungen (Politik, Scheidung)) |
+| 2274 | Schlange | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Tier / Warteschlange «Schlange stehen» / abwertend: falscher, hinterhältiger Mensch) |
+| 2275 | Schlauch | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Wasserschlauch / Fahrradschlauch / ugs.: langer schmaler Raum; «auf dem Schlauch stehen» (nicht verstehen)) |
+| 2276 | Schleier | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kopf-, Brautschleier / übertragen: Dunst, Nebelschleier; «den Schleier lüften») |
+| 2277 | Schlepper | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) |
+| 2278 | Schlepptau | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) |
+| 2279 | Schleuse | `substantiv_singular_alle.txt` | 2026-11-03 | Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») |
