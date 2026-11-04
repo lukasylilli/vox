@@ -4882,6 +4882,12 @@ const zurueckgestellt = <String>{
   'Schlepper', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) — nach den Nomen 2026-11-04
   'Schlepptau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) — nach den Nomen 2026-11-04
   'Schleuse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») — nach den Nomen 2026-11-04
+  'Schlich', // zurückgestellt: Singular kaum gebräuchlich; fast nur in «jemandem auf die Schliche kommen» (Plural) bzw. Fachwort (Erzschlamm) — Regel 14 — 2026-11-04
+  'Schlinge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlaufe, Fangschlinge (Falle) / Armschlinge (Medizin) / übertragen: «den Kopf aus der Schlinge ziehen») — nach den Nomen 2026-11-04
+  'Schlitten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rodelschlitten / ugs.: großes Auto / Technik: Schlitten einer Maschine) — nach den Nomen 2026-11-04
+  'Schloss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäude (Palast, Burg) / Türschloss) — nach den Nomen 2026-11-04
+  'Schlupfloch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Öffnung zum Durchschlüpfen / Versteck / übertragen: Gesetzeslücke) — nach den Nomen 2026-11-04
+  'Schluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ende / Folgerung («zu dem Schluss kommen»); «Schluss machen» (Beziehung beenden)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2727,6 +2727,7 @@
 | ۲۵۵۰ | Schirmer | `substantiv_singular_alle.txt` | 2026-11-04 | Familienname — Regel 14 | — |
 | ۲۵۵۱ | Schlamassel | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (der Schlamassel, österr. auch: das Schlamassel) — Regel 14 | — |
 | ۲۵۵۲ | Schleicher | `substantiv_singular_alle.txt` | 2026-11-04 | selten (abwertend: heimtückischer Mensch) bzw. Familienname, Gebrauch unsicher — Regel 14 | — |
+| ۲۵۵۳ | Schlich | `substantiv_singular_alle.txt` | 2026-11-04 | Singular kaum gebräuchlich; fast nur in «jemandem auf die Schliche kommen» (Plural) bzw. Fachwort (Erzschlamm) — Regel 14 | — |
 
 <a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
@@ -4850,3 +4851,8 @@
 | 2277 | Schlepper | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Traktor, Zugmaschine / Schleppschiff / Schleuser (Menschenschmuggler) / ugs.: Kundenfänger) |
 | 2278 | Schlepptau | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Abschleppseil / übertragen «jemanden im Schlepptau haben» (mit sich führen)) |
 | 2279 | Schleuse | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kanalschleuse für Schiffe / Luft-, Hygieneschleuse (Krankenhaus, Labor) / übertragen: «die Schleusen öffnen») |
+| 2280 | Schlinge | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Schlaufe, Fangschlinge (Falle) / Armschlinge (Medizin) / übertragen: «den Kopf aus der Schlinge ziehen») |
+| 2281 | Schlitten | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Rodelschlitten / ugs.: großes Auto / Technik: Schlitten einer Maschine) |
+| 2282 | Schloss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gebäude (Palast, Burg) / Türschloss) |
+| 2283 | Schlupfloch | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Öffnung zum Durchschlüpfen / Versteck / übertragen: Gesetzeslücke) |
+| 2284 | Schluss | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Ende / Folgerung («zu dem Schluss kommen»); «Schluss machen» (Beziehung beenden)) |
