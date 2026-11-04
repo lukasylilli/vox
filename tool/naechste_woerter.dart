@@ -5045,6 +5045,12 @@ const zurueckgestellt = <String>{
   'Skorpion', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / Sternzeichen) — nach den Nomen 2026-11-04
   'Skript', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorlesungsskript / Drehbuch / Computerskript); Plural -s/-en — nach den Nomen 2026-11-04
   'Slip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterhose / Seemannssprache: Slipanlage für Schiffe) — nach den Nomen 2026-11-04
+  'Snow', // zurückgestellt: kein selbstständiges deutsches Nomen (nur in Zusammensetzungen) — Regel 14 — 2026-11-04
+  'Soccer', // zurückgestellt: Anglizismus, im Deutschen kaum gebräuchlich — Regel 14 — 2026-11-04
+  'Society', // zurückgestellt: Anglizismus (High Society); Gebrauch als Lernwort unsicher — Regel 14 — 2026-11-04
+  'Sockel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterbau einer Statue, eines Hauses / Lampenfassung / Grundbetrag («Sockelbetrag»)) — nach den Nomen 2026-11-04
+  'Socken', // zurückgestellt: Lemma/Artikel doppelt (die Socke / der Socken, österr. der Socken) — Regel 14 — 2026-11-04
+  'Sog', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: saugende Strömung / übertragen: Anziehungskraft («in den Sog geraten»)) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

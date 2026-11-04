@@ -2762,6 +2762,10 @@
 | ۲۵۸۳ | Sinai | `substantiv_singular_alle.txt` | 2026-11-04 | Bezug unsicher (Halbinsel bzw. Berg Sinai; Artikelgebrauch) — Regel 14 | — |
 | ۲۵۸۴ | Site | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Website), Gebrauch als eigenes Nomen unsicher — Regel 14 | — |
 | ۲۵۸۵ | Sixt | `substantiv_singular_alle.txt` | 2026-11-04 | Firmenname (Regel 18) — Regel 14 | — |
+| ۲۵۸۶ | Snow | `substantiv_singular_alle.txt` | 2026-11-04 | kein selbstständiges deutsches Nomen (nur in Zusammensetzungen) — Regel 14 | — |
+| ۲۵۸۷ | Soccer | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus, im Deutschen kaum gebräuchlich — Regel 14 | — |
+| ۲۵۸۸ | Society | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (High Society); Gebrauch als Lernwort unsicher — Regel 14 | — |
+| ۲۵۸۹ | Socken | `substantiv_singular_alle.txt` | 2026-11-04 | Lemma/Artikel doppelt (die Socke / der Socken, österr. der Socken) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5013,3 +5017,5 @@
 | 2407 | Skorpion | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Tier / Sternzeichen) |
 | 2408 | Skript | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Vorlesungsskript / Drehbuch / Computerskript); Plural -s/-en |
 | 2409 | Slip | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterhose / Seemannssprache: Slipanlage für Schiffe) |
+| 2410 | Sockel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Unterbau einer Statue, eines Hauses / Lampenfassung / Grundbetrag («Sockelbetrag»)) |
+| 2411 | Sog | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: saugende Strömung / übertragen: Anziehungskraft («in den Sog geraten»)) |
