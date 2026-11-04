@@ -2772,6 +2772,8 @@
 | ۲۵۹۳ | Spider | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Roadster, offener Sportwagen), Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۵۹۴ | Spirit | `substantiv_singular_alle.txt` | 2026-11-04 | Anglizismus (Geist, Schwung), Gebrauch und Genus als Lernwort unsicher — Regel 14 | — |
 | ۲۵۹۵ | Sporthilfe | `substantiv_singular_alle.txt` | 2026-11-04 | meist Name der Stiftung Deutsche Sporthilfe (Organisation, Regel 18); als allgemeines Lernwort unsicher — Regel 14 | — |
+| ۲۵۹۶ | Spray | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel doppelt (das/der Spray) — Regel 14 | — |
+| ۲۵۹۷ | Sprenger | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Rasensprenger / Person, die sprengt) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5091,3 +5093,12 @@
 | 2475 | Spot | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Werbespot / Scheinwerfer, Spotlight / ugs. Ort, Platz (Surfspot)) |
 | 2476 | Sprache | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sprache eines Volkes, Deutsch, Persisch / Fähigkeit zu sprechen / Ausdrucksweise, Stil) |
 | 2477 | Sprachlosigkeit | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sprachlossein vor Staunen / Unfähigkeit, miteinander zu reden) |
+| 2478 | Sprachrohr | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Megafon, Schalltrichter / übertragen: Person, die die Meinung anderer vertritt) |
+| 2479 | Sprechchor | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: gemeinsames Rufen einer Menge / Gruppe, die im Chor spricht (Theater)) |
+| 2480 | Sprecher | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Pressesprecher, Wortführer / Nachrichtensprecher, Synchronsprecher / Linguistik: wer spricht) |
+| 2481 | Sprecherin | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Pressesprecherin, Wortführerin / Nachrichtensprecherin, Synchronsprecherin) |
+| 2482 | Sprengel | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Kirchspiel, Pfarrbezirk / österr. Amts-, Schulbezirk) |
+| 2483 | Sprengkraft | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Wirkung einer Explosion / übertragen: Konfliktpotenzial) |
+| 2484 | Sprengstoff | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: explosiver Stoff / übertragen: brisantes Thema, Zündstoff) |
+| 2485 | Springen | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: das Springen als Tätigkeit / Sport: Wettbewerb (Skispringen)) |
+| 2486 | Springer | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Sportler, der springt / Schach: Pferd, Springer / Arbeit: Aushilfskraft für wechselnde Stellen) |

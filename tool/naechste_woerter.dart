@@ -5123,6 +5123,17 @@ const zurueckgestellt = <String>{
   'Spot', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Werbespot / Scheinwerfer, Spotlight / ugs. Ort, Platz (Surfspot)) — nach den Nomen 2026-11-04
   'Sprache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprache eines Volkes, Deutsch, Persisch / Fähigkeit zu sprechen / Ausdrucksweise, Stil) — nach den Nomen 2026-11-04
   'Sprachlosigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sprachlossein vor Staunen / Unfähigkeit, miteinander zu reden) — nach den Nomen 2026-11-04
+  'Sprachrohr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Megafon, Schalltrichter / übertragen: Person, die die Meinung anderer vertritt) — nach den Nomen 2026-11-04
+  'Spray', // zurückgestellt: Artikel doppelt (das/der Spray) — Regel 14 — 2026-11-04
+  'Sprechchor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gemeinsames Rufen einer Menge / Gruppe, die im Chor spricht (Theater)) — nach den Nomen 2026-11-04
+  'Sprecher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pressesprecher, Wortführer / Nachrichtensprecher, Synchronsprecher / Linguistik: wer spricht) — nach den Nomen 2026-11-04
+  'Sprecherin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pressesprecherin, Wortführerin / Nachrichtensprecherin, Synchronsprecherin) — nach den Nomen 2026-11-04
+  'Sprengel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kirchspiel, Pfarrbezirk / österr. Amts-, Schulbezirk) — nach den Nomen 2026-11-04
+  'Sprenger', // zurückgestellt: Bedeutung unsicher (Rasensprenger / Person, die sprengt) — Regel 14 — 2026-11-04
+  'Sprengkraft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirkung einer Explosion / übertragen: Konfliktpotenzial) — nach den Nomen 2026-11-04
+  'Sprengstoff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: explosiver Stoff / übertragen: brisantes Thema, Zündstoff) — nach den Nomen 2026-11-04
+  'Springen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Springen als Tätigkeit / Sport: Wettbewerb (Skispringen)) — nach den Nomen 2026-11-04
+  'Springer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportler, der springt / Schach: Pferd, Springer / Arbeit: Aushilfskraft für wechselnde Stellen) — nach den Nomen 2026-11-04
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
