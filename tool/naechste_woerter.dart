@@ -5215,6 +5215,7 @@ const zurueckgestellt = <String>{
   'Sterblichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Sterblichsein / Sterberate) — nach den Nomen 2026-11-05
   'Sternbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gruppe von Sternen am Himmel / umgangssprachlich: Sternzeichen) — nach den Nomen 2026-11-05
   'Sternchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Stern / Zeichen * / junger Filmstar) — nach den Nomen 2026-11-05
+  'Steuermann', // zurückgestellt: Plural schwankend (Steuerleute/Steuermänner) und Bedeutung je Bereich (Schifffahrt / Rudersport) — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

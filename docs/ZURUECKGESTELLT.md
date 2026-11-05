@@ -2788,6 +2788,7 @@
 | ۲۶۰۹ | Stengel | `substantiv_singular_alle.txt` | 2026-11-05 | alte Schreibung (heute «Stängel») — Lemma unsicher, Regel 14 | — |
 | ۲۶۱۰ | Step | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (Stepptanz / Step-Aerobic) — Regel 14 | — |
 | ۲۶۱۱ | Sterbe | `substantiv_singular_alle.txt` | 2026-11-05 | kein eigenständiges Wort (nur Bestimmungswort «Sterbe-») — Regel 14 | — |
+| ۲۶۱۲ | Steuermann | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (Steuerleute/Steuermänner) und Bedeutung je Bereich (Schifffahrt / Rudersport) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
