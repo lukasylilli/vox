@@ -2779,6 +2779,7 @@
 | ۲۶۰۰ | Staatsliga | `substantiv_singular_alle.txt` | 2026-11-04 | österr. Bezeichnung einer Sportliga je Sportart, Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۶۰۱ | Staatspolizei | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 | — |
 | ۲۶۰۲ | Staatssicherheitsdienst | `substantiv_singular_alle.txt` | 2026-11-05 | Eigenname (Geheimdienst der DDR), kein geografischer Name — Regel 18 | — |
+| ۲۶۰۳ | Stadtsenat | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung je Land unterschiedlich (österr. Kollegialorgan der Stadtregierung / Senat einer Stadt in DE) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5128,3 +5129,5 @@
 | 2505 | Stab | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stock, Stange / Gruppe von Offizieren oder Beratern einer Leitung) |
 | 2506 | Stachel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Dorn einer Pflanze / Giftstachel eines Insekts / Spitze am Draht; übertragen: etwas Kränkendes) |
 | 2507 | Stadthaus | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verwaltungsgebäude einer Stadt / Wohnhaus in der Stadt, Townhouse) |
+| 2508 | Stadtrat | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gremium der Stadtverwaltung / Mitglied dieses Gremiums) |
+| 2509 | Stadtrecht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: historisch: Recht einer Siedlung, Stadt zu sein / für eine Stadt geltendes Recht) |
