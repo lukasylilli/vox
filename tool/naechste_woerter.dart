@@ -5308,6 +5308,9 @@ const zurueckgestellt = <String>{
   'Tauziehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel mit einem Seil / zähes Ringen, Machtkampf) — nach den Nomen 2026-11-05
   'Taxe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») — nach den Nomen 2026-11-05
   'Tauer', // zurückgestellt: kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 — 2026-11-05
+  'Technik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) — nach den Nomen 2026-11-05
+  'Teddy', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) — nach den Nomen 2026-11-05
+  'Techno', // zurückgestellt: Genus schwankt (der oder das Techno) — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
