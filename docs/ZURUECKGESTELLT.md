@@ -2783,6 +2783,7 @@
 | ۲۶۰۴ | Stande | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 | — |
 | ۲۶۰۵ | Startloch | `substantiv_singular_alle.txt` | 2026-11-05 | fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 | — |
 | ۲۶۰۶ | Statt | `substantiv_singular_alle.txt` | 2026-11-05 | nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 | — |
+| ۲۶۰۷ | Stefan | `substantiv_singular_alle.txt` | 2026-11-05 | Personenname, kein geografischer Name — Regel 18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5159,3 +5160,11 @@
 | 2532 | Statik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilgebiet der Mechanik / Stabilität eines Bauwerks) |
 | 2533 | Station | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Haltestelle / Abteilung im Krankenhaus / Stelle, Etappe / Forschungs- oder Sendestation) |
 | 2534 | Statistik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wissenschaft / einzelne Zusammenstellung von Zahlen) |
+| 2535 | Staude | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: mehrjährige Pflanze / südd., österr.: Strauch, Busch) |
+| 2536 | Stecher | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kupferstecher / Abzugsvorrichtung bei Gewehren / derb: Liebhaber) |
+| 2537 | Steckbrief | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahndungsplakat / kurze Beschreibung einer Person oder Sache) |
+| 2538 | Steckenpferd | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kinderspielzeug / übertragen: Hobby) |
+| 2539 | Steg | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: schmale Brücke / Bootsanlegestelle / Teil eines Saiteninstruments) |
+| 2540 | Steig | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: schmaler, steiler Weg / regional: Bahn- oder Bussteig) |
+| 2541 | Steiger | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Aufsicht im Bergbau / Hubsteiger, Hebebühne) |
+| 2542 | Steigerung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Erhöhung / Grammatik: Komparation der Adjektive) |

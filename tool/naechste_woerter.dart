@@ -5191,6 +5191,15 @@ const zurueckgestellt = <String>{
   'Station', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haltestelle / Abteilung im Krankenhaus / Stelle, Etappe / Forschungs- oder Sendestation) — nach den Nomen 2026-11-05
   'Statistik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft / einzelne Zusammenstellung von Zahlen) — nach den Nomen 2026-11-05
   'Statt', // zurückgestellt: nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 — 2026-11-05
+  'Staude', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mehrjährige Pflanze / südd., österr.: Strauch, Busch) — nach den Nomen 2026-11-05
+  'Stecher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kupferstecher / Abzugsvorrichtung bei Gewehren / derb: Liebhaber) — nach den Nomen 2026-11-05
+  'Steckbrief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahndungsplakat / kurze Beschreibung einer Person oder Sache) — nach den Nomen 2026-11-05
+  'Steckenpferd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kinderspielzeug / übertragen: Hobby) — nach den Nomen 2026-11-05
+  'Stefan', // zurückgestellt: Personenname, kein geografischer Name — Regel 18 — 2026-11-05
+  'Steg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schmale Brücke / Bootsanlegestelle / Teil eines Saiteninstruments) — nach den Nomen 2026-11-05
+  'Steig', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schmaler, steiler Weg / regional: Bahn- oder Bussteig) — nach den Nomen 2026-11-05
+  'Steiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufsicht im Bergbau / Hubsteiger, Hebebühne) — nach den Nomen 2026-11-05
+  'Steigerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erhöhung / Grammatik: Komparation der Adjektive) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
