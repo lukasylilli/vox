@@ -2789,6 +2789,7 @@
 | ۲۶۱۰ | Step | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (Stepptanz / Step-Aerobic) — Regel 14 | — |
 | ۲۶۱۱ | Sterbe | `substantiv_singular_alle.txt` | 2026-11-05 | kein eigenständiges Wort (nur Bestimmungswort «Sterbe-») — Regel 14 | — |
 | ۲۶۱۲ | Steuermann | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (Steuerleute/Steuermänner) und Bedeutung je Bereich (Schifffahrt / Rudersport) — Regel 14 | — |
+| ۲۶۱۳ | Steven | `substantiv_singular_alle.txt` | 2026-11-05 | Fachwort Schiffbau (Vorder-/Achtersteven) und zugleich Vorname — Bedeutung/Gebrauch unsicher, Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5184,3 +5185,8 @@
 | 2551 | Sterblichkeit | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Sterblichsein / Sterberate) |
 | 2552 | Sternbild | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gruppe von Sternen am Himmel / umgangssprachlich: Sternzeichen) |
 | 2553 | Sternchen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: kleiner Stern / Zeichen * / junger Filmstar) |
+| 2554 | Steuerung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Steuern / Steuervorrichtung, Steuerungssystem) |
+| 2555 | Stich | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Insektenstich / Messerstich / Nähstich / Kupferstich / Kartenspiel) |
+| 2556 | Stichwort | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Eintrag im Wörterbuch «Stichwörter» / Einsatzwort, Notiz «Stichworte») |
+| 2557 | Stickerei | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Sticken / gestickte Arbeit) |
+| 2558 | Stiefkind | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kind des Ehepartners / übertragen: vernachlässigte Sache) |

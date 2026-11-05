@@ -5216,6 +5216,12 @@ const zurueckgestellt = <String>{
   'Sternbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gruppe von Sternen am Himmel / umgangssprachlich: Sternzeichen) — nach den Nomen 2026-11-05
   'Sternchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Stern / Zeichen * / junger Filmstar) — nach den Nomen 2026-11-05
   'Steuermann', // zurückgestellt: Plural schwankend (Steuerleute/Steuermänner) und Bedeutung je Bereich (Schifffahrt / Rudersport) — Regel 14 — 2026-11-05
+  'Steuerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Steuern / Steuervorrichtung, Steuerungssystem) — nach den Nomen 2026-11-05
+  'Stich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insektenstich / Messerstich / Nähstich / Kupferstich / Kartenspiel) — nach den Nomen 2026-11-05
+  'Stichwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Eintrag im Wörterbuch «Stichwörter» / Einsatzwort, Notiz «Stichworte») — nach den Nomen 2026-11-05
+  'Stickerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Sticken / gestickte Arbeit) — nach den Nomen 2026-11-05
+  'Stiefkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kind des Ehepartners / übertragen: vernachlässigte Sache) — nach den Nomen 2026-11-05
+  'Steven', // zurückgestellt: Fachwort Schiffbau (Vorder-/Achtersteven) und zugleich Vorname — Bedeutung/Gebrauch unsicher, Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_stichtag",
+  "wort": "der Stichtag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "روز مقرر؛ تاریخ تعیین‌شده"
+    ],
+    "en": [
+      "key date; cut-off date"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Verwaltung",
+    "Zeit"
+  ],
+  "ipa": "ˈʃtɪçˌtaːk",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Stichtag ist der 31. Dezember.",
+      "uebersetzung": {
+        "fa": "روز مقرر ۳۱ دسامبر است.",
+        "en": "The key date is 31 December."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wer bis zum Stichtag seine Unterlagen nicht abgegeben hat, kann nicht mehr teilnehmen.",
+      "uebersetzung": {
+        "fa": "کسی که تا روز مقرر مدارکش را تحویل نداده باشد، دیگر نمی‌تواند شرکت کند.",
+        "en": "Anyone who hasn’t handed in their documents by the cut-off date can no longer take part."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Stich (نقطه‌ی دقیق) + Tag (روز)",
+    "en": "Stich (exact point) + Tag (day)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Stichtage",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Stichtag für + Akk",
+        "beispiel": "Der Stichtag für die Anmeldung ist der 1. März.",
+        "uebersetzung": {
+          "fa": "روز مقرر برای ثبت‌نام اول مارس است.",
+          "en": "The cut-off date for registration is 1 March."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Datum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریخ (روز)",
+          "en": "date"
+        },
+        "id_ref": "nomen_datum"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معتبر",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "fristgerecht",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "در مهلت مقرر",
+          "en": "within the deadline"
+        },
+        "id_ref": "adjektiv_fristgerecht"
+      },
+      {
+        "wort": "befristet",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موقت، محدود به زمان",
+          "en": "fixed-term"
+        },
+        "id_ref": "adjektiv_befristet"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
