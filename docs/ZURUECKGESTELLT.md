@@ -2802,6 +2802,7 @@
 | ۲۶۲۳ | Take | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Take) — Regel 14 | — |
 | ۲۶۲۴ | Tanzbein | `substantiv_singular_alle.txt` | 2026-11-05 | nur in fester Wendung «das Tanzbein schwingen» — Regel 14 | — |
 | ۲۶۲۵ | Task | `substantiv_singular_alle.txt` | 2026-11-05 | Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 | — |
+| ۲۶۲۶ | Tauer | `substantiv_singular_alle.txt` | 2026-11-05 | kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5270,3 +5271,8 @@
 | 2624 | Tarif | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Preis, Gebühr, z. B. Strom- oder Handytarif / ausgehandelte Lohnhöhe, Tarifvertrag) |
 | 2625 | Tasche | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tragetasche, Handtasche / Hosentasche, Jackentasche) |
 | 2626 | Tatbestand | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Sachverhalt, Gegebenheit / Recht: Straftatbestand) |
+| 2627 | Taumel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schwindel, Schwanken / Rausch, z. B. Freudentaumel) |
+| 2628 | Tausender | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tausendeuroschein / Zahl, Stelle der Tausender / Berg über 1000 m) |
+| 2629 | Tauwetter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wetter mit Schneeschmelze / politische Entspannung) |
+| 2630 | Tauziehen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Spiel mit einem Seil / zähes Ringen, Machtkampf) |
+| 2631 | Taxe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») |

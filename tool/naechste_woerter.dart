@@ -5302,6 +5302,12 @@ const zurueckgestellt = <String>{
   'Tasche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tragetasche, Handtasche / Hosentasche, Jackentasche) — nach den Nomen 2026-11-05
   'Tatbestand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sachverhalt, Gegebenheit / Recht: Straftatbestand) — nach den Nomen 2026-11-05
   'Task', // zurückgestellt: Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 — 2026-11-05
+  'Taumel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schwindel, Schwanken / Rausch, z. B. Freudentaumel) — nach den Nomen 2026-11-05
+  'Tausender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tausendeuroschein / Zahl, Stelle der Tausender / Berg über 1000 m) — nach den Nomen 2026-11-05
+  'Tauwetter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetter mit Schneeschmelze / politische Entspannung) — nach den Nomen 2026-11-05
+  'Tauziehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel mit einem Seil / zähes Ringen, Machtkampf) — nach den Nomen 2026-11-05
+  'Taxe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») — nach den Nomen 2026-11-05
+  'Tauer', // zurückgestellt: kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
