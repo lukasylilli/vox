@@ -5331,6 +5331,8 @@ const zurueckgestellt = <String>{
   'Texter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) — nach den Nomen 2026-11-05
   'Textil', // zurückgestellt: als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 — 2026-11-05
   'Theater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») — nach den Nomen 2026-11-05
+  'Theatertreffen', // zurückgestellt: meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 — 2026-11-05
+  'Thema', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
