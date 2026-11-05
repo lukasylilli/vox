@@ -5207,3 +5207,6 @@
 | 2571 | Straffung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Straffmachen, z. B. der Haut / übertragen: Kürzung, Vereinfachung von Abläufen) |
 | 2572 | Strafgefangene | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Strafgefangene) |
 | 2573 | Strafgericht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gericht für Strafsachen / gehoben: Bestrafung, Strafgericht Gottes) |
+| 2574 | Strahl | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Lichtstrahl / Wasserstrahl / Mathematik: Halbgerade) |
+| 2575 | Strang | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Seil, Strick / Bündel von Fäden, Nerven / Gleisstrang / Handlungsstrang) |
+| 2576 | Strecke | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wegstück, Entfernung / Bahnstrecke / Mathematik: Strecke / Jägersprache) |

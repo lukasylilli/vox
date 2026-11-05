@@ -5239,6 +5239,9 @@ const zurueckgestellt = <String>{
   'Straffung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Straffmachen, z. B. der Haut / übertragen: Kürzung, Vereinfachung von Abläufen) — nach den Nomen 2026-11-05
   'Strafgefangene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Strafgefangene) — nach den Nomen 2026-11-05
   'Strafgericht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gericht für Strafsachen / gehoben: Bestrafung, Strafgericht Gottes) — nach den Nomen 2026-11-05
+  'Strahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lichtstrahl / Wasserstrahl / Mathematik: Halbgerade) — nach den Nomen 2026-11-05
+  'Strang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seil, Strick / Bündel von Fäden, Nerven / Gleisstrang / Handlungsstrang) — nach den Nomen 2026-11-05
+  'Strecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegstück, Entfernung / Bahnstrecke / Mathematik: Strecke / Jägersprache) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
