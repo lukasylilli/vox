@@ -2778,6 +2778,7 @@
 | ۲۵۹۹ | Staatsduma | `substantiv_singular_alle.txt` | 2026-11-04 | Eigenname (Parlament Russlands), kein geografischer Name — Regel 18 | — |
 | ۲۶۰۰ | Staatsliga | `substantiv_singular_alle.txt` | 2026-11-04 | österr. Bezeichnung einer Sportliga je Sportart, Gebrauch als Lernwort unsicher — Regel 14 | — |
 | ۲۶۰۱ | Staatspolizei | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 | — |
+| ۲۶۰۲ | Staatssicherheitsdienst | `substantiv_singular_alle.txt` | 2026-11-05 | Eigenname (Geheimdienst der DDR), kein geografischer Name — Regel 18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5121,3 +5122,8 @@
 | 2499 | Staatsgewalt | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Herrschaftsgewalt des Staates / eine der drei Gewalten (Legislative, Exekutive, Judikative)) |
 | 2500 | Staatsminister | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Minister eines Landes (Bayern, Sachsen) / Bund: Staatssekretär mit Titel Staatsminister) |
 | 2501 | Staatsrat | `substantiv_singular_alle.txt` | 2026-11-04 | Fall 1 (mehrere Bedeutungen: Gremium, Regierungsorgan / Mitglied, Titel) |
+| 2502 | Staatsschutz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schutz des Staates / polizeiliche Abteilung für politische Straftaten) |
+| 2503 | Staatssicherheit | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Sicherheit des Staates allgemein / DDR: Kurzform für Staatssicherheitsdienst, die Stasi) |
+| 2504 | Staatsvertrag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: völkerrechtlicher Vertrag zwischen Staaten / Vertrag zwischen Bundesländern / österr.: Staatsvertrag von 1955) |
+| 2505 | Stab | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stock, Stange / Gruppe von Offizieren oder Beratern einer Leitung) |
+| 2506 | Stachel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Dorn einer Pflanze / Giftstachel eines Insekts / Spitze am Draht; übertragen: etwas Kränkendes) |

@@ -5153,6 +5153,12 @@ const zurueckgestellt = <String>{
   'Staatsminister', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Minister eines Landes (Bayern, Sachsen) / Bund: Staatssekretär mit Titel Staatsminister) — nach den Nomen 2026-11-04
   'Staatspolizei', // zurückgestellt: Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 — 2026-11-04
   'Staatsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium, Regierungsorgan / Mitglied, Titel) — nach den Nomen 2026-11-04
+  'Staatsschutz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schutz des Staates / polizeiliche Abteilung für politische Straftaten) — nach den Nomen 2026-11-05
+  'Staatssicherheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sicherheit des Staates allgemein / DDR: Kurzform für Staatssicherheitsdienst, die Stasi) — nach den Nomen 2026-11-05
+  'Staatssicherheitsdienst', // zurückgestellt: Eigenname (Geheimdienst der DDR), kein geografischer Name — Regel 18 — 2026-11-05
+  'Staatsvertrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: völkerrechtlicher Vertrag zwischen Staaten / Vertrag zwischen Bundesländern / österr.: Staatsvertrag von 1955) — nach den Nomen 2026-11-05
+  'Stab', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stock, Stange / Gruppe von Offizieren oder Beratern einer Leitung) — nach den Nomen 2026-11-05
+  'Stachel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dorn einer Pflanze / Giftstachel eines Insekts / Spitze am Draht; übertragen: etwas Kränkendes) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
