@@ -2781,6 +2781,7 @@
 | ۲۶۰۲ | Staatssicherheitsdienst | `substantiv_singular_alle.txt` | 2026-11-05 | Eigenname (Geheimdienst der DDR), kein geografischer Name — Regel 18 | — |
 | ۲۶۰۳ | Stadtsenat | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung je Land unterschiedlich (österr. Kollegialorgan der Stadtregierung / Senat einer Stadt in DE) — Regel 14 | — |
 | ۲۶۰۴ | Stande | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 | — |
+| ۲۶۰۵ | Startloch | `substantiv_singular_alle.txt` | 2026-11-05 | fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5143,3 +5144,12 @@
 | 2518 | Stand | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Stehen / Verkaufsstand / Zustand, Niveau / gesellschaftliche Schicht) |
 | 2519 | Standbein | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bein, auf dem man steht / übertragen: wirtschaftliche Grundlage) |
 | 2520 | Standbild | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Statue / angehaltenes Bild bei Film oder Video) |
+| 2521 | Standesbeamter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv: der/die Standesbeamte, ein Standesbeamter) |
+| 2522 | Standfestigkeit | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stabilität eines Gegenstands / übertragen: Charakterfestigkeit) |
+| 2523 | Standortbestimmung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bestimmung der eigenen Position (Navigation) / übertragen: Klärung der eigenen Lage) |
+| 2524 | Stange | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stab, Stange / Stange Zigaretten / «eine Stange Geld») |
+| 2525 | Stapel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Haufen, Stoß / Schiffbau: «vom Stapel laufen») |
+| 2526 | Start | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Beginn eines Rennens / Abflug eines Flugzeugs / Anfang allgemein) |
+| 2527 | Starter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilnehmer eines Rennens / Person, die das Startsignal gibt / Anlasser beim Auto / Vorspeise) |
+| 2528 | Startgeld | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilnahmegebühr / Geld, das ein Sportler fürs Antreten bekommt) |
+| 2529 | Starthilfe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Hilfe beim Anlassen eines Autos / finanzielle Hilfe für den Anfang) |

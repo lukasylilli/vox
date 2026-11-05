@@ -5175,6 +5175,16 @@ const zurueckgestellt = <String>{
   'Standbein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bein, auf dem man steht / übertragen: wirtschaftliche Grundlage) — nach den Nomen 2026-11-05
   'Standbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Statue / angehaltenes Bild bei Film oder Video) — nach den Nomen 2026-11-05
   'Stande', // zurückgestellt: Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 — 2026-11-05
+  'Standesbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Standesbeamte, ein Standesbeamter) — nach den Nomen 2026-11-05
+  'Standfestigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stabilität eines Gegenstands / übertragen: Charakterfestigkeit) — nach den Nomen 2026-11-05
+  'Standortbestimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bestimmung der eigenen Position (Navigation) / übertragen: Klärung der eigenen Lage) — nach den Nomen 2026-11-05
+  'Stange', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stab, Stange / Stange Zigaretten / «eine Stange Geld») — nach den Nomen 2026-11-05
+  'Stapel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haufen, Stoß / Schiffbau: «vom Stapel laufen») — nach den Nomen 2026-11-05
+  'Start', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn eines Rennens / Abflug eines Flugzeugs / Anfang allgemein) — nach den Nomen 2026-11-05
+  'Starter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnehmer eines Rennens / Person, die das Startsignal gibt / Anlasser beim Auto / Vorspeise) — nach den Nomen 2026-11-05
+  'Startgeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnahmegebühr / Geld, das ein Sportler fürs Antreten bekommt) — nach den Nomen 2026-11-05
+  'Starthilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfe beim Anlassen eines Autos / finanzielle Hilfe für den Anfang) — nach den Nomen 2026-11-05
+  'Startloch', // zurückgestellt: fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
