@@ -5290,6 +5290,10 @@ const zurueckgestellt = <String>{
   'Tageskarte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Speisekarte des Tages / Fahr- oder Eintrittskarte für einen Tag) — nach den Nomen 2026-11-05
   'Tagessatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafrecht: Einheit der Geldstrafe / täglicher Betrag, Tagespauschale) — nach den Nomen 2026-11-05
   'Tagblatt', // zurückgestellt: regional (bes. schweizerisch) bzw. sonst veraltet, meist nur in Zeitungsnamen — Gebrauch/Markierung unsicher, Regel 14 — 2026-11-05
+  'Talent', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begabung / begabter Mensch, «ein junges Talent») — nach den Nomen 2026-11-05
+  'Talfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrt ins Tal / starker Rückgang, Abschwung, z. B. an der Börse) — nach den Nomen 2026-11-05
+  'Tai', // zurückgestellt: Bedeutung unklar (Volk/Sprachgruppe, Bestandteil von «Tai-Chi»?) — Regel 14 — 2026-11-05
+  'Take', // zurückgestellt: Genus schwankt (der oder das Take) — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

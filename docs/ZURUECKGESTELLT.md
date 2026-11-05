@@ -2798,6 +2798,8 @@
 | ۲۶۱۹ | Suff | `substantiv_singular_alle.txt` | 2026-11-05 | ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 | — |
 | ۲۶۲۰ | Summa | `substantiv_singular_alle.txt` | 2026-11-05 | nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 | — |
 | ۲۶۲۱ | Tagblatt | `substantiv_singular_alle.txt` | 2026-11-05 | regional (bes. schweizerisch) bzw. sonst veraltet, meist nur in Zeitungsnamen — Gebrauch/Markierung unsicher, Regel 14 | — |
+| ۲۶۲۲ | Tai | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unklar (Volk/Sprachgruppe, Bestandteil von «Tai-Chi»?) — Regel 14 | — |
+| ۲۶۲۳ | Take | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Take) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5258,3 +5260,5 @@
 | 2616 | Tafel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schultafel / Tafel Schokolade / festlich gedeckter Tisch / Lebensmittelausgabe «die Tafel») |
 | 2617 | Tageskarte | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Speisekarte des Tages / Fahr- oder Eintrittskarte für einen Tag) |
 | 2618 | Tagessatz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Strafrecht: Einheit der Geldstrafe / täglicher Betrag, Tagespauschale) |
+| 2619 | Talent | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Begabung / begabter Mensch, «ein junges Talent») |
+| 2620 | Talfahrt | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahrt ins Tal / starker Rückgang, Abschwung, z. B. an der Börse) |
