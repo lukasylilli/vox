@@ -5262,6 +5262,13 @@ const zurueckgestellt = <String>{
   'Stube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnzimmer, Zimmer / Raum in der Kaserne) — nach den Nomen 2026-11-05
   'Studie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wissenschaftliche Untersuchung / Kunst: Entwurf, Skizze, Übungsstück) — nach den Nomen 2026-11-05
   'Studierende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Studierende) — nach den Nomen 2026-11-05
+  'Studio', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufnahme-/Fernsehstudio / Fitnessstudio / Atelier / Einzimmerwohnung) — nach den Nomen 2026-11-05
+  'Stufe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treppenstufe / Niveau, Stadium / Grammatik: Steigerungsstufe) — nach den Nomen 2026-11-05
+  'Stuhl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sitzmöbel / Medizin: Stuhlgang, Kot / «der Heilige Stuhl») — nach den Nomen 2026-11-05
+  'Stunde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: 60 Minuten / Unterrichtsstunde / Zeitpunkt, «die Stunde der Wahrheit») — nach den Nomen 2026-11-05
+  'Sturz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Fallen / Absetzung einer Regierung / starkes Sinken, Kurssturz / Bau: Fenstersturz) — nach den Nomen 2026-11-05
+  'Styling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Formgebung, Design / Frisur, Make-up, Kleidung) — nach den Nomen 2026-11-05
+  'Subjekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik: Satzgegenstand / Philosophie: erkennendes Wesen / abwertend: Person) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -5230,3 +5230,10 @@
 | 2591 | Stube | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wohnzimmer, Zimmer / Raum in der Kaserne) |
 | 2592 | Studie | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: wissenschaftliche Untersuchung / Kunst: Entwurf, Skizze, Übungsstück) |
 | 2593 | Studierende | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Partizip: der/die Studierende) |
+| 2594 | Studio | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Aufnahme-/Fernsehstudio / Fitnessstudio / Atelier / Einzimmerwohnung) |
+| 2595 | Stufe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Treppenstufe / Niveau, Stadium / Grammatik: Steigerungsstufe) |
+| 2596 | Stuhl | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Sitzmöbel / Medizin: Stuhlgang, Kot / «der Heilige Stuhl») |
+| 2597 | Stunde | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: 60 Minuten / Unterrichtsstunde / Zeitpunkt, «die Stunde der Wahrheit») |
+| 2598 | Sturz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Fallen / Absetzung einer Regierung / starkes Sinken, Kurssturz / Bau: Fenstersturz) |
+| 2599 | Styling | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Formgebung, Design / Frisur, Make-up, Kleidung) |
+| 2600 | Subjekt | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Grammatik: Satzgegenstand / Philosophie: erkennendes Wesen / abwertend: Person) |
