@@ -2780,6 +2780,7 @@
 | ۲۶۰۱ | Staatspolizei | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung je Land/Zeit unterschiedlich (österr. Verfassungsschutz / historisch politische Polizei) — Regel 14 | — |
 | ۲۶۰۲ | Staatssicherheitsdienst | `substantiv_singular_alle.txt` | 2026-11-05 | Eigenname (Geheimdienst der DDR), kein geografischer Name — Regel 18 | — |
 | ۲۶۰۳ | Stadtsenat | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung je Land unterschiedlich (österr. Kollegialorgan der Stadtregierung / Senat einer Stadt in DE) — Regel 14 | — |
+| ۲۶۰۴ | Stande | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5135,3 +5136,10 @@
 | 2511 | Stadtverordneter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) |
 | 2512 | Staffel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Staffellauf im Sport / Folge einer Fernsehserie / Einheit der Luftwaffe) |
 | 2513 | Stamm | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Baumstamm / Volksstamm / Wortstamm / feste Gruppe, z. B. Stammkunden) |
+| 2514 | Stammbuch | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Familienstammbuch / historisch: Album für Erinnerungsverse) |
+| 2515 | Stammhaus | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: erstes Geschäftshaus einer Firma / Herkunftshaus eines Adelsgeschlechts) |
+| 2516 | Stammplatz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Platz, den jemand immer einnimmt / Sport: fester Platz in der Mannschaft) |
+| 2517 | Stammsitz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Hauptsitz einer Firma / Herkunftsort einer Familie oder eines Adelsgeschlechts) |
+| 2518 | Stand | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Stehen / Verkaufsstand / Zustand, Niveau / gesellschaftliche Schicht) |
+| 2519 | Standbein | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bein, auf dem man steht / übertragen: wirtschaftliche Grundlage) |
+| 2520 | Standbild | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Statue / angehaltenes Bild bei Film oder Video) |

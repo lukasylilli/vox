@@ -5167,6 +5167,14 @@ const zurueckgestellt = <String>{
   'Stadtverordneter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) — nach den Nomen 2026-11-05
   'Staffel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staffellauf im Sport / Folge einer Fernsehserie / Einheit der Luftwaffe) — nach den Nomen 2026-11-05
   'Stamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baumstamm / Volksstamm / Wortstamm / feste Gruppe, z. B. Stammkunden) — nach den Nomen 2026-11-05
+  'Stammbuch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Familienstammbuch / historisch: Album für Erinnerungsverse) — nach den Nomen 2026-11-05
+  'Stammhaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: erstes Geschäftshaus einer Firma / Herkunftshaus eines Adelsgeschlechts) — nach den Nomen 2026-11-05
+  'Stammplatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Platz, den jemand immer einnimmt / Sport: fester Platz in der Mannschaft) — nach den Nomen 2026-11-05
+  'Stammsitz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hauptsitz einer Firma / Herkunftsort einer Familie oder eines Adelsgeschlechts) — nach den Nomen 2026-11-05
+  'Stand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Stehen / Verkaufsstand / Zustand, Niveau / gesellschaftliche Schicht) — nach den Nomen 2026-11-05
+  'Standbein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bein, auf dem man steht / übertragen: wirtschaftliche Grundlage) — nach den Nomen 2026-11-05
+  'Standbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Statue / angehaltenes Bild bei Film oder Video) — nach den Nomen 2026-11-05
+  'Stande', // zurückgestellt: Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
