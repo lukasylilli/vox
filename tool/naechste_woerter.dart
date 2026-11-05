@@ -5242,6 +5242,13 @@ const zurueckgestellt = <String>{
   'Strahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lichtstrahl / Wasserstrahl / Mathematik: Halbgerade) — nach den Nomen 2026-11-05
   'Strang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Seil, Strick / Bündel von Fäden, Nerven / Gleisstrang / Handlungsstrang) — nach den Nomen 2026-11-05
   'Strecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wegstück, Entfernung / Bahnstrecke / Mathematik: Strecke / Jägersprache) — nach den Nomen 2026-11-05
+  'Streich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schabernack / gehoben, veraltet: Schlag, «auf einen Streich») — nach den Nomen 2026-11-05
+  'Streichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (substantivierter Infinitiv mit mehreren Bedeutungen: Anstreichen mit Farbe / Durchstreichen, Kürzen / Streicheln) — nach den Nomen 2026-11-05
+  'Streichquartett', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ensemble aus vier Streichern / Komposition für dieses Ensemble) — nach den Nomen 2026-11-05
+  'Streifen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schmales Stück, Linie / ugs. Film) — nach den Nomen 2026-11-05
+  'Streiflicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: seitlich einfallendes Licht / kurze, treffende Schilderung) — nach den Nomen 2026-11-05
+  'Streifzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wanderung, Erkundung / übertragen: kurzer Überblick) — nach den Nomen 2026-11-05
+  'Streif', // zurückgestellt: Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

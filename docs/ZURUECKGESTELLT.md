@@ -2792,6 +2792,7 @@
 | ۲۶۱۳ | Steven | `substantiv_singular_alle.txt` | 2026-11-05 | Fachwort Schiffbau (Vorder-/Achtersteven) und zugleich Vorname — Bedeutung/Gebrauch unsicher, Regel 14 | — |
 | ۲۶۱۴ | Stockerl | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (die Stockerl / die Stockerln) — Regel 14 | — |
 | ۲۶۱۵ | Stolle | `substantiv_singular_alle.txt` | 2026-11-05 | Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 | — |
+| ۲۶۱۶ | Streif | `substantiv_singular_alle.txt` | 2026-11-05 | Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5210,3 +5211,9 @@
 | 2574 | Strahl | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Lichtstrahl / Wasserstrahl / Mathematik: Halbgerade) |
 | 2575 | Strang | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Seil, Strick / Bündel von Fäden, Nerven / Gleisstrang / Handlungsstrang) |
 | 2576 | Strecke | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wegstück, Entfernung / Bahnstrecke / Mathematik: Strecke / Jägersprache) |
+| 2577 | Streich | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schabernack / gehoben, veraltet: Schlag, «auf einen Streich») |
+| 2578 | Streichen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (substantivierter Infinitiv mit mehreren Bedeutungen: Anstreichen mit Farbe / Durchstreichen, Kürzen / Streicheln) |
+| 2579 | Streichquartett | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Ensemble aus vier Streichern / Komposition für dieses Ensemble) |
+| 2580 | Streifen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: schmales Stück, Linie / ugs. Film) |
+| 2581 | Streiflicht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: seitlich einfallendes Licht / kurze, treffende Schilderung) |
+| 2582 | Streifzug | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wanderung, Erkundung / übertragen: kurzer Überblick) |
