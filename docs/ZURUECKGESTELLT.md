@@ -5127,3 +5127,4 @@
 | 2504 | Staatsvertrag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: völkerrechtlicher Vertrag zwischen Staaten / Vertrag zwischen Bundesländern / österr.: Staatsvertrag von 1955) |
 | 2505 | Stab | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stock, Stange / Gruppe von Offizieren oder Beratern einer Leitung) |
 | 2506 | Stachel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Dorn einer Pflanze / Giftstachel eines Insekts / Spitze am Draht; übertragen: etwas Kränkendes) |
+| 2507 | Stadthaus | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verwaltungsgebäude einer Stadt / Wohnhaus in der Stadt, Townhouse) |

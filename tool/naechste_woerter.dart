@@ -5159,6 +5159,7 @@ const zurueckgestellt = <String>{
   'Staatsvertrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: völkerrechtlicher Vertrag zwischen Staaten / Vertrag zwischen Bundesländern / österr.: Staatsvertrag von 1955) — nach den Nomen 2026-11-05
   'Stab', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stock, Stange / Gruppe von Offizieren oder Beratern einer Leitung) — nach den Nomen 2026-11-05
   'Stachel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Dorn einer Pflanze / Giftstachel eines Insekts / Spitze am Draht; übertragen: etwas Kränkendes) — nach den Nomen 2026-11-05
+  'Stadthaus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwaltungsgebäude einer Stadt / Wohnhaus in der Stadt, Townhouse) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
