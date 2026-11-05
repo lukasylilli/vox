@@ -5276,6 +5276,7 @@ const zurueckgestellt = <String>{
   'Sujet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand künstlerischer Darstellung / österr.: Werbemotiv) — nach den Nomen 2026-11-05
   'Suff', // zurückgestellt: ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 — 2026-11-05
   'Summa', // zurückgestellt: nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 — 2026-11-05
+  'Surfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wellenreiter, Windsurfer / ugs.: Internetsurfer) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

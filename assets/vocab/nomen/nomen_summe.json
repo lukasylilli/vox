@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "nomen_summe",
+  "wort": "die Summe",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مجموع",
+      "مبلغ"
+    ],
+    "en": [
+      "sum",
+      "amount",
+      "total"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A2",
+  "themen": [
+    "Mathematik",
+    "Geld"
+  ],
+  "ipa": "ˈzʊmə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Summe von drei und vier ist sieben.",
+      "uebersetzung": {
+        "fa": "مجموع سه و چهار، هفت است.",
+        "en": "The sum of three and four is seven."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Für das neue Dach mussten wir eine große Summe bezahlen, die wir lange gespart hatten.",
+      "uebersetzung": {
+        "fa": "برای سقف نو باید مبلغ زیادی می‌پرداختیم که مدت‌ها پس‌انداز کرده بودیم.",
+        "en": "For the new roof we had to pay a large sum that we had saved for a long time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Betrag",
+      "uebersetzung": {
+        "fa": "مبلغ",
+        "en": "amount"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Gesamtsumme",
+      "uebersetzung": {
+        "fa": "جمع کل",
+        "en": "total sum"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Summen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Summe von + Dat",
+        "beispiel": "Er hat eine Summe von 500 Euro gespendet.",
+        "uebersetzung": {
+          "fa": "او مبلغ ۵۰۰ یورو اهدا کرده است.",
+          "en": "He donated a sum of 500 euros."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "die Gesamtsumme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جمع کل",
+          "en": "total sum"
+        },
+        "id_ref": "nomen_gesamtsumme"
+      },
+      {
+        "wort": "addieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمع کردن",
+          "en": "to add"
+        },
+        "id_ref": "verb_addieren"
+      },
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
