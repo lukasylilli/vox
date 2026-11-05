@@ -2814,6 +2814,7 @@
 | ۲۶۳۵ | Thesis | `substantiv_singular_alle.txt` | 2026-11-05 | selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 | — |
 | ۲۶۳۶ | Thing | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 | — |
 | ۲۶۳۷ | Thon | `substantiv_singular_alle.txt` | 2026-11-05 | nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 | — |
+| ۲۶۳۸ | Tip | `substantiv_singular_alle.txt` | 2026-11-05 | alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5311,3 +5312,5 @@
 | 2653 | Tief | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) |
 | 2654 | Tiefgang | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) |
 | 2655 | Tiefschlag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) |
+| 2656 | Tilgung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) |
+| 2657 | Titel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) |
