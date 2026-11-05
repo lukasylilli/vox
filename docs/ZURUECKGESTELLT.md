@@ -5131,3 +5131,7 @@
 | 2507 | Stadthaus | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verwaltungsgebäude einer Stadt / Wohnhaus in der Stadt, Townhouse) |
 | 2508 | Stadtrat | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gremium der Stadtverwaltung / Mitglied dieses Gremiums) |
 | 2509 | Stadtrecht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: historisch: Recht einer Siedlung, Stadt zu sein / für eine Stadt geltendes Recht) |
+| 2510 | Stadtverordnete | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) |
+| 2511 | Stadtverordneter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) |
+| 2512 | Staffel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Staffellauf im Sport / Folge einer Fernsehserie / Einheit der Luftwaffe) |
+| 2513 | Stamm | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Baumstamm / Volksstamm / Wortstamm / feste Gruppe, z. B. Stammkunden) |

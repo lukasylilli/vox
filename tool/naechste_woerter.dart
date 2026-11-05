@@ -5163,6 +5163,10 @@ const zurueckgestellt = <String>{
   'Stadtrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium der Stadtverwaltung / Mitglied dieses Gremiums) — nach den Nomen 2026-11-05
   'Stadtrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: historisch: Recht einer Siedlung, Stadt zu sein / für eine Stadt geltendes Recht) — nach den Nomen 2026-11-05
   'Stadtsenat', // zurückgestellt: Bedeutung je Land unterschiedlich (österr. Kollegialorgan der Stadtregierung / Senat einer Stadt in DE) — Regel 14 — 2026-11-05
+  'Stadtverordnete', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) — nach den Nomen 2026-11-05
+  'Stadtverordneter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Stadtverordnete, ein Stadtverordneter) — nach den Nomen 2026-11-05
+  'Staffel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staffellauf im Sport / Folge einer Fernsehserie / Einheit der Luftwaffe) — nach den Nomen 2026-11-05
+  'Stamm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Baumstamm / Volksstamm / Wortstamm / feste Gruppe, z. B. Stammkunden) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
