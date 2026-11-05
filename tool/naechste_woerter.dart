@@ -5228,6 +5228,13 @@ const zurueckgestellt = <String>{
   'Stigma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schandmal, Brandmal / Wundmal Christi / Biologie: Atemöffnung, Narbe) — nach den Nomen 2026-11-05
   'Stimme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klang beim Sprechen/Singen / Stimme bei einer Wahl / Meinung / Musik: Stimme einer Partitur) — nach den Nomen 2026-11-05
   'Stimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemütslage, Atmosphäre / Musik: Stimmung eines Instruments) — nach den Nomen 2026-11-05
+  'Stoff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Substanz, Material / Gewebe, Textil / Thema, Lernstoff / ugs. Rauschgift) — nach den Nomen 2026-11-05
+  'Stollen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gang im Bergwerk / Weihnachtsgebäck / Stollen am Fußballschuh) — nach den Nomen 2026-11-05
+  'Stolperstein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hindernis / Gedenkstein für NS-Opfer) — nach den Nomen 2026-11-05
+  'Stopp', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Halt, Unterbrechung / Sport: Stoppball) — nach den Nomen 2026-11-05
+  'Story', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handlung einer Geschichte / Bericht, Reportage / ugs. erfundene Geschichte) — nach den Nomen 2026-11-05
+  'Stockerl', // zurückgestellt: Plural schwankend (die Stockerl / die Stockerln) — Regel 14 — 2026-11-05
+  'Stolle', // zurückgestellt: Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

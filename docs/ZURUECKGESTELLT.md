@@ -2790,6 +2790,8 @@
 | ۲۶۱۱ | Sterbe | `substantiv_singular_alle.txt` | 2026-11-05 | kein eigenständiges Wort (nur Bestimmungswort «Sterbe-») — Regel 14 | — |
 | ۲۶۱۲ | Steuermann | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (Steuerleute/Steuermänner) und Bedeutung je Bereich (Schifffahrt / Rudersport) — Regel 14 | — |
 | ۲۶۱۳ | Steven | `substantiv_singular_alle.txt` | 2026-11-05 | Fachwort Schiffbau (Vorder-/Achtersteven) und zugleich Vorname — Bedeutung/Gebrauch unsicher, Regel 14 | — |
+| ۲۶۱۴ | Stockerl | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (die Stockerl / die Stockerln) — Regel 14 | — |
+| ۲۶۱۵ | Stolle | `substantiv_singular_alle.txt` | 2026-11-05 | Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5196,3 +5198,8 @@
 | 2562 | Stigma | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schandmal, Brandmal / Wundmal Christi / Biologie: Atemöffnung, Narbe) |
 | 2563 | Stimme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Klang beim Sprechen/Singen / Stimme bei einer Wahl / Meinung / Musik: Stimme einer Partitur) |
 | 2564 | Stimmung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gemütslage, Atmosphäre / Musik: Stimmung eines Instruments) |
+| 2565 | Stoff | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Substanz, Material / Gewebe, Textil / Thema, Lernstoff / ugs. Rauschgift) |
+| 2566 | Stollen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gang im Bergwerk / Weihnachtsgebäck / Stollen am Fußballschuh) |
+| 2567 | Stolperstein | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Hindernis / Gedenkstein für NS-Opfer) |
+| 2568 | Stopp | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Halt, Unterbrechung / Sport: Stoppball) |
+| 2569 | Story | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Handlung einer Geschichte / Bericht, Reportage / ugs. erfundene Geschichte) |
