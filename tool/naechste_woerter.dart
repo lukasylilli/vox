@@ -5319,6 +5319,9 @@ const zurueckgestellt = <String>{
   'Telefax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) — nach den Nomen 2026-11-05
   'Telefonaktion', // zurückgestellt: Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 — 2026-11-05
   'Telekom', // zurückgestellt: Firmenname (Deutsche Telekom) — Regel 18 — 2026-11-05
+  'Temperament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) — nach den Nomen 2026-11-05
+  'Tempo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) — nach den Nomen 2026-11-05
+  'Term', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

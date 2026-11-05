@@ -1,0 +1,154 @@
+{
+  "schema": "3.0",
+  "id": "nomen_termin",
+  "wort": "der Termin",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "وقت (ملاقات)",
+      "قرار",
+      "موعد"
+    ],
+    "en": [
+      "appointment",
+      "date",
+      "deadline"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Alltag",
+    "Arbeit",
+    "Gesundheit"
+  ],
+  "ipa": "tɛʁˈmiːn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich habe morgen einen Termin beim Arzt.",
+      "uebersetzung": {
+        "fa": "فردا نزد دکتر وقت دارم.",
+        "en": "I have a doctor’s appointment tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn Sie den Termin nicht wahrnehmen können, sagen Sie bitte mindestens einen Tag vorher ab.",
+      "uebersetzung": {
+        "fa": "اگر نمی‌توانید سر وقتتان بیایید، لطفاً دست‌کم یک روز قبل لغو کنید.",
+        "en": "If you cannot keep the appointment, please cancel at least one day in advance."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Arzttermin",
+      "uebersetzung": {
+        "fa": "وقت دکتر",
+        "en": "doctor’s appointment"
+      }
+    },
+    {
+      "wort": "der Abgabetermin",
+      "uebersetzung": {
+        "fa": "موعد تحویل",
+        "en": "deadline"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Termine",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Termin vereinbaren",
+        "beispiel": "Ich möchte einen Termin vereinbaren.",
+        "uebersetzung": {
+          "fa": "می‌خواهم یک وقت بگیرم.",
+          "en": "I would like to make an appointment."
+        }
+      },
+      {
+        "verbindung": "einen Termin absagen",
+        "beispiel": "Sie musste den Termin leider absagen.",
+        "uebersetzung": {
+          "fa": "او متأسفانه مجبور شد قرار را لغو کند.",
+          "en": "Unfortunately she had to cancel the appointment."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Datum",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاریخ (روز)",
+          "en": "date"
+        },
+        "id_ref": "nomen_datum"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "pünktlich",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سروقت",
+          "en": "punctual"
+        },
+        "id_ref": "adjektiv_puenktlich"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
+      },
+      {
+        "wort": "die Sprechstunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ساعت ملاقات؛ ساعت پذیرش (پزشک، معلم)",
+          "en": "consultation hours"
+        },
+        "id_ref": "nomen_sprechstunde"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
