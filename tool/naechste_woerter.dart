@@ -5277,6 +5277,8 @@ const zurueckgestellt = <String>{
   'Suff', // zurückgestellt: ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 — 2026-11-05
   'Summa', // zurückgestellt: nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 — 2026-11-05
   'Surfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wellenreiter, Windsurfer / ugs.: Internetsurfer) — nach den Nomen 2026-11-05
+  'Synthese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verbindung, Zusammenführung / Chemie: Aufbau einer Verbindung / Philosophie: Synthese von These und Antithese) — nach den Nomen 2026-11-05
+  'System', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordnungsprinzip, Methode / politisches System, Regime / technisches System, Computersystem / Biologie, z. B. Nervensystem) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

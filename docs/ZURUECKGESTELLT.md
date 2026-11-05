@@ -5245,3 +5245,5 @@
 | 2604 | Suite | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Zimmerflucht im Hotel / Musik: Folge von Sätzen) |
 | 2605 | Sujet | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gegenstand künstlerischer Darstellung / österr.: Werbemotiv) |
 | 2606 | Surfer | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wellenreiter, Windsurfer / ugs.: Internetsurfer) |
+| 2607 | Synthese | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verbindung, Zusammenführung / Chemie: Aufbau einer Verbindung / Philosophie: Synthese von These und Antithese) |
+| 2608 | System | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Ordnungsprinzip, Methode / politisches System, Regime / technisches System, Computersystem / Biologie, z. B. Nervensystem) |
