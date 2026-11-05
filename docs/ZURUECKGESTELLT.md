@@ -2793,6 +2793,7 @@
 | ۲۶۱۴ | Stockerl | `substantiv_singular_alle.txt` | 2026-11-05 | Plural schwankend (die Stockerl / die Stockerln) — Regel 14 | — |
 | ۲۶۱۵ | Stolle | `substantiv_singular_alle.txt` | 2026-11-05 | Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 | — |
 | ۲۶۱۶ | Streif | `substantiv_singular_alle.txt` | 2026-11-05 | Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 | — |
+| ۲۶۱۷ | Striptease | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Striptease) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5217,3 +5218,7 @@
 | 2580 | Streifen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: schmales Stück, Linie / ugs. Film) |
 | 2581 | Streiflicht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: seitlich einfallendes Licht / kurze, treffende Schilderung) |
 | 2582 | Streifzug | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wanderung, Erkundung / übertragen: kurzer Überblick) |
+| 2583 | Streuung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Streuen, Verteilen / Physik: Streuung von Strahlen / Statistik: Abweichung) |
+| 2584 | Strich | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Linie / Pinselstrich, Bogenstrich / ugs. Straßenprostitution) |
+| 2585 | Strip | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kurzform für Striptease / Comicstreifen / Pflasterstreifen) |
+| 2586 | Strohhalm | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: einzelner Halm Stroh / Trinkhalm / übertragen: letzte Hoffnung) |

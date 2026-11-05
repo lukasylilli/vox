@@ -5249,6 +5249,11 @@ const zurueckgestellt = <String>{
   'Streiflicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: seitlich einfallendes Licht / kurze, treffende Schilderung) — nach den Nomen 2026-11-05
   'Streifzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wanderung, Erkundung / übertragen: kurzer Überblick) — nach den Nomen 2026-11-05
   'Streif', // zurückgestellt: Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 — 2026-11-05
+  'Streuung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Streuen, Verteilen / Physik: Streuung von Strahlen / Statistik: Abweichung) — nach den Nomen 2026-11-05
+  'Strich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Linie / Pinselstrich, Bogenstrich / ugs. Straßenprostitution) — nach den Nomen 2026-11-05
+  'Strip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurzform für Striptease / Comicstreifen / Pflasterstreifen) — nach den Nomen 2026-11-05
+  'Strohhalm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: einzelner Halm Stroh / Trinkhalm / übertragen: letzte Hoffnung) — nach den Nomen 2026-11-05
+  'Striptease', // zurückgestellt: Genus schwankt (der oder das Striptease) — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
