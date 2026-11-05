@@ -5190,3 +5190,9 @@
 | 2556 | Stichwort | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Eintrag im Wörterbuch «Stichwörter» / Einsatzwort, Notiz «Stichworte») |
 | 2557 | Stickerei | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Sticken / gestickte Arbeit) |
 | 2558 | Stiefkind | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kind des Ehepartners / übertragen: vernachlässigte Sache) |
+| 2559 | Stiel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Griff eines Werkzeugs / Stängel einer Pflanze / Fuß eines Glases) |
+| 2560 | Stier | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: männliches Rind / Sternzeichen) |
+| 2561 | Stiftung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Einrichtung mit Vermögen / das Stiften, Schenkung) |
+| 2562 | Stigma | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schandmal, Brandmal / Wundmal Christi / Biologie: Atemöffnung, Narbe) |
+| 2563 | Stimme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Klang beim Sprechen/Singen / Stimme bei einer Wahl / Meinung / Musik: Stimme einer Partitur) |
+| 2564 | Stimmung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gemütslage, Atmosphäre / Musik: Stimmung eines Instruments) |

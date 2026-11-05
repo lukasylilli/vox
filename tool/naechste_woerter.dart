@@ -5222,6 +5222,12 @@ const zurueckgestellt = <String>{
   'Stickerei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Sticken / gestickte Arbeit) — nach den Nomen 2026-11-05
   'Stiefkind', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kind des Ehepartners / übertragen: vernachlässigte Sache) — nach den Nomen 2026-11-05
   'Steven', // zurückgestellt: Fachwort Schiffbau (Vorder-/Achtersteven) und zugleich Vorname — Bedeutung/Gebrauch unsicher, Regel 14 — 2026-11-05
+  'Stiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Griff eines Werkzeugs / Stängel einer Pflanze / Fuß eines Glases) — nach den Nomen 2026-11-05
+  'Stier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: männliches Rind / Sternzeichen) — nach den Nomen 2026-11-05
+  'Stiftung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einrichtung mit Vermögen / das Stiften, Schenkung) — nach den Nomen 2026-11-05
+  'Stigma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schandmal, Brandmal / Wundmal Christi / Biologie: Atemöffnung, Narbe) — nach den Nomen 2026-11-05
+  'Stimme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Klang beim Sprechen/Singen / Stimme bei einer Wahl / Meinung / Musik: Stimme einer Partitur) — nach den Nomen 2026-11-05
+  'Stimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemütslage, Atmosphäre / Musik: Stimmung eines Instruments) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
