@@ -5328,6 +5328,9 @@ const zurueckgestellt = <String>{
   'Terror', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) — nach den Nomen 2026-11-05
   'Testament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) — nach den Nomen 2026-11-05
   'Tester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) — nach den Nomen 2026-11-05
+  'Texter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) — nach den Nomen 2026-11-05
+  'Textil', // zurückgestellt: als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 — 2026-11-05
+  'Theater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

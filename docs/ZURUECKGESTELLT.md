@@ -2808,6 +2808,7 @@
 | ۲۶۲۹ | Telekom | `substantiv_singular_alle.txt` | 2026-11-05 | Firmenname (Deutsche Telekom) — Regel 18 | — |
 | ۲۶۳۰ | Terminator | `substantiv_singular_alle.txt` | 2026-11-05 | Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 | — |
 | ۲۶۳۱ | Terra | `substantiv_singular_alle.txt` | 2026-11-05 | nur in lateinischen Wendungen (Terra incognita) — Regel 14 | — |
+| ۲۶۳۲ | Textil | `substantiv_singular_alle.txt` | 2026-11-05 | als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5296,3 +5297,5 @@
 | 2644 | Terror | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) |
 | 2645 | Testament | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) |
 | 2646 | Tester | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) |
+| 2647 | Texter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) |
+| 2648 | Theater | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») |
