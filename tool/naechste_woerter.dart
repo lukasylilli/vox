@@ -5200,6 +5200,13 @@ const zurueckgestellt = <String>{
   'Steig', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: schmaler, steiler Weg / regional: Bahn- oder Bussteig) — nach den Nomen 2026-11-05
   'Steiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufsicht im Bergbau / Hubsteiger, Hebebühne) — nach den Nomen 2026-11-05
   'Steigerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erhöhung / Grammatik: Komparation der Adjektive) — nach den Nomen 2026-11-05
+  'Stein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gestein, Stein / Obstkern / Spielstein / Edelstein) — nach den Nomen 2026-11-05
+  'Steinbock', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wildtier in den Alpen / Sternzeichen) — nach den Nomen 2026-11-05
+  'Steinmetz', // zurückgestellt: Deklination schwankend (des Steinmetzes/Steinmetzen, Plural Steinmetze/Steinmetzen) — Regel 14 — 2026-11-05
+  'Steinwurf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wurf eines Steins / übertragen: kurze Entfernung «einen Steinwurf entfernt») — nach den Nomen 2026-11-05
+  'Stelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort, Platz / Arbeitsstelle / Behörde, Amt / Textstelle) — nach den Nomen 2026-11-05
+  'Stellenwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bedeutung, Wichtigkeit / Mathematik: Wert einer Ziffer nach ihrer Stelle) — nach den Nomen 2026-11-05
+  'Stellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperhaltung / Position im Beruf / Meinung («Stellung nehmen») / militärische Stellung) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

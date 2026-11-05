@@ -2784,6 +2784,7 @@
 | ۲۶۰۵ | Startloch | `substantiv_singular_alle.txt` | 2026-11-05 | fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 | — |
 | ۲۶۰۶ | Statt | `substantiv_singular_alle.txt` | 2026-11-05 | nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 | — |
 | ۲۶۰۷ | Stefan | `substantiv_singular_alle.txt` | 2026-11-05 | Personenname, kein geografischer Name — Regel 18 | — |
+| ۲۶۰۸ | Steinmetz | `substantiv_singular_alle.txt` | 2026-11-05 | Deklination schwankend (des Steinmetzes/Steinmetzen, Plural Steinmetze/Steinmetzen) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5168,3 +5169,9 @@
 | 2540 | Steig | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: schmaler, steiler Weg / regional: Bahn- oder Bussteig) |
 | 2541 | Steiger | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Aufsicht im Bergbau / Hubsteiger, Hebebühne) |
 | 2542 | Steigerung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Erhöhung / Grammatik: Komparation der Adjektive) |
+| 2543 | Stein | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gestein, Stein / Obstkern / Spielstein / Edelstein) |
+| 2544 | Steinbock | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wildtier in den Alpen / Sternzeichen) |
+| 2545 | Steinwurf | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wurf eines Steins / übertragen: kurze Entfernung «einen Steinwurf entfernt») |
+| 2546 | Stelle | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Ort, Platz / Arbeitsstelle / Behörde, Amt / Textstelle) |
+| 2547 | Stellenwert | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bedeutung, Wichtigkeit / Mathematik: Wert einer Ziffer nach ihrer Stelle) |
+| 2548 | Stellung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Körperhaltung / Position im Beruf / Meinung («Stellung nehmen») / militärische Stellung) |
