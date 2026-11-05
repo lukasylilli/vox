@@ -5297,6 +5297,8 @@ const zurueckgestellt = <String>{
   'Talsohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boden eines Tals / Tiefpunkt einer Entwicklung, z. B. der Konjunktur) — nach den Nomen 2026-11-05
   'Tandem', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrrad für zwei / Sprachtandem, Zweiergespann) — nach den Nomen 2026-11-05
   'Tank', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) — nach den Nomen 2026-11-05
+  'Tarif', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preis, Gebühr, z. B. Strom- oder Handytarif / ausgehandelte Lohnhöhe, Tarifvertrag) — nach den Nomen 2026-11-05
+  'Tanzbein', // zurückgestellt: nur in fester Wendung «das Tanzbein schwingen» — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

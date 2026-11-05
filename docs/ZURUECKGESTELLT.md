@@ -2800,6 +2800,7 @@
 | ۲۶۲۱ | Tagblatt | `substantiv_singular_alle.txt` | 2026-11-05 | regional (bes. schweizerisch) bzw. sonst veraltet, meist nur in Zeitungsnamen — Gebrauch/Markierung unsicher, Regel 14 | — |
 | ۲۶۲۲ | Tai | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unklar (Volk/Sprachgruppe, Bestandteil von «Tai-Chi»?) — Regel 14 | — |
 | ۲۶۲۳ | Take | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Take) — Regel 14 | — |
+| ۲۶۲۴ | Tanzbein | `substantiv_singular_alle.txt` | 2026-11-05 | nur in fester Wendung «das Tanzbein schwingen» — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5265,3 +5266,4 @@
 | 2621 | Talsohle | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Boden eines Tals / Tiefpunkt einer Entwicklung, z. B. der Konjunktur) |
 | 2622 | Tandem | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahrrad für zwei / Sprachtandem, Zweiergespann) |
 | 2623 | Tank | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) |
+| 2624 | Tarif | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Preis, Gebühr, z. B. Strom- oder Handytarif / ausgehandelte Lohnhöhe, Tarifvertrag) |
