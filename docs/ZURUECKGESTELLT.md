@@ -2797,6 +2797,7 @@
 | ۲۶۱۸ | Struck | `substantiv_singular_alle.txt` | 2026-11-05 | Familienname / Bedeutung als Gattungswort unsicher — Regel 14/18 | — |
 | ۲۶۱۹ | Suff | `substantiv_singular_alle.txt` | 2026-11-05 | ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 | — |
 | ۲۶۲۰ | Summa | `substantiv_singular_alle.txt` | 2026-11-05 | nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 | — |
+| ۲۶۲۱ | Tagblatt | `substantiv_singular_alle.txt` | 2026-11-05 | regional (bes. schweizerisch) bzw. sonst veraltet, meist nur in Zeitungsnamen — Gebrauch/Markierung unsicher, Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5254,3 +5255,6 @@
 | 2613 | Szenerie | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bühnenbild / Landschaft, Schauplatz) |
 | 2614 | Tabellendritte | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv: der/die Tabellendritte) |
 | 2615 | Tableau | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gemälde, wirkungsvolles Bild / Theater: Gruppenbild / österr.: Übersichtstafel) |
+| 2616 | Tafel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schultafel / Tafel Schokolade / festlich gedeckter Tisch / Lebensmittelausgabe «die Tafel») |
+| 2617 | Tageskarte | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Speisekarte des Tages / Fahr- oder Eintrittskarte für einen Tag) |
+| 2618 | Tagessatz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Strafrecht: Einheit der Geldstrafe / täglicher Betrag, Tagespauschale) |

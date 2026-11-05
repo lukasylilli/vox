@@ -5286,6 +5286,10 @@ const zurueckgestellt = <String>{
   'Szenerie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenbild / Landschaft, Schauplatz) — nach den Nomen 2026-11-05
   'Tabellendritte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Tabellendritte) — nach den Nomen 2026-11-05
   'Tableau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemälde, wirkungsvolles Bild / Theater: Gruppenbild / österr.: Übersichtstafel) — nach den Nomen 2026-11-05
+  'Tafel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schultafel / Tafel Schokolade / festlich gedeckter Tisch / Lebensmittelausgabe «die Tafel») — nach den Nomen 2026-11-05
+  'Tageskarte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Speisekarte des Tages / Fahr- oder Eintrittskarte für einen Tag) — nach den Nomen 2026-11-05
+  'Tagessatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafrecht: Einheit der Geldstrafe / täglicher Betrag, Tagespauschale) — nach den Nomen 2026-11-05
+  'Tagblatt', // zurückgestellt: regional (bes. schweizerisch) bzw. sonst veraltet, meist nur in Zeitungsnamen — Gebrauch/Markierung unsicher, Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
