@@ -2795,6 +2795,8 @@
 | ۲۶۱۶ | Streif | `substantiv_singular_alle.txt` | 2026-11-05 | Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 | — |
 | ۲۶۱۷ | Striptease | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Striptease) — Regel 14 | — |
 | ۲۶۱۸ | Struck | `substantiv_singular_alle.txt` | 2026-11-05 | Familienname / Bedeutung als Gattungswort unsicher — Regel 14/18 | — |
+| ۲۶۱۹ | Suff | `substantiv_singular_alle.txt` | 2026-11-05 | ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 | — |
+| ۲۶۲۰ | Summa | `substantiv_singular_alle.txt` | 2026-11-05 | nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5237,3 +5239,8 @@
 | 2598 | Sturz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Fallen / Absetzung einer Regierung / starkes Sinken, Kurssturz / Bau: Fenstersturz) |
 | 2599 | Styling | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Formgebung, Design / Frisur, Make-up, Kleidung) |
 | 2600 | Subjekt | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Grammatik: Satzgegenstand / Philosophie: erkennendes Wesen / abwertend: Person) |
+| 2601 | Substanz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stoff, Materie / das Wesentliche, Gehalt / Vermögen, «von der Substanz leben») |
+| 2602 | Sucher | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: suchende Person / Kamera: Sucher, Bildfenster) |
+| 2603 | Sudetendeutsche | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv: der/die Sudetendeutsche) |
+| 2604 | Suite | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Zimmerflucht im Hotel / Musik: Folge von Sätzen) |
+| 2605 | Sujet | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gegenstand künstlerischer Darstellung / österr.: Werbemotiv) |

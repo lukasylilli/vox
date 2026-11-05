@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_subunternehmer",
+  "wort": "der Subunternehmer",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پیمانکار فرعی",
+      "پیمانکار دست دوم"
+    ],
+    "en": [
+      "subcontractor"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈzʊpʔʊntɐˌneːmɐ",
+  "anmerkung": null,
+  "berufe": [
+    "bau"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Subunternehmer macht die Elektroarbeiten.",
+      "uebersetzung": {
+        "fa": "پیمانکار فرعی کارهای برقی را انجام می‌دهد.",
+        "en": "The subcontractor does the electrical work."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil die Baufirma zu wenig Personal hat, beauftragt sie einen Subunternehmer, der die Fliesen verlegt.",
+      "uebersetzung": {
+        "fa": "چون شرکت ساختمانی نیروی کافی ندارد، به یک پیمانکار فرعی سفارش می‌دهد که کاشی‌ها را نصب کند.",
+        "en": "Because the construction company is short of staff, it hires a subcontractor who lays the tiles."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Nachunternehmer",
+      "uebersetzung": {
+        "fa": "پیمانکار فرعی",
+        "en": "subcontractor"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sub- (زیر) + Unternehmer (کارفرما، پیمانکار)",
+    "en": "sub- (under) + Unternehmer (entrepreneur, contractor)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Subunternehmer",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Subunternehmer beauftragen",
+        "beispiel": "Die Firma hat einen Subunternehmer beauftragt.",
+        "uebersetzung": {
+          "fa": "شرکت به یک پیمانکار فرعی سفارش داده است.",
+          "en": "The company has commissioned a subcontractor."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Baufirma",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت ساختمانی",
+          "en": "construction company"
+        },
+        "id_ref": "nomen_baufirma"
+      },
+      {
+        "wort": "der Auftraggeber",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سفارش‌دهنده، کارفرما",
+          "en": "client, customer"
+        },
+        "id_ref": "nomen_auftraggeber"
+      },
+      {
+        "wort": "der Generalunternehmer",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پیمانکار اصلی",
+          "en": "general contractor"
+        },
+        "id_ref": "nomen_generalunternehmer"
+      },
+      {
+        "wort": "der Bauunternehmer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پیمانکار ساختمانی",
+          "en": "building contractor"
+        },
+        "id_ref": "nomen_bauunternehmer"
+      },
+      {
+        "wort": "beauftragen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سفارش دادن، مأمور کردن",
+          "en": "to commission, to assign"
+        },
+        "id_ref": "verb_beauftragen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

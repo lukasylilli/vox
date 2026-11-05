@@ -5269,6 +5269,13 @@ const zurueckgestellt = <String>{
   'Sturz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Fallen / Absetzung einer Regierung / starkes Sinken, Kurssturz / Bau: Fenstersturz) — nach den Nomen 2026-11-05
   'Styling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Formgebung, Design / Frisur, Make-up, Kleidung) — nach den Nomen 2026-11-05
   'Subjekt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grammatik: Satzgegenstand / Philosophie: erkennendes Wesen / abwertend: Person) — nach den Nomen 2026-11-05
+  'Substanz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoff, Materie / das Wesentliche, Gehalt / Vermögen, «von der Substanz leben») — nach den Nomen 2026-11-05
+  'Sucher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: suchende Person / Kamera: Sucher, Bildfenster) — nach den Nomen 2026-11-05
+  'Sudetendeutsche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Sudetendeutsche) — nach den Nomen 2026-11-05
+  'Suite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zimmerflucht im Hotel / Musik: Folge von Sätzen) — nach den Nomen 2026-11-05
+  'Sujet', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand künstlerischer Darstellung / österr.: Werbemotiv) — nach den Nomen 2026-11-05
+  'Suff', // zurückgestellt: ugs.; Bedeutung (Trunksucht / Rausch) und Gebrauch fast nur in «im Suff» unsicher — Regel 14 — 2026-11-05
+  'Summa', // zurückgestellt: nur lateinisch in festen Wendungen («in summa», «summa cum laude») — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
