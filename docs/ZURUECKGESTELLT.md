@@ -5227,3 +5227,6 @@
 | 2588 | Strom | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: elektrischer Strom / großer Fluss / Strömung, Menge «ein Strom von Menschen») |
 | 2589 | Stromerzeuger | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Unternehmen, das Strom erzeugt / Gerät, Generator) |
 | 2590 | Strudel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wasserwirbel / Mehlspeise, Apfelstrudel) |
+| 2591 | Stube | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wohnzimmer, Zimmer / Raum in der Kaserne) |
+| 2592 | Studie | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: wissenschaftliche Untersuchung / Kunst: Entwurf, Skizze, Übungsstück) |
+| 2593 | Studierende | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Partizip: der/die Studierende) |

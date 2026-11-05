@@ -5259,6 +5259,9 @@ const zurueckgestellt = <String>{
   'Stromerzeuger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unternehmen, das Strom erzeugt / Gerät, Generator) — nach den Nomen 2026-11-05
   'Strudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserwirbel / Mehlspeise, Apfelstrudel) — nach den Nomen 2026-11-05
   'Struck', // zurückgestellt: Familienname / Bedeutung als Gattungswort unsicher — Regel 14/18 — 2026-11-05
+  'Stube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnzimmer, Zimmer / Raum in der Kaserne) — nach den Nomen 2026-11-05
+  'Studie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wissenschaftliche Untersuchung / Kunst: Entwurf, Skizze, Übungsstück) — nach den Nomen 2026-11-05
+  'Studierende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Studierende) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
