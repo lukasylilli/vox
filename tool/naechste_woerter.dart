@@ -5207,6 +5207,14 @@ const zurueckgestellt = <String>{
   'Stelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ort, Platz / Arbeitsstelle / Behörde, Amt / Textstelle) — nach den Nomen 2026-11-05
   'Stellenwert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bedeutung, Wichtigkeit / Mathematik: Wert einer Ziffer nach ihrer Stelle) — nach den Nomen 2026-11-05
   'Stellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Körperhaltung / Position im Beruf / Meinung («Stellung nehmen») / militärische Stellung) — nach den Nomen 2026-11-05
+  'Stelze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stange zum Gehen / österr.: Schweinsstelze, Eisbein) — nach den Nomen 2026-11-05
+  'Stempel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Stempeln / Abdruck, Poststempel / Teil der Blüte) — nach den Nomen 2026-11-05
+  'Stengel', // zurückgestellt: alte Schreibung (heute «Stängel») — Lemma unsicher, Regel 14 — 2026-11-05
+  'Step', // zurückgestellt: Bedeutung unsicher (Stepptanz / Step-Aerobic) — Regel 14 — 2026-11-05
+  'Sterbe', // zurückgestellt: kein eigenständiges Wort (nur Bestimmungswort «Sterbe-») — Regel 14 — 2026-11-05
+  'Sterblichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Sterblichsein / Sterberate) — nach den Nomen 2026-11-05
+  'Sternbild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gruppe von Sternen am Himmel / umgangssprachlich: Sternzeichen) — nach den Nomen 2026-11-05
+  'Sternchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleiner Stern / Zeichen * / junger Filmstar) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

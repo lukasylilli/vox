@@ -2785,6 +2785,9 @@
 | ۲۶۰۶ | Statt | `substantiv_singular_alle.txt` | 2026-11-05 | nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 | — |
 | ۲۶۰۷ | Stefan | `substantiv_singular_alle.txt` | 2026-11-05 | Personenname, kein geografischer Name — Regel 18 | — |
 | ۲۶۰۸ | Steinmetz | `substantiv_singular_alle.txt` | 2026-11-05 | Deklination schwankend (des Steinmetzes/Steinmetzen, Plural Steinmetze/Steinmetzen) — Regel 14 | — |
+| ۲۶۰۹ | Stengel | `substantiv_singular_alle.txt` | 2026-11-05 | alte Schreibung (heute «Stängel») — Lemma unsicher, Regel 14 | — |
+| ۲۶۱۰ | Step | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (Stepptanz / Step-Aerobic) — Regel 14 | — |
+| ۲۶۱۱ | Sterbe | `substantiv_singular_alle.txt` | 2026-11-05 | kein eigenständiges Wort (nur Bestimmungswort «Sterbe-») — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5175,3 +5178,8 @@
 | 2546 | Stelle | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Ort, Platz / Arbeitsstelle / Behörde, Amt / Textstelle) |
 | 2547 | Stellenwert | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bedeutung, Wichtigkeit / Mathematik: Wert einer Ziffer nach ihrer Stelle) |
 | 2548 | Stellung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Körperhaltung / Position im Beruf / Meinung («Stellung nehmen») / militärische Stellung) |
+| 2549 | Stelze | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Stange zum Gehen / österr.: Schweinsstelze, Eisbein) |
+| 2550 | Stempel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gerät zum Stempeln / Abdruck, Poststempel / Teil der Blüte) |
+| 2551 | Sterblichkeit | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Sterblichsein / Sterberate) |
+| 2552 | Sternbild | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gruppe von Sternen am Himmel / umgangssprachlich: Sternzeichen) |
+| 2553 | Sternchen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: kleiner Stern / Zeichen * / junger Filmstar) |
