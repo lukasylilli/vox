@@ -2782,6 +2782,7 @@
 | ۲۶۰۳ | Stadtsenat | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung je Land unterschiedlich (österr. Kollegialorgan der Stadtregierung / Senat einer Stadt in DE) — Regel 14 | — |
 | ۲۶۰۴ | Stande | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (landschaftlich «Bottich» oder nur Form von «Stand») — Regel 14 | — |
 | ۲۶۰۵ | Startloch | `substantiv_singular_alle.txt` | 2026-11-05 | fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 | — |
+| ۲۶۰۶ | Statt | `substantiv_singular_alle.txt` | 2026-11-05 | nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5153,3 +5154,8 @@
 | 2527 | Starter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilnehmer eines Rennens / Person, die das Startsignal gibt / Anlasser beim Auto / Vorspeise) |
 | 2528 | Startgeld | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilnahmegebühr / Geld, das ein Sportler fürs Antreten bekommt) |
 | 2529 | Starthilfe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Hilfe beim Anlassen eines Autos / finanzielle Hilfe für den Anfang) |
+| 2530 | Startplatz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Platz eines Teilnehmers beim Start / Ort, von dem Flugzeuge oder Raketen starten) |
+| 2531 | Startschuss | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schuss als Startsignal / übertragen: offizieller Beginn) |
+| 2532 | Statik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teilgebiet der Mechanik / Stabilität eines Bauwerks) |
+| 2533 | Station | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Haltestelle / Abteilung im Krankenhaus / Stelle, Etappe / Forschungs- oder Sendestation) |
+| 2534 | Statistik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wissenschaft / einzelne Zusammenstellung von Zahlen) |

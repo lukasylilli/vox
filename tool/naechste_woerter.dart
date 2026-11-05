@@ -5185,6 +5185,12 @@ const zurueckgestellt = <String>{
   'Startgeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilnahmegebühr / Geld, das ein Sportler fürs Antreten bekommt) — nach den Nomen 2026-11-05
   'Starthilfe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hilfe beim Anlassen eines Autos / finanzielle Hilfe für den Anfang) — nach den Nomen 2026-11-05
   'Startloch', // zurückgestellt: fast nur in der Wendung «in den Startlöchern stehen» — Regel 14 — 2026-11-05
+  'Startplatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Platz eines Teilnehmers beim Start / Ort, von dem Flugzeuge oder Raketen starten) — nach den Nomen 2026-11-05
+  'Startschuss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuss als Startsignal / übertragen: offizieller Beginn) — nach den Nomen 2026-11-05
+  'Statik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teilgebiet der Mechanik / Stabilität eines Bauwerks) — nach den Nomen 2026-11-05
+  'Station', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haltestelle / Abteilung im Krankenhaus / Stelle, Etappe / Forschungs- oder Sendestation) — nach den Nomen 2026-11-05
+  'Statistik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wissenschaft / einzelne Zusammenstellung von Zahlen) — nach den Nomen 2026-11-05
+  'Statt', // zurückgestellt: nur in festen Wendungen («an Kindes statt», «an Eides statt») — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
