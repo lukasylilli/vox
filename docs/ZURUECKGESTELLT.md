@@ -5309,3 +5309,5 @@
 | 2651 | Tick | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) |
 | 2652 | Ticker | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) |
 | 2653 | Tief | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) |
+| 2654 | Tiefgang | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) |
+| 2655 | Tiefschlag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) |
