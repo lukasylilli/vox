@@ -5247,3 +5247,10 @@
 | 2606 | Surfer | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wellenreiter, Windsurfer / ugs.: Internetsurfer) |
 | 2607 | Synthese | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verbindung, Zusammenführung / Chemie: Aufbau einer Verbindung / Philosophie: Synthese von These und Antithese) |
 | 2608 | System | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Ordnungsprinzip, Methode / politisches System, Regime / technisches System, Computersystem / Biologie, z. B. Nervensystem) |
+| 2609 | Systematik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: planmäßige Ordnung, Darstellung / Biologie: Einteilung der Lebewesen) |
+| 2610 | Szenario | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Theater/Film: Szenenfolge, Entwurf / angenommener Ablauf künftiger Ereignisse) |
+| 2611 | Szenarium | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Theater: Szenenfolge, Regiebuch / angenommener Ablauf künftiger Ereignisse) |
+| 2612 | Szene | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Abschnitt eines Stücks/Films / Schauplatz, Vorgang / Streit, «eine Szene machen» / Milieu, z. B. Drogenszene) |
+| 2613 | Szenerie | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Bühnenbild / Landschaft, Schauplatz) |
+| 2614 | Tabellendritte | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv: der/die Tabellendritte) |
+| 2615 | Tableau | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gemälde, wirkungsvolles Bild / Theater: Gruppenbild / österr.: Übersichtstafel) |

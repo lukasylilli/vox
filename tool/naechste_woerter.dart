@@ -5279,6 +5279,13 @@ const zurueckgestellt = <String>{
   'Surfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wellenreiter, Windsurfer / ugs.: Internetsurfer) — nach den Nomen 2026-11-05
   'Synthese', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verbindung, Zusammenführung / Chemie: Aufbau einer Verbindung / Philosophie: Synthese von These und Antithese) — nach den Nomen 2026-11-05
   'System', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ordnungsprinzip, Methode / politisches System, Regime / technisches System, Computersystem / Biologie, z. B. Nervensystem) — nach den Nomen 2026-11-05
+  'Systematik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: planmäßige Ordnung, Darstellung / Biologie: Einteilung der Lebewesen) — nach den Nomen 2026-11-05
+  'Szenario', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theater/Film: Szenenfolge, Entwurf / angenommener Ablauf künftiger Ereignisse) — nach den Nomen 2026-11-05
+  'Szenarium', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Theater: Szenenfolge, Regiebuch / angenommener Ablauf künftiger Ereignisse) — nach den Nomen 2026-11-05
+  'Szene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschnitt eines Stücks/Films / Schauplatz, Vorgang / Streit, «eine Szene machen» / Milieu, z. B. Drogenszene) — nach den Nomen 2026-11-05
+  'Szenerie', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bühnenbild / Landschaft, Schauplatz) — nach den Nomen 2026-11-05
+  'Tabellendritte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Tabellendritte) — nach den Nomen 2026-11-05
+  'Tableau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemälde, wirkungsvolles Bild / Theater: Gruppenbild / österr.: Übersichtstafel) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
