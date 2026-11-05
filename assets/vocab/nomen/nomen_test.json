@@ -1,0 +1,163 @@
+{
+  "schema": "3.0",
+  "id": "nomen_test",
+  "wort": "der Test",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آزمون",
+      "آزمایش",
+      "تست"
+    ],
+    "en": [
+      "test"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Schule",
+    "Gesundheit",
+    "Alltag"
+  ],
+  "ipa": "tɛst",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Morgen schreiben wir einen Test.",
+      "uebersetzung": {
+        "fa": "فردا یک آزمون می‌نویسیم.",
+        "en": "We are writing a test tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Arzt hat einen Test gemacht, um herauszufinden, ob ich eine Allergie habe.",
+      "uebersetzung": {
+        "fa": "دکتر یک آزمایش انجام داد تا بفهمد آیا آلرژی دارم یا نه.",
+        "en": "The doctor did a test to find out whether I have an allergy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Prüfung",
+      "uebersetzung": {
+        "fa": "امتحان",
+        "en": "exam"
+      }
+    },
+    {
+      "wort": "der Versuch",
+      "uebersetzung": {
+        "fa": "آزمایش",
+        "en": "experiment, attempt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Schnelltest",
+      "uebersetzung": {
+        "fa": "تست سریع",
+        "en": "rapid test"
+      }
+    },
+    {
+      "wort": "der Sprachtest",
+      "uebersetzung": {
+        "fa": "آزمون زبان",
+        "en": "language test"
+      }
+    },
+    {
+      "wort": "der Bluttest",
+      "uebersetzung": {
+        "fa": "آزمایش خون",
+        "en": "blood test"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Tests",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Test bestehen",
+        "beispiel": "Sie hat den Test mit einer guten Note bestanden.",
+        "uebersetzung": {
+          "fa": "او آزمون را با نمره‌ی خوب قبول شد.",
+          "en": "She passed the test with a good mark."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "der Fragebogen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرسشنامه",
+          "en": "questionnaire"
+        },
+        "id_ref": "nomen_fragebogen"
+      },
+      {
+        "wort": "das Experiment",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایش",
+          "en": "experiment"
+        },
+        "id_ref": "nomen_experiment"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص (بیماری)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "der Bluttest",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزمایش خون",
+          "en": "blood test"
+        },
+        "id_ref": "nomen_bluttest"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

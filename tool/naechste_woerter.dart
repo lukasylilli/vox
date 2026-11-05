@@ -5322,6 +5322,12 @@ const zurueckgestellt = <String>{
   'Temperament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) — nach den Nomen 2026-11-05
   'Tempo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) — nach den Nomen 2026-11-05
   'Term', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) — nach den Nomen 2026-11-05
+  'Terminator', // zurückgestellt: Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 — 2026-11-05
+  'Terra', // zurückgestellt: nur in lateinischen Wendungen (Terra incognita) — Regel 14 — 2026-11-05
+  'Terrain', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») — nach den Nomen 2026-11-05
+  'Terror', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) — nach den Nomen 2026-11-05
+  'Testament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) — nach den Nomen 2026-11-05
+  'Tester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

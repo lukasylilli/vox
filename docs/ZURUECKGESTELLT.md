@@ -2806,6 +2806,8 @@
 | ۲۶۲۷ | Techno | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Techno) — Regel 14 | — |
 | ۲۶۲۸ | Telefonaktion | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 | — |
 | ۲۶۲۹ | Telekom | `substantiv_singular_alle.txt` | 2026-11-05 | Firmenname (Deutsche Telekom) — Regel 18 | — |
+| ۲۶۳۰ | Terminator | `substantiv_singular_alle.txt` | 2026-11-05 | Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 | — |
+| ۲۶۳۱ | Terra | `substantiv_singular_alle.txt` | 2026-11-05 | nur in lateinischen Wendungen (Terra incognita) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5290,3 +5292,7 @@
 | 2640 | Temperament | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) |
 | 2641 | Tempo | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) |
 | 2642 | Term | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) |
+| 2643 | Terrain | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») |
+| 2644 | Terror | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) |
+| 2645 | Testament | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) |
+| 2646 | Tester | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) |
