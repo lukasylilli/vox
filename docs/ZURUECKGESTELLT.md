@@ -2804,6 +2804,8 @@
 | ۲۶۲۵ | Task | `substantiv_singular_alle.txt` | 2026-11-05 | Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 | — |
 | ۲۶۲۶ | Tauer | `substantiv_singular_alle.txt` | 2026-11-05 | kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 | — |
 | ۲۶۲۷ | Techno | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Techno) — Regel 14 | — |
+| ۲۶۲۸ | Telefonaktion | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 | — |
+| ۲۶۲۹ | Telekom | `substantiv_singular_alle.txt` | 2026-11-05 | Firmenname (Deutsche Telekom) — Regel 18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |

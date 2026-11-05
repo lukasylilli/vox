@@ -5317,6 +5317,8 @@ const zurueckgestellt = <String>{
   'Teilnehmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) — nach den Nomen 2026-11-05
   'Teilnehmerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) — nach den Nomen 2026-11-05
   'Telefax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) — nach den Nomen 2026-11-05
+  'Telefonaktion', // zurückgestellt: Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 — 2026-11-05
+  'Telekom', // zurückgestellt: Firmenname (Deutsche Telekom) — Regel 18 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
