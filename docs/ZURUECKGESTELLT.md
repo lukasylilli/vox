@@ -2810,6 +2810,10 @@
 | ۲۶۳۱ | Terra | `substantiv_singular_alle.txt` | 2026-11-05 | nur in lateinischen Wendungen (Terra incognita) — Regel 14 | — |
 | ۲۶۳۲ | Textil | `substantiv_singular_alle.txt` | 2026-11-05 | als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 | — |
 | ۲۶۳۳ | Theatertreffen | `substantiv_singular_alle.txt` | 2026-11-05 | meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 | — |
+| ۲۶۳۴ | Thermometer | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 | — |
+| ۲۶۳۵ | Thesis | `substantiv_singular_alle.txt` | 2026-11-05 | selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 | — |
+| ۲۶۳۶ | Thing | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 | — |
+| ۲۶۳۷ | Thon | `substantiv_singular_alle.txt` | 2026-11-05 | nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5301,3 +5305,7 @@
 | 2647 | Texter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) |
 | 2648 | Theater | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») |
 | 2649 | Thema | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) |
+| 2650 | Therme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) |
+| 2651 | Tick | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) |
+| 2652 | Ticker | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) |
+| 2653 | Tief | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) |

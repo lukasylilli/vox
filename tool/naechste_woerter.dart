@@ -5333,6 +5333,14 @@ const zurueckgestellt = <String>{
   'Theater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») — nach den Nomen 2026-11-05
   'Theatertreffen', // zurückgestellt: meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 — 2026-11-05
   'Thema', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) — nach den Nomen 2026-11-05
+  'Therme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) — nach den Nomen 2026-11-05
+  'Thermometer', // zurückgestellt: Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 — 2026-11-05
+  'Thesis', // zurückgestellt: selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 — 2026-11-05
+  'Thing', // zurückgestellt: Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 — 2026-11-05
+  'Thon', // zurückgestellt: nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 — 2026-11-05
+  'Tick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) — nach den Nomen 2026-11-05
+  'Ticker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) — nach den Nomen 2026-11-05
+  'Tief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
