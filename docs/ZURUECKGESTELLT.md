@@ -5262,3 +5262,6 @@
 | 2618 | Tagessatz | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Strafrecht: Einheit der Geldstrafe / täglicher Betrag, Tagespauschale) |
 | 2619 | Talent | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Begabung / begabter Mensch, «ein junges Talent») |
 | 2620 | Talfahrt | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahrt ins Tal / starker Rückgang, Abschwung, z. B. an der Börse) |
+| 2621 | Talsohle | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Boden eines Tals / Tiefpunkt einer Entwicklung, z. B. der Konjunktur) |
+| 2622 | Tandem | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahrrad für zwei / Sprachtandem, Zweiergespann) |
+| 2623 | Tank | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) |

@@ -5294,6 +5294,9 @@ const zurueckgestellt = <String>{
   'Talfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrt ins Tal / starker Rückgang, Abschwung, z. B. an der Börse) — nach den Nomen 2026-11-05
   'Tai', // zurückgestellt: Bedeutung unklar (Volk/Sprachgruppe, Bestandteil von «Tai-Chi»?) — Regel 14 — 2026-11-05
   'Take', // zurückgestellt: Genus schwankt (der oder das Take) — Regel 14 — 2026-11-05
+  'Talsohle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boden eines Tals / Tiefpunkt einer Entwicklung, z. B. der Konjunktur) — nach den Nomen 2026-11-05
+  'Tandem', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fahrrad für zwei / Sprachtandem, Zweiergespann) — nach den Nomen 2026-11-05
+  'Tank', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
