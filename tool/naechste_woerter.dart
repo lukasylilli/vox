@@ -5299,6 +5299,9 @@ const zurueckgestellt = <String>{
   'Tank', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) — nach den Nomen 2026-11-05
   'Tarif', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preis, Gebühr, z. B. Strom- oder Handytarif / ausgehandelte Lohnhöhe, Tarifvertrag) — nach den Nomen 2026-11-05
   'Tanzbein', // zurückgestellt: nur in fester Wendung «das Tanzbein schwingen» — Regel 14 — 2026-11-05
+  'Tasche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tragetasche, Handtasche / Hosentasche, Jackentasche) — nach den Nomen 2026-11-05
+  'Tatbestand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sachverhalt, Gegebenheit / Recht: Straftatbestand) — nach den Nomen 2026-11-05
+  'Task', // zurückgestellt: Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

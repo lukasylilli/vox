@@ -2801,6 +2801,7 @@
 | ۲۶۲۲ | Tai | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unklar (Volk/Sprachgruppe, Bestandteil von «Tai-Chi»?) — Regel 14 | — |
 | ۲۶۲۳ | Take | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Take) — Regel 14 | — |
 | ۲۶۲۴ | Tanzbein | `substantiv_singular_alle.txt` | 2026-11-05 | nur in fester Wendung «das Tanzbein schwingen» — Regel 14 | — |
+| ۲۶۲۵ | Task | `substantiv_singular_alle.txt` | 2026-11-05 | Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5267,3 +5268,5 @@
 | 2622 | Tandem | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fahrrad für zwei / Sprachtandem, Zweiergespann) |
 | 2623 | Tank | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Behälter für Flüssigkeiten / veraltet: Panzer) |
 | 2624 | Tarif | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Preis, Gebühr, z. B. Strom- oder Handytarif / ausgehandelte Lohnhöhe, Tarifvertrag) |
+| 2625 | Tasche | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tragetasche, Handtasche / Hosentasche, Jackentasche) |
+| 2626 | Tatbestand | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Sachverhalt, Gegebenheit / Recht: Straftatbestand) |
