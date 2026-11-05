@@ -2794,6 +2794,7 @@
 | ۲۶۱۵ | Stolle | `substantiv_singular_alle.txt` | 2026-11-05 | Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 | — |
 | ۲۶۱۶ | Streif | `substantiv_singular_alle.txt` | 2026-11-05 | Lemma unsicher: gehobene Nebenform von «der Streifen» und Name der Kitzbüheler Skiabfahrt — Regel 14 | — |
 | ۲۶۱۷ | Striptease | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Striptease) — Regel 14 | — |
+| ۲۶۱۸ | Struck | `substantiv_singular_alle.txt` | 2026-11-05 | Familienname / Bedeutung als Gattungswort unsicher — Regel 14/18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5222,3 +5223,7 @@
 | 2584 | Strich | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Linie / Pinselstrich, Bogenstrich / ugs. Straßenprostitution) |
 | 2585 | Strip | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Kurzform für Striptease / Comicstreifen / Pflasterstreifen) |
 | 2586 | Strohhalm | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: einzelner Halm Stroh / Trinkhalm / übertragen: letzte Hoffnung) |
+| 2587 | Strohmann | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: vorgeschobene Person / Strohpuppe, Vogelscheuche / Kartenspiel) |
+| 2588 | Strom | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: elektrischer Strom / großer Fluss / Strömung, Menge «ein Strom von Menschen») |
+| 2589 | Stromerzeuger | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Unternehmen, das Strom erzeugt / Gerät, Generator) |
+| 2590 | Strudel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wasserwirbel / Mehlspeise, Apfelstrudel) |

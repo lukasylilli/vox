@@ -5254,6 +5254,11 @@ const zurueckgestellt = <String>{
   'Strip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kurzform für Striptease / Comicstreifen / Pflasterstreifen) — nach den Nomen 2026-11-05
   'Strohhalm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: einzelner Halm Stroh / Trinkhalm / übertragen: letzte Hoffnung) — nach den Nomen 2026-11-05
   'Striptease', // zurückgestellt: Genus schwankt (der oder das Striptease) — Regel 14 — 2026-11-05
+  'Strohmann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vorgeschobene Person / Strohpuppe, Vogelscheuche / Kartenspiel) — nach den Nomen 2026-11-05
+  'Strom', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: elektrischer Strom / großer Fluss / Strömung, Menge «ein Strom von Menschen») — nach den Nomen 2026-11-05
+  'Stromerzeuger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unternehmen, das Strom erzeugt / Gerät, Generator) — nach den Nomen 2026-11-05
+  'Strudel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserwirbel / Mehlspeise, Apfelstrudel) — nach den Nomen 2026-11-05
+  'Struck', // zurückgestellt: Familienname / Bedeutung als Gattungswort unsicher — Regel 14/18 — 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
