@@ -5203,3 +5203,7 @@
 | 2567 | Stolperstein | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Hindernis / Gedenkstein für NS-Opfer) |
 | 2568 | Stopp | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Halt, Unterbrechung / Sport: Stoppball) |
 | 2569 | Story | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Handlung einer Geschichte / Bericht, Reportage / ugs. erfundene Geschichte) |
+| 2570 | Strafantrag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Antrag des Staatsanwalts auf eine bestimmte Strafe / Antrag des Verletzten auf Strafverfolgung) |
+| 2571 | Straffung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Straffmachen, z. B. der Haut / übertragen: Kürzung, Vereinfachung von Abläufen) |
+| 2572 | Strafgefangene | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Strafgefangene) |
+| 2573 | Strafgericht | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gericht für Strafsachen / gehoben: Bestrafung, Strafgericht Gottes) |

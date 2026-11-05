@@ -5235,6 +5235,10 @@ const zurueckgestellt = <String>{
   'Story', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Handlung einer Geschichte / Bericht, Reportage / ugs. erfundene Geschichte) — nach den Nomen 2026-11-05
   'Stockerl', // zurückgestellt: Plural schwankend (die Stockerl / die Stockerln) — Regel 14 — 2026-11-05
   'Stolle', // zurückgestellt: Nebenform von «der Stollen» (Gebäck), Lemma unsicher — Regel 14 — 2026-11-05
+  'Strafantrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Antrag des Staatsanwalts auf eine bestimmte Strafe / Antrag des Verletzten auf Strafverfolgung) — nach den Nomen 2026-11-05
+  'Straffung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Straffmachen, z. B. der Haut / übertragen: Kürzung, Vereinfachung von Abläufen) — nach den Nomen 2026-11-05
+  'Strafgefangene', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Strafgefangene) — nach den Nomen 2026-11-05
+  'Strafgericht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gericht für Strafsachen / gehoben: Bestrafung, Strafgericht Gottes) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
