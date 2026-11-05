@@ -5279,3 +5279,9 @@
 | 2631 | Taxe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») |
 | 2632 | Technik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) |
 | 2633 | Teddy | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) |
+| 2634 | Teil | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») |
+| 2635 | Teilchen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) |
+| 2636 | Teilnahme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) |
+| 2637 | Teilnehmer | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) |
+| 2638 | Teilnehmerin | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) |
+| 2639 | Telefax | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) |

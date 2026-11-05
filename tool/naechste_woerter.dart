@@ -5311,6 +5311,12 @@ const zurueckgestellt = <String>{
   'Technik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) — nach den Nomen 2026-11-05
   'Teddy', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) — nach den Nomen 2026-11-05
   'Techno', // zurückgestellt: Genus schwankt (der oder das Techno) — Regel 14 — 2026-11-05
+  'Teil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») — nach den Nomen 2026-11-05
+  'Teilchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) — nach den Nomen 2026-11-05
+  'Teilnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) — nach den Nomen 2026-11-05
+  'Teilnehmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) — nach den Nomen 2026-11-05
+  'Teilnehmerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) — nach den Nomen 2026-11-05
+  'Telefax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) — nach den Nomen 2026-11-05
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
