@@ -5373,6 +5373,10 @@ const zurueckgestellt = <String>{
   'Trapp', // zurückgestellt: Familienname (Familie von Trapp); kein gebräuchliches Nomen — Regel 14/18 — 2026-11-08
   'Traube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weintraube / Blütenstand / übertragen: Menschentraube) — nach den Nomen 2026-11-08
   'Trauerspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tragödie (Theater) / ugs. etwas Klägliches, Jämmerliches) — nach den Nomen 2026-11-08
+  'Trauner', // zurückgestellt: regionales Fachwort (Salzschiff auf der Traun) bzw. Name; Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Treffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuss, der trifft / Tor im Sport / Gewinnlos / Suchergebnis) — nach den Nomen 2026-11-08
+  'Treiben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewimmel, buntes Durcheinander / abwertend: Tun, Machenschaften) — nach den Nomen 2026-11-08
+  'Treiber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: EDV: Gerätetreiber / Jagd: wer das Wild treibt / Viehtreiber) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
