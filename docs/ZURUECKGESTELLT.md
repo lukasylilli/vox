@@ -2843,6 +2843,8 @@
 | ۲۶۶۴ | Unter | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher (Spielkarte «der Unter»?) — Regel 14 | — |
 | ۲۶۶۵ | Unterbezirk | `substantiv_singular_alle.txt` | 2026-11-08 | Fachbegriff der Partei-/Verwaltungsgliederung, Gebrauch unsicher — Regel 14 | — |
 | ۲۶۶۶ | Unterland | `substantiv_singular_alle.txt` | 2026-11-08 | meist regionaler Name (Zürcher/Bozner Unterland), Gebrauch unsicher — Regel 14/18 | — |
+| ۲۶۶۷ | Untertan | `substantiv_singular_alle.txt` | 2026-11-08 | Genitiv schwankt (des Untertans/des Untertanen) — Regel 14 | — |
+| ۲۶۶۸ | Unterwasser | `substantiv_singular_alle.txt` | 2026-11-08 | als Nomen selten (Wasserbau); meist nur Bestimmungswort «Unterwasser-» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5433,3 +5435,7 @@
 | 2745 | Unterordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Unterordnen / Biologie: Kategorie unter der Ordnung) |
 | 2746 | Untersatz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Unterlage, Untersetzer / «fahrbarer Untersatz» = Auto / Logik: Unterprämisse) |
 | 2747 | Unterschicht | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: soziale Schicht / untere Lage, Schicht) |
+| 2748 | Untersuchung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: ärztliche Untersuchung / Ermittlung / wissenschaftliche Studie) |
+| 2749 | Untertitel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: zweiter Titel eines Buches / eingeblendeter Text im Film) |
+| 2750 | Unterton | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: mitschwingender Ton (Musik) / leiser Beiklang, z. B. Ironie) |
+| 2751 | Unterwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Totenreich (Mythologie) / kriminelles Milieu) |

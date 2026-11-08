@@ -5464,6 +5464,12 @@ const zurueckgestellt = <String>{
   'Unterordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Unterordnen / Biologie: Kategorie unter der Ordnung) — nach den Nomen 2026-11-08
   'Untersatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterlage, Untersetzer / «fahrbarer Untersatz» = Auto / Logik: Unterprämisse) — nach den Nomen 2026-11-08
   'Unterschicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziale Schicht / untere Lage, Schicht) — nach den Nomen 2026-11-08
+  'Untersuchung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ärztliche Untersuchung / Ermittlung / wissenschaftliche Studie) — nach den Nomen 2026-11-08
+  'Untertan', // zurückgestellt: Genitiv schwankt (des Untertans/des Untertanen) — Regel 14 — 2026-11-08
+  'Untertitel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zweiter Titel eines Buches / eingeblendeter Text im Film) — nach den Nomen 2026-11-08
+  'Unterton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mitschwingender Ton (Musik) / leiser Beiklang, z. B. Ironie) — nach den Nomen 2026-11-08
+  'Unterwasser', // zurückgestellt: als Nomen selten (Wasserbau); meist nur Bestimmungswort «Unterwasser-» — Regel 14 — 2026-11-08
+  'Unterwelt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Totenreich (Mythologie) / kriminelles Milieu) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
