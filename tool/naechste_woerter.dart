@@ -5503,6 +5503,10 @@ const zurueckgestellt = <String>{
   'Verbindlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verpflichtung, Pl. Schulden / bindende Wirkung / Freundlichkeit) — nach den Nomen 2026-11-08
   'Verbindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kontakt, Zusammenhang / Verkehrsverbindung / chemische Verbindung / Studentenverbindung) — nach den Nomen 2026-11-08
   'Verbleib', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufenthaltsort / das Verbleiben) — nach den Nomen 2026-11-08
+  'Verbrennung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verbrennen / Brandwunde / Einäscherung) — nach den Nomen 2026-11-08
+  'Verbund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenschluss, z. B. Verkehrsverbund / technische Verbindung) — nach den Nomen 2026-11-08
+  'Verderben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang, Unglück / Schlechtwerden von Lebensmitteln) — nach den Nomen 2026-11-08
+  'Verdichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bebauung, Nachverdichtung / Zusammenpressen (Technik) / Verstärkung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

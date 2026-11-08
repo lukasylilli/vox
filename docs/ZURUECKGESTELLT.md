@@ -5472,3 +5472,7 @@
 | 2770 | Verbindlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Verpflichtung, Pl. Schulden / bindende Wirkung / Freundlichkeit) |
 | 2771 | Verbindung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kontakt, Zusammenhang / Verkehrsverbindung / chemische Verbindung / Studentenverbindung) |
 | 2772 | Verbleib | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Aufenthaltsort / das Verbleiben) |
+| 2773 | Verbrennung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verbrennen / Brandwunde / Einäscherung) |
+| 2774 | Verbund | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zusammenschluss, z. B. Verkehrsverbund / technische Verbindung) |
+| 2775 | Verderben | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Untergang, Unglück / Schlechtwerden von Lebensmitteln) |
+| 2776 | Verdichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bebauung, Nachverdichtung / Zusammenpressen (Technik) / Verstärkung) |
