@@ -2822,6 +2822,7 @@
 | ۲۶۴۳ | Toto | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (das oder der Toto) — Regel 14 | — |
 | ۲۶۴۴ | Touch | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus, umgangssprachlich; Gebrauch und Bedeutung schwankend — Regel 14 | — |
 | ۲۶۴۵ | Train | `substantiv_singular_alle.txt` | 2026-11-08 | veraltet (militärisch: Tross, Nachschub); Gebrauch unsicher — Regel 14 | — |
+| ۲۶۴۶ | Traktat | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (der oder das Traktat) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5331,3 +5332,7 @@
 | 2665 | Tracht | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: traditionelle Kleidung, z. B. Dirndl / «eine Tracht Prügel» / Imkerei: Bienentracht) |
 | 2666 | Track | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Musikstück auf einer CD / Rennstrecke, Pfad) |
 | 2667 | Trainer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Sportlehrer, Coach / schweiz.: Trainingsanzug) |
+| 2668 | Trakt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gebäudeteil, Flügel / Medizin: Verdauungstrakt / Landstrich) |
+| 2669 | Tran | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fischöl / ugs. «im Tran sein»: benommen, verschlafen) |
+| 2670 | Transfer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geldüberweisung / Spielerwechsel / Beförderung von Reisenden / Psychologie: Übertragung) |
+| 2671 | Transformation | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Umwandlung, Wandel / Fachsprache: Mathematik, Linguistik, Elektrotechnik) |

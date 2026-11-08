@@ -5363,6 +5363,11 @@ const zurueckgestellt = <String>{
   'Track', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück auf einer CD / Rennstrecke, Pfad) — nach den Nomen 2026-11-08
   'Train', // zurückgestellt: veraltet (militärisch: Tross, Nachschub); Gebrauch unsicher — Regel 14 — 2026-11-08
   'Trainer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportlehrer, Coach / schweiz.: Trainingsanzug) — nach den Nomen 2026-11-08
+  'Trakt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebäudeteil, Flügel / Medizin: Verdauungstrakt / Landstrich) — nach den Nomen 2026-11-08
+  'Traktat', // zurückgestellt: Genus schwankt (der oder das Traktat) — Regel 14 — 2026-11-08
+  'Tran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fischöl / ugs. «im Tran sein»: benommen, verschlafen) — nach den Nomen 2026-11-08
+  'Transfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldüberweisung / Spielerwechsel / Beförderung von Reisenden / Psychologie: Übertragung) — nach den Nomen 2026-11-08
+  'Transformation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umwandlung, Wandel / Fachsprache: Mathematik, Linguistik, Elektrotechnik) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
