@@ -5494,6 +5494,15 @@ const zurueckgestellt = <String>{
   'Verabschiedung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschied / Beschluss eines Gesetzes) — nach den Nomen 2026-11-08
   'Verankerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Befestigung / feste Einbindung, z. B. im Gesetz) — nach den Nomen 2026-11-08
   'Veranlagung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anlage, Neigung / Steuerveranlagung) — nach den Nomen 2026-11-08
+  'Verarbeitung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bearbeitung von Material/Daten / seelisches Verarbeiten / Qualität der Ausführung) — nach den Nomen 2026-11-08
+  'Verband', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vereinigung, Organisation / Wundverband) — nach den Nomen 2026-11-08
+  'Verbandsgemeinde', // zurückgestellt: regionaler Verwaltungsbegriff (Rheinland-Pfalz u. a.) — Regel 14 — 2026-11-08
+  'Verbandsliga', // zurückgestellt: Spielklasse im regionalen Sport, Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Verbauung', // zurückgestellt: Bedeutung/Gebrauch regional unsicher (österr./schweiz.) — Regel 14 — 2026-11-08
+  'Verbesserung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Besserwerden / Korrektur eines Fehlers, Schulverbesserung) — nach den Nomen 2026-11-08
+  'Verbindlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verpflichtung, Pl. Schulden / bindende Wirkung / Freundlichkeit) — nach den Nomen 2026-11-08
+  'Verbindung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kontakt, Zusammenhang / Verkehrsverbindung / chemische Verbindung / Studentenverbindung) — nach den Nomen 2026-11-08
+  'Verbleib', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufenthaltsort / das Verbleiben) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

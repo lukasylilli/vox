@@ -2854,6 +2854,9 @@
 | ۲۶۷۵ | Variable | `substantiv_singular_alle.txt` | 2026-11-08 | Deklination schwankt (zwei Variable/Variablen, wie ein Adjektiv) — Regel 14 | — |
 | ۲۶۷۶ | Vega | `substantiv_singular_alle.txt` | 2026-11-08 | Eigenname (Stern/Person) — Regel 18 | — |
 | ۲۶۷۷ | Velvet | `substantiv_singular_alle.txt` | 2026-11-08 | Genus unsicher (der/das), selten — Regel 14 | — |
+| ۲۶۷۸ | Verbandsgemeinde | `substantiv_singular_alle.txt` | 2026-11-08 | regionaler Verwaltungsbegriff (Rheinland-Pfalz u. a.) — Regel 14 | — |
+| ۲۶۷۹ | Verbandsliga | `substantiv_singular_alle.txt` | 2026-11-08 | Spielklasse im regionalen Sport, Gebrauch unsicher — Regel 14 | — |
+| ۲۶۸۰ | Verbauung | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung/Gebrauch regional unsicher (österr./schweiz.) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5463,3 +5466,9 @@
 | 2764 | Verabschiedung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abschied / Beschluss eines Gesetzes) |
 | 2765 | Verankerung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: technische Befestigung / feste Einbindung, z. B. im Gesetz) |
 | 2766 | Veranlagung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Anlage, Neigung / Steuerveranlagung) |
+| 2767 | Verarbeitung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bearbeitung von Material/Daten / seelisches Verarbeiten / Qualität der Ausführung) |
+| 2768 | Verband | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Vereinigung, Organisation / Wundverband) |
+| 2769 | Verbesserung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Besserwerden / Korrektur eines Fehlers, Schulverbesserung) |
+| 2770 | Verbindlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Verpflichtung, Pl. Schulden / bindende Wirkung / Freundlichkeit) |
+| 2771 | Verbindung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kontakt, Zusammenhang / Verkehrsverbindung / chemische Verbindung / Studentenverbindung) |
+| 2772 | Verbleib | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Aufenthaltsort / das Verbleiben) |
