@@ -5529,6 +5529,9 @@ const zurueckgestellt = <String>{
   'Verhinderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verhindern / das Verhindertsein, Abwesenheit) — nach den Nomen 2026-11-08
   'Verkauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verkaufen / Verkaufsabteilung) — nach den Nomen 2026-11-08
   'Verkehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straßenverkehr / Umgang, Kontakt / Geschlechtsverkehr) — nach den Nomen 2026-11-08
+  'Verkehrstote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Verkehrstote) — nach den Nomen 2026-11-08
+  'Verkleidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostüm / Abdeckung, Täfelung) — nach den Nomen 2026-11-08
+  'Verkleinerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verkleinern / Grammatik: Verkleinerungsform) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -5498,3 +5498,6 @@
 | 2793 | Verhinderung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verhindern / das Verhindertsein, Abwesenheit) |
 | 2794 | Verkauf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verkaufen / Verkaufsabteilung) |
 | 2795 | Verkehr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Straßenverkehr / Umgang, Kontakt / Geschlechtsverkehr) |
+| 2796 | Verkehrstote | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 4 (substantiviertes Adjektiv: der/die Verkehrstote) |
+| 2797 | Verkleidung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kostüm / Abdeckung, Täfelung) |
+| 2798 | Verkleinerung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verkleinern / Grammatik: Verkleinerungsform) |
