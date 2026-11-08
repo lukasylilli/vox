@@ -5352,6 +5352,10 @@ const zurueckgestellt = <String>{
   'Toleranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Duldsamkeit gegenüber anderen / Technik: zulässige Abweichung / Medizin: Widerstandsfähigkeit) — nach den Nomen 2026-11-08
   'Tonhalle', // zurückgestellt: meist Eigenname eines Konzertsaals (Tonhalle Zürich, Düsseldorf) — Regel 14/18 — 2026-11-08
   'Tonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewichtseinheit 1000 kg / großer Behälter, z. B. Mülltonne) — nach den Nomen 2026-11-08
+  'Tony', // zurückgestellt: Personenname bzw. Theaterpreis (Tony Award) — Regel 14/18 — 2026-11-08
+  'Tornado', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirbelsturm / Kampfflugzeug «Tornado») — nach den Nomen 2026-11-08
+  'Torso', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rumpf des Körpers / Statue ohne Kopf und Glieder / übertragen: Bruchstück) — nach den Nomen 2026-11-08
+  'Tory', // zurückgestellt: Fremdwort (brit. Konservativer); Plural schwankt (Torys/Tories) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
