@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_umlage",
+  "wort": "die Umlage",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سهم هزینه",
+      "هزینه‌ی سرشکن‌شده"
+    ],
+    "en": [
+      "levy",
+      "apportioned cost",
+      "contribution"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Wohnen",
+    "Finanzen"
+  ],
+  "ipa": "ˈʊmˌlaːɡə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Umlage für die Heizung ist dieses Jahr höher.",
+      "uebersetzung": {
+        "fa": "سهم هزینه‌ی گرمایش امسال بیشتر است.",
+        "en": "The heating charge is higher this year."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Kosten für den Hausmeister werden als Umlage auf alle Mieter verteilt.",
+      "uebersetzung": {
+        "fa": "هزینه‌ی سرایدار به‌صورت سهم هزینه میان همه‌ی مستأجران تقسیم می‌شود.",
+        "en": "The caretaker's costs are passed on to all tenants as an apportioned charge."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "umlegen (سرشکن کردن) + -e",
+    "en": "umlegen (to apportion) + -e"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Umlagen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Umlage auf + Akk",
+        "beispiel": "Die Umlage auf die Mieter wird jedes Jahr neu berechnet.",
+        "uebersetzung": {
+          "fa": "سهم هزینه‌ی مستأجران هر سال از نو محاسبه می‌شود.",
+          "en": "The charge passed on to the tenants is recalculated every year."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      },
+      {
+        "wort": "der Mieter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مستأجر",
+          "en": "tenant"
+        },
+        "id_ref": "nomen_mieter"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری",
+          "en": "accounting"
+        },
+        "id_ref": "nomen_buchhaltung"
+      },
+      {
+        "wort": "die Endabrechnung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تسویه‌حساب نهایی",
+          "en": "final invoice"
+        },
+        "id_ref": "nomen_endabrechnung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

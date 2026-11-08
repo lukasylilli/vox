@@ -2831,6 +2831,8 @@
 | ۲۶۵۲ | Tunnel | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Tunnel/Tunnels); südd./österr. auch «das Tunell» — Regel 14 | — |
 | ۲۶۵۳ | Tutti | `substantiv_singular_alle.txt` | 2026-11-08 | Fachwort der Musik; Plural schwankt (Tuttis/Tutti) — Regel 14 | — |
 | ۲۶۵۴ | Ultimatum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Ultimaten/Ultimatums) — Regel 14 | — |
+| ۲۶۵۵ | Umsatzvolumen | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Umsatzvolumen/Umsatzvolumina) — Regel 14 | — |
+| ۲۶۵۶ | Umschau | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «Umschau halten» (gehoben) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5390,3 +5392,7 @@
 | 2714 | Umgehung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umgehen einer Regel / Umgehungsstraße) |
 | 2715 | Umkehr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umkehren, Zurückgehen / gehoben: innere Wandlung) |
 | 2716 | Umkehrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Umdrehung der Reihenfolge / Fachsprache: Musik, Mathematik, Grammatik) |
+| 2717 | Umkreis | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Umgebung, «im Umkreis von 10 km» / Geometrie: Kreis um ein Vieleck) |
+| 2718 | Umlauf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geldumlauf, Zirkulation / Umdrehung, Bahn eines Himmelskörpers / Rundschreiben / Medizin: Nagelbettentzündung) |
+| 2719 | Umsatz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Verkaufserlös / Fachsprache: Stoff- und Energieumsatz, z. B. Grundumsatz) |
+| 2720 | Umschichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umschichten (Stapel) / Strukturveränderung in Gesellschaft oder Finanzen) |

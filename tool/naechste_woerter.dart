@@ -5421,6 +5421,12 @@ const zurueckgestellt = <String>{
   'Umgehung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umgehen einer Regel / Umgehungsstraße) — nach den Nomen 2026-11-08
   'Umkehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umkehren, Zurückgehen / gehoben: innere Wandlung) — nach den Nomen 2026-11-08
   'Umkehrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umdrehung der Reihenfolge / Fachsprache: Musik, Mathematik, Grammatik) — nach den Nomen 2026-11-08
+  'Umkreis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umgebung, «im Umkreis von 10 km» / Geometrie: Kreis um ein Vieleck) — nach den Nomen 2026-11-08
+  'Umlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldumlauf, Zirkulation / Umdrehung, Bahn eines Himmelskörpers / Rundschreiben / Medizin: Nagelbettentzündung) — nach den Nomen 2026-11-08
+  'Umsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft: Verkaufserlös / Fachsprache: Stoff- und Energieumsatz, z. B. Grundumsatz) — nach den Nomen 2026-11-08
+  'Umschichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umschichten (Stapel) / Strukturveränderung in Gesellschaft oder Finanzen) — nach den Nomen 2026-11-08
+  'Umsatzvolumen', // zurückgestellt: Plural schwankt (Umsatzvolumen/Umsatzvolumina) — Regel 14 — 2026-11-08
+  'Umschau', // zurückgestellt: nur in fester Wendung «Umschau halten» (gehoben) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
