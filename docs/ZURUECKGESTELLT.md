@@ -2823,6 +2823,8 @@
 | ۲۶۴۴ | Touch | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus, umgangssprachlich; Gebrauch und Bedeutung schwankend — Regel 14 | — |
 | ۲۶۴۵ | Train | `substantiv_singular_alle.txt` | 2026-11-08 | veraltet (militärisch: Tross, Nachschub); Gebrauch unsicher — Regel 14 | — |
 | ۲۶۴۶ | Traktat | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (der oder das Traktat) — Regel 14 | — |
+| ۲۶۴۷ | Transvestit | `substantiv_singular_alle.txt` | 2026-11-08 | Bezeichnung teils als veraltet/abwertend empfunden; Einordnung (anstoessig) unsicher — Regel 14/17 | — |
+| ۲۶۴۸ | Trapp | `substantiv_singular_alle.txt` | 2026-11-08 | Familienname (Familie von Trapp); kein gebräuchliches Nomen — Regel 14/18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5336,3 +5338,6 @@
 | 2669 | Tran | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fischöl / ugs. «im Tran sein»: benommen, verschlafen) |
 | 2670 | Transfer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geldüberweisung / Spielerwechsel / Beförderung von Reisenden / Psychologie: Übertragung) |
 | 2671 | Transformation | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Umwandlung, Wandel / Fachsprache: Mathematik, Linguistik, Elektrotechnik) |
+| 2672 | Transparenz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Durchsichtigkeit / Offenheit, Nachvollziehbarkeit, z. B. in der Politik) |
+| 2673 | Traube | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Weintraube / Blütenstand / übertragen: Menschentraube) |
+| 2674 | Trauerspiel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Tragödie (Theater) / ugs. etwas Klägliches, Jämmerliches) |

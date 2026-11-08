@@ -5368,6 +5368,11 @@ const zurueckgestellt = <String>{
   'Tran', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fischöl / ugs. «im Tran sein»: benommen, verschlafen) — nach den Nomen 2026-11-08
   'Transfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldüberweisung / Spielerwechsel / Beförderung von Reisenden / Psychologie: Übertragung) — nach den Nomen 2026-11-08
   'Transformation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umwandlung, Wandel / Fachsprache: Mathematik, Linguistik, Elektrotechnik) — nach den Nomen 2026-11-08
+  'Transparenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Durchsichtigkeit / Offenheit, Nachvollziehbarkeit, z. B. in der Politik) — nach den Nomen 2026-11-08
+  'Transvestit', // zurückgestellt: Bezeichnung teils als veraltet/abwertend empfunden; Einordnung (anstoessig) unsicher — Regel 14/17 — 2026-11-08
+  'Trapp', // zurückgestellt: Familienname (Familie von Trapp); kein gebräuchliches Nomen — Regel 14/18 — 2026-11-08
+  'Traube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weintraube / Blütenstand / übertragen: Menschentraube) — nach den Nomen 2026-11-08
+  'Trauerspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tragödie (Theater) / ugs. etwas Klägliches, Jämmerliches) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
