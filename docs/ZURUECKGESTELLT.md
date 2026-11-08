@@ -2861,6 +2861,7 @@
 | ۲۶۸۲ | Verhaltenskodex | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Verhaltenskodizes/-kodexe) — Regel 14 | — |
 | ۲۶۸۳ | Vergessenheit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Vergessenheit geraten» — Regel 14 | — |
 | ۲۶۸۴ | Verlass | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «auf jemanden ist Verlass» — Regel 14 | — |
+| ۲۶۸۵ | Verlustzone | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in die Verlustzone geraten / in der Verlustzone» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5509,3 +5510,7 @@
 | 2803 | Verleih | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verleihen / Firma, z. B. Fahrradverleih, Filmverleih) |
 | 2804 | Verleiher | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer etwas verleiht / Filmverleih-Firma) |
 | 2805 | Verletzung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wunde, Verwundung / Verstoß gegen Regeln, Rechte) |
+| 2806 | Verlust | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verlieren / finanzieller Verlust / Tod eines Menschen, Pl. Verluste im Krieg) |
+| 2807 | Vermehrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zunahme / Fortpflanzung (Biologie)) |
+| 2808 | Vermittler | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schlichter in einem Streit / Makler, Agent) |
+| 2809 | Vermittlung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schlichtung / Arbeitsvermittlung / Telefonzentrale) |

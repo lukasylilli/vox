@@ -5540,6 +5540,11 @@ const zurueckgestellt = <String>{
   'Verleih', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verleihen / Firma, z. B. Fahrradverleih, Filmverleih) — nach den Nomen 2026-11-08
   'Verleiher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer etwas verleiht / Filmverleih-Firma) — nach den Nomen 2026-11-08
   'Verletzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wunde, Verwundung / Verstoß gegen Regeln, Rechte) — nach den Nomen 2026-11-08
+  'Verlust', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verlieren / finanzieller Verlust / Tod eines Menschen, Pl. Verluste im Krieg) — nach den Nomen 2026-11-08
+  'Verlustzone', // zurückgestellt: fast nur in fester Wendung «in die Verlustzone geraten / in der Verlustzone» — Regel 14 — 2026-11-08
+  'Vermehrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zunahme / Fortpflanzung (Biologie)) — nach den Nomen 2026-11-08
+  'Vermittler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlichter in einem Streit / Makler, Agent) — nach den Nomen 2026-11-08
+  'Vermittlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlichtung / Arbeitsvermittlung / Telefonzentrale) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
