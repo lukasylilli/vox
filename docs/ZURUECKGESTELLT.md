@@ -2833,6 +2833,7 @@
 | ۲۶۵۴ | Ultimatum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Ultimaten/Ultimatums) — Regel 14 | — |
 | ۲۶۵۵ | Umsatzvolumen | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Umsatzvolumen/Umsatzvolumina) — Regel 14 | — |
 | ۲۶۵۶ | Umschau | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «Umschau halten» (gehoben) — Regel 14 | — |
+| ۲۶۵۷ | Umweltbundesamt | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5396,3 +5397,10 @@
 | 2718 | Umlauf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geldumlauf, Zirkulation / Umdrehung, Bahn eines Himmelskörpers / Rundschreiben / Medizin: Nagelbettentzündung) |
 | 2719 | Umsatz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Verkaufserlös / Fachsprache: Stoff- und Energieumsatz, z. B. Grundumsatz) |
 | 2720 | Umschichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umschichten (Stapel) / Strukturveränderung in Gesellschaft oder Finanzen) |
+| 2721 | Umschlag | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Briefumschlag / Buchumschlag / Medizin: Wickel, Kompresse / Wirtschaft: Güterumschlag / plötzliche Änderung) |
+| 2722 | Umschulung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ausbildung für einen neuen Beruf / Wechsel auf eine andere Schule) |
+| 2723 | Umschwung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: plötzliche Wende / Turnen: Schwung um das Reck) |
+| 2724 | Umsetzung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Verwirklichung, Durchführung / Versetzung (Person, Pflanze) / Umwandlung (Energie, Stoff)) |
+| 2725 | Umstand | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gegebenheit / Plural: Aufwand, «Umstände machen» / «in anderen Umständen» = schwanger) |
+| 2726 | Umtrieb | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Plural abwertend: Machenschaften / schweiz.: Aufwand, Betriebsamkeit) |
+| 2727 | Umwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Natur, Lebensraum / die Menschen in jemandes Umgebung) |

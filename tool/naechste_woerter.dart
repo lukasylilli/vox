@@ -5427,6 +5427,14 @@ const zurueckgestellt = <String>{
   'Umschichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umschichten (Stapel) / Strukturveränderung in Gesellschaft oder Finanzen) — nach den Nomen 2026-11-08
   'Umsatzvolumen', // zurückgestellt: Plural schwankt (Umsatzvolumen/Umsatzvolumina) — Regel 14 — 2026-11-08
   'Umschau', // zurückgestellt: nur in fester Wendung «Umschau halten» (gehoben) — Regel 14 — 2026-11-08
+  'Umschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Briefumschlag / Buchumschlag / Medizin: Wickel, Kompresse / Wirtschaft: Güterumschlag / plötzliche Änderung) — nach den Nomen 2026-11-08
+  'Umschulung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausbildung für einen neuen Beruf / Wechsel auf eine andere Schule) — nach den Nomen 2026-11-08
+  'Umschwung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: plötzliche Wende / Turnen: Schwung um das Reck) — nach den Nomen 2026-11-08
+  'Umsetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verwirklichung, Durchführung / Versetzung (Person, Pflanze) / Umwandlung (Energie, Stoff)) — nach den Nomen 2026-11-08
+  'Umstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegebenheit / Plural: Aufwand, «Umstände machen» / «in anderen Umständen» = schwanger) — nach den Nomen 2026-11-08
+  'Umtrieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Plural abwertend: Machenschaften / schweiz.: Aufwand, Betriebsamkeit) — nach den Nomen 2026-11-08
+  'Umwelt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Natur, Lebensraum / die Menschen in jemandes Umgebung) — nach den Nomen 2026-11-08
+  'Umweltbundesamt', // zurückgestellt: Name einer Behörde — Regel 14/18 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
