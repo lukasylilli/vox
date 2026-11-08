@@ -5556,6 +5556,10 @@ const zurueckgestellt = <String>{
   'Verschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deckel, Verschlussvorrichtung / Kameraverschluss / «unter Verschluss») — nach den Nomen 2026-11-08
   'Versenkung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Versenken eines Schiffes / Bühnenversenkung, «in der Versenkung verschwinden» / innere Versenkung) — nach den Nomen 2026-11-08
   'Versetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versetzung an einen anderen Arbeitsort / Versetzung in die nächste Klasse) — nach den Nomen 2026-11-08
+  'Versicherte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Versicherte) — nach den Nomen 2026-11-08
+  'Versicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vertrag gegen Schaden / Versicherungsgesellschaft / Beteuerung, eidesstattliche Versicherung) — nach den Nomen 2026-11-08
+  'Versorger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma, die Strom/Wasser liefert / Ernährer einer Familie) — nach den Nomen 2026-11-08
+  'Versorgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Belieferung mit Strom/Wasser/Waren / Pflege, medizinische Versorgung / Altersversorgung, Pension) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

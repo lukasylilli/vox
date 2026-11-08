@@ -5525,3 +5525,7 @@
 | 2816 | Verschluss | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Deckel, Verschlussvorrichtung / Kameraverschluss / «unter Verschluss») |
 | 2817 | Versenkung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Versenken eines Schiffes / Bühnenversenkung, «in der Versenkung verschwinden» / innere Versenkung) |
 | 2818 | Versetzung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Versetzung an einen anderen Arbeitsort / Versetzung in die nächste Klasse) |
+| 2819 | Versicherte | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 4 (substantiviertes Adjektiv: der/die Versicherte) |
+| 2820 | Versicherung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Vertrag gegen Schaden / Versicherungsgesellschaft / Beteuerung, eidesstattliche Versicherung) |
+| 2821 | Versorger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Firma, die Strom/Wasser liefert / Ernährer einer Familie) |
+| 2822 | Versorgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Belieferung mit Strom/Wasser/Waren / Pflege, medizinische Versorgung / Altersversorgung, Pension) |
