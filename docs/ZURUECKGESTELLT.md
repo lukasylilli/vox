@@ -2851,6 +2851,9 @@
 | ۲۶۷۲ | Uta | `substantiv_singular_alle.txt` | 2026-11-08 | Personenname — Regel 18 | — |
 | ۲۶۷۳ | Vakuum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Vakua/Vakuen) — Regel 14 | — |
 | ۲۶۷۴ | Val | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher — Regel 14 | — |
+| ۲۶۷۵ | Variable | `substantiv_singular_alle.txt` | 2026-11-08 | Deklination schwankt (zwei Variable/Variablen, wie ein Adjektiv) — Regel 14 | — |
+| ۲۶۷۶ | Vega | `substantiv_singular_alle.txt` | 2026-11-08 | Eigenname (Stern/Person) — Regel 18 | — |
+| ۲۶۷۷ | Velvet | `substantiv_singular_alle.txt` | 2026-11-08 | Genus unsicher (der/das), selten — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5452,3 +5455,6 @@
 | 2756 | Urteil | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerichtsentscheidung / Meinung, Beurteilung) |
 | 2757 | Vampir | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Blut saugendes Gespenst / Fledermausart) |
 | 2758 | Vandale | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Angehöriger eines germanischen Volkes / zerstörungswütiger Mensch) |
+| 2759 | Variation | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abwandlung / Musik: Variationen eines Themas / Biologie) |
+| 2760 | Vehikel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: (altes) Fahrzeug / Mittel zum Zweck) |
+| 2761 | Veilchen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Blume / ugs. blaues Auge) |

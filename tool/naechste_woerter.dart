@@ -5483,6 +5483,12 @@ const zurueckgestellt = <String>{
   'Val', // zurückgestellt: Bedeutung unsicher — Regel 14 — 2026-11-08
   'Vampir', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blut saugendes Gespenst / Fledermausart) — nach den Nomen 2026-11-08
   'Vandale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angehöriger eines germanischen Volkes / zerstörungswütiger Mensch) — nach den Nomen 2026-11-08
+  'Variable', // zurückgestellt: Deklination schwankt (zwei Variable/Variablen, wie ein Adjektiv) — Regel 14 — 2026-11-08
+  'Variation', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abwandlung / Musik: Variationen eines Themas / Biologie) — nach den Nomen 2026-11-08
+  'Vega', // zurückgestellt: Eigenname (Stern/Person) — Regel 18 — 2026-11-08
+  'Vehikel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (altes) Fahrzeug / Mittel zum Zweck) — nach den Nomen 2026-11-08
+  'Veilchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blume / ugs. blaues Auge) — nach den Nomen 2026-11-08
+  'Velvet', // zurückgestellt: Genus unsicher (der/das), selten — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
