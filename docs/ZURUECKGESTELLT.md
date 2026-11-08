@@ -2816,6 +2816,7 @@
 | ۲۶۳۷ | Thon | `substantiv_singular_alle.txt` | 2026-11-08 | nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 | — |
 | ۲۶۳۸ | Tip | `substantiv_singular_alle.txt` | 2026-11-08 | alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 | — |
 | ۲۶۳۹ | Tobel | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (der oder das Tobel); regional (südd./österr./schweiz.) — Regel 14 | — |
+| ۲۶۴۰ | Tonhalle | `substantiv_singular_alle.txt` | 2026-11-08 | meist Eigenname eines Konzertsaals (Tonhalle Zürich, Düsseldorf) — Regel 14/18 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5316,3 +5317,6 @@
 | 2656 | Tilgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) |
 | 2657 | Titel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) |
 | 2658 | Tochter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: weibliches Kind / Wirtschaft: Tochterfirma) |
+| 2659 | Toilette | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: WC, Klo / gehoben: das Ankleiden, festliche Kleidung) |
+| 2660 | Toleranz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Duldsamkeit gegenüber anderen / Technik: zulässige Abweichung / Medizin: Widerstandsfähigkeit) |
+| 2661 | Tonne | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewichtseinheit 1000 kg / großer Behälter, z. B. Mülltonne) |

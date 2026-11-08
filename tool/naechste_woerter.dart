@@ -5348,6 +5348,10 @@ const zurueckgestellt = <String>{
   'Titel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) — nach den Nomen 2026-11-08
   'Tobel', // zurückgestellt: Genus schwankt (der oder das Tobel); regional (südd./österr./schweiz.) — Regel 14 — 2026-11-08
   'Tochter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: weibliches Kind / Wirtschaft: Tochterfirma) — nach den Nomen 2026-11-08
+  'Toilette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: WC, Klo / gehoben: das Ankleiden, festliche Kleidung) — nach den Nomen 2026-11-08
+  'Toleranz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Duldsamkeit gegenüber anderen / Technik: zulässige Abweichung / Medizin: Widerstandsfähigkeit) — nach den Nomen 2026-11-08
+  'Tonhalle', // zurückgestellt: meist Eigenname eines Konzertsaals (Tonhalle Zürich, Düsseldorf) — Regel 14/18 — 2026-11-08
+  'Tonne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewichtseinheit 1000 kg / großer Behälter, z. B. Mülltonne) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
