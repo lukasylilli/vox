@@ -5457,6 +5457,9 @@ const zurueckgestellt = <String>{
   'Untergrund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boden, Erdreich / politischer Untergrund / Hintergrund, Unterlage) — nach den Nomen 2026-11-08
   'Unterhalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebensunterhalt / Unterhaltszahlung / Instandhaltung) — nach den Nomen 2026-11-08
   'Unterhaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gespräch / Vergnügen, Entertainment / Instandhaltung) — nach den Nomen 2026-11-08
+  'Unterlage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schriftstück, Pl. Unterlagen / etwas, das man unterlegt) — nach den Nomen 2026-11-08
+  'Unterland', // zurückgestellt: meist regionaler Name (Zürcher/Bozner Unterland), Gebrauch unsicher — Regel 14/18 — 2026-11-08
+  'Unternehmen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma, Betrieb / Vorhaben, Aktion) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
