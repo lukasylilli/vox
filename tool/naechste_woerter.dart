@@ -5583,6 +5583,12 @@ const zurueckgestellt = <String>{
   'Verzahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zähne eines Zahnrads, technisch / enge Verbindung, Verflechtung) — nach den Nomen 2026-11-08
   'Viech', // zurückgestellt: umgangssprachlich/regional (bayr., österr.), Wertung (abwertend oder liebevoll) unsicher — Regel 14 — 2026-11-08
   'Vieh', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutztiere, Rinder / abwertend über Menschen) — nach den Nomen 2026-11-08
+  'Vielseitigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vielseitigsein eines Menschen, Geräts / Reitsport-Disziplin «Vielseitigkeitsreiten») — nach den Nomen 2026-11-08
+  'Vier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer vier / Schulnote / Straßenbahn-, Buslinie 4) — nach den Nomen 2026-11-08
+  'Vierer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruderboot für vier / Schulnote / vier Richtige im Lotto / Ziffer, regional) — nach den Nomen 2026-11-08
+  'Vierschanzentournee', // zurückgestellt: Name einer bestimmten Sportveranstaltung (Skispringen) — Regel 18/14 — 2026-11-08
+  'Vierziger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mann in den Vierzigern / die Vierzigerjahre / Wein eines Jahrgangs) — nach den Nomen 2026-11-08
+  'Vignette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autobahn-Mautplakette (AT, CH) / Zierbild in Büchern, Fotografie) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
