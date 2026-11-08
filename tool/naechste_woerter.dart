@@ -5359,6 +5359,10 @@ const zurueckgestellt = <String>{
   'Toto', // zurückgestellt: Genus schwankt (das oder der Toto) — Regel 14 — 2026-11-08
   'Touch', // zurückgestellt: Anglizismus, umgangssprachlich; Gebrauch und Bedeutung schwankend — Regel 14 — 2026-11-08
   'Tour', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausflug, Reise / ugs. Art und Weise, z. B. «auf die krumme Tour» / Technik: Umdrehung, «auf Touren kommen») — nach den Nomen 2026-11-08
+  'Tracht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: traditionelle Kleidung, z. B. Dirndl / «eine Tracht Prügel» / Imkerei: Bienentracht) — nach den Nomen 2026-11-08
+  'Track', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück auf einer CD / Rennstrecke, Pfad) — nach den Nomen 2026-11-08
+  'Train', // zurückgestellt: veraltet (militärisch: Tross, Nachschub); Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Trainer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportlehrer, Coach / schweiz.: Trainingsanzug) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
