@@ -5439,6 +5439,11 @@ const zurueckgestellt = <String>{
   'Unbill', // zurückgestellt: gehoben, selten; Plural/Gebrauch unsicher («die Unbilden des Wetters») — Regel 14 — 2026-11-08
   'Unding', // zurückgestellt: nur in fester Wendung «ein Unding sein» — Regel 14 — 2026-11-08
   'Unendlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unendliche Weite, Ewigkeit / Mathematik: das Unendliche) — nach den Nomen 2026-11-08
+  'Ungemach', // zurückgestellt: gehoben, selten; Markierung (veraltend?) unsicher — Regel 14/17 — 2026-11-08
+  'Ungnade', // zurückgestellt: fast nur in fester Wendung «in Ungnade fallen» — Regel 14 — 2026-11-08
+  'Union', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bund, Vereinigung (z. B. EU) / in Deutschland: CDU und CSU) — nach den Nomen 2026-11-08
+  'Unionist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied/Anhänger von CDU/CSU / Nordirland: Unionist / Geschichte USA) — nach den Nomen 2026-11-08
+  'Unit', // zurückgestellt: Anglizismus; Bedeutung schwankt (Einheit, Team, Lerneinheit) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

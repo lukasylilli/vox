@@ -2836,6 +2836,9 @@
 | ۲۶۵۷ | Umweltbundesamt | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde — Regel 14/18 | — |
 | ۲۶۵۸ | Unbill | `substantiv_singular_alle.txt` | 2026-11-08 | gehoben, selten; Plural/Gebrauch unsicher («die Unbilden des Wetters») — Regel 14 | — |
 | ۲۶۵۹ | Unding | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «ein Unding sein» — Regel 14 | — |
+| ۲۶۶۰ | Ungemach | `substantiv_singular_alle.txt` | 2026-11-08 | gehoben, selten; Markierung (veraltend?) unsicher — Regel 14/17 | — |
+| ۲۶۶۱ | Ungnade | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Ungnade fallen» — Regel 14 | — |
+| ۲۶۶۲ | Unit | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus; Bedeutung schwankt (Einheit, Team, Lerneinheit) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5408,3 +5411,5 @@
 | 2727 | Umwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Natur, Lebensraum / die Menschen in jemandes Umgebung) |
 | 2728 | Umzug | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wohnungswechsel / Festzug, Parade) |
 | 2729 | Unendlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: unendliche Weite, Ewigkeit / Mathematik: das Unendliche) |
+| 2730 | Union | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bund, Vereinigung (z. B. EU) / in Deutschland: CDU und CSU) |
+| 2731 | Unionist | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mitglied/Anhänger von CDU/CSU / Nordirland: Unionist / Geschichte USA) |
