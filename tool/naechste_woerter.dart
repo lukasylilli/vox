@@ -5560,6 +5560,12 @@ const zurueckgestellt = <String>{
   'Versicherung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vertrag gegen Schaden / Versicherungsgesellschaft / Beteuerung, eidesstattliche Versicherung) — nach den Nomen 2026-11-08
   'Versorger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma, die Strom/Wasser liefert / Ernährer einer Familie) — nach den Nomen 2026-11-08
   'Versorgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Belieferung mit Strom/Wasser/Waren / Pflege, medizinische Versorgung / Altersversorgung, Pension) — nach den Nomen 2026-11-08
+  'Verstimmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verärgerung zwischen Menschen / Magenverstimmung / verstimmtes Instrument) — nach den Nomen 2026-11-08
+  'Versuch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bemühen, etwas zu tun / wissenschaftliches Experiment / Rugby: Versuch) — nach den Nomen 2026-11-08
+  'Verteidiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafverteidiger, Anwalt / Abwehrspieler im Sport / wer etwas verteidigt) — nach den Nomen 2026-11-08
+  'Verteidigerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafverteidigerin, Anwältin / Abwehrspielerin im Sport) — nach den Nomen 2026-11-08
+  'Verteidigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abwehr eines Angriffs, Militär / Strafverteidigung vor Gericht / Abwehr im Sport / Verteidigung einer Doktorarbeit) — nach den Nomen 2026-11-08
+  'Vertiefung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Vertiefen von Wissen, Beziehungen / Mulde, vertiefte Stelle) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

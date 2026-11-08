@@ -5529,3 +5529,9 @@
 | 2820 | Versicherung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Vertrag gegen Schaden / Versicherungsgesellschaft / Beteuerung, eidesstattliche Versicherung) |
 | 2821 | Versorger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Firma, die Strom/Wasser liefert / Ernährer einer Familie) |
 | 2822 | Versorgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Belieferung mit Strom/Wasser/Waren / Pflege, medizinische Versorgung / Altersversorgung, Pension) |
+| 2823 | Verstimmung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Verärgerung zwischen Menschen / Magenverstimmung / verstimmtes Instrument) |
+| 2824 | Versuch | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bemühen, etwas zu tun / wissenschaftliches Experiment / Rugby: Versuch) |
+| 2825 | Verteidiger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Strafverteidiger, Anwalt / Abwehrspieler im Sport / wer etwas verteidigt) |
+| 2826 | Verteidigerin | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Strafverteidigerin, Anwältin / Abwehrspielerin im Sport) |
+| 2827 | Verteidigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abwehr eines Angriffs, Militär / Strafverteidigung vor Gericht / Abwehr im Sport / Verteidigung einer Doktorarbeit) |
+| 2828 | Vertiefung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Vertiefen von Wissen, Beziehungen / Mulde, vertiefte Stelle) |
