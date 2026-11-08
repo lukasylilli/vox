@@ -2866,6 +2866,10 @@
 | ۲۶۸۷ | Verpackungsverordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer bestimmten Rechtsvorschrift (DE, seit 2019 Verpackungsgesetz) — Regel 18/14 | — |
 | ۲۶۸۸ | Viech | `substantiv_singular_alle.txt` | 2026-11-08 | umgangssprachlich/regional (bayr., österr.), Wertung (abwertend oder liebevoll) unsicher — Regel 14 | — |
 | ۲۶۸۹ | Vierschanzentournee | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer bestimmten Sportveranstaltung (Skispringen) — Regel 18/14 | — |
+| ۲۶۹۰ | Violoncello | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Violoncelli/Violoncellos) — Regel 14 | — |
+| ۲۶۹۱ | Vista | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher (Ausblick, gehoben? / Produktname «Windows Vista») — Regel 14/18 | — |
+| ۲۶۹۲ | Visum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Visa/Visen) — Regel 14 | — |
+| ۲۶۹۳ | Vita | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Viten/Vitae) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5558,3 +5562,8 @@
 | 2847 | Vierer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ruderboot für vier / Schulnote / vier Richtige im Lotto / Ziffer, regional) |
 | 2848 | Vierziger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mann in den Vierzigern / die Vierzigerjahre / Wein eines Jahrgangs) |
 | 2849 | Vignette | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Autobahn-Mautplakette (AT, CH) / Zierbild in Büchern, Fotografie) |
+| 2850 | Violinkonzert | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Musikstück für Violine und Orchester / Konzertveranstaltung mit Violine) |
+| 2851 | Virus | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1/2 (mehrere Bedeutungen: Krankheitserreger / Computervirus; Artikel das, ugs. auch der) |
+| 2852 | Visier | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Teil des Helms / Zielvorrichtung einer Waffe) |
+| 2853 | Vision | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zukunftsvorstellung / Erscheinung, Trugbild) |
+| 2854 | Visite | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Arztvisite im Krankenhaus / veraltend: Besuch) |

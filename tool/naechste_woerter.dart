@@ -5589,6 +5589,15 @@ const zurueckgestellt = <String>{
   'Vierschanzentournee', // zurückgestellt: Name einer bestimmten Sportveranstaltung (Skispringen) — Regel 18/14 — 2026-11-08
   'Vierziger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mann in den Vierzigern / die Vierzigerjahre / Wein eines Jahrgangs) — nach den Nomen 2026-11-08
   'Vignette', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Autobahn-Mautplakette (AT, CH) / Zierbild in Büchern, Fotografie) — nach den Nomen 2026-11-08
+  'Violinkonzert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikstück für Violine und Orchester / Konzertveranstaltung mit Violine) — nach den Nomen 2026-11-08
+  'Violoncello', // zurückgestellt: Plural doppelt (Violoncelli/Violoncellos) — Regel 14 — 2026-11-08
+  'Virus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/2 (mehrere Bedeutungen: Krankheitserreger / Computervirus; Artikel das, ugs. auch der) — nach den Nomen 2026-11-08
+  'Visier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teil des Helms / Zielvorrichtung einer Waffe) — nach den Nomen 2026-11-08
+  'Vision', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zukunftsvorstellung / Erscheinung, Trugbild) — nach den Nomen 2026-11-08
+  'Visite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Arztvisite im Krankenhaus / veraltend: Besuch) — nach den Nomen 2026-11-08
+  'Vista', // zurückgestellt: Bedeutung unsicher (Ausblick, gehoben? / Produktname «Windows Vista») — Regel 14/18 — 2026-11-08
+  'Visum', // zurückgestellt: Plural doppelt (Visa/Visen) — Regel 14 — 2026-11-08
+  'Vita', // zurückgestellt: Plural doppelt (Viten/Vitae) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
