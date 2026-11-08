@@ -2819,6 +2819,8 @@
 | ۲۶۴۰ | Tonhalle | `substantiv_singular_alle.txt` | 2026-11-08 | meist Eigenname eines Konzertsaals (Tonhalle Zürich, Düsseldorf) — Regel 14/18 | — |
 | ۲۶۴۱ | Tony | `substantiv_singular_alle.txt` | 2026-11-08 | Personenname bzw. Theaterpreis (Tony Award) — Regel 14/18 | — |
 | ۲۶۴۲ | Tory | `substantiv_singular_alle.txt` | 2026-11-08 | Fremdwort (brit. Konservativer); Plural schwankt (Torys/Tories) — Regel 14 | — |
+| ۲۶۴۳ | Toto | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (das oder der Toto) — Regel 14 | — |
+| ۲۶۴۴ | Touch | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus, umgangssprachlich; Gebrauch und Bedeutung schwankend — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5324,3 +5326,4 @@
 | 2661 | Tonne | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewichtseinheit 1000 kg / großer Behälter, z. B. Mülltonne) |
 | 2662 | Tornado | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wirbelsturm / Kampfflugzeug «Tornado») |
 | 2663 | Torso | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rumpf des Körpers / Statue ohne Kopf und Glieder / übertragen: Bruchstück) |
+| 2664 | Tour | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ausflug, Reise / ugs. Art und Weise, z. B. «auf die krumme Tour» / Technik: Umdrehung, «auf Touren kommen») |

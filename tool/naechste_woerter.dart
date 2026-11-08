@@ -5356,6 +5356,9 @@ const zurueckgestellt = <String>{
   'Tornado', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirbelsturm / Kampfflugzeug «Tornado») — nach den Nomen 2026-11-08
   'Torso', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rumpf des Körpers / Statue ohne Kopf und Glieder / übertragen: Bruchstück) — nach den Nomen 2026-11-08
   'Tory', // zurückgestellt: Fremdwort (brit. Konservativer); Plural schwankt (Torys/Tories) — Regel 14 — 2026-11-08
+  'Toto', // zurückgestellt: Genus schwankt (das oder der Toto) — Regel 14 — 2026-11-08
+  'Touch', // zurückgestellt: Anglizismus, umgangssprachlich; Gebrauch und Bedeutung schwankend — Regel 14 — 2026-11-08
+  'Tour', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausflug, Reise / ugs. Art und Weise, z. B. «auf die krumme Tour» / Technik: Umdrehung, «auf Touren kommen») — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
