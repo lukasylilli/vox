@@ -5512,6 +5512,12 @@ const zurueckgestellt = <String>{
   'Vereinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organisation, Bund / das Vereinigen, z. B. deutsche Einheit) — nach den Nomen 2026-11-08
   'Vereinnahmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einnahme von Geld / Inanspruchnahme für eigene Zwecke) — nach den Nomen 2026-11-08
   'Vereinsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vereinsvorsitzende) — nach den Nomen 2026-11-08
+  'Verfahren', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Methode, Technik / Gerichtsverfahren) — nach den Nomen 2026-11-08
+  'Verfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zerfall, Niedergang / Ablauf der Gültigkeit) — nach den Nomen 2026-11-08
+  'Verfassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Grundgesetz eines Staates / körperlicher oder seelischer Zustand) — nach den Nomen 2026-11-08
+  'Verfassungsschutz', // zurückgestellt: Name einer Behörde (Deutschland) — Regel 14/18 — 2026-11-08
+  'Verfolger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer jemanden verfolgt, jagt / Unterdrücker / Sport: Verfolgerfeld) — nach den Nomen 2026-11-08
+  'Verfolgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jagd, Nachsetzen / politische Verfolgung / Strafverfolgung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

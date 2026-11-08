@@ -2857,6 +2857,7 @@
 | ۲۶۷۸ | Verbandsgemeinde | `substantiv_singular_alle.txt` | 2026-11-08 | regionaler Verwaltungsbegriff (Rheinland-Pfalz u. a.) — Regel 14 | — |
 | ۲۶۷۹ | Verbandsliga | `substantiv_singular_alle.txt` | 2026-11-08 | Spielklasse im regionalen Sport, Gebrauch unsicher — Regel 14 | — |
 | ۲۶۸۰ | Verbauung | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung/Gebrauch regional unsicher (österr./schweiz.) — Regel 14 | — |
+| ۲۶۸۱ | Verfassungsschutz | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde (Deutschland) — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5481,3 +5482,8 @@
 | 2779 | Vereinigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Organisation, Bund / das Vereinigen, z. B. deutsche Einheit) |
 | 2780 | Vereinnahmung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Einnahme von Geld / Inanspruchnahme für eigene Zwecke) |
 | 2781 | Vereinsvorsitzende | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 4 (substantiviertes Adjektiv: der/die Vereinsvorsitzende) |
+| 2782 | Verfahren | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Methode, Technik / Gerichtsverfahren) |
+| 2783 | Verfall | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zerfall, Niedergang / Ablauf der Gültigkeit) |
+| 2784 | Verfassung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Grundgesetz eines Staates / körperlicher oder seelischer Zustand) |
+| 2785 | Verfolger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer jemanden verfolgt, jagt / Unterdrücker / Sport: Verfolgerfeld) |
+| 2786 | Verfolgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Jagd, Nachsetzen / politische Verfolgung / Strafverfolgung) |
