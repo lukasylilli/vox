@@ -5581,6 +5581,8 @@ const zurueckgestellt = <String>{
   'Verwerfung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ablehnung / geologische Verwerfung / Verziehen von Holz) — nach den Nomen 2026-11-08
   'Verwicklung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beteiligung, Verstrickung / Komplikation, Schwierigkeit) — nach den Nomen 2026-11-08
   'Verzahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zähne eines Zahnrads, technisch / enge Verbindung, Verflechtung) — nach den Nomen 2026-11-08
+  'Viech', // zurückgestellt: umgangssprachlich/regional (bayr., österr.), Wertung (abwertend oder liebevoll) unsicher — Regel 14 — 2026-11-08
+  'Vieh', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nutztiere, Rinder / abwertend über Menschen) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

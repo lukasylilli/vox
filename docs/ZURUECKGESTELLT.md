@@ -2864,6 +2864,7 @@
 | ۲۶۸۵ | Verlustzone | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in die Verlustzone geraten / in der Verlustzone» — Regel 14 | — |
 | ۲۶۸۶ | Vernehmlassung | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung (schweiz.: Verlautbarung / Stellungnahme im Vernehmlassungsverfahren) nicht eindeutig — Regel 14 | — |
 | ۲۶۸۷ | Verpackungsverordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer bestimmten Rechtsvorschrift (DE, seit 2019 Verpackungsgesetz) — Regel 18/14 | — |
+| ۲۶۸۸ | Viech | `substantiv_singular_alle.txt` | 2026-11-08 | umgangssprachlich/regional (bayr., österr.), Wertung (abwertend oder liebevoll) unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5550,3 +5551,4 @@
 | 2841 | Verwerfung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ablehnung / geologische Verwerfung / Verziehen von Holz) |
 | 2842 | Verwicklung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Beteiligung, Verstrickung / Komplikation, Schwierigkeit) |
 | 2843 | Verzahnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zähne eines Zahnrads, technisch / enge Verbindung, Verflechtung) |
+| 2844 | Vieh | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Nutztiere, Rinder / abwertend über Menschen) |
