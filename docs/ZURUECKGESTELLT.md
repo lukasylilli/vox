@@ -5494,3 +5494,7 @@
 | 2789 | Vergewaltigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: sexuelle Gewalttat / übertragen: gewaltsame Missachtung) |
 | 2790 | Vergleich | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Vergleichen / Rechtssprache: gütliche Einigung) |
 | 2791 | Verhandlung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gespräch zur Einigung / Gerichtsverhandlung) |
+| 2792 | Verhandlungstag | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Tag einer Gerichtsverhandlung / Tag von Verhandlungen) |
+| 2793 | Verhinderung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verhindern / das Verhindertsein, Abwesenheit) |
+| 2794 | Verkauf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verkaufen / Verkaufsabteilung) |
+| 2795 | Verkehr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Straßenverkehr / Umgang, Kontakt / Geschlechtsverkehr) |

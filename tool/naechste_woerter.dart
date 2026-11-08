@@ -5525,6 +5525,10 @@ const zurueckgestellt = <String>{
   'Vergewaltigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sexuelle Gewalttat / übertragen: gewaltsame Missachtung) — nach den Nomen 2026-11-08
   'Vergleich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Vergleichen / Rechtssprache: gütliche Einigung) — nach den Nomen 2026-11-08
   'Verhandlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gespräch zur Einigung / Gerichtsverhandlung) — nach den Nomen 2026-11-08
+  'Verhandlungstag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tag einer Gerichtsverhandlung / Tag von Verhandlungen) — nach den Nomen 2026-11-08
+  'Verhinderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verhindern / das Verhindertsein, Abwesenheit) — nach den Nomen 2026-11-08
+  'Verkauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verkaufen / Verkaufsabteilung) — nach den Nomen 2026-11-08
+  'Verkehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straßenverkehr / Umgang, Kontakt / Geschlechtsverkehr) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
