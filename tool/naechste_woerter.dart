@@ -5381,6 +5381,10 @@ const zurueckgestellt = <String>{
   'Treppchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Treppe / Sport ugs.: Siegerpodest, «aufs Treppchen») — nach den Nomen 2026-11-08
   'Treuhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Verwaltung fremden Vermögens / Kurzform für die Treuhandanstalt) — nach den Nomen 2026-11-08
   'Trichter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Einfüllen / Krater, z. B. Bombentrichter) — nach den Nomen 2026-11-08
+  'Trieb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: innerer Antrieb, Instinkt / Pflanze: junger Spross) — nach den Nomen 2026-11-08
+  'Triebfeder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Antriebsfeder / übertragen: Beweggrund, Motiv) — nach den Nomen 2026-11-08
+  'Trip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausflug, kurze Reise / ugs.: Drogenrausch) — nach den Nomen 2026-11-08
+  'Tritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoß mit dem Fuß / Schritt / Trittstufe, kleine Leiter) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -5349,3 +5349,7 @@
 | 2679 | Treppchen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: kleine Treppe / Sport ugs.: Siegerpodest, «aufs Treppchen») |
 | 2680 | Treuhand | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Recht: Verwaltung fremden Vermögens / Kurzform für die Treuhandanstalt) |
 | 2681 | Trichter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerät zum Einfüllen / Krater, z. B. Bombentrichter) |
+| 2682 | Trieb | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: innerer Antrieb, Instinkt / Pflanze: junger Spross) |
+| 2683 | Triebfeder | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Technik: Antriebsfeder / übertragen: Beweggrund, Motiv) |
+| 2684 | Trip | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ausflug, kurze Reise / ugs.: Drogenrausch) |
+| 2685 | Tritt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Stoß mit dem Fuß / Schritt / Trittstufe, kleine Leiter) |
