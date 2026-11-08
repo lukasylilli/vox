@@ -2828,6 +2828,7 @@
 | ۲۶۴۹ | Trauner | `substantiv_singular_alle.txt` | 2026-11-08 | regionales Fachwort (Salzschiff auf der Traun) bzw. Name; Gebrauch unsicher — Regel 14 | — |
 | ۲۶۵۰ | Trottoir | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 | — |
 | ۲۶۵۱ | Trust | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trusts, seltener Truste) — Regel 14 | — |
+| ۲۶۵۲ | Tunnel | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Tunnel/Tunnels); südd./österr. auch «das Tunell» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5368,3 +5369,6 @@
 | 2695 | Truppe | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Militär: Truppen / Theater-, Artistengruppe / ugs.: Mannschaft, Team) |
 | 2696 | Tube | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Behälter (Zahnpasta) / Medizin: Eileiter, Ohrtrompete) |
 | 2697 | Tuch | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Stück Stoff, Tuch (Tücher) / Stoffart (Tuche)) |
+| 2698 | Turbo | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Technik: Turbolader / ugs. übertragen: Beschleunigung, «den Turbo einlegen») |
+| 2699 | Turbulenz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Physik/Luftfahrt: Luftwirbel / übertragen: Unruhe, Wirren) |
+| 2700 | Turm | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bauwerk / Schachfigur) |

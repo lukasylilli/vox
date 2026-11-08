@@ -5399,6 +5399,10 @@ const zurueckgestellt = <String>{
   'Tube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behälter (Zahnpasta) / Medizin: Eileiter, Ohrtrompete) — nach den Nomen 2026-11-08
   'Tuch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Stück Stoff, Tuch (Tücher) / Stoffart (Tuche)) — nach den Nomen 2026-11-08
   'Trust', // zurückgestellt: Plural schwankt (Trusts, seltener Truste) — Regel 14 — 2026-11-08
+  'Turbo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Turbolader / ugs. übertragen: Beschleunigung, «den Turbo einlegen») — nach den Nomen 2026-11-08
+  'Turbulenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik/Luftfahrt: Luftwirbel / übertragen: Unruhe, Wirren) — nach den Nomen 2026-11-08
+  'Turm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bauwerk / Schachfigur) — nach den Nomen 2026-11-08
+  'Tunnel', // zurückgestellt: Plural schwankt (Tunnel/Tunnels); südd./österr. auch «das Tunell» — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
