@@ -5540,3 +5540,9 @@
 | 2831 | Vertreter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Repräsentant / Handelsvertreter, Verkäufer / Stellvertreter) |
 | 2832 | Vertreterin | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Repräsentantin / Handelsvertreterin / Stellvertreterin) |
 | 2833 | Vertretung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Stellvertretung, Vertretungslehrer / Interessenvertretung, Botschaft / Handelsvertretung) |
+| 2834 | Verurteilung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: gerichtliches Urteil, Schuldspruch / moralische Verurteilung, Ablehnung) |
+| 2835 | Verwahrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Aufbewahrung, Obhut / Sicherungsverwahrung / «Verwahrung einlegen» = Protest) |
+| 2836 | Verwaltung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verwalten / Behörde, Verwaltungsabteilung) |
+| 2837 | Verwaltungsrat | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gremium, schweiz. Aufsichtsorgan einer AG / Mitglied dieses Gremiums) |
+| 2838 | Verwandtschaft | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: alle Verwandten / verwandtschaftliche Beziehung / Ähnlichkeit, Wesensverwandtschaft) |
+| 2839 | Verweigerer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer etwas verweigert / Kriegsdienstverweigerer) |

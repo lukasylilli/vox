@@ -5571,6 +5571,12 @@ const zurueckgestellt = <String>{
   'Vertreter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Repräsentant / Handelsvertreter, Verkäufer / Stellvertreter) — nach den Nomen 2026-11-08
   'Vertreterin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Repräsentantin / Handelsvertreterin / Stellvertreterin) — nach den Nomen 2026-11-08
   'Vertretung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stellvertretung, Vertretungslehrer / Interessenvertretung, Botschaft / Handelsvertretung) — nach den Nomen 2026-11-08
+  'Verurteilung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gerichtliches Urteil, Schuldspruch / moralische Verurteilung, Ablehnung) — nach den Nomen 2026-11-08
+  'Verwahrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufbewahrung, Obhut / Sicherungsverwahrung / «Verwahrung einlegen» = Protest) — nach den Nomen 2026-11-08
+  'Verwaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verwalten / Behörde, Verwaltungsabteilung) — nach den Nomen 2026-11-08
+  'Verwaltungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium, schweiz. Aufsichtsorgan einer AG / Mitglied dieses Gremiums) — nach den Nomen 2026-11-08
+  'Verwandtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: alle Verwandten / verwandtschaftliche Beziehung / Ähnlichkeit, Wesensverwandtschaft) — nach den Nomen 2026-11-08
+  'Verweigerer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer etwas verweigert / Kriegsdienstverweigerer) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
