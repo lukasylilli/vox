@@ -5413,6 +5413,14 @@ const zurueckgestellt = <String>{
   'Ultraschall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schall über der Hörgrenze / Medizin: Ultraschalluntersuchung) — nach den Nomen 2026-11-08
   'Tutti', // zurückgestellt: Fachwort der Musik; Plural schwankt (Tuttis/Tutti) — Regel 14 — 2026-11-08
   'Ultimatum', // zurückgestellt: Plural schwankt (Ultimaten/Ultimatums) — Regel 14 — 2026-11-08
+  'Umbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umbauen eines Gebäudes / umgebautes Gebäude / übertragen: Umgestaltung, z. B. des Sozialstaats); Plural schwankt (Umbauten/Umbaue) — nach den Nomen 2026-11-08
+  'Umbruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: grundlegende Veränderung / Druckwesen: Seitenumbruch / Landwirtschaft: Umpflügen) — nach den Nomen 2026-11-08
+  'Umfahrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umfahren / österr., schweiz.: Umgehungsstraße) — nach den Nomen 2026-11-08
+  'Umfang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geometrie, Körper: Umfang (Länge der Begrenzung) / Ausmaß, Menge) — nach den Nomen 2026-11-08
+  'Umgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kontakt mit Menschen / Handhabung, «Umgang mit Geld» / Kirche: Prozession / Architektur: Rundgang) — nach den Nomen 2026-11-08
+  'Umgehung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umgehen einer Regel / Umgehungsstraße) — nach den Nomen 2026-11-08
+  'Umkehr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Umkehren, Zurückgehen / gehoben: innere Wandlung) — nach den Nomen 2026-11-08
+  'Umkehrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Umdrehung der Reihenfolge / Fachsprache: Musik, Mathematik, Grammatik) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

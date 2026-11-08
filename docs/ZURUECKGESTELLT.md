@@ -5382,3 +5382,11 @@
 | 2706 | Uhr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerät zur Zeitmessung / ohne Plural bei Zeitangaben: «um drei Uhr») |
 | 2707 | Ultra | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Politik: Extremist / Sport: fanatischer Fußballfan) |
 | 2708 | Ultraschall | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Physik: Schall über der Hörgrenze / Medizin: Ultraschalluntersuchung) |
+| 2709 | Umbau | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umbauen eines Gebäudes / umgebautes Gebäude / übertragen: Umgestaltung, z. B. des Sozialstaats); Plural schwankt (Umbauten/Umbaue) |
+| 2710 | Umbruch | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: grundlegende Veränderung / Druckwesen: Seitenumbruch / Landwirtschaft: Umpflügen) |
+| 2711 | Umfahrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umfahren / österr., schweiz.: Umgehungsstraße) |
+| 2712 | Umfang | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geometrie, Körper: Umfang (Länge der Begrenzung) / Ausmaß, Menge) |
+| 2713 | Umgang | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kontakt mit Menschen / Handhabung, «Umgang mit Geld» / Kirche: Prozession / Architektur: Rundgang) |
+| 2714 | Umgehung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umgehen einer Regel / Umgehungsstraße) |
+| 2715 | Umkehr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Umkehren, Zurückgehen / gehoben: innere Wandlung) |
+| 2716 | Umkehrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Umdrehung der Reihenfolge / Fachsprache: Musik, Mathematik, Grammatik) |
