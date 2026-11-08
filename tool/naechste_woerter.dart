@@ -5577,6 +5577,10 @@ const zurueckgestellt = <String>{
   'Verwaltungsrat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gremium, schweiz. Aufsichtsorgan einer AG / Mitglied dieses Gremiums) — nach den Nomen 2026-11-08
   'Verwandtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: alle Verwandten / verwandtschaftliche Beziehung / Ähnlichkeit, Wesensverwandtschaft) — nach den Nomen 2026-11-08
   'Verweigerer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer etwas verweigert / Kriegsdienstverweigerer) — nach den Nomen 2026-11-08
+  'Verweis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rüge, Tadel / Hinweis auf eine andere Stelle / Schulverweis) — nach den Nomen 2026-11-08
+  'Verwerfung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ablehnung / geologische Verwerfung / Verziehen von Holz) — nach den Nomen 2026-11-08
+  'Verwicklung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beteiligung, Verstrickung / Komplikation, Schwierigkeit) — nach den Nomen 2026-11-08
+  'Verzahnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zähne eines Zahnrads, technisch / enge Verbindung, Verflechtung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

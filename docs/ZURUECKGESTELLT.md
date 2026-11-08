@@ -5546,3 +5546,7 @@
 | 2837 | Verwaltungsrat | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gremium, schweiz. Aufsichtsorgan einer AG / Mitglied dieses Gremiums) |
 | 2838 | Verwandtschaft | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: alle Verwandten / verwandtschaftliche Beziehung / Ähnlichkeit, Wesensverwandtschaft) |
 | 2839 | Verweigerer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer etwas verweigert / Kriegsdienstverweigerer) |
+| 2840 | Verweis | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rüge, Tadel / Hinweis auf eine andere Stelle / Schulverweis) |
+| 2841 | Verwerfung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ablehnung / geologische Verwerfung / Verziehen von Holz) |
+| 2842 | Verwicklung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Beteiligung, Verstrickung / Komplikation, Schwierigkeit) |
+| 2843 | Verzahnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zähne eines Zahnrads, technisch / enge Verbindung, Verflechtung) |
