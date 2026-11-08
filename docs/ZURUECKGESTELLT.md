@@ -2839,6 +2839,7 @@
 | ۲۶۶۰ | Ungemach | `substantiv_singular_alle.txt` | 2026-11-08 | gehoben, selten; Markierung (veraltend?) unsicher — Regel 14/17 | — |
 | ۲۶۶۱ | Ungnade | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Ungnade fallen» — Regel 14 | — |
 | ۲۶۶۲ | Unit | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus; Bedeutung schwankt (Einheit, Team, Lerneinheit) — Regel 14 | — |
+| ۲۶۶۳ | Unkenntlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «bis zur Unkenntlichkeit» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5413,3 +5414,8 @@
 | 2729 | Unendlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: unendliche Weite, Ewigkeit / Mathematik: das Unendliche) |
 | 2730 | Union | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bund, Vereinigung (z. B. EU) / in Deutschland: CDU und CSU) |
 | 2731 | Unionist | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mitglied/Anhänger von CDU/CSU / Nordirland: Unionist / Geschichte USA) |
+| 2732 | Unkenruf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ruf der Unke / pessimistische Vorhersage) |
+| 2733 | Unruhe | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ruhelosigkeit, Lärm / Besorgnis / Pl. Unruhen = Aufruhr) |
+| 2734 | Unschuld | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schuldlosigkeit / Reinheit, Naivität / Jungfräulichkeit) |
+| 2735 | Unsicherheit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: fehlende Sicherheit, Gefahr / Ungewissheit / fehlendes Selbstvertrauen) |
+| 2736 | Unstimmigkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fehler, Widerspruch / Meinungsverschiedenheit) |

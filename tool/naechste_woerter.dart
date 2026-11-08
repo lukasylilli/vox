@@ -5444,6 +5444,12 @@ const zurueckgestellt = <String>{
   'Union', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bund, Vereinigung (z. B. EU) / in Deutschland: CDU und CSU) — nach den Nomen 2026-11-08
   'Unionist', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mitglied/Anhänger von CDU/CSU / Nordirland: Unionist / Geschichte USA) — nach den Nomen 2026-11-08
   'Unit', // zurückgestellt: Anglizismus; Bedeutung schwankt (Einheit, Team, Lerneinheit) — Regel 14 — 2026-11-08
+  'Unkenntlichkeit', // zurückgestellt: fast nur in fester Wendung «bis zur Unkenntlichkeit» — Regel 14 — 2026-11-08
+  'Unkenruf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruf der Unke / pessimistische Vorhersage) — nach den Nomen 2026-11-08
+  'Unruhe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ruhelosigkeit, Lärm / Besorgnis / Pl. Unruhen = Aufruhr) — nach den Nomen 2026-11-08
+  'Unschuld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuldlosigkeit / Reinheit, Naivität / Jungfräulichkeit) — nach den Nomen 2026-11-08
+  'Unsicherheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: fehlende Sicherheit, Gefahr / Ungewissheit / fehlendes Selbstvertrauen) — nach den Nomen 2026-11-08
+  'Unstimmigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fehler, Widerspruch / Meinungsverschiedenheit) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
