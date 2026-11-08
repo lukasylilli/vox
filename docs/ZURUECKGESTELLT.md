@@ -2860,6 +2860,7 @@
 | ۲۶۸۱ | Verfassungsschutz | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde (Deutschland) — Regel 14/18 | — |
 | ۲۶۸۲ | Verhaltenskodex | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Verhaltenskodizes/-kodexe) — Regel 14 | — |
 | ۲۶۸۳ | Vergessenheit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Vergessenheit geraten» — Regel 14 | — |
+| ۲۶۸۴ | Verlass | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «auf jemanden ist Verlass» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5501,3 +5502,10 @@
 | 2796 | Verkehrstote | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 4 (substantiviertes Adjektiv: der/die Verkehrstote) |
 | 2797 | Verkleidung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kostüm / Abdeckung, Täfelung) |
 | 2798 | Verkleinerung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verkleinern / Grammatik: Verkleinerungsform) |
+| 2799 | Verlangen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: starker Wunsch, Sehnsucht / Forderung, «auf Verlangen») |
+| 2800 | Verlauf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ablauf, Entwicklung / Richtung einer Linie / Browserverlauf) |
+| 2801 | Verlegenheit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Befangenheit, Scham / schwierige Lage) |
+| 2802 | Verlegung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ortswechsel, z. B. Patientenverlegung / Verschiebung eines Termins / Verlegen von Leitungen) |
+| 2803 | Verleih | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Verleihen / Firma, z. B. Fahrradverleih, Filmverleih) |
+| 2804 | Verleiher | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer etwas verleiht / Filmverleih-Firma) |
+| 2805 | Verletzung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wunde, Verwundung / Verstoß gegen Regeln, Rechte) |

@@ -5532,6 +5532,14 @@ const zurueckgestellt = <String>{
   'Verkehrstote', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Verkehrstote) — nach den Nomen 2026-11-08
   'Verkleidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostüm / Abdeckung, Täfelung) — nach den Nomen 2026-11-08
   'Verkleinerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verkleinern / Grammatik: Verkleinerungsform) — nach den Nomen 2026-11-08
+  'Verlangen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: starker Wunsch, Sehnsucht / Forderung, «auf Verlangen») — nach den Nomen 2026-11-08
+  'Verlass', // zurückgestellt: nur in fester Wendung «auf jemanden ist Verlass» — Regel 14 — 2026-11-08
+  'Verlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ablauf, Entwicklung / Richtung einer Linie / Browserverlauf) — nach den Nomen 2026-11-08
+  'Verlegenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Befangenheit, Scham / schwierige Lage) — nach den Nomen 2026-11-08
+  'Verlegung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ortswechsel, z. B. Patientenverlegung / Verschiebung eines Termins / Verlegen von Leitungen) — nach den Nomen 2026-11-08
+  'Verleih', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Verleihen / Firma, z. B. Fahrradverleih, Filmverleih) — nach den Nomen 2026-11-08
+  'Verleiher', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer etwas verleiht / Filmverleih-Firma) — nach den Nomen 2026-11-08
+  'Verletzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wunde, Verwundung / Verstoß gegen Regeln, Rechte) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
