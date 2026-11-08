@@ -5403,6 +5403,16 @@ const zurueckgestellt = <String>{
   'Turbulenz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik/Luftfahrt: Luftwirbel / übertragen: Unruhe, Wirren) — nach den Nomen 2026-11-08
   'Turm', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bauwerk / Schachfigur) — nach den Nomen 2026-11-08
   'Tunnel', // zurückgestellt: Plural schwankt (Tunnel/Tunnels); südd./österr. auch «das Tunell» — Regel 14 — 2026-11-08
+  'Turnus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: regelmäßige Reihenfolge, Wechsel / österr.: praktische Ausbildungszeit der Ärzte) — nach den Nomen 2026-11-08
+  'Typ', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Art, Modell / ugs.: Mann, Kerl; Genitiv schwankt: des Typs / des Typen) — nach den Nomen 2026-11-08
+  'Type', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Druckbuchstabe / ugs.: seltsamer Mensch, «eine komische Type») — nach den Nomen 2026-11-08
+  'Tyrann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewaltherrscher / übertragen: herrschsüchtiger Mensch, «Haustyrann» / Zoologie: Vogelart) — nach den Nomen 2026-11-08
+  'Tyrannei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewaltherrschaft / übertragen: herrisches, willkürliches Verhalten) — nach den Nomen 2026-11-08
+  'Uhr', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zur Zeitmessung / ohne Plural bei Zeitangaben: «um drei Uhr») — nach den Nomen 2026-11-08
+  'Ultra', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Politik: Extremist / Sport: fanatischer Fußballfan) — nach den Nomen 2026-11-08
+  'Ultraschall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Physik: Schall über der Hörgrenze / Medizin: Ultraschalluntersuchung) — nach den Nomen 2026-11-08
+  'Tutti', // zurückgestellt: Fachwort der Musik; Plural schwankt (Tuttis/Tutti) — Regel 14 — 2026-11-08
+  'Ultimatum', // zurückgestellt: Plural schwankt (Ultimaten/Ultimatums) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2829,6 +2829,8 @@
 | ۲۶۵۰ | Trottoir | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 | — |
 | ۲۶۵۱ | Trust | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trusts, seltener Truste) — Regel 14 | — |
 | ۲۶۵۲ | Tunnel | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Tunnel/Tunnels); südd./österr. auch «das Tunell» — Regel 14 | — |
+| ۲۶۵۳ | Tutti | `substantiv_singular_alle.txt` | 2026-11-08 | Fachwort der Musik; Plural schwankt (Tuttis/Tutti) — Regel 14 | — |
+| ۲۶۵۴ | Ultimatum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Ultimaten/Ultimatums) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5372,3 +5374,11 @@
 | 2698 | Turbo | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Technik: Turbolader / ugs. übertragen: Beschleunigung, «den Turbo einlegen») |
 | 2699 | Turbulenz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Physik/Luftfahrt: Luftwirbel / übertragen: Unruhe, Wirren) |
 | 2700 | Turm | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bauwerk / Schachfigur) |
+| 2701 | Turnus | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: regelmäßige Reihenfolge, Wechsel / österr.: praktische Ausbildungszeit der Ärzte) |
+| 2702 | Typ | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Art, Modell / ugs.: Mann, Kerl; Genitiv schwankt: des Typs / des Typen) |
+| 2703 | Type | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Druckbuchstabe / ugs.: seltsamer Mensch, «eine komische Type») |
+| 2704 | Tyrann | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewaltherrscher / übertragen: herrschsüchtiger Mensch, «Haustyrann» / Zoologie: Vogelart) |
+| 2705 | Tyrannei | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewaltherrschaft / übertragen: herrisches, willkürliches Verhalten) |
+| 2706 | Uhr | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerät zur Zeitmessung / ohne Plural bei Zeitangaben: «um drei Uhr») |
+| 2707 | Ultra | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Politik: Extremist / Sport: fanatischer Fußballfan) |
+| 2708 | Ultraschall | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Physik: Schall über der Hörgrenze / Medizin: Ultraschalluntersuchung) |
