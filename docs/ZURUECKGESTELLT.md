@@ -2845,6 +2845,9 @@
 | ۲۶۶۶ | Unterland | `substantiv_singular_alle.txt` | 2026-11-08 | meist regionaler Name (Zürcher/Bozner Unterland), Gebrauch unsicher — Regel 14/18 | — |
 | ۲۶۶۷ | Untertan | `substantiv_singular_alle.txt` | 2026-11-08 | Genitiv schwankt (des Untertans/des Untertanen) — Regel 14 | — |
 | ۲۶۶۸ | Unterwasser | `substantiv_singular_alle.txt` | 2026-11-08 | als Nomen selten (Wasserbau); meist nur Bestimmungswort «Unterwasser-» — Regel 14 | — |
+| ۲۶۶۹ | Unwesen | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «sein Unwesen treiben» — Regel 14 | — |
+| ۲۶۷۰ | Unwille | `substantiv_singular_alle.txt` | 2026-11-08 | Nominativ schwankt (Unwille/Unwillen), gemischte Deklination — Regel 14 | — |
+| ۲۶۷۱ | Unzucht | `substantiv_singular_alle.txt` | 2026-11-08 | veraltend/Rechtssprache, sexueller Bereich; Markierung unsicher — Regel 14/17 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5439,3 +5442,5 @@
 | 2749 | Untertitel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: zweiter Titel eines Buches / eingeblendeter Text im Film) |
 | 2750 | Unterton | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: mitschwingender Ton (Musik) / leiser Beiklang, z. B. Ironie) |
 | 2751 | Unterwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Totenreich (Mythologie) / kriminelles Milieu) |
+| 2752 | Untreue | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Treulosigkeit in der Beziehung / Rechtssprache: Vermögensdelikt) |
+| 2753 | Ural | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) |

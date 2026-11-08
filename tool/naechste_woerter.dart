@@ -5470,6 +5470,11 @@ const zurueckgestellt = <String>{
   'Unterton', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: mitschwingender Ton (Musik) / leiser Beiklang, z. B. Ironie) — nach den Nomen 2026-11-08
   'Unterwasser', // zurückgestellt: als Nomen selten (Wasserbau); meist nur Bestimmungswort «Unterwasser-» — Regel 14 — 2026-11-08
   'Unterwelt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Totenreich (Mythologie) / kriminelles Milieu) — nach den Nomen 2026-11-08
+  'Untreue', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treulosigkeit in der Beziehung / Rechtssprache: Vermögensdelikt) — nach den Nomen 2026-11-08
+  'Unwesen', // zurückgestellt: nur in fester Wendung «sein Unwesen treiben» — Regel 14 — 2026-11-08
+  'Unwille', // zurückgestellt: Nominativ schwankt (Unwille/Unwillen), gemischte Deklination — Regel 14 — 2026-11-08
+  'Unzucht', // zurückgestellt: veraltend/Rechtssprache, sexueller Bereich; Markierung unsicher — Regel 14/17 — 2026-11-08
+  'Ural', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
