@@ -2803,18 +2803,18 @@
 | ۲۶۲۴ | Tanzbein | `substantiv_singular_alle.txt` | 2026-11-05 | nur in fester Wendung «das Tanzbein schwingen» — Regel 14 | — |
 | ۲۶۲۵ | Task | `substantiv_singular_alle.txt` | 2026-11-05 | Anglizismus (EDV); Genus und Gebrauch unsicher (der/die Task) — Regel 14 | — |
 | ۲۶۲۶ | Tauer | `substantiv_singular_alle.txt` | 2026-11-05 | kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 | — |
-| ۲۶۲۷ | Techno | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (der oder das Techno) — Regel 14 | — |
-| ۲۶۲۸ | Telefonaktion | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 | — |
-| ۲۶۲۹ | Telekom | `substantiv_singular_alle.txt` | 2026-11-05 | Firmenname (Deutsche Telekom) — Regel 18 | — |
-| ۲۶۳۰ | Terminator | `substantiv_singular_alle.txt` | 2026-11-05 | Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 | — |
-| ۲۶۳۱ | Terra | `substantiv_singular_alle.txt` | 2026-11-05 | nur in lateinischen Wendungen (Terra incognita) — Regel 14 | — |
-| ۲۶۳۲ | Textil | `substantiv_singular_alle.txt` | 2026-11-05 | als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 | — |
-| ۲۶۳۳ | Theatertreffen | `substantiv_singular_alle.txt` | 2026-11-05 | meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 | — |
-| ۲۶۳۴ | Thermometer | `substantiv_singular_alle.txt` | 2026-11-05 | Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 | — |
-| ۲۶۳۵ | Thesis | `substantiv_singular_alle.txt` | 2026-11-05 | selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 | — |
-| ۲۶۳۶ | Thing | `substantiv_singular_alle.txt` | 2026-11-05 | Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 | — |
-| ۲۶۳۷ | Thon | `substantiv_singular_alle.txt` | 2026-11-05 | nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 | — |
-| ۲۶۳۸ | Tip | `substantiv_singular_alle.txt` | 2026-11-05 | alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 | — |
+| ۲۶۲۷ | Techno | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (der oder das Techno) — Regel 14 | — |
+| ۲۶۲۸ | Telefonaktion | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 | — |
+| ۲۶۲۹ | Telekom | `substantiv_singular_alle.txt` | 2026-11-08 | Firmenname (Deutsche Telekom) — Regel 18 | — |
+| ۲۶۳۰ | Terminator | `substantiv_singular_alle.txt` | 2026-11-08 | Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 | — |
+| ۲۶۳۱ | Terra | `substantiv_singular_alle.txt` | 2026-11-08 | nur in lateinischen Wendungen (Terra incognita) — Regel 14 | — |
+| ۲۶۳۲ | Textil | `substantiv_singular_alle.txt` | 2026-11-08 | als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 | — |
+| ۲۶۳۳ | Theatertreffen | `substantiv_singular_alle.txt` | 2026-11-08 | meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 | — |
+| ۲۶۳۴ | Thermometer | `substantiv_singular_alle.txt` | 2026-11-08 | Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 | — |
+| ۲۶۳۵ | Thesis | `substantiv_singular_alle.txt` | 2026-11-08 | selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 | — |
+| ۲۶۳۶ | Thing | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 | — |
+| ۲۶۳۷ | Thon | `substantiv_singular_alle.txt` | 2026-11-08 | nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 | — |
+| ۲۶۳۸ | Tip | `substantiv_singular_alle.txt` | 2026-11-08 | alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 | — |
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5288,29 +5288,29 @@
 | 2629 | Tauwetter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wetter mit Schneeschmelze / politische Entspannung) |
 | 2630 | Tauziehen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Spiel mit einem Seil / zähes Ringen, Machtkampf) |
 | 2631 | Taxe | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») |
-| 2632 | Technik | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) |
-| 2633 | Teddy | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) |
-| 2634 | Teil | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») |
-| 2635 | Teilchen | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) |
-| 2636 | Teilnahme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) |
-| 2637 | Teilnehmer | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) |
-| 2638 | Teilnehmerin | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) |
-| 2639 | Telefax | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) |
-| 2640 | Temperament | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) |
-| 2641 | Tempo | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) |
-| 2642 | Term | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) |
-| 2643 | Terrain | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») |
-| 2644 | Terror | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) |
-| 2645 | Testament | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) |
-| 2646 | Tester | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) |
-| 2647 | Texter | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) |
-| 2648 | Theater | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») |
-| 2649 | Thema | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) |
-| 2650 | Therme | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) |
-| 2651 | Tick | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) |
-| 2652 | Ticker | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) |
-| 2653 | Tief | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) |
-| 2654 | Tiefgang | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) |
-| 2655 | Tiefschlag | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) |
-| 2656 | Tilgung | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) |
-| 2657 | Titel | `substantiv_singular_alle.txt` | 2026-11-05 | Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) |
+| 2632 | Technik | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) |
+| 2633 | Teddy | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) |
+| 2634 | Teil | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») |
+| 2635 | Teilchen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) |
+| 2636 | Teilnahme | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) |
+| 2637 | Teilnehmer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) |
+| 2638 | Teilnehmerin | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) |
+| 2639 | Telefax | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) |
+| 2640 | Temperament | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) |
+| 2641 | Tempo | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) |
+| 2642 | Term | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) |
+| 2643 | Terrain | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») |
+| 2644 | Terror | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) |
+| 2645 | Testament | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) |
+| 2646 | Tester | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) |
+| 2647 | Texter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) |
+| 2648 | Theater | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») |
+| 2649 | Thema | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) |
+| 2650 | Therme | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) |
+| 2651 | Tick | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) |
+| 2652 | Ticker | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) |
+| 2653 | Tief | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) |
+| 2654 | Tiefgang | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) |
+| 2655 | Tiefschlag | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) |
+| 2656 | Tilgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) |
+| 2657 | Titel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) |

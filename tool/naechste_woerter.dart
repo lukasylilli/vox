@@ -5308,44 +5308,44 @@ const zurueckgestellt = <String>{
   'Tauziehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Spiel mit einem Seil / zähes Ringen, Machtkampf) — nach den Nomen 2026-11-05
   'Taxe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gebühr, Abgabe, z. B. Kurtaxe / Nebenform von «Taxi») — nach den Nomen 2026-11-05
   'Tauer', // zurückgestellt: kein gebräuchliches Einzelwort (nur Gebirgsname im Plural «die Tauern») — Regel 14/18 — 2026-11-05
-  'Technik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) — nach den Nomen 2026-11-05
-  'Teddy', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) — nach den Nomen 2026-11-05
-  'Techno', // zurückgestellt: Genus schwankt (der oder das Techno) — Regel 14 — 2026-11-05
-  'Teil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») — nach den Nomen 2026-11-05
-  'Teilchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) — nach den Nomen 2026-11-05
-  'Teilnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) — nach den Nomen 2026-11-05
-  'Teilnehmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) — nach den Nomen 2026-11-05
-  'Teilnehmerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) — nach den Nomen 2026-11-05
-  'Telefax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) — nach den Nomen 2026-11-05
-  'Telefonaktion', // zurückgestellt: Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 — 2026-11-05
-  'Telekom', // zurückgestellt: Firmenname (Deutsche Telekom) — Regel 18 — 2026-11-05
-  'Temperament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) — nach den Nomen 2026-11-05
-  'Tempo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) — nach den Nomen 2026-11-05
-  'Term', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) — nach den Nomen 2026-11-05
-  'Terminator', // zurückgestellt: Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 — 2026-11-05
-  'Terra', // zurückgestellt: nur in lateinischen Wendungen (Terra incognita) — Regel 14 — 2026-11-05
-  'Terrain', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») — nach den Nomen 2026-11-05
-  'Terror', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) — nach den Nomen 2026-11-05
-  'Testament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) — nach den Nomen 2026-11-05
-  'Tester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) — nach den Nomen 2026-11-05
-  'Texter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) — nach den Nomen 2026-11-05
-  'Textil', // zurückgestellt: als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 — 2026-11-05
-  'Theater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») — nach den Nomen 2026-11-05
-  'Theatertreffen', // zurückgestellt: meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 — 2026-11-05
-  'Thema', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) — nach den Nomen 2026-11-05
-  'Therme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) — nach den Nomen 2026-11-05
-  'Thermometer', // zurückgestellt: Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 — 2026-11-05
-  'Thesis', // zurückgestellt: selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 — 2026-11-05
-  'Thing', // zurückgestellt: Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 — 2026-11-05
-  'Thon', // zurückgestellt: nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 — 2026-11-05
-  'Tick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) — nach den Nomen 2026-11-05
-  'Ticker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) — nach den Nomen 2026-11-05
-  'Tief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) — nach den Nomen 2026-11-05
-  'Tiefgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) — nach den Nomen 2026-11-05
-  'Tiefschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) — nach den Nomen 2026-11-05
-  'Tilgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) — nach den Nomen 2026-11-05
-  'Tip', // zurückgestellt: alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 — 2026-11-05
-  'Titel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) — nach den Nomen 2026-11-05
+  'Technik', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik als Fachgebiet, Maschinen und Geräte / Methode, Verfahren, z. B. Atemtechnik) — nach den Nomen 2026-11-08
+  'Teddy', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Teddybär / Plüschstoff, Teddyfutter) — nach den Nomen 2026-11-08
+  'Techno', // zurückgestellt: Genus schwankt (der oder das Techno) — Regel 14 — 2026-11-08
+  'Teil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: der Teil «Anteil, Bereich» / das Teil «Einzelstück, Bauteil») — nach den Nomen 2026-11-08
+  'Teilchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleines Stück / Physik: Elementarteilchen / regional: Gebäckstück) — nach den Nomen 2026-11-08
+  'Teilnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Teilnehmen / Interesse / Mitgefühl, Anteilnahme) — nach den Nomen 2026-11-08
+  'Teilnehmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer an etwas teilnimmt / Inhaber eines Telefonanschlusses) — nach den Nomen 2026-11-08
+  'Teilnehmerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Teilnehmer: wer an etwas teilnimmt / Inhaberin eines Telefonanschlusses) — nach den Nomen 2026-11-08
+  'Telefax', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernkopie / Faxgerät) — nach den Nomen 2026-11-08
+  'Telefonaktion', // zurückgestellt: Bedeutung und Gebrauch unsicher (kein klarer Wörterbucheintrag) — Regel 14 — 2026-11-08
+  'Telekom', // zurückgestellt: Firmenname (Deutsche Telekom) — Regel 18 — 2026-11-08
+  'Temperament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wesensart, Charakter / Lebhaftigkeit, Schwung) — nach den Nomen 2026-11-08
+  'Tempo', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschwindigkeit / Musik: Zeitmaß, Pl. Tempi / ugs. Papiertaschentuch nach Markenname) — nach den Nomen 2026-11-08
+  'Term', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mathematik/Logik: Ausdruck / Physik: Energiezustand / Fachausdruck) — nach den Nomen 2026-11-08
+  'Terminator', // zurückgestellt: Filmtitel bzw. Fachwort (Astronomie: Tag-Nacht-Grenze); Gebrauch als Lernwort unsicher — Regel 14/18 — 2026-11-08
+  'Terra', // zurückgestellt: nur in lateinischen Wendungen (Terra incognita) — Regel 14 — 2026-11-08
+  'Terrain', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gelände / Baugrundstück / übertragen: Bereich, z. B. «das Terrain sondieren») — nach den Nomen 2026-11-08
+  'Terror', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewalt, Schreckensherrschaft / ugs. Zank, großes Aufheben) — nach den Nomen 2026-11-08
+  'Testament', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: letzter Wille / Bibel: Altes und Neues Testament) — nach den Nomen 2026-11-08
+  'Tester', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die etwas testet / Probepackung, z. B. Parfümtester / Prüfgerät) — nach den Nomen 2026-11-08
+  'Texter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Verfasser von Werbetexten / Verfasser von Liedtexten) — nach den Nomen 2026-11-08
+  'Textil', // zurückgestellt: als Singular «das Textil» selten, meist nur Plural «Textilien»; Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Theater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schauspielhaus, Aufführung / ugs. Aufregung, Getue: «Theater machen») — nach den Nomen 2026-11-08
+  'Theatertreffen', // zurückgestellt: meist Name eines Festivals (Berliner Theatertreffen); allgemeiner Gebrauch unsicher — Regel 14/18 — 2026-11-08
+  'Thema', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenstand, Gesprächsstoff / Musik: Melodie, die variiert wird) — nach den Nomen 2026-11-08
+  'Therme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Thermalbad / antike Badeanlage / österr. Gastherme, Heizgerät) — nach den Nomen 2026-11-08
+  'Thermometer', // zurückgestellt: Genus schwankt (das Thermometer, österr./schweiz. auch der) — Regel 14 — 2026-11-08
+  'Thesis', // zurückgestellt: selten, Nebenform von «These» bzw. Fachwort (Metrik); Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Thing', // zurückgestellt: Bedeutung unsicher (germanische Volksversammlung / ugs. Anglizismus «Ding») — Regel 14 — 2026-11-08
+  'Thon', // zurückgestellt: nur schweizerisch für «Thunfisch»; Genus und Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Tick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Marotte, Eigenart / Medizin: Tic, Zucken / ugs. «ein Tick»: ein bisschen) — nach den Nomen 2026-11-08
+  'Ticker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernschreiber, Nachrichtenticker / Liveticker im Internet) — nach den Nomen 2026-11-08
+  'Tief', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tiefdruckgebiet / Tiefpunkt, z. B. ein seelisches Tief) — nach den Nomen 2026-11-08
+  'Tiefgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schiff: Eintauchtiefe / übertragen: gedankliche Tiefe) — nach den Nomen 2026-11-08
+  'Tiefschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boxen: unerlaubter Schlag unter die Gürtellinie / übertragen: schwerer Schicksalsschlag) — nach den Nomen 2026-11-08
+  'Tilgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rückzahlung einer Schuld / Beseitigung, Löschung, z. B. Tilgung aus dem Register) — nach den Nomen 2026-11-08
+  'Tip', // zurückgestellt: alte Schreibung von «Tipp» (Rechtschreibreform 1996) — Regel 14 — 2026-11-08
+  'Titel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Name eines Buches, Films / akademischer Grad, z. B. Doktortitel / Sport: Meistertitel) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
