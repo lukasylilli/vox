@@ -5458,3 +5458,8 @@
 | 2759 | Variation | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abwandlung / Musik: Variationen eines Themas / Biologie) |
 | 2760 | Vehikel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: (altes) Fahrzeug / Mittel zum Zweck) |
 | 2761 | Veilchen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Blume / ugs. blaues Auge) |
+| 2762 | Ventil | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: technisches Ventil / Musikinstrument / Ausweg für Gefühle) |
+| 2763 | Verabredung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Treffen, Date / Vereinbarung, Absprache) |
+| 2764 | Verabschiedung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abschied / Beschluss eines Gesetzes) |
+| 2765 | Verankerung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: technische Befestigung / feste Einbindung, z. B. im Gesetz) |
+| 2766 | Veranlagung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Anlage, Neigung / Steuerveranlagung) |

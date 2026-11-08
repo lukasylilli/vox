@@ -5489,6 +5489,11 @@ const zurueckgestellt = <String>{
   'Vehikel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: (altes) Fahrzeug / Mittel zum Zweck) — nach den Nomen 2026-11-08
   'Veilchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blume / ugs. blaues Auge) — nach den Nomen 2026-11-08
   'Velvet', // zurückgestellt: Genus unsicher (der/das), selten — Regel 14 — 2026-11-08
+  'Ventil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technisches Ventil / Musikinstrument / Ausweg für Gefühle) — nach den Nomen 2026-11-08
+  'Verabredung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Treffen, Date / Vereinbarung, Absprache) — nach den Nomen 2026-11-08
+  'Verabschiedung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschied / Beschluss eines Gesetzes) — nach den Nomen 2026-11-08
+  'Verankerung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: technische Befestigung / feste Einbindung, z. B. im Gesetz) — nach den Nomen 2026-11-08
+  'Veranlagung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Anlage, Neigung / Steuerveranlagung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
