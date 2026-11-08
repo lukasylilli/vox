@@ -5450,6 +5450,13 @@ const zurueckgestellt = <String>{
   'Unschuld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuldlosigkeit / Reinheit, Naivität / Jungfräulichkeit) — nach den Nomen 2026-11-08
   'Unsicherheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: fehlende Sicherheit, Gefahr / Ungewissheit / fehlendes Selbstvertrauen) — nach den Nomen 2026-11-08
   'Unstimmigkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fehler, Widerspruch / Meinungsverschiedenheit) — nach den Nomen 2026-11-08
+  'Unter', // zurückgestellt: Bedeutung unsicher (Spielkarte «der Unter»?) — Regel 14 — 2026-11-08
+  'Unterbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fundament eines Bauwerks / Grundlage, Basis) — nach den Nomen 2026-11-08
+  'Unterbezirk', // zurückgestellt: Fachbegriff der Partei-/Verwaltungsgliederung, Gebrauch unsicher — Regel 14 — 2026-11-08
+  'Untergang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinken eines Schiffes / Ende, Zusammenbruch / Untergehen der Sonne) — nach den Nomen 2026-11-08
+  'Untergrund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Boden, Erdreich / politischer Untergrund / Hintergrund, Unterlage) — nach den Nomen 2026-11-08
+  'Unterhalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebensunterhalt / Unterhaltszahlung / Instandhaltung) — nach den Nomen 2026-11-08
+  'Unterhaltung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gespräch / Vergnügen, Entertainment / Instandhaltung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

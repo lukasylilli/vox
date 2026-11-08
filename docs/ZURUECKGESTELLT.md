@@ -2840,6 +2840,8 @@
 | ۲۶۶۱ | Ungnade | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Ungnade fallen» — Regel 14 | — |
 | ۲۶۶۲ | Unit | `substantiv_singular_alle.txt` | 2026-11-08 | Anglizismus; Bedeutung schwankt (Einheit, Team, Lerneinheit) — Regel 14 | — |
 | ۲۶۶۳ | Unkenntlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «bis zur Unkenntlichkeit» — Regel 14 | — |
+| ۲۶۶۴ | Unter | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher (Spielkarte «der Unter»?) — Regel 14 | — |
+| ۲۶۶۵ | Unterbezirk | `substantiv_singular_alle.txt` | 2026-11-08 | Fachbegriff der Partei-/Verwaltungsgliederung, Gebrauch unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5419,3 +5421,8 @@
 | 2734 | Unschuld | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schuldlosigkeit / Reinheit, Naivität / Jungfräulichkeit) |
 | 2735 | Unsicherheit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: fehlende Sicherheit, Gefahr / Ungewissheit / fehlendes Selbstvertrauen) |
 | 2736 | Unstimmigkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fehler, Widerspruch / Meinungsverschiedenheit) |
+| 2737 | Unterbau | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fundament eines Bauwerks / Grundlage, Basis) |
+| 2738 | Untergang | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Sinken eines Schiffes / Ende, Zusammenbruch / Untergehen der Sonne) |
+| 2739 | Untergrund | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Boden, Erdreich / politischer Untergrund / Hintergrund, Unterlage) |
+| 2740 | Unterhalt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Lebensunterhalt / Unterhaltszahlung / Instandhaltung) |
+| 2741 | Unterhaltung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gespräch / Vergnügen, Entertainment / Instandhaltung) |
