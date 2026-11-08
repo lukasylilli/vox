@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_verrechnung",
+  "wort": "die Verrechnung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تسویه",
+      "پایاپای کردن"
+    ],
+    "en": [
+      "settlement",
+      "offsetting",
+      "clearing"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Arbeit"
+  ],
+  "ipa": "fɛɐ̯ˈʁɛçnʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Verrechnung erfolgt am Monatsende.",
+      "uebersetzung": {
+        "fa": "تسویه در پایان ماه انجام می‌شود.",
+        "en": "The settlement takes place at the end of the month."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma bietet eine Verrechnung der Gutschrift mit der nächsten Rechnung an.",
+      "uebersetzung": {
+        "fa": "شرکت پیشنهاد می‌کند اعتبار را با صورت‌حساب بعدی تسویه کند.",
+        "en": "The company offers to offset the credit against the next invoice."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "verrechnen (تسویه کردن) + -ung",
+    "en": "verrechnen (to offset) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Verrechnungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Verrechnung mit + Dat",
+        "beispiel": "Die Verrechnung mit der alten Schuld ist möglich.",
+        "uebersetzung": {
+          "fa": "تسویه با بدهی قبلی ممکن است.",
+          "en": "Offsetting against the old debt is possible."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "bezahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_bezahlen"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "der Betrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مبلغ",
+          "en": "amount"
+        },
+        "id_ref": "nomen_betrag"
+      },
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری",
+          "en": "accounting"
+        },
+        "id_ref": "nomen_buchhaltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -2862,6 +2862,8 @@
 | ۲۶۸۳ | Vergessenheit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Vergessenheit geraten» — Regel 14 | — |
 | ۲۶۸۴ | Verlass | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «auf jemanden ist Verlass» — Regel 14 | — |
 | ۲۶۸۵ | Verlustzone | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in die Verlustzone geraten / in der Verlustzone» — Regel 14 | — |
+| ۲۶۸۶ | Vernehmlassung | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung (schweiz.: Verlautbarung / Stellungnahme im Vernehmlassungsverfahren) nicht eindeutig — Regel 14 | — |
+| ۲۶۸۷ | Verpackungsverordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer bestimmten Rechtsvorschrift (DE, seit 2019 Verpackungsgesetz) — Regel 18/14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5514,3 +5516,5 @@
 | 2807 | Vermehrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zunahme / Fortpflanzung (Biologie)) |
 | 2808 | Vermittler | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schlichter in einem Streit / Makler, Agent) |
 | 2809 | Vermittlung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schlichtung / Arbeitsvermittlung / Telefonzentrale) |
+| 2810 | Verordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rechtsvorschrift / ärztliche Verordnung eines Medikaments) |
+| 2811 | Verpflichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Pflicht / Engagement eines Künstlers, Spielers / Pl. finanzielle Verbindlichkeiten) |

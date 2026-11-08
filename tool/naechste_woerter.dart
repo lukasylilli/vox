@@ -5545,6 +5545,10 @@ const zurueckgestellt = <String>{
   'Vermehrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zunahme / Fortpflanzung (Biologie)) — nach den Nomen 2026-11-08
   'Vermittler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlichter in einem Streit / Makler, Agent) — nach den Nomen 2026-11-08
   'Vermittlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schlichtung / Arbeitsvermittlung / Telefonzentrale) — nach den Nomen 2026-11-08
+  'Vernehmlassung', // zurückgestellt: Bedeutung (schweiz.: Verlautbarung / Stellungnahme im Vernehmlassungsverfahren) nicht eindeutig — Regel 14 — 2026-11-08
+  'Verordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsvorschrift / ärztliche Verordnung eines Medikaments) — nach den Nomen 2026-11-08
+  'Verpackungsverordnung', // zurückgestellt: Name einer bestimmten Rechtsvorschrift (DE, seit 2019 Verpackungsgesetz) — Regel 18/14 — 2026-11-08
+  'Verpflichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflicht / Engagement eines Künstlers, Spielers / Pl. finanzielle Verbindlichkeiten) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
