@@ -5429,3 +5429,7 @@
 | 2741 | Unterhaltung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gespräch / Vergnügen, Entertainment / Instandhaltung) |
 | 2742 | Unterlage | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schriftstück, Pl. Unterlagen / etwas, das man unterlegt) |
 | 2743 | Unternehmen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Firma, Betrieb / Vorhaben, Aktion) |
+| 2744 | Unternehmung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Vorhaben, Ausflug / Firma) |
+| 2745 | Unterordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Unterordnen / Biologie: Kategorie unter der Ordnung) |
+| 2746 | Untersatz | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Unterlage, Untersetzer / «fahrbarer Untersatz» = Auto / Logik: Unterprämisse) |
+| 2747 | Unterschicht | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: soziale Schicht / untere Lage, Schicht) |

@@ -5460,6 +5460,10 @@ const zurueckgestellt = <String>{
   'Unterlage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schriftstück, Pl. Unterlagen / etwas, das man unterlegt) — nach den Nomen 2026-11-08
   'Unterland', // zurückgestellt: meist regionaler Name (Zürcher/Bozner Unterland), Gebrauch unsicher — Regel 14/18 — 2026-11-08
   'Unternehmen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Firma, Betrieb / Vorhaben, Aktion) — nach den Nomen 2026-11-08
+  'Unternehmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorhaben, Ausflug / Firma) — nach den Nomen 2026-11-08
+  'Unterordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Unterordnen / Biologie: Kategorie unter der Ordnung) — nach den Nomen 2026-11-08
+  'Untersatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Unterlage, Untersetzer / «fahrbarer Untersatz» = Auto / Logik: Unterprämisse) — nach den Nomen 2026-11-08
+  'Unterschicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: soziale Schicht / untere Lage, Schicht) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
