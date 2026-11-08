@@ -2835,6 +2835,7 @@
 | ۲۶۵۶ | Umschau | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «Umschau halten» (gehoben) — Regel 14 | — |
 | ۲۶۵۷ | Umweltbundesamt | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde — Regel 14/18 | — |
 | ۲۶۵۸ | Unbill | `substantiv_singular_alle.txt` | 2026-11-08 | gehoben, selten; Plural/Gebrauch unsicher («die Unbilden des Wetters») — Regel 14 | — |
+| ۲۶۵۹ | Unding | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «ein Unding sein» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5406,3 +5407,4 @@
 | 2726 | Umtrieb | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Plural abwertend: Machenschaften / schweiz.: Aufwand, Betriebsamkeit) |
 | 2727 | Umwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Natur, Lebensraum / die Menschen in jemandes Umgebung) |
 | 2728 | Umzug | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Wohnungswechsel / Festzug, Parade) |
+| 2729 | Unendlichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: unendliche Weite, Ewigkeit / Mathematik: das Unendliche) |

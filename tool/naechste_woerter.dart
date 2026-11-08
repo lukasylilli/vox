@@ -5437,6 +5437,8 @@ const zurueckgestellt = <String>{
   'Umweltbundesamt', // zurückgestellt: Name einer Behörde — Regel 14/18 — 2026-11-08
   'Umzug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnungswechsel / Festzug, Parade) — nach den Nomen 2026-11-08
   'Unbill', // zurückgestellt: gehoben, selten; Plural/Gebrauch unsicher («die Unbilden des Wetters») — Regel 14 — 2026-11-08
+  'Unding', // zurückgestellt: nur in fester Wendung «ein Unding sein» — Regel 14 — 2026-11-08
+  'Unendlichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: unendliche Weite, Ewigkeit / Mathematik: das Unendliche) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
