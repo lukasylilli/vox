@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_tumor",
+  "wort": "der Tumor",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تومور",
+      "غده"
+    ],
+    "en": [
+      "tumour",
+      "tumor"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈtuːmoːɐ̯",
+  "anmerkung": "Plural standardsprachlich «Tumoren», umgangssprachlich auch «Tumore».",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Arzt hat einen Tumor gefunden.",
+      "uebersetzung": {
+        "fa": "پزشک یک تومور پیدا کرده است.",
+        "en": "The doctor has found a tumour."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Tumor gutartig ist, muss die Patientin keine Chemotherapie bekommen.",
+      "uebersetzung": {
+        "fa": "چون تومور خوش‌خیم است، بیمار لازم نیست شیمی‌درمانی شود.",
+        "en": "Because the tumour is benign, the patient doesn't need chemotherapy."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Geschwulst",
+      "uebersetzung": {
+        "fa": "غده",
+        "en": "growth"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Hirntumor",
+      "uebersetzung": {
+        "fa": "تومور مغزی",
+        "en": "brain tumour"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "lat. tumor (ورم)",
+    "en": "Latin tumor (swelling)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Tumoren",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص (بیماری)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "bösartig",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بدخواه، بدذات",
+          "en": "malicious"
+        },
+        "id_ref": "adjektiv_boesartig"
+      },
+      {
+        "wort": "die Chemotherapie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شیمی‌درمانی",
+          "en": "chemotherapy"
+        },
+        "id_ref": "nomen_chemotherapie"
+      },
+      {
+        "wort": "die Bestrahlung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پرتودرمانی",
+          "en": "radiotherapy"
+        },
+        "id_ref": "nomen_bestrahlung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

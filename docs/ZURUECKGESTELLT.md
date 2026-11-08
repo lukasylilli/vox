@@ -2827,6 +2827,7 @@
 | ۲۶۴۸ | Trapp | `substantiv_singular_alle.txt` | 2026-11-08 | Familienname (Familie von Trapp); kein gebräuchliches Nomen — Regel 14/18 | — |
 | ۲۶۴۹ | Trauner | `substantiv_singular_alle.txt` | 2026-11-08 | regionales Fachwort (Salzschiff auf der Traun) bzw. Name; Gebrauch unsicher — Regel 14 | — |
 | ۲۶۵۰ | Trottoir | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 | — |
+| ۲۶۵۱ | Trust | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trusts, seltener Truste) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5362,3 +5363,8 @@
 | 2690 | Trommel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Musikinstrument / Technik: Waschmaschinen-, Kabel-, Revolvertrommel) |
 | 2691 | Tropfen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: kleine Flüssigkeitsmenge / Plural: Medikament in Tropfenform / ugs.: Wein, «ein guter Tropfen») |
 | 2692 | Tropus | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rhetorik: bildlicher Ausdruck / Musik: Erweiterung eines liturgischen Gesangs) |
+| 2693 | Trumpf | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Kartenspiel: stechende Farbe/Karte / übertragen: entscheidender Vorteil) |
+| 2694 | Trunk | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: gehoben: Getränk, Schluck / Trinken, Trunksucht) |
+| 2695 | Truppe | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Militär: Truppen / Theater-, Artistengruppe / ugs.: Mannschaft, Team) |
+| 2696 | Tube | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Behälter (Zahnpasta) / Medizin: Eileiter, Ohrtrompete) |
+| 2697 | Tuch | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Stück Stoff, Tuch (Tücher) / Stoffart (Tuche)) |

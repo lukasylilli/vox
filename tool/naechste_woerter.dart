@@ -5393,6 +5393,12 @@ const zurueckgestellt = <String>{
   'Tropfen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Flüssigkeitsmenge / Plural: Medikament in Tropfenform / ugs.: Wein, «ein guter Tropfen») — nach den Nomen 2026-11-08
   'Tropus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rhetorik: bildlicher Ausdruck / Musik: Erweiterung eines liturgischen Gesangs) — nach den Nomen 2026-11-08
   'Trottoir', // zurückgestellt: Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 — 2026-11-08
+  'Trumpf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kartenspiel: stechende Farbe/Karte / übertragen: entscheidender Vorteil) — nach den Nomen 2026-11-08
+  'Trunk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gehoben: Getränk, Schluck / Trinken, Trunksucht) — nach den Nomen 2026-11-08
+  'Truppe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Militär: Truppen / Theater-, Artistengruppe / ugs.: Mannschaft, Team) — nach den Nomen 2026-11-08
+  'Tube', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Behälter (Zahnpasta) / Medizin: Eileiter, Ohrtrompete) — nach den Nomen 2026-11-08
+  'Tuch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen mit verschiedenem Plural: Stück Stoff, Tuch (Tücher) / Stoffart (Tuche)) — nach den Nomen 2026-11-08
+  'Trust', // zurückgestellt: Plural schwankt (Trusts, seltener Truste) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
