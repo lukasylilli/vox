@@ -5566,6 +5566,11 @@ const zurueckgestellt = <String>{
   'Verteidigerin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strafverteidigerin, Anwältin / Abwehrspielerin im Sport) — nach den Nomen 2026-11-08
   'Verteidigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abwehr eines Angriffs, Militär / Strafverteidigung vor Gericht / Abwehr im Sport / Verteidigung einer Doktorarbeit) — nach den Nomen 2026-11-08
   'Vertiefung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Vertiefen von Wissen, Beziehungen / Mulde, vertiefte Stelle) — nach den Nomen 2026-11-08
+  'Vertrauensfrage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Frage des Vertrauens / parlamentarische Vertrauensfrage des Regierungschefs) — nach den Nomen 2026-11-08
+  'Vertraulichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geheimhaltung, Diskretion / vertrauliche, intime Art, Pl. Vertraulichkeiten) — nach den Nomen 2026-11-08
+  'Vertreter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Repräsentant / Handelsvertreter, Verkäufer / Stellvertreter) — nach den Nomen 2026-11-08
+  'Vertreterin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Repräsentantin / Handelsvertreterin / Stellvertreterin) — nach den Nomen 2026-11-08
+  'Vertretung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stellvertretung, Vertretungslehrer / Interessenvertretung, Botschaft / Handelsvertretung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -5535,3 +5535,8 @@
 | 2826 | Verteidigerin | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Strafverteidigerin, Anwältin / Abwehrspielerin im Sport) |
 | 2827 | Verteidigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Abwehr eines Angriffs, Militär / Strafverteidigung vor Gericht / Abwehr im Sport / Verteidigung einer Doktorarbeit) |
 | 2828 | Vertiefung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Vertiefen von Wissen, Beziehungen / Mulde, vertiefte Stelle) |
+| 2829 | Vertrauensfrage | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Frage des Vertrauens / parlamentarische Vertrauensfrage des Regierungschefs) |
+| 2830 | Vertraulichkeit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Geheimhaltung, Diskretion / vertrauliche, intime Art, Pl. Vertraulichkeiten) |
+| 2831 | Vertreter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Repräsentant / Handelsvertreter, Verkäufer / Stellvertreter) |
+| 2832 | Vertreterin | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Repräsentantin / Handelsvertreterin / Stellvertreterin) |
+| 2833 | Vertretung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Stellvertretung, Vertretungslehrer / Interessenvertretung, Botschaft / Handelsvertretung) |
