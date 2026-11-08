@@ -5518,3 +5518,10 @@
 | 2809 | Vermittlung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schlichtung / Arbeitsvermittlung / Telefonzentrale) |
 | 2810 | Verordnung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rechtsvorschrift / ärztliche Verordnung eines Medikaments) |
 | 2811 | Verpflichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Pflicht / Engagement eines Künstlers, Spielers / Pl. finanzielle Verbindlichkeiten) |
+| 2812 | Versager | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mensch, der versagt / Ding, das nicht funktioniert, z. B. Fehlzündung, Flop) |
+| 2813 | Verschiebung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Aufschub eines Termins / räumliche Verlagerung, Verrückung) |
+| 2814 | Verschleierung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Vertuschung / das Tragen eines Schleiers) |
+| 2815 | Verschleppung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Entführung, Deportation / Verzögerung eines Verfahrens / Verbreitung einer Krankheit) |
+| 2816 | Verschluss | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Deckel, Verschlussvorrichtung / Kameraverschluss / «unter Verschluss») |
+| 2817 | Versenkung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Versenken eines Schiffes / Bühnenversenkung, «in der Versenkung verschwinden» / innere Versenkung) |
+| 2818 | Versetzung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Versetzung an einen anderen Arbeitsort / Versetzung in die nächste Klasse) |

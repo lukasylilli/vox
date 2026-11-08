@@ -5549,6 +5549,13 @@ const zurueckgestellt = <String>{
   'Verordnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechtsvorschrift / ärztliche Verordnung eines Medikaments) — nach den Nomen 2026-11-08
   'Verpackungsverordnung', // zurückgestellt: Name einer bestimmten Rechtsvorschrift (DE, seit 2019 Verpackungsgesetz) — Regel 18/14 — 2026-11-08
   'Verpflichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflicht / Engagement eines Künstlers, Spielers / Pl. finanzielle Verbindlichkeiten) — nach den Nomen 2026-11-08
+  'Versager', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mensch, der versagt / Ding, das nicht funktioniert, z. B. Fehlzündung, Flop) — nach den Nomen 2026-11-08
+  'Verschiebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufschub eines Termins / räumliche Verlagerung, Verrückung) — nach den Nomen 2026-11-08
+  'Verschleierung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vertuschung / das Tragen eines Schleiers) — nach den Nomen 2026-11-08
+  'Verschleppung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Entführung, Deportation / Verzögerung eines Verfahrens / Verbreitung einer Krankheit) — nach den Nomen 2026-11-08
+  'Verschluss', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deckel, Verschlussvorrichtung / Kameraverschluss / «unter Verschluss») — nach den Nomen 2026-11-08
+  'Versenkung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Versenken eines Schiffes / Bühnenversenkung, «in der Versenkung verschwinden» / innere Versenkung) — nach den Nomen 2026-11-08
+  'Versetzung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Versetzung an einen anderen Arbeitsort / Versetzung in die nächste Klasse) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
