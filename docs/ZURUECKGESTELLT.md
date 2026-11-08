@@ -2858,6 +2858,8 @@
 | ۲۶۷۹ | Verbandsliga | `substantiv_singular_alle.txt` | 2026-11-08 | Spielklasse im regionalen Sport, Gebrauch unsicher — Regel 14 | — |
 | ۲۶۸۰ | Verbauung | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung/Gebrauch regional unsicher (österr./schweiz.) — Regel 14 | — |
 | ۲۶۸۱ | Verfassungsschutz | `substantiv_singular_alle.txt` | 2026-11-08 | Name einer Behörde (Deutschland) — Regel 14/18 | — |
+| ۲۶۸۲ | Verhaltenskodex | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Verhaltenskodizes/-kodexe) — Regel 14 | — |
+| ۲۶۸۳ | Vergessenheit | `substantiv_singular_alle.txt` | 2026-11-08 | fast nur in fester Wendung «in Vergessenheit geraten» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5487,3 +5489,8 @@
 | 2784 | Verfassung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Grundgesetz eines Staates / körperlicher oder seelischer Zustand) |
 | 2785 | Verfolger | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer jemanden verfolgt, jagt / Unterdrücker / Sport: Verfolgerfeld) |
 | 2786 | Verfolgung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Jagd, Nachsetzen / politische Verfolgung / Strafverfolgung) |
+| 2787 | Vergangenheit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: vergangene Zeit / Grammatik: Vergangenheitsform) |
+| 2788 | Vergehen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Straftat, Verstoß / das Vergehen der Zeit) |
+| 2789 | Vergewaltigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: sexuelle Gewalttat / übertragen: gewaltsame Missachtung) |
+| 2790 | Vergleich | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: das Vergleichen / Rechtssprache: gütliche Einigung) |
+| 2791 | Verhandlung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gespräch zur Einigung / Gerichtsverhandlung) |

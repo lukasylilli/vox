@@ -5518,6 +5518,13 @@ const zurueckgestellt = <String>{
   'Verfassungsschutz', // zurückgestellt: Name einer Behörde (Deutschland) — Regel 14/18 — 2026-11-08
   'Verfolger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer jemanden verfolgt, jagt / Unterdrücker / Sport: Verfolgerfeld) — nach den Nomen 2026-11-08
   'Verfolgung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Jagd, Nachsetzen / politische Verfolgung / Strafverfolgung) — nach den Nomen 2026-11-08
+  'Verhaltenskodex', // zurückgestellt: Plural doppelt (Verhaltenskodizes/-kodexe) — Regel 14 — 2026-11-08
+  'Vergangenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vergangene Zeit / Grammatik: Vergangenheitsform) — nach den Nomen 2026-11-08
+  'Vergehen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Straftat, Verstoß / das Vergehen der Zeit) — nach den Nomen 2026-11-08
+  'Vergessenheit', // zurückgestellt: fast nur in fester Wendung «in Vergessenheit geraten» — Regel 14 — 2026-11-08
+  'Vergewaltigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: sexuelle Gewalttat / übertragen: gewaltsame Missachtung) — nach den Nomen 2026-11-08
+  'Vergleich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Vergleichen / Rechtssprache: gütliche Einigung) — nach den Nomen 2026-11-08
+  'Verhandlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gespräch zur Einigung / Gerichtsverhandlung) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
