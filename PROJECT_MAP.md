@@ -6,6 +6,7 @@
 
 > گزارش‌های «آپدیت دور ۹۴ … ۱۱۳۵» (دورهای کلمه‌ی صفت/فعل/اسم، Pomodoro، آفلاین، تلگرام، آزمون T.1، باگ theme_mode) حذف شدند — فایل‌هایشان در درخت پایین هستند؛ متن کامل: `git show 1def2f4:PROJECT_MAP.md` (خط ۴–۱۵۱). فاز F و «چهار حالت» که در درخت نبودند، این‌جا ماندند.
 
+- آپدیت 2026-11-08 (بخش ۳) منبع تازه‌ی Lukas (فقط منبع + سند، کد دست نخورد): `old files Lukasalmani/1/redemittel_texte_praesentationen.md` (۲۰۳ عبارت، ۶ بخش، ۲۳ جمله‌ی نمونه DE↔FA) ⇒ PLAN **L.2f**. فایل‌های درگیر در نوبت خودش: `assets/data/redemittel_texte_praesentationen.json` (تازه) · `features/redemittel/controllers/redemittel_controller.dart` · `screens/redemittel_exam_list_screen.dart` · `auswendiglernen_home_screen.dart` · `features/schreiben/` + `features/sprechen/` (همان صفحه) · `assets/buecher/buecher.json` (کتاب، با L.4c) · Prüfungen بعد از تحقیق و تأیید Lukas. نه Lesen، نه Hören.
 - آپدیت 2026-11-03 (بخش ۱۸) فاز X (فقط سند): Deck پیش‌فرضِ پاک‌شده از صفحه‌ی لایتنر («Deckهای پیش‌فرض») برمی‌گردد.
 - آپدیت 2026-11-03 (بخش ۱۷) فاز X (فقط سند): Deckهای پیش‌فرض با حالت «فقط دفترچه» شروع می‌کنند.
 - آپدیت 2026-11-03 (بخش ۱۶) فاز X (فقط سند): Deckهای پیش‌فرض از فیلترهای Alle Wörter (جز anstoessig/zeitlich)، عضویت محاسبه‌ای از `wortschatz_filter.dart`/`vox_buecher.dart` ⇒ خودکار به‌روز، پیشرفت دست نمی‌خورد؛ بخش `kategorie` کشوی فیلتر ⇒ «لایتنر»؛ `Books` داده‌ی کتاب‌های VOX را هم دارد (فقط مسیر کاربر کنار می‌رود).
@@ -858,12 +859,12 @@ widgets/section_grid_item.dart     [x]  — gradient card + shadow
 
 #### lib/features/sprechen/ [x]
 ```
-screens/sprechen_home_screen.dart  [x]  — stub "به زودی"
+screens/sprechen_home_screen.dart  [x]  — stub "به زودی"  ⏭️ اولین محتوا: Redemittel für Texte und Präsentationen (PLAN L.2f)
 ```
 
 #### lib/features/schreiben/ [x]
 ```
-screens/schreiben_home_screen.dart [x]  — stub "به زودی"
+screens/schreiben_home_screen.dart [x]  — stub "به زودی"  ⏭️ اولین محتوا: Redemittel für Texte und Präsentationen (PLAN L.2f)
 ```
 
 #### lib/features/konnektoren/ [x]
@@ -1027,6 +1028,7 @@ models/
   redemittel_item.dart                [x]  — RedemittelItem (rich + legacy flat format)
 ```
 **Data:** redemittel_1010.json (۹۰۸) · redemittel_goethe_b2.json (۶۱) · redemittel_oesd_b2.json (۱۲۱) · redemittel_oesd_c1.json (۱۱۲ ✅ 2026-09-18)
+**منبع منتظر (PLAN L.2f، 2026-11-08):** `old files Lukasalmani/1/redemittel_texte_praesentationen.md` — Redemittel für Texte und Präsentationen (۲۰۳) ⇒ deck پنجم با `redemittel_exam_list_screen.dart` + همان صفحه در Schreiben/Sprechen؛ هنوز وارد اپ نشده.
 **Routes:** redemittel1010 (+Quiz/Grammar/Detail) · redemittelGoetheB2 · redemittelOesdB2 (+Quiz/Detail)
 
 #### lib/features/modalverben/ [x] ✅ (2026-07-04)
