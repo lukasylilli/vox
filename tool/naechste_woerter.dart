@@ -5475,6 +5475,8 @@ const zurueckgestellt = <String>{
   'Unwille', // zurückgestellt: Nominativ schwankt (Unwille/Unwillen), gemischte Deklination — Regel 14 — 2026-11-08
   'Unzucht', // zurückgestellt: veraltend/Rechtssprache, sexueller Bereich; Markierung unsicher — Regel 14/17 — 2026-11-08
   'Ural', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) — nach den Nomen 2026-11-08
+  'Urgestein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ursprüngliches Gestein / langjähriges, typisches Mitglied einer Gruppe) — nach den Nomen 2026-11-08
+  'Urne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefäß für Asche / Wahlurne) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

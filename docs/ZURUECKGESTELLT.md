@@ -5444,3 +5444,5 @@
 | 2751 | Unterwelt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Totenreich (Mythologie) / kriminelles Milieu) |
 | 2752 | Untreue | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Treulosigkeit in der Beziehung / Rechtssprache: Vermögensdelikt) |
 | 2753 | Ural | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) |
+| 2754 | Urgestein | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: ursprüngliches Gestein / langjähriges, typisches Mitglied einer Gruppe) |
+| 2755 | Urne | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gefäß für Asche / Wahlurne) |
