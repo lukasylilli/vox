@@ -5477,6 +5477,12 @@ const zurueckgestellt = <String>{
   'Ural', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) — nach den Nomen 2026-11-08
   'Urgestein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ursprüngliches Gestein / langjähriges, typisches Mitglied einer Gruppe) — nach den Nomen 2026-11-08
   'Urne', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefäß für Asche / Wahlurne) — nach den Nomen 2026-11-08
+  'Urteil', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerichtsentscheidung / Meinung, Beurteilung) — nach den Nomen 2026-11-08
+  'Uta', // zurückgestellt: Personenname — Regel 18 — 2026-11-08
+  'Vakuum', // zurückgestellt: Plural doppelt (Vakua/Vakuen) — Regel 14 — 2026-11-08
+  'Val', // zurückgestellt: Bedeutung unsicher — Regel 14 — 2026-11-08
+  'Vampir', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Blut saugendes Gespenst / Fledermausart) — nach den Nomen 2026-11-08
+  'Vandale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Angehöriger eines germanischen Volkes / zerstörungswütiger Mensch) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

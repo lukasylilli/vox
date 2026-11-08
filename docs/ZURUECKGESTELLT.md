@@ -2848,6 +2848,9 @@
 | ۲۶۶۹ | Unwesen | `substantiv_singular_alle.txt` | 2026-11-08 | nur in fester Wendung «sein Unwesen treiben» — Regel 14 | — |
 | ۲۶۷۰ | Unwille | `substantiv_singular_alle.txt` | 2026-11-08 | Nominativ schwankt (Unwille/Unwillen), gemischte Deklination — Regel 14 | — |
 | ۲۶۷۱ | Unzucht | `substantiv_singular_alle.txt` | 2026-11-08 | veraltend/Rechtssprache, sexueller Bereich; Markierung unsicher — Regel 14/17 | — |
+| ۲۶۷۲ | Uta | `substantiv_singular_alle.txt` | 2026-11-08 | Personenname — Regel 18 | — |
+| ۲۶۷۳ | Vakuum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Vakua/Vakuen) — Regel 14 | — |
+| ۲۶۷۴ | Val | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5446,3 +5449,6 @@
 | 2753 | Ural | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 3 (Homograph gleicher Artikel: der Ural = Gebirge / Fluss) |
 | 2754 | Urgestein | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: ursprüngliches Gestein / langjähriges, typisches Mitglied einer Gruppe) |
 | 2755 | Urne | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gefäß für Asche / Wahlurne) |
+| 2756 | Urteil | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerichtsentscheidung / Meinung, Beurteilung) |
+| 2757 | Vampir | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Blut saugendes Gespenst / Fledermausart) |
+| 2758 | Vandale | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Angehöriger eines germanischen Volkes / zerstörungswütiger Mensch) |
