@@ -5346,3 +5346,6 @@
 | 2676 | Treiben | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewimmel, buntes Durcheinander / abwertend: Tun, Machenschaften) |
 | 2677 | Treiber | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: EDV: Gerätetreiber / Jagd: wer das Wild treibt / Viehtreiber) |
 | 2678 | Trauma | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: seelische Erschütterung / Medizin: körperliche Verletzung, z. B. Schädel-Hirn-Trauma) |
+| 2679 | Treppchen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: kleine Treppe / Sport ugs.: Siegerpodest, «aufs Treppchen») |
+| 2680 | Treuhand | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Recht: Verwaltung fremden Vermögens / Kurzform für die Treuhandanstalt) |
+| 2681 | Trichter | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gerät zum Einfüllen / Krater, z. B. Bombentrichter) |

@@ -5378,6 +5378,9 @@ const zurueckgestellt = <String>{
   'Treiben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewimmel, buntes Durcheinander / abwertend: Tun, Machenschaften) — nach den Nomen 2026-11-08
   'Treiber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: EDV: Gerätetreiber / Jagd: wer das Wild treibt / Viehtreiber) — nach den Nomen 2026-11-08
   'Trauma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: seelische Erschütterung / Medizin: körperliche Verletzung, z. B. Schädel-Hirn-Trauma) — nach den Nomen 2026-11-08
+  'Treppchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Treppe / Sport ugs.: Siegerpodest, «aufs Treppchen») — nach den Nomen 2026-11-08
+  'Treuhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht: Verwaltung fremden Vermögens / Kurzform für die Treuhandanstalt) — nach den Nomen 2026-11-08
+  'Trichter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Einfüllen / Krater, z. B. Bombentrichter) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
