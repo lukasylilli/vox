@@ -2826,6 +2826,8 @@
 | ۲۶۴۷ | Transvestit | `substantiv_singular_alle.txt` | 2026-11-08 | Bezeichnung teils als veraltet/abwertend empfunden; Einordnung (anstoessig) unsicher — Regel 14/17 | — |
 | ۲۶۴۸ | Trapp | `substantiv_singular_alle.txt` | 2026-11-08 | Familienname (Familie von Trapp); kein gebräuchliches Nomen — Regel 14/18 | — |
 | ۲۶۴۹ | Trauner | `substantiv_singular_alle.txt` | 2026-11-08 | regionales Fachwort (Salzschiff auf der Traun) bzw. Name; Gebrauch unsicher — Regel 14 | — |
+| ۲۶۵۰ | Trottoir | `substantiv_singular_alle.txt` | 2026-11-08 | Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 | — |
+
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
@@ -5353,3 +5355,10 @@
 | 2683 | Triebfeder | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Technik: Antriebsfeder / übertragen: Beweggrund, Motiv) |
 | 2684 | Trip | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Ausflug, kurze Reise / ugs.: Drogenrausch) |
 | 2685 | Tritt | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Stoß mit dem Fuß / Schritt / Trittstufe, kleine Leiter) |
+| 2686 | Trittbrettfahrer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: wer auf dem Trittbrett mitfährt / abwertend: wer vom Einsatz anderer profitiert) |
+| 2687 | Trockenheit | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: trockene Beschaffenheit (Haut, Luft) / Dürre, regenarme Zeit) |
+| 2688 | Troika | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: russisches Dreigespann / Dreiergruppe in der Politik, z. B. EU-Troika) |
+| 2689 | Troll | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Fabelwesen / Internet: wer absichtlich provoziert) |
+| 2690 | Trommel | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Musikinstrument / Technik: Waschmaschinen-, Kabel-, Revolvertrommel) |
+| 2691 | Tropfen | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: kleine Flüssigkeitsmenge / Plural: Medikament in Tropfenform / ugs.: Wein, «ein guter Tropfen») |
+| 2692 | Tropus | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Rhetorik: bildlicher Ausdruck / Musik: Erweiterung eines liturgischen Gesangs) |

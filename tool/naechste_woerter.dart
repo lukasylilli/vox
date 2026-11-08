@@ -5385,6 +5385,14 @@ const zurueckgestellt = <String>{
   'Triebfeder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Technik: Antriebsfeder / übertragen: Beweggrund, Motiv) — nach den Nomen 2026-11-08
   'Trip', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausflug, kurze Reise / ugs.: Drogenrausch) — nach den Nomen 2026-11-08
   'Tritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stoß mit dem Fuß / Schritt / Trittstufe, kleine Leiter) — nach den Nomen 2026-11-08
+  'Trittbrettfahrer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer auf dem Trittbrett mitfährt / abwertend: wer vom Einsatz anderer profitiert) — nach den Nomen 2026-11-08
+  'Trockenheit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: trockene Beschaffenheit (Haut, Luft) / Dürre, regenarme Zeit) — nach den Nomen 2026-11-08
+  'Troika', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: russisches Dreigespann / Dreiergruppe in der Politik, z. B. EU-Troika) — nach den Nomen 2026-11-08
+  'Troll', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fabelwesen / Internet: wer absichtlich provoziert) — nach den Nomen 2026-11-08
+  'Trommel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musikinstrument / Technik: Waschmaschinen-, Kabel-, Revolvertrommel) — nach den Nomen 2026-11-08
+  'Tropfen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kleine Flüssigkeitsmenge / Plural: Medikament in Tropfenform / ugs.: Wein, «ein guter Tropfen») — nach den Nomen 2026-11-08
+  'Tropus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rhetorik: bildlicher Ausdruck / Musik: Erweiterung eines liturgischen Gesangs) — nach den Nomen 2026-11-08
+  'Trottoir', // zurückgestellt: Plural schwankt (Trottoirs/Trottoire); regional (schweiz., südd.) — Regel 14 — 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
