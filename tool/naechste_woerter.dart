@@ -5377,6 +5377,7 @@ const zurueckgestellt = <String>{
   'Treffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schuss, der trifft / Tor im Sport / Gewinnlos / Suchergebnis) — nach den Nomen 2026-11-08
   'Treiben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gewimmel, buntes Durcheinander / abwertend: Tun, Machenschaften) — nach den Nomen 2026-11-08
   'Treiber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: EDV: Gerätetreiber / Jagd: wer das Wild treibt / Viehtreiber) — nach den Nomen 2026-11-08
+  'Trauma', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: seelische Erschütterung / Medizin: körperliche Verletzung, z. B. Schädel-Hirn-Trauma) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

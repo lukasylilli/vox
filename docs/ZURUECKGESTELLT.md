@@ -5345,3 +5345,4 @@
 | 2675 | Treffer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Schuss, der trifft / Tor im Sport / Gewinnlos / Suchergebnis) |
 | 2676 | Treiben | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Gewimmel, buntes Durcheinander / abwertend: Tun, Machenschaften) |
 | 2677 | Treiber | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: EDV: Gerätetreiber / Jagd: wer das Wild treibt / Viehtreiber) |
+| 2678 | Trauma | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: seelische Erschütterung / Medizin: körperliche Verletzung, z. B. Schädel-Hirn-Trauma) |
