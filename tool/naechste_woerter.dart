@@ -5507,6 +5507,11 @@ const zurueckgestellt = <String>{
   'Verbund', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zusammenschluss, z. B. Verkehrsverbund / technische Verbindung) — nach den Nomen 2026-11-08
   'Verderben', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Untergang, Unglück / Schlechtwerden von Lebensmitteln) — nach den Nomen 2026-11-08
   'Verdichtung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bebauung, Nachverdichtung / Zusammenpressen (Technik) / Verstärkung) — nach den Nomen 2026-11-08
+  'Verehrer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Mann, der eine Frau umwirbt / Bewunderer, Fan) — nach den Nomen 2026-11-08
+  'Verehrung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: religiöse Verehrung / Bewunderung) — nach den Nomen 2026-11-08
+  'Vereinigung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organisation, Bund / das Vereinigen, z. B. deutsche Einheit) — nach den Nomen 2026-11-08
+  'Vereinnahmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Einnahme von Geld / Inanspruchnahme für eigene Zwecke) — nach den Nomen 2026-11-08
+  'Vereinsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vereinsvorsitzende) — nach den Nomen 2026-11-08
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

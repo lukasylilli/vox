@@ -5476,3 +5476,8 @@
 | 2774 | Verbund | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zusammenschluss, z. B. Verkehrsverbund / technische Verbindung) |
 | 2775 | Verderben | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Untergang, Unglück / Schlechtwerden von Lebensmitteln) |
 | 2776 | Verdichtung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Bebauung, Nachverdichtung / Zusammenpressen (Technik) / Verstärkung) |
+| 2777 | Verehrer | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Mann, der eine Frau umwirbt / Bewunderer, Fan) |
+| 2778 | Verehrung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: religiöse Verehrung / Bewunderung) |
+| 2779 | Vereinigung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Organisation, Bund / das Vereinigen, z. B. deutsche Einheit) |
+| 2780 | Vereinnahmung | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Einnahme von Geld / Inanspruchnahme für eigene Zwecke) |
+| 2781 | Vereinsvorsitzende | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 4 (substantiviertes Adjektiv: der/die Vereinsvorsitzende) |
