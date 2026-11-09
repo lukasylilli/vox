@@ -5709,6 +5709,14 @@ const zurueckgestellt = <String>{
   'Weinfeld', // zurückgestellt: kein gebräuchliches Nomen, wohl Ortsname — Regel 14/18 — 2026-11-09
   'Weingarten', // zurückgestellt: landschaftlich für Weinberg, auch Ortsname — Gebrauch unsicher — Regel 14 — 2026-11-09
   'Weinkeller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Keller zur Lagerung von Wein / Weinlokal im Keller) — nach den Nomen — 2026-11-09
+  'Weinprobe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Weinverkostung / kleine Menge Wein zum Probieren) — nach den Nomen — 2026-11-09
+  'Weinzierl', // zurückgestellt: Familienname — Regel 14/18 — 2026-11-09
+  'Weitblick', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsicht / Voraussicht, Klugheit) — nach den Nomen — 2026-11-09
+  'Weite', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ausdehnung, Ferne / Breite eines Kleidungsstücks / Sport: erreichte Entfernung) — nach den Nomen — 2026-11-09
+  'Weitsicht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fernsicht / Voraussicht) — nach den Nomen — 2026-11-09
+  'Welle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserwelle / Haarwelle / Technik: Antriebswelle / Physik: Radiowelle) — nach den Nomen — 2026-11-09
+  'Weller', // zurückgestellt: Bedeutung unsicher (Bautechnik «Strohlehm» / Familienname) — Regel 14 — 2026-11-09
+  'Welt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erde / alle Menschen «die ganze Welt» / Lebensbereich «die Welt des Sports») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

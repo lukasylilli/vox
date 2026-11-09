@@ -2910,6 +2910,8 @@
 | ۲۷۳۱ | Weibel | `substantiv_singular_alle.txt` | 2026-11-09 | schweiz. (Amtsdiener, Unteroffizier); Bedeutung/Gebrauch unsicher — Regel 14 | — |
 | ۲۷۳۲ | Weinfeld | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen, wohl Ortsname — Regel 14/18 | — |
 | ۲۷۳۳ | Weingarten | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich für Weinberg, auch Ortsname — Gebrauch unsicher — Regel 14 | — |
+| ۲۷۳۴ | Weinzierl | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — Regel 14/18 | — |
+| ۲۷۳۵ | Weller | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bautechnik «Strohlehm» / Familienname) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5678,3 +5680,9 @@
 | 2923 | Weihnachtsgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: biblische Geburtsgeschichte Jesu / Erzählung, die zu Weihnachten spielt) |
 | 2924 | Wein | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Getränk / Weinrebe, Weintrauben «Wein anbauen») |
 | 2925 | Weinkeller | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Keller zur Lagerung von Wein / Weinlokal im Keller) |
+| 2926 | Weinprobe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Weinverkostung / kleine Menge Wein zum Probieren) |
+| 2927 | Weitblick | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fernsicht / Voraussicht, Klugheit) |
+| 2928 | Weite | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ausdehnung, Ferne / Breite eines Kleidungsstücks / Sport: erreichte Entfernung) |
+| 2929 | Weitsicht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fernsicht / Voraussicht) |
+| 2930 | Welle | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wasserwelle / Haarwelle / Technik: Antriebswelle / Physik: Radiowelle) |
+| 2931 | Welt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Erde / alle Menschen «die ganze Welt» / Lebensbereich «die Welt des Sports») |
