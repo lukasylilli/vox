@@ -2879,6 +2879,8 @@
 | ۲۷۰۰ | Volkskongress | `substantiv_singular_alle.txt` | 2026-11-09 | Name (Nationaler Volkskongress der Volksrepublik China) — Regel 18/14 | — |
 | ۲۷۰۱ | Volksmund | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «im Volksmund» — Regel 14 | — |
 | ۲۷۰۲ | Volkssport | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Volkssporte?/Volkssportarten), oft ironisch übertragen — Regel 14 | — |
+| ۲۷۰۳ | Volley | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in «aus dem Volley/volley» (Sport), Gebrauch als Nomen unsicher — Regel 14 | — |
+| ۲۷۰۴ | Volumen | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Volumen/Volumina), mehrere Bedeutungen (Rauminhalt / Umfang, Menge / Buchband) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5579,3 +5581,8 @@
 | 2855 | Vogel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Tier / ugs. Mensch «ein komischer Vogel» / ugs. Flugzeug; «einen Vogel haben») |
 | 2856 | Volk | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Nation, Volksgruppe / die einfachen Leute, Menge / Bienenvolk) |
 | 2857 | Volkstheater | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: volkstümliche Theatergattung / Theaterhaus, oft Eigenname wie Volkstheater Wien) |
+| 2858 | Volkswirtschaft | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wirtschaft eines Landes / Wirtschaftswissenschaft, VWL) |
+| 2859 | Vollendung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abschluss, Fertigstellung / Vollkommenheit, Perfektion; «nach Vollendung des 18. Lebensjahres») |
+| 2860 | Volleyball | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportart / der Ball — wie Handball, Basketball) |
+| 2861 | Vollstrecker | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: wer ein Urteil/Testament vollstreckt / Sport: Torschütze) |
+| 2862 | Volltreffer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: direkter Treffer / ugs. großer Erfolg) |

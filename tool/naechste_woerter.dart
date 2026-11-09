@@ -5610,6 +5610,13 @@ const zurueckgestellt = <String>{
   'Volksmund', // zurückgestellt: fast nur in fester Wendung «im Volksmund» — Regel 14 — 2026-11-09
   'Volkssport', // zurückgestellt: Plural unsicher (Volkssporte?/Volkssportarten), oft ironisch übertragen — Regel 14 — 2026-11-09
   'Volkstheater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: volkstümliche Theatergattung / Theaterhaus, oft Eigenname wie Volkstheater Wien) — nach den Nomen 2026-11-09
+  'Volkswirtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wirtschaft eines Landes / Wirtschaftswissenschaft, VWL) — nach den Nomen 2026-11-09
+  'Vollendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abschluss, Fertigstellung / Vollkommenheit, Perfektion; «nach Vollendung des 18. Lebensjahres») — nach den Nomen 2026-11-09
+  'Volley', // zurückgestellt: fast nur in «aus dem Volley/volley» (Sport), Gebrauch als Nomen unsicher — Regel 14 — 2026-11-09
+  'Volleyball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart / der Ball — wie Handball, Basketball) — nach den Nomen 2026-11-09
+  'Vollstrecker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer ein Urteil/Testament vollstreckt / Sport: Torschütze) — nach den Nomen 2026-11-09
+  'Volltreffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: direkter Treffer / ugs. großer Erfolg) — nach den Nomen 2026-11-09
+  'Volumen', // zurückgestellt: Plural doppelt (Volumen/Volumina), mehrere Bedeutungen (Rauminhalt / Umfang, Menge / Buchband) — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
