@@ -5678,6 +5678,12 @@ const zurueckgestellt = <String>{
   'Walter', // zurückgestellt: Personenname (Regel 18) — 2026-11-09
   'Walz', // zurückgestellt: nur in fester Wendung «auf der Walz sein» — Regel 14 — 2026-11-09
   'Walze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zylinder, Teil einer Maschine / Straßenwalze / Drehorgel) — nach den Nomen — 2026-11-09
+  'Wanderung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wandertour, Ausflug / Migration von Tieren, Völkern) — nach den Nomen — 2026-11-09
+  'Wandlung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Veränderung / kath. Liturgie: Wandlung in der Messe) — nach den Nomen — 2026-11-09
+  'Wank', // zurückgestellt: Bedeutung unsicher (Bergname? Nomen kaum gebräuchlich) — Regel 14 — 2026-11-09
+  'Want', // zurückgestellt: Bedeutung/Herkunft unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 — 2026-11-09
+  'Wanze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insekt, Bettwanze / Abhörgerät) — nach den Nomen — 2026-11-09
+  'Warentest', // zurückgestellt: Plural unsicher (Warentests/Warenteste), oft nur als Name «Stiftung Warentest» — Regel 14/18 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

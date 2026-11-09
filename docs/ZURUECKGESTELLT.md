@@ -2898,6 +2898,9 @@
 | ۲۷۱۹ | Wallach | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wallache, österr. Wallachen) — Regel 14 | — |
 | ۲۷۲۰ | Walter | `substantiv_singular_alle.txt` | 2026-11-09 | Personenname (Regel 18) | — |
 | ۲۷۲۱ | Walz | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «auf der Walz sein» — Regel 14 | — |
+| ۲۷۲۲ | Wank | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bergname? Nomen kaum gebräuchlich) — Regel 14 | — |
+| ۲۷۲۳ | Want | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Herkunft unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 | — |
+| ۲۷۲۴ | Warentest | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Warentests/Warenteste), oft nur als Name «Stiftung Warentest» — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5647,3 +5650,6 @@
 | 2904 | Wahnsinn | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geisteskrankheit / große Unvernunft / ugs. Ausruf «Wahnsinn!» = toll) |
 | 2905 | Wahrnehmung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sinneswahrnehmung / Wahrnehmung von Interessen, Aufgaben, Terminen) |
 | 2906 | Walze | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zylinder, Teil einer Maschine / Straßenwalze / Drehorgel) |
+| 2907 | Wanderung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wandertour, Ausflug / Migration von Tieren, Völkern) |
+| 2908 | Wandlung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Veränderung / kath. Liturgie: Wandlung in der Messe) |
+| 2909 | Wanze | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Insekt, Bettwanze / Abhörgerät) |
