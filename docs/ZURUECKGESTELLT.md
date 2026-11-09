@@ -2930,6 +2930,7 @@
 | ۲۷۵۱ | Widerpart | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, meist in festen Wendungen («Widerpart bieten»); Plural unsicher — Regel 14 | — |
 | ۲۷۵۲ | Wiesn | `substantiv_singular_alle.txt` | 2026-11-09 | regional (bairisch) Name des Münchner Oktoberfests — Eigenname eines Festes, Regel 18 | — |
 | ۲۷۵۳ | Wildbahn | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in freier Wildbahn» — Regel 14 | — |
+| ۲۷۵۴ | Windeseile | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in Windeseile» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5729,3 +5730,6 @@
 | 2954 | Wiedergabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abspielen von Ton/Bild / Wiedergeben eines Textes, Darstellung / Reproduktion eines Bildes) |
 | 2955 | Wiedergeburt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Reinkarnation / religiös: geistige Erneuerung / übertragen: Wiederaufleben) |
 | 2956 | Wild | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jagdbare Tiere / Fleisch dieser Tiere, Wildbret) |
+| 2957 | Wildwuchs | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: wildes Wachsen von Pflanzen / übertragen: unkontrollierte Ausbreitung) |
+| 2958 | Winde | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1/3 (mehrere Bedeutungen: Seilwinde, Hebevorrichtung / Pflanze, Ackerwinde; zugleich Plural von «Wind») |
+| 2959 | Windschatten | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: windgeschützte Seite / Verkehr, Sport: Raum hinter einem fahrenden Fahrzeug) |

@@ -5760,6 +5760,10 @@ const zurueckgestellt = <String>{
   'Wiesn', // zurückgestellt: regional (bairisch) Name des Münchner Oktoberfests — Eigenname eines Festes, Regel 18 — 2026-11-09
   'Wild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jagdbare Tiere / Fleisch dieser Tiere, Wildbret) — nach den Nomen — 2026-11-09
   'Wildbahn', // zurückgestellt: nur in fester Wendung «in freier Wildbahn» — Regel 14 — 2026-11-09
+  'Wildwuchs', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wildes Wachsen von Pflanzen / übertragen: unkontrollierte Ausbreitung) — nach den Nomen — 2026-11-09
+  'Winde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Seilwinde, Hebevorrichtung / Pflanze, Ackerwinde; zugleich Plural von «Wind») — nach den Nomen — 2026-11-09
+  'Windeseile', // zurückgestellt: nur in fester Wendung «in Windeseile» — Regel 14 — 2026-11-09
+  'Windschatten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: windgeschützte Seite / Verkehr, Sport: Raum hinter einem fahrenden Fahrzeug) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
