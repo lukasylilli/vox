@@ -2874,6 +2874,11 @@
 | ۲۶۹۵ | Vogt | `substantiv_singular_alle.txt` | 2026-11-09 | historischer Titel mit je nach Epoche/Region verschiedener Bedeutung (Landvogt, Burgvogt, Kirchenvogt) — Regel 14 | — |
 | ۲۶۹۶ | Vokabel | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (die Vokabel; österr. auch das Vokabel) — Regel 14 | — |
 | ۲۶۹۷ | Volksarmee | `substantiv_singular_alle.txt` | 2026-11-09 | meist Name (Nationale Volksarmee der DDR; Volksbefreiungsarmee) — Regel 18/14 | — |
+| ۲۶۹۸ | Volkshaus | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Arbeiterversammlungshaus, Gemeinschaftszentrum; oft Eigenname) — Regel 14 | — |
+| ۲۶۹۹ | Volkskammer | `substantiv_singular_alle.txt` | 2026-11-09 | Name (Parlament der DDR) — Regel 18/14 | — |
+| ۲۷۰۰ | Volkskongress | `substantiv_singular_alle.txt` | 2026-11-09 | Name (Nationaler Volkskongress der Volksrepublik China) — Regel 18/14 | — |
+| ۲۷۰۱ | Volksmund | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «im Volksmund» — Regel 14 | — |
+| ۲۷۰۲ | Volkssport | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Volkssporte?/Volkssportarten), oft ironisch übertragen — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5573,3 +5578,4 @@
 | 2854 | Visite | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Arztvisite im Krankenhaus / veraltend: Besuch) |
 | 2855 | Vogel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Tier / ugs. Mensch «ein komischer Vogel» / ugs. Flugzeug; «einen Vogel haben») |
 | 2856 | Volk | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Nation, Volksgruppe / die einfachen Leute, Menge / Bienenvolk) |
+| 2857 | Volkstheater | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: volkstümliche Theatergattung / Theaterhaus, oft Eigenname wie Volkstheater Wien) |

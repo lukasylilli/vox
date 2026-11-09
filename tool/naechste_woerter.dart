@@ -5604,6 +5604,12 @@ const zurueckgestellt = <String>{
   'Vokabel', // zurückgestellt: Artikel doppelt (die Vokabel; österr. auch das Vokabel) — Regel 14 — 2026-11-09
   'Volk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nation, Volksgruppe / die einfachen Leute, Menge / Bienenvolk) — nach den Nomen 2026-11-09
   'Volksarmee', // zurückgestellt: meist Name (Nationale Volksarmee der DDR; Volksbefreiungsarmee) — Regel 18/14 — 2026-11-09
+  'Volkshaus', // zurückgestellt: Bedeutung unsicher (Arbeiterversammlungshaus, Gemeinschaftszentrum; oft Eigenname) — Regel 14 — 2026-11-09
+  'Volkskammer', // zurückgestellt: Name (Parlament der DDR) — Regel 18/14 — 2026-11-09
+  'Volkskongress', // zurückgestellt: Name (Nationaler Volkskongress der Volksrepublik China) — Regel 18/14 — 2026-11-09
+  'Volksmund', // zurückgestellt: fast nur in fester Wendung «im Volksmund» — Regel 14 — 2026-11-09
+  'Volkssport', // zurückgestellt: Plural unsicher (Volkssporte?/Volkssportarten), oft ironisch übertragen — Regel 14 — 2026-11-09
+  'Volkstheater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: volkstümliche Theatergattung / Theaterhaus, oft Eigenname wie Volkstheater Wien) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
