@@ -2947,6 +2947,7 @@
 | ۲۷۶۸ | Zapf | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 | — |
 | ۲۷۶۹ | Zehntausend | `substantiv_singular_alle.txt` | 2026-11-09 | Wortart/Gebrauch als Nomen unsicher (Zahlwort; «die oberen Zehntausend») — Regel 14 | — |
 | ۲۷۷۰ | Zeitlang | `substantiv_singular_alle.txt` | 2026-11-09 | alte Schreibung — heute «eine Zeit lang» (wie Stengel) | — |
+| ۲۷۷۱ | Zeller | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/Herkunftsname (z. B. Einwohner von Zell) — kein Nomen der Liste, Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5786,3 +5787,6 @@
 | 2994 | Zeit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeit als Ablauf / Zeitpunkt, Uhrzeit / Epoche «zur Zeit Goethes» / Grammatik: Tempus, Zeitform) |
 | 2995 | Zeitenwende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Beginn der christlichen Zeitrechnung / Übergang in ein neues Zeitalter, politischer Umbruch) |
 | 2996 | Zeitgenosse | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jmd., der in derselben Zeit lebt / ugs.: Mitmensch «ein unangenehmer Zeitgenosse») |
+| 2997 | Zelle | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gefängniszelle / Körperzelle, Biologie / Telefonzelle / Batteriezelle / kleine Gruppe, z. B. Terrorzelle) |
+| 2998 | Zelten | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 2 (Homograph mit anderem Artikel: das Zelten «Camping» / südd., österr.: der Zelten «Früchtebrot, Kletzenbrot») |
+| 2999 | Zenit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Astronomie: Scheitelpunkt am Himmel / Höhepunkt «im Zenit seiner Karriere») |

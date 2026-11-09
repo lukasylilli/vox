@@ -5817,6 +5817,10 @@ const zurueckgestellt = <String>{
   'Zeitenwende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn der christlichen Zeitrechnung / Übergang in ein neues Zeitalter, politischer Umbruch) — nach den Nomen — 2026-11-09
   'Zeitgenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jmd., der in derselben Zeit lebt / ugs.: Mitmensch «ein unangenehmer Zeitgenosse») — nach den Nomen — 2026-11-09
   'Zeitlang', // zurückgestellt: alte Schreibung — heute «eine Zeit lang» (wie Stengel) — 2026-11-09
+  'Zelle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gefängniszelle / Körperzelle, Biologie / Telefonzelle / Batteriezelle / kleine Gruppe, z. B. Terrorzelle) — nach den Nomen — 2026-11-09
+  'Zeller', // zurückgestellt: Familienname/Herkunftsname (z. B. Einwohner von Zell) — kein Nomen der Liste, Regel 14/18 — 2026-11-09
+  'Zelten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: das Zelten «Camping» / südd., österr.: der Zelten «Früchtebrot, Kletzenbrot») — nach den Nomen — 2026-11-09
+  'Zenit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Astronomie: Scheitelpunkt am Himmel / Höhepunkt «im Zenit seiner Karriere») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
