@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_zeitaufwand",
+  "wort": "der Zeitaufwand",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "زمان لازم",
+      "وقتی که صرف می‌شود"
+    ],
+    "en": [
+      "time required",
+      "time spent"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Planung"
+  ],
+  "ipa": "ˈt͡saɪ̯tˌʔaʊ̯fvant",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Zeitaufwand ist zu groß.",
+      "uebersetzung": {
+        "fa": "زمان لازم برای این کار خیلی زیاد است.",
+        "en": "It takes too much time."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir das Projekt beginnen, sollten wir den Zeitaufwand realistisch einschätzen.",
+      "uebersetzung": {
+        "fa": "پیش از شروع پروژه باید زمان لازم را واقع‌بینانه تخمین بزنیم.",
+        "en": "Before we start the project we should estimate the time required realistically."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Zeit (زمان) + Aufwand (صرف، زحمت)",
+    "en": "Zeit (time) + Aufwand (expenditure)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "der Zeitaufwand für + Akk",
+        "beispiel": "Der Zeitaufwand für die Dokumentation ist in der Pflege sehr hoch.",
+        "uebersetzung": {
+          "fa": "زمانی که در پرستاری صرف مستندسازی می‌شود خیلی زیاد است.",
+          "en": "The time spent on documentation in nursing is very high."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Aufwand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زحمت، هزینه",
+          "en": "effort"
+        },
+        "id_ref": "nomen_aufwand"
+      },
+      {
+        "wort": "dauern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طول کشیدن",
+          "en": "to last"
+        },
+        "id_ref": "verb_dauern"
+      },
+      {
+        "wort": "die Dauer",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مدت",
+          "en": "duration"
+        },
+        "id_ref": "nomen_dauer"
+      },
+      {
+        "wort": "planen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن",
+          "en": "to plan"
+        },
+        "id_ref": "verb_planen"
+      },
+      {
+        "wort": "der Zeitplan",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌ی زمانی",
+          "en": "schedule"
+        },
+        "id_ref": "nomen_zeitplan"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

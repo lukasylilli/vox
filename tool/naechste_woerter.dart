@@ -5812,6 +5812,11 @@ const zurueckgestellt = <String>{
   'Zeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Signal, Hinweis / Symbol, Schriftzeichen / Anzeichen / Sternzeichen) — nach den Nomen — 2026-11-09
   'Zeichner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jmd., der zeichnet, Illustrator, technischer Zeichner / Finanzwesen: jmd., der Aktien oder Anleihen zeichnet) — nach den Nomen — 2026-11-09
   'Zeichnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gezeichnetes Bild / Musterung eines Fells / Finanzwesen: Zeichnung von Aktien) — nach den Nomen — 2026-11-09
+  'Zeiger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Uhrzeiger, Zeiger eines Messgeräts / EDV: Mauszeiger, Zeiger in der Programmierung) — nach den Nomen — 2026-11-09
+  'Zeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeit als Ablauf / Zeitpunkt, Uhrzeit / Epoche «zur Zeit Goethes» / Grammatik: Tempus, Zeitform) — nach den Nomen — 2026-11-09
+  'Zeitenwende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Beginn der christlichen Zeitrechnung / Übergang in ein neues Zeitalter, politischer Umbruch) — nach den Nomen — 2026-11-09
+  'Zeitgenosse', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jmd., der in derselben Zeit lebt / ugs.: Mitmensch «ein unangenehmer Zeitgenosse») — nach den Nomen — 2026-11-09
+  'Zeitlang', // zurückgestellt: alte Schreibung — heute «eine Zeit lang» (wie Stengel) — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

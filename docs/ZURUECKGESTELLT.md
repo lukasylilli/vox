@@ -2946,6 +2946,7 @@
 | ۲۷۶۷ | Zabel | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — kein geografischer Name, Regel 18 | — |
 | ۲۷۶۸ | Zapf | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 | — |
 | ۲۷۶۹ | Zehntausend | `substantiv_singular_alle.txt` | 2026-11-09 | Wortart/Gebrauch als Nomen unsicher (Zahlwort; «die oberen Zehntausend») — Regel 14 | — |
+| ۲۷۷۰ | Zeitlang | `substantiv_singular_alle.txt` | 2026-11-09 | alte Schreibung — heute «eine Zeit lang» (wie Stengel) | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5781,3 +5782,7 @@
 | 2990 | Zeichen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Signal, Hinweis / Symbol, Schriftzeichen / Anzeichen / Sternzeichen) |
 | 2991 | Zeichner | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jmd., der zeichnet, Illustrator, technischer Zeichner / Finanzwesen: jmd., der Aktien oder Anleihen zeichnet) |
 | 2992 | Zeichnung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: gezeichnetes Bild / Musterung eines Fells / Finanzwesen: Zeichnung von Aktien) |
+| 2993 | Zeiger | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Uhrzeiger, Zeiger eines Messgeräts / EDV: Mauszeiger, Zeiger in der Programmierung) |
+| 2994 | Zeit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeit als Ablauf / Zeitpunkt, Uhrzeit / Epoche «zur Zeit Goethes» / Grammatik: Tempus, Zeitform) |
+| 2995 | Zeitenwende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Beginn der christlichen Zeitrechnung / Übergang in ein neues Zeitalter, politischer Umbruch) |
+| 2996 | Zeitgenosse | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jmd., der in derselben Zeit lebt / ugs.: Mitmensch «ein unangenehmer Zeitgenosse») |
