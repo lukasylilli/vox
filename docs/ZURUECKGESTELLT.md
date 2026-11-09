@@ -2908,6 +2908,8 @@
 | ۲۷۲۹ | Wehrmacht | `substantiv_singular_alle.txt` | 2026-11-09 | Name der deutschen Streitkräfte 1935–1945 (historischer Eigenname); allgemeine Bedeutung «Streitkräfte» veraltet — Regel 14/18 | — |
 | ۲۷۳۰ | Wehrmann | `substantiv_singular_alle.txt` | 2026-11-09 | schweiz. für Soldat bzw. historisch; Gebrauch unsicher — Regel 14 | — |
 | ۲۷۳۱ | Weibel | `substantiv_singular_alle.txt` | 2026-11-09 | schweiz. (Amtsdiener, Unteroffizier); Bedeutung/Gebrauch unsicher — Regel 14 | — |
+| ۲۷۳۲ | Weinfeld | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen, wohl Ortsname — Regel 14/18 | — |
+| ۲۷۳۳ | Weingarten | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich für Weinberg, auch Ortsname — Gebrauch unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5673,3 +5675,6 @@
 | 2920 | Weibchen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: weibliches Tier / abwertend: Frau als Sexualobjekt) |
 | 2921 | Weiblichkeit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Weiblichsein / scherzhaft: alle Frauen) |
 | 2922 | Weichenstellung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Stellen der Eisenbahnweiche / übertragen: Richtungsentscheidung) |
+| 2923 | Weihnachtsgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: biblische Geburtsgeschichte Jesu / Erzählung, die zu Weihnachten spielt) |
+| 2924 | Wein | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Getränk / Weinrebe, Weintrauben «Wein anbauen») |
+| 2925 | Weinkeller | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Keller zur Lagerung von Wein / Weinlokal im Keller) |

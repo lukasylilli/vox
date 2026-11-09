@@ -5704,6 +5704,11 @@ const zurueckgestellt = <String>{
   'Weibel', // zurückgestellt: schweiz. (Amtsdiener, Unteroffizier); Bedeutung/Gebrauch unsicher — Regel 14 — 2026-11-09
   'Weiblichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Weiblichsein / scherzhaft: alle Frauen) — nach den Nomen — 2026-11-09
   'Weichenstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stellen der Eisenbahnweiche / übertragen: Richtungsentscheidung) — nach den Nomen — 2026-11-09
+  'Weihnachtsgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: biblische Geburtsgeschichte Jesu / Erzählung, die zu Weihnachten spielt) — nach den Nomen — 2026-11-09
+  'Wein', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Getränk / Weinrebe, Weintrauben «Wein anbauen») — nach den Nomen — 2026-11-09
+  'Weinfeld', // zurückgestellt: kein gebräuchliches Nomen, wohl Ortsname — Regel 14/18 — 2026-11-09
+  'Weingarten', // zurückgestellt: landschaftlich für Weinberg, auch Ortsname — Gebrauch unsicher — Regel 14 — 2026-11-09
+  'Weinkeller', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Keller zur Lagerung von Wein / Weinlokal im Keller) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
