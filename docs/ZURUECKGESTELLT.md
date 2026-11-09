@@ -2956,6 +2956,7 @@
 | ۲۷۷۷ | Zero | `substantiv_singular_alle.txt` | 2026-11-09 | Anglizismus; Bedeutung/Gebrauch als deutsches Nomen unsicher — Regel 14 | — |
 | ۲۷۷۸ | Zeughaus | `substantiv_singular_alle.txt` | 2026-11-09 | historisch (Waffenlager); heute fast nur in Namen von Gebäuden/Museen — Regel 14/18 | — |
 | ۲۷۷۹ | Ziegler | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/veraltete Berufsbezeichnung — Regel 14/18 | — |
+| ۲۷۸۰ | Ziemer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5805,3 +5806,9 @@
 | 3004 | Zeug | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: ugs.: Sachen, Kram / Unsinn «dummes Zeug» / Fähigkeit «das Zeug zu etwas haben» / veraltet: Stoff, Werkzeug) |
 | 3005 | Zeugnis | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Schulzeugnis / Arbeitszeugnis / Bescheinigung, Gutachten / gehoben: Beweis «Zeugnis ablegen») |
 | 3006 | Ziege | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Haustier / ugs. abwertend: Schimpfwort für eine Frau «blöde Ziege») |
+| 3007 | Ziehvater | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pflegevater / bildlich: Förderer, Mentor «sein politischer Ziehvater») |
+| 3008 | Ziel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: angestrebter Zweck / Reiseziel, Bestimmungsort / Sport: Ziellinie / Zielscheibe beim Schießen) |
+| 3009 | Zielgerade | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (adjektivisch dekliniert wie «die Gerade»: auf der Zielgeraden) + Fall 1 (Sport / bildlich: Endphase) |
+| 3010 | Zielscheibe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Scheibe beim Schießen / bildlich: Ziel von Spott, Kritik) |
+| 3011 | Ziffer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zahlzeichen / nummerierter Abschnitt in Verträgen, Gesetzen «Ziffer 3») |
+| 3012 | Zins | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: meist Plural «Zinsen» für Geld / südd., österr., schweiz.: Miete, Mietzins) |

@@ -5836,6 +5836,13 @@ const zurueckgestellt = <String>{
   'Zeugnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulzeugnis / Arbeitszeugnis / Bescheinigung, Gutachten / gehoben: Beweis «Zeugnis ablegen») — nach den Nomen — 2026-11-09
   'Ziege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haustier / ugs. abwertend: Schimpfwort für eine Frau «blöde Ziege») — nach den Nomen — 2026-11-09
   'Ziegler', // zurückgestellt: Familienname/veraltete Berufsbezeichnung — Regel 14/18 — 2026-11-09
+  'Ziehvater', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflegevater / bildlich: Förderer, Mentor «sein politischer Ziehvater») — nach den Nomen — 2026-11-09
+  'Ziel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: angestrebter Zweck / Reiseziel, Bestimmungsort / Sport: Ziellinie / Zielscheibe beim Schießen) — nach den Nomen — 2026-11-09
+  'Zielgerade', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (adjektivisch dekliniert wie «die Gerade»: auf der Zielgeraden) + Fall 1 (Sport / bildlich: Endphase) — nach den Nomen — 2026-11-09
+  'Zielscheibe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Scheibe beim Schießen / bildlich: Ziel von Spott, Kritik) — nach den Nomen — 2026-11-09
+  'Ziemer', // zurückgestellt: Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 — 2026-11-09
+  'Ziffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlzeichen / nummerierter Abschnitt in Verträgen, Gesetzen «Ziffer 3») — nach den Nomen — 2026-11-09
+  'Zins', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: meist Plural «Zinsen» für Geld / südd., österr., schweiz.: Miete, Mietzins) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
