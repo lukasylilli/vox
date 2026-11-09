@@ -5684,6 +5684,11 @@ const zurueckgestellt = <String>{
   'Want', // zurückgestellt: Bedeutung/Herkunft unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 — 2026-11-09
   'Wanze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Insekt, Bettwanze / Abhörgerät) — nach den Nomen — 2026-11-09
   'Warentest', // zurückgestellt: Plural unsicher (Warentests/Warenteste), oft nur als Name «Stiftung Warentest» — Regel 14/18 — 2026-11-09
+  'Warte', // zurückgestellt: gehoben, meist übertragen «von höherer Warte aus»; Sternwarte/Aussichtsturm — Gebrauch unsicher — Regel 14 — 2026-11-09
+  'Warteschleife', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Flugzeug kreist vor der Landung / Telefon: Wartemusik) — nach den Nomen — 2026-11-09
+  'Wasser', // zurückgestellt: Plural doppelt (Wasser/Wässer, je nach Bedeutung) — Regel 14; häufiges Wort, Entscheidung Lukas — 2026-11-09
+  'Wasserball', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportart Wasserpolo / Ball zum Spielen im Wasser) — nach den Nomen — 2026-11-09
+  'Wasserglas', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trinkglas / Chemie: Natriumsilikat) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

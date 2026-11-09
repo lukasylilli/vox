@@ -2901,6 +2901,8 @@
 | ۲۷۲۲ | Wank | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bergname? Nomen kaum gebräuchlich) — Regel 14 | — |
 | ۲۷۲۳ | Want | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Herkunft unsicher (kein gebräuchliches deutsches Nomen) — Regel 14 | — |
 | ۲۷۲۴ | Warentest | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Warentests/Warenteste), oft nur als Name «Stiftung Warentest» — Regel 14/18 | — |
+| ۲۷۲۵ | Warte | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, meist übertragen «von höherer Warte aus»; Sternwarte/Aussichtsturm — Gebrauch unsicher — Regel 14 | — |
+| ۲۷۲۶ | Wasser | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wasser/Wässer, je nach Bedeutung) — Regel 14; häufiges Wort, Entscheidung Lukas | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5653,3 +5655,6 @@
 | 2907 | Wanderung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wandertour, Ausflug / Migration von Tieren, Völkern) |
 | 2908 | Wandlung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Veränderung / kath. Liturgie: Wandlung in der Messe) |
 | 2909 | Wanze | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Insekt, Bettwanze / Abhörgerät) |
+| 2910 | Warteschleife | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Flugzeug kreist vor der Landung / Telefon: Wartemusik) |
+| 2911 | Wasserball | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportart Wasserpolo / Ball zum Spielen im Wasser) |
+| 2912 | Wasserglas | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Trinkglas / Chemie: Natriumsilikat) |
