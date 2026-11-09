@@ -5790,6 +5790,17 @@ const zurueckgestellt = <String>{
   'Wort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen mit eigenem Plural: einzelnes Wort, Pl. die Wörter / Äußerung, Zusage, Pl. die Worte «sein Wort halten») — nach den Nomen — 2026-11-09
   'Wotan', // zurückgestellt: Name eines germanischen Gottes (Personenname) — Regel 18 — 2026-11-09
   'Wucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kraft, Schwung «mit voller Wucht» / ugs.: etwas Großartiges «eine Wucht» / landschaftlich: Menge, Prügel) — nach den Nomen — 2026-11-09
+  'Wurf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Werfen, Wurf beim Sport / Gesamtheit der Jungen eines Muttertiers «ein Wurf Welpen» / gelungenes Werk «ein großer Wurf») — nach den Nomen — 2026-11-09
+  'Wurz', // zurückgestellt: veraltet/landschaftlich für «Wurzel»; Gebrauch fast nur in Pflanzennamen — Regel 14 — 2026-11-09
+  'Wurzel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pflanzenwurzel / Zahnwurzel, Haarwurzel / Mathematik: Quadratwurzel / Ursprung / landschaftlich: Möhre) — nach den Nomen — 2026-11-09
+  'Yang', // zurückgestellt: fast nur im Paar «Yin und Yang»; Artikel/Gebrauch als Einzelwort unsicher — Regel 14 — 2026-11-09
+  'Yankee', // zurückgestellt: Spitzname für US-Amerikaner, oft abwertend — Stärke der Abwertung unsicher (wie Westler) — Regel 17 — 2026-11-09
+  'Yen', // zurückgestellt: Plural doppelt (die Yen / die Yens) — wie Waggon, Entscheidung Lukas — 2026-11-09
+  'Yoga', // zurückgestellt: Artikel doppelt (der/das Yoga) — 2026-11-09
+  'Youngster', // zurückgestellt: Plural doppelt (die Youngster / die Youngsters); Anglizismus, Gebrauch ugs. — Regel 14 — 2026-11-09
+  'Yuan', // zurückgestellt: Plural doppelt/unsicher (die Yuan / die Yuans) — wie Yen — 2026-11-09
+  'Yuppie', // zurückgestellt: oft abwertend; Stärke der Abwertung unsicher — Regel 17 — 2026-11-09
+  'Zabel', // zurückgestellt: Familienname — kein geografischer Name, Regel 18 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

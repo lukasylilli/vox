@@ -2935,6 +2935,15 @@
 | ۲۷۵۶ | Wohnblock | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (die Wohnblocks / die Wohnblöcke) — wie Waggon, Entscheidung Lukas | — |
 | ۲۷۵۷ | Wood | `substantiv_singular_alle.txt` | 2026-11-09 | kein deutsches Nomen; Bedeutung/Gebrauch unsicher (Name, Anglizismus?) — Regel 14 | — |
 | ۲۷۵۸ | Wotan | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines germanischen Gottes (Personenname) — Regel 18 | — |
+| ۲۷۵۹ | Wurz | `substantiv_singular_alle.txt` | 2026-11-09 | veraltet/landschaftlich für «Wurzel»; Gebrauch fast nur in Pflanzennamen — Regel 14 | — |
+| ۲۷۶۰ | Yang | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur im Paar «Yin und Yang»; Artikel/Gebrauch als Einzelwort unsicher — Regel 14 | — |
+| ۲۷۶۱ | Yankee | `substantiv_singular_alle.txt` | 2026-11-09 | Spitzname für US-Amerikaner, oft abwertend — Stärke der Abwertung unsicher (wie Westler) — Regel 17 | — |
+| ۲۷۶۲ | Yen | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (die Yen / die Yens) — wie Waggon, Entscheidung Lukas | — |
+| ۲۷۶۳ | Yoga | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (der/das Yoga) | — |
+| ۲۷۶۴ | Youngster | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (die Youngster / die Youngsters); Anglizismus, Gebrauch ugs. — Regel 14 | — |
+| ۲۷۶۵ | Yuan | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt/unsicher (die Yuan / die Yuans) — wie Yen | — |
+| ۲۷۶۶ | Yuppie | `substantiv_singular_alle.txt` | 2026-11-09 | oft abwertend; Stärke der Abwertung unsicher — Regel 17 | — |
+| ۲۷۶۷ | Zabel | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — kein geografischer Name, Regel 18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5759,3 +5768,5 @@
 | 2979 | Wohnungssuchende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Partizip: der/die Wohnungssuchende) |
 | 2980 | Wort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen mit eigenem Plural: einzelnes Wort, Pl. die Wörter / Äußerung, Zusage, Pl. die Worte «sein Wort halten») |
 | 2981 | Wucht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kraft, Schwung «mit voller Wucht» / ugs.: etwas Großartiges «eine Wucht» / landschaftlich: Menge, Prügel) |
+| 2982 | Wurf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Werfen, Wurf beim Sport / Gesamtheit der Jungen eines Muttertiers «ein Wurf Welpen» / gelungenes Werk «ein großer Wurf») |
+| 2983 | Wurzel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pflanzenwurzel / Zahnwurzel, Haarwurzel / Mathematik: Quadratwurzel / Ursprung / landschaftlich: Möhre) |
