@@ -2933,6 +2933,7 @@
 | ۲۷۵۴ | Windeseile | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in Windeseile» — Regel 14 | — |
 | ۲۷۵۵ | Wohlgefallen | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, fast nur in fester Wendung «sich in Wohlgefallen auflösen» — Regel 14 | — |
 | ۲۷۵۶ | Wohnblock | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (die Wohnblocks / die Wohnblöcke) — wie Waggon, Entscheidung Lukas | — |
+| ۲۷۵۷ | Wood | `substantiv_singular_alle.txt` | 2026-11-09 | kein deutsches Nomen; Bedeutung/Gebrauch unsicher (Name, Anglizismus?) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5754,3 +5755,4 @@
 | 2976 | Wohnbau | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wohngebäude / österr.: Wohnungsbau, z. B. «geförderter Wohnbau») |
 | 2977 | Wohnbereich | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wohnteil einer Wohnung / Pflegeheim: Station, Abteilung «Wohnbereich 2») |
 | 2978 | Wohnraum | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zimmer zum Wohnen / ohne Plural: Wohnungen insgesamt «bezahlbarer Wohnraum») |
+| 2979 | Wohnungssuchende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Partizip: der/die Wohnungssuchende) |

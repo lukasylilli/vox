@@ -5785,6 +5785,8 @@ const zurueckgestellt = <String>{
   'Wohnbereich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnteil einer Wohnung / Pflegeheim: Station, Abteilung «Wohnbereich 2») — nach den Nomen — 2026-11-09
   'Wohnblock', // zurückgestellt: Plural doppelt (die Wohnblocks / die Wohnblöcke) — wie Waggon, Entscheidung Lukas — 2026-11-09
   'Wohnraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zimmer zum Wohnen / ohne Plural: Wohnungen insgesamt «bezahlbarer Wohnraum») — nach den Nomen — 2026-11-09
+  'Wohnungssuchende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Wohnungssuchende) — nach den Nomen — 2026-11-09
+  'Wood', // zurückgestellt: kein deutsches Nomen; Bedeutung/Gebrauch unsicher (Name, Anglizismus?) — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

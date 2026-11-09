@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_wohnung",
+  "wort": "die Wohnung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آپارتمان",
+      "خانه",
+      "منزل"
+    ],
+    "en": [
+      "flat",
+      "apartment"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "A1",
+  "themen": [
+    "Wohnen"
+  ],
+  "ipa": "ˈvoːnʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Meine Wohnung hat drei Zimmer.",
+      "uebersetzung": {
+        "fa": "آپارتمان من سه اتاق دارد.",
+        "en": "My flat has three rooms."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wir suchen eine größere Wohnung, weil wir bald ein zweites Kind bekommen.",
+      "uebersetzung": {
+        "fa": "دنبال یک آپارتمان بزرگ‌تر هستیم، چون به‌زودی بچه‌ی دوم‌مان به دنیا می‌آید.",
+        "en": "We are looking for a bigger flat because we are having a second child soon."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Mietwohnung",
+      "uebersetzung": {
+        "fa": "آپارتمان اجاره‌ای",
+        "en": "rented flat"
+      }
+    },
+    {
+      "wort": "die Eigentumswohnung",
+      "uebersetzung": {
+        "fa": "آپارتمان ملکی",
+        "en": "owner-occupied flat"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "wohnen (سکونت داشتن) + -ung",
+    "en": "wohnen (to live) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Wohnungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Wohnung mieten",
+        "beispiel": "Wir haben eine Wohnung im dritten Stock gemietet.",
+        "uebersetzung": {
+          "fa": "یک آپارتمان در طبقه‌ی سوم اجاره کرده‌ایم.",
+          "en": "We have rented a flat on the third floor."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "wohnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "زندگی کردن، سکونت داشتن",
+          "en": "to live, to reside"
+        },
+        "id_ref": "verb_wohnen"
+      },
+      {
+        "wort": "das Wohnzimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتاق نشیمن",
+          "en": "living room"
+        },
+        "id_ref": "nomen_wohnzimmer"
+      },
+      {
+        "wort": "das Schlafzimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتاق خواب",
+          "en": "bedroom"
+        },
+        "id_ref": "nomen_schlafzimmer"
+      },
+      {
+        "wort": "der Balkon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بالکن",
+          "en": "balcony"
+        },
+        "id_ref": "nomen_balkon"
+      },
+      {
+        "wort": "der Mieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مستأجر",
+          "en": "tenant"
+        },
+        "id_ref": "nomen_mieter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
