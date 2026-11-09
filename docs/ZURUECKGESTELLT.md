@@ -2931,6 +2931,7 @@
 | ۲۷۵۲ | Wiesn | `substantiv_singular_alle.txt` | 2026-11-09 | regional (bairisch) Name des Münchner Oktoberfests — Eigenname eines Festes, Regel 18 | — |
 | ۲۷۵۳ | Wildbahn | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in freier Wildbahn» — Regel 14 | — |
 | ۲۷۵۴ | Windeseile | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in Windeseile» — Regel 14 | — |
+| ۲۷۵۵ | Wohlgefallen | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, fast nur in fester Wendung «sich in Wohlgefallen auflösen» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5745,3 +5746,6 @@
 | 2969 | Wirtschaftstreibender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) |
 | 2970 | Wischer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: ugs. Scheibenwischer / Zeichnen: Wischstift / Putzgerät, Wischmopp) |
 | 2971 | Witterung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wetter, Wetterlage / Jägersprache: Geruch, «Witterung aufnehmen») |
+| 2972 | Witz | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Scherz / Esprit, geistreiche Art / ugs.: das Wesentliche, «der Witz an der Sache») |
+| 2973 | Wochentag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: beliebiger Tag der Woche / Werktag im Gegensatz zum Sonntag) |
+| 2974 | Wohlfahrt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wohlergehen, Wohlstand / öffentliche Fürsorge, Sozialhilfe, Wohlfahrtspflege) |

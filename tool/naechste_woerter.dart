@@ -5776,6 +5776,10 @@ const zurueckgestellt = <String>{
   'Wirtschaftstreibender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) — nach den Nomen — 2026-11-09
   'Wischer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Scheibenwischer / Zeichnen: Wischstift / Putzgerät, Wischmopp) — nach den Nomen — 2026-11-09
   'Witterung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetter, Wetterlage / Jägersprache: Geruch, «Witterung aufnehmen») — nach den Nomen — 2026-11-09
+  'Witz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Scherz / Esprit, geistreiche Art / ugs.: das Wesentliche, «der Witz an der Sache») — nach den Nomen — 2026-11-09
+  'Wochentag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: beliebiger Tag der Woche / Werktag im Gegensatz zum Sonntag) — nach den Nomen — 2026-11-09
+  'Wohlfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohlergehen, Wohlstand / öffentliche Fürsorge, Sozialhilfe, Wohlfahrtspflege) — nach den Nomen — 2026-11-09
+  'Wohlgefallen', // zurückgestellt: gehoben, fast nur in fester Wendung «sich in Wohlgefallen auflösen» — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
