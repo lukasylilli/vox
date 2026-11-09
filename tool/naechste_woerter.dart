@@ -5858,6 +5858,10 @@ const zurueckgestellt = <String>{
   'Zugpferd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pferd, das zieht / bildlich: Person oder Sache, die Publikum anzieht) — nach den Nomen — 2026-11-09
   'Zugriff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: EDV: Zugriff auf Daten / polizeilich: Festnahme, Zugreifen) — nach den Nomen — 2026-11-09
   'Zukunft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kommende Zeit / Grammatik: Futur) — nach den Nomen — 2026-11-09
+  'Zulassung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erlaubnis, Zulassung zum Studium/zur Prüfung / Zulassung eines Kfz, Zulassungsschein / Zulassung eines Medikaments) — nach den Nomen — 2026-11-09
+  'Zulauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Andrang, Zuspruch «großen Zulauf haben» / Technik: Zuflussleitung, zufließendes Wasser) — nach den Nomen — 2026-11-09
+  'Zulu', // zurückgestellt: Name eines Volkes/einer Sprache; Artikel und Gebrauch (der/die/das Zulu) unsicher — Regel 14/18 — 2026-11-09
+  'Zunge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organ im Mund / gehoben: Sprache «in fremden Zungen» / Seezunge, Fisch / Zunge am Schuh) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

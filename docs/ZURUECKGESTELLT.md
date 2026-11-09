@@ -2959,6 +2959,7 @@
 | ۲۷۸۰ | Ziemer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 | — |
 | ۲۷۸۱ | Zivil | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 | — |
 | ۲۷۸۲ | Zuber | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 | — |
+| ۲۷۸۳ | Zulu | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines Volkes/einer Sprache; Artikel und Gebrauch (der/die/das Zulu) unsicher — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5827,3 +5828,6 @@
 | 3023 | Zugpferd | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pferd, das zieht / bildlich: Person oder Sache, die Publikum anzieht) |
 | 3024 | Zugriff | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: EDV: Zugriff auf Daten / polizeilich: Festnahme, Zugreifen) |
 | 3025 | Zukunft | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: kommende Zeit / Grammatik: Futur) |
+| 3026 | Zulassung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Erlaubnis, Zulassung zum Studium/zur Prüfung / Zulassung eines Kfz, Zulassungsschein / Zulassung eines Medikaments) |
+| 3027 | Zulauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Andrang, Zuspruch «großen Zulauf haben» / Technik: Zuflussleitung, zufließendes Wasser) |
+| 3028 | Zunge | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Organ im Mund / gehoben: Sprache «in fremden Zungen» / Seezunge, Fisch / Zunge am Schuh) |
