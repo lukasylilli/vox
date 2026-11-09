@@ -5847,6 +5847,11 @@ const zurueckgestellt = <String>{
   'Zirkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Kreiszeichnen / Kreis von Personen, Gesprächskreis «Lesezirkel») — nach den Nomen — 2026-11-09
   'Zirkus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zirkusunternehmen, Vorstellung / ugs.: Trubel, Aufregung «Mach keinen Zirkus!») — nach den Nomen — 2026-11-09
   'Zivil', // zurückgestellt: fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 — 2026-11-09
+  'Zollbeamter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (adjektivisch dekliniert wie «der Beamte»: der Zollbeamte / ein Zollbeamter) — nach den Nomen — 2026-11-09
+  'Zopf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geflochtenes Haar / Hefezopf, Gebäck / bildlich: «alter Zopf» = veraltete Sache) — nach den Nomen — 2026-11-09
+  'Zuber', // zurückgestellt: landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 — 2026-11-09
+  'Zubringer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zubringerstraße zur Autobahn / Zubringerbus, Shuttle / Technik: Zuführeinrichtung) — nach den Nomen — 2026-11-09
+  'Zucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Züchtung von Tieren/Pflanzen / veraltend: Disziplin «Zucht und Ordnung») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

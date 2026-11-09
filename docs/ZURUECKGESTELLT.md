@@ -2958,6 +2958,7 @@
 | ۲۷۷۹ | Ziegler | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/veraltete Berufsbezeichnung — Regel 14/18 | — |
 | ۲۷۸۰ | Ziemer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 | — |
 | ۲۷۸۱ | Zivil | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 | — |
+| ۲۷۸۲ | Zuber | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5816,3 +5817,7 @@
 | 3013 | Zipfel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ende, Spitze eines Tuchs, Wurstzipfel / ugs., bes. österr.: vulgär für Penis; Schimpfwort) |
 | 3014 | Zirkel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gerät zum Kreiszeichnen / Kreis von Personen, Gesprächskreis «Lesezirkel») |
 | 3015 | Zirkus | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zirkusunternehmen, Vorstellung / ugs.: Trubel, Aufregung «Mach keinen Zirkus!») |
+| 3016 | Zollbeamter | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (adjektivisch dekliniert wie «der Beamte»: der Zollbeamte / ein Zollbeamter) |
+| 3017 | Zopf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: geflochtenes Haar / Hefezopf, Gebäck / bildlich: «alter Zopf» = veraltete Sache) |
+| 3018 | Zubringer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zubringerstraße zur Autobahn / Zubringerbus, Shuttle / Technik: Zuführeinrichtung) |
+| 3019 | Zucht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Züchtung von Tieren/Pflanzen / veraltend: Disziplin «Zucht und Ordnung») |
