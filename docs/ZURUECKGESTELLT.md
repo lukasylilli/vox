@@ -2960,6 +2960,7 @@
 | ۲۷۸۱ | Zivil | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 | — |
 | ۲۷۸۲ | Zuber | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 | — |
 | ۲۷۸۳ | Zulu | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines Volkes/einer Sprache; Artikel und Gebrauch (der/die/das Zulu) unsicher — Regel 14/18 | — |
+| ۲۷۸۴ | Zutun | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «ohne jemandes Zutun» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5832,3 +5833,6 @@
 | 3027 | Zulauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Andrang, Zuspruch «großen Zulauf haben» / Technik: Zuflussleitung, zufließendes Wasser) |
 | 3028 | Zunge | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Organ im Mund / gehoben: Sprache «in fremden Zungen» / Seezunge, Fisch / Zunge am Schuh) |
 | 3029 | Zusammentreffen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Begegnung, Treffen / gleichzeitiges Eintreten «ein Zusammentreffen ungünstiger Umstände») |
+| 3030 | Zuschlag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Aufpreis, Lohnzuschlag / Versteigerung, Auftragsvergabe «den Zuschlag erhalten» / Bahn: Zuschlagkarte) |
+| 3031 | Zuschnitt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Zuschneiden von Stoff, Holz / Form, Art, Zuschnitt einer Wohnung, eines Plans) |
+| 3032 | Zuspruch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Trost, Ermutigung / Beliebtheit, Anklang «großen Zuspruch finden») |

@@ -5863,6 +5863,10 @@ const zurueckgestellt = <String>{
   'Zulu', // zurückgestellt: Name eines Volkes/einer Sprache; Artikel und Gebrauch (der/die/das Zulu) unsicher — Regel 14/18 — 2026-11-09
   'Zunge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Organ im Mund / gehoben: Sprache «in fremden Zungen» / Seezunge, Fisch / Zunge am Schuh) — nach den Nomen — 2026-11-09
   'Zusammentreffen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Begegnung, Treffen / gleichzeitiges Eintreten «ein Zusammentreffen ungünstiger Umstände») — nach den Nomen — 2026-11-09
+  'Zuschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufpreis, Lohnzuschlag / Versteigerung, Auftragsvergabe «den Zuschlag erhalten» / Bahn: Zuschlagkarte) — nach den Nomen — 2026-11-09
+  'Zuschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Zuschneiden von Stoff, Holz / Form, Art, Zuschnitt einer Wohnung, eines Plans) — nach den Nomen — 2026-11-09
+  'Zuspruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trost, Ermutigung / Beliebtheit, Anklang «großen Zuspruch finden») — nach den Nomen — 2026-11-09
+  'Zutun', // zurückgestellt: fast nur in fester Wendung «ohne jemandes Zutun» — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
