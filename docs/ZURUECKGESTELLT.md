@@ -2917,6 +2917,10 @@
 | ۲۷۳۸ | Weltgruppe | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Sport: höchste Gruppe, z. B. Davis Cup) — Regel 14 | — |
 | ۲۷۳۹ | Welthandelsorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (WTO) — Regel 18 | — |
 | ۲۷۴۰ | Weltorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | meist Teil von Organisationsnamen (UNO, WHO), allgemeine Bedeutung unsicher — Regel 14/18 | — |
+| ۲۷۴۱ | Weltsicherheitsrat | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines UN-Organs (UN-Sicherheitsrat) — Regel 18 | — |
+| ۲۷۴۲ | Weltwirtschaftsforum | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation/Veranstaltung (WEF, Davos) — Regel 18 | — |
+| ۲۷۴۳ | Wendel | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Technik: Spirale / Familienname) — Regel 14 | — |
+| ۲۷۴۴ | Wender | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen (Bedeutung unsicher) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5694,3 +5698,5 @@
 | 2932 | Weltcup | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wettbewerbsserie / Pokal als Preis) |
 | 2933 | Weltgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geschichte der Menschheit / ugs. scherzhaft «Welt»: in der Weltgeschichte herumreisen) |
 | 2934 | Weltranglistenerste | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Weltranglistenerste) |
+| 2935 | Wendepunkt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeitpunkt einer Wende / Mathematik: Wendepunkt einer Kurve) |
+| 2936 | Wendung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Drehung, Richtungsänderung / Veränderung «eine Wendung nehmen» / Redewendung) |

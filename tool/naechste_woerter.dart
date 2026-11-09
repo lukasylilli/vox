@@ -5725,6 +5725,12 @@ const zurueckgestellt = <String>{
   'Welthandelsorganisation', // zurückgestellt: Name einer Organisation (WTO) — Regel 18 — 2026-11-09
   'Weltorganisation', // zurückgestellt: meist Teil von Organisationsnamen (UNO, WHO), allgemeine Bedeutung unsicher — Regel 14/18 — 2026-11-09
   'Weltranglistenerste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Weltranglistenerste) — nach den Nomen — 2026-11-09
+  'Weltsicherheitsrat', // zurückgestellt: Name eines UN-Organs (UN-Sicherheitsrat) — Regel 18 — 2026-11-09
+  'Weltwirtschaftsforum', // zurückgestellt: Name einer Organisation/Veranstaltung (WEF, Davos) — Regel 18 — 2026-11-09
+  'Wendel', // zurückgestellt: Bedeutung unsicher (Technik: Spirale / Familienname) — Regel 14 — 2026-11-09
+  'Wendepunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitpunkt einer Wende / Mathematik: Wendepunkt einer Kurve) — nach den Nomen — 2026-11-09
+  'Wender', // zurückgestellt: kein gebräuchliches Nomen (Bedeutung unsicher) — Regel 14 — 2026-11-09
+  'Wendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Drehung, Richtungsänderung / Veränderung «eine Wendung nehmen» / Redewendung) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
