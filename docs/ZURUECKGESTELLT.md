@@ -5849,3 +5849,7 @@
 | 3041 | Zwickel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: keilförmiges Stoffstück / Architektur: Gewölbezwickel / bair.-österr. ugs.: Zwei-Euro-Münze, früher Zweischillingstück) |
 | 3042 | Zwiebel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gemüse / Blumenzwiebel / ugs.: Haarknoten, alte Taschenuhr) |
 | 3043 | Zwilling | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zwillingskind / Sternzeichen «die Zwillinge» / Zwillingsflinte) |
+| 3044 | Zwinger | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Hundezwinger, Käfig / Teil einer Burg, Festungsanlage «der Dresdner Zwinger») |
+| 3045 | Zwischenzeit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: «in der Zwischenzeit» = inzwischen / Sport: gemessene Teilzeit beim Rennen) |
+| 3046 | Zyklus | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kreislauf, regelmäßige Wiederkehr / Menstruationszyklus / Reihe zusammengehöriger Werke) |
+| 3047 | Zylinder | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: geometrischer Körper / Motorzylinder / hoher Herrenhut) |

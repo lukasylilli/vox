@@ -5880,6 +5880,10 @@ const zurueckgestellt = <String>{
   'Zwickel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: keilförmiges Stoffstück / Architektur: Gewölbezwickel / bair.-österr. ugs.: Zwei-Euro-Münze, früher Zweischillingstück) — nach den Nomen — 2026-11-09
   'Zwiebel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemüse / Blumenzwiebel / ugs.: Haarknoten, alte Taschenuhr) — nach den Nomen — 2026-11-09
   'Zwilling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zwillingskind / Sternzeichen «die Zwillinge» / Zwillingsflinte) — nach den Nomen — 2026-11-09
+  'Zwinger', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hundezwinger, Käfig / Teil einer Burg, Festungsanlage «der Dresdner Zwinger») — nach den Nomen — 2026-11-09
+  'Zwischenzeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «in der Zwischenzeit» = inzwischen / Sport: gemessene Teilzeit beim Rennen) — nach den Nomen — 2026-11-09
+  'Zyklus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kreislauf, regelmäßige Wiederkehr / Menstruationszyklus / Reihe zusammengehöriger Werke) — nach den Nomen — 2026-11-09
+  'Zylinder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: geometrischer Körper / Motorzylinder / hoher Herrenhut) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
