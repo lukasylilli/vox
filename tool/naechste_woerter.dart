@@ -5667,6 +5667,8 @@ const zurueckgestellt = <String>{
   'Wagen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auto / Eisenbahnwagen / Karren, Kutsche; Plural auch südd./österr. Wägen) — nach den Nomen — 2026-11-09
   'Wagenburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kreis aus Wagen zur Verteidigung / Siedlung aus Bauwagen; übertragen: Abschottung) — nach den Nomen — 2026-11-09
   'Waggon', // zurückgestellt: Plural doppelt (Waggons, österr. auch Waggone), Schreibung auch Wagon — Regel 14 — 2026-11-09
+  'Wahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstimmung, Election / Auswahl, Entscheidung / Qualität «erste Wahl») — nach den Nomen — 2026-11-09
+  'Wahlberechtigter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Wahlberechtigte, stark gebeugte Form) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

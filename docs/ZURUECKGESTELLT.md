@@ -5636,3 +5636,5 @@
 | 2898 | Wache | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wachdienst / Wachposten, Person / Polizeiwache) |
 | 2899 | Wagen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Auto / Eisenbahnwagen / Karren, Kutsche; Plural auch südd./österr. Wägen) |
 | 2900 | Wagenburg | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kreis aus Wagen zur Verteidigung / Siedlung aus Bauwagen; übertragen: Abschottung) |
+| 2901 | Wahl | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abstimmung, Election / Auswahl, Entscheidung / Qualität «erste Wahl») |
+| 2902 | Wahlberechtigter | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Wahlberechtigte, stark gebeugte Form) |
