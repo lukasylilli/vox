@@ -2923,6 +2923,8 @@
 | ۲۷۴۴ | Wender | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen (Bedeutung unsicher) — Regel 14 | — |
 | ۲۷۴۵ | Werbetrommel | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «die Werbetrommel rühren» — Regel 14 | — |
 | ۲۷۴۶ | Werder | `substantiv_singular_alle.txt` | 2026-11-09 | Flussinsel (regional) / Ortsname — Gebrauch unsicher — Regel 14/18 | — |
+| ۲۷۴۷ | Wertpapierhaus | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bank, Wertpapierfirma?) — Regel 14 | — |
+| ۲۷۴۸ | Westautobahn | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Autobahn (Österreich, A1) — Regel 18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5706,3 +5708,7 @@
 | 2938 | Werbung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Reklame / Werbeabteilung / das Werben um jemanden, Mitgliederwerbung) |
 | 2939 | Werfer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportler, der wirft / Waffe: Granatwerfer, Raketenwerfer) |
 | 2940 | Werk | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fabrik / Kunstwerk, Schrift / Tat, Arbeit / Uhrwerk) |
+| 2941 | Werkzeug | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gerät zum Arbeiten / Gesamtheit der Geräte / übertragen: Mittel, Instrument «ein Werkzeug der Macht») |
+| 2942 | Wert | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Preis, Geldwert / Bedeutung, Wichtigkeit «Wert legen auf» / Messwert / Plural: moralische Werte) |
+| 2943 | Wertung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Bewertung, Urteil / Sport: Punktwertung, Rangliste) |
+| 2944 | Wesen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lebewesen / Charakter, Art / das Wesentliche, Kern) |

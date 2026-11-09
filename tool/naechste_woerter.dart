@@ -5737,6 +5737,12 @@ const zurueckgestellt = <String>{
   'Werder', // zurückgestellt: Flussinsel (regional) / Ortsname — Gebrauch unsicher — Regel 14/18 — 2026-11-09
   'Werfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportler, der wirft / Waffe: Granatwerfer, Raketenwerfer) — nach den Nomen — 2026-11-09
   'Werk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fabrik / Kunstwerk, Schrift / Tat, Arbeit / Uhrwerk) — nach den Nomen — 2026-11-09
+  'Werkzeug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Arbeiten / Gesamtheit der Geräte / übertragen: Mittel, Instrument «ein Werkzeug der Macht») — nach den Nomen — 2026-11-09
+  'Wert', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Preis, Geldwert / Bedeutung, Wichtigkeit «Wert legen auf» / Messwert / Plural: moralische Werte) — nach den Nomen — 2026-11-09
+  'Wertpapierhaus', // zurückgestellt: Bedeutung unsicher (Bank, Wertpapierfirma?) — Regel 14 — 2026-11-09
+  'Wertung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewertung, Urteil / Sport: Punktwertung, Rangliste) — nach den Nomen — 2026-11-09
+  'Wesen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebewesen / Charakter, Art / das Wesentliche, Kern) — nach den Nomen — 2026-11-09
+  'Westautobahn', // zurückgestellt: Name einer Autobahn (Österreich, A1) — Regel 18 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
