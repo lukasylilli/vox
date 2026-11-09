@@ -5831,3 +5831,4 @@
 | 3026 | Zulassung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Erlaubnis, Zulassung zum Studium/zur Prüfung / Zulassung eines Kfz, Zulassungsschein / Zulassung eines Medikaments) |
 | 3027 | Zulauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Andrang, Zuspruch «großen Zulauf haben» / Technik: Zuflussleitung, zufließendes Wasser) |
 | 3028 | Zunge | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Organ im Mund / gehoben: Sprache «in fremden Zungen» / Seezunge, Fisch / Zunge am Schuh) |
+| 3029 | Zusammentreffen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Begegnung, Treffen / gleichzeitiges Eintreten «ein Zusammentreffen ungünstiger Umstände») |
