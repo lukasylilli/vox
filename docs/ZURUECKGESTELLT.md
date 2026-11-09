@@ -2888,6 +2888,9 @@
 | ۲۷۰۹ | Vorpommer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Einwohnerbezeichnung? Duden-Eintrag unklar) — Regel 14 | — |
 | ۲۷۱۰ | Vorschein | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «zum Vorschein kommen/bringen» — Regel 14 | — |
 | ۲۷۱۱ | Vorschub | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «Vorschub leisten»; sonst Technik (Vorschub einer Maschine) — Regel 14 | — |
+| ۲۷۱۲ | Votum | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Voten/Vota), meist gehoben/fachsprachlich — Regel 14 | — |
+| ۲۷۱۳ | Vox | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch als Nomen unsicher (lat. «Stimme»; sonst Sendername) — Regel 14 | — |
+| ۲۷۱۴ | Wachmann | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wachmänner/Wachleute); österr. auch veraltend für Polizist — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5626,3 +5629,6 @@
 | 2893 | Vorwahl | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Telefonvorwahl / Vorwahlen, Primaries) |
 | 2894 | Vorwort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorrede eines Buches, Pl. -e / österr. Grammatik: Präposition, Pl. -wörter) |
 | 2895 | Vorzeichen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Omen, Anzeichen / Mathematik: Plus-/Minuszeichen / Musik: Versetzungszeichen) |
+| 2896 | Vorzimmer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorraum eines Büros, Sekretariat / österr. Diele, Flur einer Wohnung) |
+| 2897 | Waage | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gerät zum Wiegen / Sternzeichen / Turnen: Standwaage) |
+| 2898 | Wache | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wachdienst / Wachposten, Person / Polizeiwache) |

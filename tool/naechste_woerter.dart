@@ -5657,6 +5657,12 @@ const zurueckgestellt = <String>{
   'Vorwahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Telefonvorwahl / Vorwahlen, Primaries) — nach den Nomen 2026-11-09
   'Vorwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrede eines Buches, Pl. -e / österr. Grammatik: Präposition, Pl. -wörter) — nach den Nomen 2026-11-09
   'Vorzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Omen, Anzeichen / Mathematik: Plus-/Minuszeichen / Musik: Versetzungszeichen) — nach den Nomen 2026-11-09
+  'Vorzimmer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorraum eines Büros, Sekretariat / österr. Diele, Flur einer Wohnung) — nach den Nomen — 2026-11-09
+  'Votum', // zurückgestellt: Plural doppelt (Voten/Vota), meist gehoben/fachsprachlich — Regel 14 — 2026-11-09
+  'Vox', // zurückgestellt: Bedeutung/Gebrauch als Nomen unsicher (lat. «Stimme»; sonst Sendername) — Regel 14 — 2026-11-09
+  'Waage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Wiegen / Sternzeichen / Turnen: Standwaage) — nach den Nomen — 2026-11-09
+  'Wache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wachdienst / Wachposten, Person / Polizeiwache) — nach den Nomen — 2026-11-09
+  'Wachmann', // zurückgestellt: Plural doppelt (Wachmänner/Wachleute); österr. auch veraltend für Polizist — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
