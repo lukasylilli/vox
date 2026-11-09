@@ -2948,6 +2948,11 @@
 | ۲۷۶۹ | Zehntausend | `substantiv_singular_alle.txt` | 2026-11-09 | Wortart/Gebrauch als Nomen unsicher (Zahlwort; «die oberen Zehntausend») — Regel 14 | — |
 | ۲۷۷۰ | Zeitlang | `substantiv_singular_alle.txt` | 2026-11-09 | alte Schreibung — heute «eine Zeit lang» (wie Stengel) | — |
 | ۲۷۷۱ | Zeller | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/Herkunftsname (z. B. Einwohner von Zell) — kein Nomen der Liste, Regel 14/18 | — |
+| ۲۷۷۲ | Zentimeter | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (der/das Zentimeter) | — |
+| ۲۷۷۳ | Zentralbankrat | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines Gremiums (früher Bundesbank, heute EZB-Rat) — Gebrauch heute unsicher, Regel 14/18 | — |
+| ۲۷۷۴ | Zentralinstitut | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in Namen von Einrichtungen («Zentralinstitut für …») — Regel 18 | — |
+| ۲۷۷۵ | Zentralrat | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur als Name («Zentralrat der Juden in Deutschland», «Zentralrat der Muslime») — Regel 18 | — |
+| ۲۷۷۶ | Zepter | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (das/der Zepter) | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5790,3 +5795,7 @@
 | 2997 | Zelle | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gefängniszelle / Körperzelle, Biologie / Telefonzelle / Batteriezelle / kleine Gruppe, z. B. Terrorzelle) |
 | 2998 | Zelten | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 2 (Homograph mit anderem Artikel: das Zelten «Camping» / südd., österr.: der Zelten «Früchtebrot, Kletzenbrot») |
 | 2999 | Zenit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Astronomie: Scheitelpunkt am Himmel / Höhepunkt «im Zenit seiner Karriere») |
+| 3000 | Zensur | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kontrolle/Verbot von Veröffentlichungen / Schulnote, Bewertung) |
+| 3001 | Zentner | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Deutschland: 50 kg / Österreich, Schweiz: 100 kg, «Meterzentner») |
+| 3002 | Zentrale | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Hauptsitz, Zentralstelle / Telefonzentrale, Vermittlung) |
+| 3003 | Zentralorgan | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: offizielle Zeitung einer Partei / zentrales Organ einer Organisation / Biologie: Zentralnervensystem, Organ) |

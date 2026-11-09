@@ -5821,6 +5821,15 @@ const zurueckgestellt = <String>{
   'Zeller', // zurückgestellt: Familienname/Herkunftsname (z. B. Einwohner von Zell) — kein Nomen der Liste, Regel 14/18 — 2026-11-09
   'Zelten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph mit anderem Artikel: das Zelten «Camping» / südd., österr.: der Zelten «Früchtebrot, Kletzenbrot») — nach den Nomen — 2026-11-09
   'Zenit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Astronomie: Scheitelpunkt am Himmel / Höhepunkt «im Zenit seiner Karriere») — nach den Nomen — 2026-11-09
+  'Zensur', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kontrolle/Verbot von Veröffentlichungen / Schulnote, Bewertung) — nach den Nomen — 2026-11-09
+  'Zentimeter', // zurückgestellt: Artikel doppelt (der/das Zentimeter) — 2026-11-09
+  'Zentner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Deutschland: 50 kg / Österreich, Schweiz: 100 kg, «Meterzentner») — nach den Nomen — 2026-11-09
+  'Zentralbankrat', // zurückgestellt: Name eines Gremiums (früher Bundesbank, heute EZB-Rat) — Gebrauch heute unsicher, Regel 14/18 — 2026-11-09
+  'Zentrale', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Hauptsitz, Zentralstelle / Telefonzentrale, Vermittlung) — nach den Nomen — 2026-11-09
+  'Zentralinstitut', // zurückgestellt: fast nur in Namen von Einrichtungen («Zentralinstitut für …») — Regel 18 — 2026-11-09
+  'Zentralorgan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offizielle Zeitung einer Partei / zentrales Organ einer Organisation / Biologie: Zentralnervensystem, Organ) — nach den Nomen — 2026-11-09
+  'Zentralrat', // zurückgestellt: fast nur als Name («Zentralrat der Juden in Deutschland», «Zentralrat der Muslime») — Regel 18 — 2026-11-09
+  'Zepter', // zurückgestellt: Artikel doppelt (das/der Zepter) — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
