@@ -2885,6 +2885,7 @@
 | ۲۷۰۶ | Voraussicht | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 | — |
 | ۲۷۰۷ | Vorderhand | `substantiv_singular_alle.txt` | 2026-11-09 | als Nomen unklar (Kartenspiel / Pferd); meist Adverb «vorderhand» — Regel 14 | — |
 | ۲۷۰۸ | Vorgriff | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «im Vorgriff auf» — Regel 14 | — |
+| ۲۷۰۹ | Vorpommer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Einwohnerbezeichnung? Duden-Eintrag unklar) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5601,3 +5602,8 @@
 | 2871 | Vorgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Urgeschichte, Prähistorie / Vorgeschichte eines Ereignisses / Medizin: Anamnese — wichtig für Pflege) |
 | 2872 | Vorhand | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Tennis-Schlag / Kartenspiel: wer zuerst ausspielt / Vorderbeine des Pferdes) |
 | 2873 | Vorkommen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Auftreten, Vorhandensein / Lagerstätte von Rohstoffen, z. B. Erdölvorkommen) |
+| 2874 | Vorlage | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Muster, Template / das Vorlegen eines Dokuments / Gesetzesvorlage / Sport: Torvorlage) |
+| 2875 | Vorlauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sport: Vorlauf, erste Runde / Vorlaufzeit / Heizung: Vorlauf) |
+| 2876 | Vorleistung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Leistung im Voraus / Wirtschaft: Vorleistungen, bezogene Güter) |
+| 2877 | Vormarsch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: militärisches Vorrücken / übertragen «auf dem Vormarsch sein» = sich ausbreiten) |
+| 2878 | Vorrang | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Priorität / österr. Verkehr: Vorfahrt) |

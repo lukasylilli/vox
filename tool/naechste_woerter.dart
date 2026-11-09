@@ -5632,6 +5632,12 @@ const zurueckgestellt = <String>{
   'Vorgriff', // zurückgestellt: fast nur in fester Wendung «im Vorgriff auf» — Regel 14 — 2026-11-09
   'Vorhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tennis-Schlag / Kartenspiel: wer zuerst ausspielt / Vorderbeine des Pferdes) — nach den Nomen 2026-11-09
   'Vorkommen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftreten, Vorhandensein / Lagerstätte von Rohstoffen, z. B. Erdölvorkommen) — nach den Nomen 2026-11-09
+  'Vorlage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Muster, Template / das Vorlegen eines Dokuments / Gesetzesvorlage / Sport: Torvorlage) — nach den Nomen 2026-11-09
+  'Vorlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sport: Vorlauf, erste Runde / Vorlaufzeit / Heizung: Vorlauf) — nach den Nomen 2026-11-09
+  'Vorleistung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leistung im Voraus / Wirtschaft: Vorleistungen, bezogene Güter) — nach den Nomen 2026-11-09
+  'Vormarsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärisches Vorrücken / übertragen «auf dem Vormarsch sein» = sich ausbreiten) — nach den Nomen 2026-11-09
+  'Vorpommer', // zurückgestellt: Bedeutung/Gebrauch unsicher (Einwohnerbezeichnung? Duden-Eintrag unklar) — Regel 14 — 2026-11-09
+  'Vorrang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Priorität / österr. Verkehr: Vorfahrt) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
