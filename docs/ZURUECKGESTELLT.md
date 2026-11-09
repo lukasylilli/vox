@@ -5843,3 +5843,9 @@
 | 3035 | Zwanzig | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Zehn, Vier: Ziffer 20 / ugs.: Zwanzigeuroschein, Straßenbahn-/Buslinie 20) |
 | 3036 | Zwecke | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 2 (Homograph: die Zwecke «Reißzwecke, Nagel» ≠ Plural «die Zwecke» von «der Zweck») |
 | 3037 | Zwei | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Zehn, Vier: Ziffer 2 / Schulnote 2 / Würfel, Spielkarte / Straßenbahn-/Buslinie 2) |
+| 3038 | Zweier | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ziffer/Schulnote 2 / Zweierboot beim Rudern / ugs.: Zweiergruppe, Paar) |
+| 3039 | Zweiteiler | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: zweiteiliger Badeanzug, Bikini / zweiteiliges Kleid, Anzug / Film in zwei Teilen) |
+| 3040 | Zwerg | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Märchenfigur, Gartenzwerg / oft abwertend: sehr kleiner Mensch / bildlich: Kleinstaat, kleine Firma) |
+| 3041 | Zwickel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: keilförmiges Stoffstück / Architektur: Gewölbezwickel / bair.-österr. ugs.: Zwei-Euro-Münze, früher Zweischillingstück) |
+| 3042 | Zwiebel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gemüse / Blumenzwiebel / ugs.: Haarknoten, alte Taschenuhr) |
+| 3043 | Zwilling | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zwillingskind / Sternzeichen «die Zwillinge» / Zwillingsflinte) |

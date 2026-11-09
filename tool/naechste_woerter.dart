@@ -5874,6 +5874,12 @@ const zurueckgestellt = <String>{
   'Zwanzig', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Zehn, Vier: Ziffer 20 / ugs.: Zwanzigeuroschein, Straßenbahn-/Buslinie 20) — nach den Nomen — 2026-11-09
   'Zwecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Zwecke «Reißzwecke, Nagel» ≠ Plural «die Zwecke» von «der Zweck») — nach den Nomen — 2026-11-09
   'Zwei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Zehn, Vier: Ziffer 2 / Schulnote 2 / Würfel, Spielkarte / Straßenbahn-/Buslinie 2) — nach den Nomen — 2026-11-09
+  'Zweier', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ziffer/Schulnote 2 / Zweierboot beim Rudern / ugs.: Zweiergruppe, Paar) — nach den Nomen — 2026-11-09
+  'Zweiteiler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zweiteiliger Badeanzug, Bikini / zweiteiliges Kleid, Anzug / Film in zwei Teilen) — nach den Nomen — 2026-11-09
+  'Zwerg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Märchenfigur, Gartenzwerg / oft abwertend: sehr kleiner Mensch / bildlich: Kleinstaat, kleine Firma) — nach den Nomen — 2026-11-09
+  'Zwickel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: keilförmiges Stoffstück / Architektur: Gewölbezwickel / bair.-österr. ugs.: Zwei-Euro-Münze, früher Zweischillingstück) — nach den Nomen — 2026-11-09
+  'Zwiebel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gemüse / Blumenzwiebel / ugs.: Haarknoten, alte Taschenuhr) — nach den Nomen — 2026-11-09
+  'Zwilling', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zwillingskind / Sternzeichen «die Zwillinge» / Zwillingsflinte) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
