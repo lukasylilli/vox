@@ -5669,6 +5669,7 @@ const zurueckgestellt = <String>{
   'Waggon', // zurückgestellt: Plural doppelt (Waggons, österr. auch Waggone), Schreibung auch Wagon — Regel 14 — 2026-11-09
   'Wahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstimmung, Election / Auswahl, Entscheidung / Qualität «erste Wahl») — nach den Nomen — 2026-11-09
   'Wahlberechtigter', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Wahlberechtigte, stark gebeugte Form) — nach den Nomen — 2026-11-09
+  'Wahlrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht zu wählen / Gesamtheit der Vorschriften über Wahlen) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
