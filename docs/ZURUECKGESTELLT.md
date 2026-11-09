@@ -2916,6 +2916,7 @@
 | ۲۷۳۷ | Weltgesundheitsorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (WHO) — Regel 18 | — |
 | ۲۷۳۸ | Weltgruppe | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Sport: höchste Gruppe, z. B. Davis Cup) — Regel 14 | — |
 | ۲۷۳۹ | Welthandelsorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (WTO) — Regel 18 | — |
+| ۲۷۴۰ | Weltorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | meist Teil von Organisationsnamen (UNO, WHO), allgemeine Bedeutung unsicher — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5692,3 +5693,4 @@
 | 2931 | Welt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Erde / alle Menschen «die ganze Welt» / Lebensbereich «die Welt des Sports») |
 | 2932 | Weltcup | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wettbewerbsserie / Pokal als Preis) |
 | 2933 | Weltgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geschichte der Menschheit / ugs. scherzhaft «Welt»: in der Weltgeschichte herumreisen) |
+| 2934 | Weltranglistenerste | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Weltranglistenerste) |

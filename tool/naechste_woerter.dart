@@ -5723,6 +5723,8 @@ const zurueckgestellt = <String>{
   'Weltgesundheitsorganisation', // zurückgestellt: Name einer Organisation (WHO) — Regel 18 — 2026-11-09
   'Weltgruppe', // zurückgestellt: Bedeutung unsicher (Sport: höchste Gruppe, z. B. Davis Cup) — Regel 14 — 2026-11-09
   'Welthandelsorganisation', // zurückgestellt: Name einer Organisation (WTO) — Regel 18 — 2026-11-09
+  'Weltorganisation', // zurückgestellt: meist Teil von Organisationsnamen (UNO, WHO), allgemeine Bedeutung unsicher — Regel 14/18 — 2026-11-09
+  'Weltranglistenerste', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Weltranglistenerste) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
