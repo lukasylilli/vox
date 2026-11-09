@@ -5617,6 +5617,10 @@ const zurueckgestellt = <String>{
   'Vollstrecker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: wer ein Urteil/Testament vollstreckt / Sport: Torschütze) — nach den Nomen 2026-11-09
   'Volltreffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: direkter Treffer / ugs. großer Erfolg) — nach den Nomen 2026-11-09
   'Volumen', // zurückgestellt: Plural doppelt (Volumen/Volumina), mehrere Bedeutungen (Rauminhalt / Umfang, Menge / Buchband) — Regel 14 — 2026-11-09
+  'Voodoo', // zurückgestellt: Schreibung/Artikel unsicher (der Voodoo, auch Wodu/Vodou) — Regel 14 — 2026-11-09
+  'Voranschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostenvoranschlag, Schätzung / österr. Budget, Haushaltsplan) — nach den Nomen 2026-11-09
+  'Voraussicht', // zurückgestellt: fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 — 2026-11-09
+  'Vorbehalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bedenken, Zweifel / Einschränkung, Bedingung «unter Vorbehalt») — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

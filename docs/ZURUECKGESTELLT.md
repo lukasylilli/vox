@@ -2881,6 +2881,8 @@
 | ۲۷۰۲ | Volkssport | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Volkssporte?/Volkssportarten), oft ironisch übertragen — Regel 14 | — |
 | ۲۷۰۳ | Volley | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in «aus dem Volley/volley» (Sport), Gebrauch als Nomen unsicher — Regel 14 | — |
 | ۲۷۰۴ | Volumen | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Volumen/Volumina), mehrere Bedeutungen (Rauminhalt / Umfang, Menge / Buchband) — Regel 14 | — |
+| ۲۷۰۵ | Voodoo | `substantiv_singular_alle.txt` | 2026-11-09 | Schreibung/Artikel unsicher (der Voodoo, auch Wodu/Vodou) — Regel 14 | — |
+| ۲۷۰۶ | Voraussicht | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5586,3 +5588,5 @@
 | 2860 | Volleyball | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportart / der Ball — wie Handball, Basketball) |
 | 2861 | Vollstrecker | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: wer ein Urteil/Testament vollstreckt / Sport: Torschütze) |
 | 2862 | Volltreffer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: direkter Treffer / ugs. großer Erfolg) |
+| 2863 | Voranschlag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kostenvoranschlag, Schätzung / österr. Budget, Haushaltsplan) |
+| 2864 | Vorbehalt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Bedenken, Zweifel / Einschränkung, Bedingung «unter Vorbehalt») |
