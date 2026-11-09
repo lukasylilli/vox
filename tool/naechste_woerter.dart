@@ -5774,6 +5774,8 @@ const zurueckgestellt = <String>{
   'Wirtschaftsraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Raum für Hausarbeit, z. B. Waschküche / wirtschaftlich verbundenes Gebiet, z. B. Europäischer Wirtschaftsraum) — nach den Nomen — 2026-11-09
   'Wirtschaftsressort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuständigkeitsbereich Wirtschaft in Regierung, Ministerium / Wirtschaftsteil einer Zeitungsredaktion) — nach den Nomen — 2026-11-09
   'Wirtschaftstreibender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) — nach den Nomen — 2026-11-09
+  'Wischer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs. Scheibenwischer / Zeichnen: Wischstift / Putzgerät, Wischmopp) — nach den Nomen — 2026-11-09
+  'Witterung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wetter, Wetterlage / Jägersprache: Geruch, «Witterung aufnehmen») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

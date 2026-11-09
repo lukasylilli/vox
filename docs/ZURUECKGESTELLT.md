@@ -5743,3 +5743,5 @@
 | 2967 | Wirtschaftsraum | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Raum für Hausarbeit, z. B. Waschküche / wirtschaftlich verbundenes Gebiet, z. B. Europäischer Wirtschaftsraum) |
 | 2968 | Wirtschaftsressort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zuständigkeitsbereich Wirtschaft in Regierung, Ministerium / Wirtschaftsteil einer Zeitungsredaktion) |
 | 2969 | Wirtschaftstreibender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) |
+| 2970 | Wischer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: ugs. Scheibenwischer / Zeichnen: Wischstift / Putzgerät, Wischmopp) |
+| 2971 | Witterung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wetter, Wetterlage / Jägersprache: Geruch, «Witterung aufnehmen») |

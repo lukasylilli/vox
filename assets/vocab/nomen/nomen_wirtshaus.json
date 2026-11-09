@@ -1,0 +1,138 @@
+{
+  "schema": "3.0",
+  "id": "nomen_wirtshaus",
+  "wort": "das Wirtshaus",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مهمان‌خانه",
+      "میخانه‌ی سنتی",
+      "رستوران سنتی"
+    ],
+    "en": [
+      "inn",
+      "pub",
+      "tavern"
+    ]
+  },
+  "bedeutungen": null,
+  "niveau": "B2",
+  "themen": [
+    "Essen",
+    "Freizeit"
+  ],
+  "ipa": "ˈvɪʁt͡sˌhaʊ̯s",
+  "anmerkung": "Besonders in Süddeutschland und Österreich gebräuchlich.",
+  "berufe": [
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir essen heute im Wirtshaus.",
+      "uebersetzung": {
+        "fa": "امروز در رستوران سنتی غذا می‌خوریم.",
+        "en": "We are eating at the inn today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Wirtshaus am Dorfplatz gibt es jeden Sonntag Schweinsbraten mit Knödeln.",
+      "uebersetzung": {
+        "fa": "در مهمان‌خانه‌ی میدان روستا هر یکشنبه گوشت خوک بریان با کوفته‌ی سیب‌زمینی هست.",
+        "en": "At the inn on the village square, there is roast pork with dumplings every Sunday."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Gasthaus",
+      "uebersetzung": {
+        "fa": "مهمان‌خانه",
+        "en": "inn"
+      }
+    },
+    {
+      "wort": "die Kneipe",
+      "uebersetzung": {
+        "fa": "میخانه",
+        "en": "pub"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Wirt (صاحب میخانه) + -s- + Haus (خانه)",
+    "en": "Wirt (landlord) + -s- + Haus (house)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Wirtshäuser",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Gasthaus",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهمان‌خانه",
+          "en": "inn"
+        },
+        "id_ref": "nomen_gasthaus"
+      },
+      {
+        "wort": "der Gasthof",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهمان‌خانه",
+          "en": "inn"
+        },
+        "id_ref": "nomen_gasthof"
+      },
+      {
+        "wort": "die Kneipe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "میخانه",
+          "en": "pub"
+        },
+        "id_ref": "nomen_kneipe"
+      },
+      {
+        "wort": "der Stammtisch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "میز ثابت دوستان در میخانه",
+          "en": "regulars’ table"
+        },
+        "id_ref": "nomen_stammtisch"
+      },
+      {
+        "wort": "das Bier",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آبجو",
+          "en": "beer"
+        },
+        "id_ref": "nomen_bier"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
