@@ -2957,6 +2957,7 @@
 | ۲۷۷۸ | Zeughaus | `substantiv_singular_alle.txt` | 2026-11-09 | historisch (Waffenlager); heute fast nur in Namen von Gebäuden/Museen — Regel 14/18 | — |
 | ۲۷۷۹ | Ziegler | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/veraltete Berufsbezeichnung — Regel 14/18 | — |
 | ۲۷۸۰ | Ziemer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 | — |
+| ۲۷۸۱ | Zivil | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5812,3 +5813,6 @@
 | 3010 | Zielscheibe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Scheibe beim Schießen / bildlich: Ziel von Spott, Kritik) |
 | 3011 | Ziffer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zahlzeichen / nummerierter Abschnitt in Verträgen, Gesetzen «Ziffer 3») |
 | 3012 | Zins | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: meist Plural «Zinsen» für Geld / südd., österr., schweiz.: Miete, Mietzins) |
+| 3013 | Zipfel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ende, Spitze eines Tuchs, Wurstzipfel / ugs., bes. österr.: vulgär für Penis; Schimpfwort) |
+| 3014 | Zirkel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gerät zum Kreiszeichnen / Kreis von Personen, Gesprächskreis «Lesezirkel») |
+| 3015 | Zirkus | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zirkusunternehmen, Vorstellung / ugs.: Trubel, Aufregung «Mach keinen Zirkus!») |

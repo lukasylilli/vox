@@ -5843,6 +5843,10 @@ const zurueckgestellt = <String>{
   'Ziemer', // zurückgestellt: Bedeutung unsicher (Jägersprache: Rückenstück des Wildes / Ochsenziemer / Familienname) — Regel 14 — 2026-11-09
   'Ziffer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zahlzeichen / nummerierter Abschnitt in Verträgen, Gesetzen «Ziffer 3») — nach den Nomen — 2026-11-09
   'Zins', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: meist Plural «Zinsen» für Geld / südd., österr., schweiz.: Miete, Mietzins) — nach den Nomen — 2026-11-09
+  'Zipfel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ende, Spitze eines Tuchs, Wurstzipfel / ugs., bes. österr.: vulgär für Penis; Schimpfwort) — nach den Nomen — 2026-11-09
+  'Zirkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Kreiszeichnen / Kreis von Personen, Gesprächskreis «Lesezirkel») — nach den Nomen — 2026-11-09
+  'Zirkus', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zirkusunternehmen, Vorstellung / ugs.: Trubel, Aufregung «Mach keinen Zirkus!») — nach den Nomen — 2026-11-09
+  'Zivil', // zurückgestellt: fast nur in fester Wendung «in Zivil» (Zivilkleidung) — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
