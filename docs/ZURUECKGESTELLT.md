@@ -2925,6 +2925,8 @@
 | ۲۷۴۶ | Werder | `substantiv_singular_alle.txt` | 2026-11-09 | Flussinsel (regional) / Ortsname — Gebrauch unsicher — Regel 14/18 | — |
 | ۲۷۴۷ | Wertpapierhaus | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bank, Wertpapierfirma?) — Regel 14 | — |
 | ۲۷۴۸ | Westautobahn | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Autobahn (Österreich, A1) — Regel 18 | — |
+| ۲۷۴۹ | Westler | `substantiv_singular_alle.txt` | 2026-11-09 | ugs., oft wertend (DDR-Zeit / Ost-West-Gegensatz); Gebrauch und Ton unsicher — Regel 14/17 | — |
+| ۲۷۵۰ | Westniveau | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen; Bedeutung unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5712,3 +5714,5 @@
 | 2942 | Wert | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Preis, Geldwert / Bedeutung, Wichtigkeit «Wert legen auf» / Messwert / Plural: moralische Werte) |
 | 2943 | Wertung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Bewertung, Urteil / Sport: Punktwertung, Rangliste) |
 | 2944 | Wesen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lebewesen / Charakter, Art / das Wesentliche, Kern) |
+| 2945 | Westen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung / westlicher Teil eines Landes / Politik: Westeuropa und Nordamerika «der Westen») |
+| 2946 | Wettbewerb | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wettkampf, Preisausschreiben / Wirtschaft: Konkurrenz) |

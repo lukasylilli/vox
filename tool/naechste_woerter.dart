@@ -5743,6 +5743,10 @@ const zurueckgestellt = <String>{
   'Wertung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bewertung, Urteil / Sport: Punktwertung, Rangliste) — nach den Nomen — 2026-11-09
   'Wesen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebewesen / Charakter, Art / das Wesentliche, Kern) — nach den Nomen — 2026-11-09
   'Westautobahn', // zurückgestellt: Name einer Autobahn (Österreich, A1) — Regel 18 — 2026-11-09
+  'Westen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Himmelsrichtung / westlicher Teil eines Landes / Politik: Westeuropa und Nordamerika «der Westen») — nach den Nomen — 2026-11-09
+  'Westler', // zurückgestellt: ugs., oft wertend (DDR-Zeit / Ost-West-Gegensatz); Gebrauch und Ton unsicher — Regel 14/17 — 2026-11-09
+  'Westniveau', // zurückgestellt: kein gebräuchliches Nomen; Bedeutung unsicher — Regel 14 — 2026-11-09
+  'Wettbewerb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wettkampf, Preisausschreiben / Wirtschaft: Konkurrenz) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
