@@ -5613,3 +5613,10 @@
 | 2880 | Vorsitzende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Vorsitzende) |
 | 2881 | Vorsitzender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorsitzende») |
 | 2882 | Vorsorge | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorkehrung, Vorbeugung / Altersvorsorge, finanzielle Absicherung / ugs. Vorsorgeuntersuchung) |
+| 2883 | Vorspann | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Film: Vorspann, Titel am Anfang / Zugtiere, die zusätzlich vorgespannt werden / Einleitung eines Textes) |
+| 2884 | Vorspiel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Musik: Präludium / Vorspielen bei einer Aufnahmeprüfung / Liebesspiel / Vorgeschichte) |
+| 2885 | Vorsprung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abstand, Vorteil vor anderen / vorspringender Teil, z. B. Felsvorsprung) |
+| 2886 | Vorstand | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Firma, eines Vereins / Mitglied, Leiter; österr. auch Vorstand einer Abteilung) |
+| 2887 | Vorstandsvorsitzende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Vorstandsvorsitzende) |
+| 2888 | Vorstandsvorsitzender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorstandsvorsitzende») |
+| 2889 | Vorstellung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Idee, Bild im Kopf / Aufführung im Theater, Kino / das Sich-Vorstellen, Bewerbungsgespräch) |

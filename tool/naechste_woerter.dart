@@ -5644,6 +5644,13 @@ const zurueckgestellt = <String>{
   'Vorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vorsitzende) — nach den Nomen 2026-11-09
   'Vorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorsitzende») — nach den Nomen 2026-11-09
   'Vorsorge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorkehrung, Vorbeugung / Altersvorsorge, finanzielle Absicherung / ugs. Vorsorgeuntersuchung) — nach den Nomen 2026-11-09
+  'Vorspann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Film: Vorspann, Titel am Anfang / Zugtiere, die zusätzlich vorgespannt werden / Einleitung eines Textes) — nach den Nomen 2026-11-09
+  'Vorspiel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Musik: Präludium / Vorspielen bei einer Aufnahmeprüfung / Liebesspiel / Vorgeschichte) — nach den Nomen 2026-11-09
+  'Vorsprung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abstand, Vorteil vor anderen / vorspringender Teil, z. B. Felsvorsprung) — nach den Nomen 2026-11-09
+  'Vorstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Leitungsgremium einer Firma, eines Vereins / Mitglied, Leiter; österr. auch Vorstand einer Abteilung) — nach den Nomen 2026-11-09
+  'Vorstandsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vorstandsvorsitzende) — nach den Nomen 2026-11-09
+  'Vorstandsvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorstandsvorsitzende») — nach den Nomen 2026-11-09
+  'Vorstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Idee, Bild im Kopf / Aufführung im Theater, Kino / das Sich-Vorstellen, Bewerbungsgespräch) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
