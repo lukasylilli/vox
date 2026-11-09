@@ -5852,6 +5852,12 @@ const zurueckgestellt = <String>{
   'Zuber', // zurückgestellt: landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 — 2026-11-09
   'Zubringer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zubringerstraße zur Autobahn / Zubringerbus, Shuttle / Technik: Zuführeinrichtung) — nach den Nomen — 2026-11-09
   'Zucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Züchtung von Tieren/Pflanzen / veraltend: Disziplin «Zucht und Ordnung») — nach den Nomen — 2026-11-09
+  'Zucker', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lebensmittel / ugs.: Diabetes «Zucker haben», Blutzucker / Chemie: Zuckerarten) — nach den Nomen — 2026-11-09
+  'Zugabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: zusätzliches Stück beim Konzert «Zugabe!» / das Hinzufügen beim Kochen / kostenlose Beigabe) — nach den Nomen — 2026-11-09
+  'Zugang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Eingang, Weg / Zugriff, Recht auf Nutzung / Medizin: venöser Zugang / Neuzugang, Neuaufnahme) — nach den Nomen — 2026-11-09
+  'Zugpferd', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pferd, das zieht / bildlich: Person oder Sache, die Publikum anzieht) — nach den Nomen — 2026-11-09
+  'Zugriff', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: EDV: Zugriff auf Daten / polizeilich: Festnahme, Zugreifen) — nach den Nomen — 2026-11-09
+  'Zukunft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: kommende Zeit / Grammatik: Futur) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

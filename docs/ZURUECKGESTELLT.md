@@ -5821,3 +5821,9 @@
 | 3017 | Zopf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: geflochtenes Haar / Hefezopf, Gebäck / bildlich: «alter Zopf» = veraltete Sache) |
 | 3018 | Zubringer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zubringerstraße zur Autobahn / Zubringerbus, Shuttle / Technik: Zuführeinrichtung) |
 | 3019 | Zucht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Züchtung von Tieren/Pflanzen / veraltend: Disziplin «Zucht und Ordnung») |
+| 3020 | Zucker | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lebensmittel / ugs.: Diabetes «Zucker haben», Blutzucker / Chemie: Zuckerarten) |
+| 3021 | Zugabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: zusätzliches Stück beim Konzert «Zugabe!» / das Hinzufügen beim Kochen / kostenlose Beigabe) |
+| 3022 | Zugang | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Eingang, Weg / Zugriff, Recht auf Nutzung / Medizin: venöser Zugang / Neuzugang, Neuaufnahme) |
+| 3023 | Zugpferd | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pferd, das zieht / bildlich: Person oder Sache, die Publikum anzieht) |
+| 3024 | Zugriff | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: EDV: Zugriff auf Daten / polizeilich: Festnahme, Zugreifen) |
+| 3025 | Zukunft | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: kommende Zeit / Grammatik: Futur) |
