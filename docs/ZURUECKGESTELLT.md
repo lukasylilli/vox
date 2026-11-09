@@ -5720,3 +5720,9 @@
 | 2947 | Wetterfrosch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Laubfrosch im Glas / ugs. scherzhaft: Meteorologe) |
 | 2948 | Wettlauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lauf um die Wette / übertragen «Wettlauf gegen die Zeit») |
 | 2949 | Widder | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: männliches Schaf / Sternzeichen) |
+| 2950 | Widerspruch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gegensätzlichkeit / Einwand, Einspruch — Recht: «Widerspruch einlegen») |
+| 2951 | Widerstand | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gegenwehr / Physik: elektrischer Widerstand, Bauteil) |
+| 2952 | Wiederaufnahme | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fortsetzung einer Tätigkeit / erneute Aufnahme in eine Gruppe / Recht: Wiederaufnahme des Verfahrens) |
+| 2953 | Wiederbelebung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Medizin: Reanimation / übertragen: Wiederaufleben, z. B. der Wirtschaft) |
+| 2954 | Wiedergabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abspielen von Ton/Bild / Wiedergeben eines Textes, Darstellung / Reproduktion eines Bildes) |
+| 2955 | Wiedergeburt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Reinkarnation / religiös: geistige Erneuerung / übertragen: Wiederaufleben) |

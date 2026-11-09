@@ -5751,6 +5751,12 @@ const zurueckgestellt = <String>{
   'Wettlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lauf um die Wette / übertragen «Wettlauf gegen die Zeit») — nach den Nomen — 2026-11-09
   'Widder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: männliches Schaf / Sternzeichen) — nach den Nomen — 2026-11-09
   'Widerpart', // zurückgestellt: gehoben, meist in festen Wendungen («Widerpart bieten»); Plural unsicher — Regel 14 — 2026-11-09
+  'Widerspruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegensätzlichkeit / Einwand, Einspruch — Recht: «Widerspruch einlegen») — nach den Nomen — 2026-11-09
+  'Widerstand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gegenwehr / Physik: elektrischer Widerstand, Bauteil) — nach den Nomen — 2026-11-09
+  'Wiederaufnahme', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fortsetzung einer Tätigkeit / erneute Aufnahme in eine Gruppe / Recht: Wiederaufnahme des Verfahrens) — nach den Nomen — 2026-11-09
+  'Wiederbelebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Reanimation / übertragen: Wiederaufleben, z. B. der Wirtschaft) — nach den Nomen — 2026-11-09
+  'Wiedergabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abspielen von Ton/Bild / Wiedergeben eines Textes, Darstellung / Reproduktion eines Bildes) — nach den Nomen — 2026-11-09
+  'Wiedergeburt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reinkarnation / religiös: geistige Erneuerung / übertragen: Wiederaufleben) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
