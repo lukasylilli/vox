@@ -5697,6 +5697,13 @@ const zurueckgestellt = <String>{
   'Wechsler', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geldwechsler, Person / Automat für Münzen / CD-Wechsler) — nach den Nomen — 2026-11-09
   'Wedel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Staubwedel / Palmwedel / Jägersprache: Schwanz beim Wild) — nach den Nomen — 2026-11-09
   'Weg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Pfad, Straße / Strecke, Route / Methode, Mittel «auf diesem Weg») — nach den Nomen — 2026-11-09
+  'Wehrmacht', // zurückgestellt: Name der deutschen Streitkräfte 1935–1945 (historischer Eigenname); allgemeine Bedeutung «Streitkräfte» veraltet — Regel 14/18 — 2026-11-09
+  'Wehrmann', // zurückgestellt: schweiz. für Soldat bzw. historisch; Gebrauch unsicher — Regel 14 — 2026-11-09
+  'Weib', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: veraltet/landschaftlich «Frau» / abwertend «Frau» / veraltet «Ehefrau») — nach den Nomen — 2026-11-09
+  'Weibchen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: weibliches Tier / abwertend: Frau als Sexualobjekt) — nach den Nomen — 2026-11-09
+  'Weibel', // zurückgestellt: schweiz. (Amtsdiener, Unteroffizier); Bedeutung/Gebrauch unsicher — Regel 14 — 2026-11-09
+  'Weiblichkeit', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Weiblichsein / scherzhaft: alle Frauen) — nach den Nomen — 2026-11-09
+  'Weichenstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Stellen der Eisenbahnweiche / übertragen: Richtungsentscheidung) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

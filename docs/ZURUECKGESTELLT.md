@@ -2905,6 +2905,9 @@
 | ۲۷۲۶ | Wasser | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wasser/Wässer, je nach Bedeutung) — Regel 14; häufiges Wort, Entscheidung Lukas | — |
 | ۲۷۲۷ | Wasserspiel | `substantiv_singular_alle.txt` | 2026-11-09 | meist Plural «Wasserspiele» (Springbrunnenanlage); Bedeutung im Singular unsicher — Regel 14 | — |
 | ۲۷۲۸ | Waterloo | `substantiv_singular_alle.txt` | 2026-11-09 | Ortsname, meist übertragen «sein Waterloo erleben» (vernichtende Niederlage) — Regel 14/18 | — |
+| ۲۷۲۹ | Wehrmacht | `substantiv_singular_alle.txt` | 2026-11-09 | Name der deutschen Streitkräfte 1935–1945 (historischer Eigenname); allgemeine Bedeutung «Streitkräfte» veraltet — Regel 14/18 | — |
+| ۲۷۳۰ | Wehrmann | `substantiv_singular_alle.txt` | 2026-11-09 | schweiz. für Soldat bzw. historisch; Gebrauch unsicher — Regel 14 | — |
+| ۲۷۳۱ | Weibel | `substantiv_singular_alle.txt` | 2026-11-09 | schweiz. (Amtsdiener, Unteroffizier); Bedeutung/Gebrauch unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5666,3 +5669,7 @@
 | 2916 | Wechsler | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geldwechsler, Person / Automat für Münzen / CD-Wechsler) |
 | 2917 | Wedel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Staubwedel / Palmwedel / Jägersprache: Schwanz beim Wild) |
 | 2918 | Weg | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pfad, Straße / Strecke, Route / Methode, Mittel «auf diesem Weg») |
+| 2919 | Weib | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: veraltet/landschaftlich «Frau» / abwertend «Frau» / veraltet «Ehefrau») |
+| 2920 | Weibchen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: weibliches Tier / abwertend: Frau als Sexualobjekt) |
+| 2921 | Weiblichkeit | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Weiblichsein / scherzhaft: alle Frauen) |
+| 2922 | Weichenstellung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Stellen der Eisenbahnweiche / übertragen: Richtungsentscheidung) |
