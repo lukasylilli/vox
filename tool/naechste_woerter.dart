@@ -5830,6 +5830,12 @@ const zurueckgestellt = <String>{
   'Zentralorgan', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: offizielle Zeitung einer Partei / zentrales Organ einer Organisation / Biologie: Zentralnervensystem, Organ) — nach den Nomen — 2026-11-09
   'Zentralrat', // zurückgestellt: fast nur als Name («Zentralrat der Juden in Deutschland», «Zentralrat der Muslime») — Regel 18 — 2026-11-09
   'Zepter', // zurückgestellt: Artikel doppelt (das/der Zepter) — 2026-11-09
+  'Zero', // zurückgestellt: Anglizismus; Bedeutung/Gebrauch als deutsches Nomen unsicher — Regel 14 — 2026-11-09
+  'Zeug', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: ugs.: Sachen, Kram / Unsinn «dummes Zeug» / Fähigkeit «das Zeug zu etwas haben» / veraltet: Stoff, Werkzeug) — nach den Nomen — 2026-11-09
+  'Zeughaus', // zurückgestellt: historisch (Waffenlager); heute fast nur in Namen von Gebäuden/Museen — Regel 14/18 — 2026-11-09
+  'Zeugnis', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Schulzeugnis / Arbeitszeugnis / Bescheinigung, Gutachten / gehoben: Beweis «Zeugnis ablegen») — nach den Nomen — 2026-11-09
+  'Ziege', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Haustier / ugs. abwertend: Schimpfwort für eine Frau «blöde Ziege») — nach den Nomen — 2026-11-09
+  'Ziegler', // zurückgestellt: Familienname/veraltete Berufsbezeichnung — Regel 14/18 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

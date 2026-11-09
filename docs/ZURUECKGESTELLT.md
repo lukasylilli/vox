@@ -2953,6 +2953,9 @@
 | ۲۷۷۴ | Zentralinstitut | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in Namen von Einrichtungen («Zentralinstitut für …») — Regel 18 | — |
 | ۲۷۷۵ | Zentralrat | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur als Name («Zentralrat der Juden in Deutschland», «Zentralrat der Muslime») — Regel 18 | — |
 | ۲۷۷۶ | Zepter | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (das/der Zepter) | — |
+| ۲۷۷۷ | Zero | `substantiv_singular_alle.txt` | 2026-11-09 | Anglizismus; Bedeutung/Gebrauch als deutsches Nomen unsicher — Regel 14 | — |
+| ۲۷۷۸ | Zeughaus | `substantiv_singular_alle.txt` | 2026-11-09 | historisch (Waffenlager); heute fast nur in Namen von Gebäuden/Museen — Regel 14/18 | — |
+| ۲۷۷۹ | Ziegler | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname/veraltete Berufsbezeichnung — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5799,3 +5802,6 @@
 | 3001 | Zentner | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Deutschland: 50 kg / Österreich, Schweiz: 100 kg, «Meterzentner») |
 | 3002 | Zentrale | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Hauptsitz, Zentralstelle / Telefonzentrale, Vermittlung) |
 | 3003 | Zentralorgan | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: offizielle Zeitung einer Partei / zentrales Organ einer Organisation / Biologie: Zentralnervensystem, Organ) |
+| 3004 | Zeug | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: ugs.: Sachen, Kram / Unsinn «dummes Zeug» / Fähigkeit «das Zeug zu etwas haben» / veraltet: Stoff, Werkzeug) |
+| 3005 | Zeugnis | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Schulzeugnis / Arbeitszeugnis / Bescheinigung, Gutachten / gehoben: Beweis «Zeugnis ablegen») |
+| 3006 | Ziege | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Haustier / ugs. abwertend: Schimpfwort für eine Frau «blöde Ziege») |
