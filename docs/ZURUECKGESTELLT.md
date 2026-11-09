@@ -2883,6 +2883,7 @@
 | ۲۷۰۴ | Volumen | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Volumen/Volumina), mehrere Bedeutungen (Rauminhalt / Umfang, Menge / Buchband) — Regel 14 | — |
 | ۲۷۰۵ | Voodoo | `substantiv_singular_alle.txt` | 2026-11-09 | Schreibung/Artikel unsicher (der Voodoo, auch Wodu/Vodou) — Regel 14 | — |
 | ۲۷۰۶ | Voraussicht | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 | — |
+| ۲۷۰۷ | Vorderhand | `substantiv_singular_alle.txt` | 2026-11-09 | als Nomen unklar (Kartenspiel / Pferd); meist Adverb «vorderhand» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5590,3 +5591,10 @@
 | 2862 | Volltreffer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: direkter Treffer / ugs. großer Erfolg) |
 | 2863 | Voranschlag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kostenvoranschlag, Schätzung / österr. Budget, Haushaltsplan) |
 | 2864 | Vorbehalt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Bedenken, Zweifel / Einschränkung, Bedingung «unter Vorbehalt») |
+| 2865 | Vordermann | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Person, die vor einem steht / Wendung «auf Vordermann bringen» = in Ordnung bringen) |
+| 2866 | Vorentscheidung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: vorläufige Entscheidung / Sport: Szene, die das Spiel praktisch entscheidet) |
+| 2867 | Vorfall | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ereignis, Zwischenfall / Medizin: Prolaps, z. B. Bandscheibenvorfall — wichtig für Pflege) |
+| 2868 | Vorfeld | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: «im Vorfeld» = vorher / Flughafen: Vorfeld, Abstellfläche) |
+| 2869 | Vorgabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Richtlinie, Zielvorgabe / Sport: Vorsprung, Handicap) |
+| 2870 | Vorgang | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ablauf, Prozess / Ereignis / Amtssprache: Akte, Vorgang) |
+| 2871 | Vorgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Urgeschichte, Prähistorie / Vorgeschichte eines Ereignisses / Medizin: Anamnese — wichtig für Pflege) |

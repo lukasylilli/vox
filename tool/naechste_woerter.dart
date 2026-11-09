@@ -5621,6 +5621,14 @@ const zurueckgestellt = <String>{
   'Voranschlag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kostenvoranschlag, Schätzung / österr. Budget, Haushaltsplan) — nach den Nomen 2026-11-09
   'Voraussicht', // zurückgestellt: fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 — 2026-11-09
   'Vorbehalt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Bedenken, Zweifel / Einschränkung, Bedingung «unter Vorbehalt») — nach den Nomen 2026-11-09
+  'Vordermann', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Person, die vor einem steht / Wendung «auf Vordermann bringen» = in Ordnung bringen) — nach den Nomen 2026-11-09
+  'Vorderhand', // zurückgestellt: als Nomen unklar (Kartenspiel / Pferd); meist Adverb «vorderhand» — Regel 14 — 2026-11-09
+  'Vorentscheidung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: vorläufige Entscheidung / Sport: Szene, die das Spiel praktisch entscheidet) — nach den Nomen 2026-11-09
+  'Vorfall', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ereignis, Zwischenfall / Medizin: Prolaps, z. B. Bandscheibenvorfall — wichtig für Pflege) — nach den Nomen 2026-11-09
+  'Vorfeld', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: «im Vorfeld» = vorher / Flughafen: Vorfeld, Abstellfläche) — nach den Nomen 2026-11-09
+  'Vorgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Richtlinie, Zielvorgabe / Sport: Vorsprung, Handicap) — nach den Nomen 2026-11-09
+  'Vorgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ablauf, Prozess / Ereignis / Amtssprache: Akte, Vorgang) — nach den Nomen 2026-11-09
+  'Vorgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urgeschichte, Prähistorie / Vorgeschichte eines Ereignisses / Medizin: Anamnese — wichtig für Pflege) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
