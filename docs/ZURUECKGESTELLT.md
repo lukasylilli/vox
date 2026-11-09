@@ -2934,6 +2934,7 @@
 | ۲۷۵۵ | Wohlgefallen | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, fast nur in fester Wendung «sich in Wohlgefallen auflösen» — Regel 14 | — |
 | ۲۷۵۶ | Wohnblock | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (die Wohnblocks / die Wohnblöcke) — wie Waggon, Entscheidung Lukas | — |
 | ۲۷۵۷ | Wood | `substantiv_singular_alle.txt` | 2026-11-09 | kein deutsches Nomen; Bedeutung/Gebrauch unsicher (Name, Anglizismus?) — Regel 14 | — |
+| ۲۷۵۸ | Wotan | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines germanischen Gottes (Personenname) — Regel 18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5756,3 +5757,5 @@
 | 2977 | Wohnbereich | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wohnteil einer Wohnung / Pflegeheim: Station, Abteilung «Wohnbereich 2») |
 | 2978 | Wohnraum | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zimmer zum Wohnen / ohne Plural: Wohnungen insgesamt «bezahlbarer Wohnraum») |
 | 2979 | Wohnungssuchende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Partizip: der/die Wohnungssuchende) |
+| 2980 | Wort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen mit eigenem Plural: einzelnes Wort, Pl. die Wörter / Äußerung, Zusage, Pl. die Worte «sein Wort halten») |
+| 2981 | Wucht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kraft, Schwung «mit voller Wucht» / ugs.: etwas Großartiges «eine Wucht» / landschaftlich: Menge, Prügel) |

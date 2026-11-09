@@ -5787,6 +5787,9 @@ const zurueckgestellt = <String>{
   'Wohnraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zimmer zum Wohnen / ohne Plural: Wohnungen insgesamt «bezahlbarer Wohnraum») — nach den Nomen — 2026-11-09
   'Wohnungssuchende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Partizip: der/die Wohnungssuchende) — nach den Nomen — 2026-11-09
   'Wood', // zurückgestellt: kein deutsches Nomen; Bedeutung/Gebrauch unsicher (Name, Anglizismus?) — Regel 14 — 2026-11-09
+  'Wort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen mit eigenem Plural: einzelnes Wort, Pl. die Wörter / Äußerung, Zusage, Pl. die Worte «sein Wort halten») — nach den Nomen — 2026-11-09
+  'Wotan', // zurückgestellt: Name eines germanischen Gottes (Personenname) — Regel 18 — 2026-11-09
+  'Wucht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kraft, Schwung «mit voller Wucht» / ugs.: etwas Großartiges «eine Wucht» / landschaftlich: Menge, Prügel) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
