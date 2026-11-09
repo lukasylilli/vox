@@ -5663,6 +5663,10 @@ const zurueckgestellt = <String>{
   'Waage', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gerät zum Wiegen / Sternzeichen / Turnen: Standwaage) — nach den Nomen — 2026-11-09
   'Wache', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wachdienst / Wachposten, Person / Polizeiwache) — nach den Nomen — 2026-11-09
   'Wachmann', // zurückgestellt: Plural doppelt (Wachmänner/Wachleute); österr. auch veraltend für Polizist — Regel 14 — 2026-11-09
+  'Wachzimmer', // zurückgestellt: österr. für Polizeidienststelle, heute meist «Polizeiinspektion» — Gebrauch/Markierung unsicher — Regel 14 — 2026-11-09
+  'Wagen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auto / Eisenbahnwagen / Karren, Kutsche; Plural auch südd./österr. Wägen) — nach den Nomen — 2026-11-09
+  'Wagenburg', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Kreis aus Wagen zur Verteidigung / Siedlung aus Bauwagen; übertragen: Abschottung) — nach den Nomen — 2026-11-09
+  'Waggon', // zurückgestellt: Plural doppelt (Waggons, österr. auch Waggone), Schreibung auch Wagon — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

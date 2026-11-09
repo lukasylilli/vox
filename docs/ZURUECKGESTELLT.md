@@ -2891,6 +2891,8 @@
 | ۲۷۱۲ | Votum | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Voten/Vota), meist gehoben/fachsprachlich — Regel 14 | — |
 | ۲۷۱۳ | Vox | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch als Nomen unsicher (lat. «Stimme»; sonst Sendername) — Regel 14 | — |
 | ۲۷۱۴ | Wachmann | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wachmänner/Wachleute); österr. auch veraltend für Polizist — Regel 14 | — |
+| ۲۷۱۵ | Wachzimmer | `substantiv_singular_alle.txt` | 2026-11-09 | österr. für Polizeidienststelle, heute meist «Polizeiinspektion» — Gebrauch/Markierung unsicher — Regel 14 | — |
+| ۲۷۱۶ | Waggon | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Waggons, österr. auch Waggone), Schreibung auch Wagon — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5632,3 +5634,5 @@
 | 2896 | Vorzimmer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorraum eines Büros, Sekretariat / österr. Diele, Flur einer Wohnung) |
 | 2897 | Waage | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gerät zum Wiegen / Sternzeichen / Turnen: Standwaage) |
 | 2898 | Wache | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wachdienst / Wachposten, Person / Polizeiwache) |
+| 2899 | Wagen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Auto / Eisenbahnwagen / Karren, Kutsche; Plural auch südd./österr. Wägen) |
+| 2900 | Wagenburg | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kreis aus Wagen zur Verteidigung / Siedlung aus Bauwagen; übertragen: Abschottung) |
