@@ -5661,3 +5661,8 @@
 | 2911 | Wasserball | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportart Wasserpolo / Ball zum Spielen im Wasser) |
 | 2912 | Wasserglas | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Trinkglas / Chemie: Natriumsilikat) |
 | 2913 | Wassermann | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sternzeichen / Wassergeist im Märchen) |
+| 2914 | Wechsel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Veränderung, Austausch / Geldwechsel / Wertpapier «Wechsel» / Jägersprache: Wildwechsel) |
+| 2915 | Wechselbad | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kneipp-Anwendung warm/kalt / übertragen «Wechselbad der Gefühle») |
+| 2916 | Wechsler | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geldwechsler, Person / Automat für Münzen / CD-Wechsler) |
+| 2917 | Wedel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Staubwedel / Palmwedel / Jägersprache: Schwanz beim Wild) |
+| 2918 | Weg | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pfad, Straße / Strecke, Route / Methode, Mittel «auf diesem Weg») |
