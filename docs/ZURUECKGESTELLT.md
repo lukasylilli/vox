@@ -2884,6 +2884,7 @@
 | ۲۷۰۵ | Voodoo | `substantiv_singular_alle.txt` | 2026-11-09 | Schreibung/Artikel unsicher (der Voodoo, auch Wodu/Vodou) — Regel 14 | — |
 | ۲۷۰۶ | Voraussicht | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in festen Wendungen («aller Voraussicht nach», «in weiser Voraussicht») — Regel 14 | — |
 | ۲۷۰۷ | Vorderhand | `substantiv_singular_alle.txt` | 2026-11-09 | als Nomen unklar (Kartenspiel / Pferd); meist Adverb «vorderhand» — Regel 14 | — |
+| ۲۷۰۸ | Vorgriff | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «im Vorgriff auf» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5598,3 +5599,5 @@
 | 2869 | Vorgabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Richtlinie, Zielvorgabe / Sport: Vorsprung, Handicap) |
 | 2870 | Vorgang | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ablauf, Prozess / Ereignis / Amtssprache: Akte, Vorgang) |
 | 2871 | Vorgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Urgeschichte, Prähistorie / Vorgeschichte eines Ereignisses / Medizin: Anamnese — wichtig für Pflege) |
+| 2872 | Vorhand | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Tennis-Schlag / Kartenspiel: wer zuerst ausspielt / Vorderbeine des Pferdes) |
+| 2873 | Vorkommen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Auftreten, Vorhandensein / Lagerstätte von Rohstoffen, z. B. Erdölvorkommen) |

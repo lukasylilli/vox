@@ -5629,6 +5629,9 @@ const zurueckgestellt = <String>{
   'Vorgabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Richtlinie, Zielvorgabe / Sport: Vorsprung, Handicap) — nach den Nomen 2026-11-09
   'Vorgang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ablauf, Prozess / Ereignis / Amtssprache: Akte, Vorgang) — nach den Nomen 2026-11-09
   'Vorgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Urgeschichte, Prähistorie / Vorgeschichte eines Ereignisses / Medizin: Anamnese — wichtig für Pflege) — nach den Nomen 2026-11-09
+  'Vorgriff', // zurückgestellt: fast nur in fester Wendung «im Vorgriff auf» — Regel 14 — 2026-11-09
+  'Vorhand', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tennis-Schlag / Kartenspiel: wer zuerst ausspielt / Vorderbeine des Pferdes) — nach den Nomen 2026-11-09
+  'Vorkommen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Auftreten, Vorhandensein / Lagerstätte von Rohstoffen, z. B. Erdölvorkommen) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
