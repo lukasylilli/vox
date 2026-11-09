@@ -5739,3 +5739,7 @@
 | 2963 | Wirt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gastwirt / Vermieter, Hauswirt / Biologie: Wirt eines Parasiten) |
 | 2964 | Wirtin | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gastwirtin / Vermieterin, Zimmerwirtin) |
 | 2965 | Wirtschaft | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ökonomie eines Landes / Gastwirtschaft, Lokal / Haushalt, Wirtschaften) |
+| 2966 | Wirtschaftsprofessor | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Professor: Hochschullehrer / Österreich: Titel von Lehrern an höheren Schulen, z. B. Handelsakademie) |
+| 2967 | Wirtschaftsraum | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Raum für Hausarbeit, z. B. Waschküche / wirtschaftlich verbundenes Gebiet, z. B. Europäischer Wirtschaftsraum) |
+| 2968 | Wirtschaftsressort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zuständigkeitsbereich Wirtschaft in Regierung, Ministerium / Wirtschaftsteil einer Zeitungsredaktion) |
+| 2969 | Wirtschaftstreibender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) |

@@ -5770,6 +5770,10 @@ const zurueckgestellt = <String>{
   'Wirt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gastwirt / Vermieter, Hauswirt / Biologie: Wirt eines Parasiten) — nach den Nomen — 2026-11-09
   'Wirtin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gastwirtin / Vermieterin, Zimmerwirtin) — nach den Nomen — 2026-11-09
   'Wirtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ökonomie eines Landes / Gastwirtschaft, Lokal / Haushalt, Wirtschaften) — nach den Nomen — 2026-11-09
+  'Wirtschaftsprofessor', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Professor: Hochschullehrer / Österreich: Titel von Lehrern an höheren Schulen, z. B. Handelsakademie) — nach den Nomen — 2026-11-09
+  'Wirtschaftsraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Raum für Hausarbeit, z. B. Waschküche / wirtschaftlich verbundenes Gebiet, z. B. Europäischer Wirtschaftsraum) — nach den Nomen — 2026-11-09
+  'Wirtschaftsressort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuständigkeitsbereich Wirtschaft in Regierung, Ministerium / Wirtschaftsteil einer Zeitungsredaktion) — nach den Nomen — 2026-11-09
+  'Wirtschaftstreibender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv/Partizip: der/die Wirtschaftstreibende, österr.) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
