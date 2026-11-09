@@ -5780,6 +5780,11 @@ const zurueckgestellt = <String>{
   'Wochentag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: beliebiger Tag der Woche / Werktag im Gegensatz zum Sonntag) — nach den Nomen — 2026-11-09
   'Wohlfahrt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohlergehen, Wohlstand / öffentliche Fürsorge, Sozialhilfe, Wohlfahrtspflege) — nach den Nomen — 2026-11-09
   'Wohlgefallen', // zurückgestellt: gehoben, fast nur in fester Wendung «sich in Wohlgefallen auflösen» — Regel 14 — 2026-11-09
+  'Wohltat', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gute Tat, Hilfe für andere / etwas Angenehmes, Erleichterung «eine Wohltat für die Füße») — nach den Nomen — 2026-11-09
+  'Wohnbau', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohngebäude / österr.: Wohnungsbau, z. B. «geförderter Wohnbau») — nach den Nomen — 2026-11-09
+  'Wohnbereich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wohnteil einer Wohnung / Pflegeheim: Station, Abteilung «Wohnbereich 2») — nach den Nomen — 2026-11-09
+  'Wohnblock', // zurückgestellt: Plural doppelt (die Wohnblocks / die Wohnblöcke) — wie Waggon, Entscheidung Lukas — 2026-11-09
+  'Wohnraum', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zimmer zum Wohnen / ohne Plural: Wohnungen insgesamt «bezahlbarer Wohnraum») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
