@@ -2886,6 +2886,8 @@
 | ۲۷۰۷ | Vorderhand | `substantiv_singular_alle.txt` | 2026-11-09 | als Nomen unklar (Kartenspiel / Pferd); meist Adverb «vorderhand» — Regel 14 | — |
 | ۲۷۰۸ | Vorgriff | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «im Vorgriff auf» — Regel 14 | — |
 | ۲۷۰۹ | Vorpommer | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Einwohnerbezeichnung? Duden-Eintrag unklar) — Regel 14 | — |
+| ۲۷۱۰ | Vorschein | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «zum Vorschein kommen/bringen» — Regel 14 | — |
+| ۲۷۱۱ | Vorschub | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «Vorschub leisten»; sonst Technik (Vorschub einer Maschine) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5607,3 +5609,7 @@
 | 2876 | Vorleistung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Leistung im Voraus / Wirtschaft: Vorleistungen, bezogene Güter) |
 | 2877 | Vormarsch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: militärisches Vorrücken / übertragen «auf dem Vormarsch sein» = sich ausbreiten) |
 | 2878 | Vorrang | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Priorität / österr. Verkehr: Vorfahrt) |
+| 2879 | Vorsatz | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Absicht, gute Vorsätze / Recht: Vorsatz, vorsätzlich / Buchbinderei: Vorsatzblatt) |
+| 2880 | Vorsitzende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Vorsitzende) |
+| 2881 | Vorsitzender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorsitzende») |
+| 2882 | Vorsorge | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorkehrung, Vorbeugung / Altersvorsorge, finanzielle Absicherung / ugs. Vorsorgeuntersuchung) |

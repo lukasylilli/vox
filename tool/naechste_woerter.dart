@@ -5638,6 +5638,12 @@ const zurueckgestellt = <String>{
   'Vormarsch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärisches Vorrücken / übertragen «auf dem Vormarsch sein» = sich ausbreiten) — nach den Nomen 2026-11-09
   'Vorpommer', // zurückgestellt: Bedeutung/Gebrauch unsicher (Einwohnerbezeichnung? Duden-Eintrag unklar) — Regel 14 — 2026-11-09
   'Vorrang', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Priorität / österr. Verkehr: Vorfahrt) — nach den Nomen 2026-11-09
+  'Vorsatz', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Absicht, gute Vorsätze / Recht: Vorsatz, vorsätzlich / Buchbinderei: Vorsatzblatt) — nach den Nomen 2026-11-09
+  'Vorschein', // zurückgestellt: nur in fester Wendung «zum Vorschein kommen/bringen» — Regel 14 — 2026-11-09
+  'Vorschub', // zurückgestellt: fast nur in fester Wendung «Vorschub leisten»; sonst Technik (Vorschub einer Maschine) — Regel 14 — 2026-11-09
+  'Vorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vorsitzende) — nach den Nomen 2026-11-09
+  'Vorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorsitzende») — nach den Nomen 2026-11-09
+  'Vorsorge', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorkehrung, Vorbeugung / Altersvorsorge, finanzielle Absicherung / ugs. Vorsorgeuntersuchung) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
