@@ -5733,3 +5733,6 @@
 | 2957 | Wildwuchs | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: wildes Wachsen von Pflanzen / übertragen: unkontrollierte Ausbreitung) |
 | 2958 | Winde | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1/3 (mehrere Bedeutungen: Seilwinde, Hebevorrichtung / Pflanze, Ackerwinde; zugleich Plural von «Wind») |
 | 2959 | Windschatten | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: windgeschützte Seite / Verkehr, Sport: Raum hinter einem fahrenden Fahrzeug) |
+| 2960 | Wink | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeichen mit der Hand / Hinweis, Tipp «ein Wink des Schicksals») |
+| 2961 | Winkel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geometrie: Winkel / Ecke, abgelegener Ort / Werkzeug: Winkelmaß) |
+| 2962 | Wirbel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Strudel, Drehbewegung / Medizin: Wirbelknochen der Wirbelsäule / Aufregung, Trubel / Trommelwirbel) |

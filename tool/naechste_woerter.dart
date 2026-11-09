@@ -5764,6 +5764,9 @@ const zurueckgestellt = <String>{
   'Winde', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1/3 (mehrere Bedeutungen: Seilwinde, Hebevorrichtung / Pflanze, Ackerwinde; zugleich Plural von «Wind») — nach den Nomen — 2026-11-09
   'Windeseile', // zurückgestellt: nur in fester Wendung «in Windeseile» — Regel 14 — 2026-11-09
   'Windschatten', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: windgeschützte Seite / Verkehr, Sport: Raum hinter einem fahrenden Fahrzeug) — nach den Nomen — 2026-11-09
+  'Wink', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen mit der Hand / Hinweis, Tipp «ein Wink des Schicksals») — nach den Nomen — 2026-11-09
+  'Winkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geometrie: Winkel / Ecke, abgelegener Ort / Werkzeug: Winkelmaß) — nach den Nomen — 2026-11-09
+  'Wirbel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strudel, Drehbewegung / Medizin: Wirbelknochen der Wirbelsäule / Aufregung, Trubel / Trommelwirbel) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
