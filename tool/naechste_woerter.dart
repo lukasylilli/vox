@@ -5731,6 +5731,12 @@ const zurueckgestellt = <String>{
   'Wendepunkt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeitpunkt einer Wende / Mathematik: Wendepunkt einer Kurve) — nach den Nomen — 2026-11-09
   'Wender', // zurückgestellt: kein gebräuchliches Nomen (Bedeutung unsicher) — Regel 14 — 2026-11-09
   'Wendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Drehung, Richtungsänderung / Veränderung «eine Wendung nehmen» / Redewendung) — nach den Nomen — 2026-11-09
+  'Werber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jemand, der für etwas wirbt / Anwerber, z. B. für Soldaten / veraltet: Freier) — nach den Nomen — 2026-11-09
+  'Werbetrommel', // zurückgestellt: nur in fester Wendung «die Werbetrommel rühren» — Regel 14 — 2026-11-09
+  'Werbung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reklame / Werbeabteilung / das Werben um jemanden, Mitgliederwerbung) — nach den Nomen — 2026-11-09
+  'Werder', // zurückgestellt: Flussinsel (regional) / Ortsname — Gebrauch unsicher — Regel 14/18 — 2026-11-09
+  'Werfer', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sportler, der wirft / Waffe: Granatwerfer, Raketenwerfer) — nach den Nomen — 2026-11-09
+  'Werk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Fabrik / Kunstwerk, Schrift / Tat, Arbeit / Uhrwerk) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

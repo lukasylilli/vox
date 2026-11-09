@@ -2921,6 +2921,8 @@
 | ۲۷۴۲ | Weltwirtschaftsforum | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation/Veranstaltung (WEF, Davos) — Regel 18 | — |
 | ۲۷۴۳ | Wendel | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Technik: Spirale / Familienname) — Regel 14 | — |
 | ۲۷۴۴ | Wender | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen (Bedeutung unsicher) — Regel 14 | — |
+| ۲۷۴۵ | Werbetrommel | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «die Werbetrommel rühren» — Regel 14 | — |
+| ۲۷۴۶ | Werder | `substantiv_singular_alle.txt` | 2026-11-09 | Flussinsel (regional) / Ortsname — Gebrauch unsicher — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5700,3 +5702,7 @@
 | 2934 | Weltranglistenerste | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Weltranglistenerste) |
 | 2935 | Wendepunkt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeitpunkt einer Wende / Mathematik: Wendepunkt einer Kurve) |
 | 2936 | Wendung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Drehung, Richtungsänderung / Veränderung «eine Wendung nehmen» / Redewendung) |
+| 2937 | Werber | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jemand, der für etwas wirbt / Anwerber, z. B. für Soldaten / veraltet: Freier) |
+| 2938 | Werbung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Reklame / Werbeabteilung / das Werben um jemanden, Mitgliederwerbung) |
+| 2939 | Werfer | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportler, der wirft / Waffe: Granatwerfer, Raketenwerfer) |
+| 2940 | Werk | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fabrik / Kunstwerk, Schrift / Tat, Arbeit / Uhrwerk) |
