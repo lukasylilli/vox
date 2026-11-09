@@ -5717,6 +5717,12 @@ const zurueckgestellt = <String>{
   'Welle', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wasserwelle / Haarwelle / Technik: Antriebswelle / Physik: Radiowelle) — nach den Nomen — 2026-11-09
   'Weller', // zurückgestellt: Bedeutung unsicher (Bautechnik «Strohlehm» / Familienname) — Regel 14 — 2026-11-09
   'Welt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Erde / alle Menschen «die ganze Welt» / Lebensbereich «die Welt des Sports») — nach den Nomen — 2026-11-09
+  'Weltbank', // zurückgestellt: Name einer Organisation (Weltbank) — Regel 18 — 2026-11-09
+  'Weltcup', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wettbewerbsserie / Pokal als Preis) — nach den Nomen — 2026-11-09
+  'Weltgeschichte', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geschichte der Menschheit / ugs. scherzhaft «Welt»: in der Weltgeschichte herumreisen) — nach den Nomen — 2026-11-09
+  'Weltgesundheitsorganisation', // zurückgestellt: Name einer Organisation (WHO) — Regel 18 — 2026-11-09
+  'Weltgruppe', // zurückgestellt: Bedeutung unsicher (Sport: höchste Gruppe, z. B. Davis Cup) — Regel 14 — 2026-11-09
+  'Welthandelsorganisation', // zurückgestellt: Name einer Organisation (WTO) — Regel 18 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

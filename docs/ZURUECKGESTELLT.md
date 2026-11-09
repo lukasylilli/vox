@@ -2912,6 +2912,10 @@
 | ۲۷۳۳ | Weingarten | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich für Weinberg, auch Ortsname — Gebrauch unsicher — Regel 14 | — |
 | ۲۷۳۴ | Weinzierl | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — Regel 14/18 | — |
 | ۲۷۳۵ | Weller | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Bautechnik «Strohlehm» / Familienname) — Regel 14 | — |
+| ۲۷۳۶ | Weltbank | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (Weltbank) — Regel 18 | — |
+| ۲۷۳۷ | Weltgesundheitsorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (WHO) — Regel 18 | — |
+| ۲۷۳۸ | Weltgruppe | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung unsicher (Sport: höchste Gruppe, z. B. Davis Cup) — Regel 14 | — |
+| ۲۷۳۹ | Welthandelsorganisation | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Organisation (WTO) — Regel 18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5686,3 +5690,5 @@
 | 2929 | Weitsicht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Fernsicht / Voraussicht) |
 | 2930 | Welle | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wasserwelle / Haarwelle / Technik: Antriebswelle / Physik: Radiowelle) |
 | 2931 | Welt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Erde / alle Menschen «die ganze Welt» / Lebensbereich «die Welt des Sports») |
+| 2932 | Weltcup | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wettbewerbsserie / Pokal als Preis) |
+| 2933 | Weltgeschichte | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geschichte der Menschheit / ugs. scherzhaft «Welt»: in der Weltgeschichte herumreisen) |
