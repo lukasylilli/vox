@@ -2903,6 +2903,8 @@
 | ۲۷۲۴ | Warentest | `substantiv_singular_alle.txt` | 2026-11-09 | Plural unsicher (Warentests/Warenteste), oft nur als Name «Stiftung Warentest» — Regel 14/18 | — |
 | ۲۷۲۵ | Warte | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, meist übertragen «von höherer Warte aus»; Sternwarte/Aussichtsturm — Gebrauch unsicher — Regel 14 | — |
 | ۲۷۲۶ | Wasser | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wasser/Wässer, je nach Bedeutung) — Regel 14; häufiges Wort, Entscheidung Lukas | — |
+| ۲۷۲۷ | Wasserspiel | `substantiv_singular_alle.txt` | 2026-11-09 | meist Plural «Wasserspiele» (Springbrunnenanlage); Bedeutung im Singular unsicher — Regel 14 | — |
+| ۲۷۲۸ | Waterloo | `substantiv_singular_alle.txt` | 2026-11-09 | Ortsname, meist übertragen «sein Waterloo erleben» (vernichtende Niederlage) — Regel 14/18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5658,3 +5660,4 @@
 | 2910 | Warteschleife | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Flugzeug kreist vor der Landung / Telefon: Wartemusik) |
 | 2911 | Wasserball | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sportart Wasserpolo / Ball zum Spielen im Wasser) |
 | 2912 | Wasserglas | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Trinkglas / Chemie: Natriumsilikat) |
+| 2913 | Wassermann | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sternzeichen / Wassergeist im Märchen) |
