@@ -5804,6 +5804,14 @@ const zurueckgestellt = <String>{
   'Zapf', // zurückgestellt: Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 — 2026-11-09
   'Zapfenstreich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärisches Abschiedszeremoniell «Großer Zapfenstreich» / Signal zur Nachtruhe / ugs.: Schluss, Feierabend) — nach den Nomen — 2026-11-09
   'Zauber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Magie, Zauberei / Reiz, Faszination «der Zauber der Berge» / ugs. abwertend: Getue «fauler Zauber», «der ganze Zauber») — nach den Nomen — 2026-11-09
+  'Zauberformel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zauberspruch / Patentlösung «es gibt keine Zauberformel» / Schweiz: Verteilung der Bundesratssitze) — nach den Nomen — 2026-11-09
+  'Zeche', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rechnung im Gasthaus «die Zeche prellen» / Bergwerk, Kohlengrube) — nach den Nomen — 2026-11-09
+  'Zehe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeh am Fuß / Knoblauchzehe) — nach den Nomen — 2026-11-09
+  'Zehn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Vier: Ziffer 10 / Spielkarte / ugs.: Straßenbahn-, Buslinie 10) — nach den Nomen — 2026-11-09
+  'Zehntausend', // zurückgestellt: Wortart/Gebrauch als Nomen unsicher (Zahlwort; «die oberen Zehntausend») — Regel 14 — 2026-11-09
+  'Zeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Signal, Hinweis / Symbol, Schriftzeichen / Anzeichen / Sternzeichen) — nach den Nomen — 2026-11-09
+  'Zeichner', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jmd., der zeichnet, Illustrator, technischer Zeichner / Finanzwesen: jmd., der Aktien oder Anleihen zeichnet) — nach den Nomen — 2026-11-09
+  'Zeichnung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: gezeichnetes Bild / Musterung eines Fells / Finanzwesen: Zeichnung von Aktien) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

@@ -2945,6 +2945,7 @@
 | ۲۷۶۶ | Yuppie | `substantiv_singular_alle.txt` | 2026-11-09 | oft abwertend; Stärke der Abwertung unsicher — Regel 17 | — |
 | ۲۷۶۷ | Zabel | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — kein geografischer Name, Regel 18 | — |
 | ۲۷۶۸ | Zapf | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 | — |
+| ۲۷۶۹ | Zehntausend | `substantiv_singular_alle.txt` | 2026-11-09 | Wortart/Gebrauch als Nomen unsicher (Zahlwort; «die oberen Zehntausend») — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5773,3 +5774,10 @@
 | 2983 | Wurzel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pflanzenwurzel / Zahnwurzel, Haarwurzel / Mathematik: Quadratwurzel / Ursprung / landschaftlich: Möhre) |
 | 2984 | Zapfenstreich | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: militärisches Abschiedszeremoniell «Großer Zapfenstreich» / Signal zur Nachtruhe / ugs.: Schluss, Feierabend) |
 | 2985 | Zauber | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Magie, Zauberei / Reiz, Faszination «der Zauber der Berge» / ugs. abwertend: Getue «fauler Zauber», «der ganze Zauber») |
+| 2986 | Zauberformel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zauberspruch / Patentlösung «es gibt keine Zauberformel» / Schweiz: Verteilung der Bundesratssitze) |
+| 2987 | Zeche | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Rechnung im Gasthaus «die Zeche prellen» / Bergwerk, Kohlengrube) |
+| 2988 | Zehe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeh am Fuß / Knoblauchzehe) |
+| 2989 | Zehn | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Vier: Ziffer 10 / Spielkarte / ugs.: Straßenbahn-, Buslinie 10) |
+| 2990 | Zeichen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Signal, Hinweis / Symbol, Schriftzeichen / Anzeichen / Sternzeichen) |
+| 2991 | Zeichner | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jmd., der zeichnet, Illustrator, technischer Zeichner / Finanzwesen: jmd., der Aktien oder Anleihen zeichnet) |
+| 2992 | Zeichnung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: gezeichnetes Bild / Musterung eines Fells / Finanzwesen: Zeichnung von Aktien) |
