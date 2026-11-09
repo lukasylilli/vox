@@ -2870,6 +2870,10 @@
 | ۲۶۹۱ | Vista | `substantiv_singular_alle.txt` | 2026-11-08 | Bedeutung unsicher (Ausblick, gehoben? / Produktname «Windows Vista») — Regel 14/18 | — |
 | ۲۶۹۲ | Visum | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Visa/Visen) — Regel 14 | — |
 | ۲۶۹۳ | Vita | `substantiv_singular_alle.txt` | 2026-11-08 | Plural doppelt (Viten/Vitae) — Regel 14 | — |
+| ۲۶۹۴ | Vogler | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (veraltet «Vogelfänger» / Familienname) — Regel 14 | — |
+| ۲۶۹۵ | Vogt | `substantiv_singular_alle.txt` | 2026-11-09 | historischer Titel mit je nach Epoche/Region verschiedener Bedeutung (Landvogt, Burgvogt, Kirchenvogt) — Regel 14 | — |
+| ۲۶۹۶ | Vokabel | `substantiv_singular_alle.txt` | 2026-11-09 | Artikel doppelt (die Vokabel; österr. auch das Vokabel) — Regel 14 | — |
+| ۲۶۹۷ | Volksarmee | `substantiv_singular_alle.txt` | 2026-11-09 | meist Name (Nationale Volksarmee der DDR; Volksbefreiungsarmee) — Regel 18/14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5567,3 +5571,5 @@
 | 2852 | Visier | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Teil des Helms / Zielvorrichtung einer Waffe) |
 | 2853 | Vision | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Zukunftsvorstellung / Erscheinung, Trugbild) |
 | 2854 | Visite | `substantiv_singular_alle.txt` | 2026-11-08 | Fall 1 (mehrere Bedeutungen: Arztvisite im Krankenhaus / veraltend: Besuch) |
+| 2855 | Vogel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Tier / ugs. Mensch «ein komischer Vogel» / ugs. Flugzeug; «einen Vogel haben») |
+| 2856 | Volk | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Nation, Volksgruppe / die einfachen Leute, Menge / Bienenvolk) |

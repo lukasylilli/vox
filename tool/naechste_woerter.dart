@@ -5598,6 +5598,12 @@ const zurueckgestellt = <String>{
   'Vista', // zurückgestellt: Bedeutung unsicher (Ausblick, gehoben? / Produktname «Windows Vista») — Regel 14/18 — 2026-11-08
   'Visum', // zurückgestellt: Plural doppelt (Visa/Visen) — Regel 14 — 2026-11-08
   'Vita', // zurückgestellt: Plural doppelt (Viten/Vitae) — Regel 14 — 2026-11-08
+  'Vogel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Tier / ugs. Mensch «ein komischer Vogel» / ugs. Flugzeug; «einen Vogel haben») — nach den Nomen 2026-11-09
+  'Vogler', // zurückgestellt: Bedeutung/Gebrauch unsicher (veraltet «Vogelfänger» / Familienname) — Regel 14 — 2026-11-09
+  'Vogt', // zurückgestellt: historischer Titel mit je nach Epoche/Region verschiedener Bedeutung (Landvogt, Burgvogt, Kirchenvogt) — Regel 14 — 2026-11-09
+  'Vokabel', // zurückgestellt: Artikel doppelt (die Vokabel; österr. auch das Vokabel) — Regel 14 — 2026-11-09
+  'Volk', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Nation, Volksgruppe / die einfachen Leute, Menge / Bienenvolk) — nach den Nomen 2026-11-09
+  'Volksarmee', // zurückgestellt: meist Name (Nationale Volksarmee der DDR; Volksbefreiungsarmee) — Regel 18/14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
