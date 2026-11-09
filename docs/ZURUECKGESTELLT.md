@@ -5620,3 +5620,9 @@
 | 2887 | Vorstandsvorsitzende | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv: der/die Vorstandsvorsitzende) |
 | 2888 | Vorstandsvorsitzender | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorstandsvorsitzende») |
 | 2889 | Vorstellung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Idee, Bild im Kopf / Aufführung im Theater, Kino / das Sich-Vorstellen, Bewerbungsgespräch) |
+| 2890 | Vortrag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Rede, Referat / Darbietung eines Musikstücks, Gedichts / Buchhaltung: Übertrag) |
+| 2891 | Vortritt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorrang beim Gehen «den Vortritt lassen» / schweiz. Verkehr: Vorfahrt) |
+| 2892 | Voruntersuchung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: medizinische Untersuchung vor einer Behandlung — wichtig für Pflege / Recht: vorläufige Ermittlung) |
+| 2893 | Vorwahl | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Telefonvorwahl / Vorwahlen, Primaries) |
+| 2894 | Vorwort | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Vorrede eines Buches, Pl. -e / österr. Grammatik: Präposition, Pl. -wörter) |
+| 2895 | Vorzeichen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Omen, Anzeichen / Mathematik: Plus-/Minuszeichen / Musik: Versetzungszeichen) |

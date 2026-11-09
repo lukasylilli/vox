@@ -5651,6 +5651,12 @@ const zurueckgestellt = <String>{
   'Vorstandsvorsitzende', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv: der/die Vorstandsvorsitzende) — nach den Nomen 2026-11-09
   'Vorstandsvorsitzender', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 4 (substantiviertes Adjektiv, stark gebeugte Form von «Vorstandsvorsitzende») — nach den Nomen 2026-11-09
   'Vorstellung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Idee, Bild im Kopf / Aufführung im Theater, Kino / das Sich-Vorstellen, Bewerbungsgespräch) — nach den Nomen 2026-11-09
+  'Vortrag', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Rede, Referat / Darbietung eines Musikstücks, Gedichts / Buchhaltung: Übertrag) — nach den Nomen 2026-11-09
+  'Vortritt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrang beim Gehen «den Vortritt lassen» / schweiz. Verkehr: Vorfahrt) — nach den Nomen 2026-11-09
+  'Voruntersuchung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: medizinische Untersuchung vor einer Behandlung — wichtig für Pflege / Recht: vorläufige Ermittlung) — nach den Nomen 2026-11-09
+  'Vorwahl', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Telefonvorwahl / Vorwahlen, Primaries) — nach den Nomen 2026-11-09
+  'Vorwort', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Vorrede eines Buches, Pl. -e / österr. Grammatik: Präposition, Pl. -wörter) — nach den Nomen 2026-11-09
+  'Vorzeichen', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Omen, Anzeichen / Mathematik: Plus-/Minuszeichen / Musik: Versetzungszeichen) — nach den Nomen 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
