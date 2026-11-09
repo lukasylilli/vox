@@ -5736,3 +5736,6 @@
 | 2960 | Wink | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zeichen mit der Hand / Hinweis, Tipp «ein Wink des Schicksals») |
 | 2961 | Winkel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geometrie: Winkel / Ecke, abgelegener Ort / Werkzeug: Winkelmaß) |
 | 2962 | Wirbel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Strudel, Drehbewegung / Medizin: Wirbelknochen der Wirbelsäule / Aufregung, Trubel / Trommelwirbel) |
+| 2963 | Wirt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gastwirt / Vermieter, Hauswirt / Biologie: Wirt eines Parasiten) |
+| 2964 | Wirtin | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Gastwirtin / Vermieterin, Zimmerwirtin) |
+| 2965 | Wirtschaft | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Ökonomie eines Landes / Gastwirtschaft, Lokal / Haushalt, Wirtschaften) |

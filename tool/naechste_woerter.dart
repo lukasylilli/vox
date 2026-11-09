@@ -5767,6 +5767,9 @@ const zurueckgestellt = <String>{
   'Wink', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zeichen mit der Hand / Hinweis, Tipp «ein Wink des Schicksals») — nach den Nomen — 2026-11-09
   'Winkel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geometrie: Winkel / Ecke, abgelegener Ort / Werkzeug: Winkelmaß) — nach den Nomen — 2026-11-09
   'Wirbel', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Strudel, Drehbewegung / Medizin: Wirbelknochen der Wirbelsäule / Aufregung, Trubel / Trommelwirbel) — nach den Nomen — 2026-11-09
+  'Wirt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gastwirt / Vermieter, Hauswirt / Biologie: Wirt eines Parasiten) — nach den Nomen — 2026-11-09
+  'Wirtin', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Gastwirtin / Vermieterin, Zimmerwirtin) — nach den Nomen — 2026-11-09
+  'Wirtschaft', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Ökonomie eines Landes / Gastwirtschaft, Lokal / Haushalt, Wirtschaften) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
