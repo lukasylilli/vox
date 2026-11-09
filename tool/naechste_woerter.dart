@@ -5867,6 +5867,13 @@ const zurueckgestellt = <String>{
   'Zuschnitt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: das Zuschneiden von Stoff, Holz / Form, Art, Zuschnitt einer Wohnung, eines Plans) — nach den Nomen — 2026-11-09
   'Zuspruch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Trost, Ermutigung / Beliebtheit, Anklang «großen Zuspruch finden») — nach den Nomen — 2026-11-09
   'Zutun', // zurückgestellt: fast nur in fester Wendung «ohne jemandes Zutun» — Regel 14 — 2026-11-09
+  'Zuviel', // zurückgestellt: Schreibung/Gebrauch als Nomen unsicher («ein Zuviel an …» vs. «zu viel») — Regel 14 — 2026-11-09
+  'Zuwanderungsgesetz', // zurückgestellt: Name eines bestimmten deutschen Gesetzes (2005) — Regel 18 — 2026-11-09
+  'Zuweisung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zuteilung, Zuordnung / österr.: ärztliche Überweisung zum Facharzt oder ins Spital) — nach den Nomen — 2026-11-09
+  'Zuwendung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Aufmerksamkeit, Liebe, Fürsorge / Geldzahlung, Spende, Zuschuss) — nach den Nomen — 2026-11-09
+  'Zwanzig', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Zehn, Vier: Ziffer 20 / ugs.: Zwanzigeuroschein, Straßenbahn-/Buslinie 20) — nach den Nomen — 2026-11-09
+  'Zwecke', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 2 (Homograph: die Zwecke «Reißzwecke, Nagel» ≠ Plural «die Zwecke» von «der Zweck») — nach den Nomen — 2026-11-09
+  'Zwei', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (wie Zehn, Vier: Ziffer 2 / Schulnote 2 / Würfel, Spielkarte / Straßenbahn-/Buslinie 2) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

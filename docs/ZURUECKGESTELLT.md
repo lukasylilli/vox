@@ -2961,6 +2961,8 @@
 | ۲۷۸۲ | Zuber | `substantiv_singular_alle.txt` | 2026-11-09 | landschaftlich/veraltend (großer Bottich); Gebrauch unsicher — Regel 14 | — |
 | ۲۷۸۳ | Zulu | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines Volkes/einer Sprache; Artikel und Gebrauch (der/die/das Zulu) unsicher — Regel 14/18 | — |
 | ۲۷۸۴ | Zutun | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «ohne jemandes Zutun» — Regel 14 | — |
+| ۲۷۸۵ | Zuviel | `substantiv_singular_alle.txt` | 2026-11-09 | Schreibung/Gebrauch als Nomen unsicher («ein Zuviel an …» vs. «zu viel») — Regel 14 | — |
+| ۲۷۸۶ | Zuwanderungsgesetz | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines bestimmten deutschen Gesetzes (2005) — Regel 18 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5836,3 +5838,8 @@
 | 3030 | Zuschlag | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Aufpreis, Lohnzuschlag / Versteigerung, Auftragsvergabe «den Zuschlag erhalten» / Bahn: Zuschlagkarte) |
 | 3031 | Zuschnitt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Zuschneiden von Stoff, Holz / Form, Art, Zuschnitt einer Wohnung, eines Plans) |
 | 3032 | Zuspruch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Trost, Ermutigung / Beliebtheit, Anklang «großen Zuspruch finden») |
+| 3033 | Zuweisung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zuteilung, Zuordnung / österr.: ärztliche Überweisung zum Facharzt oder ins Spital) |
+| 3034 | Zuwendung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Aufmerksamkeit, Liebe, Fürsorge / Geldzahlung, Spende, Zuschuss) |
+| 3035 | Zwanzig | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Zehn, Vier: Ziffer 20 / ugs.: Zwanzigeuroschein, Straßenbahn-/Buslinie 20) |
+| 3036 | Zwecke | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 2 (Homograph: die Zwecke «Reißzwecke, Nagel» ≠ Plural «die Zwecke» von «der Zweck») |
+| 3037 | Zwei | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (wie Zehn, Vier: Ziffer 2 / Schulnote 2 / Würfel, Spielkarte / Straßenbahn-/Buslinie 2) |
