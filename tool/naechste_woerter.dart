@@ -5747,6 +5747,10 @@ const zurueckgestellt = <String>{
   'Westler', // zurückgestellt: ugs., oft wertend (DDR-Zeit / Ost-West-Gegensatz); Gebrauch und Ton unsicher — Regel 14/17 — 2026-11-09
   'Westniveau', // zurückgestellt: kein gebräuchliches Nomen; Bedeutung unsicher — Regel 14 — 2026-11-09
   'Wettbewerb', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Wettkampf, Preisausschreiben / Wirtschaft: Konkurrenz) — nach den Nomen — 2026-11-09
+  'Wetterfrosch', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Laubfrosch im Glas / ugs. scherzhaft: Meteorologe) — nach den Nomen — 2026-11-09
+  'Wettlauf', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Lauf um die Wette / übertragen «Wettlauf gegen die Zeit») — nach den Nomen — 2026-11-09
+  'Widder', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: männliches Schaf / Sternzeichen) — nach den Nomen — 2026-11-09
+  'Widerpart', // zurückgestellt: gehoben, meist in festen Wendungen («Widerpart bieten»); Plural unsicher — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

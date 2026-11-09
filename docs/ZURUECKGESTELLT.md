@@ -2927,6 +2927,7 @@
 | ۲۷۴۸ | Westautobahn | `substantiv_singular_alle.txt` | 2026-11-09 | Name einer Autobahn (Österreich, A1) — Regel 18 | — |
 | ۲۷۴۹ | Westler | `substantiv_singular_alle.txt` | 2026-11-09 | ugs., oft wertend (DDR-Zeit / Ost-West-Gegensatz); Gebrauch und Ton unsicher — Regel 14/17 | — |
 | ۲۷۵۰ | Westniveau | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen; Bedeutung unsicher — Regel 14 | — |
+| ۲۷۵۱ | Widerpart | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, meist in festen Wendungen («Widerpart bieten»); Plural unsicher — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5716,3 +5717,6 @@
 | 2944 | Wesen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lebewesen / Charakter, Art / das Wesentliche, Kern) |
 | 2945 | Westen | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Himmelsrichtung / westlicher Teil eines Landes / Politik: Westeuropa und Nordamerika «der Westen») |
 | 2946 | Wettbewerb | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Wettkampf, Preisausschreiben / Wirtschaft: Konkurrenz) |
+| 2947 | Wetterfrosch | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Laubfrosch im Glas / ugs. scherzhaft: Meteorologe) |
+| 2948 | Wettlauf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Lauf um die Wette / übertragen «Wettlauf gegen die Zeit») |
+| 2949 | Widder | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: männliches Schaf / Sternzeichen) |
