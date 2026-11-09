@@ -5672,6 +5672,12 @@ const zurueckgestellt = <String>{
   'Wahlrecht', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Recht zu wählen / Gesamtheit der Vorschriften über Wahlen) — nach den Nomen — 2026-11-09
   'Wahnsinn', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Geisteskrankheit / große Unvernunft / ugs. Ausruf «Wahnsinn!» = toll) — nach den Nomen — 2026-11-09
   'Wahrnehmung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Sinneswahrnehmung / Wahrnehmung von Interessen, Aufgaben, Terminen) — nach den Nomen — 2026-11-09
+  'Waldstatt', // zurückgestellt: historisch, meist Plural «die Waldstätte» (Urkantone der Schweiz) — Gebrauch des Singulars unsicher — Regel 14 — 2026-11-09
+  'Walkman', // zurückgestellt: Markenname (Regel 18), Plural doppelt (Walkmans/Walkmen) — 2026-11-09
+  'Wallach', // zurückgestellt: Plural doppelt (Wallache, österr. Wallachen) — Regel 14 — 2026-11-09
+  'Walter', // zurückgestellt: Personenname (Regel 18) — 2026-11-09
+  'Walz', // zurückgestellt: nur in fester Wendung «auf der Walz sein» — Regel 14 — 2026-11-09
+  'Walze', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Zylinder, Teil einer Maschine / Straßenwalze / Drehorgel) — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

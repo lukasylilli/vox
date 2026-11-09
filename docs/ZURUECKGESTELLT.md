@@ -2893,6 +2893,11 @@
 | ۲۷۱۴ | Wachmann | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wachmänner/Wachleute); österr. auch veraltend für Polizist — Regel 14 | — |
 | ۲۷۱۵ | Wachzimmer | `substantiv_singular_alle.txt` | 2026-11-09 | österr. für Polizeidienststelle, heute meist «Polizeiinspektion» — Gebrauch/Markierung unsicher — Regel 14 | — |
 | ۲۷۱۶ | Waggon | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Waggons, österr. auch Waggone), Schreibung auch Wagon — Regel 14 | — |
+| ۲۷۱۷ | Waldstatt | `substantiv_singular_alle.txt` | 2026-11-09 | historisch, meist Plural «die Waldstätte» (Urkantone der Schweiz) — Gebrauch des Singulars unsicher — Regel 14 | — |
+| ۲۷۱۸ | Walkman | `substantiv_singular_alle.txt` | 2026-11-09 | Markenname (Regel 18), Plural doppelt (Walkmans/Walkmen) | — |
+| ۲۷۱۹ | Wallach | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt (Wallache, österr. Wallachen) — Regel 14 | — |
+| ۲۷۲۰ | Walter | `substantiv_singular_alle.txt` | 2026-11-09 | Personenname (Regel 18) | — |
+| ۲۷۲۱ | Walz | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «auf der Walz sein» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5641,3 +5646,4 @@
 | 2903 | Wahlrecht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Recht zu wählen / Gesamtheit der Vorschriften über Wahlen) |
 | 2904 | Wahnsinn | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Geisteskrankheit / große Unvernunft / ugs. Ausruf «Wahnsinn!» = toll) |
 | 2905 | Wahrnehmung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Sinneswahrnehmung / Wahrnehmung von Interessen, Aufgaben, Terminen) |
+| 2906 | Walze | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Zylinder, Teil einer Maschine / Straßenwalze / Drehorgel) |
