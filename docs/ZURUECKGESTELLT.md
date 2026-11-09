@@ -2944,6 +2944,7 @@
 | ۲۷۶۵ | Yuan | `substantiv_singular_alle.txt` | 2026-11-09 | Plural doppelt/unsicher (die Yuan / die Yuans) — wie Yen | — |
 | ۲۷۶۶ | Yuppie | `substantiv_singular_alle.txt` | 2026-11-09 | oft abwertend; Stärke der Abwertung unsicher — Regel 17 | — |
 | ۲۷۶۷ | Zabel | `substantiv_singular_alle.txt` | 2026-11-09 | Familienname — kein geografischer Name, Regel 18 | — |
+| ۲۷۶۸ | Zapf | `substantiv_singular_alle.txt` | 2026-11-09 | Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5770,3 +5771,5 @@
 | 2981 | Wucht | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Kraft, Schwung «mit voller Wucht» / ugs.: etwas Großartiges «eine Wucht» / landschaftlich: Menge, Prügel) |
 | 2982 | Wurf | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: das Werfen, Wurf beim Sport / Gesamtheit der Jungen eines Muttertiers «ein Wurf Welpen» / gelungenes Werk «ein großer Wurf») |
 | 2983 | Wurzel | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Pflanzenwurzel / Zahnwurzel, Haarwurzel / Mathematik: Quadratwurzel / Ursprung / landschaftlich: Möhre) |
+| 2984 | Zapfenstreich | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: militärisches Abschiedszeremoniell «Großer Zapfenstreich» / Signal zur Nachtruhe / ugs.: Schluss, Feierabend) |
+| 2985 | Zauber | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Magie, Zauberei / Reiz, Faszination «der Zauber der Berge» / ugs. abwertend: Getue «fauler Zauber», «der ganze Zauber») |

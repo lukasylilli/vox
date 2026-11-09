@@ -5801,6 +5801,9 @@ const zurueckgestellt = <String>{
   'Yuan', // zurückgestellt: Plural doppelt/unsicher (die Yuan / die Yuans) — wie Yen — 2026-11-09
   'Yuppie', // zurückgestellt: oft abwertend; Stärke der Abwertung unsicher — Regel 17 — 2026-11-09
   'Zabel', // zurückgestellt: Familienname — kein geografischer Name, Regel 18 — 2026-11-09
+  'Zapf', // zurückgestellt: Bedeutung/Gebrauch unsicher (Familienname? landschaftlich?) — Regel 14 — 2026-11-09
+  'Zapfenstreich', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: militärisches Abschiedszeremoniell «Großer Zapfenstreich» / Signal zur Nachtruhe / ugs.: Schluss, Feierabend) — nach den Nomen — 2026-11-09
+  'Zauber', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Magie, Zauberei / Reiz, Faszination «der Zauber der Berge» / ugs. abwertend: Getue «fauler Zauber», «der ganze Zauber») — nach den Nomen — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas
