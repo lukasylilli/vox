@@ -5757,6 +5757,9 @@ const zurueckgestellt = <String>{
   'Wiederbelebung', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Medizin: Reanimation / übertragen: Wiederaufleben, z. B. der Wirtschaft) — nach den Nomen — 2026-11-09
   'Wiedergabe', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Abspielen von Ton/Bild / Wiedergeben eines Textes, Darstellung / Reproduktion eines Bildes) — nach den Nomen — 2026-11-09
   'Wiedergeburt', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: Reinkarnation / religiös: geistige Erneuerung / übertragen: Wiederaufleben) — nach den Nomen — 2026-11-09
+  'Wiesn', // zurückgestellt: regional (bairisch) Name des Münchner Oktoberfests — Eigenname eines Festes, Regel 18 — 2026-11-09
+  'Wild', // Vier-Fälle-Liste (Lukas 2026-10-19): Fall 1 (mehrere Bedeutungen: jagdbare Tiere / Fleisch dieser Tiere, Wildbret) — nach den Nomen — 2026-11-09
+  'Wildbahn', // zurückgestellt: nur in fester Wendung «in freier Wildbahn» — Regel 14 — 2026-11-09
 };
 
 /// Listeneinträge, die nur eine FORM einer anderen Karte sind (Lukas

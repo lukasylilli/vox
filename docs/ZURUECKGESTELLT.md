@@ -2928,6 +2928,8 @@
 | ۲۷۴۹ | Westler | `substantiv_singular_alle.txt` | 2026-11-09 | ugs., oft wertend (DDR-Zeit / Ost-West-Gegensatz); Gebrauch und Ton unsicher — Regel 14/17 | — |
 | ۲۷۵۰ | Westniveau | `substantiv_singular_alle.txt` | 2026-11-09 | kein gebräuchliches Nomen; Bedeutung unsicher — Regel 14 | — |
 | ۲۷۵۱ | Widerpart | `substantiv_singular_alle.txt` | 2026-11-09 | gehoben, meist in festen Wendungen («Widerpart bieten»); Plural unsicher — Regel 14 | — |
+| ۲۷۵۲ | Wiesn | `substantiv_singular_alle.txt` | 2026-11-09 | regional (bairisch) Name des Münchner Oktoberfests — Eigenname eines Festes, Regel 18 | — |
+| ۲۷۵۳ | Wildbahn | `substantiv_singular_alle.txt` | 2026-11-09 | nur in fester Wendung «in freier Wildbahn» — Regel 14 | — |
 
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
@@ -5726,3 +5728,4 @@
 | 2953 | Wiederbelebung | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Medizin: Reanimation / übertragen: Wiederaufleben, z. B. der Wirtschaft) |
 | 2954 | Wiedergabe | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Abspielen von Ton/Bild / Wiedergeben eines Textes, Darstellung / Reproduktion eines Bildes) |
 | 2955 | Wiedergeburt | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: Reinkarnation / religiös: geistige Erneuerung / übertragen: Wiederaufleben) |
+| 2956 | Wild | `substantiv_singular_alle.txt` | 2026-11-09 | Fall 1 (mehrere Bedeutungen: jagdbare Tiere / Fleisch dieser Tiere, Wildbret) |
