@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-10 (بسته‌ی ۳ ممیزی، بخش MAP + README)** — PROJECT_MAP از ۱۷۴ به ۲۶ کیلوبایت: هر ۱٬۶۱۲ خط قدیم عیناً به `docs/DATEIEN.md` (شرح فایل به فایل)، `docs/NUTZERDATEN.md` (فاز S)، `docs/MAP_VERLAUF.md` و بخش دوم `docs/WORTROUTINE.md` رفت (شمرده شد: هیچ خطی گم نشد)؛ در MAP ماند: Tech Stack، Grammatikon، GitHub-API، tool/، اصول معماری، Conventions، جدول‌های DB + جدول تازه‌ی «پوشه‌های lib/» از خود ریپو. README: «ohne Konto / kein Server / keine Secrets» با وضع واقعی یکی شد (حساب اختیاری، کپی روی Supabase). کد دست نخورد.
 - **2026-11-10 (بسته‌ی ۳ ممیزی، بخش PLAN)** — PLAN از ۳۷۴ کیلوبایت به ۱۳ کیلوبایت کوتاه شد؛ هر ۱٬۸۰۳ خط قدیم عیناً به `docs/VERLAUF.md`، `docs/WORTROUTINE.md`، `docs/PLAN_DETAIL.md` و `docs/zukunft/*.md` رفت (با اسکریپت شمرده شد: هیچ خطی گم نشد). چرا: PLAN باید اول هر چت کامل خوانده شود و دیگر جا نمی‌شد (ممیزی، INS-01). کد دست نخورد. باز: کوتاه کردن PROJECT_MAP.
 
 ## ثبت‌های قبلی (عیناً از PLAN)

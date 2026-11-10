@@ -20,10 +20,10 @@
 ## Was ist VOX?
 
 VOX ist eine offline-first Lern-App für Deutsch (A1–C2), die komplett im Browser läuft —
-ohne Installation, ohne Konto, ohne Abo. Die Oberfläche ist auf **Persisch** oder **Englisch**
+ohne Installation und ohne Abo. Ein Konto ist freiwillig. Die Oberfläche ist auf **Persisch** oder **Englisch**
 umschaltbar.
 
-- **Wortschatz** — Vokabelbücher, Wortarten, Niveaus, eigene Wörter
+- **Wortschatz** — über 20.000 Wortkarten (Persisch + Englisch), Vokabelbücher, Wortarten, Niveaus, Filter
 - **Grammatik** — Grammatik-Katalog mit Lektionen, Lückentexten und Quizzes
 - **Auswendiglernen** — Konnektoren, Dativ/Akkusativ-Verben, Nomen-Verb-Verbindungen,
   Präpositionen, reflexive, trennbare und unregelmäßige Verben, Modalverben
@@ -33,8 +33,10 @@ umschaltbar.
 - **Selbstlernen** — Pomodoro-Timer, Lernpfad, Vorlagen sowie ein Link zur eigenständigen
   Routine-App ([Root-in](https://lukasylilli.github.io/Root-in/)) für Gewohnheiten und Streaks
 
-**Datenschutz:** Es gibt keinen Server und kein Tracking. Fortschritt und eigene Wörter
-bleiben im Browser auf deinem Gerät (IndexedDB / localStorage).
+**Datenschutz:** Kein Tracking, keine Werbung. Ohne Konto bleiben Fortschritt und eigene Listen
+nur im Browser auf deinem Gerät (IndexedDB / localStorage). Wer sich freiwillig anmeldet,
+bekommt zusätzlich eine Sicherungskopie seines Lernstands auf einem Server (Supabase), damit
+er auf mehreren Geräten weiterlernen kann; das Konto lässt sich in der App jederzeit löschen.
 
 <br clear="right">
 
@@ -57,7 +59,8 @@ flutter test                                      # Tests
 flutter build web --release --base-href /vox/     # Produktions-Build nach build/web
 ```
 
-Es werden keine Secrets oder Umgebungsvariablen benötigt (siehe [.env.example](.env.example)).
+Ohne Umgebungsvariablen läuft die App vollständig lokal. Nur die freiwillige Anmeldung und die
+Cloud-Sicherung brauchen die öffentlichen Supabase-Werte (siehe [.env.example](.env.example)).
 
 ## Technik
 
