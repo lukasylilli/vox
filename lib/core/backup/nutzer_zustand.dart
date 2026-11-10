@@ -62,7 +62,8 @@ const String artWort = 'wort'; //           id = Wortschlüssel `<german>|<wordT
 /// ⚠️ **Warum es das gibt:** Zusammenführen vereinigt. Ohne diese Ereignisse
 /// käme jede Entfernung beim nächsten Abgleich vom anderen Gerät zurück.
 /// Regel: **die letzte Handlung gewinnt** — für die Frage „drin oder nicht".
-/// Für den Lernfortschritt (das Fach) bleibt „höchstes Fach gewinnt".
+/// Für den Lernfortschritt (das Fach) gilt [LeitnerStand.zusammen]:
+/// höchstes Fach gewinnt, außer eine falsche Antwort ist jünger.
 class Mitgliedschaft {
   final String art;
   final String id;
@@ -152,6 +153,40 @@ class LeitnerStand {
 
   /// Schlüssel eines Worts der Tabelle `Words` — genau ihr eindeutiger Index.
   static String wortSchluessel(String wort, String wortart) => '$wort|$wortart';
+
+  /// Führt zwei Stände **derselben** Karte zusammen (Entscheidung Lukas
+  /// 2026-11-10, Regel «الف+»):
+  ///
+  ///   1. Grundsatz bleibt: das höhere Fach gewinnt — Fortschritt geht nicht
+  ///      verloren, auch wenn er älter ist (Offline-Arbeit).
+  ///   2. Ausnahme: eine **später** gegebene falsche Antwort gewinnt. Falsch
+  ///      geantwortet heißt: Fach 1 **mit** Wiederholungsdatum (eine frisch
+  ///      aufgenommene Karte liegt auch in Fach 1, hat aber kein Datum). Ist
+  ///      dieses Datum jünger als die letzte Wiederholung des höheren Fachs,
+  ///      bleibt die Karte in Fach 1.
+  ///   3. Fehlt beim höheren Fach das Datum, gilt Regel 1 — im Zweifel wird
+  ///      kein Fortschritt weggenommen.
+  ///
+  /// Das Ergebnis hängt nicht davon ab, welche Seite «eigen» ist.
+  static LeitnerStand zusammen(LeitnerStand a, LeitnerStand b) {
+    final hoch = b.fach > a.fach ? b : a;
+    final tief = identical(hoch, a) ? b : a;
+    final falschDanach = tief.fach == 1 &&
+        hoch.fach > 1 &&
+        tief.letzteWiederholung != null &&
+        hoch.letzteWiederholung != null &&
+        tief.letzteWiederholung!.isAfter(hoch.letzteWiederholung!);
+    final sieger = falschDanach ? tief : hoch;
+    // Der Wiederholungstermin gehört zum Sieger; die letzte Wiederholung ist
+    // das jüngere der beiden Daten (reine Tatsache).
+    return LeitnerStand(
+      wortId: sieger.wortId,
+      fach: sieger.fach,
+      naechsteWiederholung: sieger.naechsteWiederholung,
+      letzteWiederholung:
+          _spaeteres(a.letzteWiederholung, b.letzteWiederholung),
+    );
+  }
 }
 
 /// Eine selbst angelegte Liste. `wortIds` nutzt dieselben Text-IDs wie oben.
@@ -334,10 +369,12 @@ class NutzerZustand {
   // ── Zusammenführen ────────────────────────────────────────────────────
   /// Führt `anderer` in `this` — Regel des Nutzers (2026-09-15):
   /// **„höchstes Fach gewinnt"**, NICHT „jüngster Zeitstempel gewinnt".
+  /// Seit 2026-11-10 mit einer Ausnahme: eine **später** gegebene falsche
+  /// Antwort (Fach 1) gewinnt — siehe [LeitnerStand.zusammen]. Vorher kam
+  /// jede falsche Antwort beim nächsten Abgleich aus der Cloud zurück.
   ///
-  /// Begründung: Lernfortschritt geht nur vorwärts. Wer offline 20 Karten
-  /// wiederholt und sich danach woanders anmeldet, darf diese Arbeit nicht
-  /// verlieren. Bei Kategorien und Notizen wird vereinigt statt überschrieben;
+  /// Begründung: Wer offline 20 Karten wiederholt und sich danach woanders
+  /// anmeldet, darf diese Arbeit nicht verlieren. Bei Kategorien und Notizen wird vereinigt statt überschrieben;
   /// Einstellungen sind Gerätesache — dort gewinnt der eigene Stand.
   ///
   /// **Entfernungen (S.5):** Ob etwas überhaupt drin ist, entscheidet die
@@ -360,16 +397,7 @@ class NutzerZustand {
         leitnerNeu[id] = fremd;
         return;
       }
-      final sieger = fremd.fach > eigen.fach ? fremd : eigen;
-      // Der spätere Wiederholungstermin gehört zum höheren Fach; die letzte
-      // Wiederholung ist das jüngere der beiden Daten (reine Tatsache).
-      leitnerNeu[id] = LeitnerStand(
-        wortId: id,
-        fach: sieger.fach,
-        naechsteWiederholung: sieger.naechsteWiederholung,
-        letzteWiederholung: _spaeteres(
-            eigen.letzteWiederholung, fremd.letzteWiederholung),
-      );
+      leitnerNeu[id] = LeitnerStand.zusammen(eigen, fremd);
     });
 
     // Kategorien: gleiche id = dieselbe Liste, Wörter vereinigen.

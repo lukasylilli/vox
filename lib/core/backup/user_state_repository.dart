@@ -264,7 +264,8 @@ class UserStateRepository {
 
 
   /// Führt `eingehend` mit dem aktuellen Stand zusammen („höchstes Fach
-  /// gewinnt", siehe nutzer_zustand.dart) und legt das Ergebnis ab.
+  /// gewinnt", außer nach einer späteren falschen Antwort — siehe
+  /// LeitnerStand.zusammen in nutzer_zustand.dart) und legt das Ergebnis ab.
   /// Nichts wird gelöscht — eine Wiederherstellung darf nie Fortschritt kosten.
   ///
   /// **Ausnahme (S.5):** Was der Nutzer auf einem Gerät ausdrücklich entfernt

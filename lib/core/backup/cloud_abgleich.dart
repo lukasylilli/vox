@@ -8,7 +8,8 @@
 //    der ganze Ablauf ohne Netz prüfbar (test/cloud_abgleich_test.dart).
 //
 // WARUM ANDERS ALS ROOT-IN: Root-in überschreibt beim Wiederherstellen und
-// fragt deshalb vorher nach. VOX führt zusammen („höchstes Fach gewinnt",
+// fragt deshalb vorher nach. VOX führt zusammen („höchstes Fach gewinnt" — außer nach einer späteren
+// falschen Antwort, siehe LeitnerStand.zusammen;
 // Entfernungen über Mitgliedschaften, S.5) — dabei geht nichts verloren, was
 // der Nutzer nicht selbst entfernt hat. Deshalb ist das hier ein echter
 // Abgleich in beide Richtungen, ohne Rückfrage.

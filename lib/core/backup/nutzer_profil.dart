@@ -224,7 +224,7 @@ class NutzerProfil {
   }
 
   /// Zusammenführen zweier Stände: **der später bearbeitete gewinnt — als
-  /// Ganzes.** Anders als beim Lernfortschritt („höchstes Fach gewinnt")
+  /// Ganzes.** Anders als beim Lernfortschritt (grundsätzlich „höchstes Fach gewinnt")
   /// gibt es hier nichts, was nur vorwärts geht; ein Formular, das jemand
   /// zuletzt auf Gerät B ausgefüllt hat, soll nicht mit dem von Gerät A
   /// vermischt werden. Ein leer gespeichertes Profil mit neuerem Zeitpunkt

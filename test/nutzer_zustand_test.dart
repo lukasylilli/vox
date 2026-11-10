@@ -67,7 +67,7 @@ void main() {
     });
   });
 
-  group('Zusammenführen — höchstes Fach gewinnt', () {
+  group('Zusammenführen — höchstes Fach gewinnt, außer nach falscher Antwort', () {
     test('das höhere Fach setzt sich durch, in beide Richtungen', () {
       final a = mitLeitner({'w1': 4, 'w2': 1});
       final b = mitLeitner({'w1': 2, 'w2': 5});
@@ -83,19 +83,71 @@ void main() {
     });
 
     test('Offline-Arbeit geht nicht verloren, auch wenn sie älter ist', () {
-      // Das Gerät mit dem ÄLTEREN Zeitstempel hat das höhere Fach.
+      // Das Gerät mit dem ÄLTEREN Zeitstempel hat das höhere Fach; auf dem
+      // neuen Gerät wurde die Karte seither einmal RICHTIG beantwortet.
       final offline = NutzerZustand(leitner: {
         'w': LeitnerStand(
             wortId: 'w', fach: 5, letzteWiederholung: DateTime.utc(2026, 1, 1)),
       });
       final frisch = NutzerZustand(leitner: {
         'w': LeitnerStand(
-            wortId: 'w', fach: 1, letzteWiederholung: DateTime.utc(2026, 9, 1)),
+            wortId: 'w', fach: 2, letzteWiederholung: DateTime.utc(2026, 9, 1)),
       });
       expect(frisch.zusammenfuehren(offline).leitner['w']!.fach, 5);
       // Die letzte Wiederholung ist trotzdem das jüngere Datum.
       expect(frisch.zusammenfuehren(offline).leitner['w']!.letzteWiederholung,
           DateTime.utc(2026, 9, 1));
+    });
+
+    // ── Regel «الف+» (Lukas, 2026-11-10) ────────────────────────────────
+    LeitnerStand karte(int fach, [DateTime? letzte, DateTime? naechste]) =>
+        LeitnerStand(
+            wortId: 'w',
+            fach: fach,
+            letzteWiederholung: letzte,
+            naechsteWiederholung: naechste);
+    LeitnerStand beide(LeitnerStand a, LeitnerStand b) {
+      final ab = NutzerZustand(leitner: {'w': a})
+          .zusammenfuehren(NutzerZustand(leitner: {'w': b}))
+          .leitner['w']!;
+      final ba = NutzerZustand(leitner: {'w': b})
+          .zusammenfuehren(NutzerZustand(leitner: {'w': a}))
+          .leitner['w']!;
+      // Reihenfolge der Geräte darf keine Rolle spielen.
+      expect(ba.fach, ab.fach);
+      expect(ba.naechsteWiederholung, ab.naechsteWiederholung);
+      expect(ba.letzteWiederholung, ab.letzteWiederholung);
+      return ab;
+    }
+
+    test('eine spätere falsche Antwort bleibt nach dem Abgleich in Fach 1', () {
+      // Cloud: Fach 4 vom 1.11. — Gerät: am 10.11. falsch ⇒ Fach 1.
+      final cloud = karte(4, DateTime.utc(2026, 11, 1), DateTime.utc(2026, 11, 9));
+      final falsch =
+          karte(1, DateTime.utc(2026, 11, 10), DateTime.utc(2026, 11, 11));
+      final z = beide(falsch, cloud);
+      expect(z.fach, 1);
+      expect(z.naechsteWiederholung, DateTime.utc(2026, 11, 11));
+      expect(z.letzteWiederholung, DateTime.utc(2026, 11, 10));
+    });
+
+    test('eine ÄLTERE falsche Antwort nimmt späteren Fortschritt nicht weg', () {
+      final frueherFalsch = karte(1, DateTime.utc(2026, 11, 1));
+      final spaeterGelernt = karte(3, DateTime.utc(2026, 11, 10));
+      expect(beide(frueherFalsch, spaeterGelernt).fach, 3);
+    });
+
+    test('frisch aufgenommene Karte (Fach 1 ohne Datum) nimmt nichts weg', () {
+      expect(beide(karte(1), karte(5, DateTime.utc(2026, 1, 1))).fach, 5);
+    });
+
+    test('höheres Fach ohne Datum bleibt — im Zweifel kein Verlust', () {
+      expect(beide(karte(1, DateTime.utc(2026, 11, 10)), karte(5)).fach, 5);
+    });
+
+    test('gleicher Zeitpunkt: das höhere Fach bleibt', () {
+      final t = DateTime.utc(2026, 11, 10);
+      expect(beide(karte(1, t), karte(4, t)).fach, 4);
     });
 
     test('Wörter, die nur eine Seite kennt, bleiben erhalten', () {
