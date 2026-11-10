@@ -3,7 +3,7 @@ Version 3.0 · Zielsprachen des Lerners: Persisch/Farsi und Englisch
 ========================================================================
 
 AUFGABE:
-Ich gebe dir 1 bis 10 deutsche Wörter (TEIL 4). Erzeuge für JEDES Wort ein
+Ich gebe dir 1 bis 20 deutsche Wörter (TEIL 4). Erzeuge für JEDES Wort ein
 vollständiges JSON-Objekt nach diesem Schema und gib alle zusammen als
 JSON-ARRAY aus: [ {...}, {...} ]. Auch bei nur einem Wort: Array mit einem
 Objekt. Es enthält NUR linguistische Daten — keine Icon-, Farb- oder
@@ -137,7 +137,7 @@ TEIL 0 — GLOBALE REGELN
     Ein Wort, das vielleicht einer dieser Fälle ist — (1) mehrere
     Bedeutungen, (2) Homograph mit anderem Artikel, (3) Homograph mit
     gleichem Artikel, (4) substantiviertes Adjektiv —, wird NICHT gebaut,
-    sondern in die «Vier-Fälle-Liste» (PLAN.md) eingetragen. Lukas
+    sondern in die «Vier-Fälle-Liste» (docs/zukunft/VIER_FAELLE.md) eingetragen. Lukas
     entscheidet nach den Nomen neu (eigene Karte je Bedeutung, Hinweiszeile
     mit Links, Begründungszeile, Anzeige in Liste und Leitner). Der Text
     unten beschreibt den bisherigen, NICHT freigegebenen Stand.
@@ -370,7 +370,7 @@ PRINZIP:
 }
 
 ========================================================================
-TEIL 4 — WÖRTER (1 bis 10)
+TEIL 4 — WÖRTER (1 bis 20)
 ========================================================================
 Verarbeite jetzt diese Wörter und gib NUR das JSON-Array aus:
 
