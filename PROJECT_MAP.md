@@ -824,7 +824,7 @@ screens/
                                      روی سرور نمی‌رود؛ الان با ساختن حساب، ایمیل + نسخه‌ی پشتیبان می‌رود)
                                      + **L.1d (2026-09-22)**: بخش «حذف حساب» (دکمه، Root-in هم پاک می‌شود، داده‌ی دستگاه می‌ماند)
   fragen_screen.dart          [x] (در lib/features/fragen/) — ۸ FAQ با InkWell expansion
-  sozialmedien_screen.dart    [x] (در lib/features/sozialmedien/) — Telegram/Instagram/YouTube
+  sozialmedien_screen.dart    [x] (در lib/features/sozialmedien/) — Telegram/Instagram/YouTube (حساب‌های LukasAlmani، 2026-11-10)
 controllers/
   settings_controller.dart    [x]  — AppSettings model (themeMode،ttsRate،currentLevel،...) — theme_mode فقط عدد ۰–۲ (2026-09-26، localStorage مشترک با Root-in)
                                      SettingsNotifier AsyncNotifier، settingsProvider
@@ -846,7 +846,7 @@ screens/fragen_screen.dart         [x]  — ۸ سوال متداول با Expans
 
 #### lib/features/sozialmedien/ [x]
 ```
-screens/sozialmedien_screen.dart   [x]  — ۳ کانال با copy link
+screens/sozialmedien_screen.dart   [x]  — ۴ لینک LukasAlmani (کانال، گروه، Instagram، YouTube) با copy link
 ```
 
 #### lib/features/home/ [x]
