@@ -6,6 +6,7 @@
 // FALLBACK: ohne Annotation greift die alte Pronomen-/Artikel-Heuristik.
 import 'package:flutter/material.dart';
 import '../models/dativ_verb.dart';
+import '../../../core/constants/vox_colors.dart';
 import '../../../core/widgets/deutsch_text.dart';
 
 class CaseHighlightText extends StatelessWidget {
@@ -22,11 +23,11 @@ class CaseHighlightText extends StatelessWidget {
   final CaseRoles? caseRoles;
   final TextStyle? style;
 
-  // Farbpalette (identisch zu CaseTypeBadge)
-  static const _datLight = Color(0xFF1565C0);
-  static const _akkLight = Color(0xFF6A1B9A);
-  static const _datDark  = Color(0xFF82B1FF);
-  static const _akkDark  = Color(0xFFCE93D8);
+  // Farbpalette — einzige Quelle: VoxColors.kasus*
+  static const _datLight = VoxColors.kasusDativ;
+  static const _akkLight = VoxColors.kasusAkkusativ;
+  static const _datDark  = VoxColors.kasusDativDark;
+  static const _akkDark  = VoxColors.kasusAkkusativDark;
 
   // Pronomen / Artikel für den Heuristik-Fallback
   static const _dativPronouns = {

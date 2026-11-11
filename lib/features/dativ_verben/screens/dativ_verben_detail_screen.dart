@@ -8,6 +8,7 @@ import '../models/dativ_verb.dart';
 import '../widgets/case_highlight_text.dart';
 import '../widgets/case_type_badge.dart';
 import '../widgets/principal_parts_table.dart';
+import '../../../core/constants/vox_colors.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/deutsch_text.dart';
 
@@ -95,11 +96,11 @@ class _DativVerbenDetailScreenState
                         padding: const EdgeInsets.only(top: 4),
                         child: Row(
                           children: [
-                            _ColorDot(const Color(0xFF1565C0)),
+                            _ColorDot(VoxColors.kasusDativ),
                             const SizedBox(width: 4),
                             const Text('Dativ', style: TextStyle(fontSize: 11)),
                             const SizedBox(width: 12),
-                            _ColorDot(const Color(0xFF6A1B9A)),
+                            _ColorDot(VoxColors.kasusAkkusativ),
                             const SizedBox(width: 4),
                             const Text('Akkusativ', style: TextStyle(fontSize: 11)),
                           ],

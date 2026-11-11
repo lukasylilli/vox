@@ -1,6 +1,7 @@
 # DATEIEN — شرح فایل به فایل (ROOT، lib/، Design System، Architecture Hub)
 
 > شرح دستی هر فایل و هر بخش کد. ⚠️ ممیزی 2026-11-10: ۶۸ فایل موجود این‌جا نیستند و ۲۱ نام این‌جا دیگر وجود ندارند — مرجع نهایی همیشه خود ریپو است.
+> 🗑️ **2026-11-11 حذف شدند (هیچ فایلی صدایشان نمی‌زد؛ در تاریخچه‌ی Git می‌مانند):** `core/constants/vox_icons.dart` · `vox_typography.dart` · `core/content/content_registry.dart` · `core/theme/app_decorations.dart` · `vox_animations.dart` · `core/utils/debouncer.dart` · `extensions.dart` · `validators.dart` · `core/widgets/grammar_link_button.dart` · `placeholder_section_screen.dart` · `vox_app_bar.dart` · `vox_bottom_bar.dart` · `vox_card.dart` · `vox_divider.dart` · `vox_list_tile.dart` · `vox_section_header.dart` · `vox_text_field.dart`. شرح آن‌ها در پایین دیگر معتبر نیست.
 > منبع: `PROJECT_MAP.md` تا کامیت `b1ee0346` (2026-11-10، بسته‌ی ۳ ممیزی) — متن عیناً منتقل شده، هیچ خطی حذف نشده.
 
 ## ROOT FILES

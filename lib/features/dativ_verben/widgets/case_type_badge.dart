@@ -1,6 +1,7 @@
 // FILE: lib/features/dativ_verben/widgets/case_type_badge.dart
 import 'package:flutter/material.dart';
 import '../models/dativ_verb.dart';
+import '../../../core/constants/vox_colors.dart';
 import '../../../core/widgets/deutsch_text.dart';
 
 class CaseTypeBadge extends StatelessWidget {
@@ -12,8 +13,8 @@ class CaseTypeBadge extends StatelessWidget {
   static Color colorFor(CaseType ct, BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
     return switch (ct) {
-      CaseType.datumOnly                 => isDark ? const Color(0xFF82B1FF) : const Color(0xFF1565C0),
-      CaseType.dativAkkusativ            => isDark ? const Color(0xFFCE93D8) : const Color(0xFF6A1B9A),
+      CaseType.datumOnly                 => isDark ? VoxColors.kasusDativDark : VoxColors.kasusDativ,
+      CaseType.dativAkkusativ            => isDark ? VoxColors.kasusAkkusativDark : VoxColors.kasusAkkusativ,
       CaseType.akkusativOnlyConfusable   => isDark ? const Color(0xFFFF8A65) : const Color(0xFFBF360C),
     };
   }

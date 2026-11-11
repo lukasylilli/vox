@@ -4,7 +4,7 @@
 //          Actions → Beispiele → Details je Wortart → Synonyme/Antonyme/Komposita →
 //          Wortnetz (klickbar: vorhanden → push nächste Wort-Seite, Ketten-Navigation;
 //          fehlt → Dialog mit Suche). IDs der Wortnetz-Einträge werden über vokabId()
-//          abgeleitet — Schema 2.0 speichert kein id_ref (deterministisch, Regel 5).
+//          abgeleitet (deterministisch, Regel 5) — das id_ref der Karte wird hier nicht gelesen.
 //          Kopf und Abschnitte: widgets/wort_karte_inhalt.dart (EINE Quelle, auch
 //          für die erweiterte alte Seite).
 //

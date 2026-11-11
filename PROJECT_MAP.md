@@ -38,9 +38,9 @@
 - Router: go_router
 - Audio: just_audio (playback) + flutter_tts (TTS German)
 - L10n: flutter_localizations (FA/EN) — strings در app_l10n.dart، بدون .arb
-- Charts: fl_chart
+- Charts: — (`fl_chart` am 2026-11-11 entfernt: nirgends benutzt)
 - HTTP/RSS: http + xml
-- Fonts: google_fonts (Vazirmatn for FA+DE+EN)
+- Fonts: Vazirmatn als mitgelieferte Schrift (`assets/fonts/`, FA+DE+EN); `google_fonts` am 2026-11-11 entfernt: nirgends benutzt
 
 ---
 
@@ -211,9 +211,9 @@ die Karten sind 3.0.
 | `tool/wort_runde.sh` | sh | **L.4 (2026-09-24 دور ۶۳)** — Routine-Schritte 5–7 in EINEM Aufruf, gleiche Befehle/Reihenfolge: Dry-Run (muss «Fehler: 0 · Warnungen: 0») ⇒ Import ⇒ vokab_index ⇒ `--abhaken` ⇒ analyze ⇒ test ⇒ nächste Wörter. Erstes Problem ⇒ Abbruch. **2026-10-26:** `--teil 1|2|3` = dieselben Schritte in drei Aufrufen (1: bis analyze · 2: Tests ohne `grammatik_uebungen_test.dart` · 3: diese Datei + nächste Wörter) für Zeitlimits pro Befehl. **2026-10-31:** `--teil daten` = Dry-Run ⇒ Import ⇒ Index ⇒ ✓ ⇒ nächste Wörter, nur Dart-SDK, ohne analyze/test (laufen in deploy-web.yml vor dem Deploy); Abbruch, wenn lib/, test/, pubspec.* oder analysis_options.yaml geändert sind. Alle `dart run tool/…` ⇒ `dart tool/…` (kein automatischer pub-Lauf) |
 | `tool/dart_umgebung.sh` | sh | **L.4 (2026-10-31)** — `source tool/dart_umgebung.sh`: lädt nur das Dart-SDK in der Version, die zur Flutter-Version in `deploy-web.yml` gehört (aus der Flutter-Release-Liste, nie von Hand), setzt PATH und schreibt eine minimale `.dart_tool/package_config.json` (`package:vox` ⇒ `lib/`, languageVersion aus pubspec). Eine von pub erzeugte Datei bleibt unangetastet. Für Wortrunden ohne Flutter |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
-| `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau |
-| `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` · ⚠️ kennt `wortartKorrektur` nicht (entfernt ✓ der numerale-Wörter) ⇒ für die Routine NICHT benutzen, stattdessen `naechste_woerter.dart --abhaken` |
-| `tool/generate_words.py` | Python | **A.3** — nächste N Wörter → SUPER-PROMPT v3.0 → Anthropic API → `import_inbox/`. Pre-Flight nur grob; **validiert NICHT** (das macht Dart). Sicherheitsgrenze 500 Karten |
+| `tool/backlog.py` | Python | **A.1** — welches Wort ist als Nächstes dran? Leitet den Stand aus `assets/vocab/` ab (nicht aus den ✓-Marken). `--stand` / `--naechste N` / `--gruppe` / `--json`. Spiegelt `vokabId()` zeichengenau · 📦 **2026-11-11 archiviert:** `docs/archiv/wortautomatik/` (läuft nicht mehr) |
+| `tool/sync_backlog.py` | Python | **A.2** — schreibt die ✓-Marken in `Wörter/*.txt` aus `assets/vocab/` neu. idempotent, `--dry-run` · ⚠️ kennt `wortartKorrektur` nicht (entfernt ✓ der numerale-Wörter) ⇒ für die Routine NICHT benutzen, stattdessen `naechste_woerter.dart --abhaken` · 📦 **2026-11-11 archiviert:** `docs/archiv/wortautomatik/` (läuft nicht mehr) |
+| `tool/generate_words.py` | Python | **A.3** — nächste N Wörter → SUPER-PROMPT v3.0 → Anthropic API → `import_inbox/`. Pre-Flight nur grob; **validiert NICHT** (das macht Dart). Sicherheitsgrenze 500 Karten · 📦 **2026-11-11 archiviert:** `docs/archiv/wortautomatik/` (läuft nicht mehr) |
 | `tool/check_vendored.py` | Python | **فاز S** — meldet, wenn eine aus Root-in kopierte Datei dort inzwischen geändert wurde (Vergleich über den `commit`-Vermerk im Dateikopf). Meldet nur, entscheidet nie |
 | `tool/webtest_ci.py`, `tool/webtest_serve.sh` | Python/sh | Web-Testlauf |
 
@@ -221,7 +221,7 @@ die Karten sind 3.0.
 Prüflogik bekommen — sie bereiten nur vor und räumen nach.
 ⚠️ `tool/backlog.py` enthält eine Kopie der ID-Regel 5 (`vokab_id()`). Ändert sich `vokabId()` in
 Dart, **muss** sie hier mitgezogen werden, sonst greift der Duplikat-Schutz nicht.
-✅ **`.github/workflows/vokabular-autofill.yml` liegt seit 2026-09-16 im Repo** (فاز A / A.4) —
+✅ **`.github/workflows/vokabular-autofill.yml` liegt seit 2026-09-16 im Repo** (فاز A / A.4) — 📦 **2026-11-11:** nach `docs/archiv/wortautomatik/` verschoben (Entscheidung Lukas) — der Workflow läuft nicht mehr.
 möglich wurde das durch das PAT mit „Workflows: Read and write". Bevor ein echter Lauf Kosten
 verursacht, fehlt noch das Secret `ANTHROPIC_API_KEY`.
 ✅ **V.2 erledigt (2026-09-16)** — die technische Grenze ist weg; `--grenze 500` in `generate_words.py` bleibt als Kostenschutz bis A.6.
@@ -261,7 +261,7 @@ ein erfolgreicher Lauf mit mehreren tausend Wörtern bricht die laufende App. Gr
 - ⏸️ **بعد از تمام شدن همه‌ی بخش‌ها، قبل از بازبینی نهایی:** فاز M محتوای فروشی (بسته‌ها + کد دسترسی، PLAN «💎 فاز M»)
 - ⏸️ **بعد از تمام شدن کل اپ:** فاز K درس‌بندی + تمرین/آزمون + مدال Lernpfad (PLAN «🎓 فاز K»)
 - ⛔ **تصمیم Lukas لازم:** L.5a صفحه‌ی پیشرفت · L.5g ⛔⛔ ساختار دو لایه‌ی Lesen/اخبار (قبل از شروع بپرس، حدس نزن)
-- ⚠️ `core/content/content_registry.dart` فعلاً فقط فهرست است؛ هیچ فایلی import‌اش نمی‌کند (2026-09-22).
+- ⚠️ `core/content/content_registry.dart` فعلاً فقط فهرست است؛ هیچ فایلی import‌اش نمی‌کند (2026-09-22). ✅ **2026-11-11 gelöscht** (Audit Paket 5) — Deck-Listen stehen in den jeweiligen Screens.
 
 ---
 

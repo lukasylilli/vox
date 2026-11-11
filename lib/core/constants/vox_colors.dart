@@ -79,4 +79,17 @@ abstract final class VoxColors {
   static const quizWrong    = AppColors.error;
   static const quizSelected = AppColors.primary;
   static const quizNeutral  = Color(0xFF78909C);
+
+  // ── Kasus im Beispielsatz (einzige Quelle — Audit 2026-11-11) ─────────────
+  // Dativ = blau, Akkusativ = lila; je eine helle Fassung für den Dark Mode.
+  // Nicht verwechseln mit den Artikelfarben (nur GrammatikonSpec).
+  static const kasusDativ          = Color(0xFF1565C0);
+  static const kasusAkkusativ      = Color(0xFF6A1B9A);
+  static const kasusDativDark      = Color(0xFF82B1FF);
+  static const kasusAkkusativDark  = Color(0xFFCE93D8);
+
+  static Color kasusDativFuer(Brightness b) =>
+      b == Brightness.dark ? kasusDativDark : kasusDativ;
+  static Color kasusAkkusativFuer(Brightness b) =>
+      b == Brightness.dark ? kasusAkkusativDark : kasusAkkusativ;
 }

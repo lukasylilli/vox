@@ -2,7 +2,7 @@
 // STATUS: [x] LIVE (B5 — 2026-07-04)
 // PURPOSE: Central feature flags — which decks/features are live or coming
 //          soon. Turning a deck live = one line change HERE, nowhere else.
-//          Deck lists and content_registry read from this file.
+//          Deck lists read from this file.
 //
 // STATES:  live        -> shown, opens normally
 //          comingSoon  -> shown (dimmed) with a "coming soon" hint

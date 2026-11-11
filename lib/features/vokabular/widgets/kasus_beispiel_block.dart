@@ -4,6 +4,7 @@
 //          Dativ = blau, Akkusativ = lila. Rein datengetrieben (kein Raten):
 //          die Phrasen stehen wörtlich im Feld card['kasus_beispiele'].
 import 'package:flutter/material.dart';
+import '../../../core/constants/vox_colors.dart';
 import '../../../core/widgets/deutsch_text.dart';
 
 class KasusBeispielBlock extends StatelessWidget {
@@ -20,10 +21,10 @@ class KasusBeispielBlock extends StatelessWidget {
   final List<String> akkusativ;
   final String?      uebersetzung;
 
-  static const _datLight = Color(0xFF1565C0);
-  static const _akkLight = Color(0xFF6A1B9A);
-  static const _datDark  = Color(0xFF82B1FF);
-  static const _akkDark  = Color(0xFFCE93D8);
+  static const _datLight = VoxColors.kasusDativ;
+  static const _akkLight = VoxColors.kasusAkkusativ;
+  static const _datDark  = VoxColors.kasusDativDark;
+  static const _akkDark  = VoxColors.kasusAkkusativDark;
 
   @override
   Widget build(BuildContext context) {
@@ -119,8 +120,9 @@ class KasusLegende extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;
-    final dat = isDark ? const Color(0xFF82B1FF) : const Color(0xFF1565C0);
-    final akk = isDark ? const Color(0xFFCE93D8) : const Color(0xFF6A1B9A);
+    final helligkeit = isDark ? Brightness.dark : Brightness.light;
+    final dat = VoxColors.kasusDativFuer(helligkeit);
+    final akk = VoxColors.kasusAkkusativFuer(helligkeit);
     return Padding(
       padding: const EdgeInsets.only(bottom: 4),
       child: Row(
