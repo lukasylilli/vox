@@ -65,6 +65,19 @@ create table if not exists public.vox_backups (
   updated_at     timestamptz not null default now()
 );
 
+-- ── Größengrenze der Sicherung (Audit 2026-11-11, Paket 6) ───────────────────
+-- Ohne Grenze könnte ein einzelnes Konto den gemeinsamen Speicher (Free Tier,
+-- geteilt mit Root-in) füllen. 8 MB = weit über jedem echten Stand: gemessen
+-- am 2026-11-11 war die größte Sicherung 22 kB; ein Nutzer, der ALLE ~33.000
+-- geplanten Karten im Leitner hat, käme auf etwa 4–5 MB (≈130 Byte je Wort).
+-- Wird die Grenze überschritten, schlägt nur das Hochladen fehl
+-- (CloudStatus.fehlgeschlagen) — der Stand auf dem Gerät bleibt unberührt.
+alter table public.vox_backups
+  drop constraint if exists vox_backups_payload_max_groesse;
+alter table public.vox_backups
+  add constraint vox_backups_payload_max_groesse
+  check (octet_length(payload::text) <= 8388608);
+
 -- ---------------------------------------------------------------------------
 -- 2. Zugriff, Schicht 1: wer darf die Tabelle überhaupt anfassen (grants)
 -- ---------------------------------------------------------------------------
