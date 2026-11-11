@@ -27,8 +27,6 @@ class AppRoutes {
   static const grammatik         = '/grammatik';
   static const grammatikLevel    = '/grammatik/:level';
   static const grammatikLesson   = '/grammatik/lesson/:lessonId';
-  static const grammatikExercise = '/grammatik/exercise/:lessonId';
-  static const grammatikQuiz     = '/grammatik/quiz/:lessonId';
 
   /// Katalog-Ansicht (G1): view = niveau|thema|satzglied
   static String grammatikKatalog(String view, String key) =>
@@ -86,7 +84,6 @@ class AppRoutes {
   static const more          = '/more';
   static const settings      = '/more/settings';
   static const profil        = '/more/profil';
-  static const profile       = '/more/profile';
   static const privacyPolicy = '/more/privacy';
 
   // Import
