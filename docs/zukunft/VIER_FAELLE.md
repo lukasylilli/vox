@@ -25,6 +25,7 @@
 | `nomen_bank` + `nomen_bank_2` | ۳ | نمونه (نیمکت / بانک) |
 | همه‌ی کارت‌هایی که در wortnetz به «die Bank» (بانک) اشاره دارند (Bank-ترکیب‌ها 2026-10-20 مثل `nomen_bankkonto`، و صفت/فعل‌های قبلی مثل `verb_tilgen`) | ۳ | `id_ref` امروز `nomen_bank` (= نیمکت) است؛ آن زمان به کارت معنای «بانک» وصل شود (2026-10-20) |
 | `nomen_abgeordnete` | ۴ | نمونه «der/die Abgeordnete»؛ خواسته: بدون آرتیکل + ارجاع به درس گرامر |
+| از نمونه‌ی 2026-11-11 (`docs/qualitaet/STICHPROBE_2026-11-11.md`): `nomen_mittellinie` · `adjektiv_diskret` · `adjektiv_verbindlich` · `adjektiv_heikel` · `verb_wuerfeln` · `verb_massieren` · `verb_kuppeln` · `verb_warten` (معنی «سرویس کردن» نیست) … | ۱ | تخمین: حدود ۴۰۰ صفت و ۸۰۰ فعل از این نوع — درخواست Lukas 2026-11-11: **این کارت‌های قبلاً واردشده اصلاح شوند** |
 | همه‌ی صفت‌ها و فعل‌های موجود | ۱–۴ | خواسته‌ی (و): بعد از اسم‌ها همه بررسی و بازنویسی شوند (مثلاً tippen، verletzen) |
 
 
