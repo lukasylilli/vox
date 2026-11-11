@@ -1,6 +1,7 @@
 # WORTROUTINE — روال «ده کلمه جدید» (L.4)
 
 > روال کامل دور کلمه، فایل‌ها، جدول پیشرفت و درس‌ها. فقط در کار کلمه خوانده می‌شود.
+> ⚙️ **از 2026-11-11 (بسته‌ی ۵ ممیزی) — جایگزین قاعده‌ی «ثبت در سه جا» در پایین:** کلمه‌ی کنار گذاشته فقط **یک جا** ثبت می‌شود: یک خط تازه در `tool/daten/zurueckgestellt.json` (`tabelle` ۱ = نامطمئن/منسوخ…، ۲ = چهار حالت؛ `nr`، `wort`، `liste`، `datum`، `grund`). `tool/naechste_woerter.dart` همان فایل را می‌خواند و `docs/ZURUECKGESTELLT.md` با `dart tool/zurueckgestellt.dart` از آن ساخته می‌شود (`wort_runde.sh` خودش اجرا می‌کند؛ تست نگهبان: `test/zurueckgestellt_test.dart`). هر جا پایین «`zurueckgestellt` در `tool/naechste_woerter.dart`» آمده، منظور همین فایل JSON است.
 > منبع: `PLAN.md` تا کامیت `7c8700d4` (2026-11-10، بسته‌ی ۳ ممیزی) — متن عیناً منتقل شده، هیچ خطی حذف نشده.
 
 ## 📚 روال «ده کلمه جدید» — دیکشنری آنلاین VOX (L.4)

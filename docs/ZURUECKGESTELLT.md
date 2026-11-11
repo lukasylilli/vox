@@ -1,8 +1,8 @@
 # ZURÜCKGESTELLT — کلمه‌هایی که (هنوز) کارت نگرفته‌اند
 
-> 📦 **این فایل تنها جای جدول‌های کلمه‌های کنار گذاشته‌شده است** (2026-10-22: از `PLAN.md` جدا شد تا PLAN سبک شود؛ محتوای جدول‌ها بدون هیچ تغییری منتقل شد).
-> قاعده‌ها، دلیل وجود، زمان بررسی و تصمیم‌های Lukas در **`PLAN.md` ⇒ «🏁 مرحله‌ی آخر»** و **«📋 فهرست چهار حالت»** هستند؛ این‌جا فقط ردیف‌ها.
-> ⚙️ **همیشه یکی‌اند:** جدول ۱ ⇄ `zurueckgestellt` در `tool/naechste_woerter.dart` · جدول ۲ ⇄ برچسب «Vier-Fälle-Liste» در همان فایل. کلمه‌ی تازه ⇒ ردیف تازه **ته همین جدول‌ها** (نه در PLAN).
+> ⚙️ **این فایل ساخته‌ی ابزار است — با دست عوضش نکن.** تنها منبع: `tool/daten/zurueckgestellt.json`؛ ساختن دوباره: `dart tool/zurueckgestellt.dart`. (تا 2026-11-11 جدول‌ها با دست در سه جا نگه داشته می‌شدند.)
+> قاعده‌ها، دلیل وجود، زمان بررسی و تصمیم‌های Lukas: `docs/zukunft/WOERTER_ENDSTUFEN.md` و `docs/zukunft/VIER_FAELLE.md`؛ این‌جا فقط ردیف‌ها.
+> شمار: جدول ۱ = 2787 ردیف · جدول ۲ = 3047 ردیف · جمع = 5834.
 
 ## فهرست
 - [جدول ۱ — 🏁 کلمه‌های ساخته‌نشده (نامطمئن، ناسزا، منسوخ، فعل دوگانه …)](#جدول-۱)
@@ -357,168 +357,6 @@
 | 342 | nillenkrank | `Adjektive.txt` | 2026-09-27 | این کلمه را نمی‌شناسم (احتمالاً عامیانه‌ی رکیک/محلی)؛ معنا مطمئن نیست — قاعده‌ی ۱۴ | — |
 | 343 | nordelbisch | `Adjektive.txt` | 2026-09-27 | نادر/محلی (شاید «شمال رود البه»)؛ کاربردش را مطمئن نیستم — قاعده‌ی ۱۴ | — |
 | 344 | notgeil | `Adjektive.txt` | 2026-09-27 | اصطلاح جنسیِ رکیک — برای اپ آموزشی بدون محدودیت سنی کنار گذاشته شد ⇒ تصمیم با Lukas | — |
-| 345 | Bequemlichkeit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Komfort / Trägheit, Faulheit) |
-| 346 | Beratung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Rat, Beratungsgespräch / Besprechung, Beratschlagung (z. B. im Parlament)) |
-| 347 | Berber | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Angehöriger eines Volkes in Nordafrika / Berberteppich / umgangssprachlich: Obdachloser) |
-| 348 | Berechnung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: das Ausrechnen / eigennütziges Kalkül («aus Berechnung»)) |
-| 349 | Berechtigung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Befugnis, Recht / Rechtmäßigkeit, Begründetheit) |
-| 350 | Bereicherung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gewinn, Gewinn an Erfahrung («eine Bereicherung für das Team») / unrechtmäßiges Sich-Bereichern) |
-| 351 | Bereitschaft | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Willigkeit / Bereitschaftsdienst / Polizeieinheit) |
-| 352 | Berichterstatter | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Reporter, Korrespondent / Referent eines Ausschusses) |
-| 353 | Berufung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Recht: Rechtsmittel / innerer Ruf (Lebensaufgabe) / Ernennung in ein Amt) |
-| 354 | Besatzung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Mannschaft (Schiff, Flugzeug) / militärische Besetzung eines Landes) |
-| 355 | Bescherung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Weihnachtsgeschenke-Verteilung / ironisch: unangenehme Überraschung) |
-| 356 | Beschlag | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Metallbeschlag / Feuchtigkeitsfilm auf Glas / Hufbeschlag; «in Beschlag nehmen») |
-| 357 | Beschneidung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Zirkumzision / Kürzung, Einschränkung (von Rechten, Ästen)) |
-| 358 | Beschwerde | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Klage, Reklamation / Plural: körperliche Beschwerden) |
-| 359 | Besessenheit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wahn, Obsession / religiös: Besessensein (von einem Dämon)) |
-| 360 | Besetzung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Besetzen (Haus, Land) / Rollenbesetzung (Theater, Film) / Mannschaftsaufstellung, Stellenbesetzung) |
-| 361 | Besinnung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bewusstsein («die Besinnung verlieren») / Nachdenken, innere Einkehr) |
-| 362 | Besprechung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Sitzung, Meeting / Rezension (Buchbesprechung)) |
-| 363 | Bestand | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Fortbestehen, Dauer / Vorrat, Lagerbestand) |
-| 364 | Bestehen | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Existenz («seit Bestehen») / das Bestehen einer Prüfung) |
-| 365 | Bestellung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Auftrag, Order / Ernennung (eines Vormunds) / Bestellen des Feldes) |
-| 366 | Bestimmung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Vorschrift, Regelung / Festlegung, Ermittlung / Schicksal, Zweck) |
-| 367 | Besuch | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: das Besuchen / Gast, Gäste («wir haben Besuch»)) |
-| 368 | Beta | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: griechischer Buchstabe / Testversion (Software)) |
-| 369 | Beteiligte | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Beteiligte) |
-| 370 | Beteiligung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Teilnahme / Kapitalanteil an einer Firma) |
-| 371 | Betrachtung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Anschauen / Überlegung, Erörterung) |
-| 372 | Betreuer | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Person, die betreut (Kinder, Kranke) / Recht: gerichtlich bestellter Betreuer (Erwachsenenvertreter)) |
-| 373 | Betreuerin | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Person, die betreut / Recht: gerichtlich bestellte Betreuerin) |
-| 374 | Betrieb | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Firma, Unternehmen / Betriebszustand («in Betrieb») / Treiben, Andrang) |
-| 375 | Betriebsrat | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gremium der Arbeitnehmervertretung / einzelnes Mitglied dieses Gremiums) |
-| 376 | Betriebsratsvorsitzende | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Betriebsratsvorsitzende) |
-| 377 | Betriebsratsvorsitzender | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betriebsratsvorsitzende») |
-| 378 | Betroffene | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Betroffene) |
-| 379 | Betroffener | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betroffene») |
-| 380 | Bewegung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: körperliche Bewegung / politische oder soziale Bewegung / innere Bewegung, Rührung) |
-| 381 | Bewusstsein | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Zustand des Wachseins («das Bewusstsein verlieren») / Wissen, Bewusstheit («Umweltbewusstsein»)) |
-| 382 | Beziehung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Liebesbeziehung, Partnerschaft / Verbindung, Zusammenhang / Plural: Kontakte («Beziehungen haben»)) |
-| 383 | Bezirksrat | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gremium eines Bezirks / einzelnes Mitglied dieses Gremiums) |
-| 384 | Bezirksverordnete | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Bezirksverordnete) |
-| 385 | Bezirksvorsitzende | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Bezirksvorsitzende) |
-| 386 | Bezug | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Überzug (Kissenbezug) / Bezugnahme («in Bezug auf») / Erwerb, Erhalt; Plural: Gehalt («Bezüge»)) |
-| 387 | Biedermann | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: veraltet: rechtschaffener Mann / abwertend: Spießer) |
-| 388 | Bilanz | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Gegenüberstellung von Vermögen und Kapital / Ergebnis, Fazit («Bilanz ziehen»)) |
-| 389 | Bildung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Erziehung, Wissen / Entstehung, Formung (Wortbildung, Bildung einer Regierung)) |
-| 390 | Binde | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Verband, Armbinde / Damenbinde / Augenbinde) |
-| 391 | Binder | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: österr.: Krawatte / Bauwesen: Träger / Bindemittel; Buchbinder) |
-| 392 | Bindung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: emotionale Bindung / Skibindung / chemische Bindung; Verpflichtung) |
-| 393 | Bitterkeit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: bitterer Geschmack / Verbitterung, seelischer Schmerz) |
-| 394 | Blackout | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Stromausfall / Gedächtnisaussetzer, Filmriss) |
-| 395 | Blase | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Luftblase / Harnblase / Hautblase) |
-| 396 | Blatt | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Pflanzenblatt / Blatt Papier / Zeitung («das Blatt»); Spielkarten) |
-| 397 | Blech | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Metallblech / Backblech / umgangssprachlich: Unsinn («Red kein Blech»)) |
-| 398 | Blitz | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wetterblitz / Kamerablitz / Radarfalle («geblitzt werden»)) |
-| 399 | Block | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Klotz / Notizblock / Häuserblock / politischer Block) |
-| 400 | Boden | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Fußboden / Erdboden, Erde / Dachboden / Grund eines Gefäßes) |
-| 401 | Bodenhaftung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Haftung von Reifen auf der Straße / übertragen: Realitätssinn) |
-| 402 | Body | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bodysuit (Kleidungsstück) / umgangssprachlich: Körper) |
-| 403 | Bogen | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Krümmung, Kurve / Waffe (Pfeil und Bogen) / Blatt Papier; Geigenbogen; Architektur: Torbogen) |
-| 404 | Bolid | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Rennwagen / Astronomie: Feuerkugel, Meteor) |
-| 405 | Bomber | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bombenflugzeug / Person, die Bomben legt; Sport: Torjäger) |
-| 406 | Botschaft | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Nachricht, Mitteilung / diplomatische Vertretung (Gebäude, Behörde)) |
-| 407 | Boulevard | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: breite Prachtstraße / Boulevardpresse) |
-| 408 | Box | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Kiste, Behälter / Lautsprecher / Boxengasse (Motorsport); Pferdebox) |
-| 409 | Boxer | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Sportler (Faustkampf) / Hunderasse / Unterhose (Boxershorts)) |
-| 410 | Brauner | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Braune» (österr.: Kaffee mit Milch; braunes Pferd)) |
-| 411 | Brause | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Brausepulver, Limonade / Duschkopf, Brausekopf) |
-| 412 | Breite | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Ausdehnung in die Breite / geografische Breite) |
-| 413 | Bremser | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bremser bei der Bahn / übertragen: jemand, der Fortschritt bremst; Bobsport: Bremser) |
-| 414 | Bruder | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Geschwister / Ordensbruder, Mönch) |
-| 415 | Brut | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Nachwuchs (Vögel, Fische) / abwertend: Gesindel) |
-| 416 | Bube | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Spielkarte / veraltet: Junge / Schurke («Spitzbube»)) |
-| 417 | Buchenwald | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wald aus Buchen / ehemaliges Konzentrationslager (Eigenname)) |
-| 418 | Buckel | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Rücken / Höcker, Buckel (Krankheit) / kleine Anhöhe) |
-| 419 | Bude | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Verkaufsstand, Kiosk / umgangssprachlich: Zimmer, Wohnung) |
-| 420 | Bundesrat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Länderkammer (D, Ö) bzw. Regierung (CH) / Mitglied dieses Organs (CH, Ö: «ein Bundesrat»)) |
-| 421 | Bundesstaat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Staat aus mehreren Ländern (Föderation) / Gliedstaat eines Bundesstaates (z. B. US-Bundesstaat)) |
-| 422 | Bundestagsabgeordnete | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: der/die Bundestagsabgeordnete) |
-| 423 | Bundestagsabgeordneter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundestagsabgeordnete») |
-| 424 | Bundesvorsitzende | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: der/die Bundesvorsitzende) |
-| 425 | Bundesvorsitzender | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundesvorsitzende») |
-| 426 | Bunker | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schutzraum / Behälter für Kohle, Getreide / Golf: Sandhindernis) |
-| 427 | Burg | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Festung, Schloss / Strandburg (Sandwall) / Jägersprache: Biberbau) |
-| 428 | Bursch | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen wie «Bursche»: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft; v. a. österr./südd. Form) |
-| 429 | Bursche | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft / ugs.: großes Exemplar) |
-| 430 | Bus | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 3 (Homograph, gleicher Artikel: der Bus «Omnibus» / der Bus «EDV: Datenleitung») |
-| 431 | Busen | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: weibliche Brust / gehoben: Inneres, Herz; Meeresbucht («Meerbusen»)) |
-| 432 | Butterfly | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schmetterlingsschwimmen / Sprung beim Eiskunstlauf) |
-| 433 | Button | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Anstecker, Abzeichen / Schaltfläche (EDV)) |
-| 434 | Bypass | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Medizin: Umgehungsgefäß, Bypassoperation / Technik: Umgehungsleitung) |
-| 435 | Camper | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: jemand, der campt / ugs.: Wohnmobil) |
-| 436 | Caravan | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wohnwagen / Kombiwagen) |
-| 437 | Caritas | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Nächstenliebe / Hilfsorganisation (Eigenname)) |
-| 438 | Carrier | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Flugzeugträger / Fluggesellschaft, Transportunternehmen / Telefonanbieter) |
-| 439 | Casino | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Spielbank / Speiseraum, Kantine (z. B. Offizierskasino)) |
-| 440 | Chaot | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: unordentlicher Mensch / abwertend: politischer Randalierer) |
-| 441 | Charakter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wesen, Eigenart / Person, Figur / Schriftzeichen) |
-| 442 | Charge | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Dienstgrad, Rang / Produktionsserie (Pharma) / Nebenrolle (Theater)) |
-| 443 | Chart | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schaubild, Grafik / die Charts: Hitliste) |
-| 444 | Charter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Chartervertrag, Miete eines Fahrzeugs / Urkunde, Freibrief) |
-| 445 | Chiffre | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Geheimzeichen, Code / Kennziffer einer Zeitungsanzeige) |
-| 446 | Chili | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schote, Gewürz / Gericht «Chili con Carne») |
-| 447 | Chinese | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Einwohner Chinas / ugs.: chinesisches Restaurant («zum Chinesen gehen»)) |
-| 448 | Chip | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Mikrochip / Kartoffelchip / Spielmarke) |
-| 449 | Choral | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: gregorianischer Gesang / Kirchenlied) |
-| 450 | Christkind | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Jesuskind / Gabenbringer zu Weihnachten (bes. Österreich, Süddeutschland)) |
-| 451 | Claim | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Werbeslogan / Anspruch, Rechtsanspruch (z. B. Goldgräber)) |
-| 452 | Clinch | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Boxen: Umklammerung / Streit («im Clinch liegen»)) |
-| 453 | Coca | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kokastrauch / ugs.: Coca-Cola) |
-| 454 | Code | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Geheimschlüssel, Zugangscode / Zeichensystem; Programmcode / Verhaltenskodex) |
-| 455 | Controller | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Fachmann für Controlling (Beruf) / Steuergerät, Spielkonsolen-Controller) |
-| 456 | Corner | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: österr./schweiz. Sport: Eckball / Boxen: Ringecke / Börse: Aufkauf) |
-| 457 | Couleur | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Art, Richtung («jeder Couleur») / Farben einer Studentenverbindung) |
-| 458 | Cover | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Titelbild, Plattenhülle / Coverversion) |
-| 459 | Crash | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Unfall, Zusammenstoß / Börsenkrach / Computerabsturz) |
-| 460 | Credo | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Glaubensbekenntnis (Religion) / Grundsatz, Überzeugung) |
-| 461 | Cup | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Pokal, Pokalwettbewerb / Körbchen des Büstenhalters) |
-| 462 | Curry | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Gewürzmischung / Gericht mit Currysoße) |
-| 463 | Cut | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Filmschnitt / Schnittwunde (Boxen) / Herrenrock «Cutaway») |
-| 464 | Damm | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Staudamm, Erdwall / Bahn-, Straßendamm / Anatomie: Bereich zwischen After und Genitalien) |
-| 465 | Darm | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verdauungsorgan / Wursthaut (Natur- bzw. Kunstdarm)) |
-| 466 | Darstellung | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Abbildung, Grafik / Schilderung, Beschreibung / Verkörperung einer Rolle) |
-| 467 | Datenschutzbeauftragter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Partizip: der/die Datenschutzbeauftragte) |
-| 468 | Dauerbrenner | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ofen, der lange brennt / ugs.: lange erfolgreiche Sache, Dauerthema) |
-| 469 | Dealer | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Drogenhändler / Kartengeber im Casino; Händler) |
-| 470 | Decke | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bett-, Tischdecke / Zimmerdecke) |
-| 471 | Deckung | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schutz (in Deckung gehen) / finanzielle Absicherung / Sport: Abwehr) |
-| 472 | Defizit | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Fehlbetrag (Haushalt) / Mangel (z. B. Vitamindefizit)) |
-| 473 | Dekan | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Leiter einer Fakultät / kirchliches Amt (Dechant)) |
-| 474 | Deklaration | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Erklärung (z. B. der Menschenrechte) / Zoll-, Inhaltsangabe) |
-| 475 | Delphin | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Meeressäugetier / Schwimmstil «Delphinschwimmen») |
-| 476 | Demonstration | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kundgebung, Protestmarsch / Vorführung, Beweis (z. B. «Demonstration der Stärke»)) |
-| 477 | Demontage | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Abbau einer Anlage / übertragen: schrittweise Zerstörung, z. B. eines Politikers) |
-| 478 | Departement | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ministerium in der Schweiz / Verwaltungsbezirk in Frankreich) |
-| 479 | Depot | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Lager, Aufbewahrungsort / Wertpapierdepot / Betriebshof für Busse, Straßenbahnen) |
-| 480 | Depression | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: psychische Krankheit / wirtschaftlicher Abschwung / Meteorologie: Tief) |
-| 481 | Derivat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Chemie: abgeleitete Verbindung / Finanzen: Finanzinstrument / Sprache: abgeleitetes Wort) |
-| 482 | Desktop | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bildschirmoberfläche / Desktop-Computer) |
-| 483 | Deutscher | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Deutsche») |
-| 484 | Devise | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wahlspruch, Motto / Plural «Devisen»: ausländische Zahlungsmittel) |
-| 485 | Diakonie | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: kirchlicher Sozialdienst / Name der evangelischen Hilfsorganisation) |
-| 486 | Diener | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bediensteter / ugs.: Verbeugung («einen Diener machen»)) |
-| 487 | Dienst | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Arbeit, Schicht («Dienst haben») / Hilfe, Gefallen / Behörde, Einrichtung (z. B. Geheimdienst)) |
-| 488 | Dienstzeit | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Arbeitszeit, Dienststunden / Dauer der Beschäftigung, Dienstjahre) |
-| 489 | Diesel | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kraftstoff / Dieselmotor / Auto mit Dieselmotor) |
-| 490 | Differenz | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Unterschied, Rechenergebnis / Plural: Meinungsverschiedenheiten) |
-| 491 | Diktat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schreibübung in der Schule / Text zum Mitschreiben / aufgezwungene Bedingung («Diktat der Sieger»)) |
-| 492 | Dimension | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ausdehnung (Länge, Breite, Höhe) / Ausmaß, Größenordnung) |
-| 493 | Ding | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Sache, Gegenstand / ugs.: junges Mädchen («ein junges Ding»)) |
-| 494 | Dino | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: ugs. Dinosaurier / übertragen: etwas Veraltetes) |
-| 495 | Dinosaurier | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: ausgestorbenes Reptil / übertragen: etwas Veraltetes, Rückständiges) |
-| 496 | Diplomatie | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Außenpolitik, diplomatischer Dienst / Geschick im Umgang («mit Diplomatie»)) |
-| 497 | Discount | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verkauf mit Preisnachlass / Discountgeschäft) |
-| 498 | Diskothek | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Tanzlokal / Sammlung von Schallplatten) |
-| 499 | Disposition | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verfügung, Planung («zur Disposition stehen») / Medizin: Veranlagung) |
-| 500 | Dissonanz | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Musik: Missklang / übertragen: Unstimmigkeit) |
-| 501 | Distribution | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Vertrieb, Verteilung / EDV: Software-Distribution) |
-| 502 | Disziplin | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ordnung, Selbstbeherrschung / Sportart / wissenschaftliches Fach) |
-| 503 | Diva | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: gefeierte Sängerin, Schauspielerin / abwertend: launische Person) |
-| 504 | Division | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Mathematik: Teilen / Militär: Truppenverband / Sport: Liga) |
-| 505 | Doktor | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: akademischer Titel / ugs.: Arzt) |
-| 506 | Dokumentation | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Dokumentarfilm / das Dokumentieren, Pflegedokumentation / Sammlung von Unterlagen) |
 | 345 | oberer | `Adjektive.txt` | 2026-09-27 | خطای فهرست: شکل صرف‌شده است؛ شکل پایه «obere» است (مثل hinterer و innerer) ⇒ تصمیم با Lukas | — |
 | 346 | oberschlächtig | `Adjektive.txt` | 2026-09-27 | اصطلاح فنی (چرخ آسیاب آبی که آب از بالا می‌خورد)؛ کاربردش را مطمئن نیستم — قاعده‌ی ۱۴ | — |
 | 347 | obliviös | `Adjektive.txt` | 2026-09-27 | این کلمه را نمی‌شناسم (شاید «فراموشکار»)؛ مطمئن نیستم — قاعده‌ی ۱۴ | — |
@@ -2749,8 +2587,6 @@
 | ۲۵۷۲ | Sendling | `substantiv_singular_alle.txt` | 2026-11-04 | Stadtteil von München bzw. veraltet für «Abgesandter» — Regel 14 | — |
 | ۲۵۷۳ | Senn | `substantiv_singular_alle.txt` | 2026-11-04 | Plural/Deklination unsicher (-e bzw. österr. -en), regional (Alpen) — Regel 14 | — |
 | ۲۵۷۴ | Senna | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Heilpflanze/Abführmittel bzw. Personenname) — Regel 14 | — |
-
-<a id="جدول-۲"></a>
 | ۲۵۷۵ | Serge | `substantiv_singular_alle.txt` | 2026-11-04 | Artikel unsicher (die/der Serge, Stoff), selten — Regel 14 | — |
 | ۲۵۷۶ | Sergeant | `substantiv_singular_alle.txt` | 2026-11-04 | Aussprache und Deklination doppelt (frz. -en/-en bzw. engl. -s/-s) — Regel 14 | — |
 | ۲۵۷۷ | Serra | `substantiv_singular_alle.txt` | 2026-11-04 | Bedeutung unsicher (Name/Gebirgsbezeichnung, kein gebräuchliches Nomen) — Regel 14 | — |
@@ -2963,11 +2799,175 @@
 | ۲۷۸۴ | Zutun | `substantiv_singular_alle.txt` | 2026-11-09 | fast nur in fester Wendung «ohne jemandes Zutun» — Regel 14 | — |
 | ۲۷۸۵ | Zuviel | `substantiv_singular_alle.txt` | 2026-11-09 | Schreibung/Gebrauch als Nomen unsicher («ein Zuviel an …» vs. «zu viel») — Regel 14 | — |
 | ۲۷۸۶ | Zuwanderungsgesetz | `substantiv_singular_alle.txt` | 2026-11-09 | Name eines bestimmten deutschen Gesetzes (2005) — Regel 18 | — |
+| ۲۷۸۷ | befleißen | `Verben_unregelmaeßig_Infinitiv.txt` | 2026-10-12 | veraltet (heute «sich befleißigen») — Regel 14/16 · ⚠️ نقل از `naechste_woerter.dart`؛ این ردیف تا 2026-11-11 در جدول جا افتاده بود | — |
 
+<a id="جدول-۲"></a>
 ## جدول ۲ — 📋 فهرست چهار حالت («الف) کلمه‌های فهرست‌ها که ساخته نشدند»)
 
 | # | کلمه | فهرست | تاریخ | حالت / دلیل |
 |---|---|---|---|---|
+| 345 | Bequemlichkeit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Komfort / Trägheit, Faulheit) |
+| 346 | Beratung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Rat, Beratungsgespräch / Besprechung, Beratschlagung (z. B. im Parlament)) |
+| 347 | Berber | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Angehöriger eines Volkes in Nordafrika / Berberteppich / umgangssprachlich: Obdachloser) |
+| 348 | Berechnung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: das Ausrechnen / eigennütziges Kalkül («aus Berechnung»)) |
+| 349 | Berechtigung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Befugnis, Recht / Rechtmäßigkeit, Begründetheit) |
+| 350 | Bereicherung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gewinn, Gewinn an Erfahrung («eine Bereicherung für das Team») / unrechtmäßiges Sich-Bereichern) |
+| 351 | Bereitschaft | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Willigkeit / Bereitschaftsdienst / Polizeieinheit) |
+| 352 | Berichterstatter | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Reporter, Korrespondent / Referent eines Ausschusses) |
+| 353 | Berufung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Recht: Rechtsmittel / innerer Ruf (Lebensaufgabe) / Ernennung in ein Amt) |
+| 354 | Besatzung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Mannschaft (Schiff, Flugzeug) / militärische Besetzung eines Landes) |
+| 355 | Bescherung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Weihnachtsgeschenke-Verteilung / ironisch: unangenehme Überraschung) |
+| 356 | Beschlag | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Metallbeschlag / Feuchtigkeitsfilm auf Glas / Hufbeschlag; «in Beschlag nehmen») |
+| 357 | Beschneidung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Zirkumzision / Kürzung, Einschränkung (von Rechten, Ästen)) |
+| 358 | Beschwerde | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Klage, Reklamation / Plural: körperliche Beschwerden) |
+| 359 | Besessenheit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wahn, Obsession / religiös: Besessensein (von einem Dämon)) |
+| 360 | Besetzung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Besetzen (Haus, Land) / Rollenbesetzung (Theater, Film) / Mannschaftsaufstellung, Stellenbesetzung) |
+| 361 | Besinnung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bewusstsein («die Besinnung verlieren») / Nachdenken, innere Einkehr) |
+| 362 | Besprechung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Sitzung, Meeting / Rezension (Buchbesprechung)) |
+| 363 | Bestand | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Fortbestehen, Dauer / Vorrat, Lagerbestand) |
+| 364 | Bestehen | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Existenz («seit Bestehen») / das Bestehen einer Prüfung) |
+| 365 | Bestellung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Auftrag, Order / Ernennung (eines Vormunds) / Bestellen des Feldes) |
+| 366 | Bestimmung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Vorschrift, Regelung / Festlegung, Ermittlung / Schicksal, Zweck) |
+| 367 | Besuch | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: das Besuchen / Gast, Gäste («wir haben Besuch»)) |
+| 368 | Beta | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: griechischer Buchstabe / Testversion (Software)) |
+| 369 | Beteiligte | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Beteiligte) |
+| 370 | Beteiligung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Teilnahme / Kapitalanteil an einer Firma) |
+| 371 | Betrachtung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Anschauen / Überlegung, Erörterung) |
+| 372 | Betreuer | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Person, die betreut (Kinder, Kranke) / Recht: gerichtlich bestellter Betreuer (Erwachsenenvertreter)) |
+| 373 | Betreuerin | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Person, die betreut / Recht: gerichtlich bestellte Betreuerin) |
+| 374 | Betrieb | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Firma, Unternehmen / Betriebszustand («in Betrieb») / Treiben, Andrang) |
+| 375 | Betriebsrat | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gremium der Arbeitnehmervertretung / einzelnes Mitglied dieses Gremiums) |
+| 376 | Betriebsratsvorsitzende | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Betriebsratsvorsitzende) |
+| 377 | Betriebsratsvorsitzender | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betriebsratsvorsitzende») |
+| 378 | Betroffene | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Betroffene) |
+| 379 | Betroffener | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Betroffene») |
+| 380 | Bewegung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: körperliche Bewegung / politische oder soziale Bewegung / innere Bewegung, Rührung) |
+| 381 | Bewusstsein | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Zustand des Wachseins («das Bewusstsein verlieren») / Wissen, Bewusstheit («Umweltbewusstsein»)) |
+| 382 | Beziehung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Liebesbeziehung, Partnerschaft / Verbindung, Zusammenhang / Plural: Kontakte («Beziehungen haben»)) |
+| 383 | Bezirksrat | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Gremium eines Bezirks / einzelnes Mitglied dieses Gremiums) |
+| 384 | Bezirksverordnete | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Bezirksverordnete) |
+| 385 | Bezirksvorsitzende | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: der/die Bezirksvorsitzende) |
+| 386 | Bezug | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Überzug (Kissenbezug) / Bezugnahme («in Bezug auf») / Erwerb, Erhalt; Plural: Gehalt («Bezüge»)) |
+| 387 | Biedermann | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: veraltet: rechtschaffener Mann / abwertend: Spießer) |
+| 388 | Bilanz | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Gegenüberstellung von Vermögen und Kapital / Ergebnis, Fazit («Bilanz ziehen»)) |
+| 389 | Bildung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Erziehung, Wissen / Entstehung, Formung (Wortbildung, Bildung einer Regierung)) |
+| 390 | Binde | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Verband, Armbinde / Damenbinde / Augenbinde) |
+| 391 | Binder | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: österr.: Krawatte / Bauwesen: Träger / Bindemittel; Buchbinder) |
+| 392 | Bindung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: emotionale Bindung / Skibindung / chemische Bindung; Verpflichtung) |
+| 393 | Bitterkeit | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: bitterer Geschmack / Verbitterung, seelischer Schmerz) |
+| 394 | Blackout | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Stromausfall / Gedächtnisaussetzer, Filmriss) |
+| 395 | Blase | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Luftblase / Harnblase / Hautblase) |
+| 396 | Blatt | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Pflanzenblatt / Blatt Papier / Zeitung («das Blatt»); Spielkarten) |
+| 397 | Blech | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Metallblech / Backblech / umgangssprachlich: Unsinn («Red kein Blech»)) |
+| 398 | Blitz | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wetterblitz / Kamerablitz / Radarfalle («geblitzt werden»)) |
+| 399 | Block | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Klotz / Notizblock / Häuserblock / politischer Block) |
+| 400 | Boden | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Fußboden / Erdboden, Erde / Dachboden / Grund eines Gefäßes) |
+| 401 | Bodenhaftung | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Haftung von Reifen auf der Straße / übertragen: Realitätssinn) |
+| 402 | Body | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bodysuit (Kleidungsstück) / umgangssprachlich: Körper) |
+| 403 | Bogen | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Krümmung, Kurve / Waffe (Pfeil und Bogen) / Blatt Papier; Geigenbogen; Architektur: Torbogen) |
+| 404 | Bolid | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Rennwagen / Astronomie: Feuerkugel, Meteor) |
+| 405 | Bomber | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bombenflugzeug / Person, die Bomben legt; Sport: Torjäger) |
+| 406 | Botschaft | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Nachricht, Mitteilung / diplomatische Vertretung (Gebäude, Behörde)) |
+| 407 | Boulevard | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: breite Prachtstraße / Boulevardpresse) |
+| 408 | Box | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Kiste, Behälter / Lautsprecher / Boxengasse (Motorsport); Pferdebox) |
+| 409 | Boxer | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Sportler (Faustkampf) / Hunderasse / Unterhose (Boxershorts)) |
+| 410 | Brauner | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Braune» (österr.: Kaffee mit Milch; braunes Pferd)) |
+| 411 | Brause | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Brausepulver, Limonade / Duschkopf, Brausekopf) |
+| 412 | Breite | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Ausdehnung in die Breite / geografische Breite) |
+| 413 | Bremser | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Bremser bei der Bahn / übertragen: jemand, der Fortschritt bremst; Bobsport: Bremser) |
+| 414 | Bruder | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Geschwister / Ordensbruder, Mönch) |
+| 415 | Brut | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Nachwuchs (Vögel, Fische) / abwertend: Gesindel) |
+| 416 | Bube | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Spielkarte / veraltet: Junge / Schurke («Spitzbube»)) |
+| 417 | Buchenwald | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Wald aus Buchen / ehemaliges Konzentrationslager (Eigenname)) |
+| 418 | Buckel | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: umgangssprachlich: Rücken / Höcker, Buckel (Krankheit) / kleine Anhöhe) |
+| 419 | Bude | `substantiv_singular_alle.txt` | 2026-10-20 | Fall 1 (mehrere Bedeutungen: Verkaufsstand, Kiosk / umgangssprachlich: Zimmer, Wohnung) |
+| 420 | Bundesrat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Länderkammer (D, Ö) bzw. Regierung (CH) / Mitglied dieses Organs (CH, Ö: «ein Bundesrat»)) |
+| 421 | Bundesstaat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Staat aus mehreren Ländern (Föderation) / Gliedstaat eines Bundesstaates (z. B. US-Bundesstaat)) |
+| 422 | Bundestagsabgeordnete | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: der/die Bundestagsabgeordnete) |
+| 423 | Bundestagsabgeordneter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundestagsabgeordnete») |
+| 424 | Bundesvorsitzende | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: der/die Bundesvorsitzende) |
+| 425 | Bundesvorsitzender | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Bundesvorsitzende») |
+| 426 | Bunker | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schutzraum / Behälter für Kohle, Getreide / Golf: Sandhindernis) |
+| 427 | Burg | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Festung, Schloss / Strandburg (Sandwall) / Jägersprache: Biberbau) |
+| 428 | Bursch | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen wie «Bursche»: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft; v. a. österr./südd. Form) |
+| 429 | Bursche | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: junger Mann / Laufbursche, Gehilfe / Mitglied einer Burschenschaft / ugs.: großes Exemplar) |
+| 430 | Bus | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 3 (Homograph, gleicher Artikel: der Bus «Omnibus» / der Bus «EDV: Datenleitung») |
+| 431 | Busen | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: weibliche Brust / gehoben: Inneres, Herz; Meeresbucht («Meerbusen»)) |
+| 432 | Butterfly | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schmetterlingsschwimmen / Sprung beim Eiskunstlauf) |
+| 433 | Button | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Anstecker, Abzeichen / Schaltfläche (EDV)) |
+| 434 | Bypass | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Medizin: Umgehungsgefäß, Bypassoperation / Technik: Umgehungsleitung) |
+| 435 | Camper | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: jemand, der campt / ugs.: Wohnmobil) |
+| 436 | Caravan | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wohnwagen / Kombiwagen) |
+| 437 | Caritas | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Nächstenliebe / Hilfsorganisation (Eigenname)) |
+| 438 | Carrier | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Flugzeugträger / Fluggesellschaft, Transportunternehmen / Telefonanbieter) |
+| 439 | Casino | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Spielbank / Speiseraum, Kantine (z. B. Offizierskasino)) |
+| 440 | Chaot | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: unordentlicher Mensch / abwertend: politischer Randalierer) |
+| 441 | Charakter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wesen, Eigenart / Person, Figur / Schriftzeichen) |
+| 442 | Charge | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Dienstgrad, Rang / Produktionsserie (Pharma) / Nebenrolle (Theater)) |
+| 443 | Chart | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schaubild, Grafik / die Charts: Hitliste) |
+| 444 | Charter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Chartervertrag, Miete eines Fahrzeugs / Urkunde, Freibrief) |
+| 445 | Chiffre | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Geheimzeichen, Code / Kennziffer einer Zeitungsanzeige) |
+| 446 | Chili | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schote, Gewürz / Gericht «Chili con Carne») |
+| 447 | Chinese | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Einwohner Chinas / ugs.: chinesisches Restaurant («zum Chinesen gehen»)) |
+| 448 | Chip | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Mikrochip / Kartoffelchip / Spielmarke) |
+| 449 | Choral | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: gregorianischer Gesang / Kirchenlied) |
+| 450 | Christkind | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Jesuskind / Gabenbringer zu Weihnachten (bes. Österreich, Süddeutschland)) |
+| 451 | Claim | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Werbeslogan / Anspruch, Rechtsanspruch (z. B. Goldgräber)) |
+| 452 | Clinch | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Boxen: Umklammerung / Streit («im Clinch liegen»)) |
+| 453 | Coca | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kokastrauch / ugs.: Coca-Cola) |
+| 454 | Code | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Geheimschlüssel, Zugangscode / Zeichensystem; Programmcode / Verhaltenskodex) |
+| 455 | Controller | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Fachmann für Controlling (Beruf) / Steuergerät, Spielkonsolen-Controller) |
+| 456 | Corner | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: österr./schweiz. Sport: Eckball / Boxen: Ringecke / Börse: Aufkauf) |
+| 457 | Couleur | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Art, Richtung («jeder Couleur») / Farben einer Studentenverbindung) |
+| 458 | Cover | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Titelbild, Plattenhülle / Coverversion) |
+| 459 | Crash | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Unfall, Zusammenstoß / Börsenkrach / Computerabsturz) |
+| 460 | Credo | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Glaubensbekenntnis (Religion) / Grundsatz, Überzeugung) |
+| 461 | Cup | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Pokal, Pokalwettbewerb / Körbchen des Büstenhalters) |
+| 462 | Curry | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Gewürzmischung / Gericht mit Currysoße) |
+| 463 | Cut | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Filmschnitt / Schnittwunde (Boxen) / Herrenrock «Cutaway») |
+| 464 | Damm | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Staudamm, Erdwall / Bahn-, Straßendamm / Anatomie: Bereich zwischen After und Genitalien) |
+| 465 | Darm | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verdauungsorgan / Wursthaut (Natur- bzw. Kunstdarm)) |
+| 466 | Darstellung | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Abbildung, Grafik / Schilderung, Beschreibung / Verkörperung einer Rolle) |
+| 467 | Datenschutzbeauftragter | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Partizip: der/die Datenschutzbeauftragte) |
+| 468 | Dauerbrenner | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ofen, der lange brennt / ugs.: lange erfolgreiche Sache, Dauerthema) |
+| 469 | Dealer | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Drogenhändler / Kartengeber im Casino; Händler) |
+| 470 | Decke | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bett-, Tischdecke / Zimmerdecke) |
+| 471 | Deckung | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schutz (in Deckung gehen) / finanzielle Absicherung / Sport: Abwehr) |
+| 472 | Defizit | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Fehlbetrag (Haushalt) / Mangel (z. B. Vitamindefizit)) |
+| 473 | Dekan | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Leiter einer Fakultät / kirchliches Amt (Dechant)) |
+| 474 | Deklaration | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Erklärung (z. B. der Menschenrechte) / Zoll-, Inhaltsangabe) |
+| 475 | Delphin | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Meeressäugetier / Schwimmstil «Delphinschwimmen») |
+| 476 | Demonstration | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kundgebung, Protestmarsch / Vorführung, Beweis (z. B. «Demonstration der Stärke»)) |
+| 477 | Demontage | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Abbau einer Anlage / übertragen: schrittweise Zerstörung, z. B. eines Politikers) |
+| 478 | Departement | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ministerium in der Schweiz / Verwaltungsbezirk in Frankreich) |
+| 479 | Depot | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Lager, Aufbewahrungsort / Wertpapierdepot / Betriebshof für Busse, Straßenbahnen) |
+| 480 | Depression | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: psychische Krankheit / wirtschaftlicher Abschwung / Meteorologie: Tief) |
+| 481 | Derivat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Chemie: abgeleitete Verbindung / Finanzen: Finanzinstrument / Sprache: abgeleitetes Wort) |
+| 482 | Desktop | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bildschirmoberfläche / Desktop-Computer) |
+| 483 | Deutscher | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 4 (substantiviertes Adjektiv: stark gebeugte Form von «der Deutsche») |
+| 484 | Devise | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wahlspruch, Motto / Plural «Devisen»: ausländische Zahlungsmittel) |
+| 485 | Diakonie | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: kirchlicher Sozialdienst / Name der evangelischen Hilfsorganisation) |
+| 486 | Diener | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Bediensteter / ugs.: Verbeugung («einen Diener machen»)) |
+| 487 | Dienst | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Arbeit, Schicht («Dienst haben») / Hilfe, Gefallen / Behörde, Einrichtung (z. B. Geheimdienst)) |
+| 488 | Dienstzeit | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Arbeitszeit, Dienststunden / Dauer der Beschäftigung, Dienstjahre) |
+| 489 | Diesel | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Kraftstoff / Dieselmotor / Auto mit Dieselmotor) |
+| 490 | Differenz | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Unterschied, Rechenergebnis / Plural: Meinungsverschiedenheiten) |
+| 491 | Diktat | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Schreibübung in der Schule / Text zum Mitschreiben / aufgezwungene Bedingung («Diktat der Sieger»)) |
+| 492 | Dimension | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ausdehnung (Länge, Breite, Höhe) / Ausmaß, Größenordnung) |
+| 493 | Ding | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Sache, Gegenstand / ugs.: junges Mädchen («ein junges Ding»)) |
+| 494 | Dino | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: ugs. Dinosaurier / übertragen: etwas Veraltetes) |
+| 495 | Dinosaurier | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: ausgestorbenes Reptil / übertragen: etwas Veraltetes, Rückständiges) |
+| 496 | Diplomatie | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Außenpolitik, diplomatischer Dienst / Geschick im Umgang («mit Diplomatie»)) |
+| 497 | Discount | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verkauf mit Preisnachlass / Discountgeschäft) |
+| 498 | Diskothek | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Tanzlokal / Sammlung von Schallplatten) |
+| 499 | Disposition | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Verfügung, Planung («zur Disposition stehen») / Medizin: Veranlagung) |
+| 500 | Dissonanz | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Musik: Missklang / übertragen: Unstimmigkeit) |
+| 501 | Distribution | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Wirtschaft: Vertrieb, Verteilung / EDV: Software-Distribution) |
+| 502 | Disziplin | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Ordnung, Selbstbeherrschung / Sportart / wissenschaftliches Fach) |
+| 503 | Diva | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: gefeierte Sängerin, Schauspielerin / abwertend: launische Person) |
+| 504 | Division | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Mathematik: Teilen / Militär: Truppenverband / Sport: Liga) |
+| 505 | Doktor | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: akademischer Titel / ugs.: Arzt) |
+| 506 | Dokumentation | `substantiv_singular_alle.txt` | 2026-10-21 | Fall 1 (mehrere Bedeutungen: Dokumentarfilm / das Dokumentieren, Pflegedokumentation / Sammlung von Unterlagen) |
 | 1 | Ablauf | `substantiv_singular_alle.txt` | 2026-10-19 | Fall 1 (mehrere Bedeutungen: Ablauf eines Prozesses / Ablauf einer Frist / Abfluss) |
 | 2 | Ableger | `substantiv_singular_alle.txt` | 2026-10-19 | Fall 1 (mehrere Bedeutungen: Pflanzenableger / Zweigfirma) |
 | 3 | Ableitung | `substantiv_singular_alle.txt` | 2026-10-19 | Fall 1 (mehrere Bedeutungen: Sprache/Mathematik / Wasserableitung) |

@@ -17,7 +17,7 @@
 | کار | فایل‌ها |
 |---|---|
 | هر چت VOX | `PLAN.md` · `PROJECT_MAP.md` · `docs/REGELN.md` |
-| کلمه‌ها | + `docs/WORTROUTINE.md` · `old files Lukasalmani/Wort prompt` · `lib/features/vokabular/data/vokab_schema.dart` · `docs/zukunft/VIER_FAELLE.md` |
+| کلمه‌ها | + `docs/WORTROUTINE.md` · `tool/daten/zurueckgestellt.json` (تنها منبع کلمه‌های کنار گذاشته) · `old files Lukasalmani/Wort prompt` · `lib/features/vokabular/data/vokab_schema.dart` · `docs/zukunft/VIER_FAELLE.md` |
 | ظاهر کلمه (رنگ، شکل) | + فایل‌های `lib/core/grammatikon/` (فهرست در `PROJECT_MAP.md` ⇒ Grammatikon) |
 | داده‌ی کاربر، پشتیبان، حساب | + `docs/NUTZERDATEN.md` |
 | گرامر | + `GRAMMATIK_MAP.md` |

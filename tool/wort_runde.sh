@@ -46,6 +46,8 @@ daten_schritte() {
   echo "── 6 · Index + ✓ in den Listen"
   dart tool/vokab_index.dart | tail -n 3
   dart tool/naechste_woerter.dart --abhaken
+  # Tabelle der zurückgestellten Wörter aus der JSON-Quelle (Audit 2026-11-11)
+  dart tool/zurueckgestellt.dart
 }
 
 teil_1() {
