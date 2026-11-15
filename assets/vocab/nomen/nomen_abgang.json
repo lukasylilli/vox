@@ -6,38 +6,15 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "خروج (از صحنه)",
-      "ترک (مدرسه، شغل)"
+      "خروج (از صحنه)"
     ],
     "en": [
-      "exit",
-      "leaving",
-      "departure"
+      "exit"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "خروج (از صحنه)"
-      ],
-      "en": [
-        "exit"
-      ]
-    },
-    {
-      "fa": [
-        "ترک (مدرسه، شغل)"
-      ],
-      "en": [
-        "leaving",
-        "departure"
-      ]
-    }
-  ],
   "niveau": "C1",
   "themen": [
-    "Theater",
-    "Schule"
+    "Theater"
   ],
   "ipa": "ˈapɡaŋ",
   "anmerkung": null,
@@ -52,17 +29,15 @@
       "uebersetzung": {
         "fa": "پس از آواز، خروجش از صحنه است.",
         "en": "After the song comes his exit."
-      },
-      "bedeutung": 1
+      }
     },
     {
       "niveau": "B2",
-      "satz": "Nach seinem Abgang von der Schule fand er schnell eine Lehrstelle in einer Werkstatt.",
+      "satz": "Nach seinem Abgang von der Bühne klatschte das Publikum noch minutenlang.",
       "uebersetzung": {
-        "fa": "پس از ترک مدرسه، به‌سرعت در یک کارگاه جای کارآموزی پیدا کرد.",
-        "en": "After leaving school he quickly found an apprenticeship in a workshop."
-      },
-      "bedeutung": 2
+        "fa": "پس از خروجش از صحنه، تماشاگران تا چند دقیقه دست می‌زدند.",
+        "en": "After he left the stage, the audience kept clapping for minutes."
+      }
     }
   ],
   "synonyme": [],
@@ -71,7 +46,7 @@
       "wort": "der Auftritt",
       "uebersetzung": {
         "fa": "ورود به صحنه، اجرا",
-        "en": "entrance"
+        "en": "entrance, appearance"
       }
     }
   ],
@@ -89,37 +64,17 @@
     "nomen_verb_verbindungen": [
       {
         "verbindung": "einen guten Abgang machen",
-        "beispiel": "Mit dieser Rede hat er einen guten Abgang gemacht.",
+        "beispiel": "Mit diesem Witz machte er einen guten Abgang.",
         "uebersetzung": {
-          "fa": "با این سخنرانی به‌خوبی کنار رفت.",
-          "en": "He made a good exit with this speech."
+          "fa": "با این شوخی، خوب از صحنه بیرون رفت.",
+          "en": "He made a good exit with that joke."
         }
       }
     ]
   },
   "wortnetz": {
-    "grundwort": "gehen",
+    "grundwort": "Abgang",
     "woerter": [
-      {
-        "wort": "gehen",
-        "wortart": "verb",
-        "niveau": "A1",
-        "uebersetzung": {
-          "fa": "رفتن",
-          "en": "to go"
-        },
-        "id_ref": "verb_gehen"
-      },
-      {
-        "wort": "der Auftritt",
-        "wortart": "nomen",
-        "niveau": "B2",
-        "uebersetzung": {
-          "fa": "اجرا، ورود به صحنه",
-          "en": "appearance"
-        },
-        "id_ref": "nomen_auftritt"
-      },
       {
         "wort": "die Bühne",
         "wortart": "nomen",
@@ -131,24 +86,44 @@
         "id_ref": "nomen_buehne"
       },
       {
-        "wort": "verlassen",
-        "wortart": "verb",
-        "niveau": "B1",
-        "uebersetzung": {
-          "fa": "ترک کردن",
-          "en": "to leave"
-        },
-        "id_ref": "verb_verlassen"
-      },
-      {
-        "wort": "der Abschied",
+        "wort": "der Auftritt",
         "wortart": "nomen",
         "niveau": "B1",
         "uebersetzung": {
-          "fa": "خداحافظی",
-          "en": "farewell"
+          "fa": "اجرا، ورود به صحنه",
+          "en": "appearance"
         },
-        "id_ref": "nomen_abschied"
+        "id_ref": "nomen_auftritt"
+      },
+      {
+        "wort": "das Theater",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تئاتر",
+          "en": "theatre"
+        },
+        "id_ref": "nomen_theater"
+      },
+      {
+        "wort": "der Schauspieler",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازیگر",
+          "en": "actor"
+        },
+        "id_ref": "nomen_schauspieler"
+      },
+      {
+        "wort": "gehen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رفتن",
+          "en": "to go"
+        },
+        "id_ref": "verb_gehen"
       }
     ]
   },

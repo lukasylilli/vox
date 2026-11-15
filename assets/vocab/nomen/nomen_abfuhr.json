@@ -6,40 +6,16 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "جمع‌آوری و بردن (زباله)",
-      "جواب رد"
+      "جمع‌آوری و بردن (زباله)"
     ],
     "en": [
       "collection",
-      "removal",
-      "rebuff",
-      "rejection"
+      "removal"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "جمع‌آوری و بردن (زباله)"
-      ],
-      "en": [
-        "collection",
-        "removal"
-      ]
-    },
-    {
-      "fa": [
-        "جواب رد"
-      ],
-      "en": [
-        "rebuff",
-        "rejection"
-      ]
-    }
-  ],
-  "niveau": "C1",
+  "niveau": "B2",
   "themen": [
-    "Haushalt",
-    "Kommunikation"
+    "Haushalt"
   ],
   "ipa": "ˈapfuːɐ̯",
   "anmerkung": null,
@@ -55,18 +31,16 @@
       "satz": "Die Abfuhr kommt am Montag.",
       "uebersetzung": {
         "fa": "ماشین جمع‌آوری زباله دوشنبه می‌آید.",
-        "en": "Collection is on Monday."
-      },
-      "bedeutung": 1
+        "en": "The rubbish collection comes on Monday."
+      }
     },
     {
-      "niveau": "B2",
-      "satz": "Als er sie zum Essen einladen wollte, erteilte sie ihm eine klare Abfuhr.",
+      "niveau": "B1",
+      "satz": "Weil am Feiertag keine Abfuhr ist, bleiben die Mülltonnen bis Mittwoch stehen.",
       "uebersetzung": {
-        "fa": "وقتی خواست او را به شام دعوت کند، او قاطعانه جواب رد داد.",
-        "en": "When he wanted to invite her to dinner, she gave him a clear rebuff."
-      },
-      "bedeutung": 2
+        "fa": "چون روز تعطیل زباله جمع نمی‌شود، سطل‌ها تا چهارشنبه می‌مانند.",
+        "en": "Because there is no collection on the holiday, the bins stay out until Wednesday."
+      }
     }
   ],
   "synonyme": [],
@@ -76,7 +50,7 @@
       "wort": "die Müllabfuhr",
       "uebersetzung": {
         "fa": "جمع‌آوری زباله",
-        "en": "refuse collection"
+        "en": "rubbish collection"
       }
     }
   ],
@@ -90,19 +64,10 @@
     "deklinationstyp": "normal",
     "zaehlbar": true,
     "mit_praeposition": [],
-    "nomen_verb_verbindungen": [
-      {
-        "verbindung": "jemandem eine Abfuhr erteilen",
-        "beispiel": "Der Chef erteilte dem Vorschlag eine Abfuhr.",
-        "uebersetzung": {
-          "fa": "رئیس پیشنهاد را رد کرد.",
-          "en": "The boss rejected the proposal."
-        }
-      }
-    ]
+    "nomen_verb_verbindungen": []
   },
   "wortnetz": {
-    "grundwort": "führen",
+    "grundwort": "Abfuhr",
     "woerter": [
       {
         "wort": "der Müll",
@@ -115,29 +80,19 @@
         "id_ref": "nomen_muell"
       },
       {
-        "wort": "ablehnen",
-        "wortart": "verb",
-        "niveau": "B1",
-        "uebersetzung": {
-          "fa": "رد کردن",
-          "en": "to reject"
-        },
-        "id_ref": "verb_ablehnen"
-      },
-      {
-        "wort": "die Absage",
+        "wort": "die Mülltonne",
         "wortart": "nomen",
-        "niveau": "B1",
+        "niveau": "A2",
         "uebersetzung": {
-          "fa": "جواب منفی",
-          "en": "refusal"
+          "fa": "سطل زباله (بزرگ)",
+          "en": "dustbin"
         },
-        "id_ref": "nomen_absage"
+        "id_ref": "nomen_muelltonne"
       },
       {
         "wort": "abholen",
         "wortart": "verb",
-        "niveau": "A2",
+        "niveau": "A1",
         "uebersetzung": {
           "fa": "بردن، تحویل گرفتن",
           "en": "to collect"
@@ -145,14 +100,24 @@
         "id_ref": "verb_abholen"
       },
       {
-        "wort": "führen",
+        "wort": "abführen",
         "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بردن، خارج کردن",
+          "en": "to take away"
+        },
+        "id_ref": "verb_abfuehren"
+      },
+      {
+        "wort": "der Abfall",
+        "wortart": "nomen",
         "niveau": "A2",
         "uebersetzung": {
-          "fa": "بردن، هدایت کردن",
-          "en": "to lead"
+          "fa": "زباله",
+          "en": "rubbish"
         },
-        "id_ref": "verb_fuehren"
+        "id_ref": "nomen_abfall"
       }
     ]
   },

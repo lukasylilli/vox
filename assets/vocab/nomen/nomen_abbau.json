@@ -6,53 +6,21 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "کاهش، کم کردن",
-      "برچیدن، پیاده کردن (سازه)",
-      "استخراج (معدن)"
+      "کاهش",
+      "کم کردن"
     ],
     "en": [
       "reduction",
-      "cutting",
-      "dismantling",
-      "mining",
-      "extraction"
+      "cutting"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "کاهش، کم کردن"
-      ],
-      "en": [
-        "reduction",
-        "cutting"
-      ]
-    },
-    {
-      "fa": [
-        "برچیدن، پیاده کردن (سازه)"
-      ],
-      "en": [
-        "dismantling"
-      ]
-    },
-    {
-      "fa": [
-        "استخراج (معدن)"
-      ],
-      "en": [
-        "mining",
-        "extraction"
-      ]
-    }
-  ],
   "niveau": "B2",
   "themen": [
     "Wirtschaft",
     "Arbeit"
   ],
   "ipa": "ˈapbaʊ̯",
-  "anmerkung": "Plural selten (Bergbau: die Abbaue).",
+  "anmerkung": null,
   "berufe": [],
   "anstoessig": null,
   "zeitlich": null,
@@ -64,26 +32,15 @@
       "uebersetzung": {
         "fa": "کاهش شغل‌ها بسیاری را نگران می‌کند.",
         "en": "The cutting of jobs worries many people."
-      },
-      "bedeutung": 1
+      }
     },
     {
       "niveau": "B2",
-      "satz": "Nach dem Konzert dauerte der Abbau der Bühne bis spät in die Nacht.",
+      "satz": "Der Abbau von Bürokratie ist seit Jahren ein Ziel der Regierung, doch es geht nur langsam voran.",
       "uebersetzung": {
-        "fa": "پس از کنسرت، برچیدن صحنه تا دیروقت شب طول کشید.",
-        "en": "After the concert, dismantling the stage took until late at night."
-      },
-      "bedeutung": 2
-    },
-    {
-      "niveau": "B2",
-      "satz": "Der Abbau von Kohle hat die Landschaft der Region stark verändert.",
-      "uebersetzung": {
-        "fa": "استخراج زغال‌سنگ چشم‌انداز منطقه را به شدت تغییر داده است.",
-        "en": "Coal mining has greatly changed the landscape of the region."
-      },
-      "bedeutung": 3
+        "fa": "کاهش دیوان‌سالاری سال‌هاست هدف دولت است، اما فقط آهسته پیش می‌رود.",
+        "en": "Reducing bureaucracy has been a government goal for years, but progress is slow."
+      }
     }
   ],
   "synonyme": [
@@ -93,14 +50,21 @@
         "fa": "کاهش",
         "en": "reduction"
       }
+    },
+    {
+      "wort": "die Verringerung",
+      "uebersetzung": {
+        "fa": "کم شدن، کاهش",
+        "en": "decrease"
+      }
     }
   ],
   "antonyme": [
     {
-      "wort": "der Aufbau",
+      "wort": "der Ausbau",
       "uebersetzung": {
-        "fa": "ساخت، برپایی",
-        "en": "construction"
+        "fa": "گسترش",
+        "en": "expansion"
       }
     }
   ],
@@ -118,6 +82,13 @@
         "fa": "کاهش استرس",
         "en": "stress reduction"
       }
+    },
+    {
+      "wort": "der Bürokratieabbau",
+      "uebersetzung": {
+        "fa": "کاهش دیوان‌سالاری",
+        "en": "cutting red tape"
+      }
     }
   ],
   "etymologie": {
@@ -133,37 +104,17 @@
     "nomen_verb_verbindungen": []
   },
   "wortnetz": {
-    "grundwort": "bauen",
+    "grundwort": "Abbau",
     "woerter": [
       {
         "wort": "abbauen",
         "wortart": "verb",
-        "niveau": "B2",
-        "uebersetzung": {
-          "fa": "برچیدن، کاهش دادن",
-          "en": "to dismantle, to reduce"
-        },
-        "id_ref": "verb_abbauen"
-      },
-      {
-        "wort": "der Aufbau",
-        "wortart": "nomen",
         "niveau": "B1",
         "uebersetzung": {
-          "fa": "برپایی، ساختار",
-          "en": "construction"
+          "fa": "کاهش دادن، برچیدن",
+          "en": "to reduce, to dismantle"
         },
-        "id_ref": "nomen_aufbau"
-      },
-      {
-        "wort": "bauen",
-        "wortart": "verb",
-        "niveau": "A1",
-        "uebersetzung": {
-          "fa": "ساختن",
-          "en": "to build"
-        },
-        "id_ref": "verb_bauen"
+        "id_ref": "verb_abbauen"
       },
       {
         "wort": "reduzieren",
@@ -176,14 +127,34 @@
         "id_ref": "verb_reduzieren"
       },
       {
-        "wort": "die Kohle",
+        "wort": "die Stelle",
         "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شغل، جای کار",
+          "en": "job, position"
+        },
+        "id_ref": "nomen_stelle"
+      },
+      {
+        "wort": "der Stress",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "استرس",
+          "en": "stress"
+        },
+        "id_ref": "nomen_stress"
+      },
+      {
+        "wort": "sinken",
+        "wortart": "verb",
         "niveau": "B1",
         "uebersetzung": {
-          "fa": "زغال‌سنگ",
-          "en": "coal"
+          "fa": "پایین آمدن",
+          "en": "to fall"
         },
-        "id_ref": "nomen_kohle"
+        "id_ref": "verb_sinken"
       }
     ]
   },

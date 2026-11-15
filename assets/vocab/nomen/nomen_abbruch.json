@@ -6,38 +6,15 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "تخریب (ساختمان)",
-      "قطع، توقف (کار، گفت‌وگو)"
+      "تخریب (ساختمان)"
     ],
     "en": [
-      "demolition",
-      "termination",
-      "breaking off"
+      "demolition"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "تخریب (ساختمان)"
-      ],
-      "en": [
-        "demolition"
-      ]
-    },
-    {
-      "fa": [
-        "قطع، توقف (کار، گفت‌وگو)"
-      ],
-      "en": [
-        "termination",
-        "breaking off"
-      ]
-    }
-  ],
   "niveau": "B2",
   "themen": [
-    "Bau",
-    "Arbeit"
+    "Bau"
   ],
   "ipa": "ˈapbʁʊx",
   "anmerkung": null,
@@ -54,17 +31,15 @@
       "uebersetzung": {
         "fa": "تخریب خانه یک هفته طول می‌کشد.",
         "en": "The demolition of the house takes a week."
-      },
-      "bedeutung": 1
+      }
     },
     {
       "niveau": "B2",
-      "satz": "Wegen des Unwetters kam es zum Abbruch des Spiels in der zweiten Halbzeit.",
+      "satz": "Weil das alte Haus einsturzgefährdet war, entschied sich die Stadt für den Abbruch.",
       "uebersetzung": {
-        "fa": "به خاطر طوفان، بازی در نیمه‌ی دوم متوقف شد.",
-        "en": "Because of the storm the match was abandoned in the second half."
-      },
-      "bedeutung": 2
+        "fa": "چون خانه‌ی قدیمی در خطر فروریختن بود، شهر تصمیم به تخریب آن گرفت.",
+        "en": "Because the old house was at risk of collapse, the town decided to demolish it."
+      }
     }
   ],
   "synonyme": [
@@ -74,22 +49,15 @@
         "fa": "تخریب",
         "en": "demolition"
       }
-    },
-    {
-      "wort": "das Ende",
-      "uebersetzung": {
-        "fa": "پایان",
-        "en": "end"
-      }
     }
   ],
   "antonyme": [],
   "komposita": [
     {
-      "wort": "der Studienabbruch",
+      "wort": "das Abbruchhaus",
       "uebersetzung": {
-        "fa": "ترک تحصیل",
-        "en": "dropping out of university"
+        "fa": "خانه‌ی کلنگی",
+        "en": "building due for demolition"
       }
     }
   ],
@@ -103,44 +71,25 @@
     "deklinationstyp": "normal",
     "zaehlbar": true,
     "mit_praeposition": [],
-    "nomen_verb_verbindungen": [
-      {
-        "verbindung": "einer Sache keinen Abbruch tun",
-        "beispiel": "Der Regen tat der guten Stimmung keinen Abbruch.",
-        "uebersetzung": {
-          "fa": "باران از حال خوب کسی کم نکرد.",
-          "en": "The rain did not spoil the good mood."
-        }
-      }
-    ]
+    "nomen_verb_verbindungen": []
   },
   "wortnetz": {
-    "grundwort": "brechen",
+    "grundwort": "Abbruch",
     "woerter": [
       {
         "wort": "abbrechen",
         "wortart": "verb",
         "niveau": "B1",
         "uebersetzung": {
-          "fa": "قطع کردن",
-          "en": "to break off"
+          "fa": "خراب کردن، قطع کردن",
+          "en": "to demolish, to break off"
         },
         "id_ref": "verb_abbrechen"
       },
       {
-        "wort": "brechen",
-        "wortart": "verb",
-        "niveau": "B1",
-        "uebersetzung": {
-          "fa": "شکستن",
-          "en": "to break"
-        },
-        "id_ref": "verb_brechen"
-      },
-      {
         "wort": "der Abriss",
         "wortart": "nomen",
-        "niveau": "C1",
+        "niveau": "B2",
         "uebersetzung": {
           "fa": "تخریب",
           "en": "demolition"
@@ -148,14 +97,14 @@
         "id_ref": "nomen_abriss"
       },
       {
-        "wort": "beenden",
+        "wort": "abreißen",
         "wortart": "verb",
-        "niveau": "A2",
+        "niveau": "B1",
         "uebersetzung": {
-          "fa": "تمام کردن",
-          "en": "to end"
+          "fa": "خراب کردن (ساختمان)",
+          "en": "to tear down"
         },
-        "id_ref": "verb_beenden"
+        "id_ref": "verb_abreissen"
       },
       {
         "wort": "das Gebäude",
@@ -166,6 +115,16 @@
           "en": "building"
         },
         "id_ref": "nomen_gebaeude"
+      },
+      {
+        "wort": "der Bagger",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بیل مکانیکی",
+          "en": "excavator"
+        },
+        "id_ref": "nomen_bagger"
       }
     ]
   },

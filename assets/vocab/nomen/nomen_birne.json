@@ -6,39 +6,18 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "گلابی",
-      "لامپ"
+      "گلابی"
     ],
     "en": [
-      "pear",
-      "light bulb"
+      "pear"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "گلابی"
-      ],
-      "en": [
-        "pear"
-      ]
-    },
-    {
-      "fa": [
-        "لامپ"
-      ],
-      "en": [
-        "light bulb"
-      ]
-    }
-  ],
   "niveau": "A2",
   "themen": [
-    "Essen",
-    "Haushalt"
+    "Essen"
   ],
   "ipa": "ˈbɪʁnə",
-  "anmerkung": "Umgangssprachlich auch «Kopf» (Er hat nichts in der Birne).",
+  "anmerkung": null,
   "berufe": [],
   "anstoessig": null,
   "zeitlich": null,
@@ -50,35 +29,18 @@
       "uebersetzung": {
         "fa": "گلابی شیرین و آبدار است.",
         "en": "The pear is sweet and juicy."
-      },
-      "bedeutung": 1
+      }
     },
     {
       "niveau": "B1",
-      "satz": "Im Flur ist die Birne kaputt, deshalb ist es dort ganz dunkel.",
+      "satz": "Wenn die Birnen im Herbst reif sind, pflücken wir sie im Garten.",
       "uebersetzung": {
-        "fa": "لامپ راهرو سوخته، برای همین آن‌جا کاملاً تاریک است.",
-        "en": "The bulb in the hall has gone, so it is completely dark there."
-      },
-      "bedeutung": 2
-    }
-  ],
-  "synonyme": [
-    {
-      "wort": "die Glühbirne",
-      "uebersetzung": {
-        "fa": "لامپ رشته‌ای",
-        "en": "light bulb"
-      }
-    },
-    {
-      "wort": "die Lampe",
-      "uebersetzung": {
-        "fa": "چراغ",
-        "en": "lamp"
+        "fa": "وقتی گلابی‌ها در پاییز می‌رسند، آن‌ها را در باغ می‌چینیم.",
+        "en": "When the pears are ripe in autumn, we pick them in the garden."
       }
     }
   ],
+  "synonyme": [],
   "antonyme": [],
   "komposita": [
     {
@@ -89,17 +51,14 @@
       }
     },
     {
-      "wort": "die Glühbirne",
+      "wort": "der Birnensaft",
       "uebersetzung": {
-        "fa": "لامپ رشته‌ای",
-        "en": "light bulb"
+        "fa": "آب گلابی",
+        "en": "pear juice"
       }
     }
   ],
-  "etymologie": {
-    "fa": "از لاتین pirum (گلابی)؛ «لامپ» به خاطر شکل گلابی‌مانند",
-    "en": "from Latin pirum (pear); «bulb» from its pear-like shape"
-  },
+  "etymologie": null,
   "details": {
     "genus": "die",
     "plural": "die Birnen",
@@ -132,24 +91,14 @@
         "id_ref": "nomen_obst"
       },
       {
-        "wort": "die Lampe",
+        "wort": "die Frucht",
         "wortart": "nomen",
-        "niveau": "A1",
+        "niveau": "A2",
         "uebersetzung": {
-          "fa": "چراغ",
-          "en": "lamp"
+          "fa": "میوه، ثمر",
+          "en": "fruit"
         },
-        "id_ref": "nomen_lampe"
-      },
-      {
-        "wort": "das Licht",
-        "wortart": "nomen",
-        "niveau": "A1",
-        "uebersetzung": {
-          "fa": "نور",
-          "en": "light"
-        },
-        "id_ref": "nomen_licht"
+        "id_ref": "nomen_frucht"
       },
       {
         "wort": "der Baum",
@@ -160,6 +109,16 @@
           "en": "tree"
         },
         "id_ref": "nomen_baum"
+      },
+      {
+        "wort": "reif",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رسیده",
+          "en": "ripe"
+        },
+        "id_ref": "adjektiv_reif"
       }
     ]
   },

@@ -6,40 +6,17 @@
   "wortart": "nomen",
   "uebersetzung": {
     "fa": [
-      "تحویل (کار، مدرک)",
-      "عوارض، مالیات"
+      "تحویل (کار، مدرک)"
     ],
     "en": [
       "handing in",
-      "submission",
-      "levy",
-      "tax"
+      "submission"
     ]
   },
-  "bedeutungen": [
-    {
-      "fa": [
-        "تحویل (کار، مدرک)"
-      ],
-      "en": [
-        "handing in",
-        "submission"
-      ]
-    },
-    {
-      "fa": [
-        "عوارض، مالیات"
-      ],
-      "en": [
-        "levy",
-        "tax"
-      ]
-    }
-  ],
-  "niveau": "B2",
+  "niveau": "B1",
   "themen": [
-    "Finanzen",
-    "Schule"
+    "Schule",
+    "Arbeit"
   ],
   "ipa": "ˈapɡaːbə",
   "anmerkung": null,
@@ -55,36 +32,33 @@
       "satz": "Die Abgabe ist am Freitag.",
       "uebersetzung": {
         "fa": "تحویل (تکلیف) جمعه است.",
-        "en": "The deadline for handing in is Friday."
-      },
-      "bedeutung": 1
+        "en": "The deadline for handing it in is Friday."
+      }
     },
     {
-      "niveau": "B2",
-      "satz": "Auf Tabak und Alkohol werden in Deutschland besondere Abgaben erhoben.",
+      "niveau": "B1",
+      "satz": "Bis zur Abgabe der Hausarbeit habe ich noch zwei Wochen Zeit.",
       "uebersetzung": {
-        "fa": "در آلمان از دخانیات و الکل عوارض ویژه گرفته می‌شود.",
-        "en": "Special levies are imposed on tobacco and alcohol in Germany."
-      },
-      "bedeutung": 2
-    }
-  ],
-  "synonyme": [
-    {
-      "wort": "die Steuer",
-      "uebersetzung": {
-        "fa": "مالیات",
-        "en": "tax"
+        "fa": "تا تحویل مقاله‌ی درسی هنوز دو هفته وقت دارم.",
+        "en": "I still have two weeks until the term paper is due."
       }
     }
   ],
+  "synonyme": [],
   "antonyme": [],
   "komposita": [
     {
       "wort": "der Abgabetermin",
       "uebersetzung": {
         "fa": "مهلت تحویل",
-        "en": "deadline"
+        "en": "due date"
+      }
+    },
+    {
+      "wort": "die Abgabefrist",
+      "uebersetzung": {
+        "fa": "مهلت تحویل",
+        "en": "submission deadline"
       }
     }
   ],
@@ -101,7 +75,7 @@
     "nomen_verb_verbindungen": []
   },
   "wortnetz": {
-    "grundwort": "geben",
+    "grundwort": "Abgabe",
     "woerter": [
       {
         "wort": "abgeben",
@@ -114,24 +88,24 @@
         "id_ref": "verb_abgeben"
       },
       {
-        "wort": "die Steuer",
-        "wortart": "nomen",
-        "niveau": "B1",
-        "uebersetzung": {
-          "fa": "مالیات",
-          "en": "tax"
-        },
-        "id_ref": "nomen_steuer"
-      },
-      {
         "wort": "der Termin",
         "wortart": "nomen",
         "niveau": "A1",
         "uebersetzung": {
           "fa": "موعد",
-          "en": "deadline"
+          "en": "appointment, date"
         },
         "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت",
+          "en": "deadline"
+        },
+        "id_ref": "nomen_frist"
       },
       {
         "wort": "die Hausaufgabe",
@@ -144,14 +118,14 @@
         "id_ref": "nomen_hausaufgabe"
       },
       {
-        "wort": "zahlen",
+        "wort": "einreichen",
         "wortart": "verb",
-        "niveau": "A1",
+        "niveau": "B2",
         "uebersetzung": {
-          "fa": "پرداختن",
-          "en": "to pay"
+          "fa": "ارائه دادن",
+          "en": "to submit"
         },
-        "id_ref": "verb_zahlen"
+        "id_ref": "verb_einreichen"
       }
     ]
   },
