@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bindung_2",
+  "wort": "die Bindung",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تعهد",
+      "الزام",
+      "پایبندی (قراردادی)"
+    ],
+    "en": [
+      "commitment",
+      "obligation",
+      "tie-in"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Verträge"
+  ],
+  "ipa": "ˈbɪndʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Vertrag hat eine Bindung von zwei Jahren.",
+      "uebersetzung": {
+        "fa": "این قرارداد دو سال تعهد دارد.",
+        "en": "The contract has a two-year tie-in."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie wollte einen Handyvertrag ohne lange Bindung, damit sie jederzeit wechseln kann.",
+      "uebersetzung": {
+        "fa": "او قرارداد موبایلی بدون تعهد طولانی می‌خواست تا هر وقت خواست عوضش کند.",
+        "en": "She wanted a mobile contract without a long tie-in so that she can switch at any time."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Verpflichtung",
+      "uebersetzung": {
+        "fa": "تعهد",
+        "en": "obligation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Vertragsbindung",
+      "uebersetzung": {
+        "fa": "تعهد قراردادی",
+        "en": "contractual tie"
+      }
+    },
+    {
+      "wort": "die Preisbindung",
+      "uebersetzung": {
+        "fa": "قیمت‌گذاری ثابت",
+        "en": "price fixing"
+      }
+    },
+    {
+      "wort": "die Tarifbindung",
+      "uebersetzung": {
+        "fa": "پایبندی به قرارداد جمعی",
+        "en": "collective agreement coverage"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "binden (متعهد کردن) + -ung",
+    "en": "binden (to commit) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Bindungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Bindung an + Akk",
+        "beispiel": "Die Bindung an den Vertrag endet im Dezember.",
+        "uebersetzung": {
+          "fa": "تعهد به قرارداد در دسامبر تمام می‌شود.",
+          "en": "The commitment to the contract ends in December."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "binden",
+    "woerter": [
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد",
+          "en": "contract"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "verpflichten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موظف کردن",
+          "en": "to oblige"
+        },
+        "id_ref": "verb_verpflichten"
+      },
+      {
+        "wort": "das Abonnement",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتراک (مجله، روزنامه، تئاتر و…)",
+          "en": "subscription"
+        },
+        "id_ref": "nomen_abonnement"
+      },
+      {
+        "wort": "der Anbieter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارائه‌دهنده",
+          "en": "provider"
+        },
+        "id_ref": "nomen_anbieter"
+      },
+      {
+        "wort": "die Preisbindung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قیمت ثابت (تعیین‌شده توسط تولیدکننده یا قانون)",
+          "en": "resale price maintenance"
+        },
+        "id_ref": "nomen_preisbindung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

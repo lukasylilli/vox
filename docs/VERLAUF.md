@@ -5,6 +5,8 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-15 (چهار حالت — م۶، دور ۳)** — ۱۳ کلمه‌ی بعدی جدول ۲ (Bezug … Boden) ⇒ ۳۹ کارت؛ ۳۷ کارت قبلی لینک شبکه به معنی درست گرفتند؛ Binder و Blackout ساخته نشدند (نامطمئن). آرشیو ۲۰٬۵۱۹؛ باز: ۲٬۹۹۴. جزئیات: `docs/WORTRUNDEN.md`.
+
 - **2026-11-15 (خط آرتیکل حالت ۴، تصمیم Lukas)** — «der · die · die» ⇒ «der · die · Pl. die» (کنار جمع یک «Pl.» کوچک؛ دو بار die مثل اشتباه دیده می‌شد). خط آرتیکل حالا از آرتیکل‌های خودِ کارت ساخته می‌شود: اگر کارتی das هم داشته باشد، das هم می‌آید. `lib/core/grammatikon/wort_card.dart`؛ تست: `test/uebersicht_karte_test.dart`.
 
 - **2026-11-15 (نماد حالت ۴، درخواست Lukas)** — نماد «der/die Abgeordnete» دیگر مربع خالی سیاه نیست (با صفت اشتباه می‌شد): مربع پُر به رنگ تازه‌ی فیروزه‌ای `GrammatikonSpec.beideGenera` (#12A5BF) که هیچ جای دیگر به کار نمی‌رود. خود کلمه بی‌رنگ می‌ماند (`GrammatikonSpec.textFarbe`؛ `wort_card.dart`، `wort_karte_inhalt.dart`)؛ تصمیم در `grammatikon_resolver.dart`؛ تست: `test/nomen_adjektivisch_test.dart`.
