@@ -78,7 +78,14 @@ class VerbPraep {
   final String           note;   // FA-Hinweis
   final String           noteEn; // EN-Hinweis (فاز L: nur EINE Sprache wird gezeigt)
 
-  String get displayVerb => reflexive ? 'sich $verbInfinitive' : verbInfinitive;
+  /// Anzeigeform des Verbs. Steht «sich» schon im Infinitiv (so bei allen
+  /// reflexiven Einträgen in verb_praep_data.json), wird es nicht noch einmal
+  /// vorangestellt — sonst erschien «sich sich ärgern» (Bug, Lukas 2026-11-15).
+  String get displayVerb {
+    if (!reflexive) return verbInfinitive;
+    if (verbInfinitive.toLowerCase().startsWith('sich ')) return verbInfinitive;
+    return 'sich $verbInfinitive';
+  }
 
   factory VerbPraep.fromJson(Map<String, dynamic> j) => VerbPraep(
         id                   : j['id']                    as int,
