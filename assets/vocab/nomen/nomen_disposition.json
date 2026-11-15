@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_disposition",
+  "wort": "die Disposition",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "برنامه‌ریزی و زمان‌بندی",
+      "اختیار و در دسترس بودن"
+    ],
+    "en": [
+      "planning",
+      "disposal",
+      "arrangement"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Organisation"
+  ],
+  "ipa": "dɪspoziˈt͡si̯oːn",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Disposition der Lieferwagen übernimmt unsere Logistikabteilung.",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی تردد وانت‌های تحویل را بخش لجستیک ما بر عهده دارد.",
+        "en": "Our logistics department handles the scheduling of the delivery vans."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Entscheidung steht zur Disposition und kann noch geändert werden.",
+      "uebersetzung": {
+        "fa": "این تصمیم هنوز قطعی نیست و می‌تواند تغییر کند.",
+        "en": "The decision is up for review and can still be changed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Planung",
+      "uebersetzung": {
+        "fa": "برنامه‌ریزی",
+        "en": "planning"
+      }
+    },
+    {
+      "wort": "die Verfügung",
+      "uebersetzung": {
+        "fa": "اختیار",
+        "en": "disposal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Dispositionen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "zur Disposition stehen",
+        "beispiel": "Der Plan steht noch zur Disposition.",
+        "uebersetzung": {
+          "fa": "این طرح هنوز قطعی نیست.",
+          "en": "The plan is still up for review."
+        }
+      },
+      {
+        "verbindung": "zur Disposition stellen",
+        "beispiel": "Die Firma stellt das ganze Projekt zur Disposition.",
+        "uebersetzung": {
+          "fa": "شرکت کل پروژه را زیر سؤال می‌برد.",
+          "en": "The company is putting the whole project up for review."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Disposition",
+    "woerter": [
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت (ملاقات)، قرار",
+          "en": "appointment, date"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "die Planung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی، طرح‌ریزی",
+          "en": "planning"
+        },
+        "id_ref": "nomen_planung"
+      },
+      {
+        "wort": "die Logistik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "لجستیک، پشتیبانی و حمل‌ونقل",
+          "en": "logistics"
+        },
+        "id_ref": "nomen_logistik"
+      },
+      {
+        "wort": "der Planer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "برنامه‌ریز، طراح",
+          "en": "planner, designer"
+        },
+        "id_ref": "nomen_planer"
+      },
+      {
+        "wort": "disponieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "برنامه‌ریزی کردن، تخصیص دادن",
+          "en": "to plan, to dispose (of)"
+        },
+        "id_ref": "verb_disponieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

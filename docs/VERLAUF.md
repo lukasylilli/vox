@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-15 (چهار حالت — م۶، دور ۸)** — ۲۰ کلمه (Diesel … Dokumentation + Ablauf، Ableger) ⇒ ۴۲ کارت؛ ۳ کارت قبلی لینک شبکه به معنی درست گرفتند (Benziner ⇒ Diesel²، interdisziplinär ⇒ Disziplin²، kapriziös ⇒ Diva²). Diskothek: معنی دوم و Division: معنی ورزشی نامطمئن ⇒ ساخته نشد. آرشیو ۲۰٬۷۳۸؛ باز: ۲٬۸۹۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-15 (چهار حالت — م۶، دور ۷)** — ۲۰ کلمه‌ی بعدی جدول ۲ (Dauerbrenner … Dienstzeit) ⇒ ۴۵ کارت، از جمله der/die Deutsche و das Deutsche (زبان)؛ ۷ کارت قبلی لینک شبکه به معنی درست گرفتند؛ Diakonie ساخته نشد (اسم خاص). آرشیو ۲۰٬۶۹۶؛ باز: ۲٬۹۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 
 - **2026-11-15 (چهار حالت — م۶، دور ۶)** — ۲۰ کلمه‌ی بعدی جدول ۲ (Chiffre … Datenschutzbeauftragter) ⇒ ۴۵ کارت؛ ۶ کارت قبلی لینک شبکه به معنی درست گرفتند؛ Chart، Charter، Chili، Coca، Curry ساخته نشدند (آرتیکل نامطمئن). آرشیو ۲۰٬۶۵۱؛ باز: ۲٬۹۳۴. جزئیات: `docs/WORTRUNDEN.md`.

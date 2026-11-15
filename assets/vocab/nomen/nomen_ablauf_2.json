@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_ablauf_2",
+  "wort": "der Ablauf",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پایان (مهلت)",
+      "انقضا"
+    ],
+    "en": [
+      "expiry",
+      "end (of a period)"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Recht"
+  ],
+  "ipa": "ˈapˌlaʊ̯f",
+  "anmerkung": "Meist im Singular.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Nach Ablauf der Frist können Sie keinen Antrag mehr stellen.",
+      "uebersetzung": {
+        "fa": "پس از پایان مهلت دیگر نمی‌توانید درخواست بدهید.",
+        "en": "After the deadline has expired you can no longer submit an application."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Kurz vor Ablauf des Vertrags verhandeln beide Seiten neu.",
+      "uebersetzung": {
+        "fa": "کمی پیش از پایان قرارداد، دو طرف دوباره مذاکره می‌کنند.",
+        "en": "Shortly before the contract expires, both sides negotiate again."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Ende",
+      "uebersetzung": {
+        "fa": "پایان",
+        "en": "end"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Beginn",
+      "uebersetzung": {
+        "fa": "آغاز",
+        "en": "beginning"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از ablaufen (به پایان رسیدن)",
+    "en": "from ablaufen (to expire)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "nach Ablauf + Gen",
+        "beispiel": "Nach Ablauf des Jahres endet der Vertrag.",
+        "uebersetzung": {
+          "fa": "پس از پایان سال قرارداد تمام می‌شود.",
+          "en": "After the year has expired the contract ends."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Ablauf",
+    "woerter": [
+      {
+        "wort": "das Ende",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پایان، انتها",
+          "en": "end"
+        },
+        "id_ref": "nomen_ende"
+      },
+      {
+        "wort": "der Beginn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آغاز، شروع",
+          "en": "beginning, start"
+        },
+        "id_ref": "nomen_beginn"
+      },
+      {
+        "wort": "gültig",
+        "wortart": "adjektiv",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "معتبر، دارای اعتبار",
+          "en": "valid"
+        },
+        "id_ref": "adjektiv_gueltig"
+      },
+      {
+        "wort": "verlängern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طولانی‌تر کردن، تمدید کردن",
+          "en": "to extend, to renew"
+        },
+        "id_ref": "verb_verlaengern"
+      },
+      {
+        "wort": "die Frist",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مهلت، موعد",
+          "en": "deadline, time limit"
+        },
+        "id_ref": "nomen_frist"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
