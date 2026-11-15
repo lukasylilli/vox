@@ -6,6 +6,9 @@
 //   dart tool/naechste_woerter.dart 5              # 5
 //   (Rundengröße 20 statt 10: Lukas 2026-10-31 — «Zeit verkürzen»)
 //   dart tool/naechste_woerter.dart --abhaken      # ✓ vor jedes Wort mit Karte
+//   dart tool/naechste_woerter.dart --vier-faelle  # Vier Fälle M6: die nächsten
+//                                                  # 20 offenen Wörter der
+//                                                  # Vier-Fälle-Liste (Tabelle 2)
 //
 // Regeln (siehe PLAN.md → «📚 روال ده کلمه جدید»):
 //   · Reihenfolge = Reihenfolge der Datei (alphabetisch) — NIE umsortieren.
@@ -183,6 +186,21 @@ String listenLemma(String eintrag) =>
 void main(List<String> args) {
   if (args.contains('--abhaken')) {
     abhaken();
+    return;
+  }
+  if (args.contains('--vier-faelle')) {
+    final zahl = args.where((a) => int.tryParse(a) != null).firstOrNull;
+    final alle = ladeZurueckgestelltEintraege();
+    final offen = vierFaelleOffen(alle, int.parse(zahl ?? '20'));
+    final rest = alle
+        .where((e) => e['tabelle'] == 2 && e['erledigt'] != true)
+        .length;
+    stdout.writeln('Vier-Fälle-Liste: $rest offen.');
+    for (final e in offen) {
+      stdout.writeln('  ${e['nr']} · ${e['wort']} (${e['liste']}) — ${e['grund']}');
+    }
+    stdout.writeln('Danach: dart tool/zurueckgestellt.dart --erledigt '
+        '${offen.map((e) => e['wort']).join(' ')}');
     return;
   }
   final anzahl = args.isNotEmpty ? int.parse(args.first) : 20;

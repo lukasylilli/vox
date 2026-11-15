@@ -7,6 +7,11 @@
 //
 //   dart tool/zurueckgestellt.dart            # docs/ZURUECKGESTELLT.md neu schreiben
 //   dart tool/zurueckgestellt.dart --pruefen  # nur prüfen (exit 1, wenn veraltet)
+//   dart tool/zurueckgestellt.dart --erledigt Wort1 Wort2 …
+//                                             # Vier Fälle M6: gebaute Wörter
+//                                             # als erledigt markieren (Zeile
+//                                             # bleibt, Wort wird nicht mehr
+//                                             # übersprungen), Tabelle neu
 //
 // Neues Wort zurückstellen: EINE Zeile ans Ende der passenden Tabelle in der
 // JSON-Datei (tabelle 1 oder 2, fortlaufende nr), dann dieses Werkzeug
@@ -48,6 +53,34 @@ List<Map<String, dynamic>> ladeZurueckgestelltEintraege() {
   return eintraege;
 }
 
+/// Vier Fälle M6 (Lukas 2026-11-15): [woerter] sind gebaut ⇒ `erledigt: true`.
+/// Gibt die Wörter zurück, die es NICHT als offene Zeile gab (Tippfehler,
+/// schon erledigt) — der Aufrufer bricht dann ab, statt still zu raten.
+List<String> zurueckgestelltErledigen(
+    List<Map<String, dynamic>> eintraege, Iterable<String> woerter) {
+  final unbekannt = <String>[];
+  for (final w in woerter) {
+    final e = eintraege
+        .where((e) => e['wort'] == w && e['erledigt'] != true)
+        .firstOrNull;
+    if (e == null) {
+      unbekannt.add(w);
+    } else {
+      e['erledigt'] = true;
+    }
+  }
+  return unbekannt;
+}
+
+/// Die nächsten [anzahl] offenen Wörter der Vier-Fälle-Liste (Tabelle 2),
+/// in Dateireihenfolge.
+List<Map<String, dynamic>> vierFaelleOffen(
+        List<Map<String, dynamic>> eintraege, int anzahl) =>
+    eintraege
+        .where((e) => e['tabelle'] == 2 && e['erledigt'] != true)
+        .take(anzahl)
+        .toList();
+
 /// Wörter, die `naechste_woerter.dart` überspringt (ohne die erledigten).
 Set<String> ladeZurueckgestellt() => {
       for (final e in ladeZurueckgestelltEintraege())
@@ -64,6 +97,27 @@ String _zeile(Map<String, dynamic> e) {
     if (e['tabelle'] == 1) e['entscheidung'] ?? '—',
   ];
   return '| ${zellen.join(' | ')} |';
+}
+
+/// Ein Eintrag in der Schreibweise der Datei: `{"k": v, "k2": v2}` (mit
+/// Leerzeichen wie bisher — sonst änderte sich bei jedem Lauf jede Zeile).
+String _zeileJson(Map e) =>
+    '{${e.entries.map((x) => '${jsonEncode(x.key)}: ${jsonEncode(x.value)}').join(', ')}}';
+
+/// Dateiform wie bisher: Kopf, dann je Eintrag EINE Zeile (kleine Diffs).
+String _alsDatei(Map<String, dynamic> wurzel) {
+  final b = StringBuffer('{\n');
+  for (final k in wurzel.keys.where((k) => k != 'eintraege')) {
+    b.writeln('${jsonEncode(k)}: ${jsonEncode(wurzel[k])},');
+  }
+  final e = wurzel['eintraege'] as List;
+  b.writeln('"eintraege": [');
+  for (var i = 0; i < e.length; i++) {
+    b.writeln('${_zeileJson(e[i] as Map)}${i < e.length - 1 ? ',' : ''}');
+  }
+  b.writeln(']');
+  b.writeln('}');
+  return b.toString();
 }
 
 /// Der vollständige Text von docs/ZURUECKGESTELLT.md.
@@ -109,6 +163,24 @@ String zurueckgestelltAlsTabelle(List<Map<String, dynamic>> eintraege) {
 
 void main(List<String> args) {
   final eintraege = ladeZurueckgestelltEintraege();
+  final i = args.indexOf('--erledigt');
+  if (i >= 0) {
+    final woerter = args.sublist(i + 1);
+    final unbekannt = zurueckgestelltErledigen(eintraege, woerter);
+    if (unbekannt.isNotEmpty) {
+      stderr.writeln('Keine offene Zeile für: ${unbekannt.join(', ')} — '
+          'nichts geändert.');
+      exit(1);
+    }
+    final datei = File(zurueckgestelltDatei);
+    final wurzel = jsonDecode(datei.readAsStringSync()) as Map<String, dynamic>;
+    wurzel['eintraege'] = eintraege;
+    datei.writeAsStringSync(_alsDatei(wurzel));
+    File(zurueckgestelltTabelle)
+        .writeAsStringSync(zurueckgestelltAlsTabelle(eintraege));
+    stdout.writeln('${woerter.length} erledigt; Tabelle neu geschrieben.');
+    return;
+  }
   final soll = zurueckgestelltAlsTabelle(eintraege);
   final datei = File(zurueckgestelltTabelle);
   final ist = datei.existsSync() ? datei.readAsStringSync() : '';
