@@ -110,13 +110,30 @@ void main() {
           reason: 'Index veraltet — ein Workflow baut ihn nicht neu.');
     });
 
-    test('jede Wortart hat ihren Ordner in pubspec.yaml, der Index auch', () {
+    test('Karten werden neben der App ausgeliefert, nicht als Asset (V.5)',
+        () {
+      // Seit 2026-11-15: die Karten stehen NICHT in pubspec.yaml (sonst
+      // landen alle Namen im Asset-Verzeichnis, das jeder Nutzer beim Start
+      // lädt). Stattdessen kopieren beide Bau-Abläufe sie nach
+      // build/web/karten/ — fehlt der Schritt, würde keine Karte ausgeliefert.
       final pubspec = File('pubspec.yaml').readAsStringSync();
-      for (final wortart in vokabWortarten) {
-        expect(pubspec, contains('- $vokabKartenOrdner/$wortart/'),
-            reason: 'Karten dieser Wortart würden nie ausgeliefert');
-      }
+      expect(pubspec, isNot(contains('- $vokabKartenOrdner/')),
+          reason: 'Karten gehören nicht ins Asset-Paket (V.5)');
       expect(pubspec, contains('- $vokabIndexPfad'));
+      for (final ablauf in const [
+        '.github/workflows/deploy-web.yml',
+        '.github/workflows/pruefen.yml',
+      ]) {
+        expect(
+          File(ablauf).readAsStringSync(),
+          contains('cp -R $vokabKartenOrdner/. build/web/$vokabKartenWebOrdner/'),
+          reason: '$ablauf legt die Karten nicht neben die App',
+        );
+      }
+      for (final wortart in vokabWortarten) {
+        expect(Directory('$vokabKartenOrdner/$wortart').existsSync(), isTrue,
+            reason: 'Ordner für $wortart fehlt');
+      }
     });
   });
 }

@@ -54,6 +54,16 @@ const vokabIndexDetailFelder = <String>[
 String vokabKartenPfad(String wortart, String id) =>
     '$vokabKartenOrdner/$wortart/$id.json';
 
+/// Ordner der vollen Karten in der veröffentlichten Web-App (V.5): die
+/// Dateien aus [vokabKartenOrdner] werden beim Bau nach `build/web/karten/`
+/// kopiert — NICHT als Flutter-Asset, damit sie nicht im Asset-Verzeichnis
+/// stehen, das jeder Nutzer beim Start lädt.
+const String vokabKartenWebOrdner = 'karten';
+
+/// Adresse einer vollen Karte relativ zur App (`<base>/karten/<wortart>/<id>.json`).
+String vokabKartenWebPfad(String wortart, String id) =>
+    '$vokabKartenWebOrdner/$wortart/$id.json';
+
 /// Volle Karte → Index-Eintrag. Gleiche Schlüssel wie die Karte, damit
 /// WortCard und Suche beides ohne Unterschied lesen.
 ///

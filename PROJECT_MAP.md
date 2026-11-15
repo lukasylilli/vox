@@ -99,6 +99,16 @@
 
 ---
 
+## 📦 Wo die Wortkarten liegen (V.5, 2026-11-15)
+
+- **Quelle im Repository:** `assets/vocab/<wortart>/<id>.json` — Werkzeuge, Tests und Wortrunden arbeiten nur hier.
+- **In der Web-App:** KEIN Flutter-Asset mehr (nicht in `pubspec.yaml`). Der Bau kopiert die Dateien nach `build/web/karten/` (Schritt «Wortkarten neben die App legen» in `deploy-web.yml`/`pruefen.yml`).
+- **Laden:** nur die geöffnete Karte — `vokabKarteProvider` ⇒ `vokab_karten_lader.dart` (Weiche: `_web.dart` holt `<base>/karten/…` per HTTP, `_io.dart` liest in Tests `assets/vocab/`).
+- **Offline:** Service Worker `tool/pwa/workbox_config.cjs` — `karten/**` nie vorab, bei Gebrauch (StaleWhileRevalidate, Cache `vox-woerter`).
+- **Warum:** vorher stand jede Karte im Asset-Verzeichnis, das jeder Nutzer beim Start (und nach jeder Wortrunde neu) lädt — 300 kB komprimiert, 99,6 % nur Kartennamen.
+
+---
+
 ## 🎨 Wo Form und Farbe der Wörter festgelegt sind (Grammatikon)
 
 **Nirgends in den Daten.** Symbol, Füllung und Farbe werden zur Laufzeit aus `wortart` +

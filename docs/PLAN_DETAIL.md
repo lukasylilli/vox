@@ -1112,4 +1112,4 @@ _(جزئیات: `git show a078dc2:PLAN.md`)_
 | (الف۲) بسته بر اساس دو حرف اول (۲۴۱ فایل) | تقریباً صفر | تا حدود ۴۸۰ KB | ۲۴۱ |
 | (ب) کارت‌ها بیرون از فهرست اپ (همان فایل‌ها، کنار اپ) | تقریباً صفر | ۱ KB | ۲۰ هزار+ |
 
-پیشنهاد Claude: (ب). ⛔ تصمیم با Lukas.
+✅ **تصمیم Lukas (2026-11-15): راه (ب).** اجرا: `lib/features/vokabular/data/vokab_karten_lader*.dart` (مرورگر: HTTP از `<base>/karten/…`؛ تست: از `assets/vocab/`)، `pubspec.yaml` بدون پوشه‌های `assets/vocab/*`، گام «Wortkarten neben die App legen» در `deploy-web.yml` و `pruefen.yml`، الگوی Service Worker برای `karten/`. منبع در ریپو همان `assets/vocab/` می‌ماند.

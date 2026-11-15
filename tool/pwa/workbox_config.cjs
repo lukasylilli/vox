@@ -15,7 +15,8 @@
 //    (beide Varianten: Chromium für Chrome/Android, normal für Safari/iPhone),
 //    Lerninhalte, Bilder, Schriften, Wortindex. Jede Datei hat eine Revision
 //    (Inhalts-Hash): bei einem neuen Deploy wird nur Geändertes neu geladen.
-//  • Bei Gebrauch (runtime): die einzelnen Wortkarten und die Formen-Tabelle.
+//  • Bei Gebrauch (runtime): die einzelnen Wortkarten (karten/, seit V.5
+//    neben der App statt im Asset-Paket) und die Formen-Tabelle.
 //    ~26.200 Karten ≈ 100 MB — das darf nie vorab geladen werden (PLAN L.3).
 //    Eine einmal geöffnete Karte bleibt offline lesbar und wird im
 //    Hintergrund aufgefrischt (StaleWhileRevalidate).
@@ -62,7 +63,9 @@ const manifestConfig = {
     'canvaskit/wimp*',
     'canvaskit/experimental_webparagraph/**',
     // Wortarchiv: wächst mit jeder Karte ⇒ nur bei Gebrauch (siehe oben).
-    'assets/assets/vocab/**',
+    // Seit V.5 (2026-11-15) liegen die Karten unter karten/ neben der App,
+    // nicht mehr unter assets/assets/vocab/.
+    'karten/**',
     'assets/assets/vocab_formen/**',
   ],
   // main.dart.js ~5 MB, canvaskit.wasm ~7 MB — Workbox' Vorgabe (2 MB) würde
@@ -89,7 +92,9 @@ const config = {
   runtimeCaching: [
     {
       urlPattern: ({ url, sameOrigin }) =>
-        sameOrigin && /\/assets\/assets\/(vocab|vocab_formen)\//.test(url.pathname),
+        sameOrigin &&
+        (/\/karten\//.test(url.pathname) ||
+          /\/assets\/assets\/vocab_formen\//.test(url.pathname)),
       handler: 'StaleWhileRevalidate',
       options: { cacheName: 'vox-woerter' },
     },

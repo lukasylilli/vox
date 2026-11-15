@@ -66,16 +66,6 @@ flutter:
     - assets/data/grammatik/
     - assets/fonts/
     # Vokabular-Archiv (فاز V): 1 JSON pro Wort, Ordner = Wortart
-    - assets/vocab/nomen/
-    - assets/vocab/verb/
-    - assets/vocab/adjektiv/
-    - assets/vocab/artikel/
-    - assets/vocab/pronomen/
-    - assets/vocab/numerale/
-    - assets/vocab/praeposition/
-    - assets/vocab/konjunktion/
-    - assets/vocab/adverb/
-    - assets/vocab/partikel/
     # V.2: Wortindex (Liste/Suche/Symbol) — wird in JEDEM Workflow vor
     # `flutter analyze` von tool/vokab_index.dart gebaut, nie committet.
     - assets/vocab_index.json

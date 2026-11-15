@@ -98,6 +98,17 @@ jobs:
         # ein Paket kann analyze und test überstehen und erst hier scheitern.
         run: flutter build web --release --no-pub --no-wasm-dry-run --base-href "/vox/"
 
+      - name: Wortkarten neben die App legen (V.5)
+        # Seit 2026-11-15 sind die Karten KEINE Flutter-Assets mehr (sonst
+        # stünden alle ~20.000 Namen im Asset-Verzeichnis, das jeder Nutzer
+        # beim Start lädt). Quelle bleibt assets/vocab/; die App lädt eine
+        # Karte über lib/features/vokabular/data/vokab_karten_lader_web.dart.
+        run: |
+          mkdir -p build/web/karten
+          cp -R assets/vocab/. build/web/karten/
+          echo "Karten neben der App: $(find build/web/karten -name '*.json' | wc -l)" | tee -a "$GITHUB_STEP_SUMMARY"
+          test -z "$(find build/web/assets/assets -path '*assets/vocab/*' -name '*.json' -print -quit)"
+
       - name: Aktualisiertes pubspec.lock zum Mitnehmen
         # Claude kann `pub get` nicht selbst ausführen. Ohne diesen Artefakt
         # bliebe das Lockfile im Repository dauerhaft hinter dem zurück, was

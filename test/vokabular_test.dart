@@ -2,9 +2,9 @@
 // Kategorien, getrennt vom Content), Asset-Loader (lädt Demo-Wort aus pubspec)
 // und DetailsRenderer (Verb: Perfekt wird GEBAUT, nie gespeichert — Regel 7).
 import 'dart:convert';
+import 'dart:io';
 import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -223,10 +223,9 @@ void main() {
 
   late Map<String, dynamic> verbKarte;
   setUpAll(() async {
-    // rootBundle in plain async laden — innerhalb testWidgets (FakeAsync)
-    // kommt das Asset-Future nie an.
-    final json =
-        await rootBundle.loadString('assets/vocab/verb/verb_lernen.json');
+    // Seit V.5 sind die Karten keine Flutter-Assets mehr — direkt aus der
+    // Quelle im Projektordner lesen.
+    final json = await File('assets/vocab/verb/verb_lernen.json').readAsString();
     verbKarte = jsonDecode(json) as Map<String, dynamic>;
   });
 

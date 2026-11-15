@@ -17,6 +17,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../data/vokab_index.dart';
+import '../data/vokab_karten_lader.dart';
 import '../data/vokab_formen.dart';
 
 // vokabId (ID-Regel 5) lebt in vokab_schema.dart (reines Dart) — EINE
@@ -148,8 +149,9 @@ final vokabKarteProvider =
     FutureProvider.family<Map<String, dynamic>?, String>((ref, id) async {
   final eintrag = (await ref.watch(vokabIndexByIdProvider.future))[id];
   if (eintrag == null) return null;
-  final text = await rootBundle
-      .loadString(vokabKartenPfad(eintrag['wortart'] as String, id));
+  // V.5: nicht mehr aus dem Asset-Paket, sondern neben der App
+  // (vokab_karten_lader.dart).
+  final text = await vokabKarteTextLaden(eintrag['wortart'] as String, id);
   return jsonDecode(text) as Map<String, dynamic>;
 });
 
