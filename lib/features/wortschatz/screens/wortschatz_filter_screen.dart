@@ -46,6 +46,7 @@ class WortschatzFilterScreen extends ConsumerWidget {
         FilterBereich.buch ||
         FilterBereich.kategorie =>
           z.gruppe(b, wert)?.name,
+        FilterBereich.bedeutung => AppL10n.t(context, 'bedeutung_$wert'),
         FilterBereich.beruf ||
         FilterBereich.anstoessig ||
         FilterBereich.zeitlich =>
@@ -60,6 +61,7 @@ class WortschatzFilterScreen extends ConsumerWidget {
         FilterBereich.buch ||
         FilterBereich.kategorie =>
           [for (final g in z.gruppen(b)) g.id],
+        FilterBereich.bedeutung => wortschatzBedeutungWerte,
         FilterBereich.beruf => vokabBerufe,
         FilterBereich.anstoessig => vokabAnstoessigStufen,
         FilterBereich.zeitlich => vokabZeitlichWerte,
@@ -75,6 +77,7 @@ class WortschatzFilterScreen extends ConsumerWidget {
         FilterBereich.buch => 'filter_buecher',
         FilterBereich.wortart => 'Wortart',
         FilterBereich.niveau => 'Niveau',
+        FilterBereich.bedeutung => 'filter_bedeutungen',
         FilterBereich.beruf => 'filter_berufe',
         FilterBereich.anstoessig => 'filter_anstoessig',
         FilterBereich.zeitlich => 'filter_zeitlich',

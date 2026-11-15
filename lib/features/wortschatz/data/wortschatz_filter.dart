@@ -31,21 +31,28 @@ import 'such_rang.dart';
 /// beruf/anstoessig/zeitlich (F.6) lesen die Einordnung der Karte (Prompt-
 /// Regel 17, vokab_schema.dart) — alte Wörter haben keine und fallen dort
 /// heraus.
-enum FilterBereich { buch, wortart, niveau, beruf, anstoessig, zeitlich, kategorie }
+/// bedeutung (Lukas 2026-11-15): «کلمه‌های چندمعنی» — Übersicht «الف» und
+/// alle Bedeutungskarten einer Familie (Vier Fälle, vokab_index.dart).
+enum FilterBereich {
+  buch, wortart, niveau, bedeutung, beruf, anstoessig, zeitlich, kategorie
+}
 
 /// Schlüssel im gespeicherten JSON je Bereich.
 const _jsonSchluessel = {
   FilterBereich.buch: 'buecher',
   FilterBereich.wortart: 'wortarten',
   FilterBereich.niveau: 'niveaus',
+  FilterBereich.bedeutung: 'bedeutungen',
   FilterBereich.beruf: 'berufe',
   FilterBereich.anstoessig: 'anstoessig',
   FilterBereich.zeitlich: 'zeitlich',
   FilterBereich.kategorie: 'kategorien',
 };
 
-/// Bereiche aus der Einordnung der Karte (F.6).
+/// Bereiche, die nur Karten kennen — alte Wörter (drift) fallen bei jedem
+/// dieser Filter heraus: Einordnung (F.6) und Mehrdeutigkeit.
 const _einordnungsBereiche = {
+  FilterBereich.bedeutung,
   FilterBereich.beruf,
   FilterBereich.anstoessig,
   FilterBereich.zeitlich,
@@ -53,6 +60,16 @@ const _einordnungsBereiche = {
 
 /// Gültige Niveau-Werte (klein, wie `GermanLevel.name`).
 const wortschatzNiveaus = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
+
+/// Werte des Bereichs [FilterBereich.bedeutung] (heute nur einer).
+const wortschatzMehrdeutig = 'mehrdeutig';
+const wortschatzBedeutungWerte = [wortschatzMehrdeutig];
+
+/// Gehört der Index-Eintrag zu einem Wort mit mehreren Bedeutungen? Die
+/// Übersicht «الف» selbst oder eine Bedeutungskarte mit `uebersicht_id`
+/// (gesetzt nur von vokab_index.dart — eine Quelle, keine Vermutung).
+bool wortschatzIstMehrdeutig(Map<String, dynamic> k) =>
+    vokabIstUebersicht(k) || (k['uebersicht_id'] as String? ?? '').isNotEmpty;
 
 /// Eine Gruppe mit fester Mitgliedschaft — ein VOX-Buch oder eine eigene
 /// Kategorie des Nutzers. [altWoerter] = ids alter Wörter (drift),
@@ -109,11 +126,13 @@ class WortschatzFilter {
     Set<String> berufe = const {},
     Set<String> anstoessig = const {},
     Set<String> zeitlich = const {},
+    Set<String> bedeutungen = const {},
   }) : _werte = {
           for (final e in {
             FilterBereich.buch: buecher,
             FilterBereich.wortart: wortarten,
             FilterBereich.niveau: niveaus,
+            FilterBereich.bedeutung: bedeutungen,
             FilterBereich.beruf: berufe,
             FilterBereich.anstoessig: anstoessig,
             FilterBereich.zeitlich: zeitlich,
@@ -135,6 +154,7 @@ class WortschatzFilter {
   Set<String> get berufe => werte(FilterBereich.beruf);
   Set<String> get anstoessig => werte(FilterBereich.anstoessig);
   Set<String> get zeitlich => werte(FilterBereich.zeitlich);
+  Set<String> get bedeutungen => werte(FilterBereich.bedeutung);
 
   bool get istLeer => _werte.isEmpty;
   int get anzahlAktiv =>
@@ -194,6 +214,7 @@ class WortschatzFilter {
       berufe: lies('berufe', vokabBerufe.toSet()),
       anstoessig: lies('anstoessig', vokabAnstoessigStufen.toSet()),
       zeitlich: lies('zeitlich', vokabZeitlichWerte.toSet()),
+      bedeutungen: lies('bedeutungen', wortschatzBedeutungWerte.toSet()),
     );
   }
 
@@ -240,7 +261,9 @@ class WortschatzFilter {
     final mitBuch = buecher.isNotEmpty, mitKat = kategorien.isNotEmpty;
     final niv = niveaus, mitArt = wortarten.isNotEmpty;
     final ber = berufe, ans = anstoessig, zeit = zeitlich;
+    final nurMehrdeutig = bedeutungen.contains(wortschatzMehrdeutig);
     return (k) {
+      if (nurMehrdeutig && !wortschatzIstMehrdeutig(k)) return false;
       if (niv.isNotEmpty &&
           !niv.contains((k['niveau'] as String? ?? '').toLowerCase())) {
         return false;

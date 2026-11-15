@@ -178,6 +178,56 @@ void main() {
     });
   });
 
+  group('Mehrdeutig: «کلمه‌هایی که چند معنی دارند» (Lukas 2026-11-15)', () {
+    final idx = [
+      {..._karte('nomen_bank__alle', 'Bank', 'nomen', 'A1'),
+        'uebersicht': true,
+        'bedeutungen_ids': ['nomen_bank', 'nomen_bank_2']},
+      {..._karte('nomen_bank', 'die Bank', 'nomen', 'A1'),
+        'homograph_nr': 1, 'uebersicht_id': 'nomen_bank__alle'},
+      {..._karte('nomen_bank_2', 'die Bank', 'nomen', 'A2'),
+        'homograph_nr': 2, 'uebersicht_id': 'nomen_bank__alle'},
+      _karte('nomen_haus', 'das Haus', 'nomen', 'A1'),
+    ];
+    final alt = WordModel(
+      id: 1,
+      german: 'Schloss',
+      meaningFa: 'قلعه',
+      wordType: WordType.nomen,
+      level: GermanLevel.a1,
+    );
+    WortschatzBasis b() => wortschatzBasis(
+        alleWoerter: [alt], kartenTreffer: idx, query: '');
+    final f = WortschatzFilter(bedeutungen: {wortschatzMehrdeutig});
+
+    test('nur «الف» und ihre Bedeutungskarten; alte Wörter fallen heraus', () {
+      expect(wortschatzAnzahl(b(), f), 3);
+      final ids = [
+        for (final z in wortschatzZeilen(b(), f))
+          (z.wert as Map<String, dynamic>)['id'],
+      ];
+      expect(ids.toSet(), {'nomen_bank__alle', 'nomen_bank', 'nomen_bank_2'});
+      expect(wortschatzAnzahl(b(), WortschatzFilter.leer), 5);
+    });
+
+    test('mit anderen Bereichen «und»', () {
+      expect(
+          wortschatzAnzahl(
+              b(), WortschatzFilter(bedeutungen: f.bedeutungen, niveaus: {'a2'})),
+          1);
+    });
+
+    test('JSON: bleibt gemerkt, Unbekanntes fällt weg', () {
+      expect(WortschatzFilter.fromJson(f.toJson()).bedeutungen,
+          {wortschatzMehrdeutig});
+      expect(
+          WortschatzFilter.fromJson({
+            'bedeutungen': ['egal']
+          }).istLeer,
+          isTrue);
+    });
+  });
+
   test('JSON: hin und zurück, Unbekanntes fällt weg', () {
     final f = WortschatzFilter(
         niveaus: {'b1'}, wortarten: {'nomen'}, buecher: {'konnektoren'});
