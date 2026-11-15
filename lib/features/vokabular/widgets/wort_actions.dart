@@ -37,6 +37,10 @@ class WortActions extends ConsumerWidget {
     final scheme = Theme.of(context).colorScheme;
 
     if (kompakt) {
+      // Liste (2026-11-15): nur Aussprache + Leitner. «Meine Kategorien» gibt
+      // es auf der Wort-Seite; in Phase X werden Leitner und Kategorien zu
+      // EINEM Deck-Knopf — genau dieser Leitner-Knopf wählt dann das Deck,
+      // die Zeile muss dafür nicht noch einmal umgebaut werden.
       return Row(mainAxisSize: MainAxisSize.min, children: [
         AudioPlayButton(text: _wort, size: 20),
         VoxIconButton(
@@ -47,12 +51,6 @@ class WortActions extends ConsumerWidget {
           iconSize: 20,
           tooltip: AppL10n.t(context, imLeitner ? 'in_leitner' : 'add_to_leitner'),
           onPressed: () => _leitnerToggle(context, ref),
-        ),
-        VoxIconButton(
-          icon: Icons.label_outline_rounded,
-          iconSize: 20,
-          tooltip: AppL10n.t(context, 'my_categories'),
-          onPressed: () => _zeigeKategorien(context),
         ),
       ]);
     }

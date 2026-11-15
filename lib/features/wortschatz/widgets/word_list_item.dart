@@ -58,20 +58,25 @@ class WordListItem extends StatelessWidget {
                 ],
                 Expanded(
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+                    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Row(
                           children: [
                             // German word — preposition stripped for list display
+                            // Nie abschneiden (Lukas 2026-11-15): notfalls
+                            // kleiner, aber immer ganz und in einer Zeile.
                             Expanded(
-                              child: DeutschText(
-                                stripPreposition(word.german),
-                                style: theme.textTheme.titleMedium?.copyWith(
-                                  fontWeight: FontWeight.w700,
+                              child: FittedBox(
+                                fit: BoxFit.scaleDown,
+                                alignment: AlignmentDirectional.centerStart,
+                                child: DeutschText(
+                                  stripPreposition(word.german),
+                                  style: theme.textTheme.titleMedium?.copyWith(
+                                    fontWeight: FontWeight.w700,
+                                  ),
                                 ),
-                                overflow: TextOverflow.ellipsis,
                               ),
                             ),
                             // Article badge
@@ -92,8 +97,9 @@ class WordListItem extends StatelessWidget {
                           AppL10n.meaning(context,
                               fa: word.meaningFa,
                               en: word.meaningEn ?? word.meaningFa),
-                          style: theme.textTheme.bodyMedium,
-                          maxLines: 1,
+                          style: theme.textTheme.bodyMedium
+                              ?.copyWith(height: 1.35),
+                          maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                         ),
                         // Plural (if Nomen)

@@ -53,13 +53,19 @@ class WortCard extends StatelessWidget {
 
     final uebersetzung = _uebersetzung(context);
 
+    // Aufbau (2026-11-15, Lukas: nichts darf halb abgeschnitten sein):
+    //   Symbol | Wort (immer EINE Zeile, notfalls kleiner) + Bedeutung (bis
+    //   zwei Zeilen) | Niveau, darunter Aussprache + Leitner.
+    // Die Knöpfe stehen UNTER dem Niveau statt daneben — so bleibt dem Wort
+    // die ganze Breite. In Phase X ersetzt der Deck-Knopf den Leitner-Knopf
+    // an derselben Stelle.
     return Card(
       margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 4),
       child: InkWell(
         onTap: onTap,
         borderRadius: BorderRadius.circular(16),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+          padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 14),
           child: Row(
             children: [
               SizedBox(
@@ -71,20 +77,29 @@ class WortCard extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    WortZeile(card: card, style: theme.textTheme.titleMedium),
+                    FittedBox(
+                      fit: BoxFit.scaleDown,
+                      alignment: AlignmentDirectional.centerStart,
+                      child: WortZeile(
+                        card: card,
+                        style: theme.textTheme.titleMedium,
+                        eineZeile: true,
+                      ),
+                    ),
                     if (uebersetzung.isNotEmpty) ...[
-                      const SizedBox(height: 2),
+                      const SizedBox(height: 4),
                       Text(
                         uebersetzung,
-                        maxLines: 1,
+                        maxLines: 2,
                         overflow: TextOverflow.ellipsis,
-                        style: theme.textTheme.bodySmall?.copyWith(
+                        style: theme.textTheme.bodyMedium?.copyWith(
                           color: theme.colorScheme.onSurfaceVariant,
+                          height: 1.35,
                         ),
                       ),
                     ],
                     if (hinweis != null) ...[
-                      const SizedBox(height: 2),
+                      const SizedBox(height: 4),
                       hinweis!,
                     ],
                   ],
@@ -92,6 +107,7 @@ class WortCard extends StatelessWidget {
               ),
               const SizedBox(width: 8),
               Column(
+                mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.end,
                 children: [
                   if (niveau != null) VoxBadge.level(niveau, small: true),
@@ -105,12 +121,12 @@ class WortCard extends StatelessWidget {
                       ),
                     ),
                   ],
+                  if (trailing != null) ...[
+                    const SizedBox(height: 4),
+                    trailing!,
+                  ],
                 ],
               ),
-              if (trailing != null) ...[
-                const SizedBox(width: 4),
-                trailing!,
-              ],
             ],
           ),
         ),
@@ -132,8 +148,17 @@ class WortZeile extends StatelessWidget {
   /// Mittig statt linksbündig (Lernkarte).
   final bool zentriert;
 
-  const WortZeile(
-      {super.key, required this.card, this.style, this.zentriert = false});
+  /// Nie umbrechen: das Wort bleibt in EINER Zeile (Liste, 2026-11-15). Der
+  /// Aufrufer verkleinert es bei Bedarf (FittedBox), statt es abzuschneiden.
+  final bool eineZeile;
+
+  const WortZeile({
+    super.key,
+    required this.card,
+    this.style,
+    this.zentriert = false,
+    this.eineZeile = false,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -153,9 +178,20 @@ class WortZeile extends StatelessWidget {
     final artikel = istNomen && teile.length > 1 ? teile.first : null;
     final lemma = artikel != null ? teile.sublist(1).join(' ') : wort;
 
+    final lemmaText = WortText(
+      wort: lemma,
+      color: farbe,
+      // Verben: Infinitiv-Endung -en markiert (Duden: "lernen");
+      // Nomen-Lemma unmarkiert.
+      endung: wortart == 'verb' ? 'en' : '',
+      style: style?.copyWith(fontWeight: FontWeight.w700) ??
+          const TextStyle(fontWeight: FontWeight.w700),
+    );
+
     return Row(
       textDirection: TextDirection.ltr, // Deutsch immer LTR
-      mainAxisSize: zentriert ? MainAxisSize.min : MainAxisSize.max,
+      mainAxisSize:
+          zentriert || eineZeile ? MainAxisSize.min : MainAxisSize.max,
       crossAxisAlignment: CrossAxisAlignment.baseline,
       textBaseline: TextBaseline.alphabetic,
       children: [
@@ -167,22 +203,17 @@ class WortZeile extends StatelessWidget {
             ]),
             style: style?.copyWith(fontWeight: FontWeight.w800) ??
                 const TextStyle(fontWeight: FontWeight.w800),
+            // Deutsch immer LTR. Ohne diese Angabe erbt der Artikel in FA die
+            // Richtung RTL, das Leerzeichen dahinter rutscht auf die andere
+            // Seite und es erscheint «diefrau» (Bug, Lukas 2026-11-15).
+            textDirection: TextDirection.ltr,
           ),
-        Flexible(
-          child: WortText(
-            wort: lemma,
-            color: farbe,
-            // Verben: Infinitiv-Endung -en markiert (Duden:
-            // "lernen"); Nomen-Lemma unmarkiert.
-            endung: wortart == 'verb' ? 'en' : '',
-            style: style?.copyWith(fontWeight: FontWeight.w700) ??
-                const TextStyle(fontWeight: FontWeight.w700),
-          ),
-        ),
+        if (eineZeile) lemmaText else Flexible(child: lemmaText),
         // Homograph-Nummer (Regel 19) hochgestellt wie im Duden: See¹, See².
         if (homographHoch(card['homograph_nr']) case final hoch?)
           Text(
             hoch,
+            textDirection: TextDirection.ltr,
             style: style?.copyWith(fontWeight: FontWeight.w700) ??
                 const TextStyle(fontWeight: FontWeight.w700),
           ),
