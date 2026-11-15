@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "nomen_defizit_2",
+  "wort": "das Defizit",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کمبود",
+      "نارسایی"
+    ],
+    "en": [
+      "deficiency",
+      "lack"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Gesundheit",
+    "Bildung"
+  ],
+  "ipa": "ˈdeːfit͡sɪt",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er hat ein Defizit an Vitamin D.",
+      "uebersetzung": {
+        "fa": "او کمبود ویتامین D دارد.",
+        "en": "He has a vitamin D deficiency."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Test zeigte bei vielen Kindern Defizite in der Sprache, die man früh fördern sollte.",
+      "uebersetzung": {
+        "fa": "آزمون در خیلی از کودکان کمبودهای زبانی نشان داد که باید زود رویشان کار کرد.",
+        "en": "The test showed language deficits in many children that should be addressed early."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Mangel",
+      "uebersetzung": {
+        "fa": "کمبود",
+        "en": "lack"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Vitamindefizit",
+      "uebersetzung": {
+        "fa": "کمبود ویتامین",
+        "en": "vitamin deficiency"
+      }
+    },
+    {
+      "wort": "das Aufmerksamkeitsdefizit",
+      "uebersetzung": {
+        "fa": "نقص توجه",
+        "en": "attention deficit"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین deficit (کم است)",
+    "en": "from Latin deficit (it is lacking)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Defizite",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "ein Defizit an + Dat",
+        "beispiel": "Viele Patienten haben ein Defizit an Eisen.",
+        "uebersetzung": {
+          "fa": "خیلی از بیماران کمبود آهن دارند.",
+          "en": "Many patients have an iron deficiency."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Defizit",
+    "woerter": [
+      {
+        "wort": "die Milch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "شیر",
+          "en": "milk"
+        },
+        "id_ref": "nomen_milch"
+      },
+      {
+        "wort": "das Vitamin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ویتامین",
+          "en": "vitamin"
+        },
+        "id_ref": "nomen_vitamin"
+      },
+      {
+        "wort": "das Eisen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آهن",
+          "en": "iron"
+        },
+        "id_ref": "nomen_eisen"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "die Osteoporose",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پوکی استخوان",
+          "en": "osteoporosis"
+        },
+        "id_ref": "nomen_osteoporose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

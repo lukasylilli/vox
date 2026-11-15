@@ -1,0 +1,142 @@
+{
+  "schema": "3.0",
+  "id": "nomen_depression",
+  "wort": "die Depression",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "افسردگی"
+    ],
+    "en": [
+      "depression"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Psychologie"
+  ],
+  "ipa": "depʁɛˈsi̯oːn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie leidet an einer Depression.",
+      "uebersetzung": {
+        "fa": "او از افسردگی رنج می‌برد.",
+        "en": "She suffers from depression."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Eine Depression ist eine ernste Krankheit, die man mit Psychotherapie und manchmal mit Medikamenten behandelt.",
+      "uebersetzung": {
+        "fa": "افسردگی بیماری جدی‌ای است که با روان‌درمانی و گاهی با دارو درمان می‌شود.",
+        "en": "Depression is a serious illness that is treated with psychotherapy and sometimes with medication."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Winterdepression",
+      "uebersetzung": {
+        "fa": "افسردگی زمستانی",
+        "en": "winter depression"
+      }
+    },
+    {
+      "wort": "die Altersdepression",
+      "uebersetzung": {
+        "fa": "افسردگی سالمندی",
+        "en": "depression in old age"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین depressio (فرونشستگی)",
+    "en": "from Latin depressio (pressing down)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Depressionen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "an einer Depression leiden",
+        "beispiel": "Viele Menschen leiden an einer Depression, ohne es zu wissen.",
+        "uebersetzung": {
+          "fa": "خیلی‌ها بی‌آن‌که بدانند از افسردگی رنج می‌برند.",
+          "en": "Many people suffer from depression without knowing it."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Depression",
+    "woerter": [
+      {
+        "wort": "die Traurigkeit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غم",
+          "en": "sadness"
+        },
+        "id_ref": "nomen_traurigkeit"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "der Psychiater",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "روان‌پزشک",
+          "en": "psychiatrist"
+        },
+        "id_ref": "nomen_psychiater"
+      },
+      {
+        "wort": "die Psychotherapie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "روان‌درمانی",
+          "en": "psychotherapy"
+        },
+        "id_ref": "nomen_psychotherapie"
+      },
+      {
+        "wort": "antidepressiv",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ضدافسردگی",
+          "en": "antidepressant"
+        },
+        "id_ref": "adjektiv_antidepressiv"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

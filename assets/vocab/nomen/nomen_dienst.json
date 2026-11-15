@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "nomen_dienst",
+  "wort": "der Dienst",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شیفت",
+      "کار",
+      "وظیفه"
+    ],
+    "en": [
+      "duty",
+      "shift",
+      "service"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit"
+  ],
+  "ipa": "diːnst",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe heute Dienst.",
+      "uebersetzung": {
+        "fa": "امروز شیفت دارم.",
+        "en": "I am on duty today."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Nach dem Dienst bin ich so müde, dass ich sofort schlafen gehe.",
+      "uebersetzung": {
+        "fa": "بعد از شیفت آن‌قدر خسته‌ام که فوراً می‌خوابم.",
+        "en": "After my shift I am so tired that I go straight to sleep."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Nachtdienst",
+      "uebersetzung": {
+        "fa": "شیفت شب",
+        "en": "night duty"
+      }
+    },
+    {
+      "wort": "der Frühdienst",
+      "uebersetzung": {
+        "fa": "شیفت صبح",
+        "en": "early shift"
+      }
+    },
+    {
+      "wort": "der Dienstplan",
+      "uebersetzung": {
+        "fa": "برنامه‌ی شیفت",
+        "en": "duty roster"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "dienen (خدمت کردن)",
+    "en": "dienen (to serve)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Dienste",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Dienst haben",
+        "beispiel": "Wer hat am Sonntag Dienst?",
+        "uebersetzung": {
+          "fa": "یکشنبه چه کسی شیفت است؟",
+          "en": "Who is on duty on Sunday?"
+        }
+      },
+      {
+        "verbindung": "außer Dienst",
+        "beispiel": "Der Polizist war außer Dienst, als er den Unfall sah.",
+        "uebersetzung": {
+          "fa": "پلیس وقتی تصادف را دید سر کار نبود.",
+          "en": "The police officer was off duty when he saw the accident."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "dienen",
+    "woerter": [
+      {
+        "wort": "der Feierabend",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پایان ساعت کار",
+          "en": "end of the working day"
+        },
+        "id_ref": "nomen_feierabend"
+      },
+      {
+        "wort": "die Krankenschwester",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پرستار (زن)",
+          "en": "nurse (female)"
+        },
+        "id_ref": "nomen_krankenschwester"
+      },
+      {
+        "wort": "die Bereitschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کشیک",
+          "en": "on-call duty"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_bereitschaft_2"
+      },
+      {
+        "wort": "der Dienstnehmer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارمند، کارگر (اتریش)",
+          "en": "employee (Austria)"
+        },
+        "id_ref": "nomen_dienstnehmer"
+      },
+      {
+        "wort": "das Arbeitszeitmodell",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "الگوی ساعت کاری",
+          "en": "working time model"
+        },
+        "id_ref": "nomen_arbeitszeitmodell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
