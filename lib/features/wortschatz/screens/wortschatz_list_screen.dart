@@ -196,7 +196,10 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
           const <Map<String, dynamic>>[])
         k['id'] as String? ?? '',
     };
-    final zeilen = wortschatzZeilen(basis, filter, formIds: formIds);
+    final karteNachId = ref.watch(vokabIndexByIdProvider).valueOrNull ??
+        const <String, Map<String, dynamic>>{};
+    final zeilen = wortschatzZeilen(basis, filter,
+        formIds: formIds, karteNachId: karteNachId);
 
     if (zeilen.isEmpty) {
       // Tippfehler? Erst wenn die Suche fertig geladen ist — sonst blitzen

@@ -21,6 +21,7 @@ import '../../../core/wort/altwort_formen.dart';
 import '../../../core/wort/wort_form.dart';
 import '../../vokabular/data/vokab_schema.dart'
     show vokabAnstoessigStufen, vokabBerufe, vokabZeitlichWerte;
+import '../../vokabular/data/vokab_index.dart' show vokabIstUebersicht;
 import 'altwort_karte.dart';
 import 'such_rang.dart';
 
@@ -333,6 +334,54 @@ WortschatzBasis wortschatzBasis({
 /// zählt nicht), mit Suche nach Nähe (such_rang.dart, F.1). [formIds] = ids
 /// der Karten, deren gebeugte Form gesucht wurde.
 List<SuchTreffer<Object>> wortschatzZeilen(
+  WortschatzBasis basis,
+  WortschatzFilter filter, {
+  Set<String> formIds = const {},
+  Map<String, Map<String, dynamic>> karteNachId = const {},
+}) =>
+    bedeutungenGruppieren(
+        _wortschatzZeilenRoh(basis, filter, formIds: formIds), karteNachId);
+
+/// Vier Fälle (Entwurf Lukas 2026-11-15): erscheint die Übersicht «الف» ODER
+/// eine ihrer Bedeutungskarten, steht an dieser Stelle zuerst «الف», direkt
+/// darunter alle Bedeutungskarten «ب/ج …» in ihrer Reihenfolge — jede Karte
+/// nur einmal. [karteNachId] = alle Index-Einträge (leer ⇒ unverändert).
+List<SuchTreffer<Object>> bedeutungenGruppieren(
+  List<SuchTreffer<Object>> zeilen,
+  Map<String, Map<String, dynamic>> karteNachId,
+) {
+  if (karteNachId.isEmpty) return zeilen;
+  final gezeigt = <String>{};
+  final aus = <SuchTreffer<Object>>[];
+  for (final z in zeilen) {
+    final e = z.wert;
+    if (e is! Map<String, dynamic>) {
+      aus.add(z);
+      continue;
+    }
+    final id = e['id'] as String? ?? '';
+    if (gezeigt.contains(id)) continue;
+    final uebersicht = vokabIstUebersicht(e)
+        ? e
+        : karteNachId[e['uebersicht_id'] as String? ?? ''];
+    if (uebersicht == null) {
+      gezeigt.add(id);
+      aus.add(z);
+      continue;
+    }
+    for (final k in <Map<String, dynamic>?>[
+      uebersicht,
+      for (final gid in (uebersicht['bedeutungen_ids'] as List?) ?? const [])
+        karteNachId[gid],
+    ]) {
+      if (k == null || !gezeigt.add(k['id'] as String? ?? '')) continue;
+      aus.add(SuchTreffer<Object>(wert: k, lemma: z.lemma, rang: z.rang));
+    }
+  }
+  return aus;
+}
+
+List<SuchTreffer<Object>> _wortschatzZeilenRoh(
   WortschatzBasis basis,
   WortschatzFilter filter, {
   Set<String> formIds = const {},

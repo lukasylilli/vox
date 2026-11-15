@@ -135,8 +135,9 @@ class WortKarteKopf extends StatelessWidget {
           const SizedBox(height: 10),
           Text(ueb, style: theme.textTheme.titleMedium),
         ],
-        // Homographen (Regel 19): die anderen Karten gleicher Schreibung.
-        HomographHinweis(id: card['id'] as String? ?? ''),
+        // Homographen: seit dem Entwurf von Lukas (2026-11-15) steht der Weg
+        // zu den anderen Bedeutungen als MehrdeutigBanner GANZ OBEN auf der
+        // Wort-Seite (uebersicht_karte.dart), nicht mehr hier im Kopf.
         if (anmerkung != null && anmerkung.isNotEmpty) ...[
           const SizedBox(height: 6),
           // anmerkung ist laut Wort-Prompt immer Deutsch ⇒ DeutschText

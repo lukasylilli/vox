@@ -17,6 +17,8 @@ import 'grammatikon_spec.dart';
 import 'wort_text.dart';
 import '../../features/vokabular/widgets/wortseite_bausteine.dart'
     show vokabBedeutungenTexte, vokabBedeutungenZeile;
+import '../../features/vokabular/widgets/uebersicht_karte.dart'
+    show UebersichtZeile, istUebersicht;
 
 class WortCard extends StatelessWidget {
   /// Wort-Karte im SUPER-PROMPT Schema 2.0
@@ -47,6 +49,9 @@ class WortCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // Übersicht «الف» (Vier Fälle, Lukas 2026-11-15): überall dieselbe höhere
+    // Zeile mit allen Bedeutungen — Liste, Suche und Popup gleich.
+    if (istUebersicht(card)) return UebersichtZeile(karte: card, onTap: onTap);
     final theme = Theme.of(context);
     final niveau = card['niveau'] as String?;
     final box = card['box'] as int?;

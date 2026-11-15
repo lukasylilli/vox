@@ -295,6 +295,10 @@ class AppL10n {
       'leitner_no_cards'    : 'هیچ کارتی برای مرور امروز وجود نداره!',
       'leitner_wortseite'   : 'صفحه‌ی کامل کلمه',
       'homograph_titel'     : 'این کلمه با همین نوشتار معنای دیگری هم دارد — کارت جدا:',
+      // Vier Fälle — Entwurf Lukas 2026-11-15 (Übersichtskarte «الف»)
+      'mehrdeutig_warnung'  : '⚠️ این کلمه {n} معنی متفاوت دارد',
+      'mehrdeutig_alle'     : 'برای دیدن همه‌ی معنی‌ها این‌جا بزنید',
+      'mehrdeutig_liste'    : 'این کلمه چندین معنی دارد',
       'bedeutungen_anzahl'  : '{n} معنی',
       'bedeutung_nr'        : 'معنی {n}',
       'leitner_erste_bedeutung': 'معنای اول کافی است — معنی‌های دیگر:',
@@ -1060,6 +1064,10 @@ class AppL10n {
       'leitner_no_cards'    : 'No cards due today!',
       'leitner_wortseite'   : 'Open full word page',
       'homograph_titel'     : 'Same spelling, different meaning — separate card:',
+      // Vier Fälle — design by Lukas 2026-11-15 (overview card)
+      'mehrdeutig_warnung'  : '⚠️ This word has {n} different meanings',
+      'mehrdeutig_alle'     : 'Tap here to see all meanings',
+      'mehrdeutig_liste'    : 'This word has several meanings',
       'bedeutungen_anzahl'  : '{n} meanings',
       'bedeutung_nr'        : 'meaning {n}',
       'leitner_erste_bedeutung': 'The first meaning is enough — other meanings:',

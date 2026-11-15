@@ -8,6 +8,7 @@
 //          Braucht nur den Index-Eintrag (id, wort, wortart, niveau,
 //          uebersetzung, Symbol-Felder) — keine volle Karte, kein Laden.
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_routes.dart';
@@ -18,7 +19,8 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
-import '../../vokabular/widgets/homograph_hinweis.dart';
+import '../../vokabular/controllers/vokabular_controller.dart';
+import '../../vokabular/widgets/uebersicht_karte.dart';
 import '../../vokabular/widgets/wortseite_bausteine.dart'
     show vokabBedeutungenTexte, vokabNr;
 import 'wende_karte.dart';
@@ -39,16 +41,25 @@ class ArchivFlashCard extends StatelessWidget {
       );
 }
 
-class _Vorne extends StatelessWidget {
+class _Vorne extends ConsumerWidget {
   const _Vorne({required this.karte});
   final Map<String, dynamic> karte;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
     final wort = karte['wort'] as String? ?? '';
     final niveau = karte['niveau'] as String?;
+    final byId = ref.watch(vokabIndexByIdProvider).valueOrNull ??
+        const <String, Map<String, dynamic>>{};
+    // Vier Fälle (Lukas 2026-11-15): Übersicht «الف» ⇒ nur das Wort (kein
+    // Symbol — die Bedeutungen haben verschiedene Artikel). Bedeutungskarte
+    // «ب/ج» ⇒ KEINE Bedeutungshilfe, nur die Warnung «mehrere Bedeutungen».
+    final uebersicht = istUebersicht(karte);
+    final warnung = uebersicht
+        ? AppL10n.t(context, 'mehrdeutig_liste')
+        : mehrdeutigWarnung(context, karte, byId);
 
     return Container(
       width: double.infinity,
@@ -62,13 +73,32 @@ class _Vorne extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          WortSymbol(card: karte, size: 44),
-          const SizedBox(height: AppSizes.md),
+          if (!uebersicht) ...[
+            WortSymbol(card: karte, size: 44),
+            const SizedBox(height: AppSizes.md),
+          ],
           WortZeile(
             card: karte,
             zentriert: true,
             style: theme.textTheme.headlineMedium,
           ),
+          if (warnung != null) ...[
+            const SizedBox(height: AppSizes.sm),
+            Container(
+              key: const ValueKey('lernkarte_mehrdeutig'),
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+              decoration: BoxDecoration(
+                color: scheme.tertiaryContainer,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: Text(
+                warnung,
+                textAlign: TextAlign.center,
+                style: theme.textTheme.bodyMedium
+                    ?.copyWith(fontWeight: FontWeight.w700),
+              ),
+            ),
+          ],
           if (niveau != null) ...[
             const SizedBox(height: AppSizes.sm),
             VoxBadge.level(niveau, small: true),
@@ -93,15 +123,17 @@ class _Vorne extends StatelessWidget {
   }
 }
 
-class _Hinten extends StatelessWidget {
+class _Hinten extends ConsumerWidget {
   const _Hinten({required this.karte});
   final Map<String, dynamic> karte;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
     final id = karte['id'] as String? ?? '';
+    final byId = ref.watch(vokabIndexByIdProvider).valueOrNull ??
+        const <String, Map<String, dynamic>>{};
 
     // Übersetzung NUR in der eingestellten Sprache (فاز L) — wie WortCard.
     final fa = AppL10n.isFa(context);
@@ -127,6 +159,14 @@ class _Hinten extends StatelessWidget {
           WortZeile(
               card: karte, zentriert: true, style: theme.textTheme.titleLarge),
           const SizedBox(height: AppSizes.lg),
+          // Übersicht «الف»: ALLE Bedeutungen nebeneinander (Spalten, ab drei
+          // ein Raster) — nie untereinander (Lukas 2026-11-15).
+          if (istUebersicht(karte))
+            BedeutungsRaster(
+              glieder: uebersichtGlieder(karte, byId),
+              gross: true,
+            )
+          else
           // Mehrere Bedeutungen (Regel 20, Lukas 2026-10-19): die ERSTE
           // groß — sie reicht für «richtig»; die übrigen klein darunter.
           Text(
@@ -137,7 +177,7 @@ class _Hinten extends StatelessWidget {
             style: theme.textTheme.headlineSmall
                 ?.copyWith(fontWeight: FontWeight.w700),
           ),
-          if (bedeutungen != null) ...[
+          if (bedeutungen != null && !istUebersicht(karte)) ...[
             const SizedBox(height: AppSizes.sm),
             Text(
               AppL10n.t(context, 'leitner_erste_bedeutung'),
@@ -152,8 +192,9 @@ class _Hinten extends StatelessWidget {
                 style: theme.textTheme.titleSmall,
               ),
           ],
-          // Homographen (Regel 19): «Achtung, es gibt auch die See = دریا».
-          if (id.isNotEmpty) HomographHinweis(id: id, kompakt: true),
+          // Bedeutungskarte «ب/ج»: hinten NUR ihre eigene Bedeutung (Lukas
+          // 2026-11-15) — der frühere Hinweis auf die anderen Bedeutungen
+          // entfällt; die Übersicht «الف» ist eine eigene Lernkarte.
           const SizedBox(height: AppSizes.lg),
           if (id.isNotEmpty)
             VoxButton.text(

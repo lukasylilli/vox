@@ -19,6 +19,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../controllers/vokabular_controller.dart';
 import '../widgets/wort_actions.dart';
+import '../widgets/uebersicht_karte.dart';
 import '../widgets/wort_karte_inhalt.dart';
 
 class WortSeiteScreen extends ConsumerWidget {
@@ -46,6 +47,8 @@ class WortSeiteScreen extends ConsumerWidget {
                     style: Theme.of(context).textTheme.bodyMedium)),
           );
         }
+        // Übersichtskarte «الف» (Vier Fälle): eigene Seite, keine Datei.
+        if (istUebersicht(card)) return UebersichtSeite(karte: card);
         return _WortSeiteBody(card: card, byId: byId);
       },
     );
@@ -72,6 +75,8 @@ class _WortSeiteBody extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          // Bedeutungskarte «ب/ج»: ganz oben der Weg zur Übersicht «الف».
+          MehrdeutigBanner(id: card['id'] as String? ?? ''),
           // ── Kopf ──
           WortKarteKopf(card: card),
           const SizedBox(height: 14),
