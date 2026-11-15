@@ -161,6 +161,21 @@ void main() {
       expect(find.byKey(const ValueKey('wortzeile_drei_artikel')), findsOneWidget);
       expect(find.text('Abgeordnete'), findsOneWidget);
       expect(tester.takeException(), isNull);
+      // Lukas 2026-11-15: der Plural trägt «Pl.», sonst liest man «die»
+      // zweimal und vermisst «das».
+      expect(find.textContaining('der · die · Pl. die', findRichText: true),
+          findsOneWidget);
+    });
+
+    testWidgets('ein «das» der Karte steht mit in der Artikelzeile',
+        (tester) async {
+      final mitDas = {...abgeordnete, 'wort': 'der/die/das Neue'};
+      await tester.pumpWidget(_app(Scaffold(body: WortZeile(card: mitDas))));
+      await tester.pump();
+      expect(
+          find.textContaining('der · die · das · Pl. die', findRichText: true),
+          findsOneWidget);
+      expect(tester.takeException(), isNull);
     });
 
     test('nur adjektivisch gebeugte Nomen bekommen den Grammatik-Verweis', () {

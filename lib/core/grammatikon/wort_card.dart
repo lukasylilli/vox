@@ -193,9 +193,11 @@ class WortZeile extends StatelessWidget {
     );
 
     // Fall 4 (substantiviertes Adjektiv, «der/die Abgeordnete», Lukas
-    // 2026-11-15): alle drei Artikel in der Zeile DARÜBER, jeder in seiner
-    // Genusfarbe aus GrammatikonSpec (der = maskulin, die = feminin,
-    // die = Plural); das Wort darunter.
+    // 2026-11-15): die Artikel in der Zeile DARÜBER, jeder in seiner
+    // Genusfarbe aus GrammatikonSpec; das Wort darunter. Gezeigt werden
+    // genau die Artikel DER KARTE (ein «das» der Karte erscheint also mit),
+    // danach der Plural mit kleinem «Pl.» davor — ohne die Kennung sah
+    // «der · die · die» wie ein Fehler aus (zweimal die, kein das).
     if (artikel != null && artikel.contains('/')) {
       final klein = (style ?? DefaultTextStyle.of(context).style).copyWith(
         fontWeight: FontWeight.w800,
@@ -209,14 +211,24 @@ class WortZeile extends StatelessWidget {
         children: [
           Text.rich(
             TextSpan(children: [
-              for (final (i, (a, f)) in [
-                ('der', GrammatikonSpec.maskulin),
-                ('die', GrammatikonSpec.feminin),
-                ('die', GrammatikonSpec.plural),
-              ].indexed) ...[
-                if (i > 0) const TextSpan(text: ' · '),
-                TextSpan(text: a, style: TextStyle(color: f)),
+              for (final a in artikel.split('/')) ...[
+                TextSpan(
+                  text: a,
+                  style: TextStyle(color: GrammatikonResolver.artikelFarbe(a)),
+                ),
+                const TextSpan(text: ' · '),
               ],
+              TextSpan(
+                text: 'Pl. ',
+                style: TextStyle(
+                  fontWeight: FontWeight.w500,
+                  fontSize: (klein.fontSize ?? 11) * 0.82,
+                ),
+              ),
+              const TextSpan(
+                text: 'die',
+                style: TextStyle(color: GrammatikonSpec.plural),
+              ),
             ]),
             style: klein,
             textDirection: TextDirection.ltr,
