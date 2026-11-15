@@ -120,8 +120,9 @@ void main() {
       // L.6 2026-09-18; die sechste ist transform und zählt hier nie mit)
       // + 3 aus Buch-Lektion 2 (konjugation-praesens, L.6 2026-09-18;
       // multipleChoice/fillBlank, keine transform/wordOrder).
+      // B1/B2: je + 4 aus adjektive-als-nomen (Vier Fälle Fall 4, 2026-11-15).
       expect(groesse, {
-        'A1': 94, 'A2': 146, 'B1': 170, 'B2': 107, 'C1': 24, 'C2': 3,
+        'A1': 94, 'A2': 146, 'B1': 174, 'B2': 111, 'C1': 24, 'C2': 3,
       });
       expect(niveauTest.vorrat('a1', lektionen, uebungen).length, 94,
           reason: 'Kleinschreibung aus der Route');

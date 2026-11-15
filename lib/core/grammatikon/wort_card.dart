@@ -193,6 +193,40 @@ class WortZeile extends StatelessWidget {
           const TextStyle(fontWeight: FontWeight.w700),
     );
 
+    // Fall 4 (substantiviertes Adjektiv, «der/die Abgeordnete», Lukas
+    // 2026-11-15): alle drei Artikel in der Zeile DARÜBER, jeder in seiner
+    // Genusfarbe aus GrammatikonSpec (der = maskulin, die = feminin,
+    // die = Plural); das Wort darunter.
+    if (artikel != null && artikel.contains('/')) {
+      final klein = (style ?? DefaultTextStyle.of(context).style).copyWith(
+        fontWeight: FontWeight.w800,
+        fontSize: ((style?.fontSize ?? 14) * 0.78),
+      );
+      return Column(
+        key: const ValueKey('wortzeile_drei_artikel'),
+        mainAxisSize: MainAxisSize.min,
+        crossAxisAlignment:
+            zentriert ? CrossAxisAlignment.center : CrossAxisAlignment.start,
+        children: [
+          Text.rich(
+            TextSpan(children: [
+              for (final (i, (a, f)) in [
+                ('der', GrammatikonSpec.maskulin),
+                ('die', GrammatikonSpec.feminin),
+                ('die', GrammatikonSpec.plural),
+              ].indexed) ...[
+                if (i > 0) const TextSpan(text: ' · '),
+                TextSpan(text: a, style: TextStyle(color: f)),
+              ],
+            ]),
+            style: klein,
+            textDirection: TextDirection.ltr,
+          ),
+          lemmaText,
+        ],
+      );
+    }
+
     return Row(
       textDirection: TextDirection.ltr, // Deutsch immer LTR
       mainAxisSize:

@@ -75,6 +75,12 @@ class _WortSeiteBody extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          // Fall 4 (substantiviertes Adjektiv): erste Zeile = Verweis auf
+          // die Grammatik-Lektion «Adjektive als Nomen» (Lukas 2026-11-15).
+          if (istAdjektivischesNomen(card)) ...[
+            const AdjektivNomenVerweis(),
+            const SizedBox(height: 12),
+          ],
           // Bedeutungskarte «ب/ج»: ganz oben der Weg zur Übersicht «الف».
           MehrdeutigBanner(id: card['id'] as String? ?? ''),
           // ── Kopf ──

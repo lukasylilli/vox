@@ -200,6 +200,7 @@ Lekt. = Position im linearen Lernpfad („Lektionen"-Ansicht) · — = Vertiefun
 | 82 | `modalsaetze` | Modalsätze | جملات حالت/شیوه | B2·C1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/modalsaetze` |
 | 83 | `konsekutivsaetze` | Konsekutivsätze | جملات نتیجه‌ای | B2·C1 | nebensaetze | satzverbindung | LIVE → `/grammatik/lektion/konsekutivsaetze` |
 | 84 | `konjunktiv-1` | Konjunktiv I – Indirekte Rede | کونیونکتیو I — نقل قول غیرمستقیم | C1·C2 | konjunktiv | praedikat | LIVE → `/grammatik/lektion/konjunktiv-1` |
+| 85 | `adjektive-als-nomen` | Adjektive als Nomen | صفت به‌جای اسم | B1·B2 | nomen | nominalgruppe | LIVE → `/grammatik/lektion/adjektive-als-nomen` — **neu 2026-11-15** (Vier Fälle, Fall 4; Text von Claude neu geschrieben; Wort-Seiten der/die-Nomen verlinken hierher) |
 | — | `tempusformen-ueberblick` | Tempusformen im Überblick | کدام زمان برای کدام کار؟ | A2·B1·B2 | tempus | praedikat | LIVE → `/grammatik/thema/tempusformen` |
 | — | `passiv-ueberblick` | Passiv im Überblick | مجهول — ساخت، es، ۶ نوع مجهول | B1·B2 | passiv | praedikat | LIVE → `/grammatik/thema/passiv` |
 | — | `zu-dass` | zu und dass | دو فعل در یک جمله — zu، dass، um...zu، damit | A2·B1 | ergaenzungssaetze | ergaenzungen | LIVE → `/grammatik/thema/zu-dass` |

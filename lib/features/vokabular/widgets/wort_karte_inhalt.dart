@@ -18,7 +18,7 @@ import '../../../core/constants/app_routes.dart';
 import '../../../core/grammatikon/grammatikon_painter.dart';
 import '../../../core/grammatikon/grammatikon_resolver.dart';
 import '../../../core/grammatikon/grammatikon_spec.dart';
-import '../../../core/grammatikon/wort_card.dart' show artikelSpans;
+import '../../../core/grammatikon/wort_card.dart' show WortZeile, artikelSpans;
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/vox_badge.dart';
 import '../../../core/widgets/vox_button.dart';
@@ -70,6 +70,15 @@ class WortKarteKopf extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
+                  // Fall 4 (der/die Abgeordnete, Lukas 2026-11-15): Artikel
+                  // in der Zeile darüber, das Wort darunter — WortZeile.
+                  if (artikel != null && artikel.contains('/'))
+                    WortZeile(
+                      card: card,
+                      eineZeile: true,
+                      style: theme.textTheme.headlineSmall,
+                    )
+                  else
                   Text.rich(
                     TextSpan(
                       children: [

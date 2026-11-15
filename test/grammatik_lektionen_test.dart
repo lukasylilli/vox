@@ -1,6 +1,6 @@
 // FILE: test/grammatik_lektionen_test.dart
 // PHASE: فاز LAUNCH L.2c / فاز G G3–G6 (2026-09-16)
-// PURPOSE: Alle 84 Kern-Lektionen sind da, erreichbar und darstellbar.
+// PURPOSE: Alle 85 Kern-Lektionen sind da (84 aus der Quelle + «Adjektive als Nomen», 2026-11-15), erreichbar und darstellbar.
 //
 // Wächter:
 //   · jede Datei in assets/data/grammatik/ wird geladen (grammatikContentFiles)
@@ -59,9 +59,9 @@ void main() {
     expect(grammatikContentFiles.toSet(), dateien);
   });
 
-  test('84 Kern-Lektionen, keine doppelt', () {
-    expect(rohe.length, 84);
-    expect(lektionen.length, 84);
+  test('85 Kern-Lektionen, keine doppelt', () {
+    expect(rohe.length, 85);
+    expect(lektionen.length, 85);
   });
 
   test('Lektionen und Katalog passen zusammen', () {
@@ -123,7 +123,7 @@ void main() {
   // vorher „verb-sein" ab. Die Fläche ist sehr hoch, damit die Liste ALLE
   // Tabellen und Beispiele baut (ListView baut sonst nur Sichtbares).
   for (final sprache in const ['en', 'fa']) {
-    testWidgets('alle 84 Lektionen zeichnen ohne Fehler ($sprache)',
+    testWidgets('alle 85 Lektionen zeichnen ohne Fehler ($sprache)',
         (tester) async {
       tester.view.physicalSize = const Size(1400, 60000);
       tester.view.devicePixelRatio = 1;

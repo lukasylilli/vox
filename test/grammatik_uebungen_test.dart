@@ -109,13 +109,14 @@ void main() {
   group('Daten', () {
     test('alle 345 Übungen werden gelesen, keine fällt weg', () {
       // 336 (alte Quelle) + 6 (Buch-Lektion 1 → personalpronomen) + 3 (Buch-Lektion 2 → konjugation-praesens), L.6.
-      expect(roh.length, 345);
+      // + 4 (adjektive-als-nomen, Vier Fälle Fall 4, 2026-11-15).
+      expect(roh.length, 349);
       final fehlend = [
         for (var i = 0; i < roh.length; i++)
           if (uebungen[i] == null) roh[i]['id'],
       ];
       expect(fehlend, isEmpty, reason: 'nicht lesbar: $fehlend');
-      expect(gueltig.map((u) => u.schluessel).toSet().length, 345,
+      expect(gueltig.map((u) => u.schluessel).toSet().length, 349,
           reason: 'Lektion + id doppelt');
     });
 
@@ -134,17 +135,18 @@ void main() {
     test('fünf Arten — Quelle plus eigene Übungen', () {
       // Quelle 85/82/67/51/51; dazu aus Buch-Lektion 1 je eine multipleChoice,
       // wordOrder, transform, matching und zwei fillBlank; aus Buch-Lektion 2
-      // (konjugation-praesens) zwei multipleChoice und eine fillBlank.
+      // (konjugation-praesens) zwei multipleChoice und eine fillBlank; aus
+      // adjektive-als-nomen (2026-11-15) drei multipleChoice und eine fillBlank.
       int zahl(UebungsArt a) => gueltig.where((u) => u.art == a).length;
-      expect(zahl(UebungsArt.multipleChoice), 88);
-      expect(zahl(UebungsArt.fillBlank), 85);
+      expect(zahl(UebungsArt.multipleChoice), 91);
+      expect(zahl(UebungsArt.fillBlank), 86);
       expect(zahl(UebungsArt.wordOrder), 68);
       expect(zahl(UebungsArt.transform), 52);
       expect(zahl(UebungsArt.matching), 52);
     });
 
     test('jede Lektion hat genau ihre exerciseSlugs', () {
-      expect(lektionenRoh.length, 84);
+      expect(lektionenRoh.length, 85);
       for (final l in lektionenRoh) {
         final slug = l['slug'] as String;
         final erwartet = (l['exerciseSlugs'] as List).cast<String>();

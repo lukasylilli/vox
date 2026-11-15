@@ -1,3 +1,5 @@
+import 'dart:io';
+
 // FILE: test/uebersicht_karte_test.dart
 // PURPOSE: Vier Fälle, Schritt M2 (Entwurf Lukas 2026-11-15) — Übersicht «الف»
 //          zuerst, Bedeutungen darunter; Seite «الف» zeigt alle Bedeutungen
@@ -11,6 +13,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vox/core/database/app_database.dart';
 import 'package:vox/features/wortschatz/controllers/word_controller.dart';
+import 'package:vox/core/grammatikon/wort_card.dart';
 import 'package:vox/core/l10n/app_l10n.dart';
 import 'package:vox/features/leitner/widgets/archiv_flash_card.dart';
 import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
@@ -142,5 +145,35 @@ void main() {
     expect(find.byKey(const ValueKey('lernkarte_mehrdeutig')), findsOneWidget);
     expect(find.text('بانک'), findsNothing);
     expect(tester.takeException(), isNull);
+  });
+
+  group('Fall 4 — der/die Abgeordnete (Lukas 2026-11-15)', () {
+    final abgeordnete = <String, dynamic>{
+      'id': 'nomen_abgeordnete',
+      'wort': 'der/die Abgeordnete',
+      'wortart': 'nomen',
+      'details': {'genus': 'der/die', 'deklinationstyp': 'adjektivisch'},
+    };
+
+    testWidgets('drei Artikel in der Zeile über dem Wort', (tester) async {
+      await tester.pumpWidget(_app(Scaffold(body: WortZeile(card: abgeordnete))));
+      await tester.pump();
+      expect(find.byKey(const ValueKey('wortzeile_drei_artikel')), findsOneWidget);
+      expect(find.text('Abgeordnete'), findsOneWidget);
+      expect(tester.takeException(), isNull);
+    });
+
+    test('nur adjektivisch gebeugte Nomen bekommen den Grammatik-Verweis', () {
+      expect(istAdjektivischesNomen(abgeordnete), isTrue);
+      expect(istAdjektivischesNomen(_byId['nomen_tisch']!), isFalse);
+    });
+
+    test('die verlinkte Lektion gibt es', () {
+      expect(
+          File('assets/data/grammatik/nomen.json')
+              .readAsStringSync()
+              .contains('"slug": "$adjektivNomenLektion"'),
+          isTrue);
+    });
   });
 }

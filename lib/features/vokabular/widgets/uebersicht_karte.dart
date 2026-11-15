@@ -425,3 +425,64 @@ String? mehrdeutigWarnung(
 /// Grund für [vokabIstUebersicht] hier wieder ausgeben, damit Bildschirme nur
 /// diese Datei importieren müssen.
 bool istUebersicht(Map<String, dynamic>? k) => vokabIstUebersicht(k);
+
+/// Fall 4 der «Vier Fälle»: Nomen, das wie ein Adjektiv gebeugt wird
+/// (der/die Abgeordnete, das Gute) — Prompt-Regel 21.
+bool istAdjektivischesNomen(Map<String, dynamic> karte) {
+  final d = karte['details'];
+  return karte['wortart'] == 'nomen' &&
+      d is Map &&
+      d['deklinationstyp'] == 'adjektivisch';
+}
+
+/// Slug der Grammatik-Lektion für Fall 4 (assets/data/grammatik/nomen.json).
+const adjektivNomenLektion = 'adjektive-als-nomen';
+
+/// Erste Zeile der Wort-Seite bei Fall 4: Weg zur Grammatik-Lektion.
+class AdjektivNomenVerweis extends StatelessWidget {
+  const AdjektivNomenVerweis({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
+    return Material(
+      color: scheme.secondaryContainer.withValues(alpha: 0.7),
+      borderRadius: BorderRadius.circular(14),
+      child: InkWell(
+        key: const ValueKey('adjektiv_nomen_verweis'),
+        borderRadius: BorderRadius.circular(14),
+        onTap: () =>
+            context.push(AppRoutes.grammatikLektion(adjektivNomenLektion)),
+        child: Padding(
+          padding: const EdgeInsets.all(12),
+          child: Row(
+            children: [
+              Icon(Icons.menu_book_rounded, color: scheme.secondary),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(AppL10n.t(context, 'adjnomen_titel'),
+                        style: theme.textTheme.titleSmall
+                            ?.copyWith(fontWeight: FontWeight.w800)),
+                    const SizedBox(height: 2),
+                    Text(AppL10n.t(context, 'adjnomen_text'),
+                        style: theme.textTheme.bodyMedium),
+                  ],
+                ),
+              ),
+              Icon(
+                AppL10n.isFa(context)
+                    ? Icons.chevron_left_rounded
+                    : Icons.chevron_right_rounded,
+                color: scheme.secondary,
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

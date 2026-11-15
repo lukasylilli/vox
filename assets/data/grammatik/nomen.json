@@ -1,6 +1,6 @@
 {
  "_index": {
-  "fileDescription": "Nomen: Genusbestimmung, Pluralbildung, Komposita, n-Deklination, Genitiv, Nominalisierung",
+  "fileDescription": "Nomen: Genusbestimmung, Pluralbildung, Komposita, n-Deklination, Genitiv, Nominalisierung, Adjektive als Nomen",
   "lastUpdatedStage": 10,
   "lessons": [
    "genusbestimmung — تشخیص جنسیت اسم",
@@ -8,7 +8,8 @@
    "komposita — اسم‌های مرکب",
    "n-deklination — صرف با -n",
    "genitiv — حالت مالکیت (Genitiv)",
-   "nominalisierung — اسم‌سازی از فعل/صفت"
+   "nominalisierung — اسم‌سازی از فعل/صفت",
+   "adjektive-als-nomen — صفت به‌جای اسم (der/die Angestellte)"
   ]
  },
  "lessons": [
@@ -648,6 +649,166 @@
     "ex-nomin-3",
     "ex-nomin-4"
    ]
+  },
+  {
+   "id": "adjektive-als-nomen",
+   "slug": "adjektive-als-nomen",
+   "titleDE": "Adjektive als Nomen (der/die Angestellte)",
+   "titleFA": "صفت به‌جای اسم (der/die Angestellte)",
+   "titleEN": "Adjectives as nouns (der/die Angestellte)",
+   "levels": [
+    "B1",
+    "B2"
+   ],
+   "category": "nomen",
+   "parentSlug": null,
+   "explanationBlocks": [
+    {
+     "id": "block-1",
+     "headingDE": null,
+     "headingFA": null,
+     "headingEN": null,
+     "bodyDE": "Manche Nomen sind eigentlich Adjektive oder Partizipien: der/die Angestellte, der/die Bekannte, der/die Deutsche, der/die Erwachsene, der/die Verwandte, der/die Abgeordnete. Man schreibt sie groß wie ein Nomen, aber man beugt sie wie ein Adjektiv.",
+     "bodyFA": "بعضی اسم‌ها در اصل صفت یا وجه وصفی‌اند: der/die Angestellte (کارمند)، der/die Bekannte (آشنا)، der/die Deutsche (آلمانی)، der/die Erwachsene (بزرگسال)، der/die Verwandte (خویشاوند)، der/die Abgeordnete (نماینده‌ی مجلس). مثل اسم با حرف بزرگ نوشته می‌شوند، اما مثل صفت صرف می‌شوند.",
+     "bodyEN": "Some nouns are really adjectives or participles: der/die Angestellte (employee), der/die Bekannte (acquaintance), der/die Deutsche (German), der/die Erwachsene (adult), der/die Verwandte (relative), der/die Abgeordnete (member of parliament). They are capitalised like nouns but declined like adjectives."
+    },
+    {
+     "id": "block-2",
+     "headingDE": "Ein Wort, drei Artikel",
+     "headingFA": "یک کلمه، سه آرتیکل",
+     "headingEN": "One word, three articles",
+     "bodyDE": "Ein Wort — drei Artikel: der Angestellte (ein Mann), die Angestellte (eine Frau), die Angestellten (mehrere Personen). Deshalb stehen im Wörterbuch oft zwei Artikel: der/die Angestellte.",
+     "bodyFA": "یک کلمه، سه آرتیکل: der Angestellte (یک مرد)، die Angestellte (یک زن)، die Angestellten (چند نفر). برای همین در فرهنگ لغت معمولاً دو آرتیکل می‌آید: der/die Angestellte.",
+     "bodyEN": "One word, three articles: der Angestellte (a man), die Angestellte (a woman), die Angestellten (several people). That is why dictionaries often show two articles: der/die Angestellte."
+    },
+    {
+     "id": "block-3",
+     "headingDE": "Die Endung",
+     "headingFA": "پایانه",
+     "headingEN": "The ending",
+     "bodyDE": "Die Endung hängt vom Artikel ab — genau wie beim Adjektiv vor einem Nomen. Nach der, die, das: meist -e, im Plural -en (der Angestellte, die Angestellten). Nach ein, eine: die Endung zeigt das Geschlecht (ein Angestellter, eine Angestellte). Ohne Artikel im Plural: Angestellte.",
+     "bodyFA": "پایانه به آرتیکل بستگی دارد — درست مثل صفتی که جلوی اسم می‌آید. بعد از der، die، das: معمولاً -e و در جمع -en (der Angestellte، die Angestellten). بعد از ein، eine: پایانه جنس را نشان می‌دهد (ein Angestellter، eine Angestellte). جمع بدون آرتیکل: Angestellte.",
+     "bodyEN": "The ending depends on the article — exactly like an adjective in front of a noun. After der, die, das: usually -e, in the plural -en (der Angestellte, die Angestellten). After ein, eine: the ending shows the gender (ein Angestellter, eine Angestellte). Plural without an article: Angestellte."
+    },
+    {
+     "id": "block-4",
+     "headingDE": "Dinge und Ideen: das Gute",
+     "headingFA": "چیزها و مفهوم‌ها: das Gute",
+     "headingEN": "Things and ideas: das Gute",
+     "bodyDE": "Auch für Dinge und Ideen gibt es solche Nomen, dann immer mit das: das Gute, das Neue, das Wichtigste. Nach etwas, nichts, viel, wenig: etwas Neues, nichts Gutes, viel Interessantes.",
+     "bodyFA": "برای چیزها و مفهوم‌ها هم چنین اسم‌هایی هست که همیشه با das می‌آیند: das Gute (خوبی)، das Neue (چیز تازه)، das Wichtigste (مهم‌ترین چیز). بعد از etwas، nichts، viel، wenig: etwas Neues (چیز تازه‌ای)، nichts Gutes (هیچ چیز خوبی)، viel Interessantes (چیزهای جالب زیادی).",
+     "bodyEN": "Such nouns also exist for things and ideas, then always with das: das Gute (the good), das Neue (the new), das Wichtigste (the most important thing). After etwas, nichts, viel, wenig: etwas Neues (something new), nichts Gutes (nothing good), viel Interessantes (a lot of interesting things)."
+    }
+   ],
+   "examples": [
+    {
+     "id": "ex-1",
+     "german": "Mein Bruder ist Angestellter bei einer Bank.",
+     "meaningFA": "برادرم کارمند یک بانک است.",
+     "meaningEN": "My brother is an employee at a bank.",
+     "noteDE": "Ohne Artikel, ein Mann ⇒ -er.",
+     "noteFA": "بدون آرتیکل، یک مرد ⇒ -er.",
+     "noteEN": "No article, one man ⇒ -er."
+    },
+    {
+     "id": "ex-2",
+     "german": "Die Angestellte hat mir sehr geholfen.",
+     "meaningFA": "آن کارمند (زن) خیلی به من کمک کرد.",
+     "meaningEN": "The (female) employee helped me a lot."
+    },
+    {
+     "id": "ex-3",
+     "german": "Alle Angestellten bekommen im Dezember mehr Geld.",
+     "meaningFA": "همه‌ی کارمندان در دسامبر پول بیشتری می‌گیرند.",
+     "meaningEN": "All employees get more money in December.",
+     "noteDE": "Plural nach alle ⇒ -en.",
+     "noteFA": "جمع بعد از alle ⇒ -en.",
+     "noteEN": "Plural after alle ⇒ -en."
+    },
+    {
+     "id": "ex-4",
+     "german": "Gestern habe ich einen Bekannten aus Wien getroffen.",
+     "meaningFA": "دیروز یک آشنا (مرد) از وین را دیدم.",
+     "meaningEN": "Yesterday I met an acquaintance from Vienna.",
+     "noteDE": "Akkusativ maskulin ⇒ -en.",
+     "noteFA": "Akkusativ مذکر ⇒ -en.",
+     "noteEN": "Accusative masculine ⇒ -en."
+    },
+    {
+     "id": "ex-5",
+     "german": "Die Abgeordneten stimmen heute über das Gesetz ab.",
+     "meaningFA": "نمایندگان امروز درباره‌ی این قانون رأی می‌دهند.",
+     "meaningEN": "The members of parliament vote on the law today."
+    },
+    {
+     "id": "ex-6",
+     "german": "Gibt es etwas Neues?",
+     "meaningFA": "خبر تازه‌ای هست؟",
+     "meaningEN": "Is there anything new?",
+     "noteDE": "Nach etwas: das Neue ⇒ etwas Neues.",
+     "noteFA": "بعد از etwas: das Neue ⇒ etwas Neues.",
+     "noteEN": "After etwas: das Neue ⇒ etwas Neues."
+    }
+   ],
+   "tables": [
+    {
+     "id": "table-1",
+     "titleDE": "der/die Angestellte",
+     "titleFA": "der/die Angestellte",
+     "titleEN": "der/die Angestellte",
+     "style": "simple",
+     "columns": [
+      "Kasus",
+      "maskulin",
+      "feminin",
+      "Plural"
+     ],
+     "rows": [
+      {
+       "rowLabel": "Nominativ",
+       "cells": [
+        "der Angestellte / ein Angestellter",
+        "die Angestellte / eine Angestellte",
+        "die Angestellten / Angestellte"
+       ]
+      },
+      {
+       "rowLabel": "Akkusativ",
+       "cells": [
+        "den Angestellten / einen Angestellten",
+        "die Angestellte / eine Angestellte",
+        "die Angestellten / Angestellte"
+       ]
+      },
+      {
+       "rowLabel": "Dativ",
+       "cells": [
+        "dem Angestellten / einem Angestellten",
+        "der Angestellten / einer Angestellten",
+        "den Angestellten / Angestellten"
+       ]
+      },
+      {
+       "rowLabel": "Genitiv",
+       "cells": [
+        "des Angestellten / eines Angestellten",
+        "der Angestellten / einer Angestellten",
+        "der Angestellten / Angestellter"
+       ]
+      }
+     ]
+    }
+   ],
+   "relatedSlugs": [
+    "nominalisierung",
+    "n-deklination"
+   ],
+   "exerciseSlugs": [
+    "ex-adjnom-1",
+    "ex-adjnom-2",
+    "ex-adjnom-3",
+    "ex-adjnom-4"
+   ]
   }
  ],
  "exercises": [
@@ -1190,6 +1351,89 @@
    "explanationAfterAnswerDE": "'beim' + nominalisierter Infinitiv drückt Gleichzeitigkeit aus.",
    "explanationAfterAnswerFA": "«beim» + مصدر اسم‌شده هم‌زمانی را بیان می‌کند.",
    "explanationAfterAnswerEN": "'beim' + nominalized infinitive expresses simultaneity."
+  },
+  {
+   "id": "ex-adjnom-1",
+   "lessonSlug": "adjektive-als-nomen",
+   "type": "multipleChoice",
+   "promptDE": "Mein Vater ist ___ bei der Post.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Angestellte",
+     "Angestellter",
+     "Angestellten",
+     "Angestellt"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Ohne Artikel, ein Mann: -er (Angestellter).",
+   "explanationAfterAnswerFA": "بدون آرتیکل، یک مرد: -er (Angestellter).",
+   "explanationAfterAnswerEN": "No article, one man: -er (Angestellter)."
+  },
+  {
+   "id": "ex-adjnom-2",
+   "lessonSlug": "adjektive-als-nomen",
+   "type": "fillBlank",
+   "promptDE": "Ergänze die richtige Form.",
+   "promptFA": "شکل درست را کامل کن.",
+   "promptEN": "Complete with the correct form.",
+   "payload": {
+    "type": "fillBlank",
+    "sentenceWithBlank": "Ich habe gestern einen ___ (Bekannte) im Bus getroffen.",
+    "correctAnswer": "Bekannten",
+    "alternatives": [
+     "Bekannte",
+     "Bekannter"
+    ]
+   },
+   "explanationAfterAnswerDE": "Akkusativ maskulin nach einen: -en.",
+   "explanationAfterAnswerFA": "Akkusativ مذکر بعد از einen: -en.",
+   "explanationAfterAnswerEN": "Accusative masculine after einen: -en."
+  },
+  {
+   "id": "ex-adjnom-3",
+   "lessonSlug": "adjektive-als-nomen",
+   "type": "multipleChoice",
+   "promptDE": "Die ___ dürfen hier nicht rauchen.",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Erwachsene",
+     "Erwachsener",
+     "Erwachsenen",
+     "Erwachsenes"
+    ],
+    "correctIndex": 2
+   },
+   "explanationAfterAnswerDE": "Plural nach die: -en (die Erwachsenen).",
+   "explanationAfterAnswerFA": "جمع بعد از die: -en (die Erwachsenen).",
+   "explanationAfterAnswerEN": "Plural after die: -en (die Erwachsenen)."
+  },
+  {
+   "id": "ex-adjnom-4",
+   "lessonSlug": "adjektive-als-nomen",
+   "type": "multipleChoice",
+   "promptDE": "Hast du heute etwas ___ gelernt?",
+   "promptFA": "کدام گزینه درست است؟",
+   "promptEN": "Choose the correct option.",
+   "payload": {
+    "type": "multipleChoice",
+    "options": [
+     "Neue",
+     "Neues",
+     "Neuen",
+     "neues"
+    ],
+    "correctIndex": 1
+   },
+   "explanationAfterAnswerDE": "Nach etwas: großes Nomen mit -es (etwas Neues).",
+   "explanationAfterAnswerFA": "بعد از etwas: اسم با حرف بزرگ و -es (etwas Neues).",
+   "explanationAfterAnswerEN": "After etwas: capitalised noun with -es (etwas Neues)."
   }
  ]
 }
