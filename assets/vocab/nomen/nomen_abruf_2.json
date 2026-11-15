@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "nomen_abruf_2",
+  "wort": "der Abruf",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "درخواست تحویل کالا",
+      "فراخوان سفارش"
+    ],
+    "en": [
+      "call-off (of goods)",
+      "delivery request"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Logistik"
+  ],
+  "ipa": "ˈapˌʁuːf",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Ware liegt im Lager zum Abruf bereit.",
+      "uebersetzung": {
+        "fa": "کالا در انبار برای درخواست تحویل آماده است.",
+        "en": "The goods are ready in the warehouse to be called off."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Kunde kann die bestellte Menge nach Bedarf im Abruf bestellen.",
+      "uebersetzung": {
+        "fa": "مشتری می‌تواند مقدار سفارش‌داده‌شده را بر حسب نیاز به‌صورت فراخوان درخواست کند.",
+        "en": "The customer can call off the ordered quantity as needed."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Lieferabruf",
+      "uebersetzung": {
+        "fa": "فراخوان تحویل",
+        "en": "delivery call-off"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "auf Abruf bereitstehen",
+        "beispiel": "Die Ersatzteile stehen auf Abruf bereit.",
+        "uebersetzung": {
+          "fa": "قطعات یدکی برای فراخوان آماده‌اند.",
+          "en": "The spare parts are ready on call."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Abruf",
+    "woerter": [
+      {
+        "wort": "die Bestellung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش",
+          "en": "order"
+        },
+        "id_ref": "nomen_bestellung"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا، جنس",
+          "en": "goods, merchandise"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد، پیمان",
+          "en": "contract, treaty"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "die Zahlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرداخت",
+          "en": "payment"
+        },
+        "id_ref": "nomen_zahlung"
+      },
+      {
+        "wort": "die Bereitschaft",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آمادگی، تمایل",
+          "en": "willingness, readiness"
+        },
+        "id_ref": "nomen_bereitschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

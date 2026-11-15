@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "nomen_abrechnung",
+  "wort": "die Abrechnung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "صورت‌حساب",
+      "تسویه‌حساب (مالی)"
+    ],
+    "en": [
+      "statement of account",
+      "settlement"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Finanzen",
+    "Arbeit"
+  ],
+  "ipa": "ˈapˌʁɛçnʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich warte auf die Abrechnung vom Monat.",
+      "uebersetzung": {
+        "fa": "منتظر صورت‌حساب ماه هستم.",
+        "en": "I am waiting for the statement for the month."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Abrechnung der Nebenkosten kommt jedes Jahr im Frühling.",
+      "uebersetzung": {
+        "fa": "صورت‌حساب هزینه‌های جانبی هر سال در بهار می‌آید.",
+        "en": "The service-charge statement comes every year in spring."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Rechnung",
+      "uebersetzung": {
+        "fa": "صورت‌حساب",
+        "en": "bill"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Nebenkostenabrechnung",
+      "uebersetzung": {
+        "fa": "صورت‌حساب هزینه‌های جانبی",
+        "en": "service-charge statement"
+      }
+    },
+    {
+      "wort": "die Monatsabrechnung",
+      "uebersetzung": {
+        "fa": "صورت‌حساب ماهانه",
+        "en": "monthly statement"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از abrechnen (حساب کردن)",
+    "en": "from abrechnen (to settle up)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Abrechnungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "die Abrechnung machen",
+        "beispiel": "Am Monatsende macht sie die Abrechnung.",
+        "uebersetzung": {
+          "fa": "آخر ماه او حساب‌ها را تسویه می‌کند.",
+          "en": "At the end of the month she does the accounts."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Abrechnung",
+    "woerter": [
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی، حساب",
+          "en": "account, bank account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "die Summe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مجموع، مبلغ",
+          "en": "sum, amount"
+        },
+        "id_ref": "nomen_summe"
+      },
+      {
+        "wort": "die Zahlung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پرداخت",
+          "en": "payment"
+        },
+        "id_ref": "nomen_zahlung"
+      },
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری، بخش حسابداری",
+          "en": "accounting, bookkeeping"
+        },
+        "id_ref": "nomen_buchhaltung"
+      },
+      {
+        "wort": "die Bilanz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ترازنامه، بیلان",
+          "en": "balance sheet"
+        },
+        "id_ref": "nomen_bilanz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

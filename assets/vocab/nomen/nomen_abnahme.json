@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "nomen_abnahme",
+  "wort": "die Abnahme",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کاهش",
+      "کم شدن"
+    ],
+    "en": [
+      "decrease",
+      "decline"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Gesundheit"
+  ],
+  "ipa": "ˈapˌnaːmə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Herbst gibt es eine Abnahme der Tageslänge.",
+      "uebersetzung": {
+        "fa": "در پاییز طول روز کم می‌شود.",
+        "en": "In autumn the length of the day decreases."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die Abnahme der Geburten bereitet dem Land Sorgen.",
+      "uebersetzung": {
+        "fa": "کاهش تولد‌ها کشور را نگران کرده است.",
+        "en": "The decrease in births worries the country."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Rückgang",
+      "uebersetzung": {
+        "fa": "کاهش",
+        "en": "decline"
+      }
+    },
+    {
+      "wort": "die Verringerung",
+      "uebersetzung": {
+        "fa": "کم‌شدن",
+        "en": "reduction"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Zunahme",
+      "uebersetzung": {
+        "fa": "افزایش",
+        "en": "increase"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Gewichtsabnahme",
+      "uebersetzung": {
+        "fa": "کاهش وزن",
+        "en": "weight loss"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از abnehmen (کم شدن)",
+    "en": "from abnehmen (to decrease)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Abnahmen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Abnahme + an + Dat",
+        "beispiel": "Es gibt eine Abnahme an Insekten.",
+        "uebersetzung": {
+          "fa": "کاهش حشرات دیده می‌شود.",
+          "en": "There is a decrease in insects."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Abnahme",
+    "woerter": [
+      {
+        "wort": "das Wachstum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رشد",
+          "en": "growth"
+        },
+        "id_ref": "nomen_wachstum"
+      },
+      {
+        "wort": "die Krise",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بحران",
+          "en": "crisis"
+        },
+        "id_ref": "nomen_krise"
+      },
+      {
+        "wort": "die Verringerung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاهش",
+          "en": "reduction, decrease"
+        },
+        "id_ref": "nomen_verringerung"
+      },
+      {
+        "wort": "die Zunahme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزایش",
+          "en": "increase, growth"
+        },
+        "id_ref": "nomen_zunahme"
+      },
+      {
+        "wort": "der Niedergang",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "زوال، افول",
+          "en": "decline, downfall"
+        },
+        "id_ref": "nomen_niedergang"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
