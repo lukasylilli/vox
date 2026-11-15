@@ -149,6 +149,9 @@ final vokabKarteProvider =
     FutureProvider.family<Map<String, dynamic>?, String>((ref, id) async {
   final eintrag = (await ref.watch(vokabIndexByIdProvider.future))[id];
   if (eintrag == null) return null;
+  // Übersichtskarte «الف» (Vier Fälle): keine Datei — der Index-Eintrag IST
+  // die Karte (vokab_index.dart → vokabUebersichtEintrag).
+  if (vokabIstUebersicht(eintrag)) return eintrag;
   // V.5: nicht mehr aus dem Asset-Paket, sondern neben der App
   // (vokab_karten_lader.dart).
   final text = await vokabKarteTextLaden(eintrag['wortart'] as String, id);

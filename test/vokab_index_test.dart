@@ -85,6 +85,70 @@ void main() {
     });
   });
 
+  group('Übersichtskarte «الف» (Vier Fälle, Lukas 2026-11-15)', () {
+    Map<String, dynamic> mit(Map<String, dynamic> k, String niveau,
+            List<String> fa, {String? ipa}) =>
+        {
+          ...k,
+          'niveau': niveau,
+          'uebersetzung': {'fa': fa, 'en': fa},
+          'ipa': ?ipa,
+        };
+    Map<String, Map<String, dynamic>> familie() => {
+          'assets/vocab/nomen/nomen_bank.json': mit(
+              karte('nomen', 'nomen_bank', 'die Bank',
+                  details: {'genus': 'die'}),
+              'A2',
+              ['نیمکت'],
+              ipa: 'baŋk'),
+          'assets/vocab/nomen/nomen_bank_2.json': mit(
+              karte('nomen', 'nomen_bank_2', 'die Bank',
+                  details: {'genus': 'die'}),
+              'A1',
+              ['بانک']),
+          'assets/vocab/nomen/nomen_tisch.json':
+              karte('nomen', 'nomen_tisch', 'der Tisch'),
+        };
+
+    test('jede Familie bekommt genau eine Übersichtskarte, ohne Datei', () {
+      final e = vokabIndexLesen(vokabIndexBauen(familie()));
+      final ue = e.where(vokabIstUebersicht).toList();
+      expect(ue, hasLength(1));
+      final a = ue.single;
+      expect(a['id'], 'nomen_bank__alle');
+      expect(a['wort'], 'Bank');
+      expect(a['bedeutungen_ids'], ['nomen_bank', 'nomen_bank_2']);
+      expect(a['ipa'], 'baŋk');
+      expect(a['niveau'], 'A1', reason: 'leichtestes Niveau der Bedeutungen');
+      expect((a['uebersetzung'] as Map)['fa'], ['نیمکت', 'بانک']);
+      // Keine Beispiele, kein Wortnetz (Entwurf Lukas).
+      expect(a.containsKey('beispiele'), isFalse);
+      expect(a.containsKey('wortnetz'), isFalse);
+    });
+
+    test('Bedeutungskarten zeigen auf ihre Übersicht, andere nicht', () {
+      final e = {
+        for (final k in vokabIndexLesen(vokabIndexBauen(familie())))
+          k['id'] as String: k
+      };
+      expect(e['nomen_bank']!['uebersicht_id'], 'nomen_bank__alle');
+      expect(e['nomen_bank_2']!['uebersicht_id'], 'nomen_bank__alle');
+      expect(e['nomen_tisch']!.containsKey('uebersicht_id'), isFalse);
+      expect(e['nomen_bank']!['homograph_nr'], 1);
+      expect(e['nomen_bank_2']!['homograph_nr'], 2);
+    });
+
+    test('jede id aus bedeutungen_ids gibt es als Karte', () {
+      final e = vokabIndexLesen(vokabIndexBauen(echteKarten()));
+      final ids = {for (final k in e) k['id']};
+      for (final a in e.where(vokabIstUebersicht)) {
+        for (final id in a['bedeutungen_ids'] as List) {
+          expect(ids, contains(id), reason: '${a['id']} → $id fehlt');
+        }
+      }
+    });
+  });
+
   group('Echte Karten (assets/vocab/)', () {
     test('Symbol und Farbe aus dem Index = aus der vollen Karte', () {
       final karten = echteKarten();

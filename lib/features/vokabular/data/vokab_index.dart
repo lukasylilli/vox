@@ -21,11 +21,12 @@
 // Leitner-Stand und keine Listen — die liegen in drift (فاز S).
 import 'dart:convert';
 
+import '../../../core/wort/wort_form.dart' show ohneNomenArtikel;
 import 'vokab_schema.dart' show vokabBedeutungen, vokabId, vokabWortarten;
 
 /// Erhöhen, sobald sich die Form des Index ändert. Die App liest nur genau
 /// diese Fassung — Index und App entstehen im selben Bau, passen also immer.
-const int vokabIndexVersion = 4; // 2: Einordnung (F.5) · 3: homograph_nr · 4: bedeutungen (L.4)
+const int vokabIndexVersion = 5; // 2: Einordnung (F.5) · 3: homograph_nr · 4: bedeutungen (L.4) · 5: Übersichtskarten (Vier Fälle)
 
 /// Asset-Pfad des Index (in pubspec.yaml eingetragen, in .gitignore ausgenommen).
 const String vokabIndexPfad = 'assets/vocab_index.json';
@@ -120,6 +121,7 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
   final fehler = <String>[];
   final gesehen = <String, String>{};
   final eintraege = <Map<String, dynamic>>[];
+  final volleKarten = <String, Map<String, dynamic>>{};
 
   final pfade = kartenNachPfad.keys.toList()..sort();
   for (final pfad in pfade) {
@@ -151,17 +153,42 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
     }
     gesehen[id] = pfad;
     eintraege.add(vokabIndexEintrag(karte));
+    volleKarten[id] = karte;
   }
   if (fehler.isNotEmpty) throw VokabIndexFehler(fehler);
 
   // Homographen (Prompt-Regel 19, Lukas 2026-10-19): Karten derselben Familie
   // tragen ihre Nummer (1 = Hauptbedeutung) — die Liste zeigt sie wie der
   // Duden hochgestellt (See¹ / See²), ohne die volle Karte zu laden.
-  for (final ids in vokabHomographFamilien(eintraege).values) {
-    for (var i = 0; i < ids.length; i++) {
-      eintraege.firstWhere((e) => e['id'] == ids[i])['homograph_nr'] = i + 1;
+  //
+  // Übersichtskarte «الف» (Entwurf Lukas 2026-11-15, Fall 1–3): jede Familie
+  // bekommt zusätzlich EINE Karte, die alle Bedeutungen nebeneinander zeigt.
+  // Sie entsteht nur hier aus den Bedeutungskarten — keine eigene Datei, nichts
+  // steht doppelt. Jede Bedeutungskarte zeigt über `uebersicht_id` zurück.
+  final ueberblicke = <Map<String, dynamic>>[];
+  for (final familie in vokabHomographFamilien(eintraege).entries) {
+    final ids = familie.value;
+    final glieder = [
+      for (final id in ids) eintraege.firstWhere((e) => e['id'] == id)
+    ];
+    final uebersichtId = vokabUebersichtId(familie.key);
+    if (gesehen.containsKey(uebersichtId)) {
+      fehler.add('id "$uebersichtId" ist für die Übersichtskarte reserviert '
+          '(${gesehen[uebersichtId]})');
+      continue;
     }
+    for (var i = 0; i < glieder.length; i++) {
+      glieder[i]['homograph_nr'] = i + 1;
+      glieder[i]['uebersicht_id'] = uebersichtId;
+    }
+    ueberblicke.add(vokabUebersichtEintrag(
+      uebersichtId,
+      glieder,
+      ipa: volleKarten[ids.first]?['ipa'] as String?,
+    ));
   }
+  if (fehler.isNotEmpty) throw VokabIndexFehler(fehler);
+  eintraege.addAll(ueberblicke);
 
   // Feste Reihenfolge: nach Wort (klein), bei Gleichstand nach id — derselbe
   // Bestand ergibt immer denselben Text.
@@ -176,6 +203,53 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
     'anzahl': eintraege.length,
     'karten': eintraege,
   });
+}
+
+/// Kennung der Übersichtskarte «الف» einer Familie. Doppelter Unterstrich:
+/// [vokabId] erzeugt nie «__», eine echte Karte kann die id also nicht haben.
+const String vokabUebersichtEndung = '__alle';
+
+/// id der Übersichtskarte zur Grund-id (`nomen_bank` → `nomen_bank__alle`).
+String vokabUebersichtId(String grundId) => '$grundId$vokabUebersichtEndung';
+
+/// Ist dieser Eintrag eine Übersichtskarte «الف» (keine Datei, nur Index)?
+bool vokabIstUebersicht(Map<String, dynamic>? eintrag) =>
+    eintrag != null && eintrag['uebersicht'] == true;
+
+const _niveauReihe = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+/// Übersichtskarte «الف» aus den Bedeutungskarten einer Familie (Reihenfolge
+/// = Bedeutungsnummer). Enthält nur, was Lukas für «الف» festgelegt hat:
+/// Wort, Aussprache, je Bedeutung id (Artikel, Farbe, Übersetzung und Niveau
+/// liest die App aus dem Eintrag dieser id) — keine Beispiele, kein Wortnetz.
+/// `uebersetzung` = alle Bedeutungen zusammen, damit die Suche die Karte
+/// findet; `niveau` = das leichteste, damit sie in jedem passenden Filter
+/// erscheint, in dem auch eine ihrer Bedeutungen erscheint.
+Map<String, dynamic> vokabUebersichtEintrag(
+  String id,
+  List<Map<String, dynamic>> glieder, {
+  String? ipa,
+}) {
+  final niveaus = [
+    for (final g in glieder)
+      if (_niveauReihe.contains(g['niveau'])) g['niveau'] as String
+  ]..sort((a, b) => _niveauReihe.indexOf(a) - _niveauReihe.indexOf(b));
+  return {
+    'id': id,
+    'wort': ohneNomenArtikel(glieder.first['wort'] as String),
+    'wortart': glieder.first['wortart'],
+    'uebersicht': true,
+    'bedeutungen_ids': [for (final g in glieder) g['id']],
+    if (ipa != null && ipa.isNotEmpty) 'ipa': ipa,
+    if (niveaus.isNotEmpty) 'niveau': niveaus.first,
+    'uebersetzung': {
+      for (final sprache in const ['fa', 'en'])
+        sprache: [
+          for (final g in glieder)
+            ...(((g['uebersetzung'] as Map?)?[sprache] as List?) ?? const [])
+        ],
+    },
+  };
 }
 
 /// Grund-id einer Karte OHNE Homograph-Kennung: `nomen_see` für «der See»
