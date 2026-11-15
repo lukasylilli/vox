@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "nomen_charge_2",
+  "wort": "die Charge",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بچ",
+      "سری تولید",
+      "شماره‌ی ساخت"
+    ],
+    "en": [
+      "batch",
+      "lot"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Produktion"
+  ],
+  "ipa": "ˈʃaʁʒə",
+  "anmerkung": "In der Pflege wichtig: Bei Impfungen und Blutprodukten wird die Chargennummer dokumentiert.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Charge ist fehlerhaft.",
+      "uebersetzung": {
+        "fa": "این بچ ایراد دارد.",
+        "en": "This batch is faulty."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Firma ruft eine Charge des Medikaments zurück, weil darin Verunreinigungen gefunden wurden.",
+      "uebersetzung": {
+        "fa": "شرکت یک بچ از این دارو را فرا می‌خواند، چون در آن ناخالصی پیدا شده است.",
+        "en": "The company is recalling a batch of the drug because impurities were found in it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Serie",
+      "uebersetzung": {
+        "fa": "سری",
+        "en": "series"
+      }
+    },
+    {
+      "wort": "das Los",
+      "uebersetzung": {
+        "fa": "سری تولید",
+        "en": "lot"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Chargennummer",
+      "uebersetzung": {
+        "fa": "شماره‌ی بچ",
+        "en": "batch number"
+      }
+    },
+    {
+      "wort": "die Chargenbezeichnung",
+      "uebersetzung": {
+        "fa": "کد بچ",
+        "en": "batch designation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از فرانسوی charge (بار)",
+    "en": "from French charge (load)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Chargen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Charge",
+    "woerter": [
+      {
+        "wort": "die Apotheke",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "داروخانه",
+          "en": "pharmacy"
+        },
+        "id_ref": "nomen_apotheke"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "der Apotheker",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "داروساز",
+          "en": "pharmacist"
+        },
+        "id_ref": "nomen_apotheker"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "die Produktionsanlage",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تأسیسات تولید",
+          "en": "production plant"
+        },
+        "id_ref": "nomen_produktionsanlage"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

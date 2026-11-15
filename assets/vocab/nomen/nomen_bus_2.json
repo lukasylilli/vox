@@ -1,0 +1,125 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bus_2",
+  "wort": "der Bus",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "باس (گذرگاه داده در رایانه)"
+    ],
+    "en": [
+      "bus (data line)"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "IT"
+  ],
+  "ipa": "bʊs",
+  "anmerkung": "Fachsprache (Informatik, Elektronik).",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bus verbindet die Teile im Computer.",
+      "uebersetzung": {
+        "fa": "باس قطعه‌های رایانه را به هم وصل می‌کند.",
+        "en": "The bus connects the parts in the computer."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Über den Bus tauschen der Prozessor und der Speicher ständig Daten aus.",
+      "uebersetzung": {
+        "fa": "پردازنده و حافظه از طریق باس دائماً داده رد و بدل می‌کنند.",
+        "en": "The processor and memory constantly exchange data via the bus."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Bussystem",
+      "uebersetzung": {
+        "fa": "سیستم باس",
+        "en": "bus system"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از انگلیسی bus",
+    "en": "from English bus"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Busse",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Bus",
+    "woerter": [
+      {
+        "wort": "der Bildschirm",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "صفحه‌ی نمایش",
+          "en": "screen"
+        },
+        "id_ref": "nomen_bildschirm"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "der Datenaustausch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبادل داده",
+          "en": "data exchange"
+        },
+        "id_ref": "nomen_datenaustausch"
+      },
+      {
+        "wort": "das Datennetz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شبکه‌ی داده",
+          "en": "data network"
+        },
+        "id_ref": "nomen_datennetz"
+      },
+      {
+        "wort": "die Datenverarbeitung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "پردازش داده",
+          "en": "data processing"
+        },
+        "id_ref": "nomen_datenverarbeitung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
