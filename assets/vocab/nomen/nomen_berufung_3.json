@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_berufung_3",
+  "wort": "die Berufung",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "استناد",
+      "ارجاع"
+    ],
+    "en": [
+      "reference (to)",
+      "invoking"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medien",
+    "Recht"
+  ],
+  "ipa": "bəˈʁuːfʊŋ",
+  "anmerkung": "Fast nur in der Verbindung «unter Berufung auf».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Zeitung schreibt das unter Berufung auf die Polizei.",
+      "uebersetzung": {
+        "fa": "روزنامه این را با استناد به پلیس می‌نویسد.",
+        "en": "The newspaper writes this citing the police."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Unter Berufung auf den Datenschutz weigerte sich die Firma, die Namen zu nennen, obwohl das Gericht es verlangte.",
+      "uebersetzung": {
+        "fa": "شرکت با استناد به حفاظت از داده‌ها از گفتن نام‌ها خودداری کرد، با این‌که دادگاه آن را خواسته بود.",
+        "en": "Citing data protection, the company refused to give the names although the court demanded it."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Bezugnahme",
+      "uebersetzung": {
+        "fa": "ارجاع، اشاره",
+        "en": "reference"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "sich berufen auf (استناد کردن به) + -ung",
+    "en": "sich berufen auf (to refer to) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "unter Berufung auf + Akk",
+        "beispiel": "Unter Berufung auf Augenzeugen meldet der Sender drei Verletzte.",
+        "uebersetzung": {
+          "fa": "این شبکه با استناد به شاهدان عینی از سه مجروح خبر می‌دهد.",
+          "en": "Citing eyewitnesses, the station reports three injured."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "rufen",
+    "woerter": [
+      {
+        "wort": "der Hinweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشاره، نکته، تذکر، سرنخ",
+          "en": "hint, note, tip, clue"
+        },
+        "id_ref": "nomen_hinweis"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "zitieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل قول کردن",
+          "en": "to quote"
+        },
+        "id_ref": "verb_zitieren"
+      },
+      {
+        "wort": "das Zitat",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نقل‌قول",
+          "en": "quotation"
+        },
+        "id_ref": "nomen_zitat"
+      },
+      {
+        "wort": "das Gutachten",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گزارش کارشناسی",
+          "en": "expert opinion"
+        },
+        "id_ref": "nomen_gutachten"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

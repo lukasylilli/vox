@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bestand_2",
+  "wort": "der Bestand",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "موجودی",
+      "ذخیره",
+      "مجموعه (موجود)"
+    ],
+    "en": [
+      "stock",
+      "inventory",
+      "holdings"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Arbeit"
+  ],
+  "ipa": "bəˈʃtant",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bestand im Lager ist klein.",
+      "uebersetzung": {
+        "fa": "موجودی انبار کم است.",
+        "en": "The stock in the warehouse is low."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor wir neue Ware bestellen, prüfen wir den Bestand, damit nichts doppelt gekauft wird.",
+      "uebersetzung": {
+        "fa": "قبل از این‌که کالای تازه سفارش بدهیم، موجودی را بررسی می‌کنیم تا چیزی دوبار خریده نشود.",
+        "en": "Before we order new goods, we check the stock so that nothing is bought twice."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Vorrat",
+      "uebersetzung": {
+        "fa": "ذخیره",
+        "en": "supply"
+      }
+    },
+    {
+      "wort": "das Inventar",
+      "uebersetzung": {
+        "fa": "موجودی، اموال",
+        "en": "inventory"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Lagerbestand",
+      "uebersetzung": {
+        "fa": "موجودی انبار",
+        "en": "warehouse stock"
+      }
+    },
+    {
+      "wort": "die Bestandsaufnahme",
+      "uebersetzung": {
+        "fa": "موجودی‌گیری، ارزیابی وضع موجود",
+        "en": "stocktaking"
+      }
+    },
+    {
+      "wort": "der Tierbestand",
+      "uebersetzung": {
+        "fa": "جمعیت حیوانات",
+        "en": "animal population"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "bestehen (موجود بودن)",
+    "en": "bestehen (to exist)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bestände",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Bestand an + Dat",
+        "beispiel": "Der Bestand an Medikamenten wird jede Woche kontrolliert.",
+        "uebersetzung": {
+          "fa": "موجودی داروها هر هفته کنترل می‌شود.",
+          "en": "The stock of medicines is checked every week."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "stehen",
+    "woerter": [
+      {
+        "wort": "der Vorrat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ذخیره، آذوقه",
+          "en": "supply"
+        },
+        "id_ref": "nomen_vorrat"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "lagern",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انبار کردن، نگه‌داری کردن",
+          "en": "to store"
+        },
+        "id_ref": "verb_lagern"
+      },
+      {
+        "wort": "der Lagerbestand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجودی انبار",
+          "en": "stock"
+        },
+        "id_ref": "nomen_lagerbestand"
+      },
+      {
+        "wort": "die Bestandsaufnahme",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ارزیابی وضع موجود",
+          "en": "stocktaking"
+        },
+        "id_ref": "nomen_bestandsaufnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

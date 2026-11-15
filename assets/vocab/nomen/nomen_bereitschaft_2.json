@@ -1,0 +1,169 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bereitschaft_2",
+  "wort": "die Bereitschaft",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کشیک",
+      "آماده‌به‌کار",
+      "آنکال"
+    ],
+    "en": [
+      "on-call duty",
+      "standby"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Medizin"
+  ],
+  "ipa": "bəˈʁaɪ̯tʃaft",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Ärztin hat heute Nacht Bereitschaft.",
+      "uebersetzung": {
+        "fa": "خانم دکتر امشب کشیک است.",
+        "en": "The doctor is on call tonight."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Weil er am Wochenende Bereitschaft hat, darf er nicht weit von der Klinik wegfahren.",
+      "uebersetzung": {
+        "fa": "چون آخر هفته کشیک است، اجازه ندارد از بیمارستان خیلی دور شود.",
+        "en": "Because he is on call at the weekend, he must not travel far from the hospital."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Bereitschaftsdienst",
+      "uebersetzung": {
+        "fa": "کشیک، خدمت آماده‌به‌کار",
+        "en": "on-call duty"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Rufbereitschaft",
+      "uebersetzung": {
+        "fa": "آنکال (از خانه)",
+        "en": "on-call availability"
+      }
+    },
+    {
+      "wort": "der Bereitschaftsdienst",
+      "uebersetzung": {
+        "fa": "کشیک",
+        "en": "on-call duty"
+      }
+    },
+    {
+      "wort": "der Bereitschaftsarzt",
+      "uebersetzung": {
+        "fa": "پزشک کشیک",
+        "en": "doctor on call"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "bereit (آماده) + -schaft",
+    "en": "bereit (ready) + -schaft"
+  },
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Bereitschaft haben",
+        "beispiel": "Wer hat an Weihnachten Bereitschaft?",
+        "uebersetzung": {
+          "fa": "چه کسی در کریسمس کشیک است؟",
+          "en": "Who is on call at Christmas?"
+        }
+      },
+      {
+        "verbindung": "in Bereitschaft sein",
+        "beispiel": "Die Feuerwehr ist rund um die Uhr in Bereitschaft.",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی شبانه‌روز آماده‌به‌کار است.",
+          "en": "The fire brigade is on standby around the clock."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "bereit",
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "das Wochenende",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آخر هفته",
+          "en": "weekend"
+        },
+        "id_ref": "nomen_wochenende"
+      },
+      {
+        "wort": "der Notfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "وضعیت اضطراری",
+          "en": "emergency"
+        },
+        "id_ref": "nomen_notfall"
+      },
+      {
+        "wort": "der Notdienst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشیک اضطراری",
+          "en": "emergency service"
+        },
+        "id_ref": "nomen_notdienst"
+      },
+      {
+        "wort": "der Bereitschaftsdienst",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آماده‌باش",
+          "en": "on-call duty"
+        },
+        "id_ref": "nomen_bereitschaftsdienst"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

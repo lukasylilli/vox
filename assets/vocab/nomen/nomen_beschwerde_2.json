@@ -1,0 +1,167 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beschwerde_2",
+  "wort": "die Beschwerde",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ناراحتی جسمی",
+      "درد",
+      "عارضه"
+    ],
+    "en": [
+      "ailment",
+      "complaint (medical)",
+      "discomfort"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesundheit"
+  ],
+  "ipa": "bəˈʃveːɐ̯də",
+  "anmerkung": "In dieser Bedeutung fast immer im Plural: die Beschwerden.",
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Welche Beschwerden haben Sie?",
+      "uebersetzung": {
+        "fa": "چه ناراحتی‌هایی دارید؟",
+        "en": "What symptoms do you have?"
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Beschwerden nach drei Tagen nicht besser werden, sollten Sie zum Arzt gehen.",
+      "uebersetzung": {
+        "fa": "اگر ناراحتی‌ها بعد از سه روز بهتر نشد، باید پیش پزشک بروید.",
+        "en": "If the symptoms do not improve after three days, you should see a doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Leiden",
+      "uebersetzung": {
+        "fa": "بیماری، رنج",
+        "en": "ailment"
+      }
+    },
+    {
+      "wort": "der Schmerz",
+      "uebersetzung": {
+        "fa": "درد",
+        "en": "pain"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Magenbeschwerden",
+      "uebersetzung": {
+        "fa": "ناراحتی معده",
+        "en": "stomach trouble"
+      }
+    },
+    {
+      "wort": "die Rückenbeschwerden",
+      "uebersetzung": {
+        "fa": "ناراحتی کمر",
+        "en": "back trouble"
+      }
+    },
+    {
+      "wort": "die Atembeschwerden",
+      "uebersetzung": {
+        "fa": "مشکل تنفسی",
+        "en": "breathing difficulties"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "beschweren (سنگین کردن، آزردن)",
+    "en": "beschweren (to weigh down, to trouble)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Beschwerden",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Beschwerden haben",
+        "beispiel": "Der Patient hat seit gestern Beschwerden beim Atmen.",
+        "uebersetzung": {
+          "fa": "بیمار از دیروز هنگام نفس کشیدن ناراحتی دارد.",
+          "en": "The patient has had trouble breathing since yesterday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "schwer",
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "der Kopfschmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سردرد",
+          "en": "headache"
+        },
+        "id_ref": "nomen_kopfschmerz"
+      },
+      {
+        "wort": "der Bauchschmerz",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دل‌درد",
+          "en": "stomach ache"
+        },
+        "id_ref": "nomen_bauchschmerz"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "das Symptom",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علامت (بیماری)",
+          "en": "symptom"
+        },
+        "id_ref": "nomen_symptom"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

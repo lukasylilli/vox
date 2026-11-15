@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "nomen_berufung",
+  "wort": "die Berufung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "انتصاب",
+      "دعوت به کرسی استادی"
+    ],
+    "en": [
+      "appointment",
+      "call (to a chair)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Universität"
+  ],
+  "ipa": "bəˈʁuːfʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Sie freut sich über die Berufung nach Graz.",
+      "uebersetzung": {
+        "fa": "او از انتصابش در گراتس خوشحال است.",
+        "en": "She is happy about the appointment in Graz."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seit seiner Berufung an die Universität Wien hat er kaum noch Zeit für eigene Forschung.",
+      "uebersetzung": {
+        "fa": "از زمان انتصابش در دانشگاه وین، دیگر تقریباً وقتی برای پژوهش خودش ندارد.",
+        "en": "Since his appointment to the University of Vienna he has hardly any time left for his own research."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Ernennung",
+      "uebersetzung": {
+        "fa": "انتصاب",
+        "en": "appointment"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Abberufung",
+      "uebersetzung": {
+        "fa": "برکناری، فراخوانی",
+        "en": "recall, dismissal"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Berufungsverfahren",
+      "uebersetzung": {
+        "fa": "روند انتصاب استاد",
+        "en": "appointment procedure"
+      }
+    },
+    {
+      "wort": "die Berufungskommission",
+      "uebersetzung": {
+        "fa": "کمیسیون انتصاب",
+        "en": "appointments committee"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "berufen (منصوب کردن) + -ung",
+    "en": "berufen (to appoint) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Berufungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Berufung an + Akk",
+        "beispiel": "Die Berufung an die Hochschule kam überraschend.",
+        "uebersetzung": {
+          "fa": "انتصاب در دانشگاه غیرمنتظره بود.",
+          "en": "The appointment to the university came as a surprise."
+        }
+      },
+      {
+        "muster": "die Berufung in + Akk",
+        "beispiel": "Seine Berufung in den Vorstand wurde gestern bekannt.",
+        "uebersetzung": {
+          "fa": "انتصاب او به هیئت مدیره دیروز اعلام شد.",
+          "en": "His appointment to the board was announced yesterday."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "rufen",
+    "woerter": [
+      {
+        "wort": "die Hochschule",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دانشگاه، مؤسسه‌ی آموزش عالی",
+          "en": "university, college of higher education"
+        },
+        "id_ref": "nomen_hochschule"
+      },
+      {
+        "wort": "der Kandidat",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نامزد، داوطلب",
+          "en": "candidate"
+        },
+        "id_ref": "nomen_kandidat"
+      },
+      {
+        "wort": "die Ernennung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انتصاب",
+          "en": "appointment"
+        },
+        "id_ref": "nomen_ernennung"
+      },
+      {
+        "wort": "der Lehrstuhl",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کرسی استادی",
+          "en": "chair"
+        },
+        "id_ref": "nomen_lehrstuhl"
+      },
+      {
+        "wort": "die Professur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کرسی استادی",
+          "en": "professorship"
+        },
+        "id_ref": "nomen_professur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

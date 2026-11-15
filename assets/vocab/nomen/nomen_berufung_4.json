@@ -1,0 +1,173 @@
+{
+  "schema": "3.0",
+  "id": "nomen_berufung_4",
+  "wort": "die Berufung",
+  "homograph": "4",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تجدیدنظر",
+      "تجدیدنظرخواهی",
+      "استیناف"
+    ],
+    "en": [
+      "appeal"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "bəˈʁuːfʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Anwalt geht in Berufung.",
+      "uebersetzung": {
+        "fa": "وکیل تجدیدنظر می‌خواهد.",
+        "en": "The lawyer is appealing."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Angeklagte hat Berufung eingelegt, weil sie das Urteil für viel zu hart hält.",
+      "uebersetzung": {
+        "fa": "متهم تجدیدنظر خواسته است، چون حکم را خیلی سنگین می‌داند.",
+        "en": "The defendant has lodged an appeal because she considers the sentence far too harsh."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Rechtsmittel",
+      "uebersetzung": {
+        "fa": "راه اعتراض قانونی",
+        "en": "legal remedy"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Berufungsgericht",
+      "uebersetzung": {
+        "fa": "دادگاه تجدیدنظر",
+        "en": "court of appeal"
+      }
+    },
+    {
+      "wort": "das Berufungsverfahren",
+      "uebersetzung": {
+        "fa": "دادرسی تجدیدنظر",
+        "en": "appeal proceedings"
+      }
+    },
+    {
+      "wort": "die Berufungsinstanz",
+      "uebersetzung": {
+        "fa": "مرجع تجدیدنظر",
+        "en": "appellate instance"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "berufen (فراخواندن) + -ung",
+    "en": "berufen (to call) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Berufungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Berufung gegen + Akk",
+        "beispiel": "Die Berufung gegen das Urteil wurde abgelehnt.",
+        "uebersetzung": {
+          "fa": "تجدیدنظرخواهی از حکم رد شد.",
+          "en": "The appeal against the judgment was rejected."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Berufung einlegen",
+        "beispiel": "Sie können innerhalb von vier Wochen Berufung einlegen.",
+        "uebersetzung": {
+          "fa": "شما می‌توانید ظرف چهار هفته تجدیدنظر بخواهید.",
+          "en": "You can lodge an appeal within four weeks."
+        }
+      },
+      {
+        "verbindung": "in Berufung gehen",
+        "beispiel": "Der Staatsanwalt geht in Berufung.",
+        "uebersetzung": {
+          "fa": "دادستان تجدیدنظر می‌خواهد.",
+          "en": "The public prosecutor is appealing."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "rufen",
+    "woerter": [
+      {
+        "wort": "der Richter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قاضی",
+          "en": "judge"
+        },
+        "id_ref": "nomen_richter"
+      },
+      {
+        "wort": "der Einspruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراض (رسمی)",
+          "en": "objection"
+        },
+        "id_ref": "nomen_einspruch"
+      },
+      {
+        "wort": "das Berufungsgericht",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دادگاه تجدیدنظر",
+          "en": "court of appeal"
+        },
+        "id_ref": "nomen_berufungsgericht"
+      },
+      {
+        "wort": "das Berufungsverfahren",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "روند تجدیدنظر",
+          "en": "appeal proceedings"
+        },
+        "id_ref": "nomen_berufungsverfahren"
+      },
+      {
+        "wort": "das Rechtsmittel",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "راه اعتراض قانونی (تجدیدنظر، فرجام‌خواهی)",
+          "en": "legal remedy"
+        },
+        "id_ref": "nomen_rechtsmittel"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

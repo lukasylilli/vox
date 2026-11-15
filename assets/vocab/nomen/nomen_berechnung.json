@@ -1,0 +1,164 @@
+{
+  "schema": "3.0",
+  "id": "nomen_berechnung",
+  "wort": "die Berechnung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "محاسبه",
+      "برآورد"
+    ],
+    "en": [
+      "calculation",
+      "computation"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Mathematik",
+    "Arbeit"
+  ],
+  "ipa": "bəˈʁɛçnʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Berechnung ist leider falsch.",
+      "uebersetzung": {
+        "fa": "متأسفانه محاسبه غلط است.",
+        "en": "Unfortunately the calculation is wrong."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach meiner Berechnung brauchen wir drei Tage, wenn wir jeden Tag acht Stunden arbeiten.",
+      "uebersetzung": {
+        "fa": "طبق محاسبه‌ی من، اگر هر روز هشت ساعت کار کنیم، سه روز وقت لازم داریم.",
+        "en": "According to my calculation we need three days if we work eight hours a day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Kalkulation",
+      "uebersetzung": {
+        "fa": "محاسبه، برآورد هزینه",
+        "en": "costing, calculation"
+      }
+    },
+    {
+      "wort": "die Rechnung",
+      "uebersetzung": {
+        "fa": "حساب",
+        "en": "calculation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Kostenberechnung",
+      "uebersetzung": {
+        "fa": "محاسبه‌ی هزینه",
+        "en": "cost calculation"
+      }
+    },
+    {
+      "wort": "die Zinsberechnung",
+      "uebersetzung": {
+        "fa": "محاسبه‌ی بهره",
+        "en": "interest calculation"
+      }
+    },
+    {
+      "wort": "die Berechnungsgrundlage",
+      "uebersetzung": {
+        "fa": "مبنای محاسبه",
+        "en": "basis of calculation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "berechnen (حساب کردن) + -ung",
+    "en": "berechnen (to calculate) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Berechnungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Berechnungen anstellen",
+        "beispiel": "Die Firma hat genaue Berechnungen angestellt.",
+        "uebersetzung": {
+          "fa": "شرکت محاسبه‌های دقیقی انجام داده است.",
+          "en": "The company has made precise calculations."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "rechnen",
+    "woerter": [
+      {
+        "wort": "rechnen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حساب کردن",
+          "en": "to calculate"
+        },
+        "id_ref": "verb_rechnen"
+      },
+      {
+        "wort": "die Zahl",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "عدد",
+          "en": "number"
+        },
+        "id_ref": "nomen_zahl"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Mathematik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ریاضیات",
+          "en": "mathematics"
+        },
+        "id_ref": "nomen_mathematik"
+      },
+      {
+        "wort": "der Taschenrechner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ماشین‌حساب",
+          "en": "pocket calculator"
+        },
+        "id_ref": "nomen_taschenrechner"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -5,6 +5,8 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-15 (چهار حالت — م۶، دور ۱)** — ۲۰ کلمه‌ی اول باز جدول ۲ (Bequemlichkeit … Bestehen) ⇒ ۴۶ کارت، هر معنی یک کارت (`assets/vocab/nomen/`)؛ ۱۲ کارت قبلی لینک شبکه به معنی درست گرفتند؛ ۲۰ ردیف در `tool/daten/zurueckgestellt.json` «انجام‌شده». آرشیو ۲۰٬۴۴۴؛ باز: ۳٬۰۲۷. جزئیات: `docs/WORTRUNDEN.md`.
+
 - **2026-11-15 (فیلتر «چندمعنایی»، درخواست Lukas)** — بخش تازه در صفحه‌ی فیلتر Wortschatz: «کلمه‌هایی که چند معنی دارند» = کارت «الف» + همه‌ی کارت‌های معنی (بر اساس `uebersicht_id` در فهرست؛ بدون حدس). کلمه‌های قدیمی (drift) با این فیلتر بیرون می‌مانند؛ با بقیه‌ی فیلترها «و»؛ در JSON فیلتر ذخیره می‌شود (`bedeutungen`). کد: `wortschatz_filter.dart` (`FilterBereich.bedeutung`، `wortschatzIstMehrdeutig`)، `wortschatz_filter_screen.dart`، کلیدهای l10n؛ تست در `test/wortschatz_filter_test.dart`. با پیشرفت م۶ خودبه‌خود پرتر می‌شود.
 - **2026-11-15 (چهار حالت — آماده‌سازی م۶)** — `naechste_woerter.dart --vier-faelle [N]` کلمه‌های باز جدول ۲ را به ترتیب می‌دهد؛ `zurueckgestellt.dart --erledigt <کلمه‌ها>` آن‌ها را «انجام‌شده» می‌کند (ردیف می‌ماند؛ فایل فقط در همان سطر عوض می‌شود). تست در `test/zurueckgestellt_test.dart`. روال هر دور در `VIER_FAELLE.md` (م۶).
 - **2026-11-15 (چهار حالت — م۵، تأیید Lukas)** — حالت ۴: آرتیکل‌ها (der · die · die با رنگ مذکر/مؤنث/جمع) در خط بالای کلمه؛ سطر اول صفحه‌ی کلمه‌های `adjektivisch` ⇒ درس تازه‌ی `adjektive-als-nomen` (درس ۸۵؛ ۴ تمرین). شمارنده‌های تست: ۸۴⇒۸۵ درس، ۳۴۵⇒۳۴۹ تمرین، Niveau-Test B1 ۱۷۰⇒۱۷۴، B2 ۱۰۷⇒۱۱۱.

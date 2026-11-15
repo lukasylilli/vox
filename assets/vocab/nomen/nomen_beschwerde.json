@@ -1,0 +1,200 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beschwerde",
+  "wort": "die Beschwerde",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شکایت",
+      "اعتراض",
+      "گله"
+    ],
+    "en": [
+      "complaint"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Dienstleistung"
+  ],
+  "ipa": "bəˈʃveːɐ̯də",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich habe eine Beschwerde: Das Zimmer ist kalt.",
+      "uebersetzung": {
+        "fa": "من یک شکایت دارم: اتاق سرد است.",
+        "en": "I have a complaint: the room is cold."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn Sie mit dem Service nicht zufrieden sind, können Sie eine Beschwerde an die Zentrale schicken.",
+      "uebersetzung": {
+        "fa": "اگر از خدمات راضی نیستید، می‌توانید شکایتی به دفتر مرکزی بفرستید.",
+        "en": "If you are not satisfied with the service, you can send a complaint to head office."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Reklamation",
+      "uebersetzung": {
+        "fa": "شکایت از کالا",
+        "en": "complaint (about goods)"
+      }
+    },
+    {
+      "wort": "die Klage",
+      "uebersetzung": {
+        "fa": "شکایت، گلایه",
+        "en": "complaint"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "das Lob",
+      "uebersetzung": {
+        "fa": "تعریف، تحسین",
+        "en": "praise"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Beschwerdebrief",
+      "uebersetzung": {
+        "fa": "نامه‌ی شکایت",
+        "en": "letter of complaint"
+      }
+    },
+    {
+      "wort": "die Beschwerdestelle",
+      "uebersetzung": {
+        "fa": "دفتر رسیدگی به شکایات",
+        "en": "complaints office"
+      }
+    },
+    {
+      "wort": "das Beschwerdemanagement",
+      "uebersetzung": {
+        "fa": "مدیریت شکایات",
+        "en": "complaints management"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "sich beschweren (شکایت کردن)",
+    "en": "sich beschweren (to complain)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Beschwerden",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Beschwerde über + Akk",
+        "beispiel": "Es gab viele Beschwerden über den Lärm.",
+        "uebersetzung": {
+          "fa": "شکایت‌های زیادی درباره‌ی سروصدا بود.",
+          "en": "There were many complaints about the noise."
+        }
+      },
+      {
+        "muster": "die Beschwerde gegen + Akk",
+        "beispiel": "Er legte Beschwerde gegen den Bescheid ein.",
+        "uebersetzung": {
+          "fa": "او به آن ابلاغیه‌ی اداری اعتراض کرد.",
+          "en": "He lodged a complaint against the official decision."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Beschwerde einreichen",
+        "beispiel": "Sie hat bei der Hausverwaltung eine Beschwerde eingereicht.",
+        "uebersetzung": {
+          "fa": "او نزد مدیریت ساختمان شکایتی ثبت کرده است.",
+          "en": "She has filed a complaint with the property management."
+        }
+      },
+      {
+        "verbindung": "Beschwerde einlegen",
+        "beispiel": "Gegen diese Entscheidung können Sie Beschwerde einlegen.",
+        "uebersetzung": {
+          "fa": "شما می‌توانید به این تصمیم اعتراض کنید.",
+          "en": "You can lodge an appeal against this decision."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "schwer",
+    "woerter": [
+      {
+        "wort": "beschweren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن، گله کردن؛ سنگین کردن (با وزنه)",
+          "en": "to complain"
+        },
+        "id_ref": "verb_beschweren"
+      },
+      {
+        "wort": "reklamieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکایت کردن (از کالا)",
+          "en": "to complain"
+        },
+        "id_ref": "verb_reklamieren"
+      },
+      {
+        "wort": "die Reklamation",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شکایت (از کالا یا خدمات معیوب)؛ ادعای خسارت",
+          "en": "complaint (about goods or service)"
+        },
+        "id_ref": "nomen_reklamation"
+      },
+      {
+        "wort": "die Unzufriedenheit",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نارضایتی",
+          "en": "dissatisfaction"
+        },
+        "id_ref": "nomen_unzufriedenheit"
+      },
+      {
+        "wort": "der Einspruch",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اعتراض (رسمی)",
+          "en": "objection"
+        },
+        "id_ref": "nomen_einspruch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
