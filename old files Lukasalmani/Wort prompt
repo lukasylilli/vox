@@ -133,58 +133,55 @@ TEIL 0 — GLOBALE REGELN
       "berufe": [] (Regel 17 sonst wie immer).
     · Personennamen, Marken, Firmen u. Ä. sind KEINE Eigennamen-Karten ⇒
       unsicher ⇒ nicht bauen (Regel 14), Lukas melden.
-⏸️ REGELN 19–21 SIND AUSGESETZT (Lukas 2026-10-19: «فعلا مورد تاییدم نیست»):
-    Ein Wort, das vielleicht einer dieser Fälle ist — (1) mehrere
-    Bedeutungen, (2) Homograph mit anderem Artikel, (3) Homograph mit
-    gleichem Artikel, (4) substantiviertes Adjektiv —, wird NICHT gebaut,
-    sondern in die «Vier-Fälle-Liste» (docs/zukunft/VIER_FAELLE.md) eingetragen. Lukas
-    entscheidet nach den Nomen neu (eigene Karte je Bedeutung, Hinweiszeile
-    mit Links, Begründungszeile, Anzeige in Liste und Leitner). Der Text
-    unten beschreibt den bisherigen, NICHT freigegebenen Stand.
-19. HOMOGRAPHEN (Entscheidung Lukas, 2026-10-19): gleich geschriebene
-    Wörter DERSELBEN Wortart mit eigener Bedeutung (der See ↔ die See,
-    der Leiter ↔ die Leiter, die Bank «Sitz» ↔ die Bank «Geldinstitut»,
-    das Essen ↔ Essen «Stadt») bekommen JE EINE EIGENE Karte mit eigener id:
-    · Die ERSTE Bedeutung: "homograph": null ⇒ normale id (nomen_see).
-      Reihenfolge = Duden-Nummerierung (Bank¹ «Sitzgelegenheit»,
-      Bank² «Geldinstitut»); ohne Duden-Nummer: die häufigste zuerst.
-      Die App zeigt die Nummer hochgestellt (See¹, See²) und auf jeder
-      Karte einen Hinweis auf die anderen.
-    · Jede weitere Bedeutung: "homograph" = ihr Artikel, wenn das Genus
-      ANDERS ist (die See ⇒ "die" ⇒ nomen_see_die), sonst eine Ziffer
-      "2"…"9" (die Bank «Geldinstitut» ⇒ "2" ⇒ nomen_bank_2).
-    · Verweist ein Wortnetz-/ersatz-Eintrag auf eine solche weitere
-      Bedeutung, trägt er dasselbe "homograph" und die passende id_ref.
-    · Alle Bedeutungen in DERSELBEN Runde bauen; im Zweifel, ob es zwei
-      Wörter oder nur zwei Lesarten eines Wortes sind ⇒ Duden (getrennte
-      Einträge = Homographen; sonst EINE Karte mit «bedeutungen», Regel 20).
-20. MEHRERE BEDEUTUNGEN IN EINER KARTE (Entscheidung Lukas, 2026-10-19):
-    Hat EIN Wort (ein Duden-Eintrag, gleiche Grammatik) zwei oder mehr
-    DEUTLICH verschiedene Bedeutungen (die Birne = Obst / Glühbirne;
-    tippen = auf der Tastatur schreiben / leicht berühren / wetten), dann:
-    · "bedeutungen": je Bedeutung EINE Gruppe { "fa": [...], "en": [...] },
-      häufigste Bedeutung zuerst (höchstens 4).
-    · "uebersetzung" = alle Gruppen hintereinander, in derselben
-      Reihenfolge (fa und en getrennt) — die App prüft das.
-    · Jedes Beispiel trägt "bedeutung": <Nummer 1 …>; JEDE Bedeutung hat
-      mindestens ein Beispiel (bei 3 Bedeutungen also 3 Beispiele; das
-      1. bleibt A1/A2, das 2. B1/B2, weitere frei).
-    · Nur eine Bedeutung (auch mit mehreren Übersetzungswörtern wie
-      «گلابی، امرود») ⇒ "bedeutungen": null und kein "bedeutung" in den
-      Beispielen. Nuancen derselben Bedeutung sind KEINE eigene Gruppe.
-21. SUBSTANTIVIERTE ADJEKTIVE (Entscheidung Lukas, 2026-10-19): Nomen,
-    die wie ein Adjektiv gebeugt werden (der Abgeordnete / ein
-    Abgeordneter, der/die Angestellte, der/die Bekannte, der/die Deutsche,
-    das Gute), bekommen EINE Karte:
+19. MEHRERE BEDEUTUNGEN ⇒ JE BEDEUTUNG EINE KARTE (Entscheidung Lukas,
+    2026-11-15 — ersetzt die Fassung vom 2026-10-19). Gilt für die Fälle
+    1–3 der «Vier Fälle»:
+      (1) EIN Wort mit deutlich verschiedenen Bedeutungen
+          (die Birne = Obst / Glühbirne; warten = auf etwas warten /
+          eine Maschine instand halten; diskret = verschwiegen / Mathematik),
+      (2) gleich geschrieben, anderer Artikel (der See ↔ die See),
+      (3) gleich geschrieben, gleicher Artikel (die Bank «Sitz» ↔
+          die Bank «Geldinstitut»).
+    · JEDE Bedeutung bekommt eine EIGENE, VOLLSTÄNDIGE Karte nach diesem
+      Prompt — mit Übersetzung, Beispielen, Synonymen, Gegenteil,
+      Komposita, Wortbildung, Details und Wortnetz NUR für diese eine
+      Bedeutung.
+    · id: die ERSTE Bedeutung "homograph": null ⇒ normale id (nomen_birne).
+      Jede weitere: "homograph" = ihr Artikel, wenn das Genus ANDERS ist
+      (die See ⇒ "die" ⇒ nomen_see_die), sonst eine Ziffer "2"…"9"
+      (die Bank «Geldinstitut» ⇒ "2" ⇒ nomen_bank_2).
+      Reihenfolge = Duden-Nummerierung; ohne Duden-Nummer die häufigste
+      Bedeutung zuerst.
+    · Alle Bedeutungen eines Wortes in DERSELBEN Runde bauen.
+    · Die Übersichtskarte, die alle Bedeutungen nebeneinander zeigt, und den
+      Hinweis «dieses Wort hat mehrere Bedeutungen» erzeugt die APP — NIE in
+      eine Karte schreiben, auch nicht in "anmerkung" (kein «Achtung: … ist
+      eine eigene Karte»).
+    · Verweist ein Wortnetz-/ersatz-Eintrag auf eine bestimmte Bedeutung,
+      trägt er deren "homograph" und die passende id_ref.
+    · KEINE eigene Karte: Nuancen derselben Bedeutung (mehrere
+      Übersetzungswörter wie «گلابی، امرود»; übertragener Gebrauch, der im
+      Persischen dasselbe Wort bleibt). Im Zweifel ⇒ Duden: eigene Nummer
+      oder eigener Eintrag = eigene Karte. Weiter unsicher ⇒ nicht bauen,
+      Lukas melden (Regel 14).
+    · Verschiedene Wortarten (essen ↔ das Essen) fallen NICHT unter diese
+      Regel — sie haben ohnehin verschiedene ids.
+20. "bedeutungen" ENTFÄLLT (Lukas 2026-11-15): mehrere Bedeutungen stehen
+    nie mehr gemeinsam in einer Karte (Regel 19). Das Feld "bedeutungen"
+    und "bedeutung" in Beispielen NICHT schreiben.
+21. SUBSTANTIVIERTE ADJEKTIVE (Fall 4, Entscheidung Lukas 2026-10-19,
+    bestätigt 2026-11-15): Nomen, die wie ein Adjektiv gebeugt werden
+    (der/die Abgeordnete, der/die Angestellte, der/die Bekannte,
+    der/die Deutsche, das Gute), bekommen EINE Karte:
     · "wort" = schwache Form mit -e und Artikel; gibt es das Wort für
       beide Geschlechter ⇒ «der/die Abgeordnete», sonst nur der eine
       Artikel («das Gute»).
     · details: "genus": "der/die" | "der" | "die" | "das",
       "deklinationstyp": "adjektivisch", "plural": "die Abgeordneten"
       (bzw. null), sonst wie Nomen.
-    · Die gebeugten Formen (ein Abgeordneter, eine Abgeordnete …)
-      rechnet die App — NICHT in die Karte schreiben. «der/die» nur bei
-      adjektivisch (sonst Fehler).
+    · Die gebeugten Formen (ein Abgeordneter, eine Abgeordnete …) und die
+      Anzeige der Artikel rechnet die App — NICHT in die Karte schreiben.
+      «der/die» nur bei adjektivisch (sonst Fehler).
     · Steht die stark gebeugte Form zusätzlich in der Wortliste
       («Abgeordneter»), ist sie KEINE eigene Karte.
 
@@ -198,7 +195,6 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "homograph": <Regel 19: null | "der" | "die" | "das" | "2" … "9">,
   "wortart": "<nomen | verb | adjektiv | artikel | pronomen | numerale | praeposition | konjunktion | adverb | partikel>",
   "uebersetzung": { "fa": ["<ترجمه ۱>", "<ترجمه ۲>"], "en": ["<translation 1>", "<translation 2>"] },
-  "bedeutungen": <Regel 20: null | [ { "fa": [...], "en": [...] }, … ] (≥ 2 Gruppen)>,
   "niveau": "<A1 | A2 | B1 | B2 | C1 | C2>",
   "themen": ["<Thema, z. B. Alltag, Arbeit, Gefühle>"],
   "ipa": "<IPA-Transkription>",
@@ -210,7 +206,6 @@ TEIL 1 — BASISOBJEKT (Feldreihenfolge beibehalten)
   "beispiele": [
     { "niveau": "<A1|A2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } },
     { "niveau": "<B1|B2>", "satz": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } }
-    // Regel 20: bei "bedeutungen" ≠ null trägt JEDES Beispiel zusätzlich "bedeutung": <1 …>
   ],
   "synonyme": [ { "wort": "<...>", "uebersetzung": { "fa": "<...>", "en": "<...>" } } ],
   "antonyme": [ { "wort": "<Gegenteil-Wort — ohne Beispiel/Erklärung>", "uebersetzung": { "fa": "<معنی>", "en": "<meaning>" } } ],
