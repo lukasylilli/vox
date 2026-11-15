@@ -1,0 +1,151 @@
+{
+  "schema": "3.0",
+  "id": "nomen_beteiligte",
+  "wort": "der/die Beteiligte",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرد دخیل",
+      "طرف (ماجرا)",
+      "شرکت‌کننده"
+    ],
+    "en": [
+      "person involved",
+      "party"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Gesellschaft"
+  ],
+  "ipa": "bəˈtaɪ̯lɪçtə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Alle Beteiligten sind zufrieden.",
+      "uebersetzung": {
+        "fa": "همه‌ی طرف‌ها راضی هستند.",
+        "en": "Everyone involved is satisfied."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Polizei befragte jeden Beteiligten einzeln, weil die Aussagen zum Unfall nicht zusammenpassten.",
+      "uebersetzung": {
+        "fa": "پلیس از هر یک از افراد دخیل جداگانه سؤال کرد، چون گفته‌ها درباره‌ی تصادف با هم جور نبود.",
+        "en": "The police questioned each person involved separately because the statements about the accident did not match."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der/die Unbeteiligte",
+      "uebersetzung": {
+        "fa": "فرد بی‌طرف، غیردخیل",
+        "en": "bystander, uninvolved person"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der/die Unfallbeteiligte",
+      "uebersetzung": {
+        "fa": "طرف تصادف",
+        "en": "party to an accident"
+      }
+    },
+    {
+      "wort": "der/die Prozessbeteiligte",
+      "uebersetzung": {
+        "fa": "طرف دعوا",
+        "en": "party to the proceedings"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "beteiligt (دخیل) → اسم‌شده",
+    "en": "beteiligt (involved) → nominalized"
+  },
+  "details": {
+    "genus": "der/die",
+    "plural": "die Beteiligten",
+    "deklinationstyp": "adjektivisch",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der/die Beteiligte an + Dat",
+        "beispiel": "Die Beteiligten an dem Projekt treffen sich jeden Montag.",
+        "uebersetzung": {
+          "fa": "افراد دخیل در پروژه هر دوشنبه دور هم جمع می‌شوند.",
+          "en": "Those involved in the project meet every Monday."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Teil",
+    "woerter": [
+      {
+        "wort": "der Unfall",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تصادف",
+          "en": "accident"
+        },
+        "id_ref": "nomen_unfall"
+      },
+      {
+        "wort": "beteiligen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شرکت دادن، سهیم کردن؛ (در چیزی) شرکت کردن",
+          "en": "to involve"
+        },
+        "id_ref": "verb_beteiligen"
+      },
+      {
+        "wort": "beteiligt",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهیم، دخیل",
+          "en": "involved"
+        },
+        "id_ref": "adjektiv_beteiligt"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "die Beteiligung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مشارکت",
+          "en": "participation"
+        },
+        "id_ref": "nomen_beteiligung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

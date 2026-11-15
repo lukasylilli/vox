@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bestellung",
+  "wort": "die Bestellung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سفارش"
+    ],
+    "en": [
+      "order"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Einkaufen",
+    "Restaurant"
+  ],
+  "ipa": "bəˈʃtɛlʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "gastro_hotel",
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ihre Bestellung kommt morgen.",
+      "uebersetzung": {
+        "fa": "سفارش شما فردا می‌رسد.",
+        "en": "Your order will arrive tomorrow."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Ich habe die Bestellung storniert, weil der Shop die Ware erst in sechs Wochen liefern kann.",
+      "uebersetzung": {
+        "fa": "سفارش را لغو کردم، چون فروشگاه کالا را تازه شش هفته‌ی دیگر می‌تواند تحویل بدهد.",
+        "en": "I cancelled the order because the shop cannot deliver the goods for another six weeks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Auftrag",
+      "uebersetzung": {
+        "fa": "سفارش، مأموریت",
+        "en": "order"
+      }
+    },
+    {
+      "wort": "die Order",
+      "uebersetzung": {
+        "fa": "سفارش (تجاری)",
+        "en": "order"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Stornierung",
+      "uebersetzung": {
+        "fa": "لغو سفارش",
+        "en": "cancellation"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Bestellnummer",
+      "uebersetzung": {
+        "fa": "شماره‌ی سفارش",
+        "en": "order number"
+      }
+    },
+    {
+      "wort": "die Onlinebestellung",
+      "uebersetzung": {
+        "fa": "سفارش اینترنتی",
+        "en": "online order"
+      }
+    },
+    {
+      "wort": "die Bestellbestätigung",
+      "uebersetzung": {
+        "fa": "تأییدیه‌ی سفارش",
+        "en": "order confirmation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "bestellen (سفارش دادن) + -ung",
+    "en": "bestellen (to order) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Bestellungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Bestellung aufgeben",
+        "beispiel": "Sie können Ihre Bestellung auch telefonisch aufgeben.",
+        "uebersetzung": {
+          "fa": "می‌توانید سفارشتان را تلفنی هم ثبت کنید.",
+          "en": "You can also place your order by phone."
+        }
+      },
+      {
+        "verbindung": "eine Bestellung aufnehmen",
+        "beispiel": "Der Kellner nimmt gleich die Bestellung auf.",
+        "uebersetzung": {
+          "fa": "گارسون الان سفارش را می‌گیرد.",
+          "en": "The waiter will take the order in a moment."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "stellen",
+    "woerter": [
+      {
+        "wort": "bestellen",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سفارش دادن",
+          "en": "to order"
+        },
+        "id_ref": "verb_bestellen"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "der Katalog",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کاتالوگ",
+          "en": "catalogue"
+        },
+        "id_ref": "nomen_katalog"
+      },
+      {
+        "wort": "der Lieferant",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تأمین‌کننده",
+          "en": "supplier"
+        },
+        "id_ref": "nomen_lieferant"
+      },
+      {
+        "wort": "der Versand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارسال",
+          "en": "shipping"
+        },
+        "id_ref": "nomen_versand"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

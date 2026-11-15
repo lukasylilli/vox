@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "nomen_betroffene",
+  "wort": "der/die Betroffene",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فرد آسیب‌دیده",
+      "شخص درگیر (با مشکل)",
+      "ذی‌نفع"
+    ],
+    "en": [
+      "person affected",
+      "person concerned"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈtʁɔfənə",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Betroffenen bekommen schnelle Hilfe.",
+      "uebersetzung": {
+        "fa": "آسیب‌دیدگان کمک فوری می‌گیرند.",
+        "en": "Those affected are getting help quickly."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Gruppe können Betroffene offen über die Krankheit sprechen, ohne dass sie sich schämen müssen.",
+      "uebersetzung": {
+        "fa": "در این گروه، افراد درگیر می‌توانند بی‌آن‌که خجالت بکشند، آزادانه درباره‌ی بیماری حرف بزنند.",
+        "en": "In the group those affected can talk openly about the illness without having to feel ashamed."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der/die Leidtragende",
+      "uebersetzung": {
+        "fa": "کسی که زیان می‌بیند",
+        "en": "the one who suffers"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der/die Unbeteiligte",
+      "uebersetzung": {
+        "fa": "فرد غیردخیل",
+        "en": "uninvolved person"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "betroffen (آسیب‌دیده، مشمول) → اسم‌شده",
+    "en": "betroffen (affected) → nominalized"
+  },
+  "details": {
+    "genus": "der/die",
+    "plural": "die Betroffenen",
+    "deklinationstyp": "adjektivisch",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der/die Betroffene von + Dat",
+        "beispiel": "Die Betroffenen von dem Hochwasser wohnen jetzt in einer Turnhalle.",
+        "uebersetzung": {
+          "fa": "آسیب‌دیدگان سیل حالا در یک سالن ورزش زندگی می‌کنند.",
+          "en": "Those affected by the flood are now living in a sports hall."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "treffen",
+    "woerter": [
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "betroffen",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آسیب‌دیده، درگیر",
+          "en": "affected"
+        },
+        "id_ref": "adjektiv_betroffen"
+      },
+      {
+        "wort": "die Selbsthilfegruppe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "گروه خودیاری",
+          "en": "self-help group"
+        },
+        "id_ref": "nomen_selbsthilfegruppe"
+      },
+      {
+        "wort": "die Beratungsstelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مرکز مشاوره",
+          "en": "advice centre"
+        },
+        "id_ref": "nomen_beratungsstelle"
+      },
+      {
+        "wort": "die Betroffenheit",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تأثر",
+          "en": "dismay"
+        },
+        "id_ref": "nomen_betroffenheit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

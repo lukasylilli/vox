@@ -1,0 +1,168 @@
+{
+  "schema": "3.0",
+  "id": "nomen_betrieb_2",
+  "wort": "der Betrieb",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کارکرد",
+      "بهره‌برداری",
+      "حالت کار (دستگاه)"
+    ],
+    "en": [
+      "operation",
+      "running",
+      "service"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "bəˈtʁiːp",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Lift ist außer Betrieb.",
+      "uebersetzung": {
+        "fa": "آسانسور خراب است.",
+        "en": "The lift is out of order."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Die neue Anlage geht erst in Betrieb, wenn alle Tests ohne Fehler gelaufen sind.",
+      "uebersetzung": {
+        "fa": "دستگاه تازه وقتی به کار می‌افتد که همه‌ی آزمایش‌ها بدون خطا انجام شده باشد.",
+        "en": "The new plant will only go into operation once all the tests have run without errors."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der Stillstand",
+      "uebersetzung": {
+        "fa": "توقف",
+        "en": "standstill"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Betriebsanleitung",
+      "uebersetzung": {
+        "fa": "دفترچه‌ی راهنمای دستگاه",
+        "en": "operating instructions"
+      }
+    },
+    {
+      "wort": "der Dauerbetrieb",
+      "uebersetzung": {
+        "fa": "کار مداوم",
+        "en": "continuous operation"
+      }
+    },
+    {
+      "wort": "der Notbetrieb",
+      "uebersetzung": {
+        "fa": "حالت اضطراری",
+        "en": "emergency operation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "betreiben (به کار انداختن)",
+    "en": "betreiben (to operate)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "in Betrieb nehmen",
+        "beispiel": "Die Klinik nimmt nächste Woche ein neues Gerät in Betrieb.",
+        "uebersetzung": {
+          "fa": "بیمارستان هفته‌ی آینده دستگاه تازه‌ای را راه‌اندازی می‌کند.",
+          "en": "The hospital is putting a new device into operation next week."
+        }
+      },
+      {
+        "verbindung": "außer Betrieb sein",
+        "beispiel": "Der Automat ist seit gestern außer Betrieb.",
+        "uebersetzung": {
+          "fa": "دستگاه خودکار از دیروز کار نمی‌کند.",
+          "en": "The machine has been out of order since yesterday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "treiben",
+    "woerter": [
+      {
+        "wort": "funktionieren",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کار کردن",
+          "en": "to work"
+        },
+        "id_ref": "verb_funktionieren"
+      },
+      {
+        "wort": "das Betriebssystem",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سیستم‌عامل",
+          "en": "operating system"
+        },
+        "id_ref": "nomen_betriebssystem"
+      },
+      {
+        "wort": "die Wartung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرویس و نگهداری",
+          "en": "maintenance"
+        },
+        "id_ref": "nomen_wartung"
+      },
+      {
+        "wort": "der Stillstand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "توقف؛ رکود",
+          "en": "standstill; stagnation"
+        },
+        "id_ref": "nomen_stillstand"
+      },
+      {
+        "wort": "die Inbetriebnahme",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "راه‌اندازی، به کار انداختن",
+          "en": "commissioning, start-up"
+        },
+        "id_ref": "nomen_inbetriebnahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
