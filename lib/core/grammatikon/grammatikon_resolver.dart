@@ -79,15 +79,16 @@ class GrammatikonResolver {
       case 'nomen':
         {
           // Regel 21: «der/die» (substantiviertes Adjektiv für beide
-          // Geschlechter) hat KEIN einzelnes Genus ⇒ neutrale Umriss-Form
-          // statt einer geratenen Farbe (Regel: lieber kein Symbol als ein
-          // falsches). Die Artikel selbst färbt die Wortzeile einzeln.
+          // Geschlechter) hat KEIN einzelnes Genus ⇒ keine Genusfarbe wird
+          // geraten. Statt des leeren Umrisses (sah aus wie ein Adjektiv)
+          // gefüllt wie jedes Nomen, in der eigenen Farbe «beideGenera»
+          // (Lukas 2026-11-15). Die Artikel färbt die Wortzeile einzeln.
           if (ctx.numerus != 'plural' &&
               ((details['genus'] as String?)?.contains('/') ?? false)) {
             return GrammatikonDescriptor(
               shape: _formFuerKasus(ctx.kasus),
-              fuellung: 'hohl',
-              color: kontur,
+              fuellung: 'voll',
+              color: GrammatikonSpec.beideGenera,
             );
           }
           final genus = ctx.numerus == 'plural'

@@ -5,6 +5,8 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-15 (نماد حالت ۴، درخواست Lukas)** — نماد «der/die Abgeordnete» دیگر مربع خالی سیاه نیست (با صفت اشتباه می‌شد): مربع پُر به رنگ تازه‌ی فیروزه‌ای `GrammatikonSpec.beideGenera` (#12A5BF) که هیچ جای دیگر به کار نمی‌رود. خود کلمه بی‌رنگ می‌ماند (`GrammatikonSpec.textFarbe`؛ `wort_card.dart`، `wort_karte_inhalt.dart`)؛ تصمیم در `grammatikon_resolver.dart`؛ تست: `test/nomen_adjektivisch_test.dart`.
+
 - **2026-11-15 (چهار حالت — م۶، دور ۲)** — ۲۰ کلمه‌ی بعدی جدول ۲ (Bestellung … Bezirksvorsitzende) ⇒ ۳۶ کارت (۵ تا حالت ۴)؛ ۳۴ کارت قبلی لینک شبکه به معنی درست گرفتند؛ Beta ساخته نشد (آرتیکل نامطمئن). آرشیو ۲۰٬۴۸۰؛ باز: ۳٬۰۰۷. جزئیات: `docs/WORTRUNDEN.md`.
 
 - **2026-11-15 (چهار حالت — م۶، دور ۱)** — ۲۰ کلمه‌ی اول باز جدول ۲ (Bequemlichkeit … Bestehen) ⇒ ۴۶ کارت، هر معنی یک کارت (`assets/vocab/nomen/`)؛ ۱۲ کارت قبلی لینک شبکه به معنی درست گرفتند؛ ۲۰ ردیف در `tool/daten/zurueckgestellt.json` «انجام‌شده». آرشیو ۲۰٬۴۴۴؛ باز: ۳٬۰۲۷. جزئیات: `docs/WORTRUNDEN.md`.

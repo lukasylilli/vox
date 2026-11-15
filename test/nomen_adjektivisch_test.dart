@@ -80,10 +80,27 @@ void main() {
     expect(vokabAdjektivischeFormen(gute), [('das', 'das Gute · ein Gutes')]);
   });
 
-  test('Symbol: «der/die» ⇒ neutraler Umriss, kein geratenes Genus', () {
+  test('Symbol: «der/die» ⇒ eigene Farbe, kein geratenes Genus', () {
     final d = GrammatikonResolver.resolve(abgeordnete());
-    expect(d.fuellung, 'hohl');
-    expect(d.color, GrammatikonSpec.kontur);
+    expect(d.fuellung, 'voll');
+    expect(d.color, GrammatikonSpec.beideGenera);
+    // Die Farbe ist einmalig — kein Genus, Plural, Verb, Umriss.
+    expect(
+      {
+        GrammatikonSpec.maskulin,
+        GrammatikonSpec.feminin,
+        GrammatikonSpec.neutral,
+        GrammatikonSpec.plural,
+        GrammatikonSpec.verb,
+        GrammatikonSpec.kontur,
+      }.contains(GrammatikonSpec.beideGenera),
+      isFalse,
+    );
+    // Sie gehört nur dem Symbol: das Wort selbst bleibt ungefärbt.
+    expect(GrammatikonSpec.textFarbe(GrammatikonSpec.beideGenera), isNull);
+    expect(GrammatikonSpec.textFarbe(GrammatikonSpec.kontur), isNull);
+    expect(GrammatikonSpec.textFarbe(GrammatikonSpec.feminin),
+        GrammatikonSpec.feminin);
     // Ein Geschlecht ⇒ normale Genusfarbe.
     expect(GrammatikonResolver.resolve(abgeordnete(genus: 'der')).color,
         GrammatikonSpec.maskulin);

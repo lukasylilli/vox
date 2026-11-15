@@ -22,6 +22,20 @@ class GrammatikonSpec {
   static const Color kontur   = Color(0xFF1A1A1A); // schwarz
   static const Color weiss    = Color(0xFFFFFFFF);
 
+  /// Substantiviertes Adjektiv für beide Geschlechter («der/die Abgeordnete»,
+  /// Prompt-Regel 21): eigene Farbe, die sonst NIRGENDS vorkommt — weder ein
+  /// Genus (grün/orange/lila), Plural (rot), Verb (grau) noch der schwarze
+  /// Umriss der Adjektive (Entscheidung Lukas 2026-11-15: das leere Quadrat
+  /// wurde mit Adjektiven verwechselt). Türkis liegt im Farbkreis in der
+  /// einzigen Lücke zwischen den vergebenen Farben.
+  static const Color beideGenera = Color(0xFF12A5BF); // türkis
+
+  /// Symbolfarbe → Farbe für den WORT-Text. Schwarz (Umriss) wäre im Dark
+  /// Mode unlesbar, und [beideGenera] gehört nur dem Symbol (das Wort bleibt
+  /// ungefärbt, die Artikel färbt die Zeile einzeln) ⇒ beide null = Theme.
+  static Color? textFarbe(Color symbolFarbe) =>
+      symbolFarbe == kontur || symbolFarbe == beideGenera ? null : symbolFarbe;
+
   /// Genus/Numerus-Enum ("maskulin"|"feminin"|"neutral"|"plural") → Farbe.
   static Color? genusFarbe(String? genus) => switch (genus) {
         'maskulin' => maskulin,

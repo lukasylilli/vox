@@ -173,8 +173,7 @@ class WortZeile extends StatelessWidget {
     // Genus-/Verb-Farbe aus derselben Quelle wie das Symbol.
     // kontur (schwarz) wäre im Dark Mode unlesbar → dann Theme-Farbe (null).
     final descriptorColor = GrammatikonResolver.resolve(card).color;
-    final farbe =
-        descriptorColor == GrammatikonSpec.kontur ? null : descriptorColor;
+    final farbe = GrammatikonSpec.textFarbe(descriptorColor);
 
     // Nomen: Artikel komplett in Genusfarbe (in Listen schneller erfassbar
     // als nur die Endung), Lemma dahinter unmarkiert.

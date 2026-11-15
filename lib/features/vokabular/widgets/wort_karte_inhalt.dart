@@ -49,9 +49,7 @@ class WortKarteKopf extends StatelessWidget {
 
     // Artikel in Genusfarbe — gleiche Quelle wie das Symbol (Puzzling).
     final descriptorColor = GrammatikonResolver.resolve(card).color;
-    final farbe = descriptorColor == GrammatikonSpec.kontur
-        ? null
-        : descriptorColor;
+    final farbe = GrammatikonSpec.textFarbe(descriptorColor);
     final teile = wort.split(' ');
     final artikel = card['wortart'] == 'nomen' && teile.length > 1
         ? teile.first
