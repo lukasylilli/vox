@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bundesstaat",
+  "wort": "der Bundesstaat",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دولت فدرال",
+      "کشور فدرالی"
+    ],
+    "en": [
+      "federal state",
+      "federation"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Politik"
+  ],
+  "ipa": "ˈbʊndəsˌʃtaːt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Österreich ist ein Bundesstaat.",
+      "uebersetzung": {
+        "fa": "اتریش یک کشور فدرالی است.",
+        "en": "Austria is a federal state."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In einem Bundesstaat teilen sich der Bund und die Länder die Macht, sodass nicht alles in der Hauptstadt entschieden wird.",
+      "uebersetzung": {
+        "fa": "در یک کشور فدرالی، دولت مرکزی و ایالت‌ها قدرت را تقسیم می‌کنند تا همه‌چیز در پایتخت تصمیم‌گیری نشود.",
+        "en": "In a federal state the federation and the states share power, so that not everything is decided in the capital."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Föderation",
+      "uebersetzung": {
+        "fa": "فدراسیون",
+        "en": "federation"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Einheitsstaat",
+      "uebersetzung": {
+        "fa": "دولت متمرکز",
+        "en": "unitary state"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Bund (اتحاد) + -es- + Staat (دولت)",
+    "en": "Bund (union) + -es- + Staat (state)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bundesstaaten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Staat",
+    "woerter": [
+      {
+        "wort": "das Bundesland",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ایالت فدرال",
+          "en": "federal state"
+        },
+        "id_ref": "nomen_bundesland"
+      },
+      {
+        "wort": "die Bundesrepublik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمهوری فدرال",
+          "en": "federal republic"
+        },
+        "id_ref": "nomen_bundesrepublik"
+      },
+      {
+        "wort": "die Republik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جمهوری",
+          "en": "republic"
+        },
+        "id_ref": "nomen_republik"
+      },
+      {
+        "wort": "föderal",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فدرال",
+          "en": "federal"
+        },
+        "id_ref": "adjektiv_foederal"
+      },
+      {
+        "wort": "die Bundesverfassung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "قانون اساسی فدرال",
+          "en": "federal constitution"
+        },
+        "id_ref": "nomen_bundesverfassung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

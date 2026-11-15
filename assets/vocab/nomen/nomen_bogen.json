@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bogen",
+  "wort": "der Bogen",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "انحنا",
+      "قوس",
+      "پیچ"
+    ],
+    "en": [
+      "curve",
+      "arc",
+      "bend"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Alltag",
+    "Mathematik"
+  ],
+  "ipa": "ˈboːɡn̩",
+  "anmerkung": "Plural auch: die Bogen. Redewendungen: «einen großen Bogen um jemanden machen» = jemanden meiden; «den Bogen überspannen» = zu weit gehen.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Straße macht hier einen Bogen.",
+      "uebersetzung": {
+        "fa": "جاده این‌جا یک پیچ می‌خورد.",
+        "en": "The road bends here."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Fluss fließt in einem großen Bogen um die Stadt, bevor er in den See mündet.",
+      "uebersetzung": {
+        "fa": "رود با قوس بزرگی دور شهر می‌چرخد، پیش از آن‌که به دریاچه بریزد.",
+        "en": "The river flows in a wide arc around the town before it flows into the lake."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Kurve",
+      "uebersetzung": {
+        "fa": "پیچ، منحنی",
+        "en": "curve"
+      }
+    },
+    {
+      "wort": "die Krümmung",
+      "uebersetzung": {
+        "fa": "انحنا",
+        "en": "curvature"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Regenbogen",
+      "uebersetzung": {
+        "fa": "رنگین‌کمان",
+        "en": "rainbow"
+      }
+    },
+    {
+      "wort": "der Spannungsbogen",
+      "uebersetzung": {
+        "fa": "قوس داستانی",
+        "en": "dramatic arc"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "biegen (خم کردن)",
+    "en": "biegen (to bend)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Bögen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "biegen",
+    "woerter": [
+      {
+        "wort": "der Regenbogen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رنگین‌کمان",
+          "en": "rainbow"
+        },
+        "id_ref": "nomen_regenbogen"
+      },
+      {
+        "wort": "biegen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_biegen"
+      },
+      {
+        "wort": "die Linkskurve",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پیچ به چپ",
+          "en": "left-hand bend"
+        },
+        "id_ref": "nomen_linkskurve"
+      },
+      {
+        "wort": "krümmen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "خم کردن",
+          "en": "to bend"
+        },
+        "id_ref": "verb_kruemmen"
+      },
+      {
+        "wort": "der Spannungsbogen",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "قوس تعلیق (در داستان، فیلم)",
+          "en": "dramatic arc, arc of suspense"
+        },
+        "id_ref": "nomen_spannungsbogen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
