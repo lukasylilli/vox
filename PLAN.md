@@ -37,9 +37,9 @@
 ## 🎯 الان کجاییم (2026-11-16)
 
 - VOX از 2026-09-25 منتشر است (Flutter-Web روی GitHub Pages).
-- آرشیو کلمه: **۲۱٬۰۰۷ کارت** (2026-11-16). **🏁 هر چهار فهرست Lukas یک بار کامل طی شد.**
+- آرشیو کلمه: **۲۱٬۰۵۳ کارت** (2026-11-16). **🏁 هر چهار فهرست Lukas یک بار کامل طی شد.**
 - کنار گذاشته: **۵٬۸۳۲ کلمه** (تنها منبع: `tool/daten/zurueckgestellt.json`؛ جدول: `docs/ZURUECKGESTELLT.md`) — جدول ۱ = ۲٬۷۸۷ ردیف (۲ تا حل‌شده) · جدول ۲ «چهار حالت» = **۳٬۰۴۷** ردیف (نه ۲٬۸۸۵: ۱۶۲ ردیف چهار حالت تا 2026-11-11 وسط جدول ۱ جا مانده بودند).
-- **چهار حالت، م۶:** دور ۱ تا ۱۴ ✅ (۲۷۳ کلمه ⇒ ۶۰۹ کارت: Bequemlichkeit … Anwalt)؛ **باز: ۲٬۷۷۴ کلمه** از جدول ۲، کلمه‌ی بعدی بعد از Anwalt (Anweisung…)؛ فعلاً مانده: Alster (آرتیکل متفاوت: die Fluss / das Getränk)، Alte، Angeklagte، Angestellte (اسم‌صفت، قاعده‌ی ۲۱) — منتظر تصمیم Lukas (ترتیب فایل). مانده: Beta، Binder، Blackout، Chart، Charter، Chili، Coca، Curry (آرتیکل یا معنی نامطمئن) · Buchenwald، Caritas، Diakonie (اسم خاص؛ Lukas: «فعلاً بماند») · معنی‌های نامطمئن بدون کارت: Diskothek («مجموعه‌ی صفحه»)، Division («لیگ»)، Abschwung («Turnen»)، Abstrich («Schreibstrich»).
+- **چهار حالت، م۶:** دور ۱ تا ۱۵ ✅ (۲۹۳ کلمه ⇒ ۶۵۵ کارت: Bequemlichkeit … Arbeitsstelle)؛ **باز: ۲٬۷۵۴ کلمه** از جدول ۲، کلمه‌ی بعدی: Arbeitszeit (Architektur…)؛ در دور ۱۵ رد شدند: Anzeiger، Appenzell (معنی/اسم خاص نامطمئن) و Arabisch، Arbeitslose، Arbeitssuchende (حالت ۴)؛ فعلاً مانده: Alster (آرتیکل متفاوت: die Fluss / das Getränk)، Alte، Angeklagte، Angestellte (اسم‌صفت، قاعده‌ی ۲۱) — منتظر تصمیم Lukas (ترتیب فایل). مانده: Beta، Binder، Blackout، Chart، Charter، Chili، Coca، Curry (آرتیکل یا معنی نامطمئن) · Buchenwald، Caritas، Diakonie (اسم خاص؛ Lukas: «فعلاً بماند») · معنی‌های نامطمئن بدون کارت: Diskothek («مجموعه‌ی صفحه»)، Division («لیگ»)، Abschwung («Turnen»)، Abstrich («Schreibstrich»).
 - ممیزی کامل پروژه انجام شد (2026-11-10)؛ بسته‌ی ۱ (لایتنر «الف+») و لینک‌های شبکه‌های اجتماعی ✅.
 
 ## ⏭️ قدم بعدی
