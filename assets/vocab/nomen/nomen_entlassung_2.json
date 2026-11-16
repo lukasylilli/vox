@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_entlassung_2",
+  "wort": "die Entlassung",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ترخیص",
+      "آزادی (از بیمارستان یا زندان)"
+    ],
+    "en": [
+      "discharge (from hospital)",
+      "release (from prison)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Recht"
+  ],
+  "ipa": "ɛntˈlasʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Entlassung aus dem Krankenhaus ist für morgen geplant.",
+      "uebersetzung": {
+        "fa": "ترخیص از بیمارستان برای فردا برنامه‌ریزی شده است.",
+        "en": "The discharge from hospital is planned for tomorrow."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach der Entlassung soll der Patient noch Ruhe halten.",
+      "uebersetzung": {
+        "fa": "بعد از ترخیص بیمار باید همچنان استراحت کند.",
+        "en": "After his discharge, the patient should still rest."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Freilassung",
+      "uebersetzung": {
+        "fa": "آزادی",
+        "en": "release"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Entlassungsbrief",
+      "uebersetzung": {
+        "fa": "نامه‌ی ترخیص",
+        "en": "discharge letter"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ent- + lassen (گذاشتن، رها کردن)",
+    "en": "ent- + lassen (to let go)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Entlassungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Klinik",
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک، دکتر",
+          "en": "doctor, physician"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلینیک، بیمارستان",
+          "en": "clinic, hospital"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "freilassen",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آزاد کردن، رها کردن (زندانی یا حیوان)",
+          "en": "to release, to set free"
+        },
+        "id_ref": "verb_freilassen"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

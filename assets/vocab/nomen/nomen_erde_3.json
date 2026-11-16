@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_erde_3",
+  "wort": "die Erde",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "اتصال به زمین (برق)",
+      "ارت"
+    ],
+    "en": [
+      "earth (electrical)",
+      "ground connection"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik"
+  ],
+  "ipa": "ˈeːɐ̯də",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Das Kabel hat keine Verbindung zur Erde.",
+      "uebersetzung": {
+        "fa": "کابل اتصال به زمین ندارد.",
+        "en": "The cable has no connection to earth."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Ohne Erde ist die Steckdose gefährlich.",
+      "uebersetzung": {
+        "fa": "بدون ارت پریز خطرناک است.",
+        "en": "Without earth, the socket is dangerous."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Erdung",
+      "uebersetzung": {
+        "fa": "اتصال به زمین",
+        "en": "earthing"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از آلمانی باستان erda (زمین)",
+    "en": "from Old High German erda (earth)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Strom",
+    "woerter": [
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه، کامپیوتر",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      },
+      {
+        "wort": "die Steckdose",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پریز برق",
+          "en": "socket, power outlet"
+        },
+        "id_ref": "nomen_steckdose"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انرژی، نیرو",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "die Elektrotechnik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهندسی برق",
+          "en": "electrical engineering"
+        },
+        "id_ref": "nomen_elektrotechnik"
+      },
+      {
+        "wort": "erden",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "به زمین وصل کردن (برق)، متعادل کردن (روحی)",
+          "en": "to earth, to ground"
+        },
+        "id_ref": "verb_erden"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

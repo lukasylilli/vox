@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_entlastung_2",
+  "wort": "die Entlastung",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تبرئه",
+      "تأیید عملکرد (هیئت مدیره)"
+    ],
+    "en": [
+      "exoneration",
+      "discharge (of a board)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Wirtschaft"
+  ],
+  "ipa": "ɛntˈlastʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Zeuge sorgte für die Entlastung des Angeklagten.",
+      "uebersetzung": {
+        "fa": "شاهد باعث تبرئه‌ی متهم شد.",
+        "en": "The witness secured the exoneration of the defendant."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Hauptversammlung erteilte dem Vorstand die Entlastung.",
+      "uebersetzung": {
+        "fa": "مجمع عمومی به هیئت مدیره تأیید عملکرد داد.",
+        "en": "The general meeting granted the board its discharge."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Entlastungszeuge",
+      "uebersetzung": {
+        "fa": "شاهد تبرئه",
+        "en": "witness for the defence"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ent- (از بین بردن) + Last (بار)",
+    "en": "ent- (off, away) + Last (load, burden)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Entlastung erteilen",
+        "beispiel": "Die Versammlung erteilt dem Vorstand Entlastung.",
+        "uebersetzung": {
+          "fa": "مجمع به هیئت مدیره تأیید عملکرد می‌دهد.",
+          "en": "The assembly grants the board its discharge."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Freispruch",
+    "woerter": [
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلیل، مدرک",
+          "en": "proof, evidence"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "entlasten",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سبک کردن بار، تبرئه کردن",
+          "en": "to relieve, to exonerate"
+        },
+        "id_ref": "verb_entlasten"
+      },
+      {
+        "wort": "der Freispruch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبرئه، حکم برائت",
+          "en": "acquittal"
+        },
+        "id_ref": "nomen_freispruch"
+      },
+      {
+        "wort": "die Einlassung",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "اظهارات (متهم یا طرف دعوا در دادگاه)",
+          "en": "statement (of a defendant in court)"
+        },
+        "id_ref": "nomen_einlassung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
