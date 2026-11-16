@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۱۷)** — ۲۰ کلمه‌ی جدول ۲ (Aufarbeitung … Aufsichtsrat) ⇒ ۵۱ کارت؛ ۸ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Hausaufgabe و lösen ⇒ Aufgabe² «تمرین»، aufgeben ⇒ Aufgabe³، Aufenthaltsort ⇒ Aufenthalt³، Aufseher ⇒ Aufsicht²، Gliederung و strukturieren ⇒ Aufbau²، Aufbruchstimmung ⇒ Aufbruch²). Aufschwung ساخته نشد (معنی «Turnen» نامطمئن، مثل Abschwung) و جایش Aufsichtsrat آمد. آرشیو ۲۱٬۱۵۲؛ باز: ۲٬۷۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۶)** — ۲۰ کلمه‌ی جدول ۲ (Arbeitszeit … Auditorium) ⇒ ۴۸ کارت؛ ۲۰ کارت قبلی لینک شبکه به معنی درست گرفتند (۱۷ کارت ⇒ Artikel² «مقاله»، Aspekt²، Attribut²). Arkade، Arsch، As، Asylsuchende ساخته نشدند. آرشیو ۲۱٬۱۰۱؛ باز: ۲٬۷۳۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۵)** — ۲۰ کلمه‌ی جدول ۲ (Anweisung … Arbeitsstelle) ⇒ ۴۶ کارت؛ ۱۳ کارت قبلی لینک شبکه به معنی درست گرفتند (Anzeige²/³، Arbeit²/⁴، Arbeitsplatz²، Arbeitskraft²). Anzeiger، Appenzell و سه کلمه‌ی حالت ۴ ساخته نشدند. آرشیو ۲۱٬۰۵۳؛ باز: ۲٬۷۵۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۴)** — ۲۰ کلمه‌ی جدول ۲ (Anschlag … Anwalt) ⇒ ۴۴ کارت؛ ۵ کارت قبلی لینک شبکه به معنی درست گرفتند (Anspruch²، Antrieb²، Ansicht). Ansehen و Anteilnahme فقط یک معنی ⇒ یک کارت. آرشیو ۲۱٬۰۰۷؛ باز: ۲٬۷۷۴. جزئیات: `docs/WORTRUNDEN.md`.

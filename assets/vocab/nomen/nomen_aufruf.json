@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_aufruf",
+  "wort": "der Aufruf",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فراخوان، درخواست عمومی",
+      "دعوت همگانی"
+    ],
+    "en": [
+      "appeal, call (to the public)",
+      "proclamation"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesellschaft",
+    "Politik"
+  ],
+  "ipa": "ˈaʊ̯fˌʁuːf",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Bürgermeister startete einen Aufruf zur Hilfe für die Flutopfer.",
+      "uebersetzung": {
+        "fa": "شهردار فراخوانی برای کمک به سیل‌زدگان منتشر کرد.",
+        "en": "The mayor launched an appeal for help for the flood victims."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Auf den Aufruf der Gewerkschaft hin traten Tausende Menschen in den Streik.",
+      "uebersetzung": {
+        "fa": "به فراخوان اتحادیه، هزاران نفر دست به اعتصاب زدند.",
+        "en": "In response to the union’s call, thousands of people went on strike."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Appell",
+      "uebersetzung": {
+        "fa": "درخواست",
+        "en": "appeal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Spendenaufruf",
+      "uebersetzung": {
+        "fa": "فراخوان کمک مالی",
+        "en": "appeal for donations"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "auf- (بر) + rufen (صدا زدن)",
+    "en": "auf- (up) + rufen (to call)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Aufrufe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Aufruf zu + Dat",
+        "beispiel": "Der Aufruf zu einer Demonstration wurde im Internet verbreitet.",
+        "uebersetzung": {
+          "fa": "فراخوان تظاهرات در اینترنت پخش شد.",
+          "en": "The call for a demonstration was spread on the internet."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Aufruf",
+    "woerter": [
+      {
+        "wort": "die Spende",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کمک مالی، اعانه، اهدا",
+          "en": "donation"
+        },
+        "id_ref": "nomen_spende"
+      },
+      {
+        "wort": "der Streik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اعتصاب",
+          "en": "strike"
+        },
+        "id_ref": "nomen_streik"
+      },
+      {
+        "wort": "die Petition",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دادخواست جمعی، عریضه",
+          "en": "petition"
+        },
+        "id_ref": "nomen_petition"
+      },
+      {
+        "wort": "die Hilfe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کمک",
+          "en": "help"
+        },
+        "id_ref": "nomen_hilfe"
+      },
+      {
+        "wort": "die Gewerkschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اتحادیه‌ی کارگری، سندیکا",
+          "en": "trade union, labor union"
+        },
+        "id_ref": "nomen_gewerkschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
