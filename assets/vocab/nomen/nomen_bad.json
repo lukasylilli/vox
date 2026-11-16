@@ -1,0 +1,133 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bad",
+  "wort": "das Bad",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حمام",
+      "اتاق حمام"
+    ],
+    "en": [
+      "bathroom",
+      "bath (room)"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Wohnen"
+  ],
+  "ipa": "baːt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Das Bad ist neben dem Schlafzimmer.",
+      "uebersetzung": {
+        "fa": "حمام کنار اتاق خواب است.",
+        "en": "The bathroom is next to the bedroom."
+      }
+    },
+    {
+      "niveau": "A2",
+      "satz": "Unsere Wohnung hat ein Bad mit Fenster.",
+      "uebersetzung": {
+        "fa": "آپارتمان ما حمامی با پنجره دارد.",
+        "en": "Our flat has a bathroom with a window."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Badezimmer",
+      "uebersetzung": {
+        "fa": "حمام",
+        "en": "bathroom"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Gästebad",
+      "uebersetzung": {
+        "fa": "حمام مهمان",
+        "en": "guest bathroom"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از ژرمنی باستان *badą",
+    "en": "from Proto-Germanic *badą"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Bäder",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Bad",
+    "woerter": [
+      {
+        "wort": "das Badezimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حمام (اتاق)، سرویس بهداشتی",
+          "en": "bathroom"
+        },
+        "id_ref": "nomen_badezimmer"
+      },
+      {
+        "wort": "die Dusche",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "دوش (حمام)",
+          "en": "shower"
+        },
+        "id_ref": "nomen_dusche"
+      },
+      {
+        "wort": "die Wanne",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وان، تشت",
+          "en": "tub, bathtub"
+        },
+        "id_ref": "nomen_wanne"
+      },
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان، خانه",
+          "en": "flat, apartment"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "die Heizung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گرمایش، شوفاژ",
+          "en": "heating, radiator"
+        },
+        "id_ref": "nomen_heizung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

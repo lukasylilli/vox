@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bahn",
+  "wort": "die Bahn",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "راه‌آهن",
+      "قطار"
+    ],
+    "en": [
+      "railway",
+      "train"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr"
+  ],
+  "ipa": "baːn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Ich fahre mit der Bahn zur Arbeit.",
+      "uebersetzung": {
+        "fa": "من با قطار به سر کار می‌روم.",
+        "en": "I go to work by train."
+      }
+    },
+    {
+      "niveau": "A2",
+      "satz": "Die Bahn hat heute Verspätung.",
+      "uebersetzung": {
+        "fa": "قطار امروز تأخیر دارد.",
+        "en": "The train is late today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Zug",
+      "uebersetzung": {
+        "fa": "قطار",
+        "en": "train"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Straßenbahn",
+      "uebersetzung": {
+        "fa": "تراموا",
+        "en": "tram"
+      }
+    },
+    {
+      "wort": "die Bahnfahrt",
+      "uebersetzung": {
+        "fa": "سفر با قطار",
+        "en": "train journey"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از ژرمنی میانه banen (راه)",
+    "en": "from Middle High German banen (path)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Bahnen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "mit der Bahn fahren",
+        "beispiel": "Wir fahren lieber mit der Bahn als mit dem Auto.",
+        "uebersetzung": {
+          "fa": "ما قطار را به ماشین ترجیح می‌دهیم.",
+          "en": "We prefer going by train to going by car."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Bahn",
+    "woerter": [
+      {
+        "wort": "der Bahnhof",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "ایستگاه قطار، ایستگاه راه‌آهن",
+          "en": "railway station, train station"
+        },
+        "id_ref": "nomen_bahnhof"
+      },
+      {
+        "wort": "das Gleis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "سکو (راه‌آهن)، ریل",
+          "en": "platform, track"
+        },
+        "id_ref": "nomen_gleis"
+      },
+      {
+        "wort": "die Fahrkarte",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_fahrkarte"
+      },
+      {
+        "wort": "das Ticket",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بلیت",
+          "en": "ticket"
+        },
+        "id_ref": "nomen_ticket"
+      },
+      {
+        "wort": "die Notbremse",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ترمز اضطراری",
+          "en": "emergency brake"
+        },
+        "id_ref": "nomen_notbremse"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
