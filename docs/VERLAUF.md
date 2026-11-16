@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۱۲)** — ۲۰ کلمه‌ی جدول ۲ (Amtssprache … Angel) ⇒ ۴۳ کارت؛ ۱۸ کارت قبلی لینک شبکه به معنی درست گرفتند (۱۲ اصطلاح آناتومی ⇒ Anatomie² «ساختمان بدن»، Anerkennung² «تأیید رسمی»، Anbau²). Alster، Alte، Angeklagte، Angestellte (آرتیکل متفاوت / اسم‌صفت) رد شدند. آرشیو ۲۰٬۹۱۸؛ باز: ۲٬۸۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۱)** — ۲۰ کلمه‌ی جدول ۲ (Ahnung … Amt؛ بدون Alster و Alte) ⇒ ۴۱ کارت؛ ۲۵ کارت قبلی لینک شبکه به معنی درست گرفتند (بیشتر Amt² «سمت»، Akzent²/³، Amerika²). Aktuar² (دبیر دادگاه، قدیمی)، Altertum² (Altertümer، فقط جمع) و Ampel³ (Ampelkoalition) ساخته نشد. آرشیو ۲۰٬۸۷۵؛ باز: ۲٬۸۳۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-15 (چهار حالت — م۶، دور ۱۰)** — ۲۰ کلمه‌ی بعدی جدول ۲ (Abteilung … Aggregat) ⇒ ۴۷ کارت؛ ۹ کارت قبلی لینک شبکه به معنی درست گرفتند (Achse² «محور» برای axial، koaxial، symmetrisch، Drehung، Koordinate، rotieren …؛ Gegentor ⇒ Abwehr²). Aggregat: معنی دوم نامطمئن ⇒ ساخته نشد. آرشیو ۲۰٬۸۳۴؛ باز: ۲٬۸۵۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-15 (چهار حالت — م۶، دور ۹)** — ۲۰ کلمه‌ی بعدی جدول ۲ (Ableitung … Abstufung) ⇒ ۴۹ کارت؛ ۱۸ کارت قبلی به معنی درست وصل شدند (بیشتر Abschluss² «مدرک»). معنی‌های نامطمئن ساخته نشد (Abschwung: Turnen · Abstrich: Schreibstrich). آرشیو ۲۰٬۷۸۷؛ باز: ۲٬۸۷۴. جزئیات: `docs/WORTRUNDEN.md`.
