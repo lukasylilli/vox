@@ -6,6 +6,8 @@
 
 ## جلسه‌های تازه (از 2026-10-31؛ جدیدترین بالا)
 
+> 🗓️ **2026-11-16 (چهار حالت — م۶، دور ۲۶):** — Lukas: «ادامه بده». **۲۰ کلمه‌ی جدول ۲** (Dynamik … Einheit؛ Ehrenvorsitzender شکل قوی بدون کارت) ⇒ **۴۶ کارت** ⇒ آرشیو **۲۱٬۵۶۳**. dry-run ۰/۰. معنی‌ها: Dynamik ۳ · Ebene ۳ · Eckpunkt ۲ · Eckstein ۲ (Eckstein² «veraltend») · Ehrenrunde ۲ · Eichel ۳ (میوه / حشفه، اصطلاح پزشکی / خال ورق) · Eidgenosse ۲ · Eidgenossenschaft ۲ · Eigentor ۲ · Einberufung ۲ · Einblick ۲ · Einbringung ۲ · Einbruch ۳ · Einer ۲ · Einfall ۳ · Eingabe ۲ · Eingang ۲ · Eingriff ۲ · Einheit ۴ (وحدت / واحد / یگان / وحدت آلمان)؛ حالت ۴: Ehrenvorsitzende.
+
 > 🗓️ **2026-11-16 (چهار حالت — م۶، دور ۲۵):** — Lukas: «ادامه بده». **۲۰ کلمه‌ی جدول ۲** (Doppelpass … Duldung؛ Drogentoter شکل قوی بدون کارت) ⇒ **۴۸ کارت** ⇒ آرشیو **۲۱٬۵۱۷**. dry-run ۰/۰. معنی‌ها: Doppelpass ۲ · Doppelschlag ۲ · Dorado ۲ · Dorn ۳ · Dose ۳ · Double ۳ · Drachen ۳ (Drachen³ با anstoessig «abwertend») · Drama ۲ · Dramatik ۲ · Dramaturgie ۳ · Dreh ۳ · Dreher ۲ · Drehkreuz ۲ · Drehscheibe ۳ · Dressur ۲ · Droge ۳ · Drucker ۲ · Dschihad ۲ · Duktus ۲ · Duldung ۲. wortnetz فقط به کارت‌های موجود غیر کنار گذاشته.
 
 > 🗓️ **2026-11-16 (چهار حالت — م۶، دور ۲۴):** — Lukas: «ادامه بده». **۲۰ کلمه‌ی جدول ۲** (Behandlung … Doppelpack) ⇒ **۴۳ کارت** ⇒ آرشیو **۲۱٬۴۶۹**. یک بسته با `--teil daten`، dry-run ۰/۰. معنی‌ها: Behandlung ۳ · Beherrschung ۳ · Behinderung ۲ · Beifall ۲ · Beigeschmack ۲ · Beihilfe ۲ · Beilage ۲ · Beirat ۲ · Beistand ۲ · Beitrag ۳ (سهم / حق عضویت / مقاله) · Bekanntschaft ۲ · Bekenntnis ۲ · Belag ۳ · Belang ۲ · Belastung ۳ · Belegung ۲ · Doppeldecker ۲ · Doppelpack ۲؛ حالت ۴: Behinderte، Beigeordnete. wortnetz فقط به کارت‌های موجود غیر کنار گذاشته (کلمه‌های پرکاربرد هنوز ساخته‌نشده مثل Thema، Umgang جایگزین شدند).
