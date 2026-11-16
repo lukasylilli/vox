@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "nomen_aussteller_2",
+  "wort": "der Aussteller",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "صادرکننده‌ی سند",
+      "مرجع صدور"
+    ],
+    "en": [
+      "issuer (of a document)",
+      "drawer"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht",
+    "Verwaltung"
+  ],
+  "ipa": "ˈaʊ̯sˌʃtɛlɐ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Aussteller des Zeugnisses ist die Schule.",
+      "uebersetzung": {
+        "fa": "صادرکننده‌ی کارنامه مدرسه است.",
+        "en": "The issuer of the certificate is the school."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Der Aussteller des Schecks muss unterschreiben.",
+      "uebersetzung": {
+        "fa": "صادرکننده‌ی چک باید امضا کند.",
+        "en": "The drawer of the cheque must sign."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "aus- (بیرون) + stellen (گذاشتن؛ صادر کردن) + -er",
+    "en": "aus- (out) + stellen (to place; to issue) + -er"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Aussteller",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Aussteller",
+    "woerter": [
+      {
+        "wort": "die Urkunde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سند رسمی، گواهی‌نامه",
+          "en": "certificate, official document"
+        },
+        "id_ref": "nomen_urkunde"
+      },
+      {
+        "wort": "der Ausweis",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کارت شناسایی، کارت",
+          "en": "ID card, identity card"
+        },
+        "id_ref": "nomen_ausweis"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد، پیمان",
+          "en": "contract, treaty"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "die Scheckkarte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارت بانکی",
+          "en": "bank card, cheque card"
+        },
+        "id_ref": "nomen_scheckkarte"
+      },
+      {
+        "wort": "das Bankkonto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "bank account"
+        },
+        "id_ref": "nomen_bankkonto"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

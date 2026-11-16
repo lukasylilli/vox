@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_aussage_2",
+  "wort": "die Aussage",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شهادت",
+      "اظهارات در دادگاه"
+    ],
+    "en": [
+      "testimony",
+      "witness statement"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "ˈaʊ̯sˌzaːɡə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Zeugin machte ihre Aussage bei der Polizei.",
+      "uebersetzung": {
+        "fa": "شاهد شهادتش را نزد پلیس داد.",
+        "en": "The witness gave her statement to the police."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Seine Aussage vor Gericht entlastete den Angeklagten.",
+      "uebersetzung": {
+        "fa": "شهادت او در دادگاه متهم را تبرئه کرد.",
+        "en": "His testimony in court exonerated the accused."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Zeugenaussage",
+      "uebersetzung": {
+        "fa": "شهادت",
+        "en": "testimony"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Zeugenaussage",
+      "uebersetzung": {
+        "fa": "شهادت شاهد",
+        "en": "witness statement"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "aus- (بیرون) + sagen (گفتن)",
+    "en": "aus- (out) + sagen (to say)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Aussagen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Aussage machen",
+        "beispiel": "Der Zeuge macht vor Gericht eine Aussage.",
+        "uebersetzung": {
+          "fa": "شاهد در دادگاه شهادت می‌دهد.",
+          "en": "The witness gives testimony in court."
+        }
+      },
+      {
+        "verbindung": "die Aussage verweigern",
+        "beispiel": "Der Verdächtige verweigert die Aussage.",
+        "uebersetzung": {
+          "fa": "مظنون از شهادت دادن خودداری می‌کند.",
+          "en": "The suspect refuses to testify."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Aussage",
+    "woerter": [
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "die Zeugenaussage",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شهادت، اظهارات شاهد",
+          "en": "testimony, witness statement"
+        },
+        "id_ref": "nomen_zeugenaussage"
+      },
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "die Gerichtsverhandlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "جلسه‌ی دادگاه",
+          "en": "court hearing, trial"
+        },
+        "id_ref": "nomen_gerichtsverhandlung"
+      },
+      {
+        "wort": "der Kriminalfall",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پرونده‌ی جنایی",
+          "en": "criminal case"
+        },
+        "id_ref": "nomen_kriminalfall"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
