@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "nomen_argument",
+  "wort": "das Argument",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "استدلال",
+      "دلیل"
+    ],
+    "en": [
+      "argument",
+      "reason"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Diskussion",
+    "Schule"
+  ],
+  "ipa": "aʁɡuˈmɛnt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das ist kein gutes Argument.",
+      "uebersetzung": {
+        "fa": "این استدلال خوبی نیست.",
+        "en": "That is not a good argument."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Sie brachte ein überzeugendes Argument gegen den Plan vor.",
+      "uebersetzung": {
+        "fa": "او استدلال متقاعدکننده‌ای علیه طرح ارائه کرد.",
+        "en": "She put forward a convincing argument against the plan."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Begründung",
+      "uebersetzung": {
+        "fa": "دلیل",
+        "en": "reason"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین argumentum",
+    "en": "from Latin argumentum"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Argumente",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "das Argument für/gegen + Akk",
+        "beispiel": "Es gibt viele Argumente für diesen Weg.",
+        "uebersetzung": {
+          "fa": "برای این راه استدلال‌های بسیاری هست.",
+          "en": "There are many arguments for this route."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Argument vorbringen",
+        "beispiel": "Er brachte ein starkes Argument vor.",
+        "uebersetzung": {
+          "fa": "او استدلال قوی‌ای مطرح کرد.",
+          "en": "He put forward a strong argument."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Argument",
+    "woerter": [
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلیل، مدرک",
+          "en": "proof, evidence"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "die Behauptung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ادعا، اظهار",
+          "en": "claim, assertion"
+        },
+        "id_ref": "nomen_behauptung"
+      },
+      {
+        "wort": "die Diskussion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بحث، گفت‌وگو",
+          "en": "discussion"
+        },
+        "id_ref": "nomen_diskussion"
+      },
+      {
+        "wort": "die Debatte",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بحث، مناظره",
+          "en": "debate"
+        },
+        "id_ref": "nomen_debatte"
+      },
+      {
+        "wort": "der Streit",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دعوا؛ اختلاف",
+          "en": "argument; quarrel; dispute"
+        },
+        "id_ref": "nomen_streit"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
