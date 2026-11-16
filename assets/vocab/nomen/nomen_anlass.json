@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anlass",
+  "wort": "der Anlass",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "انگیزه",
+      "دلیل",
+      "سبب"
+    ],
+    "en": [
+      "cause",
+      "reason",
+      "grounds"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Alltag",
+    "Gründe"
+  ],
+  "ipa": "ˈanlas",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Es gibt keinen Anlass zur Sorge.",
+      "uebersetzung": {
+        "fa": "دلیلی برای نگرانی وجود ندارد.",
+        "en": "There is no cause for concern."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Streit hatte einen nichtigen Anlass, aber er wurde schnell sehr ernst.",
+      "uebersetzung": {
+        "fa": "مشاجره انگیزه‌ی پیش‌پاافتاده‌ای داشت، اما خیلی زود جدی شد.",
+        "en": "The argument had a trivial cause, but it quickly became very serious."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Grund",
+      "uebersetzung": {
+        "fa": "دلیل",
+        "en": "reason"
+      }
+    },
+    {
+      "wort": "die Ursache",
+      "uebersetzung": {
+        "fa": "علت",
+        "en": "cause"
+      }
+    },
+    {
+      "wort": "der Auslöser",
+      "uebersetzung": {
+        "fa": "عامل آغازگر",
+        "en": "trigger"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Anlässe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Anlass zu + Dat",
+        "beispiel": "Sein Verhalten gab Anlass zur Kritik.",
+        "uebersetzung": {
+          "fa": "رفتار او سبب انتقاد شد.",
+          "en": "His behaviour gave cause for criticism."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Anlass geben",
+        "beispiel": "Die Zahlen geben keinen Anlass zur Sorge.",
+        "uebersetzung": {
+          "fa": "این اعداد دلیلی برای نگرانی نمی‌دهند.",
+          "en": "The figures give no cause for concern."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Anlass",
+    "woerter": [
+      {
+        "wort": "die Ursache",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "علت، دلیل",
+          "en": "cause, reason"
+        },
+        "id_ref": "nomen_ursache"
+      },
+      {
+        "wort": "das Ereignis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رویداد، اتفاق",
+          "en": "event, occurrence"
+        },
+        "id_ref": "nomen_ereignis"
+      },
+      {
+        "wort": "die Wirkung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اثر، تأثیر",
+          "en": "effect, impact"
+        },
+        "id_ref": "nomen_wirkung"
+      },
+      {
+        "wort": "der Vorwurf",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سرزنش، اتهام",
+          "en": "reproach, accusation"
+        },
+        "id_ref": "nomen_vorwurf"
+      },
+      {
+        "wort": "der Anreiz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انگیزه، مشوق",
+          "en": "incentive, stimulus"
+        },
+        "id_ref": "nomen_anreiz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

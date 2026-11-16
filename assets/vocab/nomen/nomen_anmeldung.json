@@ -1,0 +1,176 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anmeldung",
+  "wort": "die Anmeldung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ثبت‌نام",
+      "اعلام حضور"
+    ],
+    "en": [
+      "registration",
+      "sign-up"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Arbeit",
+    "Büro"
+  ],
+  "ipa": "ˈanmɛldʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Anmeldung für den Kurs ist online möglich.",
+      "uebersetzung": {
+        "fa": "ثبت‌نام برای دوره به‌صورت آنلاین ممکن است.",
+        "en": "Registration for the course is possible online."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne vorherige Anmeldung können Sie leider nicht an der Führung teilnehmen.",
+      "uebersetzung": {
+        "fa": "متأسفانه بدون ثبت‌نام قبلی نمی‌توانید در بازدید راهنمایی‌شده شرکت کنید.",
+        "en": "Unfortunately you cannot take part in the tour without prior registration."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Registrierung",
+      "uebersetzung": {
+        "fa": "ثبت‌نام",
+        "en": "registration"
+      }
+    },
+    {
+      "wort": "die Einschreibung",
+      "uebersetzung": {
+        "fa": "نام‌نویسی",
+        "en": "enrolment"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Abmeldung",
+      "uebersetzung": {
+        "fa": "لغو ثبت‌نام",
+        "en": "cancellation of registration"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Anmeldeformular",
+      "uebersetzung": {
+        "fa": "فرم ثبت‌نام",
+        "en": "registration form"
+      }
+    },
+    {
+      "wort": "der Anmeldeschluss",
+      "uebersetzung": {
+        "fa": "مهلت ثبت‌نام",
+        "en": "registration deadline"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- + melden (اعلام کردن)",
+    "en": "an- + melden (to report)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Anmeldungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Anmeldung zu + Dat",
+        "beispiel": "Die Anmeldung zum Deutschkurs ist bis Freitag möglich.",
+        "uebersetzung": {
+          "fa": "ثبت‌نام در دوره‌ی زبان آلمانی تا جمعه ممکن است.",
+          "en": "Registration for the German course is possible until Friday."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "eine Anmeldung abgeben",
+        "beispiel": "Bitte geben Sie die Anmeldung bis Montag ab.",
+        "uebersetzung": {
+          "fa": "لطفاً ثبت‌نام را تا دوشنبه تحویل دهید.",
+          "en": "Please hand in your registration by Monday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Anmeldung",
+    "woerter": [
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرم، برگه‌ی درخواست",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "der Termin",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "وقت (ملاقات)، قرار",
+          "en": "appointment, date"
+        },
+        "id_ref": "nomen_termin"
+      },
+      {
+        "wort": "das Anmeldeformular",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فرم ثبت‌نام",
+          "en": "registration form"
+        },
+        "id_ref": "nomen_anmeldeformular"
+      },
+      {
+        "wort": "der Anmeldeschluss",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهلت ثبت‌نام",
+          "en": "registration deadline"
+        },
+        "id_ref": "nomen_anmeldeschluss"
+      },
+      {
+        "wort": "die Eintragung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت (رسمی)",
+          "en": "registration, entry"
+        },
+        "id_ref": "nomen_eintragung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

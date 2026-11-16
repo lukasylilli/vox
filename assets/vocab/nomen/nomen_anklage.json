@@ -1,0 +1,182 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anklage",
+  "wort": "die Anklage",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "کیفرخواست",
+      "اتهام (در دادگاه)"
+    ],
+    "en": [
+      "indictment",
+      "charge"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Recht",
+    "Gericht"
+  ],
+  "ipa": "ˈanklaːɡə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Anklage ist sehr ernst.",
+      "uebersetzung": {
+        "fa": "اتهام بسیار جدی است.",
+        "en": "The charge is very serious."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Staatsanwältin hat Anklage wegen Betrugs erhoben, weil die Beweise eindeutig waren.",
+      "uebersetzung": {
+        "fa": "دادستان به دلیل کلاهبرداری کیفرخواست داد، چون مدارک روشن بود.",
+        "en": "The public prosecutor brought charges of fraud because the evidence was clear."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Beschuldigung",
+      "uebersetzung": {
+        "fa": "اتهام",
+        "en": "accusation"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Freispruch",
+      "uebersetzung": {
+        "fa": "تبرئه",
+        "en": "acquittal"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "die Anklageschrift",
+      "uebersetzung": {
+        "fa": "متن کیفرخواست",
+        "en": "indictment document"
+      }
+    },
+    {
+      "wort": "die Mordanklage",
+      "uebersetzung": {
+        "fa": "کیفرخواست قتل",
+        "en": "murder charge"
+      }
+    },
+    {
+      "wort": "die Anklageerhebung",
+      "uebersetzung": {
+        "fa": "طرح کیفرخواست",
+        "en": "filing of charges"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- (علیه) + klagen (شکایت کردن)",
+    "en": "an- (against) + klagen (to complain, to sue)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Anklagen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Anklage gegen + Akk",
+        "beispiel": "Die Anklage gegen den Direktor wurde gestern verlesen.",
+        "uebersetzung": {
+          "fa": "کیفرخواست علیه مدیر دیروز قرائت شد.",
+          "en": "The indictment against the director was read out yesterday."
+        }
+      },
+      {
+        "muster": "die Anklage wegen + Gen",
+        "beispiel": "Die Anklage wegen Körperverletzung wurde fallen gelassen.",
+        "uebersetzung": {
+          "fa": "اتهام ضرب‌وجرح پس گرفته شد.",
+          "en": "The charge of assault was dropped."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Anklage erheben",
+        "beispiel": "Die Staatsanwaltschaft erhebt Anklage gegen den Täter.",
+        "uebersetzung": {
+          "fa": "دادستانی علیه مجرم کیفرخواست می‌دهد.",
+          "en": "The prosecution files charges against the offender."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Anklage",
+    "woerter": [
+      {
+        "wort": "die Strafe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجازات؛ جریمه",
+          "en": "punishment; penalty"
+        },
+        "id_ref": "nomen_strafe"
+      },
+      {
+        "wort": "der Zeuge",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شاهد",
+          "en": "witness"
+        },
+        "id_ref": "nomen_zeuge"
+      },
+      {
+        "wort": "der Richter",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قاضی",
+          "en": "judge"
+        },
+        "id_ref": "nomen_richter"
+      },
+      {
+        "wort": "der Beweis",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دلیل، مدرک",
+          "en": "proof, evidence"
+        },
+        "id_ref": "nomen_beweis"
+      },
+      {
+        "wort": "der Staatsanwalt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دادستان",
+          "en": "public prosecutor"
+        },
+        "id_ref": "nomen_staatsanwalt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
