@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fax",
+  "wort": "das Fax",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دستگاه فاکس",
+      "فکس"
+    ],
+    "en": [
+      "fax machine",
+      "fax"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Arbeit",
+    "Kommunikation"
+  ],
+  "ipa": "faks",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wir haben im Büro noch ein Fax.",
+      "uebersetzung": {
+        "fa": "ما در اداره هنوز یک دستگاه فاکس داریم.",
+        "en": "We still have a fax machine in the office."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Fax ist kaputt, deshalb schicke ich lieber eine E-Mail.",
+      "uebersetzung": {
+        "fa": "دستگاه فاکس خراب است، برای همین ترجیح می‌دهم ایمیل بفرستم.",
+        "en": "The fax machine is broken, so I would rather send an email."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Faxgerät",
+      "uebersetzung": {
+        "fa": "دستگاه فاکس",
+        "en": "fax machine"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "کوتاه‌شده‌ی Telefax",
+    "en": "short for Telefax"
+  },
+  "details": {
+    "genus": "das",
+    "plural": "die Faxe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Telefon",
+    "woerter": [
+      {
+        "wort": "das Telefon",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تلفن",
+          "en": "telephone"
+        },
+        "id_ref": "nomen_telefon"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "der Kopierer",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه فتوکپی",
+          "en": "copier"
+        },
+        "id_ref": "nomen_kopierer"
+      },
+      {
+        "wort": "die Version",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسخه",
+          "en": "version"
+        },
+        "id_ref": "nomen_version"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

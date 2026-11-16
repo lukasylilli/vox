@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۳۳)** — ۲۰ کلمه‌ی جدول ۲ (Fahrwasser … Feige) ⇒ ۴۴ کارت؛ Familiendrama/-geschichte/-tag/-verband ساخته نشد (نامطمئن). ۲۴ ارجاع قدیمی wortnetz به معنی درست وصل شد (Farbe، Fassung، Feder، Falte، Falle). آرشیو ۲۱٬۸۹۰؛ باز: ۲٬۳۹۳. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۲)** — ۲۰ کلمه‌ی جدول ۲ (Exodus … Fahrverhalten) ⇒ ۴۳ کارت؛ Exote ساخته نشد (نامطمئن). ۲۲ ارجاع قدیمی wortnetz به معنی درست وصل شد (Fach ۱۹، Fahrverhalten، Exzellenz، Fachbereich). آرشیو ۲۱٬۸۴۶؛ باز: ۲٬۴۱۳. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۱)** — ۲۱ کلمه‌ی جدول ۲ (Erstattung … Existenz) ⇒ ۴۷ کارت؛ Euroland، Exekutivbeamter، Exhibitionist ساخته نشد. ۱۲ ارجاع قدیمی wortnetz اصلاح شد. آرشیو ۲۱٬۸۰۳؛ باز: ۲٬۴۳۳. جزئیات: docs/WORTRUNDEN.md.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۰)** — ۲۰ کلمه‌ی جدول ۲ (Erfindung … Erstarrung) ⇒ ۴۷ کارت؛ معنی جنسی Erregung عمداً ساخته نشد. آرشیو ۲۱٬۷۵۶؛ باز: ۲٬۴۵۴. جزئیات: `docs/WORTRUNDEN.md`.

@@ -1,0 +1,129 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fehlanzeige",
+  "wort": "die Fehlanzeige",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "گزارش «موردی نیست»",
+      "اعلام نبود چیزی"
+    ],
+    "en": [
+      "nil return",
+      "report that nothing is available"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Verwaltung",
+    "Arbeit"
+  ],
+  "ipa": "ˈfeːlʔanˌtsaɪ̯ɡə",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Behörde meldete Fehlanzeige: Es gab keine neuen Fälle.",
+      "uebersetzung": {
+        "fa": "اداره گزارش «موردی نیست» داد: هیچ مورد تازه‌ای وجود نداشت.",
+        "en": "The authority reported a nil return: there were no new cases."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Bei der Kontrolle erstattete der Betrieb Fehlanzeige.",
+      "uebersetzung": {
+        "fa": "در بازرسی، کارگاه اعلام کرد چیزی برای گزارش ندارد.",
+        "en": "During the inspection the company reported nothing to declare."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Fehl- (نبود) + Anzeige (اعلام)",
+    "en": "Fehl- (lack) + Anzeige (report)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Fehlanzeigen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Fehlanzeige melden",
+        "beispiel": "Die Schule muss Fehlanzeige melden.",
+        "uebersetzung": {
+          "fa": "مدرسه باید اعلام کند موردی ندارد.",
+          "en": "The school has to report a nil return."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Meldung",
+    "woerter": [
+      {
+        "wort": "die Antwort",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پاسخ",
+          "en": "answer"
+        },
+        "id_ref": "nomen_antwort"
+      },
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "der Brief",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "نامه",
+          "en": "letter"
+        },
+        "id_ref": "nomen_brief"
+      },
+      {
+        "wort": "das Ergebnis",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نتیجه",
+          "en": "result"
+        },
+        "id_ref": "nomen_ergebnis"
+      },
+      {
+        "wort": "die Gemeindeverwaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "اداره‌ی شهرداری",
+          "en": "municipal administration"
+        },
+        "id_ref": "nomen_gemeindeverwaltung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
