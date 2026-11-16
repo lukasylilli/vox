@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "nomen_antritt",
+  "wort": "der Antritt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شروع (سفر، مقام)",
+      "آغاز"
+    ],
+    "en": [
+      "start (of journey, office)",
+      "taking up"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Reise"
+  ],
+  "ipa": "ˈantʁɪt",
+  "anmerkung": "Meist ohne Plural; oft in Zusammensetzungen: «Amtsantritt», «Reiseantritt».",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Vor Antritt der Reise prüfe ich alle Papiere.",
+      "uebersetzung": {
+        "fa": "پیش از شروع سفر همه‌ی مدارک را بررسی می‌کنم.",
+        "en": "Before starting the journey I check all the papers."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Mit dem Antritt des neuen Amtes begann eine neue Phase.",
+      "uebersetzung": {
+        "fa": "با آغاز مقام جدید مرحله‌ی تازه‌ای شروع شد.",
+        "en": "With the taking up of the new office a new phase began."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Beginn",
+      "uebersetzung": {
+        "fa": "آغاز",
+        "en": "beginning"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Amtsantritt",
+      "uebersetzung": {
+        "fa": "آغاز به کار در مقام",
+        "en": "taking office"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- + treten (قدم گذاشتن)",
+    "en": "an- + treten (to step)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "vor/bei Antritt + Gen",
+        "beispiel": "Bei Antritt der Stelle unterschreibt man den Vertrag.",
+        "uebersetzung": {
+          "fa": "هنگام شروع کار قرارداد را امضا می‌کنند.",
+          "en": "On taking up the job one signs the contract."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Antritt",
+    "woerter": [
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "journey, trip"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "der Beginn",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آغاز، شروع",
+          "en": "beginning, start"
+        },
+        "id_ref": "nomen_beginn"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اداره، دفتر دولتی",
+          "en": "office, authority"
+        },
+        "id_ref": "nomen_amt"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مقام، سمت",
+          "en": "office (position), post"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_amt_2"
+      },
+      {
+        "wort": "der Besucher",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بازدیدکننده، ملاقات‌کننده",
+          "en": "visitor, guest"
+        },
+        "id_ref": "nomen_besucher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

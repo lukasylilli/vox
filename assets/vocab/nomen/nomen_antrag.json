@@ -1,0 +1,161 @@
+{
+  "schema": "3.0",
+  "id": "nomen_antrag",
+  "wort": "der Antrag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "درخواست (رسمی)",
+      "تقاضانامه"
+    ],
+    "en": [
+      "application",
+      "request"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Behörde",
+    "Recht"
+  ],
+  "ipa": "ˈantʁaːk",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich stelle einen Antrag auf ein Visum.",
+      "uebersetzung": {
+        "fa": "من درخواست ویزا می‌دهم.",
+        "en": "I am submitting an application for a visa."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Antrag wurde wegen fehlender Unterlagen abgelehnt.",
+      "uebersetzung": {
+        "fa": "درخواست به‌خاطر نبود مدارک رد شد.",
+        "en": "The application was rejected because of missing documents."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Gesuch",
+      "uebersetzung": {
+        "fa": "درخواست",
+        "en": "petition"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Visumantrag",
+      "uebersetzung": {
+        "fa": "درخواست ویزا",
+        "en": "visa application"
+      }
+    },
+    {
+      "wort": "der Förderantrag",
+      "uebersetzung": {
+        "fa": "درخواست کمک مالی",
+        "en": "funding application"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- + tragen (پیش بردن)",
+    "en": "an- + tragen (to bring forward)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Anträge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Antrag auf + Akk",
+        "beispiel": "Der Antrag auf Wohngeld liegt beim Amt.",
+        "uebersetzung": {
+          "fa": "درخواست کمک‌هزینه‌ی مسکن نزد اداره است.",
+          "en": "The application for housing benefit is with the office."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Antrag stellen",
+        "beispiel": "Du musst bis Freitag einen Antrag stellen.",
+        "uebersetzung": {
+          "fa": "باید تا جمعه درخواست بدهی.",
+          "en": "You must submit an application by Friday."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Antrag",
+    "woerter": [
+      {
+        "wort": "das Formular",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فرم، برگه‌ی درخواست",
+          "en": "form"
+        },
+        "id_ref": "nomen_formular"
+      },
+      {
+        "wort": "das Gesuch",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درخواست (رسمی)، عرض‌حال",
+          "en": "request, petition"
+        },
+        "id_ref": "nomen_gesuch"
+      },
+      {
+        "wort": "die Genehmigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجوز، اجازه",
+          "en": "permission, approval"
+        },
+        "id_ref": "nomen_genehmigung"
+      },
+      {
+        "wort": "der Antragsteller",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "متقاضی، درخواست‌دهنده",
+          "en": "applicant"
+        },
+        "id_ref": "nomen_antragsteller"
+      },
+      {
+        "wort": "das Amt",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "اداره، دفتر دولتی",
+          "en": "office, authority"
+        },
+        "id_ref": "nomen_amt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

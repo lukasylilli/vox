@@ -1,0 +1,159 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anschlag",
+  "wort": "der Anschlag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سوءقصد",
+      "حمله‌ی تروریستی"
+    ],
+    "en": [
+      "assassination attempt, attack",
+      "terrorist attack"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gewalt",
+    "Nachrichten"
+  ],
+  "ipa": "ˈanʃlaːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Anschlag auf den Zug war schrecklich.",
+      "uebersetzung": {
+        "fa": "حمله به قطار وحشتناک بود.",
+        "en": "The attack on the train was terrible."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Anschlag wurde die Sicherheit am Flughafen verstärkt.",
+      "uebersetzung": {
+        "fa": "پس از حمله، امنیت فرودگاه تقویت شد.",
+        "en": "After the attack, security at the airport was increased."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Attentat",
+      "uebersetzung": {
+        "fa": "سوءقصد",
+        "en": "assassination attempt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Bombenanschlag",
+      "uebersetzung": {
+        "fa": "حمله‌ی بمب‌گذاری",
+        "en": "bomb attack"
+      }
+    },
+    {
+      "wort": "der Terroranschlag",
+      "uebersetzung": {
+        "fa": "حمله‌ی تروریستی",
+        "en": "terrorist attack"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- (به سوی) + schlagen (زدن)",
+    "en": "an- (toward) + schlagen (to strike)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Anschläge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Anschlag auf + Akk",
+        "beispiel": "Der Anschlag auf die Botschaft wurde verhindert.",
+        "uebersetzung": {
+          "fa": "حمله به سفارت خنثی شد.",
+          "en": "The attack on the embassy was prevented."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Anschlag verüben",
+        "beispiel": "Die Täter wollten einen Anschlag verüben.",
+        "uebersetzung": {
+          "fa": "مجرمان می‌خواستند حمله‌ای انجام دهند.",
+          "en": "The perpetrators wanted to carry out an attack."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Anschlag",
+    "woerter": [
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "die Bombe",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بمب",
+          "en": "bomb"
+        },
+        "id_ref": "nomen_bombe"
+      },
+      {
+        "wort": "der Angriff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حمله، هجوم",
+          "en": "attack, assault"
+        },
+        "id_ref": "nomen_angriff"
+      },
+      {
+        "wort": "der Angreifer",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مهاجم",
+          "en": "attacker, striker"
+        },
+        "id_ref": "nomen_angreifer"
+      },
+      {
+        "wort": "das Attentat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سوءقصد، ترور",
+          "en": "assassination, assassination attempt"
+        },
+        "id_ref": "nomen_attentat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

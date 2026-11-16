@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_anteil",
+  "wort": "der Anteil",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سهم",
+      "بخش"
+    ],
+    "en": [
+      "share",
+      "portion"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Mathe"
+  ],
+  "ipa": "ˈantaɪl",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Mein Anteil beträgt zehn Euro.",
+      "uebersetzung": {
+        "fa": "سهم من ده یورو است.",
+        "en": "My share is ten euros."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Anteil der Frauen in der Firma liegt bei vierzig Prozent.",
+      "uebersetzung": {
+        "fa": "سهم زنان در شرکت چهل درصد است.",
+        "en": "The proportion of women in the company is forty percent."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Teil",
+      "uebersetzung": {
+        "fa": "بخش",
+        "en": "part"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Frauenanteil",
+      "uebersetzung": {
+        "fa": "سهم زنان",
+        "en": "proportion of women"
+      }
+    },
+    {
+      "wort": "der Marktanteil",
+      "uebersetzung": {
+        "fa": "سهم بازار",
+        "en": "market share"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- + Teil (بخش)",
+    "en": "an- + Teil (part)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Anteile",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Anteil an + Dat",
+        "beispiel": "Der Anteil an Ökostrom wächst.",
+        "uebersetzung": {
+          "fa": "سهم برق سبز رو به افزایش است.",
+          "en": "The share of green electricity is growing."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Anteil",
+    "woerter": [
+      {
+        "wort": "die Aktie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم (بورس)",
+          "en": "share, stock"
+        },
+        "id_ref": "nomen_aktie"
+      },
+      {
+        "wort": "der Anteilseigner",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سهام‌دار",
+          "en": "shareholder"
+        },
+        "id_ref": "nomen_anteilseigner"
+      },
+      {
+        "wort": "die Mehrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکثریت",
+          "en": "majority"
+        },
+        "id_ref": "nomen_mehrheit"
+      },
+      {
+        "wort": "das Wachstum",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رشد",
+          "en": "growth"
+        },
+        "id_ref": "nomen_wachstum"
+      },
+      {
+        "wort": "die Zunahme",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "افزایش",
+          "en": "increase, growth"
+        },
+        "id_ref": "nomen_zunahme"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

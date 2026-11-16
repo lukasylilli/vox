@@ -1,0 +1,153 @@
+{
+  "schema": "3.0",
+  "id": "nomen_antrag_3",
+  "wort": "der Antrag",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "پیشنهاد (در مجلس، جلسه)",
+      "لایحه"
+    ],
+    "en": [
+      "motion",
+      "proposal (in a meeting)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Politik",
+    "Gesellschaft"
+  ],
+  "ipa": "ˈantʁaːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Die Partei stellt einen Antrag im Parlament.",
+      "uebersetzung": {
+        "fa": "حزب در مجلس پیشنهادی ارائه می‌کند.",
+        "en": "The party submits a motion in parliament."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Antrag auf Änderung des Gesetzes wurde mit großer Mehrheit angenommen.",
+      "uebersetzung": {
+        "fa": "پیشنهاد تغییر قانون با اکثریت بالا پذیرفته شد.",
+        "en": "The motion to amend the law was adopted by a large majority."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Vorschlag",
+      "uebersetzung": {
+        "fa": "پیشنهاد",
+        "en": "proposal"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Änderungsantrag",
+      "uebersetzung": {
+        "fa": "پیشنهاد اصلاحی",
+        "en": "amendment motion"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "an- + tragen (پیش بردن)",
+    "en": "an- + tragen (to bring forward)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Anträge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Antrag auf + Akk",
+        "beispiel": "Der Antrag auf Vertagung wurde abgelehnt.",
+        "uebersetzung": {
+          "fa": "پیشنهاد تعویق رد شد.",
+          "en": "The motion to adjourn was rejected."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "einen Antrag einbringen",
+        "beispiel": "Die Opposition bringt einen Antrag ein.",
+        "uebersetzung": {
+          "fa": "اپوزیسیون پیشنهادی ارائه می‌دهد.",
+          "en": "The opposition tables a motion."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Antrag",
+    "woerter": [
+      {
+        "wort": "das Parlament",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مجلس، پارلمان",
+          "en": "parliament"
+        },
+        "id_ref": "nomen_parlament"
+      },
+      {
+        "wort": "der/die Abgeordnete",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نماینده‌ی مجلس",
+          "en": "member of parliament"
+        },
+        "id_ref": "nomen_abgeordnete"
+      },
+      {
+        "wort": "die Abstimmung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رأی‌گیری، رأی",
+          "en": "vote, ballot"
+        },
+        "id_ref": "nomen_abstimmung"
+      },
+      {
+        "wort": "die Mehrheit",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اکثریت",
+          "en": "majority"
+        },
+        "id_ref": "nomen_mehrheit"
+      },
+      {
+        "wort": "die Abstimmung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "هماهنگی، توافق و تنظیم با دیگران",
+          "en": "coordination, alignment"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_abstimmung_2"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
