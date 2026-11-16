@@ -10,7 +10,7 @@ pubspec.yaml            [x]  — همه dependencies (drift, riverpod, go_router
 analysis_options.yaml   [x]  — lint rules
 PROJECT_MAP.md          [x]  — این فایل («Map»)
 PLAN.md                 [x]  — پلن کامل صفر تا انتشار («Plan»)
-GRAMMATIK_MAP.md        [x]  — نقشه کامل بخش گرامر: کاتالوگ ۹۳ موضوع، ۴ نما،
+GRAMMATIK_MAP.md        [x]  — نقشه کامل بخش گرامر: کاتالوگ ۹۳ موضوع، ۵ نما،
                                Stufenplan G1–G8، جدول Master + Änderungsprotokoll
 test/widget_test.dart   [x]  — smoke test (VoxApp در ProviderScope)
 ```
@@ -468,7 +468,7 @@ widgets/
 ```
 
 #### lib/features/grammatik/ [x]
-> ⭐ نقشه کامل بخش گرامر: **GRAMMATIK_MAP.md** (کاتالوگ ۹۳ موضوع، ۴ نمای مرتب‌سازی، Stufenplan G1–G8)
+> ⭐ نقشه کامل بخش گرامر: **GRAMMATIK_MAP.md** (کاتالوگ ۹۳ موضوع، ۵ نمای مرتب‌سازی (پنجمی: A–Z، G8)، Stufenplan G1–G8)
 ```
 models/
   beispiel_uebungen.dart       [x]  — G7c: BeispielUebungen.erzeuge(lek, Random) — یک تمرین برای هر جمله‌ی مثال،
@@ -486,7 +486,7 @@ models/
                                       + icon/color per Thema، byNiveau/byThema/bySatzglied/lektionen
   grammar_topic.dart           [x]  — GrammarTopicSection + Register (grammarTopics)
 screens/
-  grammatik_home_screen.dart   [x]  — G1 بازسازی شد (2026-07-06): ChoiceChips ۴ نما
+  grammatik_home_screen.dart   [x]  — G1 بازسازی شد (2026-07-06): ChoiceChips ۵ نما (A–Z از G8 2026-11-16؛ دکمه‌ها Wrap)
                                       (Niveau ۶ کارت گرادیانی · Thema ۱۵ · Lektionen مسیر خطی ۱..۸۴
                                       + Vertiefung · Satzglieder ۷) — همه از grammatik_katalog.json
   grammatik_lektion_screen.dart[x]  — G2: رندر Content-JSON یک لکسیون (route /grammatik/lektion/:slug)
@@ -721,8 +721,9 @@ screens/sozialmedien_screen.dart   [x]  — ۴ لینک LukasAlmani (کانال�
 #### lib/features/home/ [x]
 ```
 screens/home_screen.dart           [x]  — SliverAppBar + SliverGrid 3×4، 12 SectionData (Sprechen/Schreiben شرطی با `FeatureFlags.isVisible`)
-screens/search_results_screen.dart [x]  — TextField AppBar، _Highlighted، ListTile results
-controllers/search_controller.dart [x]  — GlobalSearchNotifier، جستجو در words/lessons/items
+screens/search_results_screen.dart [x]  — G8 (2026-11-16): نتیجه‌ها دسته‌بندی‌شده (کلمه‌ها ⇒ گرامر ⇒ هر deck)، ۵ تای اول + «نمایش همه»؛ کلمه‌ها با WortschatzZeile (مثل Alle Wörter)
+controllers/search_controller.dart [x]  — G8: suchIndexProvider (کاتالوگ گرامر + ۱۳ deck + محتوای import‌شده) و suchGruppenProvider
+data/such_index.dart               [x]  — G8: تنها منبع قاعده‌های جست‌وجوی سراسری (SuchBereich، SuchEintrag، رتبه، گروه‌ها) — Dart خالص
 widgets/section_grid_item.dart     [x]  — gradient card + shadow
 ```
 

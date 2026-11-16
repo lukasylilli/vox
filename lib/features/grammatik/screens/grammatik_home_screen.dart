@@ -1,8 +1,9 @@
 // FILE: lib/features/grammatik/screens/grammatik_home_screen.dart
 // DEPS: grammar_catalog_controller.dart, katalog_eintrag_tile.dart, app_routes.dart
 // PURPOSE: Grammatik-Home (Stufe G1, GRAMMATIK_MAP.md) — EIN Katalog,
-//          vier vom Nutzer umschaltbare Ansichten:
-//          Niveau (A1–C2) · Thema · Lektionen (Lernpfad) · Satzglieder
+//          fünf vom Nutzer umschaltbare Ansichten:
+//          Niveau (A1–C2) · Thema · Lektionen (Lernpfad) · Satzglieder ·
+//          A–Z (Glossar, G8 2026-11-16)
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -45,6 +46,8 @@ class GrammatikHomeScreen extends ConsumerWidget {
               GrammatikSortMode.lektionen   => _lektionenView(context, katalog),
               GrammatikSortMode.satzglieder =>
                   _satzgliederView(context, katalog),
+              GrammatikSortMode.alphabetisch =>
+                  _alphabetView(context, katalog),
             },
           ],
         ),
@@ -133,6 +136,35 @@ class GrammatikHomeScreen extends ConsumerWidget {
                 ),
               ))
           .toList();
+
+  // ── Ansicht: A–Z (Glossar) ─────────────────────────────────────────────────
+
+  List<Widget> _alphabetView(BuildContext context, GrammatikKatalog katalog) =>
+      [
+        for (final g in katalog.alphabetisch) ...[
+          Padding(
+            key: ValueKey('glossar_${g.buchstabe}'),
+            padding: const EdgeInsets.fromLTRB(
+                AppSizes.xs, AppSizes.sm, AppSizes.xs, AppSizes.sm),
+            child: Text(
+              g.buchstabe,
+              textDirection: TextDirection.ltr,
+              textAlign: TextAlign.left,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w900,
+                    color: Theme.of(context).colorScheme.primary,
+                  ),
+            ),
+          ),
+          for (final e in g.eintraege)
+            KatalogEintragTile(
+              eintrag     : e,
+              leadingIcon : katalog.thema(e.thema)?.icon ??
+                  Icons.menu_book_rounded,
+              leadingColor: katalog.thema(e.thema)?.color,
+            ),
+        ],
+      ];
 }
 
 // ─── Ansicht-Umschalter ──────────────────────────────────────────────────────
@@ -148,24 +180,26 @@ class _SortModeChips extends StatelessWidget {
     GrammatikSortMode.thema      : 'Thema',
     GrammatikSortMode.lektionen  : 'Lektionen',
     GrammatikSortMode.satzglieder: 'Satzglieder',
+    GrammatikSortMode.alphabetisch: 'A–Z',
   };
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: Row(
-        children: [
-          for (final m in GrammatikSortMode.values) ...[
-            ChoiceChip(
-              label   : Text(_labels[m]!),
-              selected: mode == m,
-              onSelected: (_) => onChanged(m),
-            ),
-            const SizedBox(width: AppSizes.sm),
-          ],
-        ],
-      ),
+    // Wrap statt waagrechtem Rollen (G8, 2026-11-16): mit fünf Ansichten lag
+    // «A–Z» auf dem Handy unsichtbar rechts außerhalb — jetzt stehen alle
+    // Knöpfe sichtbar, notfalls in zwei Zeilen.
+    return Wrap(
+      spacing   : AppSizes.sm,
+      runSpacing: AppSizes.xs,
+      children: [
+        for (final m in GrammatikSortMode.values)
+          ChoiceChip(
+            key     : ValueKey('ansicht_${m.name}'),
+            label   : Text(_labels[m]!),
+            selected: mode == m,
+            onSelected: (_) => onChanged(m),
+          ),
+      ],
     );
   }
 }

@@ -17,22 +17,18 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../core/constants/app_routes.dart';
-import '../../../core/grammatikon/wort_card.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/models/word_model.dart';
 import '../../../core/widgets/filter_chip_bar.dart';
-import '../../../core/widgets/deutsch_text.dart';
 import '../../../core/widgets/vox_search_field.dart';
 import '../../../core/utils/formatters.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
-import '../../vokabular/widgets/wort_actions.dart';
 import '../controllers/word_controller.dart';
 import '../controllers/wortschatz_filter_controller.dart';
-import '../data/such_rang.dart';
 import '../data/such_vorschlag.dart';
 import '../data/wortschatz_filter.dart';
 import 'wortschatz_filter_screen.dart';
-import '../widgets/word_list_item.dart';
+import '../widgets/wortschatz_zeile.dart';
 import '../../../core/widgets/vox_button.dart';
 
 class WortschatzListScreen extends ConsumerStatefulWidget {
@@ -264,42 +260,14 @@ class _WortschatzListScreenState extends ConsumerState<WortschatzListScreen> {
       );
     }
 
-    // Zeile «Gebeugte Form: ging» unter Treffern aus einer Form.
+    // Die Zeile selbst (auch «Gebeugte Form: ging») baut WortschatzZeile —
+    // dieselbe wie in der globalen Suche (G8).
     final suchText = _searchCtrl.text.trim();
-    Widget? hinweisFuer(SuchTreffer<Object> t) =>
-        t.rang == SuchRang.form && suchText.isNotEmpty
-            ? DeutschMitEtikett(
-                etikett: AppL10n.t(context, 'such_form_etikett'),
-                wert: suchText,
-                style: Theme.of(context).textTheme.bodySmall?.copyWith(
-                      color: Theme.of(context).colorScheme.primary,
-                    ),
-              )
-            : null;
-
     return ListView.builder(
       padding    : const EdgeInsets.fromLTRB(0, 4, 0, 80),
       itemCount  : zeilen.length,
-      itemBuilder: (_, i) {
-        final eintrag = zeilen[i].wert;
-        final hinweis = hinweisFuer(zeilen[i]);
-        if (eintrag is WordModel) {
-          return WordListItem(
-            word : eintrag,
-            hinweis: hinweis,
-            onTap: () => context.push(AppRoutes.wortschatzWordDetail
-                .replaceFirst(':wordId', '${eintrag.id}')),
-          );
-        }
-        final karte = eintrag as Map<String, dynamic>;
-        return WortCard(
-          card    : karte,
-          hinweis : hinweis,
-          trailing: WortActions(card: karte, kompakt: true),
-          onTap   : () => context
-              .push(AppRoutes.vokabularWort(karte['id'] as String? ?? '')),
-        );
-      },
+      itemBuilder: (_, i) =>
+          WortschatzZeile(treffer: zeilen[i], suchText: suchText),
     );
   }
 }

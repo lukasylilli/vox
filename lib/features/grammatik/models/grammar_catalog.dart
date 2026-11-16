@@ -190,7 +190,50 @@ class GrammatikKatalog {
   List<KatalogEintrag> get lektionen =>
       eintraege.where((e) => e.lektion != null).toList();
 
+  /// Glossar A–Z (G8, 2026-11-16): alle Einträge nach deutschem Titel,
+  /// gruppiert nach Anfangsbuchstabe. Sortiert wie im Wörterbuch: ein
+  /// führender Artikel zählt nicht («Die vier Fälle» steht unter V), Umlaute
+  /// wie ihr Grundbuchstabe (ä = a), Groß/Klein egal. Was nicht mit a–z
+  /// beginnt, steht unter «#».
+  List<({String buchstabe, List<KatalogEintrag> eintraege})>
+      get alphabetisch {
+    final mitSchluessel = [
+      for (final e in eintraege) (schluessel: katalogSortierSchluessel(e.de), e: e),
+    ]..sort((a, b) {
+        final c = a.schluessel.compareTo(b.schluessel);
+        return c != 0 ? c : a.e.slug.compareTo(b.e.slug);
+      });
+    final gruppen = <({String buchstabe, List<KatalogEintrag> eintraege})>[];
+    for (final m in mitSchluessel) {
+      final c = m.schluessel.isEmpty ? 0 : m.schluessel.codeUnitAt(0);
+      final buchstabe =
+          (c >= 0x61 && c <= 0x7a) ? String.fromCharCode(c - 0x20) : '#';
+      if (gruppen.isEmpty || gruppen.last.buchstabe != buchstabe) {
+        gruppen.add((buchstabe: buchstabe, eintraege: []));
+      }
+      gruppen.last.eintraege.add(m.e);
+    }
+    return gruppen;
+  }
+
   /// Unnummerierte Einträge — „Vertiefung & Überblick".
   List<KatalogEintrag> get vertiefung =>
       eintraege.where((e) => e.lektion == null).toList();
+}
+
+const _katalogArtikel = {'der', 'die', 'das'};
+
+/// Sortierschlüssel eines Katalog-Titels für das Glossar A–Z: klein, ohne
+/// führenden Artikel, Umlaute als Grundbuchstabe, ß als ss.
+String katalogSortierSchluessel(String titel) {
+  var t = titel.trim().toLowerCase();
+  final leer = t.indexOf(' ');
+  if (leer > 0 && _katalogArtikel.contains(t.substring(0, leer))) {
+    t = t.substring(leer + 1).trimLeft();
+  }
+  return t
+      .replaceAll('ä', 'a')
+      .replaceAll('ö', 'o')
+      .replaceAll('ü', 'u')
+      .replaceAll('ß', 'ss');
 }

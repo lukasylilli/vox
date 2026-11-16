@@ -16,9 +16,11 @@ final grammatikKatalogProvider = FutureProvider<GrammatikKatalog>((ref) async {
   return GrammatikKatalog.fromJson(jsonDecode(raw) as Map<String, dynamic>);
 });
 
-// ── Sortier-Ansicht (Niveau / Thema / Lektionen / Satzglieder) ───────────────
+// ── Sortier-Ansicht (Niveau / Thema / Lektionen / Satzglieder / A–Z) ─────────
 
-enum GrammatikSortMode { niveau, thema, lektionen, satzglieder }
+// alphabetisch = Glossar A–Z (G8, 2026-11-16). Neue Werte nur ANHÄNGEN —
+// der Name steht in den Einstellungen des Nutzers (`grammatik_sort_mode`).
+enum GrammatikSortMode { niveau, thema, lektionen, satzglieder, alphabetisch }
 
 const _sortModeKey = 'grammatik_sort_mode';
 
