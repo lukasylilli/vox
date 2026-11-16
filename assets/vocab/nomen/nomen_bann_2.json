@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_bann_2",
+  "wort": "der Bann",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تکفیر",
+      "طرد",
+      "تبعید"
+    ],
+    "en": [
+      "excommunication",
+      "ban",
+      "banishment"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte",
+    "Religion"
+  ],
+  "ipa": "ban",
+  "anmerkung": "Meist historisch oder kirchlich gebraucht.",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Papst sprach den Bann über den Ketzer aus.",
+      "uebersetzung": {
+        "fa": "پاپ حکم تکفیر را برای این بدعت‌گذار صادر کرد.",
+        "en": "The pope pronounced the ban on the heretic."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Im Mittelalter war der Bann eine der härtesten Strafen der Kirche.",
+      "uebersetzung": {
+        "fa": "در قرون وسطی تکفیر یکی از سخت‌ترین مجازات‌های کلیسا بود.",
+        "en": "In the Middle Ages the ban was one of the harshest punishments of the church."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Exkommunikation",
+      "uebersetzung": {
+        "fa": "تکفیر",
+        "en": "excommunication"
+      }
+    },
+    {
+      "wort": "die Verbannung",
+      "uebersetzung": {
+        "fa": "تبعید",
+        "en": "banishment"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kirchenbann",
+      "uebersetzung": {
+        "fa": "تکفیر کلیسایی",
+        "en": "excommunication"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "jemanden mit dem Bann belegen",
+        "beispiel": "Der Bischof belegte den Rebellen mit dem Bann.",
+        "uebersetzung": {
+          "fa": "اسقف شورشی را تکفیر کرد.",
+          "en": "The bishop placed the rebel under the ban."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Bann",
+    "woerter": [
+      {
+        "wort": "der Papst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پاپ",
+          "en": "pope"
+        },
+        "id_ref": "nomen_papst"
+      },
+      {
+        "wort": "das Exil",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تبعید",
+          "en": "exile"
+        },
+        "id_ref": "nomen_exil"
+      },
+      {
+        "wort": "bannen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "طلسم کردن، مسحور کردن، دفع کردن (خطر)",
+          "en": "to captivate, to avert"
+        },
+        "id_ref": "verb_bannen"
+      },
+      {
+        "wort": "die Verbannung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تبعید، طرد",
+          "en": "banishment, exile"
+        },
+        "id_ref": "nomen_verbannung"
+      },
+      {
+        "wort": "der Ausschluss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اخراج، محرومیت",
+          "en": "exclusion, expulsion"
+        },
+        "id_ref": "nomen_ausschluss"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

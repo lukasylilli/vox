@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_batterie",
+  "wort": "die Batterie",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "باتری"
+    ],
+    "en": [
+      "battery"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Technik",
+    "Alltag"
+  ],
+  "ipa": "batəˈʁiː",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Batterie meiner Fernbedienung ist leer.",
+      "uebersetzung": {
+        "fa": "باتری کنترل از راه دورم خالی است.",
+        "en": "The battery of my remote control is empty."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn die Batterie schwach wird, geht das Gerät von selbst aus.",
+      "uebersetzung": {
+        "fa": "وقتی باتری ضعیف می‌شود، دستگاه خودش خاموش می‌شود.",
+        "en": "When the battery gets weak, the device switches off by itself."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Autobatterie",
+      "uebersetzung": {
+        "fa": "باتری ماشین",
+        "en": "car battery"
+      }
+    },
+    {
+      "wort": "der Batteriewechsel",
+      "uebersetzung": {
+        "fa": "تعویض باتری",
+        "en": "battery change"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Batterien",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "die Batterie wechseln",
+        "beispiel": "Ich muss die Batterie in der Uhr wechseln.",
+        "uebersetzung": {
+          "fa": "باید باتری ساعت را عوض کنم.",
+          "en": "I have to change the battery in the watch."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Batterie",
+    "woerter": [
+      {
+        "wort": "der Akku",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "باتری (قابل شارژ)",
+          "en": "(rechargeable) battery"
+        },
+        "id_ref": "nomen_akku"
+      },
+      {
+        "wort": "laden",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بار زدن، بار کردن، (باتری یا دستگاهی را) شارژ کردن؛ (برنامه یا صفحه‌ای) بارگیری شدن",
+          "en": "to load, to charge (a battery); to load (a page, program)"
+        },
+        "id_ref": "verb_laden"
+      },
+      {
+        "wort": "der Stromverbrauch",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مصرف برق",
+          "en": "electricity consumption"
+        },
+        "id_ref": "nomen_stromverbrauch"
+      },
+      {
+        "wort": "der Stromausfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطعی برق",
+          "en": "power cut; blackout"
+        },
+        "id_ref": "nomen_stromausfall"
+      },
+      {
+        "wort": "das Stromnetz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "شبکه‌ی برق",
+          "en": "power grid"
+        },
+        "id_ref": "nomen_stromnetz"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

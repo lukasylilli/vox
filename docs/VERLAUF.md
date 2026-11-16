@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۲۲)** — ۲۰ کلمه‌ی جدول ۲ (Bann … Beamter) ⇒ ۴۶ کارت (۱۹ کلمه با همه‌ی معنی‌ها + حالت ۴ «der Beamte»)؛ یک ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Erweiterungsbau ⇒ Bau² «ساختمان»). Bastard ساخته نشد (Schimpfwort، مثل Arsch منتظر تصمیم Lukas). آرشیو ۲۱٬۳۸۴؛ باز: ۲٬۶۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۱)** — ۲۰ کلمه‌ی جدول ۲ (Auswahl … Bankrott) ⇒ ۴۸ کارت؛ ۸ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Freibad ⇒ Bad³، Kurstadt ⇒ Bad⁴، baden ⇒ Bad²، Landebahn ⇒ Bahn²، elliptisch ⇒ Bahn³، Angebotspalette و Kollektion ⇒ Auswahl²، Flipper ⇒ Automat²). Backen، Baden (حالت ۲)، Auszubildende، Bankangestellte (حالت ۴) ساخته نشدند. آرشیو ۲۱٬۳۳۸؛ باز: ۲٬۶۳۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۰)** — ۲۰ کلمه‌ی جدول ۲ (Ausrichtung … Ausverkauf) ⇒ ۴۵ کارت؛ ۱۵ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (شاهد و شهادت ⇒ Aussage²، Aussagekraft ⇒ Aussage³، ausschlaggebend ⇒ Ausschlag³، Atomausstieg و Aussteiger ⇒ Ausstieg²، «امید و احتمال» ⇒ Aussicht²). Aussendung ساخته نشد (معنی نامطمئن). آرشیو ۲۱٬۲۹۰؛ باز: ۲٬۶۵۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۹)** — ۲۰ کلمه‌ی جدول ۲ (Ausblick … Ausnutzung) ⇒ ۴۹ کارت؛ ۱۷ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (۹ کارت «چاپ/نسخه» ⇒ Ausgabe²، ۳ کارت آتشفشان ⇒ Ausbruch²، ۳ کارت گل تساوی ⇒ Ausgleich³، Gegenleistung ⇒ Ausgleich²، Hilfskraft ⇒ Aushilfe²). آرشیو ۲۱٬۲۴۵؛ باز: ۲٬۶۷۴. جزئیات: `docs/WORTRUNDEN.md`.
