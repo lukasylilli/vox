@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۱۹)** — ۲۰ کلمه‌ی جدول ۲ (Ausblick … Ausnutzung) ⇒ ۴۹ کارت؛ ۱۷ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (۹ کارت «چاپ/نسخه» ⇒ Ausgabe²، ۳ کارت آتشفشان ⇒ Ausbruch²، ۳ کارت گل تساوی ⇒ Ausgleich³، Gegenleistung ⇒ Ausgleich²، Hilfskraft ⇒ Aushilfe²). آرشیو ۲۱٬۲۴۵؛ باز: ۲٬۶۷۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۸)** — ۲۰ کلمه‌ی جدول ۲ (Aufsteiger … Ausbeutung) ⇒ ۴۴ کارت؛ ۱۴ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (۱۰ کارت «ارتقا/صعود لیگ» ⇒ Aufstieg²، Bestbesetzung ⇒ Aufstellung²، Absteiger ⇒ Aufsteiger²، beauftragen ⇒ Auftrag²، augenscheinlich ⇒ Augenschein²). آرشیو ۲۱٬۱۹۶؛ باز: ۲٬۶۹۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۷)** — ۲۰ کلمه‌ی جدول ۲ (Aufarbeitung … Aufsichtsrat) ⇒ ۵۱ کارت؛ ۸ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Hausaufgabe و lösen ⇒ Aufgabe² «تمرین»، aufgeben ⇒ Aufgabe³، Aufenthaltsort ⇒ Aufenthalt³، Aufseher ⇒ Aufsicht²، Gliederung و strukturieren ⇒ Aufbau²، Aufbruchstimmung ⇒ Aufbruch²). Aufschwung ساخته نشد (معنی «Turnen» نامطمئن، مثل Abschwung) و جایش Aufsichtsrat آمد. آرشیو ۲۱٬۱۵۲؛ باز: ۲٬۷۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۱۶)** — ۲۰ کلمه‌ی جدول ۲ (Arbeitszeit … Auditorium) ⇒ ۴۸ کارت؛ ۲۰ کارت قبلی لینک شبکه به معنی درست گرفتند (۱۷ کارت ⇒ Artikel² «مقاله»، Aspekt²، Attribut²). Arkade، Arsch، As، Asylsuchende ساخته نشدند. آرشیو ۲۱٬۱۰۱؛ باز: ۲٬۷۳۴. جزئیات: `docs/WORTRUNDEN.md`.

@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "nomen_ausfall",
+  "wort": "der Ausfall",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قطع، خرابی",
+      "لغو"
+    ],
+    "en": [
+      "failure, outage",
+      "cancellation"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Technik",
+    "Schule"
+  ],
+  "ipa": "ˈaʊ̯sˌfal",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wegen des Ausfalls des Zuges kam ich zu spät.",
+      "uebersetzung": {
+        "fa": "به‌خاطر لغو قطار دیر رسیدم.",
+        "en": "Because of the train being cancelled I arrived late."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Der Ausfall des Stroms dauerte zwei Stunden.",
+      "uebersetzung": {
+        "fa": "قطعی برق دو ساعت طول کشید.",
+        "en": "The power failure lasted two hours."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Störung",
+      "uebersetzung": {
+        "fa": "اختلال",
+        "en": "disruption"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Stromausfall",
+      "uebersetzung": {
+        "fa": "قطعی برق",
+        "en": "power cut"
+      }
+    },
+    {
+      "wort": "der Unterrichtsausfall",
+      "uebersetzung": {
+        "fa": "لغو کلاس",
+        "en": "cancelled lesson"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "aus- (بیرون) + fallen (افتادن)",
+    "en": "aus- (out) + fallen (to fall)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Ausfälle",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Ausfall",
+    "woerter": [
+      {
+        "wort": "der Stromausfall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قطعی برق",
+          "en": "power cut; blackout"
+        },
+        "id_ref": "nomen_stromausfall"
+      },
+      {
+        "wort": "der Unterricht",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "درس، آموزش",
+          "en": "lessons, teaching"
+        },
+        "id_ref": "nomen_unterricht"
+      },
+      {
+        "wort": "der Stau",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ترافیک سنگین، راه‌بندان",
+          "en": "traffic jam, tailback"
+        },
+        "id_ref": "nomen_stau"
+      },
+      {
+        "wort": "der Notdienst",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشیک اضطراری، خدمات شبانه‌روزی",
+          "en": "emergency service, on-call service"
+        },
+        "id_ref": "nomen_notdienst"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "انرژی، نیرو",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

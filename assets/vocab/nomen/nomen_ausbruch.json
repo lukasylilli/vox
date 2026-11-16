@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_ausbruch",
+  "wort": "der Ausbruch",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شروع ناگهانی",
+      "بروز (بیماری، جنگ)"
+    ],
+    "en": [
+      "outbreak",
+      "onset (of disease, war)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Politik"
+  ],
+  "ipa": "ˈaʊ̯sˌbʁʊx",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Seit dem Ausbruch der Krankheit bleiben die Schulen geschlossen.",
+      "uebersetzung": {
+        "fa": "از زمان شیوع بیماری مدارس بسته مانده‌اند.",
+        "en": "Since the outbreak of the disease the schools have stayed closed."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Ausbruch des Krieges veränderte das Leben aller Menschen.",
+      "uebersetzung": {
+        "fa": "آغاز جنگ زندگی همه‌ی مردم را عوض کرد.",
+        "en": "The outbreak of the war changed everyone's life."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Beginn",
+      "uebersetzung": {
+        "fa": "آغاز",
+        "en": "beginning"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kriegsausbruch",
+      "uebersetzung": {
+        "fa": "آغاز جنگ",
+        "en": "outbreak of war"
+      }
+    },
+    {
+      "wort": "der Krankheitsausbruch",
+      "uebersetzung": {
+        "fa": "شیوع بیماری",
+        "en": "disease outbreak"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "aus- (بیرون) + brechen (شکستن)",
+    "en": "aus- (out) + brechen (to break)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Ausbrüche",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "Ausbruch + Genitiv",
+        "beispiel": "Der Ausbruch der Seuche wurde schnell gemeldet.",
+        "uebersetzung": {
+          "fa": "شیوع بیماری سریع گزارش شد.",
+          "en": "The outbreak of the epidemic was reported quickly."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Ausbruch",
+    "woerter": [
+      {
+        "wort": "der Krieg",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "جنگ",
+          "en": "war"
+        },
+        "id_ref": "nomen_krieg"
+      },
+      {
+        "wort": "die Epidemie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "همه‌گیری، اپیدمی",
+          "en": "epidemic"
+        },
+        "id_ref": "nomen_epidemie"
+      },
+      {
+        "wort": "die Seuche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیماری واگیر، همه‌گیری",
+          "en": "epidemic, plague"
+        },
+        "id_ref": "nomen_seuche"
+      },
+      {
+        "wort": "die Ansteckung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرایت، آلودگی (به بیماری)",
+          "en": "infection, contagion"
+        },
+        "id_ref": "nomen_ansteckung"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت، سرایت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
