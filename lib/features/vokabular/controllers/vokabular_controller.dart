@@ -2,8 +2,9 @@
 // PURPOSE: Wortdaten des Vokabular-Archivs für die App (فاز V).
 //
 // V.2 (2026-09-16): ZWEI Stufen statt „alles beim Start":
-//   · [vokabIndexProvider] — EINE Datei (assets/vocab_index.json) mit den
-//     Feldern für Liste, Suche, Zähler und Symbol. Beim Start geladen.
+//   · [vokabIndexProvider] — der Wortindex (assets/vocab_index/, seit
+//     2026-11-16 in Stücken je Anfangsbuchstabe) mit den Feldern für Liste,
+//     Suche, Zähler und Symbol. Beim ersten Gebrauch geladen.
 //   · [vokabKarteProvider] — die VOLLE Karte eines Worts, erst beim Öffnen
 //     der Wort-Seite (eine Datei aus assets/vocab/<wortart>/<id>.json).
 // Vorher las dieser Provider jede Karten-Datei beim Start — im Browser eine
@@ -30,9 +31,19 @@ export '../data/vokab_schema.dart' show vokabId;
 /// ⚠️ Das sind NICHT die vollen Karten — nur id, wort, wortart, niveau,
 /// uebersetzung und die Symbol-Felder aus details (vokab_index.dart). Wer
 /// Beispiele, Konjugation oder Wortnetz braucht, nimmt [vokabKarteProvider].
+///
+/// Der Index liegt in Stücken (vokab_index.dart): erst die Liste, dann alle
+/// Stücke gleichzeitig. `cache: false` — die Texte (zusammen ~5 MB) sollen
+/// nicht neben den gelesenen Einträgen im Speicher liegen bleiben; dieser
+/// Provider hält das Ergebnis ohnehin.
 final vokabIndexProvider =
     FutureProvider<List<Map<String, dynamic>>>((ref) async {
-  return vokabIndexLesen(await rootBundle.loadString(vokabIndexPfad));
+  final stuecke = vokabIndexStueckeLesen(
+      await rootBundle.loadString(vokabIndexStueckeDatei, cache: false));
+  return vokabIndexZusammen(await Future.wait([
+    for (final datei in stuecke)
+      rootBundle.loadString(datei, cache: false).then(vokabIndexStueckLesen),
+  ]));
 });
 
 /// Schneller Lookup id → Index-Eintrag (gibt es das Wort? — Wortnetz-Links,

@@ -1,7 +1,8 @@
 // FILE: tool/vokab_index.dart
 // PHASE: فاز V, Schritt V.2 (2026-09-16)
-// PURPOSE: Baut assets/vocab_index.json aus allen Karten in assets/vocab/.
-//          Dazu assets/vocab_formen.json (gebeugte Form → Karten, 2026-09-23).
+// PURPOSE: Baut den Wortindex assets/vocab_index/ (in Stücken je
+//          Anfangsbuchstabe, 2026-11-16) aus allen Karten in assets/vocab/.
+//          Dazu assets/vocab_formen/ (gebeugte Form → Karten, 2026-09-23).
 //
 //   dart run tool/vokab_index.dart
 //
@@ -47,12 +48,12 @@ void main() {
     }
   }
 
-  String text;
+  Map<String, String> index;
   try {
-    text = vokabIndexBauen(karten);
+    index = vokabIndexBauen(karten);
   } on VokabIndexFehler catch (e) {
     fehler.addAll(e.gruende);
-    text = '';
+    index = const {};
   }
 
   if (fehler.isNotEmpty) {
@@ -63,9 +64,21 @@ void main() {
     exit(1);
   }
 
-  File(vokabIndexPfad).writeAsStringSync(text);
-  stdout.writeln('Wortindex: ${karten.length} Wörter, '
-      '${text.length} Zeichen → $vokabIndexPfad');
+  // Ordner immer ganz neu: kein Stück eines früheren Baus bleibt liegen.
+  final ordnerIndex = Directory(vokabIndexOrdner);
+  if (ordnerIndex.existsSync()) ordnerIndex.deleteSync(recursive: true);
+  ordnerIndex.createSync(recursive: true);
+  // Die eine Datei der älteren Ablage (bis 2026-11-16) wird nicht mehr
+  // gelesen — ein liegengebliebener Rest auf einem Rechner soll nicht täuschen.
+  final alt = File(vokabIndexAltPfad);
+  if (alt.existsSync()) alt.deleteSync();
+  var zeichen = 0;
+  for (final e in index.entries) {
+    File(e.key).writeAsStringSync(e.value);
+    zeichen += e.value.length;
+  }
+  stdout.writeln('Wortindex: ${karten.length} Wörter, $zeichen Zeichen, '
+      '${index.length - 1} Stücke → $vokabIndexOrdner/');
 
   // Gebeugte Formen → Karten (Wort-Popup: «aalartige» ⇒ «aalartig»).
   final ordnerFormen = Directory(vokabFormenOrdner);

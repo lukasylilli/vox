@@ -68,7 +68,8 @@ flutter:
     # Vokabular-Archiv (فاز V): 1 JSON pro Wort, Ordner = Wortart
     # V.2: Wortindex (Liste/Suche/Symbol) — wird in JEDEM Workflow vor
     # `flutter analyze` von tool/vokab_index.dart gebaut, nie committet.
-    - assets/vocab_index.json
+    # Seit 2026-11-16 in Stücken je Anfangsbuchstabe (vokab_index.dart).
+    - assets/vocab_index/
     - assets/vocab_formen/
     # فاز F.4: fertige VOX-Bücher (Filter «Bücher» in «Alle Wörter»)
     - assets/buecher/

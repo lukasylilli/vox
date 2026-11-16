@@ -15,6 +15,9 @@
 //    (beide Varianten: Chromium für Chrome/Android, normal für Safari/iPhone),
 //    Lerninhalte, Bilder, Schriften, Wortindex. Jede Datei hat eine Revision
 //    (Inhalts-Hash): bei einem neuen Deploy wird nur Geändertes neu geladen.
+//    Der Wortindex liegt deshalb in Stücken je Anfangsbuchstabe (2026-11-16):
+//    nach einer Wortrunde laden Nutzer nur die Stücke der neuen Wörter nach,
+//    nicht mehr den ganzen Index (vorher ~1 MB komprimiert je Runde).
 //  • Bei Gebrauch (runtime): die einzelnen Wortkarten (karten/, seit V.5
 //    neben der App statt im Asset-Paket) und die Formen-Tabelle.
 //    ~26.200 Karten ≈ 100 MB — das darf nie vorab geladen werden (PLAN L.3).
@@ -45,8 +48,13 @@ const PFLICHT = [
   'canvaskit/chromium/canvaskit.wasm',
   'assets/AssetManifest.bin.json',
   'assets/FontManifest.json',
-  'assets/assets/vocab_index.json',
+  'assets/assets/vocab_index/stuecke.json',
 ];
+
+// Der Wortindex liegt in Stücken (lib/features/vokabular/data/vokab_index.dart):
+// diese Liste nennt sie. sw_bauen.cjs verlangt JEDES genannte Stück im
+// Vorab-Paket — fehlt eines, wäre «Alle Wörter» offline leer.
+const WORTINDEX_STUECKE = 'assets/assets/vocab_index/stuecke.json';
 
 // Was ins Vorab-Paket kommt (auch für getManifest in den Prüfungen).
 const manifestConfig = {
@@ -111,4 +119,4 @@ const config = {
   ],
 };
 
-module.exports = { BUILD_DIR, PFLICHT, manifestConfig, config };
+module.exports = { BUILD_DIR, PFLICHT, WORTINDEX_STUECKE, manifestConfig, config };

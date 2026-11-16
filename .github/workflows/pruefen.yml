@@ -62,20 +62,16 @@ jobs:
 
       - name: Veröffentlichte Wort-ids noch da? (L.1a)
         # Vergleich mit dem Index der LIVE-Seite — dem, was Nutzer wirklich
-        # haben (Begründung: tool/vokab_ids_pruefen.dart). Nicht erreichbar
+        # haben (Begründung: tool/vokab_ids_pruefen.dart; das Werkzeug lädt
+        # den Index selbst, in Stücken oder in der älteren einen Datei). Nicht erreichbar
         # ⇒ rot. Nur ein Mensch kann den Wächter über „Run workflow" und
         # `ohne_id_waechter` bewusst auslassen (z. B. wenn die Seite ganz weg ist).
         if: ${{ !inputs.ohne_id_waechter }}
         run: |
           set -o pipefail  # sonst verschluckt `| tee` einen roten Wächter
-          url="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/assets/assets/vocab_index.json"
-          code=$(curl -sS --compressed --retry 3 --retry-all-errors \
-            -o /tmp/vocab_index_live.json -w '%{http_code}' "$url" || true)
-          if [ "$code" != "200" ]; then
-            echo "::error::Veröffentlichter Wortindex nicht abrufbar (HTTP $code): $url"
-            exit 1
-          fi
-          dart run tool/vokab_ids_pruefen.dart /tmp/vocab_index_live.json | tee -a "$GITHUB_STEP_SUMMARY"
+          dart run tool/vokab_ids_pruefen.dart \
+            "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}" \
+            | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Analyze
         # Fehlertext als Annotation (tool/ci_fehler_melden.sh) — Claude kann

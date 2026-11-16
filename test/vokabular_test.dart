@@ -197,7 +197,7 @@ void main() {
     });
   });
 
-  test('V.2 Index: Demo-Wort steht im Wortindex (assets/vocab_index.json)',
+  test('V.2 Index: Demo-Wort steht im Wortindex (assets/vocab_index/)',
       () async {
     final container = ProviderContainer();
     addTearDown(container.dispose);

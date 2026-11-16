@@ -80,8 +80,99 @@ void main() {
     });
 
     test('fremde Fassung wird abgelehnt statt still leer gelesen', () {
-      expect(() => vokabIndexLesen('{"version":99,"karten":[]}'),
+      expect(() => vokabIndexStueckLesen('{"version":99,"karten":[]}'),
           throwsFormatException);
+      expect(() => vokabIndexStueckeLesen('{"version":99,"stuecke":[]}'),
+          throwsFormatException);
+    });
+  });
+
+  group('In Stücken (2026-11-16)', () {
+    Map<String, Map<String, dynamic>> bestand() => {
+          'assets/vocab/nomen/nomen_apfel.json':
+              karte('nomen', 'nomen_apfel', 'der Apfel'),
+          'assets/vocab/adjektiv/adjektiv_alt.json':
+              karte('adjektiv', 'adjektiv_alt', 'alt'),
+          'assets/vocab/nomen/nomen_bank.json':
+              karte('nomen', 'nomen_bank', 'die Bank'),
+          'assets/vocab/nomen/nomen_bank_2.json':
+              karte('nomen', 'nomen_bank_2', 'die Bank'),
+          'assets/vocab/adjektiv/adjektiv_aehnlich.json':
+              karte('adjektiv', 'adjektiv_aehnlich', 'ähnlich'),
+          'assets/vocab/numerale/numerale_3d.json':
+              karte('numerale', 'numerale_3d', '3D'),
+        };
+
+    test('Stück = erster Buchstabe der id nach der Wortart, sonst Rest', () {
+      expect(vokabIndexStueck('nomen', 'nomen_apfel'),
+          'assets/vocab_index/a.json');
+      expect(vokabIndexStueck('adjektiv', 'adjektiv_aehnlich'),
+          'assets/vocab_index/a.json');
+      expect(vokabIndexStueck('nomen', 'nomen_bank__alle'),
+          'assets/vocab_index/b.json');
+      expect(vokabIndexStueck('numerale', 'numerale_3d'),
+          'assets/vocab_index/0.json');
+      expect(vokabIndexStueck('nomen', 'nomen_'), 'assets/vocab_index/0.json');
+    });
+
+    test('Dateien: je Stück eine + Liste; jede Karte genau einmal', () {
+      final dateien = vokabIndexBauen(bestand());
+      expect(dateien.keys.toSet(), {
+        'assets/vocab_index/0.json',
+        'assets/vocab_index/a.json',
+        'assets/vocab_index/b.json',
+        vokabIndexStueckeDatei,
+      });
+      final liste = jsonDecode(dateien[vokabIndexStueckeDatei]!) as Map;
+      expect(liste['stuecke'], [
+        'assets/vocab_index/0.json',
+        'assets/vocab_index/a.json',
+        'assets/vocab_index/b.json',
+      ]);
+      // 6 Karten + 1 Übersichtskarte «الف» der Familie Bank.
+      expect(liste['anzahl'], 7);
+      final ids = [for (final e in vokabIndexLesen(dateien)) e['id']];
+      expect(ids, hasLength(7));
+      expect(ids.toSet(), hasLength(7));
+    });
+
+    test('Familie und ihre Übersichtskarte liegen im selben Stück', () {
+      final b = vokabIndexStueckLesen(
+          vokabIndexBauen(bestand())['assets/vocab_index/b.json']!);
+      expect({for (final e in b) e['id']},
+          {'nomen_bank', 'nomen_bank_2', 'nomen_bank__alle'});
+    });
+
+    test('ein neues Wort ändert nur sein Stück (und die Liste)', () {
+      final vorher = vokabIndexBauen(bestand());
+      final nachher = vokabIndexBauen({
+        ...bestand(),
+        'assets/vocab/verb/verb_baden.json': karte('verb', 'verb_baden', 'baden'),
+      });
+      final geaendert = {
+        for (final d in nachher.keys)
+          if (nachher[d] != vorher[d]) d
+      };
+      expect(geaendert, {'assets/vocab_index/b.json', vokabIndexStueckeDatei});
+    });
+
+    test('Reihenfolge wie bisher: nach Wort (klein), dann id — über alle Stücke',
+        () {
+      final e = vokabIndexLesen(vokabIndexBauen(bestand()));
+      final erwartet = [...e]..sort((a, b) {
+          final c = (a['wort'] as String)
+              .toLowerCase()
+              .compareTo((b['wort'] as String).toLowerCase());
+          return c != 0 ? c : (a['id'] as String).compareTo(b['id'] as String);
+        });
+      expect([for (final k in e) k['id']], [for (final k in erwartet) k['id']]);
+      expect(e.first['id'], 'numerale_3d');
+    });
+
+    test('nennt die Liste ein Stück, das fehlt ⇒ Fehler, nie halber Index', () {
+      final dateien = vokabIndexBauen(bestand())
+        ..remove('assets/vocab_index/b.json');
+      expect(() => vokabIndexLesen(dateien), throwsFormatException);
     });
   });
 
@@ -166,12 +257,31 @@ void main() {
     });
 
     test('der ausgelieferte Index ist frisch gebaut', () {
-      final datei = File(vokabIndexPfad);
-      expect(datei.existsSync(), isTrue,
+      final ordner = Directory(vokabIndexOrdner);
+      expect(ordner.existsSync(), isTrue,
           reason: 'Vor den Tests `dart run tool/vokab_index.dart` ausführen '
               '— jeder Workflow tut das direkt vor `flutter analyze`.');
-      expect(datei.readAsStringSync(), vokabIndexBauen(echteKarten()),
+      final aufPlatte = {
+        for (final f in ordner.listSync().whereType<File>())
+          f.path.replaceAll('\\', '/'): f.readAsStringSync(),
+      };
+      final frisch = vokabIndexBauen(echteKarten());
+      expect(aufPlatte.keys.toSet(), frisch.keys.toSet(),
           reason: 'Index veraltet — ein Workflow baut ihn nicht neu.');
+      for (final d in frisch.keys) {
+        expect(aufPlatte[d] == frisch[d], isTrue,
+            reason: '$d veraltet — ein Workflow baut den Index nicht neu.');
+      }
+    });
+
+    test('kein Stück wird so groß wie früher der ganze Index', () {
+      // Sinn der Aufteilung: eine Wortrunde lädt beim Nutzer nur ein kleines
+      // Stück nach. Wächst ein Buchstabe über diese Grenze, muss die
+      // Aufteilung feiner werden (vokabIndexStueck) — nicht die Grenze höher.
+      for (final e in vokabIndexBauen(echteKarten()).entries) {
+        expect(utf8.encode(e.value).length, lessThan(1500 * 1024),
+            reason: '${e.key} ist zu groß geworden');
+      }
     });
 
     test('Karten werden neben der App ausgeliefert, nicht als Asset (V.5)',
@@ -183,7 +293,8 @@ void main() {
       final pubspec = File('pubspec.yaml').readAsStringSync();
       expect(pubspec, isNot(contains('- $vokabKartenOrdner/')),
           reason: 'Karten gehören nicht ins Asset-Paket (V.5)');
-      expect(pubspec, contains('- $vokabIndexPfad'));
+      expect(pubspec, contains('- $vokabIndexOrdner/'));
+      expect(pubspec, isNot(contains('- $vokabIndexAltPfad')));
       for (final ablauf in const [
         '.github/workflows/deploy-web.yml',
         '.github/workflows/pruefen.yml',

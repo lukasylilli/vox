@@ -6,7 +6,7 @@
 const fs = require('fs');
 const path = require('path');
 const { generateSW, getManifest } = require('workbox-build');
-const { BUILD_DIR, PFLICHT, manifestConfig, config } = require('./workbox_config.cjs');
+const { BUILD_DIR, PFLICHT, WORTINDEX_STUECKE, manifestConfig, config } = require('./workbox_config.cjs');
 
 function fehler(text) {
   console.error(`::error::${text}`);
@@ -37,10 +37,19 @@ async function main() {
   const fehlt = PFLICHT.filter((p) => !drin.has(p));
   if (fehlt.length) fehler(`Fehlt im Offline-Paket: ${fehlt.join(', ')}`);
 
+  // 2b. Wortindex in Stücken: jedes Stück, das die Liste nennt, muss vorab
+  //     dabei sein (Asset-Pfad «assets/…» liegt im Bau unter «assets/assets/…»).
+  const liste = JSON.parse(fs.readFileSync(path.join(BUILD_DIR, WORTINDEX_STUECKE), 'utf8'));
+  if (!Array.isArray(liste.stuecke) || liste.stuecke.length === 0) {
+    fehler(`${WORTINDEX_STUECKE} nennt keine Stücke.`);
+  }
+  const stueckFehlt = liste.stuecke.map((s) => `assets/${s}`).filter((p) => !drin.has(p));
+  if (stueckFehlt.length) fehler(`Wortindex-Stück fehlt im Offline-Paket: ${stueckFehlt.join(', ')}`);
+
   // 3. Worker schreiben.
   const ergebnis = await generateSW(config);
   if (ergebnis.warnings.length) fehler(`Workbox-Warnungen: ${ergebnis.warnings.join(' | ')}`);
-  console.log(`vox_sw.js: ${count} Dateien vorab, ${(size / 1024 / 1024).toFixed(1)} MB`);
+  console.log(`vox_sw.js: ${count} Dateien vorab, ${(size / 1024 / 1024).toFixed(1)} MB (Wortindex: ${liste.stuecke.length} Stücke)`);
 }
 
 main().catch((e) => fehler(e.stack || String(e)));

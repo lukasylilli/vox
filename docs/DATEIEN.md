@@ -1011,7 +1011,7 @@ seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع**
   WortActions ممکن است، صفحه‌ی نمایش با حذف home از بین رفت)؛ فیلتر Themen.
   **اصل: Wortschatz ≠ Leitner** — کارت‌ها read-only (assets)، user state جدا؛ لایتنر فقط با flag.
   · `controllers/vokabular_controller.dart` [x] — **V.2 (2026-09-16):** `vokabIndexProvider` (فهرست از
-    `assets/vocab_index.json`، برای لیست/جستجو/شمارنده/نماد) · `vokabIndexByIdProvider` (id → مدخل فهرست؛
+    `assets/vocab_index/` — از 2026-11-16 تکه‌تکه بر اساس حرف اول: اول `stuecke.json`، بعد همه‌ی تکه‌ها هم‌زمان؛ برای لیست/جستجو/شمارنده/نماد) · `vokabIndexByIdProvider` (id → مدخل فهرست؛
     «کلمه وجود دارد؟») · `vokabKarteProvider(id)` (کارت **کامل** از `assets/vocab/<wortart>/<id>.json`، فقط
     هنگام باز کردن صفحه‌ی کلمه) + `vokabId()` (قانون ۵) + `vokabKartePasst()` (جستجوی DE/FA/EN).
     ⚠️ مدخل فهرست ≠ کارت کامل: Beispiele/Konjugation/Wortnetz فقط در `vokabKarteProvider`.
@@ -1066,7 +1066,7 @@ seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع**
 - **منبع ذخیره (Git، افزودنی)**: `assets/vocab/<wortType>/<id>.json` — ۱ فایل برای هر کلمه،
   خودکفا (متادیتا + جمله‌ها). فیلد `tags` (level:/kasus:/type:/thema:) برای سورت. بدون بازنویسی بقیه.
 - ✅ **Laufzeit — umgesetzt 2026-09-16 (V.2) als Wortindex, NICHT als `vocab.db`** (Web-only + 2 Beispiele je
-  Karte ⇒ zweite SQLite-DB ohne Nutzen): `assets/vocab_index.json` beim Start, volle Karte lazy. Begründung:
+  Karte ⇒ zweite SQLite-DB ohne Nutzen): Wortindex `assets/vocab_index/` (seit 2026-11-16 in Stücken je Anfangsbuchstabe, vorher EINE Datei `assets/vocab_index.json`), volle Karte lazy. Begründung:
   PLAN.md → فاز V → V.2. Der folgende Punkt ist die ältere Planung:
 - ~~**Laufzeit (سریع)**~~ (überholt): build-script → یک **prebuilt SQLite `assets/vocab.db`**:
   `words` (~26k، indexed) + `word_tags` (m:n) + `sentences` (~2.6M، **lazy**).

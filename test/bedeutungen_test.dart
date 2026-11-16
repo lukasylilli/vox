@@ -5,7 +5,6 @@
 //        («۱. گلابی  ۲. لامپ»), jedes Beispiel zeigt seine Bedeutung, in der
 //        Lernkarte reicht die erste. Prüft Schema (Prompt-Regel 20), Index
 //        und die Liste.
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -125,9 +124,9 @@ void main() {
 
   test('Index trägt die Bedeutungen — Liste/Lernkarte brauchen keine volle Karte',
       () {
-    final text =
-        vokabIndexBauen({'assets/vocab/nomen/nomen_birne.json': birne()});
-    final eintrag = (jsonDecode(text)['karten'] as List).single as Map;
+    final eintrag = vokabIndexLesen(
+            vokabIndexBauen({'assets/vocab/nomen/nomen_birne.json': birne()}))
+        .single;
     expect((eintrag['bedeutungen'] as List).length, 2);
   });
 

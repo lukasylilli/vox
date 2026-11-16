@@ -28,14 +28,59 @@ void main() {
         throwsFormatException);
   });
 
-  test('der eigene Index hat dieselbe Form wie der Wächter sie liest', () {
-    final text = vokabIndexBauen({
+  test('der eigene Index hat dieselbe Form wie der Wächter sie liest', () async {
+    final dateien = vokabIndexBauen({
       'assets/vocab/verb/verb_helfen.json': {
         'id': 'verb_helfen',
         'wort': 'helfen',
         'wortart': 'verb',
       },
+      'assets/vocab/nomen/nomen_tisch.json': {
+        'id': 'nomen_tisch',
+        'wort': 'der Tisch',
+        'wortart': 'nomen',
+      },
     });
-    expect(vokabIndexIds(text), {'verb_helfen'});
+    expect(await vokabIndexIdsHolen((p) async => dateien[p]),
+        {'verb_helfen', 'nomen_tisch'});
+  });
+
+  group('Live-Seite: in Stücken ODER ältere Ablage in einer Datei', () {
+    test('ältere Ablage (eine Datei) wird gelesen, wenn es keine Stücke gibt',
+        () async {
+      final live = {vokabIndexAltPfad: index(['verb_helfen', 'adjektiv_stolz'], version: 5)};
+      expect(await vokabIndexIdsHolen((p) async => live[p]),
+          {'verb_helfen', 'adjektiv_stolz'});
+    });
+
+    test('Stücke haben Vorrang; eine ältere Fassung der Liste wird gelesen',
+        () async {
+      final live = {
+        vokabIndexStueckeDatei:
+            '{"version":0,"stuecke":["assets/vocab_index/h.json","assets/vocab_index/s.json"]}',
+        'assets/vocab_index/h.json': index(['verb_helfen'], version: 0),
+        'assets/vocab_index/s.json': index(['adjektiv_stolz'], version: 0),
+        vokabIndexAltPfad: index(['nomen_uralt']),
+      };
+      expect(await vokabIndexIdsHolen((p) async => live[p]),
+          {'verb_helfen', 'adjektiv_stolz'});
+    });
+
+    test('nichts da oder ein Stück fehlt ⇒ Fehler, nie „nichts veröffentlicht"',
+        () async {
+      await expectLater(
+          vokabIndexIdsHolen((p) async => null), throwsFormatException);
+      final live = {
+        vokabIndexStueckeDatei:
+            '{"version":6,"stuecke":["assets/vocab_index/h.json","assets/vocab_index/s.json"]}',
+        'assets/vocab_index/h.json': index(['verb_helfen']),
+      };
+      await expectLater(vokabIndexIdsHolen((p) async => live[p]),
+          throwsFormatException);
+      await expectLater(
+          vokabIndexIdsHolen(
+              (p) async => p == vokabIndexStueckeDatei ? '<html>' : null),
+          throwsFormatException);
+    });
   });
 }

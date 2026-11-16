@@ -4,7 +4,6 @@
 //        Prüft: Familien NUR aus den ids erkannt (nicht aus der Karte),
 //        feste Nummern im Index (See¹, See²), Hinweis mit Weg zur anderen
 //        Karte — und dass Wörter OHNE Familie nichts davon zeigen.
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -84,13 +83,12 @@ void main() {
 
   test('Index-Bau: homograph_nr nur für Familien, Wörter ohne Familie ohne',
       () {
-    final text = vokabIndexBauen({
-      for (final k in [_seeDer, _seeDie, _tisch])
-        'assets/vocab/nomen/${k['id']}.json': k,
-    });
     final karten = {
-      for (final e in (jsonDecode(text)['karten'] as List))
-        e['id']: e as Map,
+      for (final e in vokabIndexLesen(vokabIndexBauen({
+        for (final k in [_seeDer, _seeDie, _tisch])
+          'assets/vocab/nomen/${k['id']}.json': k,
+      })))
+        e['id']: e,
     };
     expect(karten['nomen_see']!['homograph_nr'], 1);
     expect(karten['nomen_see_die']!['homograph_nr'], 2);

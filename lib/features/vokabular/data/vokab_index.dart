@@ -1,13 +1,22 @@
 // FILE: lib/features/vokabular/data/vokab_index.dart
 // PHASE: فاز V, Schritt V.2 (2026-09-16)
-// PURPOSE: Der WORTINDEX — eine kleine Datei mit genau den Feldern, die Liste,
-//          Suche, Zähler und Symbol brauchen. Die volle Karte (Beispiele,
-//          Konjugation, Wortnetz …) wird erst beim Öffnen EINES Worts geladen.
+// PURPOSE: Der WORTINDEX — genau die Felder, die Liste, Suche, Zähler und
+//          Symbol brauchen. Die volle Karte (Beispiele, Konjugation,
+//          Wortnetz …) wird erst beim Öffnen EINES Worts geladen.
+//
+// IN STÜCKEN (2026-11-16, PLAN «⚠️ مقیاس»): der Index liegt nicht mehr in
+// EINER Datei, sondern je Anfangsbuchstabe in einer
+// (`assets/vocab_index/<a…z|0>.json`) plus Liste `stuecke.json`.
+// Grund, gemessen an 22.029 Karten: die eine Datei war 5,1 MB (0,96 MB
+// komprimiert) und änderte sich mit JEDER Wortrunde — jeder Nutzer lud sie
+// nach jeder Runde ganz neu. Jetzt ändert eine Runde nur die Stücke ihrer
+// Buchstaben (größtes Stück 0,13 MB komprimiert); der Offline-Worker lädt
+// nur Geändertes nach (Revision je Datei, tool/pwa/workbox_config.cjs).
 //
 // WARUM: Vorher las die App beim Start JEDE Datei aus assets/vocab/ — im
 // Browser ist das eine Netzanfrage je Wort. Bei ~26.200 Wörtern startet die
 // App so nicht mehr (Audit 2026-09-15, sichere Grenze ~500). Jetzt: EINE
-// Anfrage beim Start (~220 Byte je Wort, gemessen an den echten Karten),
+// Anfrage je Index-Stück (~220 Byte je Wort, gemessen an den echten Karten),
 // eine weitere je geöffnetem Wort.
 //
 // ⚠️ Reines Dart (kein Flutter): `tool/vokab_index.dart` nutzt dieselben
@@ -26,10 +35,36 @@ import 'vokab_schema.dart' show vokabBedeutungen, vokabId, vokabWortarten;
 
 /// Erhöhen, sobald sich die Form des Index ändert. Die App liest nur genau
 /// diese Fassung — Index und App entstehen im selben Bau, passen also immer.
-const int vokabIndexVersion = 5; // 2: Einordnung (F.5) · 3: homograph_nr · 4: bedeutungen (L.4) · 5: Übersichtskarten (Vier Fälle)
+const int vokabIndexVersion = 6; // 2: Einordnung (F.5) · 3: homograph_nr · 4: bedeutungen (L.4) · 5: Übersichtskarten (Vier Fälle) · 6: in Stücken
 
-/// Asset-Pfad des Index (in pubspec.yaml eingetragen, in .gitignore ausgenommen).
-const String vokabIndexPfad = 'assets/vocab_index.json';
+/// Asset-Ordner des Index (in pubspec.yaml eingetragen, in .gitignore
+/// ausgenommen): je Stück eine Datei, dazu [vokabIndexStueckeDatei].
+const String vokabIndexOrdner = 'assets/vocab_index';
+
+/// Liste der Stücke: `{version, anzahl, stuecke: [<Asset-Pfad>, …]}`. Die App
+/// liest zuerst diese Datei und fragt nur Stücke an, die es gibt.
+const String vokabIndexStueckeDatei = '$vokabIndexOrdner/stuecke.json';
+
+/// Wo der Index bis Fassung 5 lag (EINE Datei). Nur der Wächter L.1a liest
+/// das noch: eine veröffentlichte Seite kann diese ältere Ablage haben.
+const String vokabIndexAltPfad = 'assets/vocab_index.json';
+
+/// Name des Stücks für alle ids, die nicht mit a–z beginnen.
+const String vokabIndexRestStueck = '0';
+
+/// Stück (Asset-Pfad), in dem der Eintrag [id] der Wortart [wortart] steht:
+/// erster Buchstabe der id NACH der Wortart (`nomen_bank_2` ⇒ «b»). Die id
+/// kennt keine Umlaute und keinen Artikel ([vokabId]) ⇒ 26 Stücke + Rest.
+/// Alle Karten einer Homograph-Familie und ihre Übersichtskarte «الف»
+/// beginnen gleich und liegen deshalb immer im SELBEN Stück.
+String vokabIndexStueck(String wortart, String id) {
+  final rest = id.startsWith('${wortart}_') ? id.substring(wortart.length + 1) : id;
+  final c = rest.isEmpty ? 0 : rest.codeUnitAt(0);
+  final name = (c >= 0x61 && c <= 0x7a)
+      ? String.fromCharCode(c)
+      : vokabIndexRestStueck;
+  return '$vokabIndexOrdner/$name.json';
+}
 
 /// Ordner der vollen Karten: `assets/vocab/<wortart>/<id>.json`.
 const String vokabKartenOrdner = 'assets/vocab';
@@ -111,13 +146,14 @@ class VokabIndexFehler implements Exception {
   String toString() => 'VokabIndexFehler:\n${gruende.join('\n')}';
 }
 
-/// (Pfad → volle Karte) → Index-Text.
+/// (Pfad → volle Karte) → alle Index-Einträge, sortiert ([vokabIndexZusammen]).
 ///
 /// Wirft [VokabIndexFehler], wenn eine Karte keine id/wortart/wort hat, eine
 /// unbekannte Wortart trägt, nicht unter [vokabKartenPfad] liegt oder ihre id
 /// doppelt vorkommt. Lieber ein roter Bau als eine Wort-Seite, die ins Leere
 /// zeigt.
-String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
+List<Map<String, dynamic>> vokabIndexEintraege(
+    Map<String, Map<String, dynamic>> kartenNachPfad) {
   final fehler = <String>[];
   final gesehen = <String, String>{};
   final eintraege = <Map<String, dynamic>>[];
@@ -190,19 +226,48 @@ String vokabIndexBauen(Map<String, Map<String, dynamic>> kartenNachPfad) {
   if (fehler.isNotEmpty) throw VokabIndexFehler(fehler);
   eintraege.addAll(ueberblicke);
 
-  // Feste Reihenfolge: nach Wort (klein), bei Gleichstand nach id — derselbe
-  // Bestand ergibt immer denselben Text.
-  eintraege.sort((a, b) {
-    final c = (a['wort'] as String)
-        .toLowerCase()
-        .compareTo((b['wort'] as String).toLowerCase());
-    return c != 0 ? c : (a['id'] as String).compareTo(b['id'] as String);
-  });
-  return jsonEncode({
-    'version': vokabIndexVersion,
-    'anzahl': eintraege.length,
-    'karten': eintraege,
-  });
+  return vokabIndexZusammen([eintraege]);
+}
+
+/// Stücke → EINE Liste in fester Reihenfolge: nach Wort (klein), bei
+/// Gleichstand nach id — derselbe Bestand ergibt immer dieselbe Liste, egal
+/// wie er auf Stücke verteilt ist.
+List<Map<String, dynamic>> vokabIndexZusammen(
+    Iterable<List<Map<String, dynamic>>> stuecke) {
+  final mitSchluessel = [
+    for (final stueck in stuecke)
+      for (final e in stueck) (wort: (e['wort'] as String).toLowerCase(), e: e),
+  ]..sort((a, b) {
+      final c = a.wort.compareTo(b.wort);
+      return c != 0
+          ? c
+          : (a.e['id'] as String).compareTo(b.e['id'] as String);
+    });
+  return [for (final m in mitSchluessel) m.e];
+}
+
+/// (Pfad → volle Karte) → Dateien des Index (Asset-Pfad → Text): je Stück
+/// eine ([vokabIndexStueck]) und die Liste [vokabIndexStueckeDatei].
+/// Wirft [VokabIndexFehler] wie [vokabIndexEintraege].
+Map<String, String> vokabIndexBauen(
+    Map<String, Map<String, dynamic>> kartenNachPfad) {
+  final eintraege = vokabIndexEintraege(kartenNachPfad);
+  final stuecke = <String, List<Map<String, dynamic>>>{};
+  for (final e in eintraege) {
+    (stuecke[vokabIndexStueck(e['wortart'] as String, e['id'] as String)] ??=
+            [])
+        .add(e);
+  }
+  final dateien = stuecke.keys.toList()..sort();
+  return {
+    for (final d in dateien)
+      d: jsonEncode({'version': vokabIndexVersion, 'karten': stuecke[d]}),
+    vokabIndexStueckeDatei: jsonEncode({
+      'version': vokabIndexVersion,
+      'anzahl': eintraege.length,
+      'stuecke': dateien,
+    }),
+  };
 }
 
 /// Kennung der Übersichtskarte «الف» einer Familie. Doppelter Unterstrich:
@@ -281,9 +346,36 @@ Map<String, List<String>> vokabHomographFamilien(
   return nachGrund;
 }
 
-/// Index-Text → Einträge (für die App). Wirft [FormatException], wenn der
-/// Text keine Index-Fassung [vokabIndexVersion] ist.
-List<Map<String, dynamic>> vokabIndexLesen(String text) {
+/// Text von [vokabIndexStueckeDatei] → Asset-Pfade der Stücke (für die App).
+/// Wirft [FormatException], wenn der Text keine Liste der Fassung
+/// [vokabIndexVersion] ist.
+List<String> vokabIndexStueckeLesen(String text) {
+  final roh = jsonDecode(text);
+  if (roh is! Map || roh['version'] != vokabIndexVersion) {
+    throw const FormatException('Wortindex in unbekannter Fassung');
+  }
+  return vokabIndexStueckNamen(text);
+}
+
+/// Wie [vokabIndexStueckeLesen], aber OHNE Versionsprüfung — für den Wächter
+/// L.1a, der die Liste der LIVE-Seite liest (die darf älter sein).
+List<String> vokabIndexStueckNamen(String text) {
+  final Object? roh;
+  try {
+    roh = jsonDecode(text);
+  } on FormatException {
+    throw const FormatException('Stückliste des Wortindex ist kein lesbares JSON');
+  }
+  final stuecke = roh is Map ? roh['stuecke'] : null;
+  if (stuecke is! List || stuecke.any((s) => s is! String || s.isEmpty)) {
+    throw const FormatException('Wortindex ohne Liste "stuecke"');
+  }
+  return stuecke.cast<String>();
+}
+
+/// Text EINES Stücks → Einträge (für die App). Wirft [FormatException], wenn
+/// der Text kein Stück der Fassung [vokabIndexVersion] ist.
+List<Map<String, dynamic>> vokabIndexStueckLesen(String text) {
   final roh = jsonDecode(text);
   if (roh is! Map || roh['version'] != vokabIndexVersion) {
     throw const FormatException('Wortindex in unbekannter Fassung');
@@ -294,6 +386,20 @@ List<Map<String, dynamic>> vokabIndexLesen(String text) {
   ];
 }
 
+/// Dateien des Index (wie von [vokabIndexBauen]) → alle Einträge, sortiert.
+/// Wirft [FormatException], wenn die Liste ein Stück nennt, das fehlt.
+List<Map<String, dynamic>> vokabIndexLesen(Map<String, String> dateien) {
+  final liste = dateien[vokabIndexStueckeDatei];
+  if (liste == null) {
+    throw const FormatException('Wortindex ohne Stückliste');
+  }
+  return vokabIndexZusammen([
+    for (final d in vokabIndexStueckeLesen(liste))
+      vokabIndexStueckLesen(dateien[d] ??
+          (throw FormatException('Wortindex-Stück fehlt: $d'))),
+  ]);
+}
+
 // ── L.1a: Wächter für veröffentlichte ids ─────────────────────────────────
 //
 // Der Leitner-Stand, die Listen und die Notizen der Nutzer zeigen auf
@@ -301,7 +407,9 @@ List<Map<String, dynamic>> vokabIndexLesen(String text) {
 // veröffentlichte id — gelöscht oder umbenannt —, bleibt beim Nutzer eine
 // Karte ohne Wort zurück. Regel: **eine veröffentlichte id bleibt für immer.**
 
-/// Alle ids eines Index-Textes. Bewusst OHNE Versionsprüfung: der Vergleich
+/// Alle ids eines Index-Textes — eines Stücks oder der einen Datei der
+/// älteren Ablage ([vokabIndexAltPfad]); beide tragen die Liste `karten`.
+/// Bewusst OHNE Versionsprüfung: der Vergleich
 /// läuft gegen den Index der LIVE-Seite, und der darf eine ältere Fassung
 /// haben. Wirft [FormatException], wenn der Text gar kein Index ist — dann
 /// lieber rot als „nichts veröffentlicht, alles erlaubt".
@@ -331,3 +439,34 @@ Set<String> vokabIndexIds(String text) {
 /// Leer = alles in Ordnung.
 List<String> vokabVerloreneIds(Set<String> veroeffentlicht, Set<String> neu) =>
     (veroeffentlicht.difference(neu).toList()..sort());
+
+/// Alle ids eines Index aus seinen Dateien. [holen] liefert den Text eines
+/// Asset-Pfads oder `null`, wenn es die Datei nicht gibt (HTTP 404); jeder
+/// andere Fehler gehört als Ausnahme nach oben.
+///
+/// Liest die Ablage in Stücken; gibt es deren Liste nicht, die ältere Ablage
+/// in EINER Datei ([vokabIndexAltPfad]) — so vergleicht der Wächter auch
+/// gegen eine Seite, die noch vor der Aufteilung veröffentlicht wurde.
+/// Wirft [FormatException], wenn keines von beiden da ist oder ein genanntes
+/// Stück fehlt: lieber rot als „nichts veröffentlicht, alles erlaubt".
+Future<Set<String>> vokabIndexIdsHolen(
+    Future<String?> Function(String assetPfad) holen) async {
+  final liste = await holen(vokabIndexStueckeDatei);
+  if (liste == null) {
+    final alt = await holen(vokabIndexAltPfad);
+    if (alt == null) {
+      throw const FormatException(
+          'Kein Wortindex gefunden (weder in Stücken noch als eine Datei)');
+    }
+    return vokabIndexIds(alt);
+  }
+  final ids = <String>{};
+  for (final datei in vokabIndexStueckNamen(liste)) {
+    final text = await holen(datei);
+    if (text == null) {
+      throw FormatException('Wortindex-Stück fehlt: $datei');
+    }
+    ids.addAll(vokabIndexIds(text));
+  }
+  return ids;
+}
