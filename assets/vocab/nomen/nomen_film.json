@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_film",
+  "wort": "der Film",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "فیلم",
+      "فیلم سینمایی"
+    ],
+    "en": [
+      "film",
+      "movie"
+    ]
+  },
+  "niveau": "A1",
+  "themen": [
+    "Medien",
+    "Freizeit"
+  ],
+  "ipa": "fɪlm",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A1",
+      "satz": "Wir sehen heute Abend einen Film.",
+      "uebersetzung": {
+        "fa": "ما امشب یک فیلم می‌بینیم.",
+        "en": "We are watching a film this evening."
+      }
+    },
+    {
+      "niveau": "A2",
+      "satz": "Der Film war lang, aber sehr spannend.",
+      "uebersetzung": {
+        "fa": "فیلم طولانی بود اما بسیار هیجان‌انگیز.",
+        "en": "The film was long but very exciting."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Streifen",
+      "uebersetzung": {
+        "fa": "فیلم",
+        "en": "flick"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kurzfilm",
+      "uebersetzung": {
+        "fa": "فیلم کوتاه",
+        "en": "short film"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Filme",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Kino",
+    "woerter": [
+      {
+        "wort": "der Kinofilm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فیلم سینمایی",
+          "en": "feature film"
+        },
+        "id_ref": "nomen_kinofilm"
+      },
+      {
+        "wort": "der Horrorfilm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فیلم ترسناک",
+          "en": "horror film"
+        },
+        "id_ref": "nomen_horrorfilm"
+      },
+      {
+        "wort": "der Filmstar",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ستاره‌ی سینما",
+          "en": "film star"
+        },
+        "id_ref": "nomen_filmstar"
+      },
+      {
+        "wort": "der Kinosaal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سالن سینما",
+          "en": "cinema auditorium"
+        },
+        "id_ref": "nomen_kinosaal"
+      },
+      {
+        "wort": "die Filmreihe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجموعه‌ی فیلم",
+          "en": "film series"
+        },
+        "id_ref": "nomen_filmreihe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_feld",
+  "wort": "das Feld",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مزرعه",
+      "کشتزار"
+    ],
+    "en": [
+      "field",
+      "farmland"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Landwirtschaft",
+    "Natur"
+  ],
+  "ipa": "fɛlt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Bauer arbeitet auf dem Feld.",
+      "uebersetzung": {
+        "fa": "کشاورز در مزرعه کار می‌کند.",
+        "en": "The farmer works in the field."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Im Sommer steht das Korn hoch auf dem Feld.",
+      "uebersetzung": {
+        "fa": "تابستان گندم بر مزرعه بلند می‌ایستد.",
+        "en": "In summer the grain stands tall in the field."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Acker",
+      "uebersetzung": {
+        "fa": "زمین زراعی",
+        "en": "arable field"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Feldweg",
+      "uebersetzung": {
+        "fa": "راه خاکی مزرعه",
+        "en": "farm track"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Felder",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Landwirtschaft",
+    "woerter": [
+      {
+        "wort": "die Wiese",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چمنزار",
+          "en": "meadow"
+        },
+        "id_ref": "nomen_wiese"
+      },
+      {
+        "wort": "der Bauernhof",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "farm"
+        },
+        "id_ref": "nomen_bauernhof"
+      },
+      {
+        "wort": "der Landwirt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشاورز",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_landwirt"
+      },
+      {
+        "wort": "die Ernte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت محصول",
+          "en": "harvest"
+        },
+        "id_ref": "nomen_ernte"
+      },
+      {
+        "wort": "der Acker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زمین کشاورزی، کشتزار",
+          "en": "field"
+        },
+        "id_ref": "nomen_acker"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
