@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "nomen_erwerb_2",
+  "wort": "der Erwerb",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "خرید",
+      "تملک"
+    ],
+    "en": [
+      "purchase",
+      "acquisition"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Wohnen"
+  ],
+  "ipa": "ɛɐ̯ˈvɛʁp",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Erwerb der Wohnung ist an einen Vertrag gebunden.",
+      "uebersetzung": {
+        "fa": "خرید آپارتمان به یک قرارداد وابسته است.",
+        "en": "The purchase of the flat is bound to a contract."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für den Erwerb von Eigentum braucht man viel Geld.",
+      "uebersetzung": {
+        "fa": "برای تملک ملک پول زیادی لازم است.",
+        "en": "You need a lot of money to acquire property."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Kauf",
+      "uebersetzung": {
+        "fa": "خرید",
+        "en": "purchase"
+      }
+    },
+    {
+      "wort": "die Anschaffung",
+      "uebersetzung": {
+        "fa": "تهیه",
+        "en": "acquisition"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Grundstückserwerb",
+      "uebersetzung": {
+        "fa": "خرید زمین",
+        "en": "land purchase"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از erwerben (به دست آوردن)",
+    "en": "from erwerben (to acquire)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Kauf",
+    "woerter": [
+      {
+        "wort": "zahlen",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پرداختن، حساب کردن",
+          "en": "to pay"
+        },
+        "id_ref": "verb_zahlen"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد، پیمان",
+          "en": "contract, treaty"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "die Immobilie",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ملک، مستغلات",
+          "en": "property, real estate"
+        },
+        "id_ref": "nomen_immobilie"
+      },
+      {
+        "wort": "das Eigentum",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مالکیت، دارایی",
+          "en": "property, ownership"
+        },
+        "id_ref": "nomen_eigentum"
+      },
+      {
+        "wort": "die Anschaffung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "خرید (چیز بادوام)، تهیه",
+          "en": "purchase, acquisition"
+        },
+        "id_ref": "nomen_anschaffung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

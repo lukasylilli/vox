@@ -1,0 +1,140 @@
+{
+  "schema": "3.0",
+  "id": "nomen_ertrag",
+  "wort": "der Ertrag",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "محصول",
+      "بازده (کشاورزی)"
+    ],
+    "en": [
+      "yield (agriculture)",
+      "harvest"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Landwirtschaft"
+  ],
+  "ipa": "ɛɐ̯ˈtʁaːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Ertrag des Feldes war dieses Jahr sehr gut.",
+      "uebersetzung": {
+        "fa": "محصول مزرعه امسال بسیار خوب بود.",
+        "en": "The yield of the field was very good this year."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wegen der Trockenheit sank der Ertrag stark.",
+      "uebersetzung": {
+        "fa": "به‌دلیل خشکی بازده به‌شدت کاهش یافت.",
+        "en": "Because of the drought the yield fell sharply."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Ernte",
+      "uebersetzung": {
+        "fa": "برداشت",
+        "en": "harvest"
+      }
+    },
+    {
+      "wort": "die Ausbeute",
+      "uebersetzung": {
+        "fa": "بازده",
+        "en": "yield"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Ernteertrag",
+      "uebersetzung": {
+        "fa": "محصول برداشت",
+        "en": "crop yield"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از ertragen (به بار آوردن)",
+    "en": "from ertragen (to yield, to bear)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Erträge",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Ernte",
+    "woerter": [
+      {
+        "wort": "die Ernte",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "برداشت محصول، محصول",
+          "en": "harvest, crop"
+        },
+        "id_ref": "nomen_ernte"
+      },
+      {
+        "wort": "der Landwirt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کشاورز، دامدار",
+          "en": "farmer"
+        },
+        "id_ref": "nomen_landwirt"
+      },
+      {
+        "wort": "das Getreide",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "غلات",
+          "en": "grain, cereals"
+        },
+        "id_ref": "nomen_getreide"
+      },
+      {
+        "wort": "der Acker",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "زمین کشاورزی، کشتزار",
+          "en": "field, farmland"
+        },
+        "id_ref": "nomen_acker"
+      },
+      {
+        "wort": "die Ausbeute",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بازده، محصول",
+          "en": "yield, haul"
+        },
+        "id_ref": "nomen_ausbeute"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
