@@ -37,9 +37,9 @@
 ## 🎯 الان کجاییم (2026-11-15)
 
 - VOX از 2026-09-25 منتشر است (Flutter-Web روی GitHub Pages).
-- آرشیو کلمه: **۲۰٬۸۳۴ کارت** (2026-11-15). **🏁 هر چهار فهرست Lukas یک بار کامل طی شد.**
+- آرشیو کلمه: **۲۰٬۸۷۵ کارت** (2026-11-15). **🏁 هر چهار فهرست Lukas یک بار کامل طی شد.**
 - کنار گذاشته: **۵٬۸۳۲ کلمه** (تنها منبع: `tool/daten/zurueckgestellt.json`؛ جدول: `docs/ZURUECKGESTELLT.md`) — جدول ۱ = ۲٬۷۸۷ ردیف (۲ تا حل‌شده) · جدول ۲ «چهار حالت» = **۳٬۰۴۷** ردیف (نه ۲٬۸۸۵: ۱۶۲ ردیف چهار حالت تا 2026-11-11 وسط جدول ۱ جا مانده بودند).
-- **چهار حالت، م۶:** دور ۱ تا ۱۰ ✅ 2026-11-15 (۱۹۳ کلمه ⇒ ۴۳۶ کارت: Bequemlichkeit … Aggregat)؛ **باز: ۲٬۸۵۴ کلمه** از جدول ۲، کلمه‌ی بعدی **Ahnung** (ترتیب فایل). مانده: Beta، Binder، Blackout، Chart، Charter، Chili، Coca، Curry (آرتیکل یا معنی نامطمئن) · Buchenwald، Caritas، Diakonie (اسم خاص؛ Lukas: «فعلاً بماند») · معنی‌های نامطمئن بدون کارت: Diskothek («مجموعه‌ی صفحه»)، Division («لیگ»)، Abschwung («Turnen»)، Abstrich («Schreibstrich»).
+- **چهار حالت، م۶:** دور ۱ تا ۱۱ ✅ (۲۱۳ کلمه ⇒ ۴۷۷ کارت: Bequemlichkeit … Amt)؛ **باز: ۲٬۸۳۴ کلمه** از جدول ۲، کلمه‌ی بعدی بعد از Amt؛ فعلاً مانده: Alster (آرتیکل متفاوت: die Fluss / das Getränk) و Alte (اسم‌صفت + چند معنی) — منتظر تصمیم Lukas (ترتیب فایل). مانده: Beta، Binder، Blackout، Chart، Charter، Chili، Coca، Curry (آرتیکل یا معنی نامطمئن) · Buchenwald، Caritas، Diakonie (اسم خاص؛ Lukas: «فعلاً بماند») · معنی‌های نامطمئن بدون کارت: Diskothek («مجموعه‌ی صفحه»)، Division («لیگ»)، Abschwung («Turnen»)، Abstrich («Schreibstrich»).
 - ممیزی کامل پروژه انجام شد (2026-11-10)؛ بسته‌ی ۱ (لایتنر «الف+») و لینک‌های شبکه‌های اجتماعی ✅.
 
 ## ⏭️ قدم بعدی

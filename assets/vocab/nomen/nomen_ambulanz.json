@@ -1,0 +1,116 @@
+{
+  "schema": "3.0",
+  "id": "nomen_ambulanz",
+  "wort": "die Ambulanz",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "درمانگاه",
+      "بخش سرپایی"
+    ],
+    "en": [
+      "outpatient clinic",
+      "outpatient department"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ambuˈlants",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Mit dem Fieber muss er in die Ambulanz.",
+      "uebersetzung": {
+        "fa": "با این تب باید به درمانگاه برود.",
+        "en": "With this fever he has to go to the outpatient department."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Ambulanz im Krankenhaus ist am Wochenende geschlossen.",
+      "uebersetzung": {
+        "fa": "درمانگاه بیمارستان آخر هفته‌ها بسته است.",
+        "en": "The outpatient department at the hospital is closed at the weekend."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Ambulanzen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Ambulanz",
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک، دکتر",
+          "en": "doctor, physician"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلینیک، بیمارستان",
+          "en": "clinic, hospital"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Poliklinik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درمانگاه سرپایی، پلی‌کلینیک",
+          "en": "outpatient clinic, polyclinic"
+        },
+        "id_ref": "nomen_poliklinik"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
