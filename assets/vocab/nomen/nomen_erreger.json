@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_erreger",
+  "wort": "der Erreger",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "عامل بیماری",
+      "میکروب بیماری‌زا"
+    ],
+    "en": [
+      "pathogen",
+      "disease-causing agent"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "ɛɐ̯ˈʁeːɡɐ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Erreger der Krankheit ist ein Virus.",
+      "uebersetzung": {
+        "fa": "عامل این بیماری یک ویروس است.",
+        "en": "The pathogen of the disease is a virus."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Erreger der Grippe verbreitet sich schnell.",
+      "uebersetzung": {
+        "fa": "عامل آنفلوآنزا سریع پخش می‌شود.",
+        "en": "The pathogen of the flu spreads quickly."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Krankheitserreger",
+      "uebersetzung": {
+        "fa": "عامل بیماری",
+        "en": "pathogen"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از erregen (برانگیختن)",
+    "en": "from erregen (to excite)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Erreger",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Krankheit",
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness, disease"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Grippe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آنفلوانزا",
+          "en": "flu, influenza"
+        },
+        "id_ref": "nomen_grippe"
+      },
+      {
+        "wort": "die Haut",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوست",
+          "en": "skin"
+        },
+        "id_ref": "nomen_haut"
+      },
+      {
+        "wort": "die Infektion",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "عفونت، سرایت",
+          "en": "infection"
+        },
+        "id_ref": "nomen_infektion"
+      },
+      {
+        "wort": "die Seuche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بیماری واگیر، همه‌گیری",
+          "en": "epidemic, plague"
+        },
+        "id_ref": "nomen_seuche"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
