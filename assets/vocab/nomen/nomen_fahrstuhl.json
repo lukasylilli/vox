@@ -1,0 +1,149 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrstuhl",
+  "wort": "der Fahrstuhl",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آسانسور"
+    ],
+    "en": [
+      "lift",
+      "elevator"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Wohnen",
+    "Alltag"
+  ],
+  "ipa": "ˈfaːɐ̯ʃtuːl",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fahrstuhl ist kaputt, wir müssen die Treppe nehmen.",
+      "uebersetzung": {
+        "fa": "آسانسور خراب است و باید از پله‌ها برویم.",
+        "en": "The lift is broken, we have to take the stairs."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Bei Feuer benutzen Sie bitte nicht den Fahrstuhl, sondern die Treppe.",
+      "uebersetzung": {
+        "fa": "هنگام آتش‌سوزی لطفاً از آسانسور استفاده نکنید و از پله‌ها بروید.",
+        "en": "In case of fire, please do not use the lift but the stairs."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Aufzug",
+      "uebersetzung": {
+        "fa": "آسانسور",
+        "en": "lift"
+      }
+    },
+    {
+      "wort": "der Lift",
+      "uebersetzung": {
+        "fa": "آسانسور",
+        "en": "lift"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Fahrstuhlschacht",
+      "uebersetzung": {
+        "fa": "چاه آسانسور",
+        "en": "lift shaft"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Fahr- (حرکت) + Stuhl (صندلی، کابین)",
+    "en": "Fahr- (moving) + Stuhl (chair, cabin)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fahrstühle",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "den Fahrstuhl nehmen",
+        "beispiel": "Wir nehmen den Fahrstuhl in den fünften Stock.",
+        "uebersetzung": {
+          "fa": "ما با آسانسور به طبقه‌ی پنجم می‌رویم.",
+          "en": "We take the lift to the fifth floor."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Aufzug",
+    "woerter": [
+      {
+        "wort": "die Treppe",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پله‌ها",
+          "en": "stairs"
+        },
+        "id_ref": "nomen_treppe"
+      },
+      {
+        "wort": "die Rolltreppe",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پله‌برقی",
+          "en": "escalator"
+        },
+        "id_ref": "nomen_rolltreppe"
+      },
+      {
+        "wort": "die Etage",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طبقه",
+          "en": "floor"
+        },
+        "id_ref": "nomen_etage"
+      },
+      {
+        "wort": "das Stockwerk",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "طبقه (ساختمان)",
+          "en": "floor; storey"
+        },
+        "id_ref": "nomen_stockwerk"
+      },
+      {
+        "wort": "das Hochhaus",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "برج، ساختمان بلند",
+          "en": "high-rise, tower block"
+        },
+        "id_ref": "nomen_hochhaus"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

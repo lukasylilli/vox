@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrt",
+  "wort": "die Fahrt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سفر",
+      "رفتن با وسیله‌ی نقلیه",
+      "گردش"
+    ],
+    "en": [
+      "journey",
+      "trip",
+      "ride"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Verkehr",
+    "Reisen"
+  ],
+  "ipa": "faːɐ̯t",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Fahrt nach München dauert vier Stunden.",
+      "uebersetzung": {
+        "fa": "سفر تا مونیخ چهار ساعت طول می‌کشد.",
+        "en": "The journey to Munich takes four hours."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Während der Fahrt darf man nicht aus dem Fenster lehnen.",
+      "uebersetzung": {
+        "fa": "در حین حرکت نباید از پنجره بیرون خم شد.",
+        "en": "During the ride you must not lean out of the window."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Reise",
+      "uebersetzung": {
+        "fa": "سفر",
+        "en": "journey"
+      }
+    },
+    {
+      "wort": "die Tour",
+      "uebersetzung": {
+        "fa": "گردش",
+        "en": "tour"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Autofahrt",
+      "uebersetzung": {
+        "fa": "سفر با ماشین",
+        "en": "car journey"
+      }
+    },
+    {
+      "wort": "die Zugfahrt",
+      "uebersetzung": {
+        "fa": "سفر با قطار",
+        "en": "train journey"
+      }
+    },
+    {
+      "wort": "die Busfahrt",
+      "uebersetzung": {
+        "fa": "سفر با اتوبوس",
+        "en": "bus journey"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از فعل fahren (رفتن با وسیله‌ی نقلیه)",
+    "en": "from the verb fahren (to travel by vehicle)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Fahrten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "fahren",
+    "woerter": [
+      {
+        "wort": "fahren",
+        "wortart": "verb",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "(با وسیله‌ی نقلیه) رفتن، سفر کردن",
+          "en": "to go (by vehicle), to travel"
+        },
+        "id_ref": "verb_fahren"
+      },
+      {
+        "wort": "die Reise",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "سفر",
+          "en": "journey"
+        },
+        "id_ref": "nomen_reise"
+      },
+      {
+        "wort": "der Ausflug",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "گردش",
+          "en": "trip"
+        },
+        "id_ref": "nomen_ausflug"
+      },
+      {
+        "wort": "der Urlaub",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تعطیلات",
+          "en": "holiday"
+        },
+        "id_ref": "nomen_urlaub"
+      },
+      {
+        "wort": "die Ankunft",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ورود",
+          "en": "arrival"
+        },
+        "id_ref": "nomen_ankunft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

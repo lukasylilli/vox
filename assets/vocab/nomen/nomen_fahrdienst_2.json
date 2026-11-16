@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fahrdienst_2",
+  "wort": "der Fahrdienst",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "خدمات حمل‌ونقل ویژه",
+      "سرویس رفت‌وآمد (برای بیماران یا معلولان)"
+    ],
+    "en": [
+      "special transport service",
+      "ride service (for the sick or disabled)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Verkehr"
+  ],
+  "ipa": "ˈfaːɐ̯diːnst",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Für Rollstuhlfahrer gibt es einen besonderen Fahrdienst.",
+      "uebersetzung": {
+        "fa": "برای افراد با ویلچر یک سرویس رفت‌وآمد ویژه وجود دارد.",
+        "en": "There is a special ride service for wheelchair users."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Viele Pflegeheime bieten einen Fahrdienst zum Arzt an.",
+      "uebersetzung": {
+        "fa": "بسیاری از آسایشگاه‌ها سرویس رفت‌وآمد به مطب پزشک ارائه می‌کنند.",
+        "en": "Many nursing homes offer a ride service to the doctor."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Krankenfahrdienst",
+      "uebersetzung": {
+        "fa": "سرویس حمل بیماران",
+        "en": "patient transport service"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "Fahr- (رانندگی) + Dienst (خدمت)",
+    "en": "Fahr- (driving) + Dienst (service)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fahrdienste",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Transport",
+    "woerter": [
+      {
+        "wort": "das Taxi",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تاکسی",
+          "en": "taxi"
+        },
+        "id_ref": "nomen_taxi"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "der Rollstuhl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ویلچر",
+          "en": "wheelchair"
+        },
+        "id_ref": "nomen_rollstuhl"
+      },
+      {
+        "wort": "der Transport",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل‌ونقل",
+          "en": "transport"
+        },
+        "id_ref": "nomen_transport"
+      },
+      {
+        "wort": "das Pflegeheim",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خانه‌ی سالمندان (با مراقبت پرستاری)",
+          "en": "nursing home"
+        },
+        "id_ref": "nomen_pflegeheim"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
