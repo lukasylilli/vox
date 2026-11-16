@@ -1,0 +1,144 @@
+{
+  "schema": "3.0",
+  "id": "nomen_belegung",
+  "wort": "die Belegung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "اشغال (اتاق، تخت)",
+      "پر بودن"
+    ],
+    "en": [
+      "occupancy",
+      "allocation"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Reisen",
+    "Gesundheit"
+  ],
+  "ipa": "bəˈleːgʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin",
+    "gastro_hotel"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Belegung der Betten im Krankenhaus ist hoch.",
+      "uebersetzung": {
+        "fa": "میزان اشغال تخت‌های بیمارستان بالاست.",
+        "en": "The occupancy of beds in the hospital is high."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Belegung des Hotels liegt im Sommer bei neunzig Prozent.",
+      "uebersetzung": {
+        "fa": "نرخ اشغال هتل در تابستان نود درصد است.",
+        "en": "The hotel’s occupancy is ninety percent in summer."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Auslastung",
+      "uebersetzung": {
+        "fa": "پر بودن",
+        "en": "utilization"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Zimmerbelegung",
+      "uebersetzung": {
+        "fa": "اشغال اتاق‌ها",
+        "en": "room occupancy"
+      }
+    },
+    {
+      "wort": "die Bettenbelegung",
+      "uebersetzung": {
+        "fa": "اشغال تخت‌ها",
+        "en": "bed occupancy"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "belegen + -ung",
+    "en": "belegen + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Belegungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Belegung",
+    "woerter": [
+      {
+        "wort": "das Zimmer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اتاق",
+          "en": "room"
+        },
+        "id_ref": "nomen_zimmer"
+      },
+      {
+        "wort": "das Hotel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "هتل",
+          "en": "hotel"
+        },
+        "id_ref": "nomen_hotel"
+      },
+      {
+        "wort": "das Bett",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "تخت، رختخواب",
+          "en": "bed"
+        },
+        "id_ref": "nomen_bett"
+      },
+      {
+        "wort": "die Reservierung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رزرو",
+          "en": "reservation, booking"
+        },
+        "id_ref": "nomen_reservierung"
+      },
+      {
+        "wort": "die Auslastung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ظرفیت مورد استفاده، میزان بهره‌برداری",
+          "en": "capacity utilisation, occupancy"
+        },
+        "id_ref": "nomen_auslastung"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

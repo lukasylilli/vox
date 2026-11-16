@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۲۴)** — ۲۰ کلمه‌ی جدول ۲ (Behandlung … Doppelpack) ⇒ ۴۳ کارت (حالت ۴: der/die Behinderte، der/die Beigeordnete)؛ ۱۱ ارجاع wortnetz قدیمی به معنی درست وصل شد (Beitrag² ⇐ ۸ کارت بیمه/عضویت، Beihilfe² ⇐ Anstiftung، Bekanntschaft² ⇐ Bekanntenkreis، Belastung² ⇐ Auslastung). آرشیو ۲۱٬۴۶۹؛ باز: ۲٬۵۷۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۳)** — ۲۰ کلمه‌ی جدول ۲ (Bearbeitung … Begleitung) ⇒ ۴۲ کارت (حالت ۴: der/die Beauftragte، der/die Befragte)؛ ۲۰ ارجاع wortnetz قدیمی به معنی درست وصل شد (۱۱ کارت «اهمیت» ⇒ Bedeutung²، Kellnerin ⇒ Bedienung²، Handhabung/Handling ⇒ Bedienung³، Freistellung ⇒ Befreiung² و …). آرشیو ۲۱٬۴۲۶؛ باز: ۲٬۵۹۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۲)** — ۲۰ کلمه‌ی جدول ۲ (Bann … Beamter) ⇒ ۴۶ کارت (۱۹ کلمه با همه‌ی معنی‌ها + حالت ۴ «der Beamte»)؛ یک ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Erweiterungsbau ⇒ Bau² «ساختمان»). Bastard ساخته نشد (Schimpfwort، مثل Arsch منتظر تصمیم Lukas). آرشیو ۲۱٬۳۸۴؛ باز: ۲٬۶۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۱)** — ۲۰ کلمه‌ی جدول ۲ (Auswahl … Bankrott) ⇒ ۴۸ کارت؛ ۸ ارجاع wortnetz از کارت‌های قبلی به معنی درست وصل شد (Freibad ⇒ Bad³، Kurstadt ⇒ Bad⁴، baden ⇒ Bad²، Landebahn ⇒ Bahn²، elliptisch ⇒ Bahn³، Angebotspalette و Kollektion ⇒ Auswahl²، Flipper ⇒ Automat²). Backen، Baden (حالت ۲)، Auszubildende، Bankangestellte (حالت ۴) ساخته نشدند. آرشیو ۲۱٬۳۳۸؛ باز: ۲٬۶۳۴. جزئیات: `docs/WORTRUNDEN.md`.
