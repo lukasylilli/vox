@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۲۷)** — ۲۰ کلمه‌ی جدول ۲ (Einigung … Einstieg) ⇒ ۵۲ کارت؛ Einordnung و Einspielung ساخته نشد (معنی نامطمئن). آرشیو ۲۱٬۶۱۵؛ باز: ۲٬۵۱۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۶)** — ۲۰ کلمه‌ی جدول ۲ (Dynamik … Einheit) ⇒ ۴۶ کارت (حالت ۴: der/die Ehrenvorsitzende)؛ ۱۵ ارجاع wortnetz قدیمی به معنی درست وصل شد (Ebene²/³، Einheit²/³، Einbruch³، Eingang²، Eingabe² …). آرشیو ۲۱٬۵۶۳؛ باز: ۲٬۵۳۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۵)** — ۲۰ کلمه‌ی جدول ۲ (Doppelpass … Duldung) ⇒ ۴۸ کارت؛ ۲ ارجاع قدیمی به Drama² وصل شد. آرشیو ۲۱٬۵۱۷؛ باز: ۲٬۵۵۴. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۲۴)** — ۲۰ کلمه‌ی جدول ۲ (Behandlung … Doppelpack) ⇒ ۴۳ کارت (حالت ۴: der/die Behinderte، der/die Beigeordnete)؛ ۱۱ ارجاع wortnetz قدیمی به معنی درست وصل شد (Beitrag² ⇐ ۸ کارت بیمه/عضویت، Beihilfe² ⇐ Anstiftung، Bekanntschaft² ⇐ Bekanntenkreis، Belastung² ⇐ Auslastung). آرشیو ۲۱٬۴۶۹؛ باز: ۲٬۵۷۴. جزئیات: `docs/WORTRUNDEN.md`.

@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einschluss",
+  "wort": "der Einschluss",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شمول",
+      "احتساب"
+    ],
+    "en": [
+      "inclusion",
+      "including"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Recht",
+    "Wirtschaft"
+  ],
+  "ipa": "ˈaɪ̯nʃlʊs",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Preis gilt mit Einschluss aller Nebenkosten.",
+      "uebersetzung": {
+        "fa": "این قیمت با احتساب همه‌ی هزینه‌های جانبی است.",
+        "en": "The price applies including all additional costs."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Regel gilt unter Einschluss der neuen Mitglieder.",
+      "uebersetzung": {
+        "fa": "این قاعده شامل اعضای جدید هم می‌شود.",
+        "en": "The rule applies including the new members."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Einbeziehung",
+      "uebersetzung": {
+        "fa": "شمول، دخیل کردن",
+        "en": "inclusion"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Ausschluss",
+      "uebersetzung": {
+        "fa": "حذف، استثنا",
+        "en": "exclusion"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "ein- (به درون) + Schluss (بستن، پایان)",
+    "en": "ein- (in) + Schluss (closing)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "mit Einschluss von + Dat",
+        "beispiel": "Das Angebot gilt mit Einschluss von Frühstück und Abendessen.",
+        "uebersetzung": {
+          "fa": "این پیشنهاد با احتساب صبحانه و شام معتبر است.",
+          "en": "The offer applies including breakfast and dinner."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Einschluss",
+    "woerter": [
+      {
+        "wort": "enthalten",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "دربر داشتن، شامل بودن، (sich enthalten + Gen) خودداری کردن، (در رأی‌گیری) رأی ممتنع دادن",
+          "en": "to contain, to include, (sich + gen.) to abstain from"
+        },
+        "id_ref": "verb_enthalten"
+      },
+      {
+        "wort": "die Einbeziehung",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دخیل کردن، مشارکت دادن",
+          "en": "inclusion, involvement"
+        },
+        "id_ref": "nomen_einbeziehung"
+      },
+      {
+        "wort": "der Ausschluss",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اخراج، محرومیت",
+          "en": "exclusion, expulsion"
+        },
+        "id_ref": "nomen_ausschluss"
+      },
+      {
+        "wort": "inkludieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "شامل کردن، در بر گرفتن",
+          "en": "to include"
+        },
+        "id_ref": "verb_inkludieren"
+      },
+      {
+        "wort": "die Teilhabe",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مشارکت، بهره‌مندی",
+          "en": "participation, inclusion"
+        },
+        "id_ref": "nomen_teilhabe"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

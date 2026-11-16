@@ -1,0 +1,158 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einsatz_3",
+  "wort": "der Einsatz",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مأموریت (پلیس، آتش‌نشانی)",
+      "عملیات"
+    ],
+    "en": [
+      "operation (police, fire brigade)",
+      "call-out",
+      "mission"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Gesellschaft",
+    "Sicherheit"
+  ],
+  "ipa": "ˈaɪ̯nzat͡s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Feuerwehr ist im Einsatz.",
+      "uebersetzung": {
+        "fa": "آتش‌نشانی در حال عملیات است.",
+        "en": "The fire brigade is on a call-out."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Einsatz der Polizei dauerte die ganze Nacht.",
+      "uebersetzung": {
+        "fa": "عملیات پلیس تمام شب طول کشید.",
+        "en": "The police operation lasted all night."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Aktion",
+      "uebersetzung": {
+        "fa": "عملیات",
+        "en": "operation"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Polizeieinsatz",
+      "uebersetzung": {
+        "fa": "عملیات پلیس",
+        "en": "police operation"
+      }
+    },
+    {
+      "wort": "der Feuerwehreinsatz",
+      "uebersetzung": {
+        "fa": "عملیات آتش‌نشانی",
+        "en": "fire brigade call-out"
+      }
+    },
+    {
+      "wort": "der Rettungseinsatz",
+      "uebersetzung": {
+        "fa": "عملیات نجات",
+        "en": "rescue operation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ein- (به درون) + setzen (گذاشتن، به کار گرفتن)",
+    "en": "ein- (in) + setzen (to put, to deploy)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Einsätze",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "im Einsatz sein",
+        "beispiel": "Die Rettungskräfte sind seit Stunden im Einsatz.",
+        "uebersetzung": {
+          "fa": "نیروهای امداد ساعت‌هاست در حال عملیات‌اند.",
+          "en": "The rescue workers have been on duty for hours."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Einsatz",
+    "woerter": [
+      {
+        "wort": "die Polizei",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پلیس",
+          "en": "police"
+        },
+        "id_ref": "nomen_polizei"
+      },
+      {
+        "wort": "die Feuerwehr",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آتش‌نشانی",
+          "en": "fire brigade, fire department"
+        },
+        "id_ref": "nomen_feuerwehr"
+      },
+      {
+        "wort": "der Notruf",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "تماس اضطراری، شماره‌ی اضطراری",
+          "en": "emergency call, emergency number"
+        },
+        "id_ref": "nomen_notruf"
+      },
+      {
+        "wort": "der Polizeieinsatz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عملیات پلیس، مأموریت پلیس",
+          "en": "police operation, police deployment"
+        },
+        "id_ref": "nomen_polizeieinsatz"
+      },
+      {
+        "wort": "der Einsatzleiter",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "فرمانده‌ی عملیات، مسئول عملیات (امداد یا پلیس)",
+          "en": "incident commander, head of operations"
+        },
+        "id_ref": "nomen_einsatzleiter"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

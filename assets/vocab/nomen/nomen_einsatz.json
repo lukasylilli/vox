@@ -1,0 +1,166 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einsatz",
+  "wort": "der Einsatz",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "به‌کارگیری",
+      "استفاده (از نیرو، دستگاه یا روش)"
+    ],
+    "en": [
+      "use",
+      "deployment (of resources, equipment)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Arbeit",
+    "Technik"
+  ],
+  "ipa": "ˈaɪ̯nzat͡s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Der Einsatz von Handys ist im Unterricht verboten.",
+      "uebersetzung": {
+        "fa": "استفاده از تلفن همراه در کلاس ممنوع است.",
+        "en": "Using mobile phones is forbidden in class."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Beim Einsatz von Chemikalien muss man vorsichtig sein.",
+      "uebersetzung": {
+        "fa": "هنگام به‌کارگیری مواد شیمیایی باید احتیاط کرد.",
+        "en": "You have to be careful when using chemicals."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Verwendung",
+      "uebersetzung": {
+        "fa": "کاربرد",
+        "en": "use"
+      }
+    },
+    {
+      "wort": "die Anwendung",
+      "uebersetzung": {
+        "fa": "کاربرد، به‌کارگیری",
+        "en": "application"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Einsatzmöglichkeit",
+      "uebersetzung": {
+        "fa": "امکان استفاده",
+        "en": "possible use"
+      }
+    },
+    {
+      "wort": "der Technikeinsatz",
+      "uebersetzung": {
+        "fa": "به‌کارگیری فناوری",
+        "en": "use of technology"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ein- (به درون) + setzen (گذاشتن، به کار گرفتن)",
+    "en": "ein- (in) + setzen (to put, to deploy)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Einsätze",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Einsatz von + Dat",
+        "beispiel": "Der Einsatz von Robotern spart Zeit.",
+        "uebersetzung": {
+          "fa": "به‌کارگیری ربات‌ها در زمان صرفه‌جویی می‌کند.",
+          "en": "Using robots saves time."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "zum Einsatz kommen",
+        "beispiel": "Bei diesem Projekt kommen neue Geräte zum Einsatz.",
+        "uebersetzung": {
+          "fa": "در این پروژه دستگاه‌های جدید به‌کار گرفته می‌شوند.",
+          "en": "New devices are used in this project."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "Einsatz",
+    "woerter": [
+      {
+        "wort": "die Benutzung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "استفاده، کاربرد",
+          "en": "use, usage"
+        },
+        "id_ref": "nomen_benutzung"
+      },
+      {
+        "wort": "die Verwendung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کاربرد، استفاده",
+          "en": "use, usage"
+        },
+        "id_ref": "nomen_verwendung"
+      },
+      {
+        "wort": "die Nutzung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "استفاده، بهره‌برداری",
+          "en": "use, usage"
+        },
+        "id_ref": "nomen_nutzung"
+      },
+      {
+        "wort": "der Einsatzort",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "محل عملیات، محل کار (مأموریت)",
+          "en": "place of operation, place of work (assignment)"
+        },
+        "id_ref": "nomen_einsatzort"
+      },
+      {
+        "wort": "die Einsatzbereitschaft",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آمادگی برای کار یا عملیات، تعهد و پشتکار",
+          "en": "commitment, readiness (for action)"
+        },
+        "id_ref": "nomen_einsatzbereitschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
