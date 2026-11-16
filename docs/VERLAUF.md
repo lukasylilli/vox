@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-16 (چهار حالت — م۶، دور ۳۶)** — ۲۰ کلمه‌ی جدول ۲ (Fond … Freiheit) ⇒ ۴۷ کارت؛ چهار کلمه‌ی Fall 4 و Freiburg ساخته نشد. ۴ ارجاع قدیمی wortnetz به معنی درست وصل شد (Form، Frau). آرشیو ۲۲٬۰۲۹؛ باز: ۲٬۳۳۳. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۵)** — ۲۰ کلمه‌ی جدول ۲ (Filz … Folge) ⇒ ۴۶ کارت؛ Finanzbeamter ساخته نشد (Fall 4). ۱۸ ارجاع قدیمی wortnetz به معنی درست وصل شد (Flut، Fokus، Flanke، Fluch، Folge …). آرشیو ۲۱٬۹۸۲؛ باز: ۲٬۳۵۳. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۴)** — ۲۰ کلمه‌ی جدول ۲ (Feigenblatt … Filmrolle) ⇒ ۴۶ کارت؛ Feine/Feste/Fette ساخته نشد (Fall 4، نامطمئن). ۱۶ ارجاع قدیمی wortnetz به معنی درست وصل شد (Feld، Feuer، Figur، Film، Feststellung، Feinheit). آرشیو ۲۱٬۹۳۶؛ باز: ۲٬۳۷۳. جزئیات: `docs/WORTRUNDEN.md`.
 - **2026-11-16 (چهار حالت — م۶، دور ۳۳)** — ۲۰ کلمه‌ی جدول ۲ (Fahrwasser … Feige) ⇒ ۴۴ کارت؛ Familiendrama/-geschichte/-tag/-verband ساخته نشد (نامطمئن). ۲۴ ارجاع قدیمی wortnetz به معنی درست وصل شد (Farbe، Fassung، Feder، Falte، Falle). آرشیو ۲۱٬۸۹۰؛ باز: ۲٬۳۹۳. جزئیات: `docs/WORTRUNDEN.md`.

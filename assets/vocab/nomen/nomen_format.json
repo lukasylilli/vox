@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_format",
+  "wort": "das Format",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "قطع",
+      "اندازه (کاغذ، فایل)"
+    ],
+    "en": [
+      "format",
+      "size"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Alltag"
+  ],
+  "ipa": "fɔʁˈmaːt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B1",
+      "satz": "Das Papier hat das Format DIN A4.",
+      "uebersetzung": {
+        "fa": "کاغذ قطع A4 دارد.",
+        "en": "The paper is in A4 format."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bitte speichern Sie das Bild in einem anderen Format.",
+      "uebersetzung": {
+        "fa": "لطفاً تصویر را با فرمت دیگری ذخیره کنید.",
+        "en": "Please save the picture in a different format."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Maß",
+      "uebersetzung": {
+        "fa": "اندازه",
+        "en": "size"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Dateiformat",
+      "uebersetzung": {
+        "fa": "فرمت فایل",
+        "en": "file format"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Formate",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Größe",
+    "woerter": [
+      {
+        "wort": "die Informatik",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انفورماتیک، علوم کامپیوتر",
+          "en": "computer science, informatics"
+        },
+        "id_ref": "nomen_informatik"
+      },
+      {
+        "wort": "formatieren",
+        "wortart": "verb",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قالب‌بندی کردن",
+          "en": "to format"
+        },
+        "id_ref": "verb_formatieren"
+      },
+      {
+        "wort": "die Papierfabrik",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کارخانه‌ی کاغذسازی",
+          "en": "paper mill"
+        },
+        "id_ref": "nomen_papierfabrik"
+      },
+      {
+        "wort": "konvertieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تغییر دین دادن",
+          "en": "to convert"
+        },
+        "id_ref": "verb_konvertieren"
+      },
+      {
+        "wort": "proprietär",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "(فناوری) انحصاری، اختصاصی",
+          "en": "(tech) proprietary"
+        },
+        "id_ref": "adjektiv_proprietaer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
