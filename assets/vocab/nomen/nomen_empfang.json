@@ -1,0 +1,152 @@
+{
+  "schema": "3.0",
+  "id": "nomen_empfang",
+  "wort": "der Empfang",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "دریافت",
+      "رسیدن (چیزی به کسی)"
+    ],
+    "en": [
+      "receipt",
+      "receiving"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Kommunikation",
+    "Verwaltung"
+  ],
+  "ipa": "ɛmˈpfaŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Bitte bestätigen Sie den Empfang des Briefes.",
+      "uebersetzung": {
+        "fa": "لطفاً دریافت نامه را تأیید کنید.",
+        "en": "Please confirm receipt of the letter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach Empfang der Ware können Sie sie zurückschicken.",
+      "uebersetzung": {
+        "fa": "پس از دریافت کالا می‌توانید آن را پس بفرستید.",
+        "en": "After receiving the goods, you can send them back."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Erhalt",
+      "uebersetzung": {
+        "fa": "دریافت",
+        "en": "receipt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Empfangsbestätigung",
+      "uebersetzung": {
+        "fa": "تأیید دریافت",
+        "en": "acknowledgement of receipt"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از empfangen (دریافت کردن)",
+    "en": "from empfangen (to receive)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [
+      {
+        "muster": "Empfang von + Dat",
+        "beispiel": "Der Empfang von Spenden ist steuerfrei.",
+        "uebersetzung": {
+          "fa": "دریافت کمک مالی معاف از مالیات است.",
+          "en": "Receiving donations is tax-free."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "den Empfang bestätigen",
+        "beispiel": "Ich bestätige den Empfang des Pakets.",
+        "uebersetzung": {
+          "fa": "دریافت بسته را تأیید می‌کنم.",
+          "en": "I confirm receipt of the parcel."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "empfangen",
+    "woerter": [
+      {
+        "wort": "empfangen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "(کسی را) پذیرایی کردن، به استقبال رفتن، (سیگنال، پیام یا هدیه را) دریافت کردن",
+          "en": "to receive, to welcome (someone), to receive (a signal, message, gift)"
+        },
+        "id_ref": "verb_empfangen"
+      },
+      {
+        "wort": "der Beleg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسید، مدرک",
+          "en": "receipt, proof"
+        },
+        "id_ref": "nomen_beleg"
+      },
+      {
+        "wort": "die Zustellung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تحویل (پستی)، ابلاغ",
+          "en": "delivery, service (of documents)"
+        },
+        "id_ref": "nomen_zustellung"
+      },
+      {
+        "wort": "der Bezieher",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "دریافت‌کننده، مشترک",
+          "en": "recipient, subscriber"
+        },
+        "id_ref": "nomen_bezieher"
+      },
+      {
+        "wort": "der Adressat",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "گیرنده، مخاطب",
+          "en": "addressee, recipient"
+        },
+        "id_ref": "nomen_adressat"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

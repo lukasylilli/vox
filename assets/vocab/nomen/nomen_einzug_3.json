@@ -1,0 +1,141 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einzug_3",
+  "wort": "der Einzug",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "برداشت (از حساب)",
+      "وصول (پول)"
+    ],
+    "en": [
+      "collection (of money)",
+      "direct debit"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Verwaltung"
+  ],
+  "ipa": "ˈaɪ̯ntsuːk",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Der Einzug der Gebühr erfolgt automatisch vom Konto.",
+      "uebersetzung": {
+        "fa": "وصول هزینه به‌صورت خودکار از حساب انجام می‌شود.",
+        "en": "The fee is collected automatically from the account."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Mit dem Einzug des Mitgliedsbeitrags ist die Verwaltung beauftragt.",
+      "uebersetzung": {
+        "fa": "وصول حق عضویت بر عهده‌ی اداره است.",
+        "en": "The administration is responsible for collecting the membership fee."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Einziehung",
+      "uebersetzung": {
+        "fa": "وصول",
+        "en": "collection"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Lastschrifteinzug",
+      "uebersetzung": {
+        "fa": "برداشت مستقیم",
+        "en": "direct debit"
+      }
+    },
+    {
+      "wort": "die Einzugsermächtigung",
+      "uebersetzung": {
+        "fa": "مجوز برداشت",
+        "en": "direct debit authorization"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ein- (به درون) + ziehen (کشیدن، رفتن)",
+    "en": "ein- (in) + ziehen (to move, to pull)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Konto",
+    "woerter": [
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی، حساب",
+          "en": "account, bank account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد، پیمان",
+          "en": "contract, treaty"
+        },
+        "id_ref": "nomen_vertrag"
+      },
+      {
+        "wort": "der Beleg",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رسید، مدرک",
+          "en": "receipt, proof"
+        },
+        "id_ref": "nomen_beleg"
+      },
+      {
+        "wort": "die Bescheinigung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گواهی، تأییدیه",
+          "en": "certificate, confirmation"
+        },
+        "id_ref": "nomen_bescheinigung"
+      },
+      {
+        "wort": "die Mitgliedschaft",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عضویت",
+          "en": "membership"
+        },
+        "id_ref": "nomen_mitgliedschaft"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

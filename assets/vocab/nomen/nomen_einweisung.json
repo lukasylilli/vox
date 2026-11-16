@@ -1,0 +1,136 @@
+{
+  "schema": "3.0",
+  "id": "nomen_einweisung",
+  "wort": "die Einweisung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بستری شدن (در بیمارستان)",
+      "ارجاع (به بیمارستان)"
+    ],
+    "en": [
+      "admission (to hospital)",
+      "referral (to hospital)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Gesundheit",
+    "Medizin"
+  ],
+  "ipa": "ˈaɪ̯nvaɪ̯zʊŋ",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "B2",
+      "satz": "Die Einweisung ins Krankenhaus erfolgte am selben Abend.",
+      "uebersetzung": {
+        "fa": "بستری شدن در بیمارستان همان شب انجام شد.",
+        "en": "The admission to hospital took place the same evening."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Für die Einweisung brauchen Sie eine Überweisung vom Arzt.",
+      "uebersetzung": {
+        "fa": "برای ارجاع به بیمارستان به معرفی‌نامه‌ی پزشک نیاز دارید.",
+        "en": "For the admission you need a referral from the doctor."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Aufnahme",
+      "uebersetzung": {
+        "fa": "پذیرش",
+        "en": "admission"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Krankenhauseinweisung",
+      "uebersetzung": {
+        "fa": "ارجاع به بیمارستان",
+        "en": "hospital referral"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "ein- (به درون) + weisen (نشان دادن، راهنمایی کردن)",
+    "en": "ein- (in) + weisen (to direct, to show)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Einweisungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Krankenhaus",
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک، دکتر",
+          "en": "doctor, physician"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "die Klinik",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کلینیک، بیمارستان",
+          "en": "clinic, hospital"
+        },
+        "id_ref": "nomen_klinik"
+      },
+      {
+        "wort": "der Patient",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بیمار",
+          "en": "patient"
+        },
+        "id_ref": "nomen_patient"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص (بیماری)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

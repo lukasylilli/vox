@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "nomen_emission_2",
+  "wort": "die Emission",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "انتشار اوراق بهادار",
+      "عرضه‌ی سهام یا اوراق"
+    ],
+    "en": [
+      "issue (of securities)",
+      "issuance"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Finanzen",
+    "Wirtschaft"
+  ],
+  "ipa": "emɪˈsi̯oːn",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Die Emission neuer Aktien brachte dem Konzern frisches Kapital.",
+      "uebersetzung": {
+        "fa": "انتشار سهام جدید برای گروه سرمایه‌ی تازه آورد.",
+        "en": "The issue of new shares brought the group fresh capital."
+      }
+    },
+    {
+      "niveau": "C1",
+      "satz": "Die Emission der Anleihe wurde von mehreren Banken begleitet.",
+      "uebersetzung": {
+        "fa": "انتشار اوراق قرضه توسط چند بانک همراهی شد.",
+        "en": "The issue of the bond was supported by several banks."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Ausgabe",
+      "uebersetzung": {
+        "fa": "عرضه، انتشار",
+        "en": "issue"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Emissionskurs",
+      "uebersetzung": {
+        "fa": "قیمت عرضه",
+        "en": "issue price"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "از لاتین emittere (فرستادن)",
+    "en": "from Latin emittere (to send out)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Emissionen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Wertpapier",
+    "woerter": [
+      {
+        "wort": "die Aktie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم (بورس)",
+          "en": "share, stock"
+        },
+        "id_ref": "nomen_aktie"
+      },
+      {
+        "wort": "das Wertpapier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اوراق بهادار",
+          "en": "security, securities"
+        },
+        "id_ref": "nomen_wertpapier"
+      },
+      {
+        "wort": "der Investor",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرمایه‌گذار",
+          "en": "investor"
+        },
+        "id_ref": "nomen_investor"
+      },
+      {
+        "wort": "der Kapitalmarkt",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بازار سرمایه",
+          "en": "capital market"
+        },
+        "id_ref": "nomen_kapitalmarkt"
+      },
+      {
+        "wort": "emittieren",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "منتشر کردن (آلاینده، اوراق)",
+          "en": "to emit, to issue"
+        },
+        "id_ref": "verb_emittieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

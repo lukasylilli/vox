@@ -1,0 +1,128 @@
+{
+  "schema": "3.0",
+  "id": "nomen_emittent",
+  "wort": "der Emittent",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ناشر اوراق بهادار",
+      "عرضه‌کننده"
+    ],
+    "en": [
+      "issuer (of securities)",
+      "issuer"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Finanzen",
+    "Wirtschaft"
+  ],
+  "ipa": "emɪˈtɛnt",
+  "anmerkung": null,
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "C1",
+      "satz": "Der Emittent einer Aktie muss regelmäßig Berichte veröffentlichen.",
+      "uebersetzung": {
+        "fa": "ناشر یک سهم باید به‌طور منظم گزارش منتشر کند.",
+        "en": "The issuer of a share must publish reports regularly."
+      }
+    },
+    {
+      "niveau": "C2",
+      "satz": "Der Emittent der Anleihe ist ein großer Konzern.",
+      "uebersetzung": {
+        "fa": "ناشر این اوراق قرضه یک گروه بزرگ است.",
+        "en": "The issuer of the bond is a large group."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Herausgeber",
+      "uebersetzung": {
+        "fa": "منتشرکننده",
+        "en": "issuer, publisher"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "از لاتین emittere (فرستادن، بیرون دادن)",
+    "en": "from Latin emittere (to send out)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Emittenten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Wertpapier",
+    "woerter": [
+      {
+        "wort": "die Aktie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم (بورس)",
+          "en": "share, stock"
+        },
+        "id_ref": "nomen_aktie"
+      },
+      {
+        "wort": "der Konzern",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "کنسرن، شرکت بزرگ چندبخشی",
+          "en": "group (of companies), corporation"
+        },
+        "id_ref": "nomen_konzern"
+      },
+      {
+        "wort": "das Wertpapier",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اوراق بهادار",
+          "en": "security, securities"
+        },
+        "id_ref": "nomen_wertpapier"
+      },
+      {
+        "wort": "der Kapitalmarkt",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "بازار سرمایه",
+          "en": "capital market"
+        },
+        "id_ref": "nomen_kapitalmarkt"
+      },
+      {
+        "wort": "emittieren",
+        "wortart": "verb",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "منتشر کردن (آلاینده، اوراق)",
+          "en": "to emit, to issue"
+        },
+        "id_ref": "verb_emittieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
