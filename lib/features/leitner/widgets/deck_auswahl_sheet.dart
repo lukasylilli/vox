@@ -26,6 +26,7 @@ import '../../../core/l10n/app_l10n.dart';
 import '../../../core/leitner/leitner_regeln.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../controllers/leitner_controller.dart';
+import 'deck_dialoge.dart';
 
 /// Öffnet die Deck-Auswahl für das Wort [wortId] (Text-id). [wort] ist nur
 /// die Überschrift.
@@ -142,15 +143,9 @@ class DeckAuswahlSheet extends ConsumerWidget {
   /// Fragt Name und Modus, legt das Deck an und das Wort hinein.
   Future<void> _neuesDeck(BuildContext context, WidgetRef ref,
       {Deck? eltern}) async {
-    final neu = await showDialog<({String name, String modus})>(
-      context: context,
-      builder: (_) => _NeuesDeckDialog(eltern: eltern),
-    );
-    if (neu == null) return;
-    final dao = ref.read(leitnerDaoProvider);
-    final deck =
-        await dao.deckAnlegen(neu.name, elternId: eltern?.id, modus: neu.modus);
-    await dao.wortSetzen(deck.id, wortId, true);
+    final deck = await neuesDeckAnlegen(context, ref, eltern: eltern);
+    if (deck == null) return;
+    await ref.read(leitnerDaoProvider).wortSetzen(deck.id, wortId, true);
   }
 }
 
@@ -231,102 +226,6 @@ class _DeckZeile extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-// ─── Dialog «neues Deck / neues Subdeck» ─────────────────────────────────────
-
-class _NeuesDeckDialog extends StatefulWidget {
-  const _NeuesDeckDialog({this.eltern});
-
-  /// Eltern-Deck (dann wird ein Subdeck angelegt) oder null.
-  final Deck? eltern;
-
-  @override
-  State<_NeuesDeckDialog> createState() => _NeuesDeckDialogState();
-}
-
-class _NeuesDeckDialogState extends State<_NeuesDeckDialog> {
-  final _name = TextEditingController();
-
-  // Ein Subdeck beginnt im Modus seines Eltern-Decks; ein neues Deck der
-  // obersten Ebene mit Wiederholung — wer über den Leitner-Knopf ein Deck
-  // anlegt, will in aller Regel lernen. Beides ist hier umschaltbar.
-  late String _modus = widget.eltern?.modus ?? deckModusWiederholen;
-
-  @override
-  void dispose() {
-    _name.dispose();
-    super.dispose();
-  }
-
-  void _fertig() {
-    final name = _name.text.trim();
-    if (name.isEmpty) return;
-    Navigator.of(context).pop((name: name, modus: _modus));
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final eltern = widget.eltern;
-    final theme = Theme.of(context);
-    return AlertDialog(
-      title: Text(eltern == null
-          ? AppL10n.t(context, 'deck_neu')
-          : AppL10n.tf(context, 'deck_sub_neu', {'deck': eltern.name})),
-      content: Column(
-        mainAxisSize: MainAxisSize.min,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          TextField(
-            key: const ValueKey('deck_name'),
-            controller: _name,
-            autofocus: true,
-            decoration: InputDecoration(
-                hintText: AppL10n.t(context, 'deck_name_hint')),
-            onSubmitted: (_) => _fertig(),
-          ),
-          const SizedBox(height: AppSizes.md),
-          SegmentedButton<String>(
-            segments: [
-              ButtonSegment(
-                value: deckModusWiederholen,
-                icon: const Icon(Icons.repeat_rounded),
-                label: Text(AppL10n.t(context, 'deck_modus_wiederholen')),
-              ),
-              ButtonSegment(
-                value: deckModusNotiz,
-                icon: const Icon(Icons.menu_book_outlined),
-                label: Text(AppL10n.t(context, 'deck_modus_notiz')),
-              ),
-            ],
-            selected: {_modus},
-            onSelectionChanged: (s) => setState(() => _modus = s.single),
-          ),
-          const SizedBox(height: AppSizes.sm),
-          Text(
-            AppL10n.t(
-                context,
-                _modus == deckModusWiederholen
-                    ? 'deck_modus_wiederholen_info'
-                    : 'deck_modus_notiz_info'),
-            style: theme.textTheme.bodySmall
-                ?.copyWith(color: theme.colorScheme.onSurfaceVariant),
-          ),
-        ],
-      ),
-      actions: [
-        VoxButton.text(
-          label: AppL10n.t(context, 'cancel'),
-          onPressed: () => Navigator.of(context).pop(),
-        ),
-        VoxButton.primary(
-          key: const ValueKey('deck_anlegen'),
-          label: AppL10n.t(context, 'create'),
-          onPressed: _fertig,
-        ),
-      ],
     );
   }
 }

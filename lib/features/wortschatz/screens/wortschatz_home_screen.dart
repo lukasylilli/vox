@@ -45,12 +45,7 @@ class WortschatzHomeScreen extends ConsumerWidget {
             titleFa : AppL10n.t(context, 'leitner_boxes_sub'),
             onTap   : () => context.push(AppRoutes.leitner),
           ),
-          _MenuItem(
-            icon    : Icons.folder_rounded,
-            titleDe : 'Meine Kategorien',
-            titleFa : AppL10n.t(context, 'my_categories_sub'),
-            onTap   : () => context.push(AppRoutes.wortschatzCategories),
-          ),
+          // X.4: «Meine Kategorien» sind Decks — sie stehen im Leitner.
           const SizedBox(height: AppSizes.sm),
           // Add word — prominent button
           VoxButton.primary(

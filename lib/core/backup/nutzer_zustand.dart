@@ -172,11 +172,19 @@ class LeitnerStand {
   final DateTime? naechsteWiederholung;
   final DateTime? letzteWiederholung;
 
+  /// X.4 (2026-11-17): wann das Wort in dieser Übung zum ERSTEN Mal geübt
+  /// wurde — daran zählt das Tageslimit neuer Wörter (Entscheidung Nr. 11).
+  /// null = unbekannt (Stände von vor X.4) — gilt als «nicht heute».
+  /// Optionales Feld: nur im JSON, wenn bekannt; ältere App-Fassungen lesen
+  /// es nicht und verlieren dabei nichts außer der Tageszählung.
+  final DateTime? ersteWiederholung;
+
   const LeitnerStand({
     required this.wortId,
     required this.fach,
     this.naechsteWiederholung,
     this.letzteWiederholung,
+    this.ersteWiederholung,
   });
 
   Map<String, dynamic> toJson() => {
@@ -184,6 +192,8 @@ class LeitnerStand {
         'fach': fach,
         'naechsteWiederholung': naechsteWiederholung?.toIso8601String(),
         'letzteWiederholung': letzteWiederholung?.toIso8601String(),
+        if (ersteWiederholung != null)
+          'ersteWiederholung': ersteWiederholung!.toIso8601String(),
       };
 
   static LeitnerStand vonJson(Map<String, dynamic> j) => LeitnerStand(
@@ -191,6 +201,7 @@ class LeitnerStand {
         fach: (j['fach'] as num?)?.toInt() ?? 1,
         naechsteWiederholung: _datum(j['naechsteWiederholung']),
         letzteWiederholung: _datum(j['letzteWiederholung']),
+        ersteWiederholung: _datum(j['ersteWiederholung']),
       );
 
   static String eigenesWort(String wort, String wortart) =>
@@ -234,9 +245,15 @@ class LeitnerStand {
       naechsteWiederholung: sieger.naechsteWiederholung,
       letzteWiederholung:
           _spaeteres(a.letzteWiederholung, b.letzteWiederholung),
+      // Erstes Üben: das frühere der beiden bekannten Daten (Tatsache).
+      ersteWiederholung:
+          _frueheres(a.ersteWiederholung, b.ersteWiederholung),
     );
   }
 }
+
+DateTime? _frueheres(DateTime? a, DateTime? b) =>
+    a == null ? b : (b == null || a.isBefore(b) ? a : b);
 
 /// Ein Deck (bis Fassung 5: «eine selbst angelegte Liste»). `wortIds` nutzt
 /// dieselben Text-IDs wie oben.

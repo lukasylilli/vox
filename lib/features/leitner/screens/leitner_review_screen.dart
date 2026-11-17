@@ -21,7 +21,10 @@ import '../widgets/flash_card_widget.dart';
 import '../../../core/widgets/vox_button.dart';
 
 class LeitnerReviewScreen extends ConsumerStatefulWidget {
-  const LeitnerReviewScreen({super.key});
+  const LeitnerReviewScreen({super.key, this.deckId});
+
+  /// X.4: nur dieses Deck samt Subdecks; null = alle Decks.
+  final String? deckId;
 
   @override
   ConsumerState<LeitnerReviewScreen> createState() => _LeitnerReviewScreenState();
@@ -60,9 +63,13 @@ class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
 
   Future<void> _loadCards() async {
     final wordDao   = ref.read(wordDaoProvider);
-    final eintraege = await ref.read(leitnerEintraegeProvider.future);
-    final jetzt     = DateTime.now();
-    final faellig   = eintraege.where((e) => e.istFaellig(jetzt)).toList();
+    // X.4: was heute dran ist — fällige Wörter, dann neue nach den
+    // Tageslimits der Decks (core/leitner/deck_sitzung.dart).
+    ref.invalidate(deckRechnerProvider);
+    final ids     = await ref.read(leitnerSitzungProvider(widget.deckId).future);
+    final stand   =
+        await ref.read(leitnerFortschrittProvider(uebungBedeutung).future);
+    final faellig = [for (final id in ids) LeitnerEintrag(id, stand[id])];
 
     // Archivkarten brauchen nur den Index.
     final index = faellig.any((e) => !e.istAltesWort)

@@ -386,12 +386,12 @@ Screen‌ها فقط این کامپوننت‌ها را **صدا می‌زنن�
 
 ---
 
-## DATABASE TABLES (drift — schema v8)
+## DATABASE TABLES (drift — schema v9)
 > ⚠️ تغییر فقط با: `schemaVersion` بالا + migration + اجرای `build-runner.yml` روی شاخه (L.1b). جدول‌ها از `@DriftDatabase` در `core/database/app_database.dart` (بررسی 2026-09-23).
 ```
 words                    — جدول اصلی (unique: {german, wordType}) + regelmaessig/trennbar/grammatikDetail (B-10)
 books · word_books       — کتاب‌ها + many-to-many
-leitner_fortschritt      — X.2 (2026-11-17): پیشرفت «کلمه × تمرین» (جعبه ۱–۷، ۸ = یاد گرفته‌شده) — کلید متنی
+leitner_fortschritt      — X.2 (2026-11-17): پیشرفت «کلمه × تمرین» (جعبه ۱–۷، ۸ = یاد گرفته‌شده) — کلید متنی؛ X.4 (v9): + erste_wiederholung (سقف روزانه)
 decks · deck_woerter     — X.2: Deckها (درختی، حالت مرور/دفترچه، سقف روزانه) + کلمه ↔ Deck (چند به چند)
                            (جایگزین user_categories، category_words، leitner_cards، archiv_leitner،
                             archiv_kategorien، archiv_kategorie_woerter — شرح: docs/zukunft/PHASE_X.md ⇒ «🧱 مدل داده»)

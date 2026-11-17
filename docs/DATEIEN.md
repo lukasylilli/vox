@@ -452,9 +452,9 @@ widgets/
 #### lib/features/categories/ [x]
 ```
 screens/
-  category_list_screen.dart    [x]  — allCategoriesProvider + FAB + rename/delete dialogs
+  category_list_screen.dart    [—]  — X.4 (2026-11-17) حذف شد: Deckها در صفحه‌ی لایتنر (leitner_home_screen.dart)
                                       navigate → /:categoryId با extra=name
-  category_detail_screen.dart  [x]  — wordsByCategoryProvider + Dismissible (swipe حذف)
+  category_detail_screen.dart  [⇒]  — X.4 (2026-11-17) منتقل شد ⇒ features/leitner/screens/deck_screen.dart (صفحه‌ی هر Deck)
                                       _EmptyCategory با لینک به Wortschatz
 controllers/
   category_controller.dart     [x]  — categoryDaoProvider، allCategoriesProvider

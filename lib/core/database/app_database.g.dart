@@ -1545,6 +1545,18 @@ class $LeitnerFortschrittTable extends LeitnerFortschritt
         type: DriftSqlType.dateTime,
         requiredDuringInsert: false,
       );
+  static const VerificationMeta _ersteWiederholungMeta = const VerificationMeta(
+    'ersteWiederholung',
+  );
+  @override
+  late final GeneratedColumn<DateTime> ersteWiederholung =
+      GeneratedColumn<DateTime>(
+        'erste_wiederholung',
+        aliasedName,
+        true,
+        type: DriftSqlType.dateTime,
+        requiredDuringInsert: false,
+      );
   @override
   List<GeneratedColumn> get $columns => [
     wortId,
@@ -1552,6 +1564,7 @@ class $LeitnerFortschrittTable extends LeitnerFortschritt
     fach,
     naechsteWiederholung,
     letzteWiederholung,
+    ersteWiederholung,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
@@ -1605,6 +1618,15 @@ class $LeitnerFortschrittTable extends LeitnerFortschritt
         ),
       );
     }
+    if (data.containsKey('erste_wiederholung')) {
+      context.handle(
+        _ersteWiederholungMeta,
+        ersteWiederholung.isAcceptableOrUnknown(
+          data['erste_wiederholung']!,
+          _ersteWiederholungMeta,
+        ),
+      );
+    }
     return context;
   }
 
@@ -1634,6 +1656,10 @@ class $LeitnerFortschrittTable extends LeitnerFortschritt
         DriftSqlType.dateTime,
         data['${effectivePrefix}letzte_wiederholung'],
       ),
+      ersteWiederholung: attachedDatabase.typeMapping.read(
+        DriftSqlType.dateTime,
+        data['${effectivePrefix}erste_wiederholung'],
+      ),
     );
   }
 
@@ -1650,12 +1676,14 @@ class LeitnerFortschrittData extends DataClass
   final int fach;
   final DateTime? naechsteWiederholung;
   final DateTime? letzteWiederholung;
+  final DateTime? ersteWiederholung;
   const LeitnerFortschrittData({
     required this.wortId,
     required this.uebung,
     required this.fach,
     this.naechsteWiederholung,
     this.letzteWiederholung,
+    this.ersteWiederholung,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
@@ -1668,6 +1696,9 @@ class LeitnerFortschrittData extends DataClass
     }
     if (!nullToAbsent || letzteWiederholung != null) {
       map['letzte_wiederholung'] = Variable<DateTime>(letzteWiederholung);
+    }
+    if (!nullToAbsent || ersteWiederholung != null) {
+      map['erste_wiederholung'] = Variable<DateTime>(ersteWiederholung);
     }
     return map;
   }
@@ -1683,6 +1714,9 @@ class LeitnerFortschrittData extends DataClass
       letzteWiederholung: letzteWiederholung == null && nullToAbsent
           ? const Value.absent()
           : Value(letzteWiederholung),
+      ersteWiederholung: ersteWiederholung == null && nullToAbsent
+          ? const Value.absent()
+          : Value(ersteWiederholung),
     );
   }
 
@@ -1701,6 +1735,9 @@ class LeitnerFortschrittData extends DataClass
       letzteWiederholung: serializer.fromJson<DateTime?>(
         json['letzteWiederholung'],
       ),
+      ersteWiederholung: serializer.fromJson<DateTime?>(
+        json['ersteWiederholung'],
+      ),
     );
   }
   @override
@@ -1714,6 +1751,7 @@ class LeitnerFortschrittData extends DataClass
         naechsteWiederholung,
       ),
       'letzteWiederholung': serializer.toJson<DateTime?>(letzteWiederholung),
+      'ersteWiederholung': serializer.toJson<DateTime?>(ersteWiederholung),
     };
   }
 
@@ -1723,6 +1761,7 @@ class LeitnerFortschrittData extends DataClass
     int? fach,
     Value<DateTime?> naechsteWiederholung = const Value.absent(),
     Value<DateTime?> letzteWiederholung = const Value.absent(),
+    Value<DateTime?> ersteWiederholung = const Value.absent(),
   }) => LeitnerFortschrittData(
     wortId: wortId ?? this.wortId,
     uebung: uebung ?? this.uebung,
@@ -1733,6 +1772,9 @@ class LeitnerFortschrittData extends DataClass
     letzteWiederholung: letzteWiederholung.present
         ? letzteWiederholung.value
         : this.letzteWiederholung,
+    ersteWiederholung: ersteWiederholung.present
+        ? ersteWiederholung.value
+        : this.ersteWiederholung,
   );
   LeitnerFortschrittData copyWithCompanion(LeitnerFortschrittCompanion data) {
     return LeitnerFortschrittData(
@@ -1745,6 +1787,9 @@ class LeitnerFortschrittData extends DataClass
       letzteWiederholung: data.letzteWiederholung.present
           ? data.letzteWiederholung.value
           : this.letzteWiederholung,
+      ersteWiederholung: data.ersteWiederholung.present
+          ? data.ersteWiederholung.value
+          : this.ersteWiederholung,
     );
   }
 
@@ -1755,7 +1800,8 @@ class LeitnerFortschrittData extends DataClass
           ..write('uebung: $uebung, ')
           ..write('fach: $fach, ')
           ..write('naechsteWiederholung: $naechsteWiederholung, ')
-          ..write('letzteWiederholung: $letzteWiederholung')
+          ..write('letzteWiederholung: $letzteWiederholung, ')
+          ..write('ersteWiederholung: $ersteWiederholung')
           ..write(')'))
         .toString();
   }
@@ -1767,6 +1813,7 @@ class LeitnerFortschrittData extends DataClass
     fach,
     naechsteWiederholung,
     letzteWiederholung,
+    ersteWiederholung,
   );
   @override
   bool operator ==(Object other) =>
@@ -1776,7 +1823,8 @@ class LeitnerFortschrittData extends DataClass
           other.uebung == this.uebung &&
           other.fach == this.fach &&
           other.naechsteWiederholung == this.naechsteWiederholung &&
-          other.letzteWiederholung == this.letzteWiederholung);
+          other.letzteWiederholung == this.letzteWiederholung &&
+          other.ersteWiederholung == this.ersteWiederholung);
 }
 
 class LeitnerFortschrittCompanion
@@ -1786,6 +1834,7 @@ class LeitnerFortschrittCompanion
   final Value<int> fach;
   final Value<DateTime?> naechsteWiederholung;
   final Value<DateTime?> letzteWiederholung;
+  final Value<DateTime?> ersteWiederholung;
   final Value<int> rowid;
   const LeitnerFortschrittCompanion({
     this.wortId = const Value.absent(),
@@ -1793,6 +1842,7 @@ class LeitnerFortschrittCompanion
     this.fach = const Value.absent(),
     this.naechsteWiederholung = const Value.absent(),
     this.letzteWiederholung = const Value.absent(),
+    this.ersteWiederholung = const Value.absent(),
     this.rowid = const Value.absent(),
   });
   LeitnerFortschrittCompanion.insert({
@@ -1801,6 +1851,7 @@ class LeitnerFortschrittCompanion
     this.fach = const Value.absent(),
     this.naechsteWiederholung = const Value.absent(),
     this.letzteWiederholung = const Value.absent(),
+    this.ersteWiederholung = const Value.absent(),
     this.rowid = const Value.absent(),
   }) : wortId = Value(wortId),
        uebung = Value(uebung);
@@ -1810,6 +1861,7 @@ class LeitnerFortschrittCompanion
     Expression<int>? fach,
     Expression<DateTime>? naechsteWiederholung,
     Expression<DateTime>? letzteWiederholung,
+    Expression<DateTime>? ersteWiederholung,
     Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
@@ -1819,6 +1871,7 @@ class LeitnerFortschrittCompanion
       if (naechsteWiederholung != null)
         'naechste_wiederholung': naechsteWiederholung,
       if (letzteWiederholung != null) 'letzte_wiederholung': letzteWiederholung,
+      if (ersteWiederholung != null) 'erste_wiederholung': ersteWiederholung,
       if (rowid != null) 'rowid': rowid,
     });
   }
@@ -1829,6 +1882,7 @@ class LeitnerFortschrittCompanion
     Value<int>? fach,
     Value<DateTime?>? naechsteWiederholung,
     Value<DateTime?>? letzteWiederholung,
+    Value<DateTime?>? ersteWiederholung,
     Value<int>? rowid,
   }) {
     return LeitnerFortschrittCompanion(
@@ -1837,6 +1891,7 @@ class LeitnerFortschrittCompanion
       fach: fach ?? this.fach,
       naechsteWiederholung: naechsteWiederholung ?? this.naechsteWiederholung,
       letzteWiederholung: letzteWiederholung ?? this.letzteWiederholung,
+      ersteWiederholung: ersteWiederholung ?? this.ersteWiederholung,
       rowid: rowid ?? this.rowid,
     );
   }
@@ -1861,6 +1916,9 @@ class LeitnerFortschrittCompanion
     if (letzteWiederholung.present) {
       map['letzte_wiederholung'] = Variable<DateTime>(letzteWiederholung.value);
     }
+    if (ersteWiederholung.present) {
+      map['erste_wiederholung'] = Variable<DateTime>(ersteWiederholung.value);
+    }
     if (rowid.present) {
       map['rowid'] = Variable<int>(rowid.value);
     }
@@ -1875,6 +1933,7 @@ class LeitnerFortschrittCompanion
           ..write('fach: $fach, ')
           ..write('naechsteWiederholung: $naechsteWiederholung, ')
           ..write('letzteWiederholung: $letzteWiederholung, ')
+          ..write('ersteWiederholung: $ersteWiederholung, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
@@ -6442,6 +6501,7 @@ typedef $$LeitnerFortschrittTableCreateCompanionBuilder =
       Value<int> fach,
       Value<DateTime?> naechsteWiederholung,
       Value<DateTime?> letzteWiederholung,
+      Value<DateTime?> ersteWiederholung,
       Value<int> rowid,
     });
 typedef $$LeitnerFortschrittTableUpdateCompanionBuilder =
@@ -6451,6 +6511,7 @@ typedef $$LeitnerFortschrittTableUpdateCompanionBuilder =
       Value<int> fach,
       Value<DateTime?> naechsteWiederholung,
       Value<DateTime?> letzteWiederholung,
+      Value<DateTime?> ersteWiederholung,
       Value<int> rowid,
     });
 
@@ -6485,6 +6546,11 @@ class $$LeitnerFortschrittTableFilterComposer
 
   ColumnFilters<DateTime> get letzteWiederholung => $composableBuilder(
     column: $table.letzteWiederholung,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get ersteWiederholung => $composableBuilder(
+    column: $table.ersteWiederholung,
     builder: (column) => ColumnFilters(column),
   );
 }
@@ -6522,6 +6588,11 @@ class $$LeitnerFortschrittTableOrderingComposer
     column: $table.letzteWiederholung,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<DateTime> get ersteWiederholung => $composableBuilder(
+    column: $table.ersteWiederholung,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
 class $$LeitnerFortschrittTableAnnotationComposer
@@ -6549,6 +6620,11 @@ class $$LeitnerFortschrittTableAnnotationComposer
 
   GeneratedColumn<DateTime> get letzteWiederholung => $composableBuilder(
     column: $table.letzteWiederholung,
+    builder: (column) => column,
+  );
+
+  GeneratedColumn<DateTime> get ersteWiederholung => $composableBuilder(
+    column: $table.ersteWiederholung,
     builder: (column) => column,
   );
 }
@@ -6598,6 +6674,7 @@ class $$LeitnerFortschrittTableTableManager
                 Value<int> fach = const Value.absent(),
                 Value<DateTime?> naechsteWiederholung = const Value.absent(),
                 Value<DateTime?> letzteWiederholung = const Value.absent(),
+                Value<DateTime?> ersteWiederholung = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => LeitnerFortschrittCompanion(
                 wortId: wortId,
@@ -6605,6 +6682,7 @@ class $$LeitnerFortschrittTableTableManager
                 fach: fach,
                 naechsteWiederholung: naechsteWiederholung,
                 letzteWiederholung: letzteWiederholung,
+                ersteWiederholung: ersteWiederholung,
                 rowid: rowid,
               ),
           createCompanionCallback:
@@ -6614,6 +6692,7 @@ class $$LeitnerFortschrittTableTableManager
                 Value<int> fach = const Value.absent(),
                 Value<DateTime?> naechsteWiederholung = const Value.absent(),
                 Value<DateTime?> letzteWiederholung = const Value.absent(),
+                Value<DateTime?> ersteWiederholung = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
               }) => LeitnerFortschrittCompanion.insert(
                 wortId: wortId,
@@ -6621,6 +6700,7 @@ class $$LeitnerFortschrittTableTableManager
                 fach: fach,
                 naechsteWiederholung: naechsteWiederholung,
                 letzteWiederholung: letzteWiederholung,
+                ersteWiederholung: ersteWiederholung,
                 rowid: rowid,
               ),
           withReferenceMapper: (p0) => p0

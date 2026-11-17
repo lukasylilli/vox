@@ -1,17 +1,24 @@
 // FILE: lib/features/leitner/screens/leitner_home_screen.dart
-// DEPS: leitner_controller.dart, box_progress_widget.dart, app_routes.dart
-// PURPOSE: Leitner overview — due count banner, 7-box grid, Start Review button
+// DEPS: leitner_controller.dart, deck_zeile.dart, deck_dialoge.dart,
+//       box_progress_widget.dart, app_routes.dart
+// PURPOSE: Leitner-Seite. X.4 (2026-11-17, Leitner wie Anki): oben was heute
+//          dran ist (alle Decks, nach den Tageslimits) mit «alle üben»,
+//          darunter der BAUM der Decks — jede Zeile mit Zahlen, eigenem
+//          «üben» und Menü —, «neues Deck», und die Verteilung auf die 7
+//          Fächer. Die frühere Seite «Meine Kategorien» ist hierin
+//          aufgegangen (Kategorien sind Decks).
 import 'package:vox/core/leitner/leitner_regeln.dart' show leitnerFaecher;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
-
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/utils/formatters.dart';
 import '../controllers/leitner_controller.dart';
 import '../widgets/box_progress_widget.dart';
+import '../widgets/deck_dialoge.dart';
+import '../widgets/deck_zeile.dart';
 import '../../../core/widgets/vox_button.dart';
 
 class LeitnerHomeScreen extends ConsumerWidget {
@@ -46,6 +53,53 @@ class LeitnerHomeScreen extends ConsumerWidget {
             data   : (n) => _DueBanner(count: n),
           ),
 
+          const SizedBox(height: AppSizes.lg),
+
+          // ── Decks (X.4) ────────────────────────────────────────────────
+          Row(children: [
+            Expanded(
+              child: Text(AppL10n.t(context, 'decks_titel'),
+                  style: theme.textTheme.titleMedium),
+            ),
+            VoxButton.tonal(
+              key: const ValueKey('leitner_deck_neu'),
+              label: AppL10n.t(context, 'deck_neu'),
+              icon: Icons.create_new_folder_outlined,
+              size: VoxButtonSize.small,
+              onPressed: () => neuesDeckAnlegen(context, ref),
+            ),
+          ]),
+          const SizedBox(height: AppSizes.sm),
+          ...switch (ref.watch(deckBaumProvider)) {
+            AsyncData(:final value) when value.isEmpty => [
+                Padding(
+                  padding: const EdgeInsets.all(AppSizes.md),
+                  child: Text(AppL10n.t(context, 'decks_leer'),
+                      textAlign: TextAlign.center,
+                      style: theme.textTheme.bodyMedium
+                          ?.copyWith(color: scheme.onSurfaceVariant)),
+                ),
+              ],
+            AsyncData(:final value) => [
+                Card(
+                  margin: EdgeInsets.zero,
+                  clipBehavior: Clip.antiAlias,
+                  child: Column(children: [
+                    for (final k in value)
+                      DeckZeile(
+                          deck: k.deck,
+                          tiefe: k.tiefe,
+                          obersteEbene: k.tiefe == 0),
+                  ]),
+                ),
+              ],
+            _ => const [
+                Padding(
+                  padding: EdgeInsets.all(AppSizes.lg),
+                  child: Center(child: CircularProgressIndicator()),
+                ),
+              ],
+          },
           const SizedBox(height: AppSizes.lg),
 
           // ── Box progress ────────────────────────────────────────────────
@@ -100,8 +154,9 @@ class LeitnerHomeScreen extends ConsumerWidget {
             ? null
             : VoxFab.extended(
                 icon     : Icons.play_arrow_rounded,
-                label    : AppL10n.tf(context, 'start_review_n', {'n': '$n'}),
-                onPressed: () => context.push(AppRoutes.leitnerReview),
+                label    : AppL10n.tf(context, 'alle_ueben_n',
+                    {'n': Formatters.digits(n)}),
+                onPressed: () => context.push(AppRoutes.leitnerUeben(null)),
               ),
       ),
     );

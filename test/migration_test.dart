@@ -71,33 +71,57 @@ void main() {
       roh.execute(
           "INSERT INTO words (german, word_type, meaning_fa) "
           "VALUES ('Feierabend', 'nomen', 'پایان کار')");
-      roh.execute(
-          'INSERT INTO leitner_cards (word_id, box_number, next_review, last_review) '
-          'VALUES (1, 4, ?, ?)',
-          [faelligSek, faelligSek - 86400]);
-      roh.execute("INSERT INTO user_categories (name) VALUES ('Reise')");
-      roh.execute(
-          'INSERT INTO category_words (category_id, word_id) VALUES (1, 1)');
-      if (von >= 3) {
+      if (von < 8) {
         roh.execute(
-            "INSERT INTO archiv_leitner (wort_id, box_number, next_review) "
-            "VALUES ('adjektiv_stolz', 5, ?)",
-            [faelligSek]);
-      }
-      if (von >= 4) {
+            'INSERT INTO leitner_cards (word_id, box_number, next_review, last_review) '
+            'VALUES (1, 4, ?, ?)',
+            [faelligSek, faelligSek - 86400]);
+        roh.execute("INSERT INTO user_categories (name) VALUES ('Reise')");
         roh.execute(
-            "INSERT INTO archiv_kategorien (id, name) VALUES ('kat_1', 'Prüfung')");
-        roh.execute("INSERT INTO archiv_kategorie_woerter (kategorie_id, wort_id) "
-            "VALUES ('kat_1', 'adjektiv_stolz')");
-      }
-      if (von >= 6) {
-        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
-            "VALUES ('liste', 'eigen:Reise', '', 1, 1789000000000)");
-        // Vor X.2: «in den Stapel» / «aus dem Stapel» je Wort.
-        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
-            "VALUES ('leitner', 'adjektiv_stolz', '', 1, 1789000000001)");
-        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
-            "VALUES ('leitner', 'adjektiv_alt', '', 0, 1789000000002)");
+            'INSERT INTO category_words (category_id, word_id) VALUES (1, 1)');
+        if (von >= 3) {
+          roh.execute(
+              "INSERT INTO archiv_leitner (wort_id, box_number, next_review) "
+              "VALUES ('adjektiv_stolz', 5, ?)",
+              [faelligSek]);
+        }
+        if (von >= 4) {
+          roh.execute(
+              "INSERT INTO archiv_kategorien (id, name) VALUES ('kat_1', 'Prüfung')");
+          roh.execute("INSERT INTO archiv_kategorie_woerter (kategorie_id, wort_id) "
+              "VALUES ('kat_1', 'adjektiv_stolz')");
+        }
+        if (von >= 6) {
+          roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
+              "VALUES ('liste', 'eigen:Reise', '', 1, 1789000000000)");
+          // Vor X.2: «in den Stapel» / «aus dem Stapel» je Wort.
+          roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
+              "VALUES ('leitner', 'adjektiv_stolz', '', 1, 1789000000001)");
+          roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
+              "VALUES ('leitner', 'adjektiv_alt', '', 0, 1789000000002)");
+        }
+      } else {
+        // Ab Fassung 8 (X.2): derselbe Lernstand in den neuen Tabellen — so,
+        // wie die Migration auf 8 ihn hinterlassen hätte.
+        roh.execute(
+            'INSERT INTO leitner_fortschritt (wort_id, uebung, fach, '
+            'naechste_wiederholung, letzte_wiederholung) VALUES '
+            "('eigen:Feierabend|nomen', 'bedeutung', 4, ?, ?), "
+            "('adjektiv_stolz', 'bedeutung', 5, ?, NULL)",
+            [faelligSek, faelligSek - 86400, faelligSek]);
+        roh.execute("INSERT INTO decks (id, name, modus) VALUES "
+            "('deck:leitner', 'Leitner', 'wiederholen'), "
+            "('eigen:Reise', 'Reise', 'notiz'), "
+            "('kat_1', 'Prüfung', 'notiz')");
+        roh.execute("INSERT INTO deck_woerter (deck_id, wort_id) VALUES "
+            "('deck:leitner', 'eigen:Feierabend|nomen'), "
+            "('deck:leitner', 'adjektiv_stolz'), "
+            "('eigen:Reise', 'eigen:Feierabend|nomen'), "
+            "('kat_1', 'adjektiv_stolz')");
+        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) VALUES "
+            "('liste', 'eigen:Reise', '', 1, 1789000000000), "
+            "('listenwort', 'deck:leitner', 'adjektiv_stolz', 1, 1789000000001), "
+            "('listenwort', 'deck:leitner', 'adjektiv_alt', 0, 1789000000002)");
       }
 
       // ── Heben und Schema prüfen ─────────────────────────────────────────
@@ -119,6 +143,9 @@ void main() {
       expect(karte.naechsteWiederholung!.toUtc(),
           DateTime.fromMillisecondsSinceEpoch(faelligSek * 1000, isUtc: true));
       expect(karte.letzteWiederholung, isNotNull);
+      expect(karte.ersteWiederholung, isNull,
+          reason: 'X.4: erstes Üben ist für alten Lernstand unbekannt — '
+              'zählt nicht als «heute begonnen»');
 
       SharedPreferences.setMockInitialValues({});
       final zustand = await UserStateRepository(

@@ -6,8 +6,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../features/home/screens/home_screen.dart';
-import '../../features/categories/screens/category_detail_screen.dart';
-import '../../features/categories/screens/category_list_screen.dart';
+import '../../features/leitner/screens/deck_screen.dart';
 import '../../features/grammatik/screens/grammar_exercise_screen.dart';
 import '../../features/grammatik/screens/grammar_quiz_screen.dart';
 import '../../features/grammatik/screens/grammatik_home_screen.dart';
@@ -185,17 +184,16 @@ final appRouter = GoRouter(
             return WordDetailScreen(wordId: id);
           },
         ),
+        // X.4 (2026-11-17): «Meine Kategorien» sind Decks im Leitner-Bereich.
+        // Die alten Adressen leiten weiter (Lesezeichen, alte Links).
         GoRoute(
-          path   : 'categories',
-          builder: (ctx, _) => const CategoryListScreen(),
-          routes : [
+          path    : 'categories',
+          redirect: (ctx, _) => AppRoutes.leitner,
+          routes  : [
             GoRoute(
-              path   : ':categoryId',
-              builder: (ctx, state) {
-                final id   = state.pathParameters['categoryId']!;
-                final name = state.extra as String?;
-                return CategoryDetailScreen(categoryId: id, categoryName: name);
-              },
+              path    : ':categoryId',
+              redirect: (ctx, state) => AppRoutes.leitnerDeckSeite(
+                  state.pathParameters['categoryId']!),
             ),
           ],
         ),
@@ -209,11 +207,18 @@ final appRouter = GoRouter(
       routes : [
         GoRoute(
           path   : 'review',
-          builder: (ctx, _) => const LeitnerReviewScreen(),
+          builder: (ctx, state) => LeitnerReviewScreen(
+              deckId: state.uri.queryParameters['deck']),
         ),
         GoRoute(
           path   : 'stats',
           builder: (ctx, _) => const LeitnerStatsScreen(),
+        ),
+        // X.4 (2026-11-17): Seite eines Decks.
+        GoRoute(
+          path   : 'deck/:deckId',
+          builder: (ctx, state) =>
+              DeckScreen(deckId: state.pathParameters['deckId']!),
         ),
       ],
     ),

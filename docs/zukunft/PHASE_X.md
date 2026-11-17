@@ -1,6 +1,6 @@
 # فاز X — لایتنر شبیه Anki
 
-> 🚧 **در حال ساخت (شروع: Lukas، 2026-11-17 — قبل از اتمام کلمه‌ها، به خواست خودش).** X.1، X.2 و X.3 ✅ · قدم بعدی: X.4. انتشار **قدم‌به‌قدم** (تصمیم Lukas 2026-11-17).
+> 🚧 **در حال ساخت (شروع: Lukas، 2026-11-17 — قبل از اتمام کلمه‌ها، به خواست خودش).** X.1 تا X.4 ✅ · قدم بعدی: X.4b (Deckهای پیش‌فرض، تصمیم ۱۶). انتشار **قدم‌به‌قدم** (تصمیم Lukas 2026-11-17).
 > منبع: `PLAN.md` تا کامیت `7c8700d4` (2026-11-10، بسته‌ی ۳ ممیزی) — متن عیناً منتقل شده، هیچ خطی حذف نشده.
 
 ## 🃏 فاز X — لایتنر شبیه Anki: deckهای تودرتو و انواع تمرین (Lukas، 2026-11-03 — ⛔ طرح؛ هنوز هیچ کدی ساخته نشده)
@@ -79,7 +79,8 @@
 - [x] **X.1 ✅ 2026-11-17** — جواب سؤال‌های باز ⇒ طرح دقیق مدل داده (بخش «مدل داده» پایین).
 - [x] **X.2 ✅ 2026-11-17** — داده + مهاجرت + قرارداد پشتیبان + تست‌ها (بخش «X.2 — چه ساخته شد» پایین).
 - [x] **X.3 ✅ 2026-11-17** — شیت انتخاب deck (`LeitnerAddButton`/`WortActions`) + ادغام «دسته‌بندی‌های من» (بخش «X.3 — چه ساخته شد» پایین).
-- [ ] **X.4** — صفحه‌ی درخت deckها.
+- [x] **X.4 ✅ 2026-11-17** — صفحه‌ی درخت deckها + صفحه‌ی هر Deck + مرور هر Deck با سقف روزانه (بخش «X.4 — چه ساخته شد» پایین).
+- [ ] **X.4b** — Deckهای پیش‌فرض (تصمیم ۱۶: سطح‌ها، کتاب‌های VOX، نوع کلمه، شغل‌ها؛ همه «فقط دفترچه»؛ عضویت از داده‌ی فیلتر محاسبه می‌شود؛ پاک‌شده‌ها ثبت می‌شوند و با «Deckهای پیش‌فرض» برمی‌گردند).
 - [ ] **X.5** — مرور با انواع تمرین (مشترک با فاز K).
 - [ ] **X.6** — آمار، یادآور، فیلتر F.4، «افزودن همه» در کتاب‌ها/deckها.
 - [ ] **X.7** — «افزودن کلمه» ⇒ «درخواست کلمه» (لینک تلگرام؛ کاربر دیگر کلمه وارد نمی‌کند) — تصمیم ۱۳.
@@ -118,3 +119,16 @@
 - **دکمه سه حالت را نشان می‌دهد:** «در لایتنر» (در Deck مرور) · «در دفترچه» (فقط در Deck دفترچه‌ای) · «افزودن به لایتنر».
 - **فایل‌ها:** `lib/core/leitner/deck_baum.dart` (تازه، Dart خالص: ترتیب درختی، Deck بی‌والد ⇒ سطح اول، حلقه ⇒ هیچ Deckی گم نمی‌شود؛ `deckMitSubdecks`) · `lib/features/leitner/widgets/deck_auswahl_sheet.dart` (تازه) · `leitner_controller.dart` (`alleDecksProvider`، `deckBaumProvider`، `deckZuordnungenProvider`، `deckIdsVonWortProvider` — از `category_controller.dart` به این‌جا آمدند) · `vokabular/widgets/wort_actions.dart` · `core/widgets/leitner_add_button.dart` · `vokabular_user_state.dart` (`imNotizbuch`) · `wortschatz/screens/word_detail_screen.dart` · `categories/widgets/add_to_category_sheet.dart` (حذف) · `core/l10n/app_l10n.dart` (۱۲ متن).
 - **نگهبان:** `test/deck_auswahl_test.dart` (درخت، تیک‌ها، Deck و زیرمجموعه‌ی تازه، نام خالی، سه حالت دکمه). کنترل در Chrome واقعی (فارسی): شیت، پنجره‌ی Deck تازه، ساخت «Möbel» با تیک و دکمه‌ی سبز «در لایتنر».
+
+## ✅ X.4 — چه ساخته شد (2026-11-17)
+
+- **صفحه‌ی لایتنر = درخت Deckها.** بالا: «امروز برای مرور» از همه‌ی Deckها + دکمه‌ی «مرور همه». بعد فهرست Deckها به شکل درخت (زیرمجموعه‌ها تورفته). هر ردیف: نام، حالت (مرور/دفترچه)، تعداد کلمه، ٪ یاد گرفته‌شده با نوار، و مثل Anki کار امروز: **آبی = تازه**، **نارنجی = مرور** + دکمه‌ی ▶ برای مرور همان Deck + منوی ⋮. دکمه‌ی «Deck تازه». پایین: توزیع ۷ جعبه (مثل قبل).
+- **صفحه‌ی هر Deck** (`/leitner/deck/<id>`؛ همان صفحه‌ی قبلی «دسته‌بندی»): شمارنده‌ها (تازه · در حال یادگیری · یاد گرفته‌شده — تصمیم ۲ و ۶)، ٪ یاد گرفته‌شده، زیرمجموعه‌ها، کلمه‌های خود Deck (کشیدن = بیرون بردن از Deck، پیشرفت می‌ماند)، دکمه‌ی «مرور این Deck».
+- **منوی هر Deck:** تغییر نام · زیرمجموعه‌ی تازه · عوض کردن حالت · «روزی N کلمه‌ی تازه» (فقط برای Deck مرور؛ خالی = پیش‌فرض) · حذف (کلمه‌ها بیرون می‌روند، پیشرفت می‌ماند، زیرمجموعه‌ها یک سطح بالا می‌آیند — تصمیم ۷).
+- **سقف روزانه مثل Anki (تصمیم ۱۱):** `lib/core/leitner/deck_sitzung.dart` (Dart خالص): پیش‌فرض ۵۰ برای سطح اول، ۱۰ برای هر زیرمجموعه؛ سقف هر Deck کل زیردرختش را محدود می‌کند؛ کلمه‌های تازه‌ای که **امروز** شروع شدند از سقف کم می‌شوند؛ کلمه‌های «در حال یادگیری»ی موعدرسیده سقف ندارند؛ Deck دفترچه‌ای هرگز مرور نمی‌شود؛ کلمه‌ای که در چند Deck است یک بار شمرده و مرور می‌شود. مثال خود Lukas (آلمانی ۵۰ ⟵ A1 ۱۰ ⟵ درس ۱، درس ۲؛ A2 ۱۰ ⇒ ۲۰ / ۱۰ / ۱۰) در تست هست.
+- ⚠️ **تغییر رفتار:** قبلاً هر کلمه‌ای که به لایتنر اضافه می‌شد همان روز مرور می‌شد؛ حالا کلمه‌های تازه با سقف روزانه می‌آیند (Deck «Leitner» = ۵۰ در روز). کلمه‌هایی که قبلاً مرور شده‌اند تغییری نمی‌بینند.
+- **برای سقف روزانه** پیشرفت حالا «اولین مرور» هم دارد: پایگاه‌داده **نسخه‌ی ۹** (ستون `erste_wiederholung` در `leitner_fortschritt`)، قرارداد پشتیبان فیلد اختیاری `ersteWiederholung` (فقط اگر معلوم باشد؛ ادغام = تاریخ زودتر؛ Fassung ۶ می‌ماند چون نسخه‌های قدیمی‌تر اپ آن را نادیده می‌گیرند و چیزی جز شمارش امروز از دست نمی‌رود). پیشرفت‌های قبل از X.4 «اولین مرور» ندارند ⇒ «امروز شروع‌شده» حساب نمی‌شوند.
+- **«دسته‌بندی‌های من» به‌عنوان صفحه‌ی جدا تمام شد:** کاشی آن در صفحه‌ی Wortschatz و دکمه‌اش در پروفایل حذف شدند؛ نشانی‌های قدیمی (`/wortschatz/categories`، `/wortschatz/categories/<id>`) به لایتنر و صفحه‌ی همان Deck می‌روند. فیلتر «دسته‌های من» در Alle Wörter فعلاً می‌ماند (X.6 آن را «لایتنر» می‌کند — تصمیم ۱۷).
+- **فایل‌ها:** `core/leitner/deck_sitzung.dart` (تازه) · `features/leitner/screens/deck_screen.dart` (از `categories/screens/category_detail_screen.dart`) · `features/leitner/widgets/deck_zeile.dart`، `deck_dialoge.dart` (تازه؛ پنجره‌ی Deck تازه از `deck_auswahl_sheet.dart` به این‌جا آمد) · `leitner_home_screen.dart` · `leitner_review_screen.dart` (`deckId`) · `leitner_controller.dart` (`deckRechnerProvider`، `leitnerSitzungProvider`، `deckWoerterProvider`، `dueCountProvider` تازه) · `core/database/dao/leitner_dao.dart` (`deckEinstellen`، اولین مرور) · `core/leitner/leitner_regeln.dart` · `core/backup/nutzer_zustand.dart`، `user_state_repository.dart` · `core/database/app_database.dart` (+ `.g.dart`، `drift_schemas/drift_schema_v9.json`، `test/generated_migrations/schema_v9.dart`) · `core/constants/app_routes.dart`، `core/router/app_router.dart` · `categories/controllers/category_controller.dart` (فقط `allCategoriesProvider` برای فیلتر) · `categories/screens/category_list_screen.dart` (حذف) · `wortschatz_home_screen.dart`، `more/widgets/profil_archiv_karte.dart` · `core/l10n/app_l10n.dart`.
+- **نگهبان‌ها:** `test/deck_sitzung_test.dart` (سقف‌ها و مثال Lukas، امروز شروع‌شده، دفترچه، کلمه در دو Deck) · `test/deck_seite_test.dart` (اولین مرور، ادغام، مرور هر Deck، صفحه‌ی لایتنر، صفحه‌ی Deck، منو: حالت و حذف) · `test/migration_test.dart` (هر نسخه‌ی ۲…۸ ⇒ ۹؛ برای ≥ ۸ با داده در جدول‌های تازه) · `test/migration_v8_test.dart` (تا نسخه‌ی فعلی).
+- **کنترل در Chrome واقعی (فارسی):** ساخت Deck «Möbel» از دکمه‌ی لایتنر ⇒ در صفحه‌ی لایتنر با «۱ تازه» و ▶؛ مرور همان Deck فقط der Tisch را آورد؛ صفحه‌ی Deck با شمارنده‌ها، کلمه و منوی کامل.

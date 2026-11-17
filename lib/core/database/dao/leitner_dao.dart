@@ -28,6 +28,7 @@ LeitnerStand _stand(LeitnerFortschrittData z) => LeitnerStand(
       fach: z.fach,
       naechsteWiederholung: z.naechsteWiederholung,
       letzteWiederholung: z.letzteWiederholung,
+      ersteWiederholung: z.ersteWiederholung,
     );
 
 class LeitnerDao {
@@ -87,6 +88,19 @@ class LeitnerDao {
         DecksCompanion(
           name: Value(name.trim()),
           nameAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+        ),
+      );
+
+  /// Ändert Modus und/oder Tageslimit eines Decks. [neuProTag] als Funktion,
+  /// damit «zurück auf Standard» (null) von «nicht ändern» unterscheidbar ist.
+  Future<void> deckEinstellen(String id,
+          {String? modus, int? Function()? neuProTag}) =>
+      (_db.update(_db.decks)..where((t) => t.id.equals(id))).write(
+        DecksCompanion(
+          modus: modus == null ? const Value.absent() : Value(modus),
+          neuProTag:
+              neuProTag == null ? const Value.absent() : Value(neuProTag()),
+          standAmMs: Value(DateTime.now().millisecondsSinceEpoch),
         ),
       );
 
@@ -221,6 +235,7 @@ class LeitnerDao {
               fach: Value(stand.fach),
               naechsteWiederholung: Value(stand.naechsteWiederholung),
               letzteWiederholung: Value(stand.letzteWiederholung),
+              ersteWiederholung: Value(stand.ersteWiederholung),
             ),
           );
 
@@ -229,14 +244,19 @@ class LeitnerDao {
   Future<LeitnerStand> bewerten(String wortId, String uebung,
       {required bool gewusst, DateTime? jetzt}) async {
     final zeit = jetzt ?? DateTime.now();
+    final bisher = await fortschritt(wortId, uebung);
     final neu = gewusst
-        ? nachRichtig(wortId, await fortschritt(wortId, uebung), zeit)
-        : nachFalsch(wortId, zeit);
+        ? nachRichtig(wortId, bisher, zeit)
+        : nachFalsch(wortId, zeit, stand: bisher);
     await fortschrittSetzen(uebung, neu);
     return neu;
   }
 
   /// Von Hand zurück in Fach 1 (auch ein gelerntes Wort) — «wieder lernen».
-  Future<void> zuruecklegen(String wortId, String uebung, {DateTime? jetzt}) =>
-      fortschrittSetzen(uebung, nachFalsch(wortId, jetzt ?? DateTime.now()));
+  Future<void> zuruecklegen(String wortId, String uebung,
+          {DateTime? jetzt}) async =>
+      fortschrittSetzen(
+          uebung,
+          nachFalsch(wortId, jetzt ?? DateTime.now(),
+              stand: await fortschritt(wortId, uebung)));
 }

@@ -75,12 +75,14 @@ bool istFaellig(LeitnerStand? stand, DateTime jetzt) {
 /// Richtig geantwortet: ein Fach weiter; aus dem letzten Fach ⇒ gelernt
 /// (ohne Termin). Ein neues Wort ([stand] null) kommt aus Fach 1 in Fach 2.
 LeitnerStand nachRichtig(String wortId, LeitnerStand? stand, DateTime jetzt) {
+  final erste = stand == null ? jetzt : stand.ersteWiederholung;
   final bisher = anzeigeFach(stand);
   if (bisher >= leitnerGelerntFach) {
     return LeitnerStand(
         wortId: wortId,
         fach: leitnerGelerntFach,
-        letzteWiederholung: stand?.letzteWiederholung ?? jetzt);
+        letzteWiederholung: stand?.letzteWiederholung ?? jetzt,
+        ersteWiederholung: erste);
   }
   final neu = bisher + 1;
   return LeitnerStand(
@@ -90,17 +92,22 @@ LeitnerStand nachRichtig(String wortId, LeitnerStand? stand, DateTime jetzt) {
         ? null
         : jetzt.add(Duration(days: leitnerFachTage[neu - 1])),
     letzteWiederholung: jetzt,
+    ersteWiederholung: erste,
   );
 }
 
 /// Falsch geantwortet — oder von Hand zurückgelegt: Fach 1, morgen wieder.
 /// Das Datum ist Pflicht: daran erkennt das Zusammenführen zweier Geräte,
 /// dass dies jünger ist als ein höheres Fach ([LeitnerStand.zusammen]).
-LeitnerStand nachFalsch(String wortId, DateTime jetzt) => LeitnerStand(
+/// [stand] = bisheriger Stand (für das Datum des ersten Übens); ohne ihn ist
+/// JETZT das erste Üben.
+LeitnerStand nachFalsch(String wortId, DateTime jetzt, {LeitnerStand? stand}) =>
+    LeitnerStand(
       wortId: wortId,
       fach: 1,
       naechsteWiederholung: jetzt.add(Duration(days: leitnerFachTage[0])),
       letzteWiederholung: jetzt,
+      ersteWiederholung: stand == null ? jetzt : stand.ersteWiederholung,
     );
 
 /// Anteil gelernter Wörter (0–1) unter [wortIds] in einer Übung, deren

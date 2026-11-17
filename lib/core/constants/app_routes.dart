@@ -22,6 +22,13 @@ class AppRoutes {
   static const leitner      = '/leitner';
   static const leitnerReview = '/leitner/review';
   static const leitnerStats  = '/leitner/stats';
+  // X.4 (2026-11-17): eine Deck-Seite; Wiederholung eines Decks:
+  // `/leitner/review?deck=<id>`.
+  static String leitnerDeckSeite(String id) =>
+      '$leitner/deck/${Uri.encodeComponent(id)}';
+  static String leitnerUeben(String? deckId) => deckId == null
+      ? leitnerReview
+      : '$leitnerReview?deck=${Uri.encodeQueryComponent(deckId)}';
 
   // Grammatik
   static const grammatik         = '/grammatik';

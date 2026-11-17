@@ -76,11 +76,7 @@ class ProfilArchivKarte extends ConsumerWidget {
             icon: Icons.style_outlined,
             onPressed: () => context.push(AppRoutes.leitner),
           ),
-          VoxButton.secondary(
-            label: AppL10n.t(context, 'profile_open_lists'),
-            icon: Icons.folder_open_outlined,
-            onPressed: () => context.push(AppRoutes.wortschatzCategories),
-          ),
+          // X.4: Listen sind Decks — «Leitner öffnen» zeigt sie.
         ]),
       ],
     );

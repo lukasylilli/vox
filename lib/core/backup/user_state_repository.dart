@@ -117,6 +117,7 @@ class UserStateRepository {
         fach: z.fach,
         naechsteWiederholung: z.naechsteWiederholung,
         letzteWiederholung: z.letzteWiederholung,
+        ersteWiederholung: z.ersteWiederholung,
       );
       if (z.uebung == uebungBedeutung) {
         leitner[z.wortId] = stand;

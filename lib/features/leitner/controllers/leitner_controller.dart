@@ -16,6 +16,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/database/app_database.dart';
 import '../../../core/database/dao/leitner_dao.dart';
 import '../../../core/leitner/deck_baum.dart';
+import '../../../core/leitner/deck_sitzung.dart';
+import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../../core/leitner/leitner_regeln.dart';
 import '../../../core/leitner/leitner_regeln.dart' as regeln;
 import '../../wortschatz/controllers/word_controller.dart';
@@ -97,12 +99,10 @@ final gelerntCountProvider = FutureProvider<int>((ref) async =>
         .where((e) => e.gelernt)
         .length);
 
-/// Heute fällige Karten.
-final dueCountProvider = FutureProvider<int>((ref) async {
-  final eintraege = await ref.watch(leitnerEintraegeProvider.future);
-  final jetzt = DateTime.now();
-  return eintraege.where((e) => e.istFaellig(jetzt)).length;
-});
+/// Heute zu üben, über alle Decks: fällige Wörter + neue nach den
+/// Tageslimits (X.4, deck_sitzung.dart).
+final dueCountProvider = FutureProvider<int>((ref) async =>
+    (await ref.watch(deckRechnerProvider.future)).sitzungAlle().length);
 
 /// Ist das Wort (Text-id) im Leitner?
 final isInLeitnerProvider = FutureProvider.family<bool, String>(
@@ -130,6 +130,64 @@ final deckIdsVonWortProvider =
           for (final z in await ref.watch(deckZuordnungenProvider.future))
             if (z.wortId == wortId) z.deckId,
         });
+
+/// Die Rechnung «was ist heute dran, wie weit ist jedes Deck» (X.4,
+/// core/leitner/deck_sitzung.dart) — aus Decks, Zuordnungen und dem
+/// Fortschritt der Übung «Bedeutung» (bis X.5 die einzige Übung).
+final deckRechnerProvider = FutureProvider<DeckRechner>((ref) async {
+  final decks = await ref.watch(alleDecksProvider.future);
+  final zuordnung = await ref.watch(deckZuordnungenProvider.future);
+  final fortschritt =
+      await ref.watch(leitnerFortschrittProvider(uebungBedeutung).future);
+  final woerter = <String, List<String>>{};
+  for (final z in zuordnung) {
+    (woerter[z.deckId] ??= []).add(z.wortId);
+  }
+  return DeckRechner(
+    decks: [
+      for (final d in decks)
+        DeckDaten(
+            id: d.id,
+            eltern: d.elternId,
+            modus: d.modus,
+            neuProTag: d.neuProTag),
+    ],
+    woerterJeDeck: woerter,
+    fortschritt: fortschritt,
+    jetzt: DateTime.now(),
+  );
+});
+
+/// Heute zu übende Wörter (Text-ids): eines Decks samt Subdecks, oder —
+/// mit `null` — aller Decks.
+final leitnerSitzungProvider =
+    FutureProvider.family<List<String>, String?>((ref, deckId) async {
+  final r = await ref.watch(deckRechnerProvider.future);
+  return deckId == null ? r.sitzungAlle() : r.sitzung(deckId);
+});
+
+/// Die Wörter EINES Decks (ohne Subdecks) zum Anzeigen, in der Reihenfolge
+/// der Aufnahme: `wert` ist ein altes Wort (`Word`) oder der Index-Eintrag
+/// einer Archivkarte. Eine Karte, die diese App-Fassung (noch) nicht kennt,
+/// wird nicht gezeigt — aber auch nie aus dem Deck gelöscht.
+final deckWoerterProvider = StreamProvider.family<
+    List<({String wortId, Object wert})>, String>((ref, deckId) async* {
+  final wordDao = ref.watch(wordDaoProvider);
+  await for (final ids
+      in ref.watch(leitnerDaoProvider).deckWoerterBeobachten(deckId)) {
+    final index = ids.any((id) => !id.startsWith('eigen:'))
+        ? await ref.read(vokabIndexByIdProvider.future)
+        : const <String, Map<String, dynamic>>{};
+    final zeilen = <({String wortId, Object wert})>[];
+    for (final id in ids) {
+      final Object? wert = id.startsWith('eigen:')
+          ? await wordDao.nachTextId(id)
+          : index[id];
+      if (wert != null) zeilen.add((wortId: id, wert: wert));
+    }
+    yield zeilen;
+  }
+});
 
 /// Text-id eines alten Worts (Tabelle `Words`) aus seiner Nummer.
 final altWortIdProvider = FutureProvider.family<String?, int>(

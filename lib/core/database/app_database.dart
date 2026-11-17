@@ -90,6 +90,8 @@ class LeitnerFortschritt extends Table {
   // null = kein Termin (gelernt, oder aus einem Stand ohne Termin).
   DateTimeColumn get naechsteWiederholung => dateTime().nullable()();
   DateTimeColumn get letzteWiederholung   => dateTime().nullable()();
+  // X.4: erstes Üben (Tageslimit neuer Wörter); null = vor X.4 / unbekannt.
+  DateTimeColumn get ersteWiederholung    => dateTime().nullable()();
 
   @override
   Set<Column> get primaryKey => {wortId, uebung};
@@ -226,7 +228,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 8;
+  int get schemaVersion => 9;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -386,6 +388,13 @@ class AppDatabase extends _$AppDatabase {
         ]) {
           await customStatement('DROP TABLE IF EXISTS $tabelle');
         }
+      }
+      // فاز X.4 (2026-11-17): erstes Üben je «Wort × Übung» — für das
+      // Tageslimit neuer Wörter. Bestehende Zeilen bleiben null (= nicht heute).
+      // (Wer von < 8 kommt, bekommt die Tabelle oben schon mit der Spalte.)
+      if (from >= 8 && from < 9) {
+        await m.addColumn(
+            leitnerFortschritt, leitnerFortschritt.ersteWiederholung);
       }
     },
   );

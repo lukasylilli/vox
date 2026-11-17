@@ -2,7 +2,8 @@
 // PHASE: X.2 (2026-11-17) — Leitner wie Anki
 // PURPOSE: Die Migration auf Fassung 8 an den ECHTEN Schemata der Fassungen
 //          6 und 7 (drift_schemas/, test/generated_migrations/): sechs alte
-//          Tabellen ⇒ LeitnerFortschritt, Decks, DeckWoerter.
+//          Tabellen ⇒ LeitnerFortschritt, Decks, DeckWoerter. Gehoben wird
+//          auf die AKTUELLE Fassung (X.4: 9) — der Weg führt über 8.
 //
 // Ergänzt test/migration_test.dart (jede Fassung, ein Wort) um die Fälle, an
 // denen eine Überführung scheitern könnte:
@@ -29,7 +30,7 @@ void main() {
   Future<AppDatabase> heben(InitializedSchema schema) async {
     final db = AppDatabase.forTesting(schema.newConnection());
     addTearDown(db.close);
-    await verifier.migrateAndValidate(db, 8,
+    await verifier.migrateAndValidate(db, db.schemaVersion,
         options: const ValidationOptions(validateDropped: true));
     return db;
   }
