@@ -120,7 +120,7 @@ widgets/
   vox_error_widget.dart   [x]  — VoxErrorWidget(error, onRetry?, compact?)
   vox_loading_widget.dart [x]  — VoxLoadingWidget(label?) + VoxSkeletonBlock(shimmer)
   audio_play_button.dart  [x]  — TTS toggle button (delegates to ttsServiceProvider)
-  leitner_add_button.dart [x]  — compact / full LeitnerAddButton
+  leitner_add_button.dart [x]  — X.3 (2026-11-17): دکمه‌ی لایتنر کلمه‌ی قدیمی ⇒ شیت انتخاب Deck (deck_auswahl_sheet.dart)
   grammar_link_button.dart[x]  — navigate به /grammatik یا /grammatik/$level
   quiz_launch_button.dart [x]  — navigate به /grammatik/lesson/$id/quiz
   global_search_bar.dart  [x]  — GlobalSearchAction IconButton → /search (AppBar only)
@@ -462,7 +462,7 @@ controllers/
                                       categoryIdsForWordProvider(wordId)
                                       isWordInCategoryProvider({categoryId, wordId})
 widgets/
-  add_to_category_sheet.dart   [x]  — showAddToCategorySheet(context, wordId)
+  add_to_category_sheet.dart   [—]  — X.3 (2026-11-17) حذف شد ⇒ leitner/widgets/deck_auswahl_sheet.dart
                                       DraggableScrollableSheet + CheckboxListTile
                                       toggle membership + "جدید" inline create
 ```
@@ -1025,7 +1025,7 @@ seed_wortschluessel.dart [x] — ⭐ **L.1e (2026-09-18) — تنها منبع**
     `WortNotizSektion` نمایش RichText رنگی + BottomSheet-Editor (کلمه لمس/انتخاب → VoxIconButton
     دایره‌ی رنگی، ۶ رنگ `notizFarben` + Standard)؛ live-رنگ با `_NotizController.buildTextSpan`؛
     helper های خالص `notizSpans`/`notizWortIndizes` (تست‌شده).
-  · `widgets/wort_actions.dart` [x] — 🔊 AudioPlayButton (موجود) + Leitner-Toggle + Kategorien-
+  · `widgets/wort_actions.dart` [x] — 🔊 AudioPlayButton (موجود) + Leitner-Toggle + Kategorien- — X.3 (2026-11-17): فقط 🔊 + دکمه‌ی لایتنر که شیت انتخاب Deck را باز می‌کند؛ دکمه‌ی Kategorien حذف شد
     BottomSheet؛ فقط Vox-کامپوننت‌ها؛ snackbar کلیدهای added_to_leitner/removed_from_leitner.
   · `widgets/wortseite_bausteine.dart` [x] — Sektion/Zeile/BeispielBlock/Tabelle + `vokabUeb()`
     (یک زبان، فاز L). `widgets/details_renderer.dart` [x] — ۱۰ Wortart؛ Perfekt از PerfektBuilder.

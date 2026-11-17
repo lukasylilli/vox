@@ -18,13 +18,11 @@ import '../../../core/widgets/article_badge.dart';
 import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/leitner_add_button.dart';
 import '../../../core/widgets/quiz_launch_button.dart';
-import '../../../features/categories/widgets/add_to_category_sheet.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/widgets/wort_karte_inhalt.dart';
 import '../controllers/altwort_karte_provider.dart';
 import '../controllers/word_controller.dart';
 import '../widgets/conjugation_table.dart';
-import '../../../core/widgets/vox_button.dart';
 import '../../../core/widgets/deutsch_text.dart';
 
 class WordDetailScreen extends ConsumerWidget {
@@ -205,15 +203,9 @@ class _WordDetailView extends StatelessWidget {
           padding: const EdgeInsets.all(AppSizes.md),
           child: Row(
             children: [
-              LeitnerAddButton(wordId: model.id),
-              const SizedBox(width: 8),
-              Expanded(
-                child: VoxButton.secondary(
-                  label    : AppL10n.t(context, 'category_label'),
-                  icon     : Icons.folder_rounded,
-                  onPressed: () => showAddToCategorySheet(context, model.id),
-                ),
-              ),
+              // X.3: der Leitner-Knopf wählt das Deck — der frühere Knopf
+              // «Kategorie» ist darin aufgegangen (Kategorien sind Decks).
+              Expanded(child: LeitnerAddButton(wordId: model.id)),
               const SizedBox(width: 8),
               Expanded(child: QuizLaunchButton()),
             ],

@@ -12,29 +12,17 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/database/app_database.dart';
 import '../../../core/leitner/leitner_regeln.dart';
 import '../../leitner/controllers/leitner_controller.dart';
+
+export '../../leitner/controllers/leitner_controller.dart'
+    show alleDecksProvider, deckIdsVonWortProvider, deckZuordnungenProvider;
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../wortschatz/controllers/word_controller.dart';
-
-/// Alle Decks, geordnet.
-final alleDecksProvider = StreamProvider<List<Deck>>(
-    (ref) => ref.watch(leitnerDaoProvider).decksBeobachten());
 
 /// Die eigenen Listen: Decks im Notizbuch-Modus.
 final allCategoriesProvider = FutureProvider<List<Deck>>((ref) async => [
       for (final d in await ref.watch(alleDecksProvider.future))
         if (d.modus == deckModusNotiz) d,
     ]);
-
-/// Wort ↔ Deck, alle Zeilen.
-final deckZuordnungenProvider = StreamProvider<List<DeckWoerterData>>(
-    (ref) => ref.watch(leitnerDaoProvider).zuordnungenBeobachten());
-
-/// ids der Decks, in denen ein Wort (Text-id) liegt.
-final deckIdsVonWortProvider =
-    FutureProvider.family<Set<String>, String>((ref, wortId) async => {
-          for (final z in await ref.watch(deckZuordnungenProvider.future))
-            if (z.wortId == wortId) z.deckId,
-        });
 
 /// Die Wörter eines Decks zum Anzeigen, in der Reihenfolge der Aufnahme:
 /// `wert` ist ein altes Wort (`Word`) oder der Index-Eintrag einer

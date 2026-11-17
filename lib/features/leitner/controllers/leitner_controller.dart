@@ -13,7 +13,9 @@
 // Statistik und Wiederholung lesen.
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
+import '../../../core/database/app_database.dart';
 import '../../../core/database/dao/leitner_dao.dart';
+import '../../../core/leitner/deck_baum.dart';
 import '../../../core/leitner/leitner_regeln.dart';
 import '../../../core/leitner/leitner_regeln.dart' as regeln;
 import '../../wortschatz/controllers/word_controller.dart';
@@ -106,6 +108,28 @@ final dueCountProvider = FutureProvider<int>((ref) async {
 final isInLeitnerProvider = FutureProvider.family<bool, String>(
     (ref, wortId) async =>
         (await ref.watch(imLeitnerProvider.future)).contains(wortId));
+
+// ── Decks (X.3) ───────────────────────────────────────────────────────────────
+
+/// Alle Decks, geordnet (Ordnung, dann Name).
+final alleDecksProvider = StreamProvider<List<Deck>>(
+    (ref) => ref.watch(leitnerDaoProvider).decksBeobachten());
+
+/// Alle Decks in Baum-Reihenfolge (core/leitner/deck_baum.dart).
+final deckBaumProvider = FutureProvider<List<DeckKnoten<Deck>>>((ref) async =>
+    deckBaum(await ref.watch(alleDecksProvider.future),
+        id: (d) => d.id, eltern: (d) => d.elternId));
+
+/// Wort ↔ Deck, alle Zeilen.
+final deckZuordnungenProvider = StreamProvider<List<DeckWoerterData>>(
+    (ref) => ref.watch(leitnerDaoProvider).zuordnungenBeobachten());
+
+/// ids der Decks, in denen ein Wort (Text-id) liegt.
+final deckIdsVonWortProvider =
+    FutureProvider.family<Set<String>, String>((ref, wortId) async => {
+          for (final z in await ref.watch(deckZuordnungenProvider.future))
+            if (z.wortId == wortId) z.deckId,
+        });
 
 /// Text-id eines alten Worts (Tabelle `Words`) aus seiner Nummer.
 final altWortIdProvider = FutureProvider.family<String?, int>(

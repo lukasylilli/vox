@@ -90,6 +90,10 @@ class VokabularUserState {
 
   bool imLeitner(String wortId) => leitner.containsKey(wortId);
 
+  /// Liegt das Wort in einem Notizbuch-Deck (einer eigenen Liste)?
+  bool imNotizbuch(String wortId) =>
+      kategorien.any((k) => k.wortIds.contains(wortId));
+
   VokabularUserState copyWith(
           {Map<String, VokabLeitnerEintrag>? leitner,
           List<VokabKategorie>? kategorien,

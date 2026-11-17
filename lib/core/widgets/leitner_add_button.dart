@@ -1,18 +1,23 @@
 // FILE: lib/core/widgets/leitner_add_button.dart
-// DEPS: leitner_controller.dart, leitner_dao.dart
-// PURPOSE: Shared button — shows whether a word is in Leitner and which box
+// DEPS: leitner_controller.dart, deck_auswahl_sheet.dart
+// PURPOSE: Shared button — shows whether a word is in Leitner and which box;
+//          X.3 (2026-11-17): a tap opens the deck picker
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../features/leitner/controllers/leitner_controller.dart';
+import '../../features/leitner/widgets/deck_auswahl_sheet.dart';
+import '../../features/wortschatz/controllers/word_controller.dart';
 import '../l10n/app_l10n.dart';
 import '../leitner/leitner_regeln.dart';
 
+/// Leitner-Knopf eines ALTEN Worts (Tabelle `Words`). X.3: er wählt das Deck
+/// — dieselbe Auswahl wie bei den Archivkarten (deck_auswahl_sheet.dart).
 class LeitnerAddButton extends ConsumerWidget {
   const LeitnerAddButton({super.key, required this.wordId, this.compact = false});
 
-  /// Nummer des alten Worts (Tabelle `Words`). Der Leitner kennt seit X.2
-  /// nur Text-ids — [altWortIdProvider] übersetzt.
+  /// Nummer des alten Worts. Der Leitner kennt seit X.2 nur Text-ids —
+  /// [altWortIdProvider] übersetzt.
   final int  wordId;
   final bool compact;
 
@@ -22,111 +27,62 @@ class LeitnerAddButton extends ConsumerWidget {
       width: 22, height: 22,
       child: CircularProgressIndicator(strokeWidth: 2),
     );
-    final wortId = ref.watch(altWortIdProvider(wordId)).valueOrNull;
+    final idAsync = ref.watch(altWortIdProvider(wordId));
+    final wortId  = idAsync.valueOrNull;
     if (wortId == null) {
-      return ref.watch(altWortIdProvider(wordId)).isLoading
-          ? laedt
-          : const SizedBox.shrink();
+      return idAsync.isLoading ? laedt : const SizedBox.shrink();
     }
-    return ref.watch(isInLeitnerProvider(wortId)).when(
-      loading: () => laedt,
-      error  : (_, _) => const SizedBox.shrink(),
-      data   : (inLeitner) => inLeitner
-          ? _InLeitnerButton(wortId: wortId, compact: compact)
-          : _AddButton(wortId: wortId, compact: compact),
-    );
-  }
-}
+    final imLeitner =
+        ref.watch(isInLeitnerProvider(wortId)).valueOrNull ?? false;
+    final imDeck =
+        ref.watch(deckIdsVonWortProvider(wortId)).valueOrNull?.isNotEmpty ??
+            false;
 
-class _AddButton extends ConsumerWidget {
-  const _AddButton({required this.wortId, required this.compact});
-  final String wortId;
-  final bool   compact;
+    Future<void> waehlen() async {
+      final wort = await ref.read(wordDaoProvider).getById(wordId);
+      if (!context.mounted) return;
+      await showDeckAuswahl(context,
+          wortId: wortId, wort: wort?.german ?? '');
+    }
 
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    Future<void> add() async {
-      // Die Anzeige folgt von selbst: alle Zähler lesen Ströme der Tabellen.
-      await ref.read(leitnerDaoProvider).aufnehmen(wortId);
-      if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppL10n.t(context, 'added_to_leitner'))),
-        );
-      }
+    final String label;
+    if (imLeitner) {
+      final stand = ref
+          .watch(leitnerFortschrittProvider(uebungBedeutung))
+          .valueOrNull?[wortId];
+      label = AppL10n.tf(context, 'leitner_box_n',
+          {'n': '${anzeigeFach(stand).clamp(1, leitnerFaecher)}'});
+    } else {
+      label = AppL10n.t(
+          context, imDeck ? 'deck_im_notizbuch' : 'add_to_leitner');
     }
 
     if (compact) {
-      return IconButton.filled(
-        tooltip  : AppL10n.t(context, 'add_to_leitner'),
-        icon     : const Icon(Icons.add_circle_outline_rounded),
-        onPressed: add,
-      );
+      return imLeitner
+          ? IconButton(
+              tooltip  : label,
+              icon     : const Icon(Icons.check_circle_rounded),
+              color    : Colors.green,
+              onPressed: waehlen,
+            )
+          : IconButton.filled(
+              tooltip  : label,
+              icon     : Icon(imDeck
+                  ? Icons.inventory_2_rounded
+                  : Icons.add_circle_outline_rounded),
+              onPressed: waehlen,
+            );
     }
-    return FilledButton.tonalIcon(
-      onPressed: add,
-      icon     : const Icon(Icons.add_rounded),
-      label    : Text(AppL10n.t(context, 'add_to_leitner')),
-    );
-  }
-}
-
-class _InLeitnerButton extends ConsumerWidget {
-  const _InLeitnerButton({required this.wortId, required this.compact});
-  final String wortId;
-  final bool   compact;
-
-  @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final stand = ref
-        .watch(leitnerFortschrittProvider(uebungBedeutung))
-        .valueOrNull?[wortId];
-    final box = anzeigeFach(stand).clamp(1, leitnerFaecher);
-
-    Future<void> remove() async {
-      // Nur aus dem Leitner — der Fortschritt des Worts bleibt (X.2).
-      await ref.read(leitnerDaoProvider).entfernen(wortId);
-      if (context.mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text(AppL10n.t(context, 'removed_from_leitner'))),
-        );
-      }
-    }
-
-    final label = AppL10n.tf(context, 'leitner_box_n', {'n': '$box'});
-
-    if (compact) {
-      return IconButton(
-        tooltip  : label,
-        icon     : const Icon(Icons.check_circle_rounded),
-        color    : Colors.green,
-        onPressed: () => _confirmRemove(context, remove),
-      );
-    }
-    return OutlinedButton.icon(
-      onPressed: () => _confirmRemove(context, remove),
-      icon     : const Icon(Icons.check_circle_rounded, color: Colors.green),
-      label    : Text(label),
-    );
-  }
-
-  void _confirmRemove(BuildContext context, Future<void> Function() remove) {
-    showDialog(
-      context: context,
-      builder: (ctx) => AlertDialog(
-        title  : Text(AppL10n.t(ctx, 'remove_leitner_title')),
-        content: Text(AppL10n.t(ctx, 'remove_leitner_confirm')),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(ctx),
-            child    : Text(AppL10n.t(ctx, 'cancel')),
-          ),
-          TextButton(
-            onPressed: () { Navigator.pop(ctx); remove(); },
-            child    : Text(AppL10n.t(ctx, 'delete'),
-                style: const TextStyle(color: Colors.red)),
-          ),
-        ],
-      ),
-    );
+    return imLeitner
+        ? OutlinedButton.icon(
+            onPressed: waehlen,
+            icon     : const Icon(Icons.check_circle_rounded, color: Colors.green),
+            label    : Text(label),
+          )
+        : FilledButton.tonalIcon(
+            onPressed: waehlen,
+            icon     : Icon(imDeck ? Icons.inventory_2_rounded : Icons.add_rounded),
+            label    : Text(label),
+          );
   }
 }
