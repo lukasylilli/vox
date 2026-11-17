@@ -4,7 +4,14 @@
 import 'package:drift/drift.dart';
 
 import '../backup/nutzer_zustand.dart'
-    show LeitnerStand, artLeitner, artListe, artListenwort, artWort;
+    show
+        LeitnerStand,
+        artWort,
+        deckModusNotiz,
+        deckModusWiederholen,
+        standardDeckId,
+        standardDeckName,
+        uebungBedeutung;
 import 'connection/connection.dart';
 
 part 'app_database.g.dart';
@@ -63,47 +70,64 @@ class WordBooks extends Table {
   Set<Column> get primaryKey => {wordId, bookId};
 }
 
-// S.6/L.1b: der eindeutige Index gehört zum drift-Schema (nicht als rohes SQL),
-// damit die Schema-Prüfung der Migrationen (test/migration_test.dart) ihn kennt.
-// Name und Definition sind dieselben wie beim ersten Anlegen per SQL — eine
-// Datenbank der Fassung 7 hat ihn also schon; keine neue Fassung nötig.
-@TableIndex(name: 'user_categories_uid', columns: {#uid}, unique: true)
-class UserCategories extends Table {
-  IntColumn  get id   => integer().autoIncrement()();
-  TextColumn get name => text()();
+// ── Leitner wie Anki (X.2, 2026-11-17 — docs/zukunft/PHASE_X.md) ─────────────
+//
+// Drei Tabellen ersetzen sechs (LeitnerCards, ArchivLeitner, UserCategories,
+// CategoryWords, ArchivKategorien, ArchivKategorieWoerter). Alle Schlüssel
+// sind TEXT-ids, dieselben wie in core/backup/nutzer_zustand.dart:
+//   · Archivkarten  `adjektiv_stolz`
+//   · alte Wörter   `eigen:<german>|<wordType>` (Tabelle Words)
+// Damit gibt es EINEN Stapel statt zwei und EINE Art Liste statt zwei.
 
-  // فاز S.6 (2026-09-16): feste geräteübergreifende id (`eigen:#<32 Hex>`,
-  // siehe neueEigeneListenId in core/backup/nutzer_zustand.dart). Vorher war
-  // der NAME die id — Umbenennen hieß für den Abgleich „alte Liste weg, neue
-  // da", und Wörter, die ein anderes Gerät offline in die alte Liste legte,
-  // gingen verloren. Listen von vor S.6 bekommen in der Migration
-  // `eigen:<Name>`, also genau ihre bisherige id.
-  // ⚠️ Nullable nur, weil SQLite beim Hinzufügen einer Spalte keinen
-  // Standardwert je Zeile kennt; die Migration füllt jede Zeile, jede neue
-  // Zeile bekommt sie beim Anlegen. Eindeutig über den Index
-  // `user_categories_uid` (@TableIndex oben).
-  TextColumn get uid      => text().nullable()();
-  // Wann der Name vergeben wurde, Millisekunden seit 1970 (UTC) — beim
-  // Abgleich gewinnt der später vergebene Name. null = unbekannt (älter als
-  // jede Umbenennung). Millisekunden aus demselben Grund wie Mitgliedschaften.amMs.
-  IntColumn  get nameAmMs => integer().nullable()();
-}
-
-class CategoryWords extends Table {
-  IntColumn get categoryId => integer().references(UserCategories, #id)();
-  IntColumn get wordId     => integer().references(Words, #id)();
+/// Fortschritt «Wort × Übung»: Fach 1–7, danach 8 = gelernt
+/// (core/leitner/leitner_regeln.dart). Eine Zeile entsteht erst mit der
+/// ersten Antwort — ein Wort ohne Zeile ist «neu». Der Fortschritt gehört zum
+/// Wort, nicht zum Deck: Entfernen aus einem Deck löscht hier nichts.
+class LeitnerFortschritt extends Table {
+  TextColumn     get wortId => text()();
+  TextColumn     get uebung => text()();
+  IntColumn      get fach   => integer().withDefault(const Constant(1))();
+  // null = kein Termin (gelernt, oder aus einem Stand ohne Termin).
+  DateTimeColumn get naechsteWiederholung => dateTime().nullable()();
+  DateTimeColumn get letzteWiederholung   => dateTime().nullable()();
 
   @override
-  Set<Column> get primaryKey => {categoryId, wordId};
+  Set<Column> get primaryKey => {wortId, uebung};
 }
 
-// Box 1-5: reviewInterval = 1/2/4/8/16 days
-class LeitnerCards extends Table {
-  IntColumn    get id          => integer().autoIncrement()();
-  IntColumn    get wordId      => integer().references(Words, #id).unique()();
-  IntColumn    get boxNumber   => integer().withDefault(const Constant(1))();
-  DateTimeColumn get nextReview => dateTime()();
-  DateTimeColumn get lastReview => dateTime().nullable()();
+/// Ein Deck — auch jede frühere «eigene Liste» ist eines (gleiche id wie
+/// vorher: `eigen:#<Hex>`, `eigen:<Name>`, `kat_<Millisekunden>`).
+class Decks extends Table {
+  TextColumn get id   => text()();
+  TextColumn get name => text()();
+  // id des übergeordneten Decks; null = oberste Ebene. Bewusst ohne
+  // Fremdschlüssel: beim Abgleich kann ein Deck vor seinem Eltern-Deck
+  // ankommen; ein fehlendes Eltern-Deck heißt «oberste Ebene».
+  TextColumn get elternId => text().nullable()();
+  IntColumn  get ordnung  => integer().withDefault(const Constant(0))();
+  // deckModusWiederholen | deckModusNotiz
+  TextColumn get modus => text().withDefault(const Constant(deckModusNotiz))();
+  // Neue Wörter pro Tag; null = Standard (leitner_regeln.dart).
+  IntColumn  get neuProTag => integer().nullable()();
+  // Millisekunden seit 1970 (UTC), wie Mitgliedschaften.amMs: wann der Name
+  // bzw. die Einstellungen (Eltern, Modus, Limit, Ordnung) zuletzt geändert
+  // wurden — beim Abgleich gewinnt das Spätere. null = unbekannt/älter.
+  IntColumn  get nameAmMs  => integer().nullable()();
+  IntColumn  get standAmMs => integer().nullable()();
+
+  @override
+  Set<Column> get primaryKey => {id};
+}
+
+/// Wort ↔ Deck (n:m). Ein Wort kann in mehreren Decks liegen.
+class DeckWoerter extends Table {
+  TextColumn get deckId => text().references(Decks, #id)();
+  TextColumn get wortId => text()();
+  // Wann aufgenommen (Millisekunden) — Reihenfolge der neuen Wörter.
+  IntColumn  get hinzuMs => integer().withDefault(const Constant(0))();
+
+  @override
+  Set<Column> get primaryKey => {deckId, wortId};
 }
 
 // ── Placeholders for future phases (schema v1) ───────────────────────────────
@@ -160,51 +184,14 @@ class HabitSessions extends Table {
   IntColumn    get durationMinutes => integer().nullable()();
 }
 
-// فاز S.0c (2026-09-16): eigene Listen zu ARCHIVKARTEN — bisher in
-// SharedPreferences unter vokab_user_kategorien_v1. Zwei Tabellen statt einer
-// JSON-Liste, damit Wörter einer Liste einzeln abgefragt werden können (wie
-// bei den eigenen Wörtern in CategoryWords) und weil eine Kategorie beliebig
-// viele Wörter referenziert (n:m) — genau das Muster, das UserCategories/
-// CategoryWords für eigene Wörter schon nutzt.
-class ArchivKategorien extends Table {
-  TextColumn get id   => text()();
-  TextColumn get name => text()();
-
-  @override
-  Set<Column> get primaryKey => {id};
-}
-
-class ArchivKategorieWoerter extends Table {
-  TextColumn get kategorieId => text().references(ArchivKategorien, #id)();
-  TextColumn get wortId      => text()(); // Archivkarten-ID, z. B. adjektiv_stolz
-
-  @override
-  Set<Column> get primaryKey => {kategorieId, wortId};
-}
-
-// فاز S.0b (2026-09-15): Leitner-Stand der ARCHIVKARTEN (die ~26.200 Wörter aus
-// assets/vocab/) — bisher in SharedPreferences unter vokab_user_leitner_v1.
-// Eigener Schlüsseltyp, bewusst getrennt von LeitnerCards: die Archivkarten
-// haben Text-IDs wie "adjektiv_stolz", keine drift-Zeilen-ID. Dieselbe Text-ID
-// wie in core/backup/nutzer_zustand.dart (LeitnerStand.wortId) — das ist die
-// Brücke zwischen Datei-Sicherung und Ablage.
-class ArchivLeitner extends Table {
-  TextColumn     get wortId     => text()();
-  IntColumn      get boxNumber  => integer().withDefault(const Constant(1))();
-  DateTimeColumn get nextReview => dateTime()();
-  DateTimeColumn get lastReview => dateTime().nullable()();
-
-  @override
-  Set<Column> get primaryKey => {wortId};
-}
-
 // فاز S.5 (2026-09-15): die letzte bewusste Handlung je Eintrag — aufgenommen
 // oder entfernt, mit Zeitpunkt. Ohne sie käme beim Abgleich jede Entfernung
 // vom anderen Gerät zurück (Zusammenführen vereinigt). Arten und Schlüssel
 // wie in core/backup/nutzer_zustand.dart (Mitgliedschaft):
-//   leitner    · schluessel = wortId
-//   liste      · schluessel = Listen-id
-//   listenwort · schluessel = Listen-id, wort = wortId
+//   liste      · schluessel = Deck-id
+//   listenwort · schluessel = Deck-id, wort = wortId
+//   (bis Fassung 7 der Datenbank auch `leitner` · schluessel = wortId — die
+//    Migration auf 8 macht daraus `listenwort` am Standard-Deck)
 //   wort       · schluessel = `<german>|<wordType>` (nur Nutzerwörter)
 // Eine Zeile je Eintrag — nur die LETZTE Handlung zählt.
 class Mitgliedschaften extends Table {
@@ -221,18 +208,11 @@ class Mitgliedschaften extends Table {
   Set<Column> get primaryKey => {art, schluessel, wort};
 }
 
-/// Geräteübergreifende id einer eigenen Liste (S.6). `uid` fehlt nur bei einer
-/// Zeile, die die Migration auf Fassung 7 nicht gesehen hat — dann gilt die
-/// alte Form `eigen:<Name>`, genau das, was die Migration dort einträgt.
-String eigeneListenId(UserCategory k) => k.uid ?? 'eigen:${k.name}';
-
 // ── Database class ────────────────────────────────────────────────────────────
 
 @DriftDatabase(tables: [
   Words, Books, WordBooks,
-  UserCategories, CategoryWords,
-  LeitnerCards, ArchivLeitner,
-  ArchivKategorien, ArchivKategorieWoerter,
+  LeitnerFortschritt, Decks, DeckWoerter,
   Mitgliedschaften,
   GrammarLessons, MemorizeItems,
   ReadingTexts, AudioItems,
@@ -246,7 +226,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 7;
+  int get schemaVersion => 8;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -262,16 +242,34 @@ class AppDatabase extends _$AppDatabase {
       // core/backup/user_state_repository.dart zur Laufzeit (lesen() liest
       // schon heute beide Quellen). Eine leere neue Tabelle ist deshalb
       // unbedenklich; nichts geht verloren.
+      // (X.2: die Tabelle gibt es im Schema nicht mehr — Fassung 8 überführt
+      //  und löscht sie. Deshalb hier als festes SQL, wortgleich mit dem, was
+      //  drift damals anlegte.)
       if (from < 3) {
-        await m.createTable(archivLeitner);
+        await customStatement(
+          'CREATE TABLE IF NOT EXISTS archiv_leitner ('
+          'wort_id TEXT NOT NULL, '
+          'box_number INTEGER NOT NULL DEFAULT 1, '
+          'next_review INTEGER NOT NULL, '
+          'last_review INTEGER NULL, '
+          'PRIMARY KEY (wort_id))',
+        );
       }
       // فاز S.0c: eigene Listen zu Archivkarten. Wie bei S.0b wandert der
       // Inhalt von vokab_user_kategorien_v1 NICHT automatisch hierher — das
       // übernimmt user_state_repository.dart zur Laufzeit (Übergangspfad,
       // dieselbe „vereinigen statt überschreiben"-Regel wie beim Leitner).
       if (from < 4) {
-        await m.createTable(archivKategorien);
-        await m.createTable(archivKategorieWoerter);
+        await customStatement(
+          'CREATE TABLE IF NOT EXISTS archiv_kategorien ('
+          'id TEXT NOT NULL, name TEXT NOT NULL, PRIMARY KEY (id))',
+        );
+        await customStatement(
+          'CREATE TABLE IF NOT EXISTS archiv_kategorie_woerter ('
+          'kategorie_id TEXT NOT NULL REFERENCES archiv_kategorien (id), '
+          'wort_id TEXT NOT NULL, '
+          'PRIMARY KEY (kategorie_id, wort_id))',
+        );
       }
       // فاز B-10: Grammatikfelder für Verb/Präposition/Konnektor.
       if (from < 5) {
@@ -293,8 +291,10 @@ class AppDatabase extends _$AppDatabase {
       // weitere bekommt eine neue zufällige in derselben Form wie
       // neueEigeneListenId(). Erst danach der eindeutige Index.
       if (from < 7) {
-        await m.addColumn(userCategories, userCategories.uid);
-        await m.addColumn(userCategories, userCategories.nameAmMs);
+        await customStatement(
+            'ALTER TABLE user_categories ADD COLUMN uid TEXT NULL');
+        await customStatement(
+            'ALTER TABLE user_categories ADD COLUMN name_am_ms INTEGER NULL');
         await customStatement(
           "UPDATE user_categories SET uid = 'eigen:' || name "
           'WHERE uid IS NULL AND id = (SELECT MIN(u2.id) FROM user_categories u2 '
@@ -306,7 +306,86 @@ class AppDatabase extends _$AppDatabase {
         );
         // Eindeutigkeit als eigener Index, weil SQLite eine UNIQUE-Spalte
         // nicht nachträglich hinzufügen kann (ALTER TABLE ADD COLUMN).
-        await m.createIndex(userCategoriesUid);
+        await customStatement(
+          'CREATE UNIQUE INDEX IF NOT EXISTS user_categories_uid '
+          'ON user_categories (uid)',
+        );
+      }
+      // فاز X.2 (2026-11-17): Leitner wie Anki. Drei neue Tabellen übernehmen
+      // ALLES aus den sechs alten; erst danach werden die alten gelöscht.
+      // ⚠️ Nichts geht verloren (test/migration_v8_test.dart):
+      //   · Fach und Termine jedes Worts ⇒ Fortschritt der Übung «bedeutung»
+      //     (Archivkarten mit ihrer id, alte Wörter als `eigen:<Wort>|<Art>`);
+      //   · alle Wörter des bisherigen Stapels ⇒ Deck «Leitner» mit
+      //     Wiederholung — genau das war der Stapel;
+      //   · jede eigene Liste ⇒ ein Deck mit DERSELBEN id und denselben
+      //     Wörtern, als Notizbuch (keine ungewollte Wiederholung);
+      //   · Ereignisse «in den Stapel/aus dem Stapel» ⇒ Wort im Deck «Leitner».
+      if (from < 8) {
+        await m.createTable(leitnerFortschritt);
+        await m.createTable(decks);
+        await m.createTable(deckWoerter);
+        const eigen = "'eigen:' || w.german || '|' || w.word_type";
+        await customStatement(
+          'INSERT OR REPLACE INTO leitner_fortschritt '
+          '(wort_id, uebung, fach, naechste_wiederholung, letzte_wiederholung) '
+          "SELECT wort_id, '$uebungBedeutung', box_number, next_review, "
+          'last_review FROM archiv_leitner',
+        );
+        await customStatement(
+          'INSERT OR REPLACE INTO leitner_fortschritt '
+          '(wort_id, uebung, fach, naechste_wiederholung, letzte_wiederholung) '
+          "SELECT $eigen, '$uebungBedeutung', c.box_number, c.next_review, "
+          'c.last_review FROM leitner_cards c JOIN words w ON w.id = c.word_id',
+        );
+        await customStatement(
+          'INSERT INTO decks (id, name, modus) '
+          "SELECT '$standardDeckId', '$standardDeckName', "
+          "'$deckModusWiederholen' "
+          'WHERE EXISTS (SELECT 1 FROM leitner_fortschritt)',
+        );
+        await customStatement(
+          'INSERT OR IGNORE INTO deck_woerter (deck_id, wort_id) '
+          "SELECT '$standardDeckId', wort_id FROM leitner_fortschritt",
+        );
+        await customStatement(
+          'INSERT OR IGNORE INTO decks (id, name) '
+          'SELECT id, name FROM archiv_kategorien',
+        );
+        await customStatement(
+          'INSERT OR IGNORE INTO deck_woerter (deck_id, wort_id) '
+          'SELECT kategorie_id, wort_id FROM archiv_kategorie_woerter',
+        );
+        const uid = "COALESCE(u.uid, 'eigen:' || u.name)";
+        await customStatement(
+          'INSERT OR IGNORE INTO decks (id, name, name_am_ms) '
+          'SELECT $uid, u.name, u.name_am_ms FROM user_categories u',
+        );
+        await customStatement(
+          'INSERT OR IGNORE INTO deck_woerter (deck_id, wort_id) '
+          'SELECT $uid, $eigen FROM category_words cw '
+          'JOIN user_categories u ON u.id = cw.category_id '
+          'JOIN words w ON w.id = cw.word_id',
+        );
+        await customStatement(
+          'INSERT OR REPLACE INTO mitgliedschaften '
+          '(art, schluessel, wort, drin, am_ms) '
+          "SELECT 'listenwort', '$standardDeckId', schluessel, drin, am_ms "
+          "FROM mitgliedschaften WHERE art = 'leitner'",
+        );
+        await customStatement(
+            "DELETE FROM mitgliedschaften WHERE art = 'leitner'");
+        // Erst jetzt, nachdem alles übernommen ist.
+        for (final tabelle in const [
+          'category_words',
+          'user_categories',
+          'archiv_kategorie_woerter',
+          'archiv_kategorien',
+          'leitner_cards',
+          'archiv_leitner',
+        ]) {
+          await customStatement('DROP TABLE IF EXISTS $tabelle');
+        }
       }
     },
   );
@@ -347,29 +426,6 @@ class AppDatabase extends _$AppDatabase {
     final w = await (select(words)..where((t) => t.id.equals(wordId)))
         .getSingleOrNull();
     return w == null ? null : LeitnerStand.eigenesWort(w.german, w.wordType);
-  }
-
-  /// Leitner-Karte eines Worts aufgenommen/entfernt.
-  Future<void> leitnerMerken(int wordId, {required bool drin}) async {
-    final id = await wortIdVon(wordId);
-    if (id != null) await mitgliedschaftMerken(artLeitner, id, drin: drin);
-  }
-
-  /// Eigene Liste angelegt/gelöscht. [listenId] ist die feste id der Liste
-  /// ([eigeneListenId], S.6) — nicht mehr ihr Name.
-  Future<void> eigeneListeMerken(String listenId, {required bool drin}) =>
-      mitgliedschaftMerken(artListe, listenId, drin: drin);
-
-  /// Wort in eine eigene Liste aufgenommen/daraus entfernt.
-  Future<void> eigenesListenwortMerken(int categoryId, int wordId,
-      {required bool drin}) async {
-    final kat = await (select(userCategories)
-          ..where((t) => t.id.equals(categoryId)))
-        .getSingleOrNull();
-    final wortId = await wortIdVon(wordId);
-    if (kat == null || wortId == null) return;
-    await mitgliedschaftMerken(artListenwort, eigeneListenId(kat),
-        wort: wortId, drin: drin);
   }
 
   /// Wie [nutzerwortMerken], aber über den eindeutigen Schlüssel statt die

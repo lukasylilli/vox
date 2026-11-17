@@ -192,7 +192,7 @@ final appRouter = GoRouter(
             GoRoute(
               path   : ':categoryId',
               builder: (ctx, state) {
-                final id   = int.parse(state.pathParameters['categoryId']!);
+                final id   = state.pathParameters['categoryId']!;
                 final name = state.extra as String?;
                 return CategoryDetailScreen(categoryId: id, categoryName: name);
               },

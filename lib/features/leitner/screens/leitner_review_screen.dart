@@ -1,17 +1,16 @@
 // FILE: lib/features/leitner/screens/leitner_review_screen.dart
 // DEPS: leitner_controller.dart, flash_card_widget.dart, archiv_flash_card.dart,
-//       word_controller.dart, vokabular_controller.dart, user_state_repository.dart
+//       word_controller.dart, vokabular_controller.dart
 // PURPOSE: Review session — flip cards, mark correct/wrong, show summary at end
-//          B-13: fragt BEIDE Quellen ab (App-Wörter + Archivkarten), in der
-//          Reihenfolge von leitnerEintraegeProvider; jede Bewertung geht an
-//          die Tabelle, aus der die Karte stammt.
+//          X.2: EIN Stapel (leitnerEintraegeProvider); die Karte eines alten
+//          Worts kommt aus `Words`, die einer Archivkarte aus dem Index. Jede
+//          Bewertung geht an den Fortschritt «Wort × Übung Bedeutung».
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
-import '../../../core/backup/user_state_repository.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/leitner/leitner_regeln.dart';
 import '../../../core/models/word_model.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
 import '../../vokabular/controllers/vokabular_user_state.dart';
@@ -35,13 +34,13 @@ sealed class _Pruefling {
 
 final class _AppWort extends _Pruefling {
   const _AppWort(this.eintrag, this.wort);
-  final AppWortEintrag eintrag;
+  final LeitnerEintrag eintrag;
   final WordModel wort;
 }
 
 final class _Archiv extends _Pruefling {
   const _Archiv(this.eintrag, this.karte);
-  final ArchivEintrag eintrag;
+  final LeitnerEintrag eintrag;
   final Map<String, dynamic> karte; // Index-Eintrag
 }
 
@@ -65,42 +64,36 @@ class _LeitnerReviewScreenState extends ConsumerState<LeitnerReviewScreen> {
     final jetzt     = DateTime.now();
     final faellig   = eintraege.where((e) => e.istFaellig(jetzt)).toList();
 
-    // Archivkarten brauchen nur den Index (schon beim Start geladen).
-    final index = faellig.any((e) => e is ArchivEintrag)
+    // Archivkarten brauchen nur den Index.
+    final index = faellig.any((e) => !e.istAltesWort)
         ? await ref.read(vokabIndexByIdProvider.future)
         : const <String, Map<String, dynamic>>{};
 
     final items = <_Pruefling>[];
     for (final e in faellig) {
-      switch (e) {
-        case AppWortEintrag():
-          final word = await wordDao.getById(e.karte.wordId);
-          if (word != null) items.add(_AppWort(e, word.toModel()));
-        case ArchivEintrag():
-          // Karte (noch) nicht im Archiv dieser App-Fassung ⇒ nicht abfragen,
-          // aber auch nie löschen: der Fortschritt bleibt stehen (L.1a).
-          final karte = index[e.wortId];
-          if (karte != null) items.add(_Archiv(e, karte));
+      if (e.istAltesWort) {
+        final word = await wordDao.nachTextId(e.wortId);
+        if (word != null) items.add(_AppWort(e, word.toModel()));
+      } else {
+        // Karte (noch) nicht im Archiv dieser App-Fassung ⇒ nicht abfragen,
+        // aber auch nie löschen: der Fortschritt bleibt stehen (L.1a).
+        final karte = index[e.wortId];
+        if (karte != null) items.add(_Archiv(e, karte));
       }
     }
-
     if (mounted) setState(() { _items = items; _loaded = true; });
   }
 
   Future<void> _bewerten({required bool gewusst}) async {
-    switch (_items[_currentIndex]) {
-      case _AppWort(:final eintrag):
-        final dao = ref.read(leitnerDaoProvider);
-        gewusst
-            ? await dao.markCorrect(eintrag.karte)
-            : await dao.markWrong(eintrag.karte);
-      case _Archiv(:final eintrag):
-        final prefs = await SharedPreferences.getInstance();
-        await UserStateRepository(ref.read(databaseProvider), prefs)
-            .archivLeitnerBewerten(eintrag.wortId, gewusst: gewusst);
-        // Wortseite/Liste zeigen das Fach aus dem Wort-Store.
-        await ref.read(vokabularUserProvider.notifier).neuLaden();
-    }
+    final eintrag = switch (_items[_currentIndex]) {
+      _AppWort(:final eintrag) => eintrag,
+      _Archiv(:final eintrag) => eintrag,
+    };
+    await ref
+        .read(leitnerDaoProvider)
+        .bewerten(eintrag.wortId, uebungBedeutung, gewusst: gewusst);
+    // Wortseite/Liste zeigen das Fach aus dem Wort-Store.
+    await ref.read(vokabularUserProvider.notifier).neuLaden();
     _advance(correct: gewusst);
   }
 

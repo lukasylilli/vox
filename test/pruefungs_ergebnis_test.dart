@@ -122,7 +122,8 @@ void main() {
   });
 
   group('Vertrag Fassung 5', () {
-    test('Version ist 5', () => expect(nutzerZustandVersion, 5));
+    test('Version ist mindestens 5', () =>
+        expect(nutzerZustandVersion, greaterThanOrEqualTo(5)));
 
     test('Ergebnisse reisen in der Sicherung mit', () {
       final z = NutzerZustand(pruefungen: {'pr:#1': erg('pr:#1')});

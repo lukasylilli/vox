@@ -1,6 +1,8 @@
 // FILE: lib/features/categories/screens/category_detail_screen.dart
-// DEPS: category_controller.dart, wordsByCategoryProvider, word_list_item.dart
+// DEPS: category_controller.dart (deckWoerterProvider), wortschatz_zeile.dart
 // PURPOSE: Words inside a category with remove-from-category swipe action
+//          X.2: die Kategorie ist ein Deck — es kann alte Wörter UND
+//          Archivkarten enthalten.
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -8,8 +10,12 @@ import 'package:go_router/go_router.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/database/app_database.dart' show Word;
+import '../../../core/models/word_model.dart';
+import '../../leitner/controllers/leitner_controller.dart';
 import '../../wortschatz/controllers/word_controller.dart';
-import '../../wortschatz/widgets/word_list_item.dart';
+import '../../wortschatz/data/such_rang.dart';
+import '../../wortschatz/widgets/wortschatz_zeile.dart';
 import '../controllers/category_controller.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -19,12 +25,14 @@ class CategoryDetailScreen extends ConsumerWidget {
     required this.categoryId,
     this.categoryName,
   });
-  final int     categoryId;
+
+  /// id des Decks (X.2: Text-id).
+  final String  categoryId;
   final String? categoryName;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final wordsAsync = ref.watch(wordsByCategoryProvider(categoryId));
+    final wordsAsync = ref.watch(deckWoerterProvider(categoryId));
 
     return Scaffold(
       appBar: AppBar(
@@ -33,16 +41,22 @@ class CategoryDetailScreen extends ConsumerWidget {
       body: wordsAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),
         error  : (e, _) => Center(child: Text('${AppL10n.t(context, 'error')}: $e')),
-        data   : (words) => words.isEmpty
+        data   : (zeilen) => zeilen.isEmpty
             ? _EmptyCategory(categoryId: categoryId)
             : ListView.builder(
                 padding    : const EdgeInsets.symmetric(vertical: AppSizes.sm),
-                itemCount  : words.length,
+                itemCount  : zeilen.length,
                 itemBuilder: (_, i) {
-                  final word  = words[i];
-                  final model = word.toModel();
+                  final zeile = zeilen[i];
+                  // Altes Wort oder Archivkarte — dieselbe Zeile wie in
+                  // «Alle Wörter» (wortschatz_zeile.dart).
+                  final wert  = zeile.wert;
+                  final Object eintrag = wert is Word ? wert.toModel() : wert;
+                  final name  = eintrag is WordModel
+                      ? eintrag.german
+                      : '${(eintrag as Map)['wort'] ?? ''}';
                   return Dismissible(
-                    key      : ValueKey(word.id),
+                    key      : ValueKey(zeile.wortId),
                     direction: DismissDirection.endToStart,
                     background: Container(
                       alignment: Alignment.centerRight,
@@ -54,7 +68,7 @@ class CategoryDetailScreen extends ConsumerWidget {
                     confirmDismiss: (_) => showDialog<bool>(
                       context: context,
                       builder: (ctx) => AlertDialog(
-                        title  : Text(AppL10n.tf(context, 'delete_quoted', {'x': model.german})),
+                        title  : Text(AppL10n.tf(context, 'delete_quoted', {'x': name})),
                         content: Text(AppL10n.t(context, 'remove_from_category_msg')),
                         actions: [
                           VoxButton.text(
@@ -68,18 +82,12 @@ class CategoryDetailScreen extends ConsumerWidget {
                         ],
                       ),
                     ),
-                    onDismissed: (_) async {
-                      await ref
-                          .read(categoryDaoProvider)
-                          .removeWordFromCategory(categoryId, word.id);
-                      ref.invalidate(wordsByCategoryProvider(categoryId));
-                      ref.invalidate(categoryIdsForWordProvider(word.id));
-                    },
-                    child: WordListItem(
-                      word  : model,
-                      onTap : () => context.push(
-                        '/wortschatz/word/${word.id}',
-                      ),
+                    onDismissed: (_) => ref
+                        .read(leitnerDaoProvider)
+                        .wortSetzen(categoryId, zeile.wortId, false),
+                    child: WortschatzZeile(
+                      treffer: SuchTreffer<Object>(
+                          wert: eintrag, lemma: name, rang: SuchRang.genau),
                     ),
                   );
                 },
@@ -91,7 +99,7 @@ class CategoryDetailScreen extends ConsumerWidget {
 
 class _EmptyCategory extends StatelessWidget {
   const _EmptyCategory({required this.categoryId});
-  final int categoryId;
+  final String categoryId;
 
   @override
   Widget build(BuildContext context) {

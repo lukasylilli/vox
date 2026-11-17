@@ -386,15 +386,15 @@ Screen‌ها فقط این کامپوننت‌ها را **صدا می‌زنن�
 
 ---
 
-## DATABASE TABLES (drift — schema v7)
+## DATABASE TABLES (drift — schema v8)
 > ⚠️ تغییر فقط با: `schemaVersion` بالا + migration + اجرای `build-runner.yml` روی شاخه (L.1b). جدول‌ها از `@DriftDatabase` در `core/database/app_database.dart` (بررسی 2026-09-23).
 ```
 words                    — جدول اصلی (unique: {german, wordType}) + regelmaessig/trennbar/grammatikDetail (B-10)
 books · word_books       — کتاب‌ها + many-to-many
-user_categories          — لیست‌های شخصی (uid ثابت، S.6) · category_words — many-to-many
-leitner_cards            — لایتنر کلمه‌های همراه اپ/خودی
-archiv_leitner           — لایتنر کارت‌های آرشیو (کلید متنی wortId، S.0b)
-archiv_kategorien · archiv_kategorie_woerter — لیست‌های آرشیو (S.0c)
+leitner_fortschritt      — X.2 (2026-11-17): پیشرفت «کلمه × تمرین» (جعبه ۱–۷، ۸ = یاد گرفته‌شده) — کلید متنی
+decks · deck_woerter     — X.2: Deckها (درختی، حالت مرور/دفترچه، سقف روزانه) + کلمه ↔ Deck (چند به چند)
+                           (جایگزین user_categories، category_words، leitner_cards، archiv_leitner،
+                            archiv_kategorien، archiv_kategorie_woerter — شرح: docs/zukunft/PHASE_X.md ⇒ «🧱 مدل داده»)
 mitgliedschaften         — عضویت‌ها و حذف‌ها با زمان (S.5)
 grammar_lessons · memorize_items (meaningEn، L3-E) · reading_texts · audio_items
 habits · habit_sessions  — فقط برای سازگاری DB؛ Habit از 2026-09-13 در UI نیست (Root-in)

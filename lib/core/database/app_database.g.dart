@@ -1489,888 +1489,12 @@ class WordBooksCompanion extends UpdateCompanion<WordBook> {
   }
 }
 
-class $UserCategoriesTable extends UserCategories
-    with TableInfo<$UserCategoriesTable, UserCategory> {
+class $LeitnerFortschrittTable extends LeitnerFortschritt
+    with TableInfo<$LeitnerFortschrittTable, LeitnerFortschrittData> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
-  $UserCategoriesTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _idMeta = const VerificationMeta('id');
-  @override
-  late final GeneratedColumn<int> id = GeneratedColumn<int>(
-    'id',
-    aliasedName,
-    false,
-    hasAutoIncrement: true,
-    type: DriftSqlType.int,
-    requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'PRIMARY KEY AUTOINCREMENT',
-    ),
-  );
-  static const VerificationMeta _nameMeta = const VerificationMeta('name');
-  @override
-  late final GeneratedColumn<String> name = GeneratedColumn<String>(
-    'name',
-    aliasedName,
-    false,
-    type: DriftSqlType.string,
-    requiredDuringInsert: true,
-  );
-  static const VerificationMeta _uidMeta = const VerificationMeta('uid');
-  @override
-  late final GeneratedColumn<String> uid = GeneratedColumn<String>(
-    'uid',
-    aliasedName,
-    true,
-    type: DriftSqlType.string,
-    requiredDuringInsert: false,
-  );
-  static const VerificationMeta _nameAmMsMeta = const VerificationMeta(
-    'nameAmMs',
-  );
-  @override
-  late final GeneratedColumn<int> nameAmMs = GeneratedColumn<int>(
-    'name_am_ms',
-    aliasedName,
-    true,
-    type: DriftSqlType.int,
-    requiredDuringInsert: false,
-  );
-  @override
-  List<GeneratedColumn> get $columns => [id, name, uid, nameAmMs];
-  @override
-  String get aliasedName => _alias ?? actualTableName;
-  @override
-  String get actualTableName => $name;
-  static const String $name = 'user_categories';
-  @override
-  VerificationContext validateIntegrity(
-    Insertable<UserCategory> instance, {
-    bool isInserting = false,
-  }) {
-    final context = VerificationContext();
-    final data = instance.toColumns(true);
-    if (data.containsKey('id')) {
-      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
-    }
-    if (data.containsKey('name')) {
-      context.handle(
-        _nameMeta,
-        name.isAcceptableOrUnknown(data['name']!, _nameMeta),
-      );
-    } else if (isInserting) {
-      context.missing(_nameMeta);
-    }
-    if (data.containsKey('uid')) {
-      context.handle(
-        _uidMeta,
-        uid.isAcceptableOrUnknown(data['uid']!, _uidMeta),
-      );
-    }
-    if (data.containsKey('name_am_ms')) {
-      context.handle(
-        _nameAmMsMeta,
-        nameAmMs.isAcceptableOrUnknown(data['name_am_ms']!, _nameAmMsMeta),
-      );
-    }
-    return context;
-  }
-
-  @override
-  Set<GeneratedColumn> get $primaryKey => {id};
-  @override
-  UserCategory map(Map<String, dynamic> data, {String? tablePrefix}) {
-    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return UserCategory(
-      id: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}id'],
-      )!,
-      name: attachedDatabase.typeMapping.read(
-        DriftSqlType.string,
-        data['${effectivePrefix}name'],
-      )!,
-      uid: attachedDatabase.typeMapping.read(
-        DriftSqlType.string,
-        data['${effectivePrefix}uid'],
-      ),
-      nameAmMs: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}name_am_ms'],
-      ),
-    );
-  }
-
-  @override
-  $UserCategoriesTable createAlias(String alias) {
-    return $UserCategoriesTable(attachedDatabase, alias);
-  }
-}
-
-class UserCategory extends DataClass implements Insertable<UserCategory> {
-  final int id;
-  final String name;
-  final String? uid;
-  final int? nameAmMs;
-  const UserCategory({
-    required this.id,
-    required this.name,
-    this.uid,
-    this.nameAmMs,
-  });
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    map['id'] = Variable<int>(id);
-    map['name'] = Variable<String>(name);
-    if (!nullToAbsent || uid != null) {
-      map['uid'] = Variable<String>(uid);
-    }
-    if (!nullToAbsent || nameAmMs != null) {
-      map['name_am_ms'] = Variable<int>(nameAmMs);
-    }
-    return map;
-  }
-
-  UserCategoriesCompanion toCompanion(bool nullToAbsent) {
-    return UserCategoriesCompanion(
-      id: Value(id),
-      name: Value(name),
-      uid: uid == null && nullToAbsent ? const Value.absent() : Value(uid),
-      nameAmMs: nameAmMs == null && nullToAbsent
-          ? const Value.absent()
-          : Value(nameAmMs),
-    );
-  }
-
-  factory UserCategory.fromJson(
-    Map<String, dynamic> json, {
-    ValueSerializer? serializer,
-  }) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return UserCategory(
-      id: serializer.fromJson<int>(json['id']),
-      name: serializer.fromJson<String>(json['name']),
-      uid: serializer.fromJson<String?>(json['uid']),
-      nameAmMs: serializer.fromJson<int?>(json['nameAmMs']),
-    );
-  }
-  @override
-  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return <String, dynamic>{
-      'id': serializer.toJson<int>(id),
-      'name': serializer.toJson<String>(name),
-      'uid': serializer.toJson<String?>(uid),
-      'nameAmMs': serializer.toJson<int?>(nameAmMs),
-    };
-  }
-
-  UserCategory copyWith({
-    int? id,
-    String? name,
-    Value<String?> uid = const Value.absent(),
-    Value<int?> nameAmMs = const Value.absent(),
-  }) => UserCategory(
-    id: id ?? this.id,
-    name: name ?? this.name,
-    uid: uid.present ? uid.value : this.uid,
-    nameAmMs: nameAmMs.present ? nameAmMs.value : this.nameAmMs,
-  );
-  UserCategory copyWithCompanion(UserCategoriesCompanion data) {
-    return UserCategory(
-      id: data.id.present ? data.id.value : this.id,
-      name: data.name.present ? data.name.value : this.name,
-      uid: data.uid.present ? data.uid.value : this.uid,
-      nameAmMs: data.nameAmMs.present ? data.nameAmMs.value : this.nameAmMs,
-    );
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('UserCategory(')
-          ..write('id: $id, ')
-          ..write('name: $name, ')
-          ..write('uid: $uid, ')
-          ..write('nameAmMs: $nameAmMs')
-          ..write(')'))
-        .toString();
-  }
-
-  @override
-  int get hashCode => Object.hash(id, name, uid, nameAmMs);
-  @override
-  bool operator ==(Object other) =>
-      identical(this, other) ||
-      (other is UserCategory &&
-          other.id == this.id &&
-          other.name == this.name &&
-          other.uid == this.uid &&
-          other.nameAmMs == this.nameAmMs);
-}
-
-class UserCategoriesCompanion extends UpdateCompanion<UserCategory> {
-  final Value<int> id;
-  final Value<String> name;
-  final Value<String?> uid;
-  final Value<int?> nameAmMs;
-  const UserCategoriesCompanion({
-    this.id = const Value.absent(),
-    this.name = const Value.absent(),
-    this.uid = const Value.absent(),
-    this.nameAmMs = const Value.absent(),
-  });
-  UserCategoriesCompanion.insert({
-    this.id = const Value.absent(),
-    required String name,
-    this.uid = const Value.absent(),
-    this.nameAmMs = const Value.absent(),
-  }) : name = Value(name);
-  static Insertable<UserCategory> custom({
-    Expression<int>? id,
-    Expression<String>? name,
-    Expression<String>? uid,
-    Expression<int>? nameAmMs,
-  }) {
-    return RawValuesInsertable({
-      if (id != null) 'id': id,
-      if (name != null) 'name': name,
-      if (uid != null) 'uid': uid,
-      if (nameAmMs != null) 'name_am_ms': nameAmMs,
-    });
-  }
-
-  UserCategoriesCompanion copyWith({
-    Value<int>? id,
-    Value<String>? name,
-    Value<String?>? uid,
-    Value<int?>? nameAmMs,
-  }) {
-    return UserCategoriesCompanion(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      uid: uid ?? this.uid,
-      nameAmMs: nameAmMs ?? this.nameAmMs,
-    );
-  }
-
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    if (id.present) {
-      map['id'] = Variable<int>(id.value);
-    }
-    if (name.present) {
-      map['name'] = Variable<String>(name.value);
-    }
-    if (uid.present) {
-      map['uid'] = Variable<String>(uid.value);
-    }
-    if (nameAmMs.present) {
-      map['name_am_ms'] = Variable<int>(nameAmMs.value);
-    }
-    return map;
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('UserCategoriesCompanion(')
-          ..write('id: $id, ')
-          ..write('name: $name, ')
-          ..write('uid: $uid, ')
-          ..write('nameAmMs: $nameAmMs')
-          ..write(')'))
-        .toString();
-  }
-}
-
-class $CategoryWordsTable extends CategoryWords
-    with TableInfo<$CategoryWordsTable, CategoryWord> {
-  @override
-  final GeneratedDatabase attachedDatabase;
-  final String? _alias;
-  $CategoryWordsTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _categoryIdMeta = const VerificationMeta(
-    'categoryId',
-  );
-  @override
-  late final GeneratedColumn<int> categoryId = GeneratedColumn<int>(
-    'category_id',
-    aliasedName,
-    false,
-    type: DriftSqlType.int,
-    requiredDuringInsert: true,
-    defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'REFERENCES user_categories (id)',
-    ),
-  );
-  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
-  @override
-  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
-    'word_id',
-    aliasedName,
-    false,
-    type: DriftSqlType.int,
-    requiredDuringInsert: true,
-    defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'REFERENCES words (id)',
-    ),
-  );
-  @override
-  List<GeneratedColumn> get $columns => [categoryId, wordId];
-  @override
-  String get aliasedName => _alias ?? actualTableName;
-  @override
-  String get actualTableName => $name;
-  static const String $name = 'category_words';
-  @override
-  VerificationContext validateIntegrity(
-    Insertable<CategoryWord> instance, {
-    bool isInserting = false,
-  }) {
-    final context = VerificationContext();
-    final data = instance.toColumns(true);
-    if (data.containsKey('category_id')) {
-      context.handle(
-        _categoryIdMeta,
-        categoryId.isAcceptableOrUnknown(data['category_id']!, _categoryIdMeta),
-      );
-    } else if (isInserting) {
-      context.missing(_categoryIdMeta);
-    }
-    if (data.containsKey('word_id')) {
-      context.handle(
-        _wordIdMeta,
-        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
-      );
-    } else if (isInserting) {
-      context.missing(_wordIdMeta);
-    }
-    return context;
-  }
-
-  @override
-  Set<GeneratedColumn> get $primaryKey => {categoryId, wordId};
-  @override
-  CategoryWord map(Map<String, dynamic> data, {String? tablePrefix}) {
-    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return CategoryWord(
-      categoryId: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}category_id'],
-      )!,
-      wordId: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}word_id'],
-      )!,
-    );
-  }
-
-  @override
-  $CategoryWordsTable createAlias(String alias) {
-    return $CategoryWordsTable(attachedDatabase, alias);
-  }
-}
-
-class CategoryWord extends DataClass implements Insertable<CategoryWord> {
-  final int categoryId;
-  final int wordId;
-  const CategoryWord({required this.categoryId, required this.wordId});
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    map['category_id'] = Variable<int>(categoryId);
-    map['word_id'] = Variable<int>(wordId);
-    return map;
-  }
-
-  CategoryWordsCompanion toCompanion(bool nullToAbsent) {
-    return CategoryWordsCompanion(
-      categoryId: Value(categoryId),
-      wordId: Value(wordId),
-    );
-  }
-
-  factory CategoryWord.fromJson(
-    Map<String, dynamic> json, {
-    ValueSerializer? serializer,
-  }) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return CategoryWord(
-      categoryId: serializer.fromJson<int>(json['categoryId']),
-      wordId: serializer.fromJson<int>(json['wordId']),
-    );
-  }
-  @override
-  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return <String, dynamic>{
-      'categoryId': serializer.toJson<int>(categoryId),
-      'wordId': serializer.toJson<int>(wordId),
-    };
-  }
-
-  CategoryWord copyWith({int? categoryId, int? wordId}) => CategoryWord(
-    categoryId: categoryId ?? this.categoryId,
-    wordId: wordId ?? this.wordId,
-  );
-  CategoryWord copyWithCompanion(CategoryWordsCompanion data) {
-    return CategoryWord(
-      categoryId: data.categoryId.present
-          ? data.categoryId.value
-          : this.categoryId,
-      wordId: data.wordId.present ? data.wordId.value : this.wordId,
-    );
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('CategoryWord(')
-          ..write('categoryId: $categoryId, ')
-          ..write('wordId: $wordId')
-          ..write(')'))
-        .toString();
-  }
-
-  @override
-  int get hashCode => Object.hash(categoryId, wordId);
-  @override
-  bool operator ==(Object other) =>
-      identical(this, other) ||
-      (other is CategoryWord &&
-          other.categoryId == this.categoryId &&
-          other.wordId == this.wordId);
-}
-
-class CategoryWordsCompanion extends UpdateCompanion<CategoryWord> {
-  final Value<int> categoryId;
-  final Value<int> wordId;
-  final Value<int> rowid;
-  const CategoryWordsCompanion({
-    this.categoryId = const Value.absent(),
-    this.wordId = const Value.absent(),
-    this.rowid = const Value.absent(),
-  });
-  CategoryWordsCompanion.insert({
-    required int categoryId,
-    required int wordId,
-    this.rowid = const Value.absent(),
-  }) : categoryId = Value(categoryId),
-       wordId = Value(wordId);
-  static Insertable<CategoryWord> custom({
-    Expression<int>? categoryId,
-    Expression<int>? wordId,
-    Expression<int>? rowid,
-  }) {
-    return RawValuesInsertable({
-      if (categoryId != null) 'category_id': categoryId,
-      if (wordId != null) 'word_id': wordId,
-      if (rowid != null) 'rowid': rowid,
-    });
-  }
-
-  CategoryWordsCompanion copyWith({
-    Value<int>? categoryId,
-    Value<int>? wordId,
-    Value<int>? rowid,
-  }) {
-    return CategoryWordsCompanion(
-      categoryId: categoryId ?? this.categoryId,
-      wordId: wordId ?? this.wordId,
-      rowid: rowid ?? this.rowid,
-    );
-  }
-
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    if (categoryId.present) {
-      map['category_id'] = Variable<int>(categoryId.value);
-    }
-    if (wordId.present) {
-      map['word_id'] = Variable<int>(wordId.value);
-    }
-    if (rowid.present) {
-      map['rowid'] = Variable<int>(rowid.value);
-    }
-    return map;
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('CategoryWordsCompanion(')
-          ..write('categoryId: $categoryId, ')
-          ..write('wordId: $wordId, ')
-          ..write('rowid: $rowid')
-          ..write(')'))
-        .toString();
-  }
-}
-
-class $LeitnerCardsTable extends LeitnerCards
-    with TableInfo<$LeitnerCardsTable, LeitnerCard> {
-  @override
-  final GeneratedDatabase attachedDatabase;
-  final String? _alias;
-  $LeitnerCardsTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _idMeta = const VerificationMeta('id');
-  @override
-  late final GeneratedColumn<int> id = GeneratedColumn<int>(
-    'id',
-    aliasedName,
-    false,
-    hasAutoIncrement: true,
-    type: DriftSqlType.int,
-    requiredDuringInsert: false,
-    defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'PRIMARY KEY AUTOINCREMENT',
-    ),
-  );
-  static const VerificationMeta _wordIdMeta = const VerificationMeta('wordId');
-  @override
-  late final GeneratedColumn<int> wordId = GeneratedColumn<int>(
-    'word_id',
-    aliasedName,
-    false,
-    type: DriftSqlType.int,
-    requiredDuringInsert: true,
-    defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'UNIQUE REFERENCES words (id)',
-    ),
-  );
-  static const VerificationMeta _boxNumberMeta = const VerificationMeta(
-    'boxNumber',
-  );
-  @override
-  late final GeneratedColumn<int> boxNumber = GeneratedColumn<int>(
-    'box_number',
-    aliasedName,
-    false,
-    type: DriftSqlType.int,
-    requiredDuringInsert: false,
-    defaultValue: const Constant(1),
-  );
-  static const VerificationMeta _nextReviewMeta = const VerificationMeta(
-    'nextReview',
-  );
-  @override
-  late final GeneratedColumn<DateTime> nextReview = GeneratedColumn<DateTime>(
-    'next_review',
-    aliasedName,
-    false,
-    type: DriftSqlType.dateTime,
-    requiredDuringInsert: true,
-  );
-  static const VerificationMeta _lastReviewMeta = const VerificationMeta(
-    'lastReview',
-  );
-  @override
-  late final GeneratedColumn<DateTime> lastReview = GeneratedColumn<DateTime>(
-    'last_review',
-    aliasedName,
-    true,
-    type: DriftSqlType.dateTime,
-    requiredDuringInsert: false,
-  );
-  @override
-  List<GeneratedColumn> get $columns => [
-    id,
-    wordId,
-    boxNumber,
-    nextReview,
-    lastReview,
-  ];
-  @override
-  String get aliasedName => _alias ?? actualTableName;
-  @override
-  String get actualTableName => $name;
-  static const String $name = 'leitner_cards';
-  @override
-  VerificationContext validateIntegrity(
-    Insertable<LeitnerCard> instance, {
-    bool isInserting = false,
-  }) {
-    final context = VerificationContext();
-    final data = instance.toColumns(true);
-    if (data.containsKey('id')) {
-      context.handle(_idMeta, id.isAcceptableOrUnknown(data['id']!, _idMeta));
-    }
-    if (data.containsKey('word_id')) {
-      context.handle(
-        _wordIdMeta,
-        wordId.isAcceptableOrUnknown(data['word_id']!, _wordIdMeta),
-      );
-    } else if (isInserting) {
-      context.missing(_wordIdMeta);
-    }
-    if (data.containsKey('box_number')) {
-      context.handle(
-        _boxNumberMeta,
-        boxNumber.isAcceptableOrUnknown(data['box_number']!, _boxNumberMeta),
-      );
-    }
-    if (data.containsKey('next_review')) {
-      context.handle(
-        _nextReviewMeta,
-        nextReview.isAcceptableOrUnknown(data['next_review']!, _nextReviewMeta),
-      );
-    } else if (isInserting) {
-      context.missing(_nextReviewMeta);
-    }
-    if (data.containsKey('last_review')) {
-      context.handle(
-        _lastReviewMeta,
-        lastReview.isAcceptableOrUnknown(data['last_review']!, _lastReviewMeta),
-      );
-    }
-    return context;
-  }
-
-  @override
-  Set<GeneratedColumn> get $primaryKey => {id};
-  @override
-  LeitnerCard map(Map<String, dynamic> data, {String? tablePrefix}) {
-    final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return LeitnerCard(
-      id: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}id'],
-      )!,
-      wordId: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}word_id'],
-      )!,
-      boxNumber: attachedDatabase.typeMapping.read(
-        DriftSqlType.int,
-        data['${effectivePrefix}box_number'],
-      )!,
-      nextReview: attachedDatabase.typeMapping.read(
-        DriftSqlType.dateTime,
-        data['${effectivePrefix}next_review'],
-      )!,
-      lastReview: attachedDatabase.typeMapping.read(
-        DriftSqlType.dateTime,
-        data['${effectivePrefix}last_review'],
-      ),
-    );
-  }
-
-  @override
-  $LeitnerCardsTable createAlias(String alias) {
-    return $LeitnerCardsTable(attachedDatabase, alias);
-  }
-}
-
-class LeitnerCard extends DataClass implements Insertable<LeitnerCard> {
-  final int id;
-  final int wordId;
-  final int boxNumber;
-  final DateTime nextReview;
-  final DateTime? lastReview;
-  const LeitnerCard({
-    required this.id,
-    required this.wordId,
-    required this.boxNumber,
-    required this.nextReview,
-    this.lastReview,
-  });
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    map['id'] = Variable<int>(id);
-    map['word_id'] = Variable<int>(wordId);
-    map['box_number'] = Variable<int>(boxNumber);
-    map['next_review'] = Variable<DateTime>(nextReview);
-    if (!nullToAbsent || lastReview != null) {
-      map['last_review'] = Variable<DateTime>(lastReview);
-    }
-    return map;
-  }
-
-  LeitnerCardsCompanion toCompanion(bool nullToAbsent) {
-    return LeitnerCardsCompanion(
-      id: Value(id),
-      wordId: Value(wordId),
-      boxNumber: Value(boxNumber),
-      nextReview: Value(nextReview),
-      lastReview: lastReview == null && nullToAbsent
-          ? const Value.absent()
-          : Value(lastReview),
-    );
-  }
-
-  factory LeitnerCard.fromJson(
-    Map<String, dynamic> json, {
-    ValueSerializer? serializer,
-  }) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return LeitnerCard(
-      id: serializer.fromJson<int>(json['id']),
-      wordId: serializer.fromJson<int>(json['wordId']),
-      boxNumber: serializer.fromJson<int>(json['boxNumber']),
-      nextReview: serializer.fromJson<DateTime>(json['nextReview']),
-      lastReview: serializer.fromJson<DateTime?>(json['lastReview']),
-    );
-  }
-  @override
-  Map<String, dynamic> toJson({ValueSerializer? serializer}) {
-    serializer ??= driftRuntimeOptions.defaultSerializer;
-    return <String, dynamic>{
-      'id': serializer.toJson<int>(id),
-      'wordId': serializer.toJson<int>(wordId),
-      'boxNumber': serializer.toJson<int>(boxNumber),
-      'nextReview': serializer.toJson<DateTime>(nextReview),
-      'lastReview': serializer.toJson<DateTime?>(lastReview),
-    };
-  }
-
-  LeitnerCard copyWith({
-    int? id,
-    int? wordId,
-    int? boxNumber,
-    DateTime? nextReview,
-    Value<DateTime?> lastReview = const Value.absent(),
-  }) => LeitnerCard(
-    id: id ?? this.id,
-    wordId: wordId ?? this.wordId,
-    boxNumber: boxNumber ?? this.boxNumber,
-    nextReview: nextReview ?? this.nextReview,
-    lastReview: lastReview.present ? lastReview.value : this.lastReview,
-  );
-  LeitnerCard copyWithCompanion(LeitnerCardsCompanion data) {
-    return LeitnerCard(
-      id: data.id.present ? data.id.value : this.id,
-      wordId: data.wordId.present ? data.wordId.value : this.wordId,
-      boxNumber: data.boxNumber.present ? data.boxNumber.value : this.boxNumber,
-      nextReview: data.nextReview.present
-          ? data.nextReview.value
-          : this.nextReview,
-      lastReview: data.lastReview.present
-          ? data.lastReview.value
-          : this.lastReview,
-    );
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('LeitnerCard(')
-          ..write('id: $id, ')
-          ..write('wordId: $wordId, ')
-          ..write('boxNumber: $boxNumber, ')
-          ..write('nextReview: $nextReview, ')
-          ..write('lastReview: $lastReview')
-          ..write(')'))
-        .toString();
-  }
-
-  @override
-  int get hashCode =>
-      Object.hash(id, wordId, boxNumber, nextReview, lastReview);
-  @override
-  bool operator ==(Object other) =>
-      identical(this, other) ||
-      (other is LeitnerCard &&
-          other.id == this.id &&
-          other.wordId == this.wordId &&
-          other.boxNumber == this.boxNumber &&
-          other.nextReview == this.nextReview &&
-          other.lastReview == this.lastReview);
-}
-
-class LeitnerCardsCompanion extends UpdateCompanion<LeitnerCard> {
-  final Value<int> id;
-  final Value<int> wordId;
-  final Value<int> boxNumber;
-  final Value<DateTime> nextReview;
-  final Value<DateTime?> lastReview;
-  const LeitnerCardsCompanion({
-    this.id = const Value.absent(),
-    this.wordId = const Value.absent(),
-    this.boxNumber = const Value.absent(),
-    this.nextReview = const Value.absent(),
-    this.lastReview = const Value.absent(),
-  });
-  LeitnerCardsCompanion.insert({
-    this.id = const Value.absent(),
-    required int wordId,
-    this.boxNumber = const Value.absent(),
-    required DateTime nextReview,
-    this.lastReview = const Value.absent(),
-  }) : wordId = Value(wordId),
-       nextReview = Value(nextReview);
-  static Insertable<LeitnerCard> custom({
-    Expression<int>? id,
-    Expression<int>? wordId,
-    Expression<int>? boxNumber,
-    Expression<DateTime>? nextReview,
-    Expression<DateTime>? lastReview,
-  }) {
-    return RawValuesInsertable({
-      if (id != null) 'id': id,
-      if (wordId != null) 'word_id': wordId,
-      if (boxNumber != null) 'box_number': boxNumber,
-      if (nextReview != null) 'next_review': nextReview,
-      if (lastReview != null) 'last_review': lastReview,
-    });
-  }
-
-  LeitnerCardsCompanion copyWith({
-    Value<int>? id,
-    Value<int>? wordId,
-    Value<int>? boxNumber,
-    Value<DateTime>? nextReview,
-    Value<DateTime?>? lastReview,
-  }) {
-    return LeitnerCardsCompanion(
-      id: id ?? this.id,
-      wordId: wordId ?? this.wordId,
-      boxNumber: boxNumber ?? this.boxNumber,
-      nextReview: nextReview ?? this.nextReview,
-      lastReview: lastReview ?? this.lastReview,
-    );
-  }
-
-  @override
-  Map<String, Expression> toColumns(bool nullToAbsent) {
-    final map = <String, Expression>{};
-    if (id.present) {
-      map['id'] = Variable<int>(id.value);
-    }
-    if (wordId.present) {
-      map['word_id'] = Variable<int>(wordId.value);
-    }
-    if (boxNumber.present) {
-      map['box_number'] = Variable<int>(boxNumber.value);
-    }
-    if (nextReview.present) {
-      map['next_review'] = Variable<DateTime>(nextReview.value);
-    }
-    if (lastReview.present) {
-      map['last_review'] = Variable<DateTime>(lastReview.value);
-    }
-    return map;
-  }
-
-  @override
-  String toString() {
-    return (StringBuffer('LeitnerCardsCompanion(')
-          ..write('id: $id, ')
-          ..write('wordId: $wordId, ')
-          ..write('boxNumber: $boxNumber, ')
-          ..write('nextReview: $nextReview, ')
-          ..write('lastReview: $lastReview')
-          ..write(')'))
-        .toString();
-  }
-}
-
-class $ArchivLeitnerTable extends ArchivLeitner
-    with TableInfo<$ArchivLeitnerTable, ArchivLeitnerData> {
-  @override
-  final GeneratedDatabase attachedDatabase;
-  final String? _alias;
-  $ArchivLeitnerTable(this.attachedDatabase, [this._alias]);
+  $LeitnerFortschrittTable(this.attachedDatabase, [this._alias]);
   static const VerificationMeta _wortIdMeta = const VerificationMeta('wortId');
   @override
   late final GeneratedColumn<String> wortId = GeneratedColumn<String>(
@@ -2380,55 +1504,63 @@ class $ArchivLeitnerTable extends ArchivLeitner
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
-  static const VerificationMeta _boxNumberMeta = const VerificationMeta(
-    'boxNumber',
-  );
+  static const VerificationMeta _uebungMeta = const VerificationMeta('uebung');
   @override
-  late final GeneratedColumn<int> boxNumber = GeneratedColumn<int>(
-    'box_number',
+  late final GeneratedColumn<String> uebung = GeneratedColumn<String>(
+    'uebung',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: true,
+  );
+  static const VerificationMeta _fachMeta = const VerificationMeta('fach');
+  @override
+  late final GeneratedColumn<int> fach = GeneratedColumn<int>(
+    'fach',
     aliasedName,
     false,
     type: DriftSqlType.int,
     requiredDuringInsert: false,
     defaultValue: const Constant(1),
   );
-  static const VerificationMeta _nextReviewMeta = const VerificationMeta(
-    'nextReview',
-  );
+  static const VerificationMeta _naechsteWiederholungMeta =
+      const VerificationMeta('naechsteWiederholung');
   @override
-  late final GeneratedColumn<DateTime> nextReview = GeneratedColumn<DateTime>(
-    'next_review',
-    aliasedName,
-    false,
-    type: DriftSqlType.dateTime,
-    requiredDuringInsert: true,
-  );
-  static const VerificationMeta _lastReviewMeta = const VerificationMeta(
-    'lastReview',
-  );
+  late final GeneratedColumn<DateTime> naechsteWiederholung =
+      GeneratedColumn<DateTime>(
+        'naechste_wiederholung',
+        aliasedName,
+        true,
+        type: DriftSqlType.dateTime,
+        requiredDuringInsert: false,
+      );
+  static const VerificationMeta _letzteWiederholungMeta =
+      const VerificationMeta('letzteWiederholung');
   @override
-  late final GeneratedColumn<DateTime> lastReview = GeneratedColumn<DateTime>(
-    'last_review',
-    aliasedName,
-    true,
-    type: DriftSqlType.dateTime,
-    requiredDuringInsert: false,
-  );
+  late final GeneratedColumn<DateTime> letzteWiederholung =
+      GeneratedColumn<DateTime>(
+        'letzte_wiederholung',
+        aliasedName,
+        true,
+        type: DriftSqlType.dateTime,
+        requiredDuringInsert: false,
+      );
   @override
   List<GeneratedColumn> get $columns => [
     wortId,
-    boxNumber,
-    nextReview,
-    lastReview,
+    uebung,
+    fach,
+    naechsteWiederholung,
+    letzteWiederholung,
   ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
-  static const String $name = 'archiv_leitner';
+  static const String $name = 'leitner_fortschritt';
   @override
   VerificationContext validateIntegrity(
-    Insertable<ArchivLeitnerData> instance, {
+    Insertable<LeitnerFortschrittData> instance, {
     bool isInserting = false,
   }) {
     final context = VerificationContext();
@@ -2441,105 +1573,134 @@ class $ArchivLeitnerTable extends ArchivLeitner
     } else if (isInserting) {
       context.missing(_wortIdMeta);
     }
-    if (data.containsKey('box_number')) {
+    if (data.containsKey('uebung')) {
       context.handle(
-        _boxNumberMeta,
-        boxNumber.isAcceptableOrUnknown(data['box_number']!, _boxNumberMeta),
-      );
-    }
-    if (data.containsKey('next_review')) {
-      context.handle(
-        _nextReviewMeta,
-        nextReview.isAcceptableOrUnknown(data['next_review']!, _nextReviewMeta),
+        _uebungMeta,
+        uebung.isAcceptableOrUnknown(data['uebung']!, _uebungMeta),
       );
     } else if (isInserting) {
-      context.missing(_nextReviewMeta);
+      context.missing(_uebungMeta);
     }
-    if (data.containsKey('last_review')) {
+    if (data.containsKey('fach')) {
       context.handle(
-        _lastReviewMeta,
-        lastReview.isAcceptableOrUnknown(data['last_review']!, _lastReviewMeta),
+        _fachMeta,
+        fach.isAcceptableOrUnknown(data['fach']!, _fachMeta),
+      );
+    }
+    if (data.containsKey('naechste_wiederholung')) {
+      context.handle(
+        _naechsteWiederholungMeta,
+        naechsteWiederholung.isAcceptableOrUnknown(
+          data['naechste_wiederholung']!,
+          _naechsteWiederholungMeta,
+        ),
+      );
+    }
+    if (data.containsKey('letzte_wiederholung')) {
+      context.handle(
+        _letzteWiederholungMeta,
+        letzteWiederholung.isAcceptableOrUnknown(
+          data['letzte_wiederholung']!,
+          _letzteWiederholungMeta,
+        ),
       );
     }
     return context;
   }
 
   @override
-  Set<GeneratedColumn> get $primaryKey => {wortId};
+  Set<GeneratedColumn> get $primaryKey => {wortId, uebung};
   @override
-  ArchivLeitnerData map(Map<String, dynamic> data, {String? tablePrefix}) {
+  LeitnerFortschrittData map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return ArchivLeitnerData(
+    return LeitnerFortschrittData(
       wortId: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}wort_id'],
       )!,
-      boxNumber: attachedDatabase.typeMapping.read(
+      uebung: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}uebung'],
+      )!,
+      fach: attachedDatabase.typeMapping.read(
         DriftSqlType.int,
-        data['${effectivePrefix}box_number'],
+        data['${effectivePrefix}fach'],
       )!,
-      nextReview: attachedDatabase.typeMapping.read(
+      naechsteWiederholung: attachedDatabase.typeMapping.read(
         DriftSqlType.dateTime,
-        data['${effectivePrefix}next_review'],
-      )!,
-      lastReview: attachedDatabase.typeMapping.read(
+        data['${effectivePrefix}naechste_wiederholung'],
+      ),
+      letzteWiederholung: attachedDatabase.typeMapping.read(
         DriftSqlType.dateTime,
-        data['${effectivePrefix}last_review'],
+        data['${effectivePrefix}letzte_wiederholung'],
       ),
     );
   }
 
   @override
-  $ArchivLeitnerTable createAlias(String alias) {
-    return $ArchivLeitnerTable(attachedDatabase, alias);
+  $LeitnerFortschrittTable createAlias(String alias) {
+    return $LeitnerFortschrittTable(attachedDatabase, alias);
   }
 }
 
-class ArchivLeitnerData extends DataClass
-    implements Insertable<ArchivLeitnerData> {
+class LeitnerFortschrittData extends DataClass
+    implements Insertable<LeitnerFortschrittData> {
   final String wortId;
-  final int boxNumber;
-  final DateTime nextReview;
-  final DateTime? lastReview;
-  const ArchivLeitnerData({
+  final String uebung;
+  final int fach;
+  final DateTime? naechsteWiederholung;
+  final DateTime? letzteWiederholung;
+  const LeitnerFortschrittData({
     required this.wortId,
-    required this.boxNumber,
-    required this.nextReview,
-    this.lastReview,
+    required this.uebung,
+    required this.fach,
+    this.naechsteWiederholung,
+    this.letzteWiederholung,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
     map['wort_id'] = Variable<String>(wortId);
-    map['box_number'] = Variable<int>(boxNumber);
-    map['next_review'] = Variable<DateTime>(nextReview);
-    if (!nullToAbsent || lastReview != null) {
-      map['last_review'] = Variable<DateTime>(lastReview);
+    map['uebung'] = Variable<String>(uebung);
+    map['fach'] = Variable<int>(fach);
+    if (!nullToAbsent || naechsteWiederholung != null) {
+      map['naechste_wiederholung'] = Variable<DateTime>(naechsteWiederholung);
+    }
+    if (!nullToAbsent || letzteWiederholung != null) {
+      map['letzte_wiederholung'] = Variable<DateTime>(letzteWiederholung);
     }
     return map;
   }
 
-  ArchivLeitnerCompanion toCompanion(bool nullToAbsent) {
-    return ArchivLeitnerCompanion(
+  LeitnerFortschrittCompanion toCompanion(bool nullToAbsent) {
+    return LeitnerFortschrittCompanion(
       wortId: Value(wortId),
-      boxNumber: Value(boxNumber),
-      nextReview: Value(nextReview),
-      lastReview: lastReview == null && nullToAbsent
+      uebung: Value(uebung),
+      fach: Value(fach),
+      naechsteWiederholung: naechsteWiederholung == null && nullToAbsent
           ? const Value.absent()
-          : Value(lastReview),
+          : Value(naechsteWiederholung),
+      letzteWiederholung: letzteWiederholung == null && nullToAbsent
+          ? const Value.absent()
+          : Value(letzteWiederholung),
     );
   }
 
-  factory ArchivLeitnerData.fromJson(
+  factory LeitnerFortschrittData.fromJson(
     Map<String, dynamic> json, {
     ValueSerializer? serializer,
   }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
-    return ArchivLeitnerData(
+    return LeitnerFortschrittData(
       wortId: serializer.fromJson<String>(json['wortId']),
-      boxNumber: serializer.fromJson<int>(json['boxNumber']),
-      nextReview: serializer.fromJson<DateTime>(json['nextReview']),
-      lastReview: serializer.fromJson<DateTime?>(json['lastReview']),
+      uebung: serializer.fromJson<String>(json['uebung']),
+      fach: serializer.fromJson<int>(json['fach']),
+      naechsteWiederholung: serializer.fromJson<DateTime?>(
+        json['naechsteWiederholung'],
+      ),
+      letzteWiederholung: serializer.fromJson<DateTime?>(
+        json['letzteWiederholung'],
+      ),
     );
   }
   @override
@@ -2547,108 +1708,135 @@ class ArchivLeitnerData extends DataClass
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return <String, dynamic>{
       'wortId': serializer.toJson<String>(wortId),
-      'boxNumber': serializer.toJson<int>(boxNumber),
-      'nextReview': serializer.toJson<DateTime>(nextReview),
-      'lastReview': serializer.toJson<DateTime?>(lastReview),
+      'uebung': serializer.toJson<String>(uebung),
+      'fach': serializer.toJson<int>(fach),
+      'naechsteWiederholung': serializer.toJson<DateTime?>(
+        naechsteWiederholung,
+      ),
+      'letzteWiederholung': serializer.toJson<DateTime?>(letzteWiederholung),
     };
   }
 
-  ArchivLeitnerData copyWith({
+  LeitnerFortschrittData copyWith({
     String? wortId,
-    int? boxNumber,
-    DateTime? nextReview,
-    Value<DateTime?> lastReview = const Value.absent(),
-  }) => ArchivLeitnerData(
+    String? uebung,
+    int? fach,
+    Value<DateTime?> naechsteWiederholung = const Value.absent(),
+    Value<DateTime?> letzteWiederholung = const Value.absent(),
+  }) => LeitnerFortschrittData(
     wortId: wortId ?? this.wortId,
-    boxNumber: boxNumber ?? this.boxNumber,
-    nextReview: nextReview ?? this.nextReview,
-    lastReview: lastReview.present ? lastReview.value : this.lastReview,
+    uebung: uebung ?? this.uebung,
+    fach: fach ?? this.fach,
+    naechsteWiederholung: naechsteWiederholung.present
+        ? naechsteWiederholung.value
+        : this.naechsteWiederholung,
+    letzteWiederholung: letzteWiederholung.present
+        ? letzteWiederholung.value
+        : this.letzteWiederholung,
   );
-  ArchivLeitnerData copyWithCompanion(ArchivLeitnerCompanion data) {
-    return ArchivLeitnerData(
+  LeitnerFortschrittData copyWithCompanion(LeitnerFortschrittCompanion data) {
+    return LeitnerFortschrittData(
       wortId: data.wortId.present ? data.wortId.value : this.wortId,
-      boxNumber: data.boxNumber.present ? data.boxNumber.value : this.boxNumber,
-      nextReview: data.nextReview.present
-          ? data.nextReview.value
-          : this.nextReview,
-      lastReview: data.lastReview.present
-          ? data.lastReview.value
-          : this.lastReview,
+      uebung: data.uebung.present ? data.uebung.value : this.uebung,
+      fach: data.fach.present ? data.fach.value : this.fach,
+      naechsteWiederholung: data.naechsteWiederholung.present
+          ? data.naechsteWiederholung.value
+          : this.naechsteWiederholung,
+      letzteWiederholung: data.letzteWiederholung.present
+          ? data.letzteWiederholung.value
+          : this.letzteWiederholung,
     );
   }
 
   @override
   String toString() {
-    return (StringBuffer('ArchivLeitnerData(')
+    return (StringBuffer('LeitnerFortschrittData(')
           ..write('wortId: $wortId, ')
-          ..write('boxNumber: $boxNumber, ')
-          ..write('nextReview: $nextReview, ')
-          ..write('lastReview: $lastReview')
+          ..write('uebung: $uebung, ')
+          ..write('fach: $fach, ')
+          ..write('naechsteWiederholung: $naechsteWiederholung, ')
+          ..write('letzteWiederholung: $letzteWiederholung')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(wortId, boxNumber, nextReview, lastReview);
+  int get hashCode => Object.hash(
+    wortId,
+    uebung,
+    fach,
+    naechsteWiederholung,
+    letzteWiederholung,
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      (other is ArchivLeitnerData &&
+      (other is LeitnerFortschrittData &&
           other.wortId == this.wortId &&
-          other.boxNumber == this.boxNumber &&
-          other.nextReview == this.nextReview &&
-          other.lastReview == this.lastReview);
+          other.uebung == this.uebung &&
+          other.fach == this.fach &&
+          other.naechsteWiederholung == this.naechsteWiederholung &&
+          other.letzteWiederholung == this.letzteWiederholung);
 }
 
-class ArchivLeitnerCompanion extends UpdateCompanion<ArchivLeitnerData> {
+class LeitnerFortschrittCompanion
+    extends UpdateCompanion<LeitnerFortschrittData> {
   final Value<String> wortId;
-  final Value<int> boxNumber;
-  final Value<DateTime> nextReview;
-  final Value<DateTime?> lastReview;
+  final Value<String> uebung;
+  final Value<int> fach;
+  final Value<DateTime?> naechsteWiederholung;
+  final Value<DateTime?> letzteWiederholung;
   final Value<int> rowid;
-  const ArchivLeitnerCompanion({
+  const LeitnerFortschrittCompanion({
     this.wortId = const Value.absent(),
-    this.boxNumber = const Value.absent(),
-    this.nextReview = const Value.absent(),
-    this.lastReview = const Value.absent(),
+    this.uebung = const Value.absent(),
+    this.fach = const Value.absent(),
+    this.naechsteWiederholung = const Value.absent(),
+    this.letzteWiederholung = const Value.absent(),
     this.rowid = const Value.absent(),
   });
-  ArchivLeitnerCompanion.insert({
+  LeitnerFortschrittCompanion.insert({
     required String wortId,
-    this.boxNumber = const Value.absent(),
-    required DateTime nextReview,
-    this.lastReview = const Value.absent(),
+    required String uebung,
+    this.fach = const Value.absent(),
+    this.naechsteWiederholung = const Value.absent(),
+    this.letzteWiederholung = const Value.absent(),
     this.rowid = const Value.absent(),
   }) : wortId = Value(wortId),
-       nextReview = Value(nextReview);
-  static Insertable<ArchivLeitnerData> custom({
+       uebung = Value(uebung);
+  static Insertable<LeitnerFortschrittData> custom({
     Expression<String>? wortId,
-    Expression<int>? boxNumber,
-    Expression<DateTime>? nextReview,
-    Expression<DateTime>? lastReview,
+    Expression<String>? uebung,
+    Expression<int>? fach,
+    Expression<DateTime>? naechsteWiederholung,
+    Expression<DateTime>? letzteWiederholung,
     Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
       if (wortId != null) 'wort_id': wortId,
-      if (boxNumber != null) 'box_number': boxNumber,
-      if (nextReview != null) 'next_review': nextReview,
-      if (lastReview != null) 'last_review': lastReview,
+      if (uebung != null) 'uebung': uebung,
+      if (fach != null) 'fach': fach,
+      if (naechsteWiederholung != null)
+        'naechste_wiederholung': naechsteWiederholung,
+      if (letzteWiederholung != null) 'letzte_wiederholung': letzteWiederholung,
       if (rowid != null) 'rowid': rowid,
     });
   }
 
-  ArchivLeitnerCompanion copyWith({
+  LeitnerFortschrittCompanion copyWith({
     Value<String>? wortId,
-    Value<int>? boxNumber,
-    Value<DateTime>? nextReview,
-    Value<DateTime?>? lastReview,
+    Value<String>? uebung,
+    Value<int>? fach,
+    Value<DateTime?>? naechsteWiederholung,
+    Value<DateTime?>? letzteWiederholung,
     Value<int>? rowid,
   }) {
-    return ArchivLeitnerCompanion(
+    return LeitnerFortschrittCompanion(
       wortId: wortId ?? this.wortId,
-      boxNumber: boxNumber ?? this.boxNumber,
-      nextReview: nextReview ?? this.nextReview,
-      lastReview: lastReview ?? this.lastReview,
+      uebung: uebung ?? this.uebung,
+      fach: fach ?? this.fach,
+      naechsteWiederholung: naechsteWiederholung ?? this.naechsteWiederholung,
+      letzteWiederholung: letzteWiederholung ?? this.letzteWiederholung,
       rowid: rowid ?? this.rowid,
     );
   }
@@ -2659,14 +1847,19 @@ class ArchivLeitnerCompanion extends UpdateCompanion<ArchivLeitnerData> {
     if (wortId.present) {
       map['wort_id'] = Variable<String>(wortId.value);
     }
-    if (boxNumber.present) {
-      map['box_number'] = Variable<int>(boxNumber.value);
+    if (uebung.present) {
+      map['uebung'] = Variable<String>(uebung.value);
     }
-    if (nextReview.present) {
-      map['next_review'] = Variable<DateTime>(nextReview.value);
+    if (fach.present) {
+      map['fach'] = Variable<int>(fach.value);
     }
-    if (lastReview.present) {
-      map['last_review'] = Variable<DateTime>(lastReview.value);
+    if (naechsteWiederholung.present) {
+      map['naechste_wiederholung'] = Variable<DateTime>(
+        naechsteWiederholung.value,
+      );
+    }
+    if (letzteWiederholung.present) {
+      map['letzte_wiederholung'] = Variable<DateTime>(letzteWiederholung.value);
     }
     if (rowid.present) {
       map['rowid'] = Variable<int>(rowid.value);
@@ -2676,23 +1869,23 @@ class ArchivLeitnerCompanion extends UpdateCompanion<ArchivLeitnerData> {
 
   @override
   String toString() {
-    return (StringBuffer('ArchivLeitnerCompanion(')
+    return (StringBuffer('LeitnerFortschrittCompanion(')
           ..write('wortId: $wortId, ')
-          ..write('boxNumber: $boxNumber, ')
-          ..write('nextReview: $nextReview, ')
-          ..write('lastReview: $lastReview, ')
+          ..write('uebung: $uebung, ')
+          ..write('fach: $fach, ')
+          ..write('naechsteWiederholung: $naechsteWiederholung, ')
+          ..write('letzteWiederholung: $letzteWiederholung, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
   }
 }
 
-class $ArchivKategorienTable extends ArchivKategorien
-    with TableInfo<$ArchivKategorienTable, ArchivKategorienData> {
+class $DecksTable extends Decks with TableInfo<$DecksTable, Deck> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
-  $ArchivKategorienTable(this.attachedDatabase, [this._alias]);
+  $DecksTable(this.attachedDatabase, [this._alias]);
   static const VerificationMeta _idMeta = const VerificationMeta('id');
   @override
   late final GeneratedColumn<String> id = GeneratedColumn<String>(
@@ -2711,16 +1904,91 @@ class $ArchivKategorienTable extends ArchivKategorien
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _elternIdMeta = const VerificationMeta(
+    'elternId',
+  );
   @override
-  List<GeneratedColumn> get $columns => [id, name];
+  late final GeneratedColumn<String> elternId = GeneratedColumn<String>(
+    'eltern_id',
+    aliasedName,
+    true,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _ordnungMeta = const VerificationMeta(
+    'ordnung',
+  );
+  @override
+  late final GeneratedColumn<int> ordnung = GeneratedColumn<int>(
+    'ordnung',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  static const VerificationMeta _modusMeta = const VerificationMeta('modus');
+  @override
+  late final GeneratedColumn<String> modus = GeneratedColumn<String>(
+    'modus',
+    aliasedName,
+    false,
+    type: DriftSqlType.string,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(deckModusNotiz),
+  );
+  static const VerificationMeta _neuProTagMeta = const VerificationMeta(
+    'neuProTag',
+  );
+  @override
+  late final GeneratedColumn<int> neuProTag = GeneratedColumn<int>(
+    'neu_pro_tag',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _nameAmMsMeta = const VerificationMeta(
+    'nameAmMs',
+  );
+  @override
+  late final GeneratedColumn<int> nameAmMs = GeneratedColumn<int>(
+    'name_am_ms',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  static const VerificationMeta _standAmMsMeta = const VerificationMeta(
+    'standAmMs',
+  );
+  @override
+  late final GeneratedColumn<int> standAmMs = GeneratedColumn<int>(
+    'stand_am_ms',
+    aliasedName,
+    true,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+  );
+  @override
+  List<GeneratedColumn> get $columns => [
+    id,
+    name,
+    elternId,
+    ordnung,
+    modus,
+    neuProTag,
+    nameAmMs,
+    standAmMs,
+  ];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
-  static const String $name = 'archiv_kategorien';
+  static const String $name = 'decks';
   @override
   VerificationContext validateIntegrity(
-    Insertable<ArchivKategorienData> instance, {
+    Insertable<Deck> instance, {
     bool isInserting = false,
   }) {
     final context = VerificationContext();
@@ -2738,15 +2006,51 @@ class $ArchivKategorienTable extends ArchivKategorien
     } else if (isInserting) {
       context.missing(_nameMeta);
     }
+    if (data.containsKey('eltern_id')) {
+      context.handle(
+        _elternIdMeta,
+        elternId.isAcceptableOrUnknown(data['eltern_id']!, _elternIdMeta),
+      );
+    }
+    if (data.containsKey('ordnung')) {
+      context.handle(
+        _ordnungMeta,
+        ordnung.isAcceptableOrUnknown(data['ordnung']!, _ordnungMeta),
+      );
+    }
+    if (data.containsKey('modus')) {
+      context.handle(
+        _modusMeta,
+        modus.isAcceptableOrUnknown(data['modus']!, _modusMeta),
+      );
+    }
+    if (data.containsKey('neu_pro_tag')) {
+      context.handle(
+        _neuProTagMeta,
+        neuProTag.isAcceptableOrUnknown(data['neu_pro_tag']!, _neuProTagMeta),
+      );
+    }
+    if (data.containsKey('name_am_ms')) {
+      context.handle(
+        _nameAmMsMeta,
+        nameAmMs.isAcceptableOrUnknown(data['name_am_ms']!, _nameAmMsMeta),
+      );
+    }
+    if (data.containsKey('stand_am_ms')) {
+      context.handle(
+        _standAmMsMeta,
+        standAmMs.isAcceptableOrUnknown(data['stand_am_ms']!, _standAmMsMeta),
+      );
+    }
     return context;
   }
 
   @override
   Set<GeneratedColumn> get $primaryKey => {id};
   @override
-  ArchivKategorienData map(Map<String, dynamic> data, {String? tablePrefix}) {
+  Deck map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return ArchivKategorienData(
+    return Deck(
       id: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}id'],
@@ -2755,40 +2059,115 @@ class $ArchivKategorienTable extends ArchivKategorien
         DriftSqlType.string,
         data['${effectivePrefix}name'],
       )!,
+      elternId: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}eltern_id'],
+      ),
+      ordnung: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}ordnung'],
+      )!,
+      modus: attachedDatabase.typeMapping.read(
+        DriftSqlType.string,
+        data['${effectivePrefix}modus'],
+      )!,
+      neuProTag: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}neu_pro_tag'],
+      ),
+      nameAmMs: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}name_am_ms'],
+      ),
+      standAmMs: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}stand_am_ms'],
+      ),
     );
   }
 
   @override
-  $ArchivKategorienTable createAlias(String alias) {
-    return $ArchivKategorienTable(attachedDatabase, alias);
+  $DecksTable createAlias(String alias) {
+    return $DecksTable(attachedDatabase, alias);
   }
 }
 
-class ArchivKategorienData extends DataClass
-    implements Insertable<ArchivKategorienData> {
+class Deck extends DataClass implements Insertable<Deck> {
   final String id;
   final String name;
-  const ArchivKategorienData({required this.id, required this.name});
+  final String? elternId;
+  final int ordnung;
+  final String modus;
+  final int? neuProTag;
+  final int? nameAmMs;
+  final int? standAmMs;
+  const Deck({
+    required this.id,
+    required this.name,
+    this.elternId,
+    required this.ordnung,
+    required this.modus,
+    this.neuProTag,
+    this.nameAmMs,
+    this.standAmMs,
+  });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
     map['id'] = Variable<String>(id);
     map['name'] = Variable<String>(name);
+    if (!nullToAbsent || elternId != null) {
+      map['eltern_id'] = Variable<String>(elternId);
+    }
+    map['ordnung'] = Variable<int>(ordnung);
+    map['modus'] = Variable<String>(modus);
+    if (!nullToAbsent || neuProTag != null) {
+      map['neu_pro_tag'] = Variable<int>(neuProTag);
+    }
+    if (!nullToAbsent || nameAmMs != null) {
+      map['name_am_ms'] = Variable<int>(nameAmMs);
+    }
+    if (!nullToAbsent || standAmMs != null) {
+      map['stand_am_ms'] = Variable<int>(standAmMs);
+    }
     return map;
   }
 
-  ArchivKategorienCompanion toCompanion(bool nullToAbsent) {
-    return ArchivKategorienCompanion(id: Value(id), name: Value(name));
+  DecksCompanion toCompanion(bool nullToAbsent) {
+    return DecksCompanion(
+      id: Value(id),
+      name: Value(name),
+      elternId: elternId == null && nullToAbsent
+          ? const Value.absent()
+          : Value(elternId),
+      ordnung: Value(ordnung),
+      modus: Value(modus),
+      neuProTag: neuProTag == null && nullToAbsent
+          ? const Value.absent()
+          : Value(neuProTag),
+      nameAmMs: nameAmMs == null && nullToAbsent
+          ? const Value.absent()
+          : Value(nameAmMs),
+      standAmMs: standAmMs == null && nullToAbsent
+          ? const Value.absent()
+          : Value(standAmMs),
+    );
   }
 
-  factory ArchivKategorienData.fromJson(
+  factory Deck.fromJson(
     Map<String, dynamic> json, {
     ValueSerializer? serializer,
   }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
-    return ArchivKategorienData(
+    return Deck(
       id: serializer.fromJson<String>(json['id']),
       name: serializer.fromJson<String>(json['name']),
+      elternId: serializer.fromJson<String?>(json['elternId']),
+      ordnung: serializer.fromJson<int>(json['ordnung']),
+      modus: serializer.fromJson<String>(json['modus']),
+      neuProTag: serializer.fromJson<int?>(json['neuProTag']),
+      nameAmMs: serializer.fromJson<int?>(json['nameAmMs']),
+      standAmMs: serializer.fromJson<int?>(json['standAmMs']),
     );
   }
   @override
@@ -2797,72 +2176,164 @@ class ArchivKategorienData extends DataClass
     return <String, dynamic>{
       'id': serializer.toJson<String>(id),
       'name': serializer.toJson<String>(name),
+      'elternId': serializer.toJson<String?>(elternId),
+      'ordnung': serializer.toJson<int>(ordnung),
+      'modus': serializer.toJson<String>(modus),
+      'neuProTag': serializer.toJson<int?>(neuProTag),
+      'nameAmMs': serializer.toJson<int?>(nameAmMs),
+      'standAmMs': serializer.toJson<int?>(standAmMs),
     };
   }
 
-  ArchivKategorienData copyWith({String? id, String? name}) =>
-      ArchivKategorienData(id: id ?? this.id, name: name ?? this.name);
-  ArchivKategorienData copyWithCompanion(ArchivKategorienCompanion data) {
-    return ArchivKategorienData(
+  Deck copyWith({
+    String? id,
+    String? name,
+    Value<String?> elternId = const Value.absent(),
+    int? ordnung,
+    String? modus,
+    Value<int?> neuProTag = const Value.absent(),
+    Value<int?> nameAmMs = const Value.absent(),
+    Value<int?> standAmMs = const Value.absent(),
+  }) => Deck(
+    id: id ?? this.id,
+    name: name ?? this.name,
+    elternId: elternId.present ? elternId.value : this.elternId,
+    ordnung: ordnung ?? this.ordnung,
+    modus: modus ?? this.modus,
+    neuProTag: neuProTag.present ? neuProTag.value : this.neuProTag,
+    nameAmMs: nameAmMs.present ? nameAmMs.value : this.nameAmMs,
+    standAmMs: standAmMs.present ? standAmMs.value : this.standAmMs,
+  );
+  Deck copyWithCompanion(DecksCompanion data) {
+    return Deck(
       id: data.id.present ? data.id.value : this.id,
       name: data.name.present ? data.name.value : this.name,
+      elternId: data.elternId.present ? data.elternId.value : this.elternId,
+      ordnung: data.ordnung.present ? data.ordnung.value : this.ordnung,
+      modus: data.modus.present ? data.modus.value : this.modus,
+      neuProTag: data.neuProTag.present ? data.neuProTag.value : this.neuProTag,
+      nameAmMs: data.nameAmMs.present ? data.nameAmMs.value : this.nameAmMs,
+      standAmMs: data.standAmMs.present ? data.standAmMs.value : this.standAmMs,
     );
   }
 
   @override
   String toString() {
-    return (StringBuffer('ArchivKategorienData(')
+    return (StringBuffer('Deck(')
           ..write('id: $id, ')
-          ..write('name: $name')
+          ..write('name: $name, ')
+          ..write('elternId: $elternId, ')
+          ..write('ordnung: $ordnung, ')
+          ..write('modus: $modus, ')
+          ..write('neuProTag: $neuProTag, ')
+          ..write('nameAmMs: $nameAmMs, ')
+          ..write('standAmMs: $standAmMs')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(id, name);
+  int get hashCode => Object.hash(
+    id,
+    name,
+    elternId,
+    ordnung,
+    modus,
+    neuProTag,
+    nameAmMs,
+    standAmMs,
+  );
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      (other is ArchivKategorienData &&
+      (other is Deck &&
           other.id == this.id &&
-          other.name == this.name);
+          other.name == this.name &&
+          other.elternId == this.elternId &&
+          other.ordnung == this.ordnung &&
+          other.modus == this.modus &&
+          other.neuProTag == this.neuProTag &&
+          other.nameAmMs == this.nameAmMs &&
+          other.standAmMs == this.standAmMs);
 }
 
-class ArchivKategorienCompanion extends UpdateCompanion<ArchivKategorienData> {
+class DecksCompanion extends UpdateCompanion<Deck> {
   final Value<String> id;
   final Value<String> name;
+  final Value<String?> elternId;
+  final Value<int> ordnung;
+  final Value<String> modus;
+  final Value<int?> neuProTag;
+  final Value<int?> nameAmMs;
+  final Value<int?> standAmMs;
   final Value<int> rowid;
-  const ArchivKategorienCompanion({
+  const DecksCompanion({
     this.id = const Value.absent(),
     this.name = const Value.absent(),
+    this.elternId = const Value.absent(),
+    this.ordnung = const Value.absent(),
+    this.modus = const Value.absent(),
+    this.neuProTag = const Value.absent(),
+    this.nameAmMs = const Value.absent(),
+    this.standAmMs = const Value.absent(),
     this.rowid = const Value.absent(),
   });
-  ArchivKategorienCompanion.insert({
+  DecksCompanion.insert({
     required String id,
     required String name,
+    this.elternId = const Value.absent(),
+    this.ordnung = const Value.absent(),
+    this.modus = const Value.absent(),
+    this.neuProTag = const Value.absent(),
+    this.nameAmMs = const Value.absent(),
+    this.standAmMs = const Value.absent(),
     this.rowid = const Value.absent(),
   }) : id = Value(id),
        name = Value(name);
-  static Insertable<ArchivKategorienData> custom({
+  static Insertable<Deck> custom({
     Expression<String>? id,
     Expression<String>? name,
+    Expression<String>? elternId,
+    Expression<int>? ordnung,
+    Expression<String>? modus,
+    Expression<int>? neuProTag,
+    Expression<int>? nameAmMs,
+    Expression<int>? standAmMs,
     Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
       if (id != null) 'id': id,
       if (name != null) 'name': name,
+      if (elternId != null) 'eltern_id': elternId,
+      if (ordnung != null) 'ordnung': ordnung,
+      if (modus != null) 'modus': modus,
+      if (neuProTag != null) 'neu_pro_tag': neuProTag,
+      if (nameAmMs != null) 'name_am_ms': nameAmMs,
+      if (standAmMs != null) 'stand_am_ms': standAmMs,
       if (rowid != null) 'rowid': rowid,
     });
   }
 
-  ArchivKategorienCompanion copyWith({
+  DecksCompanion copyWith({
     Value<String>? id,
     Value<String>? name,
+    Value<String?>? elternId,
+    Value<int>? ordnung,
+    Value<String>? modus,
+    Value<int?>? neuProTag,
+    Value<int?>? nameAmMs,
+    Value<int?>? standAmMs,
     Value<int>? rowid,
   }) {
-    return ArchivKategorienCompanion(
+    return DecksCompanion(
       id: id ?? this.id,
       name: name ?? this.name,
+      elternId: elternId ?? this.elternId,
+      ordnung: ordnung ?? this.ordnung,
+      modus: modus ?? this.modus,
+      neuProTag: neuProTag ?? this.neuProTag,
+      nameAmMs: nameAmMs ?? this.nameAmMs,
+      standAmMs: standAmMs ?? this.standAmMs,
       rowid: rowid ?? this.rowid,
     );
   }
@@ -2876,6 +2347,24 @@ class ArchivKategorienCompanion extends UpdateCompanion<ArchivKategorienData> {
     if (name.present) {
       map['name'] = Variable<String>(name.value);
     }
+    if (elternId.present) {
+      map['eltern_id'] = Variable<String>(elternId.value);
+    }
+    if (ordnung.present) {
+      map['ordnung'] = Variable<int>(ordnung.value);
+    }
+    if (modus.present) {
+      map['modus'] = Variable<String>(modus.value);
+    }
+    if (neuProTag.present) {
+      map['neu_pro_tag'] = Variable<int>(neuProTag.value);
+    }
+    if (nameAmMs.present) {
+      map['name_am_ms'] = Variable<int>(nameAmMs.value);
+    }
+    if (standAmMs.present) {
+      map['stand_am_ms'] = Variable<int>(standAmMs.value);
+    }
     if (rowid.present) {
       map['rowid'] = Variable<int>(rowid.value);
     }
@@ -2884,33 +2373,37 @@ class ArchivKategorienCompanion extends UpdateCompanion<ArchivKategorienData> {
 
   @override
   String toString() {
-    return (StringBuffer('ArchivKategorienCompanion(')
+    return (StringBuffer('DecksCompanion(')
           ..write('id: $id, ')
           ..write('name: $name, ')
+          ..write('elternId: $elternId, ')
+          ..write('ordnung: $ordnung, ')
+          ..write('modus: $modus, ')
+          ..write('neuProTag: $neuProTag, ')
+          ..write('nameAmMs: $nameAmMs, ')
+          ..write('standAmMs: $standAmMs, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
   }
 }
 
-class $ArchivKategorieWoerterTable extends ArchivKategorieWoerter
-    with TableInfo<$ArchivKategorieWoerterTable, ArchivKategorieWoerterData> {
+class $DeckWoerterTable extends DeckWoerter
+    with TableInfo<$DeckWoerterTable, DeckWoerterData> {
   @override
   final GeneratedDatabase attachedDatabase;
   final String? _alias;
-  $ArchivKategorieWoerterTable(this.attachedDatabase, [this._alias]);
-  static const VerificationMeta _kategorieIdMeta = const VerificationMeta(
-    'kategorieId',
-  );
+  $DeckWoerterTable(this.attachedDatabase, [this._alias]);
+  static const VerificationMeta _deckIdMeta = const VerificationMeta('deckId');
   @override
-  late final GeneratedColumn<String> kategorieId = GeneratedColumn<String>(
-    'kategorie_id',
+  late final GeneratedColumn<String> deckId = GeneratedColumn<String>(
+    'deck_id',
     aliasedName,
     false,
     type: DriftSqlType.string,
     requiredDuringInsert: true,
     defaultConstraints: GeneratedColumn.constraintIsAlways(
-      'REFERENCES archiv_kategorien (id)',
+      'REFERENCES decks (id)',
     ),
   );
   static const VerificationMeta _wortIdMeta = const VerificationMeta('wortId');
@@ -2922,30 +2415,39 @@ class $ArchivKategorieWoerterTable extends ArchivKategorieWoerter
     type: DriftSqlType.string,
     requiredDuringInsert: true,
   );
+  static const VerificationMeta _hinzuMsMeta = const VerificationMeta(
+    'hinzuMs',
+  );
   @override
-  List<GeneratedColumn> get $columns => [kategorieId, wortId];
+  late final GeneratedColumn<int> hinzuMs = GeneratedColumn<int>(
+    'hinzu_ms',
+    aliasedName,
+    false,
+    type: DriftSqlType.int,
+    requiredDuringInsert: false,
+    defaultValue: const Constant(0),
+  );
+  @override
+  List<GeneratedColumn> get $columns => [deckId, wortId, hinzuMs];
   @override
   String get aliasedName => _alias ?? actualTableName;
   @override
   String get actualTableName => $name;
-  static const String $name = 'archiv_kategorie_woerter';
+  static const String $name = 'deck_woerter';
   @override
   VerificationContext validateIntegrity(
-    Insertable<ArchivKategorieWoerterData> instance, {
+    Insertable<DeckWoerterData> instance, {
     bool isInserting = false,
   }) {
     final context = VerificationContext();
     final data = instance.toColumns(true);
-    if (data.containsKey('kategorie_id')) {
+    if (data.containsKey('deck_id')) {
       context.handle(
-        _kategorieIdMeta,
-        kategorieId.isAcceptableOrUnknown(
-          data['kategorie_id']!,
-          _kategorieIdMeta,
-        ),
+        _deckIdMeta,
+        deckId.isAcceptableOrUnknown(data['deck_id']!, _deckIdMeta),
       );
     } else if (isInserting) {
-      context.missing(_kategorieIdMeta);
+      context.missing(_deckIdMeta);
     }
     if (data.containsKey('wort_id')) {
       context.handle(
@@ -2955,148 +2457,166 @@ class $ArchivKategorieWoerterTable extends ArchivKategorieWoerter
     } else if (isInserting) {
       context.missing(_wortIdMeta);
     }
+    if (data.containsKey('hinzu_ms')) {
+      context.handle(
+        _hinzuMsMeta,
+        hinzuMs.isAcceptableOrUnknown(data['hinzu_ms']!, _hinzuMsMeta),
+      );
+    }
     return context;
   }
 
   @override
-  Set<GeneratedColumn> get $primaryKey => {kategorieId, wortId};
+  Set<GeneratedColumn> get $primaryKey => {deckId, wortId};
   @override
-  ArchivKategorieWoerterData map(
-    Map<String, dynamic> data, {
-    String? tablePrefix,
-  }) {
+  DeckWoerterData map(Map<String, dynamic> data, {String? tablePrefix}) {
     final effectivePrefix = tablePrefix != null ? '$tablePrefix.' : '';
-    return ArchivKategorieWoerterData(
-      kategorieId: attachedDatabase.typeMapping.read(
+    return DeckWoerterData(
+      deckId: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
-        data['${effectivePrefix}kategorie_id'],
+        data['${effectivePrefix}deck_id'],
       )!,
       wortId: attachedDatabase.typeMapping.read(
         DriftSqlType.string,
         data['${effectivePrefix}wort_id'],
       )!,
+      hinzuMs: attachedDatabase.typeMapping.read(
+        DriftSqlType.int,
+        data['${effectivePrefix}hinzu_ms'],
+      )!,
     );
   }
 
   @override
-  $ArchivKategorieWoerterTable createAlias(String alias) {
-    return $ArchivKategorieWoerterTable(attachedDatabase, alias);
+  $DeckWoerterTable createAlias(String alias) {
+    return $DeckWoerterTable(attachedDatabase, alias);
   }
 }
 
-class ArchivKategorieWoerterData extends DataClass
-    implements Insertable<ArchivKategorieWoerterData> {
-  final String kategorieId;
+class DeckWoerterData extends DataClass implements Insertable<DeckWoerterData> {
+  final String deckId;
   final String wortId;
-  const ArchivKategorieWoerterData({
-    required this.kategorieId,
+  final int hinzuMs;
+  const DeckWoerterData({
+    required this.deckId,
     required this.wortId,
+    required this.hinzuMs,
   });
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
-    map['kategorie_id'] = Variable<String>(kategorieId);
+    map['deck_id'] = Variable<String>(deckId);
     map['wort_id'] = Variable<String>(wortId);
+    map['hinzu_ms'] = Variable<int>(hinzuMs);
     return map;
   }
 
-  ArchivKategorieWoerterCompanion toCompanion(bool nullToAbsent) {
-    return ArchivKategorieWoerterCompanion(
-      kategorieId: Value(kategorieId),
+  DeckWoerterCompanion toCompanion(bool nullToAbsent) {
+    return DeckWoerterCompanion(
+      deckId: Value(deckId),
       wortId: Value(wortId),
+      hinzuMs: Value(hinzuMs),
     );
   }
 
-  factory ArchivKategorieWoerterData.fromJson(
+  factory DeckWoerterData.fromJson(
     Map<String, dynamic> json, {
     ValueSerializer? serializer,
   }) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
-    return ArchivKategorieWoerterData(
-      kategorieId: serializer.fromJson<String>(json['kategorieId']),
+    return DeckWoerterData(
+      deckId: serializer.fromJson<String>(json['deckId']),
       wortId: serializer.fromJson<String>(json['wortId']),
+      hinzuMs: serializer.fromJson<int>(json['hinzuMs']),
     );
   }
   @override
   Map<String, dynamic> toJson({ValueSerializer? serializer}) {
     serializer ??= driftRuntimeOptions.defaultSerializer;
     return <String, dynamic>{
-      'kategorieId': serializer.toJson<String>(kategorieId),
+      'deckId': serializer.toJson<String>(deckId),
       'wortId': serializer.toJson<String>(wortId),
+      'hinzuMs': serializer.toJson<int>(hinzuMs),
     };
   }
 
-  ArchivKategorieWoerterData copyWith({String? kategorieId, String? wortId}) =>
-      ArchivKategorieWoerterData(
-        kategorieId: kategorieId ?? this.kategorieId,
+  DeckWoerterData copyWith({String? deckId, String? wortId, int? hinzuMs}) =>
+      DeckWoerterData(
+        deckId: deckId ?? this.deckId,
         wortId: wortId ?? this.wortId,
+        hinzuMs: hinzuMs ?? this.hinzuMs,
       );
-  ArchivKategorieWoerterData copyWithCompanion(
-    ArchivKategorieWoerterCompanion data,
-  ) {
-    return ArchivKategorieWoerterData(
-      kategorieId: data.kategorieId.present
-          ? data.kategorieId.value
-          : this.kategorieId,
+  DeckWoerterData copyWithCompanion(DeckWoerterCompanion data) {
+    return DeckWoerterData(
+      deckId: data.deckId.present ? data.deckId.value : this.deckId,
       wortId: data.wortId.present ? data.wortId.value : this.wortId,
+      hinzuMs: data.hinzuMs.present ? data.hinzuMs.value : this.hinzuMs,
     );
   }
 
   @override
   String toString() {
-    return (StringBuffer('ArchivKategorieWoerterData(')
-          ..write('kategorieId: $kategorieId, ')
-          ..write('wortId: $wortId')
+    return (StringBuffer('DeckWoerterData(')
+          ..write('deckId: $deckId, ')
+          ..write('wortId: $wortId, ')
+          ..write('hinzuMs: $hinzuMs')
           ..write(')'))
         .toString();
   }
 
   @override
-  int get hashCode => Object.hash(kategorieId, wortId);
+  int get hashCode => Object.hash(deckId, wortId, hinzuMs);
   @override
   bool operator ==(Object other) =>
       identical(this, other) ||
-      (other is ArchivKategorieWoerterData &&
-          other.kategorieId == this.kategorieId &&
-          other.wortId == this.wortId);
+      (other is DeckWoerterData &&
+          other.deckId == this.deckId &&
+          other.wortId == this.wortId &&
+          other.hinzuMs == this.hinzuMs);
 }
 
-class ArchivKategorieWoerterCompanion
-    extends UpdateCompanion<ArchivKategorieWoerterData> {
-  final Value<String> kategorieId;
+class DeckWoerterCompanion extends UpdateCompanion<DeckWoerterData> {
+  final Value<String> deckId;
   final Value<String> wortId;
+  final Value<int> hinzuMs;
   final Value<int> rowid;
-  const ArchivKategorieWoerterCompanion({
-    this.kategorieId = const Value.absent(),
+  const DeckWoerterCompanion({
+    this.deckId = const Value.absent(),
     this.wortId = const Value.absent(),
+    this.hinzuMs = const Value.absent(),
     this.rowid = const Value.absent(),
   });
-  ArchivKategorieWoerterCompanion.insert({
-    required String kategorieId,
+  DeckWoerterCompanion.insert({
+    required String deckId,
     required String wortId,
+    this.hinzuMs = const Value.absent(),
     this.rowid = const Value.absent(),
-  }) : kategorieId = Value(kategorieId),
+  }) : deckId = Value(deckId),
        wortId = Value(wortId);
-  static Insertable<ArchivKategorieWoerterData> custom({
-    Expression<String>? kategorieId,
+  static Insertable<DeckWoerterData> custom({
+    Expression<String>? deckId,
     Expression<String>? wortId,
+    Expression<int>? hinzuMs,
     Expression<int>? rowid,
   }) {
     return RawValuesInsertable({
-      if (kategorieId != null) 'kategorie_id': kategorieId,
+      if (deckId != null) 'deck_id': deckId,
       if (wortId != null) 'wort_id': wortId,
+      if (hinzuMs != null) 'hinzu_ms': hinzuMs,
       if (rowid != null) 'rowid': rowid,
     });
   }
 
-  ArchivKategorieWoerterCompanion copyWith({
-    Value<String>? kategorieId,
+  DeckWoerterCompanion copyWith({
+    Value<String>? deckId,
     Value<String>? wortId,
+    Value<int>? hinzuMs,
     Value<int>? rowid,
   }) {
-    return ArchivKategorieWoerterCompanion(
-      kategorieId: kategorieId ?? this.kategorieId,
+    return DeckWoerterCompanion(
+      deckId: deckId ?? this.deckId,
       wortId: wortId ?? this.wortId,
+      hinzuMs: hinzuMs ?? this.hinzuMs,
       rowid: rowid ?? this.rowid,
     );
   }
@@ -3104,11 +2624,14 @@ class ArchivKategorieWoerterCompanion
   @override
   Map<String, Expression> toColumns(bool nullToAbsent) {
     final map = <String, Expression>{};
-    if (kategorieId.present) {
-      map['kategorie_id'] = Variable<String>(kategorieId.value);
+    if (deckId.present) {
+      map['deck_id'] = Variable<String>(deckId.value);
     }
     if (wortId.present) {
       map['wort_id'] = Variable<String>(wortId.value);
+    }
+    if (hinzuMs.present) {
+      map['hinzu_ms'] = Variable<int>(hinzuMs.value);
     }
     if (rowid.present) {
       map['rowid'] = Variable<int>(rowid.value);
@@ -3118,9 +2641,10 @@ class ArchivKategorieWoerterCompanion
 
   @override
   String toString() {
-    return (StringBuffer('ArchivKategorieWoerterCompanion(')
-          ..write('kategorieId: $kategorieId, ')
+    return (StringBuffer('DeckWoerterCompanion(')
+          ..write('deckId: $deckId, ')
           ..write('wortId: $wortId, ')
+          ..write('hinzuMs: $hinzuMs, ')
           ..write('rowid: $rowid')
           ..write(')'))
         .toString();
@@ -5754,15 +5278,10 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $WordsTable words = $WordsTable(this);
   late final $BooksTable books = $BooksTable(this);
   late final $WordBooksTable wordBooks = $WordBooksTable(this);
-  late final $UserCategoriesTable userCategories = $UserCategoriesTable(this);
-  late final $CategoryWordsTable categoryWords = $CategoryWordsTable(this);
-  late final $LeitnerCardsTable leitnerCards = $LeitnerCardsTable(this);
-  late final $ArchivLeitnerTable archivLeitner = $ArchivLeitnerTable(this);
-  late final $ArchivKategorienTable archivKategorien = $ArchivKategorienTable(
-    this,
-  );
-  late final $ArchivKategorieWoerterTable archivKategorieWoerter =
-      $ArchivKategorieWoerterTable(this);
+  late final $LeitnerFortschrittTable leitnerFortschritt =
+      $LeitnerFortschrittTable(this);
+  late final $DecksTable decks = $DecksTable(this);
+  late final $DeckWoerterTable deckWoerter = $DeckWoerterTable(this);
   late final $MitgliedschaftenTable mitgliedschaften = $MitgliedschaftenTable(
     this,
   );
@@ -5772,10 +5291,6 @@ abstract class _$AppDatabase extends GeneratedDatabase {
   late final $AudioItemsTable audioItems = $AudioItemsTable(this);
   late final $HabitsTable habits = $HabitsTable(this);
   late final $HabitSessionsTable habitSessions = $HabitSessionsTable(this);
-  late final Index userCategoriesUid = Index(
-    'user_categories_uid',
-    'CREATE UNIQUE INDEX user_categories_uid ON user_categories (uid)',
-  );
   @override
   Iterable<TableInfo<Table, Object?>> get allTables =>
       allSchemaEntities.whereType<TableInfo<Table, Object?>>();
@@ -5784,12 +5299,9 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     words,
     books,
     wordBooks,
-    userCategories,
-    categoryWords,
-    leitnerCards,
-    archivLeitner,
-    archivKategorien,
-    archivKategorieWoerter,
+    leitnerFortschritt,
+    decks,
+    deckWoerter,
     mitgliedschaften,
     grammarLessons,
     memorizeItems,
@@ -5797,7 +5309,6 @@ abstract class _$AppDatabase extends GeneratedDatabase {
     audioItems,
     habits,
     habitSessions,
-    userCategoriesUid,
   ];
 }
 
@@ -5863,42 +5374,6 @@ final class $$WordsTableReferences
     ).filter((f) => f.wordId.id.sqlEquals($_itemColumn<int>('id')!));
 
     final cache = $_typedResult.readTableOrNull(_wordBooksRefsTable($_db));
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: cache),
-    );
-  }
-
-  static MultiTypedResultKey<$CategoryWordsTable, List<CategoryWord>>
-  _categoryWordsRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
-    db.categoryWords,
-    aliasName: 'words__id__category_words__word_id',
-  );
-
-  $$CategoryWordsTableProcessedTableManager get categoryWordsRefs {
-    final manager = $$CategoryWordsTableTableManager(
-      $_db,
-      $_db.categoryWords,
-    ).filter((f) => f.wordId.id.sqlEquals($_itemColumn<int>('id')!));
-
-    final cache = $_typedResult.readTableOrNull(_categoryWordsRefsTable($_db));
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: cache),
-    );
-  }
-
-  static MultiTypedResultKey<$LeitnerCardsTable, List<LeitnerCard>>
-  _leitnerCardsRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
-    db.leitnerCards,
-    aliasName: 'words__id__leitner_cards__word_id',
-  );
-
-  $$LeitnerCardsTableProcessedTableManager get leitnerCardsRefs {
-    final manager = $$LeitnerCardsTableTableManager(
-      $_db,
-      $_db.leitnerCards,
-    ).filter((f) => f.wordId.id.sqlEquals($_itemColumn<int>('id')!));
-
-    final cache = $_typedResult.readTableOrNull(_leitnerCardsRefsTable($_db));
     return ProcessedTableManager(
       manager.$state.copyWith(prefetchedData: cache),
     );
@@ -6024,56 +5499,6 @@ class $$WordsTableFilterComposer extends Composer<_$AppDatabase, $WordsTable> {
           }) => $$WordBooksTableFilterComposer(
             $db: $db,
             $table: $db.wordBooks,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
-
-  Expression<bool> categoryWordsRefs(
-    Expression<bool> Function($$CategoryWordsTableFilterComposer f) f,
-  ) {
-    final $$CategoryWordsTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.categoryWords,
-      getReferencedColumn: (t) => t.wordId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$CategoryWordsTableFilterComposer(
-            $db: $db,
-            $table: $db.categoryWords,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
-
-  Expression<bool> leitnerCardsRefs(
-    Expression<bool> Function($$LeitnerCardsTableFilterComposer f) f,
-  ) {
-    final $$LeitnerCardsTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.leitnerCards,
-      getReferencedColumn: (t) => t.wordId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$LeitnerCardsTableFilterComposer(
-            $db: $db,
-            $table: $db.leitnerCards,
             $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
             joinBuilder: joinBuilder,
             $removeJoinBuilderFromRootComposer:
@@ -6293,56 +5718,6 @@ class $$WordsTableAnnotationComposer
     );
     return f(composer);
   }
-
-  Expression<T> categoryWordsRefs<T extends Object>(
-    Expression<T> Function($$CategoryWordsTableAnnotationComposer a) f,
-  ) {
-    final $$CategoryWordsTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.categoryWords,
-      getReferencedColumn: (t) => t.wordId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$CategoryWordsTableAnnotationComposer(
-            $db: $db,
-            $table: $db.categoryWords,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
-
-  Expression<T> leitnerCardsRefs<T extends Object>(
-    Expression<T> Function($$LeitnerCardsTableAnnotationComposer a) f,
-  ) {
-    final $$LeitnerCardsTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.leitnerCards,
-      getReferencedColumn: (t) => t.wordId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$LeitnerCardsTableAnnotationComposer(
-            $db: $db,
-            $table: $db.leitnerCards,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
 }
 
 class $$WordsTableTableManager
@@ -6358,11 +5733,7 @@ class $$WordsTableTableManager
           $$WordsTableUpdateCompanionBuilder,
           (Word, $$WordsTableReferences),
           Word,
-          PrefetchHooks Function({
-            bool wordBooksRefs,
-            bool categoryWordsRefs,
-            bool leitnerCardsRefs,
-          })
+          PrefetchHooks Function({bool wordBooksRefs})
         > {
   $$WordsTableTableManager(_$AppDatabase db, $WordsTable table)
     : super(
@@ -6465,85 +5836,28 @@ class $$WordsTableTableManager
                     (e.readTable(table), $$WordsTableReferences(db, table, e)),
               )
               .toList(),
-          prefetchHooksCallback:
-              ({
-                wordBooksRefs = false,
-                categoryWordsRefs = false,
-                leitnerCardsRefs = false,
-              }) {
-                return PrefetchHooks(
-                  db: db,
-                  explicitlyWatchedTables: [
-                    if (wordBooksRefs) db.wordBooks,
-                    if (categoryWordsRefs) db.categoryWords,
-                    if (leitnerCardsRefs) db.leitnerCards,
-                  ],
-                  addJoins: null,
-                  getPrefetchedDataCallback: (items) async {
-                    return [
-                      if (wordBooksRefs)
-                        await $_getPrefetchedData<Word, $WordsTable, WordBook>(
-                          currentTable: table,
-                          referencedTable: $$WordsTableReferences
-                              ._wordBooksRefsTable(db),
-                          managerFromTypedResult: (p0) =>
-                              $$WordsTableReferences(
-                                db,
-                                table,
-                                p0,
-                              ).wordBooksRefs,
-                          referencedItemsForCurrentItem:
-                              (item, referencedItems) => referencedItems.where(
-                                (e) => e.wordId == item.id,
-                              ),
-                          typedResults: items,
-                        ),
-                      if (categoryWordsRefs)
-                        await $_getPrefetchedData<
-                          Word,
-                          $WordsTable,
-                          CategoryWord
-                        >(
-                          currentTable: table,
-                          referencedTable: $$WordsTableReferences
-                              ._categoryWordsRefsTable(db),
-                          managerFromTypedResult: (p0) =>
-                              $$WordsTableReferences(
-                                db,
-                                table,
-                                p0,
-                              ).categoryWordsRefs,
-                          referencedItemsForCurrentItem:
-                              (item, referencedItems) => referencedItems.where(
-                                (e) => e.wordId == item.id,
-                              ),
-                          typedResults: items,
-                        ),
-                      if (leitnerCardsRefs)
-                        await $_getPrefetchedData<
-                          Word,
-                          $WordsTable,
-                          LeitnerCard
-                        >(
-                          currentTable: table,
-                          referencedTable: $$WordsTableReferences
-                              ._leitnerCardsRefsTable(db),
-                          managerFromTypedResult: (p0) =>
-                              $$WordsTableReferences(
-                                db,
-                                table,
-                                p0,
-                              ).leitnerCardsRefs,
-                          referencedItemsForCurrentItem:
-                              (item, referencedItems) => referencedItems.where(
-                                (e) => e.wordId == item.id,
-                              ),
-                          typedResults: items,
-                        ),
-                    ];
-                  },
-                );
+          prefetchHooksCallback: ({wordBooksRefs = false}) {
+            return PrefetchHooks(
+              db: db,
+              explicitlyWatchedTables: [if (wordBooksRefs) db.wordBooks],
+              addJoins: null,
+              getPrefetchedDataCallback: (items) async {
+                return [
+                  if (wordBooksRefs)
+                    await $_getPrefetchedData<Word, $WordsTable, WordBook>(
+                      currentTable: table,
+                      referencedTable: $$WordsTableReferences
+                          ._wordBooksRefsTable(db),
+                      managerFromTypedResult: (p0) =>
+                          $$WordsTableReferences(db, table, p0).wordBooksRefs,
+                      referencedItemsForCurrentItem: (item, referencedItems) =>
+                          referencedItems.where((e) => e.wordId == item.id),
+                      typedResults: items,
+                    ),
+                ];
               },
+            );
+          },
         ),
       );
 }
@@ -6560,11 +5874,7 @@ typedef $$WordsTableProcessedTableManager =
       $$WordsTableUpdateCompanionBuilder,
       (Word, $$WordsTableReferences),
       Word,
-      PrefetchHooks Function({
-        bool wordBooksRefs,
-        bool categoryWordsRefs,
-        bool leitnerCardsRefs,
-      })
+      PrefetchHooks Function({bool wordBooksRefs})
     >;
 typedef $$BooksTableCreateCompanionBuilder =
     BooksCompanion Function({Value<int> id, required String name});
@@ -7125,976 +6435,28 @@ typedef $$WordBooksTableProcessedTableManager =
       WordBook,
       PrefetchHooks Function({bool wordId, bool bookId})
     >;
-typedef $$UserCategoriesTableCreateCompanionBuilder =
-    UserCategoriesCompanion Function({
-      Value<int> id,
-      required String name,
-      Value<String?> uid,
-      Value<int?> nameAmMs,
-    });
-typedef $$UserCategoriesTableUpdateCompanionBuilder =
-    UserCategoriesCompanion Function({
-      Value<int> id,
-      Value<String> name,
-      Value<String?> uid,
-      Value<int?> nameAmMs,
-    });
-
-final class $$UserCategoriesTableReferences
-    extends BaseReferences<_$AppDatabase, $UserCategoriesTable, UserCategory> {
-  $$UserCategoriesTableReferences(
-    super.$_db,
-    super.$_table,
-    super.$_typedResult,
-  );
-
-  static MultiTypedResultKey<$CategoryWordsTable, List<CategoryWord>>
-  _categoryWordsRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
-    db.categoryWords,
-    aliasName: 'user_categories__id__category_words__category_id',
-  );
-
-  $$CategoryWordsTableProcessedTableManager get categoryWordsRefs {
-    final manager = $$CategoryWordsTableTableManager(
-      $_db,
-      $_db.categoryWords,
-    ).filter((f) => f.categoryId.id.sqlEquals($_itemColumn<int>('id')!));
-
-    final cache = $_typedResult.readTableOrNull(_categoryWordsRefsTable($_db));
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: cache),
-    );
-  }
-}
-
-class $$UserCategoriesTableFilterComposer
-    extends Composer<_$AppDatabase, $UserCategoriesTable> {
-  $$UserCategoriesTableFilterComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  ColumnFilters<int> get id => $composableBuilder(
-    column: $table.id,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<String> get name => $composableBuilder(
-    column: $table.name,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<String> get uid => $composableBuilder(
-    column: $table.uid,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<int> get nameAmMs => $composableBuilder(
-    column: $table.nameAmMs,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  Expression<bool> categoryWordsRefs(
-    Expression<bool> Function($$CategoryWordsTableFilterComposer f) f,
-  ) {
-    final $$CategoryWordsTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.categoryWords,
-      getReferencedColumn: (t) => t.categoryId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$CategoryWordsTableFilterComposer(
-            $db: $db,
-            $table: $db.categoryWords,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
-}
-
-class $$UserCategoriesTableOrderingComposer
-    extends Composer<_$AppDatabase, $UserCategoriesTable> {
-  $$UserCategoriesTableOrderingComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  ColumnOrderings<int> get id => $composableBuilder(
-    column: $table.id,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<String> get name => $composableBuilder(
-    column: $table.name,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<String> get uid => $composableBuilder(
-    column: $table.uid,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<int> get nameAmMs => $composableBuilder(
-    column: $table.nameAmMs,
-    builder: (column) => ColumnOrderings(column),
-  );
-}
-
-class $$UserCategoriesTableAnnotationComposer
-    extends Composer<_$AppDatabase, $UserCategoriesTable> {
-  $$UserCategoriesTableAnnotationComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  GeneratedColumn<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => column);
-
-  GeneratedColumn<String> get name =>
-      $composableBuilder(column: $table.name, builder: (column) => column);
-
-  GeneratedColumn<String> get uid =>
-      $composableBuilder(column: $table.uid, builder: (column) => column);
-
-  GeneratedColumn<int> get nameAmMs =>
-      $composableBuilder(column: $table.nameAmMs, builder: (column) => column);
-
-  Expression<T> categoryWordsRefs<T extends Object>(
-    Expression<T> Function($$CategoryWordsTableAnnotationComposer a) f,
-  ) {
-    final $$CategoryWordsTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.id,
-      referencedTable: $db.categoryWords,
-      getReferencedColumn: (t) => t.categoryId,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$CategoryWordsTableAnnotationComposer(
-            $db: $db,
-            $table: $db.categoryWords,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return f(composer);
-  }
-}
-
-class $$UserCategoriesTableTableManager
-    extends
-        RootTableManager<
-          _$AppDatabase,
-          $UserCategoriesTable,
-          UserCategory,
-          $$UserCategoriesTableFilterComposer,
-          $$UserCategoriesTableOrderingComposer,
-          $$UserCategoriesTableAnnotationComposer,
-          $$UserCategoriesTableCreateCompanionBuilder,
-          $$UserCategoriesTableUpdateCompanionBuilder,
-          (UserCategory, $$UserCategoriesTableReferences),
-          UserCategory,
-          PrefetchHooks Function({bool categoryWordsRefs})
-        > {
-  $$UserCategoriesTableTableManager(
-    _$AppDatabase db,
-    $UserCategoriesTable table,
-  ) : super(
-        TableManagerState(
-          db: db,
-          table: table,
-          createFilteringComposer: () =>
-              $$UserCategoriesTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () =>
-              $$UserCategoriesTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () =>
-              $$UserCategoriesTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback:
-              ({
-                Value<int> id = const Value.absent(),
-                Value<String> name = const Value.absent(),
-                Value<String?> uid = const Value.absent(),
-                Value<int?> nameAmMs = const Value.absent(),
-              }) => UserCategoriesCompanion(
-                id: id,
-                name: name,
-                uid: uid,
-                nameAmMs: nameAmMs,
-              ),
-          createCompanionCallback:
-              ({
-                Value<int> id = const Value.absent(),
-                required String name,
-                Value<String?> uid = const Value.absent(),
-                Value<int?> nameAmMs = const Value.absent(),
-              }) => UserCategoriesCompanion.insert(
-                id: id,
-                name: name,
-                uid: uid,
-                nameAmMs: nameAmMs,
-              ),
-          withReferenceMapper: (p0) => p0
-              .map(
-                (e) => (
-                  e.readTable(table),
-                  $$UserCategoriesTableReferences(db, table, e),
-                ),
-              )
-              .toList(),
-          prefetchHooksCallback: ({categoryWordsRefs = false}) {
-            return PrefetchHooks(
-              db: db,
-              explicitlyWatchedTables: [
-                if (categoryWordsRefs) db.categoryWords,
-              ],
-              addJoins: null,
-              getPrefetchedDataCallback: (items) async {
-                return [
-                  if (categoryWordsRefs)
-                    await $_getPrefetchedData<
-                      UserCategory,
-                      $UserCategoriesTable,
-                      CategoryWord
-                    >(
-                      currentTable: table,
-                      referencedTable: $$UserCategoriesTableReferences
-                          ._categoryWordsRefsTable(db),
-                      managerFromTypedResult: (p0) =>
-                          $$UserCategoriesTableReferences(
-                            db,
-                            table,
-                            p0,
-                          ).categoryWordsRefs,
-                      referencedItemsForCurrentItem: (item, referencedItems) =>
-                          referencedItems.where((e) => e.categoryId == item.id),
-                      typedResults: items,
-                    ),
-                ];
-              },
-            );
-          },
-        ),
-      );
-}
-
-typedef $$UserCategoriesTableProcessedTableManager =
-    ProcessedTableManager<
-      _$AppDatabase,
-      $UserCategoriesTable,
-      UserCategory,
-      $$UserCategoriesTableFilterComposer,
-      $$UserCategoriesTableOrderingComposer,
-      $$UserCategoriesTableAnnotationComposer,
-      $$UserCategoriesTableCreateCompanionBuilder,
-      $$UserCategoriesTableUpdateCompanionBuilder,
-      (UserCategory, $$UserCategoriesTableReferences),
-      UserCategory,
-      PrefetchHooks Function({bool categoryWordsRefs})
-    >;
-typedef $$CategoryWordsTableCreateCompanionBuilder =
-    CategoryWordsCompanion Function({
-      required int categoryId,
-      required int wordId,
-      Value<int> rowid,
-    });
-typedef $$CategoryWordsTableUpdateCompanionBuilder =
-    CategoryWordsCompanion Function({
-      Value<int> categoryId,
-      Value<int> wordId,
-      Value<int> rowid,
-    });
-
-final class $$CategoryWordsTableReferences
-    extends BaseReferences<_$AppDatabase, $CategoryWordsTable, CategoryWord> {
-  $$CategoryWordsTableReferences(
-    super.$_db,
-    super.$_table,
-    super.$_typedResult,
-  );
-
-  static $UserCategoriesTable _categoryIdTable(_$AppDatabase db) => db
-      .userCategories
-      .createAlias('category_words__category_id__user_categories__id');
-
-  $$UserCategoriesTableProcessedTableManager get categoryId {
-    final $_column = $_itemColumn<int>('category_id')!;
-
-    final manager = $$UserCategoriesTableTableManager(
-      $_db,
-      $_db.userCategories,
-    ).filter((f) => f.id.sqlEquals($_column));
-    final item = $_typedResult.readTableOrNull(_categoryIdTable($_db));
-    if (item == null) return manager;
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: [item]),
-    );
-  }
-
-  static $WordsTable _wordIdTable(_$AppDatabase db) =>
-      db.words.createAlias('category_words__word_id__words__id');
-
-  $$WordsTableProcessedTableManager get wordId {
-    final $_column = $_itemColumn<int>('word_id')!;
-
-    final manager = $$WordsTableTableManager(
-      $_db,
-      $_db.words,
-    ).filter((f) => f.id.sqlEquals($_column));
-    final item = $_typedResult.readTableOrNull(_wordIdTable($_db));
-    if (item == null) return manager;
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: [item]),
-    );
-  }
-}
-
-class $$CategoryWordsTableFilterComposer
-    extends Composer<_$AppDatabase, $CategoryWordsTable> {
-  $$CategoryWordsTableFilterComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  $$UserCategoriesTableFilterComposer get categoryId {
-    final $$UserCategoriesTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.categoryId,
-      referencedTable: $db.userCategories,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$UserCategoriesTableFilterComposer(
-            $db: $db,
-            $table: $db.userCategories,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-
-  $$WordsTableFilterComposer get wordId {
-    final $$WordsTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableFilterComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$CategoryWordsTableOrderingComposer
-    extends Composer<_$AppDatabase, $CategoryWordsTable> {
-  $$CategoryWordsTableOrderingComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  $$UserCategoriesTableOrderingComposer get categoryId {
-    final $$UserCategoriesTableOrderingComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.categoryId,
-      referencedTable: $db.userCategories,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$UserCategoriesTableOrderingComposer(
-            $db: $db,
-            $table: $db.userCategories,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-
-  $$WordsTableOrderingComposer get wordId {
-    final $$WordsTableOrderingComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableOrderingComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$CategoryWordsTableAnnotationComposer
-    extends Composer<_$AppDatabase, $CategoryWordsTable> {
-  $$CategoryWordsTableAnnotationComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  $$UserCategoriesTableAnnotationComposer get categoryId {
-    final $$UserCategoriesTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.categoryId,
-      referencedTable: $db.userCategories,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$UserCategoriesTableAnnotationComposer(
-            $db: $db,
-            $table: $db.userCategories,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-
-  $$WordsTableAnnotationComposer get wordId {
-    final $$WordsTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableAnnotationComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$CategoryWordsTableTableManager
-    extends
-        RootTableManager<
-          _$AppDatabase,
-          $CategoryWordsTable,
-          CategoryWord,
-          $$CategoryWordsTableFilterComposer,
-          $$CategoryWordsTableOrderingComposer,
-          $$CategoryWordsTableAnnotationComposer,
-          $$CategoryWordsTableCreateCompanionBuilder,
-          $$CategoryWordsTableUpdateCompanionBuilder,
-          (CategoryWord, $$CategoryWordsTableReferences),
-          CategoryWord,
-          PrefetchHooks Function({bool categoryId, bool wordId})
-        > {
-  $$CategoryWordsTableTableManager(_$AppDatabase db, $CategoryWordsTable table)
-    : super(
-        TableManagerState(
-          db: db,
-          table: table,
-          createFilteringComposer: () =>
-              $$CategoryWordsTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () =>
-              $$CategoryWordsTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () =>
-              $$CategoryWordsTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback:
-              ({
-                Value<int> categoryId = const Value.absent(),
-                Value<int> wordId = const Value.absent(),
-                Value<int> rowid = const Value.absent(),
-              }) => CategoryWordsCompanion(
-                categoryId: categoryId,
-                wordId: wordId,
-                rowid: rowid,
-              ),
-          createCompanionCallback:
-              ({
-                required int categoryId,
-                required int wordId,
-                Value<int> rowid = const Value.absent(),
-              }) => CategoryWordsCompanion.insert(
-                categoryId: categoryId,
-                wordId: wordId,
-                rowid: rowid,
-              ),
-          withReferenceMapper: (p0) => p0
-              .map(
-                (e) => (
-                  e.readTable(table),
-                  $$CategoryWordsTableReferences(db, table, e),
-                ),
-              )
-              .toList(),
-          prefetchHooksCallback: ({categoryId = false, wordId = false}) {
-            return PrefetchHooks(
-              db: db,
-              explicitlyWatchedTables: [],
-              addJoins:
-                  <
-                    T extends TableManagerState<
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic
-                    >
-                  >(state) {
-                    if (categoryId) {
-                      state =
-                          state.withJoin(
-                                currentTable: table,
-                                currentColumn: table.categoryId,
-                                referencedTable: $$CategoryWordsTableReferences
-                                    ._categoryIdTable(db),
-                                referencedColumn: $$CategoryWordsTableReferences
-                                    ._categoryIdTable(db)
-                                    .id,
-                              )
-                              as T;
-                    }
-                    if (wordId) {
-                      state =
-                          state.withJoin(
-                                currentTable: table,
-                                currentColumn: table.wordId,
-                                referencedTable: $$CategoryWordsTableReferences
-                                    ._wordIdTable(db),
-                                referencedColumn: $$CategoryWordsTableReferences
-                                    ._wordIdTable(db)
-                                    .id,
-                              )
-                              as T;
-                    }
-
-                    return state;
-                  },
-              getPrefetchedDataCallback: (items) async {
-                return [];
-              },
-            );
-          },
-        ),
-      );
-}
-
-typedef $$CategoryWordsTableProcessedTableManager =
-    ProcessedTableManager<
-      _$AppDatabase,
-      $CategoryWordsTable,
-      CategoryWord,
-      $$CategoryWordsTableFilterComposer,
-      $$CategoryWordsTableOrderingComposer,
-      $$CategoryWordsTableAnnotationComposer,
-      $$CategoryWordsTableCreateCompanionBuilder,
-      $$CategoryWordsTableUpdateCompanionBuilder,
-      (CategoryWord, $$CategoryWordsTableReferences),
-      CategoryWord,
-      PrefetchHooks Function({bool categoryId, bool wordId})
-    >;
-typedef $$LeitnerCardsTableCreateCompanionBuilder =
-    LeitnerCardsCompanion Function({
-      Value<int> id,
-      required int wordId,
-      Value<int> boxNumber,
-      required DateTime nextReview,
-      Value<DateTime?> lastReview,
-    });
-typedef $$LeitnerCardsTableUpdateCompanionBuilder =
-    LeitnerCardsCompanion Function({
-      Value<int> id,
-      Value<int> wordId,
-      Value<int> boxNumber,
-      Value<DateTime> nextReview,
-      Value<DateTime?> lastReview,
-    });
-
-final class $$LeitnerCardsTableReferences
-    extends BaseReferences<_$AppDatabase, $LeitnerCardsTable, LeitnerCard> {
-  $$LeitnerCardsTableReferences(super.$_db, super.$_table, super.$_typedResult);
-
-  static $WordsTable _wordIdTable(_$AppDatabase db) =>
-      db.words.createAlias('leitner_cards__word_id__words__id');
-
-  $$WordsTableProcessedTableManager get wordId {
-    final $_column = $_itemColumn<int>('word_id')!;
-
-    final manager = $$WordsTableTableManager(
-      $_db,
-      $_db.words,
-    ).filter((f) => f.id.sqlEquals($_column));
-    final item = $_typedResult.readTableOrNull(_wordIdTable($_db));
-    if (item == null) return manager;
-    return ProcessedTableManager(
-      manager.$state.copyWith(prefetchedData: [item]),
-    );
-  }
-}
-
-class $$LeitnerCardsTableFilterComposer
-    extends Composer<_$AppDatabase, $LeitnerCardsTable> {
-  $$LeitnerCardsTableFilterComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  ColumnFilters<int> get id => $composableBuilder(
-    column: $table.id,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<int> get boxNumber => $composableBuilder(
-    column: $table.boxNumber,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  ColumnFilters<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
-    builder: (column) => ColumnFilters(column),
-  );
-
-  $$WordsTableFilterComposer get wordId {
-    final $$WordsTableFilterComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableFilterComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$LeitnerCardsTableOrderingComposer
-    extends Composer<_$AppDatabase, $LeitnerCardsTable> {
-  $$LeitnerCardsTableOrderingComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  ColumnOrderings<int> get id => $composableBuilder(
-    column: $table.id,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<int> get boxNumber => $composableBuilder(
-    column: $table.boxNumber,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  ColumnOrderings<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
-    builder: (column) => ColumnOrderings(column),
-  );
-
-  $$WordsTableOrderingComposer get wordId {
-    final $$WordsTableOrderingComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableOrderingComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$LeitnerCardsTableAnnotationComposer
-    extends Composer<_$AppDatabase, $LeitnerCardsTable> {
-  $$LeitnerCardsTableAnnotationComposer({
-    required super.$db,
-    required super.$table,
-    super.joinBuilder,
-    super.$addJoinBuilderToRootComposer,
-    super.$removeJoinBuilderFromRootComposer,
-  });
-  GeneratedColumn<int> get id =>
-      $composableBuilder(column: $table.id, builder: (column) => column);
-
-  GeneratedColumn<int> get boxNumber =>
-      $composableBuilder(column: $table.boxNumber, builder: (column) => column);
-
-  GeneratedColumn<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
-    builder: (column) => column,
-  );
-
-  GeneratedColumn<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
-    builder: (column) => column,
-  );
-
-  $$WordsTableAnnotationComposer get wordId {
-    final $$WordsTableAnnotationComposer composer = $composerBuilder(
-      composer: this,
-      getCurrentColumn: (t) => t.wordId,
-      referencedTable: $db.words,
-      getReferencedColumn: (t) => t.id,
-      builder:
-          (
-            joinBuilder, {
-            $addJoinBuilderToRootComposer,
-            $removeJoinBuilderFromRootComposer,
-          }) => $$WordsTableAnnotationComposer(
-            $db: $db,
-            $table: $db.words,
-            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-            joinBuilder: joinBuilder,
-            $removeJoinBuilderFromRootComposer:
-                $removeJoinBuilderFromRootComposer,
-          ),
-    );
-    return composer;
-  }
-}
-
-class $$LeitnerCardsTableTableManager
-    extends
-        RootTableManager<
-          _$AppDatabase,
-          $LeitnerCardsTable,
-          LeitnerCard,
-          $$LeitnerCardsTableFilterComposer,
-          $$LeitnerCardsTableOrderingComposer,
-          $$LeitnerCardsTableAnnotationComposer,
-          $$LeitnerCardsTableCreateCompanionBuilder,
-          $$LeitnerCardsTableUpdateCompanionBuilder,
-          (LeitnerCard, $$LeitnerCardsTableReferences),
-          LeitnerCard,
-          PrefetchHooks Function({bool wordId})
-        > {
-  $$LeitnerCardsTableTableManager(_$AppDatabase db, $LeitnerCardsTable table)
-    : super(
-        TableManagerState(
-          db: db,
-          table: table,
-          createFilteringComposer: () =>
-              $$LeitnerCardsTableFilterComposer($db: db, $table: table),
-          createOrderingComposer: () =>
-              $$LeitnerCardsTableOrderingComposer($db: db, $table: table),
-          createComputedFieldComposer: () =>
-              $$LeitnerCardsTableAnnotationComposer($db: db, $table: table),
-          updateCompanionCallback:
-              ({
-                Value<int> id = const Value.absent(),
-                Value<int> wordId = const Value.absent(),
-                Value<int> boxNumber = const Value.absent(),
-                Value<DateTime> nextReview = const Value.absent(),
-                Value<DateTime?> lastReview = const Value.absent(),
-              }) => LeitnerCardsCompanion(
-                id: id,
-                wordId: wordId,
-                boxNumber: boxNumber,
-                nextReview: nextReview,
-                lastReview: lastReview,
-              ),
-          createCompanionCallback:
-              ({
-                Value<int> id = const Value.absent(),
-                required int wordId,
-                Value<int> boxNumber = const Value.absent(),
-                required DateTime nextReview,
-                Value<DateTime?> lastReview = const Value.absent(),
-              }) => LeitnerCardsCompanion.insert(
-                id: id,
-                wordId: wordId,
-                boxNumber: boxNumber,
-                nextReview: nextReview,
-                lastReview: lastReview,
-              ),
-          withReferenceMapper: (p0) => p0
-              .map(
-                (e) => (
-                  e.readTable(table),
-                  $$LeitnerCardsTableReferences(db, table, e),
-                ),
-              )
-              .toList(),
-          prefetchHooksCallback: ({wordId = false}) {
-            return PrefetchHooks(
-              db: db,
-              explicitlyWatchedTables: [],
-              addJoins:
-                  <
-                    T extends TableManagerState<
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic,
-                      dynamic
-                    >
-                  >(state) {
-                    if (wordId) {
-                      state =
-                          state.withJoin(
-                                currentTable: table,
-                                currentColumn: table.wordId,
-                                referencedTable: $$LeitnerCardsTableReferences
-                                    ._wordIdTable(db),
-                                referencedColumn: $$LeitnerCardsTableReferences
-                                    ._wordIdTable(db)
-                                    .id,
-                              )
-                              as T;
-                    }
-
-                    return state;
-                  },
-              getPrefetchedDataCallback: (items) async {
-                return [];
-              },
-            );
-          },
-        ),
-      );
-}
-
-typedef $$LeitnerCardsTableProcessedTableManager =
-    ProcessedTableManager<
-      _$AppDatabase,
-      $LeitnerCardsTable,
-      LeitnerCard,
-      $$LeitnerCardsTableFilterComposer,
-      $$LeitnerCardsTableOrderingComposer,
-      $$LeitnerCardsTableAnnotationComposer,
-      $$LeitnerCardsTableCreateCompanionBuilder,
-      $$LeitnerCardsTableUpdateCompanionBuilder,
-      (LeitnerCard, $$LeitnerCardsTableReferences),
-      LeitnerCard,
-      PrefetchHooks Function({bool wordId})
-    >;
-typedef $$ArchivLeitnerTableCreateCompanionBuilder =
-    ArchivLeitnerCompanion Function({
+typedef $$LeitnerFortschrittTableCreateCompanionBuilder =
+    LeitnerFortschrittCompanion Function({
       required String wortId,
-      Value<int> boxNumber,
-      required DateTime nextReview,
-      Value<DateTime?> lastReview,
+      required String uebung,
+      Value<int> fach,
+      Value<DateTime?> naechsteWiederholung,
+      Value<DateTime?> letzteWiederholung,
       Value<int> rowid,
     });
-typedef $$ArchivLeitnerTableUpdateCompanionBuilder =
-    ArchivLeitnerCompanion Function({
+typedef $$LeitnerFortschrittTableUpdateCompanionBuilder =
+    LeitnerFortschrittCompanion Function({
       Value<String> wortId,
-      Value<int> boxNumber,
-      Value<DateTime> nextReview,
-      Value<DateTime?> lastReview,
+      Value<String> uebung,
+      Value<int> fach,
+      Value<DateTime?> naechsteWiederholung,
+      Value<DateTime?> letzteWiederholung,
       Value<int> rowid,
     });
 
-class $$ArchivLeitnerTableFilterComposer
-    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
-  $$ArchivLeitnerTableFilterComposer({
+class $$LeitnerFortschrittTableFilterComposer
+    extends Composer<_$AppDatabase, $LeitnerFortschrittTable> {
+  $$LeitnerFortschrittTableFilterComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8106,25 +6468,30 @@ class $$ArchivLeitnerTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
-  ColumnFilters<int> get boxNumber => $composableBuilder(
-    column: $table.boxNumber,
+  ColumnFilters<String> get uebung => $composableBuilder(
+    column: $table.uebung,
     builder: (column) => ColumnFilters(column),
   );
 
-  ColumnFilters<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
+  ColumnFilters<int> get fach => $composableBuilder(
+    column: $table.fach,
     builder: (column) => ColumnFilters(column),
   );
 
-  ColumnFilters<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
+  ColumnFilters<DateTime> get naechsteWiederholung => $composableBuilder(
+    column: $table.naechsteWiederholung,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<DateTime> get letzteWiederholung => $composableBuilder(
+    column: $table.letzteWiederholung,
     builder: (column) => ColumnFilters(column),
   );
 }
 
-class $$ArchivLeitnerTableOrderingComposer
-    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
-  $$ArchivLeitnerTableOrderingComposer({
+class $$LeitnerFortschrittTableOrderingComposer
+    extends Composer<_$AppDatabase, $LeitnerFortschrittTable> {
+  $$LeitnerFortschrittTableOrderingComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8136,25 +6503,30 @@ class $$ArchivLeitnerTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
-  ColumnOrderings<int> get boxNumber => $composableBuilder(
-    column: $table.boxNumber,
+  ColumnOrderings<String> get uebung => $composableBuilder(
+    column: $table.uebung,
     builder: (column) => ColumnOrderings(column),
   );
 
-  ColumnOrderings<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
+  ColumnOrderings<int> get fach => $composableBuilder(
+    column: $table.fach,
     builder: (column) => ColumnOrderings(column),
   );
 
-  ColumnOrderings<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
+  ColumnOrderings<DateTime> get naechsteWiederholung => $composableBuilder(
+    column: $table.naechsteWiederholung,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<DateTime> get letzteWiederholung => $composableBuilder(
+    column: $table.letzteWiederholung,
     builder: (column) => ColumnOrderings(column),
   );
 }
 
-class $$ArchivLeitnerTableAnnotationComposer
-    extends Composer<_$AppDatabase, $ArchivLeitnerTable> {
-  $$ArchivLeitnerTableAnnotationComposer({
+class $$LeitnerFortschrittTableAnnotationComposer
+    extends Composer<_$AppDatabase, $LeitnerFortschrittTable> {
+  $$LeitnerFortschrittTableAnnotationComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8164,79 +6536,91 @@ class $$ArchivLeitnerTableAnnotationComposer
   GeneratedColumn<String> get wortId =>
       $composableBuilder(column: $table.wortId, builder: (column) => column);
 
-  GeneratedColumn<int> get boxNumber =>
-      $composableBuilder(column: $table.boxNumber, builder: (column) => column);
+  GeneratedColumn<String> get uebung =>
+      $composableBuilder(column: $table.uebung, builder: (column) => column);
 
-  GeneratedColumn<DateTime> get nextReview => $composableBuilder(
-    column: $table.nextReview,
+  GeneratedColumn<int> get fach =>
+      $composableBuilder(column: $table.fach, builder: (column) => column);
+
+  GeneratedColumn<DateTime> get naechsteWiederholung => $composableBuilder(
+    column: $table.naechsteWiederholung,
     builder: (column) => column,
   );
 
-  GeneratedColumn<DateTime> get lastReview => $composableBuilder(
-    column: $table.lastReview,
+  GeneratedColumn<DateTime> get letzteWiederholung => $composableBuilder(
+    column: $table.letzteWiederholung,
     builder: (column) => column,
   );
 }
 
-class $$ArchivLeitnerTableTableManager
+class $$LeitnerFortschrittTableTableManager
     extends
         RootTableManager<
           _$AppDatabase,
-          $ArchivLeitnerTable,
-          ArchivLeitnerData,
-          $$ArchivLeitnerTableFilterComposer,
-          $$ArchivLeitnerTableOrderingComposer,
-          $$ArchivLeitnerTableAnnotationComposer,
-          $$ArchivLeitnerTableCreateCompanionBuilder,
-          $$ArchivLeitnerTableUpdateCompanionBuilder,
+          $LeitnerFortschrittTable,
+          LeitnerFortschrittData,
+          $$LeitnerFortschrittTableFilterComposer,
+          $$LeitnerFortschrittTableOrderingComposer,
+          $$LeitnerFortschrittTableAnnotationComposer,
+          $$LeitnerFortschrittTableCreateCompanionBuilder,
+          $$LeitnerFortschrittTableUpdateCompanionBuilder,
           (
-            ArchivLeitnerData,
+            LeitnerFortschrittData,
             BaseReferences<
               _$AppDatabase,
-              $ArchivLeitnerTable,
-              ArchivLeitnerData
+              $LeitnerFortschrittTable,
+              LeitnerFortschrittData
             >,
           ),
-          ArchivLeitnerData,
+          LeitnerFortschrittData,
           PrefetchHooks Function()
         > {
-  $$ArchivLeitnerTableTableManager(_$AppDatabase db, $ArchivLeitnerTable table)
-    : super(
+  $$LeitnerFortschrittTableTableManager(
+    _$AppDatabase db,
+    $LeitnerFortschrittTable table,
+  ) : super(
         TableManagerState(
           db: db,
           table: table,
           createFilteringComposer: () =>
-              $$ArchivLeitnerTableFilterComposer($db: db, $table: table),
+              $$LeitnerFortschrittTableFilterComposer($db: db, $table: table),
           createOrderingComposer: () =>
-              $$ArchivLeitnerTableOrderingComposer($db: db, $table: table),
+              $$LeitnerFortschrittTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
-              $$ArchivLeitnerTableAnnotationComposer($db: db, $table: table),
+              $$LeitnerFortschrittTableAnnotationComposer(
+                $db: db,
+                $table: table,
+              ),
           updateCompanionCallback:
               ({
                 Value<String> wortId = const Value.absent(),
-                Value<int> boxNumber = const Value.absent(),
-                Value<DateTime> nextReview = const Value.absent(),
-                Value<DateTime?> lastReview = const Value.absent(),
+                Value<String> uebung = const Value.absent(),
+                Value<int> fach = const Value.absent(),
+                Value<DateTime?> naechsteWiederholung = const Value.absent(),
+                Value<DateTime?> letzteWiederholung = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivLeitnerCompanion(
+              }) => LeitnerFortschrittCompanion(
                 wortId: wortId,
-                boxNumber: boxNumber,
-                nextReview: nextReview,
-                lastReview: lastReview,
+                uebung: uebung,
+                fach: fach,
+                naechsteWiederholung: naechsteWiederholung,
+                letzteWiederholung: letzteWiederholung,
                 rowid: rowid,
               ),
           createCompanionCallback:
               ({
                 required String wortId,
-                Value<int> boxNumber = const Value.absent(),
-                required DateTime nextReview,
-                Value<DateTime?> lastReview = const Value.absent(),
+                required String uebung,
+                Value<int> fach = const Value.absent(),
+                Value<DateTime?> naechsteWiederholung = const Value.absent(),
+                Value<DateTime?> letzteWiederholung = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivLeitnerCompanion.insert(
+              }) => LeitnerFortschrittCompanion.insert(
                 wortId: wortId,
-                boxNumber: boxNumber,
-                nextReview: nextReview,
-                lastReview: lastReview,
+                uebung: uebung,
+                fach: fach,
+                naechsteWiederholung: naechsteWiederholung,
+                letzteWiederholung: letzteWiederholung,
                 rowid: rowid,
               ),
           withReferenceMapper: (p0) => p0
@@ -8247,79 +6631,77 @@ class $$ArchivLeitnerTableTableManager
       );
 }
 
-typedef $$ArchivLeitnerTableProcessedTableManager =
+typedef $$LeitnerFortschrittTableProcessedTableManager =
     ProcessedTableManager<
       _$AppDatabase,
-      $ArchivLeitnerTable,
-      ArchivLeitnerData,
-      $$ArchivLeitnerTableFilterComposer,
-      $$ArchivLeitnerTableOrderingComposer,
-      $$ArchivLeitnerTableAnnotationComposer,
-      $$ArchivLeitnerTableCreateCompanionBuilder,
-      $$ArchivLeitnerTableUpdateCompanionBuilder,
+      $LeitnerFortschrittTable,
+      LeitnerFortschrittData,
+      $$LeitnerFortschrittTableFilterComposer,
+      $$LeitnerFortschrittTableOrderingComposer,
+      $$LeitnerFortschrittTableAnnotationComposer,
+      $$LeitnerFortschrittTableCreateCompanionBuilder,
+      $$LeitnerFortschrittTableUpdateCompanionBuilder,
       (
-        ArchivLeitnerData,
-        BaseReferences<_$AppDatabase, $ArchivLeitnerTable, ArchivLeitnerData>,
-      ),
-      ArchivLeitnerData,
-      PrefetchHooks Function()
-    >;
-typedef $$ArchivKategorienTableCreateCompanionBuilder =
-    ArchivKategorienCompanion Function({
-      required String id,
-      required String name,
-      Value<int> rowid,
-    });
-typedef $$ArchivKategorienTableUpdateCompanionBuilder =
-    ArchivKategorienCompanion Function({
-      Value<String> id,
-      Value<String> name,
-      Value<int> rowid,
-    });
-
-final class $$ArchivKategorienTableReferences
-    extends
+        LeitnerFortschrittData,
         BaseReferences<
           _$AppDatabase,
-          $ArchivKategorienTable,
-          ArchivKategorienData
-        > {
-  $$ArchivKategorienTableReferences(
-    super.$_db,
-    super.$_table,
-    super.$_typedResult,
+          $LeitnerFortschrittTable,
+          LeitnerFortschrittData
+        >,
+      ),
+      LeitnerFortschrittData,
+      PrefetchHooks Function()
+    >;
+typedef $$DecksTableCreateCompanionBuilder =
+    DecksCompanion Function({
+      required String id,
+      required String name,
+      Value<String?> elternId,
+      Value<int> ordnung,
+      Value<String> modus,
+      Value<int?> neuProTag,
+      Value<int?> nameAmMs,
+      Value<int?> standAmMs,
+      Value<int> rowid,
+    });
+typedef $$DecksTableUpdateCompanionBuilder =
+    DecksCompanion Function({
+      Value<String> id,
+      Value<String> name,
+      Value<String?> elternId,
+      Value<int> ordnung,
+      Value<String> modus,
+      Value<int?> neuProTag,
+      Value<int?> nameAmMs,
+      Value<int?> standAmMs,
+      Value<int> rowid,
+    });
+
+final class $$DecksTableReferences
+    extends BaseReferences<_$AppDatabase, $DecksTable, Deck> {
+  $$DecksTableReferences(super.$_db, super.$_table, super.$_typedResult);
+
+  static MultiTypedResultKey<$DeckWoerterTable, List<DeckWoerterData>>
+  _deckWoerterRefsTable(_$AppDatabase db) => MultiTypedResultKey.fromTable(
+    db.deckWoerter,
+    aliasName: 'decks__id__deck_woerter__deck_id',
   );
 
-  static MultiTypedResultKey<
-    $ArchivKategorieWoerterTable,
-    List<ArchivKategorieWoerterData>
-  >
-  _archivKategorieWoerterRefsTable(_$AppDatabase db) =>
-      MultiTypedResultKey.fromTable(
-        db.archivKategorieWoerter,
-        aliasName:
-            'archiv_kategorien__id__archiv_kategorie_woerter__kategorie_id',
-      );
-
-  $$ArchivKategorieWoerterTableProcessedTableManager
-  get archivKategorieWoerterRefs {
-    final manager = $$ArchivKategorieWoerterTableTableManager(
+  $$DeckWoerterTableProcessedTableManager get deckWoerterRefs {
+    final manager = $$DeckWoerterTableTableManager(
       $_db,
-      $_db.archivKategorieWoerter,
-    ).filter((f) => f.kategorieId.id.sqlEquals($_itemColumn<String>('id')!));
+      $_db.deckWoerter,
+    ).filter((f) => f.deckId.id.sqlEquals($_itemColumn<String>('id')!));
 
-    final cache = $_typedResult.readTableOrNull(
-      _archivKategorieWoerterRefsTable($_db),
-    );
+    final cache = $_typedResult.readTableOrNull(_deckWoerterRefsTable($_db));
     return ProcessedTableManager(
       manager.$state.copyWith(prefetchedData: cache),
     );
   }
 }
 
-class $$ArchivKategorienTableFilterComposer
-    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
-  $$ArchivKategorienTableFilterComposer({
+class $$DecksTableFilterComposer extends Composer<_$AppDatabase, $DecksTable> {
+  $$DecksTableFilterComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8336,36 +6718,65 @@ class $$ArchivKategorienTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
-  Expression<bool> archivKategorieWoerterRefs(
-    Expression<bool> Function($$ArchivKategorieWoerterTableFilterComposer f) f,
+  ColumnFilters<String> get elternId => $composableBuilder(
+    column: $table.elternId,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get ordnung => $composableBuilder(
+    column: $table.ordnung,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<String> get modus => $composableBuilder(
+    column: $table.modus,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get neuProTag => $composableBuilder(
+    column: $table.neuProTag,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get nameAmMs => $composableBuilder(
+    column: $table.nameAmMs,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  ColumnFilters<int> get standAmMs => $composableBuilder(
+    column: $table.standAmMs,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  Expression<bool> deckWoerterRefs(
+    Expression<bool> Function($$DeckWoerterTableFilterComposer f) f,
   ) {
-    final $$ArchivKategorieWoerterTableFilterComposer composer =
-        $composerBuilder(
-          composer: this,
-          getCurrentColumn: (t) => t.id,
-          referencedTable: $db.archivKategorieWoerter,
-          getReferencedColumn: (t) => t.kategorieId,
-          builder:
-              (
-                joinBuilder, {
-                $addJoinBuilderToRootComposer,
+    final $$DeckWoerterTableFilterComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.deckWoerter,
+      getReferencedColumn: (t) => t.deckId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$DeckWoerterTableFilterComposer(
+            $db: $db,
+            $table: $db.deckWoerter,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
                 $removeJoinBuilderFromRootComposer,
-              }) => $$ArchivKategorieWoerterTableFilterComposer(
-                $db: $db,
-                $table: $db.archivKategorieWoerter,
-                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-                joinBuilder: joinBuilder,
-                $removeJoinBuilderFromRootComposer:
-                    $removeJoinBuilderFromRootComposer,
-              ),
-        );
+          ),
+    );
     return f(composer);
   }
 }
 
-class $$ArchivKategorienTableOrderingComposer
-    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
-  $$ArchivKategorienTableOrderingComposer({
+class $$DecksTableOrderingComposer
+    extends Composer<_$AppDatabase, $DecksTable> {
+  $$DecksTableOrderingComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8381,11 +6792,41 @@ class $$ArchivKategorienTableOrderingComposer
     column: $table.name,
     builder: (column) => ColumnOrderings(column),
   );
+
+  ColumnOrderings<String> get elternId => $composableBuilder(
+    column: $table.elternId,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get ordnung => $composableBuilder(
+    column: $table.ordnung,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<String> get modus => $composableBuilder(
+    column: $table.modus,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get neuProTag => $composableBuilder(
+    column: $table.neuProTag,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get nameAmMs => $composableBuilder(
+    column: $table.nameAmMs,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  ColumnOrderings<int> get standAmMs => $composableBuilder(
+    column: $table.standAmMs,
+    builder: (column) => ColumnOrderings(column),
+  );
 }
 
-class $$ArchivKategorienTableAnnotationComposer
-    extends Composer<_$AppDatabase, $ArchivKategorienTable> {
-  $$ArchivKategorienTableAnnotationComposer({
+class $$DecksTableAnnotationComposer
+    extends Composer<_$AppDatabase, $DecksTable> {
+  $$DecksTableAnnotationComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8398,113 +6839,146 @@ class $$ArchivKategorienTableAnnotationComposer
   GeneratedColumn<String> get name =>
       $composableBuilder(column: $table.name, builder: (column) => column);
 
-  Expression<T> archivKategorieWoerterRefs<T extends Object>(
-    Expression<T> Function($$ArchivKategorieWoerterTableAnnotationComposer a) f,
+  GeneratedColumn<String> get elternId =>
+      $composableBuilder(column: $table.elternId, builder: (column) => column);
+
+  GeneratedColumn<int> get ordnung =>
+      $composableBuilder(column: $table.ordnung, builder: (column) => column);
+
+  GeneratedColumn<String> get modus =>
+      $composableBuilder(column: $table.modus, builder: (column) => column);
+
+  GeneratedColumn<int> get neuProTag =>
+      $composableBuilder(column: $table.neuProTag, builder: (column) => column);
+
+  GeneratedColumn<int> get nameAmMs =>
+      $composableBuilder(column: $table.nameAmMs, builder: (column) => column);
+
+  GeneratedColumn<int> get standAmMs =>
+      $composableBuilder(column: $table.standAmMs, builder: (column) => column);
+
+  Expression<T> deckWoerterRefs<T extends Object>(
+    Expression<T> Function($$DeckWoerterTableAnnotationComposer a) f,
   ) {
-    final $$ArchivKategorieWoerterTableAnnotationComposer composer =
-        $composerBuilder(
-          composer: this,
-          getCurrentColumn: (t) => t.id,
-          referencedTable: $db.archivKategorieWoerter,
-          getReferencedColumn: (t) => t.kategorieId,
-          builder:
-              (
-                joinBuilder, {
-                $addJoinBuilderToRootComposer,
+    final $$DeckWoerterTableAnnotationComposer composer = $composerBuilder(
+      composer: this,
+      getCurrentColumn: (t) => t.id,
+      referencedTable: $db.deckWoerter,
+      getReferencedColumn: (t) => t.deckId,
+      builder:
+          (
+            joinBuilder, {
+            $addJoinBuilderToRootComposer,
+            $removeJoinBuilderFromRootComposer,
+          }) => $$DeckWoerterTableAnnotationComposer(
+            $db: $db,
+            $table: $db.deckWoerter,
+            $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
+            joinBuilder: joinBuilder,
+            $removeJoinBuilderFromRootComposer:
                 $removeJoinBuilderFromRootComposer,
-              }) => $$ArchivKategorieWoerterTableAnnotationComposer(
-                $db: $db,
-                $table: $db.archivKategorieWoerter,
-                $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
-                joinBuilder: joinBuilder,
-                $removeJoinBuilderFromRootComposer:
-                    $removeJoinBuilderFromRootComposer,
-              ),
-        );
+          ),
+    );
     return f(composer);
   }
 }
 
-class $$ArchivKategorienTableTableManager
+class $$DecksTableTableManager
     extends
         RootTableManager<
           _$AppDatabase,
-          $ArchivKategorienTable,
-          ArchivKategorienData,
-          $$ArchivKategorienTableFilterComposer,
-          $$ArchivKategorienTableOrderingComposer,
-          $$ArchivKategorienTableAnnotationComposer,
-          $$ArchivKategorienTableCreateCompanionBuilder,
-          $$ArchivKategorienTableUpdateCompanionBuilder,
-          (ArchivKategorienData, $$ArchivKategorienTableReferences),
-          ArchivKategorienData,
-          PrefetchHooks Function({bool archivKategorieWoerterRefs})
+          $DecksTable,
+          Deck,
+          $$DecksTableFilterComposer,
+          $$DecksTableOrderingComposer,
+          $$DecksTableAnnotationComposer,
+          $$DecksTableCreateCompanionBuilder,
+          $$DecksTableUpdateCompanionBuilder,
+          (Deck, $$DecksTableReferences),
+          Deck,
+          PrefetchHooks Function({bool deckWoerterRefs})
         > {
-  $$ArchivKategorienTableTableManager(
-    _$AppDatabase db,
-    $ArchivKategorienTable table,
-  ) : super(
+  $$DecksTableTableManager(_$AppDatabase db, $DecksTable table)
+    : super(
         TableManagerState(
           db: db,
           table: table,
           createFilteringComposer: () =>
-              $$ArchivKategorienTableFilterComposer($db: db, $table: table),
+              $$DecksTableFilterComposer($db: db, $table: table),
           createOrderingComposer: () =>
-              $$ArchivKategorienTableOrderingComposer($db: db, $table: table),
+              $$DecksTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
-              $$ArchivKategorienTableAnnotationComposer($db: db, $table: table),
+              $$DecksTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
                 Value<String> id = const Value.absent(),
                 Value<String> name = const Value.absent(),
+                Value<String?> elternId = const Value.absent(),
+                Value<int> ordnung = const Value.absent(),
+                Value<String> modus = const Value.absent(),
+                Value<int?> neuProTag = const Value.absent(),
+                Value<int?> nameAmMs = const Value.absent(),
+                Value<int?> standAmMs = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivKategorienCompanion(id: id, name: name, rowid: rowid),
+              }) => DecksCompanion(
+                id: id,
+                name: name,
+                elternId: elternId,
+                ordnung: ordnung,
+                modus: modus,
+                neuProTag: neuProTag,
+                nameAmMs: nameAmMs,
+                standAmMs: standAmMs,
+                rowid: rowid,
+              ),
           createCompanionCallback:
               ({
                 required String id,
                 required String name,
+                Value<String?> elternId = const Value.absent(),
+                Value<int> ordnung = const Value.absent(),
+                Value<String> modus = const Value.absent(),
+                Value<int?> neuProTag = const Value.absent(),
+                Value<int?> nameAmMs = const Value.absent(),
+                Value<int?> standAmMs = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivKategorienCompanion.insert(
+              }) => DecksCompanion.insert(
                 id: id,
                 name: name,
+                elternId: elternId,
+                ordnung: ordnung,
+                modus: modus,
+                neuProTag: neuProTag,
+                nameAmMs: nameAmMs,
+                standAmMs: standAmMs,
                 rowid: rowid,
               ),
           withReferenceMapper: (p0) => p0
               .map(
-                (e) => (
-                  e.readTable(table),
-                  $$ArchivKategorienTableReferences(db, table, e),
-                ),
+                (e) =>
+                    (e.readTable(table), $$DecksTableReferences(db, table, e)),
               )
               .toList(),
-          prefetchHooksCallback: ({archivKategorieWoerterRefs = false}) {
+          prefetchHooksCallback: ({deckWoerterRefs = false}) {
             return PrefetchHooks(
               db: db,
-              explicitlyWatchedTables: [
-                if (archivKategorieWoerterRefs) db.archivKategorieWoerter,
-              ],
+              explicitlyWatchedTables: [if (deckWoerterRefs) db.deckWoerter],
               addJoins: null,
               getPrefetchedDataCallback: (items) async {
                 return [
-                  if (archivKategorieWoerterRefs)
+                  if (deckWoerterRefs)
                     await $_getPrefetchedData<
-                      ArchivKategorienData,
-                      $ArchivKategorienTable,
-                      ArchivKategorieWoerterData
+                      Deck,
+                      $DecksTable,
+                      DeckWoerterData
                     >(
                       currentTable: table,
-                      referencedTable: $$ArchivKategorienTableReferences
-                          ._archivKategorieWoerterRefsTable(db),
+                      referencedTable: $$DecksTableReferences
+                          ._deckWoerterRefsTable(db),
                       managerFromTypedResult: (p0) =>
-                          $$ArchivKategorienTableReferences(
-                            db,
-                            table,
-                            p0,
-                          ).archivKategorieWoerterRefs,
+                          $$DecksTableReferences(db, table, p0).deckWoerterRefs,
                       referencedItemsForCurrentItem: (item, referencedItems) =>
-                          referencedItems.where(
-                            (e) => e.kategorieId == item.id,
-                          ),
+                          referencedItems.where((e) => e.deckId == item.id),
                       typedResults: items,
                     ),
                 ];
@@ -8515,59 +6989,50 @@ class $$ArchivKategorienTableTableManager
       );
 }
 
-typedef $$ArchivKategorienTableProcessedTableManager =
+typedef $$DecksTableProcessedTableManager =
     ProcessedTableManager<
       _$AppDatabase,
-      $ArchivKategorienTable,
-      ArchivKategorienData,
-      $$ArchivKategorienTableFilterComposer,
-      $$ArchivKategorienTableOrderingComposer,
-      $$ArchivKategorienTableAnnotationComposer,
-      $$ArchivKategorienTableCreateCompanionBuilder,
-      $$ArchivKategorienTableUpdateCompanionBuilder,
-      (ArchivKategorienData, $$ArchivKategorienTableReferences),
-      ArchivKategorienData,
-      PrefetchHooks Function({bool archivKategorieWoerterRefs})
+      $DecksTable,
+      Deck,
+      $$DecksTableFilterComposer,
+      $$DecksTableOrderingComposer,
+      $$DecksTableAnnotationComposer,
+      $$DecksTableCreateCompanionBuilder,
+      $$DecksTableUpdateCompanionBuilder,
+      (Deck, $$DecksTableReferences),
+      Deck,
+      PrefetchHooks Function({bool deckWoerterRefs})
     >;
-typedef $$ArchivKategorieWoerterTableCreateCompanionBuilder =
-    ArchivKategorieWoerterCompanion Function({
-      required String kategorieId,
+typedef $$DeckWoerterTableCreateCompanionBuilder =
+    DeckWoerterCompanion Function({
+      required String deckId,
       required String wortId,
+      Value<int> hinzuMs,
       Value<int> rowid,
     });
-typedef $$ArchivKategorieWoerterTableUpdateCompanionBuilder =
-    ArchivKategorieWoerterCompanion Function({
-      Value<String> kategorieId,
+typedef $$DeckWoerterTableUpdateCompanionBuilder =
+    DeckWoerterCompanion Function({
+      Value<String> deckId,
       Value<String> wortId,
+      Value<int> hinzuMs,
       Value<int> rowid,
     });
 
-final class $$ArchivKategorieWoerterTableReferences
-    extends
-        BaseReferences<
-          _$AppDatabase,
-          $ArchivKategorieWoerterTable,
-          ArchivKategorieWoerterData
-        > {
-  $$ArchivKategorieWoerterTableReferences(
-    super.$_db,
-    super.$_table,
-    super.$_typedResult,
-  );
+final class $$DeckWoerterTableReferences
+    extends BaseReferences<_$AppDatabase, $DeckWoerterTable, DeckWoerterData> {
+  $$DeckWoerterTableReferences(super.$_db, super.$_table, super.$_typedResult);
 
-  static $ArchivKategorienTable _kategorieIdTable(_$AppDatabase db) =>
-      db.archivKategorien.createAlias(
-        'archiv_kategorie_woerter__kategorie_id__archiv_kategorien__id',
-      );
+  static $DecksTable _deckIdTable(_$AppDatabase db) =>
+      db.decks.createAlias('deck_woerter__deck_id__decks__id');
 
-  $$ArchivKategorienTableProcessedTableManager get kategorieId {
-    final $_column = $_itemColumn<String>('kategorie_id')!;
+  $$DecksTableProcessedTableManager get deckId {
+    final $_column = $_itemColumn<String>('deck_id')!;
 
-    final manager = $$ArchivKategorienTableTableManager(
+    final manager = $$DecksTableTableManager(
       $_db,
-      $_db.archivKategorien,
+      $_db.decks,
     ).filter((f) => f.id.sqlEquals($_column));
-    final item = $_typedResult.readTableOrNull(_kategorieIdTable($_db));
+    final item = $_typedResult.readTableOrNull(_deckIdTable($_db));
     if (item == null) return manager;
     return ProcessedTableManager(
       manager.$state.copyWith(prefetchedData: [item]),
@@ -8575,9 +7040,9 @@ final class $$ArchivKategorieWoerterTableReferences
   }
 }
 
-class $$ArchivKategorieWoerterTableFilterComposer
-    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
-  $$ArchivKategorieWoerterTableFilterComposer({
+class $$DeckWoerterTableFilterComposer
+    extends Composer<_$AppDatabase, $DeckWoerterTable> {
+  $$DeckWoerterTableFilterComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8589,20 +7054,25 @@ class $$ArchivKategorieWoerterTableFilterComposer
     builder: (column) => ColumnFilters(column),
   );
 
-  $$ArchivKategorienTableFilterComposer get kategorieId {
-    final $$ArchivKategorienTableFilterComposer composer = $composerBuilder(
+  ColumnFilters<int> get hinzuMs => $composableBuilder(
+    column: $table.hinzuMs,
+    builder: (column) => ColumnFilters(column),
+  );
+
+  $$DecksTableFilterComposer get deckId {
+    final $$DecksTableFilterComposer composer = $composerBuilder(
       composer: this,
-      getCurrentColumn: (t) => t.kategorieId,
-      referencedTable: $db.archivKategorien,
+      getCurrentColumn: (t) => t.deckId,
+      referencedTable: $db.decks,
       getReferencedColumn: (t) => t.id,
       builder:
           (
             joinBuilder, {
             $addJoinBuilderToRootComposer,
             $removeJoinBuilderFromRootComposer,
-          }) => $$ArchivKategorienTableFilterComposer(
+          }) => $$DecksTableFilterComposer(
             $db: $db,
-            $table: $db.archivKategorien,
+            $table: $db.decks,
             $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
             joinBuilder: joinBuilder,
             $removeJoinBuilderFromRootComposer:
@@ -8613,9 +7083,9 @@ class $$ArchivKategorieWoerterTableFilterComposer
   }
 }
 
-class $$ArchivKategorieWoerterTableOrderingComposer
-    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
-  $$ArchivKategorieWoerterTableOrderingComposer({
+class $$DeckWoerterTableOrderingComposer
+    extends Composer<_$AppDatabase, $DeckWoerterTable> {
+  $$DeckWoerterTableOrderingComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8627,20 +7097,25 @@ class $$ArchivKategorieWoerterTableOrderingComposer
     builder: (column) => ColumnOrderings(column),
   );
 
-  $$ArchivKategorienTableOrderingComposer get kategorieId {
-    final $$ArchivKategorienTableOrderingComposer composer = $composerBuilder(
+  ColumnOrderings<int> get hinzuMs => $composableBuilder(
+    column: $table.hinzuMs,
+    builder: (column) => ColumnOrderings(column),
+  );
+
+  $$DecksTableOrderingComposer get deckId {
+    final $$DecksTableOrderingComposer composer = $composerBuilder(
       composer: this,
-      getCurrentColumn: (t) => t.kategorieId,
-      referencedTable: $db.archivKategorien,
+      getCurrentColumn: (t) => t.deckId,
+      referencedTable: $db.decks,
       getReferencedColumn: (t) => t.id,
       builder:
           (
             joinBuilder, {
             $addJoinBuilderToRootComposer,
             $removeJoinBuilderFromRootComposer,
-          }) => $$ArchivKategorienTableOrderingComposer(
+          }) => $$DecksTableOrderingComposer(
             $db: $db,
-            $table: $db.archivKategorien,
+            $table: $db.decks,
             $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
             joinBuilder: joinBuilder,
             $removeJoinBuilderFromRootComposer:
@@ -8651,9 +7126,9 @@ class $$ArchivKategorieWoerterTableOrderingComposer
   }
 }
 
-class $$ArchivKategorieWoerterTableAnnotationComposer
-    extends Composer<_$AppDatabase, $ArchivKategorieWoerterTable> {
-  $$ArchivKategorieWoerterTableAnnotationComposer({
+class $$DeckWoerterTableAnnotationComposer
+    extends Composer<_$AppDatabase, $DeckWoerterTable> {
+  $$DeckWoerterTableAnnotationComposer({
     required super.$db,
     required super.$table,
     super.joinBuilder,
@@ -8663,20 +7138,23 @@ class $$ArchivKategorieWoerterTableAnnotationComposer
   GeneratedColumn<String> get wortId =>
       $composableBuilder(column: $table.wortId, builder: (column) => column);
 
-  $$ArchivKategorienTableAnnotationComposer get kategorieId {
-    final $$ArchivKategorienTableAnnotationComposer composer = $composerBuilder(
+  GeneratedColumn<int> get hinzuMs =>
+      $composableBuilder(column: $table.hinzuMs, builder: (column) => column);
+
+  $$DecksTableAnnotationComposer get deckId {
+    final $$DecksTableAnnotationComposer composer = $composerBuilder(
       composer: this,
-      getCurrentColumn: (t) => t.kategorieId,
-      referencedTable: $db.archivKategorien,
+      getCurrentColumn: (t) => t.deckId,
+      referencedTable: $db.decks,
       getReferencedColumn: (t) => t.id,
       builder:
           (
             joinBuilder, {
             $addJoinBuilderToRootComposer,
             $removeJoinBuilderFromRootComposer,
-          }) => $$ArchivKategorienTableAnnotationComposer(
+          }) => $$DecksTableAnnotationComposer(
             $db: $db,
-            $table: $db.archivKategorien,
+            $table: $db.decks,
             $addJoinBuilderToRootComposer: $addJoinBuilderToRootComposer,
             joinBuilder: joinBuilder,
             $removeJoinBuilderFromRootComposer:
@@ -8687,72 +7165,65 @@ class $$ArchivKategorieWoerterTableAnnotationComposer
   }
 }
 
-class $$ArchivKategorieWoerterTableTableManager
+class $$DeckWoerterTableTableManager
     extends
         RootTableManager<
           _$AppDatabase,
-          $ArchivKategorieWoerterTable,
-          ArchivKategorieWoerterData,
-          $$ArchivKategorieWoerterTableFilterComposer,
-          $$ArchivKategorieWoerterTableOrderingComposer,
-          $$ArchivKategorieWoerterTableAnnotationComposer,
-          $$ArchivKategorieWoerterTableCreateCompanionBuilder,
-          $$ArchivKategorieWoerterTableUpdateCompanionBuilder,
-          (ArchivKategorieWoerterData, $$ArchivKategorieWoerterTableReferences),
-          ArchivKategorieWoerterData,
-          PrefetchHooks Function({bool kategorieId})
+          $DeckWoerterTable,
+          DeckWoerterData,
+          $$DeckWoerterTableFilterComposer,
+          $$DeckWoerterTableOrderingComposer,
+          $$DeckWoerterTableAnnotationComposer,
+          $$DeckWoerterTableCreateCompanionBuilder,
+          $$DeckWoerterTableUpdateCompanionBuilder,
+          (DeckWoerterData, $$DeckWoerterTableReferences),
+          DeckWoerterData,
+          PrefetchHooks Function({bool deckId})
         > {
-  $$ArchivKategorieWoerterTableTableManager(
-    _$AppDatabase db,
-    $ArchivKategorieWoerterTable table,
-  ) : super(
+  $$DeckWoerterTableTableManager(_$AppDatabase db, $DeckWoerterTable table)
+    : super(
         TableManagerState(
           db: db,
           table: table,
           createFilteringComposer: () =>
-              $$ArchivKategorieWoerterTableFilterComposer(
-                $db: db,
-                $table: table,
-              ),
+              $$DeckWoerterTableFilterComposer($db: db, $table: table),
           createOrderingComposer: () =>
-              $$ArchivKategorieWoerterTableOrderingComposer(
-                $db: db,
-                $table: table,
-              ),
+              $$DeckWoerterTableOrderingComposer($db: db, $table: table),
           createComputedFieldComposer: () =>
-              $$ArchivKategorieWoerterTableAnnotationComposer(
-                $db: db,
-                $table: table,
-              ),
+              $$DeckWoerterTableAnnotationComposer($db: db, $table: table),
           updateCompanionCallback:
               ({
-                Value<String> kategorieId = const Value.absent(),
+                Value<String> deckId = const Value.absent(),
                 Value<String> wortId = const Value.absent(),
+                Value<int> hinzuMs = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivKategorieWoerterCompanion(
-                kategorieId: kategorieId,
+              }) => DeckWoerterCompanion(
+                deckId: deckId,
                 wortId: wortId,
+                hinzuMs: hinzuMs,
                 rowid: rowid,
               ),
           createCompanionCallback:
               ({
-                required String kategorieId,
+                required String deckId,
                 required String wortId,
+                Value<int> hinzuMs = const Value.absent(),
                 Value<int> rowid = const Value.absent(),
-              }) => ArchivKategorieWoerterCompanion.insert(
-                kategorieId: kategorieId,
+              }) => DeckWoerterCompanion.insert(
+                deckId: deckId,
                 wortId: wortId,
+                hinzuMs: hinzuMs,
                 rowid: rowid,
               ),
           withReferenceMapper: (p0) => p0
               .map(
                 (e) => (
                   e.readTable(table),
-                  $$ArchivKategorieWoerterTableReferences(db, table, e),
+                  $$DeckWoerterTableReferences(db, table, e),
                 ),
               )
               .toList(),
-          prefetchHooksCallback: ({kategorieId = false}) {
+          prefetchHooksCallback: ({deckId = false}) {
             return PrefetchHooks(
               db: db,
               explicitlyWatchedTables: [],
@@ -8772,18 +7243,16 @@ class $$ArchivKategorieWoerterTableTableManager
                       dynamic
                     >
                   >(state) {
-                    if (kategorieId) {
+                    if (deckId) {
                       state =
                           state.withJoin(
                                 currentTable: table,
-                                currentColumn: table.kategorieId,
-                                referencedTable:
-                                    $$ArchivKategorieWoerterTableReferences
-                                        ._kategorieIdTable(db),
-                                referencedColumn:
-                                    $$ArchivKategorieWoerterTableReferences
-                                        ._kategorieIdTable(db)
-                                        .id,
+                                currentColumn: table.deckId,
+                                referencedTable: $$DeckWoerterTableReferences
+                                    ._deckIdTable(db),
+                                referencedColumn: $$DeckWoerterTableReferences
+                                    ._deckIdTable(db)
+                                    .id,
                               )
                               as T;
                     }
@@ -8799,19 +7268,19 @@ class $$ArchivKategorieWoerterTableTableManager
       );
 }
 
-typedef $$ArchivKategorieWoerterTableProcessedTableManager =
+typedef $$DeckWoerterTableProcessedTableManager =
     ProcessedTableManager<
       _$AppDatabase,
-      $ArchivKategorieWoerterTable,
-      ArchivKategorieWoerterData,
-      $$ArchivKategorieWoerterTableFilterComposer,
-      $$ArchivKategorieWoerterTableOrderingComposer,
-      $$ArchivKategorieWoerterTableAnnotationComposer,
-      $$ArchivKategorieWoerterTableCreateCompanionBuilder,
-      $$ArchivKategorieWoerterTableUpdateCompanionBuilder,
-      (ArchivKategorieWoerterData, $$ArchivKategorieWoerterTableReferences),
-      ArchivKategorieWoerterData,
-      PrefetchHooks Function({bool kategorieId})
+      $DeckWoerterTable,
+      DeckWoerterData,
+      $$DeckWoerterTableFilterComposer,
+      $$DeckWoerterTableOrderingComposer,
+      $$DeckWoerterTableAnnotationComposer,
+      $$DeckWoerterTableCreateCompanionBuilder,
+      $$DeckWoerterTableUpdateCompanionBuilder,
+      (DeckWoerterData, $$DeckWoerterTableReferences),
+      DeckWoerterData,
+      PrefetchHooks Function({bool deckId})
     >;
 typedef $$MitgliedschaftenTableCreateCompanionBuilder =
     MitgliedschaftenCompanion Function({
@@ -10486,21 +8955,12 @@ class $AppDatabaseManager {
       $$BooksTableTableManager(_db, _db.books);
   $$WordBooksTableTableManager get wordBooks =>
       $$WordBooksTableTableManager(_db, _db.wordBooks);
-  $$UserCategoriesTableTableManager get userCategories =>
-      $$UserCategoriesTableTableManager(_db, _db.userCategories);
-  $$CategoryWordsTableTableManager get categoryWords =>
-      $$CategoryWordsTableTableManager(_db, _db.categoryWords);
-  $$LeitnerCardsTableTableManager get leitnerCards =>
-      $$LeitnerCardsTableTableManager(_db, _db.leitnerCards);
-  $$ArchivLeitnerTableTableManager get archivLeitner =>
-      $$ArchivLeitnerTableTableManager(_db, _db.archivLeitner);
-  $$ArchivKategorienTableTableManager get archivKategorien =>
-      $$ArchivKategorienTableTableManager(_db, _db.archivKategorien);
-  $$ArchivKategorieWoerterTableTableManager get archivKategorieWoerter =>
-      $$ArchivKategorieWoerterTableTableManager(
-        _db,
-        _db.archivKategorieWoerter,
-      );
+  $$LeitnerFortschrittTableTableManager get leitnerFortschritt =>
+      $$LeitnerFortschrittTableTableManager(_db, _db.leitnerFortschritt);
+  $$DecksTableTableManager get decks =>
+      $$DecksTableTableManager(_db, _db.decks);
+  $$DeckWoerterTableTableManager get deckWoerter =>
+      $$DeckWoerterTableTableManager(_db, _db.deckWoerter);
   $$MitgliedschaftenTableTableManager get mitgliedschaften =>
       $$MitgliedschaftenTableTableManager(_db, _db.mitgliedschaften);
   $$GrammarLessonsTableTableManager get grammarLessons =>

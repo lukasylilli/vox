@@ -1,125 +1,242 @@
 // FILE: lib/core/database/dao/leitner_dao.dart
-// DEPS: app_database.dart (generated: LeitnerCard, LeitnerCardsCompanion)
-// PURPOSE: All CRUD + logic for the Leitner spaced-repetition system
+// PHASE: X.2 (2026-11-17) — Leitner wie Anki (docs/zukunft/PHASE_X.md)
+// DEPS: app_database.dart (Decks, DeckWoerter, LeitnerFortschritt),
+//       core/leitner/leitner_regeln.dart (die Regeln)
+// PURPOSE: Die EINE Stelle, die die drei Leitner-Tabellen liest und schreibt:
+//          Decks, Wort ↔ Deck, Fortschritt «Wort × Übung». Ersetzt den alten
+//          LeitnerDao (nur alte Wörter, Nummern als Schlüssel) und den
+//          CategoryDao (eigene Listen) — beides sind jetzt Decks.
 //
-// BOX INTERVALS: 1 | 2 | 4 | 8 | 16 days
-// Correct answer → advance box (max 5), nextReview = now + interval
-// Wrong answer   → reset to box 1,     nextReview = now + 1 day
+// Alle Schlüssel sind Text-ids (siehe app_database.dart). Jede bewusste
+// Handlung (Deck anlegen/löschen, Wort aufnehmen/entfernen) wird als
+// Mitgliedschaft festgehalten (S.5) — sonst käme sie beim Abgleich mit einem
+// anderen Gerät zurück.
+//
+// «Im Leitner» = Mitglied mindestens eines Decks mit Wiederholung. Der
+// Fortschritt wird beim Entfernen NIE gelöscht (Entscheidung Lukas
+// 2026-11-03): kommt das Wort wieder in ein Deck, geht es im selben Fach
+// weiter.
 import 'package:drift/drift.dart';
 
+import '../../backup/nutzer_zustand.dart'
+    show artListe, artListenwort, neueEigeneListenId;
+import '../../leitner/leitner_regeln.dart';
 import '../app_database.dart';
+
+LeitnerStand _stand(LeitnerFortschrittData z) => LeitnerStand(
+      wortId: z.wortId,
+      fach: z.fach,
+      naechsteWiederholung: z.naechsteWiederholung,
+      letzteWiederholung: z.letzteWiederholung,
+    );
 
 class LeitnerDao {
   LeitnerDao(this._db);
+
   final AppDatabase _db;
 
-  static const boxIntervals = [1, 2, 4, 8, 16]; // days per box (index = box-1)
+  // ── Decks ─────────────────────────────────────────────────────────────────
 
-  // ── Watch ─────────────────────────────────────────────────────────────────
+  SimpleSelectStatement<$DecksTable, Deck> get _decksGeordnet =>
+      _db.select(_db.decks)
+        ..orderBy([
+          (t) => OrderingTerm.asc(t.ordnung),
+          (t) => OrderingTerm.asc(t.name),
+          (t) => OrderingTerm.asc(t.id),
+        ]);
 
-  /// Cards due today (nextReview <= now), ordered by box ascending (most urgent first).
-  Stream<List<LeitnerCard>> watchDue() {
-    final now = DateTime.now();
-    return (_db.select(_db.leitnerCards)
-      ..where((t) => t.nextReview.isSmallerOrEqualValue(now))
-      ..orderBy([(t) => OrderingTerm.asc(t.boxNumber)]))
-        .watch();
+  Stream<List<Deck>> decksBeobachten() => _decksGeordnet.watch();
+
+  Future<List<Deck>> decks() => _decksGeordnet.get();
+
+  Future<Deck?> deck(String id) =>
+      (_db.select(_db.decks)..where((t) => t.id.equals(id))).getSingleOrNull();
+
+  /// Legt ein Deck an. Ohne [id] bekommt es eine neue feste id
+  /// ([neueEigeneListenId]); mit [id] wird ein vorhandenes Deck nicht
+  /// verändert (mehrfach ausführbar).
+  Future<Deck> deckAnlegen(
+    String name, {
+    String? id,
+    String? elternId,
+    String modus = deckModusNotiz,
+  }) async {
+    final deckId = id ?? neueEigeneListenId();
+    final da = await deck(deckId);
+    if (da != null) return da;
+    final jetzt = DateTime.now().millisecondsSinceEpoch;
+    await _db.into(_db.decks).insert(DecksCompanion.insert(
+          id: deckId,
+          name: name.trim(),
+          elternId: Value(elternId),
+          modus: Value(modus),
+          nameAmMs: Value(jetzt),
+          standAmMs: Value(jetzt),
+        ));
+    await _db.mitgliedschaftMerken(artListe, deckId, drin: true);
+    return (await deck(deckId))!;
   }
 
-  Stream<List<LeitnerCard>> watchAll() =>
-      (_db.select(_db.leitnerCards)
-        ..orderBy([(t) => OrderingTerm.asc(t.boxNumber)]))
-          .watch();
+  /// Das Deck, in das der Leitner-Knopf legt, solange kein anderes gewählt
+  /// ist — der Stapel von vor X.2. Wird beim ersten Gebrauch angelegt.
+  Future<Deck> standardDeck() => deckAnlegen(standardDeckName,
+      id: standardDeckId, modus: deckModusWiederholen);
 
-  Stream<List<LeitnerCard>> watchByBox(int box) =>
-      (_db.select(_db.leitnerCards)
-        ..where((t) => t.boxNumber.equals(box)))
-          .watch();
+  Future<void> deckUmbenennen(String id, String name) =>
+      (_db.update(_db.decks)..where((t) => t.id.equals(id))).write(
+        DecksCompanion(
+          name: Value(name.trim()),
+          nameAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+        ),
+      );
 
-  // ── Fetch ─────────────────────────────────────────────────────────────────
-
-  Future<List<LeitnerCard>> getDue() {
-    final now = DateTime.now();
-    return (_db.select(_db.leitnerCards)
-      ..where((t) => t.nextReview.isSmallerOrEqualValue(now))
-      ..orderBy([(t) => OrderingTerm.asc(t.boxNumber)]))
-        .get();
+  /// Löscht ein Deck: seine Wörter verlassen es (ihr Fortschritt bleibt),
+  /// seine Subdecks rücken eine Ebene nach oben.
+  Future<void> deckLoeschen(String id) async {
+    final weg = await deck(id);
+    if (weg == null) return;
+    await _db.transaction(() async {
+      await (_db.update(_db.decks)..where((t) => t.elternId.equals(id))).write(
+        DecksCompanion(
+          elternId: Value(weg.elternId),
+          standAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+        ),
+      );
+      await (_db.delete(_db.deckWoerter)..where((t) => t.deckId.equals(id)))
+          .go();
+      await (_db.delete(_db.decks)..where((t) => t.id.equals(id))).go();
+      await _db.mitgliedschaftMerken(artListe, id, drin: false);
+    });
   }
 
-  Future<LeitnerCard?> getByWordId(int wordId) =>
-      (_db.select(_db.leitnerCards)
-        ..where((t) => t.wordId.equals(wordId)))
-          .getSingleOrNull();
+  // ── Wort ↔ Deck ───────────────────────────────────────────────────────────
 
-  Future<bool> isInLeitner(int wordId) async =>
-      (await getByWordId(wordId)) != null;
+  Stream<List<DeckWoerterData>> zuordnungenBeobachten() =>
+      (_db.select(_db.deckWoerter)
+            ..orderBy([
+              (t) => OrderingTerm.asc(t.hinzuMs),
+              (t) => OrderingTerm.asc(t.rowId), // gleiche Millisekunde ⇒ Einfügefolge
+            ]))
+          .watch();
 
-  /// Returns map: boxNumber → count (always has keys 1-5).
-  Future<Map<int, int>> countsByBox() async {
-    final all = await _db.select(_db.leitnerCards).get();
-    final map = {for (var i = 1; i <= 5; i++) i: 0};
-    for (final card in all) {
-      map[card.boxNumber] = (map[card.boxNumber] ?? 0) + 1;
+  /// Wörter eines Decks, in der Reihenfolge der Aufnahme.
+  Stream<List<String>> deckWoerterBeobachten(String deckId) =>
+      (_db.select(_db.deckWoerter)
+            ..where((t) => t.deckId.equals(deckId))
+            ..orderBy([
+              (t) => OrderingTerm.asc(t.hinzuMs),
+              (t) => OrderingTerm.asc(t.rowId), // gleiche Millisekunde ⇒ Einfügefolge
+            ]))
+          .watch()
+          .map((z) => [for (final e in z) e.wortId]);
+
+  Future<Set<String>> deckIdsVonWort(String wortId) async => {
+        for (final z in await (_db.select(_db.deckWoerter)
+              ..where((t) => t.wortId.equals(wortId)))
+            .get())
+          z.deckId,
+      };
+
+  /// Nimmt [wortId] in das Deck auf ([drin] wahr) oder entfernt es daraus.
+  /// Der Fortschritt des Worts bleibt in beiden Fällen unberührt.
+  Future<void> wortSetzen(String deckId, String wortId, bool drin) async {
+    if (drin) {
+      await _db.into(_db.deckWoerter).insert(
+            DeckWoerterCompanion.insert(
+              deckId: deckId,
+              wortId: wortId,
+              hinzuMs: Value(DateTime.now().millisecondsSinceEpoch),
+            ),
+            mode: InsertMode.insertOrIgnore,
+          );
+    } else {
+      await (_db.delete(_db.deckWoerter)
+            ..where((t) => t.deckId.equals(deckId) & t.wortId.equals(wortId)))
+          .go();
     }
-    return map;
+    await _db.mitgliedschaftMerken(artListenwort, deckId,
+        wort: wortId, drin: drin);
   }
 
-  Future<int> countDue() async {
-    final now = DateTime.now();
-    return (_db.select(_db.leitnerCards)
-      ..where((t) => t.nextReview.isSmallerOrEqualValue(now)))
-        .get()
-        .then((l) => l.length);
+  // ── «Im Leitner» ──────────────────────────────────────────────────────────
+
+  JoinedSelectStatement<HasResultSet, dynamic> get _imLeitner =>
+      _db.select(_db.deckWoerter).join([
+        innerJoin(_db.decks, _db.decks.id.equalsExp(_db.deckWoerter.deckId)),
+      ])
+        ..where(_db.decks.modus.equals(deckModusWiederholen))
+        ..orderBy([
+          OrderingTerm.asc(_db.deckWoerter.hinzuMs),
+          OrderingTerm.asc(_db.deckWoerter.rowId),
+        ]);
+
+  /// Alle Wörter in Decks mit Wiederholung, jedes einmal, in der Reihenfolge
+  /// der Aufnahme.
+  Stream<List<String>> imLeitnerBeobachten() => _imLeitner.watch().map((z) => {
+        for (final r in z) r.readTable(_db.deckWoerter).wortId,
+      }.toList());
+
+  Future<bool> istImLeitner(String wortId) async =>
+      (await (_imLeitner..where(_db.deckWoerter.wortId.equals(wortId))).get())
+          .isNotEmpty;
+
+  /// Leitner-Knopf «rein»: ins Standard-Deck.
+  Future<void> aufnehmen(String wortId) async {
+    final ziel = await standardDeck();
+    await wortSetzen(ziel.id, wortId, true);
   }
 
-  // ── Mutate ────────────────────────────────────────────────────────────────
-
-  /// Adds a word to box 1 with nextReview = tomorrow.
-  /// Safe to call multiple times — uses upsert (no duplicates).
-  Future<void> addWord(int wordId) async {
-    final tomorrow = DateTime.now().add(const Duration(days: 1));
-    await _db.into(_db.leitnerCards).insertOnConflictUpdate(
-      LeitnerCardsCompanion.insert(
-        wordId    : wordId,
-        nextReview: tomorrow,
-      ),
-    );
-    // S.5: bewusste Handlung — für den Abgleich festhalten.
-    await _db.leitnerMerken(wordId, drin: true);
+  /// Leitner-Knopf «raus»: aus JEDEM Deck mit Wiederholung — danach ist das
+  /// Wort nicht mehr im Leitner. Notizbuch-Decks behalten es.
+  Future<void> entfernen(String wortId) async {
+    final treffer = await (_imLeitner
+          ..where(_db.deckWoerter.wortId.equals(wortId)))
+        .get();
+    for (final r in treffer) {
+      await wortSetzen(r.readTable(_db.deckWoerter).deckId, wortId, false);
+    }
   }
 
-  Future<void> markCorrect(LeitnerCard card) {
-    final newBox  = (card.boxNumber + 1).clamp(1, 5);
-    final days    = boxIntervals[newBox - 1];
-    final next    = DateTime.now().add(Duration(days: days));
-    return (_db.update(_db.leitnerCards)
-      ..where((t) => t.id.equals(card.id)))
-        .write(LeitnerCardsCompanion(
-          boxNumber : Value(newBox),
-          nextReview: Value(next),
-          lastReview: Value(DateTime.now()),
-        ));
-  }
+  // ── Fortschritt «Wort × Übung» ────────────────────────────────────────────
 
-  Future<void> markWrong(LeitnerCard card) {
-    final next = DateTime.now().add(const Duration(days: 1));
-    return (_db.update(_db.leitnerCards)
-      ..where((t) => t.id.equals(card.id)))
-        .write(LeitnerCardsCompanion(
-          boxNumber : const Value(1),
-          nextReview: Value(next),
-          lastReview: Value(DateTime.now()),
-        ));
-  }
+  Stream<Map<String, LeitnerStand>> fortschrittBeobachten(String uebung) =>
+      (_db.select(_db.leitnerFortschritt)
+            ..where((t) => t.uebung.equals(uebung)))
+          .watch()
+          .map((z) => {for (final e in z) e.wortId: _stand(e)});
 
-  Future<int> removeCard(int cardId) async {
-    // S.5: vor dem Löschen festhalten — danach ist das Wort nicht mehr
-    // über die Karte auffindbar.
-    final karte = await (_db.select(_db.leitnerCards)
-          ..where((t) => t.id.equals(cardId)))
+  Future<LeitnerStand?> fortschritt(String wortId, String uebung) async {
+    final z = await (_db.select(_db.leitnerFortschritt)
+          ..where((t) => t.wortId.equals(wortId) & t.uebung.equals(uebung)))
         .getSingleOrNull();
-    if (karte != null) await _db.leitnerMerken(karte.wordId, drin: false);
-    return (_db.delete(_db.leitnerCards)..where((t) => t.id.equals(cardId)))
-        .go();
+    return z == null ? null : _stand(z);
   }
+
+  /// Legt den Stand eines Worts in einer Übung ab (anlegen oder ersetzen).
+  Future<void> fortschrittSetzen(String uebung, LeitnerStand stand) =>
+      _db.into(_db.leitnerFortschritt).insertOnConflictUpdate(
+            LeitnerFortschrittCompanion.insert(
+              wortId: stand.wortId,
+              uebung: uebung,
+              fach: Value(stand.fach),
+              naechsteWiederholung: Value(stand.naechsteWiederholung),
+              letzteWiederholung: Value(stand.letzteWiederholung),
+            ),
+          );
+
+  /// Ergebnis einer Wiederholung (Regeln: leitner_regeln.dart): gewusst ⇒ ein
+  /// Fach weiter, aus dem 7. Fach ⇒ gelernt; nicht gewusst ⇒ Fach 1.
+  Future<LeitnerStand> bewerten(String wortId, String uebung,
+      {required bool gewusst, DateTime? jetzt}) async {
+    final zeit = jetzt ?? DateTime.now();
+    final neu = gewusst
+        ? nachRichtig(wortId, await fortschritt(wortId, uebung), zeit)
+        : nachFalsch(wortId, zeit);
+    await fortschrittSetzen(uebung, neu);
+    return neu;
+  }
+
+  /// Von Hand zurück in Fach 1 (auch ein gelerntes Wort) — «wieder lernen».
+  Future<void> zuruecklegen(String wortId, String uebung, {DateTime? jetzt}) =>
+      fortschrittSetzen(uebung, nachFalsch(wortId, jetzt ?? DateTime.now()));
 }

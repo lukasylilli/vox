@@ -103,7 +103,8 @@ class CloudAbgleich {
       var stand = lokal;
       var lokalGeaendert = false;
       if (fern != null) {
-        final eingehend = NutzerZustand.vonJson(fern.payload);
+        final eingehend =
+            NutzerZustand.vonJson(fern.payload, version: fern.version);
         final zusammen = lokal.zusammenfuehren(eingehend);
         if (!gleich(zusammen.toJson(), lokal.toJson())) {
           stand = await _repo.anwenden(eingehend);

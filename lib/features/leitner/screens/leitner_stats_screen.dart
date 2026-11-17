@@ -1,6 +1,7 @@
 // FILE: lib/features/leitner/screens/leitner_stats_screen.dart
 // DEPS: leitner_controller.dart, box_progress_widget.dart
 // PURPOSE: Leitner statistics — total cards, box distribution, upcoming reviews
+import 'package:vox/core/leitner/leitner_regeln.dart' show leitnerFaecher;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -53,9 +54,9 @@ class LeitnerStatsScreen extends ConsumerWidget {
               ),
               const SizedBox(width: AppSizes.sm),
               _StatChip(
-                label  : AppL10n.t(context, 'box_five'),
-                valueAsync: countsAsync.when(
-                  data   : (m) => '${m[5] ?? 0}',
+                label  : AppL10n.t(context, 'leitner_gelernt'),
+                valueAsync: ref.watch(gelerntCountProvider).when(
+                  data   : (n) => '$n',
                   loading: () => '...',
                   error  : (_, _) => '-',
                 ),
@@ -83,7 +84,7 @@ class LeitnerStatsScreen extends ConsumerWidget {
             data   : (counts) {
               final total = counts.values.fold(0, (a, b) => a + b);
               return Column(
-                children: List.generate(5, (i) {
+                children: List.generate(leitnerFaecher, (i) {
                   final box      = i + 1;
                   final count    = counts[box] ?? 0;
                   final fraction = total == 0 ? 0.0 : count / total;

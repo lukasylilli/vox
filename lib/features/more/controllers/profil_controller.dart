@@ -9,6 +9,7 @@
 //    فاز S: „drei Orte, EIN Zuhause") und reisen von dort in die Sicherungs-
 //    Datei und — nur bei angemeldetem Konto — in die eigene Zeile von
 //    `vox_backups`. Nichts davon geht an Root-in oder in `profiles`.
+import '../../../core/leitner/leitner_regeln.dart' show anzeigeFach;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -84,16 +85,20 @@ final archivUebersichtProvider =
   final zustand =
       await UserStateRepository(ref.read(databaseProvider), prefs).lesen();
 
+  // X.2: «im Leitner» = in einem Deck mit Wiederholung; das Fach kommt aus
+  // dem Fortschritt der Übung «Bedeutung» (neu = Fach 1).
+  final imLeitner = zustand.imLeitner;
   final zaehler = <int, int>{};
-  for (final karte in zustand.leitner.values) {
-    zaehler[karte.fach] = (zaehler[karte.fach] ?? 0) + 1;
+  for (final wortId in imLeitner) {
+    final fach = anzeigeFach(zustand.leitner[wortId]);
+    zaehler[fach] = (zaehler[fach] ?? 0) + 1;
   }
   final faecher = zaehler.keys.toList()..sort();
 
   return ArchivUebersicht(
-    leitnerKarten: zustand.leitner.length,
+    leitnerKarten: imLeitner.length,
     proFach: {for (final f in faecher) f: zaehler[f]!},
-    listen: zustand.kategorien.length,
+    listen: zustand.kategorien.where((k) => !k.wiederholen).length,
     notizen: zustand.notizen.length,
     eigeneWoerter: zustand.eigeneWoerter.length,
   );

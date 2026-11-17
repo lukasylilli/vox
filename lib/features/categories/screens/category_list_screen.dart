@@ -1,5 +1,6 @@
 // FILE: lib/features/categories/screens/category_list_screen.dart
-// DEPS: category_controller.dart, category_dao.dart, app_routes.dart
+// DEPS: category_controller.dart, leitner_dao.dart, app_routes.dart
+// X.2: Kategorien sind Decks (Text-id) — siehe category_controller.dart
 // PURPOSE: List of all user categories + create/delete/rename actions
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -8,6 +9,7 @@ import 'package:go_router/go_router.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../leitner/controllers/leitner_controller.dart';
 import '../controllers/category_controller.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -35,7 +37,7 @@ class CategoryListScreen extends ConsumerWidget {
                       backgroundColor: Theme.of(context)
                           .colorScheme
                           .primaryContainer,
-                      child: Text(cat.name[0].toUpperCase(),
+                      child: Text(cat.name.isEmpty ? '?' : cat.name[0].toUpperCase(),
                         style: TextStyle(
                           color: Theme.of(context).colorScheme.onPrimaryContainer,
                           fontWeight: FontWeight.w700,
@@ -58,7 +60,7 @@ class CategoryListScreen extends ConsumerWidget {
                       ],
                     ),
                     onTap: () => context.push(
-                      '${AppRoutes.wortschatzCategories}/${cat.id}',
+                      '${AppRoutes.wortschatzCategories}/${Uri.encodeComponent(cat.id)}',
                       extra: cat.name,
                     ),
                   );
@@ -98,13 +100,12 @@ class CategoryListScreen extends ConsumerWidget {
       ),
     );
     if (name != null && name.isNotEmpty) {
-      await ref.read(categoryDaoProvider).insertCategory(name);
-      ref.invalidate(allCategoriesProvider);
+      await ref.read(leitnerDaoProvider).deckAnlegen(name);
     }
   }
 
   Future<void> _rename(
-      BuildContext context, WidgetRef ref, int id, String current) async {
+      BuildContext context, WidgetRef ref, String id, String current) async {
     final ctrl = TextEditingController(text: current);
     final name = await showDialog<String>(
       context: context,
@@ -129,13 +130,12 @@ class CategoryListScreen extends ConsumerWidget {
       ),
     );
     if (name != null && name.isNotEmpty && name != current) {
-      await ref.read(categoryDaoProvider).updateCategory(id, name);
-      ref.invalidate(allCategoriesProvider);
+      await ref.read(leitnerDaoProvider).deckUmbenennen(id, name);
     }
   }
 
   Future<void> _delete(
-      BuildContext context, WidgetRef ref, int id, String name) async {
+      BuildContext context, WidgetRef ref, String id, String name) async {
     final confirmed = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
@@ -154,8 +154,7 @@ class CategoryListScreen extends ConsumerWidget {
       ),
     );
     if (confirmed == true) {
-      await ref.read(categoryDaoProvider).deleteCategory(id);
-      ref.invalidate(allCategoriesProvider);
+      await ref.read(leitnerDaoProvider).deckLoeschen(id);
     }
   }
 }

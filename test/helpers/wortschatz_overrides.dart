@@ -19,8 +19,7 @@ List<Override> wortschatzGruppenOverrides({
       allBooksProvider.overrideWith((ref) => Stream.value(<Book>[])),
       alleWortBuecherProvider
           .overrideWith((ref) => Stream.value(<WordBook>[])),
-      allCategoriesProvider
-          .overrideWith((ref) => Stream.value(<UserCategory>[])),
-      alleKategorieWoerterProvider
-          .overrideWith((ref) => Stream.value(<CategoryWord>[])),
+      allCategoriesProvider.overrideWith((ref) async => <Deck>[]),
+      deckZuordnungenProvider
+          .overrideWith((ref) => Stream.value(<DeckWoerterData>[])),
     ];

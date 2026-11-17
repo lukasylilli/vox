@@ -1,11 +1,13 @@
 // FILE: lib/features/categories/widgets/add_to_category_sheet.dart
-// DEPS: category_controller.dart, category_dao.dart
+// DEPS: category_controller.dart, leitner_dao.dart
+// X.2: Kategorien sind Decks; das alte Wort wird über seine Text-id geführt.
 // PURPOSE: Bottom sheet — shows all categories with checkboxes, toggles membership
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../leitner/controllers/leitner_controller.dart';
 import '../controllers/category_controller.dart';
 import '../../../core/widgets/vox_button.dart';
 
@@ -29,7 +31,11 @@ class _AddToCategorySheet extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final categoriesAsync = ref.watch(allCategoriesProvider);
-    final memberAsync     = ref.watch(categoryIdsForWordProvider(wordId));
+    // Nummer des alten Worts ⇒ Text-id, mit der die Decks es kennen.
+    final wortId          = ref.watch(altWortIdProvider(wordId)).valueOrNull;
+    final memberAsync     = wortId == null
+        ? const AsyncValue<Set<String>>.loading()
+        : ref.watch(deckIdsVonWortProvider(wortId));
     final theme           = Theme.of(context);
 
     return DraggableScrollableSheet(
@@ -102,15 +108,10 @@ class _AddToCategorySheet extends ConsumerWidget {
     );
   }
 
-  Future<void> _toggle(WidgetRef ref, int categoryId, bool isIn) async {
-    final dao = ref.read(categoryDaoProvider);
-    if (isIn) {
-      await dao.removeWordFromCategory(categoryId, wordId);
-    } else {
-      await dao.addWordToCategory(categoryId, wordId);
-    }
-    ref.invalidate(categoryIdsForWordProvider(wordId));
-    ref.invalidate(wordsByCategoryProvider(categoryId));
+  Future<void> _toggle(WidgetRef ref, String deckId, bool isIn) async {
+    final wortId = await ref.read(altWortIdProvider(wordId).future);
+    if (wortId == null) return;
+    await ref.read(leitnerDaoProvider).wortSetzen(deckId, wortId, !isIn);
   }
 
   Future<void> _createNew(BuildContext context, WidgetRef ref) async {
@@ -138,11 +139,10 @@ class _AddToCategorySheet extends ConsumerWidget {
       ),
     );
     if (name != null && name.isNotEmpty) {
-      final dao = ref.read(categoryDaoProvider);
-      final id  = await dao.insertCategory(name);
-      await dao.addWordToCategory(id, wordId);
-      ref.invalidate(allCategoriesProvider);
-      ref.invalidate(categoryIdsForWordProvider(wordId));
+      final dao    = ref.read(leitnerDaoProvider);
+      final wortId = await ref.read(altWortIdProvider(wordId).future);
+      final deck   = await dao.deckAnlegen(name);
+      if (wortId != null) await dao.wortSetzen(deck.id, wortId, true);
     }
   }
 }

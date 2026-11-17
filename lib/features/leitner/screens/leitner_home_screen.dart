@@ -1,6 +1,7 @@
 // FILE: lib/features/leitner/screens/leitner_home_screen.dart
 // DEPS: leitner_controller.dart, box_progress_widget.dart, app_routes.dart
-// PURPOSE: Leitner overview — due count banner, 5-box grid, Start Review button
+// PURPOSE: Leitner overview — due count banner, 7-box grid, Start Review button
+import 'package:vox/core/leitner/leitner_regeln.dart' show leitnerFaecher;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -59,7 +60,7 @@ class LeitnerHomeScreen extends ConsumerWidget {
             loading: () => const SizedBox.shrink(),
             error  : (_, _) => const SizedBox.shrink(),
             data   : (counts) => Column(
-              children: List.generate(5, (i) {
+              children: List.generate(leitnerFaecher, (i) {
                 final box   = i + 1;
                 final count = counts[box] ?? 0;
                 final interval = boxIntervals[i];

@@ -12,6 +12,11 @@
 // `drift_dev schema dump` darauf laufen (drift_schemas/), daraus entstehen
 // die Hilfsdateien in test/generated_migrations/.
 //
+// X.2 (2026-11-17, Fassung 8): sechs alte Tabellen ⇒ drei neue
+// (LeitnerFortschritt, Decks, DeckWoerter). Dieser Test ist der Wächter
+// dafür, dass dabei KEIN Fach, kein Termin, keine Liste und kein Ereignis
+// verloren geht — aus jeder je veröffentlichten Fassung.
+//
 // Fassung 1 gab es in diesem Repository nie — die Geschichte beginnt am
 // 2026-09-13 mit Fassung 2 (erste Web-Veröffentlichung). Siehe PLAN.md → L.1b.
 import 'dart:io';
@@ -20,6 +25,7 @@ import 'package:drift/native.dart';
 import 'package:drift_dev/api/migrations_native.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:vox/core/backup/nutzer_zustand.dart';
 import 'package:vox/core/backup/user_state_repository.dart';
 import 'package:vox/core/database/app_database.dart';
 
@@ -87,6 +93,11 @@ void main() {
       if (von >= 6) {
         roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
             "VALUES ('liste', 'eigen:Reise', '', 1, 1789000000000)");
+        // Vor X.2: «in den Stapel» / «aus dem Stapel» je Wort.
+        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
+            "VALUES ('leitner', 'adjektiv_stolz', '', 1, 1789000000001)");
+        roh.execute("INSERT INTO mitgliedschaften (art, schluessel, wort, drin, am_ms) "
+            "VALUES ('leitner', 'adjektiv_alt', '', 0, 1789000000002)");
       }
 
       // ── Heben und Schema prüfen ─────────────────────────────────────────
@@ -95,12 +106,19 @@ void main() {
       await verifier.migrateAndValidate(db, zielFassung,
           options: const ValidationOptions(validateDropped: true));
 
-      // ── Lernstand ───────────────────────────────────────────────────────
-      final karte = await db.select(db.leitnerCards).getSingle();
-      expect(karte.boxNumber, 4);
-      expect(karte.nextReview.toUtc(),
+      // ── Lernstand ────────────────────────────────────────────────────────
+      // Die alten Tabellen sind weg (validateDropped oben) — ihr Inhalt
+      // steht in den neuen.
+      final fortschritt = {
+        for (final z in await db.select(db.leitnerFortschritt).get())
+          z.wortId: z,
+      };
+      final karte = fortschritt['eigen:Feierabend|nomen']!;
+      expect(karte.uebung, uebungBedeutung);
+      expect(karte.fach, 4);
+      expect(karte.naechsteWiederholung!.toUtc(),
           DateTime.fromMillisecondsSinceEpoch(faelligSek * 1000, isUtc: true));
-      expect(karte.lastReview, isNotNull);
+      expect(karte.letzteWiederholung, isNotNull);
 
       SharedPreferences.setMockInitialValues({});
       final zustand = await UserStateRepository(
@@ -111,15 +129,39 @@ void main() {
       expect(reise.id, 'eigen:Reise',
           reason: 'alte Listen behalten ihre id (S.6)');
       expect(reise.wortIds, ['eigen:Feierabend|nomen']);
+      // Der bisherige Stapel ist das Deck «Leitner», mit Wiederholung.
+      final stapel =
+          zustand.kategorien.singleWhere((k) => k.id == standardDeckId);
+      expect(stapel.wiederholen, isTrue);
+      expect(stapel.wortIds, contains('eigen:Feierabend|nomen'));
+      expect(reise.wiederholen, isFalse,
+          reason: 'eigene Listen werden Notizbücher — keine ungewollte '
+              'Wiederholung');
       if (von >= 3) {
         expect(zustand.leitner['adjektiv_stolz']!.fach, 5);
+        expect(stapel.wortIds, contains('adjektiv_stolz'));
+        expect(zustand.imLeitner,
+            {'eigen:Feierabend|nomen', 'adjektiv_stolz'});
       }
       if (von >= 4) {
         expect(zustand.kategorien.singleWhere((k) => k.id == 'kat_1').wortIds,
             ['adjektiv_stolz']);
       }
       if (von >= 6) {
-        expect(zustand.mitgliedschaften.values.single.id, 'eigen:Reise');
+        final m = zustand.mitgliedschaften;
+        expect(m[mitgliedschaftsSchluessel(artListe, 'eigen:Reise')]!.drin,
+            isTrue);
+        // «Stapel»-Ereignisse hängen jetzt am Deck «Leitner».
+        expect(
+            m[mitgliedschaftsSchluessel(
+                    artListenwort, standardDeckId, 'adjektiv_stolz')]!
+                .drin,
+            isTrue);
+        final raus = m[mitgliedschaftsSchluessel(
+            artListenwort, standardDeckId, 'adjektiv_alt')]!;
+        expect(raus.drin, isFalse);
+        expect(raus.am.millisecondsSinceEpoch, 1789000000002);
+        expect(m, hasLength(3));
       }
     });
   }

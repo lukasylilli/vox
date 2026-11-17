@@ -15,7 +15,6 @@ import 'package:vox/core/backup/nutzer_profil.dart';
 import 'package:vox/core/backup/nutzer_zustand.dart';
 import 'package:vox/core/backup/user_state_repository.dart';
 import 'package:vox/core/database/app_database.dart';
-import 'package:vox/core/database/dao/category_dao.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
@@ -261,21 +260,21 @@ void main() {
       () async {
     // Beide Geräte haben dasselbe Wort im Stapel …
     final a = await geraet();
-    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    await a.leitner.aufnehmen('verb_helfen');
     final b = await geraet();
     await b.anwenden(await a.lesen());
-    expect((await b.lesen()).leitner.keys, contains('verb_helfen'));
+    expect((await b.lesen()).imLeitner, contains('verb_helfen'));
 
     // … A entfernt es später bewusst (mindestens 1 ms später — die Ereignisse
     // tragen Millisekunden) …
     await Future<void>.delayed(const Duration(milliseconds: 5));
-    await a.archivLeitnerEntfernen('verb_helfen');
+    await a.leitner.entfernen('verb_helfen');
 
     // … nach dem Abgleich ist es auch auf B weg — und kommt nicht zurück.
     await b.anwenden(await a.lesen());
-    expect((await b.lesen()).leitner.keys, isNot(contains('verb_helfen')));
+    expect((await b.lesen()).imLeitner, isNot(contains('verb_helfen')));
     await a.anwenden(await b.lesen());
-    expect((await a.lesen()).leitner.keys, isNot(contains('verb_helfen')));
+    expect((await a.lesen()).imLeitner, isNot(contains('verb_helfen')));
   });
 
   test('S.5: App-Wörter wandern nicht in die Sicherung, Verweise schon',
@@ -320,19 +319,15 @@ void main() {
       {'german': 'Bank', 'wordType': 'nomen', 'meaningFa': 'بانک'},
       {'german': 'Zug', 'wordType': 'nomen', 'meaningFa': 'قطار'},
     ]));
-    final listeA = await CategoryDao(dbA).insertCategory('Reise');
+    await a.leitner.deckAnlegen('Reise');
     final id = (await a.lesen()).kategorien.single.id;
     expect(id, startsWith('eigen:#'), reason: 'neue Listen: feste id');
     await b.anwenden(await a.lesen());
 
     // A benennt um; B legt — noch ohne Abgleich — ein Wort in die Liste.
     await Future<void>.delayed(const Duration(milliseconds: 5));
-    expect(await CategoryDao(dbA).updateCategory(listeA, 'Urlaub'), isTrue);
-    final listeB = (await CategoryDao(dbB).getAll()).single;
-    final zugB = await (dbB.select(dbB.words)
-          ..where((t) => t.german.equals('Zug')))
-        .getSingle();
-    await CategoryDao(dbB).addWordToCategory(listeB.id, zugB.id);
+    await a.leitner.deckUmbenennen(id, 'Urlaub');
+    await b.leitner.wortSetzen(id, 'eigen:Zug|nomen', true);
 
     // Abgleich in beide Richtungen.
     await a.anwenden(await b.lesen());
@@ -413,6 +408,99 @@ void main() {
       await repo.anwenden(NutzerZustand(
           profil: NutzerProfil(name: 'Alt', am: DateTime.utc(2026, 9, 1))));
       expect((await repo.lesen()).profil!.name, 'Neu');
+    });
+  });
+
+  // ── X.2: Leitner wie Anki ─────────────────────────────────────────────
+  group('X.2 — Decks und Fortschritt in der Ablage', () {
+    test('Sicherung aus Fassung 5 einspielen: Wörter sind im Leitner, im '
+        'selben Fach', () async {
+      final repo = await geraet();
+      final alt = sicherungLesen('''
+{"version":5,"app":"vox","payload":{"leitner":{
+  "adjektiv_stolz":{"wortId":"adjektiv_stolz","fach":4,
+    "naechsteWiederholung":"2026-11-20T00:00:00.000","letzteWiederholung":"2026-11-12T00:00:00.000"},
+  "verb_helfen":{"wortId":"verb_helfen","fach":1,"naechsteWiederholung":"2026-11-18T00:00:00.000","letzteWiederholung":null}},
+ "kategorien":[{"id":"kat_1","name":"Prüfung","wortIds":["adjektiv_stolz"]}]}}''');
+      await repo.anwenden(alt.zustand);
+
+      final z = await repo.lesen();
+      expect(z.imLeitner, {'adjektiv_stolz', 'verb_helfen'});
+      expect(z.leitner['adjektiv_stolz']!.fach, 4);
+      expect(z.leitner['adjektiv_stolz']!.naechsteWiederholung,
+          DateTime(2026, 11, 20));
+      expect(z.kategorien.singleWhere((k) => k.id == 'kat_1').wortIds,
+          ['adjektiv_stolz']);
+      expect((await repo.leitner.imLeitnerBeobachten().first).toSet(),
+          {'adjektiv_stolz', 'verb_helfen'});
+      // Zweimal einspielen ändert nichts.
+      final vorher = z.toJson();
+      await repo.anwenden(alt.zustand);
+      expect((await repo.lesen()).toJson(), vorher);
+    });
+
+    test('Altbestand aus SharedPreferences (vor S.0b): Fach UND Platz im '
+        'Leitner werden übernommen', () async {
+      final repo = await geraet(prefs: {
+        'vokab_user_leitner_v1':
+            '{"adjektiv_stolz":{"box":3,"nextReviewDate":"2026-10-01T00:00:00.000"}}',
+      });
+      expect((await repo.lesen()).imLeitner, {'adjektiv_stolz'});
+      await repo.uebergangAbschliessen();
+      final prefs = await SharedPreferences.getInstance();
+      expect(prefs.containsKey('vokab_user_leitner_v1'), isFalse);
+      final z = await repo.lesen();
+      expect(z.imLeitner, {'adjektiv_stolz'});
+      expect(z.leitner['adjektiv_stolz']!.fach, 3);
+    });
+
+    test('Deck-Baum, Einstellungen und Übungen überleben den Weg zu einem '
+        'zweiten Gerät', () async {
+      final a = await geraet();
+      final b = await geraet();
+      final oben =
+          await a.leitner.deckAnlegen('Deutsch', modus: deckModusWiederholen);
+      final unten = await a.leitner.deckAnlegen('A1',
+          elternId: oben.id, modus: deckModusWiederholen);
+      await a.leitner.wortSetzen(unten.id, 'nomen_tisch', true);
+      await a.leitner.wortSetzen(unten.id, 'nomen_stuhl', true);
+      await a.leitner.bewerten('nomen_tisch', uebungBedeutung, gewusst: true);
+      await a.leitner.bewerten('nomen_tisch', 'artikel', gewusst: false);
+
+      await b.anwenden(await a.lesen());
+      final z = await b.lesen();
+      expect(z.toJson(), (await a.lesen()).toJson());
+      final a1 = z.kategorien.singleWhere((k) => k.id == unten.id);
+      expect(a1.eltern, oben.id);
+      expect(a1.wiederholen, isTrue);
+      expect(a1.wortIds, ['nomen_tisch', 'nomen_stuhl'],
+          reason: 'Reihenfolge der Aufnahme bleibt');
+      expect(z.leitner['nomen_tisch']!.fach, 2);
+      expect(z.uebungen['artikel']!['nomen_tisch']!.fach, 1);
+      expect(z.imLeitner, {'nomen_tisch', 'nomen_stuhl'});
+    });
+
+    test('Deck auf Gerät A gelöscht ⇒ auf B weg, Fortschritt bleibt auf beiden',
+        () async {
+      final a = await geraet();
+      final b = await geraet();
+      final deck =
+          await a.leitner.deckAnlegen('A1', modus: deckModusWiederholen);
+      await a.leitner.wortSetzen(deck.id, 'nomen_tisch', true);
+      await a.leitner.bewerten('nomen_tisch', uebungBedeutung, gewusst: true);
+      await b.anwenden(await a.lesen());
+
+      await Future<void>.delayed(const Duration(milliseconds: 5));
+      await a.leitner.deckLoeschen(deck.id);
+      await b.anwenden(await a.lesen());
+      await a.anwenden(await b.lesen());
+
+      for (final repo in [a, b]) {
+        final z = await repo.lesen();
+        expect(z.kategorien, isEmpty);
+        expect(z.imLeitner, isEmpty);
+        expect(z.leitner['nomen_tisch']!.fach, 2);
+      }
     });
   });
 }

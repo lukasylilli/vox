@@ -222,13 +222,13 @@ dao/
   word_dao.dart     [x]  — watchAll، watchByLevel، watchByType، watchByBook (join)
                            getById، search (lower().like())، insert، update، delete
                            addToBook، removeFromBook، watchAllBooks، insertBook
-  leitner_dao.dart  [x]  — watchDue، watchAll، watchByBox، getDue، getByWordId
+  leitner_dao.dart  [x]  — X.2 (2026-11-17) بازنویسی: تنها دسترسی به Decks/DeckWoerter/LeitnerFortschritt (id متنی) — deckAnlegen/Umbenennen/Loeschen، wortSetzen، aufnehmen/entfernen، imLeitnerBeobachten، bewerten، zuruecklegen (قبلاً: watchDue، watchAll، watchByBox، getDue، getByWordId
                            isInLeitner، countsByBox، countDue
                            addWord (box1، nextReview=tomorrow)
                            markCorrect (advance+1، max 5، nextReview=now+interval)
                            markWrong (reset box=1، nextReview=tomorrow)
                            removeCard — static const boxIntervals = [1,2,4,8,16]
-  category_dao.dart [x]  — watchAll، getById، insertCategory، updateCategory
+  category_dao.dart [—]  — X.2 (2026-11-17) حذف شد: دسته‌بندی‌ها حالا Deck هستند ⇒ leitner_dao.dart
                            deleteCategory (cascade CategoryWords)
                            watchWordsByCategory، isWordInCategory، categoryIdsForWord
                            addWordToCategory، removeWordFromCategory
@@ -434,7 +434,7 @@ screens/
   leitner_stats_screen.dart  [x]  — _StatChip × 3 + BoxProgressWidget + LinearProgressIndicator
                                     جدول upcoming reviews (group by days)
 controllers/
-  leitner_controller.dart    [x]  — B-13 (2026-09-23): LeitnerEintrag (AppWortEintrag | ArchivEintrag)،
+  leitner_controller.dart    [x]  — X.2 (2026-11-17): یک پشته — imLeitnerProvider × leitnerFortschrittProvider ⇒ leitnerEintraegeProvider؛ boxCounts ۱–۷، gelerntCount؛ (B-13 قبلی: دو منبع AppWortEintrag | ArchivEintrag)،
                                     allLeitnerCardsProvider + archivLeitnerProvider ⇒ leitnerEintraegeProvider
                                     = **تنها فهرست** لایتنر؛ boxCountsProvider/dueCountProvider از آن مشتق و
                                     خودکار تازه می‌شوند. leitnerDaoProvider، isInLeitnerProvider، boxLabels، boxIntervals

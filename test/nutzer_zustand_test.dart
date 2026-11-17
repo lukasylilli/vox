@@ -232,26 +232,43 @@ void main() {
           mitgliedschaften: {m.schluessel: m},
         );
 
-    test('spätere Entfernung schlägt ein höheres Fach — in beide Richtungen', () {
-      final a = mitEreignis(ev(artLeitner, 'verb_helfen', true, t1),
-          leitner: {'verb_helfen': karte});
-      final b = mitEreignis(ev(artLeitner, 'verb_helfen', false, t2));
-      expect(a.zusammenfuehren(b).leitner, isEmpty);
-      expect(b.zusammenfuehren(a).leitner, isEmpty);
+    // X.2: «im Leitner» = Mitglied des Decks «Leitner»; der Fortschritt
+    // bleibt, auch wenn das Wort den Leitner verlässt.
+    const stapel = KategorieStand(
+        id: standardDeckId,
+        name: standardDeckName,
+        modus: deckModusWiederholen,
+        wortIds: ['verb_helfen']);
+    Mitgliedschaft imStapel(bool drin, DateTime am) =>
+        ev(artListenwort, standardDeckId, drin, am, 'verb_helfen');
+
+    test('spätere Entfernung nimmt das Wort aus dem Leitner — der Fortschritt '
+        'bleibt, in beide Richtungen', () {
+      final a = mitEreignis(imStapel(true, t1),
+          leitner: {'verb_helfen': karte}, kategorien: [stapel]);
+      final b = mitEreignis(imStapel(false, t2));
+      for (final z in [a.zusammenfuehren(b), b.zusammenfuehren(a)]) {
+        expect(z.imLeitner, isEmpty);
+        expect(z.leitner['verb_helfen']!.fach, 4,
+            reason: 'Entfernen kostet nie Fortschritt');
+      }
     });
 
     test('späteres Wiederaufnehmen schlägt eine ältere Entfernung', () {
-      final a = mitEreignis(ev(artLeitner, 'verb_helfen', true, t2),
-          leitner: {'verb_helfen': karte});
-      final b = mitEreignis(ev(artLeitner, 'verb_helfen', false, t1));
-      expect(a.zusammenfuehren(b).leitner['verb_helfen']!.fach, 4);
-      expect(b.zusammenfuehren(a).leitner['verb_helfen']!.fach, 4);
+      final a = mitEreignis(imStapel(true, t2),
+          leitner: {'verb_helfen': karte}, kategorien: [stapel]);
+      final b = mitEreignis(imStapel(false, t1));
+      for (final z in [a.zusammenfuehren(b), b.zusammenfuehren(a)]) {
+        expect(z.imLeitner, {'verb_helfen'});
+        expect(z.leitner['verb_helfen']!.fach, 4);
+      }
     });
 
     test('Eintrag ohne Ereignis ist älter als jede Entfernung', () {
-      const alt = NutzerZustand(leitner: {'verb_helfen': karte});
-      final weg = mitEreignis(ev(artLeitner, 'verb_helfen', false, t1));
-      expect(alt.zusammenfuehren(weg).leitner, isEmpty);
+      const alt = NutzerZustand(
+          leitner: {'verb_helfen': karte}, kategorien: [stapel]);
+      final weg = mitEreignis(imStapel(false, t1));
+      expect(alt.zusammenfuehren(weg).imLeitner, isEmpty);
     });
 
     test('ohne jedes Ereignis bleibt es beim Vereinigen (Fassung 1)', () {
@@ -263,8 +280,8 @@ void main() {
     });
 
     test('Gleichstand: „drin" gewinnt', () {
-      final rein = ev(artLeitner, 'x', true, t1);
-      final raus = ev(artLeitner, 'x', false, t1);
+      final rein = ev(artListenwort, 'x', true, t1);
+      final raus = ev(artListenwort, 'x', false, t1);
       expect(Mitgliedschaft.spaetere(rein, raus).drin, isTrue);
       expect(Mitgliedschaft.spaetere(raus, rein).drin, isTrue);
     });
@@ -371,6 +388,205 @@ void main() {
               '{"kategorien":[{"id":"eigen:Reise","name":"Reise","wortIds":[]}]}}')
           .zustand;
       expect(v2.kategorien.single.nameAm, isNull);
+    });
+  });
+
+  // ── X.2: Fassung 6 — Leitner wie Anki ─────────────────────────────────
+  group('X.2 — Fassung 6: Fortschritt je Übung, Decks', () {
+    final t1 = DateTime.utc(2026, 11, 1);
+    final t2 = DateTime.utc(2026, 11, 2);
+
+    // Eine Sicherung, wie Fassung 5 sie schrieb: «steht in leitner» hieß
+    // «ist im Stapel»; Entfernen war ein `leitner`-Ereignis.
+    const v5 = '''
+{"version":5,"app":"vox","payload":{
+  "leitner":{
+    "adjektiv_stolz":{"wortId":"adjektiv_stolz","fach":4,
+      "naechsteWiederholung":"2026-11-20T00:00:00.000","letzteWiederholung":"2026-11-12T00:00:00.000"},
+    "eigen:Bank|nomen":{"wortId":"eigen:Bank|nomen","fach":1,"naechsteWiederholung":null,"letzteWiederholung":null}},
+  "kategorien":[{"id":"kat_1","name":"Prüfung","wortIds":["adjektiv_stolz"]}],
+  "mitgliedschaften":[
+    {"art":"leitner","id":"adjektiv_stolz","wort":"","drin":true,"am":"2026-11-01T00:00:00.000Z"},
+    {"art":"leitner","id":"verb_fort","wort":"","drin":false,"am":"2026-11-02T00:00:00.000Z"},
+    {"art":"liste","id":"kat_1","wort":"","drin":true,"am":"2026-11-01T00:00:00.000Z"}]}}''';
+
+    test('Fassung 5 lesen: Stapel ⇒ Deck «Leitner», Ereignisse ⇒ am Deck, '
+        'Fächer unverändert', () {
+      final z = sicherungLesen(v5).zustand;
+      expect(z.leitner['adjektiv_stolz']!.fach, 4);
+      expect(z.leitner['adjektiv_stolz']!.naechsteWiederholung,
+          DateTime(2026, 11, 20));
+      final stapel = z.kategorien.singleWhere((k) => k.id == standardDeckId);
+      expect(stapel.wiederholen, isTrue);
+      expect(stapel.wortIds.toSet(), {'adjektiv_stolz', 'eigen:Bank|nomen'});
+      expect(z.imLeitner, {'adjektiv_stolz', 'eigen:Bank|nomen'});
+      final pruefung = z.kategorien.singleWhere((k) => k.id == 'kat_1');
+      expect(pruefung.wiederholen, isFalse,
+          reason: 'alte Listen sind Notizbücher');
+      expect(z.mitgliedschaften.keys.toSet(), {
+        mitgliedschaftsSchluessel(
+            artListenwort, standardDeckId, 'adjektiv_stolz'),
+        mitgliedschaftsSchluessel(artListenwort, standardDeckId, 'verb_fort'),
+        mitgliedschaftsSchluessel(artListe, 'kat_1'),
+      });
+      expect(
+          z.mitgliedschaften.values.any((m) => m.art == artLeitnerAlt), isFalse);
+    });
+
+    test('Fassung 5 + Fassung 5 zusammen = dasselbe wie vorher: Vereinigung, '
+        'spätere Entfernung gewinnt', () {
+      final a = sicherungLesen(v5).zustand;
+      final b = sicherungLesen(v5
+              .replaceFirst('"drin":true,"am":"2026-11-01T00:00:00.000Z"},\n    {"art":"leitner","id":"verb_fort"',
+                  '"drin":false,"am":"2026-11-05T00:00:00.000Z"},\n    {"art":"leitner","id":"verb_fort"'))
+          .zustand;
+      for (final z in [a.zusammenfuehren(b), b.zusammenfuehren(a)]) {
+        expect(z.imLeitner, {'eigen:Bank|nomen'},
+            reason: 'adjektiv_stolz wurde später entfernt');
+        expect(z.leitner['adjektiv_stolz']!.fach, 4,
+            reason: 'sein Fortschritt bleibt');
+      }
+    });
+
+    test('Fassung 6 schreibt und liest sich selbst: Übungen, Deck-Baum, '
+        'gelernt', () {
+      final z = NutzerZustand(
+        leitner: const {'a': LeitnerStand(wortId: 'a', fach: 8)},
+        uebungen: {
+          'artikel': {
+            'a': LeitnerStand(
+                wortId: 'a', fach: 2, naechsteWiederholung: t2, letzteWiederholung: t1),
+          },
+          'leer': const {},
+        },
+        kategorien: [
+          KategorieStand(
+              id: 'eigen:#1',
+              name: 'Deutsch',
+              modus: deckModusWiederholen,
+              neuProTag: 30,
+              standAm: t1),
+          KategorieStand(
+              id: 'eigen:#2',
+              name: 'A1',
+              eltern: 'eigen:#1',
+              modus: deckModusWiederholen,
+              ordnung: 2,
+              wortIds: const ['a'],
+              standAm: t2),
+        ],
+      );
+      final text = sicherungSchreiben(z);
+      final s = sicherungLesen(text);
+      expect(s.version, 6);
+      final g = s.zustand;
+      expect(g.leitner['a']!.gelernt, isTrue);
+      expect(g.uebungen.keys, ['artikel'], reason: 'leere Übung steht nicht drin');
+      expect(g.fortschritt('artikel')['a']!.fach, 2);
+      expect(g.fortschritt(uebungBedeutung)['a']!.fach, 8);
+      expect(g.fortschritt('gibt_es_nicht'), isEmpty);
+      final a1 = g.kategorien.singleWhere((k) => k.id == 'eigen:#2');
+      expect((a1.eltern, a1.modus, a1.ordnung, a1.neuProTag, a1.standAm),
+          ('eigen:#1', deckModusWiederholen, 2, null, t2));
+      expect(g.kategorien.singleWhere((k) => k.id == 'eigen:#1').neuProTag, 30);
+      expect(sicherungSchreiben(g, jetzt: DateTime(2026)),
+          sicherungSchreiben(z, jetzt: DateTime(2026)));
+    });
+
+    test('eine Liste von vor Fassung 6 ergibt denselben Text wie früher', () {
+      const liste = KategorieStand(id: 'kat_1', name: 'Prüfung', wortIds: ['x']);
+      expect(liste.toJson(), {'id': 'kat_1', 'name': 'Prüfung', 'wortIds': ['x']});
+      expect(const NutzerZustand().toJson().containsKey('uebungen'), isFalse);
+    });
+
+    test('unbekannter Modus ⇒ Notizbuch (nie ungewollte Wiederholung)', () {
+      final k = KategorieStand.vonJson(
+          {'id': 'x', 'name': 'X', 'modus': 'irgendwas'});
+      expect(k.wiederholen, isFalse);
+    });
+
+    test('Fortschritt jeder Übung: höchstes Fach gewinnt, je Übung getrennt',
+        () {
+      const a = NutzerZustand(leitner: {
+        'w': LeitnerStand(wortId: 'w', fach: 2)
+      }, uebungen: {
+        'artikel': {'w': LeitnerStand(wortId: 'w', fach: 6)},
+      });
+      const b = NutzerZustand(leitner: {
+        'w': LeitnerStand(wortId: 'w', fach: 5)
+      }, uebungen: {
+        'artikel': {'w': LeitnerStand(wortId: 'w', fach: 3)},
+        'schreiben': {'v': LeitnerStand(wortId: 'v', fach: 1)},
+      });
+      for (final z in [a.zusammenfuehren(b), b.zusammenfuehren(a)]) {
+        expect(z.leitner['w']!.fach, 5);
+        expect(z.uebungen['artikel']!['w']!.fach, 6);
+        expect(z.uebungen['schreiben']!['v']!.fach, 1);
+      }
+    });
+
+    test('Einstellungen eines Decks: die später geänderte Seite gewinnt '
+        'als Ganzes; Wörter werden vereinigt', () {
+      final alt = NutzerZustand(kategorien: [
+        KategorieStand(
+            id: 'd',
+            name: 'D',
+            modus: deckModusNotiz,
+            neuProTag: 5,
+            wortIds: const ['a'],
+            standAm: t1),
+      ]);
+      final neu = NutzerZustand(kategorien: [
+        KategorieStand(
+            id: 'd',
+            name: 'D',
+            modus: deckModusWiederholen,
+            ordnung: 3,
+            wortIds: const ['b'],
+            standAm: t2),
+      ]);
+      for (final z in [alt.zusammenfuehren(neu), neu.zusammenfuehren(alt)]) {
+        final d = z.kategorien.single;
+        expect((d.modus, d.neuProTag, d.ordnung, d.standAm),
+            (deckModusWiederholen, null, 3, t2));
+        expect(d.wortIds.toSet(), {'a', 'b'});
+      }
+    });
+
+    test('übergeordnetes Deck gelöscht ⇒ Subdeck rückt auf die oberste Ebene',
+        () {
+      final a = NutzerZustand(kategorien: const [
+        KategorieStand(id: 'oben', name: 'Oben'),
+        KategorieStand(id: 'unten', name: 'Unten', eltern: 'oben'),
+      ]);
+      final b = NutzerZustand(mitgliedschaften: {
+        mitgliedschaftsSchluessel(artListe, 'oben'):
+            Mitgliedschaft(art: artListe, id: 'oben', drin: false, am: t2),
+      });
+      final z = a.zusammenfuehren(b);
+      expect(z.kategorien.single.id, 'unten');
+      expect(z.kategorien.single.eltern, isNull);
+    });
+
+    test('ein gelöschtes eigenes Wort nimmt seinen Fortschritt in JEDER Übung '
+        'und seine Deck-Plätze mit', () {
+      const a = NutzerZustand(leitner: {
+        'eigen:Bank|nomen': LeitnerStand(wortId: 'eigen:Bank|nomen', fach: 3),
+      }, uebungen: {
+        'artikel': {
+          'eigen:Bank|nomen': LeitnerStand(wortId: 'eigen:Bank|nomen', fach: 2),
+        },
+      }, kategorien: [
+        KategorieStand(id: 'd', name: 'D', wortIds: ['eigen:Bank|nomen', 'x']),
+      ]);
+      final b = NutzerZustand(mitgliedschaften: {
+        mitgliedschaftsSchluessel(artWort, 'Bank|nomen'):
+            Mitgliedschaft(art: artWort, id: 'Bank|nomen', drin: false, am: t2),
+      });
+      final z = a.zusammenfuehren(b);
+      expect(z.leitner, isEmpty);
+      expect(z.uebungen, isEmpty);
+      expect(z.kategorien.single.wortIds, ['x']);
     });
   });
 }

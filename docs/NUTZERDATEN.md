@@ -98,7 +98,7 @@ die Fassade, die allein `NutzerZustand` nach außen zeigt.
 | `neueEigeneListenId()` (`nutzer_zustand.dart`) | neue id `eigen:#<32 Hex>` — nur `CategoryDao.insertCategory` ruft sie |
 | `KategorieStand.nameAm` | Vertrag v3: später vergebener Name gewinnt; ohne `nameAm` = älter als jede Umbenennung |
 | `CategoryDao.updateCategory` | Umbenennen = nur Name + Zeitpunkt; die id bleibt |
-| `test/migration_v7_test.dart` | echte Datei im Stand 6 → neu geöffnet: alte ids bleiben, doppelter Name ⇒ neue id, Index wirkt |
+| `test/migration_v8_test.dart` | **X.2 (2026-11-17)** — اسکیمای واقعی ۶ و ۷ ⇒ ۸: id لیست‌های قدیمی می‌ماند (جای `migration_v7_test.dart`)، پیشرفت/پشته/لیست/رویداد کامل منتقل می‌شود |
 | `test/migration_test.dart` | **L.1b** — jede Fassung 2…6 mit Nutzerdaten → aktuelle Fassung: Schema exakt (drift `SchemaVerifier`), Leitner/Listen/Ereignisse erhalten |
 | `UserCategories` → `@TableIndex(user_categories_uid)` | **L.1b** — der Index aus S.6 ist jetzt Teil des drift-Schemas (vorher rohes SQL, für die Schema-Prüfung unsichtbar) |
 ⚠️ Eine eigene Liste **nie** über ihren Namen suchen — immer über `uid`. Der Name ist nur Anzeige.
@@ -114,3 +114,7 @@ ein Zwischenstand auf `main`, der nicht übersetzt, und jeder Commit auf `main` 
 Veröffentlichung.
 
 ---
+
+## X.2 (2026-11-17) — لایتنر شبیه Anki: پایه‌ی داده
+
+پایگاه‌داده **نسخه‌ی ۸** و قرارداد پشتیبان **Fassung ۶**. شش جدول (`LeitnerCards`، `ArchivLeitner`، `UserCategories`، `CategoryWords`، `ArchivKategorien`، `ArchivKategorieWoerter`) ⇒ سه جدول (`LeitnerFortschritt`، `Decks`، `DeckWoerter`). شرح کامل مدل، مهاجرت و نگهبان‌ها: `docs/zukunft/PHASE_X.md` ⇒ «🧱 مدل داده» و «✅ X.2». ⚠️ نوشته‌های بالاتر این سند که از آن شش جدول یا از رویداد `leitner` می‌گویند، وضع **قبل از X.2** را شرح می‌دهند.

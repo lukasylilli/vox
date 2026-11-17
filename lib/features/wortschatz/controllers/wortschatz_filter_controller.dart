@@ -6,6 +6,7 @@
 //          Schlüssel `vox_wortschatz_filter_v1` — bewusst mit «vox_», damit er
 //          nie mit einem Root-in-Schlüssel kollidiert (beide Apps teilen sich
 //          localStorage auf lukasylilli.github.io, siehe PLAN 2026-09-26).
+import '../../../core/backup/nutzer_zustand.dart' show LeitnerStand;
 import 'dart:convert';
 
 import 'package:flutter/services.dart' show rootBundle;
@@ -15,7 +16,6 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../../core/database/app_database.dart';
 import '../../categories/controllers/category_controller.dart';
 import '../../vokabular/controllers/vokabular_controller.dart';
-import '../../vokabular/controllers/vokabular_user_state.dart';
 import '../data/vox_buecher.dart';
 import '../data/wortschatz_filter.dart';
 import 'word_controller.dart';
@@ -80,17 +80,14 @@ final voxBuecherProvider = FutureProvider<List<VoxBuch>>((ref) async =>
 final alleWortBuecherProvider = StreamProvider<List<WordBook>>(
     (ref) => ref.watch(wordDaoProvider).watchAllWordBooks());
 
-/// Alle Zuordnungen alter Wörter zu eigenen Kategorien (drift CategoryWords).
-final alleKategorieWoerterProvider = StreamProvider<List<CategoryWord>>(
-    (ref) => ref.watch(categoryDaoProvider).watchAllZuordnungen());
-
 /// Bücher + eigene Kategorien, wie sie gerade sind. Was noch lädt, fehlt
 /// einfach (der Drawer füllt sich, sobald es da ist).
 ///   · Bücher: Reihenfolge wie in buecher.json; alte Wörter über den Namen
 ///     des Decks (`alt_buch`) in der Tabelle Books.
-///   · Kategorien: Kategorien der Karten (Wort-Aktion «Kategorien», id
-///     `archiv:<id>`) und der alten Wörter («Meine Kategorien», id = feste
-///     Listen-id `eigen:…`), alphabetisch.
+///   · Kategorien: die Notizbuch-Decks (X.2: eine Tabelle für alles),
+///     alphabetisch. Ein Deck kann Karten UND alte Wörter enthalten. Die id
+///     der Gruppe bleibt wie vor X.2 (`archiv:<id>` bzw. `eigen:…`) — sie
+///     steht in gespeicherten Filtern.
 WortschatzZugehoerigkeit wortschatzZugehoerigkeitLesen(WidgetRef ref) {
   final buecher = ref.watch(voxBuecherProvider).valueOrNull ?? const [];
   final altBuecher = ref.watch(allBooksProvider).valueOrNull ?? const [];
@@ -98,22 +95,28 @@ WortschatzZugehoerigkeit wortschatzZugehoerigkeitLesen(WidgetRef ref) {
       ref.watch(alleWortBuecherProvider).valueOrNull ?? const [];
   final altBuchId = {for (final b in altBuecher) b.name: b.id};
 
-  final archivKat = ref.watch(vokabularUserProvider).kategorien;
-  final eigeneKat = ref.watch(allCategoriesProvider).valueOrNull ?? const [];
-  final katWoerter =
-      ref.watch(alleKategorieWoerterProvider).valueOrNull ?? const [];
+  final decks = ref.watch(allCategoriesProvider).valueOrNull ?? const [];
+  final zuordnung =
+      ref.watch(deckZuordnungenProvider).valueOrNull ?? const [];
+  // Alte Wörter stehen in den Decks mit ihrer Text-id; die Liste filtert sie
+  // nach ihrer Nummer.
+  final altNummer = {
+    for (final w in ref.watch(allWordsProvider).valueOrNull ?? const <Word>[])
+      LeitnerStand.eigenesWort(w.german, w.wordType): w.id,
+  };
 
   final kategorien = <FilterGruppe>[
-    for (final k in archivKat)
+    for (final d in decks)
       FilterGruppe(
-          id: 'archiv:${k.id}', name: k.name, karten: k.wortIds.toSet()),
-    for (final k in eigeneKat)
-      FilterGruppe(
-        id: eigeneListenId(k),
-        name: k.name,
+        id: d.id.startsWith('eigen:') ? d.id : 'archiv:${d.id}',
+        name: d.name,
+        karten: {
+          for (final z in zuordnung)
+            if (z.deckId == d.id && !z.wortId.startsWith('eigen:')) z.wortId,
+        },
         altWoerter: {
-          for (final z in katWoerter)
-            if (z.categoryId == k.id) z.wordId,
+          for (final z in zuordnung)
+            if (z.deckId == d.id) ?altNummer[z.wortId],
         },
       ),
   ]..sort((a, b) => a.name.toLowerCase().compareTo(b.name.toLowerCase()));

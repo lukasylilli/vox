@@ -86,7 +86,9 @@ void main() {
       final s = container.read(vokabularUserProvider);
       expect(s.imLeitner('verb_lernen'), isTrue);
       expect(s.leitner['verb_lernen']!.box, 1);
-      expect(s.leitner['verb_lernen']!.nextReviewDate, isNotNull);
+      // X.2: ein frisch aufgenommenes Wort ist «neu» — kein Fortschritt,
+      // kein Termin, sofort dran.
+      expect(s.leitner['verb_lernen']!.nextReviewDate, isNull);
 
       expect(await store.toggleLeitner('verb_lernen'), isFalse);
       expect(container.read(vokabularUserProvider).imLeitner('verb_lernen'),
@@ -152,8 +154,11 @@ void main() {
 
       final repo = UserStateRepository(db, await SharedPreferences.getInstance());
       final z = await repo.lesen();
-      expect(z.leitner.keys, contains('verb_lernen'));
-      expect(z.kategorien.single.wortIds, ['verb_lernen']);
+      expect(z.imLeitner, contains('verb_lernen'));
+      expect(z.kategorien.singleWhere((k) => k.name == 'Arbeit').wortIds,
+          ['verb_lernen']);
+      expect(z.kategorien.map((k) => k.id), contains(standardDeckId),
+          reason: 'X.2: der Leitner-Knopf legt ins Deck «Leitner»');
     });
 
     test('B-11: nach dem Einspielen verschwindet nichts aus der App',
@@ -170,7 +175,14 @@ void main() {
       // Altbestand nach drift und leert die alten Schlüssel.
       await repo.anwenden(const NutzerZustand(leitner: {
         'verb_helfen': LeitnerStand(wortId: 'verb_helfen', fach: 3),
-      }));
+      }, kategorien: [
+        // X.2: «im Leitner» = im Deck mit Wiederholung.
+        KategorieStand(
+            id: standardDeckId,
+            name: standardDeckName,
+            modus: deckModusWiederholen,
+            wortIds: ['verb_helfen']),
+      ]));
 
       final zweiter = neuerContainer();
       await zweiter.read(vokabularUserProvider.notifier).neuLaden();

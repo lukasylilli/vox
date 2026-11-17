@@ -38,6 +38,10 @@ const keineSchluessel = {
   'eigen:', // Präfix für eigene Wörter im Lernstand
   'leitner', 'liste', 'listenwort', 'wort', // Arten einer Mitgliedschaft
   'vox', // App-Kennung in der Sicherungshülle
+  // X.2 (Leitner wie Anki) — Werte im Lernstand, keine Speicherschlüssel:
+  'deck:leitner', 'Leitner', // id und Name des Standard-Decks
+  'bedeutung', // Übung
+  'wiederholen', 'notiz', // Modus eines Decks
 };
 
 void main() {

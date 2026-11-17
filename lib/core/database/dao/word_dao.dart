@@ -41,6 +41,21 @@ class WordDao {
 
   // ── Fetch (one-time) ─────────────────────────────────────────────────────
 
+  /// Wort zur Text-id `eigen:<german>|<wordType>` (so kennt der Leitner die
+  /// Wörter dieser Tabelle seit X.2), oder null.
+  Future<Word?> nachTextId(String wortId) {
+    const praefix = 'eigen:';
+    if (!wortId.startsWith(praefix)) return Future.value();
+    final schluessel = wortId.substring(praefix.length);
+    final trenner = schluessel.lastIndexOf('|');
+    if (trenner < 0) return Future.value();
+    return (_db.select(_db.words)
+          ..where((t) =>
+              t.german.equals(schluessel.substring(0, trenner)) &
+              t.wordType.equals(schluessel.substring(trenner + 1))))
+        .getSingleOrNull();
+  }
+
   Future<Word?> getById(int id) =>
       (_db.select(_db.words)..where((t) => t.id.equals(id)))
           .getSingleOrNull();
@@ -109,6 +124,16 @@ class WordDao {
 
   Future<int> delete(int id) async {
     await _db.nutzerwortMerken(id, drin: false); // S.5 — vor dem Löschen
+    // X.2: ein gelöschtes Wort nimmt Fortschritt und Deck-Plätze mit (sie
+    // hängen an seiner Text-id, nicht mehr an einer Tabelle mit Verweis).
+    final textId = await _db.wortIdVon(id);
+    if (textId != null) {
+      await (_db.delete(_db.leitnerFortschritt)
+            ..where((t) => t.wortId.equals(textId)))
+          .go();
+      await (_db.delete(_db.deckWoerter)..where((t) => t.wortId.equals(textId)))
+          .go();
+    }
     return (_db.delete(_db.words)..where((t) => t.id.equals(id))).go();
   }
 

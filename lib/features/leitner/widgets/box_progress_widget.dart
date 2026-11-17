@@ -1,6 +1,7 @@
 // FILE: lib/features/leitner/widgets/box_progress_widget.dart
 // DEPS: leitner_controller.dart, boxLabels, boxIntervals
-// PURPOSE: 5-box overview widget showing card counts and day intervals
+// PURPOSE: 7-box overview widget (X.2: Fächer 1–7) showing card counts and day intervals
+import 'package:vox/core/leitner/leitner_regeln.dart' show leitnerFaecher;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -19,7 +20,7 @@ class BoxProgressWidget extends ConsumerWidget {
       loading: () => const Center(child: CircularProgressIndicator()),
       error  : (_, _) => const SizedBox.shrink(),
       data   : (counts) => Row(
-        children: List.generate(5, (i) {
+        children: List.generate(leitnerFaecher, (i) {
           final box   = i + 1;
           final count = counts[box] ?? 0;
           return Expanded(
@@ -44,7 +45,9 @@ class _BoxCard extends StatelessWidget {
     Color(0xFFFF9800), // box 2 — orange
     Color(0xFFFFEB3B), // box 3 — yellow
     Color(0xFF66BB6A), // box 4 — green
-    Color(0xFF42A5F5), // box 5 — blue (mastered)
+    Color(0xFF42A5F5), // box 5 — blue
+    Color(0xFF5C6BC0), // box 6 — indigo
+    Color(0xFF8E24AA), // box 7 — purple (fast gelernt)
   ];
 
   @override

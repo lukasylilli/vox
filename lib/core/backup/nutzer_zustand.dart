@@ -43,7 +43,44 @@ import 'pruefungs_ergebnis.dart';
 /// Fassung 5 (T.1, 2026-09-25): `pruefungen` — Ergebnisse abgeschlossener
 /// Tests (`pruefungs_ergebnis.dart`). Nur hinzufügen, nie ändern; beim
 /// Zusammenführen vereinigt nach id. Fehlt das Feld (Fassung 1–4) ⇒ keine.
-const int nutzerZustandVersion = 5;
+///
+/// Fassung 6 (X.2, 2026-11-17 — Leitner wie Anki, `docs/zukunft/PHASE_X.md`):
+///   · Der Fortschritt gehört zu «Wort × Übung», nicht mehr zur Anwesenheit im
+///     Stapel: `leitner` ist der Fortschritt der Übung [uebungBedeutung] (auch
+///     für Wörter, die in keinem Deck mehr sind — Deck löschen kostet nie
+///     Fortschritt), `uebungen` der aller anderen Übungen. Fächer 1–7, danach
+///     [leitnerGelerntFach].
+///   · `kategorien` sind jetzt die **Decks**: zusätzlich `eltern`, `modus`,
+///     `neuProTag`, `ordnung`, `standAm`. «Im Leitner» heißt: Mitglied eines
+///     Decks; der bisherige Stapel ist das Deck [standardDeckId].
+///   · Die Ereignisart [artLeitner] gibt es nicht mehr — Aufnehmen/Entfernen
+///     ist [artListenwort] am Deck.
+/// Fassung 1–5 wird beim Lesen umgeschrieben ([NutzerZustand.vonJson] mit
+/// `version`): jedes Wort aus `leitner` wird Mitglied von [standardDeckId],
+/// jedes `leitner`-Ereignis ein `listenwort`-Ereignis an diesem Deck.
+const int nutzerZustandVersion = 6;
+
+/// Das Deck, in dem der Stapel von vor Fassung 6 liegt — und in das der
+/// Leitner-Knopf ein Wort legt, solange kein anderes Deck gewählt ist.
+const String standardDeckId = 'deck:leitner';
+const String standardDeckName = 'Leitner';
+
+/// Übung «Bedeutung» (deutsches Wort ⇒ Bedeutung): die bisherige Karte. Der
+/// Fortschritt von vor Fassung 6 ist der Fortschritt dieser Übung.
+const String uebungBedeutung = 'bedeutung';
+
+/// Höchstes Fach. Eine richtige Antwort in diesem Fach ⇒ [leitnerGelerntFach].
+const int leitnerFaecher = 7;
+
+/// «Gelernt»: aus dem letzten Fach heraus. Wird nie mehr wiederholt, bis der
+/// Nutzer das Wort von Hand zurück in Fach 1 legt.
+const int leitnerGelerntFach = leitnerFaecher + 1;
+
+/// Deck wird wiederholt (Karten erscheinen in der täglichen Wiederholung) …
+const String deckModusWiederholen = 'wiederholen';
+
+/// … oder ist nur ein Notizbuch (nie Wiederholung, nie Erinnerung).
+const String deckModusNotiz = 'notiz';
 
 const String appKennung = 'vox';
 
@@ -51,9 +88,12 @@ const String appKennung = 'vox';
 
 /// Arten von Mitgliedschaft. Jede Stelle, die etwas aufnimmt oder entfernt,
 /// schreibt ein [Mitgliedschaft]-Ereignis mit einer dieser Arten.
-const String artLeitner = 'leitner'; //     id = wortId
-const String artListe = 'liste'; //         id = Listen-id
-const String artListenwort = 'listenwort'; // id = Listen-id, wort = wortId
+const String artListe = 'liste'; //         id = Deck-id
+const String artListenwort = 'listenwort'; // id = Deck-id, wort = wortId
+
+/// Nur noch in Ständen von vor Fassung 6 (id = wortId): beim Lesen wird
+/// daraus [artListenwort] am Deck [standardDeckId].
+const String artLeitnerAlt = 'leitner';
 const String artWort = 'wort'; //           id = Wortschlüssel `<german>|<wordType>`
 
 /// Eine bewusste Handlung des Nutzers: etwas aufgenommen ([drin]) oder
@@ -63,7 +103,8 @@ const String artWort = 'wort'; //           id = Wortschlüssel `<german>|<wordT
 /// käme jede Entfernung beim nächsten Abgleich vom anderen Gerät zurück.
 /// Regel: **die letzte Handlung gewinnt** — für die Frage „drin oder nicht".
 /// Für den Lernfortschritt (das Fach) gilt [LeitnerStand.zusammen]:
-/// höchstes Fach gewinnt, außer eine falsche Antwort ist jünger.
+/// höchstes Fach gewinnt, außer eine falsche Antwort ist jünger. Der
+/// Fortschritt selbst wird durch ein Entfernen NIE gelöscht (X.2).
 class Mitgliedschaft {
   final String art;
   final String id;
@@ -113,7 +154,9 @@ class Mitgliedschaft {
 String mitgliedschaftsSchluessel(String art, String id, [String wort = '']) =>
     '$art\u0000$id\u0000$wort';
 
-/// Ein Wort im Leitner-Stapel.
+/// Fortschritt EINES Worts in EINER Übung (X.2; vorher: «ein Wort im
+/// Stapel»). Ob das Wort gerade in einem Deck liegt, sagt nicht dieser Stand,
+/// sondern die Mitgliedschaft im Deck ([KategorieStand.wortIds]).
 ///
 /// ⚠️ Schlüssel ist bewusst eine TEXT-ID, keine Datenbank-Nummer. Die alten
 /// Wortschatz-Wörter liegen in drift mit einer fortlaufenden `id`, die auf
@@ -123,7 +166,9 @@ String mitgliedschaftsSchluessel(String art, String id, [String wort = '']) =>
 /// (genau die Felder, die in `Words` zusammen eindeutig sind).
 class LeitnerStand {
   final String wortId;
-  final int fach; // 1–5
+  final int fach; // 1–[leitnerFaecher]; [leitnerGelerntFach] = gelernt
+
+  bool get gelernt => fach >= leitnerGelerntFach;
   final DateTime? naechsteWiederholung;
   final DateTime? letzteWiederholung;
 
@@ -167,6 +212,10 @@ class LeitnerStand {
   ///   3. Fehlt beim höheren Fach das Datum, gilt Regel 1 — im Zweifel wird
   ///      kein Fortschritt weggenommen.
   ///
+  /// «Gelernt» ([leitnerGelerntFach]) ist das höchste Fach und gewinnt nach
+  /// Regel 1; legt der Nutzer ein gelerntes Wort von Hand zurück in Fach 1
+  /// (mit Datum), gewinnt das nach Regel 2 wie eine falsche Antwort.
+  ///
   /// Das Ergebnis hängt nicht davon ab, welche Seite «eigen» ist.
   static LeitnerStand zusammen(LeitnerStand a, LeitnerStand b) {
     final hoch = b.fach > a.fach ? b : a;
@@ -189,12 +238,17 @@ class LeitnerStand {
   }
 }
 
-/// Eine selbst angelegte Liste. `wortIds` nutzt dieselben Text-IDs wie oben.
+/// Ein Deck (bis Fassung 5: «eine selbst angelegte Liste»). `wortIds` nutzt
+/// dieselben Text-IDs wie oben.
 ///
 /// ⚠️ S.6: [id] ist fest ab Anlage und ändert sich beim Umbenennen NIE —
 /// sonst verlöre ein Gerät, das offline Wörter in die Liste legt, diese
 /// Wörter beim Abgleich. Der Name ist nur Anzeige; [nameAm] entscheidet,
 /// welcher Name beim Zusammenführen gewinnt.
+///
+/// X.2: [eltern], [modus], [neuProTag] und [ordnung] sind die Einstellungen
+/// des Decks; beim Zusammenführen gewinnen sie GEMEINSAM von der Seite mit
+/// dem späteren [standAm] (ohne Zeitpunkt = älter als jede Änderung).
 class KategorieStand {
   final String id;
   final String name;
@@ -204,21 +258,69 @@ class KategorieStand {
   final DateTime? nameAm;
   final List<String> wortIds;
 
+  /// id des übergeordneten Decks; null = oberste Ebene.
+  final String? eltern;
+
+  /// [deckModusWiederholen] oder [deckModusNotiz]. Listen von vor Fassung 6
+  /// sind Notizbücher — so beginnt durch die Umstellung keine ungewollte
+  /// Wiederholung.
+  final String modus;
+
+  /// Neue Wörter pro Tag; null = Standard (oberste Ebene 50, Subdeck 10 —
+  /// `core/leitner/leitner_regeln.dart`).
+  final int? neuProTag;
+
+  /// Reihenfolge unter Geschwistern (kleiner = weiter oben).
+  final int ordnung;
+
+  /// Wann [eltern]/[modus]/[neuProTag]/[ordnung] zuletzt geändert wurden.
+  final DateTime? standAm;
+
   const KategorieStand({
     required this.id,
     required this.name,
     this.nameAm,
     this.wortIds = const [],
+    this.eltern,
+    this.modus = deckModusNotiz,
+    this.neuProTag,
+    this.ordnung = 0,
+    this.standAm,
   });
 
-  /// `nameAm` steht nur drin, wenn es bekannt ist — so bleibt der Text einer
-  /// Liste von vor S.6 unverändert, und der Konto-Abgleich lädt nicht grundlos
-  /// neu hoch.
+  bool get wiederholen => modus == deckModusWiederholen;
+
+  KategorieStand mit({
+    String? name,
+    DateTime? nameAm,
+    List<String>? wortIds,
+    String? Function()? eltern,
+  }) =>
+      KategorieStand(
+        id: id,
+        name: name ?? this.name,
+        nameAm: nameAm ?? this.nameAm,
+        wortIds: wortIds ?? this.wortIds,
+        eltern: eltern == null ? this.eltern : eltern(),
+        modus: modus,
+        neuProTag: neuProTag,
+        ordnung: ordnung,
+        standAm: standAm,
+      );
+
+  /// Felder stehen nur drin, wenn sie vom Standard abweichen — so bleibt der
+  /// Text einer Liste von vor Fassung 6 unverändert, und der Konto-Abgleich
+  /// lädt nicht grundlos neu hoch.
   Map<String, dynamic> toJson() => {
         'id': id,
         'name': name,
         if (nameAm != null) 'nameAm': nameAm!.toUtc().toIso8601String(),
         'wortIds': wortIds,
+        if (eltern != null) 'eltern': eltern,
+        if (modus != deckModusNotiz) 'modus': modus,
+        if (neuProTag != null) 'neuProTag': neuProTag,
+        if (ordnung != 0) 'ordnung': ordnung,
+        if (standAm != null) 'standAm': standAm!.toUtc().toIso8601String(),
       };
 
   static KategorieStand vonJson(Map<String, dynamic> j) => KategorieStand(
@@ -226,6 +328,15 @@ class KategorieStand {
         name: j['name'] as String? ?? '',
         nameAm: _datum(j['nameAm']),
         wortIds: (j['wortIds'] as List?)?.cast<String>() ?? const [],
+        eltern: j['eltern'] as String?,
+        // Unbekannter Modus (neuere Fassung, Tippfehler) ⇒ Notizbuch: lieber
+        // keine Wiederholung als eine ungewollte.
+        modus: j['modus'] == deckModusWiederholen
+            ? deckModusWiederholen
+            : deckModusNotiz,
+        neuProTag: (j['neuProTag'] as num?)?.toInt(),
+        ordnung: (j['ordnung'] as num?)?.toInt() ?? 0,
+        standAm: _datum(j['standAm']),
       );
 }
 
@@ -266,8 +377,14 @@ class NotizStand {
 
 /// Alles, was einem Nutzer gehört — unabhängig davon, wo es liegt.
 class NutzerZustand {
-  /// wortId → Leitner-Stand. Anwesenheit bedeutet „ist im Stapel".
+  /// wortId → Fortschritt in der Übung [uebungBedeutung]. ⚠️ Seit Fassung 6
+  /// heißt Anwesenheit NICHT mehr „ist im Stapel" — das sagen die Decks.
   final Map<String, LeitnerStand> leitner;
+
+  /// Übung → (wortId → Fortschritt) für alle Übungen außer [uebungBedeutung].
+  final Map<String, Map<String, LeitnerStand>> uebungen;
+
+  /// Die Decks (bis Fassung 5: eigene Listen) samt ihrer Wörter.
   final List<KategorieStand> kategorien;
 
   /// wortId → Notiz.
@@ -294,6 +411,7 @@ class NutzerZustand {
 
   const NutzerZustand({
     this.leitner = const {},
+    this.uebungen = const {},
     this.kategorien = const [],
     this.notizen = const {},
     this.einstellungen = const {},
@@ -303,8 +421,22 @@ class NutzerZustand {
     this.pruefungen = const {},
   });
 
+  /// Fortschritt einer Übung (leer, wenn es keinen gibt).
+  Map<String, LeitnerStand> fortschritt(String uebung) => uebung ==
+          uebungBedeutung
+      ? leitner
+      : uebungen[uebung] ?? const {};
+
+  /// Alle Wörter, die in mindestens einem Deck mit Wiederholung liegen —
+  /// «im Leitner».
+  Set<String> get imLeitner => {
+        for (final k in kategorien)
+          if (k.wiederholen) ...k.wortIds,
+      };
+
   bool get istLeer =>
       leitner.isEmpty &&
+      uebungen.values.every((m) => m.isEmpty) &&
       kategorien.isEmpty &&
       notizen.isEmpty &&
       einstellungen.isEmpty &&
@@ -318,6 +450,13 @@ class NutzerZustand {
   /// erkennt daran, dass nichts hochzuladen ist (S.3 Schritt 3).
   Map<String, dynamic> toJson() => {
         'leitner': leitner.map((k, v) => MapEntry(k, v.toJson())),
+        // Nur Übungen mit Fortschritt: ohne sie kein Feld.
+        if (uebungen.values.any((m) => m.isNotEmpty))
+          'uebungen': {
+            for (final u in uebungen.keys.toList()..sort())
+              if (uebungen[u]!.isNotEmpty)
+                u: uebungen[u]!.map((k, v) => MapEntry(k, v.toJson())),
+          },
         'kategorien': ([...kategorien]..sort((a, b) => a.id.compareTo(b.id)))
             .map((k) => k.toJson())
             .toList(),
@@ -338,33 +477,78 @@ class NutzerZustand {
           'pruefungen': PruefungsErgebnis.listeSchreiben(pruefungen),
       };
 
-  static NutzerZustand vonJson(Map<String, dynamic> j) => NutzerZustand(
-        leitner: ((j['leitner'] as Map?) ?? const {}).map((k, v) => MapEntry(
-            k as String, LeitnerStand.vonJson((v as Map).cast<String, dynamic>()))),
-        kategorien: ((j['kategorien'] as List?) ?? const [])
-            .map((e) => KategorieStand.vonJson((e as Map).cast<String, dynamic>()))
-            .toList(),
-        notizen: ((j['notizen'] as Map?) ?? const {}).map((k, v) => MapEntry(
-            k as String, NotizStand.vonJson((v as Map).cast<String, dynamic>()))),
-        einstellungen:
-            ((j['einstellungen'] as Map?) ?? const {}).cast<String, Object?>(),
-        eigeneWoerter: ((j['eigeneWoerter'] as List?) ?? const [])
-            .map((e) => (e as Map).cast<String, dynamic>())
-            .toList(),
-        // Fassung 1 kennt das Feld nicht ⇒ leer.
-        mitgliedschaften: {
-          for (final e in (j['mitgliedschaften'] as List?) ?? const [])
-            if (e is Map)
-              Mitgliedschaft.vonJson(e.cast<String, dynamic>()).schluessel:
-                  Mitgliedschaft.vonJson(e.cast<String, dynamic>()),
-        },
-        // Fassung 1–3 kennt das Feld nicht ⇒ kein Profil.
-        profil: j['profil'] is Map
-            ? NutzerProfil.vonJson((j['profil'] as Map).cast<String, dynamic>())
-            : null,
-        // Fassung 1–4 kennt das Feld nicht ⇒ keine Ergebnisse.
-        pruefungen: PruefungsErgebnis.listeLesen(j['pruefungen']),
-      );
+  /// [version] ist die Fassung, in der [j] geschrieben wurde (Datei: Hülle,
+  /// Konto: Spalte `version`). Fassung 1–5 wird hier in die Form der Fassung
+  /// 6 gebracht — siehe [nutzerZustandVersion].
+  static NutzerZustand vonJson(Map<String, dynamic> j,
+      {int version = nutzerZustandVersion}) {
+    final alt = version < 6;
+    final leitner = ((j['leitner'] as Map?) ?? const {}).map((k, v) => MapEntry(
+        k as String, LeitnerStand.vonJson((v as Map).cast<String, dynamic>())));
+    var kategorien = ((j['kategorien'] as List?) ?? const [])
+        .map((e) => KategorieStand.vonJson((e as Map).cast<String, dynamic>()))
+        .toList();
+    // Fassung 1 kennt das Feld nicht ⇒ leer.
+    final ereignisse = <String, Mitgliedschaft>{};
+    void merken(Mitgliedschaft m) {
+      final da = ereignisse[m.schluessel];
+      ereignisse[m.schluessel] = da == null ? m : Mitgliedschaft.spaetere(da, m);
+    }
+
+    for (final e in (j['mitgliedschaften'] as List?) ?? const []) {
+      if (e is! Map) continue;
+      final m = Mitgliedschaft.vonJson(e.cast<String, dynamic>());
+      // Vor Fassung 6: «in den Stapel / aus dem Stapel» ⇒ Wort im Deck.
+      merken(m.art == artLeitnerAlt
+          ? Mitgliedschaft(
+              art: artListenwort,
+              id: standardDeckId,
+              wort: m.id,
+              drin: m.drin,
+              am: m.am)
+          : m);
+    }
+    // Vor Fassung 6 hieß «steht in `leitner`»: ist im Stapel ⇒ Mitglied des
+    // Standard-Decks (mit Wiederholung — genau das war der Stapel).
+    if (alt &&
+        leitner.isNotEmpty &&
+        !kategorien.any((k) => k.id == standardDeckId)) {
+      kategorien = [
+        ...kategorien,
+        KategorieStand(
+          id: standardDeckId,
+          name: standardDeckName,
+          modus: deckModusWiederholen,
+          wortIds: leitner.keys.toList(),
+        ),
+      ];
+    }
+    return NutzerZustand(
+      leitner: leitner,
+      uebungen: {
+        for (final e in ((j['uebungen'] as Map?) ?? const {}).entries)
+          if (e.value is Map && e.key != uebungBedeutung)
+            e.key as String: (e.value as Map).map((k, v) => MapEntry(
+                k as String,
+                LeitnerStand.vonJson((v as Map).cast<String, dynamic>()))),
+      },
+      kategorien: kategorien,
+      notizen: ((j['notizen'] as Map?) ?? const {}).map((k, v) => MapEntry(
+          k as String, NotizStand.vonJson((v as Map).cast<String, dynamic>()))),
+      einstellungen:
+          ((j['einstellungen'] as Map?) ?? const {}).cast<String, Object?>(),
+      eigeneWoerter: ((j['eigeneWoerter'] as List?) ?? const [])
+          .map((e) => (e as Map).cast<String, dynamic>())
+          .toList(),
+      mitgliedschaften: ereignisse,
+      // Fassung 1–3 kennt das Feld nicht ⇒ kein Profil.
+      profil: j['profil'] is Map
+          ? NutzerProfil.vonJson((j['profil'] as Map).cast<String, dynamic>())
+          : null,
+      // Fassung 1–4 kennt das Feld nicht ⇒ keine Ergebnisse.
+      pruefungen: PruefungsErgebnis.listeLesen(j['pruefungen']),
+    );
+  }
 
   // ── Zusammenführen ────────────────────────────────────────────────────
   /// Führt `anderer` in `this` — Regel des Nutzers (2026-09-15):
@@ -390,15 +574,23 @@ class NutzerZustand {
     bool entfernt(String art, String id, [String wort = '']) =>
         ereignisse[mitgliedschaftsSchluessel(art, id, wort)]?.drin == false;
 
-    final leitnerNeu = Map<String, LeitnerStand>.from(leitner);
-    anderer.leitner.forEach((id, fremd) {
-      final eigen = leitnerNeu[id];
-      if (eigen == null) {
-        leitnerNeu[id] = fremd;
-        return;
-      }
-      leitnerNeu[id] = LeitnerStand.zusammen(eigen, fremd);
-    });
+    // Fortschritt je Übung: dieselbe Regel für jede ([LeitnerStand.zusammen]).
+    Map<String, LeitnerStand> fortschrittZusammen(
+        Map<String, LeitnerStand> eigener, Map<String, LeitnerStand> fremder) {
+      final neu = Map<String, LeitnerStand>.from(eigener);
+      fremder.forEach((id, fremd) {
+        final eigen = neu[id];
+        neu[id] = eigen == null ? fremd : LeitnerStand.zusammen(eigen, fremd);
+      });
+      return neu;
+    }
+
+    final leitnerNeu = fortschrittZusammen(leitner, anderer.leitner);
+    final uebungenNeu = <String, Map<String, LeitnerStand>>{
+      for (final u in {...uebungen.keys, ...anderer.uebungen.keys})
+        u: fortschrittZusammen(
+            uebungen[u] ?? const {}, anderer.uebungen[u] ?? const {}),
+    };
 
     // Kategorien: gleiche id = dieselbe Liste, Wörter vereinigen.
     // Name (S.6): der später vergebene gewinnt; ohne bekannten Zeitpunkt oder
@@ -416,11 +608,23 @@ class NutzerZustand {
       final eigenAm = eigen.nameAm;
       final fremderName =
           fremdAm != null && (eigenAm == null || fremdAm.isAfter(eigenAm));
+      // Einstellungen (X.2): gemeinsam von der Seite mit dem späteren standAm.
+      final fremdStand = fremd.standAm;
+      final eigenStand = eigen.standAm;
+      final e = fremdStand != null &&
+              (eigenStand == null || fremdStand.isAfter(eigenStand))
+          ? fremd
+          : eigen;
       katNeu[fremd.id] = KategorieStand(
         id: fremd.id,
         name: fremderName ? fremd.name : eigen.name,
         nameAm: fremderName ? fremdAm : eigenAm,
         wortIds: {...eigen.wortIds, ...fremd.wortIds}.toList(),
+        eltern: e.eltern,
+        modus: e.modus,
+        neuProTag: e.neuProTag,
+        ordnung: e.ordnung,
+        standAm: e.standAm,
       );
     }
 
@@ -443,23 +647,31 @@ class NutzerZustand {
     bool wortWeg(String wortId) =>
         wortId.startsWith('eigen:') &&
         entfernt(artWort, wortId.substring('eigen:'.length));
-    leitnerNeu.removeWhere((id, _) => entfernt(artLeitner, id) || wortWeg(id));
+    // Fortschritt bleibt, auch wenn das Wort aus jedem Deck entfernt wurde
+    // (Entscheidung Lukas 2026-11-03: Deck löschen kostet nie Fortschritt).
+    // Nur ein gelöschtes eigenes Wort nimmt seinen Fortschritt mit.
+    leitnerNeu.removeWhere((id, _) => wortWeg(id));
+    for (final m in uebungenNeu.values) {
+      m.removeWhere((id, _) => wortWeg(id));
+    }
+    uebungenNeu.removeWhere((_, m) => m.isEmpty);
     katNeu.removeWhere((id, _) => entfernt(artListe, id));
     final katBereinigt = [
       for (final k in katNeu.values)
-        KategorieStand(
-          id: k.id,
-          name: k.name,
-          nameAm: k.nameAm,
+        k.mit(
           wortIds: [
             for (final w in k.wortIds)
               if (!entfernt(artListenwort, k.id, w) && !wortWeg(w)) w,
           ],
+          // Übergeordnetes Deck gelöscht (oder nie angekommen) ⇒ das Deck
+          // rückt auf die oberste Ebene, statt unsichtbar zu werden.
+          eltern: () => katNeu.containsKey(k.eltern) ? k.eltern : null,
         ),
     ];
 
     return NutzerZustand(
       leitner: leitnerNeu,
+      uebungen: uebungenNeu,
       kategorien: katBereinigt,
       notizen: notizenNeu,
       einstellungen: einstellungen.isEmpty ? anderer.einstellungen : einstellungen,
@@ -544,7 +756,8 @@ Sicherung sicherungLesen(String text) {
     version: version,
     app: app,
     erstelltAm: _datum(map['exportedAt']),
-    zustand: NutzerZustand.vonJson(payload.cast<String, dynamic>()),
+    zustand: NutzerZustand.vonJson(payload.cast<String, dynamic>(),
+        version: version),
   );
 }
 

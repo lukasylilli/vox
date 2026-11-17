@@ -6,46 +6,48 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../features/leitner/controllers/leitner_controller.dart';
 import '../l10n/app_l10n.dart';
+import '../leitner/leitner_regeln.dart';
 
 class LeitnerAddButton extends ConsumerWidget {
   const LeitnerAddButton({super.key, required this.wordId, this.compact = false});
+
+  /// Nummer des alten Worts (Tabelle `Words`). Der Leitner kennt seit X.2
+  /// nur Text-ids — [altWortIdProvider] übersetzt.
   final int  wordId;
   final bool compact;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final state = ref.watch(isInLeitnerProvider(wordId));
-
-    return state.when(
-      loading: () => const SizedBox(
-        width: 22, height: 22,
-        child: CircularProgressIndicator(strokeWidth: 2),
-      ),
+    const laedt = SizedBox(
+      width: 22, height: 22,
+      child: CircularProgressIndicator(strokeWidth: 2),
+    );
+    final wortId = ref.watch(altWortIdProvider(wordId)).valueOrNull;
+    if (wortId == null) {
+      return ref.watch(altWortIdProvider(wordId)).isLoading
+          ? laedt
+          : const SizedBox.shrink();
+    }
+    return ref.watch(isInLeitnerProvider(wortId)).when(
+      loading: () => laedt,
       error  : (_, _) => const SizedBox.shrink(),
-      data   : (inLeitner) {
-        if (inLeitner) {
-          return _InLeitnerButton(wordId: wordId, compact: compact);
-        }
-        return _AddButton(wordId: wordId, compact: compact);
-      },
+      data   : (inLeitner) => inLeitner
+          ? _InLeitnerButton(wortId: wortId, compact: compact)
+          : _AddButton(wortId: wortId, compact: compact),
     );
   }
 }
 
-// ── Not in Leitner → Add button ───────────────────────────────────────────────
-
 class _AddButton extends ConsumerWidget {
-  const _AddButton({required this.wordId, required this.compact});
-  final int  wordId;
-  final bool compact;
+  const _AddButton({required this.wortId, required this.compact});
+  final String wortId;
+  final bool   compact;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     Future<void> add() async {
-      await ref.read(leitnerDaoProvider).addWord(wordId);
-      ref.invalidate(isInLeitnerProvider(wordId));
-      ref.invalidate(boxCountsProvider);
-      ref.invalidate(dueCountProvider);
+      // Die Anzeige folgt von selbst: alle Zähler lesen Ströme der Tabellen.
+      await ref.read(leitnerDaoProvider).aufnehmen(wortId);
       if (context.mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(AppL10n.t(context, 'added_to_leitner'))),
@@ -68,54 +70,42 @@ class _AddButton extends ConsumerWidget {
   }
 }
 
-// ── Already in Leitner → shows box number, tap to remove ─────────────────────
-
 class _InLeitnerButton extends ConsumerWidget {
-  const _InLeitnerButton({required this.wordId, required this.compact});
-  final int  wordId;
-  final bool compact;
+  const _InLeitnerButton({required this.wortId, required this.compact});
+  final String wortId;
+  final bool   compact;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final cardAsync = ref.watch(_cardForWordProvider(wordId));
+    final stand = ref
+        .watch(leitnerFortschrittProvider(uebungBedeutung))
+        .valueOrNull?[wortId];
+    final box = anzeigeFach(stand).clamp(1, leitnerFaecher);
 
-    return cardAsync.when(
-      loading: () => const SizedBox(
-        width: 22, height: 22,
-        child: CircularProgressIndicator(strokeWidth: 2),
-      ),
-      error  : (_, _) => const SizedBox.shrink(),
-      data   : (card) {
-        final box = card?.boxNumber ?? 1;
-
-        Future<void> remove() async {
-          if (card == null) return;
-          await ref.read(leitnerDaoProvider).removeCard(card.id);
-          ref.invalidate(isInLeitnerProvider(wordId));
-          ref.invalidate(boxCountsProvider);
-          ref.invalidate(dueCountProvider);
-          if (context.mounted) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(content: Text(AppL10n.t(context, 'removed_from_leitner'))),
-            );
-          }
-        }
-
-        final label = AppL10n.tf(context, 'leitner_box_n', {'n': '$box'});
-        if (compact) {
-          return IconButton(
-            tooltip  : label,
-            icon     : const Icon(Icons.check_circle_rounded),
-            color    : Colors.green,
-            onPressed: () => _confirmRemove(context, remove),
-          );
-        }
-        return OutlinedButton.icon(
-          onPressed: () => _confirmRemove(context, remove),
-          icon     : const Icon(Icons.check_circle_rounded, color: Colors.green),
-          label    : Text(label),
+    Future<void> remove() async {
+      // Nur aus dem Leitner — der Fortschritt des Worts bleibt (X.2).
+      await ref.read(leitnerDaoProvider).entfernen(wortId);
+      if (context.mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(AppL10n.t(context, 'removed_from_leitner'))),
         );
-      },
+      }
+    }
+
+    final label = AppL10n.tf(context, 'leitner_box_n', {'n': '$box'});
+
+    if (compact) {
+      return IconButton(
+        tooltip  : label,
+        icon     : const Icon(Icons.check_circle_rounded),
+        color    : Colors.green,
+        onPressed: () => _confirmRemove(context, remove),
+      );
+    }
+    return OutlinedButton.icon(
+      onPressed: () => _confirmRemove(context, remove),
+      icon     : const Icon(Icons.check_circle_rounded, color: Colors.green),
+      label    : Text(label),
     );
   }
 
@@ -140,9 +130,3 @@ class _InLeitnerButton extends ConsumerWidget {
     );
   }
 }
-
-// ── Per-word card provider ────────────────────────────────────────────────────
-
-final _cardForWordProvider =
-    FutureProvider.family<dynamic, int>((ref, wordId) =>
-        ref.watch(leitnerDaoProvider).getByWordId(wordId));

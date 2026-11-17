@@ -81,26 +81,26 @@ void main() {
     final a = await geraet();
     final b = await geraet();
 
-    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    await a.leitner.aufnehmen('verb_helfen');
     expect((await CloudAbgleich(a, server).abgleichen()).status,
         CloudStatus.ok);
     expect(server.uploads, 1);
 
     final eb = await CloudAbgleich(b, server).abgleichen();
     expect(eb.lokalGeaendert, isTrue);
-    expect((await b.lesen()).leitner.keys, contains('verb_helfen'));
+    expect((await b.lesen()).imLeitner, contains('verb_helfen'));
 
     await Future<void>.delayed(const Duration(milliseconds: 5));
-    await b.archivLeitnerEntfernen('verb_helfen');
+    await b.leitner.entfernen('verb_helfen');
     await CloudAbgleich(b, server).abgleichen();
     await CloudAbgleich(a, server).abgleichen();
-    expect((await a.lesen()).leitner.keys, isNot(contains('verb_helfen')));
+    expect((await a.lesen()).imLeitner, isNot(contains('verb_helfen')));
   });
 
   test('nichts geändert: kein erneutes Hochladen', () async {
     final server = _Server();
     final a = await geraet();
-    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    await a.leitner.aufnehmen('verb_helfen');
     await CloudAbgleich(a, server).abgleichen();
     final e = await CloudAbgleich(a, server).abgleichen();
     expect(e.status, CloudStatus.ok);
@@ -114,7 +114,7 @@ void main() {
       ..zeile = '{"leitner":{}}'
       ..version = nutzerZustandVersion + 1;
     final a = await geraet();
-    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    await a.leitner.aufnehmen('verb_helfen');
     final e = await CloudAbgleich(a, server).abgleichen();
     expect(e.status, CloudStatus.zuNeu);
     expect(server.uploads, 0);
@@ -125,10 +125,10 @@ void main() {
       () async {
     final server = _Server()..kaputt = true;
     final a = await geraet();
-    await a.archivLeitnerAufnehmen('verb_helfen', DateTime(2026, 9, 1));
+    await a.leitner.aufnehmen('verb_helfen');
     final e = await CloudAbgleich(a, server).abgleichen();
     expect(e.status, CloudStatus.fehlgeschlagen);
-    expect((await a.lesen()).leitner.keys, contains('verb_helfen'));
+    expect((await a.lesen()).imLeitner, contains('verb_helfen'));
   });
 
   test('Gleichheit hängt nicht an der Schlüsselfolge (jsonb)', () {
