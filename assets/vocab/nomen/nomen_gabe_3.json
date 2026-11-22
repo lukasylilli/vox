@@ -1,0 +1,150 @@
+{
+  "schema": "3.0",
+  "id": "nomen_gabe_3",
+  "wort": "die Gabe",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تجویز",
+      "دادن دارو",
+      "دوز"
+    ],
+    "en": [
+      "administration (of a drug)",
+      "dose"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Gesundheit"
+  ],
+  "ipa": "ˈɡaːbə",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Nach der Gabe des Medikaments schläft der Patient.",
+      "uebersetzung": {
+        "fa": "بعد از دادن دارو بیمار می‌خوابد.",
+        "en": "After the medication is given, the patient sleeps."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Gabe von Antibiotika ist nur sinnvoll, wenn die Infektion durch Bakterien verursacht wurde.",
+      "uebersetzung": {
+        "fa": "تجویز آنتی‌بیوتیک فقط وقتی منطقی است که عفونت را باکتری ایجاد کرده باشد.",
+        "en": "Giving antibiotics only makes sense if the infection was caused by bacteria."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Verabreichung",
+      "uebersetzung": {
+        "fa": "تجویز، دادن دارو",
+        "en": "administration"
+      }
+    },
+    {
+      "wort": "die Dosis",
+      "uebersetzung": {
+        "fa": "دوز",
+        "en": "dose"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Einzelgabe",
+      "uebersetzung": {
+        "fa": "دوز واحد",
+        "en": "single dose"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Gaben",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Gabe von + Dat",
+        "beispiel": "Die Gabe von Schmerzmitteln wird genau dokumentiert.",
+        "uebersetzung": {
+          "fa": "دادن داروی مسکن دقیق ثبت می‌شود.",
+          "en": "The administration of painkillers is documented precisely."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medication"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "die Tablette",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "قرص",
+          "en": "tablet"
+        },
+        "id_ref": "nomen_tablette"
+      },
+      {
+        "wort": "die Dosis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دوز",
+          "en": "dose"
+        },
+        "id_ref": "nomen_dosis"
+      },
+      {
+        "wort": "verabreichen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تجویز کردن، دادن (دارو)",
+          "en": "to administer"
+        },
+        "id_ref": "verb_verabreichen"
+      },
+      {
+        "wort": "die Infusion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرم، تزریق وریدی",
+          "en": "infusion"
+        },
+        "id_ref": "nomen_infusion"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
