@@ -1,0 +1,137 @@
+{
+  "schema": "3.0",
+  "id": "nomen_guss",
+  "wort": "der Guss",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "ریخته‌گری",
+      "قطعه‌ی ریختگی"
+    ],
+    "en": [
+      "casting",
+      "cast piece"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Technik",
+    "Arbeit"
+  ],
+  "ipa": "ɡʊs",
+  "anmerkung": null,
+  "berufe": [
+    "technik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Glocke ist ein Guss aus Bronze.",
+      "uebersetzung": {
+        "fa": "این ناقوس یک قطعه‌ی ریختگی از برنز است.",
+        "en": "The bell is a bronze casting."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Beim Guss des Metalls muss die Temperatur genau stimmen, damit keine Risse entstehen.",
+      "uebersetzung": {
+        "fa": "هنگام ریخته‌گری فلز دما باید دقیق باشد تا ترکی ایجاد نشود.",
+        "en": "When casting the metal, the temperature must be exactly right so that no cracks form."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Gusseisen",
+      "uebersetzung": {
+        "fa": "چدن",
+        "en": "cast iron"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "gießen (ریختن)",
+    "en": "gießen (to pour)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Güsse",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "aus einem Guss sein",
+        "beispiel": "Der Roman wirkt wie aus einem Guss.",
+        "uebersetzung": {
+          "fa": "این رمان یکپارچه و منسجم به نظر می‌رسد.",
+          "en": "The novel seems to be all of a piece."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": "gießen",
+    "woerter": [
+      {
+        "wort": "das Metall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فلز",
+          "en": "metal"
+        },
+        "id_ref": "nomen_metall"
+      },
+      {
+        "wort": "der Stahl",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "فولاد",
+          "en": "steel"
+        },
+        "id_ref": "nomen_stahl"
+      },
+      {
+        "wort": "das Eisen",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "آهن",
+          "en": "iron"
+        },
+        "id_ref": "nomen_eisen"
+      },
+      {
+        "wort": "gusseisern",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چدنی",
+          "en": "cast-iron"
+        },
+        "id_ref": "adjektiv_gusseisern"
+      },
+      {
+        "wort": "die Schmiede",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "آهنگری",
+          "en": "forge"
+        },
+        "id_ref": "nomen_schmiede"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

@@ -1,0 +1,145 @@
+{
+  "schema": "3.0",
+  "id": "nomen_haben",
+  "wort": "das Haben",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بستانکار",
+      "ستون بستانکار"
+    ],
+    "en": [
+      "credit",
+      "credit side"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Geld"
+  ],
+  "ipa": "ˈhaːbn̩",
+  "anmerkung": "Kaufmannssprache",
+  "berufe": [
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Auf der rechten Seite steht das Haben.",
+      "uebersetzung": {
+        "fa": "در سمت راست، ستون بستانکار قرار دارد.",
+        "en": "The credit side is on the right."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "In der Buchhaltung muss die Summe im Soll immer der Summe im Haben entsprechen.",
+      "uebersetzung": {
+        "fa": "در حسابداری جمع بدهکار همیشه باید با جمع بستانکار برابر باشد.",
+        "en": "In accounting, the total of the debits must always equal the total of the credits."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "das Soll",
+      "uebersetzung": {
+        "fa": "بدهکار",
+        "en": "debit"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Habenzins",
+      "uebersetzung": {
+        "fa": "سود سپرده",
+        "en": "credit interest"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "haben (داشتن)",
+    "en": "haben (to have)"
+  },
+  "details": {
+    "genus": "das",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Soll und Haben",
+        "beispiel": "Der Lehrling lernt den Unterschied zwischen Soll und Haben.",
+        "uebersetzung": {
+          "fa": "کارآموز تفاوت بدهکار و بستانکار را یاد می‌گیرد.",
+          "en": "The apprentice learns the difference between debit and credit."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Buchhaltung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "حسابداری",
+          "en": "accounting"
+        },
+        "id_ref": "nomen_buchhaltung"
+      },
+      {
+        "wort": "das Guthaben",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "موجودی حساب",
+          "en": "credit balance"
+        },
+        "id_ref": "nomen_guthaben"
+      },
+      {
+        "wort": "das Konto",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حساب بانکی",
+          "en": "account"
+        },
+        "id_ref": "nomen_konto"
+      },
+      {
+        "wort": "der Kaufmann",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بازرگان",
+          "en": "merchant"
+        },
+        "id_ref": "nomen_kaufmann"
+      },
+      {
+        "wort": "kaufmännisch",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بازرگانی",
+          "en": "commercial"
+        },
+        "id_ref": "adjektiv_kaufmaennisch"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
