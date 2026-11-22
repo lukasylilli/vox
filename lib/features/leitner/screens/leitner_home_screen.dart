@@ -120,8 +120,12 @@ class LeitnerHomeScreen extends ConsumerWidget {
                 ),
               ),
             ),
+          // Beim Neuladen (jede Änderung an Decks) den bisherigen Baum
+          // weiter zeigen: sonst verschwinden kurz alle Zeilen samt offenem
+          // Menü, und ein Dialog daraus (Tageslimit!) speicherte ins Leere
+          // (Lukas 2026-11-22).
           ...switch (ref.watch(deckBaumProvider)) {
-            AsyncData(:final value) when value.isEmpty => [
+            AsyncValue(:final valueOrNull?) when valueOrNull.isEmpty => [
                 Padding(
                   padding: const EdgeInsets.all(AppSizes.md),
                   child: Text(AppL10n.t(context, 'decks_leer'),
@@ -130,7 +134,7 @@ class LeitnerHomeScreen extends ConsumerWidget {
                           ?.copyWith(color: scheme.onSurfaceVariant)),
                 ),
               ],
-            AsyncData(:final value) => [
+            AsyncValue(valueOrNull: final value?) => [
                 Card(
                   margin: EdgeInsets.zero,
                   clipBehavior: Clip.antiAlias,

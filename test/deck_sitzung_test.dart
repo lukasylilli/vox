@@ -35,8 +35,10 @@ void main() {
     expect(r.neueHeute('deutsch'), hasLength(20));
     expect(r.neueHeute('a1'), hasLength(10));
     expect(r.neueHeute('l1'), hasLength(10));
-    expect(r.neueHeute('a1'), everyElement(startsWith('l1_')),
-        reason: 'Reihenfolge: erst L1, dann L2');
+    expect(r.neueHeute('a1').where((w) => w.startsWith('l1_')), hasLength(5),
+        reason: 'Subdecks abwechselnd (Lukas 2026-11-22): 5 aus L1 …');
+    expect(r.neueHeute('a1').where((w) => w.startsWith('l2_')), hasLength(5),
+        reason: '… und 5 aus L2');
     expect(r.sitzungAlle(), hasLength(20));
     expect(r.zaehler('deutsch').woerter, 90);
     expect(r.zaehler('deutsch').neu, 90);
@@ -102,7 +104,8 @@ void main() {
       },
       jetzt: _jetzt,
     );
-    expect(r.sitzung('d'), ['f1', 'f3'], reason: 'Limit 0 ⇒ kein neues');
+    expect(r.sitzung('d'), unorderedEquals(['f1', 'f3']),
+        reason: 'Limit 0 ⇒ kein neues');
     final z = r.zaehler('d');
     expect((z.woerter, z.neu, z.lernt, z.gelernt, z.faellig, z.neuHeute),
         (5, 1, 3, 1, 2, 0));
@@ -141,8 +144,8 @@ void main() {
       jetzt: _jetzt,
     );
     expect(r.zaehler('a').woerter, 2);
-    expect(r.sitzung('a'), ['x', 'y']);
-    expect(r.sitzungAlle(), ['x', 'y', 'z']);
+    expect(r.sitzung('a'), unorderedEquals(['x', 'y']));
+    expect(r.sitzungAlle(), unorderedEquals(['x', 'y', 'z']));
   });
 
   test('fehlendes Eltern-Deck ⇒ oberste Ebene (Limit 50)', () {
@@ -153,5 +156,63 @@ void main() {
       jetzt: _jetzt,
     );
     expect(r.neueHeute('waise'), hasLength(50));
+  });
+
+  group('gemischt (Wunsch Lukas 2026-11-22)', () {
+    DeckDaten lek(String id, String eltern) => DeckDaten(
+        id: id, eltern: eltern, modus: deckModusWiederholen, lektion: true);
+
+    test('Lektionen eines Standard-Decks: der Reihe nach, nicht gemischt', () {
+      final r = DeckRechner(
+        decks: [_w('a1'), lek('a1:l1', 'a1'), lek('a1:l2', 'a1')],
+        woerterJeDeck: {'a1:l1': _n('l1_', 20), 'a1:l2': _n('l2_', 20)},
+        fortschritt: const {},
+        jetzt: _jetzt,
+      );
+      expect(r.neueHeute('a1'), hasLength(20));
+      expect(r.neueHeute('a1').take(10), everyElement(startsWith('l1_')),
+          reason: 'erst Lektion 1');
+    });
+
+    test('ein Deck: Subdecks abwechselnd ausgewählt und gemischt geübt', () {
+      final r = DeckRechner(
+        decks: [_w('mutter', null, 12), _w('a', 'mutter'), _w('b', 'mutter'),
+            _w('c', 'mutter')],
+        woerterJeDeck: {
+          'a': _n('a', 30),
+          'b': _n('b', 30),
+          'c': _n('c', 30),
+        },
+        fortschritt: const {},
+        jetzt: _jetzt,
+      );
+      final s = r.sitzung('mutter');
+      expect(s, hasLength(12));
+      for (final p in ['a', 'b', 'c']) {
+        expect(s.where((w) => w.startsWith(p)), hasLength(4), reason: p);
+      }
+      // Durcheinander: nicht erst alle aus einem Subdeck.
+      final bloecke = <String>[];
+      for (final w in s) {
+        if (bloecke.isEmpty || bloecke.last != w[0]) bloecke.add(w[0]);
+      }
+      expect(bloecke.length, greaterThan(3));
+    });
+
+    test('alle üben: Wörter verschiedener Decks durcheinander; am selben Tag '
+        'dieselbe Reihenfolge', () {
+      DeckRechner rechner(DateTime jetzt) => DeckRechner(
+            decks: [_w('x', null, 10), _w('y', null, 10)],
+            woerterJeDeck: {'x': _n('x', 30), 'y': _n('y', 30)},
+            fortschritt: const {},
+            jetzt: jetzt,
+          );
+      final s = rechner(_jetzt).sitzungAlle();
+      expect(s, hasLength(20));
+      expect(s.take(10).every((w) => w.startsWith('x')), isFalse);
+      expect(s.take(10).every((w) => w.startsWith('y')), isFalse);
+      expect(rechner(_jetzt.add(const Duration(hours: 3))).sitzungAlle(), s,
+          reason: 'fest für den Tag');
+    });
   });
 }

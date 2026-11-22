@@ -102,8 +102,11 @@ class LeitnerDao {
   /// Legt für ein Deck ohne Zeile (Lektion/Teil eines Standard-Decks) die
   /// Zeile mit seinen jetzigen Werten an — bevor der Nutzer daran etwas
   /// ändert (Name, Modus, Limit). Vorhandene Zeile bleibt unberührt.
-  Future<void> deckSicherstellen(Deck d) =>
-      _db.into(_db.decks).insert(
+  Future<void> deckSicherstellen(Deck d) async {
+    // Vorhandene Zeile ⇒ nichts schreiben (auch kein «insert or ignore»:
+    // das meldet trotzdem eine Änderung, und alle Deck-Anzeigen laden neu).
+    if (await deck(d.id) != null) return;
+    await _db.into(_db.decks).insert(
             DecksCompanion.insert(
               id: d.id,
               name: d.name,
@@ -114,6 +117,7 @@ class LeitnerDao {
             ),
             mode: InsertMode.insertOrIgnore,
           );
+  }
 
   /// Holt eine gelöschte Lektion/einen Teil zurück: nur das Ereignis — eine
   /// Zeile braucht sie nicht (ihr Modus kommt wieder vom Eltern-Deck).

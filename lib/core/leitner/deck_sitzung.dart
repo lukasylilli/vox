@@ -16,6 +16,19 @@
 //              ⇒ «Deutsch» = 10 aus A1 + 10 aus A2 = 20 · «A1» = 10.
 //              Heute schon begonnene neue Wörter zählen gegen das Limit.
 //   · fällige Wörter (schon in Lernphase) haben KEIN Limit.
+//
+// Gemischt (Wunsch Lukas 2026-11-22): beim Üben kommen die Wörter
+// verschiedener Decks durcheinander, nicht erst alle aus einem Deck und
+// dann das nächste —
+//   · «alle üben»: die Decks der obersten Ebene abwechselnd;
+//   · ein Deck: seine Subdecks abwechselnd (Reißverschluss) — auch beim
+//     Auswählen der neuen Wörter unter dem Limit, sonst füllte das erste
+//     Subdeck das ganze Limit;
+//   · AUSNAHME Lektionen/Teile der Standard-Decks ([DeckDaten.lektion]):
+//     die werden der Reihe nach gelernt — dafür gibt es sie (Lukas
+//     2026-11-22: feste Lektionen zu 20 Wörtern);
+//   · die Reihenfolge einer Sitzung ist zufällig, aber für einen Tag fest
+//     ([_tagesRang]) — ein neu berechneter Stapel springt nicht.
 // Ein Wort in mehreren Decks wird überall nur einmal gezählt und geübt.
 import 'deck_baum.dart';
 import 'leitner_regeln.dart';
@@ -27,12 +40,17 @@ class DeckDaten {
     this.eltern,
     this.modus = deckModusNotiz,
     this.neuProTag,
+    this.lektion = false,
   });
 
   final String id;
   final String? eltern;
   final String modus;
   final int? neuProTag;
+
+  /// Lektion oder Teil eines Standard-Decks — Geschwister dieser Art werden
+  /// der Reihe nach gelernt, nicht gemischt.
+  final bool lektion;
 
   bool get wiederholen => modus == deckModusWiederholen;
 }
@@ -182,46 +200,84 @@ class DeckRechner {
           if (kandidaten.length < frei && gesehen.add(w)) kandidaten.add(w);
         }
 
-        if (d.wiederholen) {
-          for (final w in _woerter[id] ?? const <String>[]) {
-            if (_neu(w)) dazu(w);
+        final kinder = _kinder[id] ?? const <String>[];
+        final eigene = [
+          if (d.wiederholen)
+            for (final w in _woerter[id] ?? const <String>[])
+              if (_neu(w)) w,
+        ];
+        if (kinder.isNotEmpty && kinder.every((k) => _decks[k]!.lektion)) {
+          // Lektionen: der Reihe nach (erst Lektion 1, dann 2 …).
+          eigene.forEach(dazu);
+          for (final k in kinder) {
+            if (kandidaten.length >= frei) break;
+            neueHeute(k).forEach(dazu);
           }
-        }
-        for (final k in _kinder[id] ?? const <String>[]) {
-          if (kandidaten.length >= frei) break;
-          neueHeute(k).forEach(dazu);
+        } else {
+          // Subdecks abwechselnd (Wunsch Lukas 2026-11-22).
+          _reissverschluss([eigene, for (final k in kinder) neueHeute(k)])
+              .forEach(dazu);
         }
         return kandidaten;
       }();
 
-  /// Heute zu übende Wörter von [id] samt Subdecks: erst die fälligen (Fach
-  /// aufsteigend, dann Termin), dann die neuen.
+  /// Abwechselnd aus jeder Liste eines: [a1, b1, c1, a2, b2, …].
+  static List<String> _reissverschluss(List<List<String>> listen) {
+    final aus = <String>[];
+    for (var i = 0;; i++) {
+      var noch = false;
+      for (final l in listen) {
+        if (i < l.length) {
+          aus.add(l[i]);
+          noch = true;
+        }
+      }
+      if (!noch) return aus;
+    }
+  }
+
+  /// Zufälliger, aber für einen Tag fester Rang eines Worts (FNV-1a über
+  /// Datum + id): ordnet eine Sitzung durcheinander, ohne dass sich die
+  /// Reihenfolge innerhalb eines Tages ändert.
+  int _tagesRang(String w) {
+    final t = _jetzt.toLocal();
+    var h = 0x811c9dc5;
+    for (final c in '${t.year}-${t.month}-${t.day}|$w'.codeUnits) {
+      h = ((h ^ c) * 0x01000193) & 0xffffffff;
+    }
+    // Endmischung (MurmurHash3 fmix32): sonst bleiben Wörter mit gleichem
+    // Anfang (aus demselben Deck) beieinander.
+    h ^= h >> 16;
+    h = (h * 0x85ebca6b) & 0xffffffff;
+    h ^= h >> 13;
+    h = (h * 0xc2b2ae35) & 0xffffffff;
+    h ^= h >> 16;
+    return h;
+  }
+
+  /// Heute zu übende Wörter von [id] samt Subdecks — fällige und neue,
+  /// gemischt (fest für den Tag).
   List<String> sitzung(String id) => _sitzung([id], neueHeute(id));
 
   /// Heute zu übende Wörter aller Decks (jedes Deck der obersten Ebene mit
   /// seinem Limit).
   List<String> sitzungAlle() {
     final gesehen = <String>{};
-    return _sitzung(_kinder[null] ?? const <String>[], [
-      for (final r in _kinder[null] ?? const <String>[])
-        for (final w in neueHeute(r))
-          if (gesehen.add(w)) w,
+    final oben = _kinder[null] ?? const <String>[];
+    return _sitzung(oben, [
+      for (final w in _reissverschluss([for (final r in oben) neueHeute(r)]))
+        if (gesehen.add(w)) w,
     ]);
   }
 
   List<String> _sitzung(Iterable<String> deckIds, List<String> neue) {
-    final faellige = _woerterIn(deckIds, nurWiederholen: true)
-        .where(_faellig)
-        .toList()
-      ..sort((a, b) {
-        final sa = _fortschritt[a]!, sb = _fortschritt[b]!;
-        final f = sa.fach.compareTo(sb.fach);
-        if (f != 0) return f;
-        final ta = sa.naechsteWiederholung, tb = sb.naechsteWiederholung;
-        if (ta == null || tb == null) return ta == null ? -1 : 1;
-        return ta.compareTo(tb);
-      });
-    return [...faellige, ...neue];
+    final faellige =
+        _woerterIn(deckIds, nurWiederholen: true).where(_faellig);
+    // Fällige und neue, aus allen Decks durcheinander (Lukas 2026-11-22).
+    final rang = <String, int>{};
+    return [...faellige, ...neue]
+      ..sort((a, b) => (rang[a] ??= _tagesRang(a))
+          .compareTo(rang[b] ??= _tagesRang(b)));
   }
 
   /// Zahlen von [id] samt Subdecks.

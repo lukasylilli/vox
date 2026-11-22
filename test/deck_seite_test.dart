@@ -119,10 +119,9 @@ void main() {
         ],
       );
       addTearDown(c.dispose);
-      expect(await c.read(leitnerSitzungProvider(oben.id).future), [
-        'nomen_tisch',
-        'nomen_stuhl',
-      ]);
+      expect(await c.read(leitnerSitzungProvider(oben.id).future),
+          unorderedEquals(['nomen_tisch', 'nomen_stuhl']),
+          reason: 'gemischt (Lukas 2026-11-22)');
       expect(await c.read(leitnerSitzungProvider(sub.id).future), [
         'nomen_stuhl',
       ]);
@@ -264,6 +263,30 @@ void main() {
         await schliessen(tester);
       });
     }
+
+    testWidgets('Tageslimit auf der Leitner-Seite (Deck-Baum lädt neu, während '
+        'der Dialog offen ist)', (tester) async {
+      final d = await anlegen(tester);
+      await zeigen(tester, const LeitnerHomeScreen());
+      await tester.tap(find.byKey(ValueKey('deck_menue_${d.oben.id}')).first);
+      await _warten(tester);
+      await tester.tap(find.text('50 new words a day'));
+      await _warten(tester);
+      // Eine Änderung irgendwo an den Decks, solange der Dialog offen ist —
+      // vorher zeigte die Leitner-Seite dabei kurz «lädt», das Menü
+      // verschwand und das Speichern ging ins Leere (Lukas 2026-11-22).
+      ProviderScope.containerOf(tester.element(find.byType(LeitnerHomeScreen)))
+          .invalidate(alleDecksProvider);
+      await _warten(tester);
+      await tester.enterText(find.byKey(const ValueKey('deck_text')), '10');
+      await tester.pump();
+      await tester.tap(find.byKey(const ValueKey('deck_text_ok')));
+      await _warten(tester);
+      expect((await tester.runAsync(() => dao.deck(d.oben.id)))!.neuProTag, 10);
+      expect(find.text('2 new'), findsOneWidget,
+          reason: 'Möbel: Limit 10, zwei neue Wörter');
+      await schliessen(tester);
+    });
 
     testWidgets('Deck löschen über das Menü: weg, Fortschritt bleibt', (
       tester,

@@ -20,6 +20,9 @@ import '../controllers/leitner_controller.dart';
 /// abgebrochen.
 Future<Deck?> neuesDeckAnlegen(BuildContext context, WidgetRef ref,
     {Deck? eltern}) async {
+  // DAO VOR dem Dialog holen: das Widget hinter [ref] kann verschwinden,
+  // solange der Dialog offen ist (z. B. wenn der Deck-Baum neu lädt).
+  final dao = ref.read(leitnerDaoProvider);
   // Wirklicher Modus des Eltern-Decks (es kann selbst «erben»).
   final elternModus = eltern == null
       ? null
@@ -36,14 +39,13 @@ Future<Deck?> neuesDeckAnlegen(BuildContext context, WidgetRef ref,
   final modus = eltern != null && neu.modus == elternModus
       ? deckModusErben
       : neu.modus;
-  return ref
-      .read(leitnerDaoProvider)
-      .deckAnlegen(neu.name, elternId: eltern?.id, modus: modus);
+  return dao.deckAnlegen(neu.name, elternId: eltern?.id, modus: modus);
 }
 
 /// Neuer Name für [deck].
 Future<void> deckUmbenennen(
     BuildContext context, WidgetRef ref, Deck deck) async {
+  final dao = ref.read(leitnerDaoProvider);
   final name = await showDialog<String>(
     context: context,
     builder: (_) => _TextDialog(
@@ -53,13 +55,14 @@ Future<void> deckUmbenennen(
     ),
   );
   if (name == null || name.trim().isEmpty) return;
-  await ref.read(leitnerDaoProvider).deckUmbenennen(deck.id, name);
+  await dao.deckUmbenennen(deck.id, name);
 }
 
 /// Tageslimit neuer Wörter (Entscheidung Nr. 11). Leer = Standard.
 Future<void> deckLimitAendern(BuildContext context, WidgetRef ref, Deck deck,
     {required bool obersteEbene}) async {
   final standard = obersteEbene ? neuProTagDeck : neuProTagSubdeck;
+  final dao = ref.read(leitnerDaoProvider);
   final text = await showDialog<String>(
     context: context,
     builder: (_) => _TextDialog(
@@ -72,7 +75,7 @@ Future<void> deckLimitAendern(BuildContext context, WidgetRef ref, Deck deck,
   );
   if (text == null) return;
   final zahl = int.tryParse(Formatters.enDigits(text.trim()));
-  await ref.read(leitnerDaoProvider).deckEinstellen(deck.id,
+  await dao.deckEinstellen(deck.id,
       neuProTag: () => text.trim().isEmpty ? null : zahl?.clamp(0, 9999));
 }
 
@@ -80,6 +83,7 @@ Future<void> deckLimitAendern(BuildContext context, WidgetRef ref, Deck deck,
 /// bleibt; Subdecks rücken eine Ebene hoch (Entscheidung Nr. 7).
 Future<bool> deckLoeschen(
     BuildContext context, WidgetRef ref, Deck deck) async {
+  final dao = ref.read(leitnerDaoProvider);
   final ja = await showDialog<bool>(
     context: context,
     builder: (ctx) => AlertDialog(
@@ -99,7 +103,7 @@ Future<bool> deckLoeschen(
     ),
   );
   if (ja != true) return false;
-  await ref.read(leitnerDaoProvider).deckLoeschen(deck.id);
+  await dao.deckLoeschen(deck.id);
   return true;
 }
 

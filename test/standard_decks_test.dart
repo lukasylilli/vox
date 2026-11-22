@@ -380,7 +380,8 @@ void main() {
       await dao.wortSetzen('std:niveau:a1', 'nomen_tisch', true); // doppelt
       await Future<void>.delayed(const Duration(milliseconds: 50));
       r = await c.read(deckRechnerProvider.future);
-      expect(r.sitzung('std:niveau:a1'), ['nomen_tisch', 'verb_gehen'],
+      expect(r.sitzung('std:niveau:a1'),
+          unorderedEquals(['nomen_tisch', 'verb_gehen']),
           reason: 'jedes Wort einmal');
       expect(await c.read(isInLeitnerProvider('verb_gehen').future), isTrue);
       expect(await c.read(deckIdsVonWortProvider('verb_gehen').future),
