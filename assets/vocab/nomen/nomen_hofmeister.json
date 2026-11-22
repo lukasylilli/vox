@@ -1,0 +1,126 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hofmeister",
+  "wort": "der Hofmeister",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مباشر ملک",
+      "ناظر املاک"
+    ],
+    "en": [
+      "steward",
+      "estate manager"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Geschichte"
+  ],
+  "ipa": "ˈhoːfˌmaɪ̯stɐ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": "veraltet",
+  "ersatz": {
+    "wort": "der Verwalter",
+    "wortart": "nomen",
+    "uebersetzung": {
+      "fa": "مدیر، سرپرست",
+      "en": "manager"
+    },
+    "id_ref": "nomen_verwalter"
+  },
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hofmeister zählt die Säcke.",
+      "uebersetzung": {
+        "fa": "مباشر کیسه‌ها را می‌شمارد.",
+        "en": "The steward counts the sacks."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Hofmeister verwaltete das Gut, während der Graf monatelang in der Stadt lebte.",
+      "uebersetzung": {
+        "fa": "مباشر ملک را اداره می‌کرد، در حالی که کنت ماه‌ها در شهر زندگی می‌کرد.",
+        "en": "The steward managed the estate while the count lived in the city for months."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Hof (مزرعه، دربار) + Meister (استاد، سرپرست)",
+    "en": "Hof (farm, court) + Meister (master)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Hofmeister",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Gutshof",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ملک اربابی",
+          "en": "manor farm"
+        },
+        "id_ref": "nomen_gutshof"
+      },
+      {
+        "wort": "der Verwalter",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مدیر، سرپرست",
+          "en": "manager"
+        },
+        "id_ref": "nomen_verwalter"
+      },
+      {
+        "wort": "der Landsitz",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ملک ییلاقی",
+          "en": "country seat"
+        },
+        "id_ref": "nomen_landsitz"
+      },
+      {
+        "wort": "das Gut",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ملک اربابی",
+          "en": "estate"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_gut_2"
+      },
+      {
+        "wort": "der Bauernhof",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مزرعه",
+          "en": "farm"
+        },
+        "id_ref": "nomen_bauernhof"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
