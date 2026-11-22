@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hatz",
+  "wort": "die Hatz",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شکار با سگ",
+      "تعقیب"
+    ],
+    "en": [
+      "hunt",
+      "chase"
+    ]
+  },
+  "niveau": "C2",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "hat͡s",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hunde sind bereit für die Hatz.",
+      "uebersetzung": {
+        "fa": "سگ‌ها برای شکار آماده‌اند.",
+        "en": "The dogs are ready for the hunt."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Hatz auf Wildschweine mit Hunden ist in vielen Regionen heute verboten.",
+      "uebersetzung": {
+        "fa": "شکار گراز با سگ امروز در بسیاری از مناطق ممنوع است.",
+        "en": "Hunting wild boar with dogs is banned in many regions today."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Hetzjagd",
+      "uebersetzung": {
+        "fa": "شکار تعقیبی",
+        "en": "chase"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hetzen (تعقیب کردن)",
+    "en": "hetzen (to chase)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Hatzen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Hatz auf + Akk",
+        "beispiel": "Die Hatz auf den Fuchs dauerte stundenlang.",
+        "uebersetzung": {
+          "fa": "تعقیب روباه ساعت‌ها طول کشید.",
+          "en": "The hunt for the fox lasted for hours."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "jagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکار کردن",
+          "en": "to hunt"
+        },
+        "id_ref": "verb_jagen"
+      },
+      {
+        "wort": "hetzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعقیب کردن، دنبال کردن",
+          "en": "to chase"
+        },
+        "id_ref": "verb_hetzen"
+      },
+      {
+        "wort": "das Wildschwein",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گراز",
+          "en": "wild boar"
+        },
+        "id_ref": "nomen_wildschwein"
+      },
+      {
+        "wort": "der Hase",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "خرگوش",
+          "en": "hare"
+        },
+        "id_ref": "nomen_hase"
+      },
+      {
+        "wort": "der Fuchs",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روباه",
+          "en": "fox"
+        },
+        "id_ref": "nomen_fuchs"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
