@@ -1,0 +1,157 @@
+{
+  "schema": "3.0",
+  "id": "nomen_import",
+  "wort": "der Import",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "واردات",
+      "کالای وارداتی"
+    ],
+    "en": [
+      "import",
+      "imports"
+    ]
+  },
+  "niveau": "B1",
+  "themen": [
+    "Wirtschaft",
+    "Handel"
+  ],
+  "ipa": "ɪmˈpɔʁt",
+  "anmerkung": null,
+  "berufe": [
+    "logistik"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Import von Obst ist teuer.",
+      "uebersetzung": {
+        "fa": "واردات میوه گران است.",
+        "en": "Importing fruit is expensive."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil das Land kaum eigenes Öl hat, ist es stark vom Import abhängig.",
+      "uebersetzung": {
+        "fa": "چون این کشور تقریباً نفت خودش را ندارد، به‌شدت به واردات وابسته است.",
+        "en": "Because the country has hardly any oil of its own, it depends heavily on imports."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Einfuhr",
+      "uebersetzung": {
+        "fa": "واردات",
+        "en": "import"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "der Export",
+      "uebersetzung": {
+        "fa": "صادرات",
+        "en": "export"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "das Importverbot",
+      "uebersetzung": {
+        "fa": "ممنوعیت واردات",
+        "en": "import ban"
+      }
+    },
+    {
+      "wort": "die Importware",
+      "uebersetzung": {
+        "fa": "کالای وارداتی",
+        "en": "imported goods"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Importe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Import von + Dat",
+        "beispiel": "Der Import von Autos ist im letzten Jahr gestiegen.",
+        "uebersetzung": {
+          "fa": "واردات خودرو در سال گذشته افزایش یافت.",
+          "en": "The import of cars rose last year."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "importieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد کردن",
+          "en": "to import"
+        },
+        "id_ref": "verb_importieren"
+      },
+      {
+        "wort": "exportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "صادر کردن",
+          "en": "to export"
+        },
+        "id_ref": "verb_exportieren"
+      },
+      {
+        "wort": "die Einfuhr",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "واردات",
+          "en": "import"
+        },
+        "id_ref": "nomen_einfuhr"
+      },
+      {
+        "wort": "der Importeur",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "واردکننده",
+          "en": "importer"
+        },
+        "id_ref": "nomen_importeur"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

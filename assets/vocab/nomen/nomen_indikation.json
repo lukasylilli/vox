@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "nomen_indikation",
+  "wort": "die Indikation",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "اندیکاسیون",
+      "دلیل پزشکی برای درمان"
+    ],
+    "en": [
+      "indication"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin"
+  ],
+  "ipa": "ɪndikaˈt͡si̯oːn",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Für diese Operation gibt es eine klare Indikation.",
+      "uebersetzung": {
+        "fa": "برای این عمل یک دلیل پزشکی روشن وجود دارد.",
+        "en": "There is a clear indication for this operation."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Antibiotika sollten nur verschrieben werden, wenn eine medizinische Indikation besteht.",
+      "uebersetzung": {
+        "fa": "آنتی‌بیوتیک فقط باید وقتی تجویز شود که دلیل پزشکی وجود داشته باشد.",
+        "en": "Antibiotics should only be prescribed when there is a medical indication."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "die Kontraindikation",
+      "uebersetzung": {
+        "fa": "منع مصرف، منع درمان",
+        "en": "contraindication"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Indikationen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Indikation für + Akk",
+        "beispiel": "Bei starken Schmerzen besteht eine Indikation für eine MRT.",
+        "uebersetzung": {
+          "fa": "در درد شدید، دلیل پزشکی برای ام‌آرآی وجود دارد.",
+          "en": "Severe pain is an indication for an MRI."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Arzt",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پزشک",
+          "en": "doctor"
+        },
+        "id_ref": "nomen_arzt"
+      },
+      {
+        "wort": "das Medikament",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دارو",
+          "en": "medicine"
+        },
+        "id_ref": "nomen_medikament"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "die Therapie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "درمان",
+          "en": "therapy"
+        },
+        "id_ref": "nomen_therapie"
+      },
+      {
+        "wort": "der Eingriff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "عمل جراحی",
+          "en": "surgical procedure"
+        },
+        "id_ref": "nomen_eingriff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

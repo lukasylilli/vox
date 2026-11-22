@@ -1,0 +1,130 @@
+{
+  "schema": "3.0",
+  "id": "nomen_import_2",
+  "wort": "der Import",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "وارد کردن داده (ایمپورت)"
+    ],
+    "en": [
+      "import (data)"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Computer"
+  ],
+  "ipa": "ɪmˈpɔʁt",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Import der Datei dauert nur kurz.",
+      "uebersetzung": {
+        "fa": "وارد کردن فایل فقط کمی طول می‌کشد.",
+        "en": "Importing the file only takes a moment."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Import der Kontakte musste ich einige doppelte Einträge löschen.",
+      "uebersetzung": {
+        "fa": "بعد از وارد کردن مخاطبین مجبور شدم چند مورد تکراری را پاک کنم.",
+        "en": "After importing the contacts I had to delete some duplicate entries."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [
+    {
+      "wort": "der Export",
+      "uebersetzung": {
+        "fa": "خروجی گرفتن (داده)",
+        "en": "export (data)"
+      }
+    }
+  ],
+  "komposita": [
+    {
+      "wort": "der Datenimport",
+      "uebersetzung": {
+        "fa": "وارد کردن داده",
+        "en": "data import"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Importe",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "die Software",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "نرم‌افزار",
+          "en": "software"
+        },
+        "id_ref": "nomen_software"
+      },
+      {
+        "wort": "importieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وارد کردن (داده)",
+          "en": "to import"
+        },
+        "id_ref": "verb_importieren"
+      },
+      {
+        "wort": "die Datenbank",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "پایگاه داده",
+          "en": "database"
+        },
+        "id_ref": "nomen_datenbank"
+      },
+      {
+        "wort": "die Schnittstelle",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "رابط",
+          "en": "interface"
+        },
+        "id_ref": "nomen_schnittstelle"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
