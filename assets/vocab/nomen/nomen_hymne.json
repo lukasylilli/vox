@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hymne",
+  "wort": "die Hymne",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سرود ستایش"
+    ],
+    "en": [
+      "hymn",
+      "anthem"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Musik",
+    "Literatur"
+  ],
+  "ipa": "ˈhʏmnə",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Chor singt eine Hymne.",
+      "uebersetzung": {
+        "fa": "گروه کر یک سرود ستایش می‌خواند.",
+        "en": "The choir sings a hymn."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Dichter schrieb eine Hymne auf die Natur, die heute noch in Schulen gelesen wird.",
+      "uebersetzung": {
+        "fa": "شاعر سرودی در ستایش طبیعت نوشت که امروز هم در مدرسه‌ها خوانده می‌شود.",
+        "en": "The poet wrote a hymn to nature that is still read in schools today."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Hymnen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Hymne auf + Akk",
+        "beispiel": "Das Lied ist eine Hymne auf die Freiheit.",
+        "uebersetzung": {
+          "fa": "این آهنگ سرودی در ستایش آزادی است.",
+          "en": "The song is a hymn to freedom."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Lied",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آهنگ، ترانه",
+          "en": "song"
+        },
+        "id_ref": "nomen_lied"
+      },
+      {
+        "wort": "das Gedicht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شعر",
+          "en": "poem"
+        },
+        "id_ref": "nomen_gedicht"
+      },
+      {
+        "wort": "der Gesang",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "سرود",
+          "en": "hymn, chant"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_gesang_2"
+      },
+      {
+        "wort": "der Choral",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سرود کلیسایی",
+          "en": "chorale"
+        },
+        "id_ref": "nomen_choral"
+      },
+      {
+        "wort": "der Psalm",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مزمور",
+          "en": "psalm"
+        },
+        "id_ref": "nomen_psalm"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
