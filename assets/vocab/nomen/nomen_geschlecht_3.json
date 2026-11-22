@@ -1,0 +1,123 @@
+{
+  "schema": "3.0",
+  "id": "nomen_geschlecht_3",
+  "wort": "das Geschlecht",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "جنس دستوری"
+    ],
+    "en": [
+      "grammatical gender"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Grammatik",
+    "Sprache"
+  ],
+  "ipa": "ɡəˈʃlɛçt",
+  "anmerkung": null,
+  "berufe": [
+    "kinder_bildung"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Deutschen hat jedes Nomen ein Geschlecht.",
+      "uebersetzung": {
+        "fa": "در آلمانی هر اسم یک جنس دستوری دارد.",
+        "en": "In German every noun has a grammatical gender."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Das Geschlecht eines Nomens erkennt man am Artikel, den man deshalb immer mitlernen sollte.",
+      "uebersetzung": {
+        "fa": "جنس دستوری هر اسم را از حرف تعریفش می‌شناسند، برای همین باید آن را همیشه با اسم یاد گرفت.",
+        "en": "You can recognise a noun's gender by its article, which is why you should always learn it too."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Genus",
+      "uebersetzung": {
+        "fa": "جنس دستوری",
+        "en": "gender (grammar)"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Geschlechter",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Artikel",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "حرف تعریف",
+          "en": "article"
+        },
+        "id_ref": "nomen_artikel"
+      },
+      {
+        "wort": "maskulin",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مذکر",
+          "en": "masculine"
+        },
+        "id_ref": "adjektiv_maskulin"
+      },
+      {
+        "wort": "feminin",
+        "wortart": "adjektiv",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مؤنث",
+          "en": "feminine"
+        },
+        "id_ref": "adjektiv_feminin"
+      },
+      {
+        "wort": "neutral",
+        "wortart": "adjektiv",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "خنثی",
+          "en": "neuter"
+        },
+        "id_ref": "adjektiv_neutral"
+      },
+      {
+        "wort": "das Geschlecht",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "جنسیت",
+          "en": "sex, gender"
+        },
+        "id_ref": "nomen_geschlecht"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
