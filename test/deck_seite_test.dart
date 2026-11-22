@@ -10,6 +10,8 @@
 //   · Deck-Seite: Zahlen, Subdecks, Wörter; Menü schaltet den Modus um und
 //     löscht (Fortschritt bleibt);
 //   · alte Adresse «Meine Kategorien» führt in den Leitner.
+//   · Tageslimit über das Menü: auch mit persischen Ziffern (۱۰) gespeichert
+//     (Lukas 2026-11-22: vorher fielen sie weg ⇒ Limit blieb beim Standard).
 import 'package:drift/native.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -238,6 +240,30 @@ void main() {
       expect(find.text('Notebook only'), findsWidgets);
       await schliessen(tester);
     });
+
+    for (final (eingabe, art) in [('10', 'lateinisch'), ('۱۰', 'persisch')]) {
+      testWidgets('Tageslimit über das Menü ändern ($art: $eingabe)', (
+        tester,
+      ) async {
+        final d = await anlegen(tester);
+        await zeigen(tester, DeckScreen(deckId: d.oben.id));
+        await tester.tap(find.byKey(ValueKey('deck_menue_${d.oben.id}')).first);
+        await _warten(tester);
+        expect(find.text('50 new words a day'), findsOneWidget);
+        await tester.tap(find.text('50 new words a day'));
+        await _warten(tester);
+        await tester.enterText(find.byKey(const ValueKey('deck_text')), eingabe);
+        await tester.pump();
+        await tester.tap(find.byKey(const ValueKey('deck_text_ok')));
+        await _warten(tester);
+        final neu = await tester.runAsync(() => dao.deck(d.oben.id));
+        expect(neu!.neuProTag, 10);
+        await tester.tap(find.byKey(ValueKey('deck_menue_${d.oben.id}')).first);
+        await _warten(tester);
+        expect(find.text('10 new words a day'), findsOneWidget);
+        await schliessen(tester);
+      });
+    }
 
     testWidgets('Deck löschen über das Menü: weg, Fortschritt bleibt', (
       tester,

@@ -12,6 +12,7 @@ import '../../../core/constants/app_sizes.dart';
 import '../../../core/database/app_database.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/leitner/leitner_regeln.dart';
+import '../../../core/utils/formatters.dart';
 import '../../../core/widgets/vox_button.dart';
 import '../controllers/leitner_controller.dart';
 
@@ -70,7 +71,7 @@ Future<void> deckLimitAendern(BuildContext context, WidgetRef ref, Deck deck,
     ),
   );
   if (text == null) return;
-  final zahl = int.tryParse(text.trim());
+  final zahl = int.tryParse(Formatters.enDigits(text.trim()));
   await ref.read(leitnerDaoProvider).deckEinstellen(deck.id,
       neuProTag: () => text.trim().isEmpty ? null : zahl?.clamp(0, 9999));
 }
@@ -101,6 +102,20 @@ Future<bool> deckLoeschen(
   await ref.read(leitnerDaoProvider).deckLoeschen(deck.id);
   return true;
 }
+
+/// Nur Ziffern — persische (۰–۹) und arabische (٠–٩) werden zu 0–9.
+/// Vorher ließ `digitsOnly` nur 0–9 durch: wer auf dem Handy mit
+/// persischer Tastatur «۱۰» tippte, sah ein leeres Feld, und «Speichern»
+/// setzte das Limit stillschweigend auf den Standard zurück (Lukas
+/// 2026-11-22: «ich ändere 50 auf 10, speichere — nichts ändert sich»).
+final _nurZiffern = TextInputFormatter.withFunction((alt, neu) {
+  final text = Formatters.enDigits(neu.text).replaceAll(RegExp(r'[^0-9]'), '');
+  if (text == neu.text) return neu;
+  return TextEditingValue(
+    text: text,
+    selection: TextSelection.collapsed(offset: text.length),
+  );
+});
 
 class _TextDialog extends StatefulWidget {
   const _TextDialog({
@@ -144,8 +159,7 @@ class _TextDialogState extends State<_TextDialog> {
             controller: _ctrl,
             autofocus: true,
             keyboardType: widget.zahl ? TextInputType.number : null,
-            inputFormatters:
-                widget.zahl ? [FilteringTextInputFormatter.digitsOnly] : null,
+            inputFormatters: widget.zahl ? [_nurZiffern] : null,
             decoration: InputDecoration(hintText: widget.hinweis),
             onSubmitted: (t) => Navigator.of(context).pop(t),
           ),
