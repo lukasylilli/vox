@@ -435,7 +435,7 @@ screens/
   leitner_stats_screen.dart  [x]  — _StatChip × 3 + BoxProgressWidget + LinearProgressIndicator
                                     جدول upcoming reviews (group by days)
 data/
-  standard_decks.dart        [x]  — X.4b (2026-11-22): Dart خالص — Deckهای پیش‌فرض (Niveau/VOX-Bücher/Wortart/Berufe) از داده‌ی
+  standard_decks.dart        [x]  — X.4b (2026-11-22): Dart خالص — Deckهای پیش‌فرض (Niveau/VOX-Bücher/Wortart/Berufe + X.4c: «Wörter mit mehreren Bedeutungen» بر اساس سطح) از داده‌ی
                                     فیلترها + درس‌های ۲۰ تایی و بخش‌های ۱۰ درسی (مجازی)؛ gruppen = کلمه ⇒ Deckهای گروهی
   wort_reihenfolge.dart      [x]  — X.4b: خواندن/افزودن ترتیب ثابت کلمه‌ها (assets/leitner/reihenfolge.json، فقط اضافه‌شدنی)
 controllers/
