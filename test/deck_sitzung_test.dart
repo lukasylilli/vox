@@ -160,7 +160,7 @@ void main() {
 
   group('gemischt (Wunsch Lukas 2026-11-22)', () {
     DeckDaten lek(String id, String eltern) => DeckDaten(
-        id: id, eltern: eltern, modus: deckModusWiederholen, lektion: true);
+        id: id, eltern: eltern, modus: deckModusWiederholen, nacheinander: true);
 
     test('Lektionen eines Standard-Decks: der Reihe nach, nicht gemischt', () {
       final r = DeckRechner(
@@ -169,9 +169,54 @@ void main() {
         fortschritt: const {},
         jetzt: _jetzt,
       );
-      expect(r.neueHeute('a1'), hasLength(20));
-      expect(r.neueHeute('a1').take(10), everyElement(startsWith('l1_')),
-          reason: 'erst Lektion 1');
+      expect(r.neueHeute('a1'), _n('l1_', 10),
+          reason: 'erst Lektion 1 (Limit der Lektion 10); Lektion 2 erst, '
+              'wenn in Lektion 1 kein neues Wort mehr übrig ist');
+    });
+
+    test('Niveau: erst ganz A1 (Lektion für Lektion), dann A2 … bis C2', () {
+      final r = DeckRechner(
+        decks: [
+          _w('niveau', null, 25),
+          lek('a1', 'niveau'), lek('a1:l1', 'a1'), lek('a1:l2', 'a1'),
+          lek('a2', 'niveau'), lek('a2:l1', 'a2'),
+        ],
+        woerterJeDeck: {
+          'a1:l1': _n('a1l1_', 8),
+          'a1:l2': _n('a1l2_', 8),
+          'a2:l1': _n('a2l1_', 20),
+        },
+        fortschritt: const {},
+        jetzt: _jetzt,
+      );
+      // A1 hat Limit 10 (Subdeck) ⇒ 8 aus Lektion 1, 2 aus Lektion 2 — und
+      // KEIN A2, solange in A1 noch neue Wörter sind.
+      expect(r.neueHeute('niveau'), [..._n('a1l1_', 8), ..._n('a1l2_', 2)]);
+
+      // A1 ganz begonnen ⇒ jetzt A2.
+      final gestern = _jetzt.subtract(const Duration(days: 1));
+      final r2 = DeckRechner(
+        decks: [
+          _w('niveau', null, 25),
+          lek('a1', 'niveau'), lek('a1:l1', 'a1'), lek('a1:l2', 'a1'),
+          lek('a2', 'niveau'), lek('a2:l1', 'a2'),
+        ],
+        woerterJeDeck: {
+          'a1:l1': _n('a1l1_', 8),
+          'a1:l2': _n('a1l2_', 8),
+          'a2:l1': _n('a2l1_', 20),
+        },
+        fortschritt: {
+          for (final w in [..._n('a1l1_', 8), ..._n('a1l2_', 8)])
+            w: LeitnerStand(
+                wortId: w,
+                fach: 2,
+                naechsteWiederholung: _jetzt.add(const Duration(days: 2)),
+                ersteWiederholung: gestern),
+        },
+        jetzt: _jetzt,
+      );
+      expect(r2.neueHeute('niveau'), _n('a2l1_', 10));
     });
 
     test('ein Deck: Subdecks abwechselnd ausgewählt und gemischt geübt', () {

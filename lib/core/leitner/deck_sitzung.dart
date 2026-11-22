@@ -24,9 +24,11 @@
 //   · ein Deck: seine Subdecks abwechselnd (Reißverschluss) — auch beim
 //     Auswählen der neuen Wörter unter dem Limit, sonst füllte das erste
 //     Subdeck das ganze Limit;
-//   · AUSNAHME Lektionen/Teile der Standard-Decks ([DeckDaten.lektion]):
-//     die werden der Reihe nach gelernt — dafür gibt es sie (Lukas
-//     2026-11-22: feste Lektionen zu 20 Wörtern);
+//   · AUSNAHME Decks, die der Reihe nach gelernt werden
+//     ([DeckDaten.nacheinander]): Lektionen/Teile der Standard-Decks (dafür
+//     gibt es sie — feste Lektionen zu 20 Wörtern) und die Niveaus A1…C2
+//     unter «Niveau» (Lukas 2026-11-22: «erst A1 Lektion 1 … bis zur letzten
+//     Lektion von C2»);
 //   · die Reihenfolge einer Sitzung ist zufällig, aber für einen Tag fest
 //     ([_tagesRang]) — ein neu berechneter Stapel springt nicht.
 // Ein Wort in mehreren Decks wird überall nur einmal gezählt und geübt.
@@ -40,7 +42,7 @@ class DeckDaten {
     this.eltern,
     this.modus = deckModusNotiz,
     this.neuProTag,
-    this.lektion = false,
+    this.nacheinander = false,
   });
 
   final String id;
@@ -48,9 +50,9 @@ class DeckDaten {
   final String modus;
   final int? neuProTag;
 
-  /// Lektion oder Teil eines Standard-Decks — Geschwister dieser Art werden
-  /// der Reihe nach gelernt, nicht gemischt.
-  final bool lektion;
+  /// Wird mit seinen Geschwistern der Reihe nach gelernt, nicht gemischt
+  /// (Lektion/Teil eines Standard-Decks, Niveau A1…C2).
+  final bool nacheinander;
 
   bool get wiederholen => modus == deckModusWiederholen;
 }
@@ -206,12 +208,19 @@ class DeckRechner {
             for (final w in _woerter[id] ?? const <String>[])
               if (_neu(w)) w,
         ];
-        if (kinder.isNotEmpty && kinder.every((k) => _decks[k]!.lektion)) {
-          // Lektionen: der Reihe nach (erst Lektion 1, dann 2 …).
+        if (kinder.isNotEmpty &&
+            kinder.every((k) => _decks[k]!.nacheinander)) {
+          // Der Reihe nach (Lektion 1, 2 … · A1, A2 … C2): das nächste
+          // Geschwister erst, wenn im vorigen KEIN neues Wort mehr übrig ist
+          // — auch wenn dessen eigenes Limit für heute erreicht ist (sonst
+          // kämen täglich je 10 aus A1, A2, … statt erst ganz A1).
           eigene.forEach(dazu);
           for (final k in kinder) {
             if (kandidaten.length >= frei) break;
-            neueHeute(k).forEach(dazu);
+            final heute = neueHeute(k);
+            heute.forEach(dazu);
+            final uebrig = _woerterVon(k, nurWiederholen: true).where(_neu);
+            if (uebrig.length > heute.length) break;
           }
         } else {
           // Subdecks abwechselnd (Wunsch Lukas 2026-11-22).

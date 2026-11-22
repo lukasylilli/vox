@@ -344,8 +344,10 @@ final deckRechnerProvider = FutureProvider<DeckRechner>((ref) async {
             eltern: d.elternId,
             modus: modi[d.id] ?? deckModusNotiz,
             neuProTag: d.neuProTag,
-            // Lektionen/Teile werden der Reihe nach gelernt (deck_sitzung).
-            lektion: istStandardLektion(d.id)),
+            // Der Reihe nach statt gemischt (deck_sitzung): Lektionen/Teile
+            // und die Niveaus A1…C2 (Lukas 2026-11-22).
+            nacheinander: istStandardLektion(d.id) ||
+                d.elternId == '${standardDeckPraefix}niveau'),
     ],
     woerterJeDeck: woerter,
     fortschritt: fortschritt,
