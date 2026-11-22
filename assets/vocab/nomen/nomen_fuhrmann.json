@@ -1,0 +1,127 @@
+{
+  "schema": "3.0",
+  "id": "nomen_fuhrmann",
+  "wort": "der Fuhrmann",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "گاری‌چی",
+      "درشکه‌چی"
+    ],
+    "en": [
+      "carter",
+      "wagoner",
+      "coachman"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Geschichte",
+    "Verkehr"
+  ],
+  "ipa": "ˈfuːɐ̯ˌman",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Fuhrmann fährt mit dem Wagen ins Dorf.",
+      "uebersetzung": {
+        "fa": "گاری‌چی با گاری به روستا می‌رود.",
+        "en": "The carter drives the wagon into the village."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Früher brachte ein Fuhrmann die Waren, die man in der Stadt brauchte, mit Pferd und Wagen.",
+      "uebersetzung": {
+        "fa": "در گذشته یک گاری‌چی کالاهایی را که در شهر لازم بود، با اسب و گاری می‌آورد.",
+        "en": "In the past, a carter brought the goods needed in town by horse and cart."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Kutscher",
+      "uebersetzung": {
+        "fa": "درشکه‌چی",
+        "en": "coachman"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "Fuhre (بار، محموله) + Mann (مرد)",
+    "en": "Fuhre (load) + Mann (man)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Fuhrleute",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Dorf",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روستا",
+          "en": "village"
+        },
+        "id_ref": "nomen_dorf"
+      },
+      {
+        "wort": "die Ware",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کالا",
+          "en": "goods"
+        },
+        "id_ref": "nomen_ware"
+      },
+      {
+        "wort": "transportieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "حمل کردن",
+          "en": "to transport"
+        },
+        "id_ref": "verb_transportieren"
+      },
+      {
+        "wort": "die Kutsche",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "درشکه",
+          "en": "carriage"
+        },
+        "id_ref": "nomen_kutsche"
+      },
+      {
+        "wort": "der Kutscher",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "درشکه‌چی",
+          "en": "coachman"
+        },
+        "id_ref": "nomen_kutscher"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

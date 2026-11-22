@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_freisetzung",
+  "wort": "die Freisetzung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آزادسازی",
+      "انتشار"
+    ],
+    "en": [
+      "release",
+      "emission"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wissenschaft",
+    "Umwelt"
+  ],
+  "ipa": "ˈfʁaɪ̯ˌzɛt͡sʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Freisetzung von Gas war gefährlich.",
+      "uebersetzung": {
+        "fa": "انتشار گاز خطرناک بود.",
+        "en": "The release of gas was dangerous."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei der Verbrennung kommt es zur Freisetzung von Energie, die das Wasser erhitzt.",
+      "uebersetzung": {
+        "fa": "در سوختن، انرژی آزاد می‌شود که آب را گرم می‌کند.",
+        "en": "Combustion leads to the release of energy, which heats the water."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Ausstoß",
+      "uebersetzung": {
+        "fa": "انتشار (گاز و آلاینده)",
+        "en": "emission"
+      }
+    }
+  ],
+  "antonyme": [
+    {
+      "wort": "die Speicherung",
+      "uebersetzung": {
+        "fa": "ذخیره‌سازی",
+        "en": "storage"
+      }
+    }
+  ],
+  "komposita": [],
+  "etymologie": {
+    "fa": "frei (آزاد) + setzen (گذاشتن) + -ung",
+    "en": "frei (free) + setzen (to put) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Freisetzungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Freisetzung von + Dat",
+        "beispiel": "Die Freisetzung von Schadstoffen muss verhindert werden.",
+        "uebersetzung": {
+          "fa": "باید جلوی انتشار مواد آلاینده گرفته شود.",
+          "en": "The release of pollutants must be prevented."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "freisetzen",
+    "woerter": [
+      {
+        "wort": "die Emission",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "انتشار آلاینده",
+          "en": "emission"
+        },
+        "id_ref": "nomen_emission"
+      },
+      {
+        "wort": "die Energie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "انرژی",
+          "en": "energy"
+        },
+        "id_ref": "nomen_energie"
+      },
+      {
+        "wort": "freisetzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "آزاد کردن",
+          "en": "to release"
+        },
+        "id_ref": "verb_freisetzen"
+      },
+      {
+        "wort": "die Strahlung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تابش",
+          "en": "radiation"
+        },
+        "id_ref": "nomen_strahlung"
+      },
+      {
+        "wort": "der Schadstoff",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ماده‌ی آلاینده",
+          "en": "pollutant"
+        },
+        "id_ref": "nomen_schadstoff"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
