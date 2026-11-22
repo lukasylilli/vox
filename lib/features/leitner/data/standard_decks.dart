@@ -16,6 +16,13 @@
 //   · ein gelöschtes Standard-Deck bleibt gelöscht (Ereignis `liste` in der
 //     Sicherung) und kann über «Standard-Decks» zurückgeholt werden.
 //
+// «Wörter mit mehreren Bedeutungen» (Wunsch Lukas 2026-11-22, X.4c): eine
+// weitere Gruppe nach dem Filter «چندمعنایی» von «Alle Wörter» — die
+// Übersicht «الف» UND jede Bedeutungskarte (Antwort Lukas: «beide»), mit
+// Subdecks nach Niveau (A1…C2; Antwort Lukas). Dieselbe Regel wie der
+// Filter (wortschatzIstMehrdeutig) ⇒ jede neue mehrdeutige Karte einer
+// Wortrunde landet von selbst im passenden Subdeck.
+//
 // Lektionen (Lukas 2026-11-22): ein Deck mit Wörtern (z. B. «A1») wird in
 // Lektionen zu je [lektionGroesse] Wörtern geteilt, damit nicht alle Wörter
 // auf einmal im Leitner sind — jede Lektion lässt sich einzeln lernen und
@@ -35,6 +42,8 @@
 import '../../../core/models/word_model.dart' show WordType;
 import '../../vokabular/data/vokab_schema.dart' show vokabBerufe;
 import '../../wortschatz/data/altwort_karte.dart' show altwortTypZuWortart;
+import '../../wortschatz/data/wortschatz_filter.dart'
+    show wortschatzIstMehrdeutig;
 
 /// Präfix aller Standard-Decks. Ein Nutzer-Deck hat es nie
 /// (`eigen:#…`, `eigen:<Name>`, `kat_…`, `deck:leitner`).
@@ -68,6 +77,10 @@ const standardBerufNamen = {
   'reinigung': 'Reinigung',
   'buero': 'Büro',
 };
+
+/// Name der Gruppe «کلمات با چند معنی مختلف» (Lukas 2026-11-22) — deutsch
+/// wie die anderen Gruppen (Niveau, Wortart, Berufe).
+const standardMehrdeutigName = 'Wörter mit mehreren Bedeutungen';
 
 /// Ein Standard-Deck: feste id, Name, Eltern-Deck, Platz unter Geschwistern.
 class StandardDeck {
@@ -147,6 +160,9 @@ StandardDecks standardDecksBerechnen({
     for (final t in kartenArtZuTyp[k['wortart']] ?? const <String>[]) {
       dazu('${standardDeckPraefix}wortart:$t', id);
     }
+    if (_niveaus.contains(niveau) && wortschatzIstMehrdeutig(k)) {
+      dazu('${standardDeckPraefix}mehrdeutig:$niveau', id);
+    }
     final berufe = k['berufe'];
     if (berufe is List) {
       for (final b in berufe) {
@@ -206,6 +222,9 @@ StandardDecks standardDecksBerechnen({
   ]);
   gruppe('beruf', 'Berufe', 1003, [
     for (final b in vokabBerufe) (b, standardBerufNamen[b] ?? b),
+  ]);
+  gruppe('mehrdeutig', standardMehrdeutigName, 1004, [
+    for (final n in _niveaus) (n, n.toUpperCase()),
   ]);
 
   final ids = {for (final d in decks) d.id};

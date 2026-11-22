@@ -17,6 +17,9 @@
 //     jedem passenden Deck; jede Karte steht in der festen Reihenfolge;
 //   · virtuelle Lektionen: erben den Modus, Löschen/Zurückholen, rücken
 //     beim Löschen des Eltern-Decks hoch.
+//   · «Wörter mit mehreren Bedeutungen» (X.4c, Lukas 2026-11-22): Übersicht
+//     «الف» und Bedeutungskarten, Subdecks nach Niveau, an den echten Karten
+//     gleich dem Filter «چندمعنایی» × Niveau; neue Karten kommen von selbst.
 import 'dart:convert';
 import 'dart:io';
 
@@ -167,6 +170,13 @@ void main() {
       for (final d in s.decks.where((d) => d.eltern == 'std:beruf')) {
         gleich(d.id, WortschatzFilter(berufe: {d.id.split(':').last}));
       }
+      // X.4c: je Niveau genau die mehrdeutigen Einträge des Filters.
+      for (final n in wortschatzNiveaus) {
+        gleich('std:mehrdeutig:$n', WortschatzFilter(
+            niveaus: {n}, bedeutungen: {wortschatzMehrdeutig}));
+      }
+      expect(s.decks.any((d) => d.id == 'std:mehrdeutig'), isTrue,
+          reason: 'es gibt schon Karten mit mehreren Bedeutungen');
       expect(s.decks, isNotEmpty);
       // Ganz ohne JSON-Umweg: der Text ist lesbar (Wächter gegen Format).
       expect(jsonDecode(dateien[vokabIndexStueckeDatei]!), isA<Map>());
@@ -181,6 +191,57 @@ void main() {
       ];
       expect(fehlen, isEmpty,
           reason: 'dart tool/wort_reihenfolge.dart ausführen');
+    });
+  });
+
+  group('Wörter mit mehreren Bedeutungen (X.4c)', () {
+    Map<String, dynamic> bed(String id, String niveau, String gruppe) =>
+        {..._k(id, 'nomen', niveau), 'uebersicht_id': gruppe};
+    Map<String, dynamic> alle(String id, String niveau, List<String> ids) =>
+        {..._k(id, 'nomen', niveau), 'uebersicht': true, 'bedeutungen_ids': ids};
+
+    test('Übersicht und Bedeutungen, Subdecks nach Niveau; einfache Wörter nicht',
+        () {
+      final s = standardDecksBerechnen(karten: [
+        _k('nomen_tisch', 'nomen', 'A1'),
+        alle('nomen_hahn__alle', 'A2', ['nomen_hahn', 'nomen_hahn_3']),
+        bed('nomen_hahn', 'A2', 'nomen_hahn__alle'),
+        bed('nomen_hahn_3', 'C1', 'nomen_hahn__alle'),
+      ], altWoerter: const [], buecher: const []);
+      final echte = [
+        for (final d in s.decks)
+          if (!d.virtuell && d.id.startsWith('std:mehrdeutig')) d,
+      ];
+      expect([for (final d in echte) d.id],
+          ['std:mehrdeutig', 'std:mehrdeutig:a2', 'std:mehrdeutig:c1']);
+      expect(echte.first.name, standardMehrdeutigName);
+      expect(echte.first.ordnung, 1004, reason: 'nach Berufe');
+      expect(_woerter(s, 'std:mehrdeutig:a2'),
+          unorderedEquals(['nomen_hahn__alle', 'nomen_hahn']));
+      expect(_woerter(s, 'std:mehrdeutig:c1'), ['nomen_hahn_3']);
+      expect(s.gruppen['nomen_tisch']!.any((d) => d.startsWith('std:mehrdeutig')),
+          isFalse);
+      // Dieselbe Karte bleibt zusätzlich in Niveau und Wortart.
+      expect(s.gruppen['nomen_hahn_3'],
+          containsAll(['std:niveau:c1', 'std:wortart:nomen', 'std:mehrdeutig:c1']));
+    });
+
+    test('neue mehrdeutige Karte einer Wortrunde kommt von selbst dazu', () {
+      final vorher = standardDecksBerechnen(karten: [
+        _k('nomen_tisch', 'nomen', 'A1'),
+      ], altWoerter: const [], buecher: const []);
+      expect(vorher.decks.any((d) => d.id.startsWith('std:mehrdeutig')), isFalse,
+          reason: 'ohne mehrdeutige Karte keine leere Gruppe');
+      final nachher = standardDecksBerechnen(karten: [
+        _k('nomen_tisch', 'nomen', 'A1'),
+        alle('nomen_bank__alle', 'A1', ['nomen_bank', 'nomen_bank_2']),
+        bed('nomen_bank', 'A1', 'nomen_bank__alle'),
+        bed('nomen_bank_2', 'A1', 'nomen_bank__alle'),
+      ], altWoerter: const [], buecher: const []);
+      expect(_woerter(nachher, 'std:mehrdeutig:a1'),
+          unorderedEquals(['nomen_bank__alle', 'nomen_bank', 'nomen_bank_2']));
+      expect(nachher.decks.where((d) => d.eltern == 'std:mehrdeutig:a1')
+          .map((d) => d.name), ['Lektion 1']);
     });
   });
 
