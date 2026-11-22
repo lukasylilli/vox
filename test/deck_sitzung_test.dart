@@ -169,9 +169,47 @@ void main() {
         fortschritt: const {},
         jetzt: _jetzt,
       );
-      expect(r.neueHeute('a1'), _n('l1_', 10),
-          reason: 'erst Lektion 1 (Limit der Lektion 10); Lektion 2 erst, '
-              'wenn in Lektion 1 kein neues Wort mehr übrig ist');
+      // «a1» oben ⇒ Limit 50. Lektionen ohne eigenes Limit begrenzen in
+      // der Reihe nicht (Fehler Lukas 2026-11-22): erst ganz Lektion 1,
+      // dann Lektion 2 — nie gemischt.
+      expect(r.neueHeute('a1'), [..._n('l1_', 20), ..._n('l2_', 20)],
+          reason: 'erst Lektion 1; Lektion 2 erst, wenn in Lektion 1 kein '
+              'neues Wort mehr übrig ist');
+      // Die Lektion allein geübt: ihr eigenes Standard-Limit (10) gilt.
+      expect(r.neueHeute('a1:l1'), _n('l1_', 10));
+    });
+
+    test('Limit erhöht ⇒ heute kommen die fehlenden neuen Wörter dazu '
+        '(Fehler Lukas 2026-11-22: von 10 auf 15 ⇒ kein neues Wort)', () {
+      LeitnerStand heute(String w) => LeitnerStand(
+          wortId: w,
+          fach: 1,
+          naechsteWiederholung: _jetzt.add(const Duration(days: 1)),
+          ersteWiederholung: _jetzt);
+      DeckRechner rechner(int limit, {int? lektionLimit}) => DeckRechner(
+            decks: [
+              _w('a1', null, limit),
+              DeckDaten(
+                  id: 'a1:l1',
+                  eltern: 'a1',
+                  modus: deckModusWiederholen,
+                  neuProTag: lektionLimit,
+                  nacheinander: true),
+              lek('a1:l2', 'a1'),
+            ],
+            woerterJeDeck: {'a1:l1': _n('l1_', 20), 'a1:l2': _n('l2_', 20)},
+            // Heute schon 10 neue Wörter aus Lektion 1 begonnen.
+            fortschritt: {for (final w in _n('l1_', 10)) w: heute(w)},
+            jetzt: _jetzt,
+          );
+      expect(rechner(10).neueHeute('a1'), isEmpty, reason: 'Limit erreicht');
+      expect(rechner(15).neueHeute('a1'), hasLength(5),
+          reason: '15 − 10 schon begonnene = 5 neue (aus Lektion 1)');
+      expect(rechner(25).neueHeute('a1'),
+          [for (var i = 10; i < 20; i++) 'l1_$i', ..._n('l2_', 5)],
+          reason: 'Lektion 1 zu Ende, dann Lektion 2');
+      // Ein von Hand eingestelltes Limit der Lektion gilt weiter (Anki).
+      expect(rechner(25, lektionLimit: 10).neueHeute('a1'), isEmpty);
     });
 
     test('Niveau: erst ganz A1 (Lektion für Lektion), dann A2 … bis C2', () {
@@ -189,9 +227,10 @@ void main() {
         fortschritt: const {},
         jetzt: _jetzt,
       );
-      // A1 hat Limit 10 (Subdeck) ⇒ 8 aus Lektion 1, 2 aus Lektion 2 — und
-      // KEIN A2, solange in A1 noch neue Wörter sind.
-      expect(r.neueHeute('niveau'), [..._n('a1l1_', 8), ..._n('a1l2_', 2)]);
+      // Glieder der Reihe ohne eigenes Limit begrenzen nicht ⇒ das Limit von
+      // «niveau» (25) gilt: ganz A1 (8 + 8), erst dann A2 (9).
+      expect(r.neueHeute('niveau'),
+          [..._n('a1l1_', 8), ..._n('a1l2_', 8), ..._n('a2l1_', 9)]);
 
       // A1 ganz begonnen ⇒ jetzt A2.
       final gestern = _jetzt.subtract(const Duration(days: 1));
@@ -216,7 +255,7 @@ void main() {
         },
         jetzt: _jetzt,
       );
-      expect(r2.neueHeute('niveau'), _n('a2l1_', 10));
+      expect(r2.neueHeute('niveau'), _n('a2l1_', 20));
     });
 
     test('ein Deck: Subdecks abwechselnd ausgewählt und gemischt geübt', () {

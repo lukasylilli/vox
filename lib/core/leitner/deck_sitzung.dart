@@ -188,13 +188,24 @@ class DeckRechner {
 
   /// Neue Wörter, die heute aus [id] (samt Subdecks) dran sind — nach den
   /// Limits dieses Decks und aller Decks darunter (Regel von Anki).
-  List<String> neueHeute(String id) => _schlangeCache[id] ??= () {
+  List<String> neueHeute(String id) => _neue(id, eigenesLimit: true);
+
+  /// [eigenesLimit] = false: das Deck wird als Teil einer Reihe
+  /// ([DeckDaten.nacheinander]) über sein Eltern-Deck geübt und hat KEIN
+  /// selbst eingestelltes Limit ⇒ es gilt nur das Limit des Eltern-Decks
+  /// (Fehler gemeldet von Lukas 2026-11-22: stellte er «A1» von 10 auf 15,
+  /// kam kein neues Wort mehr, weil Lektion 1 mit ihrem Standard-Limit 10
+  /// schon voll war und die Reihe dort anhielt).
+  List<String> _neue(String id, {required bool eigenesLimit}) =>
+      _schlangeCache['$id|$eigenesLimit'] ??= () {
         final d = _decks[id];
         if (d == null || !_hatWiederholung(id)) return const <String>[];
         final begonnen = _woerterVon(id, nurWiederholen: true)
             .where(_heuteBegonnen)
             .length;
-        final frei = deckLimit(d, obersteEbene: _obersteEbene(id)) - begonnen;
+        final frei = eigenesLimit
+            ? deckLimit(d, obersteEbene: _obersteEbene(id)) - begonnen
+            : 1 << 30;
         if (frei <= 0) return const <String>[];
         final gesehen = <String>{};
         final kandidaten = <String>[];
@@ -214,10 +225,14 @@ class DeckRechner {
           // Geschwister erst, wenn im vorigen KEIN neues Wort mehr übrig ist
           // — auch wenn dessen eigenes Limit für heute erreicht ist (sonst
           // kämen täglich je 10 aus A1, A2, … statt erst ganz A1).
+          // Ein Glied der Reihe ohne eigenes Limit begrenzt nicht — sonst
+          // hielte z. B. Lektion 1 (Standard 10 von 20 Wörtern) das ganze
+          // Eltern-Deck an; ein von Hand eingestelltes Limit gilt weiter.
           eigene.forEach(dazu);
           for (final k in kinder) {
             if (kandidaten.length >= frei) break;
-            final heute = neueHeute(k);
+            final heute =
+                _neue(k, eigenesLimit: _decks[k]!.neuProTag != null);
             heute.forEach(dazu);
             final uebrig = _woerterVon(k, nurWiederholen: true).where(_neu);
             if (uebrig.length > heute.length) break;
