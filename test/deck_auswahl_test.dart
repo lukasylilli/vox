@@ -19,6 +19,8 @@ import 'package:vox/core/database/app_database.dart';
 import 'package:vox/core/database/dao/leitner_dao.dart';
 import 'package:vox/core/leitner/deck_baum.dart';
 import 'package:vox/core/leitner/leitner_regeln.dart';
+import 'package:vox/features/leitner/controllers/leitner_controller.dart';
+import 'package:vox/features/leitner/data/standard_decks.dart';
 import 'package:vox/features/leitner/widgets/deck_auswahl_sheet.dart';
 import 'package:vox/features/vokabular/widgets/wort_actions.dart';
 import 'package:vox/features/wortschatz/controllers/word_controller.dart';
@@ -104,7 +106,13 @@ void main() {
       addTearDown(tester.view.reset);
       await tester.pumpWidget(
         ProviderScope(
-          overrides: [databaseProvider.overrideWithValue(db)],
+          overrides: [
+            databaseProvider.overrideWithValue(db),
+            // X.4b: ohne Standard-Decks — die prüft standard_decks_test.dart.
+            standardDecksProvider.overrideWith(
+              (ref) async => StandardDecks.leer,
+            ),
+          ],
           child: MaterialApp(
             locale: const Locale('en'),
             supportedLocales: const [Locale('en'), Locale('fa')],

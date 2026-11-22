@@ -20,6 +20,8 @@ import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
 import 'package:vox/features/vokabular/widgets/uebersicht_karte.dart';
 import 'package:vox/features/wortschatz/data/such_rang.dart';
 import 'package:vox/features/wortschatz/data/wortschatz_filter.dart';
+import 'package:vox/features/leitner/controllers/leitner_controller.dart'
+    show imLeitnerMengeProvider;
 
 Map<String, dynamic> _glied(String id, String fa, String niveau) => {
       'id': id,
@@ -62,6 +64,8 @@ Widget _app(Widget kind) => ProviderScope(
       overrides: [
         vokabIndexByIdProvider.overrideWith((ref) => _byId),
         databaseProvider.overrideWithValue(_db),
+        // X.4b: WortActions fragt «im Leitner» auch über die Decks (drift).
+        imLeitnerMengeProvider.overrideWith((ref) async => <String>{}),
       ],
       child: MaterialApp(
         locale: const Locale('fa'),

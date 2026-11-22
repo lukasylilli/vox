@@ -23,6 +23,10 @@ import '../../backup/nutzer_zustand.dart'
 import '../../leitner/leitner_regeln.dart';
 import '../app_database.dart';
 
+/// Wie istStandardDeck (features/leitner/data/standard_decks.dart) — hier
+/// ohne Abhängigkeit von features/.
+bool istStandardDeckId(String id) => id.startsWith('std:');
+
 LeitnerStand _stand(LeitnerFortschrittData z) => LeitnerStand(
       wortId: z.wortId,
       fach: z.fach,
@@ -61,6 +65,7 @@ class LeitnerDao {
     String? id,
     String? elternId,
     String modus = deckModusNotiz,
+    int ordnung = 0,
   }) async {
     final deckId = id ?? neueEigeneListenId();
     final da = await deck(deckId);
@@ -71,6 +76,7 @@ class LeitnerDao {
           name: name.trim(),
           elternId: Value(elternId),
           modus: Value(modus),
+          ordnung: Value(ordnung),
           nameAmMs: Value(jetzt),
           standAmMs: Value(jetzt),
         ));
@@ -82,6 +88,95 @@ class LeitnerDao {
   /// ist — der Stapel von vor X.2. Wird beim ersten Gebrauch angelegt.
   Future<Deck> standardDeck() => deckAnlegen(standardDeckName,
       id: standardDeckId, modus: deckModusWiederholen);
+
+  // ── Standard-Decks (X.4b, Entscheidung Nr. 16) ─────────────────────────────
+
+  /// Dasselbe als Strom (für Lektionen ohne Zeile, X.4b: ihr Löschen ändert
+  /// die Tabelle Decks nicht).
+  Stream<Set<String>> geloeschteDeckIdsBeobachten() =>
+      (_db.select(_db.mitgliedschaften)
+            ..where((t) => t.art.equals(artListe) & t.drin.equals(false)))
+          .watch()
+          .map((z) => {for (final m in z) m.schluessel});
+
+  /// Legt für ein Deck ohne Zeile (Lektion/Teil eines Standard-Decks) die
+  /// Zeile mit seinen jetzigen Werten an — bevor der Nutzer daran etwas
+  /// ändert (Name, Modus, Limit). Vorhandene Zeile bleibt unberührt.
+  Future<void> deckSicherstellen(Deck d) =>
+      _db.into(_db.decks).insert(
+            DecksCompanion.insert(
+              id: d.id,
+              name: d.name,
+              elternId: Value(d.elternId),
+              ordnung: Value(d.ordnung),
+              modus: Value(d.modus),
+              neuProTag: Value(d.neuProTag),
+            ),
+            mode: InsertMode.insertOrIgnore,
+          );
+
+  /// Holt eine gelöschte Lektion/einen Teil zurück: nur das Ereignis — eine
+  /// Zeile braucht sie nicht (ihr Modus kommt wieder vom Eltern-Deck).
+  Future<void> virtuellesDeckZurueckholen(String id) =>
+      _db.mitgliedschaftMerken(artListe, id, drin: true);
+
+  /// ids der Decks, deren LETZTE bewusste Handlung «gelöscht» war.
+  Future<Set<String>> geloeschteDecks() async => {
+        for (final m in await (_db.select(_db.mitgliedschaften)
+              ..where((t) => t.art.equals(artListe) & t.drin.equals(false)))
+            .get())
+          m.schluessel,
+      };
+
+  /// Legt jedes Standard-Deck aus [soll] an, das fehlt — außer der Nutzer
+  /// hat es gelöscht. Ohne Ereignis: das Anlegen ist keine Handlung des
+  /// Nutzers (ein Löschen auf einem anderen Gerät gewinnt beim Abgleich).
+  /// Bestehende Decks bleiben unberührt (Name, Modus, Ort hat der Nutzer
+  /// vielleicht geändert). Rückgabe: Anzahl neu angelegter Decks.
+  Future<int> standardDecksAnlegen(
+      Iterable<({String id, String name, String? eltern, int ordnung})>
+          soll) async {
+    final da = {for (final d in await decks()) d.id};
+    final weg = await geloeschteDecks();
+    var neu = 0;
+    await _db.batch((b) {
+      for (final d in soll) {
+        if (da.contains(d.id) || weg.contains(d.id)) continue;
+        neu++;
+        b.insert(
+          _db.decks,
+          DecksCompanion.insert(
+            id: d.id,
+            name: d.name,
+            elternId: Value(d.eltern),
+            ordnung: Value(d.ordnung),
+            modus: const Value(deckModusNotiz),
+          ),
+          mode: InsertMode.insertOrIgnore,
+        );
+      }
+    });
+    return neu;
+  }
+
+  /// Holt ein gelöschtes Standard-Deck zurück (Entscheidung Nr. 16, Weg
+  /// «الف»): wieder angelegt — als bewusste Handlung, damit es auch auf den
+  /// anderen Geräten zurückkommt —, und seine Standard-Subdecks, die beim
+  /// Löschen eine Ebene hochgerückt sind, wieder darunter.
+  Future<void> standardDeckZurueckholen(
+      ({String id, String name, String? eltern, int ordnung}) d,
+      {Iterable<String> kinder = const []}) async {
+    await deckAnlegen(d.name,
+        id: d.id, elternId: d.eltern, ordnung: d.ordnung);
+    final kinderIds = kinder.toList();
+    if (kinderIds.isEmpty) return;
+    await (_db.update(_db.decks)
+          ..where((t) => t.id.isIn(kinderIds) & t.elternId.isNull()))
+        .write(DecksCompanion(
+      elternId: Value(d.id),
+      standAmMs: Value(DateTime.now().millisecondsSinceEpoch),
+    ));
+  }
 
   Future<void> deckUmbenennen(String id, String name) =>
       (_db.update(_db.decks)..where((t) => t.id.equals(id))).write(
@@ -108,7 +203,13 @@ class LeitnerDao {
   /// seine Subdecks rücken eine Ebene nach oben.
   Future<void> deckLoeschen(String id) async {
     final weg = await deck(id);
-    if (weg == null) return;
+    if (weg == null) {
+      // Lektion/Teil ohne Zeile: nur das Löschen festhalten (X.4b).
+      if (istStandardDeckId(id)) {
+        await _db.mitgliedschaftMerken(artListe, id, drin: false);
+      }
+      return;
+    }
     await _db.transaction(() async {
       await (_db.update(_db.decks)..where((t) => t.elternId.equals(id))).write(
         DecksCompanion(

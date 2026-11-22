@@ -51,8 +51,14 @@ class DeckAuswahlSheet extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
+    // X.4b: fehlende Standard-Decks anlegen (Entscheidung 16).
+    ref.watch(standardDecksEinrichtenProvider);
     final baum = ref.watch(deckBaumProvider).valueOrNull;
     final drin = ref.watch(deckIdsVonWortProvider(wortId)).valueOrNull;
+    // Standard-Decks, in denen das Wort aus seinen DATEN liegt — fester Haken.
+    final ausDaten =
+        ref.watch(standardDeckIdsVonWortProvider(wortId)).valueOrNull ??
+            const <String>{};
     final hoehe = MediaQuery.of(context).size.height;
 
     return Padding(
@@ -106,13 +112,18 @@ class DeckAuswahlSheet extends ConsumerWidget {
                         }
                       },
                     ),
+                  // Lektionen und Teile der Standard-Decks (X.4b) nicht: ein
+                  // Wort von Hand in «Lektion 7» zu legen ergibt keinen Sinn,
+                  // und es wären Tausende Zeilen.
                   for (final k in baum)
+                    if (!istStandardLektion(k.deck.id))
                     _DeckZeile(
                       key: ValueKey('deck_${k.deck.id}'),
                       name: k.deck.name,
                       tiefe: k.tiefe,
                       wiederholen: k.deck.modus == deckModusWiederholen,
                       gewaehlt: drin.contains(k.deck.id),
+                      ausDaten: ausDaten.contains(k.deck.id),
                       onChanged: (rein) => ref
                           .read(leitnerDaoProvider)
                           .wortSetzen(k.deck.id, wortId, rein),
@@ -160,7 +171,11 @@ class _DeckZeile extends StatelessWidget {
     required this.gewaehlt,
     required this.onChanged,
     required this.onSubdeck,
+    this.ausDaten = false,
   });
+
+  /// Das Wort liegt hier aus seinen Daten (Standard-Deck) — Haken fest.
+  final bool ausDaten;
 
   final String name;
   final int tiefe;
@@ -174,13 +189,16 @@ class _DeckZeile extends StatelessWidget {
     final theme = Theme.of(context);
     final grau = theme.colorScheme.onSurfaceVariant;
     return InkWell(
-      onTap: () => onChanged(!gewaehlt),
+      onTap: ausDaten ? null : () => onChanged(!gewaehlt),
       child: Padding(
         // Einrückung je Ebene — begrenzt, damit tiefe Bäume lesbar bleiben.
         padding: EdgeInsetsDirectional.only(start: 20.0 * tiefe.clamp(0, 6)),
         child: Row(
           children: [
-            Checkbox(value: gewaehlt, onChanged: (v) => onChanged(v ?? false)),
+            Checkbox(
+                value: gewaehlt || ausDaten,
+                onChanged:
+                    ausDaten ? null : (v) => onChanged(v ?? false)),
             Expanded(
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -203,10 +221,13 @@ class _DeckZeile extends StatelessWidget {
                       const SizedBox(width: 4),
                       Text(
                         AppL10n.t(
-                            context,
-                            wiederholen
-                                ? 'deck_modus_wiederholen'
-                                : 'deck_modus_notiz'),
+                                context,
+                                wiederholen
+                                    ? 'deck_modus_wiederholen'
+                                    : 'deck_modus_notiz') +
+                            (ausDaten
+                                ? ' · ${AppL10n.t(context, 'deck_aus_daten')}'
+                                : ''),
                         style: theme.textTheme.labelSmall?.copyWith(
                             color:
                                 wiederholen ? theme.colorScheme.primary : grau),

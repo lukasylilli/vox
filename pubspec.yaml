@@ -70,6 +70,9 @@ flutter:
     # `flutter analyze` von tool/vokab_index.dart gebaut, nie committet.
     # Seit 2026-11-16 in Stücken je Anfangsbuchstabe (vokab_index.dart).
     - assets/vocab_index/
+    # X.4b: feste Reihenfolge der Karten ⇒ feste Lektionen der Standard-Decks
+    # (wird committet; tool/wort_reihenfolge.dart verlängert sie je Wortrunde).
+    - assets/leitner/
     - assets/vocab_formen/
     # فاز F.4: fertige VOX-Bücher (Filter «Bücher» in «Alle Wörter»)
     - assets/buecher/

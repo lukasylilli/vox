@@ -222,7 +222,8 @@ dao/
   word_dao.dart     [x]  — watchAll، watchByLevel، watchByType، watchByBook (join)
                            getById، search (lower().like())، insert، update، delete
                            addToBook، removeFromBook، watchAllBooks، insertBook
-  leitner_dao.dart  [x]  — X.2 (2026-11-17) بازنویسی: تنها دسترسی به Decks/DeckWoerter/LeitnerFortschritt (id متنی) — deckAnlegen/Umbenennen/Loeschen، wortSetzen، aufnehmen/entfernen، imLeitnerBeobachten، bewerten، zuruecklegen (قبلاً: watchDue، watchAll، watchByBox، getDue، getByWordId
+  leitner_dao.dart  [x]  — X.4b: standardDecksAnlegen، standardDeckZurueckholen، geloeschteDeckIdsBeobachten،
+                           deckSicherstellen، virtuellesDeckZurueckholen · X.2 (2026-11-17) بازنویسی: تنها دسترسی به Decks/DeckWoerter/LeitnerFortschritt (id متنی) — deckAnlegen/Umbenennen/Loeschen، wortSetzen، aufnehmen/entfernen، imLeitnerBeobachten، bewerten، zuruecklegen (قبلاً: watchDue، watchAll، watchByBox، getDue، getByWordId
                            isInLeitner، countsByBox، countDue
                            addWord (box1، nextReview=tomorrow)
                            markCorrect (advance+1، max 5، nextReview=now+interval)
@@ -433,8 +434,14 @@ screens/
                                     _SummaryScreen در پایان (score، pct، _StatCard)
   leitner_stats_screen.dart  [x]  — _StatChip × 3 + BoxProgressWidget + LinearProgressIndicator
                                     جدول upcoming reviews (group by days)
+data/
+  standard_decks.dart        [x]  — X.4b (2026-11-22): Dart خالص — Deckهای پیش‌فرض (Niveau/VOX-Bücher/Wortart/Berufe) از داده‌ی
+                                    فیلترها + درس‌های ۲۰ تایی و بخش‌های ۱۰ درسی (مجازی)؛ gruppen = کلمه ⇒ Deckهای گروهی
+  wort_reihenfolge.dart      [x]  — X.4b: خواندن/افزودن ترتیب ثابت کلمه‌ها (assets/leitner/reihenfolge.json، فقط اضافه‌شدنی)
 controllers/
-  leitner_controller.dart    [x]  — X.2 (2026-11-17): یک پشته — imLeitnerProvider × leitnerFortschrittProvider ⇒ leitnerEintraegeProvider؛ boxCounts ۱–۷، gelerntCount؛ (B-13 قبلی: دو منبع AppWortEintrag | ArchivEintrag)،
+  leitner_controller.dart    [x]  — X.4b: standardDecksProvider، deckListeProvider (ردیف‌ها + درس‌های مجازی با حالت ارثی)،
+                                    geloeschteDeckIdsProvider، standardDecksEinrichtenProvider ·
+                                    X.2 (2026-11-17): یک پشته — imLeitnerProvider × leitnerFortschrittProvider ⇒ leitnerEintraegeProvider؛ boxCounts ۱–۷، gelerntCount؛ (B-13 قبلی: دو منبع AppWortEintrag | ArchivEintrag)،
                                     allLeitnerCardsProvider + archivLeitnerProvider ⇒ leitnerEintraegeProvider
                                     = **تنها فهرست** لایتنر؛ boxCountsProvider/dueCountProvider از آن مشتق و
                                     خودکار تازه می‌شوند. leitnerDaoProvider، isInLeitnerProvider، boxLabels، boxIntervals
@@ -447,6 +454,9 @@ widgets/
                                     front: German + article badge + AudioPlayButton
                                     back: meaningFa + conjugation table + examples
   box_progress_widget.dart   [x]  — Row 5 رنگ‌دار با count + label + interval
+  standard_decks_sheet.dart  [x]  — X.4b: فهرست Deckهای پیش‌فرض پاک‌شده + «برگرداندن»
+  (X.4b: leitner_home_screen ⇒ درخت تاشو، deckOffenProvider/sichtbareDecks؛ deck_zeile ⇒ پیکان باز/بسته،
+   قبل از تغییر درس مجازی deckSicherstellen)
 ```
 
 #### lib/features/categories/ [x]

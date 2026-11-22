@@ -26,7 +26,7 @@
 - پرامپت کلمه (تنها منبع قالب کارت، SUPER-PROMPT 3.0): [`old files Lukasalmani/Wort prompt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/Wort%20prompt)
 - فهرست‌ها: [`old files Lukasalmani/Wörter/`](https://github.com/lukasylilli/vox/tree/main/old%20files%20Lukasalmani/W%C3%B6rter) — فعلی: [`Adjektive.txt`](https://github.com/lukasylilli/vox/blob/main/old%20files%20Lukasalmani/W%C3%B6rter/Adjektive.txt) (۶٬۸۴۹ صفت)
 - اعتبارسنجی و id: [`lib/features/vokabular/data/vokab_schema.dart`](https://github.com/lukasylilli/vox/blob/main/lib/features/vokabular/data/vokab_schema.dart)
-- ابزارها: `tool/naechste_woerter.dart` (۲۰ کلمه‌ی بعدی؛ `--abhaken` = ✓) · `tool/vokabular_import.dart` (نوشتن کارت‌ها) · `tool/vokab_index.dart` (فهرست + شکل‌های صرف‌شده) · **`tool/wort_runde.sh`** (مراحل ۵–۷ در یک دستور)
+- ابزارها: `tool/naechste_woerter.dart` (۲۰ کلمه‌ی بعدی؛ `--abhaken` = ✓) · `tool/vokabular_import.dart` (نوشتن کارت‌ها) · `tool/vokab_index.dart` (فهرست + شکل‌های صرف‌شده) · `tool/wort_reihenfolge.dart` (X.4b، 2026-11-22: کارت‌های تازه را به ته `assets/leitner/reihenfolge.json` اضافه می‌کند — ترتیب ثابت درس‌های لایتنر؛ فایل را با کارت‌ها commit کن) · **`tool/wort_runde.sh`** (مراحل ۵–۷ در یک دستور)
 - مقصد: `assets/vocab/<wortart>/<id>.json` (یک کارت = یک فایل، fa+en در همان فایل). ظاهر (رنگ/نماد) فقط در کد — برای کلمه‌ی تازه هیچ فایل ظاهری عوض نمی‌شود.
 
 **مراحل (به همین ترتیب):**
@@ -53,7 +53,7 @@
 - `wortnetz`: wortart بدون Umlaut (`praeposition`)؛ کلمه‌ی حالت ۴ (der Abgeordnete) هرگز؛ id فعل بدون sich (`verkleiden`)؛ هم‌نویسه ⇒ id شماره‌دار (`nomen_bank_2`)؛ کلمه‌ی آرتیکل‌دوگانه/آرتیکل‌نامطمئن یا از «📋 چهار حالت» ⇒ کلمه‌ی دیگری بگذار.
 - `zeitlich` + `ersatz` فقط وقتی Duden veraltet/veraltend می‌گوید؛ اصطلاح فقط تاریخی ⇒ فقط `anmerkung`. `anmerkung` فقط ادعای مطمئن (منطقه AT/DE/CH، سطح زبان)؛ ادعای نامطمئن ⇒ حذف.
 - معمولاً ⇒ 🏁: نام سازمان/شرکت/برند (قاعده‌ی ۱۸)، آرتیکل دوگانه (der/das)، معنا یا جمع نامطمئن، فقط در عبارت ثابت (im Handumdrehen)، نام خانوادگی، لِمای دیگر (Haag ⇒ Den Haag).
-- اصلاح کارت بعد از import ⇒ `dart tool/vokab_index.dart` دوباره.
+- اصلاح کارت بعد از import ⇒ `dart tool/vokab_index.dart` دوباره (و برای کارت تازه `dart tool/wort_reihenfolge.dart`).
 - Actions «cancelled» وقتی push بعدی رسیده عادی است؛ ملاک، نتیجه‌ی آخرین اجراست.
 - commit فقط وقتی `wort_runde.sh` با کد خروج ۰ تمام شد؛ کد خروج را مستقیم بگیر، نه از پشت `grep`/`head` (لوله کد را پنهان می‌کند) — 2026-11-02 بخش ۳: یک commit بدون کارت ساخته شد و قبل از push برگشت. قبل از ساختن batch تازه، `/tmp/batch.json` قدیمی را پاک کن.
 - **اول جلسه تکلیف همه‌ی مدخل‌های درخواستی را روشن کن** (کارت / چهار حالت / 🏁) و فهرست کنار گذاشته‌های **دورهای بعدی** را هم به چک wortnetz بده؛ و قبل از هر دور چک کن که کارت‌ها + کنار گذاشته‌ها دقیقاً همان ۲۰ کلمه‌ی `naechste_woerter.dart` باشند (2026-11-09 بخش ۵: هیچ ارجاع غلطی نماند).

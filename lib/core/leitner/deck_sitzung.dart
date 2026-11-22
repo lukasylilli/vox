@@ -88,14 +88,16 @@ class DeckRechner {
     for (final d in decks) {
       _decks[d.id] = d;
     }
-    for (final d in decks) {
-      final e = d.eltern;
-      final elternDa = e != null && _decks.containsKey(e) && e != d.id;
-      (_kinder[elternDa ? e : null] ??= []).add(d.id);
-    }
-    // Reihenfolge der Kinder wie in der Eingabe (= Baum-Reihenfolge).
+    // Kinder aus dem BAUM (deck_baum.dart bricht Kreise auf, fehlende
+    // Eltern ⇒ oberste Ebene) — so kann keine Rechnung im Kreis laufen.
     _baum = deckBaum<DeckDaten>(decks,
         id: (d) => d.id, eltern: (d) => d.eltern);
+    final pfad = <String>[];
+    for (final k in _baum) {
+      pfad.length = k.tiefe;
+      (_kinder[k.tiefe == 0 ? null : pfad.last] ??= []).add(k.deck.id);
+      pfad.add(k.deck.id);
+    }
     woerterJeDeck.forEach((k, v) => _woerter[k] = v);
   }
 
@@ -113,24 +115,42 @@ class DeckRechner {
 
   bool _obersteEbene(String id) => (_kinder[null] ?? const []).contains(id);
 
-  /// [id] und alle Decks darunter.
-  Set<String> _teilbaum(String id) => deckMitSubdecks<DeckDaten>(
-      id, _decks.values,
-      id: (d) => d.id, eltern: (d) => _kinderHat(d) ? d.eltern : null);
+  // ── Teilbäume, gemerkt (X.4b: mit Lektionen ~2.800 Decks) ──────────────
 
-  // Eltern zählt nur, wenn es das Eltern-Deck gibt (wie im Baum).
-  bool _kinderHat(DeckDaten d) =>
-      d.eltern != null && _decks.containsKey(d.eltern) && d.eltern != d.id;
+  final Map<String, List<String>> _woerterCache = {};
+  final Map<String, List<String>> _wiederholWoerterCache = {};
+  final Map<String, bool> _hatWiederholungCache = {};
 
   /// Wörter eines Teilbaums, jedes einmal, in Baum-Reihenfolge.
-  List<String> _woerterIn(Iterable<String> deckIds, {bool nurWiederholen = false}) {
-    final ids = deckIds.toSet();
+  List<String> _woerterVon(String id, {bool nurWiederholen = false}) {
+    final cache = nurWiederholen ? _wiederholWoerterCache : _woerterCache;
+    return cache[id] ??= () {
+      final gesehen = <String>{};
+      final d = _decks[id];
+      return [
+        if (d != null && (!nurWiederholen || d.wiederholen))
+          for (final w in _woerter[id] ?? const <String>[])
+            if (gesehen.add(w)) w,
+        for (final k in _kinder[id] ?? const <String>[])
+          for (final w in _woerterVon(k, nurWiederholen: nurWiederholen))
+            if (gesehen.add(w)) w,
+      ];
+    }();
+  }
+
+  /// Gibt es im Teilbaum ein Deck mit Wiederholung?
+  bool _hatWiederholung(String id) => _hatWiederholungCache[id] ??=
+      (_decks[id]?.wiederholen ?? false) ||
+          (_kinder[id] ?? const <String>[]).any(_hatWiederholung);
+
+  /// Wörter mehrerer Teilbäume, jedes einmal.
+  List<String> _woerterIn(Iterable<String> wurzeln,
+      {bool nurWiederholen = false}) {
     final gesehen = <String>{};
     return [
-      for (final k in _baum)
-        if (ids.contains(k.deck.id) && (!nurWiederholen || k.deck.wiederholen))
-          for (final w in _woerter[k.deck.id] ?? const <String>[])
-            if (gesehen.add(w)) w,
+      for (final r in wurzeln)
+        for (final w in _woerterVon(r, nurWiederholen: nurWiederholen))
+          if (gesehen.add(w)) w,
     ];
   }
 
@@ -150,33 +170,39 @@ class DeckRechner {
   /// Limits dieses Decks und aller Decks darunter (Regel von Anki).
   List<String> neueHeute(String id) => _schlangeCache[id] ??= () {
         final d = _decks[id];
-        if (d == null) return const <String>[];
-        final begonnen = _woerterIn(_teilbaum(id), nurWiederholen: true)
+        if (d == null || !_hatWiederholung(id)) return const <String>[];
+        final begonnen = _woerterVon(id, nurWiederholen: true)
             .where(_heuteBegonnen)
             .length;
         final frei = deckLimit(d, obersteEbene: _obersteEbene(id)) - begonnen;
         if (frei <= 0) return const <String>[];
         final gesehen = <String>{};
-        final kandidaten = <String>[
-          if (d.wiederholen)
-            for (final w in _woerter[id] ?? const <String>[])
-              if (_neu(w) && gesehen.add(w)) w,
-          for (final k in _kinder[id] ?? const <String>[])
-            for (final w in neueHeute(k))
-              if (gesehen.add(w)) w,
-        ];
-        return kandidaten.take(frei).toList();
+        final kandidaten = <String>[];
+        void dazu(String w) {
+          if (kandidaten.length < frei && gesehen.add(w)) kandidaten.add(w);
+        }
+
+        if (d.wiederholen) {
+          for (final w in _woerter[id] ?? const <String>[]) {
+            if (_neu(w)) dazu(w);
+          }
+        }
+        for (final k in _kinder[id] ?? const <String>[]) {
+          if (kandidaten.length >= frei) break;
+          neueHeute(k).forEach(dazu);
+        }
+        return kandidaten;
       }();
 
   /// Heute zu übende Wörter von [id] samt Subdecks: erst die fälligen (Fach
   /// aufsteigend, dann Termin), dann die neuen.
-  List<String> sitzung(String id) => _sitzung(_teilbaum(id), neueHeute(id));
+  List<String> sitzung(String id) => _sitzung([id], neueHeute(id));
 
   /// Heute zu übende Wörter aller Decks (jedes Deck der obersten Ebene mit
   /// seinem Limit).
   List<String> sitzungAlle() {
     final gesehen = <String>{};
-    return _sitzung(_decks.keys, [
+    return _sitzung(_kinder[null] ?? const <String>[], [
       for (final r in _kinder[null] ?? const <String>[])
         for (final w in neueHeute(r))
           if (gesehen.add(w)) w,
@@ -200,8 +226,7 @@ class DeckRechner {
 
   /// Zahlen von [id] samt Subdecks.
   DeckZaehler zaehler(String id) {
-    final teil = _teilbaum(id);
-    final alle = _woerterIn(teil);
+    final alle = _woerterVon(id);
     var neu = 0, lernt = 0, gelernt = 0;
     for (final w in alle) {
       switch (lernZustand(_fortschritt[w])) {
@@ -218,7 +243,7 @@ class DeckRechner {
       neu: neu,
       lernt: lernt,
       gelernt: gelernt,
-      faellig: _woerterIn(teil, nurWiederholen: true).where(_faellig).length,
+      faellig: _woerterVon(id, nurWiederholen: true).where(_faellig).length,
       neuHeute: neueHeute(id).length,
     );
   }

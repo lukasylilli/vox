@@ -14,12 +14,42 @@ import 'package:go_router/go_router.dart';
 import '../../../core/constants/app_routes.dart';
 import '../../../core/constants/app_sizes.dart';
 import '../../../core/l10n/app_l10n.dart';
+import '../../../core/database/app_database.dart';
+import '../../../core/leitner/deck_baum.dart';
 import '../../../core/utils/formatters.dart';
 import '../controllers/leitner_controller.dart';
 import '../widgets/box_progress_widget.dart';
 import '../widgets/deck_dialoge.dart';
 import '../widgets/deck_zeile.dart';
+import '../widgets/standard_decks_sheet.dart';
 import '../../../core/widgets/vox_button.dart';
+
+/// Auf-/zugeklappte Decks im Baum (nur für diese Sitzung der App).
+/// Fehlt ein Deck hier, gilt: eigene Decks offen, Standard-Decks zu — sonst
+/// stünden Tausende Lektionen auf der Seite.
+final deckOffenProvider = StateProvider<Map<String, bool>>((_) => const {});
+
+/// Die sichtbaren Zeilen des Baums: ein Deck ist sichtbar, wenn alle Decks
+/// darüber offen sind.
+List<({DeckKnoten<Deck> knoten, bool hatKinder, bool offen})> sichtbareDecks(
+    List<DeckKnoten<Deck>> baum, Map<String, bool> offen) {
+  bool istOffen(Deck d) => offen[d.id] ?? !istStandardDeck(d.id);
+  final ergebnis = <({DeckKnoten<Deck> knoten, bool hatKinder, bool offen})>[];
+  // Tiefe, ab der (wegen eines zugeklappten Decks) nichts sichtbar ist.
+  int? zuAb;
+  for (var i = 0; i < baum.length; i++) {
+    final k = baum[i];
+    if (zuAb != null) {
+      if (k.tiefe > zuAb) continue;
+      zuAb = null;
+    }
+    final hatKinder = i + 1 < baum.length && baum[i + 1].tiefe > k.tiefe;
+    final o = istOffen(k.deck);
+    ergebnis.add((knoten: k, hatKinder: hatKinder, offen: o));
+    if (hatKinder && !o) zuAb = k.tiefe;
+  }
+  return ergebnis;
+}
 
 class LeitnerHomeScreen extends ConsumerWidget {
   const LeitnerHomeScreen({super.key});
@@ -28,6 +58,9 @@ class LeitnerHomeScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final theme      = Theme.of(context);
     final scheme     = theme.colorScheme;
+    // X.4b: fehlende Standard-Decks beim Öffnen anlegen (Entscheidung 16).
+    ref.watch(standardDecksEinrichtenProvider);
+    final offen = ref.watch(deckOffenProvider);
     final dueAsync   = ref.watch(dueCountProvider);
     final countsAsync= ref.watch(boxCountsProvider);
 
@@ -70,6 +103,23 @@ class LeitnerHomeScreen extends ConsumerWidget {
             ),
           ]),
           const SizedBox(height: AppSizes.sm),
+          if ((ref.watch(geloeschteStandardDecksProvider).valueOrNull ??
+                  const [])
+              .isNotEmpty)
+            Align(
+              alignment: AlignmentDirectional.centerEnd,
+              child: VoxButton.text(
+                key: const ValueKey('leitner_standard_decks'),
+                label: AppL10n.t(context, 'deck_standard_titel'),
+                icon: Icons.restore_rounded,
+                size: VoxButtonSize.small,
+                onPressed: () => showModalBottomSheet<void>(
+                  context: context,
+                  showDragHandle: true,
+                  builder: (_) => const StandardDecksSheet(),
+                ),
+              ),
+            ),
           ...switch (ref.watch(deckBaumProvider)) {
             AsyncData(:final value) when value.isEmpty => [
                 Padding(
@@ -85,11 +135,17 @@ class LeitnerHomeScreen extends ConsumerWidget {
                   margin: EdgeInsets.zero,
                   clipBehavior: Clip.antiAlias,
                   child: Column(children: [
-                    for (final k in value)
+                    for (final z in sichtbareDecks(value, offen))
                       DeckZeile(
-                          deck: k.deck,
-                          tiefe: k.tiefe,
-                          obersteEbene: k.tiefe == 0),
+                        deck: z.knoten.deck,
+                        tiefe: z.knoten.tiefe,
+                        obersteEbene: z.knoten.tiefe == 0,
+                        hatKinder: z.hatKinder,
+                        offen: z.offen,
+                        onAufklappen: () => ref
+                            .read(deckOffenProvider.notifier)
+                            .update((m) => {...m, z.knoten.deck.id: !z.offen}),
+                      ),
                   ]),
                 ),
               ],

@@ -45,6 +45,9 @@ daten_schritte() {
   dart tool/vokabular_import.dart "$batch" | tail -n 3
   echo "── 6 · Index + ✓ in den Listen"
   dart tool/vokab_index.dart | tail -n 3
+  # X.4b: neue Karten ans Ende der festen Reihenfolge (feste Lektionen der
+  # Standard-Decks) — die Datei gehört in den Commit der Runde.
+  dart tool/wort_reihenfolge.dart
   dart tool/naechste_woerter.dart --abhaken
   # Tabelle der zurückgestellten Wörter aus der JSON-Quelle (Audit 2026-11-11)
   dart tool/zurueckgestellt.dart

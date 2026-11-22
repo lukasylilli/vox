@@ -1,6 +1,6 @@
 # فاز X — لایتنر شبیه Anki
 
-> 🚧 **در حال ساخت (شروع: Lukas، 2026-11-17 — قبل از اتمام کلمه‌ها، به خواست خودش).** X.1 تا X.4 ✅ · قدم بعدی: X.4b (Deckهای پیش‌فرض، تصمیم ۱۶). انتشار **قدم‌به‌قدم** (تصمیم Lukas 2026-11-17).
+> 🚧 **در حال ساخت (شروع: Lukas، 2026-11-17 — قبل از اتمام کلمه‌ها، به خواست خودش).** X.1 تا X.4b ✅ · قدم بعدی: X.5 (تمرین‌ها — فهرست الگوی دولینگو را قبل از ساخت به Lukas نشان بده). انتشار **قدم‌به‌قدم** (تصمیم Lukas 2026-11-17).
 > منبع: `PLAN.md` تا کامیت `7c8700d4` (2026-11-10، بسته‌ی ۳ ممیزی) — متن عیناً منتقل شده، هیچ خطی حذف نشده.
 
 ## 🃏 فاز X — لایتنر شبیه Anki: deckهای تودرتو و انواع تمرین (Lukas، 2026-11-03 — ⛔ طرح؛ هنوز هیچ کدی ساخته نشده)
@@ -80,7 +80,7 @@
 - [x] **X.2 ✅ 2026-11-17** — داده + مهاجرت + قرارداد پشتیبان + تست‌ها (بخش «X.2 — چه ساخته شد» پایین).
 - [x] **X.3 ✅ 2026-11-17** — شیت انتخاب deck (`LeitnerAddButton`/`WortActions`) + ادغام «دسته‌بندی‌های من» (بخش «X.3 — چه ساخته شد» پایین).
 - [x] **X.4 ✅ 2026-11-17** — صفحه‌ی درخت deckها + صفحه‌ی هر Deck + مرور هر Deck با سقف روزانه (بخش «X.4 — چه ساخته شد» پایین).
-- [ ] **X.4b** — Deckهای پیش‌فرض (تصمیم ۱۶: سطح‌ها، کتاب‌های VOX، نوع کلمه، شغل‌ها؛ همه «فقط دفترچه»؛ عضویت از داده‌ی فیلتر محاسبه می‌شود؛ پاک‌شده‌ها ثبت می‌شوند و با «Deckهای پیش‌فرض» برمی‌گردند).
+- [x] **X.4b ✅ 2026-11-22** — Deckهای پیش‌فرض (تصمیم ۱۶) + درس‌های ثابت ۲۰ کلمه‌ای (بخش «X.4b — چه ساخته شد» پایین).
 - [ ] **X.5** — مرور با انواع تمرین (مشترک با فاز K).
 - [ ] **X.6** — آمار، یادآور، فیلتر F.4، «افزودن همه» در کتاب‌ها/deckها.
 - [ ] **X.7** — «افزودن کلمه» ⇒ «درخواست کلمه» (لینک تلگرام؛ کاربر دیگر کلمه وارد نمی‌کند) — تصمیم ۱۳.
@@ -132,3 +132,19 @@
 - **فایل‌ها:** `core/leitner/deck_sitzung.dart` (تازه) · `features/leitner/screens/deck_screen.dart` (از `categories/screens/category_detail_screen.dart`) · `features/leitner/widgets/deck_zeile.dart`، `deck_dialoge.dart` (تازه؛ پنجره‌ی Deck تازه از `deck_auswahl_sheet.dart` به این‌جا آمد) · `leitner_home_screen.dart` · `leitner_review_screen.dart` (`deckId`) · `leitner_controller.dart` (`deckRechnerProvider`، `leitnerSitzungProvider`، `deckWoerterProvider`، `dueCountProvider` تازه) · `core/database/dao/leitner_dao.dart` (`deckEinstellen`، اولین مرور) · `core/leitner/leitner_regeln.dart` · `core/backup/nutzer_zustand.dart`، `user_state_repository.dart` · `core/database/app_database.dart` (+ `.g.dart`، `drift_schemas/drift_schema_v9.json`، `test/generated_migrations/schema_v9.dart`) · `core/constants/app_routes.dart`، `core/router/app_router.dart` · `categories/controllers/category_controller.dart` (فقط `allCategoriesProvider` برای فیلتر) · `categories/screens/category_list_screen.dart` (حذف) · `wortschatz_home_screen.dart`، `more/widgets/profil_archiv_karte.dart` · `core/l10n/app_l10n.dart`.
 - **نگهبان‌ها:** `test/deck_sitzung_test.dart` (سقف‌ها و مثال Lukas، امروز شروع‌شده، دفترچه، کلمه در دو Deck) · `test/deck_seite_test.dart` (اولین مرور، ادغام، مرور هر Deck، صفحه‌ی لایتنر، صفحه‌ی Deck، منو: حالت و حذف) · `test/migration_test.dart` (هر نسخه‌ی ۲…۸ ⇒ ۹؛ برای ≥ ۸ با داده در جدول‌های تازه) · `test/migration_v8_test.dart` (تا نسخه‌ی فعلی).
 - **کنترل در Chrome واقعی (فارسی):** ساخت Deck «Möbel» از دکمه‌ی لایتنر ⇒ در صفحه‌ی لایتنر با «۱ تازه» و ▶؛ مرور همان Deck فقط der Tisch را آورد؛ صفحه‌ی Deck با شمارنده‌ها، کلمه و منوی کامل.
+
+## ✅ X.4b — چه ساخته شد (2026-11-22)
+
+- **Deckهای پیش‌فرض (تصمیم ۱۶):** چهار گروه زیر Deckهای خود کاربر — **Niveau** (A1–C2)، **VOX-Bücher**، **Wortart**، **Berufe** — هر کدام فقط با زیرمجموعه‌هایی که کلمه دارند. همه «فقط دفترچه» شروع می‌شوند؛ کاربر هر کدام را می‌تواند روی «مرور» بگذارد. id ثابت: `std:niveau:a1`، `std:buch:<id>`، `std:wortart:<نوع>`، `std:beruf:<شغل>`.
+- **عضویت از داده، نه ذخیره‌شده (خواست Lukas ۱):** هر بار از همان داده‌ای حساب می‌شود که فیلترهای «همه‌ی کلمه‌ها» استفاده می‌کنند ⇒ کلمه‌ای که بعداً اضافه شود خودکار در Deck یا Deckهای درستش است (یک کلمه در چند فیلتر ⇒ در همه‌ی Deckهای مربوط). نگهبان: در تست، هر Deck با کارت‌های واقعی دقیقاً برابر فیلتر هم‌نامش است. Deck گروهی که تازه کلمه پیدا کند (مثلاً شغل تازه) خودکار ساخته می‌شود.
+- **درس‌ها (خواست Lukas ۲، جواب‌ها 2026-11-22):** هر Deck پیش‌فرض به **درس‌های ۲۰ کلمه‌ای** («Lektion 1»، …) تقسیم می‌شود؛ بیش از ۱۰ درس ⇒ **بخش‌های ۱۰ درسی** («Teil 1 (Lektion 1–10)»). هر درس جدا قابل یادگیری/مرور است (▶ خودش، سقف روزانه‌ی زیرمجموعه).
+  - **درس‌های ثابت:** ترتیب کلمه‌ها از فایل `assets/leitner/reihenfolge.json` می‌آید که **فقط به ته آن اضافه می‌شود** ⇒ درس‌های قدیمی هرگز عوض نمی‌شوند، کلمه‌ی تازه به درس آخر یا درس تازه می‌رود، و درس‌ها برای همه‌ی کاربران و دستگاه‌ها یکسان‌اند (بی‌نیاز از همگام‌سازی).
+  - **قدم تازه در روال کلمه:** `dart tool/wort_reihenfolge.dart` بعد از `vokab_index.dart` (در `tool/wort_runde.sh` هست). فایل باید با کارت‌ها commit شود؛ نگهبان در `test/standard_decks_test.dart` قرمز می‌شود اگر کارتی در آن نباشد.
+  - ترتیب در هر درس: کلمه‌های قدیمی اپ ⇒ کارت‌ها به ترتیب فایل ⇒ کلمه‌های خود کاربر. کتاب‌های VOX ترتیب خود کتاب را نگه می‌دارند.
+- **درس و بخش «مجازی»اند:** در پایگاه‌داده ردیف ندارند (وگرنه ~۲٬۸۰۰ ردیف برای هر کاربر)؛ حالت را از Deck بالایی ارث می‌برند (A1 روی «مرور» ⇒ همه‌ی درس‌های A1 برای مرور). فقط وقتی کاربر چیزی را تغییر دهد (نام، حالت، سقف، زیرمجموعه) ردیفش ساخته می‌شود. حذف درس فقط یک رویداد ثبت می‌کند؛ با حذف Deck بالایی، درس‌ها یک سطح بالا می‌آیند.
+- **پاک‌شده‌ها پاک می‌مانند** و از دکمه‌ی «Deckهای پیش‌فرض» در صفحه‌ی لایتنر برمی‌گردند (درس‌ها هم).
+- **صفحه‌ی لایتنر:** درخت حالا تاشو است — Deckهای پیش‌فرض بسته، Deckهای خود کاربر باز (فقط برای همین جلسه‌ی اپ). شیت انتخاب Deck درس‌ها و بخش‌ها را نشان نمی‌دهد؛ عضویت از داده با تیک ثابت و «· خودکار». در صفحه‌ی Deck، کلمه‌های خودکار با کشیدن حذف نمی‌شوند. فیلتر «دسته‌های من» Deckهای پیش‌فرض را نشان نمی‌دهد.
+- **سرعت:** محاسبه‌ی سقف روزانه (`deck_sitzung.dart`) زیردرخت‌ها را حالا یک بار حساب و نگه می‌دارد (با ~۲٬۸۰۰ Deck).
+- **فایل‌ها:** `features/leitner/data/standard_decks.dart`، `features/leitner/data/wort_reihenfolge.dart`، `tool/wort_reihenfolge.dart`، `assets/leitner/reihenfolge.json`، `features/leitner/widgets/standard_decks_sheet.dart` (تازه) · تغییر: `leitner_dao.dart`، `leitner_controller.dart` (`deckListeProvider` = ردیف‌ها + درس‌های مجازی)، `deck_sitzung.dart`، `leitner_home_screen.dart`، `deck_zeile.dart`، `deck_auswahl_sheet.dart`، `deck_screen.dart`، `wort_actions.dart`، `category_controller.dart`.
+- **نگهبان‌ها:** `test/standard_decks_test.dart` (محاسبه، برابری با فیلترها، درس ۲۰ تایی، بخش ۱۰ تایی، ثابت ماندن درس‌ها با کلمه‌ی تازه، کلمه در چند Deck، هر کارت در فایل ترتیب، ارث حالت، حذف/بازگرداندن، بالا آمدن درس‌ها). همه‌ی ۶۵۰ تست سبز.
+- **کنترل در Chrome:** صفحه‌ی لایتنر با چهار گروه بسته (Niveau ۲۳٬۷۳۳ کلمه، VOX-Bücher ۱٬۰۱۶، Wortart، Berufe ۳٬۸۱۵)؛ باز کردن Niveau ⇒ A1 (۵۹۵ کلمه) ⇒ سه بخش (۲۰۰، ۲۰۰، ۱۹۵) با ۱۰ درس در هر بخش.

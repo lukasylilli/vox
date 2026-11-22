@@ -76,7 +76,7 @@
 | `lib/features/hoeren/` | 8 |
 | `lib/features/home/` | 4 |
 | `lib/features/konnektoren/` | 9 |
-| `lib/features/leitner/` | 8 |
+| `lib/features/leitner/` | 15 |
 | `lib/features/lesen/` | 6 |
 | `lib/features/modalverben/` | 4 |
 | `lib/features/more/` | 13 |
@@ -219,6 +219,7 @@ die Karten sind 3.0.
 | `tool/vokab_index.dart` | Dart | **V.2** — baut den Wortindex `assets/vocab_index/` (Stücke je Anfangsbuchstabe + `stuecke.json`, seit 2026-11-16) und `assets/vocab_formen/` aus `assets/vocab/`. Läuft in **jedem** Workflow direkt vor `flutter analyze`; Ergebnis nie committet (`.gitignore`). exit 1 bei unlesbarer/falsch abgelegter Karte oder doppelter id |
 | `tool/naechste_woerter.dart` | Dart | **L.4 (2026-09-23)** — nennt die nächsten N Wörter der aktuellen Wortliste ohne Karte (Reihenfolge der Datei, `zurueckgestellt` = unsichere Wörter für Lukas). `--abhaken` (2026-09-24): ✓ in allen Listen für jedes Wort mit Karte (gleiche vokabId + wortartKorrektur). Routine: «📚 کلمه‌ها» oben / PLAN.md **2026-10-31:** Standard 20 statt 10 (Lukas: Runde = 20 Wörter) |
 | `docs/WORTRUNDEN.md` | md | **2026-10-31 (Archiv)** — die ausführlichen Berichte aller Wortrunden (früher PLAN-Kopf + MAP «📚 کلمه‌ها»), wörtlich verschoben, nichts gelöscht. Neue Sitzungsberichte nur hier (neueste oben). Nicht am Chat-Anfang lesen; Regeln/Lehren stehen in PLAN «📚 روال» |
+| `tool/wort_reihenfolge.dart` | Dart | **X.4b (2026-11-22)** — hängt neue Karten-ids an `assets/leitner/reihenfolge.json` an (nur anhängen, nie umstellen) ⇒ feste Lektionen der Standard-Decks, für alle gleich. Läuft in `wort_runde.sh` nach `vokab_index.dart`; die Datei wird committet; Wächter in `test/standard_decks_test.dart` |
 | `tool/wort_runde.sh` | sh | **L.4 (2026-09-24 دور ۶۳)** — Routine-Schritte 5–7 in EINEM Aufruf, gleiche Befehle/Reihenfolge: Dry-Run (muss «Fehler: 0 · Warnungen: 0») ⇒ Import ⇒ vokab_index ⇒ `--abhaken` ⇒ analyze ⇒ test ⇒ nächste Wörter. Erstes Problem ⇒ Abbruch. **2026-10-26:** `--teil 1|2|3` = dieselben Schritte in drei Aufrufen (1: bis analyze · 2: Tests ohne `grammatik_uebungen_test.dart` · 3: diese Datei + nächste Wörter) für Zeitlimits pro Befehl. **2026-10-31:** `--teil daten` = Dry-Run ⇒ Import ⇒ Index ⇒ ✓ ⇒ nächste Wörter, nur Dart-SDK, ohne analyze/test (laufen in deploy-web.yml vor dem Deploy); Abbruch, wenn lib/, test/, pubspec.* oder analysis_options.yaml geändert sind. Alle `dart run tool/…` ⇒ `dart tool/…` (kein automatischer pub-Lauf) |
 | `tool/dart_umgebung.sh` | sh | **L.4 (2026-10-31)** — `source tool/dart_umgebung.sh`: lädt nur das Dart-SDK in der Version, die zur Flutter-Version in `deploy-web.yml` gehört (aus der Flutter-Release-Liste, nie von Hand), setzt PATH und schreibt eine minimale `.dart_tool/package_config.json` (`package:vox` ⇒ `lib/`, languageVersion aus pubspec). Eine von pub erzeugte Datei bleibt unangetastet. Für Wortrunden ohne Flutter |
 | `tool/vokabular_import.dart` | Dart | **verbindliche Prüfung** — Konverter-Output → `assets/vocab/<wortart>/<id>.json`. Nutzt `vokabPruefeKarte()` aus `lib/features/vokabular/data/vokab_schema.dart`. Duplikat-Schutz, idempotent, exit 1 bei Fehlern |
@@ -393,6 +394,8 @@ words                    — جدول اصلی (unique: {german, wordType}) + re
 books · word_books       — کتاب‌ها + many-to-many
 leitner_fortschritt      — X.2 (2026-11-17): پیشرفت «کلمه × تمرین» (جعبه ۱–۷، ۸ = یاد گرفته‌شده) — کلید متنی؛ X.4 (v9): + erste_wiederholung (سقف روزانه)
 decks · deck_woerter     — X.2: Deckها (درختی، حالت مرور/دفترچه، سقف روزانه) + کلمه ↔ Deck (چند به چند)
+                           X.4b: Deckهای پیش‌فرض `std:…` (گروه‌ها ردیف دارند؛ درس‌ها/بخش‌ها `std:…:l<n>`/`:t<n>` بی‌ردیف،
+                           از داده + assets/leitner/reihenfolge.json؛ ادغام در leitner_controller.dart ⇒ deckListeProvider)
                            (جایگزین user_categories، category_words، leitner_cards، archiv_leitner،
                             archiv_kategorien، archiv_kategorie_woerter — شرح: docs/zukunft/PHASE_X.md ⇒ «🧱 مدل داده»)
 mitgliedschaften         — عضویت‌ها و حذف‌ها با زمان (S.5)

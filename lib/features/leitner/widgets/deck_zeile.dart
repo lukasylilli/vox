@@ -26,7 +26,15 @@ class DeckZeile extends ConsumerWidget {
     required this.deck,
     required this.tiefe,
     required this.obersteEbene,
+    this.hatKinder = false,
+    this.offen = false,
+    this.onAufklappen,
   });
+
+  /// Baum (X.4b): hat Subdecks — dann Pfeil zum Auf-/Zuklappen.
+  final bool hatKinder;
+  final bool offen;
+  final VoidCallback? onAufklappen;
 
   final Deck deck;
 
@@ -56,6 +64,23 @@ class DeckZeile extends ConsumerWidget {
             bottom: AppSizes.xs),
         child: Row(
           children: [
+            if (onAufklappen != null)
+              SizedBox(
+                width: 28,
+                child: hatKinder
+                    ? InkResponse(
+                        key: ValueKey('deck_auf_${deck.id}'),
+                        onTap: onAufklappen,
+                        radius: 18,
+                        child: Icon(
+                          offen
+                              ? Icons.expand_more_rounded
+                              : Icons.chevron_right_rounded,
+                          size: 22,
+                        ),
+                      )
+                    : null,
+              ),
             Icon(
               wiederholen ? Icons.style_rounded : Icons.menu_book_outlined,
               size: 22,
@@ -168,6 +193,12 @@ class DeckMenue extends ConsumerWidget {
       tooltip: AppL10n.t(context, 'deck_mehr'),
       icon: const Icon(Icons.more_vert_rounded),
       onSelected: (wahl) async {
+        // Lektion/Teil eines Standard-Decks hat noch keine Zeile — vor jeder
+        // Änderung mit den jetzigen Werten anlegen (X.4b).
+        if (wahl != 'loeschen') {
+          await ref.read(leitnerDaoProvider).deckSicherstellen(deck);
+        }
+        if (!context.mounted) return;
         switch (wahl) {
           case 'umbenennen':
             await deckUmbenennen(context, ref, deck);

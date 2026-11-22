@@ -76,41 +76,67 @@ class DeckScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: ListView(
-        padding: const EdgeInsets.only(bottom: 96),
-        children: [
-          _Kopf(deck: deck, z: z),
+      // Lazy: ein Standard-Deck wie «A1» hat Tausende Wörter (X.4b).
+      body: CustomScrollView(
+        slivers: [
+          SliverToBoxAdapter(child: _Kopf(deck: deck, z: z)),
+          if (istStandardDeck(deck.id))
+            SliverToBoxAdapter(
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(horizontal: AppSizes.md),
+                child: Text(AppL10n.t(context, 'deck_standard_info'),
+                    style: theme.textTheme.bodySmall?.copyWith(
+                        color: theme.colorScheme.onSurfaceVariant)),
+              ),
+            ),
           if (subdecks.isNotEmpty) ...[
-            _Ueberschrift(AppL10n.t(context, 'deck_subdecks')),
-            for (final s in subdecks)
-              DeckZeile(deck: s, tiefe: 0, obersteEbene: false),
-            const Divider(height: AppSizes.lg),
+            SliverToBoxAdapter(
+                child: _Ueberschrift(AppL10n.t(context, 'deck_subdecks'))),
+            SliverList.builder(
+              itemCount: subdecks.length,
+              itemBuilder: (_, k) =>
+                  DeckZeile(deck: subdecks[k], tiefe: 0, obersteEbene: false),
+            ),
+            const SliverToBoxAdapter(child: Divider(height: AppSizes.lg)),
           ],
-          _Ueberschrift(AppL10n.t(context, 'deck_woerter')),
+          SliverToBoxAdapter(
+              child: _Ueberschrift(AppL10n.t(context, 'deck_woerter'))),
           ...woerter.when(
             loading: () => const [
-              Padding(
-                padding: EdgeInsets.all(AppSizes.lg),
-                child: Center(child: CircularProgressIndicator()),
+              SliverToBoxAdapter(
+                child: Padding(
+                  padding: EdgeInsets.all(AppSizes.lg),
+                  child: Center(child: CircularProgressIndicator()),
+                ),
               ),
             ],
-            error: (e, _) =>
-                [Center(child: Text('${AppL10n.t(context, 'error')}: $e'))],
+            error: (e, _) => [
+              SliverToBoxAdapter(
+                  child: Center(
+                      child: Text('${AppL10n.t(context, 'error')}: $e'))),
+            ],
             data: (zeilen) => zeilen.isEmpty
                 ? [
-                    Padding(
-                      padding: const EdgeInsets.all(AppSizes.lg),
-                      child: Text(AppL10n.t(context, 'deck_leer'),
-                          textAlign: TextAlign.center,
-                          style: theme.textTheme.bodyMedium?.copyWith(
-                              color: theme.colorScheme.onSurfaceVariant)),
+                    SliverToBoxAdapter(
+                      child: Padding(
+                        padding: const EdgeInsets.all(AppSizes.lg),
+                        child: Text(AppL10n.t(context, 'deck_leer'),
+                            textAlign: TextAlign.center,
+                            style: theme.textTheme.bodyMedium?.copyWith(
+                                color: theme.colorScheme.onSurfaceVariant)),
+                      ),
                     ),
                   ]
                 : [
-                    for (final zeile in zeilen)
-                      _WortZeile(deckId: deckId, zeile: zeile),
+                    SliverList.builder(
+                      itemCount: zeilen.length,
+                      itemBuilder: (_, k) =>
+                          _WortZeile(deckId: deckId, zeile: zeilen[k]),
+                    ),
                   ],
           ),
+          const SliverToBoxAdapter(child: SizedBox(height: 96)),
         ],
       ),
       floatingActionButton: z.heute > 0
@@ -228,7 +254,7 @@ class _Kopf extends StatelessWidget {
 class _WortZeile extends ConsumerWidget {
   const _WortZeile({required this.deckId, required this.zeile});
   final String deckId;
-  final ({String wortId, Object wert}) zeile;
+  final ({String wortId, Object wert, bool vonHand}) zeile;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -237,6 +263,16 @@ class _WortZeile extends ConsumerWidget {
     final name = eintrag is WordModel
         ? eintrag.german
         : '${(eintrag as Map)['wort'] ?? ''}';
+    final zeileSelbst = WortschatzZeile(
+      treffer:
+          SuchTreffer<Object>(wert: eintrag, lemma: name, rang: SuchRang.genau),
+    );
+    // Wörter aus den Daten eines Standard-Decks gehören dazu (z. B. «ist
+    // A1») — sie lassen sich nicht herausnehmen, nur von Hand gelegte.
+    if (!zeile.vonHand) {
+      return KeyedSubtree(
+          key: ValueKey('deckwort_${zeile.wortId}'), child: zeileSelbst);
+    }
     return Dismissible(
       key: ValueKey('deckwort_${zeile.wortId}'),
       direction: DismissDirection.endToStart,
@@ -266,10 +302,7 @@ class _WortZeile extends ConsumerWidget {
       ),
       onDismissed: (_) =>
           ref.read(leitnerDaoProvider).wortSetzen(deckId, zeile.wortId, false),
-      child: WortschatzZeile(
-        treffer:
-            SuchTreffer<Object>(wert: eintrag, lemma: name, rang: SuchRang.genau),
-      ),
+      child: zeileSelbst,
     );
   }
 }

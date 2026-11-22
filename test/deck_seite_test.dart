@@ -20,6 +20,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vox/core/database/app_database.dart';
 import 'package:vox/core/database/dao/leitner_dao.dart';
 import 'package:vox/core/leitner/leitner_regeln.dart';
+import 'package:vox/features/leitner/data/standard_decks.dart';
 import 'package:vox/features/leitner/controllers/leitner_controller.dart';
 import 'package:vox/features/leitner/screens/deck_screen.dart';
 import 'package:vox/features/leitner/screens/leitner_home_screen.dart';
@@ -109,7 +110,11 @@ void main() {
       await dao.wortSetzen(sub.id, 'nomen_stuhl', true);
       await dao.wortSetzen(notiz.id, 'nomen_koffer', true);
       final c = ProviderContainer(
-        overrides: [databaseProvider.overrideWithValue(db)],
+        overrides: [
+          databaseProvider.overrideWithValue(db),
+          // X.4b: ohne Standard-Decks — die prüft standard_decks_test.dart.
+          standardDecksProvider.overrideWith((ref) async => StandardDecks.leer),
+        ],
       );
       addTearDown(c.dispose);
       expect(await c.read(leitnerSitzungProvider(oben.id).future), [
@@ -137,6 +142,10 @@ void main() {
         ProviderScope(
           overrides: [
             databaseProvider.overrideWithValue(db),
+            // X.4b: ohne Standard-Decks — die prüft standard_decks_test.dart.
+            standardDecksProvider.overrideWith(
+              (ref) async => StandardDecks.leer,
+            ),
             vokabIndexByIdProvider.overrideWith((ref) => _index),
           ],
           child: MaterialApp(

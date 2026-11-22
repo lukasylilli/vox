@@ -21,5 +21,6 @@ export '../../leitner/controllers/leitner_controller.dart'
 /// Die eigenen Listen: Decks im Notizbuch-Modus.
 final allCategoriesProvider = FutureProvider<List<Deck>>((ref) async => [
       for (final d in await ref.watch(alleDecksProvider.future))
-        if (d.modus == deckModusNotiz) d,
+        // Standard-Decks (X.4b) doppeln nur die anderen Filter.
+        if (d.modus == deckModusNotiz && !istStandardDeck(d.id)) d,
     ]);

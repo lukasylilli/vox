@@ -15,6 +15,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../../core/l10n/app_l10n.dart';
 import '../../../core/widgets/audio_play_button.dart';
 import '../../../core/widgets/vox_button.dart';
+import '../../leitner/controllers/leitner_controller.dart'
+    show imLeitnerMengeProvider;
 import '../../leitner/widgets/deck_auswahl_sheet.dart';
 import '../controllers/vokabular_user_state.dart';
 
@@ -29,8 +31,12 @@ class WortActions extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    // Von Hand in einem Deck mit Wiederholung — oder (X.4b) aus den Daten in
+    // einem Standard-Deck, das auf «Wiederholung» steht.
     final imLeitner = ref.watch(
-        vokabularUserProvider.select((s) => s.imLeitner(_id)));
+            vokabularUserProvider.select((s) => s.imLeitner(_id))) ||
+        (ref.watch(imLeitnerMengeProvider).valueOrNull?.contains(_id) ??
+            false);
     final imNotizbuch = ref.watch(
         vokabularUserProvider.select((s) => s.imNotizbuch(_id)));
     final scheme = Theme.of(context).colorScheme;

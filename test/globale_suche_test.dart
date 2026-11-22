@@ -28,6 +28,8 @@ import 'package:vox/features/grammatik/screens/grammatik_home_screen.dart';
 import 'package:vox/features/home/controllers/search_controller.dart';
 import 'package:vox/features/home/data/such_index.dart';
 import 'package:vox/features/home/screens/search_results_screen.dart';
+import 'package:vox/features/leitner/controllers/leitner_controller.dart'
+    show imLeitnerMengeProvider;
 import 'package:vox/features/vokabular/controllers/vokabular_controller.dart';
 import 'package:vox/features/vokabular/widgets/wort_actions.dart';
 import 'package:vox/features/wortschatz/controllers/word_controller.dart';
@@ -168,6 +170,9 @@ void main() {
           databaseProvider.overrideWithValue(db),
           allWordsProvider.overrideWith((ref) => Stream.value(<Word>[])),
           ...wortschatzGruppenOverrides(),
+          // X.4b: der Leitner-Knopf fragt «im Leitner?» über Decks — hier
+          // ohne Datenbank-Ströme, sonst hängt das Schließen der Datenbank.
+          imLeitnerMengeProvider.overrideWith((ref) async => <String>{}),
           vokabIndexProvider.overrideWith((ref) async => [
                 karte('verb_warten', 'warten'),
                 karte('verb_abwarten', 'abwarten'),
