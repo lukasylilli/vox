@@ -12,6 +12,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../core/database/app_database.dart';
+import '../../../core/database/dao/leitner_dao.dart' show LeitnerDao;
 import '../../../core/leitner/leitner_regeln.dart';
 import '../../leitner/controllers/leitner_controller.dart';
 
@@ -19,8 +20,12 @@ export '../../leitner/controllers/leitner_controller.dart'
     show alleDecksProvider, deckIdsVonWortProvider, deckZuordnungenProvider;
 
 /// Die eigenen Listen: Decks im Notizbuch-Modus.
-final allCategoriesProvider = FutureProvider<List<Deck>>((ref) async => [
-      for (final d in await ref.watch(alleDecksProvider.future))
-        // Standard-Decks (X.4b) doppeln nur die anderen Filter.
-        if (d.modus == deckModusNotiz && !istStandardDeck(d.id)) d,
-    ]);
+final allCategoriesProvider = FutureProvider<List<Deck>>((ref) async {
+  final decks = await ref.watch(alleDecksProvider.future);
+  final modi = LeitnerDao.modi(decks); // «erben» ⇒ wie das Deck darüber
+  return [
+    for (final d in decks)
+      // Standard-Decks (X.4b) doppeln nur die anderen Filter.
+      if (modi[d.id] == deckModusNotiz && !istStandardDeck(d.id)) d,
+  ];
+});

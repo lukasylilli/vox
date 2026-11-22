@@ -259,12 +259,16 @@ void main() {
               (id: d.id, name: d.name, eltern: d.eltern, ordnung: d.ordnung),
         ];
 
-    test('anlegen: alle als Notizbuch, mehrfach ausführbar, ohne Ereignis',
-        () async {
+    test('anlegen: Gruppen Notizbuch, Subdecks erben (= Notizbuch), mehrfach '
+        'ausführbar, ohne Ereignis', () async {
       expect(await dao.standardDecksAnlegen(soll()), 13);
       expect(await dao.standardDecksAnlegen(soll()), 0);
       final decks = await dao.decks();
-      expect(decks.every((d) => d.modus == deckModusNotiz), isTrue);
+      expect(
+          decks.every((d) =>
+              d.modus == (d.elternId == null ? deckModusNotiz : deckModusErben)),
+          isTrue);
+      expect(LeitnerDao.modi(decks).values.toSet(), {deckModusNotiz});
       expect(decks.firstWhere((d) => d.id == 'std:niveau:a1').elternId,
           'std:niveau');
       expect(await db.select(db.mitgliedschaften).get(), isEmpty);
@@ -342,11 +346,23 @@ void main() {
 
       expect(await dao.deck('std:niveau:a1:l1'), isNull, reason: 'keine Zeile');
       expect((await l1())!.elternId, 'std:niveau:a1');
-      expect((await l1())!.modus, deckModusNotiz);
+      Future<String?> modusL1() async =>
+          (await c.read(deckModiProvider.future))['std:niveau:a1:l1'];
+      expect((await l1())!.modus, deckModusErben);
+      expect(await modusL1(), deckModusNotiz);
 
       await dao.deckEinstellen('std:niveau:a1', modus: deckModusWiederholen);
       await warten();
-      expect((await l1())!.modus, deckModusWiederholen);
+      expect(await modusL1(), deckModusWiederholen);
+      // Lukas 2026-11-22: die GRUPPE auf Wiederholung ⇒ alle darunter auch.
+      await dao.deckEinstellen('std:niveau:a1', modus: deckModusErben);
+      await dao.deckEinstellen('std:niveau', modus: deckModusWiederholen);
+      await warten();
+      expect(await modusL1(), deckModusWiederholen);
+      expect(await c.read(isInLeitnerProvider('verb_gehen').future), isTrue);
+      await dao.deckEinstellen('std:niveau', modus: deckModusNotiz);
+      await dao.deckEinstellen('std:niveau:a1', modus: deckModusWiederholen);
+      await warten();
 
       await dao.deckLoeschen('std:niveau:a1:l1');
       await warten();
@@ -361,7 +377,7 @@ void main() {
       await dao.deckLoeschen('std:niveau:a1');
       await warten();
       expect((await l1())!.elternId, 'std:niveau');
-      expect((await l1())!.modus, deckModusNotiz, reason: 'erbt von Niveau');
+      expect(await modusL1(), deckModusNotiz, reason: 'erbt von Niveau');
 
       // Anpassen legt erst die Zeile an; danach gilt sie.
       await dao.deckSicherstellen((await l1())!);

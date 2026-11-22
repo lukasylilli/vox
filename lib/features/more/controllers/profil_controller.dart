@@ -9,7 +9,8 @@
 //    فاز S: „drei Orte, EIN Zuhause") und reisen von dort in die Sicherungs-
 //    Datei und — nur bei angemeldetem Konto — in die eigene Zeile von
 //    `vox_backups`. Nichts davon geht an Root-in oder in `profiles`.
-import '../../../core/leitner/leitner_regeln.dart' show anzeigeFach;
+import '../../../core/leitner/leitner_regeln.dart'
+    show anzeigeFach, deckModusWiederholen;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -98,7 +99,12 @@ final archivUebersichtProvider =
   return ArchivUebersicht(
     leitnerKarten: imLeitner.length,
     proFach: {for (final f in faecher) f: zaehler[f]!},
-    listen: zustand.kategorien.where((k) => !k.wiederholen).length,
+    listen: () {
+      final modi = zustand.kategorienModi;
+      return zustand.kategorien
+          .where((k) => modi[k.id] != deckModusWiederholen)
+          .length;
+    }(),
     notizen: zustand.notizen.length,
     eigeneWoerter: zustand.eigeneWoerter.length,
   );

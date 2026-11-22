@@ -148,3 +148,12 @@
 - **فایل‌ها:** `features/leitner/data/standard_decks.dart`، `features/leitner/data/wort_reihenfolge.dart`، `tool/wort_reihenfolge.dart`، `assets/leitner/reihenfolge.json`، `features/leitner/widgets/standard_decks_sheet.dart` (تازه) · تغییر: `leitner_dao.dart`، `leitner_controller.dart` (`deckListeProvider` = ردیف‌ها + درس‌های مجازی)، `deck_sitzung.dart`، `leitner_home_screen.dart`، `deck_zeile.dart`، `deck_auswahl_sheet.dart`، `deck_screen.dart`، `wort_actions.dart`، `category_controller.dart`.
 - **نگهبان‌ها:** `test/standard_decks_test.dart` (محاسبه، برابری با فیلترها، درس ۲۰ تایی، بخش ۱۰ تایی، ثابت ماندن درس‌ها با کلمه‌ی تازه، کلمه در چند Deck، هر کارت در فایل ترتیب، ارث حالت، حذف/بازگرداندن، بالا آمدن درس‌ها). همه‌ی ۶۵۰ تست سبز.
 - **کنترل در Chrome:** صفحه‌ی لایتنر با چهار گروه بسته (Niveau ۲۳٬۷۳۳ کلمه، VOX-Bücher ۱٬۰۱۶، Wortart، Berufe ۳٬۸۱۵)؛ باز کردن Niveau ⇒ A1 (۵۹۵ کلمه) ⇒ سه بخش (۲۰۰، ۲۰۰، ۱۹۵) با ۱۰ درس در هر بخش.
+
+## ✅ زیرمجموعه‌ها حالت Deck بالایی را دارند (2026-11-22)
+
+- **تصمیم Lukas:** وقتی یک Deck در حالت مرور است، همه‌ی زیرمجموعه‌هایش به‌طور پیش‌فرض همان حالت را دارند، مگر یکی را دستی عوض کنیم.
+- **مقدار سوم حالت: `erben`** (مثل Deck بالایی). حالت واقعی همیشه از درخت حساب می‌شود (`effektiveDeckModi`؛ در اپ `deckModiProvider`) — نمایش، «در لایتنر»، سقف روزانه، فیلتر «دسته‌های من» و پشتیبان همه از آن می‌خوانند.
+- **زیرمجموعه‌ی تازه** که با حالت Deck مادر ساخته شود ⇒ `erben`؛ اگر هنگام ساخت حالت دیگری انتخاب شود ⇒ حالت خودش. زیرمجموعه‌های Deckهای پیش‌فرض (A1، Nomen، …) و درس‌ها/بخش‌ها همه `erben`اند ⇒ «Niveau» روی مرور ⇒ همه‌ی سطح‌ها و درس‌ها روی مرور.
+- **دستی عوض کردن** (منو ⇐ «حالت: …») ⇒ حالت خودش، دیگر از بالا پیروی نمی‌کند. برای برگشت: منو ⇐ «حالت: مثل Deck بالایی». صفحه‌ی Deck کنار حالت می‌نویسد «مثل Deck بالایی».
+- **مهاجرت (پایگاه‌داده نسخه‌ی ۱۰، فقط داده):** هر زیرمجموعه‌ای که حالتش با Deck بالایی یکی بود ⇒ `erben`؛ بقیه می‌مانند. Fassung ۶ پشتیبان می‌ماند (جزئیات: `docs/NUTZERDATEN.md`).
+- **نگهبان:** `test/deck_modus_erben_test.dart` (محاسبه، مهاجرت ۹⇒۱۰، ابزار ذخیره، Providerها، پشتیبان) + به‌روزرسانی `standard_decks_test` و `deck_auswahl_test`. همه‌ی ۶۵۸ تست سبز. کنترل در Chrome: Niveau ⇒ مرور ⇒ A1، بخش‌ها و A2…C2 همه با نماد مرور و دکمه‌ی ▶.

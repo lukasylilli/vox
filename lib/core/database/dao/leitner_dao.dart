@@ -150,7 +150,9 @@ class LeitnerDao {
             name: d.name,
             elternId: Value(d.eltern),
             ordnung: Value(d.ordnung),
-            modus: const Value(deckModusNotiz),
+            // Gruppe (Niveau, Wortart …) als Notizbuch; ihre Subdecks
+            // folgen ihr (Lukas 2026-11-22).
+            modus: Value(d.eltern == null ? deckModusNotiz : deckModusErben),
           ),
           mode: InsertMode.insertOrIgnore,
         );
@@ -275,25 +277,43 @@ class LeitnerDao {
 
   // ── «Im Leitner» ──────────────────────────────────────────────────────────
 
-  JoinedSelectStatement<HasResultSet, dynamic> get _imLeitner =>
+  /// Wirklicher Modus jedes Decks (Subdecks mit «erben» folgen dem Deck
+  /// darüber — Lukas 2026-11-22).
+  static Map<String, String> modi(Iterable<Deck> decks) =>
+      effektiveDeckModi(decks,
+          id: (d) => d.id, eltern: (d) => d.elternId, modus: (d) => d.modus);
+
+  JoinedSelectStatement<HasResultSet, dynamic> get _zuordnungMitDeck =>
       _db.select(_db.deckWoerter).join([
         innerJoin(_db.decks, _db.decks.id.equalsExp(_db.deckWoerter.deckId)),
       ])
-        ..where(_db.decks.modus.equals(deckModusWiederholen))
         ..orderBy([
           OrderingTerm.asc(_db.deckWoerter.hinzuMs),
           OrderingTerm.asc(_db.deckWoerter.rowId),
         ]);
 
   /// Alle Wörter in Decks mit Wiederholung, jedes einmal, in der Reihenfolge
-  /// der Aufnahme.
-  Stream<List<String>> imLeitnerBeobachten() => _imLeitner.watch().map((z) => {
-        for (final r in z) r.readTable(_db.deckWoerter).wortId,
-      }.toList());
+  /// der Aufnahme. Der Modus wird über den Baum bestimmt (nicht in SQL):
+  /// ein Subdeck mit «erben» unter einem Deck mit Wiederholung zählt mit.
+  /// Die Abfrage hängt an Decks UND Zuordnungen ⇒ jede Änderung an einem
+  /// Modus löst sie neu aus.
+  Stream<List<String>> imLeitnerBeobachten() =>
+      _zuordnungMitDeck.watch().asyncMap((z) async {
+        final m = modi(await decks());
+        return {
+          for (final r in z)
+            if (m[r.readTable(_db.deckWoerter).deckId] == deckModusWiederholen)
+              r.readTable(_db.deckWoerter).wortId,
+        }.toList();
+      });
 
-  Future<bool> istImLeitner(String wortId) async =>
-      (await (_imLeitner..where(_db.deckWoerter.wortId.equals(wortId))).get())
-          .isNotEmpty;
+  Future<bool> istImLeitner(String wortId) async {
+    final m = modi(await decks());
+    return (await (_db.select(_db.deckWoerter)
+              ..where((t) => t.wortId.equals(wortId)))
+            .get())
+        .any((z) => m[z.deckId] == deckModusWiederholen);
+  }
 
   /// Leitner-Knopf «rein»: ins Standard-Deck.
   Future<void> aufnehmen(String wortId) async {
@@ -304,11 +324,14 @@ class LeitnerDao {
   /// Leitner-Knopf «raus»: aus JEDEM Deck mit Wiederholung — danach ist das
   /// Wort nicht mehr im Leitner. Notizbuch-Decks behalten es.
   Future<void> entfernen(String wortId) async {
-    final treffer = await (_imLeitner
-          ..where(_db.deckWoerter.wortId.equals(wortId)))
+    final m = modi(await decks());
+    final treffer = await (_db.select(_db.deckWoerter)
+          ..where((t) => t.wortId.equals(wortId)))
         .get();
-    for (final r in treffer) {
-      await wortSetzen(r.readTable(_db.deckWoerter).deckId, wortId, false);
+    for (final z in treffer) {
+      if (m[z.deckId] == deckModusWiederholen) {
+        await wortSetzen(z.deckId, wortId, false);
+      }
     }
   }
 

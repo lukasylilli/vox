@@ -41,7 +41,7 @@ const keineSchluessel = {
   // X.2 (Leitner wie Anki) — Werte im Lernstand, keine Speicherschlüssel:
   'deck:leitner', 'Leitner', // id und Name des Standard-Decks
   'bedeutung', // Übung
-  'wiederholen', 'notiz', // Modus eines Decks
+  'wiederholen', 'notiz', 'erben', // Modus eines Decks
 };
 
 void main() {

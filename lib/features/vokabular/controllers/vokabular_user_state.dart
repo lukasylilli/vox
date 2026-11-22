@@ -154,9 +154,10 @@ class VokabularUserStore extends Notifier<VokabularUserState> {
     final db = ref.read(databaseProvider);
     final decks = await _dao.decks();
     final zuordnung = await db.select(db.deckWoerter).get();
+    final modi = LeitnerDao.modi(decks); // «erben» ⇒ wie das Deck darüber
     final wiederholen = {
       for (final d in decks)
-        if (d.modus == deckModusWiederholen) d.id,
+        if (modi[d.id] == deckModusWiederholen) d.id,
     };
     final fortschritt = {
       for (final z in await (db.select(db.leitnerFortschritt)
@@ -178,7 +179,7 @@ class VokabularUserStore extends Notifier<VokabularUserState> {
       },
       kategorien: [
         for (final d in decks)
-          if (d.modus == deckModusNotiz)
+          if (modi[d.id] == deckModusNotiz)
             VokabKategorie(id: d.id, name: d.name, wortIds: [
               for (final z in zuordnung)
                 if (z.deckId == d.id) z.wortId,

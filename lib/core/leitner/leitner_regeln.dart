@@ -20,8 +20,10 @@ import '../backup/nutzer_zustand.dart';
 export '../backup/nutzer_zustand.dart'
     show
         LeitnerStand,
+        deckModusErben,
         deckModusNotiz,
         deckModusWiederholen,
+        effektiveDeckModi,
         leitnerFaecher,
         leitnerGelerntFach,
         standardDeckId,

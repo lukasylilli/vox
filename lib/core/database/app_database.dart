@@ -7,8 +7,10 @@ import '../backup/nutzer_zustand.dart'
     show
         LeitnerStand,
         artWort,
+        deckModusErben,
         deckModusNotiz,
         deckModusWiederholen,
+        effektiveDeckModi,
         standardDeckId,
         standardDeckName,
         uebungBedeutung;
@@ -107,7 +109,7 @@ class Decks extends Table {
   // ankommen; ein fehlendes Eltern-Deck heißt «oberste Ebene».
   TextColumn get elternId => text().nullable()();
   IntColumn  get ordnung  => integer().withDefault(const Constant(0))();
-  // deckModusWiederholen | deckModusNotiz
+  // deckModusWiederholen | deckModusNotiz | deckModusErben (wie Eltern-Deck)
   TextColumn get modus => text().withDefault(const Constant(deckModusNotiz))();
   // Neue Wörter pro Tag; null = Standard (leitner_regeln.dart).
   IntColumn  get neuProTag => integer().nullable()();
@@ -228,7 +230,7 @@ class AppDatabase extends _$AppDatabase {
   AppDatabase.forTesting(super.e);
 
   @override
-  int get schemaVersion => 9;
+  int get schemaVersion => 10;
 
   @override
   MigrationStrategy get migration => MigrationStrategy(
@@ -396,8 +398,36 @@ class AppDatabase extends _$AppDatabase {
         await m.addColumn(
             leitnerFortschritt, leitnerFortschritt.ersteWiederholung);
       }
+      // Lukas 2026-11-22: Subdecks folgen dem Modus des Decks darüber, bis
+      // man eines von Hand umstellt. Nur Daten, keine Spalte: jedes Subdeck,
+      // dessen Modus heute GLEICH dem des Eltern-Decks ist, bekommt «erben»
+      // — so ändert sich jetzt nichts, aber künftig folgt es. Ein Subdeck
+      // mit anderem Modus hat der Nutzer bewusst so gestellt und bleibt.
+      if (from < 10) {
+        await subdecksErbenLassen();
+      }
     },
   );
+
+  /// Migration v10 (siehe onUpgrade). Öffentlich nur für den Test.
+  Future<void> subdecksErbenLassen() async {
+    final alle = await select(decks).get();
+    final modi = effektiveDeckModi(alle,
+        id: (d) => d.id, eltern: (d) => d.elternId, modus: (d) => d.modus);
+    final ids = {for (final d in alle) d.id};
+    final erben = [
+      for (final d in alle)
+        if (d.elternId != null &&
+            ids.contains(d.elternId) &&
+            d.modus != deckModusErben &&
+            d.modus == modi[d.elternId])
+          d.id,
+    ];
+    if (erben.isEmpty) return;
+    // Ohne standAm: die Umstellung ist keine Handlung des Nutzers.
+    await (update(decks)..where((t) => t.id.isIn(erben)))
+        .write(const DecksCompanion(modus: Value(deckModusErben)));
+  }
 
   // ── Mitgliedschaft protokollieren (S.5) ──────────────────────────────────
   //

@@ -216,7 +216,8 @@ void main() {
       final kueche = (await tester.runAsync(
         () => dao.decks(),
       ))!.singleWhere((d) => d.name == 'Küche');
-      expect((kueche.elternId, kueche.modus), (moebel.id, deckModusNotiz));
+      // Lukas 2026-11-22: im Modus des Eltern-Decks angelegt ⇒ «erben».
+      expect((kueche.elternId, kueche.modus), (moebel.id, deckModusErben));
       expect(await tester.runAsync(() => dao.deckIdsVonWort('nomen_tisch')), {
         moebel.id,
         kueche.id,

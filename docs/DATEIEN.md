@@ -222,7 +222,7 @@ dao/
   word_dao.dart     [x]  — watchAll، watchByLevel، watchByType، watchByBook (join)
                            getById، search (lower().like())، insert، update، delete
                            addToBook، removeFromBook، watchAllBooks، insertBook
-  leitner_dao.dart  [x]  — X.4b: standardDecksAnlegen، standardDeckZurueckholen، geloeschteDeckIdsBeobachten،
+  leitner_dao.dart  [x]  — 2026-11-22: modi() = حالت واقعی (erben ⇒ مثل بالایی)؛ «در لایتنر» از درخت · X.4b: standardDecksAnlegen، standardDeckZurueckholen، geloeschteDeckIdsBeobachten،
                            deckSicherstellen، virtuellesDeckZurueckholen · X.2 (2026-11-17) بازنویسی: تنها دسترسی به Decks/DeckWoerter/LeitnerFortschritt (id متنی) — deckAnlegen/Umbenennen/Loeschen، wortSetzen، aufnehmen/entfernen، imLeitnerBeobachten، bewerten، zuruecklegen (قبلاً: watchDue، watchAll، watchByBox، getDue، getByWordId
                            isInLeitner، countsByBox، countDue
                            addWord (box1، nextReview=tomorrow)

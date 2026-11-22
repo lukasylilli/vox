@@ -19,14 +19,25 @@ import '../controllers/leitner_controller.dart';
 /// abgebrochen.
 Future<Deck?> neuesDeckAnlegen(BuildContext context, WidgetRef ref,
     {Deck? eltern}) async {
+  // Wirklicher Modus des Eltern-Decks (es kann selbst «erben»).
+  final elternModus = eltern == null
+      ? null
+      : (await ref.read(deckModiProvider.future))[eltern.id] ?? eltern.modus;
+  if (!context.mounted) return null;
   final neu = await showDialog<({String name, String modus})>(
     context: context,
-    builder: (_) => NeuesDeckDialog(eltern: eltern),
+    builder: (_) => NeuesDeckDialog(eltern: eltern, elternModus: elternModus),
   );
   if (neu == null) return null;
+  // Subdeck im Modus des Eltern-Decks ⇒ «erben»: es folgt dem Eltern-Deck,
+  // auch wenn das später umgestellt wird (Lukas 2026-11-22). Anders gewählt
+  // ⇒ eigener Modus.
+  final modus = eltern != null && neu.modus == elternModus
+      ? deckModusErben
+      : neu.modus;
   return ref
       .read(leitnerDaoProvider)
-      .deckAnlegen(neu.name, elternId: eltern?.id, modus: neu.modus);
+      .deckAnlegen(neu.name, elternId: eltern?.id, modus: modus);
 }
 
 /// Neuer Name für [deck].
@@ -164,10 +175,13 @@ class _TextDialogState extends State<_TextDialog> {
 // ─── Dialog «neues Deck / neues Subdeck» ─────────────────────────────────────
 
 class NeuesDeckDialog extends StatefulWidget {
-  const NeuesDeckDialog({this.eltern});
+  const NeuesDeckDialog({this.eltern, this.elternModus});
 
   /// Eltern-Deck (dann wird ein Subdeck angelegt) oder null.
   final Deck? eltern;
+
+  /// Wirklicher Modus von [eltern] (Wiederholung/Notizbuch).
+  final String? elternModus;
 
   @override
   State<NeuesDeckDialog> createState() => NeuesDeckDialogState();
@@ -179,7 +193,7 @@ class NeuesDeckDialogState extends State<NeuesDeckDialog> {
   // Ein Subdeck beginnt im Modus seines Eltern-Decks; ein neues Deck der
   // obersten Ebene mit Wiederholung — wer über den Leitner-Knopf ein Deck
   // anlegt, will in aller Regel lernen. Beides ist hier umschaltbar.
-  late String _modus = widget.eltern?.modus ?? deckModusWiederholen;
+  late String _modus = widget.elternModus ?? deckModusWiederholen;
 
   @override
   void dispose() {

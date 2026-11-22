@@ -50,6 +50,7 @@ class DeckAuswahlSheet extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final modi = ref.watch(deckModiProvider).valueOrNull ?? const {};
     final theme = Theme.of(context);
     // X.4b: fehlende Standard-Decks anlegen (Entscheidung 16).
     ref.watch(standardDecksEinrichtenProvider);
@@ -121,7 +122,8 @@ class DeckAuswahlSheet extends ConsumerWidget {
                       key: ValueKey('deck_${k.deck.id}'),
                       name: k.deck.name,
                       tiefe: k.tiefe,
-                      wiederholen: k.deck.modus == deckModusWiederholen,
+                      wiederholen: (modi[k.deck.id] ?? k.deck.modus) ==
+                          deckModusWiederholen,
                       gewaehlt: drin.contains(k.deck.id),
                       ausDaten: ausDaten.contains(k.deck.id),
                       onChanged: (rein) => ref

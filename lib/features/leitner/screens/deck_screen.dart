@@ -169,16 +169,20 @@ class _Ueberschrift extends StatelessWidget {
 }
 
 /// Zahlen des Decks: Modus, neu · lernt · gelernt, Fortschrittsbalken.
-class _Kopf extends StatelessWidget {
+class _Kopf extends ConsumerWidget {
   const _Kopf({required this.deck, required this.z});
   final Deck deck;
   final DeckZaehler z;
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final theme = Theme.of(context);
     final scheme = theme.colorScheme;
-    final wiederholen = deck.modus == deckModusWiederholen;
+    // Wirklicher Modus; «erben» ⇒ Hinweis, dass er vom Deck darüber kommt.
+    final wiederholen = (ref.watch(deckModiProvider).valueOrNull?[deck.id] ??
+            deck.modus) ==
+        deckModusWiederholen;
+    final geerbt = deck.elternId != null && deck.modus == deckModusErben;
     Widget zahl(String schluessel, int n, Color farbe) => Expanded(
           child: Column(children: [
             Text(Formatters.digits(n),
@@ -210,7 +214,12 @@ class _Kopf extends StatelessWidget {
               Expanded(
                 child: Text(
                   AppL10n.t(context,
-                      wiederholen ? 'deck_modus_wiederholen' : 'deck_modus_notiz'),
+                          wiederholen
+                              ? 'deck_modus_wiederholen'
+                              : 'deck_modus_notiz') +
+                      (geerbt
+                          ? ' · ${AppL10n.t(context, 'deck_modus_geerbt')}'
+                          : ''),
                   style: theme.textTheme.labelLarge,
                 ),
               ),

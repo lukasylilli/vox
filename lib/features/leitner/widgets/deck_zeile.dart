@@ -50,7 +50,10 @@ class DeckZeile extends ConsumerWidget {
     final scheme = theme.colorScheme;
     final z = ref.watch(deckRechnerProvider).valueOrNull?.zaehler(deck.id) ??
         const DeckZaehler();
-    final wiederholen = deck.modus == deckModusWiederholen;
+    // Wirklicher Modus (bei «erben» der des Decks darüber).
+    final wiederholen = (ref.watch(deckModiProvider).valueOrNull?[deck.id] ??
+            deck.modus) ==
+        deckModusWiederholen;
     final prozent = (z.anteilGelernt * 100).round();
 
     return InkWell(
@@ -185,7 +188,11 @@ class DeckMenue extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final wiederholen = deck.modus == deckModusWiederholen;
+    final wiederholen = (ref.watch(deckModiProvider).valueOrNull?[deck.id] ??
+            deck.modus) ==
+        deckModusWiederholen;
+    // Subdeck, das von Hand umgestellt wurde ⇒ «wieder wie das Deck darüber».
+    final kannErben = deck.elternId != null && deck.modus != deckModusErben;
     final limit = deck.neuProTag ??
         (obersteEbene ? neuProTagDeck : neuProTagSubdeck);
     return PopupMenuButton<String>(
@@ -205,8 +212,14 @@ class DeckMenue extends ConsumerWidget {
           case 'subdeck':
             await neuesDeckAnlegen(context, ref, eltern: deck);
           case 'modus':
+            // Von Hand umgestellt ⇒ eigener Modus, folgt nicht mehr dem
+            // Deck darüber (Lukas 2026-11-22).
             await ref.read(leitnerDaoProvider).deckEinstellen(deck.id,
                 modus: wiederholen ? deckModusNotiz : deckModusWiederholen);
+          case 'erben':
+            await ref
+                .read(leitnerDaoProvider)
+                .deckEinstellen(deck.id, modus: deckModusErben);
           case 'limit':
             await deckLimitAendern(context, ref, deck,
                 obersteEbene: obersteEbene);
@@ -243,6 +256,15 @@ class DeckMenue extends ConsumerWidget {
             })),
           ),
         ),
+        if (kannErben)
+          PopupMenuItem(
+            key: ValueKey('deck_erben_${deck.id}'),
+            value: 'erben',
+            child: ListTile(
+              leading: const Icon(Icons.vertical_align_top_rounded),
+              title: Text(AppL10n.t(ctx, 'deck_modus_erben')),
+            ),
+          ),
         if (wiederholen)
           PopupMenuItem(
             value: 'limit',

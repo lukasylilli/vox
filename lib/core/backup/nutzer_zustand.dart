@@ -82,6 +82,57 @@ const String deckModusWiederholen = 'wiederholen';
 /// … oder ist nur ein Notizbuch (nie Wiederholung, nie Erinnerung).
 const String deckModusNotiz = 'notiz';
 
+/// … oder macht, was das Deck darüber macht (Entscheidung Lukas 2026-11-22:
+/// Subdecks folgen dem Eltern-Deck, bis man eines von Hand umstellt). Neue
+/// Subdecks bekommen diesen Wert. Ein Deck der obersten Ebene mit «erben»
+/// ist ein Notizbuch. Ältere App-Fassungen lesen den unbekannten Wert als
+/// Notizbuch — lieber keine Wiederholung als eine ungewollte.
+const String deckModusErben = 'erben';
+
+/// Der WIRKLICHE Modus jedes Decks ([deckModusWiederholen] oder
+/// [deckModusNotiz]): eigener Modus, bei «erben» der des nächsten Decks
+/// darüber. Ein Kreis in den Eltern (nur bei kaputten Daten) bricht ab und
+/// gilt als Notizbuch; ein fehlendes Eltern-Deck wie die oberste Ebene.
+Map<String, String> effektiveDeckModi<T>(
+  Iterable<T> decks, {
+  required String Function(T) id,
+  required String? Function(T) eltern,
+  required String Function(T) modus,
+}) {
+  final roh = {for (final d in decks) id(d): d};
+  final ergebnis = <String, String>{};
+  String aufloesen(String start) {
+    final weg = <String>[];
+    String? aktuell = start;
+    var wert = deckModusNotiz;
+    while (aktuell != null) {
+      final bekannt = ergebnis[aktuell];
+      if (bekannt != null) {
+        wert = bekannt;
+        break;
+      }
+      final d = roh[aktuell];
+      if (d == null || weg.contains(aktuell)) break;
+      weg.add(aktuell);
+      final m = modus(d);
+      if (m == deckModusWiederholen || m == deckModusNotiz) {
+        wert = m;
+        break;
+      }
+      aktuell = eltern(d);
+    }
+    for (final w in weg) {
+      ergebnis[w] = wert;
+    }
+    return ergebnis[start] ?? wert;
+  }
+
+  for (final k in roh.keys) {
+    aufloesen(k);
+  }
+  return ergebnis;
+}
+
 const String appKennung = 'vox';
 
 // ── Mitgliedschaft (S.5) ────────────────────────────────────────────────
@@ -278,9 +329,9 @@ class KategorieStand {
   /// id des übergeordneten Decks; null = oberste Ebene.
   final String? eltern;
 
-  /// [deckModusWiederholen] oder [deckModusNotiz]. Listen von vor Fassung 6
-  /// sind Notizbücher — so beginnt durch die Umstellung keine ungewollte
-  /// Wiederholung.
+  /// [deckModusWiederholen], [deckModusNotiz] oder [deckModusErben] (wie
+  /// das Deck darüber). Listen von vor Fassung 6 sind Notizbücher — so
+  /// beginnt durch die Umstellung keine ungewollte Wiederholung.
   final String modus;
 
   /// Neue Wörter pro Tag; null = Standard (oberste Ebene 50, Subdeck 10 —
@@ -305,6 +356,8 @@ class KategorieStand {
     this.standAm,
   });
 
+  /// EIGENE Einstellung ist Wiederholung (ohne «erben» aufzulösen — den
+  /// wirklichen Modus gibt [NutzerZustand.kategorienModi]).
   bool get wiederholen => modus == deckModusWiederholen;
 
   KategorieStand mit({
@@ -348,8 +401,9 @@ class KategorieStand {
         eltern: j['eltern'] as String?,
         // Unbekannter Modus (neuere Fassung, Tippfehler) ⇒ Notizbuch: lieber
         // keine Wiederholung als eine ungewollte.
-        modus: j['modus'] == deckModusWiederholen
-            ? deckModusWiederholen
+        modus: j['modus'] == deckModusWiederholen ||
+                j['modus'] == deckModusErben
+            ? j['modus'] as String
             : deckModusNotiz,
         neuProTag: (j['neuProTag'] as num?)?.toInt(),
         ordnung: (j['ordnung'] as num?)?.toInt() ?? 0,
@@ -446,10 +500,17 @@ class NutzerZustand {
 
   /// Alle Wörter, die in mindestens einem Deck mit Wiederholung liegen —
   /// «im Leitner».
-  Set<String> get imLeitner => {
-        for (final k in kategorien)
-          if (k.wiederholen) ...k.wortIds,
-      };
+  Set<String> get imLeitner {
+    final modi = kategorienModi;
+    return {
+      for (final k in kategorien)
+        if (modi[k.id] == deckModusWiederholen) ...k.wortIds,
+    };
+  }
+
+  /// Wirklicher Modus jedes Decks (bei «erben» der des Decks darüber).
+  Map<String, String> get kategorienModi => effektiveDeckModi(kategorien,
+      id: (k) => k.id, eltern: (k) => k.eltern, modus: (k) => k.modus);
 
   bool get istLeer =>
       leitner.isEmpty &&

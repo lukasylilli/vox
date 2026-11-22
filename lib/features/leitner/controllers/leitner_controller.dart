@@ -76,20 +76,22 @@ final imLeitnerProvider = FutureProvider<List<String>>((ref) async {
   final zeilen = await ref.watch(alleDecksProvider.future);
   // Die Daten der Standard-Decks (ganzer Wortindex) nur laden, wenn ein
   // Standard-Deck auf Wiederholung steht — sonst tragen sie nichts bei.
-  final brauchtStd = zeilen.any(
-      (d) => istStandardDeck(d.id) && d.modus == deckModusWiederholen);
+  final zeilenModi = LeitnerDao.modi(zeilen);
+  final brauchtStd = zeilen.any((d) =>
+      istStandardDeck(d.id) && zeilenModi[d.id] == deckModusWiederholen);
   final std =
       brauchtStd ? ref.watch(standardDecksProvider).valueOrNull : null;
   final decks = brauchtStd
       ? await ref.watch(deckListeProvider.future)
       : zeilen;
+  final modi = brauchtStd ? LeitnerDao.modi(decks) : zeilenModi;
   final gesehen = <String>{};
   return [
     for (final w in vonHand)
       if (gesehen.add(w)) w,
     if (std != null)
       for (final d in decks)
-        if (istStandardDeck(d.id) && d.modus == deckModusWiederholen)
+        if (istStandardDeck(d.id) && modi[d.id] == deckModusWiederholen)
           for (final w in std.woerter[d.id] ?? const <String>[])
             if (gesehen.add(w)) w,
   ];
@@ -163,8 +165,9 @@ final geloeschteDeckIdsProvider = StreamProvider<Set<String>>(
 /// Eine virtuelle Lektion
 ///   · hängt unter ihrem Eltern-Deck; fehlt das (gelöscht), unter dem
 ///     nächsten vorhandenen darüber — wie beim Löschen eines echten Decks;
-///   · erbt den Modus vom nächsten Deck darüber: stellt der Nutzer «A1» auf
-///     Wiederholung, sind alle Lektionen von A1 zum Üben da.
+///   · hat den Modus «erben» (folgt dem Deck darüber, deckModiProvider):
+///     stellt der Nutzer «A1» auf Wiederholung, sind alle Lektionen von A1
+///     zum Üben da.
 /// Die Daten der Standard-Decks werden nur geladen, wenn es Standard-Decks
 /// gibt (sonst wäre der ganze Wortindex für nichts geladen).
 final deckListeProvider = FutureProvider<List<Deck>>((ref) async {
@@ -190,13 +193,19 @@ final deckListeProvider = FutureProvider<List<Deck>>((ref) async {
       name: v.name,
       elternId: eltern,
       ordnung: v.ordnung,
-      modus: eltern == null ? deckModusNotiz : nachId[eltern]!.modus,
+      modus: deckModusErben,
     );
     nachId[v.id] = deck;
     ergebnis.add(deck);
   }
   return ergebnis;
 });
+
+/// Der WIRKLICHE Modus jedes Decks (Wiederholung/Notizbuch): bei «erben»
+/// der des Decks darüber (Lukas 2026-11-22). Anzeige und Rechnung lesen
+/// hier, nie `deck.modus` direkt — das ist nur die eigene Einstellung.
+final deckModiProvider = FutureProvider<Map<String, String>>(
+    (ref) async => LeitnerDao.modi(await ref.watch(deckListeProvider.future)));
 
 /// Alle Decks in Baum-Reihenfolge (core/leitner/deck_baum.dart).
 final deckBaumProvider = FutureProvider<List<DeckKnoten<Deck>>>((ref) async {
@@ -326,13 +335,14 @@ final deckRechnerProvider = FutureProvider<DeckRechner>((ref) async {
     final l = woerter[z.deckId] ??= [];
     if (!istStandardDeck(z.deckId) || !l.contains(z.wortId)) l.add(z.wortId);
   }
+  final modi = LeitnerDao.modi(decks);
   return DeckRechner(
     decks: [
       for (final d in decks)
         DeckDaten(
             id: d.id,
             eltern: d.elternId,
-            modus: d.modus,
+            modus: modi[d.id] ?? deckModusNotiz,
             neuProTag: d.neuProTag),
     ],
     woerterJeDeck: woerter,
