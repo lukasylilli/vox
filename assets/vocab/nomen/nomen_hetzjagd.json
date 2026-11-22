@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hetzjagd",
+  "wort": "die Hetzjagd",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "شکار تعقیبی (با سگ)"
+    ],
+    "en": [
+      "hunt (with hounds)",
+      "chase"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "ˈhɛt͡sˌjaːkt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Hetzjagd auf Füchse ist verboten.",
+      "uebersetzung": {
+        "fa": "شکار تعقیبی روباه ممنوع است.",
+        "en": "Hunting foxes with hounds is banned."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bei einer Hetzjagd verfolgen Hunde das Wild so lange, bis es erschöpft ist.",
+      "uebersetzung": {
+        "fa": "در شکار تعقیبی، سگ‌ها شکار را آن‌قدر دنبال می‌کنند تا از پا بیفتد.",
+        "en": "In a hunt with hounds, the dogs pursue the game until it is exhausted."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Hatz",
+      "uebersetzung": {
+        "fa": "شکار با سگ",
+        "en": "hunt"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "hetzen (تعقیب کردن) + Jagd (شکار)",
+    "en": "hetzen (to chase) + Jagd (hunt)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Hetzjagden",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "die Hetzjagd auf + Akk",
+        "beispiel": "Die Hetzjagd auf den Hirsch dauerte Stunden.",
+        "uebersetzung": {
+          "fa": "شکار تعقیبی گوزن ساعت‌ها طول کشید.",
+          "en": "The hunt for the stag lasted hours."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": "Jagd",
+    "woerter": [
+      {
+        "wort": "die Hatz",
+        "wortart": "nomen",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "شکار با سگ",
+          "en": "hunt"
+        },
+        "id_ref": "nomen_hatz"
+      },
+      {
+        "wort": "jagen",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "شکار کردن",
+          "en": "to hunt"
+        },
+        "id_ref": "verb_jagen"
+      },
+      {
+        "wort": "das Wildschwein",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گراز",
+          "en": "wild boar"
+        },
+        "id_ref": "nomen_wildschwein"
+      },
+      {
+        "wort": "hetzen",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "تعقیب کردن",
+          "en": "to chase"
+        },
+        "id_ref": "verb_hetzen"
+      },
+      {
+        "wort": "der Fuchs",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "روباه",
+          "en": "fox"
+        },
+        "id_ref": "nomen_fuchs"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

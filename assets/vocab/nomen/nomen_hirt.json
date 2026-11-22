@@ -1,0 +1,134 @@
+{
+  "schema": "3.0",
+  "id": "nomen_hirt",
+  "wort": "der Hirt",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "چوپان",
+      "گله‌بان"
+    ],
+    "en": [
+      "shepherd",
+      "herdsman"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Tiere",
+    "Natur"
+  ],
+  "ipa": "hɪʁt",
+  "anmerkung": "Nebenform von «der Hirte»",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Hirt passt auf die Schafe auf.",
+      "uebersetzung": {
+        "fa": "چوپان مراقب گوسفندهاست.",
+        "en": "The shepherd looks after the sheep."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Sommer bleibt der Hirt mit der Herde monatelang oben auf der Alm.",
+      "uebersetzung": {
+        "fa": "تابستان‌ها چوپان ماه‌ها با گله بالای چراگاه کوهستانی می‌ماند.",
+        "en": "In summer the herdsman stays up on the mountain pasture with the herd for months."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Schäfer",
+      "uebersetzung": {
+        "fa": "چوپان",
+        "en": "shepherd"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Kuhhirt",
+      "uebersetzung": {
+        "fa": "گاوچران",
+        "en": "cowherd"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "hüten (چراندن، مراقبت کردن)",
+    "en": "hüten (to tend)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": "die Hirten",
+    "deklinationstyp": "n-deklination",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Herde",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "گله",
+          "en": "herd"
+        },
+        "id_ref": "nomen_herde"
+      },
+      {
+        "wort": "hüten",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "چراندن، مراقبت کردن",
+          "en": "to tend"
+        },
+        "id_ref": "verb_hueten"
+      },
+      {
+        "wort": "der Stall",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "طویله، آغل",
+          "en": "stable"
+        },
+        "id_ref": "nomen_stall"
+      },
+      {
+        "wort": "die Alm",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "چراگاه کوهستانی",
+          "en": "mountain pasture"
+        },
+        "id_ref": "nomen_alm"
+      },
+      {
+        "wort": "pastoral",
+        "wortart": "adjektiv",
+        "niveau": "C2",
+        "uebersetzung": {
+          "fa": "شبانی، روستایی",
+          "en": "pastoral"
+        },
+        "id_ref": "adjektiv_pastoral"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
