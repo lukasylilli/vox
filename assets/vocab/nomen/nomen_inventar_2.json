@@ -1,0 +1,143 @@
+{
+  "schema": "3.0",
+  "id": "nomen_inventar_2",
+  "wort": "das Inventar",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "سیاهه‌ی اموال",
+      "فهرست موجودی"
+    ],
+    "en": [
+      "inventory (list)",
+      "stock list"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Arbeit"
+  ],
+  "ipa": "ɪnvɛnˈtaːɐ̯",
+  "anmerkung": null,
+  "berufe": [
+    "logistik",
+    "buero"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Am Jahresende schreiben wir ein Inventar.",
+      "uebersetzung": {
+        "fa": "آخر سال یک سیاهه‌ی اموال می‌نویسیم.",
+        "en": "At the end of the year we write an inventory."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Das Inventar muss jedes Jahr erstellt werden, damit die Firma weiß, welche Waren noch im Lager sind.",
+      "uebersetzung": {
+        "fa": "سیاهه‌ی موجودی باید هر سال تهیه شود تا شرکت بداند چه کالاهایی هنوز در انبار است.",
+        "en": "The inventory has to be drawn up every year so that the company knows which goods are still in stock."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "das Verzeichnis",
+      "uebersetzung": {
+        "fa": "فهرست",
+        "en": "list, register"
+      }
+    },
+    {
+      "wort": "die Bestandsliste",
+      "uebersetzung": {
+        "fa": "فهرست موجودی",
+        "en": "stock list"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Inventare",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Inventar aufnehmen",
+        "beispiel": "Die Mitarbeiter nehmen jedes Jahr im Dezember ein Inventar auf.",
+        "uebersetzung": {
+          "fa": "کارکنان هر سال در دسامبر سیاهه‌ی موجودی تهیه می‌کنند.",
+          "en": "Every year in December the staff take an inventory."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Liste",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "فهرست",
+          "en": "list"
+        },
+        "id_ref": "nomen_liste"
+      },
+      {
+        "wort": "das Verzeichnis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فهرست",
+          "en": "list"
+        },
+        "id_ref": "nomen_verzeichnis"
+      },
+      {
+        "wort": "der Bestand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجودی",
+          "en": "stock"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_bestand_2"
+      },
+      {
+        "wort": "der Lagerbestand",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "موجودی انبار",
+          "en": "stock"
+        },
+        "id_ref": "nomen_lagerbestand"
+      },
+      {
+        "wort": "inventarisieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سیاهه‌برداری کردن",
+          "en": "to take inventory of"
+        },
+        "id_ref": "verb_inventarisieren"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
