@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kontext",
+  "wort": "der Kontext",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بافت",
+      "زمینه"
+    ],
+    "en": [
+      "context"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Sprache",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈkɔntɛkst",
+  "anmerkung": "sprachwissenschaftlich: der umgebende Text",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Wort versteht man nur im Kontext.",
+      "uebersetzung": {
+        "fa": "این کلمه را فقط در بافت می‌شود فهمید.",
+        "en": "You can only understand the word in context."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Ohne den historischen Kontext kann man das Gedicht kaum richtig verstehen.",
+      "uebersetzung": {
+        "fa": "بدون زمینه‌ی تاریخی به‌سختی می‌شود این شعر را درست فهمید.",
+        "en": "Without the historical context, you can hardly understand the poem properly."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Zusammenhang",
+      "uebersetzung": {
+        "fa": "ارتباط، زمینه",
+        "en": "context"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Kontexte",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "im Kontext von + Dat",
+        "beispiel": "Im Kontext von Migration spielt die Sprache eine große Rolle.",
+        "uebersetzung": {
+          "fa": "در زمینه‌ی مهاجرت، زبان نقش بزرگی دارد.",
+          "en": "In the context of migration, language plays a big role."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Zusammenhang",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "ارتباط",
+          "en": "connection"
+        },
+        "id_ref": "nomen_zusammenhang"
+      },
+      {
+        "wort": "der Hintergrund",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "پس‌زمینه",
+          "en": "background"
+        },
+        "id_ref": "nomen_hintergrund"
+      },
+      {
+        "wort": "der Abschnitt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "بخش (متن)",
+          "en": "section (of a text)"
+        },
+        "id_ref": "nomen_abschnitt"
+      },
+      {
+        "wort": "der Bezug",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "ارتباط",
+          "en": "reference"
+        },
+        "homograph": "4",
+        "id_ref": "nomen_bezug_4"
+      },
+      {
+        "wort": "kontextuell",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "بافتی",
+          "en": "contextual"
+        },
+        "id_ref": "adjektiv_kontextuell"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
