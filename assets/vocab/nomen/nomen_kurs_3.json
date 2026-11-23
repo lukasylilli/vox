@@ -1,0 +1,139 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kurs_3",
+  "wort": "der Kurs",
+  "homograph": "3",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نرخ (ارز)",
+      "قیمت (سهام)"
+    ],
+    "en": [
+      "exchange rate",
+      "share price"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Geld"
+  ],
+  "ipa": "kʊʁs",
+  "anmerkung": "Börse, Devisen",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Wie ist der Kurs heute?",
+      "uebersetzung": {
+        "fa": "نرخ امروز چقدر است؟",
+        "en": "What's the rate today?"
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach den guten Zahlen ist der Kurs der Aktie um zehn Prozent gestiegen.",
+      "uebersetzung": {
+        "fa": "پس از اعلام ارقام خوب، قیمت سهم ده درصد بالا رفت.",
+        "en": "After the good figures the share price rose by ten percent."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Aktienkurs",
+      "uebersetzung": {
+        "fa": "قیمت سهام",
+        "en": "share price"
+      }
+    },
+    {
+      "wort": "der Wechselkurs",
+      "uebersetzung": {
+        "fa": "نرخ ارز",
+        "en": "exchange rate"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Kurse",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Kurs + Gen / von + Dat",
+        "beispiel": "Der Kurs des Euro ist gefallen.",
+        "uebersetzung": {
+          "fa": "نرخ یورو پایین آمده است.",
+          "en": "The euro exchange rate has fallen."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Aktie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم (بورس)",
+          "en": "share, stock"
+        },
+        "id_ref": "nomen_aktie"
+      },
+      {
+        "wort": "der Aktienkurs",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قیمت سهام",
+          "en": "share price"
+        },
+        "id_ref": "nomen_aktienkurs"
+      },
+      {
+        "wort": "der Wechselkurs",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نرخ ارز، نرخ تبادل",
+          "en": "exchange rate"
+        },
+        "id_ref": "nomen_wechselkurs"
+      },
+      {
+        "wort": "der Dollar",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دلار",
+          "en": "dollar"
+        },
+        "id_ref": "nomen_dollar"
+      },
+      {
+        "wort": "die Dividende",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "سود سهام",
+          "en": "dividend"
+        },
+        "id_ref": "nomen_dividende"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
