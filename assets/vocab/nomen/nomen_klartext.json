@@ -1,0 +1,120 @@
+{
+  "schema": "3.0",
+  "id": "nomen_klartext",
+  "wort": "der Klartext",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "متن ساده (رمزگذاری‌نشده)",
+      "متن رمزگشایی‌شده"
+    ],
+    "en": [
+      "plain text",
+      "cleartext"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Technik",
+    "Computer"
+  ],
+  "ipa": "ˈklaːɐ̯ˌtɛkst",
+  "anmerkung": null,
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Passwort steht hier im Klartext.",
+      "uebersetzung": {
+        "fa": "رمز عبور این‌جا به‌صورت متن ساده (بدون رمزگذاری) نوشته شده.",
+        "en": "The password is written here in plain text."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Passwörter sollte man nie im Klartext speichern, weil sie sonst leicht gestohlen werden können.",
+      "uebersetzung": {
+        "fa": "رمزهای عبور را هرگز نباید به‌صورت متن ساده ذخیره کرد، چون وگرنه به‌راحتی دزدیده می‌شوند.",
+        "en": "You should never store passwords in plain text, because otherwise they can easily be stolen."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "klar (روشن) + Text (متن)",
+    "en": "klar (clear) + Text (text)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "der Code",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کد",
+          "en": "code"
+        },
+        "id_ref": "nomen_code"
+      },
+      {
+        "wort": "das Kennwort",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رمز عبور",
+          "en": "password"
+        },
+        "id_ref": "nomen_kennwort"
+      },
+      {
+        "wort": "chiffrieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمزگذاری کردن",
+          "en": "to encrypt"
+        },
+        "id_ref": "verb_chiffrieren"
+      },
+      {
+        "wort": "die Chiffre",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "رمز",
+          "en": "cipher"
+        },
+        "id_ref": "nomen_chiffre"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
