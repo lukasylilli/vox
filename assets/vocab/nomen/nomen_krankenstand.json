@@ -1,0 +1,118 @@
+{
+  "schema": "3.0",
+  "id": "nomen_krankenstand",
+  "wort": "der Krankenstand",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تعداد بیماران (در یک سازمان)",
+      "نرخ غیبت به‌علت بیماری"
+    ],
+    "en": [
+      "sickness rate",
+      "number of employees off sick"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Arbeit",
+    "Gesundheit"
+  ],
+  "ipa": "ˈkʁaŋkn̩ˌʃtant",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Im Winter ist der Krankenstand hoch.",
+      "uebersetzung": {
+        "fa": "در زمستان تعداد بیماران بالاست.",
+        "en": "The sickness rate is high in winter."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Weil der Krankenstand in der Abteilung gestiegen ist, müssen die anderen Überstunden machen.",
+      "uebersetzung": {
+        "fa": "چون تعداد بیماران در بخش بالا رفته، بقیه باید اضافه‌کاری کنند.",
+        "en": "Because the sickness rate in the department has risen, the others have to work overtime."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "krank (بیمار) + Stand (وضعیت، سطح)",
+    "en": "krank (sick) + Stand (level, state)"
+  },
+  "details": {
+    "genus": "der",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness, disease"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "krank",
+        "wortart": "adjektiv",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمار، مریض",
+          "en": "ill, sick"
+        },
+        "id_ref": "adjektiv_krank"
+      },
+      {
+        "wort": "der Mitarbeiter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارمند، همکار",
+          "en": "employee, staff member"
+        },
+        "id_ref": "nomen_mitarbeiter"
+      },
+      {
+        "wort": "das Personal",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "کارکنان، پرسنل",
+          "en": "staff, personnel"
+        },
+        "id_ref": "nomen_personal"
+      },
+      {
+        "wort": "der Arbeitgeber",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارفرما",
+          "en": "employer"
+        },
+        "id_ref": "nomen_arbeitgeber"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
