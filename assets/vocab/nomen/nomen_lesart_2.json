@@ -1,0 +1,117 @@
+{
+  "schema": "3.0",
+  "id": "nomen_lesart_2",
+  "wort": "die Lesart",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نسخه‌بدل، روایت متفاوت متن"
+    ],
+    "en": [
+      "variant reading (of a text)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Literatur",
+    "Wissenschaft"
+  ],
+  "ipa": "ˈleːsˌʔaːɐ̯t",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Diese Lesart steht in einer alten Handschrift.",
+      "uebersetzung": {
+        "fa": "این نسخه‌بدل در یک نسخه‌ی خطی قدیمی آمده است.",
+        "en": "This variant reading is found in an old manuscript."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "In der neuen Ausgabe des Gedichts sind alle Lesarten der verschiedenen Handschriften verzeichnet.",
+      "uebersetzung": {
+        "fa": "در چاپ تازه‌ی این شعر همه‌ی نسخه‌بدل‌های دست‌نوشته‌های مختلف ثبت شده‌اند.",
+        "en": "The new edition of the poem lists all the variant readings of the different manuscripts."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "lesen (خواندن) + Art (شیوه)",
+    "en": "lesen (to read) + Art (way)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Lesarten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Buch",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "کتاب",
+          "en": "book"
+        },
+        "id_ref": "nomen_buch"
+      },
+      {
+        "wort": "das Gedicht",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "شعر",
+          "en": "poem"
+        },
+        "id_ref": "nomen_gedicht"
+      },
+      {
+        "wort": "die Version",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نسخه، روایت",
+          "en": "version"
+        },
+        "id_ref": "nomen_version"
+      },
+      {
+        "wort": "die Fassung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نسخه، ویرایش",
+          "en": "version, edition"
+        },
+        "id_ref": "nomen_fassung"
+      },
+      {
+        "wort": "die Handschrift",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نسخه‌ی خطی، دست‌نوشته (قدیمی)",
+          "en": "manuscript"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_handschrift_2"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
