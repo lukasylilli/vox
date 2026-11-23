@@ -1,0 +1,124 @@
+{
+  "schema": "3.0",
+  "id": "nomen_last_2",
+  "wort": "die Last",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "هزینه‌ها",
+      "عوارض (مالی)"
+    ],
+    "en": [
+      "charges",
+      "costs"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Recht"
+  ],
+  "ipa": "last",
+  "anmerkung": "meist im Plural «Lasten»: finanzielle Abgaben, Kosten",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Kosten gehen zu Lasten des Mieters.",
+      "uebersetzung": {
+        "fa": "هزینه‌ها به عهده‌ی مستأجر است.",
+        "en": "The costs are to be borne by the tenant."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die finanziellen Lasten der Reform tragen vor allem die jüngeren Generationen.",
+      "uebersetzung": {
+        "fa": "بار مالی این اصلاحات را بیش از همه نسل‌های جوان‌تر به دوش می‌کشند.",
+        "en": "The financial burdens of the reform are borne above all by the younger generations."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Lasten",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "zu Lasten + Gen / von + Dat",
+        "beispiel": "Die Reparatur geht zu Lasten des Vermieters.",
+        "uebersetzung": {
+          "fa": "هزینه‌ی تعمیر به عهده‌ی صاحبخانه است.",
+          "en": "The repair is at the landlord's expense."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Finanzierung",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "تأمین مالی، تأمین بودجه",
+          "en": "financing, funding"
+        },
+        "id_ref": "nomen_finanzierung"
+      },
+      {
+        "wort": "die Rente",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "حقوق بازنشستگی؛ مستمری",
+          "en": "pension, retirement"
+        },
+        "id_ref": "nomen_rente"
+      },
+      {
+        "wort": "der Mieter",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "مستأجر",
+          "en": "tenant, renter"
+        },
+        "id_ref": "nomen_mieter"
+      },
+      {
+        "wort": "die Wohnung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "آپارتمان، خانه",
+          "en": "flat, apartment"
+        },
+        "id_ref": "nomen_wohnung"
+      },
+      {
+        "wort": "der Vertrag",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "قرارداد، پیمان",
+          "en": "contract, treaty"
+        },
+        "id_ref": "nomen_vertrag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
