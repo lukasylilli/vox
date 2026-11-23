@@ -1,0 +1,132 @@
+{
+  "schema": "3.0",
+  "id": "nomen_korrektur_2",
+  "wort": "die Korrektur",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نمونه‌خوانی",
+      "ویرایش (متن چاپی)"
+    ],
+    "en": [
+      "proofreading",
+      "proof"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medien",
+    "Arbeit"
+  ],
+  "ipa": "kɔʁɛkˈtuːɐ̯",
+  "anmerkung": "Druckwesen",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Das Buch ist in der Korrektur.",
+      "uebersetzung": {
+        "fa": "کتاب در مرحله‌ی نمونه‌خوانی است.",
+        "en": "The book is being proofread."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Bevor das Buch gedruckt wird, liest eine Lektorin die Korrektur und markiert alle Tippfehler.",
+      "uebersetzung": {
+        "fa": "پیش از چاپ کتاب، یک ویراستار نمونه‌ها را می‌خواند و همه‌ی غلط‌های تایپی را علامت می‌زند.",
+        "en": "Before the book is printed, an editor reads the proofs and marks all the typos."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Korrekturfahne",
+      "uebersetzung": {
+        "fa": "نمونه‌ی چاپی",
+        "en": "galley proof"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die Korrekturen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "Korrektur lesen",
+        "beispiel": "Kannst du meinen Text Korrektur lesen?",
+        "uebersetzung": {
+          "fa": "می‌توانی متنم را نمونه‌خوانی کنی؟",
+          "en": "Can you proofread my text?"
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Fehler",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "اشتباه",
+          "en": "mistake"
+        },
+        "id_ref": "nomen_fehler"
+      },
+      {
+        "wort": "drucken",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپ کردن",
+          "en": "to print"
+        },
+        "id_ref": "verb_drucken"
+      },
+      {
+        "wort": "der Drucker",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "چاپگر",
+          "en": "printer"
+        },
+        "id_ref": "nomen_drucker"
+      },
+      {
+        "wort": "das Versehen",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اشتباه سهوی",
+          "en": "oversight"
+        },
+        "id_ref": "nomen_versehen"
+      },
+      {
+        "wort": "der Verlag",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "انتشارات",
+          "en": "publishing house"
+        },
+        "id_ref": "nomen_verlag"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
