@@ -1,0 +1,131 @@
+{
+  "schema": "3.0",
+  "id": "nomen_kommentar",
+  "wort": "der Kommentar",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "تفسیر",
+      "یادداشت تحلیلی"
+    ],
+    "en": [
+      "commentary"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Medien",
+    "Recht"
+  ],
+  "ipa": "kɔmɛnˈtaːɐ̯",
+  "anmerkung": "auch: Erläuterungswerk zu einem Gesetz oder Text",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Ich lese den Kommentar in der Zeitung.",
+      "uebersetzung": {
+        "fa": "یادداشت تحلیلی روزنامه را می‌خوانم.",
+        "en": "I'm reading the commentary in the newspaper."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Im Kommentar zum neuen Gesetz erklärt der Autor, warum er die Reform für falsch hält.",
+      "uebersetzung": {
+        "fa": "نویسنده در تفسیر قانون جدید توضیح می‌دهد که چرا این اصلاحات را اشتباه می‌داند.",
+        "en": "In the commentary on the new law, the author explains why he considers the reform wrong."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Gastkommentar",
+      "uebersetzung": {
+        "fa": "یادداشت مهمان",
+        "en": "guest commentary"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Kommentare",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "der Kommentar zu + Dat",
+        "beispiel": "Der Kommentar zur Wahl war sehr kritisch.",
+        "uebersetzung": {
+          "fa": "تفسیر انتخابات بسیار انتقادی بود.",
+          "en": "The commentary on the election was very critical."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Zeitung",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "روزنامه",
+          "en": "newspaper"
+        },
+        "id_ref": "nomen_zeitung"
+      },
+      {
+        "wort": "der Journalist",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "روزنامه‌نگار، خبرنگار",
+          "en": "journalist"
+        },
+        "id_ref": "nomen_journalist"
+      },
+      {
+        "wort": "kommentieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "نظر دادن، تفسیر کردن",
+          "en": "to comment on"
+        },
+        "id_ref": "verb_kommentieren"
+      },
+      {
+        "wort": "der Gastkommentar",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "یادداشت مهمان",
+          "en": "guest commentary"
+        },
+        "id_ref": "nomen_gastkommentar"
+      },
+      {
+        "wort": "der Kommentator",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "مفسر",
+          "en": "commentator"
+        },
+        "id_ref": "nomen_kommentator"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
