@@ -5,6 +5,7 @@
 
 ## ثبت‌های تازه (از 2026-11-10 — جدیدترین بالا)
 
+- **2026-11-24 (کلمه‌ها، دور ۸۰)** — Lukas: «ادامه بده». چهار حالت، جدول ۲: ۲۰ کلمه (Materialismus … Meisterin) ⇒ ۴۱ کارت، آرشیو ۲۳٬۸۷۵؛ ارجاع‌های قدیمی به معنی درست وصل شد (Mauer² «دیوار برلین» ← berlinisch، ostdeutsch، Grenztruppe · Meister² «قهرمان» ← elffach، Europameister، Champion · Meister³ «استاد» ← meisterhaft، meistern · Meisterin² ← Europameisterin) — ۵۰ ارجاع در ۵۰ کارت، ۹ تغییر مقصد. گزارش: `docs/WORTRUNDEN.md`.
 - **2026-11-24 (کلمه‌ها، دور ۷۹)** — Lukas: «ادامه بده». چهار حالت، جدول ۲: ۱۹ کلمه (Marburg … Material؛ Martini ماند — نامطمئن) ⇒ ۴۲ کارت، آرشیو ۲۳٬۸۳۴؛ ارجاع‌های قدیمی به معنی درست وصل شد (Marke⁴ «مرز» ← Bestmarke · Maschine² «هواپیما» ← dreimotorig · Masse² «جرم» ← Dichte · Material² «مطالب» ← Film-/Beweis-/Bild-/Informationsmaterial) — ۱۰۱ ارجاع در ۱۰۰ کارت، ۷ تغییر مقصد. گزارش: `docs/WORTRUNDEN.md`.
 - **2026-11-24 (کلمه‌ها، دور ۷۸)** — Lukas: «وارد کردن کلمات رو ادامه بده». چهار حالت، جدول ۲: ۲۰ کلمه (Maler … Mappe) ⇒ ۴۲ کارت، آرشیو ۲۳٬۷۹۲؛ ارجاع‌های قدیمی به معنی درست وصل شد (Maler² «نقاش ساختمان» ← grundieren، tünchen · Mandat² «کرسی» ← Direktmandat، Direktkandidat · Mantel² «روکش» ← ummanteln) — ۳۴ ارجاع در ۳۱ کارت، ۵ تغییر مقصد. گزارش: `docs/WORTRUNDEN.md`.
 - **2026-11-24 (کلمه‌ها، دور ۷۷)** — Lukas: «ادامه بده». چهار حالت، جدول ۲: ۱۸ کلمه (Luftlinie … Mal؛ Magnum و Makedonien ماندند — نامطمئن) ⇒ ۳۷ کارت، آرشیو ۲۳٬۷۵۰؛ ارجاع‌های قدیمی به معنی درست وصل شد (Lust³ «شهوت»، Macht³ «کشور قدرتمند»، Mahnung² «تذکر») — ۹۰ ارجاع، ۹ تغییر مقصد
