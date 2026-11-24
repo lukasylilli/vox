@@ -1,0 +1,146 @@
+{
+  "schema": "3.0",
+  "id": "nomen_mandat",
+  "wort": "das Mandat",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "وکالت",
+      "مأموریت (موکل به وکیل)"
+    ],
+    "en": [
+      "mandate",
+      "brief (given to a lawyer)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Recht"
+  ],
+  "ipa": "manˈdaːt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Anwältin hat das Mandat angenommen.",
+      "uebersetzung": {
+        "fa": "وکیل (زن) وکالت را پذیرفته است.",
+        "en": "The lawyer has accepted the brief."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Anwalt legte sein Mandat nieder, weil sein Mandant ihm wichtige Informationen verschwiegen hatte.",
+      "uebersetzung": {
+        "fa": "وکیل از وکالتش کناره گرفت، چون موکلش اطلاعات مهمی را از او پنهان کرده بود.",
+        "en": "The lawyer withdrew from the case because his client had concealed important information from him."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Auftrag",
+      "uebersetzung": {
+        "fa": "سفارش، مأموریت",
+        "en": "commission, assignment"
+      }
+    },
+    {
+      "wort": "die Vollmacht",
+      "uebersetzung": {
+        "fa": "وکالت‌نامه، اختیار",
+        "en": "power of attorney"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Anwaltsmandat",
+      "uebersetzung": {
+        "fa": "وکالت وکیل",
+        "en": "lawyer's mandate"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Mandate",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Mandat übernehmen",
+        "beispiel": "Die Kanzlei übernimmt das Mandat des Unternehmens.",
+        "uebersetzung": {
+          "fa": "دفتر وکالت وکالت آن شرکت را بر عهده می‌گیرد.",
+          "en": "The law firm takes on the company as a client."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Anwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل",
+          "en": "lawyer, attorney"
+        },
+        "id_ref": "nomen_anwalt"
+      },
+      {
+        "wort": "der Rechtsanwalt",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "وکیل؛ وکیل دادگستری",
+          "en": "lawyer, attorney"
+        },
+        "id_ref": "nomen_rechtsanwalt"
+      },
+      {
+        "wort": "die Kanzlei",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "دفتر وکالت، دفترخانه",
+          "en": "law firm, law office"
+        },
+        "id_ref": "nomen_kanzlei"
+      },
+      {
+        "wort": "die Vollmacht",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "وکالت‌نامه، اختیار",
+          "en": "power of attorney, authorization"
+        },
+        "id_ref": "nomen_vollmacht"
+      },
+      {
+        "wort": "der Mandant",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "موکل",
+          "en": "client (of a lawyer)"
+        },
+        "id_ref": "nomen_mandant"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
