@@ -1,0 +1,123 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pin_die",
+  "wort": "die PIN",
+  "homograph": "die",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "رمز کارت (پین)",
+      "رمز چهاررقمی"
+    ],
+    "en": [
+      "PIN (number)"
+    ]
+  },
+  "niveau": "A2",
+  "themen": [
+    "Geld",
+    "Technik"
+  ],
+  "ipa": "pɪn",
+  "anmerkung": "Abkürzung für «persönliche Identifikationsnummer»; auch: die PIN-Nummer",
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Bitte geben Sie Ihre PIN ein.",
+      "uebersetzung": {
+        "fa": "لطفاً رمز کارتتان را وارد کنید.",
+        "en": "Please enter your PIN."
+      }
+    },
+    {
+      "niveau": "B1",
+      "satz": "Wenn man die PIN dreimal falsch eingibt, wird die Bankkarte gesperrt.",
+      "uebersetzung": {
+        "fa": "اگر رمز را سه بار اشتباه وارد کنی، کارت بانکی مسدود می‌شود.",
+        "en": "If you enter the PIN incorrectly three times, the bank card is blocked."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "die Geheimzahl",
+      "uebersetzung": {
+        "fa": "رمز",
+        "en": "PIN, secret number"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": null,
+  "details": {
+    "genus": "die",
+    "plural": "die PINs",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "der Geldautomat",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "دستگاه خودپرداز، عابربانک",
+          "en": "cash machine, ATM"
+        },
+        "id_ref": "nomen_geldautomat"
+      },
+      {
+        "wort": "das Kennwort",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "رمز عبور، گذرواژه",
+          "en": "password, code word"
+        },
+        "id_ref": "nomen_kennwort"
+      },
+      {
+        "wort": "die Bank",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بانک",
+          "en": "bank"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_bank_2"
+      },
+      {
+        "wort": "das Passwort",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "رمز عبور، گذرواژه",
+          "en": "password"
+        },
+        "id_ref": "nomen_passwort"
+      },
+      {
+        "wort": "die Bankkarte",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "کارت بانکی",
+          "en": "bank card"
+        },
+        "id_ref": "nomen_bankkarte"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
