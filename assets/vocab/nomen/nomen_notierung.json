@@ -1,0 +1,135 @@
+{
+  "schema": "3.0",
+  "id": "nomen_notierung",
+  "wort": "die Notierung",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "نرخ‌گذاری (در بورس)",
+      "قیمت رسمی"
+    ],
+    "en": [
+      "quotation",
+      "listing (stock exchange)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Wirtschaft",
+    "Börse"
+  ],
+  "ipa": "noˈtiːʁʊŋ",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Notierung der Aktie steigt.",
+      "uebersetzung": {
+        "fa": "قیمت رسمی سهم بالا می‌رود.",
+        "en": "The share's quotation is rising."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nach dem Skandal setzte die Börse die Notierung des Unternehmens für einen Tag aus.",
+      "uebersetzung": {
+        "fa": "بعد از رسوایی، بورس نرخ‌گذاری سهام شرکت را یک روز متوقف کرد.",
+        "en": "After the scandal the stock exchange suspended the company's listing for a day."
+      }
+    }
+  ],
+  "synonyme": [
+    {
+      "wort": "der Kurs",
+      "uebersetzung": {
+        "fa": "نرخ، قیمت (سهام)",
+        "en": "rate, price"
+      }
+    }
+  ],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "die Kursnotierung",
+      "uebersetzung": {
+        "fa": "اعلام نرخ",
+        "en": "price quotation"
+      }
+    }
+  ],
+  "etymologie": {
+    "fa": "notieren (یادداشت کردن، قیمت‌گذاری شدن) + -ung",
+    "en": "notieren (to note, to be quoted) + -ung"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Notierungen",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Aktie",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "سهم (بورس)",
+          "en": "share, stock"
+        },
+        "id_ref": "nomen_aktie"
+      },
+      {
+        "wort": "notieren",
+        "wortart": "verb",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "یادداشت کردن، قیمت‌گذاری شدن (بورس)",
+          "en": "to note down, to be quoted (stock exchange)"
+        },
+        "id_ref": "verb_notieren"
+      },
+      {
+        "wort": "der Kurs",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "نرخ (ارز)، قیمت (سهام)",
+          "en": "exchange rate, share price"
+        },
+        "homograph": "3",
+        "id_ref": "nomen_kurs_3"
+      },
+      {
+        "wort": "der Aktienkurs",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "قیمت سهام",
+          "en": "share price"
+        },
+        "id_ref": "nomen_aktienkurs"
+      },
+      {
+        "wort": "das Geld",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "پول",
+          "en": "money"
+        },
+        "id_ref": "nomen_geld"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
