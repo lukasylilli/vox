@@ -1,0 +1,155 @@
+{
+  "schema": "3.0",
+  "id": "nomen_patent",
+  "wort": "das Patent",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "حق ثبت اختراع",
+      "پتنت"
+    ],
+    "en": [
+      "patent"
+    ]
+  },
+  "niveau": "B2",
+  "themen": [
+    "Wirtschaft",
+    "Recht",
+    "Technik"
+  ],
+  "ipa": "paˈtɛnt",
+  "anmerkung": null,
+  "berufe": [],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Firma hat ein Patent für den Motor.",
+      "uebersetzung": {
+        "fa": "این شرکت برای این موتور حق ثبت اختراع دارد.",
+        "en": "The company has a patent for the engine."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Nachdem das Patent abgelaufen war, durften auch andere Firmen das Medikament herstellen.",
+      "uebersetzung": {
+        "fa": "پس از آنکه مدت حق اختراع تمام شد، شرکت‌های دیگر هم اجازه یافتند آن دارو را تولید کنند.",
+        "en": "After the patent had expired, other companies were allowed to produce the drug too."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "das Patentamt",
+      "uebersetzung": {
+        "fa": "اداره‌ی ثبت اختراعات",
+        "en": "patent office"
+      }
+    },
+    {
+      "wort": "das Patentrecht",
+      "uebersetzung": {
+        "fa": "حقوق ثبت اختراع",
+        "en": "patent law"
+      }
+    },
+    {
+      "wort": "der Patentschutz",
+      "uebersetzung": {
+        "fa": "حمایت قانونی از اختراع",
+        "en": "patent protection"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "das",
+    "plural": "die Patente",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [
+      {
+        "muster": "das Patent auf + Akk",
+        "beispiel": "Sie hat ein Patent auf ihre Erfindung angemeldet.",
+        "uebersetzung": {
+          "fa": "او برای اختراعش درخواست ثبت حق اختراع داده است.",
+          "en": "She has applied for a patent on her invention."
+        }
+      }
+    ],
+    "nomen_verb_verbindungen": [
+      {
+        "verbindung": "ein Patent anmelden",
+        "beispiel": "Wir müssen das Patent so schnell wie möglich anmelden.",
+        "uebersetzung": {
+          "fa": "باید هر چه زودتر حق اختراع را ثبت کنیم.",
+          "en": "We must file the patent as quickly as possible."
+        }
+      }
+    ]
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Erfindung",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "اختراع",
+          "en": "invention"
+        },
+        "id_ref": "nomen_erfindung"
+      },
+      {
+        "wort": "der Erfinder",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "مخترع",
+          "en": "inventor"
+        },
+        "id_ref": "nomen_erfinder"
+      },
+      {
+        "wort": "patentieren",
+        "wortart": "verb",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "ثبت اختراع کردن، حق اختراع دادن",
+          "en": "to patent"
+        },
+        "id_ref": "verb_patentieren"
+      },
+      {
+        "wort": "die Lizenz",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "مجوز، پروانه",
+          "en": "licence, license"
+        },
+        "id_ref": "nomen_lizenz"
+      },
+      {
+        "wort": "das Patentamt",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "اداره‌ی ثبت اختراعات",
+          "en": "patent office"
+        },
+        "id_ref": "nomen_patentamt"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

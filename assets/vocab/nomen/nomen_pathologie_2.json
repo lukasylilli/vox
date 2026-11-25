@@ -1,0 +1,120 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pathologie_2",
+  "wort": "die Pathologie",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "بخش آسیب‌شناسی (بیمارستان)",
+      "بخش پاتولوژی"
+    ],
+    "en": [
+      "pathology department",
+      "pathology"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Krankenhaus"
+  ],
+  "ipa": "patoloˈɡiː",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Die Probe geht heute in die Pathologie.",
+      "uebersetzung": {
+        "fa": "نمونه امروز به بخش پاتولوژی فرستاده می‌شود.",
+        "en": "The sample is going to pathology today."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Der Arzt wartet noch auf den Befund aus der Pathologie, bevor er mit der Patientin über die Therapie spricht.",
+      "uebersetzung": {
+        "fa": "پزشک هنوز منتظر جواب بخش پاتولوژی است تا با بیمار درباره‌ی درمان صحبت کند.",
+        "en": "The doctor is still waiting for the report from pathology before he talks to the patient about therapy."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "patho- (رنج، بیماری) + -logie (دانش)",
+    "en": "patho- (suffering, disease) + -logie (study of)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": "die Pathologien",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "das Krankenhaus",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیمارستان",
+          "en": "hospital"
+        },
+        "id_ref": "nomen_krankenhaus"
+      },
+      {
+        "wort": "das Labor",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "آزمایشگاه",
+          "en": "laboratory, lab"
+        },
+        "id_ref": "nomen_labor"
+      },
+      {
+        "wort": "die Abteilung",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "بخش (در شرکت یا اداره)، دپارتمان",
+          "en": "department, division (of an organisation)"
+        },
+        "id_ref": "nomen_abteilung"
+      },
+      {
+        "wort": "die Obduktion",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "کالبدشکافی",
+          "en": "autopsy, post-mortem"
+        },
+        "id_ref": "nomen_obduktion"
+      },
+      {
+        "wort": "die Biopsie",
+        "wortart": "nomen",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "نمونه‌برداری (از بافت)",
+          "en": "biopsy"
+        },
+        "id_ref": "nomen_biopsie"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}

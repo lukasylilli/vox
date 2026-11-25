@@ -1,0 +1,120 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pathologie",
+  "wort": "die Pathologie",
+  "homograph": null,
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "آسیب‌شناسی",
+      "پاتولوژی"
+    ],
+    "en": [
+      "pathology"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Medizin",
+    "Wissenschaft"
+  ],
+  "ipa": "patoloˈɡiː",
+  "anmerkung": null,
+  "berufe": [
+    "pflege_medizin"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Er studiert Pathologie an der Universität.",
+      "uebersetzung": {
+        "fa": "او در دانشگاه آسیب‌شناسی می‌خواند.",
+        "en": "He is studying pathology at university."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Die Pathologie untersucht, wie Krankheiten entstehen und welche Veränderungen sie im Körper verursachen.",
+      "uebersetzung": {
+        "fa": "آسیب‌شناسی بررسی می‌کند که بیماری‌ها چگونه به وجود می‌آیند و چه تغییراتی در بدن ایجاد می‌کنند.",
+        "en": "Pathology studies how diseases arise and what changes they cause in the body."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [],
+  "etymologie": {
+    "fa": "patho- (رنج، بیماری) + -logie (دانش)",
+    "en": "patho- (suffering, disease) + -logie (study of)"
+  },
+  "details": {
+    "genus": "die",
+    "plural": null,
+    "deklinationstyp": "normal",
+    "zaehlbar": false,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Medizin",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پزشکی، علم پزشکی",
+          "en": "medicine (science)"
+        },
+        "id_ref": "nomen_medizin"
+      },
+      {
+        "wort": "die Krankheit",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "بیماری",
+          "en": "illness, disease"
+        },
+        "id_ref": "nomen_krankheit"
+      },
+      {
+        "wort": "die Diagnose",
+        "wortart": "nomen",
+        "niveau": "B1",
+        "uebersetzung": {
+          "fa": "تشخیص (بیماری)",
+          "en": "diagnosis"
+        },
+        "id_ref": "nomen_diagnose"
+      },
+      {
+        "wort": "pathologisch",
+        "wortart": "adjektiv",
+        "niveau": "C1",
+        "uebersetzung": {
+          "fa": "(پزشکی) آسیب‌شناختی، بیمارگونه",
+          "en": "pathological"
+        },
+        "id_ref": "adjektiv_pathologisch"
+      },
+      {
+        "wort": "das Gewebe",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "بافت (بدن)",
+          "en": "tissue"
+        },
+        "homograph": "2",
+        "id_ref": "nomen_gewebe_2"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
