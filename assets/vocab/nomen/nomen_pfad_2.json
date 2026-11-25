@@ -1,0 +1,123 @@
+{
+  "schema": "3.0",
+  "id": "nomen_pfad_2",
+  "wort": "der Pfad",
+  "homograph": "2",
+  "wortart": "nomen",
+  "uebersetzung": {
+    "fa": [
+      "مسیر (فایل)"
+    ],
+    "en": [
+      "path (file path)"
+    ]
+  },
+  "niveau": "C1",
+  "themen": [
+    "Computer"
+  ],
+  "ipa": "pfaːt",
+  "anmerkung": "EDV",
+  "berufe": [
+    "it"
+  ],
+  "anstoessig": null,
+  "zeitlich": null,
+  "ersatz": null,
+  "beispiele": [
+    {
+      "niveau": "A2",
+      "satz": "Der Pfad zur Datei ist falsch.",
+      "uebersetzung": {
+        "fa": "مسیر فایل اشتباه است.",
+        "en": "The path to the file is wrong."
+      }
+    },
+    {
+      "niveau": "B2",
+      "satz": "Wenn das Programm die Datei nicht findet, musst du den Pfad prüfen, unter dem sie gespeichert ist.",
+      "uebersetzung": {
+        "fa": "اگر برنامه فایل را پیدا نکند، باید مسیری را که فایل در آن ذخیره شده بررسی کنی.",
+        "en": "If the program can't find the file, you have to check the path under which it is saved."
+      }
+    }
+  ],
+  "synonyme": [],
+  "antonyme": [],
+  "komposita": [
+    {
+      "wort": "der Dateipfad",
+      "uebersetzung": {
+        "fa": "مسیر فایل",
+        "en": "file path"
+      }
+    }
+  ],
+  "etymologie": null,
+  "details": {
+    "genus": "der",
+    "plural": "die Pfade",
+    "deklinationstyp": "normal",
+    "zaehlbar": true,
+    "mit_praeposition": [],
+    "nomen_verb_verbindungen": []
+  },
+  "wortnetz": {
+    "grundwort": null,
+    "woerter": [
+      {
+        "wort": "die Datei",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "فایل",
+          "en": "file"
+        },
+        "id_ref": "nomen_datei"
+      },
+      {
+        "wort": "der Ordner",
+        "wortart": "nomen",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "پوشه (رایانه)",
+          "en": "folder (computer)"
+        },
+        "homograph": "3",
+        "id_ref": "nomen_ordner_3"
+      },
+      {
+        "wort": "das Verzeichnis",
+        "wortart": "nomen",
+        "niveau": "B2",
+        "uebersetzung": {
+          "fa": "فهرست، پوشه (رایانه)",
+          "en": "list, index"
+        },
+        "id_ref": "nomen_verzeichnis"
+      },
+      {
+        "wort": "speichern",
+        "wortart": "verb",
+        "niveau": "A2",
+        "uebersetzung": {
+          "fa": "ذخیره کردن، انبار کردن",
+          "en": "to save, to store"
+        },
+        "id_ref": "verb_speichern"
+      },
+      {
+        "wort": "der Computer",
+        "wortart": "nomen",
+        "niveau": "A1",
+        "uebersetzung": {
+          "fa": "رایانه، کامپیوتر",
+          "en": "computer"
+        },
+        "id_ref": "nomen_computer"
+      }
+    ]
+  },
+  "box": 1,
+  "nextReviewDate": null
+}
